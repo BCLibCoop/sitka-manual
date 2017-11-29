@@ -1,24 +1,24 @@
 Patron Records
-==============
+~~~~~~~~~~~~~~
 
 Searching for Patrons
-~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^
 
 Registering New Patrons
-~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^
 
 Account Status by Colour Code
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Updating Individual Patron Records
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Patron Alerts, Notes, Messages, and Notifications
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Patron Buckets
-~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^
 include::circ/patron/patronbuckets.adoc[Patron Buckets]
 
 Merging Patron Records
-~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^
