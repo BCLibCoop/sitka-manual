@@ -24,14 +24,14 @@ include::circ/circ-hold.adoc[Holds]
 // Push titles down one level
 :level offset: 1
 
-include::circ/holds/hold-placing.adoc[Placing Holds]
-include::circ/holds/hold-managing.adoc[Managing Holds]
-include::circ/holds/hold-pull-list.adoc[Pull List for Hold Requests]
-include::circ/holds/hold-transfer.adoc[Transferring Title Holds]
-include::circ/holds/hold-retarget.adoc[Find Another Target for Holds]
-include::circ/holds/hold-capturing.adoc[Capturing Holds]
-include::circ/holds/hold-browse-holds-shelf.adoc[Holds Shelf List and Clearing Shelf-Expired Holds]
-include::circ/holds/hold-hold-filling.adoc[Holds Filling Explained]
+include::circ/hold-placing.adoc[Placing Holds]
+include::circ/hold-managing.adoc[Managing Holds]
+include::circ/hold-pull-list.adoc[Pull List for Hold Requests]
+include::circ/hold-transfer.adoc[Transferring Title Holds]
+include::circ/hold-retarget.adoc[Find Another Target for Holds]
+include::circ/hold-capturing.adoc[Capturing Holds]
+include::circ/hold-browse-holds-shelf.adoc[Holds Shelf List and Clearing Shelf-Expired Holds]
+include::circ/hold-hold-filling.adoc[Holds Filling Explained]
 
 // Return to normal title levels.
 :leveloffset: 0
