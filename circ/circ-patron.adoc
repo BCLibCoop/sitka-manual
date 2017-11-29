@@ -1,6 +1,5 @@
 Patron Records
 --------------
-Author
 
 Searching for Patrons
 ~~~~~~~~~~~~~~~~~~~~~
@@ -14,49 +13,13 @@ Account Status by Colour Code
 Updating Individual Patron Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Updating Patron Information
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Updating a Patron's Address
-+++++++++++++++++++++++++++
-
-Renewing Library Cards
-^^^^^^^^^^^^^^^^^^^^^^
-
-Marking Library Cards Lost
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Resetting a Patron's Password
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Invalidating an Email Address or Phone Number
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Barring a Patron
-^^^^^^^^^^^^^^^^
-
 Patron Alerts, Notes, Messages, and Notifications
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Alerts
-^^^^^^
-
-Notes
-^^^^^
-
-Messages
-^^^^^^^^
-
-Notifications
-^^^^^^^^^^^^^
-
 Patron Buckets
 ~~~~~~~~~~~~~~
-include::circ/circ-patronbucket.adoc[Patron Buckets]
+include::circ/patron/patronbucket.adoc[Patron Buckets]
 
-
-Deleting Patron Records
-^^^^^^^^^^^^^^^^^^^^^^^
 
 Merging Patron Records
 ~~~~~~~~~~~~~~~~~~~~~~
