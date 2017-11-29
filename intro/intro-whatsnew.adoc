@@ -6,7 +6,7 @@ Circulation
 
 Patron Buckets
 ^^^^^^^^^^^^^^
-include::circ/patron/patronbuckets.adoc[Patron Buckets]
+include::patron/patronbuckets.adoc[Patron Buckets]
 
 Cataloguing
 ~~~~~~~~~~~
