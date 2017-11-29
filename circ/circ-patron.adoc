@@ -52,7 +52,7 @@ Notifications
 
 Patron Buckets
 ~~~~~~~~~~~~~~
-include::circ/patron-patronbucket.adoc[Patron Buckets]
+include::circ/circ-patronbucket.adoc[Patron Buckets]
 
 
 Deleting Patron Records
