@@ -1,8 +1,19 @@
-= Sitka's Evergreen Training Manual
+Sitka's Evergreen Training Manual
+=======================
+Sitka
+:doctype: book
+:toc:
+:numbered:
 
-Author
+Introduction
+~~~~~~~~~~~~
+include::intro/intro-whatsnew.adoc[New Features in Evergreen Version 3.x]
+include::intro/intro-newbehaviour.adoc[New Behaviour in Evergreen Version 3.x]
+include::intro/intro-revisions.adoc[Revisions to Version 3.x and Attributions to Contributors]
+include::intro/intro-resources.adoc[Sitka and Evergreen Resources]
+include::intro/intro-support.adoc[Sitka's Evergreen Support]
+include::intro/intro-start.adoc[Getting Started]
 
-include::sitka-manual-main.adoc[Main Page]
 
 Circulation
 ~~~~~~~~~~~
