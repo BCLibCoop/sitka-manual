@@ -1,8 +1,11 @@
 Sitka's Evergreen Training Manual
 =================================
+:doctype: book
+:toc:
+:numbered:
 
 Introduction
-~~~~~~~~~~~~
+============
 include::intro/intro-whatsnew.adoc[New Features in Evergreen Version 3.x]
 include::intro/intro-newbehaviour.adoc[New Behaviour in Evergreen Version 3.x]
 include::intro/intro-revisions.adoc[Revisions to Version 3.x and Attributions to Contributors]
@@ -12,7 +15,7 @@ include::intro/intro-start.adoc[Getting Started]
 
 
 Circulation
-~~~~~~~~~~~
+===========
 include::circ/circ-patron.adoc[Patron Records]
 include::circ/circ-circulation.adoc[Circulation]
 include::circ/circ-billing.adoc[Bills and Payments]
