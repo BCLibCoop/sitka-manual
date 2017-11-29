@@ -1,18 +1,13 @@
 Patron Records
-<<<<<<< HEAD
 --------------
-=======
-~~~~~~~~~~~~~~
->>>>>>> 7074f6b34e0a3ff16d6afef2fba9f9dd8a8aaa93
 
 Searching for Patrons
-^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~
 
 Registering New Patrons
-^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Account Status by Colour Code
-<<<<<<< HEAD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Updating Individual Patron Records
@@ -23,21 +18,7 @@ Patron Alerts, Notes, Messages, and Notifications
 
 Patron Buckets
 ~~~~~~~~~~~~~~
-include::circ/patron/patronbucket.adoc[Patron Buckets]
-
-=======
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Updating Individual Patron Records
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Patron Alerts, Notes, Messages, and Notifications
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Patron Buckets
-^^^^^^^^^^^^^^
 include::circ/patron/patronbuckets.adoc[Patron Buckets]
->>>>>>> 7074f6b34e0a3ff16d6afef2fba9f9dd8a8aaa93
 
 Merging Patron Records
-^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~
