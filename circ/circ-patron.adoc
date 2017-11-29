@@ -53,6 +53,47 @@ Notifications
 Patron Buckets
 ~~~~~~~~~~~~~~
 
+Patron Buckets allow staff to batch delete and make batch modifications to user accounts in Evergreen. Batch modifications can be made to selected fields in the patron account:
+
+* Home Library
+* Profile Group
+* Network Access Level
+* Barred flag
+* Active flag
+* Juvenile flag
+* Privilege Expiration Date
+* Statistical Categories
+
+Batch modifications and deletions can be rolled back or reversed, with the exception of batch changes to statistical categories. Batch changes made in User Buckets will not activate any Action/Trigger event definitions that would normally be activated when editing an individual account.
+
+Patron accounts can be added to Patron Buckets by scanning individual patron barcodes or by uploading a file of patron barcodes directly in the Patron Bucket interface. They can also be added to a Patron Bucket from the Patron Search screen. Batch changes and batch edit sets are tied to the Patron Bucket itself, not to the login of the bucket owner.
+
+Create a User Bucket
+^^^^^^^^^^^^^^^^^^^^
+
+Batch Edit All Users
+^^^^^^^^^^^^^^^^^^^^
+
+Batch Modify Statistical Categories
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Batch Delete Users
+^^^^^^^^^^^^^^^^^^
+
+View Batch Changes
+^^^^^^^^^^^^^^^^^^
+
+Roll Back Batch Changes
+^^^^^^^^^^^^^^^^^^^^^^^
+
+Sharing Buckets
+^^^^^^^^^^^^^^^
+
+Permissions
+^^^^^^^^^^^
+
+
+
 Deleting Patron Records
 ^^^^^^^^^^^^^^^^^^^^^^^
 
