@@ -1,30 +1,13 @@
 Holds
 -----
-Author
 
-Placing Holds
-~~~~~~~~~~~~~
+include::circ/holds/hold-placing.adoc[Placing Holds]
+include::circ/holds/hold-managing.adoc[Managing Holds]
+include::circ/holds/hold-pull-list.adoc[Pull List for Hold Requests]
+include::circ/holds/hold-transfer.adoc[Transferring Title Holds]
+include::circ/holds/hold-retarget.adoc[Find Another Target for Holds]
+include::circ/holds/hold-capturing.adoc[Capturing Holds]
+include::circ/holds/hold-browse-holds-shelf.adoc[Holds Shelf List and Clearing Shelf-Expired Holds]
+include::circ/holds/hold-hold-filling.adoc[Holds Filling Explained]
 
-Managing Holds
-~~~~~~~~~~~~~~
 
-Holds Pull List
-~~~~~~~~~~~~~~~
-Note from Jennifer - rename this section to Pull List for Hold Requests to match the menu item????
-
-Transferring Title Holds
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-Find Another Target for Holds
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Capturing Holds
-~~~~~~~~~~~~~~~
-
-Holds Shelf List and Clearing Shelf-Expired Holds
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Holds Filling Explained
-~~~~~~~~~~~~~~~~~~~~~~~
-
-include::sitka-manual-main.adoc[Main Page]
