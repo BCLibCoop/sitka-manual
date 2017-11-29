@@ -1,14 +1,14 @@
 Patron Buckets
 ~~~~~~~~~~~~~~
 
-<<create-user-bucket,Create a User Bucket>>
-<<batch-edit-user,Batch Edit All Users>>
-<<batch-mod-statcat,Batch Modify Statistical Categories>>
-<<batch-delete-user,Batch Delete Users>>
-<<view-batch-change,View Batch Changes>>
-<<roll-back-changes,Roll Back Batch Changes>>
-<<sharing-buckets,Sharing Buckets>>
-<<user-bucket-perms,Permissions>>
+* <<create-user-bucket,Create a User Bucket>>
+* <<batch-edit-user,Batch Edit All Users>>
+* <<batch-mod-statcat,Batch Modify Statistical Categories>>
+* <<batch-delete-user,Batch Delete Users>>
+* <<view-batch-change,View Batch Changes>>
+* <<roll-back-changes,Roll Back Batch Changes>>
+* <<sharing-buckets,Sharing Buckets>>
+* <<user-bucket-perms,Permissions>>
 
 Patron Buckets allow staff to batch delete and make batch modifications to user accounts in Evergreen. Batch modifications can be made to selected fields in the patron account:
 
