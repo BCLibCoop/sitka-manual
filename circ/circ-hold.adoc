@@ -1,7 +1,7 @@
 Holds
 -----
 
-Holds are very important in Evergreen.
+Holds are very important in Evergreen.  Patrons and staff can place holds.
 
 include::holds/hold-placing.adoc[Placing Holds]
 include::circ/holds/hold-managing.adoc[Managing Holds]
