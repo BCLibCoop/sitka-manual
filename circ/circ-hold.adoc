@@ -1,7 +1,9 @@
 Holds
 -----
 
-include::circ/holds/hold-placing.adoc[Placing Holds]
+Holds are very important in Evergreen.
+
+include::holds/hold-placing.adoc[Placing Holds]
 include::circ/holds/hold-managing.adoc[Managing Holds]
 include::circ/holds/hold-pull-list.adoc[Pull List for Hold Requests]
 include::circ/holds/hold-transfer.adoc[Transferring Title Holds]
