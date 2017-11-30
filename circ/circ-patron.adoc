@@ -16,7 +16,7 @@ Updating Individual Patron Records
 Patron Alerts, Notes, Messages, and Notifications
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-include::patron/patronbuckets.adoc[Patron Buckets]
+include::patron/patronbuckets.adoc[]
 
 Merging Patron Records
 ~~~~~~~~~~~~~~~~~~~~~~
