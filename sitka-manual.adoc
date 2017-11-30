@@ -33,7 +33,7 @@ include::circ/hold-capturing.adoc[Capturing Holds]
 include::circ/hold-browse-holds-shelf.adoc[Holds Shelf List and Clearing Shelf-Expired Holds]
 include::circ/hold-hold-filling.adoc[Holds Filling Explained]
 
-// Return to normal title levels.
+// Return to normal title levels
 :leveloffset: 0
 
 include::circ/circ-transit.adoc[Items In Transit]
