@@ -9,7 +9,7 @@ Email Checkout Receipts
 
 Patron Buckets
 ^^^^^^^^^^^^^^
-include::circ/patron-patronbuckets.adoc[]
+include::sitka-manual/circ/patron/patron-patronbuckets.adoc[]
 
 Cataloguing
 ~~~~~~~~~~~
