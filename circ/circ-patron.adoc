@@ -18,7 +18,7 @@ Patron Alerts, Notes, Messages, and Notifications
 
 Patron Buckets
 ~~~~~~~~~~~~~~
-include::patron/patronbuckets.adoc[]
+include::circ/patron-patronbuckets.adoc[]
 
 Merging Patron Records
 ~~~~~~~~~~~~~~~~~~~~~~
