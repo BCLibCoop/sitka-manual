@@ -20,22 +20,6 @@ include::circ/circ-patron.adoc[Patron Records]
 include::circ/circ-circulation.adoc[Circulation]
 include::circ/circ-billing.adoc[Bills and Payments]
 include::circ/circ-hold.adoc[Holds]
-
-// Push titles down one level
-:level offset: 1
-
-include::circ/hold-placing.adoc[Placing Holds]
-include::circ/hold-managing.adoc[Managing Holds]
-include::circ/hold-pull-list.adoc[Pull List for Hold Requests]
-include::circ/hold-transfer.adoc[Transferring Title Holds]
-include::circ/hold-retarget.adoc[Find Another Target for Holds]
-include::circ/hold-capturing.adoc[Capturing Holds]
-include::circ/hold-browse-holds-shelf.adoc[Holds Shelf List and Clearing Shelf-Expired Holds]
-include::circ/hold-hold-filling.adoc[Holds Filling Explained]
-
-// Return to normal title levels
-:leveloffset: 0
-
 include::circ/circ-transit.adoc[Items In Transit]
 include::circ/circ-selfcheck.adoc[Self Check]
 include::circ/circ-offline.adoc[Offline Transactions]
