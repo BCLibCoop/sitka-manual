@@ -3,40 +3,19 @@ Holds
 
 Holds are very important in Evergreen.  Patrons and staff can place holds.
 
-Placing Holds
-~~~~~~~~~~~~~
-
 include::holds/hold-placing.adoc[Placing Holds]
 
 include::holds/hold-managing.adoc[Managing Holds]
 
-Pull List for Hold Requests
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 include::holds/hold-pull-list.adoc[Pull List for Hold Requests]
-
-Transferring Title Holds
-~~~~~~~~~~~~~~~~~~~~~~~~
 
 include::holds/hold-transfer.adoc[Transferring Title Holds]
 
-Find Another Target For Holds
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 include::holds/hold-retarget.adoc[Find Another Target for Holds]
-
-Capturing Holds
-~~~~~~~~~~~~~~~
 
 include::holds/hold-capturing.adoc[Capturing Holds]
 
-Holds Shelf List and Clearing Shelf-Expired Holds
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 include::holds/hold-browse-holds-shelf.adoc[Holds Shelf List and Clearing Shelf-Expired Holds]
-
-Holds Filling Explained
-~~~~~~~~~~~~~~~~~~~~~~~
 
 include::holds/hold-hold-filling.adoc[Holds Filling Explained]
 
