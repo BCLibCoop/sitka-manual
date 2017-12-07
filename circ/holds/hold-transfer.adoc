@@ -1,4 +1,31 @@
 Transferring Title Holds
-------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+[red]#needs to be reviewed and formatted#
+
+Holds on one title can be transferred to another with the hold request time preserved.
+
+Retrieve the bibliographic record you would like the holds to be transferred to.
+
+Click Actions for this Record → Mark as Title Hold Transfer Destination.
+
+
+Click OK to acknowledge the pop up.
+
+Retrieve the bibliographic record that currently has the hold(s) attached to it.
+
+Click Actions for this Record → View Holds.
+
+
+Select the hold(s) you would like to transfer.
+
+Click Actions for Selected Holds → Transfer to Marked Title.
+
+
+Click OK to acknowledge the pop up.
+
+The holds have now been transferred.
+
+Any holds that were placed at the copy or volume level will remain.
 
 

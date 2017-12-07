@@ -1,3 +1,38 @@
 Holds Filling Explained
 ~~~~~~~~~~~~~~~~~~~~~~~
 
+Holds targeting and filling sequence
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+When a hold is attempted on the catalogue, Evergreen checks all related library settings, hold policies and holdings under the title to decide whether it is allowed. If it is allowed, Evergreen will create a hold request record. Besides the basic information, such as pickup library, request time, etc., it also records the range of libraries' copies that may be used to fill the hold. The range is decided based on the availability of holdable copies and library's policies. It is recorded in the hold request record in a field called Selection Depth, which is viewable when viewing holds in either patron's account or under a title record.
+
+Based on current Sitka settings, you will see either 1 or 2 in Selection Depth. 2 means all holdable copies of a library or all branches of a multi-branch library system may be used to fill the hold. 1 means all holdable copies within a library federation, such as BC_ILC or Spruce, are the hold's potential targets.
+
+Selection Depth is not editable on the staff client. Evergreen does not re-assess or update Selection Depth when holdings situation under a title is changed. If Selection Depth needs to be changed, staff have to manually cancel, then replace the hold.
+
+The potential target copies of a hold are also recorded in separate records in another table, which are not viewable on the staff client. When an item is checked in, Evergreen will quickly go through this eligible copy table to check whether it is requested.
+
+After a hold is placed, Evergreen will look for potential targets at a shorter interval (about 15 minutes) within the first 24 hours. After the 24 hours period, Evergreen will check the hold once a day at roughly the time of the day when the hold was placed. The time is recorded in the hold request record in a field called Previous Check Time, which is also viewable when viewing holds.
+
+If a potential target is found, it will be added to the eligible copy table. If an eligible copy is availble, it will be put on to the library's Hold Pull List. The copy will be on the Pull List until the hold is captured, filled, cancelled, or re-targeted. Evergreen does not target unavailable copies, such as those checked out. But it will check the eligible copy table when items are checked in.
+
+Though there may be multiple eligible copies available, only one copy may be put on to a Pull List at a time. But checking in another copy before the Pull List is done may capture the hold. The item will disappear from the Pull List, unless the Pull List was printed before the hold is captured.
+
+When there are multiple eligible copies available, Evergreen will first choose the pickup library's copy, if available. Among other libraries' copies, it will randomly pick up a copy, unless the pickup library imposes special rules prioritizing preferred hold target source.
+
+When Evergreen re-targets holds (at least once a day, but at different time for individual holds), it removes the current target, then picks up one. Situation wise, it may or may not target the original copy. A copy that has been on a Pull List for a day may likely disappear when the hold is retargeted.
+
+The eligible copy table is also updated when a hold is re-targeted. That staff manually re-target holds via Find Another Target will update the eligible copy table, too. Under regular circumstances, without using the Checkin Modifiers, Evergreen will check holds for items in the eligible copy table only. Newly catalogued items and items that became holdable recently may not be in the eligilbe copy table yet, thus not triggering holds, if any.
+
+Holds queue
+^^^^^^^^^^^
+
+Holds are queued based on request time. Separate holds queues are formed based on the potential target copy range. For example, there is a hold queue for copy level holds and another for title level holds. Other libraries' holds are not counted in in the queue of holds picked up at your library, if your holds target your own copy.
+
+Copy level holds have a simple queue, which includes all holds targeting the copy. Title level holds queue counts in all holds targeting any of the copies that the title hold may target, including the copy level holds. A title level hold takes a position in each copy level holds queue of all copies it may target. You may notice missing queue numbers in copy level holds queues. They are taken by the title level holds.
+
+For resource-sharing libraries, you may see selection depth 1 and 2 holds. Selection depth 2 holds have a separate queue based on the picked up library since they target a separate set of copies. This means each library/system has its own queue if it has holdable copies.
+
+Selection depth 1 holds are queued together with all holds (selection depth 1 and 2) targeting all copies that the selection depth 1 hold may target. The queue number may be big when a few libraries have a few selection depth 2 holds. Selection depth 1 holds take a position in each selection depth 2 holds queue under the title. You may see missing queue numbers in selection depth 2 holds queues, which are taken by selection depth 1 holds.
+
+To view selection depth 2 holds queue, simply filter the holds by pickup library, then follow the request time. A missing queue number means there is a selection depth 1 hold placed between the surrounding two holds' request time.

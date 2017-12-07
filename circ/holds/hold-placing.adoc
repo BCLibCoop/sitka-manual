@@ -1,20 +1,114 @@
 Placing Holds
--------------
+~~~~~~~~~~~~~
+
+Holds can be placed by staff on the Staff Client and by patrons on the OPAC. In this chapter we demonstrate placing holds on the Staff Client. See Part IV, “OPAC” for placing holds on the OPAC.
 
 Hold Levels
-~~~~~~~~~~~
+^^^^^^^^^^^
+
+Evergreen has four different levels of holds. Library staff can place holds at all four levels, while patrons can only place Meta-record,Title-level, and Volume-level holds.
+
+The chart below summarizes the four levels of holds.
+
+Hold level	Abbreviation	When to use	How to use	Who can use	Hold tied to
+Meta-record	M	Patron wants first available copy of multiple titles of the same/different format	Click on place hold to the right of the record. From holds confirmation screen, click Advanced hold options and select other applicable formats.	Patron or staff	Holdings attached to multiple MARC (title) records sharing the same title and author of selected format(s)(book, video, audiobook, etc.)
+Title	T	Patron wants first available copy of a title	Staff or patron click on place hold to the right of a record on search result list or record summary screen.	Patron or staff	Holdings attached to a single MARC (title) record
+Volume	V	Patrons want the first available copy of a specific volume (call number) of a title	Staff or patron click Volume in HOLDABLE? column on the holdings grid on record summary screen.	Patron or staff	Call number specific volume record (local call number resides in volume record)
+Copy	C	Patron or staff want a specific copy of a title	Staff click details to view barcode then place hold next to that barcode.	Staff	Item barcode
+
 
 Title Level Hold
-~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^
+
+To place a title level hold, retrieve the title record on the catalogue and click the Place Hold button to the right of the record on the search result list, or record summary screen.
+
+
+
+Scan or type patron’s barcode into Place hold for patron by barcode, and then tab or move the cursor out of the box.
+
+
+Edit patron hold notification methods and pickup location, if necessary, and click Submit.
+
+
+Click Continue, or Cancel if the hold failed, to go back to search result.
+
+In step 2, checking the Place this hold for me radio button will set the login staff as the hold requester. If this is your personal account, you can use this button to place holds for yourself.
+
+A default hold expiration date will be recorded if the libary has set up a default holds expiration period in their library settings. See Chapter 49, Local Administration Menu. Uncaptured holds will not be targeted after expiration date. To view and edit the expiration date, go to Holds under My Account.
 
 Meta-record Level Hold
-~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^
+
+There are two ways of placing meta-record holds:
+
+Using Advanced Holds Options button
+
+To place a Meta-record level hold, do a regular search for the title. Click Place Hold link on either the result list or record details screen, shown as step 1 in the section called “Title Level Hold”.
+
+Click Advanced Holds Options under the title.
+
+
+Scan patron's barcode. Select the acceptable format(s) and language(s). Edit patron hold notification methods and/or pickup location, if required. Click Submit button.
+
+
+Using Group by Formats and Editions Search
+
+Search for the meta-record on which you want to place a hold. On the Advanced Search screen, select the Group by Formats and Editions checkbox. Select the search type and type in search terms. Click Search.
+
+
+Click Place Hold beside the the meta-record on the result list.
+
+
+The icons indicate the available formats at the search location.
+
+The number in the parenthsis beside the title indicates the number of records with physical items. Click the title to view these records.
+
+Meta-record holds do not cover E-resources. But E-resource icons may be displayed if the search location owns matched E-resources. The link(s) will show up only when the search location and/or the preferred library of the login account is a library or branch and owns the E-resource. Click the link(s) in the summary to access these E-resource records.
+
+Type in or scan the patron barcode at the prompt.
+
+Select the acceptable formats. Use the CTRL key together with a mouse click to select multiple entries. Click Submit once done.
+
+If no format is selected. All available formats are targeting candadites.
+
+Format information is from the MARC record leader and fixed fields. Requested formats are listed in the Holdable Formats column in hold records. Use the Column Picker to display it. Once a new Web-browser-based staff client is used, format icons would be displayed in this column. Right now you will see a string. Look for the language/format codes, such as "eng", "fre", "book", "dvd", "blue-ray", etc. All the selected formats in any of the selected language(s) are targeting candidates.
+
+After a meta-record hold is placed, if a new MARC record is added and it meets the grouping criteria (title, author and format), items under this new record will be used to fulfill the existing holds.
 
 Volume Level Hold
-~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^
+
+To place a volume level hold, retrieve and display the record.
+
+On the holdings grid, click Volume in HOLDABLE? column in the row of your chosen volume.
+
+
+Scan or type patron’s barcode into Place hold for patron by barcode.
+
+Edit patron hold notification fields as required and click Submit. Note the hold is identified as a Volume Hold.
 
 Copy Level Hold
-~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^
+
+Retrieve and display the record.
+
+On the holdings grid, click Copy in HOLDABLE? column in the row of your chosen copy.
+
+
+Scan or type patron’s barcode into Place hold for patron by barcode.
+
+Edit patron hold notification fields as required and click Submit. Note the hold is identified as a Copy Hold.
 
 Placing Holds in Patron Records
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Holds can be placed from patron records too. In the patron record Holds screen, click the Place Hold button on the left top corner.
+
+
+The catalogue is displayed in the Holds screen.
+
+
+Search for the title and place holds using the same procedure as placing holds directly in the catalogue.
+
+You may continue to search for more titles. Once you are done, click the Holds button on top to go back to the Holds screen. Click the Refresh button to reflect your newly placed holds.
+

@@ -1,3 +1,16 @@
 Holds Shelf List and Clearing Shelf-Expired Holds
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Items with Ready-for-pickup status are on the Holds Shelf List. The Holds Shelf List can help you manage items on the holds shelf. To see the holds shelf list, select Circulation → Browse Holds Shelf
+
+
+The Holds Shelf List is displayed. Note the Actions for Selected Holds are available, as in the patron record. You can cancel stale holds here.
+
+Select View Clearable Holds checkbox to list expired or cancelled holds only. The Clear These Holds button is then lit up. Click it and the expired holds will be cancelled.
+
+
+Print the list, bring the items down from the hold shelf and check them in.
+
+If you cancel a ready-for-pickup hold, you must check in the item to make it available for circulation or trigger the next hold in line.
+
+Hold shelf expire time is inserted when a hold achieves on-hold-shelf status. It is calculated according to the individual library's default hold shelf time expire interval in the Library Settings Editor. See Chapter 49, Local Administration Menu.
