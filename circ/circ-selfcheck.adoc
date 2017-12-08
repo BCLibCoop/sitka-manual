@@ -1,24 +1,18 @@
 Self Check
 ----------
-Author
 
-Staff Functions in the Evergreen Self Check
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This is a section on the EG self check.
 
-Basic Check Out
-~~~~~~~~~~~~~~~
+include::selfcheck/selfcheck-admin.adoc[Staff Functions in the Evergreen Self Check]
 
-Renewing Items
-~~~~~~~~~~~~~~
+include::selfcheck/selfcheck-checkout.adoc[Basic Check Out]
 
-View Items Out
-~~~~~~~~~~~~~~
+include::selfcheck/selfcheck-renew.adoc[Renewing Items]
 
-View Holds
-~~~~~~~~~~
+include::selfcheck/selfcheck-items-out.adoc[View Items Out]
 
-View Fines
-~~~~~~~~~~
+include::selfcheck/selfcheck-holds.adoc[View Holds]
 
+include::selfcheck/selfcheck-fines.adoc[View Fines]
 
 
