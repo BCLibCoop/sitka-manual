@@ -1,28 +1,20 @@
 Offline Transactions
 --------------------
 
-Author
+include::offline/offline-setup.adoc[Offline Module Setup]
 
-Offline Module Setup
-~~~~~~~~~~~~~~~~~~~~
+include::offline/offline-registration.adoc[Patron Registration]
 
-Patron Registration
-~~~~~~~~~~~~~~~~~~~
+include::offline/offline-checkout.adoc[Check Out]
 
-Check Out
-~~~~~~~~~
+include::offline/offline-renew.adoc[Renew]
 
-Renew
-~~~~~
+include::offline/offline-inhouse.adoc[In-house Use]
 
-In-house Use
-~~~~~~~~~~~~
+include::offline/offline-checkin.adoc[Check In]
 
-Check In
-~~~~~~~~
+include::offline/offline-uploading.adoc[Uploading Offline Transactions]
 
-Uploading Offline Transactions
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 
