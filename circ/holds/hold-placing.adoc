@@ -14,8 +14,8 @@ The chart below summarizes the four levels of holds.
 |===
 |Hold level |	Abbreviation |	When to use	How to use|	Who can use |Hold tied to
 |Meta-record| M	|Patron wants first available copy of multiple titles of the same/different format|	Click on place hold to the right of the record. From holds confirmation screen, click Advanced hold options and select other applicable formats. |Patron or staff	Holdings attached to multiple MARC (title) records sharing the same title and author of selected format(s)(book, video, audiobook, etc.)
-|Title	| T	| Patron wants first available copy of a title|	Staff or patron click on place hold to the right of a record on search result list or record summary screen. | Patron or staff | Holdings attached to a single MARC (title) record
-|Volume	| V	| Patrons want the first available copy of a specific volume (call number) of a title | Staff or patron click Volume in HOLDABLE? column on the holdings grid on record summary screen.	| Patron or staff | Call number specific volume record (local call number resides in volume record)
+|Title	| T	| Patron wants first available copy of a title.	Staff or patron click on place hold to the right of a record on search result list or record summary screen. | Patron or staff | Holdings attached to a single MARC (title) record
+|Volume	| V	| Patrons want the first available copy of a specific volume (call number) of a title. Staff or patron click Volume in HOLDABLE? column on the holdings grid on record summary screen.	| Patron or staff | Call number specific volume record (local call number resides in volume record)
 |Copy	| C | Patron or staff want a specific copy of a title | Staff click details to view barcode then place hold next to that barcode.	| Staff	| Item barcode
 |===
 
