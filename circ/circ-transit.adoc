@@ -1,20 +1,12 @@
 Items in Transit
 ----------------
-Author
 
-When Will an Item Go In Transit
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+include::transit/transit-in-transit.adoc[When Will A Item Go In Transit]
 
-How to Receive In Transit Items
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+include::transit/transit-receive.adoc[How to Receive In Transit Items]
 
-Transit Details
-~~~~~~~~~~~~~~~
+include::transit/transit-details.adoc[Transit Details]
 
-Transit List
-~~~~~~~~~~~~
+include::transit/transit-list.adoc[Transit List]
 
-Aborting Transits
-~~~~~~~~~~~~~~~~~
-
-include::sitka-manual-main.adoc[Main Page]
+include::transit/transit-abort.adoc[Aborting Transits]
