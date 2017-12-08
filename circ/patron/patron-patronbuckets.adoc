@@ -26,7 +26,8 @@ Batch modifications and deletions can be rolled back or reversed, with the excep
 Patron accounts can be added to Patron Buckets by scanning individual patron barcodes or by uploading a file of patron barcodes directly in the Patron Bucket interface. They can also be added to a Patron Bucket from the Patron Search screen. Batch changes and batch edit sets are tied to the Patron Bucket itself, not to the login of the bucket owner.
 
 [[create-user-bucket]]
-*Create a User Bucket*
+Create a User Bucket
+^^^^^^^^^^^^^^^^^^^^
 
 *To add users to a bucket via the Patron Search screen:*
 
@@ -67,7 +68,8 @@ SCREENSHOT GOES HERE
 image:images/circ/patronbuckets.png[scaledwidth="75%"]
 
 [[batch-edit-user]]
-*Batch Edit All Users*
+Batch Edit All Users
+^^^^^^^^^^^^^^^^^^^^
 
 To batch edit all users in a user bucket:
 
@@ -88,10 +90,11 @@ To batch edit all users in a user bucket:
 
 . Click *Apply Changes*.  The modification(s) will be applied in batch.
 
-image::media/userbucket4.PNG[]
+SCREENSHOT GOES HERE
 
 [[batch-mod-statcat]]
-*Batch Modify Statistical Categories*
+Batch Modify Statistical Categories
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To batch modify statistical categories for all users in a bucket:
 
@@ -105,7 +108,8 @@ To batch modify statistical categories for all users in a bucket:
 . Click *Apply Changes*.  The stat cat modification(s) will be applied in batch.
 
 [[batch-delete-user]]
-*Batch Delete Users*
+Batch Delete Users
+^^^^^^^^^^^^^^^^^^
 
 To batch delete users in a bucket:
 . Go to *Circulation->User Buckets* and select the *Bucket View* tab.
@@ -118,7 +122,8 @@ To batch delete users in a bucket:
 NOTE: Batch deleting patrons from a user bucket does not use the Purge User functionality, but instead marks the users as deleted.
 
 [[view-batch-change]]
-*View Batch Changes*
+View Batch Changes
+^^^^^^^^^^^^^^^^^^
 
 . The batch changes that have been made to User Buckets can be viewed by going to *Circulation->User Buckets* and selecting the *Bucket View* tab.
 . Click *Buckets* to select an existing bucket.
@@ -126,7 +131,8 @@ NOTE: Batch deleting patrons from a user bucket does not use the Purge User func
 . Click *OK* to close the dialog box.
 
 [[roll-back-changes]]
-*Roll Back Batch Changes*
+Roll Back Batch Changes
+^^^^^^^^^^^^^^^^^^^^^^^
 
 . Batch Changes and Batch Deletions can be rolled back or reversed by going to *Circulation->User Buckets* and selecting the *Bucket View* tab.
 . Click *Buckets* to select an existing bucket.
@@ -135,7 +141,8 @@ NOTE: Batch deleting patrons from a user bucket does not use the Purge User func
 NOTE: Batch statistical category changes cannot be rolled back.
 
 [[sharing-buckets]]
-*Sharing Buckets*
+Sharing Buckets
+^^^^^^^^^^^^^^^
 
 If a User Bucket has been made Staff Shareable, it can be retrieved via bucket ID by another staff account.  The ID for each bucket can be found at the end of the URL for the bucket.  For example, in the screenshot below, the bucket ID is 32.
 
