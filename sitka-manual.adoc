@@ -4,6 +4,12 @@ Sitka's Evergreen Training Manual
 :toc:
 :numbered:
 
+*Evergreen 3.X*
+
+Copyright (symbol) 2018 BC Libraries Cooperative
+
+Last Updated May ??, 2019
+
 Introduction
 ============
 include::intro/intro-whatsnew.adoc[New Features in Evergreen Version 3.x]
@@ -24,3 +30,12 @@ include::circ/circ-transit.adoc[Items In Transit]
 include::circ/circ-selfcheck.adoc[Self Check]
 include::circ/circ-offline.adoc[Offline Transactions]
 
+Cataloguing
+===========
+include::cat/cat-search.adoc[Searching the Database for Cataloguing Purposes]
+include::cat/cat-add-holdings.adoc[Adding Holdings to Existing Records in the Sitka Database]
+include::cat/cat-edit-holdings.adoc[Editing and Maintainting Holdings]
+include::cat/cat-copy-bucket.adoc[Copy Buckets]
+include::cat/cat-add-marc.adoc[Adding Bibliographic Records to the Database]
+include::cat/cat-edit-marc.adoc[Editing and Maintaining MARC records]
+include::cat/cat-record-bucket.adoc[Record Buckets]

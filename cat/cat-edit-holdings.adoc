@@ -1,0 +1,24 @@
+Editing and Maintaining Holdings
+--------------------------------
+
+include::edit-holdings/copy-editor.adoc[Copy Editor]
+
+include::edit-holdings/edit-holdings.adoc[Editing Holdings]
+
+include::edit-holdings/copy-editor.adoc[Copy Templates]
+
+include::edit-holdings/batch-update.adoc[Batch Updating via Item Status Screen]
+
+include::edit-holdings/replace-barcode.adoc[Replacing a Barcode]
+
+include::edit-holdings/spine-labels.adoc[Spine Labels]
+
+include::edit-holdings/transfer-holdings.adoc[Transferring Holdings]
+
+include::edit-holdings/delete-holdings.adoc[Deleting Holdings]
+
+
+
+
+
+

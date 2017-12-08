@@ -1,0 +1,24 @@
+Bills and Payments
+------------------
+
+Bills are very important.
+
+include::billing/billing-bills.adoc[Circulation vs. Grocery Bills]
+
+include::billing/billing-payment.adoc[Making Payments]
+
+include::billing/billing-patron-credit.adoc[Patron Credit]
+
+include::billing/billing-adjust-bill.adoc[Adjust Bill Balance to Zero]
+
+include::billing/voiding.adoc[Voiding Bills]
+
+include::billing/billing-bill-patron.adoc[Adding New "Grocery" Bills]
+
+include::billing/billing-bill-history.adoc[Bill History]
+
+include::billing/billing-refund.adoc[Refund]
+
+include::billing/billing-conditional-negative-balances.adoc[Conditional Negative Balances]
+
+
