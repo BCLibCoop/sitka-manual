@@ -40,3 +40,9 @@ include::cat/cat-copy-bucket.adoc[Copy Buckets]
 include::cat/cat-add-marc.adoc[Adding Bibliographic Records to the Database]
 include::cat/cat-edit-marc.adoc[Editing and Maintaining MARC records]
 include::cat/cat-record-bucket.adoc[Record Buckets]
+
+Serials
+=======
+include::serials/serials-administration.adoc[Serials Administration]
+include::serials/serials-subscription.adoc[Serials Subscription]
+include::serials/serials-receiving.adoc[Serials Receiving]
