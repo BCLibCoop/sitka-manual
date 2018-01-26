@@ -10,11 +10,22 @@ Register Staff Workstation
 Logging into Evergreen
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Setting Browser defaults
-~~~~~~~~~~~~~~~~~~~~~~~~
+Best Practices for Using the Browser
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Popups
-^^^^^^
+Setting Browser Defaults for Web Client
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+To ensure that staff can easily get to the web client portal page on login without additional steps, you can set the browser’s home page to default to the web client.
+
+.Setting the Web Client as the Home Page in Chrome
+. Click on the menu icon (three vertical dots in the upper-right corner).
+. Select Settings.
+. In the _On startup_ section, select Open a specific page or set of pages.
+. Click the Set Pages link.
+. Add https://catalogue.libraries.coop/eg/staff/ to the Enter URL box and click OK.
+
+Allow Popups
+^^^^^^^^^^^^
 Your browser must allow Popups from *https://catalogue.libraries.coop*. You should see a small icon or message when a Popup is triggered, but if you do not, you may follow these steps to ensure that Popups are allowed.
 
 .Allow Popups In Chrome
@@ -29,6 +40,21 @@ Your browser must allow Popups from *https://catalogue.libraries.coop*. You shou
 Bookmarks and Profiles
 ^^^^^^^^^^^^^^^^^^^^^^
 The web client allows you to bookmark the pages that you use the most, and to use your browser's existing functionality to build your own custom toolbars and even to use browser profiles for different activities.
+
+Tab Buttons and Keyboard Shortcuts
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Now that the client will be loaded in a web browser, users can use browser-based tab controls and keyboard shortcuts to help with navigation. Below are some tips for browser navigation that can be used in Chrome on Windows PCs.
+
+.Keyboard Shortcuts
+* Use CTRL-T or click the browser’s new tab button to open a new tab.
+* Use CTRL-W or click the x in the tab to close the tab.
+* Undo closing a tab by hitting CTRL-Shift-Tab.
+* To open a link from the web client in a new tab, CTRL-click the link or right-click the link and select Open Link in New Tab. Using this method, you can also open options from the web client’s dropdown menus in a new tab
+* Navigate from one tab to another using CTRL-Tab on the keyboard.
+
+Setting New Tab Behavior
+++++++++++++++++++++++++
+Some users may want to automatically open the web client’s portal page in a new tab. Chrome will not open your home page by default when you open a new tab. However, optional add-ons will allow you to set the browsers to automatically open the home page whenever open opening a new tab. These add-ons may be useful for those libraries that want the new tab to open to the web client portal page.
 
 Column Configuration
 ~~~~~~~~~~~~~~~~~~~~
