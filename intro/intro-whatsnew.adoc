@@ -4,10 +4,16 @@ New in Evergreen Version 3.x
 Circulation
 ~~~~~~~~~~~
 
-.Email Checkout Receipts
+[float]
+Email Checkout Receipts
++++++++++++++++++++++++
+
 This feature allows patrons to receive checkout receipts through email at the circulation desk and in the Evergreen self-checkout interface. Patrons need to opt in to receive email receipts by default and must have an email address associated with their account. Opt in can be staff mediated at the time of account creation or in existing accounts. Patrons can also opt in directly in their OPAC account or through patron self-registration. This feature does not affect the behavior of checkouts from SIP2 devices.
 
-.Patron Buckets
+[float]
+Patron Buckets
++++++++++++++++
+
 link:http://asciidoc.libraries.coop/sitka-manual-master/html/_patron_buckets_2.html[Create and Manage Patron Buckets]
 
 Cataloguing
