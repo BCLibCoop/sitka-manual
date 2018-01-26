@@ -13,6 +13,12 @@ Logging into Evergreen
 Best Practices for Using the Browser
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+* <<browser-defaults,Setting Browser Defaults for Web Client>>
+* <<allow-popups,Allow Pop-ups>>
+* <<bookmarks-profiles, Bookmarks and Profiles>>
+* <<tab-buttons-keyboard-shortcuts,Tab Buttons and Keyboard Shortcuts>>
+
+[[browser-defaults]]
 Setting Browser Defaults for Web Client
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 To ensure that staff can easily get to the web client portal page on login without additional steps, you can set the browser’s home page to default to the web client.
@@ -22,25 +28,28 @@ To ensure that staff can easily get to the web client portal page on login witho
 . Select Settings.
 . In the _On startup_ section, select Open a specific page or set of pages.
 . Click the Set Pages link.
-. Add https://catalogue.libraries.coop/eg/staff/ to the Enter URL box and click OK.
+. Add _https://catalogue.libraries.coop/eg/staff/_ to the Enter URL box and click OK.
 
-Allow Popups
+[[allow-popups]]
+Allow Pop-ups
 ^^^^^^^^^^^^
-Your browser must allow Popups from *https://catalogue.libraries.coop*. You should see a small icon or message when a Popup is triggered, but if you do not, you may follow these steps to ensure that Popups are allowed.
+Your browser must allow pop-ups from _https://catalogue.libraries.coop_. You should see a small icon or message when a pop-up is triggered, but if you do not, you may follow these steps to ensure that Popups are allowed.
 
-.Allow Popups In Chrome
+.Allow Pop-ups In Chrome
 . Click on the menu icon (three vertical dots in the upper-right corner).
 . Select Settings.
 . Scroll to the bottom and click Advanced.
 . Under “Privacy and Security” click “Content settings.”
-. Click on Popups.
+. Click on pop-ups.
 . Click the Add button next to Allow.
 . Type in *https://catalogue.libraries.coop* and click Add.
 
+[[bookmarks-profiles]]
 Bookmarks and Profiles
 ^^^^^^^^^^^^^^^^^^^^^^
 The web client allows you to bookmark the pages that you use the most, and to use your browser's existing functionality to build your own custom toolbars and even to use browser profiles for different activities.
 
+[[tab-buttons-keyboard-shortcuts]]
 Tab Buttons and Keyboard Shortcuts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Now that the client will be loaded in a web browser, users can use browser-based tab controls and keyboard shortcuts to help with navigation. Below are some tips for browser navigation that can be used in Chrome on Windows PCs.
@@ -58,7 +67,7 @@ Some users may want to automatically open the web client’s portal page in a ne
 
 Column Configuration
 ~~~~~~~~~~~~~~~~~~~~
-Various search results tables may not default to the most useful columns. For instance, the patron search results page may be easier to use if you change the columns to Card, Last Name, First Name, Middle Name, Dob, and Primary Identification, and you may wish to have the results sort by Last Name, then by First Name.
+From many screens and lists, you can click on the column picker drop-down menu to change which columns are displayed. Various search results tables may not default to the most useful columns. For instance, the patron search results page may be easier to use if you change the columns to Card, Last Name, First Name, Middle Name, Dob, and Primary Identification, and you may wish to have the results sort by Last Name, then by First Name.
 
 .To customize your columns:
 . Click on the dropdown arrow at the top-right of the results table.
