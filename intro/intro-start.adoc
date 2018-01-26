@@ -13,6 +13,39 @@ Logging into Evergreen
 Setting Browser defaults
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
+Popups
+^^^^^^
+Your browser must allow Popups from *https://catalogue.libraries.coop*. You should see a small icon or message when a Popup is triggered, but if you do not, you may follow these steps to ensure that Popups are allowed.
+
+.Allow Popups In Chrome
+. Click on the menu icon (three vertical dots in the upper-right corner).
+. Select Settings.
+. Scroll to the bottom and click Advanced.
+. Under “Privacy and Security” click “Content settings.”
+. Click on Popups.
+. Click the Add button next to Allow.
+. Type in *https://catalogue.libraries.coop* and click Add.
+
+Bookmarks and Profiles
+^^^^^^^^^^^^^^^^^^^^^^
+The web client allows you to bookmark the pages that you use the most, and to use your browser's existing functionality to build your own custom toolbars and even to use browser profiles for different activities.
+
+Column Configuration
+~~~~~~~~~~~~~~~~~~~~
+Various search results tables may not default to the most useful columns. For instance, the patron search results page may be easier to use if you change the columns to Card, Last Name, First Name, Middle Name, Dob, and Primary Identification, and you may wish to have the results sort by Last Name, then by First Name.
+
+.To customize your columns:
+. Click on the dropdown arrow at the top-right of the results table.
+. Select the desired columns.
+. Click 'Save Columns' (on the dropdown list).
+. Click 'Configure columns' (on the dropdown list).
+. Use Expand and Shrink to change column sizes.
+. Use Left and Right to change the column order.
+. Use the sort options to prioritize how sorting should work. (A negative number will sort the column in reverse order.)
+. Click 'Save columns.'
+
+
+
 Downloading and Installing Hatch
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
