@@ -1,7 +1,8 @@
 Sitka's Evergreen Training Manual
 =================================
 :doctype: book
-:toc: levels: 3
+:toc:
+:toclevels: 3
 :numbered:
 
 *Evergreen 3*
@@ -44,7 +45,6 @@ Public Catalogue
 include::opac/opac-search.adoc[Searching the Public Catalogue]
 include::opac/opac-myaccount.adoc[My Account]
 include::opac/opac-integraded-eresource.adoc[Integrated Electronic Resources]
-
 
 Serials
 =======
