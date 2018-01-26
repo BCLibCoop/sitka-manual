@@ -27,7 +27,7 @@ Patron accounts can be added to Patron Buckets by scanning individual patron bar
 
 [[create-user-bucket]]
 Create a User Bucket
-^^^^^^^^^^^^^^^^^^^^
+++++++++++++++++++++
 
 *To add users to a bucket via the Patron Search screen:*
 
@@ -69,7 +69,7 @@ image:images/circ/patronbuckets.png[scaledwidth="75%"]
 
 [[batch-edit-user]]
 Batch Edit All Users
-^^^^^^^^^^^^^^^^^^^^
+++++++++++++++++++++
 
 To batch edit all users in a user bucket:
 
@@ -94,7 +94,7 @@ SCREENSHOT GOES HERE
 
 [[batch-mod-statcat]]
 Batch Modify Statistical Categories
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++++++++++++++++++++++++++++++++++++
 
 To batch modify statistical categories for all users in a bucket:
 
@@ -109,7 +109,7 @@ To batch modify statistical categories for all users in a bucket:
 
 [[batch-delete-user]]
 Batch Delete Users
-^^^^^^^^^^^^^^^^^^
+++++++++++++++++++
 
 To batch delete users in a bucket:
 . Go to *Circulation->User Buckets* and select the *Bucket View* tab.
@@ -123,7 +123,7 @@ NOTE: Batch deleting patrons from a user bucket does not use the Purge User func
 
 [[view-batch-change]]
 View Batch Changes
-^^^^^^^^^^^^^^^^^^
+++++++++++++++++++
 
 . The batch changes that have been made to User Buckets can be viewed by going to *Circulation->User Buckets* and selecting the *Bucket View* tab.
 . Click *Buckets* to select an existing bucket.
@@ -132,7 +132,7 @@ View Batch Changes
 
 [[roll-back-changes]]
 Roll Back Batch Changes
-^^^^^^^^^^^^^^^^^^^^^^^
++++++++++++++++++++++++
 
 . Batch Changes and Batch Deletions can be rolled back or reversed by going to *Circulation->User Buckets* and selecting the *Bucket View* tab.
 . Click *Buckets* to select an existing bucket.
@@ -142,7 +142,7 @@ NOTE: Batch statistical category changes cannot be rolled back.
 
 [[sharing-buckets]]
 Sharing Buckets
-^^^^^^^^^^^^^^^
++++++++++++++++
 
 If a User Bucket has been made Staff Shareable, it can be retrieved via bucket ID by another staff account.  The ID for each bucket can be found at the end of the URL for the bucket.  For example, in the screenshot below, the bucket ID is 32.
 
