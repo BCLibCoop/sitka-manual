@@ -41,6 +41,10 @@ include::cat/cat-record-bucket.adoc[Record Buckets]
 
 Public Catalogue
 ================
+include::opac/opac-search.adoc[Searching the Public Catalogue]
+include::opac/opac-myaccount.adoc[My Account]
+include::opac/opac-integraded-eresource.adoc[Integrated Electronic Resources]
+
 
 Serials
 =======
