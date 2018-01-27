@@ -19,6 +19,7 @@ Best Practices for Using the Browser
 * <<tab-buttons-keyboard-shortcuts,Tab Buttons and Keyboard Shortcuts>>
 
 [[browser-defaults]]
+[float]
 Setting Browser Defaults for Web Client
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 To ensure that staff can easily get to the web client portal page on login without additional steps, you can set the browser’s home page to default to the web client.
