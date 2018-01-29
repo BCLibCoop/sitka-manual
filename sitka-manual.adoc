@@ -44,7 +44,7 @@ Public Catalogue
 ================
 include::opac/opac-search.adoc[Searching the Public Catalogue]
 include::opac/opac-myaccount.adoc[My Account]
-include::opac/opac-integraded-eresource.adoc[Integrated Electronic Resources]
+include::opac/opac-integrated-eresource.adoc[Integrated Electronic Resources]
 
 Serials
 =======
