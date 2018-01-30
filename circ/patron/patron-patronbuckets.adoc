@@ -26,7 +26,6 @@ Batch modifications and deletions can be rolled back or reversed, with the excep
 Patron accounts can be added to Patron Buckets by scanning individual patron barcodes or by uploading a file of patron barcodes directly in the Patron Bucket interface. They can also be added to a Patron Bucket from the Patron Search screen. Batch changes and batch edit sets are tied to the Patron Bucket itself, not to the login of the bucket owner.
 
 [[create-user-bucket]]
-[float]
 Create a User Bucket
 ^^^^^^^^^^^^^^^^^^^^
 
