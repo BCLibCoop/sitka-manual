@@ -1,16 +1,16 @@
 Patron Records
 --------------
 
-Include::patron/patron-search.adoc[]
+Include::patron/patron-search.adoc[Patron Search]
 
-Include::patron/patron-register.adoc[]
+Include::patron/patron-register.adoc[Register New Patrons]
 
-Include::patron/patron-accountstatus.adoc[]
+Include::patron/patron-accountstatus.adoc[Account Status by Colour Code]
 
-Include::patron/patron-update.adoc[]
+Include::patron/patron-update.adoc[Updating Individual Patron Records]
 
-Include::patron/patron-alerts.adoc[]
+Include::patron/patron-alerts.adoc[Patron Alerts]
 
-include::patron/patron-patronbuckets.adoc[]
+include::patron/patron-patronbuckets.adoc[Patron Buckets]
 
-Include::patron/patron-merge.adoc[]
+Include::patron/patron-merge.adoc[Merge Patron Records]

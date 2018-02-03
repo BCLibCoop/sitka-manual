@@ -1,16 +1,16 @@
 Circulation
 -----------
 
-include::circ/circ-checkout.adoc[]
+include::circ/circ-checkout.adoc[Checkout (F1)]
 
-include::circ/circ-checkin.adoc[]
+include::circ/circ-checkin.adoc[Check In (F2)]
 
-include::circ/circ-renewal.adoc[]
+include::circ/circ-renewal.adoc[Renewing and Editing the Item's Due Date]
 
-include::circ/circ-lost-claimed.adoc[]
+include::circ/circ-lost-claimed.adoc[Marking Items Lost, Claimed Returned, and Claimed Never Checked Out]
 
-include::circ/circ-in-house.adoc[]
+include::circ/circ-in-house.adoc[In-House Use]
 
-include::circ/circ-item-status.adoc[]
+include::circ/circ-item-status.adoc[Item Status]
 
-include::circ/circ-barcode-completion.adoc[]
+include::circ/circ-barcode-completion.adoc[Barcode Completion]
