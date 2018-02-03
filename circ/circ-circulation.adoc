@@ -1,9 +1,9 @@
 Circulation
 -----------
 
-include::circulation/circ-checkout.adoc[Checkout F1]
+include::circulation/circ-checkout.adoc[Checkout]
 
-include::circulation/circ-checkin.adoc[Check In F2]
+include::circulation/circ-checkin.adoc[Check In]
 
 include::circulation/circ-renewal.adoc[Renewing and Editing the Item's Due Date]
 
