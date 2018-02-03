@@ -1,8 +1,6 @@
 Bills and Payments
 ------------------
 
-Bills are very important.
-
 include::billing/billing-bills.adoc[Circulation vs. Grocery Bills]
 
 include::billing/billing-payment.adoc[Making Payments]
@@ -20,5 +18,3 @@ include::billing/billing-bill-history.adoc[Bill History]
 include::billing/billing-refund.adoc[Refund]
 
 include::billing/billing-conditional-negative-balances.adoc[Conditional Negative Balances]
-
-

@@ -1,26 +1,16 @@
 Circulation
 -----------
 
-Check Out (F1)
-~~~~~~~~~~~~~~
+include::circ/circ-checkout.adoc[]
 
-Check In (F2)
-~~~~~~~~~~~~~
+include::circ/circ-checkin.adoc[]
 
-Renewing and Editing the Item's Due Date
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+include::circ/circ-renewal.adoc[]
 
-Marking Items Lost, Claimed Returned, and Claimed Never Checked Out
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Note from Jennifer - do we want to split lost from claimed returned and claimed never checked out?  
-We have a really long tip under lost that could then be incorporated into the main lost page
+include::circ/circ-lost-claimed.adoc[]
 
-In-House Use
-~~~~~~~~~~~~
+include::circ/circ-in-house.adoc[]
 
-Item Status
-~~~~~~~~~~~
+include::circ/circ-item-status.adoc[]
 
-Barcode Completion
-~~~~~~~~~~~~~~~~~~
-
+include::circ/circ-barcode-completion.adoc[]

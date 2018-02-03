@@ -1,8 +1,6 @@
 Self Check
 ----------
 
-This is a section on the EG self check.
-
 include::selfcheck/selfcheck-admin.adoc[Staff Functions in the Evergreen Self Check]
 
 include::selfcheck/selfcheck-checkout.adoc[Basic Check Out]
@@ -14,5 +12,3 @@ include::selfcheck/selfcheck-items-out.adoc[View Items Out]
 include::selfcheck/selfcheck-holds.adoc[View Holds]
 
 include::selfcheck/selfcheck-fines.adoc[View Fines]
-
-
