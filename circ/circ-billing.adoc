@@ -9,7 +9,7 @@ include::billing/billing-patron-credit.adoc[Patron Credit]
 
 include::billing/billing-adjust-bill.adoc[Adjust Bill Balance to Zero]
 
-include::billing/voiding.adoc[Voiding Bills]
+include::billing/billing-voiding.adoc[Voiding Bills]
 
 include::billing/billing-bill-patron.adoc[Adding New "Grocery" Bills]
 
