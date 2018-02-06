@@ -27,7 +27,7 @@ Patron accounts can be added to Patron Buckets by scanning individual patron bar
 
 [[create-user-bucket]]
 Create a User Bucket
-^^^^^^^^^^^^^^^^^^^^
+++++++++++++++++++++
 
 *To add users to a bucket via the Patron Search screen:*
 
@@ -36,10 +36,6 @@ Create a User Bucket
 . Click *Add to Bucket* and select an existing bucket from the drop down menu or click *New Bucket* to create a new user bucket.
 .. If creating a new user bucket, a dialog box called _Create Bucket_ will appear where you can enter a bucket _Name_ and _Description_ and indicate if the bucket is _Staff Shareable?_.  Click *Create Bucket*.
 . After adding users to a bucket, an update will appear at the bottom-right hand corner of the screen that says _"Successfully added # users to bucket [Name]"_.
-
-SCREENSHOT GOES HERE
-
-SCREENSHOT GOES HERE
 
 *To add users to a bucket by scanning user barcodes in the User Bucket interface:*
 
@@ -50,8 +46,6 @@ SCREENSHOT GOES HERE
 . Scan in the barcodes of the users that you want to add to the selected bucket into the _Scan Card_ field.  Each user account will be added to the Pending Users tab.  Hit ENTER on your keyboard after manually typing in a barcode to add it to the list of Pending Users.
 . Select the user accounts that you want to add to the bucket by checking the box next to each user row or by using the CTRL or SHIFT key on your keyboard to select multiple users.
 . Go to *Actions->Add To Bucket* or right-click on a selected user account to view the _Actions_ menu and select *Add To Bucket*.  The user accounts will move to the Bucket View tab and are now in the selected User Bucket.
-
-SCREENSHOT GOES HERE
 
 *To add users to a bucket by uploading a file of user barcodes:*
 
@@ -90,7 +84,6 @@ To batch edit all users in a user bucket:
 
 . Click *Apply Changes*.  The modification(s) will be applied in batch.
 
-SCREENSHOT GOES HERE
 
 [[batch-mod-statcat]]
 Batch Modify Statistical Categories

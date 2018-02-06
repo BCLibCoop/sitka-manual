@@ -22,7 +22,7 @@ To retrieve your Holds Pull List select Circulation → Pull List for Hold Reque
 
 The Holds Pull List is displayed. By default the items on the list are grouped first by Copy Location, then by Call Number. You may re-sort it by clicking the column labels, e.g. Title.
 
-The order of Copy Location can be adjusted on Admin → Local Administration → Copy Location Order
+The order of Copy Location can be adjusted on Admin -> Local Administration -> Copy Location Order
 
 
 The maximum number of holds initially displayed on the pull list is about 100. Use Fetch More Holds to retrieve more records.
@@ -48,5 +48,3 @@ The current version of Evergreen may not display a whole list of holds on the sc
 You may perform hold management tasks by using the Actions for Select Holds dropdown list.
 
 The Holds Pull List is updated constantly. Once an item on the list is no longer available or a hold on the list is captured, the items will disappear from the list. The Holds Pull List should be printed at least once a day.
-
-
