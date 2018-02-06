@@ -14,30 +14,47 @@ Last Updated January 26, 2018
 Introduction
 ============
 include::intro/intro-whatsnew.adoc[New Features in Evergreen Version 3.x]
+
 include::intro/intro-newbehaviour.adoc[New Behaviour in Evergreen Version 3.x]
+
 include::intro/intro-revisions.adoc[Revisions to Version 3.x and Attributions to Contributors]
+
 include::intro/intro-resources.adoc[Sitka and Evergreen Resources]
+
 include::intro/intro-support.adoc[Sitka's Evergreen Support]
+
 include::intro/intro-start.adoc[Getting Started]
 
 Circulation
 ===========
 include::circ/circ-patron.adoc[]
+
 include::circ/circ-circulation.adoc[]
+
 include::circ/circ-billing.adoc[]
+
 include::circ/circ-hold.adoc[]
+
 include::circ/circ-transit.adoc[]
+
 include::circ/circ-selfcheck.adoc[]
+
 include::circ/circ-offline.adoc[]
 
 Cataloguing
 ===========
 include::cat/cat-search.adoc[Searching the Database for Cataloguing Purposes]
+
 include::cat/cat-add-holdings.adoc[Adding Holdings to Existing Records in the Sitka Database]
+
 include::cat/cat-edit-holdings.adoc[Editing and Maintainting Holdings]
+
 include::cat/cat-copy-bucket.adoc[Copy Buckets]
+
 include::cat/cat-add-marc.adoc[Adding Bibliographic Records to the Database]
+
 include::cat/cat-edit-marc.adoc[Editing and Maintaining MARC records]
+
 include::cat/cat-record-bucket.adoc[Record Buckets]
 
 Public Catalogue
@@ -57,3 +74,7 @@ Reports
 
 Administration
 ==============
+
+[index]
+Index
+=====
