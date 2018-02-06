@@ -78,12 +78,12 @@ Reports
 
 Administration
 ==============
-
+include::admin/localadmin.adoc [Local Administration]
 
 
 [appendix]
 Licensing
-=========
+
 
 image::images/ccbysa.png["CC-BY-SA",link="http://creativecommons.org/licenses/by-sa/3.0/"]
 
