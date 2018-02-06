@@ -25,6 +25,7 @@ Circulation
 include::circ/circ-patron.adoc[Patron Records]
 include::circ/circ-circulation.adoc[Circulation]
 include::circ/circ-billing.adoc[Bills and Payments]
+include::circ/circ-hold.adoc[Holds]
 include::circ/circ-transit.adoc[Items In Transit]
 include::circ/circ-selfcheck.adoc[Self Check]
 include::circ/circ-offline.adoc[Offline Transactions]
