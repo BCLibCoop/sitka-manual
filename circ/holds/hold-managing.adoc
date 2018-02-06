@@ -12,32 +12,25 @@ Retrieve the patron record and go to the Holds screen.
 
 Highlight the hold record, then select Actions for Selected Holds.
 
-
 Manage the hold by choosing an action on the list.
 
 If you want to cancel the hold, click Cancel Hold on the above screen. You are prompted to select a reason and put in a note if required. Once done, click YES.
-
 
 A captured hold with a status of "On Hold Shelf" or "Ready for Pickup" can be cancelled by either staff or patrons. But the status of the item will not be changed until staff check it in.
 
 If you want to suspend a hold or activate a suspended hold, click the appropriate action on the list. You will be prompted to confirm your action. Suspended holds have a "No" value in the Active? column.
 
-
 Suspended holds will not be filled but its hold position will be kept. They will automatically become active on the activation day if there is an activation date in the record. Without an activation date, the holds will remain inactive until staff or a patron activate them manually.
 
 You may edit the Activation Date and Expiration Date by using the corresponding action entry on the Action for Selected Holds dropdown menu. You will be prompted to enter the new date. Use the calendar widget to choose a date, then click Apply. Use the Remove button to unset the date.
-
 
 Your library may set up a hold shelf time. Hold shelf expire time is automatically recorded in the hold record when a hold is filled. You may edit this time by using the Edit Shelf Expire Time on the Action for Selected Holds dropdown menu. You will be prompted to enter the new date. Use the calendar widget to choose a date, then click Apply.
 
 If you want to enable or disable phone notification or change the phone number, click Edit Phone Notification. You will be prompted to enter the new phone number. You must follow the format of XXX-XXX-XXXX. The phone number is used for this hold only and can be different from the one in the patron account. It has no impact on the patron account. If you leave it blank, no phone number will be printed on the hold slip.
 
-
 If you want to enable or disable email notification for the hold, click Set Email Notification. Click Email or No Email on the prompt screen.
 
-
 Pickup location can be changed by clicking Edit Pickup Library. Click the dropdown list of all libraries and choose the new pickup location. Click Done.
-
 
 Staff can change the pickup location for holds with in-transit or ready-for-pickup status. Item will be sent in transit to the new destination.
 
@@ -57,12 +50,9 @@ For most libraries, holds are filled based on request time sequence. Changing re
 
 The item's physical condition is recorded in the copy record as Good or Mediocre in the Quality field. You may request that your holds be filled with copies of good quality only. Click Set Desired Copy Quality on the Actions for Selected Holds list. Make your choice in the pop-up window.
 
-
 Cancelled holds can be displayed. Click Show Cancelled Holds button on the Holds screen.
 
-
 You may un-cancel it.
-
 
 Based on your library's setting, hold request time can be reset when a hold is un-cancelled.
 
@@ -70,15 +60,11 @@ Cancelled holds displayed on the Cancelled Holds screen can be limited by hold a
 
 You can view details of a hold by selecting a hold then clicking the Detail View button on the Holds screen.
 
-
 You may add a note to a hold in the Detail View.
-
 
 Notes can be printed on the hold slip if the Print on slip? checkbox is selected. Key in the message then click Add Note.
 
-
 Using the Column Picker, you can display Queue Position and Total number of Holds.
-
 
 Managing Holds in Title Records
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -87,13 +73,8 @@ Retrieve and display the title record in the catalogue.
 
 Click Actions for this Record → View Holds.
 
-
 All holds on this title to be picked up at your library are displayed. Use Filter checkbox and Pickup Library to view holds to be picked up at other branches of your libary system.
-
 
 Highlight the hold you want to edit. Click Actions for Selected Holds and the appropriate action you want to take as described in step 3 of the section called “Managing Holds in Patron Records”.
 
-
 You can retrieve the hold requestor's account by selecting Retrieve Patron on the above dropdown menu.
-
-

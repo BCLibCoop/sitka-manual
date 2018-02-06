@@ -5,15 +5,11 @@ Holds can be captured when a checked-out item is returned (checked in) or an ite
 
 To capture a hold, Select Circulation → Capture Holds.
 
-
 Scan or type barcode and click Submit.
-
 
 The following hold slip is automatically printed.
 
-
 If the item should be sent to another location, a hold transit slip will be printed.
-
 
 If your library chooses to keep on-hold items behind the desk for some patrons (Hold is behind Circ Desk checkbox is selected in the patron record), you will be prompted to route the item to Private Hold Shelf. See Chapter 49, Local Administration Menu for how to set up Behind Desk Pickup.
 
