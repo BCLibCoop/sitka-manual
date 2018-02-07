@@ -80,14 +80,279 @@ This is a complete list of the receipts currently in use in Evergreen.
 
 Receipt Content Reference
 ~~~~~~~~~~~~~~~~~~~~~~~~~
-[options="header"]
+
 .Any Type of Print Template
-|===
-|Tag |Notes |
+[options="header"]
+|==========================
+|Tag   |Notes
+|$${{current_location.name}}$$   |Current library's full name|
+|$${{current_location.shortname}}$$ |Current library's short name|
+|$${{current_location.email}}$$ |Current library's email address|
+|$${{current_location.phone}}$$ |Current library's phone number|
+|$${{today}}$$   |Today's time and date - raw data|
+|$${{today\|date:'short'}}$$   |Readable time and date: 8/1/17 10:18 AM|
+|$${{today\|date:'M/d/yyyy'}}$$   |Date only: 8/1/2017|
+|$${{staff.first_given_name}}$$ |Staff first name|
+|====
 
-|{{current_location.name}}
-|Current library's full name
+.Bills, Current
+[options="header"]
+|==============
+|Tag  |Notes
+|$${{xact.summary.balance_owed}}$$ |Balance remaining|
+|$${{xact.copy_barcode}}$$ |Barcode|
+|$${{xact.id}}$$ |Bill ID|
+|$${{xact.xact_start}}$$ |Bill start date|
+|$${{xact.summary.xact_type}}$$ |Bill type (circulation vs. grocery)|
+|$${{xact.summary.last_billing_note}}$$ |Last billing note|
+|$${{xact.summary.last_billing_type}}$$ |Last billing type|
+|$${{xact.summary.last_payment_note}}$$ |Last payment note|
+|$${{xact.summary.last_payment_type}}$$ |Last payment type|
+|$${{xact.title}}$$ |Title|
+|$${{xact.summary.total_owed}}$$ |Total billed|
+|$${{xact.summary.total_paid}}$$ |Total paid|
+|====
 
-|{{current_location.shortname}}
-|Current library's short name
-|===
+.Bills, Historical
+[options="autowidth"]
+|=================
+|Tag |Notes
+|$${{xact.summary.balance_owed}}$$ |Balance remaining
+|$${{xact.copy_barcode}}$$ |Barcode
+|$${{xact.id}}$$ |Bill ID
+|$${{xact.xact_start}}$$ |Bill start date
+|$${{xact.summary.xact_type}}$$ |Bill type (circulation vs. grocery)
+|$${{xact.summary.last_billing_type}}$$ |Last billing type
+|$${{xact.summary.total_owed}}$$ |Total billed
+|$${{xact.summary.total_paid\|currency}}$$ |Total paid
+|$${{xact.summary.last_billing_note}}$$ |Last billing note
+|$${{xact.summary.last_billing_type}}$$ |Last billing type
+|$${{xact.summary.last_payment_note}}$$ |Last payment note
+|$${{xact.summary.last_payment_type}}$$ |Last payment type
+|$${{xact.title}}$$ |Title
+|$${{xact.summary.total_owed}}$$ |Total billed
+|$${{xact.summary.total_paid}}$$ |Total paid
+|====
+
+.Bills, Payment
+[options="header"]
+|==============
+|Tag |Notes
+|$${{payment_applied}}$$ |Amount paid
+|$${{amount_voided}}$$ |Amount voided
+|$${{change_given}}$$ |Change given
+|$${{payment_note}}$$ |Payment note
+|$${{payment_type}}$$ |Payment type
+|$${{previous_balance}}$$ |Previous balance
+|$${{new_balance}}$$ |Remaining balance
+|$${{payment.xact.copy_barcode}}$$ |Barcode
+|$${{payment.xact.summary.last_billing_type}}$$ |Last billing type
+|$${{payment.xact.id}}$$ |Payment ID
+|$${{payment.amount}}$$ |Payment received
+|$${{payment.xact.title}}$$ |Title
+|====
+
+.Checkin
+[options="header"]
+|=======
+|Tag |Notes
+|$${{checkin.copy_barcode}}$$ |Barcode
+|$${{checkin.call_number.label\|\|"Not Cataloged"}}$$ |Call Number (if no call number, displays ``Not Cataloged'')
+|$${{checkin.title}}$$ |Title
+|====
+
+.Checkout
+[options="header"]
+|========
+|Tag |Notes
+|$${{patron_money.balance_owed}}$$ |Amount Owed|
+|$${{checkout.author}}$$ |Author|
+|$${{checkout.copy_barcode}}$$ |Barcode|
+|$${{checkout.call_number.label}}$$ |Call Number|
+|$${{checkout.circ.due_date}}$$ |Due Date|
+|$${{checkout.copy.price}}$$ |Price|
+|$${{checkout.title}}$$ |Title|
+|====
+
+.Hold Pull List
+[options="autowidth"]
+|==============
+|Tag |Notes
+|$${{hold_data.author}}$$ |Author
+|$${{hold_data.copy.barcode}}$$ |Barcode
+|$${{hold_data.volume.label}}$$ |Call number
+|$${{hold_data.hold.hold_type}}$$ |Hold type
+|$${{hold_data.part.label}}$$ |Part
+|$${{hold_data.copy.location.name}}$$ |Shelving location
+|$${{hold.title}}$$ |Title
+|====
+
+.Hold Shelf Slip
+[options="autowidth"]
+|===============
+|Tag   |Notes
+|$${{call_number.label}}$$ |Call Number
+|$${{today}}$$ |Hold available date
+|$$div ng-switch on="hold.behind_desk">$$$$div ng-switch-when="t">$$$$strong>Private - Hold Behind Desk/strong>$$$$/div>$$$$div ng-switch-when="f">$$$$strong>Public Holds Shelf/strong>$$$$/div>$$$$/div>$$ |Hold location (Hold behind desk or public holds shelf)
+|$$ol>$$$$li ng-repeat="note in hold_notes\|filter: {slip : 't'}">$$$$strong>{{note.title}}/strong>br/>$$$${{note.body}}/li>$$$$/ol>$$ |Hold Notes
+|$${{hold.request_time \| date:'M/d/yyyy'}}$$ |Hold request date
+|$${{hold.shelf_expire_time \| date:'M/d/yyyy'}}$$ |Hold shelf expire date
+|$${{author}}$$ |Item author
+|$${{copy.barcode}}$$ |Item barcode
+|$${{title}}$$ |Item title
+|$${{hold.email_notify}}$$ |Returns true or false flag
+|$${{hold.phone_notify}}$$ |Notification phone number
+|$${{hold.sms_notify}}$$ |Notification SMS text number
+|$${{patron.card.barcode}}$$ |Patron barcode
+|$${{patron.email}}$$ |Patron email address
+|$${{patron.first_given_name}}$$ |Patron first name
+|$${{patron.family_name}}$$ |Patron last Name
+|$${{patron.second_given_name}}$$ |Patron middle name
+|====
+
+.Hold Transit Slip
+[options="autowidth"]
+|====
+|Tag   |Notes
+|$${{dest_address.city}}$$ |Destination city
+|$${{dest_courier_code}}$$ |Destination courier code
+|$${{dest_location.name}}$$ |Destination full name
+|$${{dest_location.shortname}}$$ |Destination short name
+|$${{dest_address.state}}$$ |Destination state
+|$${{dest_address.street1}}$$ |Destination street address 1
+|$${{dest_address.street2}}$$ |Destination street address 2
+|$${{dest_address.post_code}}$$ |Destination zip code
+|$${{hold.behind_desk}}$$ |Hold behind desk
+|$${{hold.request_time}}$$ |Hold request date
+|$${{author}}$$ |Item author
+|$${{copy.barcode}}$$ |Item barcode
+|$${{title}}$$ |Item title
+|$${{hold.email_notify}}$$ |Notification email address
+|$${{hold.phone_notify}}$$ |Notification phone number
+|$${{hold.sms_notify}}$$ |Notification SMS text number
+|$${{patron.card.barcode}}$$ |Patron barcode
+|$${{patron.first_given_name}}$$ |Patron first name
+|$${{patron.family_name}}$$ |Patron last Name
+|$${{patron.second_given_name}}$$ |Patron middle name
+|====
+
+.Holds for Bib Record
+[options="autowidth"]
+|====================
+h|Tag h|Notes
+|$${{holds$$[0]$$.title}}$$ |Title
+|====
+[options="autowidth"]
+|====
+h|Tag (Inside ng-repeat loop)   h|Notes
+|$${{hold_data.author}}$$ |Author
+|$${{hold.copy.barcode}}$$ |Hold target copy barcode
+|$${{hold.hold.request_time}}$$ |Hold request date
+|$${{hold.patron_barcode}}$$ |Patron barcode
+|$${{hold.patron_alias}}$$ |Patron hold alias
+|$${{hold.patron_last}}$$ |Patron last name
+|====
+
+.Holds for Patron
+[options="autowidth"]
+|================
+h|Tag (Inside ng-repeat loop)   h|Notes
+|$${{hold.author}}$$ |Author
+|$$div ng-if="hold.hold.email_notify == 't'">$$ +
+$${{hold.hold.requestor.email}} /div>$$ |Notify by email +
+(shows email only if selected)
+|$${{hold.hold.phone_notify}}$$ |Notify by phone (shows number)
+|$${{hold.hold.sms_notify}}$$ |Notify by SMS text (shows number)
+|$${{hold.hold.pickup_lib.name}}$$ |Pickup library
+|$${{hold.hold.request_time}}$$ |Request date
+|$${{hold.title}}$$ |Title
+|====
+
+.In-House Use List
+[options="autowidth"]
+|=================
+|Tag |Notes
+|$${{ihu.copy.barcode}}$$ |Barcode
+|$${{ihu.num_uses}}$$ |Number of uses
+|====
+
+.Item Status
+[options="autowidth"]
+|===========
+|Tag   |Notes
+|$${{copy.barcode}}$$ |Barcode
+|$${{copy['call_number.record.simple_record.title']}}$$ |Title
+|====
+
+.Items Out
+[options="autowidth"]
+|=========
+|Tag |Notes
+|$${{checkout.copy.barcode}}$$ |Barcode
+|$${{checkout.circ.due_date}}$$ |Due date
+|$${{checkout.title}}$$ |Title
+|====
+
+.Patron Address
+[options="autowidth"]
+|==============
+|Tag   |Notes
+|$${{patron.first_given_name}}$$ |Patron first name
+|$${{patron.second_given_name}}$$ |Patron middle name
+|$${{patron.family_name}}$$ |Patron last name
+|$${{address.street1}}$$ |Street address 1
+|$${{address.street2}}$$ |Street address 2
+|$${{address.city}}$$ |City
+|$${{address.state}}$$ |State
+|$${{address.post_code}}$$ |Zip code
+|====
+
+.Patron Note
+[options="autowidth"]
+|===========
+|Tag   |Notes
+|$${{note.value}}$$ |Note contents
+|$${{note.create_date}}$$ |Note creation date
+|$${{note.title}}$$ |Note title
+|$${{note.usr.card.barcode}}$$ |Patron barcode
+|$${{note.usr.first_name}}$$ |Patron first name
+|$${{note.usr.family_name}}$$ |Patron last name
+|$${{note.usr.second_given_name}}$$ |Patron middle name
+|====
+
+.Renew
+[options="autowidth"]
+|=====
+|Tag |Notes
+|$${{renewal.copy.barcode}}$$ |Barcode
+|$${{renewal.circ.due_date}}$$ |Due date
+|$${{renewal.title}}$$ |Title
+|====
+
+.Transit List
+[options="autowidth"]
+|============
+|Tag |Notes
+|$${{transit.target_copy.barcode}}$$ |Barcode
+|$${{transit.source_send_time}}$$ |Date sent
+|$${{transit.dest.shortname}}$$ |Short name of destination library
+|$${{transit.source.shortname}}$$ |Short name of sending library
+|$${{transit.target_copy.call_number.record.simple_record.title}}$$ |Title
+|====
+
+.Transit Slip
+[options="header"]
+|============
+|Tag   |Notes
+|$${{dest_address.city}}$$ |Destination city
+|$${{dest_courier_code}}$$ |Destination courier code
+|$${{dest_location.name}}$$ |Destination full name
+|$${{dest_location.shortname}}$$ |Destination short name
+|$${{dest_address.state}}$$ |Destination state
+|$${{dest_address.street1}}$$ |Destination street address 1
+|$${{dest_address.street2}}$$ |Destination street address 2
+|$${{dest_address.post_code}}$$ |Destination zip code
+|$${{author}}$$ |Item author
+|$${{copy.barcode}}$$ |Item barcode
+|$${{title}}$$ |Item title
+|====
