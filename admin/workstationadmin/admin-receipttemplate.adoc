@@ -85,32 +85,32 @@ Receipt Content Reference
 [options="header"]
 |==========================
 |Tag   |Notes
-|$${{current_location.name}}$$   |Current library's full name|
-|$${{current_location.shortname}}$$ |Current library's short name|
-|$${{current_location.email}}$$ |Current library's email address|
-|$${{current_location.phone}}$$ |Current library's phone number|
-|$${{today}}$$   |Today's time and date - raw data|
-|$${{today\|date:'short'}}$$   |Readable time and date: 8/1/17 10:18 AM|
-|$${{today\|date:'M/d/yyyy'}}$$   |Date only: 8/1/2017|
-|$${{staff.first_given_name}}$$ |Staff first name|
+|$${{current_location.name}}$$   |Current library's full name
+|$${{current_location.shortname}}$$ |Current library's short name
+|$${{current_location.email}}$$ |Current library's email address
+|$${{current_location.phone}}$$ |Current library's phone number
+|$${{today}}$$   |Today's time and date - raw data
+|$${{today\|date:'short'}}$$   |Readable time and date: 8/1/17 10:18 AM
+|$${{today\|date:'M/d/yyyy'}}$$   |Date only: 8/1/2017
+|$${{staff.first_given_name}}$$ |Staff first name
 |====
 
 .Bills, Current
 [options="header"]
 |==============
 |Tag  |Notes
-|$${{xact.summary.balance_owed}}$$ |Balance remaining|
-|$${{xact.copy_barcode}}$$ |Barcode|
-|$${{xact.id}}$$ |Bill ID|
-|$${{xact.xact_start}}$$ |Bill start date|
-|$${{xact.summary.xact_type}}$$ |Bill type (circulation vs. grocery)|
-|$${{xact.summary.last_billing_note}}$$ |Last billing note|
-|$${{xact.summary.last_billing_type}}$$ |Last billing type|
-|$${{xact.summary.last_payment_note}}$$ |Last payment note|
-|$${{xact.summary.last_payment_type}}$$ |Last payment type|
-|$${{xact.title}}$$ |Title|
-|$${{xact.summary.total_owed}}$$ |Total billed|
-|$${{xact.summary.total_paid}}$$ |Total paid|
+|$${{xact.summary.balance_owed}}$$ |Balance remaining
+|$${{xact.copy_barcode}}$$ |Barcode
+|$${{xact.id}}$$ |Bill ID
+|$${{xact.xact_start}}$$ |Bill start date
+|$${{xact.summary.xact_type}}$$ |Bill type (circulation vs. grocery)
+|$${{xact.summary.last_billing_note}}$$ |Last billing note
+|$${{xact.summary.last_billing_type}}$$ |Last billing type
+|$${{xact.summary.last_payment_note}}$$ |Last payment note
+|$${{xact.summary.last_payment_type}}$$ |Last payment type
+|$${{xact.title}}$$ |Title
+|$${{xact.summary.total_owed}}$$ |Total billed
+|$${{xact.summary.total_paid}}$$ |Total paid
 |====
 
 .Bills, Historical
@@ -165,13 +165,13 @@ Receipt Content Reference
 [options="header"]
 |========
 |Tag |Notes
-|$${{patron_money.balance_owed}}$$ |Amount Owed|
-|$${{checkout.author}}$$ |Author|
-|$${{checkout.copy_barcode}}$$ |Barcode|
-|$${{checkout.call_number.label}}$$ |Call Number|
-|$${{checkout.circ.due_date}}$$ |Due Date|
-|$${{checkout.copy.price}}$$ |Price|
-|$${{checkout.title}}$$ |Title|
+|$${{patron_money.balance_owed}}$$ |Amount Owed
+|$${{checkout.author}}$$ |Author
+|$${{checkout.copy_barcode}}$$ |Barcode
+|$${{checkout.call_number.label}}$$ |Call Number
+|$${{checkout.circ.due_date}}$$ |Due Date
+|$${{checkout.copy.price}}$$ |Price
+|$${{checkout.title}}$$ |Title
 |====
 
 .Hold Pull List
