@@ -47,7 +47,7 @@ include::cat/cat-search.adoc[Searching the Database for Cataloguing Purposes]
 
 include::cat/cat-add-holdings.adoc[Adding Holdings to Existing Records in the Sitka Database]
 
-include::cat/cat-edit-holdings.adoc[Editing and Maintainting Holdings]
+include::cat/cat-edit-holdings.adoc[Maintainting Holdings]
 
 include::cat/cat-copy-bucket.adoc[Copy Buckets]
 
