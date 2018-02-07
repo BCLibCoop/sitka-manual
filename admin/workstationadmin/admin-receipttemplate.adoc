@@ -7,79 +7,168 @@ Receipt Template Editor
 
 The receipt templates follow full W3C html.  http://w3schools.com/html/default.asp.
 
+If Hatch is installed receipts can be forced to use a specific printer settings, Printer Settings can be set at *Administration -> Workstation -> Printer Settings*.
+
+*This is a complete list of the receipts currently in use in Evergreen.*
+
+.List of Receipts
+*  **Bills, Current:** Listing of current bills on an account.
+*  **Bills, Historic:** Listing of bills that have had payments made on
+them. This used on the Bill History Transaction screen.
+*  **Bills, Payment:** Patron payment receipt.
+*  **Checkin:** List of items that have been entered in to the check-in screen.
+*  **Checkout:** List of items currently checked out by a patron during the transaction.
+*  **Hold Transit Slip:** This is printed when a hold goes in-transit to another library.
+*  **Hold Shelf Slip:** This prints when a hold is fulfilled.
+*  **Holds for Bib Record:** Prints a list of holds on a Title record.
+*  **Holds for Patron:** Prints a list of holds on a patron record.
+*  **Hold Pull List:** Prints the Holds Pull List.
+*  **Hold Shelf List:** Prints a list of hold that are waiting to be picked up.
+*  **In-House Use List:** Prints a list of items imputed into In-house use.
+*  **Item Status:** Prints a list of items imputed into Item Status.
+*  **Items Out:** Prints the list of items a patron has checked out.
+*  **Patron Address:** Prints the current patrons address.
+*  **Patron Note:** Prints a note on a patron's record.
+*  **Renew:** List of items that have been renewed using the Renew Item Screen.
+*  **Transit List:** Prints the list of items in-transit from the Transit List.
+*  **Transit Slip:** This is printed when an items goes in-transit to another location.
+
+Customizing Receipt Templates
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 The Receipt Template Editor can be found at: *Administration -> Workstation -> Print Templates*
 
 The Editor can also be found on the default home page of the staff client.
 
-Receipts come in various types: Bills, checkout, items, holds, transits and Payments.
+Most of the receipts that print from the Evergreen staff client software are managed via the Print Template Editor (**Administration -> Workstation -> Print Templates**) and can be customized on an individual workstation basis. Typically, library systems will set up the receipts the way they want them to print out on one workstation at a branch, then export the settings as a file and import that file to each of the other workstations at that branch.
 
-If Hatch is installed receipts can be forced to use a specific printer settings, Printer Settings can be set at *Administration -> Workstation -> Printer Settings*.
+[WARNING]
+====
+Clearing your browser's cache/temporary files will clear any print
+template customizations that you make. Be sure to export a copy of your
+customizations as a backup so that you can import it as needed.
+====
 
-To edit a Receipt:
+General Workflow
+^^^^^^^^^^^^^^^^
+.  In Evergreen, go to **Administration -> Workstation -> Print Templates**.
+.  Select the Template Name of the receipt you wish to customize.
+.  If you are using Hatch, you can choose different printers for different types of receipts with the Force Content field. If not, leave that field blank.
+.  Make changes in the Template field.
+.  Click Save Locally.
 
-. Select *Administration -> Workstation -> Print Templates*.
+Formatting
+++++++++++
+The print templates follow W3C HTML standards (see http://w3schools.com/html/default.asp) and can make use of CSS and Angular JS to a certain extent.
 
-. Choose the Receipt in the drop down list.
-. Choose which Printer Settings you want the template to use.
-. Make edits to the Receipt on the right hand side.
-. Click out of the section you are editing to see what your changes will look right on the Left hand side.
-. Click ''Save Locally'' in the Upper right hand corner.
+Print templates use variables for various pieces of information coming from the Evergreen database.  These variables deal with everything from the library name to the due date of an item. Information from the database is entered in the templates with curly brackets. Different types of print templates have access to different pieces of information.
+Example: `{{checkout.title}}`
+
+Some print templates have sections that are repeated for each item in a list. For example, the portion of the Checkout print template below repeats every item that is checked out in HTML list format by means of
+the 'ng-repeat' in the li tag.
+
+[source,html]
+----
+<ol>
+<li ng-repeat="checkout in circulations">
+<b>{{checkout.title}}</b><br/>
+Barcode: {{checkout.copy.barcode}}<br/>
+Due: {{checkout.circ.due_date | date:"short"}}<br/>
+</li>
+</ol>
+----
 
 
-Receipt templates use variables for various pieces of information coming from the Evergreen database.  These variables deal with everything from the Library name to the due date of an item. Information from the database is entered in the templates with {{term}}.
+Text Formatting
++++++++++++++++
+[options="header"]
+|====
+| Goal      | Original   | Code                       | Result
+| Bold (HTML) | hello       | `$$<b>hello</b>$$`            | **hello**
+| Bold (CSS)  | hello      | `$$<span style="font-weight:bold;">hello</span>$$`                  | **hello**
+| Capitalize  | circulation | `$$<span style="text-transform:capitalize;">circulation</span>$$`   | Circulation
+| Currency    | 1           | `{{1 \| currency}}`        | $1.00
+|====
 
-To print just a sub-string of a variable, you can use a *limitTo* function.  {{variable | limitTo:limit:begin}} where limit is the number of characters you are wanting, and begin is where you want to start printing those characters. The begin number is not mandatory. To limit the variable to the first four characters, you can use{{variable | limitTo:4}} would get you "vari". To limit to the last five characters you can use {{variable | limitTo:-5}} will get you "iable". {{variable | limitTo:3:3}} will get "ria"
+Date Formatting
++++++++++++++++
+If you do not format dates, they will appear in a system format which isn't easily readable.
 
-Exporting and importing Customized Receipts
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[options="header"]
+|====
+| Code                          | Result
+| `{{today}}`                     | 2017-08-01T14:18:51.445Z
+| `{{today \| date:'short'}}`     | 8/1/17 10:18 AM
+| `{{today \| date:'M/d/yyyy'}}`  | 8/1/2017
+|====
 
-Once you have your receipts set up on one machine you can export your receipts, and then load them on to another machine.  Just remember to ''Save Locally'' once you import the receipts on the new machine.
 
-Exporting templates
+Currency Formatting
 +++++++++++++++++++
-As you can only save a template on to the computer you are working on you will need to export the template if you have more than one computer that prints out receipts (i.e., more than one computer on the circulation desk, or another computer in the workroom that you use to checkin items or capture holds with)
+Add `| currency` after any dollar amount that you wish to display as
+currency.
 
-. Export.
-. Select the location to save the template to, name the template, and click Save.
-. Click OK.
+[options="header"]
+|====
+h| Code                                      | Result
+| `{{xact.summary.balance_owed \| currency}}`  | $2.50
+|====
 
-Importing Templates
-+++++++++++++++++++
+Conditional Formatting
+++++++++++++++++++++++
+You can use Angular JS to only print a line if the data matches. For example:
 
-. Click Import.
-. Navigate to and select the template that you want to import.  Click Open.
-. Click OK.
-. Click Save Locally.
-. Click OK.
+`$$<div ng-if="hold.email_notify == 't'">Notify by email: {{patron.email}}</div>$$`
 
-Receipt Templates
-~~~~~~~~~~~~~~~~~
-This is a complete list of the receipts currently in use in Evergreen.
+This will only print the ``Notify by email:'' line if email notification
+is enabled for that hold.
 
-[horizontal]
-.List of Receipts
-*Bills, Current*:: Listing of current bills on an account.
-*Bills, Historic*:: Listing of bills that have had payments made on them. This used on the Bill History Transaction screen.
-*Bills, Payment*:: Patron payment receipt
-*Checkin*:: List of items that have been entered in to the check-in screen.
-*Checkout*:: List of items currently checked out by a patron during the transaction.
-*Hold Transit Slip*:: This is printed when a hold goes in-transit to another library.
-*Hold Shelf Slip*:: This prints when a hold is fulfilled.
-*Holds for Bib Record*:: Prints a list of holds on a Title record.
-*Holds for Patron*:: Prints a list of holds on a patron record.
-*Hold Pull List*:: Prints the Holds Pull List.
-*Hold Shelf List*:: Prints a list of hold that are waiting to be picked up.
-*In-House Use List*:: Prints a list of items imputed into In-house use.
-*Item Status*:: Prints a list of items imputed into Item Status.
-*Items Out*:: Prints the list of items a patron has checked out.
-*Patron Address*:: Prints the current patrons address.
-*Patron Note*:: Prints a note on a patron's record.
-*Renew*:: List of items that have been renewed using the Renew Item Screen.
-*Transit List*:: Prints the list of items in-transit from the Transit List.
-*Transit Slip*:: This is printed when an items goes in-transit to another location.
+See also: https://docs.angularjs.org/api/ng/directive/ngIf
+
+
+Substrings
+++++++++++
+To print just a substring of a variable, you can use a *limitTo* function:  `{{variable | limitTo:limit}}` where limit is the number of characters you want.
+
+[options="header"]
+|====
+| Original                             | Code                                   | Result
+| The Sisterhood of the Traveling Pants  | `$${{checkout.title \| limitTo:10}}$$`       | The Sisterhood of th
+| 123456789                              | `$${{patron.card.barcode \| limitTo:-5}}$$`  | 56789
+|====
+
+Images
+++++++
+You can use HTML and CSS to add an image to your print template if you
+have the image uploaded onto a publicly available web server.
+
+Sort Order
+++++++++++
+You can sort the items in an ng-repeat block using orderBy. For example,
+the following will sort a list of holds by the shelving location first,
+then by the call number:
+
+`$$<tr ng-repeat="hold_data in holds | orderBy : ['copy.location.name','volume.label']">$$`
+
+Export / Import Customized Templates
+++++++++++++++++++++++++++++++++++++
+To set up all workstations in a branch in the same way, set up one
+workstation's receipt templates completely, then use the ``Export
+Customized Templates'' to save an external file that you can then Import
+into other workstations. See *link*
+
+Reset Print Templates to Default
+++++++++++++++++++++++++++++++++
+The web client doesn't have a built-in option to reset the print
+templates to default, but they should reset if you clear your entire
+browser cache. You could also un-zip the file below and import the file
+it contains.
+
 
 Receipt Content Reference
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Receipt templates use variables for various pieces of information coming from the Evergreen database.  These variables deal with everything from the Library name to the due date of an item. Information from the database is entered in the templates with {{term}}.
 
 .Any Type of Print Template
 [options="header"]
@@ -114,7 +203,7 @@ Receipt Content Reference
 |====
 
 .Bills, Historical
-[options="autowidth"]
+[options="header"]
 |=================
 |Tag |Notes
 |$${{xact.summary.balance_owed}}$$ |Balance remaining
@@ -175,7 +264,7 @@ Receipt Content Reference
 |====
 
 .Hold Pull List
-[options="autowidth"]
+[options="header"]
 |==============
 |Tag |Notes
 |$${{hold_data.author}}$$ |Author
@@ -188,7 +277,7 @@ Receipt Content Reference
 |====
 
 .Hold Shelf Slip
-[options="autowidth"]
+[options="header"]
 |===============
 |Tag   |Notes
 |$${{call_number.label}}$$ |Call Number
@@ -211,7 +300,7 @@ Receipt Content Reference
 |====
 
 .Hold Transit Slip
-[options="autowidth"]
+[options="header"]
 |====
 |Tag   |Notes
 |$${{dest_address.city}}$$ |Destination city
@@ -237,14 +326,10 @@ Receipt Content Reference
 |====
 
 .Holds for Bib Record
-[options="autowidth"]
+[options="header"]
 |====================
-h|Tag h|Notes
+|Tag |Notes
 |$${{holds$$[0]$$.title}}$$ |Title
-|====
-[options="autowidth"]
-|====
-h|Tag (Inside ng-repeat loop)   h|Notes
 |$${{hold_data.author}}$$ |Author
 |$${{hold.copy.barcode}}$$ |Hold target copy barcode
 |$${{hold.hold.request_time}}$$ |Hold request date
@@ -254,9 +339,9 @@ h|Tag (Inside ng-repeat loop)   h|Notes
 |====
 
 .Holds for Patron
-[options="autowidth"]
+[options="header"]
 |================
-h|Tag (Inside ng-repeat loop)   h|Notes
+|Tag |Notes
 |$${{hold.author}}$$ |Author
 |$$div ng-if="hold.hold.email_notify == 't'">$$ +
 $${{hold.hold.requestor.email}} /div>$$ |Notify by email +
@@ -269,7 +354,7 @@ $${{hold.hold.requestor.email}} /div>$$ |Notify by email +
 |====
 
 .In-House Use List
-[options="autowidth"]
+[options="header"]
 |=================
 |Tag |Notes
 |$${{ihu.copy.barcode}}$$ |Barcode
@@ -277,7 +362,7 @@ $${{hold.hold.requestor.email}} /div>$$ |Notify by email +
 |====
 
 .Item Status
-[options="autowidth"]
+[options="header"]
 |===========
 |Tag   |Notes
 |$${{copy.barcode}}$$ |Barcode
@@ -285,7 +370,7 @@ $${{hold.hold.requestor.email}} /div>$$ |Notify by email +
 |====
 
 .Items Out
-[options="autowidth"]
+[options="header"]
 |=========
 |Tag |Notes
 |$${{checkout.copy.barcode}}$$ |Barcode
@@ -294,7 +379,7 @@ $${{hold.hold.requestor.email}} /div>$$ |Notify by email +
 |====
 
 .Patron Address
-[options="autowidth"]
+[options="header"]
 |==============
 |Tag   |Notes
 |$${{patron.first_given_name}}$$ |Patron first name
@@ -308,7 +393,7 @@ $${{hold.hold.requestor.email}} /div>$$ |Notify by email +
 |====
 
 .Patron Note
-[options="autowidth"]
+[options="header"]
 |===========
 |Tag   |Notes
 |$${{note.value}}$$ |Note contents
@@ -321,7 +406,7 @@ $${{hold.hold.requestor.email}} /div>$$ |Notify by email +
 |====
 
 .Renew
-[options="autowidth"]
+[options="header"]
 |=====
 |Tag |Notes
 |$${{renewal.copy.barcode}}$$ |Barcode
@@ -330,7 +415,7 @@ $${{hold.hold.requestor.email}} /div>$$ |Notify by email +
 |====
 
 .Transit List
-[options="autowidth"]
+[options="header"]
 |============
 |Tag |Notes
 |$${{transit.target_copy.barcode}}$$ |Barcode
@@ -356,3 +441,25 @@ $${{hold.hold.requestor.email}} /div>$$ |Notify by email +
 |$${{copy.barcode}}$$ |Item barcode
 |$${{title}}$$ |Item title
 |====
+
+Exporting and importing Customized Receipts
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Once you have your receipts set up on one machine you can export your receipts, and then load them on to another machine.  Just remember to ''Save Locally'' once you import the receipts on the new machine.
+
+Exporting templates
++++++++++++++++++++
+As you can only save a template on to the computer you are working on you will need to export the template if you have more than one computer that prints out receipts (i.e., more than one computer on the circulation desk, or another computer in the workroom that you use to checkin items or capture holds with)
+
+. Export.
+. Select the location to save the template to, name the template, and click Save.
+. Click OK.
+
+Importing Templates
++++++++++++++++++++
+
+. Click Import.
+. Navigate to and select the template that you want to import.  Click Open.
+. Click OK.
+. Click Save Locally.
+. Click OK.
