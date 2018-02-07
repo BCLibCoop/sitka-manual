@@ -1,11 +1,11 @@
-Receipt Template Editor
-~~~~~~~~~~~~~~~~~~~~~~~
+Receipt Templates
+~~~~~~~~~~~~~~~~~
 (((web client, receipt template editor)))
 (((receipt template editor)))
 (((receipt template editor, macros)))
 (((receipt template editor, checkout)))
 
-The receipt templates follow full W3C html.  http://w3schools.com/html/default.asp.
+Most of the receipts that print from the Evergreen staff client software are managed via the Print Template Editor (**Administration -> Workstation -> Print Templates**) and can be customized on an individual workstation basis. Typically, library systems will set up the receipts the way they want them to print out on one workstation at a branch, then export the settings as a file and import that file to each of the other workstations at that branch.
 
 If Hatch is installed receipts can be forced to use a specific printer settings, Printer Settings can be set at *Administration -> Workstation -> Printer Settings*.
 
@@ -39,15 +39,6 @@ Customizing Receipt Templates
 The Receipt Template Editor can be found at: *Administration -> Workstation -> Print Templates*
 
 The Editor can also be found on the default home page of the staff client.
-
-Most of the receipts that print from the Evergreen staff client software are managed via the Print Template Editor (**Administration -> Workstation -> Print Templates**) and can be customized on an individual workstation basis. Typically, library systems will set up the receipts the way they want them to print out on one workstation at a branch, then export the settings as a file and import that file to each of the other workstations at that branch.
-
-[WARNING]
-====
-Clearing your browser's cache/temporary files will clear any print
-template customizations that you make. Be sure to export a copy of your
-customizations as a backup so that you can import it as needed.
-====
 
 General Workflow
 ^^^^^^^^^^^^^^^^
@@ -164,6 +155,35 @@ templates to default, but they should reset if you clear your entire
 browser cache. You could also un-zip the file below and import the file
 it contains.
 
+
+[Caution]
+====
+Clearing your browser's cache/temporary files will clear any print
+template customizations that you make. Be sure to export a copy of your
+customizations as a backup so that you can import it as needed.
+====
+
+Exporting and importing Customized Receipts
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Once you have your receipts set up on one machine you can export your receipts, and then load them on to another machine.  Just remember to ''Save Locally'' once you import the receipts on the new machine.
+
+Exporting templates
++++++++++++++++++++
+As you can only save a template on to the computer you are working on you will need to export the template if you have more than one computer that prints out receipts (i.e., more than one computer on the circulation desk, or another computer in the workroom that you use to checkin items or capture holds with)
+
+. Export.
+. Select the location to save the template to, name the template, and click Save.
+. Click OK.
+
+Importing Templates
++++++++++++++++++++
+
+. Click Import.
+. Navigate to and select the template that you want to import.  Click Open.
+. Click OK.
+. Click Save Locally.
+. Click OK.
 
 Receipt Content Reference
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -441,25 +461,3 @@ $${{hold.hold.requestor.email}} /div>$$ |Notify by email +
 |$${{copy.barcode}}$$ |Item barcode
 |$${{title}}$$ |Item title
 |====
-
-Exporting and importing Customized Receipts
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Once you have your receipts set up on one machine you can export your receipts, and then load them on to another machine.  Just remember to ''Save Locally'' once you import the receipts on the new machine.
-
-Exporting templates
-+++++++++++++++++++
-As you can only save a template on to the computer you are working on you will need to export the template if you have more than one computer that prints out receipts (i.e., more than one computer on the circulation desk, or another computer in the workroom that you use to checkin items or capture holds with)
-
-. Export.
-. Select the location to save the template to, name the template, and click Save.
-. Click OK.
-
-Importing Templates
-+++++++++++++++++++
-
-. Click Import.
-. Navigate to and select the template that you want to import.  Click Open.
-. Click OK.
-. Click Save Locally.
-. Click OK.
