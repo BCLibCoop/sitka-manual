@@ -36,12 +36,6 @@ them. This used on the Bill History Transaction screen.
 Customizing Receipt Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Receipt Template Editor can be found at: *Administration -> Workstation -> Print Templates*
-
-The Editor can also be found on the default home page of the staff client.
-
-General Workflow
-^^^^^^^^^^^^^^^^
 .  In Evergreen, go to **Administration -> Workstation -> Print Templates**.
 .  Select the Template Name of the receipt you wish to customize.
 .  If you are using Hatch, you can choose different printers for different types of receipts with the Force Content field. If not, leave that field blank.
