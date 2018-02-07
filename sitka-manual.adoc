@@ -78,7 +78,10 @@ Reports
 
 Administration
 ==============
+include::admin/admin-workstationadmin.adoc[]
+
 include::admin/admin-localadmin.adoc[]
+
 
 
 [appendix]
