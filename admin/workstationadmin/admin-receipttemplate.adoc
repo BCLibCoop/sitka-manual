@@ -43,8 +43,8 @@ Customizing Receipt Templates
 .  Click Save Locally.
 
 Formatting
-++++++++++
-The print templates follow W3C HTML standards (see http://w3schools.com/html/default.asp) and can make use of CSS and Angular JS to a certain extent.
+^^^^^^^^^^
+The print templates follow W3C HTML standards http://w3schools.com/html/default.asp.
 
 Print templates use variables for various pieces of information coming from the Evergreen database.  These variables deal with everything from the library name to the due date of an item. Information from the database is entered in the templates with curly brackets. Different types of print templates have access to different pieces of information.
 Example: `{{checkout.title}}`
@@ -62,7 +62,6 @@ Due: {{checkout.circ.due_date | date:"short"}}<br/>
 </li>
 </ol>
 ----
-
 
 Text Formatting
 +++++++++++++++
@@ -110,11 +109,9 @@ is enabled for that hold.
 
 See also: https://docs.angularjs.org/api/ng/directive/ngIf
 
-
 Substrings
 ++++++++++
 To print just a substring of a variable, you can use a *limitTo* function:  `{{variable | limitTo:limit}}` where limit is the number of characters you want.
-
 [options="header"]
 |====
 | Original                             | Code                                   | Result
@@ -150,7 +147,7 @@ browser cache. You could also un-zip the file below and import the file
 it contains.
 
 
-[Caution]
+WARNING:
 ====
 Clearing your browser's cache/temporary files will clear any print
 template customizations that you make. Be sure to export a copy of your
