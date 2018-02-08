@@ -2,19 +2,11 @@
 Searching the Database for Cataloguing Purposes
 -----------------------------------------------
 
-include::search/advanced-numeric.adoc[Advanced/Numeric Search]
-
-include::search/marc-expert.adoc[MARC Expert Search]
-
 https://www.youtube.com/watch?v=lIEPR47y06E[Sitka Training Video - Search the Catalogue (5:16)]
 
 It is critical to search the database before adding titles, volumes, or copies. Good practice is to assume the item you are adding already exists, and to do an exhaustive search for the item before cataloguing it. By doing so, you will discover whether you need to add your item to an existing title record, or if you need to import or create a new title record. It is very important that you scope your cataloguing searches to the entire Sitka database, either at the time of each search or via Workstation or My Account preferences.
 
 You can set workstation _search preferences (add link)_ to configure default search location and preferred search library and you can choose to have Numeric Search or MARC Expert search be the default advanced search view. These workstation preferences override account login preferences set in My Account. For cataloguing workstations it is recommended that the Default Search Library be set to Sitka. This will ensure staff using those workstations are always searching all of Sitka.
-
-
-
-
 
 <<cat-search-for-cataloguing, test refer to cat-search-for-cataloguing>>
 
@@ -23,3 +15,6 @@ another way
 xref:cat-search-for-cataloguing[ref via xref to cat-search]
 
 
+include::search/advanced-numeric.adoc[Advanced/Numeric Search]
+
+include::search/marc-expert.adoc[MARC Expert Search]
