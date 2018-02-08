@@ -43,7 +43,7 @@ include::circ/circ-offline.adoc[]
 
 Cataloguing
 ===========
-include::cat/search/cat-search.adoc[Searching the Database for Cataloguing Purposes]
+include::cat/cat-search.adoc[Searching the Database for Cataloguing Purposes]
 
 include::cat/cat-add-holdings.adoc[Adding Holdings to Existing Records in the Sitka Database]
 
