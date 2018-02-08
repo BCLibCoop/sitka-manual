@@ -8,6 +8,7 @@ It is critical to search the database before adding titles, volumes, or copies. 
 You can set workstation search preferences to configure default search location and preferred search library and you can choose to have Numeric Search or MARC Expert search be the default advanced search view. These workstation preferences override account login preferences set in My Account. For cataloguing workstations it is recommended that the Default Search Library be set to Sitka. This will ensure staff using those workstations are always searching all of Sitka.
 
 <<cat-search-for-cataloguing, test refer to cat-search-for-cataloguing>>
+another way
 xref:cat-search-for-cataloguing[ref via xref to cat-search]
 
 include::search/advanced-numeric.adoc[Advanced/Numeric Search]
