@@ -1,18 +1,31 @@
 Advanced/Numeric Search
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-1. To search the catalogue for holdings select _Cataloguing_ >  _Search the Catalogue_, or _Search_ > _the Catalogue_, or press *F3*.
+. To search the catalogue for holdings select _Cataloguing_ ->  _Search the Catalogue_, or _Search_ -> _the Catalogue_, or press *F3*.
 +
 image::images/cat/search-1.png[title for image search-1 in image cat folder]
 +
-2. The advanced search screen is displayed. In this example the search screen defaults to the *_Numeric Search_* page. You can customize the look of this screen via Workstation Administration. In this example, note the search library is set to Sitka. A cataloguer must ensure they are searching the entire Sitka database.
+. The advanced search screen is displayed. In this example the search screen defaults to the *_Numeric Search_* page. You can customize the look of this screen via Workstation Administration. In this example, note the search library is set to Sitka. A cataloguer must ensure they are searching the entire Sitka database.
 +
 image::images/cat/search-3.png[]
 +
-3. Enter your search criteria and click _Search_.
+. Enter your search criteria and click _Search_.
 +
 image::images/cat/search-4.png[]
 +
-4. 
-
+4. In this example, the item in hand has 3 copies in Sitka.
++
+image::images/cat/search-5.png[]
++
+5. To access the record, click on the title link.
++
+image::images/cat/search-6.png[]
++
+6. Confirm bibliographic data as displayed in the brief record. If satisfied that the record matches the item in hand, you can proceed to add holdings as described in <<cat-add-holdings]], Adding Holdings to Existing MARC Records>>.
++
+image::images/cat/search-7.png[]
++
+7. You may also choose to view MARC record from this screen by clicking on MARC Record button below record summary, or selecting Actions for this Record > MARC View or MARC Edit at top right of record.
++
+8. 
 
