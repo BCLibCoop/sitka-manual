@@ -22,8 +22,10 @@ image::images/cat/search-5.png[]
 image::images/cat/search-6.png[]
 +
 . Confirm bibliographic data as displayed in the brief record. If satisfied that the record matches the item in hand, you can proceed to add holdings as described in <<../add-holdings/add-holdings.adoc#_Adding_Holdings_to_Title_Records, Adding Holdings to Title Records id caption>> <<_Adding_Holdings_to_Title_Records, Adding Holdings to Title Records id caption2nd>> 
++
 link::../add-holdings/add-holdings.adoc[adding holdings to title records]
-link::add-holdings.adoc[adding holdings to title records2]
++
+link::add-holdings.html[adding holdings to title records2]
 +
 image::images/cat/search-7.png[]
 +
