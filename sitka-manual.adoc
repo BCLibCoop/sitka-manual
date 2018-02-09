@@ -45,17 +45,17 @@ Cataloguing
 ===========
 include::cat/cat-search.adoc[Searching the Database for Cataloguing Purposes]
 
-include::cat/cat-add-holdings.adoc[Adding Holdings to Existing Records in the Sitka Database]
+include::cat/cat-add-holdings.adoc[Adding Holdings to Existing MARC Records]
 
 include::cat/cat-edit-holdings.adoc[Maintainting Holdings]
 
-include::cat/cat-copy-bucket.adoc[Copy Buckets]
+include::cat/cat-copy-bucket.adoc[Copy Bucket]
 
 include::cat/cat-add-marc.adoc[Adding Bibliographic Records]
 
-include::cat/cat-edit-marc.adoc[Editing and Maintaining MARC records]
+include::cat/cat-edit-marc.adoc[Maintaining MARC records]
 
-include::cat/cat-record-bucket.adoc[Record Buckets]
+include::cat/cat-record-bucket.adoc[Record Bucket]
 
 Public Catalogue
 ================
