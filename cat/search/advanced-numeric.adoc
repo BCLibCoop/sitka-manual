@@ -29,5 +29,5 @@ image::images/cat/search-7.png[]
 +
 .  
 
-[[test-anchor1-in-cat,]]
+anchor:test-anchor1-in-cat[test anchor label]
 this is the test anchor
