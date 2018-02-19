@@ -17,11 +17,9 @@ image::images/cat/search-12.png[]
 
 [TIP]
 ======
-You can toggle views during a session. You may set a default view by selecting the view, then clicking on *Set default view* button. Next time when it is loaded,  the record will be displayed in the selected view. MARC Edit is set as the default view in this example.
+You can toggle record views during a session. You may set a default view by selecting the view, then clicking on *Set default view* button. Next time when it is loaded,  the record will be displayed in the selected view. MARC Edit is set as the default view in this example.
 
 image::images/cat/search-13.png[]
 ======
 
 
-anchor:test-anchor1-in-cat[test anchor label]
-this is the test anchor
