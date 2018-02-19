@@ -1,7 +1,24 @@
 MARC Expert Search
 ~~~~~~~~~~~~~~~~~~
 
-This is a page about the MARC Expert Search.
+. To search the catalogue for holdings select *Cataloguing* -> *Search the Catalogue*, or *Search* -> *the Catalogue*, or press *F3* and click on Expert Search tab.
+. Enter tag definitions and search criteria and click *Search*.
++
+image::images/cat/search-10.png[]
++
+. You may search multiple tags by clicking *Add Search Row*. The Boolean operator between the tags is always AND.
++
+image::images/cat/search-11.png[]
++
+. You may now search multiple tags. 
++
+image::images/cat/search-12.png[]
+
+
+[TIP]
+======
+You can manipulate the view during a session, and set a default view, by clicking on Actions for this Record on right of screen. Selecting Set bottom interface as Default, as in this example, sets the current OPAC View as the default. Next time when you click a title on the result list, the record will be displayed in this default view.
+======
 
 
 anchor:test-anchor1-in-cat[test anchor label]
