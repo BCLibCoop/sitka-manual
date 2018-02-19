@@ -33,10 +33,10 @@ imagine::images/cat/search-8.png[]
 +
 image::images/cat/search-9.png[]
 +
-TIP: It is possible to search ISBNs by Keyword, but results may not be exhaustive. We recommend using *Numeric Search* as described in this lesson.
-If an OCLC number is nine digits then Evergreen uses ocn as a prefix. For example:  ocn123456789.
-If an OCLC number is less than 8 digits then Evergreen uses ocm as a prefix.  In addition Evergreen will automatically prefix the number with zeros so that it is nine digits.  For example:  ocm01234567, or ocm00123456
-If searching a LCCN do not use a hyphen,  add a 0 in place of a hyphen, e.g. 2001001234
+TIP: *It is possible to search ISBNs by Keyword, but results may not be exhaustive. We recommend using *Numeric Search* as described in this lesson.
+*If an OCLC number is nine digits then Evergreen uses ocn as a prefix. For example:  ocn123456789.
+*If an OCLC number is less than 8 digits then Evergreen uses ocm as a prefix.  In addition Evergreen will automatically prefix the number with zeros so that it is nine digits.  For example:  ocm01234567, or ocm00123456
+*If searching a LCCN do not use a hyphen,  add a 0 in place of a hyphen, e.g. 2001001234
 
 
 anchor:test-anchor1-in-cat[test anchor label]
