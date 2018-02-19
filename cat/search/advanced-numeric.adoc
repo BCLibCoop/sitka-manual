@@ -13,11 +13,11 @@ image::images/cat/search-3.png[]
 +
 image::images/cat/search-4.png[]
 +
-. In this example, the item in hand has 6 copies in Sitka.
+. In this example, the title has 6 copies in Sitka.
 +
 image::images/cat/search-5.png[]
 +
-. To access the record, click on the title link.
+. To view record details, click on the title link.
 +
 image::images/cat/search-6.png[]
 +
@@ -27,7 +27,7 @@ image::images/cat/search-7.png[]
 +
 . You may also choose to view the MARC record by clicking on *MARC Record* button near the bottom of the screen, or click *MARC View* above the search bar.
 +
-imagine::images/cat/search-8.png[]
+image::images/cat/search-8.png[]
 +
 . This presents detailed bibliographic data to help you determine whether the record matches the item in hand.
 +
@@ -41,8 +41,6 @@ image::images/cat/search-9.png[]
 
 * If an OCLC number is less than 8 digits then Evergreen uses ocm as a prefix.  In addition Evergreen will automatically prefix the number with zeros so that it is nine digits.  For example:  ocm01234567, or ocm00123456.
 
-* If searching a LCCN do not use a hyphen,  add a 0 in place of a hyphen, e.g. 2001001234
+* If searching a LCCN do not use a hyphen,  add a 0 in place of a hyphen, e.g. 2001001234.
 ======
 
-anchor:test-anchor1-in-cat[test anchor label]
-this is the test anchor
