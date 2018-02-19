@@ -1,7 +1,7 @@
 MARC Expert Search
 ~~~~~~~~~~~~~~~~~~
 
-. To search the catalogue for holdings select *Cataloguing* -> *Search the Catalogue*, or *Search* -> *the Catalogue*, or press *F3* and click on Expert Search tab.
+. To search the catalogue for holdings select *Cataloguing* -> *Search the Catalogue*, or *Search* -> *the Catalogue*, or press *F3* and click on *Expert Search* tab.
 . Enter tag definitions and search criteria and click *Search*.
 +
 image::images/cat/search-10.png[]
@@ -17,7 +17,9 @@ image::images/cat/search-12.png[]
 
 [TIP]
 ======
-You can manipulate the view during a session, and set a default view, by clicking on Actions for this Record on right of screen. Selecting Set bottom interface as Default, as in this example, sets the current OPAC View as the default. Next time when you click a title on the result list, the record will be displayed in this default view.
+You can toggle views during a session. You may set a default view by selecting the view, then clicking on *Set default view* button. Next time when it is loaded,  the record will be displayed in the selected view. MARC Edit is set as the default view in the below example.
++
+image::images/cat/search-13.png[]
 ======
 
 
