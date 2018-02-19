@@ -5,7 +5,7 @@ Advanced/Numeric Search
 +
 image::images/cat/search-1.png[title for image search-1 in image cat folder]
 +
-. The advanced search screen is displayed. In this example the search screen defaults to the *Numeric Search* page. You can customize the look of this screen via Workstation Administration. In this example, note the search library is set to Sitka. A cataloguer must ensure they are searching the entire Sitka database.
+. The advanced search screen is displayed. In this example the search screen defaults to the *Numeric Search* page. You can customize the look of this screen via *Workstation Administration*. In this example, note the search library is set to Sitka. A cataloguer must ensure they are searching the entire Sitka database.
 +
 image::images/cat/search-3.png[]
 +
@@ -13,7 +13,7 @@ image::images/cat/search-3.png[]
 +
 image::images/cat/search-4.png[]
 +
-. In this example, the item in hand has 3 copies in Sitka.
+. In this example, the item in hand has 6 copies in Sitka.
 +
 image::images/cat/search-5.png[]
 +
@@ -25,7 +25,9 @@ image::images/cat/search-6.png[]
 +
 image::images/cat/search-7.png[]
 +
-. You may also choose to view MARC record from this screen by clicking on MARC Record button below record summary, or selecting Actions for this Record -> MARC View or MARC Edit at top right of record.
+. You may also choose to view the MARC record by clicking on *MARC Record* button near the bottom of the screen, or click *MARC View* above the search bar.
++
+imagine::images/cat/search-8.png[]
 +
 .  
 
