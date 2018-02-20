@@ -5,18 +5,18 @@ Adding Holdings to Title Records
 
 . When the record details are loaded, click *Holings View*, if not the default view.
 +
-image::images/cat/search-14.png[]
+image::images/cat/add-holdings-1.png[]
 +
 . To add a new volume (also known as call number), click on *Add Volumes*.
 . The Volume/Copy creator opens up in a new tab. 
 +
-image::images/cat/search-15.png[]
+image::images/cat/add-holdings-2.png[]
 +
 TIP: Make sure your browser allows Evergreen to open pop-up. Otherwise there will be no response.
 +
 . Fill up the required fields in both volume and copy records.
 +
-image::images/cat/search-16.png[]
+image::images/cat/add-holdings-3.png[]
 +
 . Once done, click on *Save & Exit*. The pop-up tab is closed.
 
@@ -27,17 +27,39 @@ image::images/cat/search-16.png[]
 . To create more than one copies for the same volume, use the arrow in the box under Copies colume in the line of the volume to increase the number.
 . To add volumes for other libraries, use the down-pointed arrow in the Owning Library box right above Working Copies button to list the libraries to choose one, then click on *Add Volume*.
 +
-image::images/cat/search-17.png[]
+image::images/cat/add-holdings-4.png[]
 ====
 
-[TIP]
-====
-*Working Copies* and *Completed Copies*
+Adding multiple copies
+~~~~~~~~~~~~~~~~~~~~~~
 
 
-After you fill up the barcode(s), copies are dispalyed under *Working Copies*. If you add only one copy, you may fill up the required item attribute values, then click on *Save & Exit*. If you add multiple copies and they do not share the values in any item attributes, you may 
+If you add multiple copies and they do not share the values in one or more item attributes, you may temporarily store copies to  *Completed Copies* tab, while working on others.
 
-====
+. After you type in the barcode(s), copies are dispalyed under *Working Copies*. Select those copies that share all the item attributes. Fill up the item attributes for these copies. Click on *Store Selected*.
++
+image::images/cat/add-holdings-5.png[]
++
+ Selected copies are moved to *Completed Copies* tab.
++
+image::images/cat/add-holdings-6.png[]
++
+. Select item attribute values for the remaining copies. Once done, click on *Save & Exit*.
++
+. Completed copies can still be edited. Go to *Completed Copies* tab. Select those you want to edit, click on *Edit Selected*.
++
+image::images/cat/add-holdings-7.png[]
++
+. Selected copies are moved back to *Working Copies* tab. After editing is done, you may store them to *Completed Copies* tab or *Save & Exit*, when all copies are done. 
++
+. Copies can be saved on *Completed Copies* tab, too.
++
+image::images/cat/add-holdings-8.png[]
+
+* If you add multiple copies and they do not share the values in one or more item attributes, you may temporarily store coompleted copies, while working on others by selecting 
++
+
+
 refer to a test line with an anchor xref:test-anchor1-in-cat[].
 
 
