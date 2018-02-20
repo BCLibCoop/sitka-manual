@@ -12,7 +12,7 @@ image::images/cat/add-holdings-1.png[]
 +
 image::images/cat/add-holdings-2.png[]
 +
-TIP: Make sure your browser allows Evergreen to open pop-up. Otherwise there will be no response.
+CAUTION: Make sure your browser allows Evergreen to open pop-up. 
 +
 . Fill up the required fields in both volume and copy records.
 +
@@ -56,8 +56,7 @@ image::images/cat/add-holdings-7.png[]
 +
 image::images/cat/add-holdings-8.png[]
 
-* If you add multiple copies and they do not share the values in one or more item attributes, you may temporarily store coompleted copies, while working on others by selecting 
-+
+WARNING: Stored copies are *not* saved in the database. They are available on the Volume/Copy Creator only. If you close the tab without saving them, you will lose them.
 
 
 refer to a test line with an anchor xref:test-anchor1-in-cat[].
