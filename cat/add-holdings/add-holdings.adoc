@@ -10,30 +10,34 @@ image::images/cat/search-14.png[]
 . To add a new volume (also known as call number), click on *Add Volumes*.
 . The Volume/Copy creator opens up in a new tab. 
 +
-image::images/cat/search-14.png[]
+image::images/cat/search-15.png[]
 +
 TIP: Make sure your browser allows Evergreen to open pop-up. Otherwise there will be no response.
 +
 . Fill up the required fields in both volume and copy records.
 +
-image::images/cat/search-15.png[]
+image::images/cat/search-16.png[]
 +
-. Once done, click on *Save & Exit*.
+. Once done, click on *Save & Exit*. The pop-up tab is closed.
 
 [TIP]
 ====
 . Make sure the Owning Library is correct. If not, use the down-pointed arrow to display the library list to choose the correct one.
 . To add more than one volumes for the same library, use the arrow in the box underneath Volumes colume to increase the numnber. 
 . To create more than one copies for the same volume, use the arrow in the box under Copies colume in the line of the volume to increase the number.
-. To add volumes for other libraries, use the down-pointed arrow in the Owning Library box right above Working Copies button to list the libraries to choose. Click *Add Volume*.
+. To add volumes for other libraries, use the down-pointed arrow in the Owning Library box right above Working Copies button to list the libraries to choose one, then click on *Add Volume*.
 +
-image::images/cat/search-16.png[]
-+
-. After you fill up the barcode(s), copies are dispalyed under *Working Copies*. If you add only one copy, you may fill up the required item attribute values, then click on *Save & Exit*. If you add multiple copies and they do not share the values in any item attributes, you may 
-
-
+image::images/cat/search-17.png[]
 ====
 
+[TIP]
+====
+*Working Copies* and *Completed Copies*
+
+
+After you fill up the barcode(s), copies are dispalyed under *Working Copies*. If you add only one copy, you may fill up the required item attribute values, then click on *Save & Exit*. If you add multiple copies and they do not share the values in any item attributes, you may 
+
+====
 refer to a test line with an anchor xref:test-anchor1-in-cat[].
 
 
