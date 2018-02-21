@@ -1,13 +1,13 @@
 Adding Holdings to Title Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-. Search the catalogue for a record that matches the item in hand, as described in xref:_Searching_the_Database_for_Cataloguing_Purposes[]. If you do not find a match, refer to the Sitka Cataloguing Policy at  http://sitka.bclibraries.ca/governance/sitka-policy/ for recommendations on required procedures. If you do find a match, proceed to next step.
+. Search the catalogue for a record that matches the item in hand, as described in xref:_searching_the_database_for_cataloguing_purposes[]. If you do not find a match, refer to the Sitka Cataloguing Policy at  http://sitka.bclibraries.ca/governance/sitka-policy/ for recommendations on required procedures. If you do find a match, proceed to next step.
 
-. When the record details are loaded, click *Holings View*, if not the default view.
+. When the record details are loaded, click *Holdings View*, if not the default view.
 +
 image::images/cat/add-holdings-1.png[]
 +
-. To add a new volume (also known as call number), click on *Add Volumes*.
+. To add a new volume (also known as call number), click on *Add Volumes*, as shown in the above image.
 . The Volume/Copy creator opens up in a new tab. 
 +
 image::images/cat/add-holdings-2.png[]
@@ -23,31 +23,31 @@ image::images/cat/add-holdings-3.png[]
 [TIP]
 ====
 . Make sure the Owning Library is correct. If not, use the down-pointed arrow to display the library list to choose the correct one.
-
++
 . To add more than one volumes for the same library, use the arrow in the box underneath Volumes colume to increase the numnber. 
-
++
 . To create more than one copies for the same volume, use the arrow in the box under Copies colume in the line of the volume to increase the number.
-
++
 . To add volumes for other libraries, use the down-pointed arrow in the Owning Library box right above Working Copies button to list the libraries to choose one, then click on *Add Volume*.
 +
 image::images/cat/add-holdings-4.png[]
 ====
 
-Adding multiple copies
+Working on multiple copies
 ^^^^^^^^^^^^^^^^^^^^^^
 
 
 If you add multiple copies and they do not share the values in one or more item attributes, you may temporarily store copies to  *Completed Copies* tab, while working on others.
 
-. After you type in the barcode(s), copies are dispalyed under *Working Copies*. Select those copies that share all the item attributes. Fill up the item attributes for these copies. Click on *Store Selected*.
+. After you type in the barcode(s), copies are dispalyed under *Working Copies*. Select those copies that share all the item attribute values. Fill up the item attributes for these copies. Click on *Store Selected*.
 +
 image::images/cat/add-holdings-5.png[]
 +
 . Selected copies are moved to *Completed Copies* tab.
 +
-image::images/cat/add-holdings-6.png[]
-+
 . Select more copies on *Working Copies*. Fill up item attribute values for the them. Once done, sotre them to *Completed Copies* tab or click on *Save & Exit*, if all are done.
++
+image::images/cat/add-holdings-6.png[]
 +
 . Completed copies may be edited, too. Go to *Completed Copies* tab. Select those you want to edit, click on *Edit Selected*.
 +
