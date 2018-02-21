@@ -56,7 +56,7 @@ image::images/cat/add-holdings-7.png[]
 +
 image::images/cat/add-holdings-8.png[]
 
-WARNING: Stored copies are *not* saved in the database. They are available on the Volume/Copy Creator only. If you close the tab without saving them, you will lose them.
+WARNING: Stored copies are *not* saved in the database. They are available on the current Volume/Copy Creator only. If you close the browser tab without saving them, you will lose them.
 
 
 refer to a test line with an anchor xref:test-anchor1-in-cat[].
