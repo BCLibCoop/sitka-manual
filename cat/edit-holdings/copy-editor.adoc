@@ -1,7 +1,35 @@
-Copy Editor
-~~~~~~~~~~~
+Working on Copy Attributes
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This page is about the Copy Editor and should include the existing section 17 on Copy Alerts.
+https://www.youtube.com/watch?v=zIgen-2N4PI[Sitka Training Video - Copy Editor (6:17)]
 
+The *Copy Attributes* is where you fill in the values for item attributes. You will use it to create or edit items. Below tables provide detailed description of the fields in an item record.
 
+The *Copy Attributes* will display during the process of cataloguing a copy and can be accessed through *Holdings View* or from the *Item Status* screen by choosing *Edit Items* from the appropriate dropdown menu, or clicking on *Edit* beside the item barcode in holdings grid on record details screen.
+
+[options="header"]
+|===
+| Attribute | Description | Note |
+| Circulate? | |
+| Circulation Library |  |
+| Shelving Location |  |
+| Circulation Modifier |  |
+| Loan Duration |  |
+| Circulation as Type |  |
+| Holdable? |  |
+| Age-based Hold Protection |  |
+| Fine Level |  |
+| Floating |  |
+| Status |  |
+| Reference? |  |
+| OPAC Visible? |  |
+| Price |  |
+| Acquisition Cost |  |
+| Deposit? |  |
+| Deposit Amount |  |
+| Quality |  |
+| Copy Note |  |
+| Copy Tags |  |
+| Copy Alert |  |
+| Statistical Categories |  |
 
