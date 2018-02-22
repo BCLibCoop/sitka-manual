@@ -28,8 +28,8 @@ Adding multiple volumes
 
 . To add volumes for other libraries, use the down-pointed arrow in the Owning Library box right above Working Copies button to list the libraries to choose one, then click on *Add Volume*.
 +
-image::images/cat/add-holdings-4.png[]. 
-
+image::images/cat/add-holdings-4.png[] 
++
 . To create more than one copies for the same volume, use the arrow in the box under Copies colume in the line of the volume to increase the number.
 
 
@@ -39,7 +39,7 @@ image::images/cat/add-holdings-4.png[].
 +
 image::images/cat/add-holdings-9.png[]
 +
-. If all volumes share the same attributes, you may select the values in *Batch Apply* row, then click *Apply*.  The selected values will be filled into all volumes.
+. If all volumes share the same attributes, you may select the values in *Batch Apply* row, then click *Apply*.  The selected values will be filled into all volumes below.
 =====
 
 Working on multiple copies
