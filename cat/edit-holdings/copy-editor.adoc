@@ -9,9 +9,9 @@ The *Copy Attributes* will display during the process of cataloguing a copy and 
 
 [options="header"]
 |===
-| Attribute | Description | Note |
-| Circulate? | |
-| Circulation Library |  |
+| Attribute | Description | Note 
+| Circulate? |Indicates whether the item can circulate or not | Leave it as "YES", unless the item is with a circulating collection (shelving location), but should not be circulated. If the shelving location's Circulate? attribute is "NO", this field will have no effect. But the "NO" value in this field will block circulating when the shelving location's Circulate? is changed to "YES".
+| Circulation Library | Library currently circulating the item  
 | Shelving Location |  |
 | Circulation Modifier |  |
 | Loan Duration |  |
