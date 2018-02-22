@@ -20,21 +20,18 @@ image::images/cat/add-holdings-3.png[]
 +
 . Once done, click on *Save & Exit*. The pop-up tab is closed.
 
-[TIP]
-====
-. Make sure the Owning Library is correct. If not, use the down-pointed arrow to display the library list to choose the correct one.
-+
-. To add more than one volumes for the same library, use the arrow in the box underneath Volumes colume to increase the numnber. 
-+
-. To create more than one copies for the same volume, use the arrow in the box under Copies colume in the line of the volume to increase the number.
-+
-. To add volumes for other libraries, use the down-pointed arrow in the Owning Library box right above Working Copies button to list the libraries to choose one, then click on *Add Volume*.
-+
-image::images/cat/add-holdings-4.png[]
-====
-
 Adding multiple volumes
 ^^^^^^^^^^^^^^^^^^^^^^^
+
+. To add more than one volumes for the same library, use the arrow in the box underneath Volumes colume to increase the numnber. 
++
+
+. To add volumes for other libraries, use the down-pointed arrow in the Owning Library box right above Working Copies button to list the libraries to choose one, then click on *Add Volume*.
++
+image::images/cat/add-holdings-4.png[]. 
+
+. To create more than one copies for the same volume, use the arrow in the box under Copies colume in the line of the volume to increase the number.
+
 
 Working on multiple copies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
