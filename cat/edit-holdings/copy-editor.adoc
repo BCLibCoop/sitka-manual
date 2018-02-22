@@ -9,10 +9,10 @@ The *Copy Attributes* will display during the process of cataloguing a copy and 
 
 [options="header"]
 |===
-| Attribute | Description | Note 
+| Attribute | Description | Note
 | Circulate? |Indicates whether the item can circulate or not | Leave it as "YES", unless the item is with a circulating collection (shelving location), but should not be circulated. If the shelving location's Circulate? attribute is "NO", this field will have no effect. But the "NO" value in this field will block circulating when the shelving location's Circulate? is changed to "YES".
-| Circulation Library | Library currently circulating the item  
-| Shelving Location |  |
+| Circulation Library | Library currently circulating the item 
+| Shelving Location |  | Shelving locations belonging to the working location and the organizations on a higher hierarchal level (library system, federation, or Sitka) are displayed in the dropdown list. Multi-branch libraries may create system level shelving locations for all branches to share.
 | Circulation Modifier |  |
 | Loan Duration |  |
 | Circulation as Type |  |
