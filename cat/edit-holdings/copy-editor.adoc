@@ -11,25 +11,25 @@ The *Copy Attributes* will display during the process of cataloguing a copy and 
 |===
 | Attribute | Description | Note
 | Circulate? |Indicates whether the item can circulate or not | Leave it as "YES", unless the item is with a circulating collection (shelving location), but should not be circulated. If the shelving location's Circulate? attribute is "NO", this field will have no effect. But the "NO" value in this field will block circulating when the shelving location's Circulate? is changed to "YES".
-| Circulation Library | Library currently circulating the item 
+| Circulation Library | Library currently circulating the item | 
 | Shelving Location |  | Shelving locations belonging to the working location and the organizations on a higher hierarchal level (library system, federation, or Sitka) are displayed in the dropdown list. Multi-branch libraries may create system level shelving locations for all branches to share.
-| Circulation Modifier |  |
-| Loan Duration |  |
-| Circulation as Type |  |
-| Holdable? |  |
-| Age-based Hold Protection |  |
-| Fine Level |  |
-| Floating |  |
-| Status |  |
-| Reference? |  |
-| OPAC Visible? |  |
-| Price |  |
-| Acquisition Cost |  |
-| Deposit? |  |
-| Deposit Amount |  |
-| Quality |  |
+| Circulation Modifier | An identifier used for applying circulation policies and/or statistical purposes |A shared list of circulation modifiers displays in the dropdown list for all libraries. Each library selects circulation modifiers to use and for each selected circulation modifier the library may define its own circulation policy.
+| Loan Duration | Indicates whether an item uses the Short, Normal, or Long loan duration attached to its circulation modifier or shelving location set up in the circulation policy. | Each circulation modifier/shelving location may have three loan durations, corresponding to these three values. Use 'Normal' if only one loan period is used. Please contact Co-op support if you need multiple loan durations for one circulation modifier/shelving location.
+| Circulation as Type |  | Circulation policy may be controlled by the media type in MARC records. when media type is used, this field can be used to override the MARC media type for individual items. It can also be used for statistics purpose.
+| Holdable? | Indicates whether the item is holdable or not | Leave it as "YES", unless the item is with a holdable collection (shelving location), but holds should not be allowed on this particular item. If shelving location's Holdable? is "NO", this field will have no effect. But the "NO" value in this field will block holds when shelving location's Holdable? is "YES".
+| Age-based Hold Protection | Allows libraries to restrict holds to be picked up at a range of libraries | Sitka provides two sets of rules: x_month_within_single_branch and x_month_among_multi_branch. The former allows holds to be picked up at the item's circulating library only for x months, while the latter at libraries sharing the same parent with the circulating library, e.g. all branches of a library system or all single-branch libraries within a federation. In general, use the former if you are a single_branch library and want to restrict holds to your own library, or if you are a branch of a multi-branch library system and want to keep the holds at your own branch. Use the latter if you are a multi-branch library system and allow items to fill holds picked up at all your branches, but not to go out of your system. 
+| Fine Level | Indicates whether an item uses the Low, Normal, or High fine level attached to its circulation modifier or shelving location set up in the circulation policy. | Each circulation modifier/shelving location may have three fine levels, corresponding to these three values. Use 'Normal' if only one fine level is used. Please contact Co-op support if you need multiple fine levels for one circulation modifier/shelving location.
+| Floating | Indicates whether an item  belonging to a floating group | This functionality must be configured by Sitka. If Sitka has not configured floating groups for you, leave the field blank.
+| Status | Current status of the item | By default a new copy record is assigned a status of In Process. Item must be checked in to become Available or cataloguer can choose to change status to Available when a creating copy record. Some statuses, such as Checked Out and On Holds Shelf, are not editable. They can only be used by circulation functions.
+| Reference? |  | This flag can be used for setting up circulation policies or statistics purpose.
+| OPAC Visible? | Indicates whether the item is visible in the public catalogue | Leave it as 'YES', unless the item is with an OPAC visible collection (shelving location), but should not be displayed on OPAC. If OPAC Visible? is "NO" for the shelving location, this field will have no effect. But the "NO" value in this field will hide the item, if OPAC Visible? is "YES" for the shelving location.
+| Price | Item's listing price | 
+| Acquisition Cost | The actual amount of money paid for the item | Billed amount in Acquisitions moduel
+| Deposit? | Indicates whether the checking out item requires a deposit or not |
+| Deposit Amount | Amount required as a deposit for the item | When the item is checked out a bill for this amount is automatically created in the patron account.
+| Quality | Indicates the quality of the item | Quality is used to determine whether an item can be used to fill a hold. By default, only Good items will be used to fill holds. Co-op support strongly recommends leaving the quality of the item as Good for all items, unless you want to block holds on the item.
 | Copy Note |  |
 | Copy Tags |  |
-| Copy Alert |  |
-| Statistical Categories |  |
+| Copy Alert | This message will show up when the item is retrieved or checked in or out |
+| Statistical Categories | copy statistical categories created by your library or federation | Use the dropdown list to choose which organization's entries to display.
 
