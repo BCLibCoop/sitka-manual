@@ -7,7 +7,7 @@ include::edit-holdings/volume-copy-default.adoc[Volume Copy Default]
 
 include::edit-holdings/edit-holdings.adoc[Editing Holdings]
 
-include::edit-holdings/copy-template.adoc[Copy Templates]
+include::edit-holdings/copy-template.adoc[Volume Copy Templates]
 
 include::edit-holdings/batch-update.adoc[Batch Updating via Item Status Screen]
 
