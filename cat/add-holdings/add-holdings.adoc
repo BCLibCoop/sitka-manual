@@ -14,7 +14,7 @@ image::images/cat/add-holdings-2.png[]
 +
 CAUTION: Make sure your browser allows Evergreen to open pop-up. 
 +
-. Fill up the required fields in both volume and copy records. Refer to xref:_working_on_copy_attributes[] for information about individual fields in a copy record. T0 ensure data integrity, using copy template is recommended. Select one from the dropdown list, then click on *Apply*. Refer to xref:_/voume/copy_templates[] for more information.
+. Fill up the required fields in both volume and copy records. Refer to xref:_working_on_copy_attributes[] for information about individual fields in a copy record. To ensure data integrity, using copy template is recommended. Select one from the dropdown list, then click on *Apply*. Refer to xref:_/voume/copy_templates[] for more information.
 +
 image::images/cat/add-holdings-3.png[]
 +
@@ -29,7 +29,9 @@ image::images/cat/add-holdings-3.png[]
 +
 image::images/cat/add-holdings-9.png[]
 +
-. You may configure the default displayed fields in volume and/or copy records. See xref:_volume/copy_defaults[]
+. You may configure the default displayed fields in volume/copy editor. Click on *Default* on volume/copy editor. See xref:_volume/copy_defaults[] for more information.
++
+image::images/cat/add-holdings-10.png[]
 
 Adding multiple volumes
 ^^^^^^^^^^^^^^^^^^^^^^^

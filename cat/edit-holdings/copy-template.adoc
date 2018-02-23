@@ -1,6 +1,6 @@
 Volume/Copy Templates
 ~~~~~~~~~~~~~~
 
-This page is about copy templates.
+Volume/Copy templates allow you to set up default values for selected item attributes. For example, all adult fiction items use the same shelving location and circulation modifier. You may set up a copy template for adult fiction with the appropriate shelving location and circulation modifier values. When you apply this template, the two fields will be automatically filled with the default values. Use of templates enhances item creation and helps ensure consistency in records.
 
 
