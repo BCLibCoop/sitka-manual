@@ -8,7 +8,7 @@ Adding Holdings to Title Records
 image::images/cat/add-holdings-1.png[]
 +
 . To add a new volume (also known as call number), click on *Add Volumes*, as shown in the above image.
-. The Volume-Copy creator opens up in a new tab. 
+. The Volume Copy creator opens up in a new tab. 
 +
 image::images/cat/add-holdings-2.png[]
 +
@@ -29,7 +29,7 @@ image::images/cat/add-holdings-3.png[]
 +
 image::images/cat/add-holdings-9.png[]
 +
-. You may configure the default displayed fields in volume-copy editor. Click on *Default* on volume-copy editor. See xref:_volume-copy_defaults[] for more information.
+. You may configure the default displayed fields in volume copy editor. Click on *Default* on volume copy editor. See xref:_volume_copy_defaults[] for more information.
 +
 image::images/cat/add-holdings-10.png[]
 
@@ -80,7 +80,7 @@ image::images/cat/add-holdings-7.png[]
 +
 image::images/cat/add-holdings-8.png[]
 
-WARNING: Stored copies on *Completed Copies* tab are *not* saved in the database. They are available on the current Volume-Copy Creator only. If you close the browser tab without saving them, you will lose them.
+WARNING: Stored copies on *Completed Copies* tab are *not* saved in the database. They are available on the current Volume Copy Creator only. If you close the browser tab without saving them, you will lose them.
 
 
 
