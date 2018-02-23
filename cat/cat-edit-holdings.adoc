@@ -2,6 +2,7 @@ Maintaining Holdings
 --------------------
 
 include::edit-holdings/copy-editor.adoc[Copy Editor]
+include::edit-holdings/volume-copy-default.adoc[Copy Editor]
 
 include::edit-holdings/edit-holdings.adoc[Editing Holdings]
 
