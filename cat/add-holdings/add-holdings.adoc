@@ -1,7 +1,7 @@
 Adding Holdings to Title Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-. Search the catalogue for a record that matches the item in hand, as described in xref:_searching_the_database_for_cataloguing_purposes[]. If you do not find a match, refer to the Sitka Cataloguing Policy at  http://sitka.bclibraries.ca/governance/sitka-policy/ for recommendations on required procedures. If you do find a match, proceed to next step.
+. Search the catalogue for a record that matches the item in hand, as described in xref:_searching_the_database_for_cataloguing_purposes[]. If you do not find a match, refer to the  http://sitka.bclibraries.ca/governance/sitka-policy/[Sitka Cataloguing Policy] for recommendations on required procedures. If you do find a match, proceed to next step.
 
 . When the record details are loaded, click *Holdings View*, if not the default view.
 +
@@ -23,14 +23,14 @@ image::images/cat/add-holdings-3.png[]
 Adding multiple volumes
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-. To add more than one volumes for the same library, use the arrow in the box underneath Volumes colume to increase the numnber. 
+. To add more than one volumes for the same library, use the arrow in the box underneath *Volumes* colume to increase the numnber. 
 +
 
-. To add volumes for other libraries, use the down-pointed arrow in the Owning Library box right above Working Copies button to list the libraries to choose one, then click on *Add Volume*.
+. To add volumes for other libraries, use the down-pointed arrow in the *Owning Library* box right above *Working Copies* to list the libraries to choose one, then click on *Add Volume*.
 +
 image::images/cat/add-holdings-4.png[] 
 +
-. To create more than one copies for the same volume, use the arrow in the box under Copies colume in the line of the volume to increase the number.
+. To create more than one copies for the same volume, use the arrow in the box under *Copies* colume in the line of the volume you want to increase the number of copies.
 
 
 [TIP]
@@ -46,9 +46,9 @@ Working on multiple copies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
-If you add multiple copies and they do not share the values in one or more item attributes, you may temporarily store copies to  *Completed Copies* tab, while working on others.
+If you add multiple copies and they do not share the values in one or more item attributes, you may select to work on those that share item attributes first, temporarily store them to *Completed Copies* tab, then work on next batch of items sharing the same attributes. Save and exit when all copies are done.
 
-. After you type in the barcode(s), copies are dispalyed under *Working Copies*. Select those copies that share all the item attribute values. Fill up the item attributes for these copies. Click on *Store Selected*.
+. After you type in the barcode(s), copies are dispalyed under *Working Copies*. Select those copies that share the same item attribute values. Fill up the item attributes for these copies. Click on *Store Selected*.
 +
 image::images/cat/add-holdings-5.png[]
 +
@@ -58,11 +58,11 @@ image::images/cat/add-holdings-5.png[]
 +
 image::images/cat/add-holdings-6.png[]
 +
-. Completed copies may be edited, too. Go to *Completed Copies* tab. Select those you want to edit, click on *Edit Selected*.
+. Completed copies may be edited. Go to *Completed Copies* tab. Select those you want to edit, click on *Edit Selected*.
 +
 image::images/cat/add-holdings-7.png[]
 +
-. Selected copies are moved back to *Working Copies* tab. After editing is done, you may store them to *Completed Copies* tab or *Save & Exit*, when all copies are done. 
+. Selected copies are moved back to *Working Copies* tab. You may edit them. After editing is done, you may store them to *Completed Copies* tab or *Save & Exit*, when all copies are done. 
 +
 . You may *Save & Exit* from *Completed Copies* tab.
 +
@@ -71,7 +71,7 @@ image::images/cat/add-holdings-8.png[]
 WARNING: Stored copies on *Completed Copies* tab are *not* saved in the database. They are available on the current Volume/Copy Creator only. If you close the browser tab without saving them, you will lose them.
 
 
-refer to a test line with an anchor xref:test-anchor1-in-cat[].
+
 
 
 
