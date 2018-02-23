@@ -5,7 +5,7 @@ include::edit-holdings/copy-editor.adoc[Copy Editor]
 
 include::edit-holdings/edit-holdings.adoc[Editing Holdings]
 
-include::edit-holdings/copy-editor.adoc[Copy Templates]
+include::edit-holdings/copy-template.adoc[Copy Templates]
 
 include::edit-holdings/batch-update.adoc[Batch Updating via Item Status Screen]
 

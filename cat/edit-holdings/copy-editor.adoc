@@ -24,7 +24,7 @@ The *Copy Attributes* will display during the process of cataloguing a copy and 
 | Reference? |  | This flag can be used for setting up circulation policies or statistics purpose.
 | OPAC Visible? | Indicates whether the item is visible in the public catalogue | Leave it as 'YES', unless the item is with an OPAC visible collection (shelving location), but should not be displayed on OPAC. If OPAC Visible? is "NO" for the shelving location, this field will have no effect. But the "NO" value in this field will hide the item, if OPAC Visible? is "YES" for the shelving location.
 | Price | Item's listing price | 
-| Acquisition Cost | The actual amount of money paid for the item | Billed amount in Acquisitions moduel
+| Acquisition Cost | The actual amount of money paid for the item | Billed amount in Acquisitions module
 | Deposit? | Indicates whether the checking out item requires a deposit or not |
 | Deposit Amount | Amount required as a deposit for the item | When the item is checked out a bill for this amount is automatically created in the patron account.
 | Quality | Indicates the quality of the item | Quality is used to determine whether an item can be used to fill a hold. By default, only Good items will be used to fill holds. Co-op support strongly recommends leaving the quality of the item as Good for all items, unless you want to block holds on the item.

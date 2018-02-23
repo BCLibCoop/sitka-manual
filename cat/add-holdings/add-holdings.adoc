@@ -14,11 +14,13 @@ image::images/cat/add-holdings-2.png[]
 +
 CAUTION: Make sure your browser allows Evergreen to open pop-up. 
 +
-. Fill up the required fields in both volume and copy records. Refer to xref:_working_on_copy_attributes[] for information about individual fields in copy record.
+. Fill up the required fields in both volume and copy records. Refer to xref:_working_on_copy_attributes[] for information about individual fields in a copy record. Tn ensure data integrity, using copy template is recommended. Select one from the dropdown list, then click on *Apply*. Refer to xref:_copy_templates[] for more information.
 +
 image::images/cat/add-holdings-3.png[]
 +
-. Once done, click on *Save & Exit*. The pop-up tab is closed.
+. Once done, click on *Save & Exit*. The pop-up tab is closed. Use the browser function key to refresh the screen to see new items.
+
+TIP: By default, a new item has In Process status, unless you choose a different one when creating it. Item must be checked in to become Available. Item's *Active Date* will be filled when it leaves In Process status.
 
 Adding multiple volumes
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -54,7 +56,7 @@ image::images/cat/add-holdings-5.png[]
 +
 . Selected copies are moved to *Completed Copies* tab.
 +
-. Select more copies on *Working Copies*. Fill up item attribute values for the them. Once done, sotre them to *Completed Copies* tab or click on *Save & Exit*, if all are done.
+. Select more copies on *Working Copies*. Fill up the required fields. Once done, sotre them to *Completed Copies* tab or click on *Save & Exit*, if all are done.
 +
 image::images/cat/add-holdings-6.png[]
 +
