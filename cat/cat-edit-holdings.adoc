@@ -3,11 +3,11 @@ Maintaining Holdings
 
 include::edit-holdings/copy-editor.adoc[Volume Copy Editor]
 
-include::edit-holdings/volume-copy-default.adoc[Volume Copy Default]
+include::edit-holdings/volume-copy-default.adoc[Volume Copy Defaults]
 
 include::edit-holdings/edit-holdings.adoc[Editing Holdings]
 
-include::edit-holdings/copy-template.adoc[Volume Copy Templates]
+include::edit-holdings/copy-template.adoc[Volume Copy Template]
 
 include::edit-holdings/batch-update.adoc[Batch Updating via Item Status Screen]
 
