@@ -14,4 +14,15 @@ image::images/cat/copy-template-1.png[]
 +
 . Type in a name for the template. Click on *Save*. 
 
-TIP: If you choose to allow call number attributes be included in copy template, you will be able set up classification scheme and call number prefixes for the template, as shown in the above screenshot. When the template is applied, these attributes will be applied to the call number.
+[TIP]
+====
+If you choose to allow call number attributes be included in copy template, you will be able set up classification scheme and call number prefixes for the template, as shown in the above screenshot. When the template is applied, these attributes will be applied to the call number. Refer to xref:_volume_copy_defaults[] for how to allow call number attributes be included in copy template.
+====
+
+. When go to Volume Copy Editor again, you will see the newly created template listed in the *Template* dropdown list.
++
+image::images/cat/copy-template-1.png[]
++
+. To use is, select it, then click on *Apply*.
+
+
