@@ -25,10 +25,6 @@ image::images/cat/add-holdings-3.png[]
 =====
 . By default, a new item has In Process status, unless you choose a different one when creating it. Item must be checked in to become Available. Item's *Active Date* will be filled when it leaves In Process status.
 +
-. You may hide/display Volume and/or Copy Attributes by coordinating the two Hide/Show buttons shown in the screenshot below. 
-+
-image::images/cat/add-holdings-9.png[]
-+
 . You may configure the default displayed fields in volume copy editor. Click on *Default* on volume copy editor. See xref:_volume_copy_defaults[] for more information.
 +
 image::images/cat/add-holdings-10.png[]
