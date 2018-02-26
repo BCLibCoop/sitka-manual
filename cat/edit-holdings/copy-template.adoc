@@ -8,14 +8,14 @@ Creating Volume Copy Template
 
 . You can create a volume copy template directly under *Admin -> Local Administration -> Volume/Copy Template Editor* or  you can create a copy template when creating a new item or editing an existing item record.
 +
-image::/cat/copy-template-3.png[]
+image::images/cat/copy-template-3.png[]
 +
 . On Volume Copy Editor, select/enter value for each required item attribute sharing the same default value.
 +
 image::images/cat/copy-template-1.png[]
 +
 . Type in a name for the template. Click on *Save*. 
-
++
 [TIP]
 ====
 If you choose to allow call number attributes to be included in copy template, you will be able set up classification scheme and call number prefixes for the template, as shown in the above screenshot. When the template is applied, these attributes will be applied to the call number. Refer to xref:_volume_copy_defaults[] for how to allow call number attributes to be included in copy template.
