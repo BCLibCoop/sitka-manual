@@ -50,8 +50,8 @@ image::images/cat/copy-template-2.png[]
  . Evergreen prompts for locating the templates file to be loaded. Click *Open*. 
  +
  image::images/cat/copy-template-7[]
- +
- . 
+
+ 
  [TIP]
  =====
  When importing copy templates, existing templates will be kept, new ones will be added to them. Templates sharing the same name will be overlaid.
