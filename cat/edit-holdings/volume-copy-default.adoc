@@ -10,6 +10,7 @@ image::images/cat/volume-copy-default-1.png[]
 . Select/deselect the fields you want to enable/disable. Once done, close the tab.
 +
 image::images/cat/volume-copy-default-2.png[]
+
 . When you load the volume copy editor again, you will see those deselected fields are disabled. You can not edit them.
 +
 image::images/cat/volume-copy-default-3.png[]
