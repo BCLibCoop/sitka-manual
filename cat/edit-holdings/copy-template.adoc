@@ -32,7 +32,7 @@ Sharing Volume Copy Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  
  
- Templates are saved on Evergreen server, but only viewable by the staff account that created them.  To share templates with other staff, you will need to export them and the other staff to load them into their accounts.
+Templates are saved on Evergreen server, but only viewable by the staff account that created them.  To share templates with other staff, you will need to export them and the other staff to load them into their accounts.
  
  
  . To export copy templates, click on *Export* on Volume Copy Template Editor.
@@ -53,10 +53,10 @@ Sharing Volume Copy Template
  image::images/cat/copy-template-7[]
 
  
- [TIP]
- =====
- When importing copy templates, existing templates will be kept, new ones will be added to them. Templates sharing the same name will be overlaid.
- ====
+[TIP]
+=====
+When importing copy templates, existing templates will be kept, new ones will be added to them. Templates sharing the same name will be overlaid.
+====
  
  
  
