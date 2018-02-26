@@ -25,7 +25,7 @@ image::images/cat/add-holdings-3.png[]
 =====
 . By default, a new item has In Process status, unless you choose a different one when creating it. Item must be checked in to become Available. Item's *Active Date* will be filled when it leaves In Process status.
 +
-. You may configure the default displayed fields in volume copy editor. Click on *Default* on volume copy editor. See xref:_volume_copy_defaults[] for more information.
+. You may configure the default displayed fields in volume copy editor. Click on *Defaults* on volume copy editor. See xref:_volume_copy_defaults[] for more information.
 +
 image::images/cat/add-holdings-10.png[]
 =====
@@ -44,11 +44,11 @@ image::images/cat/add-holdings-4.png[]
 
 [TIP]
 =====
-. You may hide/display Volume and/or Copy Attributes by coordinating the two Hide/Show buttons shown in the screenshot below. 
+. You may hide/display Volume and/or Copy Attributes by coordinating the two Hide/Show buttons shown below. 
 +
 image::images/cat/add-holdings-9.png[]
 +
-. If all volumes share the same attributes, you may select the values in *Batch Apply* row, then click *Apply*.  The selected values will be filled into all volumes below.
+. If all volumes share the same attributes, you may select the values in *Batch Apply* row, then click *Apply*.  The selected values will be filled into all volumes.
 =====
 
 Working on multiple copies
@@ -73,11 +73,11 @@ image::images/cat/add-holdings-7.png[]
 +
 . Selected copies are moved back to *Working Copies* tab. You may edit them. After editing is done, you may store them to *Completed Copies* tab or *Save & Exit*, when all copies are done. 
 +
-. You may *Save & Exit* from *Completed Copies* tab.
+. You may save copies on *Completed Copies* tab or *Save & Exit* from *Completed Copies* tab. When you choose to *Save Completed*, copies records are created in the database, but they remain on *Completed Copies* tab.
 +
 image::images/cat/add-holdings-8.png[]
 
-WARNING: Stored copies on *Completed Copies* tab are *not* saved in the database. They are available on the current Volume Copy Creator only. If you close the browser tab without saving them, you will lose them.
+WARNING: Stored copies on *Completed Copies* tab are *not* saved in the database until you click on *Save & Exit* or *Save Completed*. They are available on the current Volume Copy Creator only. If you close the browser tab without saving them, you will lose them.
 
 
 
