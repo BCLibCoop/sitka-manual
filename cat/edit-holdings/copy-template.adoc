@@ -1,13 +1,15 @@
 Volume Copy Template
 ~~~~~~~~~~~~~~~~~~~~~
 
-Volume Copy templates allow you to set up default values for selected voume and item attributes. For example, all adult fiction items use the same shelving location and circulation modifier. You may set up a copy template for adult fiction with the appropriate shelving location and circulation modifier values. When you apply this template, the two fields will be automatically filled with the default values. Use of templates enhances item creation and helps ensure consistency in records.
+Volume Copy templates allow you to set up default values for selected volume and item attributes. For example, all adult fiction items use the same shelving location and circulation modifier. You may set up a copy template for adult fiction with the appropriate shelving location and circulation modifier values. When you apply this template, the two fields will be automatically filled with the default values. Use of templates enhances item creation and helps ensure consistency in records.
 
 Creating Volume Copy Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . You can create a volume copy template directly under *Admin -> Local Administration -> Volume/Copy Template Editor* or  you can create a copy template when creating a new item or editing an existing item record.
-
++
+image::/cat/copy-template-3.png[]
++
 . On Volume Copy Editor, select/enter value for each required item attribute sharing the same default value.
 +
 image::images/cat/copy-template-1.png[]
@@ -19,10 +21,41 @@ image::images/cat/copy-template-1.png[]
 If you choose to allow call number attributes be included in copy template, you will be able set up classification scheme and call number prefixes for the template, as shown in the above screenshot. When the template is applied, these attributes will be applied to the call number. Refer to xref:_volume_copy_defaults[] for how to allow call number attributes be included in copy template.
 ====
 
-. When go to Volume Copy Editor again, you will see the newly created template listed in the *Template* dropdown list.
+. When you go to Volume Copy Editor again, you will see the newly created template listed in the *Template* dropdown list.
 +
-image::images/cat/copy-template-1.png[]
+image::images/cat/copy-template-2.png[]
 +
 . To use it, select it, then click on *Apply*.
 
 
+ Sharing Volume Copy Template
+ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+ Templates are saved on Evergreen server, but only viewable by the staff account that created them.  To share templates with other staff, you will need to export them and the other staff to load them into their accounts.
+ 
+ . To export copy templates, click on *Export* on Volume Copy Template Editor.
+ +
+ image::/cat/copy-template-4[]
+ +
+ . You are prompted to specify a folder to keep the template. Click *Save* once done.
+ +
+ image::/cat/copy-template-5[]
+ +
+ . Copy or email the file to the staff who wants to load the templates.
+ . The staff opens Volme Copy Template Editor on her/his workstation. Click on *Import*.
+ +
+ image::/cat/copy-template-6[]
+ +
+ . Evergreen prompts for locating the templates file to be loaded. Click *Open*. 
+ +
+ image::/cat/copy-template-7[]
+ +
+ . 
+ [TIP]
+ =====
+ When importing copy templates, existing templates will be kept, new ones will be added to them. Templates sharing the same name will be overlaid.
+ ====
+ 
+ 
+ 
+ 
