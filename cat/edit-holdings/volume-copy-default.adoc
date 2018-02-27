@@ -15,5 +15,8 @@ image::images/cat/volume-copy-default-2.png[]
 +
 image::images/cat/volume-copy-default-3.png[]
 
-
+[TIP]
+====
+If you wish to print spine and/or pocket labels when saving copy records, select *Print Item Labels on Save & Exit* checkbox. You will be directed to the spine label printing screen when clicking on *Save & Exit* on volume copy editor.
+====
 
