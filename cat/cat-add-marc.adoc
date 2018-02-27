@@ -3,6 +3,7 @@ Add Bibliographic Records
 
 When there is no matching MARC record for your item, you may import one from the Z39.50 sources or the files supplied by your vendors. Or you may create a new MARC record if you can not find one from other sources.
 
-include::search/advanced-numeric.adoc[Advanced/Numeric Search]
-
-include::search/marc-expert.adoc[MARC Expert Search] 
+include::marc-z39.adoc[Import Bibliographic Records via Z39.50 Interface]
+include::marc-vandelay.adoc[Batch Import Bibliographic Records]
+include::marc-new.adoc[Create New Bibliographic Records]
+include::marc-nonphysical.adoc[Cataloguing Non-physical Resources]
