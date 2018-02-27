@@ -9,7 +9,7 @@ image::images/cat/new-copy-hold-1.png[]
 +
 . If there are outstanding hold requests, select the hold that is next in line then click  *Actions -> Find Another Target*. This forces Evergreen to re-target the hold and recognize the newly catalogued item.
 +
-image::images/cat/new-copy-hold-2[]
+image::images/cat/new-copy-hold-2.png[]
 +
 . Check in the new item to capture it for the selected hold.
 
