@@ -13,6 +13,6 @@ image::images/cat/new-copy-hold-2[]
 +
 . Check in the new item to capture it for the selected hold.
 
-anchor:test-anchor-1 [test anchor]
+anchor:test-anchor-1[test anchor]
 
 xref:test-anchor-1[]
