@@ -1,5 +1,7 @@
 Import Bibliographic Records via Z39.50 Interface
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-xref:https://www.youtube.com/watch?v=nkjOfMfUyFc[]
+https://www.youtube.com/watch?v=nkjOfMfUyFc[Sitka Training Video - Z39.50 (5:20)]
+
+It is good practice and Sitka policy to check the Evergreen database for existing records before importing a record. You may search the catalogue first. Or you can configure the Z39.50 screen to search the Evergreen database as well as Z39.50 targets at once. If searching Evergreen via the Z39.50 screen and you find a record, it is best practice and Sitka policy to then find that record in the catalogue and attach your holdings to it. If you have confirmed that there is no record in Evergreen that matches the item in your hand, but have found a record in another database, simply import the new record into Evergreen and then attach holdings.
 
