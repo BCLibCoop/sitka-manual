@@ -9,18 +9,18 @@ It is good practice and Sitka policy to check the Evergreen database for existin
 Import Bibliographic Records via Z39.50
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. To access Z39.50 interface, select Cataloguing -> Import Record from Z39.50.
+. To access Z39.50 interface, select *Cataloguing -> Import Record from Z39.50*.
 +
 image::images/cat/z39-1.png[]
-. Select single or multiple pre-configured Z39.50 targets from the list. Note that most free targets do not have a User name or Password field. Some free targets and the subscription services held by some Sitka libraries require login. Once you have made your choices, click Save as Default to save the services you usually search and any user names and passwords you have entered. They will be automatically selected the next time you open the Z39.50 screen.
+. Select single or multiple pre-configured Z39.50 targets from the list. Note that most free targets do not have a User name or Password field. Some free targets and the subscription services held by some Sitka libraries require login. Once you have made your choices, click *Save as Default* to save the services you usually search and the user names and passwords you have entered. They will be automatically selected the next time you open the Z39.50 screen.
 +
 image::images/cat/z39-2.png[]
 +
-. Fill in preferred search criteria and click Search. Note that the active search fields will change depending on the targets you select. Different targets may support different search types. For instance, Keyword and Subject will only be active if the local catalogue is selected. When you select multiple targets to search, an active box may apply to only one target.
+. Fill in preferred search criteria and click *Search*. Note that the active search fields will change depending on the targets you select. Different targets may support different search types. For instance, Keyword and Subject will only be active if the local catalogue is selected. When you select multiple targets to search, an active box may apply to only one target.
 +
 image::images/cat/z39-3.png[]
 +
-. Search results are displayed in the lower pane. You may hide the top pane to make more space for the result list or simply scroll down. Information about each retrieved record appears on a separate summary line, with various columns of information.  The *Service* column indicates where the record was found. If "native-evergreen-catalog" is listed in this column, the record is in Evergreen. You may go to next page, if applicable.You may view MARC records, choose to import or overlay MARC records. This example demonstrates importing a record.
+. Search results are displayed in the lower pane. You may hide the top pane to bring up the result list or simply scroll down to it. Information about each retrieved record appears on a separate summary line, with various columns of information.  The *Service* column indicates where the record was found. If "native-evergreen-catalog" is listed in this column, the record is in Evergreen. You may go to next page, if applicable.You may view MARC records, choose to import or overlay MARC records. This example demonstrates importing a record.
 +
 image::images/cat/z39-4.png[]
 +
