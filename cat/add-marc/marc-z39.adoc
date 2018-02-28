@@ -16,4 +16,38 @@ image::images/cat/z39-1.png[]
 +
 image::images/cat/z39-2.png[]
 +
+. Fill in preferred search criteria and click Search. Note that the active search fields will change depending on the targets you select. Different targets may support different search types. For instance, Keyword and Subject will only be active if the local catalogue is selected. When you select multiple targets to search, an active box may apply to only one target.
++
+image::images/cat/z39-3.png[]
++
+. Search results are displayed in the lower pane. You may hide the top pane to make more space for the result list or simply scroll down. Information about each retrieved record appears on a separate summary line, with various columns of information.  The *Service* column indicates where the record was found. If "native-evergreen-catalog" is listed in this column, the record is in Evergreen. You may go to next page, if applicable.You may view MARC records, choose to import or overlay MARC records. This example demonstrates importing a record.
++
+image::images/cat/z39-4.png[]
++
+image::images/cat/z39-5.png[]
++
+. To import a record, choose the record from the results list that you would like to import. You should view the record first by clicking on *MARC View*.  MARC record is displayed in a pop-up window. If a cover image is available, it will display as well. When you are sure you have chosen the correct record to import, click *Import*, if you do not want to edit the record or edit it after importing. The record is imported. A pop-up window shows up with the new record ID and a link to it in the catalogue. You may choose *Go to Record* to add holdings.
++
+image::images/cat/z39-6.png[]
++ 
+. You may also choose to *Edit then Import* a record. The MARC is displayed in a pop-up window. You may edit the MARC record, then click on *Import*.
++
+image::images/cat/z39-7.png[]
++
+. The Import Record window remains open. You may continue to edit the record. Click *Save* once done editing. Click on *Go to Imported Record* to add holdings.
++
+image::images/cat/z39-8.png[]
++
+. You may also choose to add an item by selecting the *Add Item* checkbox Import Record screen. Type in a call number and barcode, then click *Import* or *Save* if record has been imported already. 
++
+image::images/cat/z39-9.png[]
++
+. Volume Copy Editor opens in a new tab. You may continue to finish the holdings.
+
+
+
+
++
 . 
+
+
