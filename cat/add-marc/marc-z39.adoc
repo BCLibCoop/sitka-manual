@@ -11,6 +11,9 @@ Import Bibliographic Records via Z39.50
 
 . To access Z39.50 interface, select Cataloguing -> Import Record from Z39.50.
 +
+image::images/cat/z39-1.png[]
 . Select single or multiple pre-configured Z39.50 targets from the list. Note that most free targets do not have a User name or Password field. Some free targets and the subscription services held by some Sitka libraries require login. Once you have made your choices, click Save as Default to save the services you usually search and any user names and passwords you have entered. They will be automatically selected the next time you open the Z39.50 screen.
 +
-image::images/cat/z39-1.png[]
+image::images/cat/z39-2.png[]
++
+. 
