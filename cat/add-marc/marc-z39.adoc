@@ -26,7 +26,7 @@ image::images/cat/z39-4.png[]
 +
 image::images/cat/z39-5.png[]
 +
-. To import a record, choose the record from the results list that you would like to import. You should view the record first by clicking on *MARC View*.  MARC record is displayed in a pop-up window. If a cover image is available, it will display as well. When you are sure you have chosen the correct record to import, click *Import*, if you do not want to edit the record or edit it after importing. The record is imported. A pop-up window shows up with the new record ID and a link to it in the catalogue. You may choose *Go to Record* to add holdings.
+. To import a record, choose the record from the results list that you would like to import. You should view the record first by clicking on *View MARC*.  MARC record is displayed in a pop-up window. If a cover image is available, it will display as well. When you are sure you have chosen the correct record to import, click *Import*, if you do not want to edit the record or edit it after importing. The record is imported. A pop-up window shows up with the new record ID and a link to it in the catalogue. You may choose *Go to Record* to add holdings.
 +
 image::images/cat/z39-6.png[]
 + 
@@ -44,10 +44,27 @@ image::images/cat/z39-9.png[]
 +
 . Volume Copy Editor opens in a new tab. You may continue to finish the holdings.
 
+[TIP]
+====
+Sitka has profiled certain fields, primarily 9xx fields, to be automatically stripped when records are imported through Z39.50. The default fields that are stripped are 906, 923, 925, 936, 948, 955, 959, 963. Please contact Co-op support if you would like to see additional fields automatically stripped.
+====
+
+Overlaying Records via Z39.50 Interface
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+https://goo.gl/kMu9iX[Overlay via Z39.50 (4:23)]
+
+There are times when it is necessary to overlay an existing MARC record in Evergreen with a better MARC record from a Z39.50 target. This lesson will demonstrate the steps required to achieve an overlay. Overlaying a MARC record replaces an existing MARC record and leaves all holdings, and corresponding holds, active circulations, bills, and fines intact. As overlay affects all libraries sharing a MARC record it is critical that this procedure be done judiciously and correctly. Please refer to Sitka’s cataloguing policy, Co-op support, or your library’s cataloguing mentor, if in place, for more information about this process and its effect on the shared database.
+
+
+Marking a Record for Overlay
+++++++++++++++++++++++++++++
+
+
+You must first identify the MARC record in Evergreen, which you wish to be overlaid. You do this by “marking” it for overlay. The marked-for-overlay effect is temporary for a login session, and only one record at a time can be marked. When you mark another record, the previous record is unmarked. Once a record is marked, it stays marked until it is overlaid, or another record is marked, or you log out of Evergreen. Therefore, you can mark and overlay one record at a time, following through the entire process to completion before moving on to another record.
 
 
 
-+
-. 
-
+Overlaying Using Z39.50
+++++++++++++++++++++++++
 
