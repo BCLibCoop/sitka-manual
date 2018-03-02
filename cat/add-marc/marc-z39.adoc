@@ -61,7 +61,12 @@ Marking a Record for Overlay
 ++++++++++++++++++++++++++++
 
 
-You must first identify the MARC record in Evergreen, which you wish to be overlaid. You do this by "marking" it for overlay. The marked-for-overlay effect is temporary for a login session, and only one record at a time can be marked. When you mark another record, the previous record is unmarked. Once a record is marked, it stays marked until it is overlaid, or another record is marked, or you log out of Evergreen. Therefore, you can mark and overlay one record at a time, following through the entire process to completion before moving on to another record.
+You must first identify the MARC record in Evergreen, which you wish to be overlaid. You do this by "marking" it for overlay. Only one record can be marked at a time. When you mark another record, the previous record is unmarked. Once a record is marked, it stays marked until it is overlaid, or  has been reset. Therefore, you can mark and overlay one record at a time, following through the entire process to completion before moving on to another record.
+
+[CAUTION]
+=========
+Overlay target remains even after you log out of Evergreen. After you re-log in, the target is still in effect.
+=========
 
 
 
