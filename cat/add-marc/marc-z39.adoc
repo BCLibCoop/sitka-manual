@@ -38,7 +38,7 @@ image::images/cat/z39-7.png[]
 +
 image::images/cat/z39-8.png[]
 +
-. You may also choose to add an item by selecting the *Add Item* checkbox Import Record screen. Type in a call number and barcode, then click *Import* or *Save* if record has been imported already. 
+. You may also choose to add an item by selecting the *Add Item* checkbox on Import Record screen. Type in a call number and barcode, then click *Import* or *Save* if record has been imported already. 
 +
 image::images/cat/z39-9.png[]
 +
@@ -46,7 +46,7 @@ image::images/cat/z39-9.png[]
 
 [TIP]
 ====
-Sitka has profiled certain fields, primarily 9xx fields, to be automatically stripped when records are imported through Z39.50. The default fields that are stripped are 906, 923, 925, 936, 948, 955, 959, 963. Please contact Co-op support if you would like to see additional fields automatically stripped.
+Sitka has profiled certain fields, primarily 9xx fields, to be automatically stripped when records are imported through Z39.50. The default fields that are stripped are 906, 923, 925, 936, 948, 955, 959, 963.
 ====
 
 Overlaying Records via Z39.50 Interface
