@@ -6,6 +6,7 @@ https://www.youtube.com/watch?v=nkjOfMfUyFc[Sitka Training Video - Z39.50 (5:20)
 It is good practice and Sitka policy to check the Evergreen database for existing records before importing a record. You may search the catalogue first. Or you can configure the Z39.50 screen to search the Evergreen database as well as Z39.50 targets at once. If searching Evergreen via the Z39.50 screen and you find a record, it is best practice and Sitka policy to then find that record in the catalogue and attach your holdings to it. If you have confirmed that there is no record in Evergreen that matches the item in your hand, but have found a record in another database, simply import the new record into Evergreen and then attach holdings.
 
 
+[[import_from_z39]]
 Import Bibliographic Records via Z39.50
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -63,13 +64,21 @@ Marking a Record for Overlay
 
 You must first identify the MARC record in Evergreen, which you wish to be overlaid. You do this by "marking" it for overlay. Only one record can be marked at a time. When you mark another record, the previous record is unmarked. Once a record is marked, it stays marked until it is overlaid, or  has been reset. Therefore, you can mark and overlay one record at a time, following through the entire process to completion before moving on to another record.
 
+
+. To mark a record for overlay, find it in the catalogue first.
+. On record details screen, click *Mark for -> Overlay target*. 
+. Confirmation pops up at the right bottom corner of the screen.
++
+image:images/cat/z39-11.png[]
+
 [CAUTION]
 =========
 Overlay target remains even after you log out of Evergreen. After you re-log in, the target is still in effect.
 =========
 
 
-
 Overlaying Using Z39.50
 ++++++++++++++++++++++++
+
+. To overlay a record, go to *Import Record from Z39.50* to find a target record as described in xref:import_from_z39[]. This record should be a fuller and better catalogued record than the one you are overlaying. You may select potential records on the list based on the summary. Click on View MARC to see the full MARC record. Cancel the pop-up window, then click *Overlay*. 
 
