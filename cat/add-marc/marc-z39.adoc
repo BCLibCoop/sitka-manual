@@ -66,7 +66,11 @@ You must first identify the MARC record in Evergreen, which you wish to be overl
 
 
 . To mark a record for overlay, find it in the catalogue first.
++
 . On record details screen, click *Mark for -> Overlay target*. 
++
+image:images/cat/z39-10.png[]
++
 . Confirmation pops up at the right bottom corner of the screen.
 +
 image:images/cat/z39-11.png[]
@@ -80,5 +84,8 @@ Overlay target remains even after you log out of Evergreen. After you re-log in,
 Overlaying Using Z39.50
 ++++++++++++++++++++++++
 
-. To overlay a record, go to *Import Record from Z39.50* to find a target record as described in xref:import_from_z39[]. This record should be a fuller and better catalogued record than the one you are overlaying. You may select potential records on the list based on the summary. Click on View MARC to see the full MARC record. Cancel the pop-up window, then click *Overlay*. 
-
+. To overlay a record, go to *Cataloguing -> Import Record from Z39.50* to find a target record as described in xref:import_from_z39[]. This record should be a fuller and better catalogued record than the one you are overlaying. You may select potential records on the list based on the summary. Click on View MARC to see the full MARC record. Cancel the pop-up window, click on next record to view, or click *Overlay* once deciding on a record. 
++
+image::images/cat/z39-12.png[]
++
+. 
