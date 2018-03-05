@@ -84,8 +84,16 @@ Overlay target remains even after you log out of Evergreen. After you re-log in,
 Overlaying Using Z39.50
 ++++++++++++++++++++++++
 
-. To overlay a record, go to *Cataloguing -> Import Record from Z39.50* to find a target record as described in xref:import_from_z39[]. This record should be a fuller and better catalogued record than the one you are overlaying. You may select potential records on the list based on the summary. Click on View MARC to see the full MARC record. Cancel the pop-up window, click on next record to view, or click *Overlay* once deciding on a record. 
-+
+. To overlay a record, go to *Cataloguing -> Import Record from Z39.50* to find a target record as described in xref:import_from_z39[]. This record should be a fuller and better catalogued record than the one you are overlaying. You may select potential records on the list based on the summary. Click on View MARC to see the full MARC record. Cancel the pop-up window, click on next record to view, or click *Overlay* once deciding on a record. +
 image::images/cat/z39-12.png[]
 +
-. 
+. The overlay interface pops up in a new window. The default merge profile is Z39.50 Overlay, unless you chose another before. You may edit the Z39.50 record before importing it to overlay. Click *Edit Z39.50 Record'.
++
+image::images/cat/z39-13.png[]
++
+. MARC Edit opens up. Edit the record. Once done, click *Modify*, then *Use Edits*. You are back on Overlay screen.
+image::images/cat/z39-14.png[].
++
+. Click *Overlay* button at the bottom. You are back on Z39.50 Import interface. You may find the overlay target based on its TCN number to continue to add holdings or further edit the MARC record.
+
+
