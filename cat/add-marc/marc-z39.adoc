@@ -94,7 +94,7 @@ image::images/cat/z39-13.png[]
 +
 . MARC Edit screen opens up. Edit the record. Once done, click *Modify*, then *Use Edits*. You are back on Overlay screen.
 +
-image::images/cat/z39-14.png[].
+image::images/cat/z39-14.png[]
 +
 . Click *Overlay* button at the bottom. You are back on Z39.50 Import interface. You may find the overlay target based on its TCN number to continue to add holdings or further edit the MARC record.
 
