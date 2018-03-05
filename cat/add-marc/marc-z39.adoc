@@ -96,4 +96,12 @@ image::images/cat/z39-14.png[].
 +
 . Click *Overlay* button at the bottom. You are back on Z39.50 Import interface. You may find the overlay target based on its TCN number to continue to add holdings or further edit the MARC record.
 
+[TIP]
+=====
+The *Z39.50 Overlay* merge profile keeps tags 092, 590, 595, 690, 852, and 856 in the overlaid record. 
+=====
 
+[WARNING]
+=========
+You must select *Z39.50 Overlay* as the merge profile. You may encounter error if you choose others.
+=========
