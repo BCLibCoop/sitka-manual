@@ -23,7 +23,7 @@ All records in a queue can be exported to a CSV file or printed in non-MARC form
 +
 * *Merge Using EXISTING Record*: all tags in the ORIGINAL record will be kept. Tags: 092, 590, 595, 690, 852 and 856 in the INCOMING record will be brought into the final record. The rest will be removed upon merge.
 +
- These profiles ensure local data in these six fields in a merged MARC record is never overwritten, and holding records (in tag 852) can be loaded to either the existing MARC record or with the incoming record.
+These profiles ensure local data in these six fields in a merged MARC record is never overwritten, and holding records (in tag 852) can be loaded to either the existing MARC record or with the incoming record.
 +
 . *Import Item Attributes* are profiles set up by Sitka to allow importing of item records with vendor supplied MARC records. The vendor will need to send item level information in a local MARC tag and subfields (eg. 9xx or 852), and this information can be mapped into item records when the bibliographic records are loaded. Please contact Co-op support if you are interested in loading item records with your bibliographic records.
 =====
