@@ -9,7 +9,7 @@ Holding records can be created if the incoming MARC records contain holding info
 
 All records in a queue can be exported to a CSV file or printed in non-MARC format (emailing is not available yet). All records imported from a single queue can be added to a Record Bucket.
 
-TIP[]
+[TIP]
 =====
 . There are some settings, namely *Record Display Attributes,Record Match Sets, Merge/Overlay Profiles* and *Import Item Attributes* on this screen that are reserved for Sitka server administration. You should not attempt to edit them as they affect all bibliographic records.
 +
