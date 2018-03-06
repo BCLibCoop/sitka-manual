@@ -57,12 +57,12 @@ The NoMatch profile matches records on tag 901$c only, and should only be used a
 +
 [CAUTION]
 =========
-You need to contact Co-op support for holding information format before asking your vendors to include it in the MARC records. Holdings may not be loaded, or cause error, if the format does not match Sitka's holding profile.
+You need to contact Co-op support for holding information format before asking your vendors to include it in the MARC records. Holdings may not be loaded, or cause loading error, if the format does not match Sitka's holding profile.
 =========
 +
 . Select a Record Source from the dropdown. The default is oclc, but choose the one that best matches your file (eg. ULS, Whitehots etc.) Contact Co-op support if you need to load records for non-physical items, such as an e-record collection like ebrary.
 +
-. You do not need to choose a *Merge Profile* now.
+. You do not need to choose a Merge Profile now.
 +
 . Check *Import Non-Matching Records* box to automatically import records without matches into the catalogue.
 +
@@ -93,5 +93,86 @@ Records in a queue are saved on the server, but outside the catalogue. By import
 Importing and Merging Records from Queues
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+If you want to import records from MARC files already uploaded, go to *Cataloguing-> MARC Batch Export/Import*, then click *Inspect Queue*. Click the queue that you wish to examine and import records from. The Queue Summary screen will open.
 
+If you continue to import records right after uploading the MARC file, the Queue Summary screen is loaded after you upload the file.
 
+. The Queue Summary shows the total number of MARC records in the queue, and items contained in these records, if any, how many of them have been imported, and how many of them encountered an error when Evergreen attempted to import them.
++
+Queue Filter allows you to display only the selected type of records in the table below.
++
+A selected number of records (10, 20, 50, 100) are displayed per page. Use the dropdown list beside Records per Page to select your preferred number. Use Previous and Next to flip over the page.
++
+The records in the queue can be exported in non-MARC format via the method selected from the Export Queue As dropdown list. (Exporting via email is not currently functional.)
++
+If you imported items with the MARC records, you may view them by View Import Items.
++
+You may export non-imported records to a MARC file by clicking Export Non-Imported Records. You may work on these records and load them later.
++
+You may add all imported MARC records in the queue to a Record Bucket by using Copy to Bucket.
++
+image::images/cat/vandelay-4.png[]
++
+. You can view both incoming and existing match records, if any, to determine which record to use. The links in View MARC column lead you to the incoming records, while records in the Matches column link to existing records. A blank in the Matches column means no match record has been found.
++
+. Click the blue coloured View MARC link to view the incoming record. You may edit it before importing by clicking Edit. Once editing is complete, click Save Changes. Click Return to go back to the Record Queue screen.
++
+image::images/cat/vandelay-4.png[]
++
+. On Record Queue screen click the blue coloured Matches link to view the match record. This takes you to the following Import Matches screen.
+. On the Import Matches screen, you will see the match record's ID number and some non-MARC information. Click View MARC. The existing MARC record is displayed in view mode. You can not edit it. Once done, click Return to go back to the Import Matches screen.
++
+image::images/cat/vandelay-5.png[]
++
+[TIP]
+=====
+Match Score is the total score from all matched fields specified in the Record Match Set.
+
+This list shows the matching points and the scores assigned to each point of SitkaMatch. Match scores are used to indicate how well two records are matched. For example, if two records contain the same value in tag 901$c, highly likely they are matches. So tag 901$c is assigned a very high score. If the incoming and existing records match on tag 010$a and 020$a, the match score will be 600.
+=====
++
+. Upon inspecting both incoming and existing record(s), if the match record is a true match but a brief record, you may mark the match MARC record as a merge target by selecting the checkbox in front of the record in the Merge Target column. Click Back to Import Queue once done.
+If the match record in Evergreen is a true match but a full record, Sitka policy requires you to use the existing record instead of importing another. Do not import the record.
++
+image::images/cat/vandelay-6.png[]
++
+However, if the incoming record contains local information in tags 092, 590, 595, 690, 852 or 856 that you want to bring into the existing record, such as loading holding records to existing MARC records, you need to mark the match record as a merge target. In this scenario you would use the Merge Using EXISTING Record merge profile as described in next step. If you are interested in loading holdings/item information, please contact Co-op support to set it up.
+. If you have marked a merge target, the record is shown as selected once you are back on the Record Queue screen.
++
+You may inspect other records on the list. Once finished inspecting the list, click Import Selected Records under Queue Actions.
++
+image::images/cat/vandelay-7.png[]
++
+. You are prompted to select import options. Make your choices and click Import.
++
+image::images/cat/vandelay-8.png[]
++
+For Merge Profile, choose one of the following based on which record should be the lead.
+* Merge Using INCOMING Record: uses the incoming record as the lead. Information in existing record in tags 092, 590, 595, 690, 852 (holdings) and 856 will be kept.
+* Merge Using EXISTING Record: uses the existing record in the catalogue as the lead. Information in the incoming record in tags 092, 590, 595, 690, 852 (holdings) and 856 will be kept. Use this profile when you attach holdings in your MARC file to existing Evergreen MARC records.
++
+If you have marked a merge target, you do not need to select any further import options. The marked target will be merged. If you have not already imported non-matching records you can now select Import Non-Matching Records.
++
+[TIP]
+=====
+Merge On Exact Match (901c), Merge On Single Match, and Merge On Best Match are designed to allow Evergreen to programmatically select the best match. Due to the nature of Sitka's shared database, Sitka support strongly advises against allowing Evergreen to select a merge target and cautions you to adhere to instructions for selecting a match as outlined above.
+=====
++
+Do not use Best/Single Match Minimum Quality Ratio or Insufficient Quality Fall-Through Profile at this time.
++
+If you have On Order brief item records and wish to overlay them with full item records loaded via the MARC records, you need to select checkbox Auto-overlay On-order Cataloguing Copies. Evergreen will overlay the items having matching circulating library and On-order status.
++
+If you load items for multiple branches or a branch other than your working location, you need to select checkbox Use Org Unit Matching in Copy to Determine Best Match, too.
+[CAUTION]
+=========
+The option Auto-Overlay In-process Acquisitions Copies should only be used if you are working with on-order line items created in the Acquisitions module. For more details please see Auto-Overlay In Process Acquisitions Copies
+========
++
+. Once the records are imported, the display is back on Queue Summary screen. You will see the Import Time column is filled in for the selected records. The imported record id is displayed in Imported As column.
++
+[TIP]
+=====
+A record can be imported only once.
++
+Sitka has profiled certain fields, primarily 9xx fields, to be automatically stripped when records are imported through Batch Import. The default fields that are stripped are 906, 923, 925, 936, 948, 955, 959, 963. Please contact Co-op support if you would like to see additional fields automatically stripped.
+=====
