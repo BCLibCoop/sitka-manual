@@ -93,6 +93,6 @@ Records in a queue are saved on the server, but outside the catalogue. By import
 Importing and Merging Records from Queues
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you want to import records from MARC files already uploaded, go to *Cataloguing-> MARC Batch Export/Import*, then click *Inspect Queue*. Click the queue that you wish to examine and import records from. The Queue Summary screen will open.
+If you want to import records from MARC files already uploaded, go to *Cataloguing -> MARC Batch Export/Import*, then click *Inspect Queue*. Click the queue that you wish to examine and import records from. The Queue Summary screen will open.
 
 If you continue to import records right after uploading the MARC file, the Queue Summary screen is loaded after you upload the file.
