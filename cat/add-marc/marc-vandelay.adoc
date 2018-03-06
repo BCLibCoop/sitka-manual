@@ -1,7 +1,7 @@
 Batch Import Bibliographic Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If the title records you need are not already in the Evergreen database, it is possible to upload vendor-supplied MARC files into Evergreen. Each file may contain one or more MARC records. During the uploading process, Evergreen matches each record in the file with existing records in Evergreen based on pre-defined match points called Record Match Sets. Records without matches may be imported directly into the catalogue. Records with matches must be examined by cataloguers. Due to the nature of Sitka's shared database, the Co-op suppport strongly advises against allowing Evergreen to select a merge target and cautions you to adhere to instructions for selecting a match as outlined in this chapter.
+If the title records you need are not already in the Evergreen database, it is possible to upload vendor-supplied MARC files into Evergreen. Each file may contain one or more MARC records. During the uploading process, Evergreen matches each record in the file with existing records in Evergreen based on pre-defined match points called *Record Match Sets*. Records without matches may be imported directly into the catalogue. Records with matches must be examined by cataloguers. Due to the nature of Sitka's shared database, the Co-op suppport strongly advises against allowing Evergreen to select a merge target and cautions you to adhere to instructions for selecting a match as outlined in this chapter.
 
 Importing records involves two steps: 1. all records in the file are first uploaded to the server and kept outside the catalogue as a queue; 2. cataloguers view the records in the queue to import them into Evergreen catalogue. Cataloguers can view both the incoming and existing matching records to decide which one to use by selecting an appropirate merge profile. You may merge the records with either the incoming or existing record as the lead while keeping some MARC tags in both records. Overlay/Merge Profile decides how two records are merged.
 
@@ -11,7 +11,8 @@ All records in a queue can be exported to a CSV file or printed in non-MARC form
 
 [TIP]
 =====
-. There are some settings, namely *Record Display Attributes,Record Match Sets, Merge/Overlay Profiles* and *Import Item Attributes* on this screen that are reserved for Sitka server administration. You should not attempt to edit them as they affect all bibliographic records.
+. There are some settings, namely *Record Display Attributes, Record Match Sets, Merge/Overlay Profiles* and *Import Item Attributes* on this screen that are reserved for Sitka server administration. You should not attempt to edit them as they affect all bibliographic records.
++
 +
 . *Record Display Attributes* set what fields will display on Inspect Queue screen, once a file of records have been loaded. Important descriptive MARC tags and control numbers are selected to display.
 +
