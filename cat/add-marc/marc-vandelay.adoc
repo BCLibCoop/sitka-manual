@@ -11,7 +11,7 @@ All records in a queue can be exported to a CSV file or printed in non-MARC form
 
 [TIP]
 =====
-There are some settings, namely *Record Display Attributes, Record Match Sets, Merge/Overlay Profiles* and *Import Item Attributes* on this screen that are reserved for Sitka server administration. You should not attempt to edit them as they affect all bibliographic records.
+There are some settings, namely Record Display Attributes, Record Match Sets, Merge/Overlay Profiles and Import Item Attributes on this screen that are reserved for Sitka server administration. You should not attempt to edit them as they affect all bibliographic records.
 
 *Record Display Attributes* set what fields will display on Inspect Queue screen, once a file of records have been loaded. Important descriptive MARC tags and control numbers are selected to display.
 
@@ -56,7 +56,7 @@ The NoMatch profile matches records on tag 901$c only, and should only be used a
 +
 [CAUTION]
 =========
-You need to contact Co-op support for holding information format before asking your vendors to include it in the MARC records. Holdings may not be loaded, or cause loading error, if the format does not match Sitka's holding profile.
+You need to contact Co-op support for holding information format before asking your vendors to include it in the MARC records. Holdings may not be loaded if the format does not match Sitka's holding profile.
 =========
 +
 . Select a Record Source from the dropdown list. The default is oclc, but choose the one that best matches your file (eg. ULS, Whitehots etc.) Contact Co-op support if you need to load records for non-physical items, such as an e-record collection like ebrary.
@@ -82,6 +82,8 @@ If you want to view your incoming records first without importing any, you may l
 [CAUTION]
 =========
 Do not load a MARC file of more than 500 records, as the importing process can time out. If you have more than 500 records, please break into multiple files.
+
+Once you hit the Upload button, the uploading process starts to run behind the scene until it finishes. Sometimes the progress bar persists and the process seems hanging, but the actual process may have finished. It is best practice to inspect queue to check the queue status first before attempting to reload the file.
 =========
 +
 [TIP]
