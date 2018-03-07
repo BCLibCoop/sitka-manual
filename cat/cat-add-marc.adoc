@@ -10,4 +10,6 @@ include::add-marc/marc-vandelay.adoc[Batch Import Bibliographic Records]
 
 include::add-marc/marc-new.adoc[Create New Bibliographic Records]
 
+include::add-marc/marc-sitka-record.adoc[Sitka’s Minimum MARC record]
+
 include::add-marc/marc-nonphysical.adoc[Cataloguing Non-physical Resources]
