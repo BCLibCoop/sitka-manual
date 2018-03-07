@@ -130,15 +130,17 @@ image::images/cat/vandelay-5.png[]
 Match Score is the total score from all matched fields specified in the Record Match Set.
 
 This list shows the matching points and the scores assigned to each point of SitkaMatch. Match scores are used to indicate how well two records are matched. For example, if two records contain the same value in tag 901$c, highly likely they are matches. So tag 901$c is assigned a very high score. If the incoming and existing records match on tag 010$a and 020$a, the match score will be 600.
-+
+
 * 901$c: 800
 * 010$a: 500
 * 020$a: 100
+* 024$a: 100
 * 022$a: 90
 * 035$a: 25
 =====
 +
-. Upon inspecting both incoming and existing record(s), if the match record is a true match but a brief record, you may mark the match MARC record as a merge target by selecting the checkbox in front of the record in the Merge Target column. Click Back to Import Queue once done.
+. Upon inspecting both incoming and existing record(s), if the match record is a true match but a brief record, you may mark the match MARC record as a merge target by selecting the checkbox in front of the record in the Merge Target column. Click *Back to Import Queue* once done.
++
 If the match record in Evergreen is a true match but a full record, Sitka policy requires you to use the existing record instead of importing another. Do not import the record.
 +
 image::images/cat/vandelay-6.png[]
