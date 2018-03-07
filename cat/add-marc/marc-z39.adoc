@@ -96,10 +96,10 @@ image::images/cat/z39-13.png[]
 +
 image::images/cat/z39-14.png[]
 +
-. Click *Overlay* button at the bottom. You are back on Z39.50 Import interface. You may find the overlay target based on its TCN number to continue to add holdings or further edit the MARC record.
+. Click *Overlay* button at the bottom. You are back on Z39.50 Import interface. You may find the overlaid record based on its TCN number to continue to add holdings or further edit the MARC record.
 
 
-[WARNING]
+[CAUTION]
 =========
 You must select *Merge Using INCOMING Record* as the merge profile. You may encounter error if you choose others.
 =========
