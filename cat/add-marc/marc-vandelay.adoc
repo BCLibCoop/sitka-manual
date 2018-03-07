@@ -201,4 +201,6 @@ To delete a queue, go to *Cataloguing -> MARC Batch Import/Export*. The default 
 
 Under Inspect Queue you can click on an existing queue to view and import records that have already been queued for importing or simply view records that have already been imported.
 
-To delete queues, select the checkboxes in front of the queue name and then clicking *Delete Selected* at the bottom.
+To delete queues, select the checkbox in front of the queue name and then clicking *Delete Selected* at the bottom.
+
+image::images/cat/vandelay-9.png[]
