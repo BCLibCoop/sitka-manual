@@ -138,25 +138,27 @@ This list shows the matching points and the scores assigned to each point of Sit
 * 022$a: 90
 * 035$a: 25
 =====
-+
+
 . Upon inspecting both incoming and existing record(s), if the match record is a true match but a brief record, you may mark the match MARC record as a merge target by selecting the checkbox in front of the record in the Merge Target column. Click *Back to Import Queue* once done.
 +
 If the match record in Evergreen is a true match but a full record, Sitka policy requires you to use the existing record instead of importing another. Do not import the record.
 +
 image::images/cat/vandelay-6.png[]
 +
-However, if the incoming record contains local information in tags 092, 590, 595, 690, 852 or 856 that you want to bring into the existing record, such as loading holding records to existing MARC records, you need to mark the match record as a merge target. In this scenario you would use the Merge Using EXISTING Record merge profile as described in next step. If you are interested in loading holdings/item information, please contact Co-op support to set it up.
+However, if the incoming record contains local information in tags 092, 590, 595, 690, 852 or 856 that you want to bring into the existing record, such as loading holding records to existing MARC records, you need to mark the match record as a merge target. In this scenario you would use the *Merge Using EXISTING Record* merge profile as described in next step. If you are interested in loading holdings/item information, please contact Co-op support to set it up.
+
 . If you have marked a merge target, the record is shown as selected once you are back on the Record Queue screen.
 +
-You may inspect other records on the list. Once finished inspecting the list, click Import Selected Records under Queue Actions.
+You may inspect other records on the list. Once finished inspecting the list, click *Import Selected Records* under Queue Actions.
 +
 image::images/cat/vandelay-7.png[]
 +
-. You are prompted to select import options. Make your choices and click Import.
+. You are prompted to select import options. Make your choices and click *Import*.
 +
 image::images/cat/vandelay-8.png[]
 +
 For Merge Profile, choose one of the following based on which record should be the lead.
++
 * Merge Using INCOMING Record: uses the incoming record as the lead. Information in existing record in tags 092, 590, 595, 690, 852 (holdings) and 856 will be kept.
 * Merge Using EXISTING Record: uses the existing record in the catalogue as the lead. Information in the incoming record in tags 092, 590, 595, 690, 852 (holdings) and 856 will be kept. Use this profile when you attach holdings in your MARC file to existing Evergreen MARC records.
 +
