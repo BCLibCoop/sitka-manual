@@ -187,5 +187,5 @@ The option Auto-Overlay In-process Acquisitions Copies should only be used if yo
 =====
 A record can be imported only once.
 
-Sitka has profiled certain fields, primarily 9xx fields, to be automatically stripped when records are imported through Batch Import. The default fields that are stripped are 906, 923, 925, 936, 948, 955, 959, 963. Please contact Co-op support if you would like to see additional fields automatically stripped.
+Sitka has profiled certain fields, primarily 9xx fields, to be automatically stripped when records are imported through Batch Import. The default fields that are stripped are 906, 923, 925, 936, 948, 955, 959, 963.
 =====
