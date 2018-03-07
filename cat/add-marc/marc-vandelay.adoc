@@ -173,7 +173,7 @@ Merge On Exact Match (901c), Merge On Single Match, and Merge On Best Match are 
 +
 Do not use Best/Single Match Minimum Quality Ratio or Insufficient Quality Fall-Through Profile at this time.
 +
-If you have On Order brief item records and wish to overlay them with full item records loaded via the MARC records, you need to select checkbox Auto-overlay On-order Cataloguing Copies. Evergreen will overlay the items having matching circulating library and On-order status.
+If you have on-order brief item records and wish to overlay them with full item records loaded via the MARC records, you need to select checkbox Auto-overlay On-order Cataloguing Copies. Evergreen will overlay the items having matching circulating library and On-order status.
 +
 If you load items for multiple branches or a branch other than your working location, you need to select checkbox Use Org Unit Matching in Copy to Determine Best Match, too.
 +
