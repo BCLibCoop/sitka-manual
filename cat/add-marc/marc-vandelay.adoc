@@ -13,18 +13,18 @@ All records in a queue can be exported to a CSV file or printed in non-MARC form
 =====
 There are some settings, namely *Record Display Attributes, Record Match Sets, Merge/Overlay Profiles* and *Import Item Attributes* on this screen that are reserved for Sitka server administration. You should not attempt to edit them as they affect all bibliographic records.
 
-Record Display Attributes set what fields will display on Inspect Queue screen, once a file of records have been loaded. Important descriptive MARC tags and control numbers are selected to display.
+*Record Display Attributes* set what fields will display on Inspect Queue screen, once a file of records have been loaded. Important descriptive MARC tags and control numbers are selected to display.
 
-Record Match Sets are profiles set up by Sitka to allow for different match points to be used when loading records. The default profile is SitkaMatch. It matches on the 901c (record id), 010a (LC Control Number), 020a (ISBN), 022a (ISSN), or 035a (System Control Number). It is used in the majority of record loads. The other profiles are only used to load special records. Please contact Co-op support for which profile to use if your records require a set of different match points to load.
+*Record Match Sets* are profiles set up by Sitka to allow for different match points to be used when loading records. The default profile is SitkaMatch. It matches on the 901c (record id), 010a (LC Control Number), 020a (ISBN), 022a (ISSN), or 035a (System Control Number). It is used in the majority of record loads. The other profiles are only used to load special records. Please contact Co-op support for which profile to use if your records require a set of different match points to load.
 
-Merge/Overlay Profiles control how the incoming and existing MARC records are merged. Two profiles have been created for all Sitka libraries to use: Merge Using INCOMING Record and Merge Using EXISTING Record. 
+*Merge/Overlay Profiles* control how the incoming and existing MARC records are merged. Two profiles have been created for all Sitka libraries to use: Merge Using INCOMING Record and Merge Using EXISTING Record. 
 
 * Merge Using INCOMING Record: all tags in the INCOMING record will be brought into the final record. Tags: 092, 590, 595, 690, 852 and 856 in the ORIGINAL record will be preserved in the final record. The rest will be removed.
 * Merge Using EXISTING Record: all tags in the ORIGINAL record will be kept. Tags: 092, 590, 595, 690, 852 and 856 in the INCOMING record will be brought into the final record. The rest will be removed upon merge.
 +
 These profiles ensure local data in these six fields in a merged MARC record is never overwritten, and holding records (in tag 852) can be loaded to either the existing MARC record or with the incoming record.
 
-Import Item Attributes are profiles set up by Sitka to allow importing of item records with vendor supplied MARC records. The vendor will need to send item level information in a local MARC tag and subfields (eg. 9xx or 852), and this information can be mapped into item records when the bibliographic records are loaded. Please contact Co-op support if you are interested in loading item records with your bibliographic records.
+*Import Item Attributes* are profiles set up by Sitka to allow importing of item records with vendor supplied MARC records. The vendor will need to send item level information in a local MARC tag and subfields (eg. 9xx or 852), and this information can be mapped into item records when the bibliographic records are loaded. Please contact Co-op support if you are interested in loading item records with your bibliographic records.
 =====
 
 Uploading MARC Record Files
