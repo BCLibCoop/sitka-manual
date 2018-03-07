@@ -161,12 +161,12 @@ For Merge Profile, choose one of the following based on which record should be t
 +
 * Merge Using INCOMING Record: uses the incoming record as the lead. Information in existing record in tags 092, 590, 595, 690, 852 (holdings) and 856 will be kept.
 * Merge Using EXISTING Record: uses the existing record in the catalogue as the lead. Information in the incoming record in tags 092, 590, 595, 690, 852 (holdings) and 856 will be kept. Use this profile when you attach holdings in your MARC file to existing Evergreen MARC records.
-+
+
 If you have marked a merge target, you do not need to select any further import options. The marked target will be merged. If you have not already imported non-matching records you can now select Import Non-Matching Records.
 +
 [TIP]
 =====
-Merge On Exact Match (901c), Merge On Single Match, and Merge On Best Match are designed to allow Evergreen to programmatically select the best match. Due to the nature of Sitka's shared database, Sitka support strongly advises against allowing Evergreen to select a merge target and cautions you to adhere to instructions for selecting a match as outlined above.
+Merge On Exact Match (901c), Merge On Single Match, and Merge On Best Match are designed to allow Evergreen to programmatically select the best match. Due to the nature of Sitka's shared database, Co-op support strongly advises against allowing Evergreen to select a merge target and cautions you to adhere to instructions for selecting a match as outlined above.
 =====
 +
 Do not use Best/Single Match Minimum Quality Ratio or Insufficient Quality Fall-Through Profile at this time.
