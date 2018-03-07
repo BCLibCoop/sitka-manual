@@ -195,3 +195,10 @@ Sitka has profiled certain fields, primarily 9xx fields, to be automatically str
 Managing Queues
 ^^^^^^^^^^^^^^^
 
+Queues are viewable to the login account only. They will remain on the server until they are deleted. You may delete a queue after importing is finished. Or you keep them for a short period, then delete it.
+
+To delete a queue, go to *Cataloguing -> MARC Batch Import/Export*. The default screen is Import Records. Click *Inspect Queue* tab to manage and view existing queues used in MARC Batch Import.
+
+Under Inspect Queue you can click on an existing queue to view and import records that have already been queued for importing or simply view records that have already been imported.
+
+To delete queues, select the checkboxes in front of the queue name and then clicking *Delete Selected* at the bottom.
