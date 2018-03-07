@@ -88,7 +88,7 @@ Overlaying Using Z39.50
 +
 image::images/cat/z39-12.png[]
 +
-. The overlay interface pops up in a new window. The default merge profile is Z39.50 Overlay, unless you chose another before. You may edit the Z39.50 record before importing it to overlay. Click *Edit Z39.50 Record*.
+. The overlay interface pops up in a new window. The default merge profile is Merge Using INCOMING Record, unless you chose another before. You may edit the Z39.50 record before importing it to overlay. Click *Edit Z39.50 Record*.
 +
 image::images/cat/z39-13.png[]
 +
@@ -98,12 +98,8 @@ image::images/cat/z39-14.png[]
 +
 . Click *Overlay* button at the bottom. You are back on Z39.50 Import interface. You may find the overlay target based on its TCN number to continue to add holdings or further edit the MARC record.
 
-[TIP]
-=====
-The *Z39.50 Overlay* merge profile keeps tags 092, 590, 595, 690, 852, and 856 in the overlaid record. 
-=====
 
 [WARNING]
 =========
-You must select *Z39.50 Overlay* as the merge profile. You may encounter error if you choose others.
+You must select *Merge Using INCOMING Record* as the merge profile. You may encounter error if you choose others.
 =========
