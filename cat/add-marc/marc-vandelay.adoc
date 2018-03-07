@@ -179,7 +179,7 @@ If you load items for multiple branches or a branch other than your working loca
 =========
 The option Auto-Overlay In-process Acquisitions Copies should only be used if you are working with on-order line items created in the Acquisitions module. For more details please see Auto-Overlay In Process Acquisitions Copies
 ========
-+
+
 . Once the records are imported, the display is back on Queue Summary screen. You will see the Import Time column is filled in for the selected records. The imported record id is displayed in Imported As column.
 +
 [TIP]
