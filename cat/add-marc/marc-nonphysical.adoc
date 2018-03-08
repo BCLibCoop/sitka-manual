@@ -24,7 +24,7 @@ These instructions are for adding individual records. To upload a batch of recor
 |===
 . After the tag 856 is added, the record will be displayed as search result on OPAC for the library in $9. The image below shows a sample 856 tag and the corresponding OPAC display. This record would appear in OPAC searches of the Bowen Island Public Library catalogue (BBI).
 +
-image::images/cat/marc-nonpysical-1.png[]
+image::images/cat/marc-nonphysical-1.png[]
 
 [TIP]
 =====
