@@ -31,18 +31,16 @@ image::images/cat/sitka-marc-record-1.png[]
 
 *Title*: 245 tag contains all the important title information and General Material Designations (GMD). 245 subfields a and b are title and sub-title respectively, 245c contains the statement of responsibility, and 245h is for approved GMDs. Note, for RDA records, the GMD is no longer used; instead the tags of 336, 337 and 338 are used (see below).
 
-*Edition Statement*. 25X tags contain important descriptive information about the item being described. This information includes edition statement, imprint and other publication source information.
+*Edition Statement*: 25X tags contain important descriptive information about the item being described. This information includes edition statement, imprint and other publication source information.
 
 *Publication Information*: 264 tag and subfields a, place of publication, b, name of publisher, and c, year of publication, contain critical publication information and should be as complete as possible. When assessing record matching the 264 tag should always be considered. Note, the second indicator of 264 should be filled: 1 for publication, 2 for distribution, etc.
 
-Physical Description of Item. 300 tag is used to physically describe an item as completely as possible.
+*Physical Description of Item*: 300 tag is used to physically describe an item as completely as possible.
 
-Content, Media and Carrier type (RDA only). 336, 337, 338 tags are used for RDA records only. The fields of content, media and carrier collectively replace the GMD (245$h). For 336, subfield $a is content term and $2 rdacontent. For subfield 337, $a is media term and $2 is rdamedia. For 338, $a is carrier term and $2 is rdacarrier. See here for appropriate RDA terms.
+*Content, Media and Carrier type*: 336, 337, 338 tags are used for RDA records only. The fields of content, media and carrier collectively replace the GMD (245$h). For 336, subfield $a is content term and $2 rdacontent. For subfield 337, $a is media term and $2 is rdamedia. For 338, $a is carrier term and $2 is rdacarrier. See here for appropriate RDA terms.
 
-Series Information. 440 and 490 are used to describe relevant series.  440 was officially made obsolete in 2008, but you will still find it used in records that predate 2008, but for correct, current  series cataloguing use the 490 tag.
+*Series Information*: 440 and 490 are used to describe relevant series.  440 was officially made obsolete in 2008, but you will still find it used in records that predate 2008, but for correct, current  series cataloguing use the 490 tag.
 
-Notes. 5xx tags are useful, keyword searchable notes tags, which assist in description and retrieval of items. Use the 500 tag for a note that cannot be placed in any other 5xx tag as per MARC standards.
+*Notes*: 5xx tags are useful, keyword searchable notes tags, which assist in description and retrieval of items. Use the 500 tag for a note that cannot be placed in any other 5xx tag as per MARC standards.
 
-Subjects. 6xx contain subject headings that follow standards for personal, topical, geographical, and genre terms. Use 690 for local, non-standard subject headings.
-
-//Hovering your mouse over a MARC tag in MARC Edit view presents a short description of the tag and its intended use. You can also hover over a subfield and retrieve textual information about the subfield's intended use.//
+*Subjects*: 6xx contain subject headings that follow standards for personal, topical, geographical, and genre terms. Use 690 for local, non-standard subject headings.
