@@ -3,3 +3,45 @@
 Sitka's Minimum MARC record
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+As there is an approved minimum level for original MARC records, the following may assist you when creating original MARC records in Evergreen. For more detailed information on MARC standards, the Library of Congress has the authoritative website at http://www.loc.gov/marc/ & https://www.loc.gov/aba/rda/.
+
+Here is an example of a MARC record that meets and exceeds minimum cataloguing standards for a book in a series.  
+
+image::images/cat/marc-sitka-record-1.png[]
+
+Standard Numbers. 010 Library of Congress Control Number (LCCN) is the control number for MARC records distributed by the Library of Congress. Can often be found in the Cataloging in Publication (CIP) information on verso page of a book. Can be useful searching number.
+
+020 International Standard Book Number (ISBN) is a unique number assigned to items by publisher. Can be 10 or 13 digit number. Sitka support and training team recommend searching Evergreen and Z39 targets, by both numbers, if present on item, before proceeding to original cataloguing. When cataloguing an item, if both numbers are present, enter both in separate 020 tags.
+
+022 International Standard Serial Number (ISSN) is a unique number assigned to a serial title.
+
+024 Universal Product Code (UPC) is a twelve digit number often assigned to sound recordings and videos.
+
+028 are Publisher Control Numbers, formatted numbers used for sound recordings, printed music, and videorecordings.
+
+Classification Numbers. Evergreen does not display call numbers from the shared MARC record, but the data is useful for searching, matching, and assessing quality of a MARC record. Evergreen uses each library’s volume record for local call number display, and will give you the option to auto-fill your number from the MARC record if you want to use that call number as yours.
+
+05X are standard classification (call) numbers that are, or can be, present in a MARC record. The most common are the 050, which is the Library of Congress Classification Number (LCC), assigned by the Library of Congress, and the 055, which is the Canadian LCC.
+
+082 is the Dewey Decimal Classification number (DDC).
+
+090 and 092 are tags reserved for a library’s local call number. This data is not used by Evergreen for call number display, but you will often see data there from a different library whose system may use the MARC record for call number display.
+
+Title. 245 tag contains all the important title information and General Material Designations (GMD). 245 subfields a and b are title and sub-title respectively, 245c contains the statement of responsibility, and 245h is for approved GMDs. Note, for RDA records, the GMD is no longer used; instead the tags of 336, 337 and 338 are used (see below).
+
+Edition Statement. 25X tags contain important descriptive information about the item being described. This information includes edition statement, imprint and other publication source information.
+
+Publication Information. 260 tag and subfields a, place of publication, b, name of publisher, and c, year of publication, contain critical publication information and should be as complete as possible. When assessing record matching the 260 tag should always be considered. Note, for RDA records, the 264 tag (with a second indicator of 1) most often is used instead of the 260.
+
+Physical Description of Item. 300 tag is used to physically describe an item as completely as possible.
+
+Content, Media and Carrier type (RDA only) . 336, 337, 338 tags are used for RDA records only. The fields of content, media and carrier collectively replace the GMD (245$h). For 336, subfield $a is content term and $2 rdacontent. For subfield 337, $a is media term and $2 is rdamedia. For 338, $a is carrier term and $2 is rdacarrier. See here for appropriate RDA terms.
+
+Series Information. 440 and 490 are used to describe relevant series.  440 was officially made obsolete in 2008, but you will still find it used in records that predate 2008, but for correct, current  series cataloguing use the 490 tag.
+
+Notes. 5xx tags are useful, keyword searchable notes tags, which assist in description and retrieval of items. Use the 500 tag for a note that cannot be placed in any other 5xx tag as per MARC standards.
+
+Subjects. 6xx contain subject headings that follow standards for personal, topical, geographical, and genre terms. Use 690 for local, non-standard subject headings.
+
+Hovering your mouse over a MARC tag in MARC Edit view presents a short description of the tag and its intended use. You can also hover over a subfield and retrieve textual information about the subfield’s intended use.
+
