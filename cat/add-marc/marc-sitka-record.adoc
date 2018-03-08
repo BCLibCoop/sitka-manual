@@ -27,7 +27,7 @@ Classification Numbers. Evergreen does not display call numbers from the shared 
 
 082 is the Dewey Decimal Classification number (DDC).
 
-090 and 092 are tags reserved for a library’s local call number. This data is not used by Evergreen for call number display, but you will often see data there from a different library whose system may use the MARC record for call number display.
+090 and 092 are tags reserved for a library's local call number. This data is not used by Evergreen for call number display, but you will often see data there from a different library whose system may use the MARC record for call number display.
 
 Title. 245 tag contains all the important title information and General Material Designations (GMD). 245 subfields a and b are title and sub-title respectively, 245c contains the statement of responsibility, and 245h is for approved GMDs. Note, for RDA records, the GMD is no longer used; instead the tags of 336, 337 and 338 are used (see below).
 
