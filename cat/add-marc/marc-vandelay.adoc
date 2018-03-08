@@ -19,8 +19,8 @@ There are some settings, namely Record Display Attributes, Record Match Sets, Me
 
 *Merge/Overlay Profiles* control how the incoming and existing MARC records are merged. Two profiles have been created for all Sitka libraries to use: Merge Using INCOMING Record and Merge Using EXISTING Record. 
 
-* Merge Using INCOMING Record: all tags in the INCOMING record will be brought into the final record. Tags: 092, 590, 595, 690, 852 and 856 in the ORIGINAL record will be preserved in the final record. The rest will be removed.
-* Merge Using EXISTING Record: all tags in the ORIGINAL record will be kept. Tags: 092, 590, 595, 690, 852 and 856 in the INCOMING record will be brought into the final record. The rest will be removed upon merge.
+* Merge Using INCOMING Record: all tags in the INCOMING record will be brought into the final record. Tags: 590, 595, 690, 852 and 856 in the ORIGINAL record will be preserved in the final record. The rest will be removed.
+* Merge Using EXISTING Record: all tags in the ORIGINAL record will be kept. Tags: 590, 595, 690, 852 and 856 in the INCOMING record will be brought into the final record. The rest will be removed upon merge.
 +
 These profiles ensure local data in these six fields in a merged MARC record is never overwritten, and holding records (in tag 852) can be loaded to either the existing MARC record or with the incoming record.
 
@@ -146,7 +146,7 @@ If the match record in Evergreen is a true match but a full record, Sitka policy
 +
 image::images/cat/vandelay-6.png[]
 +
-However, if the incoming record contains local information in tags 092, 590, 595, 690, 852 or 856 that you want to bring into the existing record, such as loading holding records to existing MARC records, you need to mark the match record as a merge target. In this scenario you would use the *Merge Using EXISTING Record* merge profile as described in next step. If you are interested in loading holdings/item information, please contact Co-op support to set it up.
+However, if the incoming record contains local information in tags 590, 595, 690, 852 or 856 that you want to bring into the existing record, such as loading holding records to existing MARC records, you need to mark the match record as a merge target. In this scenario you would use the *Merge Using EXISTING Record* merge profile as described in next step. If you are interested in loading holdings/item information, please contact Co-op support to set it up.
 
 . If you have marked a merge target, the record is shown as selected once you are back on the Record Queue screen.
 +
@@ -160,8 +160,8 @@ image::images/cat/vandelay-8.png[]
 +
 For Merge Profile, choose one of the following based on which record should be the lead.
 +
-* Merge Using INCOMING Record: uses the incoming record as the lead. Information in existing record in tags 092, 590, 595, 690, 852 (holdings) and 856 will be kept.
-* Merge Using EXISTING Record: uses the existing record in the catalogue as the lead. Information in the incoming record in tags 092, 590, 595, 690, 852 (holdings) and 856 will be kept. Use this profile when you attach holdings in your MARC file to existing Evergreen MARC records.
+* Merge Using INCOMING Record: uses the incoming record as the lead. Information in existing record in tags 590, 595, 690, 852 (holdings) and 856 will be kept.
+* Merge Using EXISTING Record: uses the existing record in the catalogue as the lead. Information in the incoming record in tags 590, 595, 690, 852 (holdings) and 856 will be kept. Use this profile when you attach holdings in your MARC file to existing Evergreen MARC records.
 
 +
 If you have marked a merge target, you do not need to select any further import options. The marked target will be merged. If you have not already imported non-matching records you can now select Import Non-Matching Records.

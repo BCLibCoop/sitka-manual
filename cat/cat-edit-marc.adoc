@@ -1,4 +1,16 @@
 [[edit-marc]]
-Editing and Maintaining MARC records
--------------------------------------
+Maintaining Bibliographic records
+---------------------------------
+
+include::edit-marc/edit-marc.adoc[Editing MARC Records]
+
+include::edit-marc/edit-leader.adoc[Editing MARC Record Leader and Fixed Fields]
+
+include::edit-marc/format-filter.adoc[Format Filters and Format Icons]
+
+include::edit-marc/merge-bib.adoc[Merging Bibliographic Records]
+
+include::edit-marc/delete-bib.adoc[Deleting Bibliographic Records]
+
+include::edit-marc/export-bib.adoc[Exporting Bibliographic Records]
 
