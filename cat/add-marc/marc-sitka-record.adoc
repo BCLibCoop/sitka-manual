@@ -23,17 +23,17 @@ image::images/cat/sitka-marc-record-1.png[]
 
 *Classification Numbers*: Evergreen does not display call numbers from the shared MARC record, but the data is useful for searching, matching, and assessing quality of a MARC record. Evergreen uses each library's volume record for local call number display, and will give you the option to auto-fill your number from the MARC record if you want to use that call number as yours.
 
-05X are standard classification (call) numbers that are, or can be, present in a MARC record. The most common are the 050, which is the Library of Congress Classification Number (LCC), assigned by the Library of Congress, and the 055, which is the Canadian LCC.
+* 05X are standard classification (call) numbers that are, or can be, present in a MARC record. The most common are the 050, which is the Library of Congress Classification Number (LCC), assigned by the Library of Congress, and the 055, which is the Canadian LCC.
 
-082 is the Dewey Decimal Classification number (DDC).
+* 082 is the Dewey Decimal Classification number (DDC).
 
-090 and 092 are tags reserved for a library's local call number. This data is not used by Evergreen for call number display, but you will often see data there from a different library whose system may use the MARC record for call number display.
+* 090 and 092 are tags reserved for a library's local call number. This data is not used by Evergreen for call number display, but you will often see data there from a different library whose system may use the MARC record for call number display.
 
-Title. 245 tag contains all the important title information and General Material Designations (GMD). 245 subfields a and b are title and sub-title respectively, 245c contains the statement of responsibility, and 245h is for approved GMDs. Note, for RDA records, the GMD is no longer used; instead the tags of 336, 337 and 338 are used (see below).
+*Title*: 245 tag contains all the important title information and General Material Designations (GMD). 245 subfields a and b are title and sub-title respectively, 245c contains the statement of responsibility, and 245h is for approved GMDs. Note, for RDA records, the GMD is no longer used; instead the tags of 336, 337 and 338 are used (see below).
 
-Edition Statement. 25X tags contain important descriptive information about the item being described. This information includes edition statement, imprint and other publication source information.
+*Edition Statement*. 25X tags contain important descriptive information about the item being described. This information includes edition statement, imprint and other publication source information.
 
-Publication Information. 260 tag and subfields a, place of publication, b, name of publisher, and c, year of publication, contain critical publication information and should be as complete as possible. When assessing record matching the 260 tag should always be considered. Note, for RDA records, the 264 tag (with a second indicator of 1) most often is used instead of the 260.
+*Publication Information*: 264 tag and subfields a, place of publication, b, name of publisher, and c, year of publication, contain critical publication information and should be as complete as possible. When assessing record matching the 264 tag should always be considered. Note, the second indicator of 264 should be filled: 1 for publication, 2 for distribution, etc.
 
 Physical Description of Item. 300 tag is used to physically describe an item as completely as possible.
 
