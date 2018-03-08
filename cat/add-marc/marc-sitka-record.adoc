@@ -11,7 +11,7 @@ image::images/cat/sitka-marc-record-1.png[]
 
 Standard Numbers. 010 Library of Congress Control Number (LCCN) is the control number for MARC records distributed by the Library of Congress. Can often be found in the Cataloging in Publication (CIP) information on verso page of a book. Can be useful searching number.
 
-020 International Standard Book Number (ISBN) is a unique number assigned to items by publisher. Can be 10 or 13 digit number. Sitka support and training team recommend searching Evergreen and Z39 targets, by both numbers, if present on item, before proceeding to original cataloguing. When cataloguing an item, if both numbers are present, enter both in separate 020 tags.
+//020 International Standard Book Number (ISBN) is a unique number assigned to items by publisher. Can be 10 or 13 digit number. Sitka support and training team recommend searching Evergreen and Z39 targets, by both numbers, if present on item, before proceeding to original cataloguing. When cataloguing an item, if both numbers are present, enter both in separate 020 tags.
 
 022 International Standard Serial Number (ISSN) is a unique number assigned to a serial title.
 
@@ -43,5 +43,5 @@ Notes. 5xx tags are useful, keyword searchable notes tags, which assist in descr
 
 Subjects. 6xx contain subject headings that follow standards for personal, topical, geographical, and genre terms. Use 690 for local, non-standard subject headings.
 
-//Hovering your mouse over a MARC tag in MARC Edit view presents a short description of the tag and its intended use. You can also hover over a subfield and retrieve textual information about the subfield's intended use.//
+Hovering your mouse over a MARC tag in MARC Edit view presents a short description of the tag and its intended use. You can also hover over a subfield and retrieve textual information about the subfield's intended use.//
 
