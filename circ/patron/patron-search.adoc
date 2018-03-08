@@ -4,7 +4,8 @@ Patron records are retrieved by barcode scan or name search.
 
 Click *Check Out Items* or select *(F1)* to scan patron's barcode. This is the recommended method if you have the patron's barcode: it is faster and can retrieve accounts from any Sitka library. Patrons from other Sitka libraries must present their library card and must "opt in" and consent to share their personal information with your library before their account can be used. Once opted in to your library, their account can also be retrieved by a name search as below.
 
-Click *Search For Patron By Name*, select *Search → Search for Patrons*, or *(F4)*. Click the up or down arrow button on right to show or hide more search fields. Enter your search terms and click *Search.*
+. Click *Search For Patron By Name*, select *Search → Search for Patrons*, or *(F4)*. . . Click the up or down arrow button on right to show or hide more search fields.
+. Enter your search terms and click *Search.*
 
 Co-op Support recommends you set search scope to Sitka, in order to search all opted in patrons at your library, and to select Include Inactive?, in order to search expired patrons.
 
