@@ -2,5 +2,20 @@
 Cataloguing Non-physical Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Ordinary bibliographic records are only visible in the OPAC when holdings records are attached, but it is also possible to catalogue non-physical resources such as websites, online journals, or downloadable audiobooks. The steps below describe how to catalogue a non-physical resource so it appears in OPAC searches.
 
-physical
+[NOTE]
+======
+These instructions are for adding individual records. To upload a batch of records (e.g. from an e-book subscription), please contact Co-op support. For libraries that subscribe to OverDrive, Co-op support creates and updates bibliographic records automatically.
+=======
+
+. Locate, import, or create a bibliographic record as described in the preceding chapters.
+. Click the title link to go to record details. Click *MARC Edit*.
+. Add an 856 tag to the MARC record. Place the cursor in the desired location and press CTRL+Enter to add an empty row. Enter the tag number (856). You must set the first indicator to 4, and the second indicator to 0 or 1. The indicators cannot be left blank. For information about indicators see http://www.loc.gov/marc/bibliographic/bd856.html.
+. Add applicable subfields from the table below.
++
+[options="header"]
+|===
+| Subfield code | Description | Example | OPAC Display
+| $u | Required; the URL or link to the resource | http://www.linktoresource.ca | Appears as a link in the OPAC display; the link text is the URI unless subfield $y is specified
+|===
