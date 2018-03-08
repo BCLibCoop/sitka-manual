@@ -3,25 +3,25 @@
 Sitka's Minimum MARC record
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-As there is an approved minimum level for original MARC records, the following may assist you when creating original MARC records in Evergreen. For more detailed information on MARC standards, the Library of Congress has the authoritative website at http://www.loc.gov/marc/ & https://www.loc.gov/aba/rda/.
+As there is an approved minimum level for original MARC records, the following may assist you when creating original MARC records in Evergreen. For more detailed information on MARC and RDA standards, the Library of Congress has the authoritative website at http://www.loc.gov/marc/ & https://www.loc.gov/aba/rda/.
 
 Here is an example of a MARC record that meets and exceeds minimum cataloguing standards for a book in a series.  
 
 image::images/cat/sitka-marc-record-1.png[]
 
-Standard Numbers. 010 Library of Congress Control Number (LCCN) is the control number for MARC records distributed by the Library of Congress. Can often be found in the Cataloging in Publication (CIP) information on verso page of a book. Can be useful searching number.
+*Standard Numbers*:
 
-020 International Standard Book Number (ISBN) is a unique number assigned to items by publisher. Can be 10 or 13 digit number. Sitka support and training team recommend searching Evergreen and Z39 targets, by both numbers, if present on item, before proceeding to original cataloguing. When cataloguing an item, if both numbers are present, enter both in separate 020 tags.
+* 010 Library of Congress Control Number (LCCN) is the control number for MARC records distributed by the Library of Congress. Can often be found in the Cataloging in Publication (CIP) information on verso page of a book. Can be useful searching number.
 
-022 International Standard Serial Number (ISSN) is a unique number assigned to a serial title.
+* 020 International Standard Book Number (ISBN) is a unique number assigned to items by publisher. Can be 10 or 13 digit number. Sitka support and training team recommend searching Evergreen and Z39 targets, by both numbers, if present on item, before proceeding to original cataloguing. When cataloguing an item, if both numbers are present, enter both in separate 020 tags.
 
-024 Universal Product Code (UPC) is a twelve digit number often assigned to sound recordings and videos.
+* 022 International Standard Serial Number (ISSN) is a unique number assigned to a serial title.
 
-028 are Publisher Control Numbers, formatted numbers used for sound recordings, printed music, and videorecordings.
+* 024 Universal Product Code (UPC) is a twelve digit number often assigned to sound recordings and videos.
 
+* 028 are Publisher Control Numbers, formatted numbers used for sound recordings, printed music, and videorecordings.
 
-
-Classification Numbers. Evergreen does not display call numbers from the shared MARC record, but the data is useful for searching, matching, and assessing quality of a MARC record. Evergreen uses each library's volume record for local call number display, and will give you the option to auto-fill your number from the MARC record if you want to use that call number as yours.
+*Classification Numbers*: Evergreen does not display call numbers from the shared MARC record, but the data is useful for searching, matching, and assessing quality of a MARC record. Evergreen uses each library's volume record for local call number display, and will give you the option to auto-fill your number from the MARC record if you want to use that call number as yours.
 
 05X are standard classification (call) numbers that are, or can be, present in a MARC record. The most common are the 050, which is the Library of Congress Classification Number (LCC), assigned by the Library of Congress, and the 055, which is the Canadian LCC.
 
