@@ -5,11 +5,11 @@ It is best practice, and Sitka policy, to search Evergreen, Z39.50 sources, or, 
 
 For information about working with MARC records see xref:edit-marc[].
 
-. To access MARC templates select *Cataloguing -> Create New Marc Record*.
+. To access MARC templates, select *Cataloguing -> Create New Marc Record*.
 +
-image::imgaes/cat/new-marc-1.png[]
+image::images/cat/new-marc-1.png[]
 +
-. The MARC Template screen opens. Click into drop down menu field to see available templates. Note you can select a workstation default here. Templates are available for book, music, audio, video and serial in RDA standards.
+. The MARC Template screen opens. Click the into drop down menu field to see available templates. Note you can select a workstation default here. Templates are available for book, music, audio, video and serial in RDA standards.
 +
 image::images/cat/new-marc-2.png[]
 +
