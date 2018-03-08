@@ -37,7 +37,7 @@ image::images/cat/sitka-marc-record-1.png[]
 
 *Physical Description of Item*: 300 tag is used to physically describe an item as completely as possible.
 
-*Content, Media and Carrier type*: 336, 337, 338 tags are used for RDA records only. The fields of content, media and carrier collectively replace the GMD (245$h). For 336, subfield $a is content term and $2 rdacontent. For subfield 337, $a is media term and $2 is rdamedia. For 338, $a is carrier term and $2 is rdacarrier. See here for appropriate RDA terms.
+*Content, Media and Carrier type*: 336, 337, 338 tags are used for RDA records only. The fields of content, media and carrier collectively replace the GMD (245$h). For 336, subfield $a is content term and $2 rda content. For subfield 337, $a is media term and $2 is rdamedia. For 338, $a is carrier term and $2 is rdacarrier. See here for appropriate RDA terms.
 
 *Series Information*: 440 and 490 are used to describe relevant series.  440 was officially made obsolete in 2008, but you will still find it used in records that predate 2008, but for correct, current  series cataloguing use the 490 tag.
 
