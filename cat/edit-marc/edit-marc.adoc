@@ -1,5 +1,14 @@
 Edit MARC Records
 ~~~~~~~~~~~~~~~~~
 
-
+. To edit a MARC record, retrieve it on the catalogue. Once record is displayed on Record Details screen, click *MARC Edit*.
++
+image::images/cat/marc-edit-1.png[]
++
+[TIP]
+=====
+You can set the displayed veiw as default by clicking *Set Default View*. Individual records will be loaded in this view. 
+=====
++
+. 
 
