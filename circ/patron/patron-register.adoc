@@ -7,6 +7,10 @@ Before you register a new patron, you need to ensure the person does not have an
 . Enter required information, based on your library guidelines. This screen can look  different depending on your library's choices regarding required and suggested fields, and whether or not you are displaying all fields, required fields, or suggested fields.
 . Click *Save* at top-right of screen.
 
+
+image:images/circ/patronregister1.png[scaledwidth="75%"]
+
+
 The patron account record is composed of required and optional fields, and some fields are editable by your patrons via the *My Account* feature on your online catalogue. It is good practice to familiarize your self with the basic functions and features of the patron record as described below.
 
 All fields highlighted in yellow are mandatory.
@@ -25,7 +29,7 @@ OPAC/Staff Client Holds Alias is optional and is used to replace the patron's na
 
 The Hold is behind Circ Desk checkbox identifies those patrons who request to pick up holds at the circulation desk when your library's holds are kept in a public area. It displays when the library setting: Hold: Behind Desk Pickup, is set to True by local system administrators. See Chapter 49, Local Administration Menu.
 
-Address. If you do not want to record the address, you need to delete the field by clicking the red cross sign beside Address. Blank *Address* fields will result in an error when attempting to save the record.
+Address. If you do not want to record the address, you need to delete the fields by clicking the red cross sign beside Address. Blank *Address* fields will result in an error when attempting to save the record.
 
 Main (Profile) Permission Group. Sitka's Evergreen has a shared list of profile groups (patron profiles), but individual libraries choose which profiles to use and how to configure the profiles to suit local policy.
 
@@ -33,8 +37,8 @@ Privilege Expiration Date. There is a Sitka default of 3 years for all profile g
 
 Internet Access Level is only required if your library restricts access to the Internet via third party authentication software.
 
-Is Group Lead Account  should always be unchecked.
+Is Group Lead Account should always be unchecked.
 
-Statistical categories are usually used to further group patrons by categories not in the profile groups. Individual libraries can create their own patron statistical categories. See Local Administration chapter for more information about statistical categories.
+Statistical categories are used to further group patrons by categories not in the profile groups. Individual libraries can create their own patron statistical categories. See Local Administration chapter for more information about statistical categories.
 
-Save and Clone will save the patron record and open a new patron record. Phone numbers will be copied into the new record. Depending on your library's setting, addresses may also be linked from previous record. 
+Save and Clone will save the patron record and open a new patron record. Phone numbers will be copied into the new record. Depending on your library's setting, addresses may also be linked from previous record.
