@@ -1,2 +1,6 @@
-Updating Individual Patron Records
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+Address: If your library chooses to link the addresses, the address in the new record is greyed out and can only be edited in the original record. However, the linked addresses can be replaced by new ones. Using the *New Address* button you can create a new address and mark it as both the Mailing and Billing address. Once the record is saved, the linked addresses will be replaced. The address' owning account can not be deleted or merged when other accounts are still using the address.
