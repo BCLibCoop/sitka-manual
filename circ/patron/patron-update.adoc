@@ -24,6 +24,8 @@ Mark Library Card Lost
 . Click *Replace Barcode*
 . Click *Save* at top right of screen.
 
+image:images/circ/patronupdate3.png[scaledwidth="75%"]
+
 If the username is still the original barcode, it should be replaced with the new barcode number.
 
 Once a library card is marked lost, Evergreen marks the card inactive and keeps it in the database.
@@ -31,11 +33,8 @@ Once a library card is marked lost, Evergreen marks the card inactive and keeps 
 If the patron has lost a library card before, the *See All* button shows up.
 
 . Click *See All*. All barcodes that the patron has had are displayed in a pop-up window.
-
-image:images/circ/patronupdate3.png[scaledwidth="75%"]
-
 . Click *Active*  to activate an inactive card.
-. Click *Primary*  on the Active card, it has to be the Primary Card.
+. Click *Primary*  on the Active card, Active must be the Primary Card.
 . Click *Apply Changes* and *Save*.
 
 image:images/circ/patronupdate4.png[scaledwidth="75%"]
