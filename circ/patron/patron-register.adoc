@@ -17,7 +17,7 @@ All fields highlighted in yellow are mandatory.
 
 Blank mandatory fields and fields with a value in the wrong format may result in a "Form is invalid" error when saving the record.
 
-For libraries using phone number as patron's password, once the Day Phone field is filled, the last 4 digits of the phone number will be automatically copied over to password fields to replace the random number.
+For libraries using phone number as patron's password, once the Daytime Phone field is filled, the last 4 digits of the phone number will be automatically copied over to password fields to replace the random number.
 
 Juvenile flag: Each library can determine an age threshold of juvenile patrons. If the date of birth in a patron's record falls in the juvenile category, the Juvenile checkbox is automatically selected. If your library does not record patron's date of birth, you may manually select Juvenile checkbox. It is optional. There is no link between patron profile group and the Juvenile checkbox. If your library uses the Juvenile checkbox, you need to deselect it when moving a patron from a juvenile profile group to an adult profile group.
 

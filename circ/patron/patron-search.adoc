@@ -2,7 +2,7 @@ Patron Search
 ~~~~~~~~~~~~~
 Patron accounts are retrieved by barcode scan or name search.
 
-Barcode scan is the recommended method if you have the patron's barcode: it is faster and can retrieve accounts from any Sitka library. Patrons from other Sitka libraries must present their library card to scan, and must "opt in" and consent to share their personal information with your library, before their account can be used. Once opted in to your library, their account can also be retrieved by a name search.
+Barcode scan is the recommended method if you have the patron's barcode: it is faster and can retrieve accounts from any Sitka library. Patrons from other Sitka libraries must present their library card to scan, and must "opt in" and consent to share their personal information with your library, before their account can be used at your library. Once opted in to your library, their account can also be retrieved by a name search.
 
 . Click *Check Out Items* or select *(F1)* to scan patron's barcode.
 

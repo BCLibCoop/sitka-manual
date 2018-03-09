@@ -1,6 +1,64 @@
+Update Patron Account
+~~~~~~~~~~~~~~~~~~~~~
+
+Routine maintenance of your patron accounts includes updating patrons' contact information, renewing expired library cards, marking library cards lost, re-setting patrons' passwords, inserting  notes or alert messages, and so on. It is good practice to understand how the patron account record functions.
+
+. Scan the patron barcode or search for patron by name.
+. Once the patron record is loaded, *Check Out* is the default tab.
+. Click *Edit* to retrieve patron information.
+. Make required edits and click *Save* at top right of screen.
+
+image:images/circ/patronupdate1.png[scaledwidth="75%"]
+
+Renew Library Card
+^^^^^^^^^^^^^^^^^^
+
+. Click *Update Expire Date* or use the calendar widget to renew a card.
+. Click *Save* at top right of screen.
+
+image:images/circ/patronupdate2.png[scaledwidth="75%"]
+
+Mark Library Card Lost
+^^^^^^^^^^^^^^^^^^^^^^
+
+. Click *Replace Barcode*
+. Click *Save* at top right of screen.
+
+If the username is still the original barcode, it should be replaced with the new barcode number.
+
+Once a library card is marked lost, Evergreen marks the card inactive and keeps it in the database.
+
+If the patron has lost a library card before, the *See All* button shows up.
+
+. Click *See All*. All barcodes that the patron has had are displayed in a pop-up window.
+
+image:images/circ/patronupdate3.png[scaledwidth="75%"]
+
+. Click *Active*  to activate an inactive card.
+. Click *Primary*  on the Active card, it has to be the Primary Card.
+. Click *Apply Changes* and *Save*.
+
+image:images/circ/patronupdate4.png[scaledwidth="75%"]
 
 
 
+Re-set Patron Password
+^^^^^^^^^^^^^^^^^^^^^^
+. Click *Reset Password* or enter a new password and click *Save*.
+
+Existing password is not displayed in patron records for security reasons.
+
+If your library uses the last 4 digits of phone number as default password (Patron: Password from phone # is set to True on Library Settings Editor), please do not use *Reset Password* button. Instead, enter the new phone number, and click *Save*.
+
+Invalidate Email Address or Phone Number
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+It is good practice to keep patron email addresses current to ensure good service from Sitka's automated messaging features. The *Invalidate* option alerts staff that a new email address is required, and removes the invalid address.
+
+Accumulated bounced back emails may result in emails from Evergreen (such as overdue and pre-due notices) being blocked by some email service providers (Gmail, Hotmail, etc). This may affect all Sitka Evergreen users.
+
+Update Patron Address
+^^^^^^^^^^^^^^^^^^^^^
 
 
 Address: If your library chooses to link the addresses, the address in the new record is greyed out and can only be edited in the original record. However, the linked addresses can be replaced by new ones. Using the *New Address* button you can create a new address and mark it as both the Mailing and Billing address. Once the record is saved, the linked addresses will be replaced. The address' owning account can not be deleted or merged when other accounts are still using the address.
