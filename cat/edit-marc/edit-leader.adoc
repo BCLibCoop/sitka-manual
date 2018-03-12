@@ -12,3 +12,13 @@ The format filter (eg. Books, E-Books, Audiobooks, Videos etc.) and format icons
 =====
 
 . Retrieve and display record in Edit MARC view as described in xref:_edit_marc_records[].
+. Click into any box displayed in the fixed field editor. In this example we are editing the first position, the Type or Format box, to describe the format of the resource, textual material, by use of an "a".
+
++
+image::images/cat/leader-1.png[]
++
+. Right-clicking in the box will show a list of possible values (eg. BLvl, Type, Form Audn, and Lang). Choose from this list to populate the box.
++
+image::images/cat/leader-2.png[]
++
+. You can press the *Tab* key or use the mouse to click through to each field, and can delete and add text as required by backspacing or highlighting existing text and over typing. Here the publication date is being edited; OPAC searches filtered by date rely on correct coding in the 008.
