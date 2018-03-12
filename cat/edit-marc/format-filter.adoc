@@ -38,3 +38,40 @@ The format filter is used by the OPAC to allow staff and patrons to limit their 
 | Videos (electronic) | item_type(g) AND item_form (o,q,s)
 | Videos (physical) | item_type(g) AND NOT item_form (o,q,s)
 |===
+
+The format icons show in the search results and record display in the catalogue. The following table shows the fixed fields associated with each format icon.
+
+[options="header"]
+|===
+| Label | Fixed Fields
+| Video (shown if format, eg. vhs, dvd, is unknown) | item_type(g) and NOT vr_format(v,s,b)
+| E-video | item_type(g) and item_form(o, s, q)
+| DVD | vr_format(v)
+| VHS | vr_format(b)
+| Blu-ray | vr_format(s)
+| Audiobook (shown if format, eg. cassette, disc, is unknown) | item_type(i) and NOT item_form(o,q,s) and NOT sr_format(a,b,c,d,e,l,f)
+| E-audiobook | item_type(i) and item_form(o,q,s)
+| CD Audiobook | item_type(i) and sr_format(f)
+| Cassette audiobook | item_type(i) and sr_format(l)
+| Phonograph audiobook | item_type(i) and sr_format(a,b,c,d,e)
+| Book | item_type(a,t) AND bib_level(a,c,d,m) and NOT item_form (a,b,c,d,f,o,q,r,s)
+| E-Book | item_type(a,t) AND bib_level(a,c,d,m) AND item_form (o,q,s)
+| Large print book | item_type(a,t) AND bib_level(a,c,d,m) AND item_form(d)
+| Braille | item_type(a) AND item_form(f)
+| Kit or mixed material | item_type(o,p)
+| Map | item_type(e,f)
+| Music (shown if format, eg. cassette, disc, is unknown) | item_type(j) and NOT sr_format(a,b,c,d,e,f,l)
+| Phonograph music | item_type(j) AND sr_format(a,b,c,d,e)
+| CD music | item_type(j) AND sr_format(f)
+| Cassette music | item_type(j) AND sr_format(l)
+| E-music | item_type(j) AND item_form(o, s, q)
+| Music score | item_type(c,d)
+| Picture | item_type(k)
+| Serial or magazine | bib_level(b,s) and NOT item_form (o, s, q)
+| E-Serial or magazine | bib_level(b,s) AND item_form (o, s, q)
+| Software or video game | item_type(m)
+| Online | bib_level(i) AND item_form (o, s, q)
+| Toys, puzzles or equipment | item_type(r)
+| Picture | item_type(k)
+| Microform | item_form(a,b,c)
+|===
