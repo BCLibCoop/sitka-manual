@@ -1,5 +1,7 @@
-Editing MARC Record Leader and Fixed Fields
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Editing MARC Record Leader and Fixed Field 008
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
+Parts of the leader and the 008 can be edited in the MARC Editor via the fixed field editor box displayed above the MARC record in default MARC Edit view, and at top of record in Flat-Text Editor view. Information about the leader and the 008 can be found on the Library of Congress's MARC Standards page at http://www.loc.gov/marc/
 
+To edit the fixed fields, it is easiest to use default Edit MARC view and click on the name of the field. In Flat-Text Editor view, you must place the cursor at the correct position in the number to edit. When you click on the field name , e.g. Date1, what you type will appear in the box. When you click on the field box itself, you have to backspace your cursor to the very beginning of the box in order to type, because there are space takers in these positionally defined fields. Right-clicking in certain fields such as Type, BLvl, Form, Audn, and Lang will show a drop-down menu of possible choices.
