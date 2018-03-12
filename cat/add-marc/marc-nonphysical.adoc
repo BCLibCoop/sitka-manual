@@ -2,7 +2,7 @@
 Cataloguing Non-physical Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Ordinary bibliographic records are only visible in the OPAC when holdings records are attached, but it is also possible to catalogue non-physical resources such as websites, online journals, or downloadable audiobooks. The steps below describe how to catalogue a non-physical resource so it appears in OPAC searches.
+Ordinary bibliographic records are only visible in the OPAC when holdings records are attached, but it is also possible to catalogue non-physical resources such as websites, online journals, or downloadable audiobooks, etc. by adding a tag 856 with $9. The steps below describe how to catalogue a non-physical resource so it appears in OPAC searches.
 
 [NOTE]
 ======
@@ -19,10 +19,12 @@ These instructions are for adding individual records. To upload a batch of recor
 | Subfield code | Description | Example | OPAC Display
 | $u | Required; the URL or link to the resource | http://www.linktoresource.ca | Appears as a link in the OPAC display; the link text is the URI unless subfield $y is specified
 | $y | Optional; a display label for the link | Click for access | 	Appears as the text of the link instead of the URL defined in $u
-| $z | Optional; a public note providing more information about the resource | library card and password required | Appears in parentheses to the right of the link
+| $z | Optional; a public note providing more information about the resource | library card required | Appears in parentheses to the right of the link
 | $9 | Required; your library code | BBI | 	Not displayed in the OPAC but required for the record to be included in searches scoped to your library
 |===
 . After the tag 856 is added, the record will be displayed as search result on OPAC for the library in $9. The image below shows a sample 856 tag and the corresponding OPAC display. This record would appear in OPAC searches of the Bowen Island Public Library catalogue (BBI).
++
+image::images/cat/marc-nonphysical-2.png[]
 +
 image::images/cat/marc-nonphysical-1.png[]
 

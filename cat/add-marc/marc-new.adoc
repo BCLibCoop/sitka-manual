@@ -1,7 +1,7 @@
 Create New Bibliographic Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-It is best practice, and Sitka policy, to search Evergreen, Z39.50 sources, or, in some libraries, a vendor file of MARC records, before using a MARC record template for original cataloguing. You can create new MARC records in Evergreen by using MARC templates that exist in Evergreen. Original cataloguing should be done in Evergreen only if there is no record available in any of these previous sources.
+It is best practice, and Sitka policy, to search Evergreen, Z39.50 sources, or, in some libraries, a vendor file of MARC records, before using a MARC record template for original cataloguing. Original cataloguing should be done in Evergreen only if there is no record available in any of these previous sources. You can create new MARC records in Evergreen by using MARC templates that exist in Evergreen. 
 
 For information about working with MARC records see xref:edit-marc[].
 
@@ -9,7 +9,7 @@ For information about working with MARC records see xref:edit-marc[].
 +
 image::images/cat/new-marc-1.png[]
 +
-. The MARC Template screen opens. Click the into drop down menu field to see available templates. Note you can select a workstation default here. Templates are available for book, music, audio, video and serial in MARC and RDA standards.
+. The MARC Template screen opens. Click into the drop down menu field to see available templates. Note you can select a workstation default here. Templates are available for book, music, audio, video and serial in MARC and RDA standards.
 +
 image::images/cat/new-marc-2.png[]
 +

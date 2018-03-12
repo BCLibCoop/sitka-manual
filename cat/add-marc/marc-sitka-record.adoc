@@ -33,7 +33,7 @@ image::images/cat/sitka-marc-record-1.png[]
 
 *Edition Statement*: 25X tags contain important descriptive information about the item being described. This information includes edition statement, imprint and other publication source information.
 
-*Publication Information*: 264 tag and subfields a, place of publication, b, name of publisher, and c, year of publication, contain critical publication information and should be as complete as possible. When assessing record matching the 264 tag should always be considered. Note, the second indicator of 264 should be filled: 1 for publication, 2 for distribution, etc.
+*Publication Information*: 264 tag and subfields a, place of publication, b, name of publisher, and c, year of publication, contain critical publication information and should be as complete as possible. When assessing record, matching the 264/260 tag should always be considered. Note, the second indicator of 264 should be filled: 1 for publication, 2 for distribution, etc.
 
 *Physical Description of Item*: 300 tag is used to physically describe an item as completely as possible.
 
