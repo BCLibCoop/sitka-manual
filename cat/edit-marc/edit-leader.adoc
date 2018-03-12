@@ -13,7 +13,6 @@ The format filter (eg. Books, E-Books, Audiobooks, Videos etc.) and format icons
 
 . Retrieve and display record in Edit MARC view as described in xref:_edit_marc_records[].
 . Click into any box displayed in the fixed field editor. In this example we are editing the first position, the Type or Format box, to describe the format of the resource, textual material, by use of an "a".
-
 +
 image::images/cat/leader-1.png[]
 +
