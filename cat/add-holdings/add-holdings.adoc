@@ -23,9 +23,9 @@ image::images/cat/add-holdings-3.png[]
 
 [TIP]
 =====
-. By default, a new item has In Process status, unless you choose a different one when creating it. Item must be checked in to become Available. Item's *Active Date* will be filled when it leaves In Process status.
+* By default, a new item has In Process status, unless you choose a different one when creating it. Item must be checked in to become Available. Item's *Active Date* will be filled when it leaves In Process status.
 +
-. You may configure the default displayed fields in volume copy editor. Click on *Defaults* on volume copy editor. See xref:_volume_copy_defaults[] for more information.
+* You may configure the default displayed fields in volume copy editor. Click on *Defaults* on volume copy editor. See xref:_volume_copy_defaults[] for more information.
 +
 image::images/cat/add-holdings-10.png[]
 =====
@@ -44,11 +44,11 @@ image::images/cat/add-holdings-4.png[]
 
 [TIP]
 =====
-. You may hide/display Volume and/or Copy Attributes by coordinating the two Hide/Show buttons shown below. 
+* You may hide/display Volume and/or Copy Attributes by coordinating the two Hide/Show buttons shown below. 
 +
 image::images/cat/add-holdings-9.png[]
 +
-. If all volumes share the same attributes, you may select the values in *Batch Apply* row, then click *Apply*.  The selected values will be filled into all volumes.
+* If all volumes share the same attributes, you may select the values in *Batch Apply* row, then click *Apply*.  The selected values will be filled into all volumes.
 =====
 
 Working on multiple copies
