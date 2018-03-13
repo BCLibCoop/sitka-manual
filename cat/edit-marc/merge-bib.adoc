@@ -3,7 +3,7 @@ Merging Bibliogrpahic Records
 
 https://goo.gl/91kp4e[Sitka Training Video - Merge Duplicate Bibliographic Records (7:31)]
 
-This lesson will demonstrate merging bibliographic records in the catalogue. A common application for this functionality is to replace brief records with full records. You will only need to do this if you are unable to locate a full record in a Z39 target and therefore cannot overlay the brief record on import, or you need to preserve the local information in the record to be overlaid and want to import the record first and copy over the local information on the merging screen. The full record may have been added to the database by another Sitka cataloguer, or you may have created a MARC record in the database yourself.
+This lesson will demonstrate merging bibliographic records in the catalogue. A common application for this functionality is to replace brief records with full records to keep one bibliographic record for one title. 
 
 Any volume and copy records or holds associated with the brief record will be transferred to the full record upon merging.
 
