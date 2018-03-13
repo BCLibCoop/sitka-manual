@@ -52,12 +52,23 @@ If your library uses the last 4 digits of phone number as default password (Patr
 Invalidate Email Address or Phone Number
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-It is good practice to keep patron email addresses current to ensure good service from Sitka's automated messaging features. The *Invalidate* option alerts staff that a new email address is required, and removes the invalid address.
+It is good practice to keep patron email addresses current to ensure service from Sitka's automated messaging features. The *Invalidate* option alerts staff that a new email address is required, and removes the invalid address.
 
-Accumulated bounced back emails may result in emails from Evergreen (such as overdue and pre-due notices) being blocked by some email service providers (Gmail, Hotmail, etc). This may affect all Sitka Evergreen users.
+Accumulated bounced back emails may result in courtesy and notice emails from Evergreen being blocked by some email service providers (Gmail, Hotmail, etc). This may affect all Sitka Evergreen users.
 
 Update Patron Address
 ^^^^^^^^^^^^^^^^^^^^^
+. Retrieve the patron account and click *Edit*.
+. Scroll down to *Address* to edit it, and click *Save*.
+. To delete an address, click the red coloured cross, and click *Save*.
+. To add a new address, click *New Address* at the bottom of Address section, and enter required information.
+. Select *Mailing* or *Billing* and click *Save*.
 
+Unlinking Shared Patron Addresses
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Address: If your library chooses to link the addresses, the address in the new record is greyed out and can only be edited in the original record. However, the linked addresses can be replaced by new ones. Using the *New Address* button you can create a new address and mark it as both the Mailing and Billing address. Once the record is saved, the linked addresses will be replaced. The address' owning account can not be deleted or merged when other accounts are still using the address.
+If your library links addresses in cloned accounts, the address in the new, cloned record is greyed out and can only be edited in the original record. The address' owning account can not be deleted or merged when other accounts are still using the address, so there are times when you need to unlink shared addresses. You do this by adding a new address to cloned patron account.
+
+. Click  *New Address* button.
+. Click  *Mailing* and *Billing* address and click *Save*.
+. The linked addresses is replaced.
