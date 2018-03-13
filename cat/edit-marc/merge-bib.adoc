@@ -7,6 +7,26 @@ This lesson will demonstrate merging bibliographic records in the catalogue. A c
 
 Any volume and copy records or holds associated with the brief record will be transferred to the full record upon merging.
 
-. Records are merged via *Record Bucket*. You need to have a bucket for the records you wish to merge. See xref:create-record-bucket[] for detailed instructions. In the examples below the bucket is named Horse Books.
+. Records are merged via *Record Bucket*. You need to have a bucket for the records you wish to merge. See xref:create-record-bucket[] for detailed instructions. In the examples below the bucket is named "merge117036601".
 
 . Identify records to be merged and add them to the bucket See xref:add-record-to-bucket[] for detailed instructions.
+
+. Retrieve the bucket by selecting *Cataloguing -> Record Buckets*.
+
+. Click the down pointed arrow besides *Bucket* to list and select the bucket you will use to merge records.
++
+image::images/cat/merge-1.png[]
++
+. Select the records you wish to merge. Click *Actions -> Merge Selected Records*. 
++
+image::images/cat/merge-2.png[]
++
+. Merge screen opens in a pop-up window. Records are listed on the right column. You may scroll down to view each record and its holdings, if any. Once decided on a lead record, click *Use as Lead Record* on top of it. You may remove a record if do not wish to merge it by clicking *Remove from Consideration*.
++
+image::images/cat/merge-3.png[]
++
+. The lead record is moved to the left column. You may compare the records. Edit the lead record if necessary. Click *Edit* to edit in the current window. Once done, click *Save*. You may also click *Edit using full editor* to open the record in a pop-up window. Once done editing, click *Save* on top, then *Done* at the bottom to go back to the merge screen.
++
+image::images/cat/merge-4.png[]
++
+. 
