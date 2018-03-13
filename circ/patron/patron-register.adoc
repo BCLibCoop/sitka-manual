@@ -19,28 +19,20 @@ All fields highlighted in yellow are mandatory.
 
 Blank mandatory fields and fields with a value in the wrong format may result in a "Form is invalid" error when saving the record.
 
-For libraries using phone number as patron's password, once the Daytime Phone field is filled, the last 4 digits of the phone number will be automatically copied over to password fields to replace the random number.
+Juvenile flag: Each library can determine an age threshold of juvenile patrons. If the date of birth in a patron's record falls in the juvenile category, the Juvenile checkbox is automatically selected. If your library does not record patron's date of birth, you can manually select the Juvenile checkbox.  The checkbox must be manually deselected, there is no automated process to update the record.
 
-Juvenile flag: Each library can determine an age threshold of juvenile patrons. If the date of birth in a patron's record falls in the juvenile category, the Juvenile checkbox is automatically selected. If your library does not record patron's date of birth, you may manually select Juvenile checkbox. It is optional. There is no link between patron profile group and the Juvenile checkbox. If your library uses the Juvenile checkbox, you need to deselect it when moving a patron from a juvenile profile group to an adult profile group.
-
-Email checkout receipts by default? can be selected.
-
-Receive Overdue and Courtesy Emails checkbox allows patrons to opt-out of receiving courtesy and overdue email notifications. If this box is un-checked patrons will not receive courtesy and overdue notifications. Patrons can also set this in *My Account* on your online catalogue.
+Receive Overdue and Courtesy Emails checkbox allows patrons to opt-in or opt-out of receiving courtesy and overdue email notifications. Patrons can also set this in *My Account* on your online catalogue.
 
 OPAC/Staff Client Holds Alias is optional and is used to replace the patron's name on the hold slip.
 
-The Hold is behind Circ Desk checkbox identifies those patrons who request to pick up holds at the circulation desk when your library's holds are kept in a public area. It displays when the library setting: Hold: Behind Desk Pickup, is set to True by local system administrators. See Chapter 49, Local Administration Menu.
+If you do not record the address, you need to delete the fields by clicking the red cross sign beside Address. Blank *Address* fields result in an error.
 
-Address. If you do not want to record the address, you need to delete the fields by clicking the red cross sign beside Address. Blank *Address* fields will result in an error when attempting to save the record.
-
-Main (Profile) Permission Group. Sitka's Evergreen has a shared list of profile groups (patron profiles), but individual libraries choose which profiles to use and how to configure the profiles to suit local policy.
+Main (Profile) Permission Group. Sitka's Evergreen has a shared list of profile groups (patron profiles), but individual libraries choose which profiles to use, and how to configure chosen profiles to suit local policy.
 
 Privilege Expiration Date. There is a Sitka default of 3 years for all profile groups except PL New User, which has an expiration of 3 months. The expiry date can be edited on all profile groups.
 
-Internet Access Level is only required if your library restricts access to the Internet via third party authentication software.
-
 Is Group Lead Account should always be unchecked.
 
-Statistical categories are used to further group patrons by categories not in the profile groups. Individual libraries can create their own patron statistical categories. See Local Administration chapter for more information about statistical categories.
+Statistical categories are used to further group patrons by categories not in the profile groups. Individual libraries can create their own patron statistical categories.
 
 Save and Clone will save the patron record and open a new patron record. Phone numbers will be copied into the new record. Depending on your library's setting, addresses may also be linked from previous record.
