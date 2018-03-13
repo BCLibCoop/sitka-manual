@@ -7,6 +7,6 @@ This lesson will demonstrate merging bibliographic records in the catalogue. A c
 
 Any volume and copy records or holds associated with the brief record will be transferred to the full record upon merging.
 
-. Records are merged via *Record Bucket*. You need to have a bucket for the records you wish to merge. See xref:_record_bucket[] for detailed instructions. In the examples below the bucket is named Horse Books.
+. Records are merged via *Record Bucket*. You need to have a bucket for the records you wish to merge. See xref:create-record-bucket[] for detailed instructions. In the examples below the bucket is named Horse Books.
 
-. Identify records to be merged and add them to the bucket See xref:_record_bucket[] for detailed instructions.
+. Identify records to be merged and add them to the bucket See xref:add-record-to-bucket[] for detailed instructions.
