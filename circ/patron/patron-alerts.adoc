@@ -1,2 +1,24 @@
 Patron Alerts, Notes, Messages, and Notifications
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Patron Alerts
+^^^^^^^^^^^^^
+If a patron’s account has an alert, a red *Stop* sign is displayed when the account is retrieved. There are three types of alerts in Evergreen: staff-generated, system-generated, and standing penalties.
+
+Staff -generated Alerts
++++++++++++++++++++++++
+Staff-generated alerts are created by staff, and must be removed by staff.
+
+System-generated Alerts
++++++++++++++++++++++++
+System-generated alerts are automatically inserted on some conditions, such as the patron account is expired, patron has a ready-for-pickup hold, etc. Once the cause is resolved, these messages will disappear automatically.
+
+Standing penalties
+++++++++++++++++++
+Standing penalties are inserted when a patron's circulation condition meets criteria set up by your library for the maximum fine threshold, maximum number of items allowed out, and the maximum number of overdue items allowed. If a patron exceeds any of these limits, an alert will block their account. Standing penalties are removed once the cause is resolved.
+
+Standing penalties can be overridden on an item by item basis. Alternatively, you can remove the standing penalties temporarily to carry out the circulation actions that need to be overridden. If the conditions persist, once you refresh or re-access the patron record the penalties will be re-applied immediately.
+
+Sometimes old standing penalties need to be removed.
+
+. To remove standing penalties from a patron account, go to *Messages*.
+. Highlight the penalties. Click *Actions → Remove Penalty/Message*.
