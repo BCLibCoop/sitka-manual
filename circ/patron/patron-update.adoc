@@ -54,7 +54,7 @@ Invalidate Email Address or Phone Number
 
 It is good practice to keep patron email addresses current to ensure service from Sitka's automated messaging features. The *Invalidate* option alerts staff that a new email address is required, and removes the invalid address.
 
-Accumulated bounced back emails may result in courtesy and notice emails from Evergreen being blocked by some email service providers (Gmail, Hotmail, etc). This may affect all Sitka Evergreen users.
+NOTE: Accumulated bounced back emails may result in courtesy and notice emails from Evergreen being blocked by some email service providers such as Gmail and Outlook/Hotmail. This denial of service affects all Sitka Evergreen users, and we request your cooperation in maintaining current email addresses.
 
 Update Patron Address
 ^^^^^^^^^^^^^^^^^^^^^
@@ -62,13 +62,13 @@ Update Patron Address
 . Scroll down to *Address* to edit it, and click *Save*.
 . To delete an address, click the red coloured cross, and click *Save*.
 . To add a new address, click *New Address* at the bottom of Address section, and enter required information.
-. Select *Mailing* or *Billing* and click *Save*.
+. Select *Mailing* or *Physical* and click *Save*.
 
 Unlinking Shared Patron Addresses
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If your library links addresses in cloned accounts, the address in the new, cloned record is greyed out and can only be edited in the original record. The address' owning account can not be deleted or merged when other accounts are still using the address, so there are times when you need to unlink shared addresses. You do this by adding a new address to cloned patron account.
+If your library links addresses in cloned accounts, the address in the new, cloned record is greyed out, and can only be edited in the original record. The address' owning account can not be deleted or merged when other accounts are still using the address, so there are times when you need to unlink shared addresses. You do this by adding a new address to the cloned patron account record.
 
 . Click  *New Address* button.
-. Click  *Mailing* and *Billing* address and click *Save*.
+. Click  *Mailing* and *Physical* address and click *Save*.
 . The linked addresses is replaced.
