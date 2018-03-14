@@ -10,7 +10,7 @@ Staff-generated alerts are created by staff, and must be removed by staff.
 
 System-generated Alerts
 +++++++++++++++++++++++
-System-generated alerts are automatically inserted on some conditions, such as the patron account is expired, patron has a ready-for-pickup hold, etc. Once the cause is resolved, these messages will disappear automatically.
+System-generated alerts are automatically inserted on some conditions, such as the patron account is expired, patron has a ready-for-pickup hold, etc. Once the cause is resolved, these messages disappear automatically.
 
 Standing penalties
 ++++++++++++++++++
@@ -18,7 +18,35 @@ Standing penalties are inserted when a patron's circulation condition meets crit
 
 Standing penalties can be overridden on an item by item basis. Alternatively, you can remove the standing penalties temporarily to carry out the circulation actions that need to be overridden. If the conditions persist, once you refresh or re-access the patron record the penalties will be re-applied immediately.
 
-Sometimes old standing penalties need to be removed.
-
 . To remove standing penalties from a patron account, go to *Messages*.
 . Highlight the penalties. Click *Actions → Remove Penalty/Message*.
+
+Patron Notes
+^^^^^^^^^^^^
+You can add notes to patron accounts that can be viewed by staff, and can be shared with patron via the My Account feature on your online catalogue. If a patron has a note, a See Notes icon is displayed.
+
+. To insert or remove a note, retrieve patron account and click *Other → Notes*.
+. Click *Add New Note*
+. Enter note and click *OK*.
+
+image:images/circ/patronalert1.png[scaledwidth="75%"]
+
+Patron Messages
+^^^^^^^^^^^^^^^
+You can also enter Alerts, Notes, and Blocks on the *Messages* tab.
+
+. Click *Messages* tab.
+. Click *Apply Penalty/Message*.
+. Select Note, Alert, or Block, enter text, and click *OK*.
+
+image:images/circ/patronalert2.png[scaledwidth="75%"]
+
+To edit, remove, or archive messages, select the message and click *Actions* and follow on screen prompts.
+
+NOTE: The See Notes icon is not displayed for a note created on the Messages screen.
+Alerts and blocks created on the Messages screen are displayed on the Alert screen.
+System-generated standing penalties are displayed on the Messages screen.
+Based on your library's setting, staff initials may be required when creating a Note/Alert/Block.
+
+Patron Notifications
+^^^^^^^^^^^^^^^^^^^^
