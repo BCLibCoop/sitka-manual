@@ -9,9 +9,9 @@ NOTE: Local System Administration permission is required to merge patron account
 . Click *Search for Patron by Name*.
 . Search by the terms shared by the two accounts, such as name or phone number.
 . Select the two accounts you want to merge and click *Merge*.
-image:images/circ/patronmerge1.png[scaledwidth="75%"]
 . Select the lead account to keep, and check the radio button *Use as lead*.
 . Click *Merge* at bottom right of screen.
+
 image:images/circ/patronmerge2.png[scaledwidth="75%"]
 
 Inactive Card
