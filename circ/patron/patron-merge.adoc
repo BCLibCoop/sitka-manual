@@ -1,6 +1,10 @@
 Merge Patrons
 ~~~~~~~~~~~~~
-Note: Local System Administration permission is required to merge patron accounts. Patron accounts can only be merged if both accounts have the same home library. You need to update the home library in one of the accounts before merging.
+
+Merge Patrons
+^^^^^^^^^^^^^
+
+NOTE: Local System Administration permission is required to merge patron accounts. Patron accounts can only be merged if both accounts have the same home library. You need to update the home library in one of the accounts before merging.
 
 . Click *Search for Patron by Name*.
 . Search by the terms shared by the two accounts, such as name or phone number.
@@ -19,4 +23,4 @@ Once the two accounts have been merged, the notes, bills, holds, and outstanding
 
  It is good practice to  delete the inactive card. Your library can also choose to automatically delete the inactive card by configuring the Library Setting Patron Merge Barcode Delete to True.
 
-Note: If you scan an inactive card on Check Out screen, it will  retrieve the active account. Best practice in that case is to delete the inactive account from database and destroy the inactive card.
+NOTE: If you scan an inactive card on Check Out screen, it will retrieve the active account. Best practice in that case is to delete the inactive account from database and destroy the inactive card.
