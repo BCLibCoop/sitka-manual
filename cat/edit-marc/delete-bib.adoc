@@ -29,7 +29,7 @@ You may also delete bibliographic records from a Record Bucket.
 [TIP]
 =====
 Deleted records can be undeleted. Retrieve the record by record id. Go to MARC Edit. Click on *Undelete*.
-+
+
 image::images/cat/delete-marc-5.png[]
 =====
 
