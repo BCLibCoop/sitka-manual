@@ -22,4 +22,14 @@ image::images/cat/delete-marc-3.png[]
 +
 . Record is now deleted and inactive and only retrievable by a TCN (title control number) search or bibliographic record id (presented at deletion confirmation prompt).
 +
-. 
+image::images/cat/delete-marc-4.png[]
+
+You may also delete bibliographic records from a Record Bucket.
+
+[TIP]
+=====
+Deleted records can be undeleted. Retrieve the record by record id. Go to MARC Edit. Click on *Undelete*.
++
+image::images/cat/delete-marc-5.png[]
+=====
+
