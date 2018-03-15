@@ -4,7 +4,7 @@ Patron Alerts
 ^^^^^^^^^^^^^
 If a patron’s account has an alert, a red *Stop* sign is displayed when the account is retrieved. There are three types of alerts in Evergreen: staff-generated, system-generated, and standing penalties.
 
-Staff -generated Alerts
+Staff-generated Alerts
 +++++++++++++++++++++++
 Staff-generated alerts are created by staff, and must be removed by staff.
 
@@ -16,7 +16,7 @@ Standing penalties
 ++++++++++++++++++
 Standing penalties are inserted when a patron's circulation condition meets criteria set up by your library for the maximum fine threshold, maximum number of items allowed out, and the maximum number of overdue items allowed. If a patron exceeds any of these limits, an alert will block their account. Standing penalties are removed once the cause is resolved.
 
-Standing penalties can be overridden on an item by item basis. Alternatively, you can remove the standing penalties temporarily to carry out the circulation actions that need to be overridden. If the conditions persist, once you refresh or re-access the patron record the penalties will be re-applied immediately.
+Standing penalties can be overridden on an item by item basis. Alternatively, you can remove the standing penalties temporarily to carry out the circulation actions that need to be overridden. If the conditions persist, once you refresh or re-access the patron account the penalties will be re-applied immediately.
 
 . To remove standing penalties from a patron account, go to *Messages*.
 . Highlight the penalties. Click *Actions → Remove Penalty/Message*.
@@ -43,11 +43,9 @@ You can also enter Alerts, Notes, and Blocks on the *Messages* tab.
 
 image:images/circ/patronalert2.png[scaledwidth="75%"]
 
-To edit, remove, or archive messages, select the message and click *Actions* and follow on screen prompts.
+To edit, remove, or archive messages, select the message and click *Actions* and follow the on screen prompts.
 
-NOTE: The See Notes icon is not displayed for a note created on the Messages screen.
-Alerts and blocks created on the Messages screen are displayed on the Alert screen.
-System-generated standing penalties are displayed on the Messages screen.
+NOTE: Alerts and blocks created on the Messages screen are displayed on the Alert screen. System-generated standing penalties are displayed on the Messages screen.
 Based on your library's setting, staff initials may be required when creating a Note/Alert/Block.
 
 Patron Notifications
@@ -55,7 +53,7 @@ Patron Notifications
 Evergreen sends various email and SMS (text) messages to patrons via Action Triggers.  Triggered events are viewable on the staff client via patron or item records.
 
 . To view notifications in the patron account, select *Other → Triggered Events/Notifications*.
-. Completed pre-due and overdue notifications are displayed by default, but you can change the filters on the right to view any or all notifications.
+. Completed pre-due and overdue notifications are displayed by default. You can change the filters for *Core Type* or *Event State* on the right to view any or all notifications.
 . To re-send a completed notice, select the notice, and click *Reset Selected Event* at top right of screen.
 . To cancel a pending notice, select the notice,  and click *Cancel Selected Event* at top right of screen.
 

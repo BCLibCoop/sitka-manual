@@ -1,2 +1,36 @@
 New Behaviour in Evergreen 3.0
-------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+New Web Staff Client (Web Client)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Sitka's new Evergreen web client is accessed, in the internet browser Chrome, at catalogue.libraries.coop/eg/staff/login.
+
+Sitka's new Evergreen web client is only supported in Chrome. You must use Chrome to login to Evergreen.
+
+Workstations will have to be registered the first time you access the new staff URL, and you must be an Evergreen Local System Administrator (LSA) to register workstations.
+All existing staff logins will work once a workstation is registered.
+
+Hatch , available at xxxxxx, must be installed to print and to manage local settings.
+Co-op Support recommends all Sitka libraries install and configure Hatch.
+
+You will notice the new web client looks and functions very similar to familiar workflows. Menus and choices are consistent, with the added bonus of navigating and configuring Evergreen using modern browser functionality.
+
+Insert link Watch this video maybe?  xxxxx to take a quick tour......
+
+
+Patron Accounts
+~~~~~~~~~~~~~~~
+
+Patron account status is now indicated with coloured text.
+Patrons can choose to receive emailed check-out receipts.
+Batch edit patron accounts with the new Patron Buckets feature.
+
+Catalogue
+~~~~~~~~~
+New feature to search patron by name and other fields from Place Hold screen.
+Option to suspend holds at time of placement is back.
+Clickable Copy Locations (only if they actually work!!!)
+
+Library Settings
+~~~~~~~~~~~~~~~~
+Number of Retrievable Recent Patrons is used to enable the ability to retrieve X number of recent patron accounts in Circulation menu.

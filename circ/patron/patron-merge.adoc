@@ -16,8 +16,8 @@ image:images/circ/patronmerge2.png[scaledwidth="75%"]
 
 Inactive Card
 ^^^^^^^^^^^^^
-Once the two accounts have been merged, the notes, bills, holds, and outstanding items under the non-lead card are brought to the lead account, and the non-lead card is marked inactive.
+Once the two accounts have been merged, the notes, bills, holds, and outstanding items on the non-lead card are transferred to the lead account, and the non-lead card is marked inactive.
 
 It is good practice to  delete the inactive card. Your library can also choose to automatically delete the inactive card by configuring the Library Setting Patron Merge Barcode Delete to True.
 
-NOTE: If you scan an inactive card on Check Out screen, it will retrieve the active account. Best practice in that case is to delete the inactive account from database and destroy the inactive card.
+NOTE: If you scan such an inactive card on Check Out screen, Evergreen retrieves the active account, and provides an informative message. The situation can be managed as per local policy.
