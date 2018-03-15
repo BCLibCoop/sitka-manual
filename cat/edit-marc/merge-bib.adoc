@@ -36,3 +36,8 @@ image::images/cat/merge-4.png[]
 ======
 You may edit volumes and/or copies from merge screen. However, Co-op support suggests you focus on bibliogrpahic records on merge screen. After the merging is done, you may edit your volume/copy on Holdings View.
 =====
+
+[CAUTION]
+=========
+Deleted records remain in Record Bucket. We suggest you merge records right after you add them to the bucket. If you merge them later, good practice is to check the records again before merging to avoid merging them into a deleted record. Right now delete records are not indicated on merge screen.
+==========
