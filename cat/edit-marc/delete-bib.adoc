@@ -16,6 +16,10 @@ image::images/cat/delete-marc-1.png[]
 +
 image::images/cat/delete-marc-2.png[]
 +
-. Confirm the deletion by clicking *OK/Continue*. Record is now deleted and inactive and only retrievable by a TCN (title control number) search or bibliographic record id (presented at deletion confirmation prompt).
-
-
+. Confirm the deletion by clicking *OK/Continue*. 
++
+image::images/cat/delete-marc-3.png[]
++
+. Record is now deleted and inactive and only retrievable by a TCN (title control number) search or bibliographic record id (presented at deletion confirmation prompt).
++
+. 
