@@ -1,5 +1,24 @@
 Exporting Bibliographic Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+There are times when you may want to export MARC records from Evergreen. Evergreen allows you to do so via the Record Bucket and the MARC Batch Import/Export interface. You may include the holdings information in the MARC records. Based on Sitka's configuration, the holdings information will be in tag 852, including the copy's circulating library, shelving location, barcode, call number, status, and others saved in the copy record.
 
+MARC records can be exported from Evergreen in MARCXML, UNIMARC, MARC21/USMARC or Evergreen Record Entry format. You need to choose one from the dropdown list. The exported records can be coded in either UTF-8 or MARC8.
+
+To export MARC records on MARC Batch Import/Export interface, click Cataloguing -> MARC Batch Import/Export. The default screen is Import Records. Click *Export Records* tab to open the export interface.
+
+image::images/cat/export-marc-1.png[]
+
+If you want to export more than one record at a time, the records need to be saved in a Record Bucket or their IDs saved in a CSV file. If the CSV file contains other information than just record ids, specify which column is the record id by filling it into the Use Field Number box. Note that the field number starts from 0. If the second column in the CSV file is record id, the field number is 1.
+
+If you export one record only, you may type in the record ID directly on the Export interface.
+
+Once you have completed the above form, click the *Retrieve Records* button at the bottom. You will be prompted to browse the records, and then save them, or save them directly into a file.
+
+[NOTE]
+======
+Holding records can be exported in tag 852, but this includes all item records across the Sitka consortium, not just your library's holdings.
+======
+
+To export MARC records from Record Bucket, go to Cataloguing -> Record Bucket. Retrieve the bucket containing the records that you wish to export. Click Export All Records to select the exported record format. You will be prompted to save the file.
 
