@@ -1,8 +1,53 @@
 Check Out
 ~~~~~~~~~
 
-Besides the regular items in the catalogue, Sitka's Evergreen can circulate pre-catalogued and non-catalogued items too.
+Sitka's Evergreen circulates catalogued, pre-catalogued, and non-catalogued items.
 
-* Regular circulation: circulation of regular items in your catalogue with a barcode.
-* Pre-catalogued , or pre-cat, circulation: circulation of items that have a barcode but have not been catalogued yet.  You may check them out and send for cataloguing after they are returned. Many Sitka sites use this functionality to circulate interlibrary loan items from other libraries. There is no need to route to cataloguing when using pre-cat for interlibrary loan, you can simply ignore the alert.
-* Non-catalogued, or non-cat, circulation: circulation of items that are not in your catalogue and without a barcode.
+* Regular circulation of items in your catalogue with a barcode.
+* Pre-catalogued , or pre-cat, circulation of items that have a barcode but have not been catalogued yet. Pre-cat records are created on the fly in *Check Out* screen, and can not be searched in the catalogue; pre-cats can only be found in patron account or by item barcode search.  Many Sitka sites use pre-cat functionality to circulate interlibrary loan items from other libraries. There is no need to route item to cataloguing when using pre-cat for interlibrary loan, you can simply ignore the alert.
+* Non-catalogued, or non-cat, circulation of items that are not catalogued.
+
+Regular Items
+^^^^^^^^^^^^^
+. Click *Check Out Items*, or *Circulation -> Check Out*.
+. Scan or enter patron barcode.
+. Scan or enter item barcode.
+. Click *Done* or *Quick Receipt*, to make choice to print, email, or no receipt, and to exit the *Check Out* screen.
+
+image:images/circ/checkout1.png[scaledwidth="75%"]
+
+Pre-catalogued Items
+^^^^^^^^^^^^^^^^^^^^
+
+. Scan or enter item barcode on patron's *Check Out* screen.
+. At prompt, enter required information and click *Precat Checkout*.
+
+image:images/circ/checkout2.png[scaledwidth="75%"]
+
+
+NOTE: On check-in, Evergreen will prompt staff to re-route the item to cataloguing. This can be ignored if checking in an inter library loan item.
+
+Non-catalogued Items
+^^^^^^^^^^^^^^^^^^^^
+Items are manually checked out with a due date but when the due date expires, the items disappear from the patron's record and no fines accrue. Circulation statistics are collected. Non-catalogued item types are library specific and are created locally
+
+. Click on *Check Out Items*
+. Click on the drop down arrow in *Barcode* to choose the type of non-catalogued items, and click *Submit*.
++
+image:images/circ/checkout3.png[scaledwidth="75%"]
++
+. Enter the number of items and click *OK*.
+
+image:images/circ/checkout4.png[scaledwidth="75%"]
+
+Due Dates
+^^^^^^^^^
+
+Due dates based on your circulation policies are calculated automatically at *Check Out*. Use *Date Options* to override default due dates. Choose to use a specific due date per session, or continuously until log-out.
+
+. Before you scan the item, click the drop down arrow in *Date Options*.
+. Select  *Specific Due Date* or *Use Specific Due Date Until Logout*.
+. Use calendar widget or enter date.
+. Scan item barcode.
+
+image:images/circ/checkout5.png[scaledwidth="75%"]
