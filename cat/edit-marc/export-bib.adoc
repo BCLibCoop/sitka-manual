@@ -5,6 +5,8 @@ There are times when you may want to export MARC records from Evergreen. Evergre
 
 MARC records can be exported from Evergreen in MARCXML, UNIMARC, MARC21/USMARC or Evergreen Record Entry format. You need to choose one from the dropdown list. The exported records can be coded in either UTF-8 or MARC8.
 
+*Export MARC Records from MARC Batch Import/Export*
+
 To export MARC records on MARC Batch Import/Export interface, click Cataloguing -> MARC Batch Import/Export. The default screen is Import Records. Click *Export Records* tab to open the export interface.
 
 image::images/cat/export-marc-1.png[]
@@ -19,6 +21,8 @@ Once you have completed the above form, click the *Retrieve Records* button at t
 ======
 Holding records can be exported in tag 852, but this includes all item records across the Sitka consortium, not just your library's holdings.
 ======
+
+*Export MARC records from Record Bucket*
 
 To export MARC records from Record Bucket, go to Cataloguing -> Record Bucket. Retrieve the bucket containing the records that you wish to export. Click Export All Records to select the exported record format. You will be prompted to save the file.
 
