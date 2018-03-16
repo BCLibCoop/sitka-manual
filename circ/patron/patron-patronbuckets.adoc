@@ -142,6 +142,6 @@ Sharing Buckets
 
 If a User Bucket has been made Staff Shareable, it can be retrieved via bucket ID by another staff account.  The ID for each bucket can be found at the end of the URL for the bucket.  For example, in the screenshot below, the bucket ID is 32.
 
-image::media/userbucket11.PNG]
+image::media/userbucket11.PNG[]
 
 A shared bucket can be retrieved by going to *Circulation->User Buckets* and selecting the *Bucket View* tab.  Next, click *Buckets* and select *Shared Bucket*.  A dialog box called _Load Shared Bucket by Bucket ID_ will appear.  Enter the ID of the bucket you wish to retrieve and click *Load Bucket*.  The shared bucket will load in the Bucket View tab.
