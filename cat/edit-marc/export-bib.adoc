@@ -24,5 +24,10 @@ Holding records can be exported in tag 852, but this includes all item records a
 
 *Export MARC records from Record Bucket*
 
-To export MARC records from Record Bucket, go to Cataloguing -> Record Bucket. Retrieve the bucket containing the records that you wish to export. Click Export All Records to select the exported record format. You will be prompted to save the file.
+To export MARC records from Record Bucket, go to Cataloguing -> Record Bucket. Retrieve the bucket containing the records that you wish to export. Select a record, then click *Action -> Export Records*.
 
+image::images/cat/export-marc-2.png[]
+
+Select the exported record format and whether to include holdings. Once done, click *Export*. You will be prompted to save the file.
+
+image::images/cat/export-marc-3.png[]
