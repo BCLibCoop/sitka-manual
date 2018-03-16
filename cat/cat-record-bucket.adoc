@@ -9,7 +9,11 @@ We will demonstrate how to create and manage bibliographic record buckets. The s
 Create Record Bucket
 ~~~~~~~~~~~~~~~~~~~~
 
+
+
 There are two ways to create a bucket. You can either create a bucket first, without accessing any records, or you can access a record and choose to create the bucket from that view. We will demonstrate both methods here, beginning with creating a bucket independent of a record.
+
+*Create Record Bucket on Record Buckets View*
 
 . Select *Cataloging -> Record Buckets* from the menu bar.
 
@@ -25,7 +29,7 @@ image::images/cat/record-bucket-2.png[]
 +
 image::images/cat/record-bucket-3.png[]
 +
-. Click the *Buckets* dropdonw list, you will see the bucket on the list. You may edit the bucket's name or descriptin by clicking on *Edit Bucket* on the list.
+. Click the *Buckets* dropdonw list, you will see the bucket on the list. You may edit the bucket's name or description by clicking on *Edit Bucket* on the list.
 +
 image::images/cat/record-bucket-4.png[]
 
@@ -33,6 +37,16 @@ image::images/cat/record-bucket-4.png[]
 =====
 Only buckets created by the login account are listed. But those created by other people can be retrieved via bucket number, if shared with you. Click *Shared Bucket* to type in the number to retrieve it.
 =====
+
+*Create Record Bucket when Adding a Record to Bucket*
+
+You can also create a bucket from within a record. Search for, retrieve, and display any bibliographic record, then choose *Other Actions -> Add to Bucket*.
+
+image::images/cat/record-bucket-5.png[]
+
+You are prompt to add the record to an exsting bucket or a new bucket for the record. To add to a new bucket, type in a name in *Name For New Bucket* box, then click *Add to New Bucket*.
+
+image::images/cat/record-bucket-6.png[]
 
 [[add-record-to-bucket]]
 Add Record to Record Bucket
