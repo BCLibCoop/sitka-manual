@@ -14,7 +14,7 @@ Regular Items
 . Scan or enter item barcode.
 . Click *Done* or *Quick Receipt*, to make choice to print, email, or no receipt, and to exit the *Check Out* screen.
 
-image:images/circ/checkout1.PNG[]
+image:images/circ/checkout1.png[]
 
 Pre-catalogued Items
 ^^^^^^^^^^^^^^^^^^^^
@@ -22,7 +22,7 @@ Pre-catalogued Items
 . Scan or enter item barcode on patron's *Check Out* screen.
 . At prompt, enter required information and click *Precat Checkout*.
 
-image:images/circ/checkout2.PNG[]
+image:images/circ/checkout2.png[ ]
 
 
 NOTE: On check-in, Evergreen will prompt staff to re-route the item to cataloguing. This can be ignored if checking in an inter library loan item.
@@ -34,11 +34,11 @@ Items are manually checked out with a due date but when the due date expires, th
 . Click on *Check Out Items*
 . Click on the drop down arrow in *Barcode* to choose the type of non-catalogued items, and click *Submit*.
 +
-image:images/circ/checkout3.PNG[]
+image:images/circ/checkout3.png[scaledwidth="75%"]
 +
 . Enter the number of items and click *OK*.
 
-image:images/circ/checkout4.PNG[]
+image:images/circ/checkout4.png[ ]
 
 Due Dates
 ^^^^^^^^^
@@ -50,4 +50,4 @@ Due dates based on your circulation policies are calculated automatically at *Ch
 . Use calendar widget or enter date.
 . Scan item barcode.
 
-image:images/circ/checkout5.PNG[]
+image:images/circ/checkout5.PNG[ ]
