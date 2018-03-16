@@ -1,10 +1,38 @@
 Record Bucket
 -------------
 
+Record Bucket allows you to build a list of titles that you may process in batch. It is also the interface for merging records. Records, even after being deleted, remain in a bucket until they are removed from it. 
+
+We will demonstrate how to create and manage bibliographic record buckets. The steps used for copy buckets are similar. It is very important when working with buckets to ensure you are working with the correct type of record for the corresponding bucket. You cannot add copy records to bibliographic record buckets and vice versa.
+
 [[create-record-bucket]]
 Create Record Bucket
 ~~~~~~~~~~~~~~~~~~~~
 
+There are two ways to create a bucket. You can either create a bucket first, without accessing any records, or you can access a record and choose to create the bucket from that view. We will demonstrate both methods here, beginning with creating a bucket independent of a record.
+
+. Select *Cataloging -> Record Buckets* from the menu bar.
+
+. Select *New Bucket* from the *Buckets* dropdown list.
++
+image::images/cat/record-bucket-1.png[]
++
+. Type in a name and some description, if needed. Click *Creat Bucekt*.
++
+image::images/cat/record-bucket-2.png[]
++
+. The newly created bucket is the active bucket in Bucket View.  Note the bucket is numbered, and creating owner identified.
++
+image::images/cat/record-bucket-3.png[]
++
+. Click the *Buckets* dropdonw list, you will see the bucket on the list. You may edit the bucket's name or descriptin by clicking on *Edit Bucket* on the list.
++
+image::images/cat/record-bucket-4.png[]
+
+[TIP]
+=====
+Only buckets created by the login account are listed. But those created by other people can be retrieved via bucket number, if shared with you. Click *Shared Bucket* to type in the number to retrieve it.
+=====
 
 [[add-record-to-bucket]]
 Add Record to Record Bucket
