@@ -1,2 +1,17 @@
 Renewing and Editing the Item's Due Date
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Checked-out items can be renewed if your library's policy allows it. The new due date is calculated from the renewal date. Existing loans can also be extended to a specific date by editing the due date or renewing with a specific due date.
+
+Renewal
+^^^^^^^
+. Click *Items Out* tab in patron account.
+. Select the items and click *Actions*.
+. Select, *Renew*, *Renew All*, or *Renew With Specific Due Date*.
+
+NOTE: You can also renew items on the *Item Status* screen.
+
+Edit Due Date
+^^^^^^^^^^^^^
+
+NOTE: *Edit Due Date* changes the due date in the existing circulation record without reducing the remaining renewal count or creating a new circulation record. It does not generate new circulation statistics, and no new notices are generated. For example, editing the due date on the day when an item is due will not generate a new pre-due notice near the new due date. Co-op Support strongly recommends you use *Renew With Specific Due Date* rather than manually edit a due date.
