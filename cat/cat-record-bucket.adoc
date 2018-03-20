@@ -97,7 +97,9 @@ Multiclass Search Help
 | sort	| sort type (title, author, pubdate)
 | dir	| sort direction (asc, desc)
 | available	| if set to anything other than "false" or "0", limits to available items
-| keyword, title, author, subject, and series support additional search subclasses, specified with a "|". For example: title|proper:gone with the wind
+| keyword, title, author, subject, and series support additional search subclasses, specified with a "\|". For example: title|proper:gone with the wind
 |====
+
+
 
 
