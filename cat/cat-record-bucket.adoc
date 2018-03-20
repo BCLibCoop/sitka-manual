@@ -74,7 +74,7 @@ image::images/cat/record-bucket-8.png[]
 +
 . Select records on the result list, then click *Action -> Add to Pending* or *Add to Bucket*, if a bucket has been selected.
 +
-image::image/cat/record-bucket-9.png[]
+image::images/cat/record-bucket-9.png[]
 +
 . You may continue search for more records and add them to Pending or Bucket. Once done, you may go *Bucket View* to create or select a bucket, if not done yet. Then add records on Pending Records tab to a bucket.
 +
@@ -82,10 +82,9 @@ image::images/cat/record-bucket-10.png[]
 +
 [TIP]
 =====
-
 Multiclass Search Help
 [options="headers"]
-|===
+|====
 | Search Key | Definition
 | keyword/kw	| search keyword(s)
 | author/au/name	| search author(s)
@@ -99,7 +98,7 @@ Multiclass Search Help
 | available	| if set to anything other than "false" or "0", limits to available items
 | keyword, title, author, subject, and series support additional search subclasses, specified with a "\|". For example: title\|proper:gone with the wind
 |====
-
+=====
 
 
 
