@@ -1,2 +1,18 @@
 In-House Use
 ~~~~~~~~~~~~
+In-house use can be recorded for catalogued and non-catalogued items. The statistics for in-house use are separate from regular circulation statistics. The in-house use count of catalogued items is not included in the items' total use count.
+
+Catalogued Items
+^^^^^^^^^^^^^^^^
+. Click *Circulation -> Record In-House Use*.
+. Enter number of uses and scan or enter barcode.
+
+image:images/circ/inhouse1.png[scaledwidth="75%"]
+
+Non-catalogued Items
+^^^^^^^^^^^^^^^^^^^^
+. Click on *Circulation -> Record In-House Use*.
+. Enter the number of uses.
+. Click on the drop down arrow in *Barcode* to choose the type of non-catalogued items, and click *Submit*.
+
+image:images/circ/inhouse2.png[scaledwidth="75%"]

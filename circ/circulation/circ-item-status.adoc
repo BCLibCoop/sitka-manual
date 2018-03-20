@@ -1,2 +1,34 @@
 Item Status
 ~~~~~~~~~~~
+
+The *Item Status* screen is very useful to circulators and cataloguers at your library.  Many daily workflows are performed from this screen. It is good practice to familiarize yourself with the functions and features of Evergreen's *Item Status*.
+
+List View and Detail View
+^^^^^^^^^^^^^^^^^^^^^^^^^
+. To check an item's status click *Circulation -> Item Status*, or *Search -> Search for Copies by Barcode*, or press *F5*.
+. Scan or enter the item barcode.
+. The current status of the item is displayed. Configure columns to select more fields to view.
++
+image:images/circ/itemstatus1.png[scaledwidth="75%"]
++
+. Click *Detail View* to see item summary, circulation history, and other useful information.
++
+image:images/circ/itemstatus2.png[scaledwidth="75%"]
++
+. Click *List View* to revert.
+
+Actions Menu
+^^^^^^^^^^^^
+
+Many circulation functions are available under the *Actions* menu. Common tasks are view last few circulations, retrieve last few patrons, mark item damaged or missing, insert item alert messages, check in items, renew items, request items, and so on.
+
+. Select item and click *Actions* to make choice.
+
+image:images/circ/itemstatus3.png[scaledwidth="75%"]
+
+Upload from File (Choose file)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This feature uploads multiple items saved in a text file on your local computer. To ensure smooth uploading and further processing of the items, it is recommended that the list contain no more than 100 items.
+
+See .....
