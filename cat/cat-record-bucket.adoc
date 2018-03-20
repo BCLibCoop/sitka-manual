@@ -60,16 +60,42 @@ Once you retrived a record on the catalogue, you may select *Other Actions -> Ad
 
 *Add Records to a Bucket on Record Bucket View*
 
-You may conduct a qeury, then select records from the result list to add to a bucket on Record Bucket view.
+You may conduct a query, then select records from the result list to add to a bucket on Record Bucket view.
 
 . Go to Record Bucket by choosing *Cataloguing -> Record Bucket*.
 . You may create or select a bucket by using the *Buckets* dropdown list.
 . Click *Record Query*
-
++
 image::images/cat/record-bucket-7.png[]
-
++
 . Type in your search term, then hit *Enter* key. 
-
++
 image::images/cat/record-bucket-8.png[]
++
+. Select records on the result list, then click *Action -> Add to Pending* or *Add to Bucket*, if a bucket has been selected.
++
+image::image//cat/record-bucket-9.png[]
++
+. You may continue search for more records and add them to Pending or Bucket. Once done, you may go *Bucket View* to create or select a bucket, if not done yet. Then add records on Pending Records tab to a bucket.
++
+image::images/cat/record-bucket-10.png[]
++
+[TIP]
+=====
 
-. 
+Multiclass Search Help
+[options="headers"]
+|===
+| Search Key | Definition
+| keyword/kw	| search keyword(s)
+| author/au/name	| search author(s)
+| title/ti	| search title
+| subject/su	| search subject
+| series/se	| search series
+| lang	| limit by language (specify multiple langs with lang:l1 lang:l2 ...)
+| site	| search at specified org unit, corresponds to actor.org_unit.shortname
+| sort	| sort type (title, author, pubdate)
+| dir	| sort direction (asc, desc)
+| available	| if set to anything other than "false" or "0", limits to available items
+| keyword, title, author, subject, and series support additional search subclasses, specified with a |. For example: title|proper:gone with the wind
+|===
