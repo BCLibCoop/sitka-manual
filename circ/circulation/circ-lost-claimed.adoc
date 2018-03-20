@@ -1,5 +1,49 @@
 Marking Items Lost, Claimed Returned, and Claimed Never Checked Out
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Note from Jennifer - do we want to split lost from claimed returned and claimed never checked out?
-We have a really long tip under lost that could then be incorporated into the main lost page
+Lost
+^^^^
+
+Marking an item *Lost* automatically bills the patron the replacement cost of the item and a processing fee if you charge one. Overdue fines can be voided or retained.
+
+. Click *Items Out* in patron accounts.
+. Select the item and click *Actions -> Mark Lost (By Patron)*.
++
+image:images/circ/lost1.png[scaledwidth="75%"]
++
+. The item is now displayed on the patron's  *Other/Special Circulations* tab.
+
+image:images/circ/lost2.png[scaledwidth="75%"]
+
+NOTE: A *Lost* item will display on the patron account until linked bills are resolved. Bills include replacement charges, overdue charges, and manual charges added to the existing bills. See Billing for more information on managing *Lost* bills.
+
+
+When a lost item is found and returned, your library may choose to:
+
+* Always void lost charges.
+
+* Void lost charges if the item is returned within a specified time period, e.g. within 6 months since the due date.
+
+* Generate a refund if payment has been made.
+
+* Generate a refund only if the item is returned within a specified time period since the payment date.
+
+* Restore existing overdue fines.
+
+* Generate new overdue fines based on the check in date.
+
+Claims Returned
+^^^^^^^^^^^^^^^
+
+The date entered for a *Claims Returned* item establishes the fine. If the date given is past, bills will be adjusted accordingly, and remain linked to patron account until resolved.  Patron's *Claims-returned Count* is automatically increased, and the item's status is changed to *Claimed Returned*.
+
+. Click *Items Out* in patron account.
+. Select the item and click *Actions -> Mark Claims Returned*, enter date, and click *Submit*.
+. The item is now displayed on the patron's  *Other/Special Circulations* tab.
+
+Claims Never Checked Out
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Click *Items Out* in patron account.
+. Select the item and click *Actions -> Claims Never Checked Out*, and click *OK/Continue*.
+. The item is checked in effective from the check out date, disappears from the patron account, and has its status changed to *Missing*.
