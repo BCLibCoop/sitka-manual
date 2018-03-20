@@ -32,12 +32,14 @@ image:images/circ/checkin3.png[scaledwidth="75%"]
 Check In Modifiers
 ^^^^^^^^^^^^^^^^^^
 TIP: Click the *Checkin Modifiers* drop down arrow. These options may be selected simultaneously. The selected option is displayed in the header area.
- * Ignore Pre-cat Items: no prompt when checking in a pre-cat item. Item will be routed to Cataloguing with Cataloguing status.
++
+* Ignore Pre-cat Items: no prompt when checking in a pre-cat item. Item will be routed to Cataloguing with Cataloguing status.
  * Suppress Holds and Transit: item will not be used to fill holds or sent in transit. Item has Reshelving status.
- * Amnesty Mode/Forgive Fines: overdue fines will be voided if already created or not be inserted if not yet created (e.g. hourly loans).
- * Auto-Print Hold and Transit Slips: slips will be automatically printed without prompt for confirmation.
- * Clear Holds Shelf. Checking in hold-shelf-expired items will clear the items from the hold shelf (holds to be cancelled).
- * Retarget Local Holds. When checking in in-process items, attempt to find a local hold to retarget. This will force the hold targeter to target the items immediately.
- * Retarget All Statuses. Similar to Retarget Local Holds, this modifier will attempt to find a local hold to retarget, regardless of the status of the item being checked in. This modifier must be used in conjunction with the Retarget Local Holds modifier.
- * Capture Local Holds as Transits. Local holds will be given an in transit status instead of on holds shelf. The intent is to stop the system from sending holds notifications before the item is ready to be placed on the holds shelf and item will have a status of in-transit until checked in again.
+* Amnesty Mode/Forgive Fines: overdue fines will be voided if already created or not be inserted if not yet created (e.g. hourly loans).
+* Auto-Print Hold and Transit Slips: slips will be automatically printed without prompt for confirmation.
+* Clear Holds Shelf. Checking in hold-shelf-expired items will clear the items from the hold shelf (holds to be cancelled).
+* Retarget Local Holds. When checking in in-process items, attempt to find a local hold to retarget. This will force the hold targeter to target the items immediately.
+* Retarget All Statuses. Similar to Retarget Local Holds, this modifier will attempt to find a local hold to retarget, regardless of the status of the item being checked in. This modifier must be used in conjunction with the Retarget Local Holds modifier.
+* Capture Local Holds as Transits. Local holds will be given an in transit status instead of on holds shelf. The intent is to stop the system from sending holds notifications before the item is ready to be placed on the holds shelf and item will have a status of in-transit until checked in again.
 * Manual Floating Active. This check in modifier works in conjunction with floating groups, as configured for your library by Co-op Support.
++
