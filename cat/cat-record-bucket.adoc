@@ -11,9 +11,9 @@ Create Record Bucket
 
 
 
-There are two ways to create a bucket. You can either create a bucket first, without accessing any records, or you can access a record and choose to create the bucket from that view. We will demonstrate both methods here, beginning with creating a bucket independent of a record.
+There are two ways to create a bucket. You can either create a bucket first, without accessing any records, or you can access a record and choose to create the bucket from that view. We will demonstrate both methods here.
 
-*Create Record Bucket on Record Buckets View*
+*Create Record Bucket on Record Buckets* view
 
 . Select *Cataloging -> Record Buckets* from the menu bar.
 
@@ -25,7 +25,7 @@ image::images/cat/record-bucket-1.png[]
 +
 image::images/cat/record-bucket-2.png[]
 +
-. The newly created bucket is the active bucket in Bucket View.  Note the bucket is numbered, and creating owner identified.
+. The newly created bucket is the active bucket in Bucket View.  Note that the bucket is numbered, and creating owner identified.
 +
 image::images/cat/record-bucket-3.png[]
 +
@@ -52,3 +52,20 @@ image::images/cat/record-bucket-6.png[]
 Add Record to Record Bucket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+You may add records to a bucket at a few places.
+
+*Adding Records to a Bucket on the Catalogue*
+
+Once you retrived a record on the catalogue, you may select *Other Actions -> Add to Bucket* to add it to a record bucket.
+
+*Add Records to a Bucket on Record Bucket View*
+
+You may conduct a qeury, then select records from the result list to add to a bucket on Record Bucket view.
+
+. Go to Record Bucket by choosing *Cataloguing -> Record Bucket*.
+. You may create or select a bucket by using the *Buckets* dropdown list.
+. Click *Record Query*
+image::images/cat/record-bucket-7.png[]
+. Type in your search term, then hit *Enter* key. 
+image::images/cat/record-bucket-8.png[]
+. 
