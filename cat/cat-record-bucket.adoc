@@ -100,5 +100,11 @@ Multiclass Search Help
 |====
 =====
 
+*Add Imported Records on MARC Batch Import/Export*
+
+MARC records that have already been imported via MARC Batch Import/Expot can be added to a bucket. 
+
+image::images/cat/record-bucket-11[]
+
 
 
