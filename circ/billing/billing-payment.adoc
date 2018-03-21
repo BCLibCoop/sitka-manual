@@ -1,5 +1,17 @@
 Making Payments
 ~~~~~~~~~~~~~~~
 
-This page is about making payments.
+Bills can be paid by cash, check, or credit or be resolved by patron credit, forgiveness, work, or goods.
 
+. Click on *Bills* tab.
+. Select the payment type from the drop down menu.
++
+image:images/circ/paybills1.png[scaledwidth="75%"]
++
+. Enter the payment in the *Payment Received* field and click *Apply Payment*.
++
+image:images/circ/paybills2.png[scaledwidth="75%"]
++
+. Details of the transaction are displayed.
+
+image:images/circ/paybills3.png[scaledwidth="75%"]
