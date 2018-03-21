@@ -1,2 +1,7 @@
 Barcode Completion
 ~~~~~~~~~~~~~~~~~~
+Barcode completion is generally used in Sitka's Evergreen to handle duplicate item or patron barcodes. It adds a prefix or a suffix to the physical barcode scanned.
+For example, all barcodes at a library may be prefixed in Evergreen with their Library and Archives Canada code MPL12345, but the physical barcode on the item or patron card is 12345. When barcode completion is in use, Evergreen will add MPL to every barcode scanned, matching the physical barcode with the correct saved record.
+
+Multiple Matches
+^^^^^^^^^^^^^^^^
