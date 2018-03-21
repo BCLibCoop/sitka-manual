@@ -8,7 +8,6 @@ List View and Detail View
 . To check an item's status click *Circulation -> Item Status*, or *Search -> Search for Copies by Barcode*, or press *F5*.
 . Scan or enter the item barcode.
 . The current status of the item is displayed. Configure columns to select more fields to view.
-
 +
 image:images/circ/itemstatus1.png[scaledwidth="75%"]
 +

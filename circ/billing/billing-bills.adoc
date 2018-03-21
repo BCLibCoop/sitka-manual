@@ -1,4 +1,8 @@
 Circulation vs. Grocery Bills
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This is a page about circ vs. grocery bills.
+There are two types of bills in Sitka's Evergreen: *Circulation* bills and *Grocery* bills.
+
+* Circulation bills are system-generated charges such as overdue fines, lost item costs, and processing fees. The fine rates, replacement costs, and processing fees are determined by each library.
+
+* Grocery bills are manually created by staff. Grocery bill types can be shared by all Sitka libraries or created by an individual library. Default price can be attached to each bill type.
