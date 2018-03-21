@@ -63,12 +63,12 @@ Once you retrived a record on the catalogue, you may select *Other Actions -> Ad
 You may conduct a query, then select records from the result list to add to a bucket on Record Bucket view.
 
 . Go to Record Bucket by choosing *Cataloguing -> Record Bucket*.
-. You may create or select a bucket by using the *Buckets* dropdown list.
+. You may create or select a bucket by using the *Buckets* dropdown list on Bucket View tab now or later.
 . Click *Record Query*
 +
 image::images/cat/record-bucket-7.png[]
 +
-. Type in your search term, then hit *Enter* key. 
+. Type in your search term, then hit *Enter* key to start the search. 
 +
 image::images/cat/record-bucket-8.png[]
 +
@@ -76,7 +76,7 @@ image::images/cat/record-bucket-8.png[]
 +
 image::images/cat/record-bucket-9.png[]
 +
-. You may continue search for more records and add them to Pending or Bucket. Once done, you may go *Bucket View* to create or select a bucket, if not done yet. Then add records on Pending Records tab to a bucket.
+. You may continue search for more records and add them to Pending tab or Bucket. Once done, you may go *Bucket View* to create or select a bucket, if not done yet. You may select, then add records on Pending Records tab, if any, to a bucket.
 +
 image::images/cat/record-bucket-10.png[]
 +
@@ -92,7 +92,7 @@ Multiclass Search Help
 | subject/su	| search subject
 | series/se	| search series
 | lang	| limit by language (specify multiple langs with lang:l1 lang:l2 ...)
-| site	| search at specified org unit, corresponds to actor.org_unit.shortname
+| site	| search at specified org unit, corresponds to actor.org_unit.shortname, e.g. ti:dora explorer site:BFSJ
 | sort	| sort type (title, author, pubdate)
 | dir	| sort direction (asc, desc)
 | available	| if set to anything other than "false" or "0", limits to available items
