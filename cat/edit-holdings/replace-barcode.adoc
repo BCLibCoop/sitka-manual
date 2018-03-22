@@ -1,6 +1,18 @@
 Replacing a Barcode
 ~~~~~~~~~~~~~~~~~~~
 
-This page is about replacing barcodes.
+You may replace an item's barcode at a few places. The simplest way is to use *Replace Barcode* function on the *Circulation*  dropdown menu. You will be prompted to enter the old barcode and then the new barcode.
 
+image::images/cat/replace-barcode-1.png[]
 
+Replace Barcode function is also available on *Holdings View* on Record Details screen. Select the item, click *Actions* dropdown list. Scroll down to *Edit*, then choose *Replace Barcode*.
+
+image::images/cat/replace-barcode-2.png[]
+
+You are prompted to type in or scan a new barcode. The prompt will be closed once you hit *Enter* or click *Submit*. Refresh the Holdings View to see the new barcode.
+
+image::images/cat/replace-barcode-3.png[]
+
+You may also replace an item's barcode on *Item Status* screen. Select the item, click *Actions* dropdown list. Scroll down to *Edit*, then choose *Replace Barcode*.
+
+image::images/cat/replace-barcode-4.png[]
