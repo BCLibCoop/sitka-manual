@@ -9,8 +9,18 @@ In Evergreen, the call number is kept in a separate record, called volume or cal
 +
 image::images/cat/edit-holding-1.png[]
 +
-. Scan or type in the barcode to retrieve the item. Select the item on the list. Click *Actions* dropdown list. Scroll down to *Edit*, then select *Volumes*, *Items* or *Volumes and Items*. In tiis example, we choose *Volume and Items*.
+. Scan or type in the barcode to retrieve the item. Select the item on the list. Click *Actions* dropdown list. Scroll down to *Edit*, then select *Volumes*, *Items* or *Volumes and Items*. In this example, we choose *Items*.
 +
 image::images/cat/edit-holding-2.png[]
 +
-. 
+. The Copy editor opens in a new tab. Make the changes, then *Save & Exit* to close the tab.
++
+image:images/cat/edit-holding-2.png[]
++
+
+*Edit Items on Holdings Grid*
+
+You may access the copy editor on Record Details OPAC View. Click *Edit* beside the item barcode that you want to edit. The Copy editor opens in a new tab.
+
+image:images/cat/edit-holding-3.png[]
+
