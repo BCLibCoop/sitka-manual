@@ -1,4 +1,16 @@
 Voiding Bills
 ~~~~~~~~~~~~~
+(((Bills,Void Bills)))
+Local System Administration staff can void bills, either entirely or in part. Co-op Support recommends you use *Adjust Bill to Zero* in most cases.
 
-This is a page on voiding bills.
+. Click *Bills* in patron account.
+. Select bill line and click *Actions -> Void All Billings*.
++
+image:images/circ/voidbill1.png[scaledwidth="75%"]
++
+. To void a partial amount, select the bill, click *Actions → Full Details*.
+. Select line item and click *Actions -> Void Billings*.
++
+image:images/circ/voidbill2.png[scaledwidth="75%"]
++
+. Click *OK/Continue*.
