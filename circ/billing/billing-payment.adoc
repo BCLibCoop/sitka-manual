@@ -1,9 +1,11 @@
 Making Payments
 ~~~~~~~~~~~~~~~
 
-Bills can be paid by cash, check, or credit or be resolved by patron credit, forgiveness, work, or goods.
+Bills can be paid by cash, check, or credit, or be resolved by forgiveness, work, or goods.
 
 . Click on *Bills* tab.
+. Select or de-select bills to pay. Oldest bills are paid first by default.
+. Select *Receipt On Payment* and enter *#Copies* as required.
 . Select the payment type from the drop down menu.
 +
 image:images/circ/paybills1.png[scaledwidth="75%"]
@@ -15,3 +17,7 @@ image:images/circ/paybills2.png[scaledwidth="75%"]
 . Details of the transaction are displayed.
 
 image:images/circ/paybills3.png[scaledwidth="75%"]
+
+
+
+TIP: Click *Annotate* to add a note to the payment.
