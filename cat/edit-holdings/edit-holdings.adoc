@@ -15,17 +15,21 @@ image::images/cat/edit-holding-2.png[]
 +
 . The Copy editor opens in a new tab. Make the changes, then *Save & Exit* to close the tab.
 +
-image:images/cat/edit-holding-2.png[]
-+
+image:images/cat/edit-holding-3.png[]
+
+[TIP]
+=====
+You may use the *Hide Volume/Copy Detials* and *Hide Copy Attributes* buttons to choose to display volume or copy only or both volume and copy at the same time.
+====
 
 *Edit Volume Copy on Holdings Grid*
 
 You may access the copy editor on Record Details OPAC View. Click *Edit* beside the item barcode that you want to edit. The Copy editor opens in a new tab.
 
-image:images/cat/edit-holding-3.png[]
+image:images/cat/edit-holding-4.png[]
 
 *Edit Volume Copy on Holdings View*
 
-You may edit volumes/copies on Record Details Holdings View. Select the item you want to edit, click *Actions*. Scroll down to *Edit*. Click *Volumes*, *Copies* or *Volumes and Copies*. 
+You may edit volumes/copies on Record Details Holdings View. Select the item you want to edit, click *Actions* dropdown list. Scroll down to *Edit*. Click *Volumes*, *Copies* or *Volumes and Copies*. 
 
-image:images/cat/edit-holding-4.png[]
+image:images/cat/edit-holding-5.png[]
