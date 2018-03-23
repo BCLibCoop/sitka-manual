@@ -59,16 +59,26 @@ You are prompted to add the record to an exsting bucket or a new one. To add to 
 
 image::images/cat/copy-bucket-5.png[]
 
-Adding/Removing Copy Records to/from a Bucket
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Adding Copy Records to a Bucket
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Copies can be added to a bucket when they are displayed on *Checkin*, *Item Status* and *Holdings View*. You can select multiple items and add them to a copy bucket at one time. 
+Copies can be added to a bucket when they are displayed on *Checkin*, *Item Status* and *Holdings View* screen. You can select multiple items and add them to a copy bucket at one time. Click *Actions -> Add Items to Bucket*.
 
 image::images/cat/copy-bucket-6.png[]
+
+You can add copies to a buckect on Copy Bucket View. Go to *Pending* tab to scan or type in copy barocdes.
+
+image::images/cat/copy-bucket-7.png[]
+
+Click the *Buckets* dropdown list to open or create a bucket, if not done yet. Select records that you want to add to the bucket. Click *Actions -> Add to Bucket*.
+
+image::images/cat/copy-bucket-8.png[]
 
 
 Working with Copies in a Bucket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 
 Retrieving Shared Buckets
 ~~~~~~~~~~~~~~~~~~~~~~~~~
