@@ -1,4 +1,24 @@
 Bill History
 ~~~~~~~~~~~~
+(((Bill History)))
 
-This is a page on billing history
+Bill History
+^^^^^^^^^^^^^
+
+. Click *History* in patron's bills screen.
+. View all bills, or bills from a specified time frame. Use the calendar widgets to choose the *Start Date* and *End Date*, and click *Apply*.
++
+image:images/circ/billhistory1.png[scaledwidth="75%"]
++
+. For more information about a particular bill, select the line item and click *Actions -> Full Details*.
++
+image:images/circ/billhistory2.png[scaledwidth="75%"]
++
+.All transaction details are listed, such as time stamps, circulation dates, billing dates, amounts, staff identification, and item information
+
+Payment History
+^^^^^^^^^^^^^^^
+
+. Click *Payments* on *Bill History* screen.
+. View all payments, or payments from a specified time frame. Use the calendar widgets to choose the *Start Date* and *End Date*, and click *Apply*.
+. For more information about a particular payment, select the line item and click *Actions -> Full Details*.
