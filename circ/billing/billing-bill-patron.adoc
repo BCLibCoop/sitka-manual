@@ -1,4 +1,26 @@
 Adding New "Grocery" Bills
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+(((Bills, Add Bills)))
+(((Bill Patron)))
 
-This is a page on creating new bills.
+Create New Bill
+^^^^^^^^^^^^^^^
+
+. Click *Bills* in patron account.
+. Click *Bill Patron*
++
+image:images/circ/billpatron1.png[scaledwidth="75%"]
++
+. Click on drop down arrow and select *Billing Type*, enter bill amount, and any required note, and click *Submit*.
++
+image:images/circ/billpatron2.png[scaledwidth="75%"]
++
+
+Add Charge to Existing Bill
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Select the required bill from patron's *Bills* screen and click *Actions -> Add Billing*.
++
+image:images/circ/billpatron3.png[scaledwidth="75%"]
++
+. Click on drop down arrow and select *Billing Type*, enter bill amount, and any required note, and click *Submit*. The bill's balance is updated.
