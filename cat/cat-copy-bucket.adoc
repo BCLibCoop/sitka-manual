@@ -24,10 +24,46 @@ When a bucket is retrieved, all information about the records in it is transferr
 Creating Copy Buckets
 ~~~~~~~~~~~~~~~~~~~~~~
 
+There are two ways to create a copy bucket. You can either create a bucket first, without accessing any copies, or you can access a copy record and choose to create the bucket from that view. We will demonstrate both methods here.
 
+*Create a Copy Bucket on Copy Buckets* view
+
+. Select *Cataloging -> Copy Buckets* from the menu bar.
+
+. Select *New Bucket* from the *Buckets* dropdown list.
++
+image::images/cat/copy-bucket-1.png[]
++
+. Type in a name and some description, if needed. Click *Creat Bucket*.
++
+image::images/cat/copy-bucket-2.png[]
++
+. The newly created bucket is the active bucket in Bucket View.  Note that the bucket is numbered, and creating owner identified.
++
+image::images/cat/copy-bucket-3.png[]
++
+. Click the *Buckets* dropdonw list, you will see the bucket on the list. You may edit the bucket's name or description by clicking on *Edit Bucket* on the list.
+
+[TIP]
+=====
+Only buckets created by the login account are listed. But those created by other people can be retrieved via bucket number, if shared with you. Click *Shared Bucket* to type in the number to retrieve it.
+=====
+
+*Create a Copy Bucket when Adding a Copy Record to a Bucket*
+
+You can also create a bucket from within a copy record. When a copy is displayed a screen such as, *Checkin*, *Checkout*, or *Items Out*, you can add it to a copy bucket by choosing *Actions -> Add Items to Bucket*. 
+
+image::images/cat/copy-bucket-4.png[]
+
+You are prompted to add the record to an exsting bucket or a new bucket for the record. To add to a new bucket, type in a name in *Name For New Bucket* box, then click *Add to New Bucket*.
+
+image::images/cat/record-bucket-5.png[]
 
 Adding/Removing Copy Records to/from a Bucket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
 
 Working with Copies in a Bucket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
