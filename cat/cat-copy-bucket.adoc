@@ -51,18 +51,20 @@ Only buckets created by the login account are listed. But those created by other
 
 *Create a Copy Bucket when Adding a Copy Record to a Bucket*
 
-You can also create a bucket from within a copy record. When a copy is displayed a screen such as, *Checkin*, *Checkout*, or *Items Out*, you can add it to a copy bucket by choosing *Actions -> Add Items to Bucket*. 
+You can also create a bucket from within a copy record. When a copy is displayed on a screen such as, *Checkin* and *Items Status*, you can add it to a copy bucket by choosing *Actions -> Add Items to Bucket*. 
 
 image::images/cat/copy-bucket-4.png[]
 
-You are prompted to add the record to an exsting bucket or a new bucket for the record. To add to a new bucket, type in a name in *Name For New Bucket* box, then click *Add to New Bucket*.
+You are prompted to add the record to an exsting bucket or a new one. To add to a new bucket, type in a name in *Name For New Bucket* box, then click *Add to New Bucket*.
 
-image::images/cat/record-bucket-5.png[]
+image::images/cat/copy-bucket-5.png[]
 
 Adding/Removing Copy Records to/from a Bucket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Copies can be added to a bucket when they are displayed on *Checkin*, *Item Status* and *Holdings View*. You can select multiple items and add them to a copy bucket at one time. 
 
+image::images/cat/copy-bucket-6.png[]
 
 
 Working with Copies in a Bucket
