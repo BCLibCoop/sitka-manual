@@ -65,12 +65,12 @@ image::images/cat/copy-bucket-5.png[]
 [[delete-copy-bucket]]
 *Delete Copy Buckets*
 
-To delete a copy record bucket, retrieve it on Bucket View, then select *Delete Bucket* on *Buckets* dropdown list.
+To delete a copy bucket, retrieve it on Bucket View, then select *Delete Bucket* on *Buckets* dropdown list.
 
 image::images/cat/copy-bucket-5a.png[]
 
-Adding/Removing Copy Records to a Bucket
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Adding/Removing Copy Records to/from a Bucket
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Copies can be added to a bucket when they are displayed on *Checkin*, *Item Status* and *Holdings View* screen. You can select multiple items and add them to a copy bucket at one time. Click *Actions -> Add Items to Bucket*.
 
