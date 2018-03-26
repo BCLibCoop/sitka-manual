@@ -88,18 +88,17 @@ To remove copies from a bucket,  retrieve the bucket, select the copies, choose 
 
 image::images/cat/copy-bucket-9.png[]
 
+
 Working with Copies in a Bucket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+You may apply the following functions on selected copies in a bucket. 
 
-*Apply Tag*
 
-*Delete Copy Records*
-
-*Edit Copies*
-
-Transfer Copies
-
-Print Labels
+**Apply Copy Tag
+*Delete Copy Records
+*Edit Copy Records
+*Transfer Copies to a Selected Volume
+*Print Labels**
 
 
 Retrieving Shared Buckets
