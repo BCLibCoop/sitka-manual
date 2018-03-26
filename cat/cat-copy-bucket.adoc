@@ -94,11 +94,11 @@ Working with Copies in a Bucket
 You may apply the following functions on selected copies in a bucket. 
 
 
-* *Apply Copy Tag
-* Delete Copy Records
-* Edit Copy Records
-* Transfer Copies to a Selected Volume
-* Print Labels*
+* *Apply Copy Tag*
+* *Delete Copy Records*
+* *Edit Copy Records*
+* *Transfer Copies to a Selected Volume*
+* *Print Labels*
 
 To apply these functions, retrieve the bucket, select copies, then choose the function from the *Actions* list. The below example shows how to apply Copy Tag.
 
