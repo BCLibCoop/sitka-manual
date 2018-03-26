@@ -21,8 +21,11 @@ Deleted records are not automatically removed from buckets. It is recommended th
 When a bucket is retrieved, all information about the records in it is transferred to the workstation. It consumes the computer's resources. It is recommended that a copy bucket contain no more than a few hundred records.
 =====
 
-Creating Copy Buckets
+Creating/Deleting Copy Buckets
 ~~~~~~~~~~~~~~~~~~~~~~
+
+[[create-bucket]]
+*Create Copy Buckets*
 
 There are two ways to create a copy bucket. You can either create a bucket first, without accessing any copies, or you can access a copy record and choose to create the bucket from that view. We will demonstrate both methods here.
 
@@ -59,7 +62,14 @@ You are prompted to add the record to an exsting bucket or a new one. To add to 
 
 image::images/cat/copy-bucket-5.png[]
 
-Adding Copy Records to a Bucket
+[[delete-copy-bucket]]
+*Delete Copy Buckets*
+
+To delete a copy record bucket, retrieve it on Bucket View, then select *Delete Bucket* on *Buckets* dropdown list.
+
+image::images/cat/copy-bucket-5a.png[]
+
+Adding/Removing Copy Records to a Bucket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Copies can be added to a bucket when they are displayed on *Checkin*, *Item Status* and *Holdings View* screen. You can select multiple items and add them to a copy bucket at one time. Click *Actions -> Add Items to Bucket*.
@@ -74,10 +84,22 @@ Click the *Buckets* dropdown list to open or create a bucket, if not done yet. S
 
 image::images/cat/copy-bucket-8.png[]
 
+To remove copies from a bucket,  retrieve the bucket, select the copies, choose *Actions -> Bucket -> Remove Selected Copies from Bucket*
+
+image::images/cat/copy-bucket-9.png[]
 
 Working with Copies in a Bucket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+*Apply Tag*
+
+*Delete Copy Records*
+
+*Edit Copies*
+
+Transfer Copies
+
+Print Labels
 
 
 Retrieving Shared Buckets
