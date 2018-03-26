@@ -91,7 +91,7 @@ image::images/cat/copy-bucket-9.png[]
 
 Working with Copies in a Bucket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-You may apply the following functions on selected copies in a bucket. 
+You may apply the following functions to selected copies in a bucket. 
 
 
 * *Apply Copy Tag*
@@ -104,7 +104,16 @@ To apply these functions, retrieve the bucket, select copies, then choose the fu
 
 image::images/cat/copy-bucket-10.png[]
 
-
-
 Retrieving Shared Buckets
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+On the *Buckets* list, you can find all buckets created by yourself. You may retrieve your co-workers' buckets if they share them with you by telling you the bucket number.
+
+To retrieve a shared bucket, click *Shared Buckets* on Buckets list. Type in the bucket number on the prompt, then click *Retrieve Bucket*.
+
+
+image::images/cat/copy-bucket-11.png[]
+
+
+
+
