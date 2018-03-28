@@ -11,7 +11,7 @@ Create New Bill
 +
 image:images/circ/billpatron1.png[scaledwidth="75%"]
 +
-. Click on drop down arrow and select *Billing Type*, enter bill amount, and any required note, and click *Submit*.
+. Click on drop down arrow and select *Billing Type*, enter bill amount, and any required note, and click *Submit Bill*.
 +
 image:images/circ/billpatron2.png[scaledwidth="75%"]
 
@@ -23,4 +23,4 @@ Add Charge to Existing Bill
 +
 image:images/circ/billpatron3.png[scaledwidth="75%"]
 +
-. Click on drop down arrow and select *Billing Type*, enter bill amount, and any required note, and click *Submit*. The bill's balance is updated.
+. Click on drop down arrow and select *Billing Type*, enter bill amount, and any required note, and click *Submit Bill*. The bill's balance is updated.
