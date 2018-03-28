@@ -77,6 +77,14 @@ image::images/cat/transfer-holding-8.png[]
 If the destination library does not have a volume under the destination record, you may transfer the volume under the current library to the destination record first, then edit the owning and circulation library of the volume and copies.
 =====
 
+[CAUTION]
+=========
+The marking destination and transferring source volume functions come in pairs. A destination is kept for each marking destination function. There may be up to four volume transfer destinations marked at one time. The corresponding destination is used when a transferring source volume function is applied. 
+
+The destinations remain marked until new ones are marked or reset (marked via *Mark for* only). Logging out of Evergreen, closing the browser or rebooting your computer will not erase them. Co-op strongly recommends you apply tranfser function right after you marked a destination. 
+
+Choose the apporiate transfer function. Using the wrong one may send your volume to the wrong destination.
+==========
 
 [[transfer-copy]]
 *Transferring Copies*
