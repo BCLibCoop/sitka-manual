@@ -1,6 +1,52 @@
 Transferring Holdings
 ~~~~~~~~~~~~~~~~~~~~~
 
-This page is about transferring holdings.
+There are times when you need to move copy records from one title record to another, or move copies from one volume to another under the same or another title record. There are a few pairs of functions in Evergreen to allow to do so. The critical step is to ensure that you first mark the destination record, then move the record with the corresponding transfer function. Co-op support recommends you read through the process first before starting, as each scenario has different characteristics.
+
+Transferring Volume and Copies
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+When you want to transfer all items under one call number/volume to another title or another branch under the same title, you may use Transfer Volume functions. Evergreen will transfer both call number and all copies under it to the new title or branch.
+
+[[transfer-volume-to-another-record]]
+*Transferring Volumes to Another Record*
+
+
+. Find the destination or target record. Select *Transfer Volume* on *Mark for* dropdonw list.
++
+image::images/cat/transfer-holding-1.png[]
++
+. Confirmation pops up at the right bottom of the screen.
++
+image::images/cat/transfer-holding-2.png[]
++
+. If you check *Mark for*, you will see the target record is marked. This target is kept until it is reset or a new volume transfer target is marked. 
++
+image::images/cat/transfer-holding-3.png[]
++
+. Find the volume you want to transfer. Go to *Holdings View*. Select the volume. Click *Actions* list. Scroll down to *Transfer*. Choose *Volumes to Previously Marked Record*. 
++
+image::images/cat/transfer-holding-4.png[]
++
+[[NOTE]]
+========
+Your volume's owning library and copies' circulation library will not be changed during the tranfer. If you already have volumes under the destination records and the call numbers are the same, the call numbers will be merged. 
+========
+
+[[transfer-volume-to-another-library]]
+*Transferring Volumes to Another Library Under the Same Record*
+
+. On Holdings View, select the destination library. Click *Actions* dropdown list. Scroll down to *Mark*. Select *Library as Volume Transfer Destination*.
++
+image::images/cat/transfer-holding-5.png[]
++
+. Select the source volume. Click *Actions* dropdown list. Scroll down to *Transfer*. Select *Volumes to Previously Marked Library*
++
+image::images/cat/transfer-holding-5.png[]
+
+
+[[transfer-copy]]
+*Transferring Copies*
+
 
 
