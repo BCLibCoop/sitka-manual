@@ -28,6 +28,10 @@ image::images/cat/transfer-holding-3.png[]
 +
 image::images/cat/transfer-holding-4.png[]
 +
+. The source volume record disappeared. The confirmation pop-up shows up at the right bottom of the screen.
++
+image::images/cat/transfer-holding-4a.png[]
++
 [NOTE]
 ========
 Your volume's owning library and copies' circulation library will not be changed during the tranfer. If you already have volumes under the destination records and the call numbers are the same, the call numbers will be merged. 
@@ -42,8 +46,10 @@ image::images/cat/transfer-holding-5.png[]
 +
 . Select the source volume. Click *Actions* dropdown list. Scroll down to *Transfer*. Select *Volumes to Previously Marked Library*
 +
-image::images/cat/transfer-holding-5.png[]
+image::images/cat/transfer-holding-6.png[]
 +
+. Confirmation pops up at the right bottom of the screen.
+
 [NOTE]
 ========
 If the destination library has a volume with the same call number as the source volume, the volumes will be merged during the transfer.
@@ -54,6 +60,22 @@ If the destination library has a volume with the same call number as the source 
 Currently on Holdings View, Evergreen does not display libraries without holdings on the library tree. If your destination library is not shown on the list, you may edit the source volume's owning library and/or its copies' circulation library. Refer to xref:edit-volume-copy-on-holdings-view[] for details.
 =======
 
+*Transfer Volumes to Another Library under Another Record*
+
+. Find the destination bibliographic record. Go to Holdings View. Select the destination library. Click *Actions*. Scroll down to *Mark* to select *Library as Volume Transfer Destination*.
++
+image::images/cat/transfer-holding-7.png[]
++
+. Find and select the source volume. Click *Actions* dropdown list. Go to *Transfer* to select *Volumes to Previously Marked Library and Record*.
++
+image::images/cat/transfer-holding-8.png[]
++
+. The source volume record disappeared. The confirmation pops up at the right bottom of the screen.
+
+[TIP]
+=====
+If the destination library does not have a volume under the destination record, you may transfer the volume under the current library to the destination record first, then edit the owning and circulation library of the volume and copies.
+=====
 
 
 [[transfer-copy]]
