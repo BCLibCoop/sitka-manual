@@ -28,7 +28,7 @@ image::images/cat/transfer-holding-3.png[]
 +
 image::images/cat/transfer-holding-4.png[]
 +
-[[NOTE]]
+[NOTE]
 ========
 Your volume's owning library and copies' circulation library will not be changed during the tranfer. If you already have volumes under the destination records and the call numbers are the same, the call numbers will be merged. 
 ========
@@ -44,12 +44,12 @@ image::images/cat/transfer-holding-5.png[]
 +
 image::images/cat/transfer-holding-5.png[]
 +
-[[NOTE]]
+[NOTE]
 ========
 If the destination library has a volume with the same call number as the source volume, the volumes will be merged during the transfer.
 ========
 
-[[TIP]]
+[TIP]
 =======
 Currently on Holdings View, Evergreen does not display libraries without holdings on the library tree. If your destination library is not shown on the list, you may edit the source volume's owning library and/or its copies' circulation library. Refer to xref:edit-volume-copy-on-holdings-view[]
 =======
