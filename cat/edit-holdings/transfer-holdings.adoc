@@ -54,7 +54,7 @@ image::images/cat/transfer-holding-6.png[]
 ========
 If the destination library has a volume with the same call number as the source volume, the volumes will be merged during the transfer.
 ========
-+
+
 [TIP]
 =======
 Currently on Holdings View, Evergreen does not display libraries without holdings on the library tree. If your destination library is not shown on the list, you may edit the source volume's owning library and/or its copies' circulation library. Refer to xref:edit-volume-copy-on-holdings-view[] for details.
@@ -71,7 +71,7 @@ image::images/cat/transfer-holding-7.png[]
 image::images/cat/transfer-holding-8.png[]
 +
 . The source volume record disappeared. The confirmation pops up at the right bottom of the screen.
-
++
 [TIP]
 =====
 If the destination library does not have a volume under the destination record, you may transfer the volume under the current library to the destination record first, then edit the owning and circulation library of the volume and copies.
@@ -87,7 +87,25 @@ Choose the apporiate transfer function. Using the wrong one may send your volume
 ==========
 
 [[transfer-copy]]
-*Transferring Copies*
+Transferring Copies
+^^^^^^^^^^^^^^^^^^^
+
+You may want to transfer some of the copies under one volume to another volume under the same or another record, or transfer all copies under one volume to another with a different call number. You may use transfer copies function do so.
+
+. Find the destination bibliographic record. On Holdings View, select the destination volume. Click *Actions* dropdown. Go to *Mark* to select *Volume as Item Transfer Destination*.
++
+image::images/cat/transfer-holding-9.png[]
++
+. Go to the source record, if different from the destination. On Holdings View, select the copies you wish to transfer. Click *Actions* dropdown list. *Go to Transfer* to select *Items to Previously Marked Volume*.
++
+image::images/cat/transfer-holding-9.png[]
++
+. The source copy disappears, if destination is under another reocrd. The confirmation pops up at the right bottom of the screen.
++
+image::images/cat/transfer-holding-10.png[]
+
+
+
 
 
 
