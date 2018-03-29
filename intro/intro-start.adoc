@@ -84,6 +84,34 @@ From many screens and lists, you can click on the column picker drop-down menu t
 Downloading and Installing Hatch
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
+. Install Java Runtime Environment (JRE).
+Windows only requires a JRE to run Hatch, not a full JDK. Download and install JRE version 1.8 or higher from https://www.java.com[java].
+
+. Install Hatch from https://evergreen-ils.org/downloads/Hatch-Installer-0.1.5.exe[Hatch]
+
+. Install Chrome extension. If the extension was not installed automatically when installing Hatch you can get it directly in the browser from the Chrome App Store https://chrome.google.com/webstore/detail/hatch-native-messenger/ppooibdipmklfichpmkcgplfgdplgahl[Chrome App Store]
+
+Enable Hatch in Evergreen
+^^^^^^^^^^^^^^^^^^^^^^^^^
+. Log into Evergreen as LSA.
+
+. Click *Administration -> Workstation*.
+
+. Click *Print/Storage Service ('Hatch')*
+
+. Make sure that you see that Hatch is available. Click *Use Hatch For Printing*, *Store Local Settings in Hatch*, and *Store Offline Transaction Data in Hatch*.
+
+. Click *Copy Local Storage Settings To Hatch*.
+
+. Log out. Preferences will now be stored in Hatch. This will enable you to clear your browser settings and not lose your staff preferences .
+
+
+
+
+
+
+
 Change Operator
 ~~~~~~~~~~~~~~~
 
