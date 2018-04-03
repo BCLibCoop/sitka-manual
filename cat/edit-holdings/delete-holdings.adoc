@@ -4,3 +4,40 @@ Deleting Holdings
 This page is about deleting holdings.
 
 
+When adding items to the catalogue, you need to have a bibliographic record first, then you create a volume and copy record. When you delete holdings you need to follow the reverse order. You need to delete copy records first. By design and Sitka's configuration, Evergreen will also attempt to delete the volume and bibliographic record. These records will be deleted if they are not used by other copies/volumes. If you delete your library's last copy, the volume record will be deleted together with the copy. If this is also the last copy for the title (no other libraries have a copy), the bibliographic record will be deleted, too. So for most cases, you just need to delete the copy records only. If possible, Evergreen will delete the volume and bibligraphic records automatically. Occasionally you may want to delete an "orphan" volume (without any copy) or bibliographic (without any volume) record.
+
+Deleting Copy Records
+^^^^^^^^^^^^^^^^^^^^^
+
+*Deleting Copies on Item Status Screen*
+
+If you have the item in hand, the quickest way to delete an item is to scan the item into Item Status screen, accessible a couple of ways.
+
+When items are displayed on Item Status screen, select those you want to delete. Click *Actions* dropdown list to select *Delete Items*. 
+
+image::images/cat/delete-holding-1.png[]
+
+You are prompted to confirm to delete the copies and volumes, if any. 
+
+image::images/cat/delete-holding-2.png[]
+
+[NOTE]
+======
+You will see *Item not Found* in a red box showing up after the deletion. You may ignore it.
+======
+
+*Deleting Copies on Holdings View*
+
+On Holdings View, select the copies you want to delete. Click *Actions* dropdown list. Scroll down to *Delete* to select *Delete Copies* or *Volumes and Copies*.
+
+image::images/cat/delete-holding-3.png[]
+
+*Deleting Copies in Copy Bucket*
+
+*Delete a volume record without copies attached*
+
+Occasionally you may want to delete a volume record without copies attached to it. For example, you may have created a volume record, but did not add a copy to it. To delete it, you need to find the title. Go to Holdings View. Highlight the "orphan" volume record, select *Actions -> Delete -> Empty Volumes*. If this is the last volume, the bibliographic record will be deleted, too.
+
+*Delete a bibliographic record without volume/copy attached*
+
+
