@@ -90,7 +90,7 @@ Choose the apporiate transfer function. Using the wrong one may send your volume
 Transferring Copies
 ^^^^^^^^^^^^^^^^^^^
 
-You may want to transfer some of the copies under one volume to another volume under the same or another record, or transfer all copies under one volume to another with a different call number. You may use transfer copies function do so.
+You may want to transfer some of the copies under one volume to another volume under the same or another record, or transfer all copies under one volume to another with a different call number. You may use transfer copies function to do so.
 
 . Find the destination bibliographic record. On Holdings View, select the destination volume. Click *Actions* dropdown. Go to *Mark* to select *Volume as Item Transfer Destination*.
 +
@@ -98,11 +98,11 @@ image::images/cat/transfer-holding-9.png[]
 +
 . Go to the source record, if different from the destination. On Holdings View, select the copies you wish to transfer. Click *Actions* dropdown list. *Go to Transfer* to select *Items to Previously Marked Volume*.
 +
-image::images/cat/transfer-holding-9.png[]
+image::images/cat/transfer-holding-10.png[]
 +
 . The source copy disappears, if destination is under another reocrd. The confirmation pops up at the right bottom of the screen.
 +
-image::images/cat/transfer-holding-10.png[]
+image::images/cat/transfer-holding-11.png[]
 
 
 
