@@ -6,14 +6,14 @@ Record Bucket allows you to build a list of titles that you may process in batch
 We will demonstrate how to create and manage bibliographic record buckets. The steps used for copy buckets are similar. It is very important when working with buckets to ensure you are working with the correct type of record for the corresponding bucket. You cannot add copy records to bibliographic record buckets and vice versa.
 
 [[create-record-bucket]]
-Create Record Buckets
-~~~~~~~~~~~~~~~~~~~~~~
+Creating Record Buckets
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 
 There are two ways to create a record bucket. You can either create a bucket first, without accessing any records, or you can access a record and choose to create the bucket from that view. We will demonstrate both methods here.
 
-*Create a Record Bucket on Record Buckets* view
+*Creating a Record Bucket on Record Buckets* view
 
 . Select *Cataloging -> Record Buckets* from the menu bar.
 
@@ -38,7 +38,7 @@ image::images/cat/record-bucket-4.png[]
 Only buckets created by the login account are listed. But those created by other people can be retrieved via bucket number, if shared with you. Click *Shared Bucket* to type in the number to retrieve it.
 =====
 
-*Create a Record Bucket when Adding a Record to a Bucket*
+*Creating a Record Bucket when Adding a Record to a Bucket*
 
 You can also create a bucket from within a record. Search for, retrieve, and display any bibliographic record, then choose *Other Actions -> Add to Bucket*.
 
@@ -49,8 +49,8 @@ You are prompted to add the record to an exsting bucket or a new one. To add to 
 image::images/cat/record-bucket-6.png[]
 
 [[add-record-to-bucket]]
-Add Records to a Record Bucket
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Adding Records to a Record Bucket
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You may add records to a bucket at a few places.
 
@@ -100,13 +100,13 @@ Multiclass Search Help
 |====
 =====
 
-*Add Imported Records on MARC Batch Import/Export*
+*Adding Imported Records on MARC Batch Import/Export*
 
 MARC records that have already been imported via MARC Batch Import/Expot can be added to a bucket. 
 
 image::images/cat/record-bucket-11.png[]
 
 [[work-with-records-in-bucket]]
-Work with Records in a Record Bucket
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Working with Records in a Record Bucket
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
