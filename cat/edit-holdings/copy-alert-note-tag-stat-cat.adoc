@@ -2,4 +2,30 @@
 Copy Alert, Note, Tag and Stat Cat
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-copy alert
+Copy Alert
+^^^^^^^^^^
+
+Copy alert is a field in copy records. The alert message pops up on the screen when the item is retrieved. For example, uou might use a copy alert when you are checking out an item to a patron and notice that the spine label needs to be replaced. When the item is returned, on checking in, staff will see the message you left. You might create a copy alert when you notice that an item has been damaged. When the item is checked in or out, the alert will pop up on the screen.
+
+Copy alert can be added when you create or edit copy record. Type in the message, then click *Save & Exit*.
+
+image::images/cat/copy-alert1.png[]
+
+
+When the item is retrieved, the message pops up. Below image is on Checkin Screen. Click *OK/Continue* to close the pop-up.
+
+image::images/cat/copy-alert2.png[]
+
+TIP: Copy alerts must be manually removed on Copy Editor.  
+
+Copy Note
+^^^^^^^^^
+
+
+
+Copy Tag
+^^^^^^^^
+
+Copy Statistical Category (Stat Cat)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
