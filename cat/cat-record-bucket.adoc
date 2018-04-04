@@ -114,8 +114,8 @@ You may apply the following functions to selected copies in a bucket.
 
 * *Show Selected Records in Catalogue*
 * *Delete Selected Records from Catalogue*
-* *Merge Selected Records*
-* *Export Records*
+* *Merge Selected Records* (Refer to xref:_merging_bibliographic_records[])
+* *Export Records* (Refer to xref:_exporting_bibliographic_records[])
 
 
 To apply these functions, retrieve the bucket, select titles, then choose the function from the *Actions* list. 
