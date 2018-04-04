@@ -1,9 +1,6 @@
 Deleting Holdings
 ~~~~~~~~~~~~~~~~~
 
-This page is about deleting holdings.
-
-
 When adding items to the catalogue, you need to have a bibliographic record first, then you create a volume and copy record. When you delete holdings you need to follow the reverse order. You need to delete copy records first. By design and Sitka's configuration, Evergreen will also attempt to delete the volume and bibliographic record. These records will be deleted if they are not used by other copies/volumes. If you delete your library's last copy, the volume record will be deleted together with the copy. If this is also the last copy for the title (no other libraries have a copy), the bibliographic record will be deleted, too. So for most cases, you just need to delete the copy records only. If possible, Evergreen will delete the volume and bibligraphic records automatically. Occasionally you may want to delete an "orphan" volume (without any copy) or bibliographic (without any volume) record.
 
 Deleting Copy Records
@@ -11,7 +8,7 @@ Deleting Copy Records
 
 *Deleting Copies on Item Status Screen*
 
-If you have the item in hand, the quickest way to delete an item is to scan the item into Item Status screen, accessible a couple of ways.
+If you have the item in hand, the quickest way to delete an item is to scan the item into Item Status screen.
 
 When items are displayed on Item Status screen, select those you want to delete. Click *Actions* dropdown list to select *Delete Items*. 
 
@@ -28,12 +25,15 @@ You will see *Item not Found* in a red box showing up after the deletion. You ma
 
 *Deleting Copies on Holdings View*
 
-On Holdings View, select the copies you want to delete. Click *Actions* dropdown list. Scroll down to *Delete* to select *Delete Copies* or *Volumes and Copies*.
+On the catalogue, Holdings View, select the copies you want to delete. Click *Actions* dropdown list. Scroll down to *Delete* to select *Delete Copies* or *Volumes and Copies*.
 
 image::images/cat/delete-holding-3.png[]
 
 *Deleting Copies in Copy Bucket*
 
+If your items are in a copy bucket, you may delete them there. Select those copies you wish to delete. On *Actions* dropdown list, under *Items*, click *Delete Selected Copies from Catalogue*.
+
+image::images/cat/delete-holding-4.png[]
 
 
 *Delete Volumes without Copies Attached*
@@ -44,6 +44,17 @@ Occasionally you may want to delete a volume record without copies attached to i
 *Delete Bibliographic Record without Volume/Copy Attached*
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+You may have created/imported a MARC record, but did not use it for your copy. In such a scenario you may delete the record. Find the title on the catalogue, go to *MARC Edit*, click *Delete*. You are prompted to confirm the deletion. Once done, the record will be deleted.
 
+image::images/cat/delete-holding-5.png[]
 
+If you do not see any copies under the record, but are prompted that the record can not be deleted, very likely there are "orphan" volume records still under the title. You need to go to Holdings View to locate and delete the volume records. The MARC record will be deleted when you delete the last volume.
 
+[TIP]
+=====
+Deleted MARC records can be retrieved and undeleted if you know the record's database id. Go to the dropdown menu Cataloguing -> Retrieve Title via Database ID. Type in the record id. Once the record is displayed (with red coloured background),  go to *MARC Edit*. Click *Undelete*. 
+
+image::images/cat/delete-holding-6.png[]
+
+Co-op support regularly cleans up volume records without copies and bibliographic records without copies or volumes.
+====
