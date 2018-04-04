@@ -22,6 +22,7 @@ Once you have completed the above form, click the *Retrieve Records* button at t
 Holding records can be exported in tag 852, but this includes all item records across the Sitka consortium, not just your library's holdings.
 ======
 
+anchor::export-marc-from-bucket[Export MARC records from Record Bucket]
 *Export MARC records from Record Bucket*
 
 To export MARC records from Record Bucket, go to Cataloguing -> Record Bucket. Retrieve the bucket containing the records that you wish to export. Select a record, then click *Action -> Export Records*.
