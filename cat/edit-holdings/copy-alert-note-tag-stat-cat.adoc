@@ -9,14 +9,13 @@ Copy alert is a field in copy records. The alert message pops up on the screen w
 
 Copy alert can be added when you create or edit copy record. Type in the message, then click *Save & Exit*.
 
-image::images/cat/copy-alert1.png[]
-
+image::images/cat/copy-alert-1.png[]
 
 When the item is retrieved, the message pops up. Below image is on Checkin Screen. Click *OK/Continue* to close the pop-up.
 
-image::images/cat/copy-alert2.png[]
+image::images/cat/copy-alert-2.png[]
 
-TIP: Copy alerts must be manually removed on Copy Editor.  
+TIP: Copy alerts must be manually removed. Follow the same process as adding copy alerts.
 
 Copy Note
 ^^^^^^^^^
@@ -28,4 +27,5 @@ Copy Tag
 
 Copy Statistical Category (Stat Cat)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 
