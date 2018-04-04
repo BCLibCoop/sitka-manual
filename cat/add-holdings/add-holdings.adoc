@@ -1,6 +1,9 @@
 Adding Holdings to Bibliographic Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Adding a Single Volume/Copy
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 . Search the catalogue for a record that matches the item in hand, as described in xref:_searching_the_database_for_cataloguing_purposes[]. If you do not find a match, refer to the  http://sitka.bclibraries.ca/governance/sitka-policy/[Sitka Cataloguing Policy] for recommendations on required procedures. If you do find a match, proceed to next step.
 
 . When the record details are loaded, click *Holdings View*, if not the default view.
@@ -30,7 +33,7 @@ image::images/cat/add-holdings-3.png[]
 image::images/cat/add-holdings-10.png[]
 =====
 
-Adding multiple volumes
+Adding Multiple Volumes
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 . To add more than one volumes for the same library, use the arrow in the box underneath *Volumes* colume to increase the numnber. 
@@ -77,7 +80,7 @@ image::images/cat/add-holdings-7.png[]
 +
 image::images/cat/add-holdings-8.png[]
 
-WARNING: Stored copies on *Completed Copies* tab are *not* saved in the database until you click on *Save & Exit* or *Save Completed*. They are available on the current Volume Copy Creator only. If you close the browser tab without saving them, you will lose them.
+CAUTION: Stored copies on *Completed Copies* tab are *not* saved in the database until you click on *Save & Exit* or *Save Completed*. They are available on the current Volume Copy Creator only. If you close the browser tab without saving them, you will lose them.
 
 
 
