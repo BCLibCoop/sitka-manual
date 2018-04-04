@@ -115,9 +115,9 @@ You may apply the following functions to selected copies in a bucket.
 * *Show Selected Records in Catalogue*
 * *Delete Selected Records from Catalogue*
 * *Merge Selected Records* (Refer to xref:_merging_bibliographic_records[])
-* *Export Records* (Refer to xref:_exporting_bibliographic_records[])
+* *Export Records* (Refer to xref:export-marc-from-bucket[])
 
 
 To apply these functions, retrieve the bucket, select titles, then choose the function from the *Actions* list. 
 
-CAUTION: Co-op support suggests *not* using *Transfer Title Holds* as it transfers all holds, including other libraries', to the selected title.
+CAUTION: Co-op support strongly suggests *not* using *Transfer Title Holds* as it transfers all holds, including other libraries', to the selected title.
