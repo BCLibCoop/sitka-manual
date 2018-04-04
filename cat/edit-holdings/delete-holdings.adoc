@@ -3,8 +3,8 @@ Deleting Holdings
 
 When adding items to the catalogue, you need to have a bibliographic record first, then you create a volume and copy record. When you delete holdings you need to follow the reverse order. You need to delete copy records first. By design and Sitka's configuration, Evergreen will also attempt to delete the volume and bibliographic record. These records will be deleted if they are not used by other copies/volumes. If you delete your library's last copy, the volume record will be deleted together with the copy. If this is also the last copy for the title (no other libraries have a copy), the bibliographic record will be deleted, too. So for most cases, you just need to delete the copy records only. If possible, Evergreen will delete the volume and bibligraphic records automatically. Occasionally you may want to delete an "orphan" volume (without any copy) or bibliographic (without any volume) record.
 
-Deleting Copy Records
-^^^^^^^^^^^^^^^^^^^^^
+Deleting Copies
+^^^^^^^^^^^^^^^^
 
 *Deleting Copies on Item Status Screen*
 
@@ -36,13 +36,13 @@ If your items are in a copy bucket, you may delete them there. Select those copi
 image::images/cat/delete-holding-4.png[]
 
 
-*Delete Volumes without Copies Attached*
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Delete Volumes without Copies Attached
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Occasionally you may want to delete a volume record without copies attached to it. For example, you may have created a volume record, but did not add a copy to it. To delete it, you need to find the title. Go to Holdings View. Highlight the "orphan" volume record, select *Actions -> Delete -> Empty Volumes*. If this is the last volume, the bibliographic record will be deleted, too.
 
-*Delete Bibliographic Record without Volume/Copy Attached*
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Delete Bibliographic Record without Volume/Copy Attached
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You may have created/imported a MARC record, but did not use it for your copy. In such a scenario you may delete the record. Find the title on the catalogue, go to *MARC Edit*, click *Delete*. You are prompted to confirm the deletion. Once done, the record will be deleted.
 
