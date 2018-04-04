@@ -36,13 +36,13 @@ If your items are in a copy bucket, you may delete them there. Select those copi
 image::images/cat/delete-holding-4.png[]
 
 
-Delete Volumes without Copies Attached
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Deleting Volumes without Copies Attached
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Occasionally you may want to delete a volume record without copies attached to it. For example, you may have created a volume record, but did not add a copy to it. To delete it, you need to find the title. Go to Holdings View. Highlight the "orphan" volume record, select *Actions -> Delete -> Empty Volumes*. If this is the last volume, the bibliographic record will be deleted, too.
 
-Delete Bibliographic Record without Volume/Copy Attached
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Deleting Bibliographic Record without Volume/Copy Attached
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You may have created/imported a MARC record, but did not use it for your copy. In such a scenario you may delete the record. Find the title on the catalogue, go to *MARC Edit*, click *Delete*. You are prompted to confirm the deletion. Once done, the record will be deleted.
 
