@@ -1,5 +1,5 @@
-Create New Bibliographic Records
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating New Bibliographic Records
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 It is best practice, and Sitka policy, to search Evergreen, Z39.50 sources, or, in some libraries, a vendor file of MARC records, before using a MARC record template for original cataloguing. Original cataloguing should be done in Evergreen only if there is no record available in any of these previous sources. You can create new MARC records in Evergreen by using MARC templates that exist in Evergreen. 
 

@@ -1,5 +1,5 @@
-Batch Import Bibliographic Records
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Batch Importing Bibliographic Records
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If the title records you need are not already in the Evergreen database, it is possible to upload vendor-supplied MARC files into Evergreen. Each file may contain one or more MARC records. During the uploading process, Evergreen matches each record in the file with existing records in Evergreen based on pre-defined match points called *Record Match Sets*. Records without matches may be imported directly into the catalogue. Records with matches must be examined by cataloguers. Due to the nature of Sitka's shared database, the Co-op suppport strongly advises against allowing Evergreen to select a merge target and cautions you to adhere to instructions for selecting a match as outlined in this chapter.
 

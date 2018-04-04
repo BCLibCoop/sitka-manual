@@ -1,5 +1,5 @@
-Import Bibliographic Records via Z39.50 Interface
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Importing Bibliographic Records via Z39.50 Interface
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 https://www.youtube.com/watch?v=nkjOfMfUyFc[Sitka Training Video - Z39.50 (5:20)]
 
@@ -7,8 +7,8 @@ It is good practice and Sitka policy to check the Evergreen database for existin
 
 
 [[import_from_z39]]
-Import Bibliographic Records via Z39.50
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Importing Bibliographic Records via Z39.50
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . To access Z39.50 interface, select *Cataloguing -> Import Record from Z39.50*.
 +
