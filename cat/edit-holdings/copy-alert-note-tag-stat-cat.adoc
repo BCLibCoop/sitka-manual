@@ -7,7 +7,7 @@ Copy Alert
 
 Copy alert pops up on the screen when the item is retrieved. There are a few types of copy alert that show up when the corresponding type of action is applied to the item. For example, you may add a checkin copy alert when you are checking out an item to a patron and notice that the spine label needs to be replaced. When the item is returned, on checking in, staff will see the message you left. You may create a checkout copy alert for items that have accompanying materials kept separately. When the item is checked out, the alert will pop up on the screen.
 
-Copy alert can be added when you create or edit copy record. Click *Copy Alerts*. Choose a type from the dropdown list. Type in the message, Click *OK*. Back on the copy editor to click *Save & Exit*.
+Copy alert can be added when you create or edit copy record. Click *Copy Alerts*. Choose a type from the dropdown list. Type in the message, Click *OK*. Back on the copy editor, click *Save & Exit*.
 
 image::images/cat/copy-alert-1.png[]
 
@@ -18,11 +18,11 @@ image::images/cat/copy-alert-2.png[]
 [TIP] 
 =====
 
-. Alert can be made tempoprary by selecting the *Temporary* checkbox when adding the alert. A *Clear* button shows up when the alert is displayed. You may click it to delete the alert. Below is a checkin alert reminding staff to print spine label for the item. Click *Clear*, then *OK* to continue.
+. Alert can be made tempoprary by selecting the *Temporary* checkbox when adding the alert. A *Clear* button shows up when the alert is displayed. You may click it to delete the alert. Below is a checkin alert reminding staff to print spine label for the item. Click *Clear*, then *OK/Continue*.
 +
 image::images/cat/copy-alert-2a.png[]
 +
-. An *Alert* column is available on some screens to provide a quick link to viewing and/or managing the alert message. *Manage* is greyed out if the item does not have an alert. Click it, the copy alert pop-up opens. You may edit/clear the message.
+. An *Alert* column is available on some screens to provide a quick link to viewing and/or managing the alert message.  Click *Manage* in the column, the copy alert pop-up opens. You may edit/clear the message. *Manage* is greyed out if the item does not have an alert.
 +
 image::images/cat/copy-alert-2c.png[]
 +
@@ -34,7 +34,7 @@ image::images/cat/copy-alert-2b.png[]
 Copy Note
 ^^^^^^^^^
 
-Notes can be added to copy records. Notes will not show up when items are retrieved. But they can be made public and displayed on the catalogue. To add a note, go to edit the item records. Click *Copy Notes*. Type in the note content in the pop-up window. Select *Public* checkbox, if to make it show up on the catalogue. Once done, click *OK* to back on copy editor. Click *Save & Exit*.
+Notes can be added to copy records. Notes will not show up when items are retrieved. But they can be made public and displayed on the catalogue. To add a note, go to edit the item records. Click *Copy Notes*. Type in the note content in the pop-up window. Select *Public* checkbox, if to make it show up on the catalogue. Once done, click *OK* to go back to copy editor. Click *Save & Exit*.
 
 image::images/cat/copy-alert-3.png[]
 
@@ -72,6 +72,9 @@ Copy tag can be removed via the same process as adding it. Click *Remove* beside
 Copy Statistical Category (Stat Cat)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Copy Statistical Category, aka Copy Stat Cat, is another piece of copy level information that may be added to copy records. Libraries need to create their own stat cat. Refer to xref:uio[].
+Copy Statistical Category, aka Copy Stat Cat, is another piece of copy level information that may be added to copy records. As the namae suggests, it may be used to facilatate reporting categories, if not avaialabe in copy records.  Libraries need to create their own stat cat. Refer to xref:uio[].
 
-To add copy stat cat, 
+To add copy stat cat, go to copy editor. Under *Statistical Category* column, choose an entry from the appropirate stat cat dropdown list. The value is added when the copy record is saved.
+
+image::images/cat/copy-alert-8.png[]
+
