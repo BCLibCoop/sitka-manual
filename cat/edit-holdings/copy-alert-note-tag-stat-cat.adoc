@@ -28,7 +28,7 @@ Public copy note is displayed on the catalogue.
 
 image::images/cat/copy-alert-4.png[]
 
-Non-public note can only be viewed through *Copy Editor* -> *Copy Notes*. Notes can be deleted through *Copy Notes*, too. Select the *Deleted?* checkbox, click *OK*, then *Save & Exit*.
+Non-public note can only be viewed through *Copy Editor* -> *Copy Notes*. Notes can be deleted through *Copy Notes*. Select the *Deleted?* checkbox, click *OK*, then *Save & Exit*.
 
 image::images/cat/copy-alert-5.png[]
 
@@ -51,6 +51,9 @@ image::images/cat/copy-alert-6.png[]
 Copy tag is displayed on the catalogue.
 
 image::images/cat/copy-alert-7a.png[]
+
+Copy tag can be removed via the same process as adding it. Click *Remove* beside the selected tag. Click *OK* to close the pop-up window. Click *Save & Exit* on copy editor.
+
 
 Copy Statistical Category (Stat Cat)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
