@@ -29,11 +29,11 @@ image:images/circ/placehold1.png[scaledwidth="75%"]
 . Scan or type patron’s barcode, or select your own staff login, or click *Patron Search* if you do not have patron's card.
 . Edit patron hold notification methods and pickup location, if necessary, and click *Submit*.
 +
-image:images/circ/placehold3.png[scaledwidth="75%"]
+image:images/circ/placehold2.png[scaledwidth="75%"]
 +
 . Click *Continue* to go back to search results, or click *Place another hold for this title*.
 +
-image:images/circ/placehold1.png[scaledwidth="75%"]
+image:images/circ/placehold3.png[scaledwidth="75%"]
 +
 
 
@@ -42,7 +42,7 @@ TIP: In step 2, checking the *Place this hold for me* radio button will set the 
 Meta-record Level Hold
 ^^^^^^^^^^^^^^^^^^^^^^
 
-You can request acceptable formats and languages of a title at time of hold placement, or you can group formats at time of search. Format information is from the MARC record leader and fixed fields.
+You can request acceptable formats and languages of a title at time of hold placement, or you can group formats at time of search. Records are grouped by title, author, and format. Format information is from the MARC record leader and fixed fields.
 
  Advanced Holds Options
  ++++++++++++++++++++++
@@ -75,7 +75,7 @@ image:images/circ/metahold4.png[scaledwidth="75%"]
 TIP: The icons indicate the available formats at the search location. The number beside the title is the number of records with physical items. Click the title to view these individual records.
 
 TIP: If no format is selected all available formats are hold targets.
-After a meta-record hold is placed, if a new MARC record is added and it meets the grouping criteria (title, author, and format), items under this new record will be used to fulfill the existing holds.
+After a meta-record hold is placed, if a new MARC record is added and it meets the grouping criteria, items under this new record will be targeted.
 
 Volume and Copy Level Hold
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -97,4 +97,4 @@ image:images/circ/placehold4.png[scaledwidth="75%"]
 +
 . The catalogue is displayed in the *Holds* screen.
 . Search for the titles, and place holds as described above.
-. Click the *Holds* tab to go back to the patron's *Holds* screen. 
+. Click the *Holds* tab to go back to the patron's *Holds* screen.
