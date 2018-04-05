@@ -1,4 +1,11 @@
 Refund
 ~~~~~~
 
-This page is about refunds.
+Sometimes paid bills need to be voided, such as when lost and paid items are returned. A negative balance may be created once such bills are voided. To close negative bills, you can set balance to zero, refund the balance amount, or add a bill entry to the negative line item.
+
+. Select the bill on the *Bills* screen and click *Actions → Refund*.
+. Read the instructions and confirm.
++
+image:images/circ/refund1.png[scaledwidth="75%"]
++
+. Select payment type and click *Apply Payment*.
