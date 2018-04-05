@@ -20,10 +20,37 @@ TIP: Copy alerts must be manually removed. Follow the same process as adding cop
 Copy Note
 ^^^^^^^^^
 
+Notes can be added to copy records. Notes will not show up when items are retrieved. But they can be made public and displayed on the catalogue. To add a note, go to edit the item records. Click *Copy Notes*. Type in the note content in the pop-up window. Select *Public* checkbox, if to make it show up on the catalogue. Once done, click *OK* to back on copy editor. Click *Save & Exit*.
+
+image::images/cat/copy-alert-3.png[]
+
+Public copy note is displayed on the catalogue. 
+
+image::images/cat/copy-alert-4.png[]
+
+Non-public note can only be viewed through *Copy Editor* -> *Copy Notes*. Notes can be deleted through *Copy Notes*, too. Select the *Deleted?* checkbox, click *OK*, then *Save & Exit*.
+
+image::images/cat/copy-alert-5.png[]
+
+NOTE: Notes can not be edited. But you may delete, then add new ones. There can be multiple notes for one copy record.
 
 
 Copy Tag
 ^^^^^^^^
+
+You may add a piece of searchable information to copy records. It is grouped under search type *Digital Bookplate* on the catalouge. It is added via *Copy Tags* on copy editor. Libraries may pre-create their own tags. Refer to xref:ff[]
+
+Search by copy tag *Digital Bookplate* on the catalogue.
+
+image::images/cat/copy-alert-7.png[]
+
+To add a copy tag, go to copy editor. Click *Copy Tags*. Type a letter in the Tag box to display the tags. Choose one. Click *Add Tag*, then *OK*. Click *Save & Exit* on copy editor.
+
+image::images/cat/copy-alert-6.png[]
+
+Copy tag is displayed on the catalogue.
+
+image::images/cat/copy-alert-7a.png[]
 
 Copy Statistical Category (Stat Cat)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
