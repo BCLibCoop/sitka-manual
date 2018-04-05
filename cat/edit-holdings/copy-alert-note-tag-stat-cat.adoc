@@ -5,17 +5,31 @@ Copy Alert, Note, Tag and Stat Cat
 Copy Alert
 ^^^^^^^^^^
 
-Copy alert is a field in copy records. The alert message pops up on the screen when the item is retrieved. For example, uou might use a copy alert when you are checking out an item to a patron and notice that the spine label needs to be replaced. When the item is returned, on checking in, staff will see the message you left. You might create a copy alert when you notice that an item has been damaged. When the item is checked in or out, the alert will pop up on the screen.
+Copy alert pops up on the screen when the item is retrieved. There are a few types of copy alert that show up when the corresponding type of action is applied to the item. For example, you may add a checkin copy alert when you are checking out an item to a patron and notice that the spine label needs to be replaced. When the item is returned, on checking in, staff will see the message you left. You may create a checkout copy alert for items that have accompanying materials kept separately. When the item is checked out, the alert will pop up on the screen.
 
-Copy alert can be added when you create or edit copy record. Type in the message, then click *Save & Exit*.
+Copy alert can be added when you create or edit copy record. Click *Copy Alerts*. Choose a type from the dropdown list. Type in the message, Click *OK*. Back on the copy editor to click *Save & Exit*.
 
 image::images/cat/copy-alert-1.png[]
 
-When the item is retrieved, the message pops up. Below image is on Checkin Screen. Click *OK/Continue* to close the pop-up.
+When the item is checked out, the alert pops up. 
 
 image::images/cat/copy-alert-2.png[]
 
-TIP: Copy alerts must be manually removed. Follow the same process as adding copy alerts.
+[TIP] 
+=====
+
+. Alert can be made tempoprary by selecting the *Temporary* checkbox when adding the alert. A *Clear* button shows up when the alert is displayed. You may click it to delete the alert. Below is a checkin alert reminding staff to print spine label for the item. Click *Clear*, then *OK* to continue.
++
+image::images/cat/copy-alert-2a.png[]
++
+. An *Alert* column is available on some screens to provide a quick link to viewing and/or managing the alert message. *Manage* is greyed out if the item does not have an alert. Click it, the copy alert pop-up opens. You may edit/clear the message.
++
+image::images/cat/copy-alert-2c.png[]
++
+. Alerts may be manually removed, following the same process as adding copy alerts. On copy alert pop-up window, select *Clear?* checkbox, then click *OK*. Click *Save & Exit* on copy editor.
++
+image::images/cat/copy-alert-2b.png[]
+
 
 Copy Note
 ^^^^^^^^^
@@ -58,4 +72,6 @@ Copy tag can be removed via the same process as adding it. Click *Remove* beside
 Copy Statistical Category (Stat Cat)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Copy Statistical Category, aka Copy Stat Cat, is another piece of copy level information that may be added to copy records. Libraries need to create their own stat cat. Refer to xref:uio[].
 
+To add copy stat cat, 
