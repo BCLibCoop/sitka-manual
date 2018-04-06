@@ -1,5 +1,14 @@
 Managing Holds
 ~~~~~~~~~~~~~~
+
+Staff can edit holds in patrons' records or in title records. Patrons can edit their holds in their account on your public catalogue.
+
+Holds can be cancelled at any time by staff or patrons. Before holds are captured, staff or patrons can suspend a hold without losing the hold queue position, can activate suspended holds, and can change notification method, phone number, pick-up location, and expiration date.  Once a hold is captured, staff can change the pickup location and extend the hold shelf time if required.
+
+
+Hold Statuses
+^^^^^^^^^^^^^
+
 There are five types of status a hold may have: Waiting for Copy, Waiting for Capture, In Transit, Ready for Pickup (On Holds Shelf), and the optional Reserved/Pending. If your library chooses to delay hold shelf status, then a hold may have the status of Reserved/Pending.
 
 . *Waiting-for-copy*: all holdable copies are checked out or not available.
@@ -13,9 +22,6 @@ There are five types of status a hold may have: Waiting for Copy, Waiting for Ca
 . *Reserved/Pending*: hold is captured, item is in process and yet to be put on the Hold Shelf. The status will be automatically changed to *Ready-for-pick-up* once the delay period specified in Library Settings Editor expires.
 
 
-Holds can be cancelled at any time by staff or patrons. Before holds are captured, staff or patrons can suspend a hold or set it as inactive without losing the hold queue position, can activate suspended holds, and change notification method, phone number, pick-up location, and expiration date.  Once a hold is captured, staff can change the pickup location and extend the hold shelf time if required.
-
-Staff can edit holds in patrons' records or title records. Patrons can edit their holds in their account on your public catalogue.
 
 Managing Holds in Patron Records
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

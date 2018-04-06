@@ -2,7 +2,7 @@ Pull List for Hold Requests
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Evergreen matches hold requests with available items in your library at regular intervals. Once a matching copy is found, the item's barcode number is assigned to the hold, and the item is put on the *Holds Pull List*. Staff print the *Holds Pull List* and search for the items on the shelves.
 
-The pull List is dynamic and is updated constantly. Once an item on the list is no longer available, or a hold on the list is captured, the items will disappear from the list. The pull list should be checked or printed at least once a day.
+The pull list is dynamic and is updated constantly. Once an item on the list is no longer available, or a hold on the list is captured, the items will disappear from the list. The pull list should be checked or printed at least once a day.
 
 . To retrieve your *Holds Pull List* select *Circulation → Pull List for Hold Requests*.
 . The *Holds Pull List* is displayed. By default the items on the list are grouped first by *Shelving Location*, then by *Call Number*. You can re-sort by clicking the column labels.
