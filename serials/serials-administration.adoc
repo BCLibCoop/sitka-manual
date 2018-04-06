@@ -24,7 +24,7 @@ Edit a Serial Copy Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Click *Administration* -> *Serials Administration* -> *Serial Copy Templates*.
-. Click the checkbox beside the template you want to edit.
+. Click the check box beside the template you want to edit.
 . Click *Actions* -> Choose _Edit Template_.
 . Edit the item attributes for this template.
 . Click *Save*.
@@ -33,13 +33,52 @@ Delete a Serial Copy Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Click *Administration* -> *Serials Administration* -> *Serial Copy Templates*.
-. Click the checkbox beside the template you want to delete.
+. Click the check box beside the template you want to delete.
 . Click *Actions* -> Choose _Delete Template_.
 
 Prediction Pattern Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Create a Prediction Pattern Template
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+. Click *Administration* -> *Serials Administration* -> *Prediction Pattern Templates*.
+. Click *New Record*.
+. Enter a _Name_.
+. Click *Pattern Wizard*.
+.. See xref:pattern-wizard[] for detailed steps.
+. Choose the _Owning Library_.
+. Choose the _Share Depth_.
+. Click *Save*.
+
+[[pattern-wizard]]
+Pattern Wizard
+++++++++++++++
+
+. Enumeration Labels
+.. Click *Next*
+. Chronology display
+.. Click *Next*
+. MFHD Indicators
+.. Click *Next*
+. Frequency and Regularity
+.. Click *Next*
+. Review
+.. Click *Save*
+
+Edit a Prediction Pattern Template
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Click *Administration* -> *Serials Administration* -> *Prediction Pattern Templates*.
+. Click the check box beside the template you want to edit.
+. Click *Actions* -> Choose _Edit Template_.
+
+Delete a Prediction Pattern Template
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Click *Administration* -> *Serials Administration* -> *Prediction Pattern Templates*.
+. Click the check box beside the template you want to delete.
+. Click *Actions* -> Choose _Delete Template_.
 
 
 Serials Specific Settings in the Library Settings Editor
