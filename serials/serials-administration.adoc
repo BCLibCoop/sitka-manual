@@ -1,22 +1,40 @@
 Serials Administration
 ----------------------
 
-
 Serials Permissions
 ~~~~~~~~~~~~~~~~~~~
 
+Serials permissions are required to use the Serials Module. If your library is interested in using the Serials module please contact Sitka Support.
 
-
-
-
-
-
-
-Serials Copy Templates
+Serial Copy Templates
 ~~~~~~~~~~~~~~~~~~~~~~
 
+Serial Copy Templates specify the item attributes that should be applied when a serial copy is received. You must create at least one template to receive serials.
 
+Create a Serial Copy Template
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+. Click *Administration* -> *Serials Administration* -> *Serial Copy Templates*.
+. Click *Create Template*.
+. Enter a _Template Name_.
+. Choose the item attributes for this template.
+. Click *Save*.
+
+Edit a Serial Copy Template
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Click *Administration* -> *Serials Administration* -> *Serial Copy Templates*.
+. Click the checkbox beside the template you want to edit.
+. Click *Actions* -> Choose _Edit Template_.
+. Edit the item attributes for this template.
+. Click *Save*.
+
+Delete a Serial Copy Template
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Click *Administration* -> *Serials Administration* -> *Serial Copy Templates*.
+. Click the checkbox beside the template you want to delete.
+. Click *Actions* -> Choose _Delete Template_.
 
 Prediction Pattern Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -26,3 +44,14 @@ Prediction Pattern Templates
 
 Serials Specific Settings in the Library Settings Editor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Click *Administration* -> *Local Administration* -> *Library Settings Editor*.
+
+The following settings should be configured in the Library Settings Editor before you start using the Serials module.
+
+|======================
+|Group|Setting|Description|Options|Notes
+|Serials|Default display grouping for serials distributions presented in the OPAC| | "enum" or "chron" | *enum* is recommended |
+|Serials|Previous Issuance Copy Location|When a serial issuance is received, copies (units) of the previous issuance will be automatically moved into the configured shelving location|   | Default copy location for serials|
+|OPAC| Use fully compressed serials holdings |    | "true" or "false" | *true* is recommended |
+|======================
