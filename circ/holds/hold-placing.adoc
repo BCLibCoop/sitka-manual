@@ -44,10 +44,10 @@ Meta-record Level Hold
 
 You can request acceptable formats and languages of a title at time of hold placement, or you can group formats at time of search. Records are grouped by title, author, and format. Format information is from the MARC record leader and fixed fields.
 
- Advanced Holds Options
- ++++++++++++++++++++++
+Advanced Holds Options
+++++++++++++++++++++++
 
-. Click *Place Hold*  to the right of the record on the search result list, or on the record summary screen.
+. Click *Place Hold* to the right of the record on the search result list, or on the record summary screen.
 . Click *Advanced Holds Options* under the title.
 +
 image:images/circ/metahold1.png[scaledwidth="75%"]
