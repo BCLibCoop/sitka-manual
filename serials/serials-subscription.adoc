@@ -1,24 +1,42 @@
 Serials Subscriptions
 ---------------------
 
-Create a subscription
-~~~~~~~~~~~~~~~~~~~~~
+Create and Manage Subscriptions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+A subscription is designed to hold all information related to a single serial title. Therefore, each library is likely to have only one subscription per serial title.
 
+A subscription must be added to an existing bibliographic record. If the record is not already in the catalogue, you can import it via any of your preferred methods (MARC import, Z39.50 search, etc.)
+
+. Retrieve the bibliographic record you would like to attach your subscription to
+. Click *Serials* -> Choose *Manage Subscriptions*.
+. Existing subscriptions for the workstation location will be displayed.
+.. Multibranch libraries will need to choose the System Level org unit code to see their subscriptions.
+. Click *New Subscription*
+. Enter the subscription information.
+.. _Start Date_
+.. _End Date_
+.. _Expected Offset_
+. Click *Save*
 
 Create and Manage Predictions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 From the Manage Predictions tab you can create a new prediction pattern from scratch, use an existing pattern template, or use an existing pattern template as the basis for a new prediction pattern.
 
-[float]
+. Retrieve the bibliographic record you would like to attach your subscription to
+. Click *Serials* -> Choose *Manage Predictions*.
+. Use the drop down menu to choose the Subscription to work on
+. Click *Add New*
+
+
 Predict Issues Using a New Prediction Pattern
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-[float]
+
 Predict Issues Using a Prediction Pattern Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-[float]
+
 Predict Issues Using a Prediction Pattern from a Bibliographic and/or MFHD Record
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -1,50 +1,31 @@
 Pull List for Hold Requests
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Evergreen matches hold requests with available items in your library at regular intervals. Once a matching copy is found, the item's barcode number is assigned to the hold, and the item is put on the *Holds Pull List*. Staff print the *Holds Pull List* and search for the items on the shelves.
 
-There are five types of status a hold may have: Waiting for Copy, Waiting for Capture, In Transit, Ready for Pickup, and the optional Reserved/Pending.
+The pull list is dynamic and is updated constantly. Once an item on the list is no longer available, or a hold on the list is captured, the items will disappear from the list. The pull list should be checked or printed at least once a day.
 
-If your library chooses to delay hold shelf status (see Chapter 49, Local Administration Menu), then a hold may have the status of Reserved/Pending.
+. To retrieve your *Holds Pull List* select *Circulation → Pull List for Hold Requests*.
+. The *Holds Pull List* is displayed. By default the items on the list are grouped first by *Shelving Location*, then by *Call Number*. You can re-sort by clicking the column labels.
 
-Waiting-for-copy holds: all holdable copies are checked out or not available.
+image:images/circ/pulllist1.png[scaledwidth="75%"]
 
-Waiting-for-capture holds: an available copy is assigned to the hold. The item shows up on the Holds Pull List waiting for staff to search the shelf and capture the hold.
-
-In Transit holds: holds are captured at a non-pickup branch and on the way to the pick-up location.
-
-Ready-for-pick-up holds: holds are captured and items are on the Hold Shelf waiting for patrons to pick up.
-
-Reserved/Pending holds: holds are captured and items are in process and to be put on the Hold Shelf. The status will be automatically changed to Ready-for-pick-up once the delay time period specified in Library Settings Editor expires.
-
-Besides capturing holds when checking in items, Evergreen matches holds with available items in your library at regular intervals. Once a matching copy is found, the item's barcode number is assigned to the hold and the item is put on the Holds Pull List. Staff can print the Holds Pull List and search for the items on shelves.
-
-To retrieve your Holds Pull List select Circulation → Pull List for Hold Requests.
+TIP: The order of shelving locations can be adjusted on *Administration -> Local Administration -> Copy Location Order*.
 
 
-The Holds Pull List is displayed. By default the items on the list are grouped first by Copy Location, then by Call Number. You may re-sort it by clicking the column labels, e.g. Title.
+Print or Export Pull List for Hold Requests
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The order of Copy Location can be adjusted on Admin -> Local Administration -> Copy Location Order
+. To print the default pull list, click *Print Full List*. The full list prints Type, Title, Author, Shelving Location, Call Number, and Item Barcode.
+. To print exactly what is displayed on the screen, click the *Column Picker → Print Full Grid*.
+. To export the holds pull list to a CSV file, click the *Column Picker → Download Full CSV*.
 
-
-The maximum number of holds initially displayed on the pull list is about 100. Use Fetch More Holds to retrieve more records.
-
-To print the pull list you may use Print Full Pull List, Print Full Pull List (Alternate Strategy) or go to Simplified Pull List Interface. The full list prints Title, Author, Shelving Location, Call Number and Item Barcode, while the alternative stragegy also prints patron barcode. Print button prints title only.
-
-You may export holds pull list to a CSV file, then import it into MS Excel to re-format it for printing. Use List Actions button on bottom left of screen.
-
-Click Simplified Pull List Interface. The pull list will be displayed in a new tab.
+ image:images/circ/pulllist2.png[scaledwidth="75%"]
 
 
-You may sort the list by clicking the column label or you may go to the column picker to choose the displayed fields and sort order. Move the cursor to any column in the label row as shown in the above screen and right click your mouse. The column picker will be displayed.
+Hold Management from the Holds Pull List
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+. Select a hold and click *Detail View* to display more information about the hold.
+. Select a hold and click *Actions* and make appropriate choices. You can perform the same tasks here as in the patron or title record, such as cancel or edit hold as required.
 
-You may select/deselect the checkboxes in the Display column to choose the fields that you want to display/hide. Select Auto Width checkbox if you wish Evergreen to automatically adjust the width of each column. Set the values for Sort Priority for all the fields that you want to sort by. The example list in the above screen will be sorted by Shelving Location, Call Number, and then Author.
-
-Scroll to the bottom of the list and click Save.
-
-Click Print Full List. The list will be printed with the selected displayed fields and in the selected sort order.
-
-The current version of Evergreen may not display a whole list of holds on the screen in Simplified Pull List, but the printed list is complete.
-
-You may perform hold management tasks by using the Actions for Select Holds dropdown list.
-
-The Holds Pull List is updated constantly. Once an item on the list is no longer available or a hold on the list is captured, the items will disappear from the list. The Holds Pull List should be printed at least once a day.
+image:images/circ/pulllist3.png[scaledwidth="75%"]
