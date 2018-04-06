@@ -66,25 +66,25 @@ Due: {{checkout.circ.due_date | date:"short"}}<br/>
 Text Formatting
 +++++++++++++++
 [options="header"]
-|====
+|===
 | Goal      | Original   | Code                       | Result
 | Bold (HTML) | hello       | `$$<b>hello</b>$$`            | **hello**
 | Bold (CSS)  | hello      | `$$<span style="font-weight:bold;">hello</span>$$`                  | **hello**
 | Capitalize  | circulation | `$$<span style="text-transform:capitalize;">circulation</span>$$`   | Circulation
 | Currency    | 1           | `{{1 \| currency}}`        | $1.00
-|====
+|===
 
 Date Formatting
 +++++++++++++++
 If you do not format dates, they will appear in a system format which isn't easily readable.
 
 [options="header"]
-|====
+|===
 | Code                          | Result
 | `{{today}}`                     | 2017-08-01T14:18:51.445Z
 | `{{today \| date:'short'}}`     | 8/1/17 10:18 AM
 | `{{today \| date:'M/d/yyyy'}}`  | 8/1/2017
-|====
+|===
 
 Currency Formatting
 +++++++++++++++++++
@@ -92,16 +92,18 @@ Add `| currency` after any dollar amount that you wish to display as
 currency.
 
 [options="header"]
-|====
-h| Code                                      | Result
-| `{{xact.summary.balance_owed \| currency}}`  | $2.50
-|====
+|===
+| Code                                      | Result
+| `{{xact.summary.balance_owed \| currency}}` | $2.50
+|===
 
 Conditional Formatting
 ++++++++++++++++++++++
 You can use Angular JS to only print a line if the data matches. For example:
 
+----
 `$$<div ng-if="hold.email_notify == 't'">Notify by email: {{patron.email}}</div>$$`
+----
 
 This will only print the ``Notify by email:'' line if email notification is enabled for that hold.
 
@@ -111,11 +113,11 @@ Substrings
 ++++++++++
 To print just a substring of a variable, you can use a *limitTo* function:  `{{variable | limitTo:limit}}` where limit is the number of characters you want.
 [options="header"]
-|====
+|===
 | Original                             | Code                                   | Result
 | The Sisterhood of the Traveling Pants  | `$${{checkout.title \| limitTo:10}}$$`       | The Sisterhood of th
 | 123456789                              | `$${{patron.card.barcode \| limitTo:-5}}$$`  | 56789
-|====
+|===
 
 Images
 ++++++
@@ -128,7 +130,9 @@ You can sort the items in an ng-repeat block using orderBy. For example,
 the following will sort a list of holds by the shelving location first,
 then by the call number:
 
+----
 `$$<tr ng-repeat="hold_data in holds | orderBy : ['copy.location.name','volume.label']">$$`
+----
 
 Export / Import Customized Templates
 ++++++++++++++++++++++++++++++++++++
@@ -152,7 +156,7 @@ template customizations that you make. Be sure to export a copy of your
 customizations as a backup so that you can import it as needed.
 ====
 
-Exporting and importing Customized Receipts
+Exporting and Importing Customized Receipts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Once you have your receipts set up on one machine you can export your receipts, and then load them on to another machine.  Just remember to ''Save Locally'' once you import the receipts on the new machine.
