@@ -78,6 +78,8 @@ Pattern Wizard
 .. Select the specific point in time at which the first level of enumeration should change.
 . Click *Next*
 
+image:images/serials/pattern1.PNG[]
+
 .*Chronology display*
 . Check the box adjacent to *Use Chronology Captions?*
 . Choose a chronological unit for the first level.
@@ -88,6 +90,8 @@ Pattern Wizard
 . Check the box adjacent to Use Alternative Chronology Captions? If the publication uses alternative chronology.
 .. Click *Next*
 
+image:images/serials/pattern2.PNG[]
+
 .*MFHD Indicators*
 . Choose a *Compression Display Option*
 .. The entries in the drop down menu correspond to the indicator codes and the subfield $w in the 853 tag. Compressibility and expandability correspond to the first indicator in the 853 tag.
@@ -96,6 +100,8 @@ Pattern Wizard
 .. Caption Evaluation corresponds to the second indicator in the 853 tag.
 .. Sitka recommends *Captions verified; all levels present*
 .. Click *Next*
+
+image:images/serials/pattern3.PNG[]
 
 .*Frequency and Regularity*
 . Click the radio button for *Pre-selected* and choose the frequency from the drop down menu.
@@ -107,10 +113,14 @@ Pattern Wizard
 .. For a Combined issue, enter the relevant combined issue code. E.g., for a monthly combined issue, enter 02/03 to specify that February and March are combined.
 . Click *Next*
 
+image:images/serials/pattern4.PNG[]
+
 .*Review*
 . Click the blue arrows to see the *Raw Pattern Code*
 . Review the *Pattern Summary*
 . Click *Save*
+
+image:images/serials/pattern5.PNG[]
 
 Edit a Prediction Pattern Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -129,7 +139,6 @@ Delete a Prediction Pattern Template
 . Click *Actions* -> Choose _Delete Template_.
 
 NOTE: Prediction Pattern Templates that are being used by subscriptions cannot be deleted.
-
 
 Serials Specific Settings in the Library Settings Editor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
