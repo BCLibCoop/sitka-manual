@@ -1,4 +1,4 @@
 Patron Registration
 ~~~~~~~~~~~~~~~~~~~
 
-This is a page on registering patrons in the offline module.
+Evergreen's Offline Circulation Patron registration is not able to check the database for duplicate patrons. For this reason we recommend that you do not use patron registration while offline. 

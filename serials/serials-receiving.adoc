@@ -1,2 +1,82 @@
 Serials Receiving
 -----------------
+
+Issues can be received through the *Manage Issues* tab or through the *Quick Receive* option located in the bibliographic record display.
+
+Quick Receive
+~~~~~~~~~~~~~
+
+. From a serials record in the catalog, go to *Serials* -> *Quick Receive*.
+. A dialog box will appear. Select the Library and Subscription for which you are receiving issues from the drop down menu and click OK/Continue.
+. A Receive items dialog box will appear with the next expected issue.
+
+*To receive the item(s) and barcode them:*
+
+. Call Number: Enter a call number. Any item with a barcode must also have a call number.
+. Barcode: Scan in the barcode that will be affixed to the issue.
+. The box adjacent to Receive the issue will be checked by default.
+. Click *Save* to receive the issue. The Status of the issue will update to "Received" and a Date Received will be recorded.
+. The barcoded copy will now appear in the holdings area of the catalog and the Holdings Summary in the Issues Held tab in the catalog will reflect the newly received issue.
+
+NOTE: The Copy Location and Circulation Modifier will be pre-populated from the Receive Template associated with the Distribution. Changes can be made to the pre-populated information. Copy location, call number, and circulation modifier can be applied to multiple copies in batch using the batch modify.
+
+*To receive the item(s) without barcoding them:*
+
+. Uncheck the box adjacent to Barcode Items and click Save. The Holdings Summary in the Issues Held tab in the catalog will reflect the newly received issue.
+
+Receiving from the Manage Issues tab
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The *Manage Issues* tab can be used to receive the next expected issue and to receive multiple expected issues.
+
+. Retrieve the serial record
+. Click *Serials* -> *Manage Subscriptions* -> *Manage Issues* tab.
+
+Receive Next Issue and Barcode
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Within the Manage Issues tab, Select [a] subscription to work on from the drop down menu. The list of predicted issues for the subscription will appear.
+Check the box adjacent to Barcode on receive.
+Click Receive Next.
+A Receive items dialog box will appear with the next expected issue and item(s).
+The Copy Location and Circulation Modifier will be pre-populated from the Receive Template associated with the Distribution. Changes can be made to the pre-populated information.
+Call Number: Enter a call number. Any item with a barcode must also have a call number.
+Barcode: Scan in the barcode that will be affixed to the item(s).
+The box to Receive the item(s) will be checked by default.
+Check the box adjacent to Routing List to print an existing routing list.
+Click Save to receive the item(s). The Status of the issue will update to "Received" and a Date Received will be recorded. The barcoded item(s) will now appear in the holdings area of the catalog and the Holdings Summary in the Issues Held tab in the catalog will reflect the newly received issue.
+
+Receive Next Issue (no barcode)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+In the Manage Issues tab, make sure the box adjacent to Barcode on receive is unchecked and click Receive Next.
+A Receive items dialog box will appear with the message "Will receive # item(s) without barcoding."
+Click OK/Continue to receive the issue. The Status of the issue will update to "Received" and a Date Received will be recorded. The Holdings Summary in the Issues Held tab in the catalog will reflect the newly received issue.
+
+Batch Receiving
+~~~~~~~~~~~~~~~
+Multiple issues can be received at the same time using the Manage Issues tab.
+
+Batch Receive and Barcode
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Within the Manage Issues tab, Select [a] subscription to work on from the drop down menu. The list of predicted issues for the subscription will appear.
+Check the box adjacent to Barcode on receive.
+Check the boxes adjacent to the expected issues you want to receive.
+Go to Actions→Receive selected or right-click on the rows and select Receive selected from the drop down menu.
+A Receive items dialog box will appear with the selected issues and items.
+The Copy Location and Circulation Modifier will be pre-populated from the Receive Template associated with the Distribution. Changes can be made to the pre-populated information.
+Call Number: Enter a call number. Any item with a barcode must also have a call number.
+Barcode: Scan in the barcodes that will be affixed to the items.
+The box to Receive the items will be checked by default.
+Check the box adjacent to Routing List to print an existing routing list.
+Click Save to receive the items. The Status of the items will update to "Received" and a Date Received will be recorded. The barcoded items will now appear in the holdings area of the catalog and the Holdings Summary in the Issues Held tab in the catalog will reflect the newly received issues.
+
+
+Receive multiple issues (no barcode)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Within the Manage Issues tab, Select [a] subscription to work on from the drop down menu. The list of predicted issues for the subscription will appear.
+Make sure the box next to Barcode on receive is unchecked and check the boxes adjacent to the expected issues you want to receive.
+A Receive items dialog box will appear with the message "Will receive # item(s) without barcoding."
+Click OK/Continue to receive the issues. The Status of the issue will update to "Received" and a Date Received will be recorded. The Holdings Summary in the Issues Held tab in the catalog will reflect the newly received issues.

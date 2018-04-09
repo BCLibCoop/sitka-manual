@@ -1,0 +1,28 @@
+Special Issues
+--------------
+
+Adding Extra Copies
+~~~~~~~~~~~~~~~~~~~
+If the library receives an extra copy of an expected issue, the extra copy can be added to the list of predicted issues so it can be received through the serials module.
+
+To add an extra copy of an expected issue:
+
+In the Manage Issues tab, select the issuance that precedes the issuance that you received an extra copy of and go to Actions→Add following issue or right-click on the issuance and select Add following issue from the menu.
+A dialog box will appear. Verify that the Publication date, Type, and Chronology labels are correct. The Enumeration labels will be filled in automatically when the issue is created.
+Click Save to create the extra copy of the following issue.
+The extra copy will appear in the list of issues and can be received using your typical workflow.
+
+Adding Special Issues
+~~~~~~~~~~~~~~~~~~~~~
+If the library receives an unexpected issue of a subscription, such as Summer Issue or Holiday Issue, it can be added to the list of predicted issues as a Special Issue so it can be received through the serials module.
+
+To add a special issue:
+
+In the Manage Issues tab, click Add Special Issue. A dialog box will appear.
+Enter the Publication date of the special issue.
+Select the Type (typically Basic).
+Add an Issuance Label to identify the special issue, such as "Holiday Issue 2017".
+Click Save.
+The special issue will appear in the list of issues and can be received using your typical workflow.
+
+NOTE: A special issue may also be added as an ad hoc issue by following the instructions for Adding Extra Copies. Enter the Publication date and Type and check the box adjacent to Ad hoc issue? The form will update to allow you to enter an Issuance Label.

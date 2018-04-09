@@ -1,5 +1,18 @@
 Offline Module Set Up
 ~~~~~~~~~~~~~~~~~~~~~
 
-This is a page on setting up the offline module.
+Evergreen's Offline Circulation interface is designed to log transactions during network outage. Transactions can be uploaded and processed once network operations are restored.
 
+New in 3.1 you can choose to save your offline transactions in the browser or to store Offline transactions in Hatch.
+
+Chrome
+
+Hatch
+
+
+
+
+Offine circulation
+~~~~~~~~~~~~~~~~~~
+
+Click *Circulation* -> *Offline circulation*

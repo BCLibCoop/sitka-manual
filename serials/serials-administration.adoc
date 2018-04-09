@@ -36,6 +36,8 @@ Delete a Serial Copy Template
 . Click the check box beside the template you want to delete.
 . Click *Actions* -> Choose _Delete Template_.
 
+NOTE: Serial Copy Templates that are being used by subscriptions cannot be deleted.
+
 Prediction Pattern Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -73,12 +75,16 @@ Edit a Prediction Pattern Template
 . Click the check box beside the template you want to edit.
 . Click *Actions* -> Choose _Edit Template_.
 
+NOTE: Prediction Patterns can be edited after creation as long as all predicted issues have the status of "Expected". Once an issue is moved into a different status, the Prediction Pattern cannot be changed.
+
 Delete a Prediction Pattern Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Click *Administration* -> *Serials Administration* -> *Prediction Pattern Templates*.
 . Click the check box beside the template you want to delete.
 . Click *Actions* -> Choose _Delete Template_.
+
+NOTE:
 
 
 Serials Specific Settings in the Library Settings Editor
