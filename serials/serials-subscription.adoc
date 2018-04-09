@@ -78,7 +78,6 @@ Predict Issues Using a Prediction Pattern Template
 . Click *Save*.
 . Evergreen will generate the predictions and bring you to the _Manage Issues_ tab to review the predicted issues.
 
-<!--
 Predict Issues Using a Prediction Pattern from a Bibliographic and/or MFHD Record
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -100,8 +99,6 @@ Evergreen can also generate a prediction pattern from existing MFHD records atta
 .. Enter the _Prediction count_.  This is the number of issues that you want to predict.
 . Click *Save*.
 . Evergreen will generate the predictions and bring you to the _Manage Issues_ tab to review the predicted issues.
-
--->
 
 Create and Manage Issues
 ~~~~~~~~~~~~~~~~~~~~~~~~
