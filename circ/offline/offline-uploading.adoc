@@ -1,5 +1,75 @@
 Uploading Offline Transactions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This is a page on uploading offline transactions.
+Once connectivity is restored, navigate back to your *Evergreen Login Page*.  You will see a message telling you that there are unprocessed Offline Transactions waiting for upload.
 
+Sign in and navigate to *Circulation -> Offline Circulation*.  Since you are logged in, you will now see a *Session Management* tab to the left of the Register Patron tab.  The Session Management tab includes *Pending Transactions* and *Offline Sessions*.
+
+In the *Pending Transactions* tab you will see a list of all transactions recorded on that browser.
+
+If you click *Clear Transactions*, you will be prompted with a warning.
+
+If you are processing transactions right away and from the same browser you recorded them in, follow the steps below:
+
+. Click on the *Offline Sessions* tab and then on the *Create Session* button.
+. Enter a descriptive name for your session in the modal and click *OK/Continue* to proceed.  You will see your new session at the top of the *Session List*.  The Session List may be sorted ascending or descending by clicking on one of the following column headers: *Organization*, *Created By*, *Description*, *Date Created*, or *Date Completed*.  The default sort is descending by Date Created.
+. Click *Upload* to upload everything listed in the *Pending Transactions* tab.
+. Once all transactions are uploaded, the *Upload Count* column will update to show the number of uploaded transactions.
+. Click *Process* to process the offline transactions.  Click *Refresh* to see the processing progress.  Once all transactions are processed the *Date Completed* column will be updated.
+. Scroll to the bottom of the screen to see if there are any entries in the <<_exceptions,*Exception List*>>.  Some of these may require staff follow up.
+
+Exporting Offline Transactions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you anticipate a multi-day closing or if you plan to process your offline transactions at a different workstation, you will want to export your offline transactions.
+
+To export transactions while you are offline, navigate to *Circulation -> Offline Circulation* and click *Export Transactions* in the top-right of the screen.  This will save a file entitled pending.xacts to your browser's default download location.  If you will be processing these transactions on another workstation, move this file to an external device like a thumb drive.
+
+To export transactions while you are logged in, navigate to *Circulation -> Offline Circulation* and click on the *Session Management* tab.  Click on the *Export Transactions* button to generate the pending.xacts file as above.  If you wish, you can at this point click *Clear Transactions* to clear the list of pending transactions.
+
+
+Uploading Previously Exported Transactions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you had previous exported your offline transactions you can upload them for processing.
+
+To import transactions:
+
+. Log in to the staff client via your *Login Page*
+. Navigate to *Circulation -> Offline Circulation*
+. Click on the *Session Management* tab.
+. Click on the *Import Transactions* button.
+. Navigate to the location on your computer where the pending.xacts file is saved.
+. Select the file for importing.
+. The *Pending Transactions* list will populate with your imported transactions.
+. You may now proceed according to the instructions under <<_processing_offline_transactions,Processing Offline Transactions>>.
+
+Exceptions
+^^^^^^^^^^
+
+Exceptions are problems that were encountered during processing. For example, a mis-scanned patron barcode, an open circulation, or an item that was not checked in before it was checked out to another patron would all be listed as exceptions. Those transactions causing exceptions might not be loaded into Evergreen database. Staff should examine the exceptions and take necessary action.
+
+These are a few notes about possible exceptions. It is not an all-inclusive list.
+
+* Checking out a item with the wrong date (i.e. the Offline Checkout date is +2 weeks and the item's regular circulation period is +1 week) does not cause an exception.
+* Overdue books are not flagged as exceptions.
+* Checking out a reference book or another item set to not circulate does not cause an exception.
+* Checking out an item belonging to another library does not cause an exception.
+* An item that is targeted for a patron hold and captured via offline checkin will not cause an exception unless that item also goes to an In Transit status.
+* An item that is on hold for Patron A but checked out to Patron B will not cause an exception.  Patron A's hold will be reset and will retarget the next time the hold targeter is run.  In order to avoid this it is recommended to not check out holds to other patrons.
+* If you check out a book to a patron using a previous barcode for that patron, it will cause an exception and you will have to retrieve that patron while online and re-enter the item barcode in order to checkout the item.
+* The Offline Interface can recognize blocked, barred, and expired patrons if you have downloaded the Offline Block List in the browser you are using.  You will get an error message indicating the patron status from within the Standalone Interface at check-out time.  See the section on the <<_offline_block_list,Offline Block List>> for more information.
+
+image::media/offline_exceptions.png[Offline exception list]
+
+At the right side of each exception are buttons for *Item*, *Patron*, and *Debug*. Clicking the *Item* button will retrieve the associated item in a new browser window.  Clicking on the *Patron* button will retrieve the associated patron in a new browser window.  Clicking the *Debug* button will result in a modal with detailed debugging information.
+
+Common event names in the Exceptions List include:
+
+* +ROUTE-ITEM+ - Indicates the book should be routed to another branch or library system. You'll need to find the book and re-check it in while online to get the Transit Slip to print.
+* +COPY_STATUS_LOST+ - Indicates a book previously marked as lost was found and checked in.  You will need to find the book and re-check it in while online to correctly clear it from the patron's account.
+* +CIRC_CLAIMS_RETURNED+ - Indicates a book previously marked as claimed-returned was found and checked in.  You will need to find the book and re-check it in while online to correctly clear it from the patron's account.
+* +ASSET_COPY_NOT_FOUND+ - Indicates the item barcode was mis-scanned/mis-typed.
+* +ACTOR_CARD_NOT_FOUND+ - Indicates the patron's library barcode was mis-scanned, mis-typed, or nonexistent.
+* +OPEN_CIRCULATION_EXISTS+ - Indicates a book was checked out that had never been checked in.
+* +MAX_RENEWALS_REACHED+ - Indicates the item has already been renewed the maximum times allowed.  Note that if the staff member processing the offline transaction set has the +MAX_RENEWALS_REACHED.override+ permission at the appropriate level, the system will automatically override the error and will allow the renewal.

@@ -1,5 +1,25 @@
 Check Out
 ~~~~~~~~~
 
-This is a page on check out in the offline module.
+To check out items in Offline Circulation:
 
+. Click the *Checkout* tab.
+. If you wish to use Strict Barcode for patron and item barcodes, check the box labelled *Strict Barcode*.
+. Enter a value in the *Due Date* field or select a date from the Calendar widget.  You may also select an option from the *Offset Dropdown*.  The date field entry will honor the format set in the Library Settings Editor.
+. Scan the Patron Barcode in the box labelled *Patron Barcode*.
+. Check out items:
+.. For cataloged items, scan the item barcode in the box labelled *Item Barcode*.  Each item barcode will appear on the right side of the screen, along with its due date and the patron barcode.  If you are manually typing barcodes, you need to click the *Checkout* button or hit the *Enter* key on your keyboard after each Item Barcode entry in order to record the transaction.
+.. For non-cataloged items, select a *Non-cataloged Type* from the dropdown and enter the number of items you wish to check out.  Click *Checkout*.  In the list to the right, the item barcode will appear blank since this item is unbarcoded.  The due date and patron barcode will appear, however.
+.. If you make an error in entry, click *Clear* to reset the Patron Barcode and Item Barcode fields.
+. To print a receipt, check the box labelled *Print Receipt*.
+. Click *Save Transactions* in the upper-right of the screen to complete the checkout.
+
+Note that *Save Transactions* will save any unsaved transactions across the Offline tabs Checkout, Renew, In-House Use, and Checkin.
+
+In the screenshot, the first two items in the right-hand list are regular checkout items.  The third item is a non-cataloged item.
+
+A value entered in the Due Date field will take precedence over an existing value in the Offset Dropdown; however, if you change the Offset after setting the Due Date field, the Due Date field will update to reflect the Offset value.
+
+Due Date and Offset values are sticky between the Checkout and Renew tabs, and also sticky between transactions.  Strict Barcode and Print Receipt are sticky among the Checkout, Renew, In-House Use, and Checkin tabs and are also sticky between transactions.
+
+Pre-cataloged item checkout is not available in Offline Circulation.  Any pre-cataloged item checked out through Offline Circulation will result in an entry in the Exception List and will not successfully check out.  Pre-cataloged items which are checked in through offline will also result in an entry in the Exception List, but will successfully check in.

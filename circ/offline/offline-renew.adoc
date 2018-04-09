@@ -1,5 +1,14 @@
 Renew
 ~~~~~
 
-This is a page on renewing in the offline module.
+To renew an item, you must know the item's barcode number. The patron's barcode is optional.
 
+To renew items in Offline Circulation:
+
+. Click the *Renew* tab.
+. Ensure that the *Due Date* value is correct.
+. _(Optional)_: Enter the patron's library card barcode in the *Patron Barcode* field by scanning or typing the barcode.
+. For each item to be renewed, scan the item's barcode in the *Item Barcode* field. If you are typing the item barcode, click the *Renew* button or hit the *Enter* key on your keyboard after each item barcode.
+. The item barcode, due date, and patron barcode (if entered) appear on the right side of the screen.
+. To print a receipt, check the box labelled *Print Receipt*.
+. Click *Save Transactions* in the upper-right of the screen to complete the renewal.
