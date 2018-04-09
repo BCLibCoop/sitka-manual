@@ -36,6 +36,8 @@ Delete a Serial Copy Template
 . Click the check box beside the template you want to delete.
 . Click *Actions* -> Choose _Delete Template_.
 
+NOTE: Serial Copy Templates that are being used by subscriptions cannot be deleted.
+
 Prediction Pattern Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -44,27 +46,81 @@ Create a Prediction Pattern Template
 
 . Click *Administration* -> *Serials Administration* -> *Prediction Pattern Templates*.
 . Click *New Record*.
-. Enter a _Name_.
-. Click *Pattern Wizard*.
-.. See xref:pattern-wizard[] for detailed steps.
-. Choose the _Owning Library_.
-. Choose the _Share Depth_.
+. Enter a *Name*.
+. Click *Pattern Wizard*. The wizard has five tabs that will step you through creating a prediction pattern for your publication.
+.. See xref:pattern-wizard[] for detailed instructions.
+. Choose the *Owning Library*.
+. Choose the *Share Depth*.
 . Click *Save*.
 
 [[pattern-wizard]]
 Pattern Wizard
-++++++++++++++
+^^^^^^^^^^^^^^
 
-. Enumeration Labels
+.*Enumeration Labels*
+. Select the radio button adjacent to *Use enumerations*.
+.. The enumerations conform to $a-$h of the 853,854 and 855 MARC tags.
+.. If the publication only uses dates, select the radio button adjacent to *Use Calendar Dates Only* and click *Next* in the upper right-hand corner. _Skip to next step_.
+. Enter the first level of enumeration in the field labeled *Level 1* -> Click *Add Level*.
+.. A common first level enumeration is volume, or "v.".
+. Enter the second level of enumeration in the field labeled *Level 2*.
+.. A common second level enumeration is number, or "no.".
+. Select if the second level of enumeration is a set Number, Varies, or is Undetermined.
+.. *Number* - Enter the number of bibliographic units per next higher level (e.g. 12 no. per v.).
+... This conforms to $u in the 853, 854, and 855 MARC tags.
+.. Select the radio button for the enumeration scheme: *Restarts at unit completion* or *Increments continuously*.
+... This conforms to $v in the 853, 854, and 855 MARC tags.
+. You can add up to six levels of enumeration.
+. Check the box adjacent to *Add alternative enumeration* if the publication uses an alternative enumeration.
+. Check the box adjacent to *First level enumeration changes during subscription year* to configure calendar changes if needed.
+.. A common calendar change is for the first level of enumeration to increment every January.
+.. Select when the Change occurs from the drop down menu: Start of the month, Specific date, or Start of season.
+.. Select the specific point in time at which the first level of enumeration should change.
+. Click *Next*
+
+image:images/serials/pattern1.PNG[]
+
+.*Chronology display*
+. Check the box adjacent to *Use Chronology Captions?*
+. Choose a chronological unit for the first level.
+. Do not check *Display level descriptor?*.
+..  If checked the term for the unit selected, such as "Year" and "Month" will display next to the chronology caption in the catalog.
+. To add additional levels of chronology for display, click Add level.
+.. Each level that you add must be a smaller chronological unit than the previous level (e.g. Level 1 = Year, Level 2 = Month).
+. Check the box adjacent to Use Alternative Chronology Captions? If the publication uses alternative chronology.
 .. Click *Next*
-. Chronology display
+
+image:images/serials/pattern2.PNG[]
+
+.*MFHD Indicators*
+. Choose a *Compression Display Option*
+.. The entries in the drop down menu correspond to the indicator codes and the subfield $w in the 853 tag. Compressibility and expandability correspond to the first indicator in the 853 tag.
+.. Sitka recommends *Can compress or expand*
+. Choose a *Caption Evaluation*
+.. Caption Evaluation corresponds to the second indicator in the 853 tag.
+.. Sitka recommends *Captions verified; all levels present*
 .. Click *Next*
-. MFHD Indicators
-.. Click *Next*
-. Frequency and Regularity
-.. Click *Next*
-. Review
-.. Click *Save*
+
+image:images/serials/pattern3.PNG[]
+
+.*Frequency and Regularity*
+. Click the radio button for *Pre-selected* and choose the frequency from the drop down menu.
+.. Alternatively- Use number of issues per year and enter the total number of issues in the field.
+. If the publication has combined, skipped, or special issues, that should be accounted for in the publication pattern, check the box adjacent to Use specific regularity information?.
+.. From the first drop down menu, select the appropriate publication information: Combined, Omitted, or Published issues.
+.. From the subsequent drop down menus, select the appropriate frequency and issue information.
+.. Add additional regularity rows as needed.
+.. For a Combined issue, enter the relevant combined issue code. E.g., for a monthly combined issue, enter 02/03 to specify that February and March are combined.
+. Click *Next*
+
+image:images/serials/pattern4.PNG[]
+
+.*Review*
+. Click the blue arrows to see the *Raw Pattern Code*
+. Review the *Pattern Summary*
+. Click *Save*
+
+image:images/serials/pattern5.PNG[]
 
 Edit a Prediction Pattern Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -73,6 +129,8 @@ Edit a Prediction Pattern Template
 . Click the check box beside the template you want to edit.
 . Click *Actions* -> Choose _Edit Template_.
 
+NOTE: Prediction Patterns can be edited after creation as long as all predicted issues have the status of "Expected". Once an issue is moved into a different status, the Prediction Pattern cannot be changed.
+
 Delete a Prediction Pattern Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -80,9 +138,10 @@ Delete a Prediction Pattern Template
 . Click the check box beside the template you want to delete.
 . Click *Actions* -> Choose _Delete Template_.
 
+NOTE: Prediction Pattern Templates that are being used by subscriptions cannot be deleted.
 
-Serials Specific Settings in the Library Settings Editor
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Serials Settings
+~~~~~~~~~~~~~~~~
 
 Click *Administration* -> *Local Administration* -> *Library Settings Editor*.
 
@@ -90,7 +149,7 @@ The following settings should be configured in the Library Settings Editor befor
 
 |======================
 |Group|Setting|Description|Options|Notes
-|Serials|Default display grouping for serials distributions presented in the OPAC| | "enum" or "chron" | *enum* is recommended
+|Serials|Default display grouping for serials distributions presented in the OPAC| | "enum" or "chron" | *enum* should display in the OPAC volume and number by month and year &nbsp *chron* will display in the OPAC by month  .
 |Serials|Previous Issuance Copy Location|When a serial issuance is received, copies (units) of the previous issuance will be automatically moved into the configured shelving location|   | use this setting to specify a default copy location for serials
 |OPAC| Use fully compressed serials holdings |    | "true" or "false" | *true* is recommended
 |======================

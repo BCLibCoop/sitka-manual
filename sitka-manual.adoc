@@ -73,16 +73,21 @@ include::serials/serials-subscription.adoc[Serials Subscription]
 
 include::serials/serials-receiving.adoc[Serials Receiving]
 
+include::serials/serials-specialissues.adoc[]
+
+include::serials/serials-routing.adoc[]
+
+include::serials/serials-binding.adoc[]
+
 Reports
 =======
+include::reports/reports-permissions.adoc[]
 
 Administration
 ==============
 include::admin/admin-workstationadmin.adoc[]
 
 include::admin/admin-localadmin.adoc[]
-
-
 
 [appendix]
 Licensing

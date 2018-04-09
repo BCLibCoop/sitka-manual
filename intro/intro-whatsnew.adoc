@@ -24,3 +24,15 @@ Cataloguing
 
 Serials
 ~~~~~~~
+
+Web Client Serials Module
+^^^^^^^^^^^^^^^^^^^^^^^^^
+The web client serials module has a new unified interface that combines ideas from both the serial control view and alternate serials control view from the old staff client.
+
+In addition to carrying over functionality that was available in the old staff client, several new features are included:
+
+* A more streamlined interface for managing subscriptions, distributions, and streams
+* A new *Serials Administration* page where prediction pattern and serial copy templates can be managed.
+* Prediction pattern codes can be saved as templates.
+* It is no longer necessary to create a starting issue in order to predict a run of issues; the dialog box for generating a set of predicted issues now lets you specify the starting point directly.
+* The new serials interfaces can be accessed from the record details page via a Serials drop-down button.

@@ -1,17 +1,28 @@
 Serials Subscriptions
 ---------------------
 
+The Serials Module can be used to create subscriptions, distributions, streams, and prediction patterns.  As well as to generate predictions and receive issues as they come in to the library.
+
+To access the Serials Module, go to a serials record in the catalog, and click on *Serials* -> *Manage Subscriptions*.  This will open the serials interface for that particular record.  In this interface you can:
+
+. Create and manage subscriptions
+. Create and manage predictions
+. Create and manage issues
+. Create and manage MFHDs
+
+image:images/serials/subscription1.PNG[]
+
 Create and Manage Subscriptions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A subscription is designed to hold all information related to a single serial title. Therefore, each library is likely to have only one subscription per serial title.
 
-A subscription must be added to an existing bibliographic record. If the record is not already in the catalogue, you can import it via any of your preferred methods (MARC import, Z39.50 search, etc.)
+A subscription must be added to a bibliographic record. If the record is not already in the catalogue, you can import it via any of your preferred methods (MARC import, Z39.50 search, etc.)
 
-. Retrieve the bibliographic record you would like to attach your subscription to
+. Retrieve the bibliographic record you would like to attach your subscription to.
 . Click *Serials* -> Choose *Manage Subscriptions*.
 . Existing subscriptions for the workstation location will be displayed.
-.. Multibranch libraries will need to choose the System Level org unit code to see their subscriptions.
+.. Multibranch libraries will need to choose the system level library code to see their subscriptions.
 . Click *New Subscription*
 . Enter the subscription information.
 .. _Start Date_
@@ -24,19 +35,81 @@ Create and Manage Predictions
 
 From the Manage Predictions tab you can create a new prediction pattern from scratch, use an existing pattern template, or use an existing pattern template as the basis for a new prediction pattern.
 
-. Retrieve the bibliographic record you would like to attach your subscription to
-. Click *Serials* -> Choose *Manage Predictions*.
-. Use the drop down menu to choose the Subscription to work on
-. Click *Add New*
-
+. Retrieve the bibliographic record you would like to attach your subscription to.
+. Click *Serials* -> Choose *Manage Subscriptions*.
 
 Predict Issues Using a New Prediction Pattern
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+. Within the _Manage Predictions_ tab, *Select Subscription* to work on from the drop down menu.
+. Click *Add New*
+. Click *Create Pattern*
+. Follow the xref:pattern-wizard[] steps to modify the template.
+. Click *Create*.
+. To create predictions, click *Predict New Issues*.
+.. Note: you can also predict new issues from the _Manage Issues_ tab.
+. A dialog box called _Predict New Issues: Initial Values_ will appear.
+.. Select the _Publication date_ for the subscription.  This will be publication date of the first issue you expect to receive.
+.. The _Type_ will correspond to the type of prediction pattern selected.
+.. Enter any _Enumeration labels_ for the first expected issue.
+.. Enter any _Chronology labels_ for the first expected issue.
+.. Enter the _Prediction count_.  This is the number of issues that you want to predict.
+. Click *Save*.
+. Evergreen will generate the predictions and bring you to the _Manage Issues_ tab to review the predicted issues.
 
 Predict Issues Using a Prediction Pattern Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+. Within the _Manage Predictions_ tab, *Select Subscription* to work on from the drop down menu.
+. _Select a template_ from the drop down menu beside *Create from Template*.
+. Click *Create from Template*.
+. If you want to use the pattern "as is" click *Create*.
+.. If you want to review or modify the pattern, click *Edit Pattern*.  The Pattern Wizard will appear.
+.. The Pattern Wizard will be pre-populated with the pattern template selected.
+.. After modifying or reviewing the pattern in the wizard, click *Create*.  The prediction pattern will now appear under Existing Prediction Patterns.
+. To create predictions, click *Predict New Issues*.
+.. Note: you can also predict new issues from the _Manage Issues_ tab.
+. A dialog box called _Predict New Issues: Initial Values_ will appear.
+.. Select the _Publication date_ for the subscription.  This will be publication date of the first issue you expect to receive.
+.. The _Type_ will correspond to the type of prediction pattern selected.
+.. Enter any _Enumeration labels_ for the first expected issue.
+.. Enter any _Chronology labels_ for the first expected issue.
+.. Enter the _Prediction count_.  This is the number of issues that you want to predict.
+. Click *Save*.
+. Evergreen will generate the predictions and bring you to the _Manage Issues_ tab to review the predicted issues.
 
 Predict Issues Using a Prediction Pattern from a Bibliographic and/or MFHD Record
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Evergreen can also generate a prediction pattern from existing MFHD records attached to a serials record and from MFHD patterns embedded directly in the bibliographic record.
+
+. Within the _Manage Predictions_ tab, *Select Subscription* to work on from the drop down menu.
+. Click *Import from Bibliographic and/or MFHD Records*.
+. A dialog box will appear that presents the available MFHD records and the prediction pattern that will be imported.
+. Check the box adjacent to the MFHD record that you would like to import and click *Import*.  The new prediction pattern will now appear under _Existing Prediction Patterns_.
+. If you want to review or modify the pattern, click *Edit Pattern*.  The Pattern Wizard will appear.
+.. The Pattern Wizard  will be pre-populated with the pattern from the MFHD selected.  Follow the steps in the section . Creating a Pattern Template.  in this documentation to modify the template or click *Next* on each tab to review the template.
+. To create predictions, click *Predict New Issues*.
+.. Note: you can also predict new issues from the _Manage Issues_ tab.
+. A dialog box called _Predict New Issues: Initial Values_ will appear.
+.. Select the _Publication date_ for the subscription.  This will be publication date of the first issue you expect to receive.
+.. The _Type_ will correspond to the type of prediction pattern selected.
+.. Enter any _Enumeration labels_ for the first expected issue.
+.. Enter any _Chronology labels_ for the first expected issue.
+.. Enter the _Prediction count_.  This is the number of issues that you want to predict.
+. Click *Save*.
+. Evergreen will generate the predictions and bring you to the _Manage Issues_ tab to review the predicted issues.
+
+Create and Manage Issues
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+After generating predictions in the _Manage Predictions_ tab, you will see a list of the predicted issues in the Manage Issues tab.  A variety of actions can be taken in this tab, including
+
+* receiving issues
+* predicting new issues
+* adding special issues.
+
+Create and Manage MFHDs
+~~~~~~~~~~~~~~~~~~~~~~~
+
+MARC Format for Holdings Display (MFHD) display in the catalog in addition to holding statements generated by Evergreen from subscriptions created in the Serials Module. The MFHDs are editable as MARC but the holdings statements generated from the control view are system generated. Multiple MFHDs can be created and are tied to Organizational Units.

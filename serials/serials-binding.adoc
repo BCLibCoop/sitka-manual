@@ -1,0 +1,12 @@
+Serials Binding
+---------------
+
+To bind received issues together:
+
+. Go to the *Manage Issues* tab and select the issues you want to bind together.
+. Right-click on the issues or go to *Action* and select *Bind*.
+. The Bind Items interface will appear and all items will be represented on the screen. The first item’s fields will be editable.
+. Modify the Call Number if needed.
+. Replace the Barcode and click Save.
+
+NOTE: The barcode must be replaced with a new barcode. The binding will fail if you attempt to reuse an existing barcode from one of the items being bound. Evergreen views it as a duplicate barcode.
