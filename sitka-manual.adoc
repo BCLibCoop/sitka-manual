@@ -76,13 +76,13 @@ include::serials/serials-receiving.adoc[Serials Receiving]
 Reports
 =======
 
+include::reports/reports-permissions.adoc[]
+
 Administration
 ==============
 include::admin/admin-workstationadmin.adoc[]
 
 include::admin/admin-localadmin.adoc[]
-
-
 
 [appendix]
 Licensing
