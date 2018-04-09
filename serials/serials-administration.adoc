@@ -46,20 +46,40 @@ Create a Prediction Pattern Template
 
 . Click *Administration* -> *Serials Administration* -> *Prediction Pattern Templates*.
 . Click *New Record*.
-. Enter a _Name_.
-. Click *Pattern Wizard*.
-.. See xref:pattern-wizard[] for detailed steps.
-. Choose the _Owning Library_.
-. Choose the _Share Depth_.
+. Enter a *Name*.
+. Click *Pattern Wizard*. The wizard has five tabs that will step you through creating a prediction pattern for your publication.
+.. See xref:pattern-wizard[] for detailed instructions.
+. Choose the *Owning Library*.
+. Choose the *Share Depth*.
 . Click *Save*.
 
 [[pattern-wizard]]
 Pattern Wizard
 ++++++++++++++
 
-. Enumeration Labels
-.. Click *Next*
-. Chronology display
+.*Enumeration Labels*
+. Select the radio button adjacent to *Use enumerations*. The enumerations conform to $a-$h of the 853,854 and 855 MARC tags.
+.. If the publication does not use enumeration and instead only uses dates, select the radio button adjacent to *Use Calendar Dates Only* and click *Next* in the upper right-hand corner. _Skip to next step_.
+. Enter the first level of enumeration in the field labeled *Level 1* -> Click *Add Level*.
+.. A common first level enumeration is volume, or "v.".
+. Enter the second level of enumeration in the field labeled *Level 2*.
+.. A common second level enumeration is number, or "no.".
+. Select if the second level of enumeration is a set Number, Varies, or is Undetermined.
+.. *Number* - Enter the number of bibliographic units per next higher level (e.g. 12 no. per v.). This conforms to $u in the 853, 854, and 855 MARC tags.
+.. Select the radio button for the enumeration scheme: *Restarts at unit completion* or *Increments continuously*. This conforms to $v in the 853, 854, and 855 MARC tags.
+. You can add up to six levels of enumeration.
+. Check the box adjacent to *Add alternative enumeration* if the publication uses an alternative enumeration.
+. Check the box adjacent to *First level enumeration changes during subscription year* to configure calendar changes if needed.
+.. A common calendar change is for the first level of enumeration to increment every January.
+.. Select when the Change occurs from the drop down menu: Start of the month, Specific date, or Start of season.
+.. Select the specific point in time at which the first level of enumeration should change.
+. Click *Next*
+
+.*Chronology display*
+
+
+
+
 .. Click *Next*
 . MFHD Indicators
 .. Click *Next*
