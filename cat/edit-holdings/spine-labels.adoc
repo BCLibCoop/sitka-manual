@@ -31,12 +31,20 @@ You may choose to print spine labels after cataloguing a batch of items. Scan th
 
 image::images/cat/spine-label-5.png[]
 
+Choose a template, if needed. Click *Print*.
+
+image::images/cat/spine-label-6.png[]
+
+You may also print labels from *Copy Bucket*.
+
+image::images/cat/spine-label-7.png[]
+
 
 [[sheet_label]]
 Label Sheet
 ^^^^^^^^^^^
 
-If your printer uses a sheet paper, please follow the procedure below.
+If your printer uses sheet labels, you may prepare a template in a text editor. On the above Label Preview screen, copy over labels from Evergreen to your template to print them.
 
 
 Configuring Label Template
