@@ -84,7 +84,7 @@ Delete a Prediction Pattern Template
 . Click the check box beside the template you want to delete.
 . Click *Actions* -> Choose _Delete Template_.
 
-NOTE:
+NOTE: Prediction Pattern Templates that are being used by subscriptions cannot be deleted.
 
 
 Serials Specific Settings in the Library Settings Editor
@@ -96,7 +96,7 @@ The following settings should be configured in the Library Settings Editor befor
 
 |======================
 |Group|Setting|Description|Options|Notes
-|Serials|Default display grouping for serials distributions presented in the OPAC| | "enum" or "chron" | *enum* is recommended
+|Serials|Default display grouping for serials distributions presented in the OPAC| | "enum" or "chron" | *enum* should display in the OPAC volume and number by month and year / *chron* will display in the OPAC by month  .
 |Serials|Previous Issuance Copy Location|When a serial issuance is received, copies (units) of the previous issuance will be automatically moved into the configured shelving location|   | use this setting to specify a default copy location for serials
 |OPAC| Use fully compressed serials holdings |    | "true" or "false" | *true* is recommended
 |======================

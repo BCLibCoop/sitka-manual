@@ -10,6 +10,8 @@ To access the Serials Module, go to a serials record in the catalog, and click o
 . Create and manage issues
 . Create and manage MFHDs
 
+image:images/serials/subscription1.png[scaledwidth="75%"]
+
 Create and Manage Subscriptions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -41,6 +43,8 @@ From the Manage Predictions tab you can create a new prediction pattern from scr
 
 Predict Issues Using a New Prediction Pattern
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. See xref:pattern-wizard[] for detailed steps.
 
 
 Predict Issues Using a Prediction Pattern Template
