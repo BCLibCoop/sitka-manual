@@ -60,8 +60,6 @@ These are a few notes about possible exceptions. It is not an all-inclusive list
 * If you check out a book to a patron using a previous barcode for that patron, it will cause an exception and you will have to retrieve that patron while online and re-enter the item barcode in order to checkout the item.
 * The Offline Interface can recognize blocked, barred, and expired patrons if you have downloaded the Offline Block List in the browser you are using.  You will get an error message indicating the patron status from within the Standalone Interface at check-out time.  See the section on the <<_offline_block_list,Offline Block List>> for more information.
 
-image::media/offline_exceptions.png[Offline exception list]
-
 At the right side of each exception are buttons for *Item*, *Patron*, and *Debug*. Clicking the *Item* button will retrieve the associated item in a new browser window.  Clicking on the *Patron* button will retrieve the associated patron in a new browser window.  Clicking the *Debug* button will result in a modal with detailed debugging information.
 
 Common event names in the Exceptions List include:
