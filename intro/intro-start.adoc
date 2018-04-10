@@ -4,11 +4,47 @@ Getting Started
 Accessing the Evergreen Staff Client
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+The default URL to log into the client is
+
 Register Staff Workstation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Before logging into Evergreen, you must first register a workstation from your browser.
+
+. Navigate to the web client log in page.
+. When you login for the first time, you will arrive at a screen asking that you register your workstation.
+. Choose your library short code from the drop down menu.
+. Enter a unique workstation name.
+. Click *Register*
+. After confirming the new workstation is listed in the Workstations Registered With This Browser menu, click *Use Now* to return to the login page.
+. Your newly-registered workstation should be selected by default on the login page.
+
+NOTE: Local System Administrator permissions are required to register a new workstation.
+
 Logging into Evergreen
+^^^^^^^^^^^^^^^^^^^^^^
+
+. The default URL to log into the client is
+. Enter your Username and Password.
+. Verify that the correct workstation is selected and click *Sign In*.
+
+Logging Out of Evergreen
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Click *Menu* -> Click *Log Out*
+
+CAUTION: Exiting all browser windows will automatically log you out of the web client. If you only close the tab where the web client is loaded, you will remain logged in.
+
+Set Search preferences
 ~~~~~~~~~~~~~~~~~~~~~~
+
+. Go to *Administration* -> *Workstation*.
+. Use the dropdown menu to select an appropriate Default Search Library.
+.. The default search library setting determines what library is searched from the advanced search screen and portal page by default. You can override this setting when you are actually searching by selecting a different library. One recommendation is to set the search library to the highest point you would normally want to search.
+. Use the dropdown menu to select an appropriate Preferred Library.
+.. The preferred library is used to show copies and electronic resource URIs regardless of the library searched. One recommendation is to set this to your home library so that local copies show up first in search results.
+. Use the dropdown menu to select an appropriate Advanced Search Default Pane.
+.. Advanced search has secondary panes for Numeric and MARC Expert searching. You can change which one is loaded by default when opening a new catalog window here.
 
 Best Practices for Using the Browser
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -79,7 +115,6 @@ From many screens and lists, you can click on the column picker drop-down menu t
 . Use the sort options to prioritize how sorting should work. (A negative number will sort the column in reverse order.)
 . Click 'Save columns.'
 
-
 [[download-hatch]]
 Downloading and Installing Hatch
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -105,14 +140,13 @@ Enable Hatch in Evergreen
 
 . Log out. Preferences will now be stored in Hatch. This will enable you to clear your browser settings and not lose your staff preferences .
 
-
-
-
-
-
-
 Change Operator
 ~~~~~~~~~~~~~~~
 
-Navigation
-~~~~~~~~~~
+. Click *Menu* -> Click *Change Operator*
+. Enter the Username and Password.
+. Choose Login Type from the drop down menu.
+.. *Temporary* -
+.. *Staff* - 
+.. *Persistent* -
+. Click *Ok/Continue*
