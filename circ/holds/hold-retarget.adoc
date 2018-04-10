@@ -1,17 +1,14 @@
 Re-targeting Holds
 ~~~~~~~~~~~~~~~~~~
 
-For an item on the Holds Pull List but not found on the shelves or the item is not in proper condition for circulation, staff may mark it missing or damaged and find another item for the hold, if it is not the only copy.
+Newly created items, or items whose status was just changed from a non-holdable to a holdable status, may not trigger holds on regular check-in because these copies are not yet identified as hold targets due to their status. The holds targeter will eventually target such holds overnight, or you can re-target them immediately. Re-targeting a hold means Evergreen searches for an available copy for the hold right away, and puts it on the *Holds Pull List* if found. If there is no available copy, the hold's status will be set to *Wait for copy*.
 
-Finding another target for holds, or retargeting the holds, can be done at several places:
+You can re-target local holds at check-in by use of *Checkin Modifiers*, or you can manually re-target holds from title, patron, or hold record as follows.
 
-View Holds in title record: selecting Actions for this Record > View Holds
 
-Holds in patron record
+. Select the hold from any hold management screen and click *Actions -> Find Another Target*.
 
-Holds Pull List
+image:images/circ/retarget1.png[scaledwidth="75%"]
 
-You need to select the hold and click Actions for Selected Holds → Find Another Target. Evergreen immediately searches for an available copy for the hold and puts it on the Holds Pull List. If there is no available copy, the hold's status will be set to "Wait for copy".
 
-Newly created items, or items of which the status was just changed from a non-holdable to a holdable status, such as from Missing to Reshelving, may not trigger holds on regular checkin, because these copies were not identified as potential hold targets due to their status. Using the checkin modifiers Retarget Local Holds and Retarget All Statuses will force Evergreen to check whether there is pending hold on the item picked up at the checkin library. These checkin modifiers are sticky, and Co-op support recommends they be turned on unless your library is part of a multi-branch library system. In such cases, staff may re-target the hold on top of the holds queue on the Catalogue > View Holds screen.
-
+TIP:  Co-op Support recommends multi-branch libraries use *Find Another Target*, as described above, in order to re-target all holds in the system. For single branch libraries, Co-op Support recommends the check-in modifiers *Retarget Local Holds* and *Retarget All Statuses* be enabled. These check-in modifiers are sticky.
