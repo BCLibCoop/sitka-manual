@@ -47,7 +47,39 @@ Label Sheet
 If your printer uses sheet labels, you may prepare a template in a text editor. On the above Label Preview screen, copy over labels from Evergreen to your template to print them.
 
 
-Configuring Label Template
+Configuring Label Printing
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You may configure label prining on *Print Items Label*. There are four tabs on this screen.
+
+*Call Number Template* shows the template used to extract information for the spine label. The default includes call number prefix, copy location prefix, call number label, call number suffix and copy location suffix. 
+
+*Call Numbers* shows the spine label generated for the item based on the template. For indiviudal spine labels you may edit them temporarily for the current printing only. 
+
+image::images/cat/spine-label-8.png[]
+
+*Settings* is the place where you set up the format of the printing and the label. Settings here will override the group of settings under Item Print Label on Library Settings Editor. 
+
+*Label Template* includes the script used to do the printing. The top portion is the explanation. The code for printing starts from <table ....
+
+image::images/cat/spine-label-9.png[]
+
+The default template prints both spine label and pocket label. To print spine label only, you need to delete the portion for printing pocket label. 
+
+image::images/cat/spine-label-10.png[]
+
+TIP: If you need to adjust the content, you may follow the instruction above the printing code. 
+
+CAUTION: Changes made on all tab will be automatically saved when you leave the tab. To revert everything back to the default, you may click the *Default* on the top template bar.  
+
+*Label Template*
+
+You may save your adjustment on label printing settings to a label template. For example if you usually print spine labels only, but sometimes print both spine and  pocket label, you may create two templates: one for spine label only, the other both labels. When priting the labels, you just need to choose the appropriate one from the list, then click *Apply*.
+
+To create a label template, make the necessary adjustment on any or all tabs. Once done, you may type in a name in the *Template* box, then click *Save*. 
+
+image::images/cat/spine-label-11.png[]
+
+TIP: Label template is linked to login account. To share templates you may export them, send them to your colleagues for them to import into their accounts.
 
 
