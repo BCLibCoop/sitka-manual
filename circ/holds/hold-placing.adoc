@@ -37,8 +37,6 @@ image:images/circ/placehold3.png[scaledwidth="75%"]
 +
 
 
-TIP: In step 2, checking the *Place this hold for me* radio button will set the staff account as the hold requester.
-
 Meta-record Level Hold
 ^^^^^^^^^^^^^^^^^^^^^^
 
@@ -48,7 +46,7 @@ Advanced Hold Options
 +++++++++++++++++++++
 
 . Click *Place Hold* to the right of the record on the search result list, or on the record summary screen.
-. Click *Advanced Holds Options* under the title.
+. Click *Advanced Hold Options* under the title.
 +
 image:images/circ/metahold1.png[scaledwidth="75%"]
 +
@@ -82,7 +80,7 @@ Volume and Copy Level Hold
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . To place a volume or copy level hold, retrieve and display the record.
-. Select record in holdings grid and click *Volume hold* or *Copy hold* in *HOLDABLE?* column.
+. Select record in holdings grid and click *Volume hold* or *Copy hold* in *Holdable?* column.
 +
 image:images/circ/volhold1.png[scaledwidth="75%"]
 +
