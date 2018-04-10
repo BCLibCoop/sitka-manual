@@ -11,7 +11,7 @@ New Web Staff Client (Web Client)
 All existing staff logins will work once a workstation is registered.
 
 * Hatch , available at xxxxxx, can be installed to print and to manage local settings. Use of Hatch is optional.
-.
+
 * The new web client looks and functions very similar to the old staff client. Menus,  and some workflows, are consistent with prior versions. There are  changes to cataloguing procedures, and changes to local preferences configuration, with modern browser functionality incorporated into all aspects of Evergreen.
 
 * The new web client is responsive to device and to screen size, and can look different on different devices.
@@ -33,3 +33,8 @@ Catalogue
 Library Settings
 ^^^^^^^^^^^^^^^^
 * Number of Retrievable Recent Patrons enables the Circulation menu choice, Retrieve X number of recent patron accounts
+
+Serials
+^^^^^^^
+* A more streamlined interface for managing serials.
+* It is no longer necessary to create a starting issue in order to predict a run of issues; the dialog box for generating a set of predicted issues now lets you specify the starting point directly.
