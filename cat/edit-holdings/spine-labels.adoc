@@ -1,11 +1,12 @@
-Spine Labels
-~~~~~~~~~~~~
+[[spine-label]]
+Spine/Pocket Labels
+~~~~~~~~~~~~~~~~~~~
 
 [[roll_label]]
 Single Label Roll
 ^^^^^^^^^^^^^^^^^
 
-If your printer uses a single label roll paper, please follow the procedure below.
+If your printer uses single label roll paper, please follow the below procedure.
 
 *Print Spine Label during Cataloguing*
 
@@ -68,9 +69,9 @@ The default template prints both spine label and pocket label. To print spine la
 
 image::images/cat/spine-label-10.png[]
 
-TIP: If you need to adjust the content, you may follow the instruction above the printing code. 
+TIP: If you need to adjust the pocket label content, you may follow the instruction above the printing code. 
 
-CAUTION: Changes made on all tab will be automatically saved when you leave the tab. To revert everything back to the default, you may click the *Default* on the top template bar.  
+CAUTION: Changes made on all tabs will be automatically saved when you leave the tab. To revert everything back to the default, you may click the *Default* on the top template bar.  
 
 *Label Template*
 
@@ -80,6 +81,6 @@ To create a label template, make the necessary adjustment on any or all tabs. On
 
 image::images/cat/spine-label-11.png[]
 
-TIP: Label template is linked to login account. To share templates you may export them, send them to your colleagues for them to import into their accounts.
+TIP: Label template is linked to login account. To share templates, you may export them, send them to your colleagues for them to import into their accounts.
 
 
