@@ -59,18 +59,18 @@ To ensure that staff can easily get to the web client portal page on login witho
 . Select Settings.
 . In the _On startup_ section, select Open a specific page or set of pages.
 . Click the Set Pages link.
-. Add _https://catalogue.libraries.coop/eg/staff/_ to the Enter URL box and click OK.
+. Add *https://catalogue.libraries.coop/eg/staff/* to the Enter URL box and click OK.
 
 [[allow-popups]]
 Allow Pop-ups
 ^^^^^^^^^^^^
-Your browser must allow pop-ups from _https://catalogue.libraries.coop_. You should see a small icon or message when a pop-up is triggered, but if you do not, you may follow these steps to ensure that Popups are allowed.
+Your browser must allow pop-ups from *https://catalogue.libraries.coop*. You should see a small icon or message when a pop-up is triggered, but if you do not, you may follow these steps to ensure that Popups are allowed.
 
 .Allow Pop-ups In Chrome
 . Click on the menu icon (three vertical dots in the upper-right corner).
 . Select Settings.
-. Scroll to the bottom and click Advanced.
-. Under “Privacy and Security” click “Content settings.”
+. Scroll to the bottom and click *Advanced*.
+. Under *Privacy and Security* click *Content settings*.
 . Click on pop-ups.
 . Click the Add button next to Allow.
 . Type in *https://catalogue.libraries.coop* and click Add.
