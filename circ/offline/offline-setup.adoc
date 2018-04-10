@@ -1,5 +1,5 @@
-Offline Module Set Up
-~~~~~~~~~~~~~~~~~~~~~
+Offline Circulation Administration
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Evergreen's Offline Circulation interface is designed to log transactions during network outage. Transactions can be uploaded and processed once network operations are restored.
 
@@ -8,25 +8,51 @@ New in 3.1 you can choose to save your offline transactions in the browser or to
 Save Offline Transactions in Chrome
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Default.
+Offline Circulation in the Web Staff Client relies on the use of web service workers to store information for offline use. The web service workers will refresh the cache every *24 hours* under normal use.  Offline Circulation information is stored via IndexedDB.
 
 CAUTION: Do not delete Browser cookies.
 
 Save Offline Transactions in Hatch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+If you have Hatch running on your workstation you can choose to save your Offline Transactions in xref::hatch[Hatch]
+
 . Log into Evergreen as LSA.
-
 . Click *Administration -> Workstation*.
-
 . Click *Print/Storage Service ('Hatch')*
-
 . Make sure that you see that Hatch is available. Click *Store Offline Transaction Data in Hatch*.
+. Log out.
+. Offline Transactions will now be stored in Hatch. This will enable you to delete your browser settings and not lose your Offline Transactions.
 
-. Log out. Offline Transactions will now be stored in Hatch. This will enable you to delete your browser cookies & settings and not lose your Offline Transactions.
-
-
-Offline Circulation
-~~~~~~~~~~~~~~~~~~~
+Offline Circulation Set up
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Click *Circulation* -> *Offline Circulation*
+
+Save Offline URL
+++++++++++++++++
+
+The permanent link for the Offline Circulation is *https://catalogue.libraries.coop/eg/staff/offline-interface*  and it is recommended that this link be bookmarked on staff workstations.  This is the location for both entering transactions while offline as well as processing them later.  You will see a slightly different version of this interface depending on whether or not you are logged in.
+
+If you are logged out, you will see the tab default to *Checkout* and the button on the top-right will read *Export Transactions*.
+
+If you are logged in, you will see an additional tab on the left for *Session Management* and this will be the default tab.  The top-right button will read *Download Block List*.
+
+If you are logged in and attempt to click on any tab other than *Session Management*, you will see a warning alerting you that you are about to enter offline mode.
+
+This warning is not network-aware and it will appear regardless of network connection state.  You must be logged out to record offline transactions.  If you see this warning and wish to record offline transactions, click *Proceed* in order to log out.
+
+Prior to using *Offline Circulation* you must have access to your production server and register your workstation on the computer and in the browser you intend to use.
+You must also log in from that browser at least once and visit *Search -> Search for Patrons*.  Perform a search, select a user from the results, and open the *Patron Edit* interface.  This will allow the Offline interface to collect the information it needs, such as workstation information and the patron registration form.
+
+Set Offline Printer
++++++++++++++++++++
+
+Download Offline Block List
++++++++++++++++++++++++++++
+
+While logged in and still online, you may download an *Offline Block List*.  This will locally store a list of all patrons with blocks at the time of the download.  If this list is present, the Offline Circulation interface will check transactions against this list.
+
+To download the block list, navigate to *Circulation -> Offline Circulation* and click the *Download Block List* button in the top-right of the screen.
+
+If you attempt a checkout or a renewal for a patron on the block list, you will get a modal informing you that the patron has penalties.  Click the *Allow* button to override this and proceed with the transaction.  Click the *Reject* button to cancel the checkout or renewal.
