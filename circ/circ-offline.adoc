@@ -1,6 +1,8 @@
 Offline Circulation
 -------------------
 
+include::offline/offline-intro.adoc[]
+
 include::offline/offline-setup.adoc[]
 
 include::offline/offline-checkout.adoc[]

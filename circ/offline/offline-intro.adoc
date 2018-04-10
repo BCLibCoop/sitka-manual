@@ -1,0 +1,25 @@
+Offline Circulation
+~~~~~~~~~~~~~~~~~~~
+
+Evergreen's Offline Circulation interface is designed to log transactions during network outage. Transactions can be uploaded and processed once network operations are restored.
+
+New in 3.1 you can choose to save your offline transactions in the browser or to store Offline transactions in Hatch.
+
+Save Offline Transactions in Chrome
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Offline Circulation in the Web Staff Client relies on the use of web service workers to store information for offline use. The web service workers will refresh the cache every *24 hours* under normal use.  Offline Circulation information is stored via IndexedDB.
+
+CAUTION: Do not delete Browser cookies.
+
+Save Offline Transactions in Hatch
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you have Hatch running on your workstation you can choose to save your Offline Transactions in xref::download-hatch[Hatch]
+
+. Log into Evergreen as LSA.
+. Click *Administration -> Workstation*.
+. Click *Print/Storage Service ('Hatch')*
+. Make sure that you see that Hatch is available. Click *Store Offline Transaction Data in Hatch*.
+. Log out.
+. Offline Transactions will now be stored in Hatch. This will enable you to delete your browser settings and not lose your Offline Transactions.

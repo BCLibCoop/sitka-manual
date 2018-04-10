@@ -1,36 +1,10 @@
-Offline  Administration
-~~~~~~~~~~~~~~~~~~~~~~~
-
-Evergreen's Offline Circulation interface is designed to log transactions during network outage. Transactions can be uploaded and processed once network operations are restored.
-
-New in 3.1 you can choose to save your offline transactions in the browser or to store Offline transactions in Hatch.
-
-Save Offline Transactions in Chrome
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Offline Circulation in the Web Staff Client relies on the use of web service workers to store information for offline use. The web service workers will refresh the cache every *24 hours* under normal use.  Offline Circulation information is stored via IndexedDB.
-
-CAUTION: Do not delete Browser cookies.
-
-Save Offline Transactions in Hatch
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-If you have Hatch running on your workstation you can choose to save your Offline Transactions in xref::download-hatch[Hatch]
-
-. Log into Evergreen as LSA.
-. Click *Administration -> Workstation*.
-. Click *Print/Storage Service ('Hatch')*
-. Make sure that you see that Hatch is available. Click *Store Offline Transaction Data in Hatch*.
-. Log out.
-. Offline Transactions will now be stored in Hatch. This will enable you to delete your browser settings and not lose your Offline Transactions.
-
-Offline Circulation Set up
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+Offline Workstation Set up
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Prior to using *Offline Circulation* you must have access to your production server and register your workstation on the computer and in the browser you intend to use. The following should be completed on each workstation you intend to use for *Offline Circulation*.
 
 Save Patron Registration Form
-+++++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Click *Circulation* -> *Offline Circulation*
 . *Search* -> *Search for Patrons*.
@@ -38,7 +12,7 @@ Save Patron Registration Form
 .. This will allow the Offline interface to collect the information it needs, such as workstation information and the patron registration form.
 
 Save Offline URL
-++++++++++++++++
+^^^^^^^^^^^^^^^^
 
 The permanent link for the Offline Circulation is *https://catalogue.libraries.coop/eg/staff/offline-interface*  and it is recommended that this link be bookmarked on staff workstations.  This is the location for both entering transactions while offline as well as processing them later.  You will see a slightly different version of this interface depending on whether or not you are logged in.
 
@@ -51,16 +25,20 @@ If you are logged in and attempt to click on any tab other than *Session Managem
 This warning is not network-aware and it will appear regardless of network connection state.  You must be logged out to record offline transactions.  If you see this warning and wish to record offline transactions, click *Proceed* in order to log out.
 
 Set Offline Printer
-+++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^
 
-Printing using chrome
+Print using chrome
+++++++++++++++++++
 
-Printing using Hatch
+Browser print options - no additional setup
+
+Print using Hatch
++++++++++++++++++
 
 
 
 Download Offline Block List
-+++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 While logged in and still online, you may download an *Offline Block List*.  This will locally store a list of all patrons with blocks at the time of the download.  If this list is present, the *Offline Circulation* interface will check transactions against this list.
 
