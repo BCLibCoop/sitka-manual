@@ -1,2 +1,60 @@
 Sitka's Evergreen Support
 -------------------------
+
+The Co-op Support team strives to respond to new requests within 24 hours, excluding weekends. To manage requests (also referred to as tickets) the Support team uses ticket tracking software called Request Tracker (RT).
+
+How to Contact Support
+~~~~~~~~~~~~~~~~~~~~~~
+
+There are four ways to contact Co-op Support for Evergreen support:
+
+. *Request Tracker Interface*. Submit and track requests with RT Self Service. After logging in you may use the form to create new tickets, track the progress of open tickets, or review issues that have been resolved.
+. *Email*. Send questions to the support email address. Requests submitted by email generate RT tickets and can also be viewed online by logging in to RT Self Service.
+. *Online Contact Form*. Send questions to Co-op Support through the contact form on the BC Libraries Cooperative website. Requests submitted through the contact form generate RT tickets and can also be viewed online by logging in to RT Self Service.
+. *Phone*. Telephone support is available *9:00 AM to 4:00 PM Pacific Time, Monday to Friday*, with *emergency after hours support 7 days a week*. Call our toll free number during regular hours to speak with support staff, or after hours to leave a message or request emergency server support. To protect our staff we do not accept anonymous calls so please ensure your caller ID is not blocked.
+
+The Co-op Support toll free number and email address can be found on the Sitka Support page. This information is also given to libraries during migration.
+
+You can check on the status of Co-op supported services at: http://status.libraries.coop/
+
+Guidelines for Support Requests
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Thorough and consistent reporting makes it easier for Co-op Support to respond to your requests.
+
+* Report problems as they occur. Prompt reporting may help us catch a problem before it affects other patrons, respond quickly to issues that impact multiple libraries, or save you time if there is an easy solution. Please report issues as soon as is convenient.
+
+* One issue per request. Please submit one issue at a time. Emails generate tickets in RT which are assigned to support team members. Reporting each question separately helps us assign, classify, and prioritize tickets more efficiently.
+
+* Contact information. We strive to offer friendly, personalized service. Please include your name and use an email address where we can reach you directly.
+
+* Descriptive subject. To make tickets easier to identify in RT please provide as descriptive a subject as possible.
+** Example of a descriptive subject line: Circ+Full Cat login unable to edit item record
+** Example of a non-descriptive subject line: Editing question
+
+* What, where, when, how? Be specific about what you were doing in Evergreen, what results you obtained versus what you expected, and the steps required to reproduce the problem. If you cannot reproduce the problem exactly please describe the circumstances in which it occurred and the symptoms observed, including relevant patron and item barcodes.
+
+* Include error messages. If the problem caused any OPAC or staff client error messages please copy and paste error text or attach screenshots when possible. See the section called “Submitting Images to Support” for guidelines.
+
+* Include example barcods and IDs. A problem in circulation? Make sure you include the patron and/or item barcodes that were in use when the problem occurred. Cataloguing issues? Make sure you include the item barcode and/or the record ISBN/ISSN or record ID where the problem occured.
+
+* Trouble-shooting. Spare yourself a boring or obvious email from the Support Team: tell us what steps you have already taken to try and resolve the problem.
+
+Submitting Images to Support
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+When submitting images to Co-op Support please follow the guidelines below:
+
+* Save as a .jpg or .png.
+** The best file formats in which to save screenshots are .png and .jpg. These files are easily accessed by Sitka Support and are unlikely to contain viruses.
+* Do not submit .doc or .docx unless absolutely necessary.
+** Files saved as .doc or.docx require additional software to open them and have a higher potential for carrying viruses.
+
+RT Self Service
+~~~~~~~~~~~~~~~
+Each library has a single account with which to access RT. Under this account staff are able to see all the tickets associated with their library. Not sure what the username and password are for your library's account? Contact Co-op Support to find out.
+
+Accessing RT Self Service
+^^^^^^^^^^^^^^^^^^^^^^^^^
+Through the RT website https://support. libraries.coop/rt/
+
+The Self Service home page displays current tickets submitted by email or in RT. To re-open a closed ticket simply add a new reply. This will change the status to open and alert Co-op Support that more attention is required.
