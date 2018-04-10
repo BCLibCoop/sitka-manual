@@ -1,6 +1,8 @@
 Check In
 ~~~~~~~~
 
+Sitka Support strongly recommends that you do not use *Offline Circulation* for Check In.
+
 To Check In items in Offline Circulation:
 
 . Click the *Checkin* tab.
@@ -9,6 +11,9 @@ To Check In items in Offline Circulation:
 . To print a receipt, check the box labelled *Print Receipt*.
 . Click *Save Transactions* in the upper-right of the screen when you are finished entering checkins.
 
-NOTE: Existing pre-cataloged items can be checked in through the Offline interface, but they will generate an entry in the Exceptions list when offline transactions are uploaded and processed.
+[NOTE]
+=============
+* Existing pre-cataloged items can be checked in through the Offline interface, but they will generate an entry in the Exceptions list when offline transactions are uploaded and processed.
 
-Items targeted for holds will be captured for their holds when the offline transactions are uploaded and processed; however, there will be no indication in the Exceptions list about this unless the item is also transiting.
+* Items targeted for holds will be captured for their holds when the offline transactions are uploaded and processed; however, there will be no indication in the Exceptions list about this unless the item is also transiting.
+=============
