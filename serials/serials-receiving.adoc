@@ -24,8 +24,8 @@ NOTE: The Copy Location and Circulation Modifier will be pre-populated from the 
 
 . Uncheck the box adjacent to Barcode Items and click Save. The Holdings Summary in the Issues Held tab in the catalog will reflect the newly received issue.
 
-Receiving from the Manage Issues tab
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Receive from the Manage Issues tab
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The *Manage Issues* tab can be used to receive the next expected issue and to receive multiple expected issues.
 
@@ -54,8 +54,8 @@ Receive Next Issue (no barcode)
 . A Receive items dialog box will appear with the message "Will receive # item(s) without barcoding."
 . Click *OK/Continue* to receive the issue. The Status of the issue will update to "Received" and a Date Received will be recorded. The Holdings Summary in the Issues Held tab in the catalog will reflect the newly received issue.
 
-Batch Receiving
-~~~~~~~~~~~~~~~
+Batch Receive
+~~~~~~~~~~~~~
 
 Multiple issues can be received at the same time using the Manage Issues tab.
 
