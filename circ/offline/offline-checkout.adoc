@@ -1,5 +1,8 @@
+Offline Transactions
+~~~~~~~~~~~~~~~~~~~~
+
 Check Out
-~~~~~~~~~
+^^^^^^^^^
 
 To check out items in Offline Circulation:
 
@@ -22,3 +25,61 @@ To check out items in Offline Circulation:
 
 * Pre-cataloged item checkout is not available in Offline Circulation.  Any pre-cataloged item checked out through Offline Circulation will result in an entry in the Exception List and will not successfully check out.
 ==================
+
+Renew
+^^^^^
+
+To renew an item, you must know the item's barcode number. The patron's barcode is optional.
+
+To renew items in Offline Circulation:
+
+. Click the *Renew* tab.
+. Ensure that the *Due Date* value is correct.
+. _(Optional)_: Enter the patron's library card barcode in the *Patron Barcode* field by scanning or typing the barcode.
+. For each item to be renewed, scan the item's barcode in the *Item Barcode* field. If you are typing the item barcode, click the *Renew* button or hit the *Enter* key on your keyboard after each item barcode.
+. The item barcode, due date, and patron barcode (if entered) appear on the right side of the screen.
+. To print a receipt, check the box labelled *Print Receipt*.
+. Click *Save Transactions* in the upper-right of the screen to complete the renewal.
+
+In House Use
+^^^^^^^^^^^^
+
+To record in-house use transactions in *Offline Circulation*:
+
+. Click the *In-House Use* tab.
+. Enter the number of uses to record for the item in the *Use Count* field.
+. For each item to be recorded as in-house use, scan the item's barcode in the *Item Barcode* field. If you are typing the item barcode, click the *Record Use* button or hit the *Enter* key on your keyboard after each item barcode.
+. The item barcode and use count will appear on the right side of the screen.
+. To print a receipt, check the box labelled *Print Receipt*.
+. Click *Save Transactions* in the upper-right of the screen to record the in-house use.  The date of the in-house use is automatically recorded.
+
+Check In
+^^^^^^^^
+
+Sitka Support strongly recommends that you do not use *Offline Circulation* for Check In.
+
+To Check In items in Offline Circulation:
+
+. Click the *Checkin* tab.
+. Ensure that the *Due Date* value is correct.  It will default to today's date.
+. For each item to be checked in, scan the item's barcode in the *Item Barcode* field. If you are typing the item barcode, click the *Checkin* button or hit the *Enter* key on your keyboard after each item barcode.
+. To print a receipt, check the box labelled *Print Receipt*.
+. Click *Save Transactions* in the upper-right of the screen when you are finished entering checkins.
+
+[NOTE]
+=============
+* Existing pre-cataloged items can be checked in through the Offline interface, but they will generate an entry in the Exceptions list when offline transactions are uploaded and processed.
+
+* Items targeted for holds will be captured for their holds when the offline transactions are uploaded and processed; however, there will be no indication in the Exceptions list about this unless the item is also transiting.
+=============
+
+Patron Registration
+^^^^^^^^^^^^^^^^^^^
+
+Evergreen's Offline Circulation Patron registration is not able to check the database for duplicate patrons. For this reason we recommend that you do not use patron registration while offline.
+
+Patron registration in Evergreen Offline Circulation records patron information for later upload.  In the web staff client, the Patron Registration form in Offline is the same as the regular Patron Registration interface.
+
+All fields in the normal Patron Registration interface are available for entry.  Required fields are marked in yellow and adhere to Required Fields set in the *Library Settings Editor*.  Patron Registration defaults also adhere to settings in the *Library Settings Editor*.  Stat cats are not recognized by the Offline Interface, even if they are required.
+
+Enter patron information and click the *Save* button in the top-right of the Patron Registration interface.  You may checkout items to this patron right away, even if you are still in offline mode.

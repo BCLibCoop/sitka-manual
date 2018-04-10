@@ -1,5 +1,5 @@
-Offline Circulation Administration
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Offline  Administration
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Evergreen's Offline Circulation interface is designed to log transactions during network outage. Transactions can be uploaded and processed once network operations are restored.
 
@@ -52,6 +52,12 @@ This warning is not network-aware and it will appear regardless of network conne
 
 Set Offline Printer
 +++++++++++++++++++
+
+Printing using chrome
+
+Printing using Hatch
+
+
 
 Download Offline Block List
 +++++++++++++++++++++++++++
