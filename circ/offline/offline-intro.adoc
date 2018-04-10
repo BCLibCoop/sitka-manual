@@ -14,6 +14,7 @@ Chrome is simple to use and manage. Offline Circulation in the Web Staff Client 
 =============
 * Do not delete Browser cookies if you have pending offline transactions.
 * Offline transactions must be uploaded as soon as possible as they will be cleared every *24 hours*
+=============
 
 Save Offline Transactions in Hatch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
