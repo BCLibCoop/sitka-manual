@@ -1,5 +1,8 @@
-Uploading Offline Transactions
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Upload Offline Transactions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Upload Offline Transactions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Once connectivity is restored, navigate back to your *Evergreen Login Page*.  You will see a message telling you that there are unprocessed Offline Transactions waiting for upload.
 
@@ -18,8 +21,8 @@ If you are processing transactions right away and from the same browser you reco
 . Click *Process* to process the offline transactions.  Click *Refresh* to see the processing progress.  Once all transactions are processed the *Date Completed* column will be updated.
 . Scroll to the bottom of the screen to see if there are any entries in the <<_exceptions,*Exception List*>>.  Some of these may require staff follow up.
 
-Exporting Offline Transactions
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Export Offline Transactions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you anticipate a multi-day closing or if you plan to process your offline transactions at a different workstation, you will want to export your offline transactions.
 
@@ -27,9 +30,8 @@ To export transactions while you are offline, navigate to *Circulation -> Offlin
 
 To export transactions while you are logged in, navigate to *Circulation -> Offline Circulation* and click on the *Session Management* tab.  Click on the *Export Transactions* button to generate the pending.xacts file as above.  If you wish, you can at this point click *Clear Transactions* to clear the list of pending transactions.
 
-
-Uploading Previously Exported Transactions
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Upload Previously Exported Transactions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you had previous exported your offline transactions you can upload them for processing.
 
