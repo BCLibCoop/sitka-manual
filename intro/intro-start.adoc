@@ -80,10 +80,9 @@ From many screens and lists, you can click on the column picker drop-down menu t
 . Click 'Save columns.'
 
 
-
+[[download-hatch]]
 Downloading and Installing Hatch
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 . Install Java Runtime Environment (JRE).
 Windows only requires a JRE to run Hatch, not a full JDK. Download and install JRE version 1.8 or higher from https://www.java.com[java].
