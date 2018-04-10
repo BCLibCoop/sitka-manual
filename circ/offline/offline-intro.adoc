@@ -1,5 +1,5 @@
-Offline Circulation
-~~~~~~~~~~~~~~~~~~~
+Introduction
+~~~~~~~~~~~~
 
 Evergreen's Offline Circulation interface is designed to log transactions during network outage. Transactions can be uploaded and processed once network operations are restored.
 
