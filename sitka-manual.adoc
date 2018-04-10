@@ -59,19 +59,23 @@ include::cat/cat-record-bucket.adoc[Record Bucket]
 
 Public Catalogue
 ================
-include::opac/opac-search.adoc[Searching the Public Catalogue]
+include::opac/opac-search.adoc[]
 
-include::opac/opac-myaccount.adoc[My Account]
+include::opac/opac-myaccount.adoc[]
 
-include::opac/opac-integrated-eresource.adoc[Integrated Electronic Resources]
+include::opac/opac-integrated-eresource.adoc[]
+
+Reports
+=======
+include::reports/reports-permissions.adoc[]
 
 Serials
 =======
-include::serials/serials-administration.adoc[Serials Administration]
+include::serials/serials-administration.adoc[]
 
-include::serials/serials-subscription.adoc[Serials Subscription]
+include::serials/serials-subscription.adoc[]
 
-include::serials/serials-receiving.adoc[Serials Receiving]
+include::serials/serials-receiving.adoc[S]
 
 include::serials/serials-specialissues.adoc[]
 
@@ -79,15 +83,13 @@ include::serials/serials-routing.adoc[]
 
 include::serials/serials-binding.adoc[]
 
-Reports
-=======
-include::reports/reports-permissions.adoc[]
-
 Administration
 ==============
 include::admin/admin-workstationadmin.adoc[]
 
 include::admin/admin-localadmin.adoc[]
+
+include::admin/admin-serveradmin.adoc[]
 
 [appendix]
 Licensing
