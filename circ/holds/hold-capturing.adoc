@@ -1,18 +1,15 @@
 Capturing Holds
 ~~~~~~~~~~~~~~~
 
-Holds can be captured when a checked-out item is returned (checked in) or an item on the Holds Pull List is retrieved and captured. When a hold is captured, the hold slip will be printed and if the patron has chosen to be notified by email, the email notification will be sent out. The item should be put on the hold shelf.
+Holds are captured when a checked-out item is checked-in, or an item on the *Holds Pull List* is retrieved and captured. When a hold is captured, the hold slip will be printed, unless disabled, and if the patron has chosen to be notified by email, the email notification will be sent out.
 
-To capture a hold, Select Circulation → Capture Holds.
+. Select *Circulation → Capture Holds* or *Circulation → Check In*.
+. Scan or enter barcode and click *Submit*.
+. Patron contact information and any routing information for the hold is captured.
+. The hold or hold transit slip is automatically printed on *Hold Capture* screen by default.
+. On *Check In* screen, select *Checkin Modifiers → Auto-Print Hold and Transit Slips* to print hold slips automatically.
 
-Scan or type barcode and click Submit.
 
-The following hold slip is automatically printed.
+TIP: Patron contact information on the slip may differ from what is in their patron account record. Patrons have the option to enter different information when placing a hold, and Evergreen will print information from the hold record, rather than from the patron record.
 
-If the item should be sent to another location, a hold transit slip will be printed.
-
-If your library chooses to keep on-hold items behind the desk for some patrons (Hold is behind Circ Desk checkbox is selected in the patron record), you will be prompted to route the item to Private Hold Shelf. See Chapter 49, Local Administration Menu for how to set up Behind Desk Pickup.
-
-If a patron has a OPAC/Staff Client Holds Alias in his/her account, it will be used on the hold slip instead of the patron name.
-
-Holds can also be captured on the Circulation → Check In Items screen. If you have selected the Auto-Print Hold and Transit Slips checkbox, the hold slip will be printed automatically without confirmation prompt.
+.
