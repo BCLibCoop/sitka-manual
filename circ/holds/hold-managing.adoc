@@ -9,17 +9,17 @@ Holds can be cancelled at any time by staff or patrons. Before holds are capture
 Hold Statuses
 ^^^^^^^^^^^^^
 
-There are five types of status a hold may have: Waiting for Copy, Waiting for Capture, In Transit, Ready for Pickup (On Holds Shelf), and the optional Reserved/Pending. If your library chooses to delay hold shelf status, then a hold may have the status of Reserved/Pending.
+There are five types of status a hold may have: *Waiting for Copy*, *Waiting for Capture*, *In Transit*, *Ready for Pickup*, and the optional *Reserved/Pending*. If your library chooses to delay hold shelf status, then a hold may have the status of *Reserved/Pending*.
 
-. *Waiting-for-copy*: all holdable copies are checked out or not available.
+* Waiting-for-copy: all holdable copies are checked out or not available.
 
-. *Waiting-for-capture*: an available copy is assigned to the hold. The item shows up on the Holds Pull List waiting for staff to search the shelf and capture the hold.
+* Waiting-for-capture: an available copy is assigned to the hold. The item is on the *Holds Pull List*, waiting for staff to search the shelf and capture the hold.
 
-. *In Transit*: hold is captured at a non-pickup library and on the way to the pick-up location.
+* In Transit: hold is captured at a non-pickup library and on the way to the pick-up location.
 
-. *Ready-for-pick-up* : hold is captured and on the Hold Shelf waiting for patrons to pick up. In the catalogue, this status displays as *On Holds Shelf*.
+* Ready for Pickup: hold is captured and on the *Holds Shelf* for patron to pick up. In the catalogue, this status displays as *On Holds Shelf*.
 
-. *Reserved/Pending*: hold is captured, item is in process and yet to be put on the Hold Shelf. The status will be automatically changed to *Ready-for-pick-up* once the delay period specified in Library Settings Editor expires.
+* Reserved/Pending: hold is captured, item is in process, and yet to be put on the *Holds Shelf*. The status will be automatically changed to *Ready for Pickup* once the delay period specified in Library Settings Editor expires.
 
 
 
@@ -42,11 +42,11 @@ image:images/circ/manageholds2.png[scaledwidth="75%"]
 +
 . If item was on holds shelf, check it in to change its status.
 
-TIP: A captured hold with a status of "On Hold Shelf" or "Ready for Pickup" can be cancelled by staff or patrons. The item must be checked in to update its status.
+TIP: A captured hold with a status of *On Holds Shelf* or *Ready for Pickup* can be cancelled by staff or patrons. The item must be checked in to update its status.
 
 Suspend, Activate, and Modify Holds Dates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-. To suspend or activate a hold, click the appropriate action on the list.
+. To suspend or activate a hold, click *Actions* and make your choice.
 . To edit dates, click *Edit Hold Dates*.
 +
 image:images/circ/manageholds3.png[scaledwidth="75%"]
