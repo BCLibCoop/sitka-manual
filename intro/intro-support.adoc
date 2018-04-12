@@ -54,10 +54,11 @@ When submitting images to Co-op Support please follow the guidelines below:
 
 RT Self Service
 ~~~~~~~~~~~~~~~
-Each library has a single account with which to access RT. Under this account staff are able to see all the tickets associated with their library. Not sure what the username and password are for your library's account? Contact Co-op Support to find out.
+Each library has one account to access RT. Under this account staff are able to see all the tickets associated with their library. Not sure what the username and password is for your library's account? Contact Co-op Support to find out.
 
-Accessing RT Self Service
-^^^^^^^^^^^^^^^^^^^^^^^^^
-Through the RT website https://support. libraries.coop/rt/
+Access RT Self Service
+^^^^^^^^^^^^^^^^^^^^^^
+
+Through the RT website https://support.libraries.coop/rt/
 
 The Self Service home page displays current tickets submitted by email or in RT. To re-open a closed ticket simply add a new reply. This will change the status to open and alert Co-op Support that more attention is required.

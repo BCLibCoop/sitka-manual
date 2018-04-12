@@ -4,7 +4,7 @@ Getting Started
 Accessing the Evergreen Staff Client
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The default URL to log into the client is
+The default URL to log into the client is *https://catalogue.libraries.coop/eg/staff/*
 
 Register Staff Workstation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -24,7 +24,7 @@ NOTE: Local System Administrator permissions are required to register a new work
 Logging into Evergreen
 ^^^^^^^^^^^^^^^^^^^^^^
 
-. The default URL to log into the client is
+. The default URL to log into the client is *https://catalogue.libraries.coop/eg/staff/*
 . Enter your Username and Password.
 . Verify that the correct workstation is selected and click *Sign In*.
 
