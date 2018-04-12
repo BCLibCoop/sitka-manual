@@ -85,9 +85,13 @@ include::reports/reports-permissions.adoc[]
 
 Administration
 ==============
+include::admin/admin-overview.adoc[]
+
 include::admin/admin-workstationadmin.adoc[]
 
 include::admin/admin-localadmin.adoc[]
+
+include::admin/admin-serveradmin.adoc[]
 
 [appendix]
 Licensing

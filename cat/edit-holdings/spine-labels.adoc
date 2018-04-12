@@ -18,7 +18,7 @@ Select *Print Item Labels on Save & Exit* checkbox.
 
 image::images/cat/spine-label-2.png[]
 
-With the above setting in place, when you finish editing copy records, click *Save & Exit*.  *Print Item Labels* screen opens up in a new tab. Click *Print*. 
+With the above setting in place, when you finish editing copy records, click *Save & Exit*.  *Print Item Labels* screen opens up in a new tab. Make adjustment, if necessary. Click *Print*. 
 
 image::images/cat/spine-label-3.png[]
 
@@ -58,13 +58,13 @@ You may configure label prining on *Print Items Label*. There are four tabs on t
 
 *Call Number Template* shows the template used to extract information for the spine label. The default includes call number prefix, copy location prefix, call number label, call number suffix and copy location suffix. 
 
-*Call Numbers* shows the spine label generated for the item based on the template. For indiviudal spine labels you may edit them temporarily for the current printing only. 
+*Call Numbers* shows the spine label generated for the item based on the above template. For individual spine labels, you may edit them temporarily for the current printing only. 
 
 image::images/cat/spine-label-8.png[]
 
 *Settings* is the place where you set up the format of the printing and the label. Settings here will override the group of settings under Item Print Label on Library Settings Editor. 
 
-*Label Template* includes the script used to do the printing. The top portion is the explanation. The code for printing starts from <table ....
+*Label Template* includes the script used to do the printing job. The top portion is the explanation. The code for printing contents and format starts from *<table ... *.
 
 image::images/cat/spine-label-9.png[]
 
@@ -74,7 +74,7 @@ image::images/cat/spine-label-10.png[]
 
 TIP: If you need to adjust the pocket label content, you may follow the instruction above the printing code. 
 
-CAUTION: Changes made on all tabs will be automatically saved when you leave the tab. To revert everything back to the default, you may click the *Default* on the top template bar.  
+CAUTION: Changes made on all tabs, except *Call Numbers* will be automatically saved when you leave the tab. To revert everything back to the default, you may click the *Default* on the top template bar.  
 
 *Label Template*
 
@@ -84,6 +84,6 @@ To create a label template, make the necessary adjustment on any or all tabs. On
 
 image::images/cat/spine-label-11.png[]
 
-TIP: Label template is linked to login account. To share templates, you may export them, send them to your colleagues for them to import into their accounts.
+TIP: Label templates are linked to login accounts. To share templates, you may export them, send them to your colleagues for them to import into their own accounts.
 
 
