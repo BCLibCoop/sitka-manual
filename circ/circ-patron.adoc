@@ -5,8 +5,6 @@ include::patron/patron-search.adoc[Patron Search]
 
 include::patron/patron-register.adoc[Register New Patrons]
 
-include::patron/patron-accountstatus.adoc[Account Status by Colour Code]
-
 include::patron/patron-update.adoc[Updating Individual Patron Records]
 
 include::patron/patron-alerts.adoc[Patron Alerts]
