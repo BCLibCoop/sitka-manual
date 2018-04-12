@@ -19,12 +19,12 @@ image:images/circ/self_check_check_out_4.png[scaledwidth="75%"]
 +
 . If a check out fails a message will advise patrons to see staff.
 +
-image:images/circ/self_check_check_out_5.png[scaledwidth="75%"]
+image:images/circ/self_check_error_1.png[scaledwidth="75%"]
 +
 . Select *Email*, *Print*, or *None*, for a receipt. Email only appears if patron has an email address in their account.
 . Click *Logout*
 +
-image:images/circ/self_check_check_out_6.png[scaledwidth="75%"]
+image:images/circ/self_check_check_out_5.png[scaledwidth="75%"]
 
 
 TIP: If a patron forgets to logout, the system will automatically log out after the time period specified in the library setting *Patron Login Timeout (in seconds)*. An inactivity pop-up will appear to warn patrons 20 seconds before the logout.
