@@ -43,6 +43,7 @@ your computer.
 Settings Editor* screen. Open your previously saved file and copy the
 contents. Click *Paste* in the pop-up window. Click *Submit*.
 
+xref:cash_report[Cash Reports]
 
 Settings Overview
 ^^^^^^^^^^^^^^^^^
@@ -333,7 +334,7 @@ For multiple branch libraries
 [options="header"]
 |=======
 |Setting|Description|Data type|Notes
-|Change reshelving status interval|Amount of time to wait before changing an item from “Reshelving” status to “available”|Duration|
+|Change reshelving status interval|Amount of time to wait before changing an item from "Reshelving" status to "Available" | Duration|
 The default is at midnight each night for items with "Reshelving" status for over 24 hours.
 |Claim never checked out: mark copy as missing|When a circ is marked as claims-never-checked-out, mark the copy as missing|True/False|
 |Claim return copy status|Claims returned copies are put into this status. Default is to leave the copy in the Checked Out status|Selection list|
