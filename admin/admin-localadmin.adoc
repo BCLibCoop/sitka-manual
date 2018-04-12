@@ -3,7 +3,7 @@ Local Administration
 
 The following table describes each of the menu options in use and their required permission levels. Contact Co-op support team if you have questions about settings that cannot be edited with a Local System Administrator (LSA) account.
 
-[options="headers"]
+[options="header"]
 |====
 |Menu option | Description | Permission 
 | Age Overdue Circs to Lost | To create a queue of ALL overdue items by selected patron profiles at selected libraries to be marked lost. It does not support date parameter. This feature is mainly for school libraries' end of term process. To automatically mark items lost when they are overdue for x days contact Sitka support | LSA
