@@ -1,9 +1,10 @@
 New Behaviour in Evergreen 3.1
 ------------------------------
+
 New Web Staff Client (Web Client)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Sitka's new Evergreen web client is accessed, in the internet browser Chrome, at catalogue.libraries.coop/eg/staff/login.
+* Sitka's new Evergreen web client is accessed, in the internet browser Chrome, at *https://catalogue.libraries.coop/eg/staff/login*.
 
 * Sitka's new Evergreen web client is only supported in Chrome. You must use Chrome to login to Evergreen.
 
@@ -15,8 +16,6 @@ All existing staff logins will work once a workstation is registered.
 * The new web client looks and functions very similar to the old staff client. Menus,  and some workflows, are consistent with prior versions. There are  changes to cataloguing procedures, and changes to local preferences configuration, with modern browser functionality incorporated into all aspects of Evergreen.
 
 * The new web client is responsive to device and to screen size, and can look different on different devices.
-
-
 
 Patron Accounts
 ^^^^^^^^^^^^^^^
