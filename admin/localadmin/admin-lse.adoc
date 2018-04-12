@@ -2,6 +2,8 @@ Library Settings Editor
 ~~~~~~~~~~~~~~~~~~~~~~~
 (((Library Settings Editor)))
 
+anchor:library-settings-editor[Library Settings Editor]
+
 With the *Library Settings Editor* one can optionally customize
 Evergreen's behavior for a particular library or library system. For
 descriptions of available settings see the <<_settings_overview,Settings
