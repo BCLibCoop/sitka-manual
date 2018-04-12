@@ -14,5 +14,7 @@ The following table describes each of the menu options in use and their required
 | Copy Locations Editor | Create and edit copy locations, also known as shelving locations | LSA
 |====
 
+xref:cash_report[Cash Reports]
+
 include::localadmin/admin-cash-report.adoc[]
 include::localadmin/admin-lse.adoc[]
