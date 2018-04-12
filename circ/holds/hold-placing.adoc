@@ -1,5 +1,6 @@
+[[place-holds]]
 Placing Holds
-~~~~~~~~~~~~~
+~~~~~~~~~~~~
 
 Holds can be placed by staff in the web client,  and by patrons on your public catalogue.
 
@@ -34,8 +35,6 @@ image:images/circ/placehold2.png[scaledwidth="75%"]
 . Click *Continue* to go back to search results, or click *Place another hold for this title*.
 +
 image:images/circ/placehold3.png[scaledwidth="75%"]
-+
-
 
 Meta-record Level Hold
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -60,7 +59,7 @@ image:images/circ/metahold2.png[scaledwidth="75%"]
 Group Formats and Editions Search
 +++++++++++++++++++++++++++++++++
 
-.  On the *Advanced Search* screen, click *Group Formats and Editions*.
+. On the *Advanced Search* screen, click *Group Formats and Editions*.
 +
 image:images/circ/metahold3.png[scaledwidth="75%"]
 +
@@ -69,7 +68,7 @@ image:images/circ/metahold3.png[scaledwidth="75%"]
 +
 image:images/circ/metahold4.png[scaledwidth="75%"]
 +
-.  Select the acceptable formats and languages and click *Submit*.
+. Select the acceptable formats and languages and click *Submit*.
 
 TIP: The icons indicate the available formats at the search location. The number beside the title is the number of records with physical items. Click the title to view these individual records.
 
