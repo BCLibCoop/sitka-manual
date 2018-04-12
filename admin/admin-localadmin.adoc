@@ -9,15 +9,17 @@ The following table describes each of the menu options in use and their required
 | Age Overdue Circs to Lost | To create a queue of ALL overdue items by selected patron profiles at selected libraries to be marked lost. It does not support date parameter. This feature is mainly for school libraries' end of term process. To automatically mark items lost when they are overdue for x days contact Co-op support | LSA
 | Auto-Print Settings | Override default settings to block automatic receipt printing in selected staff client transactions | LSA
 | xref:cash-report[Cash Reports] |	View summary report of cash transactions for selected date range | All staff
-| Circulation Policies |	View circulation policies	| Viewable to LSA. Contact Co-op Support for editing
-| Closed Dates Editor	| Set library ad hoc closure dates (affects due dates and fines)	| LSA
-| Copy Locations Editor | Create and edit copy locations, also known as shelving locations | LSA
+| xref:_circulation_policy[Circulation Policies] |	View circulation policies	| Viewable to LSA. Contact Co-op Support for editing
+| xref:_closed_date_editor[Closed Dates Editor]	| Set library ad hoc closure dates (affects due dates and fines)	| LSA
+| xref:_copy_location_editor[Copy Locations Editor] | Create and edit copy locations, also known as shelving locations | LSA
+| xref:_copy_location_groups[Copy Location Groups] | Allows one or more shelving locations to be grouped together as a search location. | Co-op support
+| xref:_copy_location_order[Copy Location Order] | Change display order of copy locations on Holds Pull list, also known as shelving locations | LSA
 |====
 
 xref:_library_settings_editor[lse]
 
 xref:cash-report[Cash Reports]
 
-include::localadmin/admin-cash-report.adoc[]
+
 
 include::localadmin/admin-lse.adoc[]
