@@ -8,7 +8,7 @@ The following table describes each of the menu options in use and their required
 |Menu option | Description | Permission 
 | Age Overdue Circs to Lost | To create a queue of ALL overdue items by selected patron profiles at selected libraries to be marked lost. It does not support date parameter. This feature is mainly for school libraries' end of term process. To automatically mark items lost when they are overdue for x days contact Co-op support | LSA
 | Auto-Print Settings | Override default settings to block automatic receipt printing in selected staff client transactions | LSA
-| xref:_cash_reports[Cash Reports] |	View summary report of cash transactions for selected date range | All staff
+| xref:cash-report[Cash Reports] |	View summary report of cash transactions for selected date range | All staff
 | xref:_circulation_policy[Circulation Policies] |	View circulation policies	| Viewable to LSA. Contact Co-op support for editing
 | xref:_closed_date_editor[Closed Dates Editor]	| Set library ad hoc closure dates (affects due dates and fines)	| LSA
 | xref:_copy_location_editor[Copy Locations Editor] | Create and edit copy locations, also known as shelving locations | LSA
@@ -20,8 +20,10 @@ The following table describes each of the menu options in use and their required
 
 xref:_library_settings_editor[lse]
 
-xref:_cash_reports[Cash Reports]
 
 
+include::localadmin/admin-cash-report.adoc[]
+
+include::localadmin/admin-circ-policy.adoc[]
 
 include::localadmin/admin-lse.adoc[]
