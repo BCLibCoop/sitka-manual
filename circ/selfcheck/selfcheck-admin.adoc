@@ -1,5 +1,23 @@
 Staff Functions in the Evergreen Self Check
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This is a page on logging into the EG self check.
+NOTE: These instructions are specific to the native Evergreen Self Check. For instructions on using third party self check systems, libraries should refer to the instructions provided by the third party vendors.
 
+Turn on the Self Check
+^^^^^^^^^^^^^^^^^^^^^^
+
+. Open the Evergreen *Self Check* interface in an internet browser.
++
+image:images/circ/self_check_login_1.png[scaledwidth="75%"]
++
+. Enter your self check login credentials and click *Login*.
++
+image:images/circ/self_check_login_2.png[scaledwidth="75%"]
+
+
+Turn off the Self Check
+^^^^^^^^^^^^^^^^^^^^^^^
+Co-op Support recommends turning off all Evergreen Self Check computers at closing to avoid any conflicts with overnight Sitka processes.
+
+. Close the browser
+. Turn off the computer.
