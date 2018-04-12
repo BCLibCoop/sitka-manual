@@ -1,4 +1,9 @@
 Transit List
 ~~~~~~~~~~~~
 
-This is a page about the transit list.
+The *Transit List* report helps manage your incoming and outgoing transits. It is best practice to  pull transit lists when sending or receiving items from other branches or Sitka libraries. Reconciling the list against the physical items will ensure your shipments are complete.
+
+. Click *Administration -> Local Administration -> Transit List*.
+. Select *Transits To* or *Transits From* library from the dropdown menu to retrieve transits coming or going from your library.
+. Specify *Start Date* and *End Date*.
+. Click *Print Transits* to print the onscreen list, or select a transit to access the *Add Items to Bucket*, *Edit Item Attributes*, or *Cancel Transit* tabs.  

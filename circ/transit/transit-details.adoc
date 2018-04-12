@@ -1,4 +1,8 @@
 Transit Details
 ~~~~~~~~~~~~~~~
 
-This is a page about transit details.
+Transit dates, and source and destination libraries, are displayed on the *Item Status* screen.
+
+. Select *Circulation -> Item Status* and scan the item barcode, or click on item barcode hyperlink to load item in *Item Status* screen.
+. Click *Detail View*.
+. Select *Holds/Transit* tab. Transit information is displayed on the right of the screen.

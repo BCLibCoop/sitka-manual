@@ -2,9 +2,6 @@ Receive In Transit Items
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 *All items received from other branches or Sitka libraries must be checked in. Checking in updates an in transit item's status and its location.
-
-*If it is your item coming back, its status changes to *Reshelving*, and the location is updated.
-
+*If it is your item coming back, its status changes to *Reshelving*, and its location is updated.
 *If the item has a local hold on it, its status changes to *On Holds Shelf*,  its location is updated, and patron is notified.
-
-*If the pickup branch for the hold is not your branch, the item will be sent in transit again to the pickup branch.
+*If the pickup branch for the hold is not your branch, the item is sent in transit again to the pickup branch.

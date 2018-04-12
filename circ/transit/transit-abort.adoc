@@ -1,5 +1,16 @@
-Aborting Transits
-~~~~~~~~~~~~~~~~~
+Cancel Transits
+~~~~~~~~~~~~~~~
 
-This is a page about aborting transits.
+NOTE: Under certain circumstances cancelling a transit may be required, but it effectively cancels the previous check in. Cancelling a transit affects data integrity and the accuracy of circulation statistics. Co-op Support strongly recommends that only sending libraries ever cancel a transit, and only  before physically sending out items, while receiving libraries never cancel a transit, but check them in instead. This recommendation is a required work flow for libraries participating in BC_ILC and SPRUCE resource sharing agreements.
 
+
+Cancel a Transit from Transit List
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Select the transit and click *Cancel Transit* tab.
+. Click *Cancel Transit* at prompt.
++
+image:images/circ/canceltransit1.png[scaledwidth="75%"]
++
+. Item status is updated to *Canceled Transit* if it had been "In Transit" “Lost” or “Checked Out” before. Items with any other prior status will return to the status they were in before they were sent into transit.
+. Items in *Canceled Transit* status must be checked in.

@@ -1,7 +1,7 @@
 When Will An Item Go In Transit?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Evergreen’s *In Transit* feature is used to keep track of items transferring among branches within a library system or between separate libraries. It makes it easy for libraries to provide services such as allowing patrons to return items at any branch or library, or place holds on items belonging to another branch or library. Sitka services such as BC _ILC and SPRUCE ILL are possible because of Evergreen's *In Transit* functionality.
+Evergreen’s *In Transit* feature is used to keep track of items transferring among branches within a library system or between separate Sitka libraries. It makes it easy for libraries to provide services such as allowing patrons to return items at any branch or Sitka library, or place holds on items belonging to another branch or library. Sitka services such as BC _ILC and SPRUCE ILL are possible because of Evergreen's *In Transit* functionality.
 
 . When an item is checked in at a non-owning branch or library, the status is changed to *In Transit* and a *Transit Slip* can be printed. Items in transit are sent to the destination branch or library according to your library’s policy and workflow.
 . When you capture a hold with a pick-up library other than your branch or library, the item’s status is changed to *In Transit*. Holds in transit are sent to the destination branch or library according to your library’s policy and workflow.
