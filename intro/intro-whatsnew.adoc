@@ -1,26 +1,26 @@
-New in Evergreen Version 3.x
+New in Evergreen Version 3.1
 ----------------------------
 
 Circulation
 ~~~~~~~~~~~
 
-[float]
 Email Checkout Receipts
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 This feature allows patrons to receive checkout receipts through email at the circulation desk and in the Evergreen self-checkout interface. Patrons need to opt in to receive email receipts by default and must have an email address associated with their account. Opt in can be staff mediated at the time of account creation or in existing accounts. Patrons can also opt in directly in their OPAC account or through patron self-registration. This feature does not affect the behavior of checkouts from SIP2 devices.
 
-[float]
 Patron Buckets
 ^^^^^^^^^^^^^^
 
-link:http://asciidoc.libraries.coop/sitka-manual-master/html/_patron_buckets_2.html[Create and Manage Patron Buckets]
-
-xref:__patron_buckets_2[]
-
+Patron Buckets allow staff to batch delete and make batch modifications to user accounts in Evergreen.
 
 Cataloguing
 ~~~~~~~~~~~
+
+Copy Alerts
+^^^^^^^^^^^
+
+Copy Alerts allows library staff to add customized alert messages to copies. The copy alerts will appear when a specific event takes place, such as when the copy is checked in, checked out, or renewed.
 
 Serials
 ~~~~~~~
@@ -34,5 +34,4 @@ In addition to carrying over functionality that was available in the old staff c
 * A more streamlined interface for managing subscriptions, distributions, and streams
 * A new *Serials Administration* page where prediction pattern and serial copy templates can be managed.
 * Prediction pattern codes can be saved as templates.
-* It is no longer necessary to create a starting issue in order to predict a run of issues; the dialog box for generating a set of predicted issues now lets you specify the starting point directly.
 * The new serials interfaces can be accessed from the record details page via a Serials drop-down button.

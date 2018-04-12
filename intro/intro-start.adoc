@@ -35,24 +35,19 @@ Logging Out of Evergreen
 
 CAUTION: Exiting all browser windows will automatically log you out of the web client. If you only close the tab where the web client is loaded, you will remain logged in.
 
-Set Search preferences
-~~~~~~~~~~~~~~~~~~~~~~
+Change Operator
+^^^^^^^^^^^^^^^
 
-. Go to *Administration* -> *Workstation*.
-. Use the dropdown menu to select an appropriate Default Search Library.
-.. The default search library setting determines what library is searched from the advanced search screen and portal page by default. You can override this setting when you are actually searching by selecting a different library. One recommendation is to set the search library to the highest point you would normally want to search.
-. Use the dropdown menu to select an appropriate Preferred Library.
-.. The preferred library is used to show copies and electronic resource URIs regardless of the library searched. One recommendation is to set this to your home library so that local copies show up first in search results.
-. Use the dropdown menu to select an appropriate Advanced Search Default Pane.
-.. Advanced search has secondary panes for Numeric and MARC Expert searching. You can change which one is loaded by default when opening a new catalog window here.
+. Click *Menu* -> Click *Change Operator*
+. Enter the Username and Password.
+. Choose Login Type from the drop down menu.
+.. *Temporary* -
+.. *Staff* -
+.. *Persistent* -
+. Click *Ok/Continue*
 
 Best Practices for Using the Browser
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* <<browser-defaults,Setting Browser Defaults for Web Client>>
-* <<allow-popups,Allow Pop-ups>>
-* <<bookmarks-profiles, Bookmarks and Profiles>>
-* <<tab-buttons-keyboard-shortcuts,Tab Buttons and Keyboard Shortcuts>>
 
 [[browser-defaults]]
 Setting Browser Defaults for Web Client
@@ -64,18 +59,18 @@ To ensure that staff can easily get to the web client portal page on login witho
 . Select Settings.
 . In the _On startup_ section, select Open a specific page or set of pages.
 . Click the Set Pages link.
-. Add _https://catalogue.libraries.coop/eg/staff/_ to the Enter URL box and click OK.
+. Add *https://catalogue.libraries.coop/eg/staff/* to the Enter URL box and click OK.
 
 [[allow-popups]]
 Allow Pop-ups
 ^^^^^^^^^^^^
-Your browser must allow pop-ups from _https://catalogue.libraries.coop_. You should see a small icon or message when a pop-up is triggered, but if you do not, you may follow these steps to ensure that Popups are allowed.
+Your browser must allow pop-ups from *https://catalogue.libraries.coop*. You should see a small icon or message when a pop-up is triggered, but if you do not, you may follow these steps to ensure that Popups are allowed.
 
 .Allow Pop-ups In Chrome
 . Click on the menu icon (three vertical dots in the upper-right corner).
 . Select Settings.
-. Scroll to the bottom and click Advanced.
-. Under “Privacy and Security” click “Content settings.”
+. Scroll to the bottom and click *Advanced*.
+. Under *Privacy and Security* click *Content settings*.
 . Click on pop-ups.
 . Click the Add button next to Allow.
 . Type in *https://catalogue.libraries.coop* and click Add.
@@ -103,6 +98,7 @@ Some users may want to automatically open the web client’s portal page in a ne
 
 Column Configuration
 ~~~~~~~~~~~~~~~~~~~~
+
 From many screens and lists, you can click on the column picker drop-down menu to change which columns are displayed. Various search results tables may not default to the most useful columns. For instance, the patron search results page may be easier to use if you change the columns to Card, Last Name, First Name, Middle Name, Dob, and Primary Identification, and you may wish to have the results sort by Last Name, then by First Name.
 
 .To customize your columns:
@@ -140,13 +136,13 @@ Enable Hatch in Evergreen
 
 . Log out. Preferences will now be stored in Hatch. This will enable you to clear your browser settings and not lose your staff preferences .
 
-Change Operator
-~~~~~~~~~~~~~~~
+Set Search preferences
+~~~~~~~~~~~~~~~~~~~~~~
 
-. Click *Menu* -> Click *Change Operator*
-. Enter the Username and Password.
-. Choose Login Type from the drop down menu.
-.. *Temporary* -
-.. *Staff* - 
-.. *Persistent* -
-. Click *Ok/Continue*
+. Go to *Administration* -> *Workstation*.
+. Use the dropdown menu to select an appropriate Default Search Library.
+.. The default search library setting determines what library is searched from the advanced search screen and portal page by default. You can override this setting when you are actually searching by selecting a different library. One recommendation is to set the search library to the highest point you would normally want to search.
+. Use the dropdown menu to select an appropriate Preferred Library.
+.. The preferred library is used to show copies and electronic resource URIs regardless of the library searched. One recommendation is to set this to your home library so that local copies show up first in search results.
+. Use the dropdown menu to select an appropriate Advanced Search Default Pane.
+.. Advanced search has secondary panes for Numeric and MARC Expert searching. You can change which one is loaded by default when opening a new catalog window here.
