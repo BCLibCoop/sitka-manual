@@ -1,4 +1,30 @@
 Basic Check Out
 ~~~~~~~~~~~~~~~
 
-This is a page on checking out items via the self check.
+.  Scan a library card.
++
+image:images/circ/self_check_check_out_1.png[scaledwidth="75%"]
++
+. If required, enter password. Password is optional.
++
+image:images/circ/self_check_check_out_2.png[scaledwidth="75%"]
++
+. Scan item barcodes, or place items, one at a time, on the RFID pad.
++
+image:images/circ/self_check_check_out_3.png[scaledwidth="75%"]
++
+. Items are listed with a check out confirmation message.
++
+image:images/circ/self_check_check_out_4.png[scaledwidth="75%"]
++
+. If a check out fails a message will advise patrons to see staff.
++
+image:images/circ/self_check_check_out_5.png[scaledwidth="75%"]
++
+. Select *Email*, *Print*, or *None*, for a receipt. Email only appears if patron has an email address in their account.
+. Click *Logout*
++
+image:images/circ/self_check_check_out_6.png[scaledwidth="75%"]
+
+
+TIP: If a patron forgets to logout, the system will automatically log out after the time period specified in the library setting *Patron Login Timeout (in seconds)*. An inactivity pop-up will appear to warn patrons 20 seconds before the logout.
