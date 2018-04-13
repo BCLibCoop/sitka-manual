@@ -37,7 +37,7 @@ There are two ways to create a copy bucket. You can either create a bucket first
 +
 image::images/cat/copy-bucket-1.png[]
 +
-. Type in a name and some description, if needed. Click *Creat Bucket*.
+. Type in a name and some description, if needed. Click *Create Bucket*.
 +
 image::images/cat/copy-bucket-2.png[]
 +
@@ -49,12 +49,13 @@ image::images/cat/copy-bucket-3.png[]
 
 [TIP]
 =====
-Only buckets created by the login account are listed. But those created by other people can be retrieved via bucket number, if shared with you. Click *Shared Bucket* to type in the number to retrieve it.
+* Only buckets created by the login account are listed. But those created by other people can be retrieved via bucket number, if shared with you. Click *Shared Bucket* to type in the number to retrieve it.
+* Ignore the check box for *Publicly Visible* - this function does not work as expected.
 =====
 
 *Create a Copy Bucket when Adding a Copy Record to a Bucket*
 
-You can also create a bucket from within a copy record. When a copy is displayed on a screen such as, *Checkin* and *Items Status*, you can add it to a copy bucket by choosing *Actions -> Add Items to Bucket*. 
+You can also create a bucket from within a copy record. When a copy is displayed on a screen such as, *Checkin* and *Items Status*, you can add it to a copy bucket by choosing *Actions -> Add Items to Bucket*.
 
 image::images/cat/copy-bucket-4.png[]
 
@@ -95,7 +96,7 @@ image::images/cat/copy-bucket-9.png[]
 
 Working with Copies in a Bucket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-You may apply the following functions to selected copies in a bucket. 
+You may apply the following functions to selected copies in a bucket.
 
 
 * *Apply Copy Tag*
@@ -117,7 +118,3 @@ To retrieve a shared bucket, click *Shared Buckets* on Buckets list. Type in the
 
 
 image::images/cat/copy-bucket-11.png[]
-
-
-
-
