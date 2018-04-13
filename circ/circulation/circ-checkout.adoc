@@ -15,7 +15,7 @@ Regular Items
 . Scan or enter patron barcode.
 . Scan or enter item barcode.
 . Click *Done* or *Quick Receipt*, to make choice to print, email, or no receipt, and to exit the *Check Out* screen.
-
++
 image:images/circ/checkout1.png[scaledwidth="75%"]
 
 Pre-catalogued Items
@@ -23,7 +23,7 @@ Pre-catalogued Items
 
 . Scan or enter item barcode on patron's *Check Out* screen.
 . At prompt, enter required information and click *Precat Checkout*.
-
++
 image:images/circ/checkout2.png[scaledwidth="75%"]
 
 
@@ -39,7 +39,7 @@ Items are manually checked out with a due date but when the due date expires, th
 image:images/circ/checkout3.png[scaledwidth="75%"]
 +
 . Enter the number of items and click *OK*.
-
++
 image:images/circ/checkout4.png[scaledwidth="75%"]
 
 Due Dates
@@ -51,5 +51,5 @@ Due dates based on your circulation policies are calculated automatically at *Ch
 . Select  *Specific Due Date* or *Use Specific Due Date Until Logout*.
 . Use calendar widget or enter date.
 . Scan item barcode.
-
++
 image:images/circ/checkout5.png[scaledwidth="75%"]

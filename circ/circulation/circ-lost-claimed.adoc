@@ -1,6 +1,9 @@
 Mark Items Lost, Claims Returned, and Claims Never Checked Out
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+(((Mark Items Lost)))
+(((Lost Items)))
+(((Claims Returned)))
+(((Claims Never Checked Out)))
 Lost
 ^^^^
 
@@ -12,7 +15,7 @@ Marking an item *Lost* automatically bills the patron the replacement cost of th
 image:images/circ/lost1.png[scaledwidth="75%"]
 +
 . The item is now displayed on the patron's  *Other/Special Circulations* tab.
-
++
 image:images/circ/lost2.png[scaledwidth="75%"]
 
 NOTE: A *Lost* item will display on the patron account until linked bills are resolved. Bills include replacement charges, overdue charges, and manual charges added to the existing bills. See Billing for more information on managing *Lost* bills.

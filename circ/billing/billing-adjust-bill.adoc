@@ -1,7 +1,8 @@
 Adjust Bill Balance to Zero
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(((Adjust to Zero)))
 
-This function sets any balance to zero, and is the easiest way to clear a negative balance from patron account. 
+This function sets any balance to zero, and is the easiest way to clear a negative balance from patron account.
 
 . Click *Bills* in patron account.
 . Select the bill line item and click *Actions -> Adjust to Zero*.
@@ -9,5 +10,5 @@ This function sets any balance to zero, and is the easiest way to clear a negati
 image:images/circ/adjustzero1.png[scaledwidth="75%"]
 +
 . Click *OK/Continue*.
-
++
 image:images/circ/adjustzero2.png[scaledwidth="75%"]

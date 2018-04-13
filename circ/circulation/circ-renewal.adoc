@@ -1,6 +1,7 @@
 Renewal and Edit Due Date
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
+(((Renewal)))
 Checked-out items can be renewed if your library's policy allows it. The new due date is calculated from the renewal date. Existing loans can also be extended to a specific date by renewing with a specific due date, or editing the due date.
 
 Renewal
@@ -8,8 +9,9 @@ Renewal
 . Click *Items Out* tab in patron account.
 . Select the items and click *Actions*.
 . Select, *Renew*, *Renew All*, or *Renew With Specific Due Date*.
-
++
 image:images/circ/renew1.png[scaledwidth="75%"]
+
 
 TIP: You can also renew items on the *Item Status* screen.
 
