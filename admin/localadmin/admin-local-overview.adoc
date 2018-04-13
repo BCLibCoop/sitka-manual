@@ -1,16 +1,14 @@
 Local Administration Overview
------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+include::admin-cash-report.adoc[]
 
+include::admin-circ-policy.adoc[]
 
-include::localadmin/admin-cash-report.adoc[]
+include::admin-closed-date.adoc[]
 
-include::localadmin/admin-circ-policy.adoc[]
+include::admin-copy-location.adoc[]
 
-include::localadmin/admin-closed-date.adoc[]
-
-include::localadmin/admin-copy-location.adoc[]
-
-include::localadmin/admin-lse.adoc[]
+include::admin-lse.adoc[]
 
 
