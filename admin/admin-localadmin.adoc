@@ -23,10 +23,6 @@ The following table describes each of the menu options in use and their required
 | xref:library-settings-editor[] | Detailed library configuration settings | LSA/Co-op suppport
 |====
 
-xref:library-settings-editor[Library Settings Editor]
-
-
-
 include::localadmin/admin-cash-report.adoc[]
 
 include::localadmin/admin-circ-policy.adoc[]
