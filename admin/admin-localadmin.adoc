@@ -25,10 +25,4 @@ The following table describes each of the menu options in use and their required
 
 
 
-include::localadmin/admin-circ-policy.adoc[]
 
-include::localadmin/admin-closed-date.adoc[]
-
-include::localadmin/admin-copy-location.adoc[]
-
-include::localadmin/admin-lse.adoc[]
