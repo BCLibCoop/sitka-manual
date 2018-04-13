@@ -16,9 +16,9 @@ The following table describes each of the menu options in use and their required
 | xref:copy-location-group[] | Allows one or more shelving locations to be grouped together as a search location. | Co-op support
 | xref:copy-location-order[] | Change display order of copy locations on Holds Pull list, also known as shelving locations | LSA
 | xref:copy-tag[] |  | LSA
-| xref:group-penalty-threshold[] | Set library-specific thresholds for maximum items out, maximum overdues, and maximum fines | LSA
-
+| xref:group-penalty-thresholds[] | Set library-specific thresholds for maximum items out, maximum overdues, and maximum fines | LSA
 | xref:library-settings-editor[] | Detailed library configuration settings | LSA/Co-op suppport
+| xref:non-catalogued-type[] | Create and edit optional non-catalogued item types | LSA
 |====
 
 
