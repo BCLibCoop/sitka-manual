@@ -1,12 +1,14 @@
 Check In
 ~~~~~~~~
-
+(((Check In)))
+(((Checkin Modifiers)))
+(((Backdated Check In)))
 Regular Check In
 ^^^^^^^^^^^^^^^^
 
 . Click *Check In Items*.
 . Scan barcodes.
-
++
 image:images/circ/checkin1.png[scaledwidth="75%"]
 
 Backdated Check In
@@ -17,7 +19,7 @@ This is useful for clearing a book drop.
 . Click the calendar widget and set date, or edit date in *Effective Date* field.
 . Scan barcodes. The new effective date is now displayed in the header.
 . Edit *Effective Date* when backdated check in is complete.
-
++
 image:images/circ/checkin2.png[scaledwidth="75%"]
 
 Backdate Post-Check In
