@@ -19,6 +19,11 @@ The following table describes each of the menu options in use and their required
 | xref:group-penalty-thresholds[] | Set library-specific thresholds for maximum items out, maximum overdues, and maximum fines | LSA
 | xref:library-settings-editor[] | Detailed library configuration settings | LSA/Co-op suppport
 | xref:non-catalogued-type[] | Create and edit optional non-catalogued item types | LSA
+| Patrons with Negative Balances | Display a list of patron accounts with negative bill balances, to whom the library may owe refunds | All staff
+| xref:stat-cat	| Create and manage optional categories for detailed patron/item information | LSA
+| xref:admin-survey | Create patron surveys to be completed at patron registration | LSA
+| xref:transit-list | View items in transit to or from your library during selected date range | All staff
+| Work Log | List the most recent transactions processed at the selected workstation | All staff
 |====
 
 
