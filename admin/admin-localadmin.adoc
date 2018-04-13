@@ -18,7 +18,7 @@ include::localadmin/admin-lse.adoc[]
 
 include::localadmin/admin-group-penalty.adoc[]
 
-include::localadmin/non-catalogued-type.adoc[]
+include::localadmin/admin-non-catalogued-type.adoc[]
 
 include::localadmin/admin-stat-cat.adoc[]
 
