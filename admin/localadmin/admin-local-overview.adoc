@@ -1,14 +1,32 @@
 Local Administration Overview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-include::admin-cash-report.adoc[]
+The following table describes each of the menu options in use and their required permission levels. Contact Co-op support team if you have questions about settings that cannot be edited with a Local System Administrator (LSA) account.
 
-include::admin-circ-policy.adoc[]
+[options="header"]
+|====
+|Menu option | Description | Permission 
+| Age Overdue Circs to Lost | To create a queue of ALL overdue items by selected patron profiles at selected libraries to be marked lost. It does not support date parameter. This feature is mainly for school libraries' end of term process. To automatically mark items lost when they are overdue for x days contact Co-op support | LSA
+| Auto-Print Settings | Override default settings to block automatic receipt printing in selected staff client transactions | LSA
+| xref:cash-report[] |	View summary report of cash transactions for selected date range | All staff
 
-include::admin-closed-date.adoc[]
+| xref:circulation-policy[] | View circulation policies	| Viewable to LSA. Contact Co-op support for editing
 
-include::admin-copy-location.adoc[]
+| xref:closed-date-editor[]	| Set library ad hoc closure dates (affects due dates and fines)	| LSA
 
-include::admin-lse.adoc[]
+| xref:copy-location-editor[] | Create and edit copy locations, also known as shelving locations | LSA
+
+| xref:copy-location-group[] | Allows one or more shelving locations to be grouped together as a search location. | Co-op support
+
+| xref:copy-location-order[] | Change display order of copy locations on Holds Pull list, also known as shelving locations | LSA
+
+| xref:library-settings-editor[] | Detailed library configuration settings | LSA/Co-op suppport
+|====
+
+
+
+
+
+
 
 
