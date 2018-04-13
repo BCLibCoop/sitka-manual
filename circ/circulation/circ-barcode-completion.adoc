@@ -1,7 +1,29 @@
 Barcode Completion
 ~~~~~~~~~~~~~~~~~~
-Barcode completion is generally used in Sitka's Evergreen to handle duplicate item or patron barcodes. It adds a prefix or a suffix to the physical barcode scanned.
-For example, all barcodes at a library may be prefixed in Evergreen with their Library and Archives Canada code MPL12345, but the physical barcode on the item or patron card is 12345. When barcode completion is in use, Evergreen will add MPL to every barcode scanned, matching the physical barcode with the correct saved record.
+
+Barcode completion is sometimes used in Sitka's Evergreen to handle duplicate item or patron barcodes. It adds a prefix or a suffix to the physical barcode scanned. For example, all barcodes at a library may be prefixed in Evergreen with their Library and Archives Canada code MPL, to read MPL12345 in the database, but the physical barcode on the item or patron card is 12345. When barcode completion is in use, Evergreen will add MPL to every barcode scanned, matching the physical barcode with the correct saved record. Staff have to read the screen, and make correct choice, for barcode completion to work as designed. Co-op Support recommends you consider re-barcoding to better manage duplicate barcodes in Sitka's Evergreen.
 
 Multiple Matches
 ^^^^^^^^^^^^^^^^
+
+. Scan a barcode. If matches are found, a pop-up will appear listing the possible barcodes.
+
+. Select the required barcode and title, or barcode and name, and continue.
+
+
+Patron Barcodes
+^^^^^^^^^^^^^^^
+
+The patron barcode completion pop-up appears when a patron barcode is scanned in the following places:
+
+* Check Out
+* Place hold for patron by barcode in the web client catalogue.
+
+
+Item Barcodes
+^^^^^^^^^^^^^
+The item barcode completion pop-up appears when an item barcode is scanned in the following places:
+
+* Check Out
+* Check In
+* Item Status
