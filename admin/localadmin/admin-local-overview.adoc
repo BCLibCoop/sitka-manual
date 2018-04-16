@@ -23,7 +23,7 @@ The following table describes each of the menu options in use and their required
 | xref:stat-cat[] | Create and manage optional categories for detailed patron/item information | LSA
 | xref:admin-survey[] | Create patron surveys to be completed at patron registration | LSA
 | xref:transit-list[] | View items in transit to or from your library during selected date range | All staff
-
+| xref:volume-copy-template[] | Interface to create volume copy templates  | LSA Cataloguers
 | Work Log | List the most recent transactions processed at the selected workstation | All staff
 |====
 
