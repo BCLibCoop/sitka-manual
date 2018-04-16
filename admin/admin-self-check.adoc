@@ -20,10 +20,10 @@ Evegreen Self Check Administrative Set-up
 
 . Library saves URL as a favourite in browser or as a shortcut on the computer's desktop for easy access.
 
-. Library sets needed self check library settings. xref:lse-selfcheck[]
+. Library sets needed self check library settings. For details, refer to xref:lse-selfcheck[]
 
 . Library teaches patrons to use self check.
 
-. For instructions on using the native Evergreen Self Check, xref:_self_check[]
+. For instructions on using the native Evergreen Self Check, see xref:_self_check[]
 
-CAUTION: The information in this section is specific to the native Evergreen Self Check which is available to all libraries. For information regarding a third party self check please contact the vendor for that third party self check.
+CAUTION: The information in this section is specific to the native Evergreen Self Check which is available to all libraries. For information regarding a third party self check please contact the vendor.
