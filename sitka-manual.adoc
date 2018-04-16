@@ -93,6 +93,17 @@ include::admin/admin-localadmin.adoc[]
 
 include::admin/admin-serveradmin.adoc[]
 
+include::admin/admin-self-check.adoc[]
+
+include::admin/admin-delete-patron-card.adoc[]
+
+include::admin/admin-notice.adoc[]
+
+include::admin/admin-opac-station.adoc[]
+
+include::admin/admin-staff-account.adoc[]
+
+
 [appendix]
 Licensing
 =========
