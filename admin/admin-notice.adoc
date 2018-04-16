@@ -7,7 +7,7 @@ Patrons with email addresses in Evergreen receive pre-due email reminders three 
 
 Two optional patron account notices are also available.
 
-There are three email addresses on the notices besides the recipient’s email: From, Reply-To and Errors-To. The From address has to be the BC Libraries Cooperative's email address. The Reply-To and Errors-To addresses are from the Sending email addresses for patron notices setting in the Library Settings Editor. You must specify a address in this setting. This ensures patron replies are directed to the email of your choice. Bounced emails are also directed to this email address so staff can alert patrons when there is a problem with their email.
+There are three email addresses on the notices besides the recipient's email: From, Reply-To and Errors-To. The From address has to be the BC Libraries Cooperative's email address. The Reply-To and Errors-To addresses are from the Sending email addresses for patron notices setting in the Library Settings Editor. You must specify a address in this setting. This ensures patron replies are directed to the email of your choice. Bounced emails are also directed to this email address so staff can alert patrons when there is a problem with their email.
 
 Patrons can opt out of receiving overdue and courtesy notice emails in My Account under Notification Preferences.
 
@@ -20,7 +20,7 @@ Library pre-due notices are generated and sent via email to patrons three days b
 
 These emails are not spam and should not be marked as spam by either patrons or staff.
 
-The pre-due notice template can be customized at the federation or library level. Please contact Sitka Support for customization.
+The pre-due notice template can be customized at the federation or library level. Please contact Co-op support for customization.
 
 Libraries can opt out of pre-due notices using the *org.opt_out_email_predue setting* in the Library Settings Editor.
 
@@ -47,7 +47,7 @@ Paper Overdue Notice
 
 Evergreen generates a PDF file of overdue notices and emails the file to you to be printed and distributed to patrons. These notices are created and sent daily.
 
-An empty PDF file means that there is no notice for the day due to no item filling in the overdue category. You will still receive the empty file. If you are not receiving daily PDF files please contact Sitka support.
+An empty PDF file means that there is no notice for the day due to no item filling in the overdue category. You will still receive the empty file. If you are not receiving daily PDF files please contact Co-op support.
 
 To set up paper overdues you need to provide Co-op support with the following information:
 
