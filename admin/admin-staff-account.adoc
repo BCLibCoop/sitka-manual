@@ -64,5 +64,11 @@ This method only works if your account is not a Local System Administrator accou
 . Send in a request to Co-op Support to have a temporary password assigned and then use method 1 or 2 to reset it to a secure password.
 
 
+Staff Account Permission Groups
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Below is a general outline of staff account permission levels. To view a detailed list of permissions for a particular Evergreen account, go to Administration -> User permission editor in the staff client. The list contains staff profiles for public libraries only. Corresponding profiles for other libraries have similar permissions.
+
+
 
 
