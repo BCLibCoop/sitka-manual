@@ -16,8 +16,6 @@ include::localadmin/admin-hold-policy.adoc[]
 
 include::localadmin/admin-lse.adoc[]
 
-include::localadmin/admin-group-penalty.adoc[]
-
 include::localadmin/admin-non-catalogued-type.adoc[]
 
 include::localadmin/admin-stat-cat.adoc[]
@@ -25,5 +23,4 @@ include::localadmin/admin-stat-cat.adoc[]
 include::localadmin/admin-survey.adoc[]
 
 include::localadmin/admin-transit-list.adoc[]
-
 
