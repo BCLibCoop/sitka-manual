@@ -5,17 +5,9 @@ Most options under the Server Administration menu are global Sitka settings that
 
 There is some view-only information that is useful under Server Administration, in particular the list of Copy Statuses.
 
-Call Number Prefix and Suffix
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-CAUTION: Call Number Prefix/Suffix created here are different from Label Prefix/Suffix created on Copy Location Editor. The former are displayed as part of call number in OPAC, while the latter are on printed labels only.
+include::serveradmin/admin-call-number.adoc[]
 
 include::serveradmin/admin-org-unit.adoc[]
-
-Organizational Units
-~~~~~~~~~~~~~~~~~~~~~
-
-
 
 Copy Status
 ~~~~~~~~~~~
