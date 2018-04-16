@@ -1,5 +1,5 @@
 [[eg-self-check]]
-Evegreen Self Check Administrative Set-Up
+Evegreen Self Check Administrative Set-up
 -----------------------------------------
 
 . Library sets up a computer specifically for self check with the following:
@@ -20,10 +20,10 @@ Evegreen Self Check Administrative Set-Up
 
 . Library saves URL as a favourite in browser or as a shortcut on the computer's desktop for easy access.
 
-. Library sets needed self check library settings. See Table 49.13, 
+. Library sets needed self check library settings. xref:lse-selfcheck[]
 
 . Library teaches patrons to use self check.
 
-. For instructions on using the native Evergreen Self Check see Chapter 12, Self Check.
+. For instructions on using the native Evergreen Self Check, xref:_self_check[]
 
 CAUTION: The information in this section is specific to the native Evergreen Self Check which is available to all libraries. For information regarding a third party self check please contact the vendor for that third party self check.
