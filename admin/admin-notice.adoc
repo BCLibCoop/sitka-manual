@@ -71,11 +71,10 @@ CAUTION: A final notice which includes billing information can be set to coincid
 Overdue Notice by Phone 
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can set up a recurring report to generate a list of overdues for all patrons, or for those without an email address only. Then you can phone each person individually. You may specify an email address to receive an email reminder each time a list is generated. There are shared templates for overdue reports in the *SITKA_templates -> Circulation* folder. See Chapter 33, Shared Templates in SITKA_templates for more about using shared templates. Sitka support staff will be very happy to assist if you need help in this process.
+You can set up a recurring report to generate a list of overdues for all patrons, or for those without an email address only. Then you can phone each person individually. You may specify an email address to receive an email reminder each time a list is generated. There are shared templates for overdue reports in the *SITKA_templates -> Circulation* folder. See Chapter 33, Shared Templates in SITKA_templates for more about using shared templates. Co-op support staff will be very happy to assist if you need help in this process.
 
-
- Final Notices
- ~~~~~~~~~~~~~
+Final Notices
+~~~~~~~~~~~~~
 
 The final paper overdue notice sent to patrons can be set as a billing notice which includes processing fees and replacement costs. The price is taken from the price entered in the price field of the copy editor for the item. If the price field is blank the price is taken from the Default Item Price setting in the Library Settings Editor. The processing fee comes from the Lost Materials Processing Fee setting found in the Library Settings Editor.
 
