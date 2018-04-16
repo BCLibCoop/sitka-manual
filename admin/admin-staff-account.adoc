@@ -1,3 +1,68 @@
 Staff Accounts
 --------------
 
+Staff accounts are special patron accounts on Evergreen which have been granted more permissions to allow the owners to log into the Staff Client. Besides extra permissions each staff account has its own working location. The owner can log into the Staff Client at assigned working locations only.
+
+There are three ways staff accounts can be set up and used in the system.
+
+*Staff and Patron Accounts*
+
+Accounts are created for staff members and given the appropriate Library Staff permission group and working location. Staff use the account for borrowing as well as to login into the staff client and perform their work.
+
+*Staff Specific Accounts*
+
+Accounts are created for staff members and given the appropriate Library Staff permission group and working location. These accounts often have something like LOGIN or STAFF as part of the name and may use a barcode such as SITKASTAFF rather than an actual barcode. Staff use the accounts only for logging into the staff client for work. Staff have a separate patron account for borrowing.
+
+*Generic Accounts*
+
+Accounts are created for functions, such as circulation, rather than for specific staff members and given the appropriate Library Staff permission group and working location. These accounts' barcodes and names are often related to their function. For example, an account for circulation may use circulation1 as the barcode and be named Dummy, Circulation. These accounts are shared by the appropriate staff. Sitka Staff strongly encourage libraries to ensure that shared usernames and passwords are kept secure and are changed as needed, especially when staff leave the library.
+
+Sitka encourages libraries to use the method or methods that work best for them.
+
+CAUTION: Generic accounts will not be granted permissions to create/run reports. Libraries are encouraged to have a dedicated account(s) for reporting purpose. The account must belong to an individual staff member and is for office use only. To avoid re-setting up reports, the owner of the account may be updated when the reporting task is passed on to another staff member.
+
+Creating Staff Account
+^^^^^^^^^^^^^^^^^^^^^^
+
+Local System Administrators can create staff accounts the same way as creating a patron record. The difference is choosing a staff profile from the Main Profile List.
+
+image
+
+Once the acount is saved, retrieve it. Go *Other -> User Permission* to assign the new account a working location.
+
+image
+
+CAUTION: Staff account without a working locatin can not register/edit patron account, or access some cataloguing functions.
+
+
+Creating Local System Administrator Accounts
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Local System Adminsitrator profile can only be assigned by Co-op staff.  Libraries may create a staff account first, submit a request to Co-op to upgrade the account to local system administrator. Please include the account's barcode in the request. 
+
+Editing Staff Accounts
+^^^^^^^^^^^^^^^^^^^^^^
+
+Staff memebers can update their username, password, and email addresses via *My Account* on OPAC. Local System Administrators can edit staff accounts.  Local System Adminsitors need to submit a request to Co-op support to edit other information in their accounts.
+
+
+Resetting Staff Account Password
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Staff passwords can be reset in four ways:
+
+. Edit your account in the staff client while signed in as yourself.
+
+. Use the Forgot Your Password? link in the OPAC.
+
+. You must have an email recorded in your account for this to method to work.
+
+. Have a staff member with Local System Administrator permissions assign a temporary password and then use method 1 or 2 to reset it to a secure password.
++
+This method only works if your account is not a Local System Administrator account.
+
+. Send in a request to Co-op Support to have a temporary password assigned and then use method 1 or 2 to reset it to a secure password.
+
+
+
+
