@@ -17,7 +17,7 @@ Organizational Units
 Copy Status
 ~~~~~~~~~~~
 
-This table below describes the copy statuses. 
+This table below describes the copy statuses with Sitka's property settings.
 
 
 [option="header"]
@@ -49,7 +49,7 @@ This table below describes the copy statuses.
 | Reshelving	| Item has been returned but not yet shelved. Status automatically changes to Available after 24 hours	| Yes	| Yes	| Yes	| Yes
 | Storage	| On-site or off-site storage	| Yes	| Yes	| Yes	| No
 | Temporarily Unavailable	| Not available for patrons to borrow but will become available at a later date	| No	| No	| Yes	| No
-
+|=====
 
 [TIP]
 =====
