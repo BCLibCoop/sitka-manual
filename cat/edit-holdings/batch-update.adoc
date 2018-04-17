@@ -16,11 +16,10 @@ image::images/cat/copy-batch-edit-1.png[]
 ======
 
 . When the selected copies do not share the same value in a field, the field is shown empty on the Copy Editor.
-. You may choose/type in one target value for one field for all selected items. 
-. You may select a few copies to edit, store them in the Completed Copies tab, then work on other copies. 
+. You may choose/type in one target value for one field for all selected items.
+. You may select a few copies to edit, store them in the Completed Copies tab, then work on other copies.
 =====
 
 *Batch Editing Copies in Copy Bucket*
 
-Go to *Cataloguing -> Copy Buckets*. Select the copy bucket from the Buckets dropdown list on Bucket View. Select the copies yo wish to edit on the list. Click *Actions -> Edit Selected Copies*.
-
+Go to *Cataloguing -> Copy Buckets*. Select the copy bucket from the Buckets dropdown list on Bucket View. Select the copies you wish to edit on the list. Click *Actions -> Edit Selected Copies*.
