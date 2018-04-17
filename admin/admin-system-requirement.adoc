@@ -18,7 +18,7 @@ Most of the bandwidth usage in a library is not from Evergreen, but from other u
 
 Staff terminals connect to the central database using the Evergreen staff client, available for download from https://bc.libraries.coop/support/staff-client-executables/. The Evergreen staff client must be installed on each staff workstation and requires at minimum:
 
-* Windows 10, 8, 7, or Vista operating system. Win 10 users may need to manage Win 10 privacy settings based on best practice in Windows community or on advice of your IT ,department or vendor.
+* Windows 10, 8, 7, or Vista operating system. Win 10 users may need to manage Win 10 privacy settings based on best practice in Windows community or on advice of your IT department or vendor.
 
 * Mac OS X operating system.
 * Linux operating system.

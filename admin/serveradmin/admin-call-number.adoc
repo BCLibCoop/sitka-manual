@@ -3,5 +3,18 @@ Call Number Prefix and Suffix
 
 
 
+If you library uses prefixes and/or suffixes in call numbers, you can build a standard list, which will be displayed as dropdown lists when creating/editing call number record.
 
-CAUTION: Call Number Prefix/Suffix created here are different from Label Prefix/Suffix created on Copy Location Editor. The former are displayed as part of call number in OPAC, while the latter are on printed labels only.
+This is how it looks on the call number creating/editing screen.
+
+image::images/admin/call-number-prefix-1.png[]
+
+To create a call number prefix/suffix, go to Administration -> Server Administration- > Call Number Prefix (Suffix)
+
+Click New Prefix (Suffix). Type in the label. Choose your library as the Owning Library, and then Save.
+
+image::images/admin/call-number-prefix-2.png[]
+
+To delete a prefix/suffix, check the record, and then click Delete Selected.
+
+TIP: Call Number Prefix/Suffix created here are different from Label Prefix/Suffix created on Copy Location Editor. The former are displayed as part of call number in OPAC, while the latter are on printed labels only.
