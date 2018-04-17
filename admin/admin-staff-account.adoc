@@ -68,12 +68,12 @@ Below is a general outline of staff account permission levels.  The list contain
 | Action	| General Staff	| Circulators	| Circ + Copy Edit	| Circ + Full Cat	| Catalogers	| Local System Administrator (LSA)
 | Basic circulation functions	| *	| *	| *	| *	| *	| *
 | CheckIn bad status overrides	| *	| *	| *	| *	| *	| *
-| CheckIn Missing/Lost/ClaimedReturned overrides|	| 	| *	| *	| *	 	| *
+| CheckIn Missing/Lost/ClaimedReturned overrides|	| *	| *	| *	| 	 	| *
 | CheckOut overrides	 	| *	| *	| *	 |	| *     |
 | MaxRenewalReached override	|	| *	| *	| *	| *	| *
 | Basic patron record	| *	| *	| *	| *	| *	| *     
 | Bar patrons	| *	| *	| *	| *	| 	| *            
-| Unbar patrons	 	| *	| *	| *	| 	| *     | 
+| Unbar patrons	 	| 	| *	| *	| *	|      | *
 | Merge/delete patrons	| 	| 	| 	|	| 	| *
 | Patron restriction overrides	 |	| *	| *	| *	| 	| *
 | Bills and payments	| *	| *	| *	| *	| 	| *
