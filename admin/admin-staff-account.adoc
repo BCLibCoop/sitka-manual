@@ -28,22 +28,22 @@ Local System Administrators can create staff accounts the same way as creating a
 
 image
 
-Once the acount is saved, retrieve it. Go *Other -> User Permission* to assign the new account a working location.
+Once the account is saved, retrieve it. Go *Other -> User Permission* to assign the new account a working location.
 
 image
 
-CAUTION: Staff account without a working locatin can not register/edit patron account, or access some cataloguing functions.
+CAUTION: Staff account without a working location can not register/edit patron account, or access some cataloguing functions.
 
 
 Creating Local System Administrator Accounts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Local System Adminsitrator profile can only be assigned by Co-op staff.  Libraries may create a staff account first, submit a request to Co-op to upgrade the account to local system administrator. Please include the account's barcode in the request. 
+Local System Administrator profile can only be assigned by Co-op staff.  Libraries may create a staff account first, submit a request to Co-op to upgrade the account to local system administrator. Please include the account's barcode in the request.
 
 Editing Staff Accounts
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Staff memebers can update their username, password, and email addresses via *My Account* on OPAC. Local System Administrators can edit staff accounts.  Local System Adminsitors need to submit a request to Co-op support to edit other information in their accounts.
+Staff members can update their username, password, and email addresses via *My Account* on OPAC. Local System Administrators can edit staff accounts.  Local System Administrators need to submit a request to Co-op support to edit other information in their accounts.
 
 
 Resetting Staff Account Password
@@ -68,7 +68,3 @@ Staff Account Permission Groups
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Below is a general outline of staff account permission levels. To view a detailed list of permissions for a particular Evergreen account, go to Administration -> User permission editor in the staff client. The list contains staff profiles for public libraries only. Corresponding profiles for other libraries have similar permissions.
-
-
-
-
