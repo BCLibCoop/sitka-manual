@@ -36,12 +36,12 @@ CAUTION: Staff account without a working location can not register/edit patron a
 Creating Local System Administrator Accounts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Local System Administrator profile can only be assigned by Co-op staff.  Libraries may create a staff account first, submit a request to Co-op to upgrade the account to local system administrator. Please include the account's barcode in the request.
+Local System Administrator profile can only be assigned by Co-op staff.  Libraries may create a staff account first, submit a request to Co-op support to upgrade the account to local system administrator. Please include the account's barcode in the request.
 
 Editing Staff Accounts
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Staff members can update their username, password, and email addresses via *My Account* on OPAC. Local System Administrators can edit staff accounts.  Local System Administrators need to submit a request to Co-op support to edit other information in their accounts.
+Staff members can update their username, password, and email addresses via either the staff client or My Account on OPAC. Local System Administrators can edit staff accounts.  Local System Administrators need to submit a request to Co-op support to edit other information in their accounts.
 
 
 Resetting Staff Account Password
@@ -49,9 +49,9 @@ Resetting Staff Account Password
 
 Staff passwords can be reset in four ways:
 
-. Edit your account in the staff client while signed in as yourself.
+. Edit your own account in the staff client while signed in as yourself.
 
-. Use the *Forgot Your Password?* link in the OPAC. You must have an email recorded in your account for this to method to work.
+. Use the *Forgot Your Password?* link in the OPAC. You must have an email address recorded in your account for this to method to work.
 
 . Have a staff member with Local System Administrator permissions assign a temporary password and then use method 1 or 2 to reset it to a secure password. Local system administrators can not use this method. 
 
@@ -61,4 +61,29 @@ Staff passwords can be reset in four ways:
 Staff Account Permission Groups
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Below is a general outline of staff account permission levels. To view a detailed list of permissions for a particular Evergreen account, go to Administration -> User permission editor in the staff client. The list contains staff profiles for public libraries only. Corresponding profiles for other libraries have similar permissions.
+Below is a general outline of staff account permission levels.  The list contains staff profiles for public libraries only. Corresponding profiles for other libraries have similar permissions. To view a detailed list of permissions for a particular Evergreen account, go to *Administration -> User Permission Editor* in the staff client.
+
+[option="header"]
+|====
+| Action	| General Staff	| Circulators	| Circ + Copy Edit	| Circ + Full Cat	| Catalogers	| Local System Administrator (LSA)
+| Basic circulation functions	| *	| *	| *	| *	| *	| *
+| CheckIn bad status overrides	| *	| *	| *	| *	| *	| *
+| CheckIn Missing/Lost/ClaimedReturned overrides|	| 	| *	| *	| *	 	| *
+| CheckOut overrides	 	| *	| *	| *	 |	| *     |
+| MaxRenewalReached override	|	| *	| *	| *	| *	| *
+| Basic patron record	| *	| *	| *	| *	| *	| *     
+| Bar patrons	| *	| *	| *	| *	| 	| *            
+| Unbar patrons	 	| *	| *	| *	| 	| *     | 
+| Merge/delete patrons	| 	| 	| 	|	| 	| *
+| Patron restriction overrides	 |	| *	| *	| *	| 	| *
+| Bills and payments	| *	| *	| *	| *	| 	| *
+| Holds	| *	| *	| *	| *	| *	| *     
+| Copy/volume records	 |	| 	| *	| *	| *	| *
+| Bib records	 |	 |	 |	| *	| *	| *
+| Buckets	| *	| *	| *	| *	| *	| *
+| View report output	| *	| *	| *	| *	| *	| *
+| Create/upload offline transactions	| *	| *	| *	| *	| *	| *
+| Process offline transactions	 |	 |	 |	| 	 |	| *
+| Transit	| *	| *	| *	| *	| *	| *
+| Abort remote transit	 |	 |	| *	| *	| *	| *
+====
