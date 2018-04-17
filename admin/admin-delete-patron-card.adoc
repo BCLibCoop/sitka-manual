@@ -17,6 +17,8 @@ Deleting Inactive Cards
 
 When a patron's card is marked lost and a new barcode is assigned, the old barcode remains in the Evergreen database as an inactive card. Deleting lost or inactive cards is optional. Patrons cannot check out items or log into the OPAC with an inactive card, but the lost cards can be used to retrieve active patron data in the staff client. Whether a library routinely deletes inactive cards is a matter of local policy.
 
+
+
 Deleting Patron Accounts
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
