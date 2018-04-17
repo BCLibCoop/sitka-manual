@@ -90,3 +90,25 @@ Below is a general outline of staff account permission levels.  The list contain
 
 NOTE: Only users with reporting permissions (granted by Sitka Support on libraries' request) can access the Reports interface, but the output can be visible to all staff accounts. Any staff requesting reporting permissions must sign and submit the Reporter Privacy Agreement see https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[Reporter Privacy Waiver].
 
+Granting Additional Permissions to Staff Accounts
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+A Local System Administrator (LSA) may selectively grant its permissions to other staff accounts. In the example below a Circ +Full Cat account is granted permission to process offline transactions, a function which otherwise requires an LSA login.
+
+. Log in to Evergreen with a local system administrator account.
+. Find the staff acount on *User Permission Editor*. You may search for the patron account, then go to *Others -> User Permission Editor*, or go to *Administration -> User Permission Editor* to search for the account by barcode. 
+. When User Permission Editor is loaded, scroll down the permission list to find *OFFLINE_EXECUTE*. Select the checkbox in *Applied* column. Scroll down to the bottom to click *Save*.
++
+image::images/admin/staff-account-2.png[]
+
+[TIP]
+====
+. *Permission*: List of permission names. For help correlating permissions to specific Evergreen functions please contact Co-op support.
+
+. *Applied*: If checked the permission is granted to this account.
+
+. *Depth*:  limits application to the staff member's library and should be left at the default. Evergreen blocks attempts to set Federation- or Sitka-wide privileges.
+
+.*Grantable*: If checked this staff account will be able to grant the new privilege to other accounts (not recommended).
+=====
+
