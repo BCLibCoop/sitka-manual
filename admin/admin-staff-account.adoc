@@ -17,7 +17,7 @@ Accounts are created for staff members and given the appropriate Library Staff p
 
 Accounts are created for functions, such as circulation, rather than for specific staff members and given the appropriate Library Staff permission group and working location. These accounts' barcodes and names are often related to their function. For example, an account for circulation may use circulation1 as the barcode and be named Dummy, Circulation. These accounts are shared by the appropriate staff. Sitka Staff strongly encourage libraries to ensure that shared usernames and passwords are kept secure and are changed as needed, especially when staff leave the library.
 
-Sitka encourages libraries to use the method or methods that work best for them.
+Co-op support encourages libraries to use the method or methods that work best for them.
 
 CAUTION: Generic accounts will not be granted permissions to create/run reports. Libraries are encouraged to have a dedicated account(s) for reporting purpose. The account must belong to an individual staff member and is for office use only. To avoid re-setting up reports, the owner of the account may be updated when the reporting task is passed on to another staff member.
 
@@ -27,6 +27,22 @@ Creating Staff Account
 Local System Administrators can create staff accounts the same way as creating a patron record. The difference is choosing a staff profile from the *Main Permission (Profile) Group* list.
 
 After saving the account, retrieve it, go to *Other -> User Permission Editor* to assign the new account a working location. Select the checkbox in front of the libraries that you want to assign to the account. Once done, scroll down to the bottom to click *Save*.
+
+image::images/admin/staff-account-1.png[]
+
+CAUTION: Staff account without a working location can not register/edit patron account, or access some cataloguing functions.
+
+
+Creating Local System Administrator Accounts
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Local System Administrator profile can only be assigned by Co-op staff.  Libraries may create a staff account first, submit a request to Co-op to upgrade the account to local system administrator. Please include the account's barcode in the request.
+
+Editing Staff Accounts
+^^^^^^^^^^^^^^^^^^^^^^
+
+Staff members can update their username, password, and email addresses via *My Account* on OPAC. Local System Administrators can edit staff accounts.  Local System Administrators need to submit a request to Co-op support to edit other information in their accounts.
+
 
 Resetting Staff Account Password
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
