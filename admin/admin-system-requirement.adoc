@@ -16,9 +16,9 @@ Most of the bandwidth usage in a library is not from Evergreen, but from other u
 
 *Staff Terminals*
 
-Staff terminals connect to the central database using the Evergreen staff client, available for download from https://bc.libraries.coop/support/staff-client-executables/ . The Evergreen staff client must be installed on each staff workstation and requires at minimum:
+Staff terminals connect to the central database using the Evergreen staff client, available for download from https://bc.libraries.coop/support/staff-client-executables/. The Evergreen staff client must be installed on each staff workstation and requires at minimum:
 
-* Windows 10, 8, 7, or Vista operating system. Win 10 users may need to manage Win 10 privacy settings based on best practice in Windows community or on advice of your IT * department or vendor.
+* Windows 10, 8, 7, or Vista operating system. Win 10 users may need to manage Win 10 privacy settings based on best practice in Windows community or on advice of your IT ,department or vendor.
 
 * Mac OS X operating system.
 * Linux operating system.
@@ -30,7 +30,7 @@ Staff terminals connect to the central database using the Evergreen staff client
 There is no stand-alone OPAC client for Evergreen. Patrons search the catalogue using a web browser. Each OPAC terminal will require at minimum:
 
 * a reliable high speed internet connection
-* a web browser (e.g. Firefox, Chrome or Internet Explorer)
+* a web browser, e.g. Firefox, Chrome or Internet Explorer
 
 NOTE: The OPAC will not work in Internet Explorer on computers running Windows XP. Co-op Support recommends you update your operating system or use Firefox or Chrome.
 
