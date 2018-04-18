@@ -11,9 +11,9 @@ New Web Staff Client (Web Client)
 * Workstations have to be registered the first time you access the new staff URL, and you must be an Evergreen Local System Administrator (LSA) to register workstations.
 All existing staff logins will work once a workstation is registered.
 
-* Hatch , available at xxxxxx, can be installed to print and to manage local settings. Use of Hatch is optional.
+* Hatch can be installed to print and to manage local settings. Use of Hatch is optional. See xref:download-hatch[Hatch]
 
-* The new web client looks and functions very similar to the old staff client. Menus,  and some workflows, are consistent with prior versions. There are  changes to cataloguing procedures, and changes to local preferences configuration, with modern browser functionality incorporated into all aspects of Evergreen.
+* The new web client looks and functions very similar to the old staff client. Menus,  and some workflows, are somewhat consistent with prior versions. There are  changes to cataloguing procedures, and changes to local preferences configuration, with modern browser functionality incorporated into all aspects of Evergreen.
 
 * The new web client is responsive to device and to screen size, and can look different on different devices.
 
@@ -27,8 +27,7 @@ Catalogue
 ~~~~~~~~~
 * Search patron by name and other values from Place Hold screen.
 * Option to suspend holds at time of placement is back.
-* Clickable Copy Locations (only if they actually work!!!)
-
+* Highlighted search terms in public and staff catalogue.
 Library Settings
 ~~~~~~~~~~~~~~~~
 * Number of Retrievable Recent Patrons enables the new Circulation menu choice, Retrieve X number of recent patron accounts

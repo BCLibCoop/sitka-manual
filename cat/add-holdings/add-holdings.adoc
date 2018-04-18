@@ -6,7 +6,7 @@ Adding a Single Volume/Copy
 
 . Search the catalogue for a record that matches the item in hand, as described in xref:_searching_the_database_for_cataloguing_purposes[]. If you do not find a match, refer to the  http://sitka.bclibraries.ca/governance/sitka-policy/[Sitka Cataloguing Policy] for recommendations on required procedures. If you do find a match, proceed to next step.
 
-. When the record details are loaded, click *Holdings View*, if not the default view.
+. When the record details are loaded, click *Holdings View*.
 +
 image::images/cat/add-holdings-1.png[]
 +
@@ -15,9 +15,9 @@ image::images/cat/add-holdings-1.png[]
 +
 image::images/cat/add-holdings-2.png[]
 +
-CAUTION: Make sure your browser allows Evergreen to open pop-up.
+CAUTION: Make sure your browser allows Evergreen to open pop-ups.
 +
-. Fill up the required fields in both volume and copy records. Refer to xref:_working_on_copy_attributes[] for information about individual fields in a copy record. To ensure data consistency, using copy template is recommended. Select one from the dropdown list, then click on *Apply*. Refer to xref:_volume_copy_template[] for more information.
+. Complete the required fields in both volume and copy records. Refer to xref:_working_on_copy_attributes[] for information about individual fields in a copy record. To ensure data consistency, using copy templates is recommended. Select one from the dropdown list, then click on *Apply*. Refer to xref:_volume_copy_template[] for more information.
 +
 image::images/cat/add-holdings-3.png[]
 +
@@ -36,13 +36,13 @@ image::images/cat/add-holdings-10.png[]
 Adding Multiple Volumes
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-. To add more than one volumes for the same library, use the arrow in the box underneath *Volumes* column to increase the number.
+. To add more than one volume for the same library, use the arrow in the box below *Volumes* column to increase the number.
 +
-. To add volumes for other libraries, use the down-pointed arrow in the *Owning Library* box right above *Working Copies* to list the libraries to choose one, then click on *Add Volume*.
+. To add volumes for other libraries, use the down-pointed arrow in the *Owning Library* box right above *Working Copies* to list the libraries, then click on *Add Volume*.
 +
 image::images/cat/add-holdings-4.png[]
 +
-. To create more than one copies for the same volume, use the arrow in the box under *Copies* column in the line of the volume you want to increase the number of copies.
+. To create more than one copy for the same volume, use the arrow in the box in *Copies* column of the volume record.
 
 
 [TIP]
@@ -58,25 +58,25 @@ Working on multiple copies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
-If you add multiple copies and they do not share the values in one or more item attributes, you may select to work on those that share item attributes first, temporarily store them to *Completed Copies* tab, then work on next batch of items sharing the same attributes. Save and exit when all copies are done.
+If you add multiple copies and they do not share the values in one or more item attributes, you may select to work on those that share item attributes first, temporarily store them to *Completed Copies* tab, then work on the next batch of items sharing the same attributes. Save and exit when all copies are done.
 
-. After you type in the barcode(s), copies are displayed under *Working Copies*. Select those copies that share the same item attribute values. Fill up the item attributes for these copies. Click on *Store Selected*.
+. After you enter the barcode(s), copies are displayed under *Working Copies*. Select those copies that share the same item attribute values. Complete the item attributes for these copies. Click on *Store Selected*.
 +
 image::images/cat/add-holdings-5.png[]
 +
-. Selected copies are moved to *Completed Copies* tab.
+. Selected copies are moved to the *Completed Copies* tab.
 +
-. Select more copies on *Working Copies*. Fill up the required fields. Once done, store them to *Completed Copies* tab or click on *Save & Exit*, if all are done.
+. Select more copies on *Working Copies*. Complete the required fields. Once done, store them in the *Completed Copies* tab, or click on *Save & Exit*, if all copies are done.
 +
 image::images/cat/add-holdings-6.png[]
 +
-. Completed copies may be edited. Go to *Completed Copies* tab. Select those you want to edit, click on *Edit Selected*.
+. Completed copies may be edited. Click the *Completed Copies* tab. Select those you want to edit, and click on *Edit Selected*.
 +
 image::images/cat/add-holdings-7.png[]
 +
-. Selected copies are moved back to *Working Copies* tab. You may edit them. After editing is done, you may store them to *Completed Copies* tab or *Save & Exit*, when all copies are done.
+. Selected copies are moved back to the *Working Copies* tabm where you can edit them. After editing, you can store them to the *Completed Copies* tab, or click *Save & Exit* when all copies are done.
 +
-. You may save copies on *Completed Copies* tab or *Save & Exit* from *Completed Copies* tab. When you choose to *Save Completed*, copies records are created in the database, but they remain on *Completed Copies* tab.
+. You can save copies on the *Completed Copies* tab or *Save & Exit* from *Completed Copies* tab. When you choose to *Save Completed*, copy records are created in the database, but they remain on the *Completed Copies* tab.
 +
 image::images/cat/add-holdings-8.png[]
 
