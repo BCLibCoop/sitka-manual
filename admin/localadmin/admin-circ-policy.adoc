@@ -11,14 +11,13 @@ A user with LSA privileges can view your library's circulation policies. Changes
 +
 image::images/admin/circ-policy-1.png[]
 
-+
 * The resulting screen provides a summary view of each circulation rule for your library, and more detail can be seen by clicking on the individual entries.
 
 * Select the individual circulation policy for viewing by double-clicking on the desired row.
 +
 The circulation rules are typically attached to the Org Unit (checkout library), User Permission Group, and Copy Circ Library and Circulation Modifier of the items being circulated. For example, the rule below is for items with circulating library of any BC_LIC library and circulation modifier of 'bookclub' to be checked out to all Public Library Patrons at BFSJ.
 +
-Each circulation rule defines the Loan Duration, Renewal, Recurring Fine, Maximum Fine, Grace Period and whether the item is allowed to circulate at all. For example, circulation items falling under the rule below would have a loan duration rule of '7_28_42_0', a recurring fine rule of 'twentycents' per day and a maximum fine amount of 'tendollar'.
+Each circulation rule defines the Loan Duration, Renewal, Recurring Fine, Maximum Fine, Grace Period and whether the item is allowed to circulate at all. For example, circulation items falling under the rule below would have a loan duration rule of "7_28_42_0", a recurring fine rule of "twentycents" per day and a maximum fine amount of "tendollar".
 +
 A rule is turned off, if the *Active* box is unchecked.
 +
