@@ -9,7 +9,7 @@ A user with LSA privileges can view your library's circulation policies. Changes
 
 * You can filter the display to show rules applied to selected materials, e.g. DVDs. Click *Filter* under Context Org Unit. In the popped up window, select *Org Unit* from the first dropdown list; *Is* from the second list, and your library or library system the third. Click *Add Row* to add a filter on circ-modifier. Click *Apply* to limit display to rules applied to the selected circ_modifier checked out at your library.
 +
-image::/images/circ-policy-1.png[]
+image::/images/admin/circ-policy-1.png[]
 +
 * The resulting screen provides a summary view of each circulation rule for your library, and more detail can be seen by clicking on the individual entries.
 
@@ -21,7 +21,7 @@ Each circulation rule defines the Loan Duration, Renewal, Recurring Fine, Maximu
 +
 A rule is turned off, if the *Active* box is unchecked.
 +
-image::/images/circ-policy-1.png[]
+image::/images/admin/circ-policy-1.png[]
 
 [TIP]
 ====
