@@ -3,7 +3,9 @@ Closed Date Editor
 
 anchor:closed-date-editor[Closed Date Editor]
 
-close date editor
+These dates are in addition to your regular weekly closed days (see xref:operation-hour[]).   Both regular closed days and those entered in the Closed Dates Editor affect due dates, fines, and targeting for holds:
+
+Hold Targeting. By default items at a closed library are not targeted for holds. This means that available items that patrons have placed holds on will not appear on the Holds Pull List until the next open day. If you wish items to be targeted when the library is closed to the public, perhaps staff are still working and would like to pull items for holds, you can use the library settings Target copies for a hold even if copy's circ lib is closed and Target copies for a hold even if copy's circ lib is closed IF the circ lib is the hold's pickup lib to override the default behaviour.
 
 
 

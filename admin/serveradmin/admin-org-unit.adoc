@@ -17,20 +17,23 @@ image::images/admin/org-unit-1.png[]
 NOTE: The Organizational Units screen flashes green when saving changes to any tab. If there is no flash or flash in red, please ensure you are using an LSA login and click Save again. Contact Co-op support if you still cannot save the changes.
 
 
-
+[[operation-hour]]
 Library Hours of Operation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Local System Administrators can use the Organizational Units interface to set the library's hours of operation. These are regular weekly hours; holiday and other closures are recorded in the Closed Dates Editor.
+Local System Administrators can use the Organizational Units interface to set the library's hours of operation. These are regular weekly hours; holiday and other closures are recorded in the xref:closed-date-editor[].
 
-Hours of operation and closed dates affect due dates and overdue fines.
+Hours of operation and closed dates affect due dates, overdue fines and holds targeting.
 
-* Due dates. Due dates that would fall on closed days are automatically pushed forward to the next open day.
+* Due dates: Due dates that would fall on closed days are automatically pushed forward to the next open day.
 
-* Overdue fines. Overdue fines are not charged on days when the library is closed.
+* Overdue fines: Overdue fines are not charged on days when the library is closed.
 
-To review or edit your library's hours of operation:
+* Hold Targeting: By default items at a closed library are not targeted for holds. This means that available items that patrons have placed holds on will not appear on the Holds Pull List until the next open day. If you wish items to be targeted when the library is closed to the public, perhaps staff are still working and would like to pull items for holds, you can use the library settings *Target copies for a hold even if copy's circ lib is closed* and *Target copies for a hold even if copy's circ lib is closed IF the circ lib is the hold's pickup lib* to override the default behaviour.
 
+To review or edit your library's hours of operation, go to *Hours of Operation* tab. Review your library's weekly hours, editing as necessary. To set a closed day click the corresponding *Closed* button. Closed days (Sunday in the example below) have open and close times of 00:00. Click *Save* to record any changes
+
+image::images/admin/org-unit-3.png[]
 
 Library Addresses
 ^^^^^^^^^^^^^^^^^
