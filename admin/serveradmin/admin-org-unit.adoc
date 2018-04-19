@@ -31,7 +31,7 @@ Hours of operation and closed dates affect due dates, overdue fines and holds ta
 
 * Hold Targeting: By default items at a closed library are not targeted for holds. This means that available items that patrons have placed holds on will not appear on the Holds Pull List until the next open day. If you wish items to be targeted when the library is closed to the public, perhaps staff are still working and would like to pull items for holds, you can use the library settings *Target copies for a hold even if copy's circ lib is closed* and *Target copies for a hold even if copy's circ lib is closed IF the circ lib is the hold's pickup lib* to override the default behaviour.
 
-To review or edit your library's hours of operation, go to *Hours of Operation* tab. Review your library's weekly hours, editing as necessary. To set a closed day click the corresponding *Closed* button. Closed days (Sunday in the example below) have open and close times of 00:00. Click *Save* to record any changes
+To review or edit your library's hours of operation, go to *Hours of Operation* tab. Review your library's weekly hours, edit if necessary. To set a closed day, click the corresponding *Closed* button. Closed days (Sunday in the example below) have open and close times of 00:00. Click *Save* to record any changes
 
 image::images/admin/org-unit-3.png[]
 
