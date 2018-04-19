@@ -67,7 +67,26 @@ include::opac/opac-integrated-eresource.adoc[]
 
 Reports
 =======
-include::reports/reports-permissions.adoc[]
+include::reports/report-overview.adoc[]
+
+include::reports/report-folder.adoc[]
+
+include::reports/report-create-template.adoc[]
+
+include::reports/report-generate-report.adoc[]
+
+include::reports/report-view-output.adoc[]
+
+include::reports/report-recurring-report.adoc[]
+
+include::reports/report-edit-recurring-report.adoc[]
+
+include::reports/report-shared-template.adoc[]
+
+include::reports/report-eg-table.adoc[]
+
+include::reports/report-db-term.adoc[]
+
 
 Serials
 =======

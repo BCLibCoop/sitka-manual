@@ -4,6 +4,7 @@ Cash Reports
 anchor:cash-report[Cash Reports]
 
 . Go to *Administration -> Cash Reports*.
++
 . Select the start date and the end date that you wish to run a cash report for.  You can either enter the date in the YYYY-MM-DD format, or click on the calendar icon to use the calendar widget.  
 . Select your library from the drop down menu.  Click *Submit*.
 . The output will show cash, check, and credit card payments.  It will also show amounts for credits, forgiven payments, work payments and goods payments (e.g. food for fines initiatives, replacement copy for lost item, etc.).  The output will look something like this:
