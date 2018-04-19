@@ -12,8 +12,8 @@ There are three email addresses on the notices besides the recipient's email: Fr
 Patrons can opt out of receiving overdue and courtesy notice emails in My Account under Notification Preferences.
 
 
-Pre-due Email Notice
-~~~~~~~~~~~~~~~~~~~~~
+Circulationn Pre-due Email Notice
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 Library pre-due notices are generated and sent via email to patrons three days before an item is due. Only patrons with email addresses in Evergreen receive pre-due notices.
@@ -27,8 +27,8 @@ Libraries can opt out of pre-due notices using the *org.opt_out_email_predue set
 CUATION: One checkout will receive only one pre-due notice. If the due date is extended via Edit Due Date after the pre-due notice is sent out, no new notice will be generated. Staff is encouraged to use Renew or Renew with Specific Due Date function instead of Edit Due Date to make sure a second notice will be generated in the due course.
 
 
-Overdue Notices
-~~~~~~~~~~~~~~~~
+Circulation Overdue Notices
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Overdue notices can be delivered via email, paper or phone.
 

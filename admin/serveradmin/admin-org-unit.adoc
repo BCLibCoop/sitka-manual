@@ -34,3 +34,25 @@ To review or edit your library's hours of operation:
 
 Library Addresses
 ^^^^^^^^^^^^^^^^^
+
+
+Addresses set in Organizational Units appear in patron email notifications, hold slips, and transit slips. Local System Adminstrators should ensure that the Mailing, Holds, and Physical addresses are set correctly.
+
+
+. Open the Organizational Units interface. Click the *Addresses* tab.
+
+. There are four address tabs: Mailing, Holds, Physical, and ILL. Co-op support recommends setting the first three at a minimum. The Holds Address appears on hold transit slips when items are sent to fulfill holds at another branch. The Mailing address is used in notices.
++
+image::images/admin/org-unit-2.png[]
++
+. Click *Save* to record changes for each tab.
+
+CAUTION: The value in *State* (Province) field in Mailing address is used to generate the URLs to My Account link in email notices. To ensure correct URLs, please always use BC for BC libraries or MB for Manitoba libraries.
+
+[NOTE]
+======
+
+. You may ignore the alert in *Zip* field. The value will be saved.
+. The Valid checkbox is an optional setting that does not affect current Evergreen functions, but the Sitka Support team recommends checking it for all correct addresses.
+
+
