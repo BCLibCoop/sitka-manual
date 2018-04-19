@@ -12,4 +12,5 @@ image::images/admin/cash-report-1.png[]
 
 TIP: By clicking on the hyperlinked column headers (i.e. workstation, cash_payment, check_payment, etc.) it is possible to sort the columns to order the payments from smallest to largest, or largest to smallest, or to group the workstation names.  
 
-NOTE: Customized payment reports can be created from the reports interface. Several shared templates are available under SITKA_templates -> Payments. For instructions on using shared templates see Chapter 33, Shared Templates in SITKA_templates
+NOTE: Customized payment reports can be created from the reports interface. Several shared templates are available under SITKA_templates -> Bills_Payments folder. For instructions on using shared templates see xref:_shared_sitka_templates[].
+
