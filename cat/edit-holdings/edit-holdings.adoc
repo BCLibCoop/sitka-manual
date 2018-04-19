@@ -3,13 +3,13 @@ Editing Holdings
 
 In Evergreen, the call number is kept in a separate record, called volume or call number record. (These two terms are used interchangably in this document.) Items under the same title with the same call number share the same call number record. Copy records and volume records can be edited at several places.
 
-*Editing Volume Copy on Item Status*
+*Editing Volume and Copy on Item Status*
 
 . Go to *Circulation  -> Item Status*
 +
 image::images/cat/edit-holding-1.png[]
 +
-. Scan or type in the barcode to retrieve the item. Select the item on the list. Click *Actions* dropdown list. Scroll down to *Edit*, then select *Volumes*, *Items* or *Volumes and Items*. In this example, we choose *Items*.
+. Scan or enter the barcode to retrieve the item. Select the item on the list. Click *Actions* dropdown list. Scroll down to *Edit*, then select *Volumes*, *Items* or *Volumes and Items*. In this example, we choose *Items*.
 +
 image::images/cat/edit-holding-2.png[]
 +
@@ -19,18 +19,20 @@ image:images/cat/edit-holding-3.png[]
 
 [TIP]
 =====
-You may use the *Hide Volume/Copy Detials* and *Hide Copy Attributes* buttons to choose to display volume or copy only or both volume and copy at the same time.
+Use the *Hide Volume/Copy Details* and *Hide Copy Attributes* buttons to choose to display volume or copy only, or both volume and copy at the same time.
 ====
 
-*Editing Volume Copy on Holdings Grid*
+*Editing Copy on OPAC View*
 
-You may access the copy editor on Record Details OPAC View. Click *Edit* beside the item barcode that you want to edit. The Copy editor opens in a new tab.
+You can access the copy editor in the catalogue on record details in the OPAC view.
+. Click *Edit* beside the item barcode that you want to edit. The copy editor opens in a new tab.
 
 image:images/cat/edit-holding-4.png[]
 
 anchor:edit-volume-copy-on-holdings-view[Edit Volume Copy on Holdings View]
-*Editing Volume Copy on Holdings View*
+*Editing Volume and Copy on Holdings View*
 
-You may edit volumes/copies on Record Details Holdings View. Select the item you want to edit, click *Actions* dropdown list. Scroll down to *Edit*. Click *Volumes*, *Copies* or *Volumes and Copies*. 
-
+. You can edit volumes and copies in the record's *Holdings View*.
+. Select the item you want to edit, click *Actions* dropdown list. Scroll down to *Edit*. Click *Volumes*, *Copies* or *Volumes and Copies*.
++
 image:images/cat/edit-holding-5.png[]
