@@ -103,9 +103,9 @@ image::images/admin/staff-account-2.png[]
 
 [TIP]
 ====
-. *Permission*: List of permission names. For help correlating permissions to specific Evergreen functions please contact Co-op support.
-. *Applied*: If checked the permission is granted to this account.
-. *Depth*:  limits application to the staff member's library and should be left at the default. Evergreen blocks attempts to set Federation- or Sitka-wide privileges.
-. *Grantable*: If checked this staff account will be able to grant the new privilege to other accounts (not recommended).
+* *Permission*: List of permission names. For help correlating permissions to specific Evergreen functions please contact Co-op support.
+* *Applied*: If checked the permission is granted to this account.
+* *Depth*:  limits application to the staff member's library and should be left at the default. Evergreen blocks attempts to set Federation- or Sitka-wide privileges.
+* *Grantable*: If checked this staff account will be able to grant the new privilege to other accounts (not recommended).
 =====
 
