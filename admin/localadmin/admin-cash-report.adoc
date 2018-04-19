@@ -1,5 +1,15 @@
 Cash Reports
 ~~~~~~~~~~~~
 
-anchor:cash-report[Cash Report]
-cash report
+anchor:cash-report[Cash Reports]
+
+. Go to *Administration -> Cash Reports*.
+. Select the start date and the end date that you wish to run a cash report for.  You can either enter the date in the YYYY-MM-DD format, or click on the calendar icon to use the calendar widget.  
+. Select your library from the drop down menu.  Click *Submit*.
+. The output will show cash, check, and credit card payments.  It will also show amounts for credits, forgiven payments, work payments and goods payments (e.g. food for fines initiatives, replacement copy for lost item, etc.).  The output will look something like this:
++
+image::images/admin/cash-report-1.png[]
+
+TIP: By clicking on the hyperlinked column headers (i.e. workstation, cash_payment, check_payment, etc.) it is possible to sort the columns to order the payments from smallest to largest, or largest to smallest, or to group the workstation names.  
+
+NOTE: Customized payment reports can be created from the reports interface. Several shared templates are available under SITKA_templates -> Payments. For instructions on using shared templates see Chapter 33, Shared Templates in SITKA_templates
