@@ -24,7 +24,7 @@ The pre-due notice template can be customized at the federation or library level
 
 Libraries can opt out of pre-due notices using the *org.opt_out_email_predue setting* in the Library Settings Editor.
 
-CUATION: One checkout will receive only one pre-due notice. If the due date is extended via Edit Due Date after the pre-due notice is sent out, no new notice will be generated. Staff is encouraged to use Renew or Renew with Specific Due Date function instead of Edit Due Date to make sure a second notice will be generated in the due course.
+CAUTION: One checkout will receive only one pre-due notice. If the due date is extended via Edit Due Date after the pre-due notice is sent out, no new notice will be generated. Staff is encouraged to use Renew or Renew with Specific Due Date function instead of Edit Due Date to make sure a second notice will be generated in the due course.
 
 
 Circulation Overdue Notices

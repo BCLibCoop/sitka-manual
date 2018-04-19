@@ -54,5 +54,4 @@ CAUTION: The value in *State* (Province) field in Mailing address is used to gen
 
 . You may ignore the alert in *Zip* field. The value will be saved.
 . The Valid checkbox is an optional setting that does not affect current Evergreen functions, but the Sitka Support team recommends checking it for all correct addresses.
-
-
+====
