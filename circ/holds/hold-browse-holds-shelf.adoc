@@ -1,5 +1,8 @@
 Holds Shelf List and Clearing Shelf-Expired Holds
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(((Holds Shelf List)))
+(((Browse Holds Shelf)))
+(((Clear Shelf-Expired Holds)))
 
 Items with *Ready for Pickup* status are on the *Holds Shelf* list. The function of the list is to help you manage items on the holds shelf, such as cancelling expired holds.
 
