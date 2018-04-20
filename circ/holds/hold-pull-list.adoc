@@ -1,12 +1,15 @@
 Pull List for Hold Requests
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(((Holds Pull List)))
+(((Holds, Holds Pull List)))
+
 Evergreen matches hold requests with available items in your library at regular intervals. Once a matching copy is found, the item's barcode number is assigned to the hold, and the item is put on the *Holds Pull List*. Staff print the *Holds Pull List* and search for the items on the shelves.
 
 The pull list is dynamic and is updated constantly. Once an item on the list is no longer available, or a hold on the list is captured, the items will disappear from the list. The pull list should be checked or printed at least once a day.
-
++
 . To retrieve your *Holds Pull List* select *Circulation → Pull List for Hold Requests*.
 . The *Holds Pull List* is displayed. By default the items on the list are grouped first by *Shelving Location*, then by *Call Number*. You can re-sort by clicking the column labels.
-
++
 image:images/circ/pulllist1.png[scaledwidth="75%"]
 
 TIP: The order of shelving locations can be adjusted on *Administration -> Local Administration -> Copy Location Order*.
@@ -18,7 +21,7 @@ Print or Export Pull List for Hold Requests
 . To print the default pull list, click *Print Full List*. The full list prints Type, Title, Author, Shelving Location, Call Number, and Item Barcode.
 . To print exactly what is displayed on the screen, click the *Column Picker → Print Full Grid*.
 . To export the holds pull list to a CSV file, click the *Column Picker → Download Full CSV*.
-
++
 image:images/circ/pulllist2.png[scaledwidth="75%"]
 
 
@@ -27,5 +30,5 @@ Hold Management from the Holds Pull List
 
 . Select a hold and click *Detail View* to display more information about the hold.
 . Select a hold and click *Actions* and make appropriate choices. You can perform the same tasks here as in the patron or title record, such as cancel or edit hold as required.
-
++
 image:images/circ/pulllist3.png[scaledwidth="75%"]

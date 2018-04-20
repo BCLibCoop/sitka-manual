@@ -1,5 +1,7 @@
 Re-targeting Holds
 ~~~~~~~~~~~~~~~~~~
+(((Re-Target Holds)))
+(((Holds, Re-Target Holds)))
 
 Newly created items, or items whose status was just changed from a non-holdable to a holdable status, may not trigger holds on regular check-in because these copies are not yet identified as hold targets. The holds targeter will eventually target such holds overnight, or you can re-target them immediately. Re-targeting a hold means Evergreen searches for an available copy for the hold right away, and puts it on the *Holds Pull List* if found. If there is no available copy, the hold's status will be set to *Wait for copy*.
 

@@ -1,5 +1,7 @@
 When Will An Item Go In Transit?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(((Transit)))
+(((In Transit)))
 
 Evergreen’s *In Transit* feature is used to keep track of items transferring among branches within a library system or between separate Sitka libraries. It makes it easy for libraries to provide services such as allowing patrons to return items at any branch or Sitka library, or place holds on items belonging to another branch or library. Sitka services such as BC _ILC and SPRUCE ILL are possible because of Evergreen's *In Transit* functionality.
 
