@@ -3,20 +3,48 @@ Copy Alert Suppression
 anchor:copy-alert-suppression[Copy Alert Suppression]
 copy alert suppression
 
+You may suppress some copy alerts from showing up on the corresponding staff action. For example, you may choose to suppress the alert when checking out a missing copy.
+
+Go to *Administration -> Local Administration -> Copy Alert Suppression* . Click *Create*. In the pop-up window, select the Alert Type from the dropdown list. Make sure your library is in the Orf Unit box. Click *Save*.
+
+image::images/admin/copy-alert-1.png[]
+
 
 Copy Location Editor
 ~~~~~~~~~~~~~~~~~~~~
 
 anchor:copy-location-editor[Copy Location Editor]
-copy location editor
 
 
+. elect Administration-> Local Administration-> Copy Locations Editor.
+
+. You can create new copy locations (aka shelving location), or edit existing copy locations. To create a new shelving location, type in the name, and select Yes or No for the various attributes: OPAC Visible, Holdable, Circulate, Hold Verify and Checkin Alert. Click Create a new copy location.
++
++* *Holdable* means a patron is able to place a hold on an item in this location.
++* *Hold Verify*, if set up, will generate a prompt when an item is captured for a hold.
++* *Checkin Alert* will prompt staff to route the item to the location when checking in items with this location.
++* *Label Prefix* and *Label Suffix*, if set up, will be automatically included when printing spine labels
++
+image::images/admin/copy-location-1.png[]
+
+. In the bottom part of the Copy Locations Editor you can edit or delete existing copy locations. You cannot delete a location that contains items. In this example the copy location Adult Fiction is being edited.
++
+image::images/admin/copy-location-2.png[]
+
+Click *Translate* to enter optional translations of copy location titles for OPAC display when patrons select other languages.
+
+Text in the Label prefix and Label suffix fields will automatically be added to spine labels printed for items in the selected copy location. It does not affect OPAC or staff client display.
+ 
+TIP: Whether an item can be circulated, holdable or visible on OPAC is controlled by three factors: item status, shelving location and item attributes (the options in the Copy Editor). Evergreen follows the aforementioned sequence to check the value of each factor until it encounters a NO. An item can be circulated, holdable or visible on OPAC when all three factors are set to YES.
+
+NOTE: After creating or deleting a copy location, log out of the staff client and clear the cache to ensure changes are reflected in the copy editor. This is not required for edits to existing copy locations.
+ 
 Copy Location Group
 ~~~~~~~~~~~~~~~~~~~~
 
 anchor:copy-location-group[Copy Location Group]
 
-copy location group
+
 
 
 Copy Location Order
