@@ -3,8 +3,8 @@ Group Penalty Thresholds
 anchor:group-penalty-threshold[Group Penalty Thresholds]
 
 
-(((location administration, circulation limit)))
-Group Penalty Thresholds block circulation transactions for users who exceed maximum check out limits, number of overdue items, or fines. Settings for your library are visible under Administration -> Local Administration-> Group Penalty Thresholds. There are four penalties in use now.
+(((location administration, Circulation limit)))
+Group Penalty Thresholds block circulation transactions for users who exceed maximum check out limits, number of overdue items, or fines. Settings for your library are visible under *Administration -> Local Administration-> Group Penalty Thresholds*. There are four penalties in use now.
 
 
 * PATRON_EXCEEDS_FINES:	Blocks new circulations and renewals if patron exceeds X in fines
@@ -15,4 +15,22 @@ Group Penalty Thresholds block circulation transactions for users who exceed max
 Accounts that meet or exceed penalty thresholds display an alert message when opened and require staff overrides for blocked transactions.
 
 image:images/admin/group-penalty-1.png[]
+
+Group Penalty Thresholds may be set up on different levels in terms of patron profiles and libraries. Penalties on more specific levels of profile and/or library take precedence. This allows you to set up penalties on a higher level of profile, e.g. Public Library Patrons, and/or library, e.g. system instead of branch, for most profiles and/or branches to share. If there are rules applied to lower level profiles, e.g. PL Juvenile or a branch, you just need to set them up for these specific profile/branch.
+
+There are a set of penalties on Sitka level for all patrons. These rules will be applied if your library does not have your own rules.
+
+*Creating local penalty thresholds*
+
+Local System Administrators can created local penalty thresholds. Go to *Administration -> Local Administration -> Group Penalty Threshold*. Click *New Penalty Threshold*. Choose/enter the appropirate value for each field. Click *Save*.
+
+image:images/admin/group-penalty-2.png[]
+
+*Editing local penalty thresholds*
+
+Double clicking a penalty on the list will open it in editing mode. Edit, then save.
+
+*Deleting local penalty thresholds*
+
+Select the checkbox in fron the penalty you wish to delete, click *Delete Selected*.
 
