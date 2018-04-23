@@ -11,17 +11,15 @@ This is where you configure your statistical categories (stat cats).  Stat cats 
 . To create a new stat cat, enter the name of the stat cat and select *Copy* or *Patron* in the dropdown menu. Check the respective *On* or *Off* radio buttons beside each option. And then click *Create new statistical category*.
 
 *OPAC Visiblity*: If On, the stat cat and its value are displayed in Copy Details on OPAC.
-
 *Required*: If On, the stat cat becomes mandatory.
-
 *Archive with Circs*: If On, the stat cat and its value are kept in aged circulation records.
-+
+
 image::images/admin/stat-cat-1.png[]
-+
+
 . To add stat cat values, click *Add* in the line of the stat cat. Type in the value, then click *Create new entry* button. Confirm on the prompt. Repeat these steps if you need add more values.
-+
+
 image::images/admin/stat-cat-2.png[]
-+
+
 . Clicking *Edit* on the above screen allows you to change the stat cat name and/or its properties.
 
 *Copy stat cats*: The image above shows some examples of copy stat cats. You would see these when editing items in the Volume Copy Editor You might use copy stat cats to track books you have bought from a specific vendor, or donations.
