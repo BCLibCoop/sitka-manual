@@ -1,7 +1,6 @@
 Copy Alert Suppression
 ~~~~~~~~~~~~~~~~~~~~~~
 anchor:copy-alert-suppression[Copy Alert Suppression]
-copy alert suppression
 
 You may suppress some copy alerts from showing up on the corresponding staff action. For example, you may choose to suppress the alert when checking out a missing copy.
 
@@ -20,10 +19,10 @@ anchor:copy-location-editor[Copy Location Editor]
 
 . You can create new copy locations (aka shelving location), or edit existing copy locations. To create a new shelving location, type in the name, and select Yes or No for the various attributes: OPAC Visible, Holdable, Circulate, Hold Verify and Checkin Alert. Click Create a new copy location.
 +
-+* *Holdable* means a patron is able to place a hold on an item in this location.
-+* *Hold Verify*, if set up, will generate a prompt when an item is captured for a hold.
-+* *Checkin Alert* will prompt staff to route the item to the location when checking in items with this location.
-+* *Label Prefix* and *Label Suffix*, if set up, will be automatically included when printing spine labels
+* *Holdable* means a patron is able to place a hold on an item in this location.
+* *Hold Verify*, if set up, will generate a prompt when an item is captured for a hold.
+* *Checkin Alert* will prompt staff to route the item to the location when checking in items with this location.
+* *Label Prefix* and *Label Suffix*, if set up, will be automatically included when printing spine labels
 +
 image::images/admin/copy-location-1.png[]
 
@@ -57,4 +56,9 @@ Copy Tag
 ~~~~~~~~
 
 anchor:copy-tag[Copy Tag]
+
+Libraries may add searchable copy tags to *Digital Bookplate*. Go to *Administration -> Local Administration -> Copy Tag*. Click *New Record* to add new tags. Select *Digital Bookplate* from the Copy Tag Type dropdown list. Type in a label and value, if needed. Select *Is OPAC Visible?* checkbox if you wish the tag to show up on OPAC, Choose your library from the Owner dropdown list. Click *Save*.
+
+image::images/admin/copy-tag-1.png[]
+
 

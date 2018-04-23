@@ -27,5 +27,5 @@ image::images/admin/circ-policy-2.png[]
 ====
 * Circulation policies define the loan duration, renewals, recurring fine rate, maximum fine amount, grace period and maximum items out rules for different combinations of User Permission Groups and Home Library, and Circ Modifiers for items checked out at your library or library system. Other item attributes may be used for more specific rules. Please contact Co-op support.
 
-* There may be more than one policies applicable certain types of materials. Generally policies on more specific levels, e.g. BFSJ instead of BC_ILC, take procedence. When in doubt, please contact Co-op support.
+* There may be more than one policies applicable to certain types of materials. Generally, policies on more specific levels, e.g. BFSJ instead of BC_ILC, take procedence. When in doubt, please contact Co-op support.
 ====
