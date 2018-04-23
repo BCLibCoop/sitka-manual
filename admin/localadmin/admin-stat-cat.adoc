@@ -4,9 +4,37 @@ Statistical Category Editor
 
 anchor:stat-cat[Statistical Category Editor]
 
-Statistical Category Editor
+This is where you configure your statistical categories (stat cats).  Stat cats are a way to save and report on additional information that doesn’t fit elsewhere in Evergreen's default records.  It is possible to have stat cats for copies or patrons.  
+
+. Select Administration -> Local Administration-> Statistical Categories Editor.
+
+. To create a new stat cat, enter the name of the stat cat and select *Copy* or *Patron* in the dropdown menu. Check the respective *On* or *Off* radio buttons beside each option. And then click *Create new statistical category*.
+
+*OPAC Visiblity*: If On, the stat cat and its value are displayed in Copy Details on OPAC.
+
+*Required*: If On, the stat cat becomes mandatory.
+
+*Archive with Circs*: If On, the stat cat and its value are kept in aged circulation records.
++
+image::images/admin/stat-cat-1.png[]
++
+. To add stat cat values, click *Add* in the line of the stat cat. Type in the value, then click *Create new entry* button. Confirm on the prompt. Repeat these steps if you need add more values.
++
+image::images/admin/stat-cat-2.png[]
++
+. Clicking *Edit* on the above screen allows you to change the stat cat name and/or its properties.
+
+*Copy stat cats*: The image above shows some examples of copy stat cats. You would see these when editing items in the Volume Copy Editor You might use copy stat cats to track books you have bought from a specific vendor, or donations.
+
+image::images/admin/stat-cat-3.png[]
+
+*Patron stat cats*: Below are some examples of patron stat cats.  Patron stat cats can be used to keep track of information like the high school a patron attends, or the home library for a consortium patron, e.g. InterLink. You would see these in the lower part of registration/edit patron screen.
+
+image::images/admin/stat-cat-4.png[]
+
+There are two more options when creating a patron stat cat: Allow Free Text allows staff to type in the values when on patron registration/edit screen; Show in Summary displays the stat cat, if there is a value, in patron summary.
+
+This is what the patron stat cat looks like in the patron registration screen.
 
 
-
-
-
+image::images/admin/stat-cat-5.png[]
