@@ -14,7 +14,7 @@ The first screen provides a summary view of each hold rule for your library, and
 
 image::images/admin/hold-policy-1.png[]
 
-Select the individual hold policy for viewing by double-clicking on the desired row.  In the below example, all Sitka public library patrons, including all profiles under Public Library Patron, are able to place holds on BPE library’s items of any circulation modifier and pick up these items at BPE library. The hold limit is 9999, meaning no limit.
+Select the individual hold policy for viewing by double-clicking on the desired row.  In the below example, all Sitka public library patrons, including all profiles under Public Library Patron, are able to place holds on BPE library's items of any circulation modifier and pick up these items at BPE library. The hold limit is 9999, meaning no limit.
 
 image::images/admin/hold-policy-2.png[]
 
