@@ -1,11 +1,22 @@
 Non-catalogued Type Editor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+(((Non-catalouged circulation type)))
+(((In-house use type)))
+
 
 anchor:non-catalogued-type[Non-catalogued Type Editor]
 
-non-catalogued type editor
+This is where you configure your non-catalogued amd/or in-house types that appear in the dropdown menu for non-catalogued circulations/in-house use.
+
+Go to *Adminitration -> Local Administration -> Non-catagloged Type Editor*. To create a new non-catalogued circulation, type in a name, a loan period, click *Create*. Select the *Circulate In-House* box for non-catalogued items that will circulate in house.  This can be used to manually track computer use, or meeting room rentals.  
+
+image::images/admin/non-cat.png[]
 
 
+This is what the dropdown menu for non-catalogued circulations in the patron checkout screen looks like:
+
+
+image::images/admin/non-cat.png[]
 
 
 
