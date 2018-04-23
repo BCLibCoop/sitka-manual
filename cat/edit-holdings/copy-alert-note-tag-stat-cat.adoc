@@ -52,7 +52,7 @@ NOTE: Notes can not be edited. But you may delete, then add new ones. There can 
 Copy Tag
 ^^^^^^^^
 
-You may add a piece of searchable information to copy records. It is grouped under search type *Digital Bookplate* on the catalouge. It is added via *Copy Tags* on copy editor. Libraries may pre-create their own tags. Refer to xref:ff[]
+You may add a piece of searchable information to copy records. It is grouped under search type *Digital Bookplate* on the catalouge. It is added via *Copy Tags* on copy editor. Libraries may pre-create their own tags. Refer to xref:_copy_tag[]
 
 Search by copy tag *Digital Bookplate* on the catalogue.
 
@@ -62,7 +62,7 @@ To add a copy tag, go to copy editor. Click *Copy Tags*. Type a letter in the Ta
 
 image::images/cat/copy-alert-6.png[]
 
-Copy tag is displayed on the catalogue.
+OPAC visible copy tag is displayed on the catalogue.
 
 image::images/cat/copy-alert-7a.png[]
 

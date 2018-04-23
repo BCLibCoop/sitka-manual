@@ -2,4 +2,17 @@ Group Penalty Thresholds
 ~~~~~~~~~~~~~~~~~~~~~~~~
 anchor:group-penalty-threshold[Group Penalty Thresholds]
 
-Group Penalty Threshohlds
+
+(((location administration, circulation limit)))
+Group Penalty Thresholds block circulation transactions for users who exceed maximum check out limits, number of overdue items, or fines. Settings for your library are visible under Administration -> Local Administration-> Group Penalty Thresholds. There are four penalties in use now.
+
+
+* PATRON_EXCEEDS_FINES:	Blocks new circulations and renewals if patron exceeds X in fines
+* PATRON_EXCEEDS_OVERDUE_COUNT:	Blocks new circulations if patron exceeds X overdue items
+* PATRON_EXCEEDS_CHECKOUT_COUNT:	Blocks new circulations if patron exceeds X items out
+* PATRON_EXCEEDS_LOST_COUNT:	Blocks new circulations if patron exceeds X lost items
+
+Accounts that meet or exceed penalty thresholds display an alert message when opened and require staff overrides for blocked transactions.
+
+image:images/admin/group-penalty-1.png[]
+
