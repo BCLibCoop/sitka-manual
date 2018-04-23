@@ -3,8 +3,28 @@ Survey
 
 anchor:admin-survey[Survey]
 
-survey
+This section illustrates how to create a survey, shows where the survey responses are saved in the patron record, and explains how to report on surveys.
 
+Surveys questions can be optional or required. Surveys come up when a patron is first registered and edited subsequently. Required survey questions have to be answered whenever the patron record is edited. Some examples of survey questions might include: Would you use the library if it were open on a Sunday? Would you like to be contacted by the library to learn about new services? Do you attend library programs?
 
+To find out the survey result you need to run reports on survey questions. For example, you could find out how many people say they would use the library if it were open on a Sunday, or you could get a list of patrons who say they would like to receive marketing material from the library. There is a shared template for reporting on patron surveys under SITKA_templates -> Patrons -> Other folder. See xref:_shared_sitka_templates[] for more about shared templates and contact Co-op support if you need help tweaking this template.
 
+. Go to *Administration -> Local Administration -> Surveys*.
 
+. The Survey List will open. In this example the table is empty because no surveys have been created. Click *Add New Survey*.
++
+image::images/admin/survey-1.png[]
++
+. Fill out the New Survey form, then click *Save Changes*.
++
+* *Start Date* must always be in the future. It is not possible to add questions to a survey after the start date.
+* Dates should be in YYYY-MM-DD format
+* *OPAC Survey?* and *Poll Style?* are not yet implemented - leave unchecked
+* Check *Is Required*: if the survey should be mandatory for all patron registration and update
+* Check *Display in User Summary* to make survey answers visible in patron records in *Other* -> *Surveys*.
+* Surveys can not only start from a future date.
++
+. A summary of your new survey will appear. Type the first survey question in the *Question* field, then click *Save Question & Add Answer*. Survey questions are multiple choice.
+. Enter possible multiple choice answers and click *Add Answer*. Each question may have as many answers as you like.>
+. Repeat the steps above to add as many questions and answers as you wish. When finished click Save, then Go Back to return to the survey list.
+. Your new survey will appear in the Survey List table. To make further changes click the survey name to open the detailed view.
