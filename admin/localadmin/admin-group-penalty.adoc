@@ -12,6 +12,8 @@ Group Penalty Thresholds block circulation transactions for users who exceed max
 * PATRON_EXCEEDS_CHECKOUT_COUNT:	Blocks new circulations if patron exceeds X items out
 * PATRON_EXCEEDS_LOST_COUNT:	Blocks new circulations if patron exceeds X lost items
 
+NOTE: Other penalties are not used by Sitka.
+
 Accounts that meet or exceed penalty thresholds display an alert message when opened and require staff overrides for blocked transactions.
 
 image:images/admin/group-penalty-1.png[]
@@ -25,6 +27,8 @@ There are a set of penalties on Sitka level for all patrons. These rules will be
 Local System Administrators can created local penalty thresholds. Go to *Administration -> Local Administration -> Group Penalty Threshold*. Click *New Penalty Threshold*. Choose/enter the appropirate value for each field. Click *Save*.
 
 image:images/admin/group-penalty-2.png[]
+
+TIP: You may set up penalties with too_high_to_reach limit to achieve the no limit effect.
 
 *Editing local penalty thresholds*
 

@@ -3,8 +3,18 @@ Hold Policy
 
 anchor:hold-policy[Hold Policy]
 
-hold policy
+The Hold Policy for each library or library system defines who can place how many holds on what types of materials. It also defines whether the library's materials can be used to fill holds picked up at other libraries. Hold policies are usually defined by a combination of the Requestor Permission Group (eg. Public Library Users, Public Library Staff etc.), item attributes like circulation modifier (eg. books, juvenile-collection etc.), and library (user home, items' owning and circulating library) with additional parameters of maximum holds and whether a hold can be placed at all. Transit Range defines where the library's materials can go to fill holds.
 
 
+Local system administrators can view your library's hold policies. Changes to hold policies can be requested through Co-op support team.
 
+To view hold policies, go to *Administration -> Local Administration -> Hold Policies*. Select your library from the drop down list after *Context Org Unit*. 
+
+The first screen provides a summary view of each hold rule for your library, and more detail can be seen by clicking on the individual entries.
+
+image::images/admin/hold-policy-1.png[]
+
+Select the individual hold policy for viewing by double-clicking on the desired row.  In the below example, all Sitka public library patrons, including all profiles under Public Library Patron, are able to place holds on BPE library’s items of any circulation modifier and pick up these items at BPE library. The hold limit is 9999, meaning no limit.
+
+image::images/admin/hold-policy-2.png[]
 
