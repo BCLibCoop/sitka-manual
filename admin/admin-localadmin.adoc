@@ -12,6 +12,8 @@ include::localadmin/admin-copy.adoc[]
 
 include::localadmin/admin-group-penalty.adoc[]
 
+include::localadmin/admin-recall.adoc[]
+
 include::localadmin/admin-hold-policy.adoc[]
 
 include::localadmin/admin-lse.adoc[]
