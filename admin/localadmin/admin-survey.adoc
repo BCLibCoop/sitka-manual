@@ -25,6 +25,36 @@ image::images/admin/survey-1.png[]
 * Surveys can not only start from a future date.
 +
 . A summary of your new survey will appear. Type the first survey question in the *Question* field, then click *Save Question & Add Answer*. Survey questions are multiple choice.
-. Enter possible multiple choice answers and click *Add Answer*. Each question may have as many answers as you like.>
-. Repeat the steps above to add as many questions and answers as you wish. When finished click Save, then Go Back to return to the survey list.
-. Your new survey will appear in the Survey List table. To make further changes click the survey name to open the detailed view.
++
+image::images/admin/survey-2.png[]
++
+. Enter possible multiple choice answers and click *Add Answer*. Each question may have as many answers as you like.
++
+image::images/admin/survey-3.png[]
++
+. Repeat the steps above to add as many questions and answers as you wish. Once finished, click a *Save Changes* button. Use browser back button to go back.
+. Your new survey will appear in the Survey List table. To make further changes click the survey name to open the detailed view. To end a survey before the end date, you may select it, then click *End Survey*. 
++
+image::images/admin/survey-4.png[]
+
+This is what the survey looks like in the patron registration/edit screen. Note that in this example this survey question appears in red and is required as the Is Required box was checked when creating the survey.
+
+
+image::images/admin/survey-5.png[]
+To see a patron's response to a survey, retrieve the patron record. Click *Other-> Surveys* to see the response.
+
+image::images/admin/survey-6.png[]
+
+[TIP]
+=====
+Survey questions show up in patron account only after the start date. They disappear after the end date. 
+=====
+
+
+
+*Reporting on Surveys*
+(((admin, Survey result)))
+
+There is a shared report template for reporting on patron surveys on the report interface, under *SITKA_templates -> Patrons -> Other* folder. For more information about shared templates, refer to xref:_shared_sitka_templates[]. If you need help tweaking this template please contact Co-op support.
+
+
