@@ -7,7 +7,7 @@ This section illustrates how to create a survey, shows where the survey response
 
 Surveys questions can be optional or required. Surveys come up when a patron is first registered and edited subsequently. Required survey questions have to be answered whenever the patron record is edited. Some examples of survey questions might include: Would you use the library if it were open on a Sunday? Would you like to be contacted by the library to learn about new services? Do you attend library programs?
 
-To find out the survey result you need to run reports on survey questions. For example, you could find out how many people say they would use the library if it were open on a Sunday, or you could get a list of patrons who say they would like to receive marketing material from the library. There is a shared report template for reporting on patron surveys under *SITKA_templates -> Patrons -> Other*folder. See xref:_shared_sitka_templates[] for more about shared templates and contact Co-op support if you need help tweaking this template.
+To find out the survey result you need to run reports on survey questions. For example, you could find out how many people say they would use the library if it were open on a Sunday, or you could get a list of patrons who say they would like to receive marketing material from the library. There is a shared report template for reporting on patron surveys under *SITKA_templates -> Patrons -> Other* folder. See xref:_shared_sitka_templates[] for more about shared templates and contact Co-op support if you need help tweaking this template.
 
 . Go to *Administration -> Local Administration -> Surveys*.
 
