@@ -64,7 +64,7 @@ image::images/cat/spine-label-8.png[]
 
 *Settings* is the place where you set up the format of the printing and the label. Settings here will override the group of settings under Item Print Label on Library Settings Editor. 
 
-*Label Template* includes the script used to do the printing job. The top portion is the explanation. The code for printing contents and format starts from *<table ... *.
+*Label Template* includes the script used to do the printing job. The top portion is the explanation. The code for printing contents and format starts from *<table ...*.
 
 image::images/cat/spine-label-9.png[]
 
