@@ -28,7 +28,7 @@ You can add notes to patron accounts that can be viewed by staff, and can be sha
 . To insert or remove a note, retrieve patron account and click *Other → Notes*.
 . Click *Add New Note*
 . Enter note and click *OK*.
-
++
 image:images/circ/patronalert1.png[scaledwidth="75%"]
 
 The patron account will display a *Notes* icon while the note is present.
@@ -40,7 +40,7 @@ You can also enter Alerts, Notes, and Blocks on the *Messages* tab.
 . Click *Messages* tab.
 . Click *Apply Penalty/Message*.
 . Select *Note*, *Alert*, or *Block*, enter text, and click *OK*.
-
++
 image:images/circ/patronalert2.png[scaledwidth="75%"]
 
 To edit, remove, or archive messages, select the message and click *Actions* and follow the on screen prompts.
