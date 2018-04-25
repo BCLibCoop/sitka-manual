@@ -1,25 +1,27 @@
 Batch Editing Copies
 ~~~~~~~~~~~~~~~~~~~~
 
-You may edit copies in batch on *Items Status* screen or in *Copy Bucket*. On *Holdings View*, you may edit a few selected copies under the same title.
+You can edit copies in batch on the *Item Status* screen, or in *Copy Bucket*. On *Holdings View*, you can edit a few selected copies under the same title.
 
 
 *Batch Editing Copies on Item Status Screen*
 
-On Item Status screen, scan the barcodes to retrieve the copies you want to edit. Alternatively you may load copies from a CSV file of a list of barcodes. Click *Choose File* to load the file. Once items are displayed, select those you want to edit,  go to *Actions* dropdown list, scroll down to *Edit*, click *Items*.
-
-Copy Editor opens in a new tab. You may edit the copies. Click *Save & Exit* once done.
-
+. Scan the barcodes to retrieve the copies you want to edit, or load copies from a CSV file of a list of barcodes.
+. Select records to edit,  click *Actions* dropdown list, scroll down to *Edit*, and click *Items*.
+. Copy Editor opens in a new tab. Edit the copies and click *Save & Exit*.
++
 image::images/cat/copy-batch-edit-1.png[]
 
 [NOTE]
 ======
 
-. When the selected copies do not share the same value in a field, the field is shown empty on the Copy Editor.
-. You may choose/type in one target value for one field for all selected items.
-. You may select a few copies to edit, store them in the Completed Copies tab, then work on other copies.
+. When the selected copies do not share the same value in a field, the field is empty on the Copy Editor.
+. To update all selected copies to one shared value, for example *Shelving Location*, edit that attribute in Copy Editor in first record.
+. You can select a few copies to edit, store them in the *Completed Copies* tab, then work on other copies.
 =====
 
 *Batch Editing Copies in Copy Bucket*
 
-Go to *Cataloguing -> Copy Buckets*. Select the copy bucket from the Buckets dropdown list on Bucket View. Select the copies you wish to edit on the list. Click *Actions -> Edit Selected Copies*.
+. Click *Cataloguing -> Copy Buckets*.
+. Select a copy bucket from the *Buckets* dropdown list.
+. Select the copies you wish to edit and click *Actions -> Edit Selected Copies*.

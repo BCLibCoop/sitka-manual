@@ -25,14 +25,15 @@ Many circulation functions are available under the *Actions* menu. Common tasks 
 
 . Select item and click *Actions* to make choice.
 . Click on down arrow to scroll through options.
-
++
 image:images/circ/itemstatus3.png[scaledwidth="75%"]
+
 
 Upload from File (Choose file)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This feature uploads multiple item barcodes saved in a text file on your local computer. To ensure smooth uploading and further processing of the items, it is recommended that the list contain no more than 100 items.
 
+. Click *Choose File* and follow on screen prompts.
++
 image:images/circ/itemstatus4.png[scaledwidth="75%"]
-
-See .....
