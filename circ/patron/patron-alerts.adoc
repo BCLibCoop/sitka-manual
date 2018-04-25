@@ -1,5 +1,11 @@
 Patron Alerts, Notes, Messages, and Notifications
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+(((Patron Messages)))
+(((Patron Alerts)))
+(((Patron Notifications, Action Triggers)))
+(((Triggered Events)))
+
 Patron Alerts
 ^^^^^^^^^^^^^
 If a patron’s account has an alert, a red *Stop* sign is displayed when the account is retrieved. There are three types of alerts in Evergreen: staff-generated, system-generated, and standing penalties.
@@ -50,7 +56,7 @@ Based on your library's setting, staff initials may be required when creating a 
 
 Patron Notifications
 ^^^^^^^^^^^^^^^^^^^^
-Evergreen sends various email and SMS (text) messages to patrons via Action Triggers.  Triggered events are viewable on the staff client in patron or item records.
+Evergreen sends various email and SMS (text) messages to patrons via *Action Triggers*.  Triggered events are viewable on the staff client in patron or item records.
 
 . To view notifications in the patron account, select *Other → Triggered Events/Notifications*.
 . Completed pre-due and overdue notifications are displayed by default. You can change the filters for *Core Type* or *Event State*, on the right, to view any or all notifications.
