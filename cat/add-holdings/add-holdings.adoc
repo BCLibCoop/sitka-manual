@@ -36,29 +36,29 @@ image::images/cat/add-holdings-10.png[]
 Adding Multiple Volumes
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-. To add more than one volume for the same library, use the arrow in the box below *Volumes* column to increase the number.
+. To add more than one volume for the same library, use the arrow in the  *Volumes* column to increase the number.
 +
-. To add volumes for other libraries, use the down-pointed arrow in the *Owning Library* box right above *Working Copies* to list the libraries, then click on *Add Volume*.
+. To add volumes for other libraries, use the arrow in the *Owning Library* column to list the libraries, then click on *Add Volume*.
 +
 image::images/cat/add-holdings-4.png[]
 +
-. To create more than one copy for the same volume, use the arrow in the box in *Copies* column of the volume record.
+. To create more than one copy for the same volume, use the arrow in the *Copies* column of the volume record.
 
 
 [TIP]
 =====
-* You may hide/display Volume and/or Copy Attributes by coordinating the two Hide/Show buttons shown below.
+* You can hide or display volume and copy details by coordinating the two Hide/Show buttons shown below.
 +
 image::images/cat/add-holdings-9.png[]
 +
-* If all volumes share the same attributes, you may select the values in *Batch Apply* row, then click *Apply*.  The selected values will be filled into all volumes.
+* If all volumes share the same attributes, you can select the values in *Batch Apply* row, then click *Apply*.  The selected values will be copied into all volumes.
 =====
 
 Working on multiple copies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
-If you add multiple copies and they do not share the values in one or more item attributes, you may select to work on those that share item attributes first, temporarily store them to *Completed Copies* tab, then work on the next batch of items sharing the same attributes. Save and exit when all copies are done.
+If you add multiple copies and they do not share the values in one or more item attributes, you can work on those that share item attributes first, temporarily store them to *Completed Copies* tab, then work on the next batch of items sharing the same attributes. Save and exit when all copies are done.
 
 . After you enter the barcode(s), copies are displayed under *Working Copies*. Select those copies that share the same item attribute values. Complete the item attributes for these copies. Click on *Store Selected*.
 +
@@ -66,7 +66,7 @@ image::images/cat/add-holdings-5.png[]
 +
 . Selected copies are moved to the *Completed Copies* tab.
 +
-. Select more copies on *Working Copies*. Complete the required fields. Once done, store them in the *Completed Copies* tab, or click on *Save & Exit*, if all copies are done.
+. Select more copies on *Working Copies*. Complete the required fields. Once done, store them in the *Completed Copies* tab, or click on *Save & Exit*.
 +
 image::images/cat/add-holdings-6.png[]
 +
@@ -74,13 +74,13 @@ image::images/cat/add-holdings-6.png[]
 +
 image::images/cat/add-holdings-7.png[]
 +
-. Selected copies are moved back to the *Working Copies* tabm where you can edit them. After editing, you can store them to the *Completed Copies* tab, or click *Save & Exit* when all copies are done.
+. Selected copies are moved back to the *Working Copies* tab where you can edit them. After editing, you can store them to the *Completed Copies* tab, or click *Save & Exit* when all copies are done.
 +
 . You can save copies on the *Completed Copies* tab or *Save & Exit* from *Completed Copies* tab. When you choose to *Save Completed*, copy records are created in the database, but they remain on the *Completed Copies* tab.
 +
 image::images/cat/add-holdings-8.png[]
 
-[CAUTION] 
+[CAUTION]
 =========
 
 * Stored copies on *Completed Copies* tab are *not* saved in the database until you click on *Save & Exit* or *Save Completed*. They are available on the current Volume Copy Creator only. If you close the browser tab without saving them, you will lose them.

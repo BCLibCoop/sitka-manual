@@ -16,7 +16,7 @@ image::images/cat/copy-template-3.png[]
 +
 image::images/cat/copy-template-1.png[]
 +
-. Type in a name for the template. Click on *Save*. 
+. Type in a name for the template. Click on *Save*.
 +
 [TIP]
 ====
@@ -32,11 +32,11 @@ image::images/cat/copy-template-2.png[]
 
 Sharing Volume Copy Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
- 
- 
-Templates are saved on Evergreen server, but only viewable by the staff account that created them.  To share templates with other staff, you will need to export them and the other staff to load them into their accounts.
- 
- 
+
+
+Templates are saved on the Evergreen server, but only viewable by the staff account that created them.  To share templates with other staff logins, you will need to export the templates, and have  staff import them into their accounts.
+
+
 . To export copy templates, click on *Export* on Volume Copy Template Editor.
 +
 image::images/cat/copy-template-4.png[]
@@ -46,20 +46,16 @@ image::images/cat/copy-template-4.png[]
 image::images/cat/copy-template-5.png[]
 +
 . Copy or email the file to the staff who wants to load the templates.
-. The staff opens Volme Copy Template Editor on her/his workstation. Click on *Import*.
+. Open the Volme Copy Template Editor on their workstation. Click on *Import*.
 +
 image::images/cat/copy-template-6.png[]
 +
-. Evergreen prompts for locating the templates file to be loaded. Click *Open*. 
+. Follow the prompts to locate the templates file to be loaded. Click *Open*.
 +
 image::images/cat/copy-template-7.png[]
 
- 
+
 [TIP]
 =====
-When importing copy templates, existing templates will be kept, new ones will be added to them. Templates sharing the same name will be overlaid.
+When importing copy templates, existing templates will be kept, and new ones  added. Templates sharing the same name will be overlaid by the new templates.
 ====
- 
- 
- 
- 
