@@ -41,7 +41,7 @@ Set Offline Printer
 Print using chrome
 ++++++++++++++++++
 
-Browser print options - no additional setup
+Browser print options - no additional setup required.
 
 Print using Hatch
 +++++++++++++++++
@@ -50,7 +50,6 @@ xref:download-hatch-ref[] must be installed and enabled on your workstation
 
 . Click *Administration* -> *Workstation* -> *Printer Settings*.
 . Click *Offline* ->
-
 
 Save Patron Registration Form
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
