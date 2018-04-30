@@ -104,14 +104,14 @@ values.
 |Defines the control number identifier used in 003 and 035 fields||Text|  | Sitka
 |Delete bib if all copies are deleted via Acquisitions line item cancellation.||True/False|Default: TRUE | Sitka
 |Delete volume with last copy|Automatically delete a volume when the last linked copy is deleted.|True/False|Default: TRUE | Sitka
-|Maximum Parallel Z39.50 Batch Searches|The maximum number of Z39.50 searches that can be in-flight at any given time when performing batch Z39.50 searches|Number|
-|Maximum Z39.50 Batch Search Results|The maximum number of search results to retrieve and queue for each record + Z39 source during batch Z39.50 searches|Number|
+|Maximum Parallel Z39.50 Batch Searches|The maximum number of Z39.50 searches that can be in-flight at any given time when performing batch Z39.50 searches|Number| | Sitka
+|Maximum Z39.50 Batch Search Results|The maximum number of search results to retrieve and queue for each record + Z39 source during batch Z39.50 searches|Number| | Sitka
 |Spine and pocket label font family|Set the preferred font family for spine and pocket labels. You can specify a list of fonts, separated by commas, in order of preference; the system will use the first font it finds with a matching name. For example, "Arial, Helvetica, serif".|Text| | LSA
 |Spine and pocket label font size|Set the default font size for spine and pocket labels|Number| | LSA
-|Spine and pocket label font weight|Set the preferred font weight for spine and pocket labels. You can specify "normal", "bold", "bolder", or "lighter".|Text| LSA
+|Spine and pocket label font weight|Set the preferred font weight for spine and pocket labels. You can specify "normal", "bold", "bolder", or "lighter".|Text| | LSA
 |Spine label left margin|Set the left margin for spine labels in number of characters.|Number| | LSA
-|Spine label line width|Set the default line width for spine labels in number of characters. This specifies the boundary at which lines must be wrapped.|Number|
-|Spine label maximum lines|Set the default maximum number of lines for spine labels.|Number| | LAS
+|Spine label line width|Set the default line width for spine labels in number of characters. This specifies the boundary at which lines must be wrapped.|Number| | LSA
+|Spine label maximum lines|Set the default maximum number of lines for spine labels.|Number| | LSA
 |======================
 
 ((("Circulation", "Library Settings Editor")))
