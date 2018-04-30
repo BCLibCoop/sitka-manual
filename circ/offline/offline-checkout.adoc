@@ -6,7 +6,7 @@ CAUTION: Sitka Support strongly recommends that you only use *Offline Circulatio
 Check Out
 ^^^^^^^^^
 
-To check out items in Offline Circulation:
+To check out items in *Offline Circulation*:
 
 . Click the *Checkout* tab.
 . Enter a value in the *Due Date* field or select a date from the Calendar widget.  You may also select an option from the *Offset Dropdown*.  The date field entry will honor the format set in the Library Settings Editor.
@@ -54,7 +54,6 @@ image::images/circ/offlinerenew2.png[]
 . Click *Save Transactions* in the upper-right of the screen to complete the renewal.
 +
 image::images/circ/offlinerenew3.png[]
-+
 
 In House Use
 ^^^^^^^^^^^^
@@ -89,9 +88,9 @@ To *Check In* items in *Offline Circulation*:
 Patron Registration
 ^^^^^^^^^^^^^^^^^^^
 
-Patron registration in Evergreen Offline Circulation records patron information for later upload.  In the web staff client, the Patron Registration form in Offline is the same as the regular Patron Registration interface.
+Patron registration in *Offline Circulation* records patron information for upload later.  The Patron Registration form in Offline is the same as the regular Patron Registration interface.
 
-All fields in the normal Patron Registration interface are available for entry.  Required fields are marked in yellow and adhere to Required Fields set in the *Library Settings Editor*.  Patron Registration defaults also adhere to settings in the *Library Settings Editor*.  Stat cats are not recognized by the Offline Interface, even if they are required.
+All fields in the normal Patron Registration interface are available for entry.  Required fields are marked in yellow and adhere to Required Fields set in the *Library Settings Editor*.  Patron Registration defaults also adhere to settings in the *Library Settings Editor*.  Stat cats are not recognized by *Offline Circulation*, even if they are required.
 
 Enter patron information and click the *Save* button in the top-right of the Patron Registration interface.  You may checkout items to this patron right away, even if you are still in offline mode.
 
