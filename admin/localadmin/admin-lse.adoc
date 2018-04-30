@@ -230,7 +230,8 @@ marks are never required when updating settings in the staff client.
 |Patron merge barcode delete|Delete barcode(s) of subordinate user(s) in a patron merge|True/False| | LSA
 |Patron merge deactivate card|Mark barcode(s) of subordinate user(s) in a patron merge as inactive.|True/False| | LSA
 |Patron Registration: Cloned patrons get address copy|If True, in the Patron editor, addresses are copied from the cloned user. If False, addresses are linked from the cloned user which can only be edited from the cloned user record.|True/False| | LSA
-| Patron search diacritic insensitive | Match patron last, first, and middle names irrespective of usage of diacritical marks or spaces. (e.g., Ines will match Inés; de la Cruz will match Delacruz) | True/False | Default: True |Sitka
+
+|Patron search diacritic insensitive | Match patron last, first, and middle names irrespective of usage of diacritical marks or spaces. (e.g., Ines will match Inés; de la Cruz will match Delacruz) | True/False | Default: True |Sitka
 
 |Printing: custom JavaScript file|Full URL path to a JavaScript File to be loaded when printing. Should implement a print_custom function for DOM manipulation. Can change the value of the do_print variable to false to cancel printing.|Text| Not in use | 
 
@@ -270,6 +271,13 @@ marks are never required when updating settings in the staff client.
 .Credit Card Processing
 [options="header"]
 |======================
+|Credit card payment is not currently supported.
+|All settings can be ignored.
+|======================
+
+//
+[options="header"]
+|======================
 |Setting|Description|Data type|Notes
 |AuthorizeNet login|Authorize.Net Username|Text|Obtain from Authorize.Net at http://www.authorize.net
 |AuthorizeNet password|Authorize.Net Password|Text|Obtain from Authorize.Net
@@ -291,7 +299,7 @@ marks are never required when updating settings in the staff client.
 |PayflowPro vendor|Currently the same as the Payflow Pro login.|Text|Obtain from Payflow Pro partner.
 |Stripe publishable key|Publishable API Key from stripe.|Text|
 |Stripe secret key|Secret API key from stripe.|Text|
-|======================
+|======================  //
 
 [[lse-finances]]
 .Finances
