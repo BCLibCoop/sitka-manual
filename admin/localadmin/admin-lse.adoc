@@ -179,19 +179,29 @@ marks are never required when updating settings in the staff client.
 [options="header"]
 |===========
 |Setting|Description|Data type|Notes | Edited by
-|Auto-extend grace periods|When enabled grace periods will auto-extend. By default this will be only when they are a full day or more and end on a closed date, though other options can alter this.|True/False| LSA
+
+|Auto-extend grace periods|When enabled grace periods will auto-extend. By default this will be only when they are a full day or more and end on a closed date, though other options can alter this.|True/False| | LSA
+
 |Auto-extending grace periods extend for all closed dates|It works when the above setting "Auto-Extend Grace Periods" is set to TRUE. If enabled, when the grace period falls on a closed date(s), it will be extended past all closed dates that intersect, but within the hard-coded limits (your library's grace period).|True/False| | LSA
+
 |Auto-extending grace periods include trailing closed dates|It works when the above setting "Auto-Extend Grace Periods" is set to TRUE. If enabled, grace periods will include closed dates that directly follow the last day of the grace period. A backdated check-in with effective date on the closed dates will assume the item is returned after hours on the last day of the grace period.|True/False|Useful when libraries' book drop equipped with AMH. | LSA
-|Block hold request if hold recipient privileges have expired||True/False| | LSA
+
+|Block hold request if hold recipient privileges have expired| |True/False| | LSA
+
 |Cap max fine at item price|This prevents the system from charging more than the item price in overdue fines|True/False| | LSA
 |Charge fines on overdue circulations when closed|When set to True, fines will be charged during scheduled closings and normal weekly closed days.|True/False| | LSA
 |Checkout fills related hold|When a patron checks out an item and they have no holds that directly target the item, the system will attempt to find a hold for the patron that could be fulfilled by the checked out item and fulfills it. On the Staff Client you may notice that when a patron checks out an item under a title on which he/she has a hold, the hold will be treated as filled though the item has not been assigned to the patron's hold.|True/false| | LSA
+
 |Checkout fills related hold on valid copy only|When filling related holds on checkout only match on items that are valid for opportunistic capture for the hold. Without this set a Title or Volume hold could match when the item is not holdable. With this set only holdable items will match.|True/False| | LSA
+
 |Checkout auto renew age|When an item has been checked out for at least this amount of time, an attempt to check out the item to the patron that it is already checked out to will simply renew the circulation. If the checkout attempt is done within this time frame, Evergreen will prompt for choosing Renewing or Check-in then Checkout the item.|Duration| | LSA
 
 | Clear hold when other patron checks out item | Default to cancel the hold when patron A checks out item on hold for patron B | True/False | | LSA
+
 |Display copy alert for in-house-use|Setting to true for an organization will cause an alert to appear with the copy's alert message, if it has one, when recording in-house-use for the copy.|True/False| | LSA
+
 |Display copy location check in alert for in-house-use|Setting to true for an organization will cause an alert to display a message indicating that the item needs to be routed to its location if the location has check in alert set to true.|True/False| | LSA
+
 |Do not change fines/fees on zero-balance LOST transaction|When an item has been marked lost and all fines/fees have been completely paid on the transaction, do not void or reinstate any fines/fees EVEN IF "Void lost item billing when returned" and/or "Void processing fee on lost item return" are enabled|True/False| |LSA
 
 |Do not include outstanding Claims Returned circulations in lump sum tallies in Patron Display.|In the Patron Display interface, the number of total active circulations for a given patron is presented in the Summary sidebar and underneath the Items Out navigation button. This setting will prevent Claims Returned circulations from counting toward these tallies.|True/False| | LSA
@@ -207,6 +217,7 @@ marks are never required when updating settings in the staff client.
 |Hold shelf status delay|The purpose is to provide an interval of time after an item goes into the on-holds-shelf status before it appears to patrons that it is actually on the holds shelf. This gives staff time to process the item before it shows as ready-for-pick-up.|Duration| | LSA
 
 |Include Lost circulations in lump sum tallies in Patron Display.|In the Patron Display interface, the number of total active circulations for a given patron is presented in the Summary sidebar and underneath the Items Out navigation button. This setting will include Lost circulations as counting toward these tallies.|True/False| | LSA
+
 |Invalid patron address penalty|When set, if a patron address is set to invalid, a penalty is applied.|True/False| | LSA
 
 |Item status for missing pieces|This is the Item Status to use for items that have been marked or scanned as having Missing Pieces. In the absence of this setting, the Damaged status is used.|Selection list| | LSA
@@ -214,7 +225,9 @@ marks are never required when updating settings in the staff client.
 |Load patron from Checkout|When scanning barcodes into Checkout auto-detect if a new patron barcode is scanned and auto-load the new patron.|True/False|Not in use |
 
 |Long-Overdue Check-In Interval Uses Last Activity Date|Use the long-overdue last-activity date instead of the due_date to determine whether the item has been checked out too long to perform long-overdue check-in processing. If set, the system will first check the last payment time, followed by the last billing time, followed by the due date. See also "Long-Overdue Max Return Interval"|True/False|Not in use | 
+
 |Long-Overdue Items Usable on Checkin|Long-overdue items are usable on checkin instead of going "home" first|True/False| Not in use |
+
 |Long-Overdue Max Return Interval|Long-overdue check-in processing (voiding fees, re-instating overdues, etc.) will not take place for items that have been overdue for (or have last activity older than) this amount of time|Duration| Not in use | 
 
 |Lost check-in generates new overdues|Enabling this setting causes retroactive creation of not-yet-existing overdue fines on lost item check-in, up to the point of check-in time (or max fines is reached). This is different than "restore overdue on lost", because it only creates new overdue fines. Use both settings together to get the full complement of overdue fines for a lost item|True/False| | LSA 
@@ -242,27 +255,36 @@ marks are never required when updating settings in the staff client.
 |Specify search depth for the duplicate patron check in the patron editor|When using the patron registration page, the duplicate patron check will use the configured depth to scope the search for duplicate patrons.|Number|  |Sitka
 
 |Suppress hold transits group|To create a group of libraries to suppress Hold Transits among them. All libraries in the group should use the same unique value. Leave it empty if transits should not be suppressed.|Text| Not in use | Sitka
+
 |Suppress non-hold transits group|To create a group of libraries to suppress Non-Hold Transits among them. All libraries in the group should use the same unique value. Leave it empty if Non-Hold Transits should not be suppressed.|Text| Not in use | Sitka
+
 |Suppress popup-dialogs during check-in.|When set to True, no pop-up window for exceptions on check-in. But the accompanying sound will be played.|True/False| | LSA
 
 |Target copies for a hold even if copy's circ lib is closed|If this setting is true at a given org unit or one of its ancestors, the hold targeter will target copies from this org unit even if the org unit is closed (according to the Org Unit's closed dates.).|True/False|Set the value to True if you want to target copies for holds at closed circulating libraries. Set the value to False, or leave it unset, if you do not want to enable this feature. | LSA
 
 |Target copies for a hold even if copy's circ lib is closed IF the circ lib is the hold's pickup lib|If this setting is true at a given org unit or one of its ancestors, the hold targeter will target copies from this org unit even if the org unit is closed (according to the Org Unit's closed dates) IF AND ONLY IF the copy's circ lib is the same as the hold's pickup lib.|True/False| Set the value to True if you want to target copies for holds at closed circulating libraries when the circulating library of the item and the pickup library of the hold are the same. Set the value to False, or leave it unset, if you do not want to enable this feature. | LSA
 
-|Truncate fines to max fine amount||True/False|Default:True | Sitka 
+|Truncate fines to max fine amount||True/False|Default: True | Sitka 
 
 |Use Lost and Paid copy status|Use Lost and Paid copy status when lost or long overdue billing is paid|True/False| Default: True | Sitka
 |Void Long-Overdue Item Billing When Returned||True/False| Not in use | LSA
+
 |Void Processing Fee on Long-Overdue Item Return||True/False|Not in use | LSA
+
 |Void longoverdue item billing when claims returned||True/False| |LSA
+
 |Void longoverdue item processing fee when claims returned||True/False| | LSA
+
 |Void lost item billing when claims returned||True/False| | LSA
+
 |Void lost item billing when returned|If true,when a lost item is checked in the item replacement bill (item price) is voided.|True/False| | LSA
 |Void lost item processing fee when claims returned|When an item is marked claims returned that was marked Lost, the item processing fee will be voided.|True/False| | LSA
 
 |Void lost max interval|Items that have been overdue this long will not result in lost charges being voided when returned, and the overdue fines will not be restored, either. Only applies if *Circ: Void lost item billing* or *Circ: Void processing fee on lost item* are true.|Duration| | LSA
+
 |Void processing fee on lost item return|Void processing fee when lost item returned|True/False| | LSA
 |Warn when patron account is about to expire|If set, the staff client displays a warning this number of days before the expiry of a patron account. Value is in number of days.|Duration| | LSA
+
 | Workstation OU fallback for staff-placed holds | For staff-placed holds, in the absence of a patron preferred pickup location, fall back to using the staff workstation OU (rather than patron home OU) | True/False | |LSA
 
 |===========
