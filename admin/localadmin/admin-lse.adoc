@@ -302,27 +302,47 @@ marks are never required when updating settings in the staff client.
 .Finances
 [options="header"]
 |========
-|Setting|Description|Data type|Notes
-|Allow credit card payments|If enabled, patrons will be able to pay fines accrued at this location via credit card.|True/False|
-|Charge item price when marked damaged|If true Evergreen bills item price to the last patron who checked out the damaged item. Staff receive an alert with patron information and must confirm the billing.| True/false|
-|Charge lost on zero|If set to True, default item price will be charged when an item is marked lost even though the price in item record is 0.00 (same as no price). If False, only processing fee, if used, will be charged.|True/false|
-|Charge processing fee for damaged items|Optional processing fee billed to last patron who checked out the damaged item. Staff receive an alert with patron information and must confirm the billing.|Number(Dollar)| Disabled when set to 0
-|Default item price|Replacement charge for lost items if price is unset in the *Copy Editor*. Does not apply if item price is set to $0|Number(dollars)|
-|Disable Patron Credit|Do not allow patrons to accrue credit or pay fines/fees with accrued credit|True/False|
-|Leave transaction open when long overdue balance equals zero|Leave transaction open when long-overdue balance equals zero. This leaves the lost copy on the patron record when it is paid|True/False|
-|Leave transaction open when lost balance equals zero|Leave transaction open when lost balance equals zero. This leaves the lost copy on the patron record when it is paid|True/False|
-|Long-Overdue Materials Processing Fee|The amount charged in addition to item price when an item is marked Long-Overdue|Number|Currency
-|Lost materials processing fee|The amount charged in addition to item price when an item is marked lost.| Number|Currency
-|Maximum Item Price|When charging for lost items, limit the charge to this as a maximum.|Number|Currency
-|Minimum Item Price|When charging for lost items, charge this amount as a minimum.|Number|Currency
-|Negative Balance Interval (DEFAULT)|Amount of time after which no negative balances (refunds) are allowed on circulation bills. The "Prohibit negative balance on bills" setting must also be set to "true".|Duration|
-|Negative Balance Interval for Lost|Amount of time after which no negative balances (refunds) are allowed on bills for lost/long overdue materials. The "Prohibit negative balance on bills for lost materials" setting must also be set to "true".|Duration|
-|Negative Balance Interval for Overdues|Amount of time after which no negative balances (refunds) are allowed on bills for overdue materials. The "Prohibit negative balance on bills for overdue materials" setting must also be set to "true".|Duration|
-|Prohibit negative balance on bills (Default)|Default setting to prevent negative balances (refunds) on circulation related bills. Set to "true" to prohibit negative balances at all times or, when used in conjunction with an interval setting, to prohibit negative balances after a set period of time.|True/False|
-|Prohibit negative balance on bills for lost materials|Prevent negative balances (refunds) on bills for lost/long overdue materials. Set to "true" to prohibit negative balances at all times or, when used in conjunction with an interval setting, to prohibit negative balances after an interval of time.|True/False|
-|Prohibit negative balance on bills for overdue materials|Prevent negative balances (refunds) on bills for lost/long overdue materials. Set to "true" to prohibit negative balances at all times or, when used in conjunction with an interval setting, to prohibit negative balances after an interval of time.|True/False|
-|Void Overdue Fines When Items are Marked Long-Overdue|If true overdue fines are voided when an item is marked Long-Overdue|True/False|
-|Void overdue fines when items are marked lost|If true overdue fines are voided when an item is marked lost|True/False|
+|Setting|Description|Data type|Notes |Edited by
+
+|Allow credit card payments|If enabled, patrons will be able to pay fines accrued at this location via credit card.|True/False| Not in use | 
+
+|Charge item price when marked damaged|If true Evergreen bills item price to the last patron who checked out the damaged item. Staff receive an alert with patron information and must confirm the billing.| True/False| | LSA
+
+|Charge lost on zero|If set to True, default item price will be charged when an item is marked lost even though the price in item record is 0.00 (same as no price). If False, only processing fee, if used, will be charged.|True/False| | LSA
+
+|Charge processing fee for damaged items|Optional processing fee billed to last patron who checked out the damaged item. Staff receive an alert with patron information and must confirm the billing.|Number(Currency)| Disabled when set to 0 | LSA
+
+|Default item price|Replacement charge for lost items if price is unset in the *Copy Editor*. Does not apply if item price is set to $0|Number(Currency)| | LSA
+
+|Disable Patron Credit|Do not allow patrons to accrue credit or pay fines/fees with accrued credit|True/False| | LSA
+
+|Leave transaction open when long overdue balance equals zero|Leave transaction open when long-overdue balance equals zero. This leaves the lost copy on the patron record when it is paid|True/False| |LSA
+
+|Leave transaction open when lost balance equals zero|Leave transaction open when lost balance equals zero. This leaves the lost copy on the patron record when it is paid|True/False| | LSA
+
+|Long-Overdue Materials Processing Fee|The amount charged in addition to item price when an item is marked Long-Overdue|Number (Currency)|Not in use | 
+
+|Lost materials processing fee|The amount charged in addition to item price when an item is marked lost.| Number(Currency)| |LSA
+
+|Maximum Item Price|When charging for lost items, limit the charge to this as a maximum.|Number(Currency) | |LSA
+
+|Minimum Item Price|When charging for lost items, charge this amount as a minimum.|Number(Currency) | | LSA
+
+|Negative Balance Interval (DEFAULT)|Amount of time after which no negative balances (refunds) are allowed on circulation bills. The "Prohibit negative balance on bills" setting must also be set to "true".|Duration| | LSA
+
+|Negative Balance Interval for Lost|Amount of time after which no negative balances (refunds) are allowed on bills for lost/long overdue materials. The "Prohibit negative balance on bills for lost materials" setting must also be set to "true".|Duration| | LSA
+
+|Negative Balance Interval for Overdues|Amount of time after which no negative balances (refunds) are allowed on bills for overdue materials. The "Prohibit negative balance on bills for overdue materials" setting must also be set to "true".|Duration| |LSA
+
+|Prohibit negative balance on bills (Default)|Default setting to prevent negative balances (refunds) on circulation related bills. Set to "true" to prohibit negative balances at all times or, when used in conjunction with an interval setting, to prohibit negative balances after a set period of time.|True/False| | LSA
+
+|Prohibit negative balance on bills for lost materials|Prevent negative balances (refunds) on bills for lost/long overdue materials. Set to "true" to prohibit negative balances at all times or, when used in conjunction with an interval setting, to prohibit negative balances after an interval of time.|True/False| | LSA
+
+|Prohibit negative balance on bills for overdue materials|Prevent negative balances (refunds) on bills for lost/long overdue materials. Set to "true" to prohibit negative balances at all times or, when used in conjunction with an interval setting, to prohibit negative balances after an interval of time.|True/False| | LSA
+
+|Void Overdue Fines When Items are Marked Long-Overdue|If true overdue fines are voided when an item is marked Long-Overdue|True/False| | LSA
+
+|Void overdue fines when items are marked lost|If true overdue fines are voided when an item is marked lost|True/False| | LSA
 |========
 
 [[lse-gui]]
