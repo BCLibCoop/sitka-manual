@@ -9,13 +9,13 @@ Save Offline URL
 The permanent link for the Offline Circulation is *https://catalogue.libraries.coop/eg/staff/offline-interface*  and it is recommended that this link be bookmarked on staff workstations.  This is the location for both entering transactions while offline as well as processing them later.  You will see a slightly different version of this interface depending on whether or not you are logged in.
 
 If you are logged out, you will see the tab default to *Checkout* and the button on the top-right will read *Export Transactions*.
-+
+
 image::images/circ/offlineloggedout.png[]
-+
+
 If you are logged in, you will see an additional tab on the left for *Session Management* and this will be the default tab.  The top-right button will read *Download Block List*.
-+
+
 image::images/circ/offlineloggedin.png[]
-+
+
 If you are logged in and attempt to click on any tab other than *Session Management*, you will see a warning alerting you that you are about to enter offline mode.
 
 image::images/circ/offlinewarning.png[]
@@ -49,7 +49,7 @@ Print using Hatch
 xref:download-hatch-ref[] must be installed and enabled on your workstation
 
 . Click *Administration* -> *Workstation* -> *Printer Settings*.
-. Click *Offline* -> 
+. Click *Offline* ->
 
 
 Save Patron Registration Form
