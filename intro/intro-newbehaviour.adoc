@@ -11,7 +11,7 @@ New Web Staff Client (Web Client)
 * Workstations have to be registered the first time you access the new staff URL, and you must be an Evergreen Local System Administrator (LSA) to register workstations.
 All existing staff logins will work once a workstation is registered.
 
-* Hatch can be installed to print and to manage local settings. Use of Hatch is optional. See xref:download-hatch[Hatch]
+* Hatch can be installed to print and to manage local settings. Use of Hatch is optional. See xref:download-hatch-ref[]
 
 * The new web client looks and functions very similar to the old staff client. Menus,  and some workflows, are somewhat consistent with prior versions. There are  changes to cataloguing procedures, and changes to local preferences configuration, with modern browser functionality incorporated into all aspects of Evergreen.
 
