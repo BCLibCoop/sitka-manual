@@ -4,23 +4,24 @@ Upload Offline Transactions
 Upload Offline Transactions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Once connectivity is restored, navigate back to your *Evergreen Login Page*.  You will see a message telling you that there are *Unprocessed offline transactions waiting for upload*.
+Once connectivity is restored you will need to upload your offline transactions.
 
+. Open the *Evergreen Login Page*.  You will see a message telling you that there are *Unprocessed offline transactions waiting for upload*.
++
 image::images/circ/offlineupload1.png[]
-
-Sign in and navigate to *Circulation -> Offline Circulation*.  Since you are logged in, you will now see a *Session Management* tab to the left of the Register Patron tab.  The Session Management tab includes *Pending Transactions* and *Offline Sessions*.
-
-In the *Pending Transactions* tab you will see a list of all transactions recorded on that browser.
-
-If you click *Clear Transactions*, you will be prompted with a warning.
-
-If you are processing transactions right away and from the same browser you recorded them in, follow the steps below:
-
-. Click on the *Offline Sessions* tab and then on the *Create Session* button.
++
+. Enter your username and password.
+. Click *Circulation* -> *Offline Circulation*.
+. You will now see a *Session Management* tab to the left of the Register Patron tab.  The Session Management tab includes *Pending Transactions* and *Offline Sessions*.
+.. In the *Pending Transactions* tab you will see a list of all transactions recorded on that browser.
+.. If you click *Clear Transactions*, you will be prompted with a warning.
+. Click on the *Offline Sessions* tab and then click *Create Session*.
 +
 image::images/circ/offlineupload3.png[]
 +
-. Enter a descriptive name for your session in the modal and click *OK/Continue* to proceed.  You will see your new session at the top of the *Session List*.  The Session List may be sorted ascending or descending by clicking on one of the following column headers: *Organization*, *Created By*, *Description*, *Date Created*, or *Date Completed*.  The default sort is descending by Date Created.
+. Enter a descriptive name for your session in the pop-up and click *OK/Continue* to proceed.
+. You will see your new session at the top of the *Session List*.
+.. The Session List may be sorted ascending or descending by clicking on one of the following column headers: *Organization*, *Created By*, *Description*, *Date Created*, or *Date Completed*.  The default sort is descending by Date Created.
 . Click *Upload* to upload everything listed in the *Pending Transactions* tab.
 +
 image::images/circ/offlineupload5.png[]
@@ -37,7 +38,7 @@ image::images/circ/offlineupload7.png[]
 Export Offline Transactions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you anticipate a multi-day closing or if you plan to process your offline transactions at a different workstation, you will want to export your offline transactions.
+If you anticipate a *multi-day closing* or if you plan to *process your offline transactions at a different workstation*, you will want to export your offline transactions.
 
 To export transactions while you are offline, navigate to *Circulation -> Offline Circulation* and click *Export Transactions* in the top-right of the screen.  This will save a file entitled pending.xacts to your browser's default download location.  If you will be processing these transactions on another workstation, move this file to an external device like a thumb drive.
 
