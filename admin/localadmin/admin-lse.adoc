@@ -262,6 +262,8 @@ marks are never required when updating settings in the staff client.
 |Void lost max interval|Items that have been overdue this long will not result in lost charges being voided when returned, and the overdue fines will not be restored, either. Only applies if *Circ: Void lost item billing* or *Circ: Void processing fee on lost item* are true.|Duration| | LSA
 |Void processing fee on lost item return|Void processing fee when lost item returned|True/False| | LSA
 |Warn when patron account is about to expire|If set, the staff client displays a warning this number of days before the expiry of a patron account. Value is in number of days.|Duration| | LSA
+| Workstation OU fallback for staff-placed holds | For staff-placed holds, in the absence of a patron preferred pickup location, fall back to using the staff workstation OU (rather than patron home OU) | True/False | |LSA
+
 |===========
 
 [[lse-credit-cards]]
