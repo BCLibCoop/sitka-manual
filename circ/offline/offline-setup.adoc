@@ -18,7 +18,7 @@ image::images/circ/offlineloggedin.png[]
 
 If you are logged in and attempt to click on any tab other than *Session Management*, you will see a warning alerting you that you are about to enter offline mode.
 
-image::images/circ/offlinewarning.png[]
+image::images/circ/offline_warning.png[]
 
 This warning is not network-aware and it will appear regardless of network connection state.  You must be logged out to record offline transactions.  If you see this warning and wish to record offline transactions, click *Proceed* in order to log out.
 
