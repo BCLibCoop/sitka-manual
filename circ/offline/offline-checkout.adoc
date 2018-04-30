@@ -63,9 +63,14 @@ To record *In-House Use* transactions in *Offline Circulation*:
 . Click the *In-House Use* tab.
 . Enter the number of uses to record for the item in the *Use Count* field.
 . For each item to be recorded as in-house use, scan the item's barcode in the *Item Barcode* field. If you are typing the item barcode, click the *Record Use* button or hit the *Enter* key on your keyboard after each item barcode.
++
+image::images/circ/offlineinhouse1.png[]
++
 . The item barcode and use count will appear on the right side of the screen.
 . To print a receipt, check *Print Receipt*.
 . Click *Save Transactions* in the upper-right of the screen to record the in-house use.  The date of the in-house use is automatically recorded.
++
+image::images/circ/offlineinhouse2.png[]
 
 Check In
 ^^^^^^^^
@@ -75,8 +80,14 @@ To *Check In* items in *Offline Circulation*:
 . Click the *Checkin* tab.
 . Ensure that the *Due Date* value is correct.  It will default to today's date.
 . For each item to be checked in, scan the item's barcode in the *Item Barcode* field. If you are typing the item barcode, click the *Checkin* button or hit the *Enter* key on your keyboard after each item barcode.
-. To print a receipt, check the box labelled *Print Receipt*.
++
+image::images/circ/offlinecheckin1.png[]
++
+. To print a receipt, check *Print Receipt*.
 . Click *Save Transactions* in the upper-right of the screen when you are finished entering checkins.
++
+image::images/circ/offlinecheckin2.png[]
+
 
 [NOTE]
 =============
@@ -94,4 +105,4 @@ All fields in the normal Patron Registration interface are available for entry. 
 
 Enter patron information and click the *Save* button in the top-right of the Patron Registration interface.  You may checkout items to this patron right away, even if you are still in offline mode.
 
-NOTE: To prevent duplicate patron entry we stronly recommend that you do not use patron registration in offline modern
+NOTE: To prevent duplicate patron entry we strongly recommend that you do not use patron registration in offline modern
