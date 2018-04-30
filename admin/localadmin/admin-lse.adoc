@@ -94,23 +94,24 @@ values.
 .Booking and Cataloging
 [options="header"]
 |======================
-|Setting|Description|Data type|Notes
-|Allow email notify|Permit email notification when a reservation is ready for pick-up.|True/false|
-|Elbow room|Elbow room specifies how far in the future you must make a reservation on an item if that item will have to transit to reach its pick-up location. It secondarily defines how soon a reservation on a given item must start before the check-in process will opportunistically capture it for the reservation shelf.|Duration|
-|Default Classification Scheme|Defines the default classification scheme for new call numbers: 1 = Generic; 2 = Dewey; 3 = LC|Number|It has effect on call number sorting.
-|Default copy status (fast add)|Default status when a copy is created using the "Fast Item Add" interface.|Selection list|Default: In process
-|Default copy status (normal)|Default status when a copy is created using the normal volume/copy creator interface.|Selection list|
-|Defines the control number identifier used in 003 and 035 fields||Text|
-|Delete bib if all copies are deleted via Acquisitions line item cancellation.||True/False|
-|Delete volume with last copy|Automatically delete a volume when the last linked copy is deleted.|True/False|Default TRUE
+|Setting|Description|Data type|Notes|Edited by
+|Allow email notify|Permit email notification when a reservation is ready for pick-up.|True/false|LSA
+|Elbow room|Elbow room specifies how far in the future you must make a reservation on an item if that item will have to transit to reach its pick-up location. It secondarily defines how soon a reservation on a given item must start before the check-in process will opportunistically capture it for the reservation shelf.|Duration|  |LSA
+|Default Classification Scheme|Defines the default classification scheme for new call numbers: 1 = Generic; 2 = Dewey; 3 = LC|Number|Effect on call number sorting. | LSA
+|Default copy status (fast add)|Default status when a copy is created using the "Fast Item Add" interface.|Selection list|Default: In process | LSA
+|Default Merge Profile (Z39.50 and Record Buckets)|Default merge profile to use during Z39.50 imports and record bucket merges|Selection list| | Sitka
+|Default copy status (normal)|Default status when a copy is created using the normal volume/copy creator interface.|Selection list| | LSA
+|Defines the control number identifier used in 003 and 035 fields||Text|  | Sitka
+|Delete bib if all copies are deleted via Acquisitions line item cancellation.||True/False|Default: TRUE | Sitka
+|Delete volume with last copy|Automatically delete a volume when the last linked copy is deleted.|True/False|Default: TRUE | Sitka
 |Maximum Parallel Z39.50 Batch Searches|The maximum number of Z39.50 searches that can be in-flight at any given time when performing batch Z39.50 searches|Number|
 |Maximum Z39.50 Batch Search Results|The maximum number of search results to retrieve and queue for each record + Z39 source during batch Z39.50 searches|Number|
-|Spine and pocket label font family|Set the preferred font family for spine and pocket labels. You can specify a list of fonts, separated by commas, in order of preference; the system will use the first font it finds with a matching name. For example, "Arial, Helvetica, serif".|Text|
-|Spine and pocket label font size|Set the default font size for spine and pocket labels|Number|
-|Spine and pocket label font weight|Set the preferred font weight for spine and pocket labels. You can specify "normal", "bold", "bolder", or "lighter".|Text|
-|Spine label left margin|Set the left margin for spine labels in number of characters.|Number|
+|Spine and pocket label font family|Set the preferred font family for spine and pocket labels. You can specify a list of fonts, separated by commas, in order of preference; the system will use the first font it finds with a matching name. For example, "Arial, Helvetica, serif".|Text| | LSA
+|Spine and pocket label font size|Set the default font size for spine and pocket labels|Number| | LSA
+|Spine and pocket label font weight|Set the preferred font weight for spine and pocket labels. You can specify "normal", "bold", "bolder", or "lighter".|Text| LSA
+|Spine label left margin|Set the left margin for spine labels in number of characters.|Number| | LSA
 |Spine label line width|Set the default line width for spine labels in number of characters. This specifies the boundary at which lines must be wrapped.|Number|
-|Spine label maximum lines|Set the default maximum number of lines for spine labels.|Number|
+|Spine label maximum lines|Set the default maximum number of lines for spine labels.|Number| | LAS
 |======================
 
 ((("Circulation", "Library Settings Editor")))
