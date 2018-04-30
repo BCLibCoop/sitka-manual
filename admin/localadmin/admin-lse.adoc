@@ -56,6 +56,23 @@ per-library basis. At the bottom is the table with a list of
 <<_data_types, data types>> with details about acceptable settings
 values.
 
+Data Types
+++++++++++
+
+Acceptable formats for each setting type are listed below. Quotation
+marks are never required when updating settings in the staff client.
+
+.Data Types in the Library Settings Editor
+[options="header"]
+|=============
+|Data type|Formatting
+|True/False|Boolean True/False drop down
+|Number|Enter a numerical value (decimals allowed in price settings)
+|Duration|Enter a number followed by a space and any of the following units: minutes, hours, days, months (30 minutes, 2 days, etc)
+|Selection list|Choose from a drop-down list of options (e.g. copy status, copy location)
+|Text|Free text
+|=============
+
 ((("Acquisitions", "Library Settings Editor")))
 
 [[lse-acq]]
@@ -95,22 +112,63 @@ values.
 [options="header"]
 |======================
 |Setting|Description|Data type|Notes|Edited by
-|Allow email notify|Permit email notification when a reservation is ready for pick-up.|True/false|LSA
+
+|Booking Allow Email Notify|Permit email notification when a reservation is ready for pick-up.|True/false| | LSA
+
 |Elbow room|Elbow room specifies how far in the future you must make a reservation on an item if that item will have to transit to reach its pick-up location. It secondarily defines how soon a reservation on a given item must start before the check-in process will opportunistically capture it for the reservation shelf.|Duration|  |LSA
+
 |Default Classification Scheme|Defines the default classification scheme for new call numbers: 1 = Generic; 2 = Dewey; 3 = LC|Number|Effect on call number sorting. | LSA
+
 |Default copy status (fast add)|Default status when a copy is created using the "Fast Item Add" interface.|Selection list|Default: In process | LSA
-|Default Merge Profile (Z39.50 and Record Buckets)|Default merge profile to use during Z39.50 imports and record bucket merges|Selection list| | Sitka
+
 |Default copy status (normal)|Default status when a copy is created using the normal volume/copy creator interface.|Selection list| | LSA
+
+|Default Merge Profile (Z39.50 and Record Buckets)|Default merge profile to use during Z39.50 imports and record bucket merges|Selection list| | Sitka
+
 |Defines the control number identifier used in 003 and 035 fields||Text|  | Sitka
+
 |Delete bib if all copies are deleted via Acquisitions line item cancellation.||True/False|Default: TRUE | Sitka
+
 |Delete volume with last copy|Automatically delete a volume when the last linked copy is deleted.|True/False|Default: TRUE | Sitka
+
+| ItemPrint Label - Call Number Wrap Filter Height | Set the default height (in number of lines) to use for call number wrapping in the left print label.  | Text |  | LSA
+
+| ItemPrint Label - Call Number Wrap Filter Width | set the default width (in number of characters) to use for call number wrapping in the left print label. | Text  |  | LSA
+
+| ItemPrint Label - Height for Left Label | Set the default height for the leftmost item print label. Please include a unit of measurement that is valid CSS. For example, "1in" or "2.5cm" | Text |  | LSA
+
+| ItemPrint Label - Height for Right Label | Set the default height for the rightmost item print label. Please include a unit of measurement that is valid CSS. For example, "1in" or "2.5cm" | Text |  | LSA
+
+| ItemPrint Label - Inline CSS | inject arbitrary CSS into the item print label template. For example, ".printlabel { text-transform: uppercase; }"  | Text |  | LSA
+
+| ItemPrint Label - Left Margin for Left Label | Set the default left margin for the leftmost item print Label. Please include a unit of measurement that is valid CSS. For example, "1in" or "2.5cm" | Text |  | LSA
+
+| ItemPrint Label - Left Margin for Right Label | Set the default left margin for the rightmost item print label (or in other words, the desired space between the two labels). Please include a unit of measurement that is valid CSS. For example, "1in" or "2.5cm" |Text  |  | LSA
+
+| ItemPrint Label - Width for Left Label | Set the default width for the leftmost item print label. Please include a unit of measurement that is valid CSS. For example, "1in" or "2.5cm" | Text |  | LSA
+
+| ItemPrint Label - Width for Right Label | Set the default width for the rightmost item print label. Please include a unit of measurement that is valid CSS. For example, "1in" or "2.5cm"  |Text  |  | LSA
+
+| ItemPrint Label Font Family |Set the preferred font family for item print labels. You can specify a list of CSS fonts, separated by commas, in order of preference; the system will use the first font it finds with a matching name. For example, "Arial, Helvetica, serif"  |  Text |  | LSA
+
+| ItemPrint Label Font Size | Set the default font size for item print labels. Please include a unit of measurement that is valid CSS. For example, "12pt" or "16px" or "1em" |Text  |  | LSA
+
+| ItemPrint Label Font Weight | Set the default font weight for item print labels. Please use the CSS specification for values for font-weight. For example, "normal", "bold", "bolder", or "lighter" |Text  |  |  LSA
+
 |Maximum Parallel Z39.50 Batch Searches|The maximum number of Z39.50 searches that can be in-flight at any given time when performing batch Z39.50 searches|Number| | Sitka
+
 |Maximum Z39.50 Batch Search Results|The maximum number of search results to retrieve and queue for each record + Z39 source during batch Z39.50 searches|Number| | Sitka
+
 |Spine and pocket label font family|Set the preferred font family for spine and pocket labels. You can specify a list of fonts, separated by commas, in order of preference; the system will use the first font it finds with a matching name. For example, "Arial, Helvetica, serif".|Text| | LSA
+
 |Spine and pocket label font size|Set the default font size for spine and pocket labels|Number| | LSA
+
 |Spine and pocket label font weight|Set the preferred font weight for spine and pocket labels. You can specify "normal", "bold", "bolder", or "lighter".|Text| | LSA
+
 |Spine label left margin|Set the left margin for spine labels in number of characters.|Number| | LSA
+
 |Spine label line width|Set the default line width for spine labels in number of characters. This specifies the boundary at which lines must be wrapped.|Number| | LSA
+
 |Spine label maximum lines|Set the default maximum number of lines for spine labels.|Number| | LSA
 |======================
 
@@ -452,19 +510,4 @@ usernames in addition to barcode. For this setting to work, a barcode format mus
 |Vandelay Generate Default Call Numbers|Auto-generate default item call numbers when no item call number is present|True/False|These are pulled from the MARC Record.
 |========
 
-Data Types
-++++++++++
 
-Acceptable formats for each setting type are listed below. Quotation
-marks are never required when updating settings in the staff client.
-
-.Data Types in the Library Settings Editor
-[options="header"]
-|=============
-|Data type|Formatting
-|True/False|Boolean True/False drop down
-|Number|Enter a numerical value (decimals allowed in price settings)
-|Duration|Enter a number followed by a space and any of the following units: minutes, hours, days, months (30 minutes, 2 days, etc)
-|Selection list|Choose from a drop-down list of options (e.g. copy status, copy location)
-|Text|Free text
-|=============
