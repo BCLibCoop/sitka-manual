@@ -231,7 +231,7 @@ marks are never required when updating settings in the staff client.
 |Patron merge deactivate card|Mark barcode(s) of subordinate user(s) in a patron merge as inactive.|True/False| | LSA
 |Patron Registration: Cloned patrons get address copy|If True, in the Patron editor, addresses are copied from the cloned user. If False, addresses are linked from the cloned user which can only be edited from the cloned user record.|True/False| | LSA
 
-|Patron search diacritic insensitive | Match patron last, first, and middle names irrespective of usage of diacritical marks or spaces. (e.g., Ines will match Inés; de la Cruz will match Delacruz) | True/False | Default: True |Sitka
+|Patron search diacritic insensitive | Match patron last, first, and middle names irrespective of usage of diacritical marks or spaces. | True/False | Default: True |Sitka
 
 |Printing: custom JavaScript file|Full URL path to a JavaScript File to be loaded when printing. Should implement a print_custom function for DOM manipulation. Can change the value of the do_print variable to false to cancel printing.|Text| Not in use | 
 
