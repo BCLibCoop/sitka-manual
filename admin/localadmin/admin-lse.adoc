@@ -297,31 +297,6 @@ marks are never required when updating settings in the staff client.
 |All settings can be ignored.
 |======================
 
-//
-[options="header"]
-|======================
-|Setting|Description|Data type|Notes
-|AuthorizeNet login|Authorize.Net Username|Text|Obtain from Authorize.Net at http://www.authorize.net
-|AuthorizeNet password|Authorize.Net Password|Text|Obtain from Authorize.Net
-|AuthorizeNet server|Required if using a developer/test account with Authorize.Net.|Text|Enter the server name from Authorize.Net. This is for use on test or developer account. If using live, leave blank.
-|AuthorizeNet test mode|Places Authorize.Net transactions in Test Mode|True/False|
-|Enable AuthorizeNet payments|This actually enables use of Authorize.Net|True/False|
-|Enable PayPal payments|This will enable use of PayPal payments through the staff client.|True/False|
-|Enable PayflowPro payments|This will enable the use of PayPal's Payflow Pro. This is not the same is PayPal.|True/False|
-|Enable Stripe payments|This will enable the use of the stripe credit card processing.|True/False|https://stripe.com
-|Name default credit processor|This might be "AuthorizeNet", "PayPal", "PayflowPro", or "Stripe".|Text|This sets the company that you will use to process the credit cards.
-|PayPal login|Enter the PayPal login Username|Text|Obtain from PayPal
-|PayPal password|Enter the PayPal password.|Text|Obtain from PayPal.
-|PayPal signature|HASH Signature for PayPal|Text|Enter the HASH obtained from PayPal.
-|PayPal test mode|Places the PayPal credit card payments in test mode.|True/False|This sends the transactions to PayPal's development.paypal.com server for testing only.
-|PayflowPro login/merchant ID|Enter the PayflowPro Merchant ID|Text|Obtain from Payflow Pro Partner.
-|PayflowPro partner|Enter the Partner ID from your Payflow Partner|Text|This will obtained from your Payflow Pro partner. This can be "PayPal" or "VeriSign", sometimes others.
-|PayflowPro password|Password for PayflowPro|Text|Obtain from Payflow Pro Partner
-|PayflowPro test mode|Place Payflow Pro in test mode.|True/False|Do not really process transactions, but stay in test mode - uses pilot-payflowpro.paypal.com instead of the usual host.
-|PayflowPro vendor|Currently the same as the Payflow Pro login.|Text|Obtain from Payflow Pro partner.
-|Stripe publishable key|Publishable API Key from stripe.|Text|
-|Stripe secret key|Secret API key from stripe.|Text|
-|======================  //
 
 [[lse-finances]]
 .Finances
