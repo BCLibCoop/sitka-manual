@@ -557,10 +557,11 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 .OPAC
 [options="header"]
 |====
-|Setting|Description|Data type|Notes
-|Allow Patron Self-Registration|Allow patrons to self-register, creating pending user accounts|True/False|
-|Allow pending addresses|If true patrons can edit their addresses in the OPAC. Changes must be approved by staff|True/False|
-|Auto-Override Permitted Hold Blocks (Patrons)|This will allow patrons with the permission "HOLD_ITEM_CHECKED_OUT.override" to automatically override permitted holds.|True/False|When a patron places a hold in the OPAC that fails, and the patron has the permission to override the failed hold, this automatically overrides the failed hold rather than requiring the patron to manually override the hold. Default is False.
+|Setting|Description|Data type|Notes | Edited by
+
+|Allow Patron Self-Registration|Allow patrons to self-register, creating pending user accounts|True/False| | Sitka
+|Allow pending addresses|If true patrons can edit their addresses in the OPAC. Changes must be approved by staff|True/False| | LSA
+|Auto-Override Permitted Hold Blocks (Patrons)|This will allow patrons with the permission "HOLD_ITEM_CHECKED_OUT.override" to automatically override permitted holds.|True/False|When a patron places a hold in the OPAC that fails, and the patron has the permission to override the failed hold, this automatically overrides the failed hold rather than requiring the patron to manually override the hold. | Default: False | Sitka
 
 | Enable Digital Bookplate Search | If enabled, adds a "Digital Bookplate" option to the query type selectors in the public catalog for search on copy tags. | True/False | Sitka
 
@@ -600,6 +601,8 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 |Tag Circulated Items in Results|When a user is both logged in and has opted in to circulation history tracking, turning on this setting will cause previous (or currently) circulated items to be highlighted in search results|True/False|Default: True | LSA
 
 |Use fully compressed serial holdings|Show fully compressed serial holdings for all libraries at and below the current context unit|True/False| | Sitka
+
+|Uses phone as default pin | | True/False | | LSA
 |Warn patrons when adding to a temporary book list|Present a warning dialogue when a patron adds a book to the temporary book list.|True/False| | Sitka
 |====
 
