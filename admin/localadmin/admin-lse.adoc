@@ -389,11 +389,11 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 
 |Idle timeout|If you want staff client windows to be minimized after a certain amount of system idle time, set this to the number of seconds of idle time that you want to allow before minimizing (requires staff client restart).|Number| | LSA
 
-|Items Out Claims Returned display setting|Value is a numeric code, describing which list the circulation should appear while checked out and whether the circulation should continue to appear in the bottom list, when checked in with outstanding fines. 1 = top list, bottom list. 2 = bottom list, bottom list. 5 = top list, do not display. 6 = bottom list, do not display.|Number| | LSA
+|Items Out Claims Returned display setting|Value is a numeric code, describing which list the circulation should appear while checked out and whether the circulation should continue to appear in the special list, when checked in with outstanding fines. 1 = regular list, special list. 2 = special list, special list. 5 = regular list, do not display. 6 = special list, do not display.|Number| | LSA
 
-|Items Out Long-Overdue display setting|Value is a numeric code, describing which list the circulation should appear while checked out and whether the circulation should continue to appear in the bottom list, when checked in with outstanding fines. 1 = top list, bottom list. 2 = bottom list, bottom list. 5 = top list, do not display. 6 = bottom list, do not display.|Number|Not in use| LSA
+|Items Out Long-Overdue display setting| |Number|Not in use| LSA
 
-|Items Out Lost display setting|Value is a numeric code, describing which list the circulation should appear while checked out and whether the circulation should continue to appear in the bottom list, when checked in with outstanding fines. 1 = top list, bottom list. 2 = bottom list, bottom list. 5 = top list, do not display. 6 = bottom list, do not display.|Number| | LSA 
+|Items Out Lost display setting|Value is a numeric code, describing which list the circulation should appear while checked out and whether the circulation should continue to appear in the special list, when checked in with outstanding fines. 1 = regular list, special list. 2 = special list, special list. 5 = regular list, do not display. 6 = special list, do not display.|Number| | LSA 
 
 |Max user activity entries to retrieve (staff client)|Sets the maximum number of recent user activity entries to retrieve for display in the staff client.|Number| | LSA
 
