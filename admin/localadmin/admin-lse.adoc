@@ -561,19 +561,46 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 |Allow Patron Self-Registration|Allow patrons to self-register, creating pending user accounts|True/False|
 |Allow pending addresses|If true patrons can edit their addresses in the OPAC. Changes must be approved by staff|True/False|
 |Auto-Override Permitted Hold Blocks (Patrons)|This will allow patrons with the permission "HOLD_ITEM_CHECKED_OUT.override" to automatically override permitted holds.|True/False|When a patron places a hold in the OPAC that fails, and the patron has the permission to override the failed hold, this automatically overrides the failed hold rather than requiring the patron to manually override the hold. Default is False.
-|Jump to details on 1 hit (OPAC)|When a search yields only 1 result, jump directly to the record details page. This setting only affects the public OPAC|True/False|
-|Jump to details on 1 hit (staff client)|When a search yields only 1 result, jump directly to the record details page. This setting only affects the PAC within the staff client|True/False|
-|OPAC: Number of staff client saved searches to display on left side of results and record details pages|If unset, the OPAC (only when wrapped in the staff client!) will default to showing you your ten most recent searches on the left side of the results and record details pages. If you actually don't want to see this feature at all, set this value to zero at the top of your organizational tree.|Number|
-|OPAC: Org Unit is not a hold pickup library|If set, this org unit will not be offered to the patron as an option for a hold pickup location. This setting has no affect on searching or hold targeting.|True/False|
-|Org unit hiding depth|This will hide certain org units in the public OPAC if the Original Location (url param "ol") for the OPAC inherits this setting. This setting specifies an org unit depth, that together with the OPAC Original Location determines which section of the Org Hierarchy should be visible in the OPAC. For example, a stock Evergreen installation will have a 3-tier hierarchy (Consortium/System/Branch), where System has a depth of 1 and Branch has a depth of 2. If this setting contains a depth of 1 in such an installation, then every library in the System in which the Original Location belongs will be visible, and everything else will be hidden. A depth of 0 will effectively make every org visible. The embedded OPAC in the staff client ignores this setting.|Number|
-|Paging shortcut links for OPAC Browse|The characters in this string, in order, will be used as shortcut links for quick paging in the OPAC browse interface. Any sequence surrounded by asterisks will be taken as a whole label, not split into individual labels at the character level, but only the first character will serve as the basis of the search.|Text|
-|Patron Self-Reg. Display Timeout|Number of seconds to wait before reloading the patron self-registration interface to clear sensitive data|Duration|
-|Patron Self-Reg. Expire Interval|If set, this is the amount of time a pending user account will be allowed to sit in the database. After this time, the pending user information will be purged|Duration|
-|Payment history age limit|The OPAC should not display payments by patrons that are older than any interval defined here.|Duration|
-|Tag Circulated Items in Results|When a user is both logged in and has opted in to circulation history tracking, turning on this setting will cause previous (or currently) circulated items to be highlighted in search results|True/False|
-|Tag Circulated Items in Results|When a user is both logged in and has opted in to circulation history tracking, turning on this setting will cause previous (or currently) circulated items to be highlighted in search results.|True/False|Default TRUE
-|Use fully compressed serial holdings|Show fully compressed serial holdings for all libraries at and below the current context unit|True/False|
-|Warn patrons when adding to a temporary book list|Present a warning dialogue when a patron adds a book to the temporary book list.|True/False|
+
+| Enable Digital Bookplate Search | If enabled, adds a "Digital Bookplate" option to the query type selectors in the public catalog for search on copy tags. | True/False | Sitka
+
+| Ignore the Global luri_as_copy flag for this OU |	Admin setting on e-records scoping	| True/False | | Sitka
+
+|Jump to details on 1 hit (OPAC)|When a search yields only 1 result, jump directly to the record details page. This setting only affects the public OPAC|True/False| | LSA
+
+
+|Jump to details on 1 hit (staff client)|When a search yields only 1 result, jump directly to the record details page. This setting only affects the PAC within the staff client|True/False| | LSA
+
+|Limit the depth of xxxxxx	| Admin setting on e-record link display | Number | | Sitka
+
+|Limit the number of URIs on the results page | Admin setting on e-record link display | Number | | Sitka
+
+|OPAC login message | HTML blob to be rendered in an interstitial page upon OPAC login | Text	|  | Sitka
+
+|OPAC: Number of staff client saved searches to display on left side of results and record details pages|If unset, the OPAC (only when wrapped in the staff client!) will default to showing you your ten most recent searches on the left side of the results and record details pages. If you actually don't want to see this feature at all, set this value to zero at the top of your organizational tree.|Number| | LSA
+
+
+|OPAC: Org Unit is not a hold pickup library|If set, this org unit will not be offered to the patron as an option for a hold pickup location. This setting has no affect on searching or hold targeting.|True/False| | Sitka
+
+
+|Org unit hiding depth|This will hide certain org units in the public OPAC if the Original Location (url param "ol") for the OPAC inherits this setting. This setting specifies an org unit depth, that together with the OPAC Original Location determines which section of the Org Hierarchy should be visible in the OPAC. For example, a stock Evergreen installation will have a 3-tier hierarchy (Consortium/System/Branch), where System has a depth of 1 and Branch has a depth of 2. If this setting contains a depth of 1 in such an installation, then every library in the System in which the Original Location belongs will be visible, and everything else will be hidden. A depth of 0 will effectively make every org visible. The embedded OPAC in the staff client ignores this setting.|Number| | Sitka
+
+|Paging shortcut links for OPAC Browse|The characters in this string, in order, will be used as shortcut links for quick paging in the OPAC browse interface. Any sequence surrounded by asterisks will be taken as a whole label, not split into individual labels at the character level, but only the first character will serve as the basis of the search.|Regular expression | | Sitka
+
+|Patron Self-Reg. Display Timeout|Number of seconds to wait before reloading the patron self-registration interface to clear sensitive data|Duration| | Sitka
+
+|Patron Self-Reg. Expire Interval|If set, this is the amount of time a pending user account will be allowed to sit in the database. After this time, the pending user information will be purged|Duration| | Sitka
+
+|Payment history age limit|The OPAC should not display payments by patrons that are older than any interval defined here.|Duration|Not in use| 
+
+| Permit renewals when patron exceeds max fine threshold | Permit renewals even when the patron exceeds the maximum fine threshold |True/False | |LSA
+
+| Specify how items are ordered	| This value specifies how items are ordered in search results and record views within the org unit. To sort from newest to oldest by active date use 'desc'. To sort from oldest to newest by active date use 'asc'. To sort by call number use 'call'.|Text | LSA
+
+|Tag Circulated Items in Results|When a user is both logged in and has opted in to circulation history tracking, turning on this setting will cause previous (or currently) circulated items to be highlighted in search results|True/False|Default: True | LSA
+
+|Use fully compressed serial holdings|Show fully compressed serial holdings for all libraries at and below the current context unit|True/False| | Sitka
+|Warn patrons when adding to a temporary book list|Present a warning dialogue when a patron adds a book to the temporary book list.|True/False| | Sitka
 |====
 
 [[lse-offline]]
