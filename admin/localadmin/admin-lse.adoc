@@ -409,7 +409,8 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 
 |Record In-House Use: Maximum # of uses allowed per entry.|The # of uses entry in the Record In-House Use interface may not exceed the value of this setting.|Number| | LSA
 
-|Regex for barcodes on patron registration|The Regular Expression for validation on barcodes in patron registration.|Regular Expression|
+|Regex for barcodes on patron registration|The Regular Expression for validation on barcodes in patron registration.|Regular Expression| | LSA
+
 |Regex for Day_phone field on patron registration| The Regular Expression for validation on the Day_phone field in patron registration. Note: The first capture group will be used for the "last 4 digits of phone number" as patron password feature, if enabled. Ex: "[2-9]\d{2}-\d{3}-(\d{4})( x\d+)?" will ignore the extension on a NANP number.|Regular expression| | LSA
 
 |Regex for Email field on patron registration|The Regular Expression on validation on the Email field in patron registration.|Regular expression| | LSA
