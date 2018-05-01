@@ -630,14 +630,16 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 .Receipt Templates and SMS Text Message
 [options="header"]
 |======================================
-|Setting|Description|Data type|Notes
-|Content of alert_text include|Text/HTML/Macros to be inserted into receipt templates in place of %INCLUDE(alert_text)%|Text|
-|Content of event_text include|Text/HTML/Macros to be inserted into receipt templates in place of %INCLUDE(event_text)%|Text|
-|Content of footer_text include|Text/HTML/Macros to be inserted into receipt templates in place of %INCLUDE(footer_text)%|Text|
-|Content of header_text include|Text/HTML/Macros to be inserted into receipt templates in place of %INCLUDE(header_text)%|Text|
-|Content of notice_text include|Text/HTML/Macros to be inserted into receipt templates in place of %INCLUDE(notice_text)%|Text|
-|Disable auth requirement for texting call numbers.|Disable authentication requirement for sending call number information via SMS from the OPAC.|True/False|
-|Enable features that send SMS text messages.|Current features that use SMS include hold-ready-for-pickup notifications and a "Send Text" action for call numbers in the OPAC. If this setting is not enabled, the SMS options will not be offered to the user. Unless you are carefully silo-ing patrons and their use of the OPAC, the context org for this setting should be the top org in the org hierarchy, otherwise patrons can trample their user settings when jumping between orgs.|True/False|
+|Setting|Description|Data type|Notes| Edited by
+|Content of alert_text include|Text/HTML/Macros to be inserted into receipt templates in place of %INCLUDE(alert_text)%|Text| Not in use anymore | 
+|Content of event_text include|Text/HTML/Macros to be inserted into receipt templates in place of %INCLUDE(event_text)%|Text|Not in use anymore |
+|Content of footer_text include|Text/HTML/Macros to be inserted into receipt templates in place of %INCLUDE(footer_text)%|Text|Not in use anymore |
+|Content of header_text include|Text/HTML/Macros to be inserted into receipt templates in place of %INCLUDE(header_text)%|Text|Not in use anymore |
+|Content of notice_text include|Text/HTML/Macros to be inserted into receipt templates in place of %INCLUDE(notice_text)%|Text|Not in use anymore |
+
+|Disable auth requirement for texting call numbers.|Disable authentication requirement for sending call number information via SMS from the OPAC.|True/False| | LSA
+
+|Enable features that send SMS text messages.|Current features that use SMS include hold-ready-for-pickup notifications and a "Send Text" action for call numbers in the OPAC. If this setting is not enabled, the SMS options will not be offered to the user. Unless you are carefully silo-ing patrons and their use of the OPAC, the context org for this setting should be the top org in the org hierarchy, otherwise patrons can trample their user settings when jumping between orgs.|True/False| | LSA
 |======================================
 
 [[lse-security]]
