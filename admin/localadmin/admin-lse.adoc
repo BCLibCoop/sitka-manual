@@ -289,6 +289,8 @@ marks are never required when updating settings in the staff client.
 
 |===========
 
+NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related to Long Overdue may be ignored.
+
 [[lse-credit-cards]]
 .Credit Card Processing
 [options="header"]
@@ -312,13 +314,13 @@ marks are never required when updating settings in the staff client.
 
 |Charge processing fee for damaged items|Optional processing fee billed to last patron who checked out the damaged item. Staff receive an alert with patron information and must confirm the billing.|Number(Currency)| Disabled when set to 0 | LSA
 
-|Default item price|Replacement charge for lost items if price is unset in the *Copy Editor*. Does not apply if item price is set to $0|Number(Currency)| | LSA
+|Default item price|Replacement charge for lost items if price is unset in the Copy Editor. Does not apply if item price is set to $0|Number(Currency)| | LSA
 
 |Disable Patron Credit|Do not allow patrons to accrue credit or pay fines/fees with accrued credit|True/False| | LSA
 
-|Leave transaction open when long overdue balance equals zero|Leave transaction open when long-overdue balance equals zero. This leaves the lost copy on the patron record when it is paid|True/False| |LSA
+|Leave transaction open when long overdue balance equals zero|Leave transaction open when long-overdue balance equals zero. This leaves the lost copy on the patron record when it is paid|True/False| Not in use |
 
-|Leave transaction open when lost balance equals zero|Leave transaction open when lost balance equals zero. This leaves the lost copy on the patron record when it is paid|True/False| | LSA
+|Leave transaction open when lost balance equals zero|Leave transaction open when lost balance equals zero. This leaves the lost copy on the patron record when it is paid|True/False|Default: False | Sitka
 
 |Long-Overdue Materials Processing Fee|The amount charged in addition to item price when an item is marked Long-Overdue|Number (Currency)|Not in use | 
 
@@ -328,7 +330,7 @@ marks are never required when updating settings in the staff client.
 
 |Minimum Item Price|When charging for lost items, charge this amount as a minimum.|Number(Currency) | | LSA
 
-|Negative Balance Interval (DEFAULT)|Amount of time after which no negative balances (refunds) are allowed on circulation bills. The "Prohibit negative balance on bills" setting must also be set to "true".|Duration| | LSA
+|Negative Balance Interval (DEFAULT)|Amount of time after which no negative balances (refunds) are allowed on circulation bills. The "Prohibit negative balance on bills" setting must also be set to "true".|Duration| If the settings for Lost and Overdues are the same, you may use this setting and the "Prohibit Negative Balance on Bills (DEFAULT)" setting, and igore the separate settings for Lost and Overdues. | LSA
 
 |Negative Balance Interval for Lost|Amount of time after which no negative balances (refunds) are allowed on bills for lost/long overdue materials. The "Prohibit negative balance on bills for lost materials" setting must also be set to "true".|Duration| | LSA
 
@@ -340,65 +342,115 @@ marks are never required when updating settings in the staff client.
 
 |Prohibit negative balance on bills for overdue materials|Prevent negative balances (refunds) on bills for lost/long overdue materials. Set to "true" to prohibit negative balances at all times or, when used in conjunction with an interval setting, to prohibit negative balances after an interval of time.|True/False| | LSA
 
-|Void Overdue Fines When Items are Marked Long-Overdue|If true overdue fines are voided when an item is marked Long-Overdue|True/False| | LSA
+|Void Overdue Fines When Items are Marked Long-Overdue|If true overdue fines are voided when an item is marked Long-Overdue|True/False|Not in use | 
 
 |Void overdue fines when items are marked lost|If true overdue fines are voided when an item is marked lost|True/False| | LSA
 |========
 
 [[lse-gui]]
 .GUI: Graphic User Interface
-[options="header",separator="!"]
-!===========================
-!Setting!Description!Data type!Notes
-!Alert on empty bib records!Alert staff when the last copy for a record is being deleted.!True/False!
-!Button bar!If TRUE, the staff client button bar appears by default on all workstations registered to your library; staff can override this setting at each login.!True/False!
-!Cap results in Patron Search at this number.!The maximum number of results returned per search. If 100 is set up here, any search will return 100 records at most.!Number!
-!Default Country for New Addresses in Patron Editor!This is the default Country for new addresses in the patron editor.!Text!
-!Default hotkeyset!Default Hotkeyset for clients (filename without the .keyset). Examples: Default, Minimal, and None!Text!Individual workstations' default overrides this setting.
-!Default ident type for patron registration!This is the default Ident Type for new users in the patron editor.!Selection list!
-!Default showing suggested patron registration fields!Instead of All fields, show just suggested fields in patron registration by default.!True/False!
-!Disable the ability to save list column configurations locally.!GUI: Disable the ability to save list column configurations locally. If set, columns may still be manipulated, however, the changes do not persist. Also, existing local configurations are ignored if this setting is true.!True/False!
-!Example for Day_phone field on patron registration!The example on validation on the Day_phone field in patron registration.!Text!
-!Example for Email field on patron registration!The example on validation on the Email field in patron  registration.!Text!
-!Example for Evening-phone on patron registration!The example on validation on the Evening-phone field in patron registration.!Text!
-!Example for Other-phone on patron registration!The example on validation on the Other-phone field in patron registration.!Text!
-!Example for phone fields on patron registration!The example on validation on phone fields in patron registration. Applies to all phone fields without their own setting.!Text!
-!Example for Postal Code field on patron registration!The example on validation on the Postal Code field in patron registration.!Text!
-!Format Dates with this pattern.!Format Dates with this pattern (examples: "yyyy-MM-dd" for "2010-04-26, "MMM d, yyyy" for "Apr 26, 2010"). Formats are effective in display (not editing) area.!Text!
-!Format Times with this pattern.!Format Times with this pattern '(examples: "h:m:s.SSS a z" for "2:07:20.666 PM Eastern Daylight Time", "HH:mm" for "14:07")'. Formats are effective in display (not editing) area.!Text!
-!GUI: Hide these fields within the Item Attribute Editor.!Sets which fields in the Item Attribute Editor to hide in the staff client.!Text!This is useful to hide attributes that are not used.
-!Horizontal layout for Volume/Copy Creator/Editor.!The main entry point for this interface is in Holdings Maintenance, Actions for Selected Rows, Edit Item Attributes / Call Numbers / Replace Barcodes. This setting changes the top and bottom panes (if FALSE) for that interface into left and right panes (if TRUE).!True/False!
-!Idle timeout!If you want staff client windows to be minimized after a certain amount of system idle time, set this to the number of seconds of idle time that you want to allow before minimizing (requires staff client restart).!Number!
-!Items Out Claims Returned display setting!Value is a numeric code, describing which list the circulation should appear while checked out and whether the circulation should continue to appear in the bottom list, when checked in with outstanding fines. 1 = top list, bottom list. 2 = bottom list, bottom list. 5 = top list, do not display. 6 = bottom list, do not display.!Number!
-!Items Out Long-Overdue display setting!Value is a numeric code, describing which list the circulation should appear while checked out and whether the circulation should continue to appear in the bottom list, when checked in with outstanding fines. 1 = top list, bottom list. 2 = bottom list, bottom list. 5 = top list, do not display. 6 = bottom list, do not display.!Number!
-!Items Out Lost display setting!Value is a numeric code, describing which list the circulation should appear while checked out and whether the circulation should continue to appear in the bottom list, when checked in with outstanding fines. 1 = top list, bottom list. 2 = bottom list, bottom list. 5 = top list, do not display. 6 = bottom list, do not display.!Number!
-!Max user activity entries to retrieve (staff client)!Sets the maximum number of recent user activity entries to retrieve for display in the staff client.!Number!
-!Maximum previous checkouts displayed! The maximum number of previous circulations the staff client will display when investigating item details!Number!
-!Patron circulation summary is horizontal!!True/False!
-!Record in-house use: # of uses threshold for Are You Sure? dialog.!In the Record In-House Use interface, a submission attempt will warn if the # of uses field exceeds the value of this setting.!Number!
-!Record In-House Use: Maximum # of uses allowed per entry.!The # of uses entry in the Record In-House Use interface may not exceed the value of this setting.!Number!
-!Regex for barcodes on patron registration!The Regular Expression for validation on barcodes in patron registration.!Regular Expression!
-!Regex for Day_phone field on patron registration! The Regular Expression for validation on the Day_phone field in patron registration. Note: The first capture group will be used for the "last 4 digits of phone number" as patron password feature, if enabled. Ex: "[2-9]\d{2}-\d{3}-(\d{4})( x\d+)?" will ignore the extension on a NANP number.!Regular expression!
-!Regex for Email field on patron registration!The Regular Expression on validation on the Email field in patron registration.!Regular expression!
-!Regex for Evening-phone on patron registration!The Regular Expression on validation on the Evening-phone field in patron registration.!Regular expression!
-!Regex for Other-phone on patron registration!The Regular Expression on validation on the Other-phone field in patron registration.!Regular expression!
-!Regex for phone fields on patron registration!The Regular Expression on validation on phone fields in patron registration. Applies to all phone fields without their own setting.!Regular expression!`^(?:(?:\+?1\s*(?:[.-]\s*)?)?(?:\(\s*([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9])\s*\)|([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9]))\s*(?:[.-]\s*)?)?([2-9]1[02-9]|[2-9][02-9]1|[2-9][02-9]{2})\s*(?:[.-]\s*)?([0-9]{4})(?:\s*(?:#|x\.?|ext\.?|extension)\s*(\d+))?$` is a US phone number
-!Regex for Postal Code field on patron registration!The Regular Expression on validation on the Postal Code field in patron registration.!Regular expression!
-!Require at least one address for Patron Registration!Enforces a requirement for having at least one address for a patron during registration. If set to False, you need to delete the empty address before saving the record. If set to True, deletion is not allowed.!True/False!
-!Require XXXXX field on patron registration!The XXXXX field will be required on the patron registration screen.!True/False!XXXXX can be Country, State, Day-phone, Evening-phone, Other-phone, DOB, Email, or Prefix.
-!Require staff initials for entry/edit of patron standing penalties and messages.!Appends staff initials and edit date into patron standing penalties and messages.!True/False!
-!Require staff initials for entry/edit of patron notes.!Appends staff initials and edit date into patron note content.!True/False!
-!Require staff initials for entry/edit of copy notes.!Appends staff initials and edit date into copy note content.!True/False!
-!Show billing tab first when bills are present!If true accounts for patrons with bills will open to the billing tab instead of check out!True/false!
-!Show XXXXX field on patron registration!The XXXXX field will be shown on the patron registration screen. Showing a field makes it appear with required fields even when not required. If the field is required this setting is ignored.!True/False!
-!Suggest XXXXX field on patron registration!The XXXXX field will be suggested on the patron registration screen. Suggesting a field makes it appear when suggested fields are shown. If the field is shown or required this setting is ignored.!True/False!
-!Toggle off the patron summary sidebar after first view.!When true, the patron summary sidebar will collapse after a new patron sub-interface is selected.!True/False!
-!URL for remote directory containing list column settings.!The format and naming convention for the files found in this directory match those in the local settings directory for a given workstation. An administrator could create the desired settings locally and then copy all the tree_columns_for_* files to the remote directory.!Text!
-!Uncheck bills by default in the patron billing interface!Uncheck bills by default in the patron billing interface, and focus on the Uncheck All button instead of the Payment Received field.!True/False!
-!Unified Volume/Item Creator/Editor!If True, combines the Volume/Copy Creator and Item Attribute Editor in some instances.!True/False!
-!Work Log: maximum actions logged!Maximum entries for "Most Recent Staff Actions" section of the Work Log interface.!Number!
-!Work Log: maximum patrons logged!Maximum entries for "Most Recently Affected Patrons..." section of the Work Log interface.!Number!
-!===========================
+
+[options="header"]
+|=================
+|Setting|Description|Data type|Notes | Edited by
+|Alert on empty bib records|Alert staff when the last copy for a record is being deleted.|True/False| | LSA
+|Button bar|If TRUE, the staff client button bar appears by default on all workstations registered to your library; staff can override this setting at each login.|True/False|Not in use anymore | 
+|Cap results in Patron Search at this number.|The maximum number of results returned per search. If 100 is set up here, any search will return 100 records at most.|Number| | LSA
+
+|Default Country for New Addresses in Patron Editor|This is the default Country for new addresses in the patron editor.|Text| | LSA
+
+|Default hotkeyset|Default Hotkeyset for clients (filename without the .keyset). Examples: Default, Minimal, and None|Text|Not in use anymore|LSA
+
+|Default ident type for patron registration|This is the default Ident Type for new users in the patron editor.|Selection list| | LSA
+
+|Default showing suggested patron registration fields|Instead of All fields, show just suggested fields in patron registration by default.|True/False| | LSA
+
+|Disable the ability to save list column configurations locally.|GUI: Disable the ability to save list column configurations locally. If set, columns may still be manipulated, however, the changes do not persist. Also, existing local configurations are ignored if this setting is true.|True/False| | LSA
+
+|Example for Day_phone field on patron registration|The example on validation on the Day_phone field in patron registration.|Text| | LSA
+
+|Example for Email field on patron registration|The example on validation on the Email field in patron  registration.|Text| | LSA
+|Example for Evening-phone on patron registration|The example on validation on the Evening-phone field in patron registration.|Text| | LSA
+
+|Example for Other-phone on patron registration|The example on validation on the Other-phone field in patron registration.|Text| | LSA
+
+|Example for phone fields on patron registration|The example on validation on phone fields in patron registration. Applies to all phone fields without their own setting.|Text| | LSA
+
+|Example for Postal Code field on patron registration|The example on validation on the Postal Code field in patron registration.|Text| | LSA
+
+|Format Date+Time with this pattern| |Text|Default: yyyy-MM-dd HH:mm | Sitka
+
+|Format Dates with this pattern | | Text | Default: yyyy-MM-dd | Sitka
+
+|GUI: Hide these fields within the Item Attribute Editor.|Sets which fields in the Item Attribute Editor to hide in the staff client.|Text|This is useful to hide attributes that are not used. | LSA
+
+|Horizontal layout for Volume/Copy Creator/Editor.|The main entry point for this interface is in Holdings Maintenance, Actions for Selected Rows, Edit Item Attributes / Call Numbers / Replace Barcodes. This setting changes the top and bottom panes (if FALSE) for that interface into left and right panes (if TRUE).|True/False|Not in use anymore | LSA
+
+
+|Idle timeout|If you want staff client windows to be minimized after a certain amount of system idle time, set this to the number of seconds of idle time that you want to allow before minimizing (requires staff client restart).|Number| | LSA
+
+|Items Out Claims Returned display setting|Value is a numeric code, describing which list the circulation should appear while checked out and whether the circulation should continue to appear in the bottom list, when checked in with outstanding fines. 1 = top list, bottom list. 2 = bottom list, bottom list. 5 = top list, do not display. 6 = bottom list, do not display.|Number| | LSA
+
+|Items Out Long-Overdue display setting|Value is a numeric code, describing which list the circulation should appear while checked out and whether the circulation should continue to appear in the bottom list, when checked in with outstanding fines. 1 = top list, bottom list. 2 = bottom list, bottom list. 5 = top list, do not display. 6 = bottom list, do not display.|Number| | LSA
+
+|Items Out Lost display setting|Value is a numeric code, describing which list the circulation should appear while checked out and whether the circulation should continue to appear in the bottom list, when checked in with outstanding fines. 1 = top list, bottom list. 2 = bottom list, bottom list. 5 = top list, do not display. 6 = bottom list, do not display.|Number| LSA 
+
+|Max user activity entries to retrieve (staff client)|Sets the maximum number of recent user activity entries to retrieve for display in the staff client.|Number| | LSA
+
+| Maximum payment amount allow | The payment amount in the Patron Bills interface may not exceed the value of this setting. | Number | Sitka default 1000 |LSA
+
+|Maximum previous checkouts displayed| The maximum number of previous circulations the staff client will display when investigating item details|Number| | LSA
+
+|Patron circulation summary is horizontal||True/False|Not in use anymore | LSA
+
+|Payment amount threshold for Are You Sure? dialog |In the Patron Bills interface, a payment attempt will warn if the amount exceeds the value of this setting. | Number	| Sitka default 1000 | LSA
+
+|Record in-house use: # of uses threshold for Are You Sure? dialog.|In the Record In-House Use interface, a submission attempt will warn if the # of uses field exceeds the value of this setting.|Number| | LSA
+
+|Record In-House Use: Maximum # of uses allowed per entry.|The # of uses entry in the Record In-House Use interface may not exceed the value of this setting.|Number| | LSA
+
+|Regex for barcodes on patron registration|The Regular Expression for validation on barcodes in patron registration.|Regular Expression|
+|Regex for Day_phone field on patron registration| The Regular Expression for validation on the Day_phone field in patron registration. Note: The first capture group will be used for the "last 4 digits of phone number" as patron password feature, if enabled. Ex: "[2-9]\d{2}-\d{3}-(\d{4})( x\d+)?" will ignore the extension on a NANP number.|Regular expression| | LSA
+
+|Regex for Email field on patron registration|The Regular Expression on validation on the Email field in patron registration.|Regular expression| | LSA
+
+|Regex for Evening-phone on patron registration|The Regular Expression on validation on the Evening-phone field in patron registration.|Regular expression| | LSA
+
+|Regex for Other-phone on patron registration|The Regular Expression on validation on the Other-phone field in patron registration.|Regular expression| | LSA
+
+|Regex for phone fields on patron registration|The Regular Expression on validation on phone fields in patron registration. Applies to all phone fields without their own setting.|Regular expression| | LSA
+
+|Regex for Postal Code field on patron registration|The Regular Expression on validation on the Postal Code field in patron registration.|Regular expression| | LSA
+
+|Require at least one address for Patron Registration|Enforces a requirement for having at least one address for a patron during registration. If set to False, you need to delete the empty address before saving the record. If set to True, deletion is not allowed.|True/False| | LSA
+
+|Require XXXXX field on patron registration|The XXXXX field will be required on the patron registration screen.|True/False|XXXXX can be Country, State, Day-phone, Evening-phone, Other-phone, DOB, Email, or Prefix. | LSA
+
+|Require staff initials for entry/edit of patron standing penalties and messages.|Appends staff initials and edit date into patron standing penalties and messages.|True/False| | LSA
+
+|Require staff initials for entry/edit of patron notes.|Appends staff initials and edit date into patron note content.|True/False| | LSA
+
+|Require staff initials for entry/edit of copy notes.|Appends staff initials and edit date into copy note content.|True/False| | LSA
+
+|Show billing tab first when bills are present|If true accounts for patrons with bills will open to the billing tab instead of check out|True/false| |LSA
+
+|Show XXXXX field on patron registration|The XXXXX field will be shown on the patron registration screen. Showing a field makes it appear with required fields even when not required. If the field is required this setting is ignored.|True/False| | LSA
+
+|Suggest XXXXX field on patron registration|The XXXXX field will be suggested on the patron registration screen. Suggesting a field makes it appear when suggested fields are shown. If the field is shown or required this setting is ignored.|True/False| | LSA
+
+|Toggle off the patron summary sidebar after first view.|When true, the patron summary sidebar will collapse after a new patron sub-interface is selected.|True/False| Not in use anymore | 
+
+|URL for remote directory containing list column settings.|The format and naming convention for the files found in this directory match those in the local settings directory for a given workstation. An administrator could create the desired settings locally and then copy all the tree_columns_for_* files to the remote directory.|Text| Not in use | 
+
+|Uncheck bills by default in the patron billing interface|Uncheck bills by default in the patron billing interface, and focus on the Uncheck All button instead of the Payment Received field.|True/False| | LSA
+
+|Unified Volume/Item Creator/Editor|If True, combines the Volume/Copy Creator and Item Attribute Editor in some instances.|True/False| Not in use anymore | 
+
+|Work Log: maximum actions logged|Maximum entries for "Most Recent Staff Actions" section of the Work Log interface.|Number| | LSA
+
+|Work Log: maximum patrons logged|Maximum entries for "Most Recently Affected Patrons..." section of the Work Log interface.|Number| | LSA
+|===========================
+
 
 [[lse-global]]
 .Global
