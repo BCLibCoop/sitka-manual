@@ -596,7 +596,7 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 
 | Permit renewals when patron exceeds max fine threshold | Permit renewals even when the patron exceeds the maximum fine threshold |True/False | |LSA
 
-| Specify how items are ordered	| This value specifies how items are ordered in search results and record views within the org unit. To sort from newest to oldest by active date use 'desc'. To sort from oldest to newest by active date use 'asc'. To sort by call number use 'call'.|Text | LSA
+| Specify how items are ordered	| This value specifies how items are ordered in search results and record views within the org unit. To sort from newest to oldest by active date use 'desc'. To sort from oldest to newest by active date use 'asc'. To sort by call number use 'call'.|Text | | LSA
 
 |Tag Circulated Items in Results|When a user is both logged in and has opted in to circulation history tracking, turning on this setting will cause previous (or currently) circulated items to be highlighted in search results|True/False|Default: True | LSA
 
