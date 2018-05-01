@@ -646,20 +646,32 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 .Security
 [options="header"]
 |========
-|Setting|Description|Data type|Notes
-|Default level of patrons' internet access|Enter numbers 1 (Filtered), 2 (Unfiltered), or 3 (No Access)|Number|
-|Maximum concurrently active self-serve password reset requests|Prevent the creation of new self-serve password reset requests until the number of active requests drops back below this number.|Number|
-|Maximum concurrently active self-serve password reset requests per user|When a user has more than this number of concurrently active self-serve password reset requests for their account, prevent the user from creating any new self-serve password reset requests until the number of active requests for the user drops back below this number.|Number|
-|OPAC Inactivity Timeout (in seconds)|Number of seconds of inactivity before OPAC accounts are automatically logged out.|Number|
-|Obscure the Date of Birth field|When true, the Date of Birth column in patron lists will default to Not Visible, and in the Patron Summary sidebar the value will display as unless the field label is clicked.|True/False|
+|Setting|Description|Data type|Notes | Edited by
+|Default level of patrons' internet access|Enter numbers 1 (Filtered), 2 (Unfiltered), or 3 (No Access)|Number| |LSA
+
+|Maximum concurrently active self-serve password reset requests|Prevent the creation of new self-serve password reset requests until the number of active requests drops back below this number.|Number|Not in use | Sitka
+
+|Maximum concurrently active self-serve password reset requests per user|When a user has more than this number of concurrently active self-serve password reset requests for their account, prevent the user from creating any new self-serve password reset requests until the number of active requests for the user drops back below this number.|Number| Not in use | Sitka
+
+|OPAC Inactivity Timeout (in seconds)|Number of seconds of inactivity before OPAC accounts are automatically logged out.|Number| | LSA
+
+|Obscure the Date of Birth field|When true, the Date of Birth column in patron lists will default to Not Visible, and in the Patron Summary sidebar the value will display as unless the field label is clicked.|True/False| | LSA
+
 |Offline: Patron usernames allowed|During offline circulations, allow patrons to identify themselves with
-usernames in addition to barcode. For this setting to work, a barcode format must also be defined|True/False|
-|Patron opt-in boundary|This determines at which depth above which patrons must be opted in, and below which patrons will be assumed to be opted in.|Text|
-|Patron opt-in default|This is the default depth at which a patron is opted in; it is calculated as an org unit relative to the current workstation.|Text|
-|Patron: password from phone #|If true the last 4 digits of the patron's phone number is the password for new accounts (password must still be changed at first OPAC login)|True/false|
-|Persistent login duration|How long a persistent login lasts, e.g. '2 weeks'|Duration|
-|Self-serve password reset request time-to-live|Length of time (in seconds) a self-serve password reset request should remain active.|Duration|
-|Staff login inactivity timeout (in seconds)|Number of seconds of inactivity before staff client prompts for login and password.|Number|
+usernames in addition to barcode. For this setting to work, a barcode format must also be defined|True/False| | 
+
+|Patron opt-in boundary|Admin setting|Text| | Sitka
+
+|Patron opt-in default|Admin setting |Text| | Sitka
+
+|Patron: password from phone #|If true the last 4 digits of the patron's phone number is the password for new accounts (password must still be changed at first OPAC login)|True/false| LSA
+
+|Persistent login duration|How long a persistent login lasts, e.g. '2 weeks'|Duration| |Sitka
+
+| Restrict patron opt-in to home library and related orgs at specified depth | Admin setting | number |	Sitka
+
+|Self-serve password reset request time-to-live|Length of time (in seconds) a self-serve password reset request should remain active.|Duration|  |Sitka
+|Staff login inactivity timeout (in seconds)|Number of seconds of inactivity before staff client prompts for login and password.|Number| |LSA
 |========
 
 [[lse-selfcheck]]
