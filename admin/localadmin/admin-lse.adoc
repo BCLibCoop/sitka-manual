@@ -691,12 +691,11 @@ usernames in addition to barcode. For this setting to work, a barcode format mus
 |Selfcheck override events list|List of checkout/renewal events that the selfcheck interface should automatically override instead instead of alerting and stopping the transaction.|Text| | LSA
 |Workstation Required|All selfcheck stations must use a workstation.|True/False| | LSA
 
-|Default display grouping for serials distributions presented in the OPAC.|Default display grouping for serials distributions presented in the OPAC. This can be "enum" or "chron".|Text| | LSA
-|Previous issuance copy location|When a serial issuance is received, copies (units) of the previous issuance will be automatically moved into the configured shelving location.|Selection List| | LSA
-|Maximum redirect lookups|For URLs returning 3XX redirects, this is the maximum number of redirects we will follow before giving up.|Number|
-|Maximum wait time (in seconds) for a URL to lookup|If we exceed the wait time, the URL is marked as a "timeout" and the system moves on to the next URL|Duration|
-|Number of URLs to test in parallel|URLs are tested in batches. This number defines the size of each batch and it directly relates to the number of back-end processes performing URL verification.|Number| | LSA
-|Number of seconds to wait between URL test attempts|Throttling mechanism for batch URL verification runs. Each running process will wait this number of seconds after a URL test before performing the next.|Duration| | LSA
+|Default display grouping for serials distributions presented in the OPAC.|Default display grouping for serials distributions presented in the OPAC. This can be "enum" or "chron".|Text| | Sitka
+|Previous issuance copy location|When a serial issuance is received, copies (units) of the previous issuance will be automatically moved into the configured shelving location.|Selection List| | Sitka
+|URL verify: Maximum redirect lookups|Admin setting|Number| | Sitka
+|URL verify: Maximum wait time (in seconds) for a URL to lookup|Admin setting||Number| | Sitka
+|URL verify: Number of seconds to wait between URL test attempts|Throttling mechanism for batch URL verification runs. Each running process will wait this number of seconds after a URL test before performing the next.|Duration| | Sitka
 |=====================
 
 [[lse-vandelay]]
