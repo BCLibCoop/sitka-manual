@@ -664,7 +664,7 @@ usernames in addition to barcode. For this setting to work, a barcode format mus
 
 |Patron opt-in default|Admin setting |Text| | Sitka
 
-|Patron: password from phone #|If true the last 4 digits of the patron's phone number is the password for new accounts (password must still be changed at first OPAC login)|True/false| LSA
+|Patron: password from phone #|If true the last 4 digits of the patron's phone number is the password for new accounts (password must still be changed at first OPAC login)|True/False| | LSA
 
 |Persistent login duration|How long a persistent login lasts, e.g. '2 weeks'|Duration| |Sitka
 
@@ -678,35 +678,39 @@ usernames in addition to barcode. For this setting to work, a barcode format mus
 .Self Check and Others
 [options="header"]
 |=====================
-|Setting|Description|Data type|Notes
-|Audio Alerts|Use audio alerts for selfcheck events.|True/false|
-|Block copy checkout status|List of copy status IDs that will block checkout even if the generic COPY_NOT_AVAILABLE event is overridden.|Number|Look up copy status ID from Server Admin.
-|Patron login timeout (in seconds)|Number of seconds of inactivity before the patron is logged out of the selfcheck interface.|Duration|
-|Pop-up alert for errors|If true, checkout/renewal errors will cause a pop-up window in addition to the on-screen message.|True/False|
-|Require Patron Password|If true, patrons will be required to enter their password in addition to their username/barcode to log into the selfcheck interface.|True/False|This replaced "Require patron password"
-|Require patron password||True/False|This was replaced by "Require Patron Password" and is currently invalid.
-|Selfcheck override events list|List of checkout/renewal events that the selfcheck interface should automatically override instead instead of alerting and stopping the transaction.|Text|
-|Workstation Required|All selfcheck stations must use a workstation.|True/False|
-|Default display grouping for serials distributions presented in the OPAC.|Default display grouping for serials distributions presented in the OPAC. This can be "enum" or "chron".|Text|
-|Previous issuance copy location|When a serial issuance is received, copies (units) of the previous issuance will be automatically moved into the configured shelving location.|Selection List|
+|Setting|Description|Data type|Notes | Edited by
+
+| Allow Fine printing	| If true, there will be a print option on the fine list screen.	|True/False	||LSA	 
+| Allow Hold printing	| If true, there will be a print option on the hold list screen.	|True/False	||LSA	 
+| Allow Items out printing	| If true, there will be a print option on the items out list screen.	|True/False ||	LSA	 
+|Audio Alerts|Use audio alerts for selfcheck events.|True/False| L LSA
+|Block copy checkout status|List of copy status IDs that will block checkout even if the generic COPY_NOT_AVAILABLE event is overridden.|Number|Look up copy status ID from Server Admin. |LSA
+|Patron login timeout (in seconds)|Number of seconds of inactivity before the patron is logged out of the selfcheck interface.|Duration| | LSA
+|Pop-up alert for errors|If true, checkout/renewal errors will cause a pop-up window in addition to the on-screen message.|True/False| L LSA
+|Require Patron Password|If true, patrons will be required to enter their password in addition to their username/barcode to log into the selfcheck interface.|True/False| | LSA
+|Selfcheck override events list|List of checkout/renewal events that the selfcheck interface should automatically override instead instead of alerting and stopping the transaction.|Text| | LSA
+|Workstation Required|All selfcheck stations must use a workstation.|True/False| | LSA
+
+|Default display grouping for serials distributions presented in the OPAC.|Default display grouping for serials distributions presented in the OPAC. This can be "enum" or "chron".|Text| | LSA
+|Previous issuance copy location|When a serial issuance is received, copies (units) of the previous issuance will be automatically moved into the configured shelving location.|Selection List| | LSA
 |Maximum redirect lookups|For URLs returning 3XX redirects, this is the maximum number of redirects we will follow before giving up.|Number|
 |Maximum wait time (in seconds) for a URL to lookup|If we exceed the wait time, the URL is marked as a "timeout" and the system moves on to the next URL|Duration|
-|Number of URLs to test in parallel|URLs are tested in batches. This number defines the size of each batch and it directly relates to the number of back-end processes performing URL verification.|Number|
-|Number of seconds to wait between URL test attempts|Throttling mechanism for batch URL verification runs. Each running process will wait this number of seconds after a URL test before performing the next.|Duration|
+|Number of URLs to test in parallel|URLs are tested in batches. This number defines the size of each batch and it directly relates to the number of back-end processes performing URL verification.|Number| | LSA
+|Number of seconds to wait between URL test attempts|Throttling mechanism for batch URL verification runs. Each running process will wait this number of seconds after a URL test before performing the next.|Duration| | LSA
 |=====================
 
 [[lse-vandelay]]
 .Vandelay
 [options="header"]
 |========
-|Setting|Description|Data type|Notes
-|Default Record Match Set|Sets the Default Record Match set |Selection List|Populated by the Vandelay Record Match Sets
-|Vandelay Default Barcode Prefix|Apply this prefix to any auto-generated item barcode|Text|
-|Vandelay Default Call Number Prefix|Apply this prefix to any auto-generated item call numbers.|Text|
-|Vandelay Default Circulation Modifier|Default circulation modifier value for imported items|Selection List|Populated by your Circulation Modifiers.
-|Vandelay Default Copy Location|Default copy location value for imported items|Selection List|Populated from Shelving Locations
-|Vandelay Generate Default Barcodes|Auto-generate default item barcodes when no item barcode is present|True/False|
-|Vandelay Generate Default Call Numbers|Auto-generate default item call numbers when no item call number is present|True/False|These are pulled from the MARC Record.
+|Setting|Description|Data type|Notes | Edited by
+|Default Record Match Set|Sets the Default Record Match set |Selection List|Populated by the Vandelay Record Match Sets  | | LSA
+|Vandelay Default Barcode Prefix|Apply this prefix to any auto-generated item barcode|Text| | LSA
+|Vandelay Default Call Number Prefix|Apply this prefix to any auto-generated item call numbers.|Text| | LSA
+|Vandelay Default Circulation Modifier|Default circulation modifier value for imported items|Selection List| |LSA
+|Vandelay Default Copy Location|Default copy location value for imported items|Selection List|| LSA
+|Vandelay Generate Default Barcodes|Auto-generate default item barcodes when no item barcode is present|True/False| | LSA
+|Vandelay Generate Default Call Numbers|Auto-generate default item call numbers when no item call number is present|True/False|These are pulled from the MARC Record. | LSA
 |========
 
 
