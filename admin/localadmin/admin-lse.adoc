@@ -474,33 +474,52 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 .Holds
 [options="header"]
 |=====
-|Setting|Description|Data type|Notes
-|Behind desk pickup supported|If a branch supports both a public holds shelf and behind-the-desk pickups, set this value to true. This gives the patron the option to enable behind-the-desk pickups for their holds by selecting Hold is behind Circ Desk flag in patron record.|True/False|
-|Best-hold selection sort order|Defines the sort order of holds when selecting a hold to fill using a given copy at capture time|Selection list|
-|Block renewal of items needed for holds|When an item could fulfill a hold, do not allow the current patron to renew|True/False|
-|Cancelled holds display age|Show all cancelled holds that were cancelled within this amount of time|Duration|
-|Cancelled holds display count|How many cancelled holds to show in patron holds interfaces|Number|
-|Clear shelf copy status|Any copies that have not been put into reshelving, in-transit, or on-holds-shelf (for a new hold) during the clear shelf process will be put into this status. This is basically a purgatory status for copies waiting to be pulled from the shelf and processed by hand|Selection list|
-|Default estimated wait|When predicting the amount of time a patron will be waiting for a hold to be fulfilled, this is the default estimated length of time to assume an item will be checked out.|Duration|
-|Default hold shelf expire interval|Hold Shelf Expiry Time is calculated and inserted into hold record based on this interval when capturing a hold.|Duration|
-|Expire alert interval|Time before a hold expires at which to send an email notifying the patron|Duration|
-|Expire interval|Amount of time until an unfulfilled hold expires|Duration|
-|FIFO|Force holds to a more strict First-In, First-Out capture. Default is SAVE-GAS, which gives priority to holds with pickup location the same as checkin library.|True/False|Applies only to multi-branch libraries. Default is SAVE-GAS.
-|Hard boundary||Number|
-|Hard stalling interval||Duration|
-|Has local copy alert|If there is an available copy at the requesting library that could fulfill a hold during hold placement time, alert the patron.|True/False|
-|Has local copy block|If there is an available copy at the requesting library that could fulfill a hold during hold placement time, do not allow the hold to be placed.|True/False|
-|Max foreign-circulation time|Time a copy can spend circulating away from its circ lib before returning there to fill a hold|Duration|For multi-branch libraries.
-|Maximum library target attempts|When this value is set and greater than 0, the system will only attempt to find a copy at each possible branch the configured number of times|Number|For multi-branch libraries.
-|Minimum estimated wait|When predicting the amount of time a patron will be waiting for a hold to be fulfilled, this is the minimum estimated length of time to assume an item will be checked out.|Duration |
-|Org unit target weight|Org Units can be organized into hold target groups based on a weight. Potential copies from org units with the same weight are chosen at random.|Number|
-|Reset request time on un-cancel|When a hold is uncancelled, reset the request time to push it to the end of the queue|True/False|
-|Skip for hold targeting|When true, don't target any copies at this org unit for holds|True/False|
-|Soft boundary|Holds will not be filled by copies outside this boundary if there are holdable copies within it.|Number |
-|Soft stalling interval|For this amount of time, holds will not be opportunistically captured at non-pickup branches.|Duration|
-For multiple branch libraries
-|Use Active Date for age protection|When calculating age protection rules use the Active date instead of the Creation Date.|True/False|Default TRUE
-|Use weight-based hold targeting|Use library weight based hold targeting|True/False|
+|Setting|Description|Data type|Notes | Edited by
+
+|Behind desk pickup supported|If a branch supports both a public holds shelf and behind-the-desk pickups, set this value to true. This gives the patron the option to enable behind-the-desk pickups for their holds by selecting Hold is behind Circ Desk flag in patron record.|True/False| | LSA
+
+|Best-hold selection sort order|Defines the sort order of holds when selecting a hold to fill using a given copy at capture time|Selection list| | Sitka
+|Block renewal of items needed for holds|When an item could fulfill a hold, do not allow the current patron to renew|True/False| | Sitka
+ 
+|Cancelled holds display age|Show all cancelled holds that were cancelled within this amount of time|Duration| | LSA
+|Cancelled holds display count|How many cancelled holds to show in patron holds interfaces|Number| | LSA
+
+|Clear shelf copy status|Any copies that have not been put into reshelving, in-transit, or on-holds-shelf (for a new hold) during the clear shelf process will be put into this status. This is basically a purgatory status for copies waiting to be pulled from the shelf and processed by hand|Selection list| | Sitka
+
+|Default estimated wait|When predicting the amount of time a patron will be waiting for a hold to be fulfilled, this is the default estimated length of time to assume an item will be checked out.|Duration|Not in use | Sitka
+
+|Default hold shelf expire interval|Hold Shelf Expiry Time is calculated and inserted into hold record based on this interval when capturing a hold.|Duration| | LSA
+
+|Expire alert interval|Time before a hold expires at which to send an email notifying the patron|Duration|Not in use | Sitka
+|Expire interval|Amount of time until an unfulfilled hold expires|Duration| | LSA
+
+|FIFO|Force holds to a more strict First-In, First-Out capture. Default is SAVE-GAS, which gives priority to holds with pickup location the same as checkin library.|True/False|Applies only to multi-branch libraries. Default: SAVE-GAS | Sitka
+|Hard boundary||Number| | Sitka
+|Hard stalling interval||Duration| | Sitka
+
+|Has local copy alert|If there is an available copy at the requesting library that could fulfill a hold during hold placement time, alert the patron.|True/False| | LSA
+|Has local copy block|If there is an available copy at the requesting library that could fulfill a hold during hold placement time, do not allow the hold to be placed.|True/False| | LSA
+
+|Max foreign-circulation time|Time a copy can spend circulating away from its circ lib before returning there to fill a hold|Duration| |Sitka
+
+|Maximum number of duplicate holds allowed | Maximum number of duplicate title or metarecord holds allowed per patron | Number | | LSA
+
+|Maximum library target attempts|When this value is set and greater than 0, the system will only attempt to find a copy at each possible branch the configured number of times|Number| | Sitka
+
+|Minimum estimated wait|When predicting the amount of time a patron will be waiting for a hold to be fulfilled, this is the minimum estimated length of time to assume an item will be checked out.|Duration | Not in use | Sitka
+
+|Org unit target weight|Org Units can be organized into hold target groups based on a weight. Potential copies from org units with the same weight are chosen at random.|Number| |Sitka
+
+|Reset request time on un-cancel|When a hold is uncancelled, reset the request time to push it to the end of the queue|True/False| |LSA
+
+|Skip for hold targeting|When true, don't target any copies at this org unit for holds|True/False| | Sitka
+
+|Soft boundary|Holds will not be filled by copies outside this boundary if there are holdable copies within it.|Number | | Sitka
+
+|Soft stalling interval|For this amount of time, holds will not be opportunistically captured at non-pickup branches.|Duration| | Sitka
+
+|Use Active Date for age protection|When calculating age protection rules use the Active date instead of the Creation Date.|True/False|Default: True | Sitka
+|Use weight-based hold targeting|Use library weight based hold targeting|True/False| | Sitka
 |=====
 
 [[lse-library]]
