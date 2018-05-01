@@ -432,7 +432,7 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 
 |Require staff initials for entry/edit of copy notes.|Appends staff initials and edit date into copy note content.|True/False| | LSA
 
-|Show billing tab first when bills are present|If true accounts for patrons with bills will open to the billing tab instead of check out|True/false| |LSA
+|Show billing tab first when bills are present|If true accounts for patrons with bills will open to the billing tab instead of check out|True/false|Not in use anymore |LSA
 
 |Show XXXXX field on patron registration|The XXXXX field will be shown on the patron registration screen. Showing a field makes it appear with required fields even when not required. If the field is required this setting is ignored.|True/False| | LSA
 
