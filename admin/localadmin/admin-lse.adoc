@@ -441,7 +441,7 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 
 |Toggle off the patron summary sidebar after first view.|When true, the patron summary sidebar will collapse after a new patron sub-interface is selected.|True/False| Not in use anymore | 
 
-|URL for remote directory containing list column settings.|The format and naming convention for the files found in this directory match those in the local settings directory for a given workstation. An administrator could create the desired settings locally and then copy all the tree_columns_for_* files to the remote directory.|Text| Not in use | 
+|URL for remote directory containing list column settings.| |Text| Not in use | 
 
 |Uncheck bills by default in the patron billing interface|Uncheck bills by default in the patron billing interface, and focus on the Uncheck All button instead of the Payment Received field.|True/False| | LSA
 
