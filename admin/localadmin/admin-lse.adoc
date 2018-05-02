@@ -712,7 +712,7 @@ usernames in addition to barcode. For this setting to work, a barcode format mus
 | circ.renew.check_penalty	 | |	True/False	| |Sitka	 
 | global.credit.allow	 | | 	True/False	| Not in use |Sitka
 | org.opt_out_email_predue	| | 	True/False | Not in use |	Sitka	
-| ui.network.progress_meter	| Switch off/on a bar indicating network in progress	| True/False	||LSA	 
+| ui.network.progress_meter	| Switch off/on a bar indicating network in progress	| True/False	| Not in use anymore|LSA	 
 |=====================
 
 [[lse-vandelay]]
