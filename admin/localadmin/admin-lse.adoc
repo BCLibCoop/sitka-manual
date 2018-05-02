@@ -720,7 +720,7 @@ usernames in addition to barcode. For this setting to work, a barcode format mus
 [options="header"]
 |========
 |Setting|Description|Data type|Notes | Edited by
-|Default Record Match Set|Sets the Default Record Match set |Selection List|Populated by the Vandelay Record Match Sets  | | LSA
+|Default Record Match Set|Sets the Default Record Match set |Selection List|Populated by the Vandelay Record Match Sets  |  LSA
 |Vandelay Default Barcode Prefix|Apply this prefix to any auto-generated item barcode|Text| | LSA
 |Vandelay Default Call Number Prefix|Apply this prefix to any auto-generated item call numbers.|Text| | LSA
 |Vandelay Default Circulation Modifier|Default circulation modifier value for imported items|Selection List| |LSA
