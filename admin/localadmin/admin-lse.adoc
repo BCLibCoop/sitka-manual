@@ -563,7 +563,7 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 |Allow pending addresses|If true patrons can edit their addresses in the OPAC. Changes must be approved by staff|True/False| | LSA
 |Auto-Override Permitted Hold Blocks (Patrons)|This will allow patrons with the permission "HOLD_ITEM_CHECKED_OUT.override" to automatically override permitted holds.|True/False|When a patron places a hold in the OPAC that fails, and the patron has the permission to override the failed hold, this automatically overrides the failed hold rather than requiring the patron to manually override the hold.  Default: False |  Sitka
 
-| Enable Digital Bookplate Search | If enabled, adds a "Digital Bookplate" option to the query type selectors in the public catalog for search on copy tags. | True/False | Sitka
+| Enable Digital Bookplate Search | If enabled, adds a "Digital Bookplate" option to the query type selectors in the public catalog for search on copy tags. | True/False | | Sitka
 
 | Ignore the Global luri_as_copy flag for this OU |	Admin setting on e-records scoping	| True/False | | Sitka
 
@@ -668,7 +668,7 @@ usernames in addition to barcode. For this setting to work, a barcode format mus
 
 |Persistent login duration|How long a persistent login lasts, e.g. '2 weeks'|Duration| |Sitka
 
-| Restrict patron opt-in to home library and related orgs at specified depth | Admin setting | number |	Sitka
+| Restrict patron opt-in to home library and related orgs at specified depth | Admin setting | number | |	Sitka
 
 |Self-serve password reset request time-to-live|Length of time (in seconds) a self-serve password reset request should remain active.|Duration|  |Sitka
 |Staff login inactivity timeout (in seconds)|Number of seconds of inactivity before staff client prompts for login and password.|Number| |LSA
@@ -683,32 +683,32 @@ usernames in addition to barcode. For this setting to work, a barcode format mus
 | Allow Fine printing	| If true, there will be a print option on the fine list screen.	|True/False	||LSA	 
 | Allow Hold printing	| If true, there will be a print option on the hold list screen.	|True/False	||LSA	 
 | Allow Items out printing	| If true, there will be a print option on the items out list screen.	|True/False ||	LSA	 
-|Audio Alerts|Use audio alerts for selfcheck events.|True/False| L LSA
+|Audio Alerts|Use audio alerts for selfcheck events.|True/False| | LSA
 |Block copy checkout status|List of copy status IDs that will block checkout even if the generic COPY_NOT_AVAILABLE event is overridden.|Number|Look up copy status ID from Server Admin. |LSA
 |Patron login timeout (in seconds)|Number of seconds of inactivity before the patron is logged out of the selfcheck interface.|Duration| | LSA
-|Pop-up alert for errors|If true, checkout/renewal errors will cause a pop-up window in addition to the on-screen message.|True/False| L LSA
+|Pop-up alert for errors|If true, checkout/renewal errors will cause a pop-up window in addition to the on-screen message.|True/False| | LSA
 |Require Patron Password|If true, patrons will be required to enter their password in addition to their username/barcode to log into the selfcheck interface.|True/False| | LSA
 |Selfcheck override events list|List of checkout/renewal events that the selfcheck interface should automatically override instead instead of alerting and stopping the transaction.|Text| | LSA
 |Workstation Required|All selfcheck stations must use a workstation.|True/False| | LSA
 
 |Default display grouping for serials distributions presented in the OPAC.|Default display grouping for serials distributions presented in the OPAC. This can be "enum" or "chron".|Text| | Sitka
-|Previous issuance copy location|When a serial issuance is received, copies (units) of the previous issuance will be automatically moved into the configured shelving location.|Selection List| | Sitka
+|Previous issuance copy location | When a serial issuance is received, copies (units) of the previous issuance will be automatically moved into the configured shelving location.|Selection List| | Sitka
 |URL verify: Maximum redirect lookups|Admin setting|Number| | Sitka
-|URL verify: Maximum wait time (in seconds) for a URL to lookup|Admin setting||Number| | Sitka
+|URL verify: Maximum wait time (in seconds) for a URL to lookup|Admin setting|Number| | Sitka
 |URL verify: Number of seconds to wait between URL test attempts|Throttling mechanism for batch URL verification runs. Each running process will wait this number of seconds after a URL test before performing the next.|Duration| | Sitka
 |Circ: default precat circ modifier	 | |	Selection List | |	LSA	 
-| Claim Return: Mark copy as missing| |	 	True/False	Default: False | Sitka
+| Claim Return: Mark copy as missing| |	 	True/False | Default: False | Sitka
 | Disallow circulation of items when they are on booking reserve and that reserve overlaps with the checkout period	| When true, items on booking reserve during the proposed checkout period will not be allowed to circulate unless overridden with the COPY_RESERVED.override permission.	| True/False	|| LSA	 
 
 | Limit Due Date by Patron Expiry |	If True automatically adjusts item due date to match patron card expiry date if expiry date sooner than due date. If False item due date applied. |	True/False| | LSA	 
-| Recalls: An array of fine amount, fine interval, and maximum fine. |	An array of fine amount, fine interval, and maximum fine. For example, to specify a new fine rule of $5.00 per day, with a maximum fine of $50.00, use: [5.00,"1 day",50.00]	| Text		Brackets are required in the text. | LSA
+| Recalls: An array of fine amount, fine interval, and maximum fine. |	An array of fine amount, fine interval, and maximum fine. For example, to specify a new fine rule of $5.00 per day, with a maximum fine of $50.00, use: [5.00,"1 day",50.00]	| Text		| Brackets are required in the text. | LSA
 
 | Recalls: Circulation duration that triggers a recall.	| A hold placed on an item with a circulation duration longer than this will trigger a recall. For example, "14 days" or "3 weeks". | 	Duration | |	LSA	 
 
 | Recalls: Truncated loan period.	| When a recall is triggered, this defines the adjusted loan period for the item. For example, "4 days" or "1 week". |	Duration	| |LSA	 
 | Use in-database circ policy |	Admin setting |	True/False	| |Sitka	 
 | Use in-database holds policy | Admin setting |	True/False | |	Sitka	 
-| Use legacy hardcoded receipts/slips	| | 	True/False |	LSA	 
+| Use legacy hardcoded receipts/slips	| | 	True/False |	| LSA	 
 | circ.renew.check_penalty	 | |	True/False	| |Sitka	 
 | global.credit.allow	 | | 	True/False	| Not in use |Sitka
 | org.opt_out_email_predue	| | 	True/False | Not in use |	Sitka	
