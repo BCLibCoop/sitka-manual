@@ -55,7 +55,7 @@ image::images/cat/copy-alert-4.png[]
 
 
 
- . To delete a note, open the copy record and select the *Deleted?* check box. . Click *OK*, then *Save & Exit*.
+ . To delete a note, open the copy record and select the *Deleted?* check box. Click *OK*, then *Save & Exit*.
 +
 image::images/cat/copy-alert-5.png[]
 
@@ -66,9 +66,8 @@ Copy Tag
 ^^^^^^^^
 
 A copy tag adds searchable information to copy records. Staff and patrons search the copy tag by choosing *Digital Bookplate* on the catalogue.
-+
-image::images/cat/copy-alert-7.png[]
 
+image::images/cat/copy-alert-7.png[]
 
 Tags are added via *Copy Tags* on the copy editor. Libraries may pre-create their own tags. Refer to xref:_copy_tag[]
 
