@@ -69,7 +69,7 @@ To batch edit all users in a user bucket:
 . Go to *Circulation->User Buckets* and select the *Bucket View* tab.
 . Click *Buckets* and select the bucket you want to modify from the list of existing buckets.
 .. After selecting a bucket, the Name, Description, number of items, and creation date of the bucket will appear at the top of the screen.
-. Verify the list of users in the bucket and click *Batch edit all users*. A dialog box called _Update all users_ will appear where you can select the batch modifications to be made to the user accounts.
+. Verify the list of users in the bucket and click *Batch edit all users*. A dialogue box will appear where you can select the batch modifications to be made to the user accounts.
 . Assign a _Name for edit set_.  This name will allow staff to identify the batch edit for future verification or rollbacks.
 . Set the values that you want to modify.  The following fields can be modified in batch:
 
@@ -85,7 +85,7 @@ To batch edit all users in a user bucket:
 
 *Permissions*
 
-All permissions must be granted at the organizational unit that the workstation is registered to or higher and are checked against the users' Home Library at when a batch modification or deletion is executed.
+All permissions must be granted at the organizational unit that the workstation is registered to or higher, and are checked against the users' Home Library when a batch modification or deletion is executed.
 
 
 [[batch-mod-statcat]]
@@ -97,7 +97,7 @@ To batch modify statistical categories for all users in a bucket:
 . Go to *Circulation->User Buckets* and select the *Bucket View* tab.
 . Click *Buckets* and select the bucket you want to modify from the list of existing buckets.
 .. After selecting a bucket, the Name, Description, number of items, and creation date of the bucket will appear at the top of the screen.
-. Verify the list of users in the bucket and click *Batch modify statistical categories*. A dialog box called _Update statistical categories_ will appear where you can select the batch modifications to be made to the user accounts.  The existing patron statistical categories will be listed and staff can choose:
+. Verify the list of users in the bucket and click *Batch modify statistical categories*. A dialogue box will appear where you can select the batch modifications to be made to the user accounts.  The existing patron statistical categories will be listed and staff can choose:
 .. To leave the stat cat value unchanged in the patron accounts.
 .. To select a new stat cat value for the patron accounts.
 .. Check the box next to Remove to delete the current stat cat value from the patron accounts.
@@ -107,11 +107,10 @@ To batch modify statistical categories for all users in a bucket:
 Batch Delete Users
 ^^^^^^^^^^^^^^^^^^
 
-To batch delete users in a bucket:
 . Go to *Circulation->User Buckets* and select the *Bucket View* tab.
 . Click on *Buckets* and select the bucket you want to modify from the list of existing buckets.
 .. After selecting a bucket, the Name, Description, number of items, and creation date of the bucket will appear at the top of the screen.
-. Verify the list of users in the bucket and click *Delete all users*. A dialog box called _Delete all users_ will appear.
+. Verify the list of users in the bucket and click *Delete all users*. A dialogue box will appear.
 . Assign a _Name for delete set_.  This name will allow staff to identify the batch deletion for future verification or rollbacks.
 . Click *Apply Changes*.  All users in the bucket will be marked as deleted.
 
@@ -142,6 +141,9 @@ Sharing Buckets
 
 If a User Bucket has been made Staff Shareable, it can be retrieved via bucket ID by another staff account.  The ID for each bucket can be found at the end of the URL for the bucket.  For example, in the screenshot below, the bucket ID is 32.
 
-image::media/userbucket11.PNG[]
+image::images/media/userbucket11.PNG[]
 
-A shared bucket can be retrieved by going to *Circulation->User Buckets* and selecting the *Bucket View* tab.  Next, click *Buckets* and select *Shared Bucket*.  A dialog box called _Load Shared Bucket by Bucket ID_ will appear.  Enter the ID of the bucket you wish to retrieve and click *Load Bucket*.  The shared bucket will load in the Bucket View tab.
+. To retrieve a shared bucket click *Circulation->User Buckets* and click the *Bucket View* tab.
+. Click *Buckets* and select *Shared Bucket*.
+. A dialogue box will appear.  Enter the ID of the bucket you wish to retrieve and click *Load Bucket*.
+. The shared bucket will load in the *Bucket View* tab.

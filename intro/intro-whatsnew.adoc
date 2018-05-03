@@ -20,7 +20,12 @@ Cataloguing
 Copy Alerts
 ^^^^^^^^^^^
 
-Copy Alerts allows library staff to add customized alert messages to copies. The copy alerts will appear when a specific event takes place, such as when the copy is checked in, checked out, or renewed.
+Copy Alerts allow library staff to add customized alert messages to copies. The copy alerts will appear when a specific event takes place, such as when the copy is checked in, checked out, or renewed.
+
+Clickable Copy Locations
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Adds a URL field to the copy locations editor. When a URL is entered in this field, the associated copy location will display as a link in the public catalogue summary display. This link can be useful for retrieving maps or other directions to the copy location to aid users in finding material.
 
 Serials
 ~~~~~~~
