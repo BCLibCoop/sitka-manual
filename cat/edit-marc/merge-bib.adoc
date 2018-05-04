@@ -3,40 +3,40 @@ Merging Bibliographic Records
 
 https://goo.gl/91kp4e[Sitka Training Video - Merge Duplicate Bibliographic Records (7:31)]
 
-This lesson will demonstrate merging bibliographic records in the catalogue. A common application for this functionality is to replace brief records with full records to keep one bibliographic record for one title. 
+This lesson will demonstrate merging bibliographic records in the catalogue. A common application for this functionality is to replace brief records with full records to keep one bibliographic record for one title.
 
 Any volume and copy records or holds associated with the brief record will be transferred to the full record upon merging.
 
-. Records are merged via *Record Bucket*. You need to have a bucket for the records you wish to merge. To create record bucket, refer to  xref:create-record-bucket[] for detailed instructions. In the example below the bucket is named "merge117036601".
+. Records are merged via a *Record Bucket*. You need to have a bucket for the records you wish to merge. To create a record bucket, refer to  xref:create-record-bucket[] for detailed instructions. In the example below the bucket is named "merge117036601".
 
 . Identify records to be merged and add them to the bucket. See xref:add-record-to-bucket[] for detailed instructions.
 
 . Retrieve the bucket by selecting *Cataloguing -> Record Buckets* on menu bar.
 
-. Click the down-pointed arrow besides *Bucket* to list, then select the bucket containing the records to be merged.
+. Click the drop down arrow beside *Buckets*, then select the bucket containing the records to be merged.
 +
 image::images/cat/merge-1.png[]
 +
-. Select the records you wish to merge. Click *Actions -> Merge Selected Records*. 
+. Select the records you wish to merge. Click *Actions -> Merge Selected Records*.
 +
 image::images/cat/merge-2.png[]
 +
-. Merge screen opens in a pop-up window. Records are listed in the right column. You may scroll down to view each record and its holdings, if any. Once decided on a lead record, click *Use as Lead Record* on top of it. You may remove a record if you decide not to merge it by clicking *Remove from Consideration*.
+. Merge screen opens in a pop-up window. Records are listed in the right column. You can scroll down to view each record and its holdings, if any. Once decided on a lead record, click *Use as Lead Record*. You can remove a record if you decide not to merge it by clicking *Remove from Consideration*.
 +
 image::images/cat/merge-3.png[]
 +
-. The lead record is moved to the left column. You may compare the records. Edit the lead record if necessary. Click *Edit* to edit in the current window. Once done, click *Save*. You may also click *Edit using full editor* to open the record in a pop-up window. Once done editing, click *Save* on top, then *Done* at the bottom to go back to the merge screen.
+. The lead record is moved to the left column. Compare the records. Edit the lead record if necessary. Click *Edit* to edit in the current window. Once done, click *Save*. You can also click *Edit using full editor* to open the record in a pop-up window. Once done editing, click *Save* on top, then *Done* at the bottom to go back to the merge screen.
 +
 image::images/cat/merge-4.png[]
 +
 . Select a merge profile. We use "Merge Keeping Local Fields".
-. Once ready, click *Merge*. The lead record is displayed in the catalogue. 
+. Once ready, click *Merge*. The lead record is displayed in the catalogue.
 
 
 
 [NOTE]
 ======
-You may edit volumes and/or copies from merge screen. However, Co-op support suggests you focus on bibliogrpahic records on merge screen. After the merging is done, you may edit your volume/copy on Holdings View.
+While you can edit volumes and/or copies from merge screen, Co-op Support recommends you focus on bibliographic records on merge screen. After the merging is done, you can edit your volume/copy on Holdings View.
 =====
 
 [TIP]
@@ -47,5 +47,5 @@ image::images/cat/merge-5.png[]
 
 [CAUTION]
 =========
-Deleted records remain in Record Bucket. We suggest you merge records right after you add them to the bucket. If you merge them later, good practice is to check the records again before merging to avoid merging them into a deleted record. Right now delete records are not indicated on merge screen.
+Deleted records remain in a Record Bucket. We suggest you merge records right after you add them to the bucket. If you merge them later, good practice is to check the records again before merging to avoid merging them into a deleted record. Right now, deleted records are not indicated on merge screen.
 ==========

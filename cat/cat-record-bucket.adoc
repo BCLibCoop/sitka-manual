@@ -1,7 +1,7 @@
 Record Bucket
 -------------
 
-Record Bucket allows you to build a list of titles that you may process in batch. It is also the interface for merging records. Records, even after being deleted, remain in a bucket until they are removed from it. 
+Record Bucket allows you to build a list of titles that you may process in batch. It is also the interface for merging records. Records, even after being deleted, remain in a bucket until they are removed from it.
 
 We will demonstrate how to create and manage bibliographic record buckets. The steps used for copy buckets are similar. It is very important when working with buckets to ensure you are working with the correct type of record for the corresponding bucket. You cannot add copy records to bibliographic record buckets and vice versa.
 
@@ -21,7 +21,7 @@ There are two ways to create a record bucket. You can either create a bucket fir
 +
 image::images/cat/record-bucket-1.png[]
 +
-. Type in a name and some description, if needed. Click *Creat Bucket*.
+. Type in a name and some description, if needed. Click *Create Bucket*.
 +
 image::images/cat/record-bucket-2.png[]
 +
@@ -29,7 +29,7 @@ image::images/cat/record-bucket-2.png[]
 +
 image::images/cat/record-bucket-3.png[]
 +
-. Click the *Buckets* dropdonw list, you will see the bucket on the list. You may edit the bucket's name or description by clicking on *Edit Bucket* on the list.
+. Click the *Buckets* dropdown list, you will see the bucket on the list. You can edit the bucket's name or description by clicking on *Edit Bucket* on the list.
 +
 image::images/cat/record-bucket-4.png[]
 
@@ -44,7 +44,7 @@ You can also create a bucket from within a record. Search for, retrieve, and dis
 
 image::images/cat/record-bucket-5.png[]
 
-You are prompted to add the record to an exsting bucket or a new one. To add to a new bucket, type in a name in *Name For New Bucket* box, then click *Add to New Bucket*.
+You are prompted to add the record to an existing bucket or to a new one. To add to a new bucket, type in a name in *Name For New Bucket* box, then click *Add to New Bucket*.
 
 image::images/cat/record-bucket-6.png[]
 
@@ -52,23 +52,23 @@ image::images/cat/record-bucket-6.png[]
 Adding Records to a Record Bucket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You may add records to a bucket at a few places.
+You can add records to a bucket in a few places.
 
 *Adding Records to a Bucket on the Catalogue*
 
-Once you retrived a record on the catalogue, you may select *Other Actions -> Add to Bucket* to add it to a record bucket.
+Once you retrieve a record on the catalogue, select *Other Actions -> Add to Bucket* to add it to a record bucket.
 
 *Add Records to a Bucket on Record Bucket View*
 
-You may conduct a query, then select records from the result list to add to a bucket on Record Bucket view.
+You can run a search, then select records from the result list to add to a bucket on Record Bucket view.
 
 . Go to Record Bucket by choosing *Cataloguing -> Record Bucket*.
-. You may create or select a bucket by using the *Buckets* dropdown list on Bucket View tab now or later.
+. Create or select a bucket by using the *Buckets* dropdown list on Bucket View tab now or later.
 . Click *Record Query*
 +
 image::images/cat/record-bucket-7.png[]
 +
-. Type in your search term, then hit *Enter* key to start the search. 
+. Type in your search term, then hit *Enter* key to start the search.
 +
 image::images/cat/record-bucket-8.png[]
 +
@@ -76,7 +76,7 @@ image::images/cat/record-bucket-8.png[]
 +
 image::images/cat/record-bucket-9.png[]
 +
-. You may continue search for more records and add them to Pending tab or Bucket. Once done, you may go *Bucket View* to create or select a bucket, if not done yet. You may select, then add records on Pending Records tab, if any, to a bucket.
+. You may continue search for more records and add them to Pending tab or Bucket. Once done, you may go *Bucket View* to create or select a bucket, if not done yet. You can select, then add records, on Pending Records tab, if any, to a bucket.
 +
 image::images/cat/record-bucket-10.png[]
 +
@@ -96,13 +96,13 @@ Multiclass Search Help
 | sort	| sort type (title, author, pubdate)
 | dir	| sort direction (asc, desc)
 | available	| if set to anything other than "false" or "0", limits to available items
-| | *keyword, title, author, subject*, and *series* support additional search subclasses, specified with a \|. For example: title\|proper:gone with the wind 
+| | *keyword, title, author, subject*, and *series* support additional search subclasses, specified with a \|. For example: title\|proper:gone with the wind
 |====
 =====
 
 *Adding Imported Records on MARC Batch Import/Export*
 
-MARC records that have already been imported via MARC Batch Import/Expot can be added to a bucket. 
+MARC records that have already been imported via MARC Batch Import/Export can be added to a bucket. 
 
 image::images/cat/record-bucket-11.png[]
 
@@ -110,7 +110,7 @@ image::images/cat/record-bucket-11.png[]
 Working with Records in a Record Bucket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You may apply the following functions to selected copies in a bucket. 
+You may apply the following functions to selected copies in a bucket.
 
 * *Show Selected Records in Catalogue*
 * *Delete Selected Records from Catalogue*
@@ -118,6 +118,6 @@ You may apply the following functions to selected copies in a bucket.
 * *Export Records* (Refer to xref:export-marc-from-bucket[])
 
 
-To apply these functions, retrieve the bucket, select titles, then choose the function from the *Actions* list. 
+To apply these functions, retrieve the bucket, select titles, then choose the function from the *Actions* list.
 
 CAUTION: Co-op support strongly suggests *not* using *Transfer Title Holds* as it transfers all holds, including other libraries', to the selected title.
