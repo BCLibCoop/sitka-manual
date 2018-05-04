@@ -32,10 +32,18 @@ image::images/cat/merge-4.png[]
 . Select a merge profile. We use "Merge Keeping Local Fields".
 . Once ready, click *Merge*. The lead record is displayed in the catalogue. 
 
+
+
 [NOTE]
 ======
 You may edit volumes and/or copies from merge screen. However, Co-op support suggests you focus on bibliogrpahic records on merge screen. After the merging is done, you may edit your volume/copy on Holdings View.
 =====
+
+[TIP]
+=====
+Merging time and target record is displayed when the merged non-lead records are retrieved.
+
+image::images/cat/merge-5.png[]
 
 [CAUTION]
 =========
