@@ -80,6 +80,7 @@ Copies can be added to a bucket when they are displayed on *Checkin*, *Item Stat
 image::images/cat/copy-bucket-6.png[]
 
 You can add copies to a bucket on Copy Bucket View.
+
 . Go to *Pending* tab to scan or type in copy barcodes.
 +
 image::images/cat/copy-bucket-7.png[]
@@ -93,7 +94,7 @@ image::images/cat/copy-bucket-8.png[]
 *Remove Copies from a Bucket*
 
 To remove copies from a bucket, retrieve the bucket, select the copies, choose *Actions -> Bucket -> Remove Selected Copies from Bucket*
-+
+
 image::images/cat/copy-bucket-9.png[]
 
 
@@ -109,7 +110,7 @@ You can apply the following functions to selected copies in a bucket.
 * *Print Labels*
 
 To apply these functions, retrieve the bucket, select copies, then choose the function from the *Actions* list. The below example shows how to apply Copy Tag.
-+
+
 image::images/cat/copy-bucket-10.png[]
 
 Retrieving Shared Buckets

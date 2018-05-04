@@ -25,19 +25,18 @@ You will see *Item not Found* in a red box showing up after the deletion. You ca
 
 *Deleting Copies on Holdings View*
 
-. On the catalogue, in Holdings View, select the copies you want to delete. .  . Click *Actions* dropdown list.
+. On the catalogue, in Holdings View, select the copies you want to delete.    . Click *Actions* dropdown list.
 . Scroll down to *Delete* to select *Delete Copies* or *Volumes and Copies*.
 +
 image::images/cat/delete-holding-3.png[]
 
 *Deleting Copies in Copy Bucket*
 
-If your items are in a copy bucket, you may delete them there.
+If your items are in a copy bucket, you can delete them from there.
 . Select those copies you wish to delete.
 . On *Actions* dropdown list, under *Items*, click *Delete Selected Copies from Catalogue*.
 +
 image::images/cat/delete-holding-4.png[]
-
 
 Deleting Volumes without Copies Attached
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -55,9 +54,9 @@ If you do not see any copies under the record, but are prompted that the record 
 
 [TIP]
 =====
-Deleted MARC records can be retrieved and undeleted if you know the record's database id. Go to the dropdown menu Cataloguing -> Retrieve Title via Database ID. Type in the record id. Once the record is displayed (with red coloured background),  go to *MARC Edit*. Click *Undelete*.
+Deleted MARC records can be retrieved and undeleted if you know the record's database id. Select *Cataloguing -> Retrieve Title via Database ID*. Type in the record id. Once the record is displayed (with a red coloured background),  go to *MARC Edit*. Click *Undelete*.
 
 image::images/cat/delete-holding-6.png[]
 
-Co-op Support regularly cleans up volume records without copies and bibliographic records without copies or volumes.
+Co-op Support regularly deletes volume records without copies and bibliographic records without copies or volumes.
 ====

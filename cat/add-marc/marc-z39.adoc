@@ -36,7 +36,7 @@ image::images/cat/z39-6.png[]
 image::images/cat/z39-7.png[]
 +
 . The Import Record window remains open. You can continue to edit the record. . Click *Save* once done editing.
-. Click on *Go to Imported Record* to add holdings.
+. Click  *Go to Imported Record* to add holdings.
 +
 image::images/cat/z39-8.png[]
 +
@@ -63,7 +63,7 @@ Marking a Record for Overlay
 ++++++++++++++++++++++++++++
 
 
-You must first identify the MARC record in Evergreen, which you wish to  overlay. You do this by "marking" it for overlay. Only one record can be marked at a time. When you mark another record, the previous record is unmarked. Once a record is marked, it stays marked until it is overlaid, or  has been reset. Therefore, you can mark and overlay one record at a time, following through the entire process to completion before moving on to another record.
+You must first identify the MARC record which you wish to  overlay. You do this by "marking" it for overlay. Only one record can be marked at a time. When you mark another record, the previous record is unmarked. Once a record is marked, it stays marked until it is overlaid, or  has been reset. Therefore, you can mark and overlay one record at a time, following through the entire process to completion before moving on to another record.
 
 
 . To mark a record for overlay, find it in the catalogue first.
