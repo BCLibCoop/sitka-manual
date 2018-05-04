@@ -16,7 +16,7 @@ Buckets can be shared or private, and are associated with a login account.
 
 [TIP]
 =====
-Deleted records are not automatically removed from buckets. It is recommended that you always display Deleted? field in Bucket View.
+Deleted records are not automatically removed from buckets. It is recommended that you always display *Deleted?* field in Bucket View.
 
 When a bucket is retrieved, all information about the records in it is transferred to the workstation. It consumes the computer's resources. It is recommended that a copy bucket contain no more than a few hundred records.
 =====
@@ -45,7 +45,7 @@ image::images/cat/copy-bucket-2.png[]
 +
 image::images/cat/copy-bucket-3.png[]
 +
-. Click the *Buckets* dropdonw list, you will see the bucket on the list. You may edit the bucket's name or description by clicking on *Edit Bucket* on the list.
+. Click the *Buckets* dropdown list to see the bucket. You can edit the bucket's name or description by clicking on *Edit Bucket* on the list.
 
 [TIP]
 =====
@@ -55,11 +55,11 @@ image::images/cat/copy-bucket-3.png[]
 
 *Create a Copy Bucket when Adding a Copy Record to a Bucket*
 
-You can also create a bucket from within a copy record. When a copy is displayed on a screen such as, *Checkin* and *Items Status*, you can add it to a copy bucket by choosing *Actions -> Add Items to Bucket*.
+You can also create a bucket from within a copy record. When a copy is displayed on a screen such as *Checkin* or *Item Status*, you can add it to a copy bucket by choosing *Actions -> Add Items to Bucket*.
 
 image::images/cat/copy-bucket-4.png[]
 
-You are prompted to add the record to an exsting bucket or a new one. To add to a new bucket, type in a name in *Name For New Bucket* box, then click *Add to New Bucket*.
+You are prompted to add the record to an existing bucket or a new one. To add to a new bucket, type in a name in *Name For New Bucket* box, then click *Add to New Bucket*.
 
 image::images/cat/copy-bucket-5.png[]
 
@@ -79,24 +79,27 @@ Copies can be added to a bucket when they are displayed on *Checkin*, *Item Stat
 
 image::images/cat/copy-bucket-6.png[]
 
-You can add copies to a buckect on Copy Bucket View. Go to *Pending* tab to scan or type in copy barocdes.
-
+You can add copies to a bucket on Copy Bucket View.
+. Go to *Pending* tab to scan or type in copy barcodes.
++
 image::images/cat/copy-bucket-7.png[]
-
-Click the *Buckets* dropdown list to open or create a bucket, if not done yet. Select records that you want to add to the bucket. Click *Actions -> Add to Bucket*.
-
++
+. Click the *Buckets* dropdown list to open or create a bucket, if not done yet.
+. Select records that you want to add to the bucket.
+. Click *Actions -> Add to Bucket*.
++
 image::images/cat/copy-bucket-8.png[]
 
 *Remove Copies from a Bucket*
 
-To remove copies from a bucket,  retrieve the bucket, select the copies, choose *Actions -> Bucket -> Remove Selected Copies from Bucket*
-
+To remove copies from a bucket, retrieve the bucket, select the copies, choose *Actions -> Bucket -> Remove Selected Copies from Bucket*
++
 image::images/cat/copy-bucket-9.png[]
 
 
 Working with Copies in a Bucket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-You may apply the following functions to selected copies in a bucket.
+You can apply the following functions to selected copies in a bucket.
 
 
 * *Apply Copy Tag*
@@ -106,7 +109,7 @@ You may apply the following functions to selected copies in a bucket.
 * *Print Labels*
 
 To apply these functions, retrieve the bucket, select copies, then choose the function from the *Actions* list. The below example shows how to apply Copy Tag.
-
++
 image::images/cat/copy-bucket-10.png[]
 
 Retrieving Shared Buckets
@@ -114,7 +117,6 @@ Retrieving Shared Buckets
 
 On the *Buckets* list, you can find all buckets created by yourself. You may retrieve your co-workers' buckets if they share them with you by telling you the bucket number.
 
-To retrieve a shared bucket, click *Shared Buckets* on Buckets list. Type in the bucket number on the prompt, then click *Retrieve Bucket*.
-
+To retrieve a shared bucket, click *Shared Buckets* on the Buckets list. Type in the bucket number on the prompt, then click *Retrieve Bucket*.
 
 image::images/cat/copy-bucket-11.png[]

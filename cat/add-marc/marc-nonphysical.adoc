@@ -2,11 +2,11 @@
 Cataloguing Non-physical Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Ordinary bibliographic records are only visible in the OPAC when holdings records are attached, but it is also possible to catalogue non-physical resources such as websites, online journals, or downloadable audiobooks, etc. by adding a tag 856 with $9. The steps below describe how to catalogue a non-physical resource so it appears in OPAC searches.
+Ordinary bibliographic records are only visible in the OPAC when holdings records are attached, but it is also possible to catalogue non-physical resources such as websites, online journals, or downloadable audiobooks, etc. by adding a tag 856 with subfield $9. The steps below describe how to catalogue a non-physical resource so it appears in OPAC searches.
 
 [NOTE]
 ======
-These instructions are for adding individual records. To upload a batch of records (e.g. from an e-book subscription), please contact Co-op support. For libraries that subscribe to OverDrive, Co-op support creates and updates bibliographic records automatically.
+These instructions are for adding individual records. To upload a batch of records (e.g. from an e-book subscription), please contact Co-op Support. For libraries that subscribe to OverDrive, Co-op Support creates and updates bibliographic records automatically.
 =======
 
 . Locate, import, or create a bibliographic record as described in the preceding chapters.
@@ -32,7 +32,7 @@ image::images/cat/marc-nonphysical-1.png[]
 =====
 A separate 856 tag should be added for each library that catalogues the resource. Multi-branch libraries may add a single 856 using the code for the library system (e.g. SCRL, BCREK) if all branches are allowed to access the resource.
 
-Evergreen creates an invisible call number for each tag 856 with subfield 9 with the code in subfield 9 as the owning library. This call number, like a copy record, is used for scoping the seach result to a selected library. 
+Evergreen creates an invisible call number for each tag 856 with subfield 9 with the code in subfield 9 as the owning library. This call number, like a copy record, is used for scoping the seach result to a selected library.
 
 To remove a non-physical record from your library's collection, you need to delete your library's tag 856. If your library's tag 856 is the only one, you may delete the MARC record. See Deleting MARC records for more information.
 ====

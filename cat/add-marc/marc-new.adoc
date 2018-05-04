@@ -1,7 +1,7 @@
 Creating New Bibliographic Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-It is best practice, and Sitka policy, to search Evergreen, Z39.50 sources, or, in some libraries, a vendor file of MARC records, before using a MARC record template for original cataloguing. Original cataloguing should be done in Evergreen only if there is no record available in any of these previous sources. You can create new MARC records in Evergreen by using MARC templates that exist in Evergreen. 
+It is required practice, and Sitka policy, to search Evergreen, Z39.50 sources, or, in some libraries, a vendor file of MARC records, before using a MARC record template for original cataloguing. Original cataloguing should be done in Evergreen only if there is no record available in any of these previous sources. You can create new MARC records in Evergreen by using MARC templates that exist in Evergreen.
 
 For information about working with MARC records see xref:edit-marc[].
 
@@ -21,6 +21,6 @@ image::images/cat/new-marc-3.png[]
 +
 image::images/cat/new-marc-4.png[]
 +
-. Complete the MARC record as per Sitka policy. You can add and delete tags and subfields as required. 
+. Complete the MARC record as per Sitka policy. You can add and delete tags and subfields as required.
 . Click *Save*.
-. The record is created and will open up in your tab in the current default view. If you did not utilize Fast Item Add, you may now attach holdings as described in xref:_adding_holdings_to_bibliographic_records[]
+. The record is created and will open up in your tab in the current default view. If you did not utilize *Fast Item Add*, you may now attach holdings as described in xref:_adding_holdings_to_bibliographic_records[]
