@@ -22,14 +22,14 @@ Patron Buckets allow staff to batch delete and make batch modifications to user 
 Clickable Patron Email Address
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Patron's email address is a mailto link in the profile, so it can be clicked to send and email to the patron. 
+Patron's email address is a mailto link in the profile, so it can be clicked to send and email to the patron.
 
 Place Multiple Holds At Once
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
- 
+
 Staff can place multiple title/metarecords holds at once. This feature is especially beneficial for book clubs and reading groups, which need to place holds on multiple copies of a title.
 
-In order to use the feature, libraries need to set up a new library setting: Maximum number of duplicate holds allowed to a number higher than 1. 
+In order to use the feature, libraries need to set up a new library setting: Maximum number of duplicate holds allowed to a number higher than 1.
 
 When placing a title or metarecord hold, a *Number of copies* field will display. This field is not available when placing volume or copy holds.
 
@@ -50,17 +50,24 @@ A patron billing statement, which summarizes a patron's bills, credits and payme
 
 
 Enhanced Billing Timestamp Support
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-More timestamps are added to billing records indicating the create date,  a fine period start and a fine period end. 
+More timestamps are added to billing records indicating the create date,  a fine period start and a fine period end.
+
+Alternate Patron Hold Pickup
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+When an on-hold item is being checked out to another patron, not the requester, on the prompt there is a new checkbox allowing staff to cancel the hold during the checking out. If the borrower is picking up the item on behalf of the requester, you can select the checkbox to cancel the hold. However, such cancelled holds are not counted in as fulfilled. If you tracks fulfilled holds statistics, Co-op support suggests you check out the item to the requester only.
+
+There is a new library setting, Clear Hold When Other Patron Checks Out Item,  to allow libraries to choose whether the cancel hold checkbox is selected by default. 
 
 Cataloguing
 ~~~~~~~~~~~
 
 Copy Alerts
-^^^^^^^^^^^
+^^^^^^^^^^^^
 
-Copy Alerts allow library staff to add customized alert messages to copies. The copy alerts will appear when a specific event takes place, such as when the copy is checked in, checked out, or renewed.
+Copy Alerts types are added to allow library staff to add alerts appearing when a specific event takes place, such as when the copy is checked in, checked out, or renewed.
 
 Clickable Copy Locations
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -69,14 +76,24 @@ Adds a URL field to the copy locations editor. When a URL is entered in this fie
 
 
 Copy Location Filter Displays for System Level Searches
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The Shelving Location filter now displays on the advanced search page when a search is scoped to a library system, not just to an individual branch. If a library system is selected as the Search Library, the shelving location limiter will display any shelving location that is owned by the selected system or by the consortium. It will NOT display shelving locations owned by child branches.
 
 Search Term Highlighting
-^^^^^^^^^^^^^^^^^^^^^^^^
- 
-Evergreen now highlights search terms on the public catalog’s main search results page, the record detail page, and intermediate pages such as metarecord grouped results page. Highlighting search terms will help the user determine why a particular record (or set of records) was retrieved.
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Evergreen now highlights search terms on the public catalog's main search results page, the record detail page, and intermediate pages such as metarecord grouped results page. Highlighting search terms will help the user determine why a particular record (or set of records) was retrieved.
+
+
+Multilingual Search
+^^^^^^^^^^^^^^^^^^^^
+
+Search for multilingual materials is possible now by combining language attributes, e.g. keyword: piano item_lang(eng) item_lang(ita). Attribute values are from tag 008 and 041. 
+
+NOTE: This is different from selecting multiple entries in the Language filter on Advanced Search, which searchs for materials in any of the selected langualges.
+
+
 Serials
 ~~~~~~~
 
