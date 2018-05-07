@@ -76,12 +76,12 @@ Adds a URL field to the copy locations editor. When a URL is entered in this fie
 
 
 Copy Location Filter Displays for System Level Searches
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The Shelving Location filter now displays on the advanced search page when a search is scoped to a library system, not just to an individual branch. If a library system is selected as the Search Library, the shelving location limiter will display any shelving location that is owned by the selected system or by the consortium. It will NOT display shelving locations owned by child branches.
 
 Search Term Highlighting
-^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Evergreen now highlights search terms on the public catalog's main search results page, the record detail page, and intermediate pages such as metarecord grouped results page. Highlighting search terms will help the user determine why a particular record (or set of records) was retrieved.
 
