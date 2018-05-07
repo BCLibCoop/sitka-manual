@@ -16,8 +16,14 @@ Create a Serial Copy Template
 
 . Click *Administration* -> *Serials Administration* -> *Serial Copy Templates*.
 . Click *Create Template*.
++
+image::images/serials/copytemplate.png[]
++
 . Enter a _Template Name_.
 . Choose the item attributes for this template.
++
+image::images/serials/copytemplate1.png[]
++
 . Click *Save*.
 
 Edit a Serial Copy Template
@@ -26,6 +32,9 @@ Edit a Serial Copy Template
 . Click *Administration* -> *Serials Administration* -> *Serial Copy Templates*.
 . Click the check box beside the template you want to edit.
 . Click *Actions* -> Choose _Edit Template_.
++
+image::images/serials/copytemplate3.png[]
++
 . Edit the item attributes for this template.
 . Click *Save*.
 
@@ -35,6 +44,9 @@ Delete a Serial Copy Template
 . Click *Administration* -> *Serials Administration* -> *Serial Copy Templates*.
 . Click the check box beside the template you want to delete.
 . Click *Actions* -> Choose _Delete Template_.
++
+image::images/serials/copytemplate4.png[]
+
 
 NOTE: Serial Copy Templates that are being used by subscriptions cannot be deleted.
 
@@ -78,7 +90,7 @@ Pattern Wizard
 .. Select the specific point in time at which the first level of enumeration should change.
 . Click *Next*
 
-image:images/serials/pattern1.PNG[]
+image:images/serials/predictionpattern1.png[]
 
 .*Chronology display*
 . Check the box adjacent to *Use Chronology Captions?*
@@ -90,7 +102,7 @@ image:images/serials/pattern1.PNG[]
 . Check the box adjacent to Use Alternative Chronology Captions? If the publication uses alternative chronology.
 .. Click *Next*
 
-image:images/serials/pattern2.PNG[]
+image:images/serials/predictionpattern2.png[]
 
 .*MFHD Indicators*
 . Choose a *Compression Display Option*
@@ -101,7 +113,7 @@ image:images/serials/pattern2.PNG[]
 .. Sitka recommends *Captions verified; all levels present*
 .. Click *Next*
 
-image:images/serials/pattern3.PNG[]
+image:images/serials/predictionpattern3.png[]
 
 .*Frequency and Regularity*
 . Click the radio button for *Pre-selected* and choose the frequency from the drop down menu.
@@ -113,14 +125,14 @@ image:images/serials/pattern3.PNG[]
 .. For a Combined issue, enter the relevant combined issue code. E.g., for a monthly combined issue, enter 02/03 to specify that February and March are combined.
 . Click *Next*
 
-image:images/serials/pattern4.PNG[]
+image:images/serials/predictionpattern4.png[]
 
 .*Review*
 . Click the blue arrows to see the *Raw Pattern Code*
 . Review the *Pattern Summary*
 . Click *Save*
 
-image:images/serials/pattern5.PNG[]
+image:images/serials/predictionpattern5.png[]
 
 Edit a Prediction Pattern Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

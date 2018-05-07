@@ -5,9 +5,9 @@ Print Templates
 (((receipt template editor, macros)))
 (((receipt template editor, checkout)))
 
-Most of the receipts that print from the Evergreen staff client software are managed via the Print Template Editor (**Administration -> Workstation -> Print Templates**) and can be customized on an individual workstation basis. Typically, library systems will set up the receipts the way they want them to print out on one workstation at a branch, then export the settings as a file and import that file to each of the other workstations at that branch.
+Most of the receipts that print from the Evergreen staff client software are managed via the Print Template Editor **Administration -> Workstation -> Print Templates** and can be customized on an individual workstation basis. Typically, library systems will set up the receipts the way they want them to print out on one workstation at a branch, then export the settings as a file and import that file to each of the other workstations at that branch.
 
-If Hatch is installed receipts can be forced to use a specific printer settings, Printer Settings can be set at *Administration -> Workstation -> Printer Settings*.
+If Hatch is installed receipts can be forced to use specific printer settings, Printer Settings can be set at *Administration -> Workstation -> Printer Settings*.
 
 *This is a complete list of the receipts currently in use in Evergreen.*
 
@@ -63,7 +63,7 @@ Due: {{checkout.circ.due_date | date:"short"}}<br/>
 </ol>
 ----
 
-Text Formatting
+.Text Formatting
 [options="header"]
 |===
 | Goal      | Original   | Code                       | Result
@@ -73,9 +73,7 @@ Text Formatting
 | Currency    | 1           | `{{1 \| currency}}`        | $1.00
 |===
 
-Date Formatting
-If you do not format dates, they will appear in a system format which isn't easily readable.
-
+.Date Formatting
 [options="header"]
 |===
 | Code                          | Result
@@ -84,10 +82,7 @@ If you do not format dates, they will appear in a system format which isn't easi
 | `{{today \| date:'M/d/yyyy'}}`  | 8/1/2017
 |===
 
-Currency Formatting
-Add `| currency` after any dollar amount that you wish to display as
-currency.
-
+.Currency Formatting
 [options="header"]
 |===
 | Code                                      | Result

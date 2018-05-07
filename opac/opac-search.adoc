@@ -1,2 +1,288 @@
 Search the Public Catalogue
 ---------------------------
+
+The Sitka catalogue can be accessed through the computers at your local library or online from any location via the Internet.
+
+For online access, visit your library's website and follow the link to their online catalogue, or go to https://catalogue.libraries.coop for the BC Libraries Cooperative portal to the catalogue.
+
+
+
+Basic Search
+~~~~~~~~~~~~
+
+The homepage for the Sitka catalogue allows you to search for books and other items at your library or libraries.
+
+The homepage contains a single search box for you to enter a search term.
+
+
+You can select to search by:
+
+* Keyword—finds the terms you enter anywhere in the entire record for an item, including title, author, subject, and other information.
+* Title—finds the terms you enter in the title of an item.
+* Journal Title—finds the terms you enter in the title of a serial bibliographic record.
+* Author—finds the terms you enter in the author of an item.
+* Subject—finds the terms you enter in the subject of an item. Subjects are categories assigned to items according to a system such as the Library of Congress Subject Headings.
+* Series—finds the terms you enter in the title of a multi-part series.
+
+Formats
+^^^^^^^
+
+You can limit your search by format. Some of the more popular formats in the list are the following:
+
+* For Books, you can choose _All Books_, which includes regular print books, large print books, and e-books, _All Audiobooks_, which includes audiobooks on physical media and e-audiobooks, OR you can choose the individual format. The individual choices are: _Books (physical)_, _Books (large print)_, _Books (electronic)_, _Audiobooks (physical)_ or _Audiobooks (electronic)_.
+* For Videos, you can choose _All Videos_ which includes video formats such as DVD,VHS, Blu-ray, and E-video. OR you can choose the individual format. The individual choices are: _Videos (electronic)_ or _Videos (physical)_.
+* _Music_ will search music on CD or other media.
+* _Serials/Magazines_ will search for physical magazine, serial, or journal titles only.
+* _Serials/Magazines (electronic)_ will search for electronic magazine, serial, or journal titles only.
+* _Software/Video Games_ will search on games, databases, and other software.
+
+Libraries
+^^^^^^^^^
+
+If you are using a catalogue in a library or accessing a library’s public catalogue from its homepage, the search will return items for your local library. If your library has multiple branches, the result will display items available at your branch and all branches of your library system separately. If your library participates in Interlibrary Connect the results may display items available across your federation.
+
+If you access the catalogue from https://catalogue.libraries.coop, you may scope your search result to Sitka, regional libraries, a library system or a library branch by clicking into the Library box on the catalogue homepage and selecting the target library from the drop down list. You will then be able to see how many copies of a title are available in all Sitka member libraries across Sitka, or within the regional libraries, or within the library system, or within the branch, depending on search scope selected
+
+Advanced Search
+~~~~~~~~~~~~~~~
+
+You can access the Advanced Search by clicking *Advanced Search* on the catalogue homepage or search results screen.
+
+The available search options are the same as on the homepage, but you may use one or more of them simultaneously. If you want to combine more than three search options, use the *Add Search Row* button to add more search input rows. Clicking the *X* button will close the search input row.
+
+
+Search Library
+^^^^^^^^^^^^^^
+
+The current search library is displayed in the _Search Library_ box. If you access the catalogue from your library's homepage or catalogue URL, the default search library is your library or borrowing zone. If your library system has multiple branches or a borrowing zone that includes multiple libraries you can use the _Search Library_ box to select different branches or libraries.
+
+If you access the catalogue from https://catalogue.libraries.coop, your default search library is Sitka or the library you have selected on the homepage. You may use the _Search Library_ box to select a different library or regional libraries, or all libraries in Sitka to search.
+
+Sort Results
+^^^^^^^^^^^^
+
+By default, the search results are in order of greatest to least relevance. See OPAC Order of Results. In the _Sort Results _box you may select to order the search results by relevance, title, author, publication date, or popularity.
+
+Limit to Available
+^^^^^^^^^^^^^^^^^^
+
+When the _Limit to Available_ checkbox is checked search results are limited based on an item’s current circulation status. Titles without available items in the selected search library will not be displayed. Item statuses that show as available are: _Available_, _On Display_, _Onsite Consultation_, _Reserves_, and _Reshelving_.
+
+Group Formats and Editions
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+When the _Group Formats and Editions_ checkbox is checked all formats and editions of the same title are grouped as one result. For example, the DVD and the first and second print editions of Harry Potter and the Chamber of Secrets will appear together.
+
+Exclude Electronic Resources
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+When the _Exclude Electronic Resources_ checkbox is checked electronic resources are not included in the search results.
+
+Search Filter
+^^^^^^^^^^^^^
+
+You can filter your search by:
+
+* Format
+* Language
+* Audience
+* Literary Form
+* Publication Year
+** Publication year is inclusive. For example, if you set Publication Year Between 2005 and 2007, your result items will be published in 2005, 2006 and 2007.
+* Shelving Location
+** Shelving Locations that are not OPAC visible will not be displayed
+
+Numeric Search
+~~~~~~~~~~~~~~
+
+You can access the Numeric Search by clicking on the *Numeric Search* tab on the _Advanced Search_ screen.
+
+Use the drop-down menu to select ISBN, ISSN, Call Number, LCCN, TCN, or Item Barcode. Enter the information and click *Search*.
+
+
+Searching by Call Number will take you to the Shelf Browser.
+
+MARC Expert Search
+~~~~~~~~~~~~~~~~~~
+
+You can access the MARC Expert Search by clicking on the *Expert Search* tab on the Advanced Search screen.
+
+If you are familiar with the MARC standard, you may search by tag in the Expert Search. Enter the three-digit tag number, the subfield (if relevant), and the value or text that corresponds to the tag. For example, to search by publisher name, enter 260 b Random House. To search several tags simultaneously, use the *Add Row* option. Click *Search* to run the search.
+
+Browse the Catalogue
+~~~~~~~~~~~~~~~~~~~~
+
+You can access the browse search clicking *Browse the Catalogue* on the catalogue homepage or search results screen.
+
+Patrons and staff can browse records in the catalogue. The following fields are browsable: title, author, subject, and series. The browse is constructed by the term starting with. To browse the catalogue, click *Browse the Catalogue*, select a field to browse, and enter a keyword and click *Browse*. A list of results will appear. Click on the bolded text to view bibliographic records. You may move backward or forward through your results by clicking on *Back* or *Next*. Note your results are alphabetical, with results prior to your search term, and after, listed.
+
+Search Tips
+~~~~~~~~~~~
+
+You do not need to enter an author's last name first, nor do you need an exact title or subject heading as all searches are keyword search. Evergreen is also forgiving about plurals and alternate verb endings, so if you enter _dogs_, Evergreen will also find items with _dog_.
+
+* Do not use an AND operator to join search terms.
+
+  - An AND operator is automatically used to join all search terms. So, a search for _golden compass_ will search for entries that contain both _golden_ and _compass_.
+
+  - Boolean operators such as _and_, _or_, _not_ are not considered special and are searched for like any other word. So, a title search for _golden and compass_ will not return the title _golden compass_. Putting it another way, there are no stop words that are automatically ignored by the search engine. So, a title search for _the_, _and_, _or_,  _not_  (in any order) yields a list of titles with those words.
+
+* Don’t worry about white space, exact punctuation, or capitalization.
+
+  - White spaces before or after a word are ignored. So, search for _golden compass_ gives the same results as a search for _    golden compass_.
+
+  - A double dash or a colon between words is reduced to a blank space. So, a title search for _golden:compass_ or _golden--compass_ is equivalent to _golden compass_. 
+
+  - Punctuation marks occurring at the front or end of a word are removed.
+
+  - Diacritical marks, &, or | located anywhere in the search term but not within a word are removed. Words linked together by . (dot) are separated into two words. So, a search for _|golden.compass&_ is equivalent to _golden compass_.
+
+  - Upper and lower case letters are equivalent. So, _Golden Compass_ is the same as _golden compass_.
+
+* Enter your search words in any order. A search for _compass golden_ gives the same results as a search for _golden compass_. Adding more search words gives fewer and more specific results.
+
+  - This is also true for author searches. Both _David Suzuki_ and _Suzuki, David_ will return results for the same author.
+
+* Use specific search terms. Evergreen will search for the words you specify, not the meanings, so choose search terms that are likely to appear in an item description. For example, the search _luxury hotels_ will produce more relevant results than _nice places to stay_.
+
+* Search for an exact phrase using double-quotes. For example, “golden compass”.
+
+  - The order of words is important for an exact phrase search. _“golden compass”_ is different than _“compass golden”_.
+
+  - White space, punctuation and capitalization are removed from exact phrases as described above. So a phrase retains its search terms and its relative order, but not special characters, such as a + (plus), and not case.
+
+  - Two phrases are joined by AND, so a search for _“golden compass”_ _“dark materials”_ is equivalent to _“golden compass”_ and _“dark materials”_.
+
+  - To prevent xref:XXXXXXX [stemming], use double quotes around a single word or a phrase. So, a search for _parenting_ will also return results for _parental_ but a search for _“parenting”_ will not.
+
+* Use * (asterisk) as a wildcard to truncate search terms, e.g. _comp* golden_ may return the same results for _compass golden_ and more.
+
+* Exclude a term from the search, using - (minus) . For example, _vacations –britain_ will search for materials on vacations that do not make reference to Britain.
+
+  - Two excluded words are joined by _AND_. So, a search for _-harry -potter_ is equivalent to _-harry_ and _-potter_.
+
+  - A + (plus) leading a term has no role and is removed. So, _+golden +compass_ is equivalent to _golden compass_.
+
+You can form more complex searches using the Advanced Search features. You can also click the Advanced button under the search box to build complex searches using Boolean operator OR to connect your terms.
+
+Improving a Search With No Results
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If no results were returned from your search, you will see Keyword Search Tips for expanding or altering your search.
+
+
+Search Methodology
+~~~~~~~~~~~~~~~~~~
+
+Stemming
+^^^^^^^^
+
+A search for _dogs_ will also return hits with the word _dog_ and a search for _parenting_ will return results with the words _parent_ and _parental_. This is because the search uses stemming to help return the most relevant results. That is, words are reduced to their stem (or root word) before the search is performed.
+
+The stemming algorithm relies on common English language patterns - like verbs ending in ing - to find the stems. This is more efficient that looking up each search term in a dictionary and usually produces desirable results. However, it also means the search will sometimes reduce a word to an incorrect stem and cause unexpected results. To prevent a word or phrase from stemming, put it in double-quotes.
+
+Understanding how stemming works can help you to create more relevant searches, but it is usually best not to anticipate how a search term will be stemmed. For example, searching for gold compass does not return for _golden compass_ because the search does not recognize _gold_ as a stem of _golden_.
+
+Truncation
+^^^^^^^^^^
+
+Use the wildcard * (asterisk) at the end of the word to truncate search term.
+
+Order of Results
+^^^^^^^^^^^^^^^^
+
+By default, the results in the Sitka catalogue are listed in order of relevance, similar to a search engine like Google. The relevance is determined using a number of factors, including how often and where the search terms appear in the item description, and whether the search terms are part of the title, subject, author, or series. The results that best match your search are returned first rather than results appearing in alphabetical or chronological order.
+
+In the Advanced Search screen, you may select to order the search results by relevance, title, author, publication date or popularity before you start the search. You can also re-order your search results using the _Sort by_ dropdown list on the search result screen.
+
+Popularity
+^^^^^^^^^^
+
+The popularity sort options can use factors such as circulation and hold activity, record and item age, and item ownership counts to generate popularity badges for bibliographic records. Each badge has a five-point scale, where more points indicates a more popular record. The average of the badge points earned by each record constitutes a "popularity rating". The number and types of badges break ties for average popularity, and relevance sorts items with like popularity.
+
+Popularity ratings display in the catalogue when search results are sorted by _Most Popular_ or _Popularity Adjusted Relevance_.
+
+
+NOTE: Currently popularity badges have been set up in Sitka based on hold and circulation counts over the last 3 years.
+
+*Title search for "river"*
+
+
+
+Search Results
+~~~~~~~~~~~~~~
+
+The search results are a list of relevant works from the catalogue. If there are many results, they are divided into several pages. At the top of the list, you can see the total number of results and go back and forth between the pages by clicking the double arrow on top or bottom of the list or click the page number to go to that page directly. 
+
+The terms used for searching are highlighted in the search results and record screen .
+
+
+
+Information about the title, such as author, edition, publication date, call number, shelving location, status, etc., is displayed under each title. The icons below the title link indicate formats such as books, audio books, video recordings, and other formats. Hover your mouse over the icon, and a text explanation will show up in a small pop-up box.
+
+Clicking a title goes to the title details. Clicking an author searches all works by the author. If you want to place a hold on the title, click *Place Hold* to the right of the title information.
+
+Above the results list there is a _Limit to Available_ checkbox. Checking this box will filter out those titles with no available copies in the library or libraries at the moment. Usually you will see your search results are re-displayed with fewer titles
+
+The _Sort by_ dropdown list is beside the _Limit to Available_ button. Clicking an entry on the list will re-sort your search results accordingly.
+
+Formats and Editions
+^^^^^^^^^^^^^^^^^^^^
+
+If you have selected _Group Formats and Editions_ with your search, your search results are grouped by various formats and editions of the same title. Multiple format icons may be lit up.
+
+
+Refine Your Search
+^^^^^^^^^^^^^^^^^^
+
+You may refine your search results by _Topic_, _Place_, and _Genre_. Selecting one of these links on the left side of search results page narrows down the search results to that subject, author, or series. You may also refine your search by clicking the hyperlink labelled *Refine My Original Search* at top of search results. Refining a search this way allows you to add search filters such as Publication Date, Format, Language, etc., to your original search.
+
+
+Expand Your Search
+^^^^^^^^^^^^^^^^^^
+
+You may expand your search results by removing search limiters that you applied in your initial search. You can remove a limiter by clicking on the _X_ beside it.
+
+
+Availability
+^^^^^^^^^^^^
+
+The number of available copies and total copies are displayed below the title details. If you are using a catalogue inside a library or accessing a library’s public catalogue from its homepage, you will see how many copies are available in that library. If the library belongs to a multi-branch library system you can see how many copies are available in all branches. If your library participates in a larger borrowing zone you will see the available copies at the library and the larger zone.
+
+
+If you are searching multiple branches or libraries you will see the libraries with copies listed.
+
+
+Viewing a record
+^^^^^^^^^^^^^^^^
+
+Click on a title to view a detailed record of the title, including descriptive information, location and availability, and options for placing holds.
+
+ 
+Details
+^^^^^^^
+
+The record shows details such as the cover image, title, author, publication information, and an abstract or summary, if available.
+
+The Record Details view shows how many copies are at the library or libraries you have selected, and whether they are available or checked out. It also displays the _Call number_ and _Copy Location_ for locating the item on the shelves. Clicking on *Text* beside the call number will allow you to send the item's call number by text message, if desired. Clicking the location library link will reveal information about owning library, such as address and open hours.
+
+Below the local details you can open up various tabs to display more information. You can select _Reviews and More_ to see the book’s summaries and reviews, if available. You can select _Shelf Browser_ to view items appearing near the current item on the library shelves. Often this is a good way to browse for similar items. You can select _MARC Record_ to display the record in MARC format. If your library offers the service, clicking on _Awards, Reviews, and Suggested Reads_ will reveal that additional information.
+
+Search Additional Items by Author, Subject or Series
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You can search for additional items by an author, one of the subjects in the record or other works in the same series. Clicking the author, subject or series will start a new search in the catalogue. You can do this from the results page, or from within the record details view, as shown below.
+
+
+Going back
+^^^^^^^^^^
+
+When you are viewing a specific record, you can always go back to your title list by clicking the link *Search Results* on the left of the page.
+
+
+If you have selected _Group Formats and Editions_ with your search, your search results are grouped by various formats and editions of the same title under _My Search Results_. You can always go back to this page by selecting the link to *Return to Grouped Search Results*.
+
+
+You can start a new search at any time by entering new search terms in the search box at the top of the page, or by selecting the *Another Search*, *Basic Search*,or *Advanced Search* link at top of search results, depending on what screen you are on when wanting to do another search
+
+
