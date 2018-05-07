@@ -1,4 +1,12 @@
 Workstation Administration
 --------------------------
 
-include::workstationadmin/admin-receipttemplate.adoc[]
+Click *Administration* -> *Workstation*
+
+Here you may register your computer with extra libraries, configure printer settings, print templates, workstation’s settings and their storage location.
+
+Registered Workstations
+~~~~~~~~~~~~~~~~~~~~~~~
+
+
+include::workstationadmin/admin-printtemplates.adoc[]
