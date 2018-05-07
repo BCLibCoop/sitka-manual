@@ -80,7 +80,7 @@ At the right side of each exception are buttons for *Item*, *Patron*, and *Debug
 * Clicking the *Item* button will retrieve the associated item in a new browser window.
 * Clicking on the *Patron* button will retrieve the associated patron in a new browser window.
 * Clicking the *Debug* button will result in a modal with detailed debugging information.
-+
+
 image::images/circ/offlineupload8.png[]
 
 Common event names in the Exceptions List include:
