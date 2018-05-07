@@ -9,10 +9,50 @@ Email Checkout Receipts
 
 This feature allows patrons to receive checkout receipts through email at the circulation desk and in the Evergreen self-checkout interface. Patrons need to opt in to receive email receipts by default, and must have an email address in their account. Opt in can be staff mediated at the time of account creation or in existing accounts. Patrons can also opt in directly in their OPAC account or through patron self-registration. This feature does not affect the behavior of checkouts from SIP2 devices.
 
+Alternate Patron Hold Pickup
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
 Patron Buckets
 ^^^^^^^^^^^^^^
 
 Patron Buckets allow staff to batch delete and make batch modifications to user accounts in Evergreen.
+
+Clickable Patron Email Address
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Patron's email address is a mailto link in the profile, so it can be clicked to send and email to the patron. 
+
+Place Multiple Holds At Once
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+Staff can place multiple title/metarecords holds at once. This feature is especially beneficial for book clubs and reading groups, which need to place holds on multiple copies of a title.
+
+In order to use the feature, libraries need to set up a new library setting: Maximum number of duplicate holds allowed to a number higher than 1. 
+
+When placing a title or metarecord hold, a *Number of copies* field will display. This field is not available when placing volume or copy holds.
+
+This feature does not change the way in which the system fills holds. The multiple holds will fill in the same way that they would if the user had placed multiple holds separately.
+
+New Notice Columns in Items Out Screen
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Two new columns indicating the number of circulation notifications generated for a given loan and the date of the most recent notification are added to Items Out screen in patron record. These columns will allow circulation staff to better respond to patron questions about whether they were sent notification about an overdue item.
+
+A new library setting, "Exclude Courtesy Notices from Patrons Itemsout Notices Count", is added to allow libraries to choose whether to exclude courtesey notice in these fields.
+
+
+New Patron Billing Statement
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+A patron billing statement, which summarizes a patron’s bills, credits and payments, is added to Full Details screen. There are two tabs on the screen: Statement and Details.
+
+
+Enhanced Billing Timestamp Support
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+More timestamps are added to billing records indicating the create date,  a fine period start and a fine period end. 
 
 Cataloguing
 ~~~~~~~~~~~
@@ -27,6 +67,16 @@ Clickable Copy Locations
 
 Adds a URL field to the copy locations editor. When a URL is entered in this field, the associated copy location will display as a link in the public catalogue summary display. This link can be useful for retrieving maps or other directions to the copy location to aid users in finding material.
 
+
+Copy Location Filter Displays for System Level Searches
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The Shelving Location filter now displays on the advanced search page when a search is scoped to a library system, not just to an individual branch. If a library system is selected as the Search Library, the shelving location limiter will display any shelving location that is owned by the selected system or by the consortium. It will NOT display shelving locations owned by child branches.
+
+Search Term Highlighting
+^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+Evergreen now highlights search terms on the public catalog’s main search results page, the record detail page, and intermediate pages such as metarecord grouped results page. Highlighting search terms will help the user determine why a particular record (or set of records) was retrieved.
 Serials
 ~~~~~~~
 
