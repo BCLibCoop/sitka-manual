@@ -6,18 +6,34 @@ Accessing the Evergreen Staff Client
 
 The default URL to log into the client is *https://catalogue.libraries.coop/eg/staff/*
 
+image::images/intro/getstarted1.png[]
+
 Register Staff Workstation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Before logging into Evergreen, you must first register a workstation from your browser.
 
 . Navigate to the web client log in page.
+. Enter *username* and *password* -> Click *Sign In*
++
+image::images/intro/getstarted2.png[]
++
 . When you login for the first time, you will arrive at a screen asking that you register your workstation.
 . Choose your library short code from the drop down menu.
-. Enter a unique workstation name.
-. Click *Register*
-. After confirming the new workstation is listed in the Workstations Registered With This Browser menu, click *Use Now* to return to the login page.
++
+image::images/intro/getstarted3.png[]
++
+. Enter a unique workstation name -> Click *Register*.
++
+image::images/intro/getstarted4.png[]
++
+. The new workstation is listed in the *Workstations Registered With This Browser* menu -> click *Use Now* to return to the login page.
++
+image::images/intro/getstarted5.png[]
++
 . Your newly-registered workstation should be selected by default on the login page.
++
+image::images/intro/getstarted6.png[]
 
 NOTE: Local System Administrator permissions are required to register a new workstation.
 
@@ -27,6 +43,8 @@ Logging into Evergreen
 . The default URL to log into the client is *https://catalogue.libraries.coop/eg/staff/*
 . Enter your Username and Password.
 . Verify that the correct workstation is selected and click *Sign In*.
++
+image::images/intro/login.png[]
 
 Logging Out of Evergreen
 ^^^^^^^^^^^^^^^^^^^^^^^^

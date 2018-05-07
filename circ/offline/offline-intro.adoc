@@ -8,12 +8,14 @@ New in Evergreen version 3.1 you can choose how to save your offline transaction
 Save Offline Transactions in Chrome
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Chrome is simple to use and manage. *Offline Circulation* in the web client relies on the use of web service workers to store information for offline use. The web service workers will refresh the cache every *24 hours* under normal use.  Chrome uses cookies to save your transactions.
+Chrome is simple to use and manage. Chrome uses cookies to save your transactions.
+
+<!--*Offline Circulation* in the web client relies on the use of web service workers to store information for offline use. The web service workers will refresh the cache every *24 hours* under normal use.-->
 
 [CAUTION]
 =============
 * Do not delete browser cookies if you have pending offline transactions.
-* Offline transactions must be uploaded as soon as possible as they will be cleared every *24 hours*
+* Offline transactions should be uploaded as soon as possible.
 =============
 
 Save Offline Transactions in Hatch
