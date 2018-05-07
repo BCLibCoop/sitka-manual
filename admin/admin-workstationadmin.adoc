@@ -43,13 +43,13 @@ Latency Test
 
 This will measure the websocket latency between your workstation client and the Evergreen server at the host above.
 
-Click *Start Test* to run the test
-Click *Copy to Clipboard* to copy the results
-Click *Clear* to clear the results
+* Click *Start Test* to run the test
+* Click *Copy to Clipboard* to copy the results
+* Click *Clear* to clear the results
 
 *Average Latency* - Indicates how long it takes for your workstation to communicate with Sitka's Evergreen servers.
 
-NOTE: The status of all BC Libraries Cooperative services can be found here - https://status.libraries.coop/
+NOTE: The current status of all BC Libraries Cooperative services can be found here - https://status.libraries.coop/
 
 
 Disable Sounds
@@ -58,4 +58,4 @@ Disable Sounds
 Disable Sounds - Check the box for *Disable Sounds* to turn off the staff client Sounds.
 
 Test - Click the buttons to test the staff client sounds
-* Distinct sounds for *Success* *Info* *Warning* or *Error* events. 
+* Distinct sounds for *Success* *Info* *Warning* or *Error* events.
