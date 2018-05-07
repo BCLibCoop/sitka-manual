@@ -46,14 +46,14 @@ To renew items in Offline Circulation:
 . Ensure that the *Due Date* value is correct.
 . For each item to be renewed, scan the item's barcode in the *Item Barcode* field. If you are typing the item barcode, click the *Renew* button or hit the *Enter* key on your keyboard after each item barcode.
 . _(Optional)_: Enter the patron's library card barcode in the *Patron Barcode* field by scanning or typing the barcode.
++
+image::images/circ/offlinerenew1.png[]
++
 . The item barcode, due date, and patron barcode (if entered) appear on the right side of the screen.
-+
-image::images/circ/offlinerenew2.png[]
-+
 . To print a receipt, check *Print Receipt*.
 . Click *Save Transactions* in the upper-right of the screen to complete the renewal.
 +
-image::images/circ/offlinerenew3.png[]
+image::images/circ/offlinerenew2.png[]
 
 In House Use
 ^^^^^^^^^^^^

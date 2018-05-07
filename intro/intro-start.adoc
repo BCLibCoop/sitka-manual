@@ -185,3 +185,5 @@ Set Search Preferences
 .. The preferred library is used to show copies and electronic resource URIs regardless of the library searched. One recommendation is to set this to your home library so that local copies show up first in search results.
 . Use the dropdown menu to select an appropriate Advanced Search Default Pane.
 .. Advanced search has secondary panes for Numeric and MARC Expert searching. You can change which one is loaded by default when opening a new catalog window here.
++
+image::images/intro/searchpref.png[]
