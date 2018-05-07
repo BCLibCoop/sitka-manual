@@ -55,6 +55,7 @@ image::images/circ/offlinerenew1.png[]
 +
 image::images/circ/offlinerenew2.png[]
 
+////
 In House Use
 ^^^^^^^^^^^^
 
@@ -105,4 +106,5 @@ All fields in the normal Patron Registration interface are available for entry. 
 
 Enter patron information and click the *Save* button in the top-right of the Patron Registration interface.  You may checkout items to this patron right away, even if you are still in offline mode.
 
-NOTE: To prevent duplicate patron entry we strongly recommend that you do not use patron registration in offline modern
+NOTE: To prevent duplicate patron entry we strongly recommend that you do not use patron registration in *Offline Circulation*.
+////
