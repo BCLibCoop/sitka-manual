@@ -1,10 +1,6 @@
 Workstation Administration
 --------------------------
 
-Click *Administration* -> *Workstation*
-
-Here you may register your computer with extra libraries, configure printer settings, print templates, workstation’s settings and their storage location.
-
 Search Preferences
 ~~~~~~~~~~~~~~~~~~
 
@@ -19,6 +15,21 @@ include::workstationadmin/admin-printtemplates.adoc[]
 Stored Preferences
 ~~~~~~~~~~~~~~~~~~
 
+Here you can view stored user preferences. User settings are added to the list whenever you choose to *Save Columns*, *Set default view* or pick a value from a sticky dropdown menu.
+
+* Click on a preference to view the stored value.
+* Click on the delete (X) button to remove a preference's value
+
+Local Prefs
+^^^^^^^^^^^
+
+* Saved settings for this workstation only
+
+Remote Prefs
+^^^^^^^^^^^^
+
+* Saved settings for any workstation registered to your Library
+
 Hatch
 ~~~~~
 
@@ -27,11 +38,24 @@ Refer to xref:download-hatch[] for detailed instructions
 Tests
 ~~~~~
 
+Latency Test
+^^^^^^^^^^^^
+
+This will measure the websocket latency between your workstation client and the Evergreen server at the host above.
+
+Click *Start Test* to run the test
+Click *Copy to Clipboard* to copy the results
+Click *Clear* to clear the results
+
+*Average Latency* - Indicates how long it takes for your workstation to communicate with Sitka's Evergreen servers.
+
+NOTE: The status of all BC Libraries Cooperative services can be found here - https://status.libraries.coop/
+
+
 Disable Sounds
 ~~~~~~~~~~~~~~
 
-Disable Sounds - Check the box for *Disable Sounds* to turn off the staff client Sounds
+Disable Sounds - Check the box for *Disable Sounds* to turn off the staff client Sounds.
 
 Test - Click the buttons to test the staff client sounds
-
-4 distinct sounds will sound for *Success* *Info* *Warning* or *Error*
+* Distinct sounds for *Success* *Info* *Warning* or *Error* events. 
