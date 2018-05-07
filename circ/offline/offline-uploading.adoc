@@ -10,7 +10,7 @@ Once connectivity is restored you will need to upload your offline transactions.
 +
 image::images/circ/offlineupload1.png[]
 +
-. Enter your username and password.
+. Enter your *Username* and *Password*.
 . Click *Circulation* -> *Offline Circulation*.
 . You will now see a *Session Management* tab to the left of the Register Patron tab.  The Session Management tab includes *Pending Transactions* and *Offline Sessions*.
 .. In the *Pending Transactions* tab you will see a list of all transactions recorded on that browser.
@@ -58,7 +58,7 @@ To import transactions:
 . Navigate to the location on your computer where the pending.xacts file is saved.
 . Select the file for importing.
 . The *Pending Transactions* list will populate with your imported transactions.
-. You may now proceed according to the instructions under <<_processing_offline_transactions,Processing Offline Transactions>>.
+. You may now proceed according to the instructions under <<_upload_offline_transactions,Upload Offline Transactions>>.
 
 Exceptions
 ^^^^^^^^^^
@@ -74,7 +74,7 @@ These are a few notes about possible exceptions. It is not an all-inclusive list
 * An item that is targeted for a patron hold and captured via offline checkin will not cause an exception unless that item also goes to an In Transit status.
 * An item that is on hold for Patron A but checked out to Patron B will not cause an exception.  Patron A's hold will be reset and will retarget the next time the hold targeter is run.  In order to avoid this it is recommended to not check out holds to other patrons.
 * If you check out a book to a patron using a previous barcode for that patron, it will cause an exception and you will have to retrieve that patron while online and re-enter the item barcode in order to checkout the item.
-* The Offline Interface can recognize blocked, barred, and expired patrons if you have downloaded the Offline Block List in the browser you are using.  You will get an error message indicating the patron status from within the Standalone Interface at check-out time.  See the section on the <<_offline_block_list,Offline Block List>> for more information.
+* The Offline Interface can recognize blocked, barred, and expired patrons if you have downloaded the Offline Block List in the browser you are using.  You will get an error message indicating the patron status from within the Standalone Interface at check-out time.  See the section on the <<download_offline_block_list,Offline Block List>> for more information.
 
 At the right side of each exception are buttons for *Item*, *Patron*, and *Debug*.
 * Clicking the *Item* button will retrieve the associated item in a new browser window.
