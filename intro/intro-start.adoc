@@ -69,9 +69,10 @@ image::images/intro/changeop1.png[]
 .. *Temporary* -
 .. *Staff* -
 .. *Persistent* -
-. Click *Ok/Continue*
 +
 image::images/intro/changeop2.png[]
++
+. Click *Ok/Continue*
 
 Best Practices for Using the Browser
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -83,6 +84,9 @@ To ensure that staff can easily get to the web client portal page on login witho
 
 .Setting the Web Client as the Home Page in Chrome
 . Click on the menu icon (three vertical dots in the upper-right corner).
++
+image::images/intro/browser1.png[]
++
 . Select Settings.
 . In the _On startup_ section, select Open a specific page or set of pages.
 . Click the Set Pages link.
@@ -93,6 +97,8 @@ Allow Pop-ups
 ^^^^^^^^^^^^
 Your browser must allow pop-ups from *https://catalogue.libraries.coop*. You should see a small icon or message when a pop-up is triggered, but if you do not, you may follow these steps to ensure that Popups are allowed.
 
+image::images/intro/popup.png[]
+
 .Allow Pop-ups In Chrome
 . Click on the menu icon (three vertical dots in the upper-right corner).
 . Select Settings.
@@ -101,10 +107,15 @@ Your browser must allow pop-ups from *https://catalogue.libraries.coop*. You sho
 . Click on pop-ups.
 . Click the Add button next to Allow.
 . Type in *https://catalogue.libraries.coop* and click Add.
++
+image::images/intro/popupallow.png[]
 
 [[bookmarks-profiles]]
 Bookmarks and Profiles
 ^^^^^^^^^^^^^^^^^^^^^^
+
+link:https://youtu.be/-nODOz_0S_M[*Bookmark Toolbar (3:44)*]
+
 The web client allows you to bookmark the pages that you use the most, and to use your browser's existing functionality to build your own custom toolbars and even to use browser profiles for different activities.
 
 [[tab-buttons-keyboard-shortcuts]]

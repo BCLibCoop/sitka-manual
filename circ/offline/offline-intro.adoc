@@ -10,8 +10,6 @@ Save Offline Transactions in Chrome
 
 Chrome is simple to use and manage. Chrome uses cookies to save your transactions.
 
-<!--*Offline Circulation* in the web client relies on the use of web service workers to store information for offline use. The web service workers will refresh the cache every *24 hours* under normal use.-->
-
 [CAUTION]
 =============
 * Do not delete browser cookies if you have pending offline transactions.
