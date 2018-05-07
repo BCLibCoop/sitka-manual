@@ -82,7 +82,7 @@ Due: {{checkout.circ.due_date | date:"short"}}<br/>
 | `{{today \| date:'M/d/yyyy'}}`  | 8/1/2017
 |===
 
-I.Currency Formatting
+.Currency Formatting
 [options="header"]
 |===
 | Code                                      | Result
