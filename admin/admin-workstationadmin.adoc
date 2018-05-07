@@ -5,8 +5,33 @@ Click *Administration* -> *Workstation*
 
 Here you may register your computer with extra libraries, configure printer settings, print templates, workstation’s settings and their storage location.
 
-Registered Workstations
-~~~~~~~~~~~~~~~~~~~~~~~
+Search Preferences
+~~~~~~~~~~~~~~~~~~
 
+Refer to xref:set-search-preferences[] for detailed instructions
+
+include::workstationadmin/admin-registeredworkstations.adoc[]
+
+include::workstationadmin/admin-printersettings.adoc[]
 
 include::workstationadmin/admin-printtemplates.adoc[]
+
+Stored Preferences
+~~~~~~~~~~~~~~~~~~
+
+Hatch
+~~~~~
+
+Refer to xref:download-hatch[] for detailed instructions
+
+Tests
+~~~~~
+
+Disable Sounds
+~~~~~~~~~~~~~~
+
+Disable Sounds - Check the box for *Disable Sounds* to turn off the staff client Sounds
+
+Test - Click the buttons to test the staff client sounds
+
+4 distinct sounds will sound for *Success* *Info* *Warning* or *Error*
