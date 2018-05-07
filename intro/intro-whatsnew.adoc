@@ -59,6 +59,7 @@ Alternate Patron Hold Pickup
 
 When an on-hold item is being checked out to another patron, not the requester, on the prompt there is a new checkbox allowing staff to cancel the hold during the checking out. If the borrower is picking up the item on behalf of the requester, you can select the checkbox to cancel the hold. However, such cancelled holds are not counted in as fulfilled. If you tracks fulfilled holds statistics, Co-op support suggests you check out the item to the requester only.
 
+There is a new library setting, Clear Hold When Other Patron Checks Out Item,  to allow libraries to choose whether the cancel hold checkbox is selected by default. 
 
 Cataloguing
 ~~~~~~~~~~~
@@ -83,6 +84,16 @@ Search Term Highlighting
 ^^^^^^^^^^^^^^^^^^^^^^^^
  
 Evergreen now highlights search terms on the public catalog's main search results page, the record detail page, and intermediate pages such as metarecord grouped results page. Highlighting search terms will help the user determine why a particular record (or set of records) was retrieved.
+
+
+Multilingual Search
+^^^^^^^^^^^^^^^^^^^^
+
+Search for multilingual materials is possible now by combining language attributes, e.g. keyword: piano item_lang(eng) item_lang(ita). Attribute values are from tag 008 and 041. 
+
+NOTE: This is different from selecting multiple entries in the Language filter on Advanced Search, which searchs for materials in any of the selected langualges.
+
+
 Serials
 ~~~~~~~
 
