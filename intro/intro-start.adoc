@@ -89,8 +89,14 @@ image::images/intro/browser1.png[]
 +
 . Select Settings.
 . In the _On startup_ section, select Open a specific page or set of pages.
-. Click the Set Pages link.
-. Add *https://catalogue.libraries.coop/eg/staff/* to the Enter URL box and click OK.
++
+image::images/intro/homepage1.png[]
++
+. Click *Add a new page*.
+. Add *https://catalogue.libraries.coop/eg/staff/* to the Enter URL box and click *Add*.
++
+image::images/intro/homepage2.png[]
+
 
 [[allow-popups]]
 Allow Pop-ups
@@ -103,6 +109,9 @@ image::images/intro/popup.png[]
 . Click on the menu icon (three vertical dots in the upper-right corner).
 . Select Settings.
 . Scroll to the bottom and click *Advanced*.
++
+image::images/intro/browser2.png[]
++
 . Under *Privacy and Security* click *Content settings*.
 . Click on pop-ups.
 . Click the Add button next to Allow.
