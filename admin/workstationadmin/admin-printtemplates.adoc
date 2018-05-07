@@ -63,7 +63,7 @@ Due: {{checkout.circ.due_date | date:"short"}}<br/>
 </ol>
 ----
 
-Text Formatting
+.Text Formatting
 [options="header"]
 |===
 | Goal      | Original   | Code                       | Result
@@ -73,9 +73,7 @@ Text Formatting
 | Currency    | 1           | `{{1 \| currency}}`        | $1.00
 |===
 
-Date Formatting
-If you do not format dates, they will appear in a system format which isn't easily readable.
-
+.Date Formatting
 [options="header"]
 |===
 | Code                          | Result
@@ -84,15 +82,16 @@ If you do not format dates, they will appear in a system format which isn't easi
 | `{{today \| date:'M/d/yyyy'}}`  | 8/1/2017
 |===
 
-Currency Formatting
-Add `| currency` after any dollar amount that you wish to display as
-currency.
+If you do not format dates, they will appear in a system format which isn't easily readable.
 
+.Currency Formatting
 [options="header"]
 |===
 | Code                                      | Result
 | `{{xact.summary.balance_owed \| currency}}` | $2.50
 |===
+
+Add `| currency` after any dollar amount that you wish to display as currency.
 
 Conditional Formatting
 ++++++++++++++++++++++
