@@ -11,7 +11,7 @@ image::images/intro/getstarted1.png[]
 Register Staff Workstation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-link:https://youtu.be/-3HbQQdH9FQ [*Register Workstation (1:36)*]
+link:https://youtu.be/-3HbQQdH9FQ[*Register Workstation (1:36)*]
 
 Before logging into Evergreen, you must first register a workstation from your browser.
 
@@ -20,7 +20,7 @@ Before logging into Evergreen, you must first register a workstation from your b
 +
 image::images/intro/getstarted2.png[]
 +
-. When you login for the first time, you will arrive at a screen asking that you register your workstation.
+. When you login for the first time on a new computer or a new server you will be prompted to register your workstation.
 . Choose your library short code from the drop down menu.
 +
 image::images/intro/getstarted3.png[]
@@ -52,6 +52,8 @@ Logging Out of Evergreen
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Click *Menu* -> Click *Log Out*
++
+image::images/intro/logout.png[]
 
 CAUTION: Exiting all browser windows will automatically log you out of the web client. If you only close the tab where the web client is loaded, you will remain logged in.
 
@@ -59,12 +61,17 @@ Change Operator
 ^^^^^^^^^^^^^^^
 
 . Click *Menu* -> Click *Change Operator*
-. Enter the Username and Password.
++
+image::images/intro/changeop1.png[]
++
+. Enter the *Username* and *Password*.
 . Choose Login Type from the drop down menu.
 .. *Temporary* -
 .. *Staff* -
 .. *Persistent* -
 . Click *Ok/Continue*
++
+image::images/intro/changeop2.png[]
 
 Best Practices for Using the Browser
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
