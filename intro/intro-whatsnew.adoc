@@ -22,14 +22,14 @@ Patron Buckets allow staff to batch delete and make batch modifications to user 
 Clickable Patron Email Address
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Patron's email address is a mailto link in the profile, so it can be clicked to send and email to the patron. 
+Patron's email address is a mailto link in the profile, so it can be clicked to send and email to the patron.
 
 Place Multiple Holds At Once
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
- 
+
 Staff can place multiple title/metarecords holds at once. This feature is especially beneficial for book clubs and reading groups, which need to place holds on multiple copies of a title.
 
-In order to use the feature, libraries need to set up a new library setting: Maximum number of duplicate holds allowed to a number higher than 1. 
+In order to use the feature, libraries need to set up a new library setting: Maximum number of duplicate holds allowed to a number higher than 1.
 
 When placing a title or metarecord hold, a *Number of copies* field will display. This field is not available when placing volume or copy holds.
 
@@ -52,7 +52,7 @@ A patron billing statement, which summarizes a patron's bills, credits and payme
 Enhanced Billing Timestamp Support
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-More timestamps are added to billing records indicating the create date,  a fine period start and a fine period end. 
+More timestamps are added to billing records indicating the create date,  a fine period start and a fine period end.
 
 Alternate Patron Hold Pickup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -82,9 +82,10 @@ The Shelving Location filter now displays on the advanced search page when a sea
 
 Search Term Highlighting
 ^^^^^^^^^^^^^^^^^^^^^^^^
- 
+
 Evergreen now highlights search terms on the public catalog's main search results page, the record detail page, and intermediate pages such as metarecord grouped results page. Highlighting search terms will help the user determine why a particular record (or set of records) was retrieved.
 
+<<<<<<< HEAD
 
 Multilingual Search
 ^^^^^^^^^^^^^^^^^^^^
@@ -94,6 +95,8 @@ Search for multilingual materials is possible now by combining language attribut
 NOTE: This is different from selecting multiple entries in the Language filter on Advanced Search, which searchs for materials in any of the selected langualges.
 
 
+=======
+>>>>>>> 547b02a261498b0c4606eae86eb5203b663d31a9
 Serials
 ~~~~~~~
 
