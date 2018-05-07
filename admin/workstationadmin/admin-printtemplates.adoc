@@ -1,5 +1,5 @@
-Receipt Templates
-~~~~~~~~~~~~~~~~~
+Print Templates
+~~~~~~~~~~~~~~~
 (((web client, receipt template editor)))
 (((receipt template editor)))
 (((receipt template editor, macros)))
@@ -34,7 +34,7 @@ them. This used on the Bill History Transaction screen.
 *  **Transit Slip:** This is printed when an items goes in-transit to another location.
 
 Customizing Receipt Templates
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .  In Evergreen, go to **Administration -> Workstation -> Print Templates**.
 .  Select the Template Name of the receipt you wish to customize.
@@ -43,7 +43,7 @@ Customizing Receipt Templates
 .  Click Save Locally.
 
 Formatting
-^^^^^^^^^^
+++++++++++
 The print templates follow W3C HTML standards http://w3schools.com/html/default.asp.
 
 Print templates use variables for various pieces of information coming from the Evergreen database.  These variables deal with everything from the library name to the due date of an item. Information from the database is entered in the templates with curly brackets. Different types of print templates have access to different pieces of information.
@@ -64,7 +64,6 @@ Due: {{checkout.circ.due_date | date:"short"}}<br/>
 ----
 
 Text Formatting
-+++++++++++++++
 [options="header"]
 |===
 | Goal      | Original   | Code                       | Result
@@ -75,7 +74,6 @@ Text Formatting
 |===
 
 Date Formatting
-+++++++++++++++
 If you do not format dates, they will appear in a system format which isn't easily readable.
 
 [options="header"]
@@ -87,7 +85,6 @@ If you do not format dates, they will appear in a system format which isn't easi
 |===
 
 Currency Formatting
-+++++++++++++++++++
 Add `| currency` after any dollar amount that you wish to display as
 currency.
 
@@ -179,7 +176,7 @@ Importing Templates
 . Click OK.
 
 Receipt Content Reference
-~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Receipt templates use variables for various pieces of information coming from the Evergreen database.  These variables deal with everything from the Library name to the due date of an item. Information from the database is entered in the templates with {{term}}.
 
