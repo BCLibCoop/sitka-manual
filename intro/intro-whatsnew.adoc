@@ -54,13 +54,19 @@ Enhanced Billing Timestamp Support
 
 More timestamps are added to billing records indicating the create date,  a fine period start and a fine period end. 
 
+Alternate Patron Hold Pickup
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+When an on-hold item is being checked out to another patron, not the requester, on the prompt there is a new checkbox allowing staff to cancel the hold during the checking out. If the borrower is picking up the item on behalf of the requester, you can select the checkbox to cancel the hold. However, such cancelled holds are not counted in as fulfilled. If you tracks fulfilled holds statistics, Co-op support suggests you check out the item to the requester only.
+
+
 Cataloguing
 ~~~~~~~~~~~
 
 Copy Alerts
 ^^^^^^^^^^^
 
-Copy Alerts allow library staff to add customized alert messages to copies. The copy alerts will appear when a specific event takes place, such as when the copy is checked in, checked out, or renewed.
+Copy Alerts types are added to allow library staff to add alerts appearing when a specific event takes place, such as when the copy is checked in, checked out, or renewed.
 
 Clickable Copy Locations
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -76,7 +82,7 @@ The Shelving Location filter now displays on the advanced search page when a sea
 Search Term Highlighting
 ^^^^^^^^^^^^^^^^^^^^^^^^
  
-Evergreen now highlights search terms on the public catalog’s main search results page, the record detail page, and intermediate pages such as metarecord grouped results page. Highlighting search terms will help the user determine why a particular record (or set of records) was retrieved.
+Evergreen now highlights search terms on the public catalog's main search results page, the record detail page, and intermediate pages such as metarecord grouped results page. Highlighting search terms will help the user determine why a particular record (or set of records) was retrieved.
 Serials
 ~~~~~~~
 
