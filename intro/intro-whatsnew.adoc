@@ -9,8 +9,6 @@ Email Checkout Receipts
 
 This feature allows patrons to receive checkout receipts through email at the circulation desk and in the Evergreen self-checkout interface. Patrons need to opt in to receive email receipts by default, and must have an email address in their account. Opt in can be staff mediated at the time of account creation or in existing accounts. Patrons can also opt in directly in their OPAC account or through patron self-registration. This feature does not affect the behavior of checkouts from SIP2 devices.
 
-Alternate Patron Hold Pickup
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Patron Buckets
 ^^^^^^^^^^^^^^
@@ -22,16 +20,6 @@ Clickable Patron Email Address
 
 Patron's email address is a mailto link in the profile, so it can be clicked to send and email to the patron.
 
-Place Multiple Holds at Once
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Staff can place multiple title/metarecords holds at once. This feature is especially beneficial for book clubs and reading groups, which need to place holds on multiple copies of a title.
-
-In order to use the feature, libraries need to set up a new library setting: Maximum number of duplicate holds allowed to a number higher than 1.
-
-When placing a title or metarecord hold, a *Number of copies* field will display. This field is not available when placing volume or copy holds.
-
-This feature does not change the way in which the system fills holds. The multiple holds will fill in the same way that they would if the user had placed multiple holds separately.
 
 New Notice Columns in Items Out Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -54,6 +42,31 @@ Option to Suspend Holds at the Time They are Placed
 Users now have the option to suspend a hold at the same time they place the hold. The Place Hold screen has a checkbox that can be enabled for users who want to suspend a hold at the time it is placed. There is also an option to set the activation date at the same time. This option is also available when placing holds on a batch of titles from My List and will apply to all the titles in the batch.
 
 
+Patron Search from Place Hold
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+On Place Hold screen, beside the box for entering the requestor barcode, there is a Patron Search link for staff to retrieve patrons via names and other information,  rather than relying on barcode alone.
+
+
+Place Multiple Holds at Once
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Staff can place multiple title/metarecords holds at once. This feature is especially beneficial for book clubs and reading groups, which need to place holds on multiple copies of a title.
+
+In order to use the feature, libraries need to set up a new library setting: Maximum number of duplicate holds allowed to a number higher than 1.
+
+When placing a title or metarecord hold, a *Number of copies* field will display. This field is not available when placing volume or copy holds.
+
+This feature does not change the way in which the system fills holds. The multiple holds will fill in the same way that they would if the user had placed multiple holds separately.
+
+Alternate Patron Hold Pickup
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+When an on-hold item is being checked out to another patron, not the requester, on the prompt there is a new checkbox allowing staff to cancel the hold during the checking out. If the borrower is picking up the item on behalf of the requester, you can select the checkbox to cancel the hold. However, such cancelled holds are not counted in as fulfilled. If you tracks fulfilled holds statistics, Co-op support suggests you check out the item to the requester only.
+
+There is a new library setting, Clear Hold When Other Patron Checks Out Item,  to allow libraries to choose whether the cancel hold checkbox is selected by default. 
+
+
 Retrieve Recent Patrons
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -67,10 +80,6 @@ Now you can include the patron birth year and/or birth month and/or birth day wh
 
 Day and month values are exact matches. E.g. month "1" (or "01") matches January, "12" matches December. Year searches are "contains" searches. E.g. year "15" matches 2015, 1915, 1599, etc. For exact matches use the full 4-digit year.
 
-Patron Search from Place Hold
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-On Place Hold screen, beside the box for entering the requestor barcode, there is a Patron Search link for staff to retrieve patrons via names and other information,  rather than relying on barcode alone.
 
 New Patron Billing Statement
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -83,15 +92,20 @@ Enhanced Billing Timestamp
 
 More timestamps are added to billing records indicating the create date,  a fine period start and a fine period end.
 
-Alternate Patron Hold Pickup
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-When an on-hold item is being checked out to another patron, not the requester, on the prompt there is a new checkbox allowing staff to cancel the hold during the checking out. If the borrower is picking up the item on behalf of the requester, you can select the checkbox to cancel the hold. However, such cancelled holds are not counted in as fulfilled. If you tracks fulfilled holds statistics, Co-op support suggests you check out the item to the requester only.
-
-There is a new library setting, Clear Hold When Other Patron Checks Out Item,  to allow libraries to choose whether the cancel hold checkbox is selected by default. 
 
 Cataloguing
 ~~~~~~~~~~~
+
+Copy Location Filter Displays for System Level Searches
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The Shelving Location filter now displays on the advanced search page when a search is scoped to a library system, not just to an individual branch. If a library system is selected as the Search Library, the shelving location limiter will display any shelving location that is owned by the selected system or by the consortium. It will NOT display shelving locations owned by child branches.
+
+Search Term Highlighting
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Evergreen now highlights search terms on the public catalog's main search results page, the record detail page, and intermediate pages such as metarecord grouped results page. Highlighting search terms will help the user determine why a particular record (or set of records) was retrieved.
 
 Copy Alerts and Suppression of Copy Alerts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -103,22 +117,12 @@ Copy Alerts types are added to allow library staff to add alerts appearing when 
 Libraries may choose to suppress certain types of copy alerts via the Copy Alert Suppression page under Local Administration.
 
 
-
 Clickable Copy Locations
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 Adds a URL field to the copy locations editor. When a URL is entered in this field, the associated copy location will display as a link in the public catalogue summary display. This link can be useful for retrieving maps or other directions to the copy location to aid users in finding material.
 
 
-Copy Location Filter Displays for System Level Searches
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-The Shelving Location filter now displays on the advanced search page when a search is scoped to a library system, not just to an individual branch. If a library system is selected as the Search Library, the shelving location limiter will display any shelving location that is owned by the selected system or by the consortium. It will NOT display shelving locations owned by child branches.
-
-Search Term Highlighting
-^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Evergreen now highlights search terms on the public catalog's main search results page, the record detail page, and intermediate pages such as metarecord grouped results page. Highlighting search terms will help the user determine why a particular record (or set of records) was retrieved.
 
 
 Multilingual Search
