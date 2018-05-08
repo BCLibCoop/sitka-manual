@@ -23,7 +23,7 @@ With the above settings, you will get an email on the first day of each month wi
 output. By clicking this link it will open the output in a web browser. It is still possible to login to 
 the staff client and access the output in Output folder.
  
-*Always use 'relative date' for recurring reports.* Date is a filter on nearly every template. When setting up 
+*Always use relative date for recurring reports.* Date is a filter on nearly every template. When setting up 
 a recurring report, always choose Relative Date, instead of Real Date for any date filter on the report 
 creating screen. When using relative date the actual date will be calculated when the report runs. Unlike a 
 real date, the actual value of relative date is adjusted according to the run time. For example, if the report 
@@ -41,11 +41,11 @@ report, e.g. the recurrence interval, generation date, email address to receive 
 format/folder or even filter values (such as the number of days overdue). You may do it by editing the report. 
 See Viewing/Editing/Rescheduling Reports for details.
  
-TIP: Report running interval should correspond to the date filter. For example, if the template filters 
+TIP: * Report running interval should correspond to the date filter. For example, if the template filters 
 on a date instead of month, a recurring report running with a monthly interval may miss a day or capture 
 an extra day's data. So it works better if the filter can be transformed to month.
-Schedule your monthly report to run early next month, but not at the end of the current month.
-Once you have been on Evergreen for a year, you can set up your recurring monthly reports to show comparative 
+* Schedule your monthly report to run early next month, but not at the end of the current month.
+* Once you have been on Evergreen for a year, you can set up your recurring monthly reports to show comparative 
 data from one year ago. To do this select relative dates of 1 month ago and 13 months ago.
  
 
