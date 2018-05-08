@@ -17,7 +17,8 @@ image::images/intro/browser1.png[]
 image::images/intro/homepage1.png[]
 +
 . Click *Add a new page*.
-. Add *https://catalogue.libraries.coop/eg/staff/* to the Enter URL box and click *Add*.
+. Site URL: *https://catalogue.libraries.coop/eg/staff/*.
+. Click *Add*.
 +
 image::images/intro/homepage2.png[]
 
@@ -56,13 +57,14 @@ Browser Configuration
 Make sure your browser is up to date
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.Update browser
 . Click *Menu*.
 +
 image::images/intro/browser1.png[]
 +
 . Click *Help*.
 . Click *About Google Chrome*.
-. You should see a message saying “Google Chrome is up to date.”
+. You should see a message saying _Google Chrome is up to date._
 
 [[allow-popups]]
 Allow Pop-ups
@@ -72,6 +74,7 @@ Your browser must allow pop-ups from *https://catalogue.libraries.coop* or you w
 
 image::images/intro/popup.png[]
 
+.Allow Pop-ups
 . Click *Menu*.
 +
 image::images/intro/browser1.png[]
@@ -81,29 +84,33 @@ image::images/intro/browser1.png[]
 +
 image::images/intro/browser2.png[]
 +
-. Under *Privacy and Security* click *Content settings*.
+. Under _Privacy and Security_ click *Content settings*.
 . Click *Pop-ups*.
 . Click *Add*.
-. Type in *https://catalogue.libraries.coop* and click Add.
+. Site: *https://catalogue.libraries.coop*.
+. Click *Add*.
 +
 image::images/intro/popupallow.png[]
 
 Allow Cookies
 ^^^^^^^^^^^^^
 
+.Allow Cookies
 . Click *Menu*.
 +
 image::images/intro/browser1.png[]
 +
 . Click *Settings*.
 . Scroll down to the bottom and click *Advanced*.
-. Under *Privacy and Security* click *Content settings*.
+. Under _Privacy and Security_ click *Content settings*.
 . Click *Cookies*.
-. “Allow sites to save and read cookie data” should be on.
-. “Keep local data only until you quit your browser” should be off.
+. _Allow sites to save and read cookie data_ should be on.
+. _Keep local data only until you quit your browser_ should be off.
 . Click *Add*.
-. Type in: catalogue.libraries.coop
-. Click *Enter*.
+. Site: https://catalogue.libraries.coop/eg/staff/
+. Click *Add*.
++
+image::images/intro/cookies.png[]
 
 Security Software and Cookies
 +++++++++++++++++++++++++++++
@@ -117,46 +124,61 @@ Troubleshooting
 Clear Cache
 ^^^^^^^^^^^
 
+.Clear Cache
 . Click *Menu*.
 +
 image::images/intro/browser1.png[]
 +
 . Click *History*.
-. Click *History (on flyout menu).
+. Click *History* (on flyout menu).
 . Click *Clear Browsing Data*.
 . Set Time Range
-.. 1 hour
-.. all time
+.. *All time*
 . Check the box next to _Cached images and files_ (other boxes can be left unchecked).
 . Click *Clear Data*.
++
+image::images/intro/clearcache.png[]
 
 Clear Cookies
 ^^^^^^^^^^^^^
 
 If you log in and see a blank page with the green bar across the top (aka, the “white screen of death”), but nothing else will load, you may need to clear your browser's cache and cookies.
 
-CAUTION: Before you clear cookies, be aware that clearing cookies in Firefox will cause you to lose your registered workstations and local settings. This will also occur in Chrome unless you are using Hatch to store those settings.
+CAUTION: Before you clear cookies, be aware that clearing cookies will cause you to lose your registered workstations and local settings unless you are using Hatch to store those settings.
 
+.Clear Cookies
 . Click *Menu*.
 +
 image::images/intro/browser1.png[]
 +
 . Click *History*.
-. Click Clear Browsing Data.
-. Check the box next to “Cached images and files.”
-. Click the Clear Data button.
-. Enter this address in your address bar: chrome://settings/siteData
-. Use the trashcan icon to remove the cookies for catalogue.libraries.coop
+. Click *History* (on flyout menu).
+. Click *Clear Browsing Data*.
+. Check the box next to _Cookies and other site data_.
+. Check the box next to _Cached images and files_.
+. Set Time Range
+.. *Last hour* (recommended)
+. Click *Clear Data*.
 . Return to https://catalogue.libraries.coop/eg/staff
+
+If you have Hatch installed, use these directions to reconnect your browser to Hatch:
+
+.Reconnect your browser to Hatch
+. Log in with a Local System Administrator account.
+. Register workstation and click *Use Now* to log in again.
+. Navigate to *Administration* -> *Workstation* -> *Print/Storage Service (“Hatch”)*.
+. Check all three boxes.
+. Click on the Home icon.
+. You will be returned to the workstation registration screen again - click *Use Now* to log in again.
+. Your local settings should now be restored.
 
 Retrieve Console Messages
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you are having problems, please include screenshots and error messages from the console(s).
 
-Chrome Console Messages:
-
-. Click Menu.
+.Chrome Console Messages:
+. Click *Menu*.
 +
 image::images/intro/browser1.png[]
 +
@@ -165,4 +187,16 @@ image::images/intro/browser1.png[]
 . Select the Console tab.
 . Change the “Default” dropdown to be sure that Verbose is checked.
 . Either take a screenshot or copy and paste the text that appears in the console when you see the errors occurring. Be sure to include any of the errors that display in red.
-.. See xref:support-guidelines[].
+
+.Hatch Extension Console Messages:
+. In Chrome, click *Menu*.
+. Select More Tools.
+. Select Extensions.
+. Check the box at the top of the screen that says Developer Mode.
+. Scroll down to Hatch Native Messenger.
+. Click on the link that says “background page.” (This will open a new window.)
+. Select the Console tab.
+. Change the “Default” dropdown to be sure that Verbose is checked.
+. Either take a screenshot or copy and paste the text that appears in the console when you see the errors occurring. Be sure to include any of the errors that display in red.
+
+NOTE: Please read xref:support-guidelines[] before submitting your ticket.
