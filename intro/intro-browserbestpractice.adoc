@@ -56,6 +56,7 @@ Browser Configuration
 Make sure your browser is up to date
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.Update browser
 . Click *Menu*.
 +
 image::images/intro/browser1.png[]
@@ -72,6 +73,7 @@ Your browser must allow pop-ups from *https://catalogue.libraries.coop* or you w
 
 image::images/intro/popup.png[]
 
+.Allow Pop-ups
 . Click *Menu*.
 +
 image::images/intro/browser1.png[]
@@ -91,6 +93,7 @@ image::images/intro/popupallow.png[]
 Allow Cookies
 ^^^^^^^^^^^^^
 
+.Allow Cookies
 . Click *Menu*.
 +
 image::images/intro/browser1.png[]
@@ -117,6 +120,7 @@ Troubleshooting
 Clear Cache
 ^^^^^^^^^^^
 
+.Clear Cache
 . Click *Menu*.
 +
 image::images/intro/browser1.png[]
@@ -137,6 +141,7 @@ If you log in and see a blank page with the green bar across the top (aka, the �
 
 CAUTION: Before you clear cookies, be aware that clearing cookies in Firefox will cause you to lose your registered workstations and local settings. This will also occur in Chrome unless you are using Hatch to store those settings.
 
+.Clear Cookies
 . Click *Menu*.
 +
 image::images/intro/browser1.png[]
@@ -151,6 +156,7 @@ image::images/intro/browser1.png[]
 
 If you have Hatch installed, use these directions to reconnect your browser to Hatch:
 
+.Reconnect your browser to Hatch
 . Log in with a Local System Administrator account.
 . Register workstation and click *Use Now* to log in again.
 . Navigate to *Administration* -> *Workstation* -> *Print/Storage Service (“Hatch”)*.
