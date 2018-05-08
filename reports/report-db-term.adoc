@@ -1,7 +1,132 @@
-
 Template Terminology: Data Types, Transforms, and Operators
 ------------------------------------------------------------
 
+Data Types
+~~~~~~~~~~
+
+The central column of the Database Source Browser lists Field Name and Data Type for the selected database 
+table.
+ 
+ 
+Data Type is associated with each field. It tells what kind of information is stored in the field. The system 
+handles the information differently based on the data type. Each data type has its own characteristics and 
+uses:
+
+[options="header"]
+|============= 
+|Data Type |Description    |Notes
+|Boolean    |Contains either “true” or “false”.    |Examples in Evergreen: “deleted” in item/patron record, “circulate?” in item record.
+|ID    |Unique number assigned by the database to identify a record    |IDs look like numbers, but the id data type is treated specially by the software for determining how tables are linked. Id is a good candidate field for counting records.
+|Integer    |A number like 1, 2, 3.    |Examples in Evergreen: "remaining renewal count" in circulation record, "claimed returned count" in patron record.
+|Interval    |Time intervals, such as “2 weeks” and “6 months”    |Examples in Evergreen: “loan duration” and "grace period" in circulation record,
+|Link    |It is similar to the id data type. It is the id of a record in another table.    |Examples in Evergreen: "user id" and "item id" in a circulation record. Link outputs a number that is a meaningful reference for the database but not of much use to a human user. You will usually want to drill further down the tree in the Sources pane and select fields from the linked table. However, in some instances you might want to use a link field. For example, to count the number of patrons who borrowed items you could do a count on the "user id" in the circulation record.
+|Money    |Monetary amount    |Examples in Evergreen: "price" in item record, "billing amount" in billing record.
+|Org_unit    |Organizational unit. It is a number. It acts like link data type.    |In Evergreen, libraries are organizational units. In Sitka context they are organized into a tree structure with consortium, library federations, libraries/library systems and branches for library systems. To filter on a library, make sure you choose the field having org_unit data type. To display a library, it is a better option to drill down to the org unit record to display the "name" of it.
+|Text    |Text field. Usually it takes whatever is typed into the field.    |Examples: "call number label" in call number record, "patron’s names".
+|Timestamp    |A very detailed time such as 2007-11-25 17:54:26-07    |Example: checkout time in circulation record, last status date in item record.
+|=============
+
+Field Transforms
+~~~~~~~~~~~~~~~~
+
+Transforms determine how data is processed when it is retrieved from the database. Different data types can 
+be transformed differently. Not all transforms are available to a certain data type.
+ 
+ 
+Raw Data.  To display the data exactly as it is stored in the database. It is available to all data types.
+ 
+Date.  This transform presents a timestamp as a human-readable date in yyyy-mm-dd format. For example, 
+timestamp 2007-11-25 17:54:26-07 will be displayed as 2007-11-25. Date is available to timestamp field.
+ 
+Year + Month.  Presents a timestamp as the year and month in yyyy-mm format. For example, 2007-11-25 
+17:54:26-07 will be displayed as 2007-11. If filtering on a timestamp transformed to Year + Month, all 
+days in the calendar month are included. It is available to timestamp field.
+ 
+Upper Case/Lower Case.  Transforms text to all upper/lower case. They are only available for the text data 
+type.
+ 
+Substring.  This transform can be applied to filters, not display fields. It matches the given value with a 
+continuous string of characters in the field. For example, if a given value is “123’ and the match is with a 
+call number field, call numbers like ‘123.34’, ‘ANF 123.34’, ‘JNF 233.123’, etc. will be in the result list. 
+Substring is only available to text data type.
+ 
+First Continuous Non-space string.  The first word (or string of numbers and/or characters until the first 
+spacing) in a field is returned by this transform. For example, this transform will return “E” from text 
+“E DOR”, “E 123”, etc. This transform is available to the text data type.
+ 
+Count.  This transform counts the records found. Though you can count by any field, very often id field is 
+used. Count is available to text, integer, id, money, and timestamp.
+ 
+Count Distinct.  This transform counts the number of records with unique value in the field. If two records 
+have the same value in the field, they will be counted once only. A typical example of using Count Distinct 
+is counting the number of active patrons who borrowed items at a library. Each patron can be counted once 
+only but he/she may borrow multiple items. Transforming the patron id in circulation record with Count 
+Distinct will result in the required number. Since each patron has a unique id, she/her will be counted once 
+only. Count Distinct is available to text, integer, id, money, and timestamp.
+ 
+Max. It compares the values in the field of all result records and then returns the one record with the 
+highest value. Max is available to text, integer, money, and timestamp. For timestamp the highest value means 
+the latest date. For example, if a checkout date is transformed by Max, the returned date is the last checkout 
+date.
+ 
+Min. It works the same way as Max except that it returns the lowest value. Min is available to text, integer, 
+money, and timestamp.
+ 
+Output Type
+~~~~~~~~~~~
+
+Note that each transform has either an Aggregate or Non-Aggregate output type.
+ 
+ 
+Whether an output is Non-Aggregate or Aggregate depends on whether the output value relies on a single record 
+or several records. It is Non-Aggregate if the result is strictly from a single record, while it is Aggregate 
+if it is from several records. For example, the value of Count transform of circulation id will increase by 1 
+whenever a record is found. So the output is Aggregate. The output of Max transform of checkout date is 
+technically not aggregated, but there may be several records involved before the highest value is determined.
+ 
+When used as filters, non-aggregate and aggregate types correspond to Base and Aggregate filters respectively. 
+To see the difference between a base filter and an aggregate filter, imagine that you are creating a report to 
+find out the popular items that were circulated more than 3 times last month. This would require a base filter 
+to specify the month of interest and an aggregate filter on the count of circulation record on each item.
+ 
+Operators
+~~~~~~~~~
+
+Operators describe how two pieces of data can be compared to each other. They are used when creating filters 
+in a template to determine which records should be included in the result. The record is included when the 
+comparation returns "TRUE". The possible ways of comparing data are related to data type and data transforms. 
+Below are some commonly used operators.
+ 
+Equals.  Compares two operands and returns TRUE if they are exactly the same.
+ 
+In List.  It is similar to Equals, except it allows you specify multiple parameters and returns "TRUE" if the 
+field is equal to any one of the given values.
+ 
+Not In List .  It is the opposite of In List. Multiple parameters can be specified. TRUE will be returned only 
+when none of the parameters is matched with the value in the field.
+ 
+Greater Than.  This operator returns TRUE if a field is greater than your parameter. For text fields, the 
+string is compared character by character in accordance with the general rule that numerical characters are 
+smaller than alphabetical characters and upper case alphabeticals are smaller than lower case alphabeticals; 
+for timestamps “Greater Than” can be thought of as “later than” or "after".
+ 
+Less Than.  This operator returns TRUE if a field is less than, lower than, earlier than or smaller than your 
+parameter.
+ 
+Between.  Two parameters are required by this operator. TRUE is returned when the field value is Greater Than 
+or Equal to the smaller given value and Less Than or Equal to the bigger given value. The smaller parameter 
+should always comes first when filling in a filter with this operator. For example: between 3 and 5 is 
+correct. Between 5 and 3 will return FALSE on the Reports interface. For timestamp earlier date always comes 
+first.
+ 
+Is NULL or Blank.  Returns TRUE for fields that contain no data or blank string. For most intents and purposes 
+this operator should be used when there is no visible value in the field.
+ 
+Contains Matching Substring.  This operator checks if any part of the field matches the given parameter. It is 
+case-sensitive.
+ 
+Contains Matching Substring (Ignore Case).  This operator is identical to Contains Matching Substring, except 
+it is not case-sensitive.
 
 
 

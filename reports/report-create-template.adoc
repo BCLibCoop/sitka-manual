@@ -1,6 +1,186 @@
 Creating Templates
 ------------------
 
+Once the folders are ready, you can create or clone a template. Templates allow you to run a report more than 
+once, without building it anew every time by changing definitions (such as values for the filters) to suit 
+current requirements. For example, a template counting patrons with a registration date within a time frame 
+can be used to find out the number of patrons registered within the last month or the last ten days. Another 
+example is a shared template that reports on circulation statistics at a given library. This can be used by 
+other libraries by selecting their own library as the circulating library when they run the report.
+ 
+Creating a template is complex. It requires some understanding of the Evergreen database and how Evergreen 
+handles various records when performing tasks on the staff client. You may refer to the last section of this 
+chapter for some background knowledge. Bear in mind, that a template includes a list of displayed fields, 
+the information you will see in the result, and a list of filter fields which enables you to set up the 
+conditions for your target records. Generally you do not record your conditions in the template. For example, 
+in an overdue template, you do not record 2012-01-01 as the due date. Instead, you just make the Due Date 
+field in the circulation record as a filter field. When setting up the report with this template, you will 
+be given the chance to put in 2012-01-01 as the due date.
+ 
+It can be useful to plan out your report on paper before getting started with the reporting tool. The first 
+thing to decide is the source table. You can choose only one starting source table for each template. If 
+you need information from other tables, follow the link in the source table to those tables. Grouping together 
+related fields and identifying the key fields will help you select the correct source.
+ 
+We will take a report on circulation statistics as an example to show you how to create the template. In 
+circulation statistic reports, libraries usually want to know how many circulations were done within a 
+selected time period. When an item is checked out on the staff client, a record is created in the circulation 
+table. You want a count of the number of circulation records created within the time period. So, the 
+Circulation table is likely the source with which you want to start.
+ 
+You may wish to break down the number of circulations by items' shelving locations to see the circulations by 
+different types of materials (or the patrons' profile groups). In this case, the count of circulation records 
+and the shelving location (or patron profile) are the potential displayed fields. For the filter fields, you 
+need to limit the circulations done within a time period, so checkout date should be a filter. You probably 
+want to count the circulations done at your library only as you are part of a consortium, or for all the 
+branches of your library system. (In such a case, you may want to see the checkout library in the result, 
+too.) So, the circulating library will be another filter.
+ 
+With the above analysis, we will build the template from scratch in the following section to demonstrate 
+the procedure on the template creating screen.
+ 
+
+Choosing Displayed Fields
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+. Click on the My Folder template folder where you want the template to be saved.
+. Click on *Create a new Template* for this folder.
+. You can now see the template creating interface. The upper half of the screen is the Database Source 
+Browser, where you view the available tables in the database, the fields in each table, and the available 
+transforms for the selected field. You select fields for your template here. The lower half is the Template 
+Configuration, which displays your selected Displayed Fields and Base Filters and/or Aggregate Filters in 
+the template.
+ 
+We will select the displayed fields for our template first. So make sure Displayed Fields is selected.
+ 
+The top left hand pane contains the database Sources drop-down list. This is the list of tables available 
+as a starting point for your template. Commonly used sources are Circulation (contains circulation records 
+that may be used for circulation statistics and overdue reports), ILS User (contains patron records that 
+may be used for patron reports), and Item (contains copy records that may be used for reports on collection 
+or items with special status).
+ 
+The Enable source nullability checkbox below the sources list is for specifying the join type between 
+linked source tables. In most cases, it should be left unchecked by default. See for how to use Enable 
+source nullability checkbox.
+ 
+The relationship between tables can be found by displaying Relationship field (using the Column Picker) 
+in the low Source Specifier pane.
+ 
+. Select Circulation in the Sources dropdown menu. Note that the Core Sources for reporting are listed first, 
+however it is possible to access all available sources at the bottom of this dropdown menu.
+ 
+CAUTION: One template can have only one starting source table. If you need information from other tables 
+you should follow the links made by the Reports interface to those tables. The reporting program can not 
+put two pieces of isolated information together into one record in the result. When you change a starting 
+table all your existing selected fields will be removed.
+ 
+. Click on Circulation to retrieve all the fields and links, which will be displayed in the middle pane. 
+The Field Name column contains the label of each field. The Data Type column shows what type of data is in 
+the field. For details of data type see Template Terminology. Note that the Source Specifier (above the 
+middle and right panes) shows the path that you took to get to the specific field.
+ 
+. When you select a field in the middle pane, the available data transforms of the selected field are 
+displayed in the right pane. Transforms specify how data should be processed before they are 
+displayed/compared. Refer to Template Terminology for details of Transforms for each data type.
+ 
+For our example template, select Circ ID in the middle Field Name pane, and Count Distinct from the 
+right Field Transform pane. You are counting the number of circulation records.
+ 
+. Click Add Selected Fields underneath the Field Transform pane to add this field to your report output. 
+Note that Circ ID now shows up in the bottom left hand pane under the Displayed Fields tab.
+ 
+. Circ ID will be the column header in the report output. You can rename default display names 
+to something more meaningful. To do so in this example, select the Circ ID row and click Alter 
+Display Header.
+ 
+Double-clicking on the displayed field name is a shortcut to altering the display header.
+ 
+. Type in the new column header name, for example Circ count and click OK.
+ 
+. Add other data to your report by going back to the Sources pane and selecting the desired fields. 
+In this example, we are going to add Circulating Item → Shelving Location to further refine the 
+circulation report.
+ 
+In the top left hand Sources pane, expand Circulation. Depending on your computer you will either click 
+on the + sign or on an arrow to expand the tree.
+ 
+. Click on the + or arrow to expand Circulating Item. Select Shelving Location.
+
+. In the Field Name pane select Name.
+ 
+. In the upper right Field Transform pane, select Raw Data and click Add Selected Fields. Use Raw Data when you do not wish to transform field data in any manner.
+ 
+. Name will appear in the bottom left pane. Select the Name row and click Alter Display Header.
+ 
+. Enter a new, more descriptive column header, for example, Shelving location. Click OK.
+ 
+. Note that the order of rows (top to bottom) will correspond to the order of columns (left to right) on the final report. The results will be sorted by the columns in this order, too. Select Shelving location and click on Move Up to move Shelving location before Circ count. The result will be sorted by Shelving Location first.
+ 
+. Return to the Sources pane to add more fields to your template. Under Sources click Circulation, then select Check Out Date/Time from the middle Field Name pane.
+ 
+. Select Year + Month in the right hand Field Transform pane and click Add Selected Fields
+ 
+. Check Out Date/Time will appear in the Displayed Fields pane. In the report it will appear as a year and month (YYYY-MM) corresponding to the selected transform.
+ 
+. Select the Check Out Date/Time row. Click Alter Display Header and change the column header to Check out month.
+ 
+. Move Check out month to the top of the list using the Move Up button, so that it will be the first column in an MS Excel spreadsheet. Now, the report output will sort by the checkout month first, then by shelving locations.
+ 
+TIP: Note the Change Transform button in the bottom left hand pane. It has the same function as the upper right Field Transform pane for fields that have already been added.
+ 
+Applying Filters
+~~~~~~~~~~~~~~~~
+
+Without filters, all records in the database will be in the result, which is seldom desired, especially 
+in Sitka's context where libraries share the same database. So some filters should be applied to keep 
+out the unwanted records.
+ 
+The following procedure shows how to add filters to the example template:
+ 
+. Select the Base Filters tab in the bottom Template Configuration pane.
+. For this circulation statistics example, select Circulation → Check Out Date/Time → Year + Month and 
+click on Add Selected Fields. You are going to filter on the checkout month.
+. Select Check Out Date/Time. Click on Change Operator and select In list from the dropdown menu. This 
+operator allows you to count circulations done within each month for several months by just one report.
+. To filter on the location of the circulation select Circulation → Circulating library → Raw Data and 
+click on Add Selected Fields.
+. Select Circulating Library and click on Change Operator and select Equals. Note that this is a template, 
+so the value for Equals will be filled out when you run the report.
+
+For multi-branch libraries, you would select Circulating Library with In list as the operator, so you could 
+specify multiple branch(es) when you run the report.
+ 
+Refer to Template Terminology for details of Transforms and Operators, and Aggregate and Non-aggregate filters.
+ 
+. You may add a hint to the filter, e.g. explaining the function of the filter, what value is expected when 
+setting up the report, etc. Select the filter and click Change Field Hint.
+ 
+In the above example, we added some instruction on how to fill up the filter when setting up the report. 
+The hint will show up on the report creation screen. Below is how it looks like on the report creation screen.
+ 
+. Once you have configured your template, you must name and save it. Name this template Circulations by month for one library. You can also add a description. In this example, the title is descriptive enough, so a description is not necessary. Click Save.
+. Click OK.
+. You will get a confirmation dialogue box that the template was successfully saved. Click OK.
+
+TIP: The bottom right hand pane is also a source specifier. By selecting one of these rows you will limit 
+the fields that are visible to the sources you have specified. This may help to find out the source of the 
+fields, e.g. a circulating library is from the circulation table or item table. Use Ctrl+Click to select or 
+deselect items.
+ 
+Once a template is saved, it can not be edited anymore. To make changes you will need to clone it and edit 
+the clone. This will ensure that the work you have done will not be lost. As mentioned before, creating a 
+template is complex. The first try seldom gets the perfect result. Your subsequent changes may not always 
+improve the result. You may need to refer back to your old version. Make changes step-by-step. Check the 
+correctness of the result on each step. This may help you to find out the exact cause of the issue. After 
+you have the desired template, you may delete all the interim ones.
+ 
+The above paragraphs described how to create a template from scratch with a very simple example. You may 
+choose instead to use one of the generic templates created by the Sitka team to meet common reporting needs 
+(see Chapter 33, Shared Templates in SITKA_templates). However, knowing how a template is created will help 
+you understand the report structure and is recommended as an introduction to editing template fields and 
+filters.
+ 
+
 
 
 

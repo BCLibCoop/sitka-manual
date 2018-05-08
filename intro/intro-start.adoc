@@ -72,7 +72,7 @@ image::images/intro/changeop1.png[]
 +
 image::images/intro/changeop2.png[]
 +
-. Click *Ok/Continue*
+. Click *OK/Continue*
 
 Column Configuration
 ~~~~~~~~~~~~~~~~~~~~
@@ -114,6 +114,8 @@ Enable Hatch in Evergreen
 . Click *Copy Local Storage Settings To Hatch*.
 
 . Log out. Preferences will now be stored in Hatch. This will enable you to clear your browser settings and not lose your staff preferences .
+
+see xref:hatch-troubleshooting[] if you are having issues with Hatch.
 
 [[set-search-pref]]
 Set Search Preferences

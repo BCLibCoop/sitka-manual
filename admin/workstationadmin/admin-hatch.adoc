@@ -1,1 +1,51 @@
 Hatch
+~~~~~
+
+Hatch is an optional installable program that works with your browser to manage complex printing needs (such as printing to different printers under different circumstances) and store local settings (such as column configurations and custom print templates).
+
+
+[[hatch-troubleshooting]]
+Troubleshooting
+^^^^^^^^^^^^^^^
+
+Operating System
+++++++++++++++++
+
+Hatch will only work with Windows 7, 8, and 10 at this time. If you are going to submit a Help Desk ticket, include the version in your ticket, as well as whether it is 32 or 64-bit. You can find this by:
+
+. Click on the Windows Start button.
+. Right-click on Computer.
+. Click on Properties.
+
+Java
+++++
+
+Verify that the Java Runtime Environment (JRE) is up to date (version 8 update 161 or higher). If you are unsure which version you have, view your computer's list of programs or simply download and install the latest version from:
+
+https://www.java.com/en/download/help/windows_manual_download.xml
+
+You can also check to be sure that your operating system is able to find the path to Java:
+
+. Open up a command window (Start Menu, type in cmd).
+. Type in: java -version
+. You should see the Java version number listed. If there is a problem, you will see an error message.
+
+Hatch Program
++++++++++++++
+
+Verify that you are running the correct version of Hatch (0.1.5). You can see this from your computer's list of programs (Control Panel > Uninstall or change a program).
+
+Hatch Extension
++++++++++++++++
+
+Verify that you are running the correct version of the Hatch Chrome Extension (0.1.5).
+
+. Click Menu.
++
+image::images/intro/browser1.png[]
++
+. Click *More Tools*.
+. Click *Extensions.
+. Scroll down to Hatch Native Messenger.
+. Verify that it is version 0.1.5 and Enabled.
+. When the Hatch Extension is installed and enabled, a small yellow icon should appear in the top-right corner of the browser:
