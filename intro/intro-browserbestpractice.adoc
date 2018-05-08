@@ -56,29 +56,28 @@ Browser Configuration
 Make sure your browser is up to date
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Go to Menu (3 vertical dots in upper-right corner of browser window).
-. Select Help.
-. Select About Google Chrome.
+. Click on the menu icon (3 vertical dots in upper-right corner of browser window).
+. Click *Help*.
+. Click *About Google Chrome*.
 . You should see a message saying “Google Chrome is up to date.”
 
 [[allow-popups]]
 Allow Pop-ups
 ^^^^^^^^^^^^^
 
-Your browser must allow pop-ups from *https://catalogue.libraries.coop*. You should see a small icon or message when a pop-up is triggered, but if you do not, you may follow these steps to ensure that Popups are allowed.
+Your browser must allow pop-ups from *https://catalogue.libraries.coop* or you will see a small icon or message when a pop-up is triggered.
 
 image::images/intro/popup.png[]
 
-.Allow Pop-ups In Chrome
 . Click on the menu icon (three vertical dots in the upper-right corner).
-. Select Settings.
+. Click *Settings*.
 . Scroll to the bottom and click *Advanced*.
 +
 image::images/intro/browser2.png[]
 +
 . Under *Privacy and Security* click *Content settings*.
-. Click on pop-ups.
-. Click the Add button next to Allow.
+. Click *Pop-ups*.
+. Click *Add*.
 . Type in *https://catalogue.libraries.coop* and click Add.
 +
 image::images/intro/popupallow.png[]
@@ -87,15 +86,15 @@ Allow Cookies
 ^^^^^^^^^^^^^
 
 . Click on the menu icon (three vertical dots in the upper-right corner).
-. Select Settings.
+. Click *Settings*.
 . Scroll down to the bottom and click *Advanced*.
 . Under *Privacy and Security* click *Content settings*.
 . Click *Cookies*.
 . “Allow sites to save and read cookie data” should be on.
 . “Keep local data only until you quit your browser” should be off.
-. Click *ADD* next to Allow.
+. Click *Add*.
 . Type in: catalogue.libraries.coop
-. Click Enter.
+. Click *Enter*.
 
 Troubleshooting
 ~~~~~~~~~~~~~~~
