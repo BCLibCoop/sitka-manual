@@ -103,7 +103,7 @@ Pattern Wizard
 .. Select the specific point in time at which the first level of enumeration should change.
 . Click *Next*
 
-image:images/serials/predictionpattern1.png[]
+image:images/serials/pattern1.png[]
 
 .*Chronology display*
 . Check the box adjacent to *Use Chronology Captions?*
@@ -115,7 +115,7 @@ image:images/serials/predictionpattern1.png[]
 . Check the box adjacent to Use Alternative Chronology Captions? If the publication uses alternative chronology.
 .. Click *Next*
 
-image:images/serials/predictionpattern2.png[]
+image:images/serials/pattern2.png[]
 
 .*MFHD Indicators*
 . Choose a *Compression Display Option*
@@ -126,7 +126,7 @@ image:images/serials/predictionpattern2.png[]
 .. Sitka recommends *Captions verified; all levels present*
 .. Click *Next*
 
-image:images/serials/predictionpattern3.png[]
+image:images/serials/pattern3.png[]
 
 .*Frequency and Regularity*
 . Click the radio button for *Pre-selected* and choose the frequency from the drop down menu.
@@ -138,14 +138,14 @@ image:images/serials/predictionpattern3.png[]
 .. For a Combined issue, enter the relevant combined issue code. E.g., for a monthly combined issue, enter 02/03 to specify that February and March are combined.
 . Click *Next*
 
-image:images/serials/predictionpattern4.png[]
+image:images/serials/pattern4.png[]
 
 .*Review*
 . Click the blue arrows to see the *Raw Pattern Code*
 . Review the *Pattern Summary*
 . Click *Save*
 
-image:images/serials/predictionpattern5.png[]
+image:images/serials/pattern5.png[]
 
 Edit a Prediction Pattern Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
