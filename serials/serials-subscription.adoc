@@ -10,9 +10,7 @@ image:images/serials/subscription1.PNG[]
 Create and Manage Subscriptions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A subscription is designed to hold all information related to a single serial title. Therefore, each library is likely to have only one subscription per serial title.
-
-A subscription must be added to a bibliographic record. If the record is not already in the catalogue, you can import it via any of your preferred methods (MARC import, Z39.50 search, etc.)
+A subscription must be added to a bibliographic record. If the record is not already in the catalogue, you can import it via any of your preferred methods (MARC import, Z39.50 search, etc.). A subscription is designed to hold all information related to a single serial title. Therefore, each library is likely to have only one subscription per serial title.
 
 . Retrieve the bibliographic record you would like to attach your subscription to.
 . Click *Serials* -> Choose *Manage Subscriptions*.
@@ -66,13 +64,13 @@ image:images/serials/subscription5.PNG[]
 +
 image:images/serials/subscription6.PNG[]
 +
-.. Note: you can also predict new issues from the _Manage Issues_ tab.
-. A dialog box called _Predict New Issues: Initial Values_ will appear.
-.. Select the _Publication date_ for the subscription.  This will be publication date of the first issue you expect to receive.
-.. The _Type_ will correspond to the type of prediction pattern selected.
-.. Enter any _Enumeration labels_ for the first expected issue.
-.. Enter any _Chronology labels_ for the first expected issue.
-.. Enter the _Prediction count_.  This is the number of issues that you want to predict.
+.. Note: you can also predict new issues from the *Manage Issues* tab.
+. A dialog box called *Predict New Issues: Initial Values* will appear.
+.. Select the *Publication date* for the subscription.  This will be publication date of the first issue you expect to receive.
+.. The *Type* will correspond to the type of prediction pattern selected.
+.. Enter any *Enumeration labels* for the first expected issue.
+.. Enter any *Chronology labels* for the first expected issue.
+.. Enter the *Prediction count*.  This is the number of issues that you want to predict.
 . Click *Save*.
 +
 image:images/serials/predictissue1.PNG[]
@@ -85,21 +83,24 @@ image:images/serials/predictissue2.PNG[]
 Predict Issues Using a Prediction Pattern Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Within the _Manage Predictions_ tab, *Select Subscription* to work on from the drop down menu.
-. _Select a template_ from the drop down menu beside *Create from Template*.
+. Within the *Manage Predictions* tab, *Select Subscription* to work on from the drop down menu.
+. Select a template from the drop down menu beside *Create from Template*.
++
+image:images/serials/subscription7.PNG[]
++
 . Click *Create from Template*.
 . If you want to use the pattern "as is" click *Create*.
 .. If you want to review or modify the pattern, click *Edit Pattern*.  The Pattern Wizard will appear.
 .. The Pattern Wizard will be pre-populated with the pattern template selected.
 .. After modifying or reviewing the pattern in the wizard, click *Create*.  The prediction pattern will now appear under Existing Prediction Patterns.
 . To create predictions, click *Predict New Issues*.
-.. Note: you can also predict new issues from the _Manage Issues_ tab.
-. A dialog box called _Predict New Issues: Initial Values_ will appear.
-.. Select the _Publication date_ for the subscription.  This will be publication date of the first issue you expect to receive.
-.. The _Type_ will correspond to the type of prediction pattern selected.
-.. Enter any _Enumeration labels_ for the first expected issue.
-.. Enter any _Chronology labels_ for the first expected issue.
-.. Enter the _Prediction count_.  This is the number of issues that you want to predict.
+.. Note: you can also predict new issues from the *Manage Issues* tab.
+. A dialog box called *Predict New Issues: Initial Values* will appear.
+.. Select the *Publication date* for the subscription.  This will be publication date of the first issue you expect to receive.
+.. The *Type* will correspond to the type of prediction pattern selected.
+.. Enter any *Enumeration labels* for the first expected issue.
+.. Enter any *Chronology labels* for the first expected issue.
+.. Enter the *Prediction count*.  This is the number of issues that you want to predict.
 . Click *Save*.
 . Evergreen will generate the predictions and bring you to the _Manage Issues_ tab to review the predicted issues.
 
