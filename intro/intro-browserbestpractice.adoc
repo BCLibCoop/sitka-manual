@@ -149,14 +149,23 @@ image::images/intro/browser1.png[]
 . Use the trashcan icon to remove the cookies for catalogue.libraries.coop
 . Return to https://catalogue.libraries.coop/eg/staff
 
+If you have Hatch installed, use these directions to reconnect your browser to Hatch:
+
+. Log in with a Local System Administrator account.
+. Register workstation and click *Use Now* to log in again.
+. Navigate to *Administration* -> *Workstation* -> *Print/Storage Service (“Hatch”)*.
+. Check all three boxes.
+. Click on the Home icon.
+. You will be returned to the workstation registration screen again - click *Use Now* to log in again.
+. Your local settings should now be restored.
+
 Retrieve Console Messages
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you are having problems, please include screenshots and error messages from the console(s).
 
-Chrome Console Messages:
-
-. Click Menu.
+.Chrome Console Messages:
+. Click *Menu*.
 +
 image::images/intro/browser1.png[]
 +
@@ -165,4 +174,16 @@ image::images/intro/browser1.png[]
 . Select the Console tab.
 . Change the “Default” dropdown to be sure that Verbose is checked.
 . Either take a screenshot or copy and paste the text that appears in the console when you see the errors occurring. Be sure to include any of the errors that display in red.
-.. See xref:support-guidelines[].
+
+.Hatch Extension Console Messages:
+. In Chrome, click *Menu*.
+. Select More Tools.
+. Select Extensions.
+. Check the box at the top of the screen that says Developer Mode.
+. Scroll down to Hatch Native Messenger.
+. Click on the link that says “background page.” (This will open a new window.)
+. Select the Console tab.
+. Change the “Default” dropdown to be sure that Verbose is checked.
+. Either take a screenshot or copy and paste the text that appears in the console when you see the errors occurring. Be sure to include any of the errors that display in red.
+
+NOTE: Please read xref:support-guidelines[] before submitting your ticket.
