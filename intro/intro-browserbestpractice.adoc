@@ -7,11 +7,11 @@ Setting Browser Defaults for Web Client
 To ensure that staff can easily get to the web client portal page on login without additional steps, you can set the browser’s home page to default to the web client.
 
 .Setting the Web Client as the Home Page in Chrome
-. Click on the menu icon (three vertical dots in the upper-right corner).
+. Click *Menu*. (three vertical dots in the upper-right corner).
 +
 image::images/intro/browser1.png[]
 +
-. Select Settings.
+. Click *Settings*.
 . In the _On startup_ section, select Open a specific page or set of pages.
 +
 image::images/intro/homepage1.png[]
@@ -56,7 +56,10 @@ Browser Configuration
 Make sure your browser is up to date
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Click on the menu icon (3 vertical dots in upper-right corner of browser window).
+. Click *Menu*.
++
+image::images/intro/browser1.png[]
++
 . Click *Help*.
 . Click *About Google Chrome*.
 . You should see a message saying “Google Chrome is up to date.”
@@ -69,7 +72,10 @@ Your browser must allow pop-ups from *https://catalogue.libraries.coop* or you w
 
 image::images/intro/popup.png[]
 
-. Click on the menu icon (three vertical dots in the upper-right corner).
+. Click *Menu*.
++
+image::images/intro/browser1.png[]
++
 . Click *Settings*.
 . Scroll to the bottom and click *Advanced*.
 +
@@ -85,7 +91,10 @@ image::images/intro/popupallow.png[]
 Allow Cookies
 ^^^^^^^^^^^^^
 
-. Click on the menu icon (three vertical dots in the upper-right corner).
+. Click *Menu*.
++
+image::images/intro/browser1.png[]
++
 . Click *Settings*.
 . Scroll down to the bottom and click *Advanced*.
 . Under *Privacy and Security* click *Content settings*.
@@ -96,24 +105,61 @@ Allow Cookies
 . Type in: catalogue.libraries.coop
 . Click *Enter*.
 
+Security Software and Cookies
++++++++++++++++++++++++++++++
+
+If you have cookies enabled in your browser, but they are disappearing, check your computer's security or antivirus software to see if it may be deleting your cookies on a regular basis.
+
+
 Troubleshooting
 ~~~~~~~~~~~~~~~
 
 Clear Cache
 ^^^^^^^^^^^
 
+. Click *Menu*.
++
+image::images/intro/browser1.png[]
++
+. Click *History*.
+. Click *History (on flyout menu).
+. Click *Clear Browsing Data*.
+. Set Time Range
+.. 1 hour
+.. all time
+. Check the box next to _Cached images and files_ (other boxes can be left unchecked).
+. Click *Clear Data*.
+
 Clear Cookies
 ^^^^^^^^^^^^^
 
 If you log in and see a blank page with the green bar across the top (aka, the “white screen of death”), but nothing else will load, you may need to clear your browser's cache and cookies.
 
+CAUTION: Before you clear cookies, be aware that clearing cookies in Firefox will cause you to lose your registered workstations and local settings. This will also occur in Chrome unless you are using Hatch to store those settings.
+
+. Click *Menu*.
++
+image::images/intro/browser1.png[]
++
+. Click *History*.
+. Click Clear Browsing Data.
+. Check the box next to “Cached images and files.”
+. Click the Clear Data button.
+. Enter this address in your address bar: chrome://settings/siteData
+. Use the trashcan icon to remove the cookies for catalogue.libraries.coop
+. Return to https://catalogue.libraries.coop/eg/staff
+
 Retrieve Console Messages
 ^^^^^^^^^^^^^^^^^^^^^^^^^
+
 If you are having problems, please include screenshots and error messages from the console(s).
 
 Chrome Console Messages:
 
-. Go to Menu.
+. Click Menu.
++
+image::images/intro/browser1.png[]
++
 . Select More Tools.
 . Select Developer Tools. (This will open a pane on the right-side of your browser.)
 . Select the Console tab.
