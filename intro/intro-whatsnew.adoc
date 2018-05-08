@@ -36,6 +36,11 @@ Display day-granular due dates in the circulating library's timezone, which mean
 
 A whole day (or days) of the client time is (are) marked closed when using marking a single or multiple dates closed on Closed Dates Editor. Libraries in non-Pacific Time Zone do not need to adjust time to server time zone. Time portion is no longer displayed for such closed dates.
 
+Scope Holds by Pickup Library on View Holds
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Staff can choose to view holds pickecd up at all branches of a library system, or all libraries in a federation. Previously staff could only choose to view holds picked up at a selected library/branch or all Sitka libraries.
+
 Option to Suspend Holds at the Time They are Placed
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -80,6 +85,15 @@ Now you can include the patron birth year and/or birth month and/or birth day wh
 
 Day and month values are exact matches. E.g. month "1" (or "01") matches January, "12" matches December. Year searches are "contains" searches. E.g. year "15" matches 2015, 1915, 1599, etc. For exact matches use the full 4-digit year.
 
+Copy Alerts and Suppression of Copy Alerts
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Copy alerts can be added via the volume/copy creator and the check in, check out, and renew pages. Copy alerts can also be managed at the item status page.
+
+Copy Alerts types are added to allow library staff to add alerts appearing when a specific event takes place, such as when the copy is checked in, checked out, or renewed.
+
+Libraries may choose to suppress certain types of copy alerts via the Copy Alert Suppression page under Local Administration.
+
 
 New Patron Billing Statement
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -107,22 +121,11 @@ Search Term Highlighting
 
 Evergreen now highlights search terms on the public catalog's main search results page, the record detail page, and intermediate pages such as metarecord grouped results page. Highlighting search terms will help the user determine why a particular record (or set of records) was retrieved.
 
-Copy Alerts and Suppression of Copy Alerts
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Copy alerts can be added via the volume/copy creator and the check in, check out, and renew pages. Copy alerts can also be managed at the item status page.
-
-Copy Alerts types are added to allow library staff to add alerts appearing when a specific event takes place, such as when the copy is checked in, checked out, or renewed.
-
-Libraries may choose to suppress certain types of copy alerts via the Copy Alert Suppression page under Local Administration.
-
 
 Clickable Copy Locations
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 Adds a URL field to the copy locations editor. When a URL is entered in this field, the associated copy location will display as a link in the public catalogue summary display. This link can be useful for retrieving maps or other directions to the copy location to aid users in finding material.
-
-
 
 
 Multilingual Search
