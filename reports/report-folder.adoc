@@ -1,9 +1,22 @@
 Folders
 -------
 
-There are three main components used on the Reports screen: Templates, Reports, and Output. Each of these components must be stored in a folder. Folders can be private (accessible to your login only) or shared with other staff at your library, other libraries in your federation, or with the whole Sitka Consortium. It is also possible to selectively share only certain folders and/or subfolders.
-A shared subfolder must be created in a shared folder. The sharing scope of the subfolder should be within the sharing scope of the parent folder. For example, a subfolder shared with Sitka Consortium should only be in a parent folder shared with Sitka. It should not be in a folder shared with your library only. Though creating shared subfolders in unshared folders or a subfolder with the sharing scope exceeding its parent's is not blocked by Evergreen, serious consequences will be caused by such folders. You must be cautious when creating shared subfolders.
-There are two parts in the folders pane. The My Folders section contains folders created with your Evergreen account. Folders that other users have shared with you appear in the Shared Folders section under the username of the sharing account. You can only view the contents or clone the templates in the shared folders, but not make any change in the shared folders. The cloned template can only be saved into your own folder.
+There are three main components used on the Reports screen: Templates, Reports, and Output. Each of these components 
+must be stored in a folder. Folders can be private (accessible to your login only) or shared with other staff at 
+your library, other libraries in your federation, or with the whole Sitka Consortium. It is also possible to 
+selectively share only certain folders and/or subfolders.
+
+CAUTION: A shared subfolder must be created in a shared folder. The sharing scope of the subfolder should be 
+within the sharing scope of the parent folder. For example, a subfolder shared with Sitka Consortium should only be 
+in a parent folder shared with Sitka. It should not be in a folder shared with your library only. Though creating 
+shared subfolders in unshared folders or a subfolder with the sharing scope exceeding its parent's is not blocked 
+by Evergreen, serious consequences will be caused by such folders. You must be cautious when creating shared 
+subfolders.
+
+There are two parts in the folders pane. The My Folders section contains folders created with your Evergreen 
+account. Folders that other users have shared with you appear in the Shared Folders section under the username 
+of the sharing account. You can only view the contents or clone the templates in the shared folders, but not make 
+any change in the shared folders. The cloned template can only be saved into your own folder.
  
 Creating Folders
 ~~~~~~~~~~~~~~~~

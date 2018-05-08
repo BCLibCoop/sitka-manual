@@ -41,12 +41,15 @@ report, e.g. the recurrence interval, generation date, email address to receive 
 format/folder or even filter values (such as the number of days overdue). You may do it by editing the report. 
 See Viewing/Editing/Rescheduling Reports for details.
  
-TIP: * Report running interval should correspond to the date filter. For example, if the template filters 
+[TIP] 
+=====
+* Report running interval should correspond to the date filter. For example, if the template filters 
 on a date instead of month, a recurring report running with a monthly interval may miss a day or capture 
 an extra day's data. So it works better if the filter can be transformed to month.
 * Schedule your monthly report to run early next month, but not at the end of the current month.
 * Once you have been on Evergreen for a year, you can set up your recurring monthly reports to show comparative 
 data from one year ago. To do this select relative dates of 1 month ago and 13 months ago.
+=====
  
 
 

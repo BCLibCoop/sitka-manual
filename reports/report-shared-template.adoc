@@ -144,12 +144,15 @@ Remove Selected Field. You may move a field up or down the list, which will affe
 result records. You may also change the column label or the transform of the field by using respective 
 buttons. See Field Transforms section for more information.
  
-TIP: Removing displayed fields usually does not affect the result set. But sometimes it does, esp. when the 
+[TIP]
+=====
+* Removing displayed fields usually does not affect the result set. But sometimes it does, esp. when the 
 report displays the count of records by each group. Sometimes some fields may contain important information. 
 Removing them may cause misunderstanding the results. Usually such fields are explained in the template 
 Description. Be cautious when you delete such fields.
-If you are not clear where a displayed field is from, you may use the Source Browser to the right to display 
+* If you are not clear where a displayed field is from, you may use the Source Browser to the right to display 
 fields from the selected table only.
+=====
  
 To add a displayed field, go to the Sources to open the source table to find the field or follow the links 
 to the appropriate table which contains the field you want to display. Click the text in the Sources to 
