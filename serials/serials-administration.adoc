@@ -24,10 +24,9 @@ image::images/serials/copytemplate.png[]
 +
 . Enter a _Template Name_.
 . Choose the item attributes for this template.
+. Click *Save*.
 +
 image::images/serials/copytemplate1.png[]
-+
-. Click *Save*.
 
 Edit a Serial Copy Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -64,12 +63,20 @@ Create a Prediction Pattern Template
 image::images/serials/serialsadminprediction.png[]
 +
 . Click *New Record*.
++
+image::images/serials/prediction1.png[]
++
 . Enter a *Name*.
 . Click *Pattern Wizard*. The wizard has five tabs that will step you through creating a prediction pattern for your publication.
++
+image::images/serials/prediction2.png[]
++
 .. See xref:pattern-wizard[] for detailed instructions.
 . Choose the *Owning Library*.
 . Choose the *Share Depth*.
 . Click *Save*.
++
+image::images/serials/prediction3.png[]
 
 [[pattern-wizard]]
 Pattern Wizard
@@ -146,6 +153,8 @@ Edit a Prediction Pattern Template
 . Click *Administration* -> *Serials Administration* -> *Prediction Pattern Templates*.
 . Click the check box beside the template you want to edit.
 . Click *Actions* -> Choose _Edit Template_.
++
+image::images/serials/prediction6.png[]
 
 NOTE: Prediction Patterns can be edited after creation as long as all predicted issues have the status of "Expected". Once an issue is moved into a different status, the Prediction Pattern cannot be changed.
 
@@ -155,6 +164,8 @@ Delete a Prediction Pattern Template
 . Click *Administration* -> *Serials Administration* -> *Prediction Pattern Templates*.
 . Click the check box beside the template you want to delete.
 . Click *Actions* -> Choose _Delete Template_.
++
+image::images/serials/prediction7.png[]
 
 NOTE: Prediction Pattern Templates that are being used by subscriptions cannot be deleted.
 
