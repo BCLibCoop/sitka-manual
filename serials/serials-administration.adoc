@@ -15,6 +15,9 @@ Create a Serial Copy Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Click *Administration* -> *Serials Administration* -> *Serial Copy Templates*.
++
+image::images/serials/serialsadmincopytemp.png[]
++
 . Click *Create Template*.
 +
 image::images/serials/copytemplate.png[]
@@ -57,6 +60,9 @@ Create a Prediction Pattern Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Click *Administration* -> *Serials Administration* -> *Prediction Pattern Templates*.
++
+image::images/serials/serialsadminprediction.png[]
++
 . Click *New Record*.
 . Enter a *Name*.
 . Click *Pattern Wizard*. The wizard has five tabs that will step you through creating a prediction pattern for your publication.
@@ -161,7 +167,7 @@ The following settings should be configured in the Library Settings Editor befor
 
 |======================
 |Group|Setting|Description|Options|Notes
-|Serials|Default display grouping for serials distributions presented in the OPAC| | "enum" or "chron" | *enum* should display in the OPAC volume and number by month and year &nbsp *chron* will display in the OPAC by month  .
+|Serials|Default display grouping for serials distributions presented in the OPAC| | "enum" or "chron" | *enum* should display in the OPAC volume and number by month and year. *chron* will display in the OPAC by month  .
 |Serials|Previous Issuance Copy Location|When a serial issuance is received, copies (units) of the previous issuance will be automatically moved into the configured shelving location|   | use this setting to specify a default copy location for serials
 |OPAC| Use fully compressed serials holdings |    | "true" or "false" | *true* is recommended
 |======================
