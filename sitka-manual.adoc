@@ -25,7 +25,7 @@ include::intro/intro-support.adoc[Sitka's Evergreen Support]
 
 include::intro/intro-start.adoc[Getting Started]
 
-include::intro/browserbestpractice.adoc[Best Practice for Using the Browser]
+include::intro/intro-browserbestpractice.adoc[Best Practice for Using the Browser]
 
 Circulation
 ===========
