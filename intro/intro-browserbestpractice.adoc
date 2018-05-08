@@ -17,7 +17,8 @@ image::images/intro/browser1.png[]
 image::images/intro/homepage1.png[]
 +
 . Click *Add a new page*.
-. Add *https://catalogue.libraries.coop/eg/staff/* to the Enter URL box and click *Add*.
+. Site URL: *https://catalogue.libraries.coop/eg/staff/*.
+. Click *Add*.
 +
 image::images/intro/homepage2.png[]
 
@@ -63,7 +64,7 @@ image::images/intro/browser1.png[]
 +
 . Click *Help*.
 . Click *About Google Chrome*.
-. You should see a message saying “Google Chrome is up to date.”
+. You should see a message saying _Google Chrome is up to date._
 
 [[allow-popups]]
 Allow Pop-ups
@@ -83,10 +84,11 @@ image::images/intro/browser1.png[]
 +
 image::images/intro/browser2.png[]
 +
-. Under *Privacy and Security* click *Content settings*.
+. Under _Privacy and Security_ click *Content settings*.
 . Click *Pop-ups*.
 . Click *Add*.
-. Type in *https://catalogue.libraries.coop* and click Add.
+. Site: *https://catalogue.libraries.coop*.
+. Click *Add*.
 +
 image::images/intro/popupallow.png[]
 
@@ -100,13 +102,15 @@ image::images/intro/browser1.png[]
 +
 . Click *Settings*.
 . Scroll down to the bottom and click *Advanced*.
-. Under *Privacy and Security* click *Content settings*.
+. Under _Privacy and Security_ click *Content settings*.
 . Click *Cookies*.
-. “Allow sites to save and read cookie data” should be on.
-. “Keep local data only until you quit your browser” should be off.
+. _Allow sites to save and read cookie data_ should be on.
+. _Keep local data only until you quit your browser_ should be off.
 . Click *Add*.
-. Type in: catalogue.libraries.coop
-. Click *Enter*.
+. Site: https://catalogue.libraries.coop/eg/staff/
+. Click *Add*.
++
+image::images/intro/cookies.png[]
 
 Security Software and Cookies
 +++++++++++++++++++++++++++++
@@ -126,20 +130,21 @@ Clear Cache
 image::images/intro/browser1.png[]
 +
 . Click *History*.
-. Click *History (on flyout menu).
+. Click *History* (on flyout menu).
 . Click *Clear Browsing Data*.
 . Set Time Range
-.. 1 hour
-.. all time
+.. *All time*
 . Check the box next to _Cached images and files_ (other boxes can be left unchecked).
 . Click *Clear Data*.
++
+image::images/intro/clearcache.png[]
 
 Clear Cookies
 ^^^^^^^^^^^^^
 
 If you log in and see a blank page with the green bar across the top (aka, the “white screen of death”), but nothing else will load, you may need to clear your browser's cache and cookies.
 
-CAUTION: Before you clear cookies, be aware that clearing cookies in Firefox will cause you to lose your registered workstations and local settings. This will also occur in Chrome unless you are using Hatch to store those settings.
+CAUTION: Before you clear cookies, be aware that clearing cookies will cause you to lose your registered workstations and local settings unless you are using Hatch to store those settings.
 
 .Clear Cookies
 . Click *Menu*.
@@ -147,11 +152,13 @@ CAUTION: Before you clear cookies, be aware that clearing cookies in Firefox wil
 image::images/intro/browser1.png[]
 +
 . Click *History*.
-. Click Clear Browsing Data.
-. Check the box next to “Cached images and files.”
-. Click the Clear Data button.
-. Enter this address in your address bar: chrome://settings/siteData
-. Use the trashcan icon to remove the cookies for catalogue.libraries.coop
+. Click *History* (on flyout menu).
+. Click *Clear Browsing Data*.
+. Check the box next to _Cookies and other site data_.
+. Check the box next to _Cached images and files_.
+. Set Time Range
+.. *Last hour* (recommended)
+. Click *Clear Data*.
 . Return to https://catalogue.libraries.coop/eg/staff
 
 If you have Hatch installed, use these directions to reconnect your browser to Hatch:
