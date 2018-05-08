@@ -43,14 +43,22 @@ Two new columns indicating the number of circulation notifications generated for
 A new library setting, "Exclude Courtesy Notices from Patrons Itemsout Notices Count", is added to allow libraries to choose whether to exclude courtesey notice in these fields.
 
 
+Honor Timezone of the Acting Library
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Display day-granular due dates in the circulating library's timezone, which means libraries in non-Pacific Time Zone will see due date ending at 23:59PM.
+
+A whole day (or days) of the client time is (are) marked closed when using marking a single or multiple dates closed on Closed Dates Editor. Libraries in non-Pacific Time Zone do not need to adjust time to server time zone. Time portion is no longer displayed for such closed dates.
+
+
 New Patron Billing Statement
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 A patron billing statement, which summarizes a patron's bills, credits and payments, is added to Full Details screen. There are two tabs on the screen: Statement and Details.
 
 
-Enhanced Billing Timestamp Support
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Enhanced Billing Timestamp
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 More timestamps are added to billing records indicating the create date,  a fine period start and a fine period end.
 
@@ -64,10 +72,16 @@ There is a new library setting, Clear Hold When Other Patron Checks Out Item,  t
 Cataloguing
 ~~~~~~~~~~~
 
-Copy Alerts
-^^^^^^^^^^^^
+Copy Alerts and Suppression of Copy Alerts
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Copy alerts can be added via the volume/copy creator and the check in, check out, and renew pages. Copy alerts can also be managed at the item status page.
 
 Copy Alerts types are added to allow library staff to add alerts appearing when a specific event takes place, such as when the copy is checked in, checked out, or renewed.
+
+Libraries may choose to suppress certain types of copy alerts via the Copy Alert Suppression page under Local Administration.
+
+
 
 Clickable Copy Locations
 ^^^^^^^^^^^^^^^^^^^^^^^^
