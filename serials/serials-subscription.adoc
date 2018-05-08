@@ -90,6 +90,9 @@ image:images/serials/subscription7.png[]
 +
 . Click *Create from Template*.
 . If you want to use the pattern "as is" click *Create*.
++
+image:images/serials/subscription8.png[]
++
 .. If you want to review or modify the pattern, click *Edit Pattern*.  The Pattern Wizard will appear.
 .. The Pattern Wizard will be pre-populated with the pattern template selected.
 .. After modifying or reviewing the pattern in the wizard, click *Create*.  The prediction pattern will now appear under Existing Prediction Patterns.
@@ -104,6 +107,7 @@ image:images/serials/subscription7.png[]
 . Click *Save*.
 . Evergreen will generate the predictions and bring you to the _Manage Issues_ tab to review the predicted issues.
 
+////
 Predict Issues Using a Prediction Pattern from a Bibliographic and/or MFHD Record
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -125,6 +129,7 @@ Evergreen can also generate a prediction pattern from existing MFHD records atta
 .. Enter the _Prediction count_.  This is the number of issues that you want to predict.
 . Click *Save*.
 . Evergreen will generate the predictions and bring you to the _Manage Issues_ tab to review the predicted issues.
+////
 
 Create and Manage Issues
 ~~~~~~~~~~~~~~~~~~~~~~~~

@@ -54,10 +54,10 @@ Some users may want to automatically open the web client’s portal page in a ne
 Browser Configuration
 ~~~~~~~~~~~~~~~~~~~~~
 
-Make sure your browser is up to date
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Update browser
+^^^^^^^^^^^^^^
 
-.Update browser
+.Make sure your browser is up to date
 . Click *Menu*.
 +
 image::images/intro/browser1.png[]
@@ -77,7 +77,7 @@ image::images/intro/popup.png[]
 .Allow Pop-ups
 . Click *Menu*.
 +
-image::images/intro/browser1.png[]
+image::images/intro/browserpopup.png[]
 +
 . Click *Settings*.
 . Scroll to the bottom and click *Advanced*.
