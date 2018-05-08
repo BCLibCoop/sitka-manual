@@ -1,4 +1,43 @@
 Reports Overview
 -----------------
+ 
+Only users with reporting permissions (granted by Sitka Support on libraries' request) can access the Reports 
+module, but the output can be visible to all staff accounts. Any staff requesting reporting permissions 
+must sign and submit the Reporter Privacy Agreement 
+see https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/
 
+The Reports interface is accessed from *Adminstration* → *Reports*.
+ 
+ 
+Reports are owned by the account used to create them, though the owner can allow other people to view and copy 
+(template only) them if he/she shares them with other staff in the library, other libraries in the federation, 
+or the whole Sitka Consortium.
+Evergreen has very powerful reporting functionalities. It is possible to report on almost every field in every 
+table in the database. Connections between tables are pre-made on the Reports screen. Some views are also 
+provided to group together records meeting certain conditions. For details refer to Commonly used tables and 
+views in Evergreen Database.
+The ultimate goal of reporting is finding the records in the database which meet the requirements. Sometimes 
+the result records are processed to some extent before they are included in the output, such as counting and 
+displaying the count of the records found instead of showing the records themselves. The requirements include 
+two parts: the conditions used to extract the records and the information to be displayed in the result file.
+Evergreen is designed to achieve the above goal by creating a template first. The template specifies the fields
+ to be displayed in the result file (Displayed Fields) and the fields on which conditions can be applied (Filter
+ Fields). For example, in an overdue template, Due Date in the circulation record should be a filter field so 
+ that a date can be given in order for the reporting program to compare and decide whether a checkout is overdue; while patron's names may be displayed fields so that staff may know who has the overdue item. In short, a template simply contains a list of displayed fields and a list of filter fields. The template can be used for multiple times. For example, the afore-mentioned overdue template can be used to run a report to capture circulation records with Due Date before 2012-01-01. It can also be used to capture circulations with Due Date before 2012-02-15.
+Once a template is ready, the next step is assigning values to the filter fields, for example, giving 2012-01-01 
+to the _Due Date_ field. This process is commonly known as defining a report, or running a report or setting up 
+a report. The process also schedules the report's run-time and frequency (one time only or on regularly basis), 
+selects the result file format(s) and designates output file receivers, if preferred. The information provided 
+during this step is saved in a file called "Report" on Evergreen. This file contains the template information 
+and the value for each filter. Unfortunately, most of these contents are neither viewable nor editable after 
+the file is saved.
+When a report starts to run, the program goes through the database and gathers the records that meet the 
+conditions into a file in the selected format(s). This is the Output file that contains the result records.
+The three types of files created during the above procedure need to be kept separately in different folders 
+on the Reports interface. Before anything, you must create at least one Template, Report, and Output folder 
+as described in Chapter 27, Folders.
+This chapter focuses on the movements on the Reports module while demonstrating how to create reports in 
+Evergreen. Once you understand how to navigate around the Reports module, you can create your own reports 
+from scratch or take advantage of Sitka's pre-packaged report templates. Some background knowledge of Evergreen 
+database and database terminology are at the end of this chapter.
 
