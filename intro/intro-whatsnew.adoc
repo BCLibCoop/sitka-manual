@@ -48,7 +48,7 @@ Honor Timezone of the Acting Library
 
 Display day-granular due dates in the circulating library’s timezone, which means libraries in non-Pacific Time Zone will see due date ending at 23:59PM.
 
- A whole day (or days) are marked closed when using marking a single or multiple dates closed on Closed Dates Editor. Libraries in non-Pacific Time Zone do not need to adjust time to server time zone. Time portion is no longer displayed for such closed dates.
+A whole day (or days) of the client time is (are) marked closed when using marking a single or multiple dates closed on Closed Dates Editor. Libraries in non-Pacific Time Zone do not need to adjust time to server time zone. Time portion is no longer displayed for such closed dates.
 
 
 New Patron Billing Statement
