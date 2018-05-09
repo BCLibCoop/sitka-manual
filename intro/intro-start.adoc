@@ -81,13 +81,27 @@ From many screens and lists, you can click on the column picker drop-down menu t
 
 .To customize your columns:
 . Click on the dropdown arrow at the top-right of the results table.
-. Select the desired columns.
-. Click 'Save Columns' (on the dropdown list).
-. Click 'Configure columns' (on the dropdown list).
-. Use Expand and Shrink to change column sizes.
-. Use Left and Right to change the column order.
-. Use the sort options to prioritize how sorting should work. (A negative number will sort the column in reverse order.)
-. Click 'Save columns.'
++
+image::images/intro/columnconfig1.png[]
++
+. You can select the desired display columns from the dropdown list or,
+. Click *Manage columns* for more options.
+.. Click *Visible* to make a column visible or hidden [T/F].
+.. Click *Sort Visible Columns to Top*.
+.. Click *Move Up* or *Move Down* to change column position.
+.. Click *First Visible* or *Last Visible* to move the selected column to the top or bottom of the list.
+.. Use *Sort Priority* to prioritize how sorting should work. (A negative number will sort the column in reverse order.)
++
+image::images/intro/columnconfig2.png[]
++
+. Click *Manage Column Widths*.
+.. Click *Expand* or *Shrinl* to adjust column sizes.
++
+image::images/intro/columnconfig3.png[]
++
+. Click *Save columns*.
++
+image::images/intro/columnconfig3.png[]
 
 [[download-hatch]]
 Downloading and Installing Hatch
