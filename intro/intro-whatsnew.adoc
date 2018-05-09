@@ -125,7 +125,7 @@ Evergreen now highlights search terms on the public catalog's main search result
 Clickable Copy Locations
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Adds a URL field to the copy locations editor. When a URL is entered in this field, the associated copy location will display as a link in the public catalogue summary display. This link can be useful for retrieving maps or other directions to the copy location to aid users in finding material.
+You may add a URL to a shelving location on Copy Locations Editor. The shelving location will display as a link in the public catalogue summary display. This link can be useful for retrieving maps or other directions to the copy location to aid users in finding material.
 
 
 Multilingual Search
