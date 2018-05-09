@@ -107,6 +107,8 @@ image::images/intro/columnconfig4.png[]
 Downloading and Installing Hatch
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Hatch is an *optional* installable program that works with your browser to manage complex printing needs (such as printing to different printers under different circumstances) and store local settings (such as column configurations and custom print templates).
+
 anchor:download-hatch-ref[Hatch]
 . Install Java Runtime Environment (JRE).
 Windows only requires a JRE to run Hatch, not a full JDK. Download and install JRE version 1.8 or higher from https://www.java.com[java].
@@ -129,7 +131,7 @@ Enable Hatch in Evergreen
 
 . Log out. Preferences will now be stored in Hatch. This will enable you to clear your browser settings and not lose your staff preferences .
 
-see xref:hatch-troubleshooting[] if you are having issues with Hatch.
+Refer to xref:hatch-troubleshooting[] if you are having issues with Hatch.
 
 [[set-search-pref]]
 Set Search Preferences
