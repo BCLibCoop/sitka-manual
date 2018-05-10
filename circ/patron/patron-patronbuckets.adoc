@@ -1,15 +1,7 @@
-Patron Buckets
-~~~~~~~~~~~~~~
+User Buckets
+~~~~~~~~~~~~
 
-* <<create-user-bucket,Create a User Bucket>>
-* <<batch-edit-user,Batch Edit All Users>>
-* <<batch-mod-statcat,Batch Modify Statistical Categories>>
-* <<batch-delete-user,Batch Delete Users>>
-* <<view-batch-change,View Batch Changes>>
-* <<roll-back-changes,Roll Back Batch Changes>>
-* <<sharing-buckets,Sharing Buckets>>
-
-Patron Buckets allow staff to batch delete and make batch modifications to user accounts in Evergreen. Batch modifications can be made to selected fields in the patron account:
+User Buckets allow staff to batch delete and make batch modifications to user accounts in Evergreen. Batch modifications can be made to selected fields in the patron account:
 
 * Home Library
 * Profile Group
@@ -20,9 +12,9 @@ Patron Buckets allow staff to batch delete and make batch modifications to user 
 * Privilege Expiration Date
 * Statistical Categories
 
-Batch modifications and deletions can be rolled back or reversed, with the exception of batch changes to statistical categories. Batch changes made in User Buckets will not activate any Action/Trigger event definitions that would normally be activated when editing an individual account.
+Batch modifications and deletions can be rolled back or reversed, with the exception of batch changes to statistical categories.
 
-Patron accounts can be added to Patron Buckets by scanning individual patron barcodes or by uploading a file of patron barcodes directly in the Patron Bucket interface. They can also be added to a Patron Bucket from the Patron Search screen. Batch changes and batch edit sets are tied to the Patron Bucket itself, not to the login of the bucket owner.
+Patron accounts can be added to User Buckets by scanning individual patron barcodes or by uploading a file of patron barcodes directly in the Patron Bucket interface. They can also be added to a User Bucket from the Patron Search screen. Batch changes and batch edit sets are tied to the Patron Bucket itself, not to the login of the bucket owner.
 
 [[create-user-bucket]]
 Create a User Bucket
@@ -57,8 +49,6 @@ To add users to a bucket by uploading a file of user barcodes:
 . The user accounts will automatically appear in the list of Pending Users.
 . Select the user accounts that you want to add to the bucket by checking the box next to each user row or by using the CTRL or SHIFT key on your keyboard to select multiple users.
 . Go to *Actions->Add To Bucket* or right-click on a selected user account to view the _Actions_ menu and select *Add To Bucket*.  The user accounts will move to the *Bucket View* tab and are now in the selected User Bucket.
-
-image:images/circ/patronbuckets.png[scaledwidth="75%"]
 
 [[batch-edit-user]]
 Batch Edit All Users
@@ -129,7 +119,7 @@ View Batch Changes
 Roll Back Batch Changes
 +++++++++++++++++++++++
 
-. Batch Changes and Batch Deletions can be rolled back or reversed by going to *Circulation->User Buckets* and selecting the *Bucket View* tab.
+. Batch Changes and Batch Deletions can be rolled back or reversed by going to *Circulation* -> *User Buckets* and selecting the *Bucket View* tab.
 . Click *Buckets* to select an existing bucket.
 . Click *Roll back batch edit*.  A dialog box will appear that contains a drop down menu that lists all batch edits that can be rolled back.  Select the batch edit to roll back and click *Roll Back Changes*.  The batch change will be reversed and the roll back is recorded under _View batch changes_.
 
@@ -141,7 +131,6 @@ Sharing Buckets
 
 If a User Bucket has been made Staff Shareable, it can be retrieved via bucket ID by another staff account.  The ID for each bucket can be found at the end of the URL for the bucket.  For example, in the screenshot below, the bucket ID is 32.
 
-image::images/media/userbucket11.PNG[]
 
 . To retrieve a shared bucket click *Circulation->User Buckets* and click the *Bucket View* tab.
 . Click *Buckets* and select *Shared Bucket*.
