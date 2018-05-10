@@ -16,9 +16,10 @@ To download the block list, navigate to *Circulation -> Offline Circulation*. Cl
 image::images/circ/downloadblocklist.png[]
 
 
-////Save Offline URL////
-^^^^^^^^^^^^^^^^
+//Save Offline URL
+//^^^^^^^^^^^^^^^^
 
+////
 The permanent link for *Offline Circulation* is *https://catalogue.libraries.coop/eg/staff/offline-interface* we recommend that this link is bookmarked on staff workstations.  This is the location for both entering transactions while offline as well as processing them later.  You will see a slightly different version of this interface depending on whether or not you are logged in.
 +
 * If you are logged out, you will see the tab default to *Checkout* and the button on the top-right will read *Export Transactions*.
