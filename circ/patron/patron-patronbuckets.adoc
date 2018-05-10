@@ -82,15 +82,17 @@ All permissions must be granted at the organizational unit that the workstation 
 Batch Modify Statistical Categories
 +++++++++++++++++++++++++++++++++++
 
-To batch modify statistical categories for all users in a bucket:
-
+.Batch modify statistical categories for all users in a bucket:
 . Go to *Circulation->User Buckets* and select the *Bucket View* tab.
+
 . Click *Buckets* and select the bucket you want to modify from the list of existing buckets.
 .. After selecting a bucket, the Name, Description, number of items, and creation date of the bucket will appear at the top of the screen.
+
 . Verify the list of users in the bucket and click *Batch modify statistical categories*. A dialogue box will appear where you can select the batch modifications to be made to the user accounts.  The existing patron statistical categories will be listed and staff can choose:
 .. To leave the stat cat value unchanged in the patron accounts.
 .. To select a new stat cat value for the patron accounts.
 .. Check the box next to Remove to delete the current stat cat value from the patron accounts.
+
 . Click *Apply Changes*.  The stat cat modification(s) will be applied in batch.
 
 [[batch-delete-user]]
@@ -130,7 +132,6 @@ Sharing Buckets
 ^^^^^^^^^^^^^^^
 
 If a User Bucket has been made Staff Shareable, it can be retrieved via bucket ID by another staff account.  The ID for each bucket can be found at the end of the URL for the bucket.  For example, in the screenshot below, the bucket ID is 32.
-
 
 . To retrieve a shared bucket click *Circulation->User Buckets* and click the *Bucket View* tab.
 . Click *Buckets* and select *Shared Bucket*.
