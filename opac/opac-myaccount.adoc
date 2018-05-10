@@ -1,63 +1,79 @@
 My Account
 ----------
-You can access information about your account from any page in the public catalogue by selecting the *My Account* link at the top right of the page. Your account information includes contact information, items you have checked out or on hold, fines, account preferences, notes left by the library (if any) and lists, a place for you to keep reading lists or other lists of items. Each of the sections in the _My Account_ area is described in this chapter.
+Patrons and library staff can access information about their account from any page in the public catalogue by 
+selecting the *My Account* link at the top right of the page. Account information includes contact 
+information, items checked out or on hold, fines, account preferences, notes left by the library 
+(if any) and lists. Each of the sections in the _My Account_ area is described in this chapter.
 
 
-Logging into Your Account
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Logging into My Account
+~~~~~~~~~~~~~~~~~~~~~~~
 
-Click on the *My Account* link on any search page.
+. Click on the *My Account* link on any search page.
++
+. Enter your username or your library barcode.
++
+.. If this is your first time logging in, your username will be your library card number. You have the 
+option to change your username on the _Account Preferences_ screen.
++
+. Enter your password.
++
+.. You should have been given a password when you received your library card.
++
+.. If you do not have or cannot recall your password please contact your local library to have the password 
+reset or use the *Forgot Your Password?* link.
++
+. Click *Login*.
 
-
-Enter your username or your library barcode.
-
-If this is your first time logging in, your username will be your library card number. You have the option to change your username on the _Account Preferences_ screen.
-
-Enter your password.
-
-You should have been given a password when you received your library card.
-
-If you do not have or cannot recall your password please contact your local library to have the password reset or use the *Forgot Your Password?* link.
-
-Click on the *Login* button.
+NOTE: All patron and staff accounts in Evergreen can access _My Account_ through the public catalogue.
 
 Resetting Your Password
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Sitka Snippet Video - Password Reset (1:20)
+https://www.youtube.com/watch?v=L03pBsN5u0c&t[Sitka Snippet Video - Password Reset (1:20)]
 
-If you have an email address recorded in your library account you can use the *Forgot Your Password?* link in the event that you forget your password.
+If you have an email address recorded in your library account you can use the *Forgot Your Password?* link 
+in the event that you forget your password.
 
-Click on the Forgot Your Password? link.
+. Click on the *Forgot Your Password?* link.
++
+. Enter your username or barcode into the appropriate field. 
++
+.. Note you must enter only one value, this is an 
+either or choice, as some people only use their barcode to access their account, while others only ever 
+use a username.
++
+. Click *Submit*.
++
+. Check your email account for the _Library Account Password Reset Request_ email.
++
+.. Reset emails are sent every two minutes.
++
+. Open the link provided in the _Library Account Password Reset Request_ email.
++
+. Enter your new password in the password reset form in the browser.
++
+. You must enter the password twice to ensure that you do not make a mistake. If the passwords match, you 
+will then be able to log in to your library account with the new password.
++
+. Please contact your local library if you do not receive the _Library Account Password Reset Request_ email 
+or if you continue to be unable to login to your account.
 
-
-Enter your username or barcode into the appropriate field. Note you must enter only one value, this is an either or choice, as some people only use their barcode to access their account, while others only ever use a username.
-
-Click *Submit*.
-
-
-Check your email account for the _Library Account Password Reset Request_ email.
-
-Reset emails are sent every two minutes.
-
-Open the link provided in the _Library Account Password Reset Request_ email.
-
-Enter your new password in the password reset form in the browser.
-
-You must enter the password twice to ensure that you do not make a mistake. If the passwords match, you will then be able to log in to your library account with the new password.
-
-
-Please contact your local library if you do not receive the _Library Account Password Reset Request_ email or if you continue to be unable to login to your account.
+[TIP]
+=====
+Library staff can reset the password for their account using this method if there is an email address 
+recorded in their account.
+=====
 
 Account Summary
 ~~~~~~~~~~~~~~~
 
-The default view when you login to your account is the _Account Summary_ page. This view gives you an overview of items checked out, items on hold and any fines you may have. You can access any of these screens by clicking on the relevant tab.
+The default view when you login to your account is the _Account Summary_ page. This view gives you an 
+overview of items checked out, items on hold and any fines you may have. You can access any of these screens 
+by clicking on the relevant tab.
 
 
 If your library subscribes to Overdrive additional information will display.
-
-
 
 Account Preferences
 ~~~~~~~~~~~~~~~~~~~
@@ -67,41 +83,72 @@ Select the _Account Preferences_ tab at the top of the _My Account_ area to acce
 Personal Information
 ^^^^^^^^^^^^^^^^^^^^
 
-You can change the username and password that you use to log in to your library account as well as the email address the library uses to contact you in the _Personal Information_ tab by clicking the *Change* link next to the item.
+You can change the username and password that you use to log in to your library account as well as the email 
+address the library uses to contact you in the _Personal Information_ tab by clicking the *Change* link 
+next to the information you'd like to update.
 
+NOTE: Changing your username and password for a library staff account through My Account also changes it 
+for logging into the staff client.
 
-Depending on your library's policy, you may request a change to your address by submitting a new address in your account. Library staff will verify it and update your account.
+Depending on your library's policy, you may request a change to your address by submitting a new address 
+in your account. Library staff will verify it and update your account.
 
-If you need to make a change to other information, such as your phone number, please contact your local library.
+If you need to make a change to other information, such as your phone number, please contact your local 
+library.
 
 Notification Preferences
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-The Notification Preferences tab is where you set your preferences for holds notification. You can choose to be contacted by email, phone or text message.
+The Notification Preferences tab is where you set your preferences for holds notification. You can choose 
+to be contacted by email, phone or text message.
 
-This is also where you can opt-out of receiving courtesy and overdue email notices using the _Receive Overdue and Courtesy Emails_ setting.
+This is also where you can opt-out of receiving courtesy and overdue email notices using the _Receive 
+Overdue and Courtesy Emails_ setting.
 
-Un-checking this box means your library will not send you any emails for items coming due or overdue. You are still responsible for returning items on time and paying any applicable fines.
+Un-checking this box means your library will not send you any emails for items coming due or overdue. 
+You are still responsible for returning items on time and paying any applicable fines.
+
+If you wish to receive checkout receipts via email by default you can check the 
+_Email checkout receipts by default_ checkbox.
 
 
 Search and History Preferences
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The _Search and History Preferences_ tab allows you to configure how many search results are displayed per page on your catalogue searches, your preferred pick up location if a member of a multi branch library or larger borrowing zone, whether you want to keep a history of your check outs and holds, and who you allow to use your library account on your behalf. The check out and holds history is not retroactive, it takes effect once you choose to retain your history. You may also choose to disable a warning about adding items to a temporary list.
+The _Search and History Preferences_ tab allows you to configure settings around search results, history, 
+and allowing others access to your account.
 
+You can select how many search results are displayed per page on your catalogue searches as well as your
+preferred search location if your library is a multi branch system or part of a larger borrowing zone.
+
+You can also set your preferred pick up location if your library is a multi branch system or part of a  
+larger borrowing zone.
+
+Check Out and Hold history can be enabled on this screen.  The check out and holds history is not retroactive;  
+it takes effect once you choose to retain your history. 
+
+You may also choose to disable a warning about adding items to a temporary list.
+
+You can specify who, if anyone, you want to access to your account and what access you wish them to 
+have.  This is useful if you'd like someone else to be able to pick up your holds for you.
+
+My Lists Preferences
+^^^^^^^^^^^^^^^^^^^^
+
+The _My Lists Preferences_ tab allows you to set how many lists you'd like to display per page and how many item
+should be displayed per page in your lists.
 
 Messages
 ~~~~~~~~
 
-Sitka Snippet Video - Patron Message Center (1:35)
 
-Select the Messages tab at the top of the _My Account_ area to display any messages library staff have added to your account.
-
+Select the Messages tab at the top of the _My Account_ area to display any messages library staff have added 
+to your account.
 
 An indicator will also appear in the upper right corner when you have new messages.
 
-
-You can set messages to read or unread, or delete them by selecting the message(s) and then choosing the desired action from the *Action for selected messages* menu and clicking *Go*.
+You can set messages to read or unread, or delete them by selecting the message(s) and then choosing the 
+desired action from the *Action for selected messages* menu and clicking *Go*.
 
 Unread messages appear with the subject bolded. Click on the subject to read the message.
 
@@ -112,10 +159,12 @@ Items Checked Out
 Current Items Checked Out
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Select the _Items Checked Out_ tab at the top of the _My Account_ area to display all of the items you currently have checked out.
+Select the _Items Checked Out_ tab at the top of the _My Account_ area to display all of the items you 
+currently have checked out.
 
-
-You can sort the list by Title, Author, Renewals Left, Due Date, Barcode, or Call number by clicking on the blue text. The first click sorts the list alphabetically in ascending order and a second click sorts the list alphabetically in descending order.
+You can sort the list by Title, Author, Renewals Left, Due Date, Barcode, or Call number by clicking on 
+the blue text. The first click sorts the list alphabetically in ascending order and a second click sorts 
+the list alphabetically in descending order.
 
 If you wish to renew items select the items you wish to renew and click *Go* beside _Renew Selected Titles_.
 
@@ -124,13 +173,15 @@ Check Out History
 
 Select the _Check Out History_ tab to display a list of items that you have previously checked out.
 
+Check out history will only display if it has been enabled in your _Search and History Preferences_.  History
+displays from the date you enabled it; items checked out prior will not be included in your history.
 
-Check out history will only display if it has been enabled in your _Search and History Preferences_.
+You can sort the list by Title, Author, Checkout Date, Due Date, Date Returned, Barcode, or Call number by 
+clicking on the blue text. The first click sorts the list alphabetically in ascending order and a second 
+click sorts the list alphabetically in descending order.
 
-You can sort the list by Title, Author, Checkout Date, Due Date, Date Returned, Barcode, or Call number by clicking on the blue text. The first click sorts the list alphabetically in ascending order and a second click sorts the list alphabetically in descending order.
-
-If you wish to delete individual titles from the list select the items you wish to delete and click *Go* beside _Delete Selected Titles_.
-
+If you wish to delete individual titles from the list select the items you wish to delete and click *Go* 
+beside _Delete Selected Titles_.
 
 Holds
 ~~~~~
@@ -138,25 +189,30 @@ Holds
 Items on Hold
 ^^^^^^^^^^^^^
 
-Select the Holds tab to display a list of items you have holds (reserves) on.
+Select the Holds tab to display a list of items you have holds on.
 
+You can sort the list by Title, Author, and Format by clicking on the blue text. The first click sorts the 
+list alphabetically in ascending order and a second click sorts the list alphabetically in descending order.
 
-You can sort the list by Title, Author, and Format by clicking on the blue text. The first click sorts the list alphabetically in ascending order and a second click sorts the list alphabetically in descending order.
+You can use the checkbox beside each hold to select the hold and the *Action for selected holds* dropdown list 
+to suspend, activate, or cancel the selected holds. You may set an activation date when you suspend your hold 
+or leave the date blank and manually activate it later. A suspended hold will not lose its hold queue position.
 
-You can use the checkbox beside each hold to select the hold and the *Action for selected holds* dropdown list to suspend, activate, or cancel the selected holds. You may set an activation date when you suspend your hold or leave the date blank and manually activate it later. A suspended hold will not lose its hold queue position.
+The _Status_ column shows whether or not your hold is currently available for pickup, if it has been 
+suspended, and what your position is in the hold queue.
 
-The _Status_ column shows whether or not your hold is currently available for pickup, if it has been suspended, and what your position is in the hold queue.
+Your position in the hold queue is indicated by the first number in the status column. For example 
+"Hold #3 on 1 copy" indicates you are third in the hold queue.
 
-Your position in the hold queue is indicated by the first number in the status column. For example "3 holds on 1 circulating copy" indicates you are third in the hold queue.
-
-Clicking the *Edit* link will bring you to the hold editing screen, where you may suspend the hold, if not already captured, or change the activation date or cancellation date. If your library has multiple branches you may also change the pick up location.
+Clicking the *Edit* link will bring you to the hold editing screen, where you may suspend the hold, if not 
+already captured, or change the activation date or cancellation date. If your library has multiple branches you may also change the pick up location.
 
 
 Holds History
 ^^^^^^^^^^^^^
 
-Select the Holds History tab to display a list of items that you have previously had on hold.
-
+Select the Holds History tab to display a list of items that you have previously had on hold. History
+displays from the date you enabled it; holds placed prior will not be included in your history.
 
 Holds history will only display if it has been enabled in your _Search and History Preferences_.
 
@@ -164,7 +220,8 @@ Holds history will only display if it has been enabled in your _Search and Histo
 Fines and Payments
 ~~~~~~~~~~~~~~~~~~
 
-The _Fines and Payments_ tab, at bottom of the _Account Summary_ screen, displays any fines or fees that you have accrued and the payments you have made. You can pay your fines at the library.
+The _Fines and Payments_ tab, at bottom of the _Account Summary_ screen, displays any fines or fees that 
+you have accrued and the payments you have made. You can pay your fines at the library.
 
 
 
@@ -173,75 +230,96 @@ My Lists
 
 The _My Lists_ section allows you to create, edit, share, and remove lists of items.
 
-Lists are lists of items that can be used for a number of purposes. For example, you can use lists to keep track of what books you have read, if you have not chosen to retain your checkout history, books you would like to read, to maintain a class reading list, to maintain a reading list for a book club, to keep a list of books you would like for your birthday, etc. There are an unlimited number of uses.
+Lists are lists of items that can be used for a number of purposes. For example, patrons use lists to keep 
+track of what books they've read, books they'd like to read, to maintain a class reading list, to maintain a 
+reading list for a book club, and more. Lists can also be used for mainting publicly visible lists such as 
+staff picks or themed lists that can be posted on a library's website.  Lists are also used with Course 
+Reserves module for post-secondary institutions.
 
 You can see the lists you have created in the _My Lists_ section of the _My Account_ area.
 
 Creating Lists
 ^^^^^^^^^^^^^^
 
-Best practice is to log in to your account and create a list. Select the _My Lists_ tab at the top of the _My Account_ area. In the _My Account_ area, click on *My Lists*. In the _Create New List_ section, enter a name for your list into the text box. You may also enter an optional description. Decide if you would like to share the contents of the list with other users, and click the *Submit* button.
+Best practice is to log in to your account and create a list. 
 
+. Select the _My Lists_ tab at the top of the _My Account_ area. 
+. In the _My Account_ area, click on *My Lists*. 
+. In the _Create New List_ section, enter a name for your list into the text box. You may also enter an 
+optional description.
+. Decide if you would like to share the contents of the list with other users.
+. Click *Submit*.
 
 You can also create a temporary list from search results.
 
 If you are logged into your account, hover over _Add to my list_ and select *Temporary List*.
 
-
 If you are not logged into your account click on *Add to my list*.
-
 
 A warning will appear indicating that you are adding to a temporary list.
 
 
-Managing Lists
-^^^^^^^^^^^^^^
+Sharing Lists
+^^^^^^^^^^^^^
 
-A number of actions can be performed on saved lists from within the _My Lists_ section.
+By default, all lists are private, and you must explicitly instruct the system to allow others to view the 
+contents of a list by clicking *Share* beside the list name.
 
-Lists can be shared:
-++++++++++++++++++++
+You can give the address (URL) of your list to anyone you want to share it with or add it to your library's
+website. 
 
-By default, all lists are private, and you must explicitly instruct the system to allow others to view the contents of a list by clicking *Share* beside the list name.
-
-You can give the address (URL) of your list to anyone you want to share it with. In the My Lists section there is an *HTML View link* for every shared list. Click on that link and bookmark the resulting web page page in your browser or copy and paste the address (URL) to share your list as required.
+. In the _My Lists_ section there is an *HTML View link* for every shared list. 
+. Click on that link and bookmark the resulting web page in your browser or copy and paste the address 
+(URL) to share your list as required.
 
 You can un-share a list by clicking *Hide*.
 
+Downloading Lists
+^^^^^^^^^^^^^^^^^
 
-Lists can be deleted:
-+++++++++++++++++++++
+You can export your list to a comma delimited file by selecting *Download CSV* and following your computer's 
+prompts to save the file on your computer.
+
+Deleting Lists
+^^^^^^^^^^^^^^
 
 If you no longer need a list you can delete it by clicking *Delete List*.
 
 
-Lists can be downloaded:
-++++++++++++++++++++++++
+Adding Items to a List
+^^^^^^^^^^^^^^^^^^^^^^
 
-You can export your list to a comma delimited file by selecting *Download CSV* and following your computer's prompts to save the file on your computer.
-
-
-Adding Items to Lists
-+++++++++++++++++++++
-
-Log in to the online catalogue by clicking the *My Account* button. Search the catalogue for the item you would like to add to your list. Hover over *Add to my list* and select the list you would like to add the item to.
+. Log in to the public catalogue by clicking the *My Account* button. 
+. Search the catalogue for the item you would like to add to your list. 
+. Hover over *Add to my list* and select the list you would like to add the item to.
 
 
+[TIP]
+=====
 If you select a default list in the _My List_ section that list will appear first in the list of lists.
+=====
 
-You can also move items from a temporary list to a permanent list by selecting the titles in the temporary list and then clicking on the drop-down menu labeled *Actions for these items* and making the appropriate choice.
-
-
-Removing Items From a List
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-In your account, select the _My Lists_ tab. Click on the name of the list you would like to remove the item from. The items in the list will appear. Select the item you would like to remove from the list, click on *Actions for these items* -> *Remove from list* and click *Go*.
-
+You can also move items from a temporary list to a permanent list by selecting the titles in the temporary 
+list and then clicking on the drop-down menu labeled *Actions for these items* and making the appropriate 
+choice.
 
 Managing Items in a List
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can place a hold on an item from your list by selecting the item, and choosing *Place hold* in the *Actions for these items* menu.
+You can place a hold on an item from your list by selecting the item in your list, and choosing 
+*Place hold* in the *Actions for these items* menu.
 
-You can annotate your lists by using the _Notes _feature. Click on one of your lists to open it and display the contents. A _Notes_ column will appear, with an *Edit* hyperlink beside it. Click *Edit*, enter your note and click *Save Notes*. Your note will display in your view of your list. If the list is shared, the note will also display in title record on the webpage used to access your shared list.
+You can annotate your lists by using the _Notes _feature. 
 
+. Click on one of your lists to open it and display the contents. 
+. A _Notes_ column will appear, with an *Edit* hyperlink beside it. 
+. Click *Edit*, enter your note and click *Save Notes*. 
+. Your note will display in your view of your list. If the list is shared, the note will also display in 
+title record on the webpage used to access your shared list.
+
+Removing Items From a List
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Click on the name of the list you would like to remove the item from. The items in the list will appear. 
+. Select the item you would like to remove from the list, click on 
+*Actions for these items* -> *Remove from list* and click *Go*.

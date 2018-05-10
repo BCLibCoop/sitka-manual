@@ -18,28 +18,28 @@ Patron Buckets allow staff to batch delete and make batch modifications to user 
 Clickable Patron Email Address
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Patron's email address is a mailto link in the profile, so it can be clicked to send and email to the patron.
+Patron's email address is a mailto link in the profile, so it can be clicked to send an email to the patron.
 
 
 New Notice Columns in Items Out Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Two new columns indicating the number of circulation notifications generated for a given loan and the date of the most recent notification are added to Items Out screen in patron record. These columns will allow circulation staff to better respond to patron questions about whether they were sent notification about an overdue item.
+Two new columns indicating the number of circulation notifications generated for a given loan and the date of the most recent notification are added to Items Out screen in patron record. These columns will allow circulation staff to better respond to patron questions about whether they were sent a notification about an overdue item.
 
-A new library setting, "Exclude Courtesy Notices from Patrons Itemsout Notices Count", is added to allow libraries to choose whether to exclude courtesey notice in these fields.
+A new library setting, "Exclude Courtesy Notices from Patrons Itemsout Notices Count", is added to allow libraries to choose whether to exclude courtesy notices in these fields.
 
 
-Honor Timezone of the Acting Library
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Honour Time Zone of the Acting Library
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Display day-granular due dates in the circulating library's timezone, which means libraries in non-Pacific Time Zone will see due date ending at 23:59PM.
+Display day-granular due dates in the circulating library's time zone, which means libraries in non-Pacific time zone will see due date ending at 23:59PM.
 
-A whole day (or days) of the client time is (are) marked closed when using marking a single or multiple dates closed on Closed Dates Editor. Libraries in non-Pacific Time Zone do not need to adjust time to server time zone. Time portion is no longer displayed for such closed dates.
+A whole day (or days) of the client time is (are) marked closed when marking a single or multiple dates closed on Closed Dates Editor. Libraries in non-Pacific time zone no longer need to adjust computer time to server time zone. Time portion is no longer displayed for such closed dates.
 
 Scope Holds by Pickup Library on View Holds
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Staff can choose to view holds pickecd up at all branches of a library system, or all libraries in a federation. Previously staff could only choose to view holds picked up at a selected library/branch or all Sitka libraries.
+Staff can choose to view holds picked up at all branches of a library system, or all libraries in a federation. Previously staff could only choose to view holds picked up at a selected library/branch or all Sitka libraries.
 
 Option to Suspend Holds at the Time They are Placed
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -50,32 +50,32 @@ Users now have the option to suspend a hold at the same time they place the hold
 Patron Search from Place Hold
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-On Place Hold screen, beside the box for entering the requestor barcode, there is a Patron Search link for staff to retrieve patrons via names and other information,  rather than relying on barcode alone.
+There is a Patron Search link for staff to retrieve patrons via names and other information,  rather than relying on barcode alone, on the Place Hold screen in the catalogue.
 
 
 Place Multiple Holds at Once
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Staff can place multiple title/metarecords holds at once. This feature is especially beneficial for book clubs and reading groups, which need to place holds on multiple copies of a title.
+Staff can place multiple title/metarecord holds at once. This feature is especially beneficial for book clubs and reading groups, which need to place holds on multiple copies of a title.
 
 In order to use the feature, libraries need to set up a new library setting: Maximum number of duplicate holds allowed to a number higher than 1.
 
-When placing a title or metarecord hold, a *Number of copies* field will display. This field is not available when placing volume or copy holds.
+When placing a title or a metarecord hold, a *Number of copies* field will display. This field is not available when placing volume or copy holds.
 
 This feature does not change the way in which the system fills holds. The multiple holds will fill in the same way that they would if the user had placed multiple holds separately.
 
 Alternate Patron Hold Pickup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-When an on-hold item is being checked out to another patron, not the requester, on the prompt there is a new checkbox allowing staff to cancel the hold during the checking out. If the borrower is picking up the item on behalf of the requester, you can select the checkbox to cancel the hold. However, such cancelled holds are not counted in as fulfilled. If you tracks fulfilled holds statistics, Co-op support suggests you check out the item to the requester only.
+When an on-hold item is being checked out to another patron, not the requester, on the prompt there is a new checkbox allowing staff to cancel the hold during the checking out. If the borrower is picking up the item on behalf of the requester, you can select the checkbox to cancel the hold. However, such cancelled holds are not counted as fulfilled. If you track fulfilled holds statistics, Co-op Support suggests you check out the item to the requester only.
 
-There is a new library setting, Clear Hold When Other Patron Checks Out Item,  to allow libraries to choose whether the cancel hold checkbox is selected by default. 
+There is a new library setting, Clear Hold When Other Patron Checks Out Item,  to allow libraries to choose whether the cancel hold checkbox is selected by default.
 
 
 Retrieve Recent Patrons
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Libraries may choose to allow staff to retrieve a few recently accessed patron accounts. To do so, libraries need to set up a new library settting, Number of Retrievable Recent Patrons. ONce done, an entry called "Retrieve Recent Patrons" will show up on the circulation dropdown menu. 
+Libraries may choose to allow staff to retrieve a few recently accessed patron accounts. To do so, libraries need to set up a new library setting, Number of Retrievable Recent Patrons. Once done, an entry called "Retrieve Recent Patrons" will show up on the Circulation menu.
 
 
 Patron Search by Birth Date
@@ -83,7 +83,7 @@ Patron Search by Birth Date
 
 Now you can include the patron birth year and/or birth month and/or birth day when searching for patrons.
 
-Day and month values are exact matches. E.g. month "1" (or "01") matches January, "12" matches December. Year searches are "contains" searches. E.g. year "15" matches 2015, 1915, 1599, etc. For exact matches use the full 4-digit year.
+Day and month values are exact matches. E.g. month "1" (or "01") matches January, "12" matches December. Year searches are "contains" searches, i.e. year "15" matches 2015, 1915, 1599, etc. For exact matches use the full 4-digit year.
 
 Copy Alerts and Suppression of Copy Alerts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -104,7 +104,7 @@ A patron billing statement, which summarizes a patron's bills, credits and payme
 Enhanced Billing Timestamp
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-More timestamps are added to billing records indicating the create date,  a fine period start and a fine period end.
+More timestamps are added to billing records indicating the create date,  a fine period start, and a fine period end.
 
 
 
@@ -119,7 +119,7 @@ The Shelving Location filter now displays on the advanced search page when a sea
 Search Term Highlighting
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Evergreen now highlights search terms on the public catalog's main search results page, the record detail page, and intermediate pages such as metarecord grouped results page. Highlighting search terms will help the user determine why a particular record (or set of records) was retrieved.
+Evergreen now highlights search terms on the public catalogue's main search results page, the record detail page, and intermediate pages such as metarecord grouped results page. Highlighting search terms will help the user determine why a particular record (or set of records) was retrieved.
 
 
 Clickable Copy Locations
@@ -131,9 +131,9 @@ You may add a URL to a shelving location on Copy Locations Editor. The shelving 
 Multilingual Search
 ^^^^^^^^^^^^^^^^^^^^
 
-Search for multilingual materials is possible now by combining language attributes, e.g. keyword: piano item_lang(eng) item_lang(ita). Attribute values are from tag 008 and 041. 
+Search for multilingual materials is possible now by combining language attributes, e.g. keyword: piano item_lang(eng) item_lang(ita). Attribute values are from tag 008 and 041.
 
-NOTE: This is different from selecting multiple entries in the Language filter on Advanced Search, which searchs for materials in any of the selected langualges.
+NOTE: This is different from selecting multiple entries in the Language filter on Advanced Search, which searches for materials in any of the selected languages.
 
 
 Serials
@@ -150,15 +150,12 @@ In addition to carrying over functionality that was available in the old staff c
 * Prediction pattern codes can be saved as templates.
 * The new serials interfaces can be accessed from the record details page via a Serials drop-down button.
 
-Report
-~~~~~~
+Reports
+~~~~~~~
 
 Report Template Searching
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
-A new form appears along the top of the reports interface for searching report templates. Once found, typical template actions (e.g. create new report) are available from within the results interface.
+A new form appears along the top of the reports interface for searching report templates. Once found, typical template actions (e.g. clone or create new report) are available from within the results interface.
 
-Searches may be performed across selected or all folders owned by or shared with the logged in user.
-
-
-
+Searches may be performed across selected folders or all folders owned by or shared with the logged in user.
