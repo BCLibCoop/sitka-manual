@@ -1,6 +1,10 @@
 Offline Circulation
 -------------------
 
+Evergreen's Offline Circulation Module is designed to log transactions during network outage, which can be uploaded and processed once network operations are restored.
+
+In order to do offline circulation, you have to make your workstations ready. The Offline Circulation program needs to be downloaded to your computers. You need network access to the server to do it. 
+
 include::offline/offline-intro.adoc[]
 
 include::offline/offline-setup.adoc[]

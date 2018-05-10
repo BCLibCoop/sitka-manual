@@ -1,9 +1,22 @@
 Offline Workstation Set up
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Prior to using *Offline Circulation* you must have access to your production server and register your workstation on the computer and in the browser you intend to use. The following should be completed on each workstation you intend to use for *Offline Circulation*.
 
-Save Offline URL
+Prior to using *Offline Circulation*, you need to do the following:
+
+
+*Register the workstation* in the recommended browser on the computers you intend to use. Local system administrator's account is required to do it.
+
+*Load configuration information* by performing a patron search. On the result list, select any patron. Go to Edit tab. The relevent configuration information for the workstation is loaded during this process. 
+
+*Download Offline Block List*. The list contains patrons with blocks at the time of the download. *Offline Circulation* will check patrons against this list and prompt staff if a patron is found on the list.
+
+To download the block list, navigate to *Circulation -> Offline Circulation*. Click *Download Block List* button in the top-right of the screen.
+
+image::images/circ/downloadblocklist.png[]
+
+
+////Save Offline URL
 ^^^^^^^^^^^^^^^^
 
 The permanent link for *Offline Circulation* is *https://catalogue.libraries.coop/eg/staff/offline-interface* we recommend that this link is bookmarked on staff workstations.  This is the location for both entering transactions while offline as well as processing them later.  You will see a slightly different version of this interface depending on whether or not you are logged in.
@@ -22,6 +35,7 @@ image::images/circ/offline_warning.png[]
 +
 ** This warning is not network-aware and it will appear regardless of network connection state.  You must be logged out to record offline transactions.
 ** If you see this warning and wish to record offline transactions, click *Proceed* in order to log out.
+
 
 Download Offline Block List
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -51,6 +65,7 @@ xref:download-hatch-ref[] must be installed and enabled on your workstation
 
 . Click *Administration* -> *Workstation* -> *Printer Settings*.
 . Click *Offline* ->
+////
 
 Save Patron Registration Form
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
