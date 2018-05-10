@@ -1,53 +1,68 @@
 My Account
 ----------
-Patrons and library staff can access information about your account from any page in the public catalogue by 
-selecting the *My Account* link at the top right of the page. Your account information includes contact 
-information, items you have checked out or on hold, fines, account preferences, notes left by the library 
-(if any) and lists, a place for you to keep reading lists or other lists of items. Each of the sections 
-in the _My Account_ area is described in this chapter.
+Patrons and library staff can access information about their account from any page in the public catalogue by 
+selecting the *My Account* link at the top right of the page. Account information includes contact 
+information, items checked out or on hold, fines, account preferences, notes left by the library 
+(if any) and lists. Each of the sections in the _My Account_ area is described in this chapter.
 
 
 Logging into My Account
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 . Click on the *My Account* link on any search page.
++
 . Enter your username or your library barcode.
++
 .. If this is your first time logging in, your username will be your library card number. You have the 
 option to change your username on the _Account Preferences_ screen.
++
 . Enter your password.
++
 .. You should have been given a password when you received your library card.
++
 .. If you do not have or cannot recall your password please contact your local library to have the password 
 reset or use the *Forgot Your Password?* link.
-. Click on the *Login* button.
++
+. Click *Login*.
 
-NOTE: All patron and staff accounts in Evergreen can access My Account through the public catalogue.
+NOTE: All patron and staff accounts in Evergreen can access _My Account_ through the public catalogue.
 
 Resetting Your Password
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-https://www.youtube.com/watch?v=L03pBsN5u0c&t=4s[Sitka Snippet Video - Password Reset (1:20)]
+https://www.youtube.com/watch?v=L03pBsN5u0c&t[Sitka Snippet Video - Password Reset (1:20)]
 
 If you have an email address recorded in your library account you can use the *Forgot Your Password?* link 
 in the event that you forget your password.
 
-. Click on the Forgot Your Password? link.
-. Enter your username or barcode into the appropriate field. Note you must enter only one value, this is an 
+. Click on the *Forgot Your Password?* link.
++
+. Enter your username or barcode into the appropriate field. 
++
+.. Note you must enter only one value, this is an 
 either or choice, as some people only use their barcode to access their account, while others only ever 
 use a username.
++
 . Click *Submit*.
++
 . Check your email account for the _Library Account Password Reset Request_ email.
++
 .. Reset emails are sent every two minutes.
++
 . Open the link provided in the _Library Account Password Reset Request_ email.
++
 . Enter your new password in the password reset form in the browser.
++
 . You must enter the password twice to ensure that you do not make a mistake. If the passwords match, you 
 will then be able to log in to your library account with the new password.
++
 . Please contact your local library if you do not receive the _Library Account Password Reset Request_ email 
 or if you continue to be unable to login to your account.
 
 [TIP]
 =====
-Passwords for library staff accounts can be reset in this way if there is an email address recorded in the 
-account.
+Library staff can reset the password for their account using this method if there is an email address 
+recorded in their account.
 =====
 
 Account Summary
@@ -70,10 +85,10 @@ Personal Information
 
 You can change the username and password that you use to log in to your library account as well as the email 
 address the library uses to contact you in the _Personal Information_ tab by clicking the *Change* link 
-next to the item.
+next to the information you'd like to update.
 
-NOTE: If this is a staff account changing your username and password for My Account also changes it for 
-logging into the staff client.
+NOTE: Changing your username and password for a library staff account through My Account also changes it 
+for logging into the staff client.
 
 Depending on your library's policy, you may request a change to your address by submitting a new address 
 in your account. Library staff will verify it and update your account.
@@ -100,13 +115,28 @@ _Email checkout receipts by default_ checkbox.
 Search and History Preferences
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The _Search and History Preferences_ tab allows you to configure how many search results are displayed 
-per page on your catalogue searches, your preferred pick up location if a member of a multi branch library 
-or larger borrowing zone, whether you want to keep a history of your check outs and holds, and who you 
-allow to use your library account on your behalf. The check out and holds history is not retroactive, 
-it takes effect once you choose to retain your history. You may also choose to disable a warning about 
-adding items to a temporary list.
+The _Search and History Preferences_ tab allows you to configure settings around search results, history, 
+and allowing others access to your account.
 
+You can select how many search results are displayed per page on your catalogue searches as well as your
+preferred search location if your library is a multi branch system or part of a larger borrowing zone.
+
+You can also set your preferred pick up location if your library is a multi branch system or part of a  
+larger borrowing zone.
+
+Check Out and Hold history can be enabled on this screen.  The check out and holds history is not retroactive;  
+it takes effect once you choose to retain your history. 
+
+You may also choose to disable a warning about adding items to a temporary list.
+
+You can specify who, if anyone, you want to access to your account and what access you wish them to 
+have.  This is useful if you'd like someone else to be able to pick up your holds for you.
+
+My Lists Preferences
+^^^^^^^^^^^^^^^^^^^^
+
+The _My Lists Preferences_ tab allows you to set how many lists you'd like to display per page and how many item
+should be displayed per page in your lists.
 
 Messages
 ~~~~~~~~
@@ -212,10 +242,11 @@ Creating Lists
 ^^^^^^^^^^^^^^
 
 Best practice is to log in to your account and create a list. 
+
 . Select the _My Lists_ tab at the top of the _My Account_ area. 
 . In the _My Account_ area, click on *My Lists*. 
 . In the _Create New List_ section, enter a name for your list into the text box. You may also enter an 
-optional description. 
+optional description.
 . Decide if you would like to share the contents of the list with other users.
 . Click *Submit*.
 
@@ -236,6 +267,7 @@ contents of a list by clicking *Share* beside the list name.
 
 You can give the address (URL) of your list to anyone you want to share it with or add it to your library's
 website. 
+
 . In the _My Lists_ section there is an *HTML View link* for every shared list. 
 . Click on that link and bookmark the resulting web page in your browser or copy and paste the address 
 (URL) to share your list as required.
@@ -254,8 +286,8 @@ Deleting Lists
 If you no longer need a list you can delete it by clicking *Delete List*.
 
 
-Adding Items to Lists
-^^^^^^^^^^^^^^^^^^^^^
+Adding Items to a List
+^^^^^^^^^^^^^^^^^^^^^^
 
 . Log in to the public catalogue by clicking the *My Account* button. 
 . Search the catalogue for the item you would like to add to your list. 
@@ -278,6 +310,7 @@ You can place a hold on an item from your list by selecting the item in your lis
 *Place hold* in the *Actions for these items* menu.
 
 You can annotate your lists by using the _Notes _feature. 
+
 . Click on one of your lists to open it and display the contents. 
 . A _Notes_ column will appear, with an *Edit* hyperlink beside it. 
 . Click *Edit*, enter your note and click *Save Notes*. 
