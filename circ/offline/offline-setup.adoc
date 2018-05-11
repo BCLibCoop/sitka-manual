@@ -6,7 +6,7 @@ Prior to using Offline Circulation, you need to do the following, which requires
 
 
 . *Register the workstation* in the recommended browser on the computers you intend to use. Local system administrator's account is required to do it.
-
++
 . *Load configuration information* by performing a patron search. Select any patron on the result list. Go to Edit tab. The relevent configuration information for the workstation is downloaded during this process. 
 
 . *Download Offline Block List*. The list contains patrons with blocks at the time of the download. Offline Circulation will check patrons against this list and prompt staff if a patron is found on the list when you try to check out or renew items.
@@ -27,7 +27,7 @@ Hatch is Evergreen's printing and storage management tool. It allows libraries t
 ====
 
 . *Set up a default printer* for Offline Circulation, go to *Administration -> Workstation -> Printer Settings*.
-
++
 . *Switch to storing offline transactions to Hatch*, you need to log into Evergreen with a local system administrator account. Go to *Administration -> Workstation*. 
 Click *Print/Storage Service ('Hatch')*. Make sure that you see that Hatch is available. Click *Store Offline Transaction Data in Hatch*.
 
