@@ -7,9 +7,9 @@ Prior to using Offline Circulation, you need to do the following, which requires
 
 *Register the workstation* in the recommended browser on the computers you intend to use. Local system administrator's account is required to do it.
 
-*Load configuration information* by performing a patron search. On the result list, select any patron. Go to Edit tab. The relevent configuration information for the workstation is loaded during this process. 
+*Load configuration information* by performing a patron search. Select any patron nn the result list. Go to Edit tab. The relevent configuration information for the workstation is loaded during this process. 
 
-*Download Offline Block List*. The list contains patrons with blocks at the time of the download. Offline Circulation will check patrons against this list and prompt staff if a patron is found on the list.
+*Download Offline Block List*. The list contains patrons with blocks at the time of the download. Offline Circulation will check patrons against this list and prompt staff if a patron is found on the list when you try to check out and renew items.
 
 To download the block list, navigate to *Circulation -> Offline Circulation*. Click *Download Block List* button.
 
