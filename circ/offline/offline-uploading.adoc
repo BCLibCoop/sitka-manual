@@ -152,7 +152,7 @@ To export transactions while you are offline, navigate to *Circulation -> Offlin
 
 image::images/circ/offline-upload9.png[]
 
-NOTE: Depending on your browser's setting, you may be prompted to choose a location to save file.
+NOTE: Depending on your browser's setting, you may be prompted to choose a location to save the file.
 
 To export transactions while you are logged in, navigate to *Circulation -> Offline Circulation* and click on the *Session Management* tab.  Click on the *Export Transactions* button to generate the pending.xacts file as above.  
 
