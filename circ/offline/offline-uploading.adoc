@@ -63,7 +63,7 @@ image::images/circ/offlineupload6.png[]
 +
 image::images/circ/offlineupload7.png[]
 
-. Scroll to the bottom of the screen to see if there are any entries in the <<_exceptions,*Exception List*>>.  Some of these may require staff follow up.
+. Scroll to the bottom of the screen to see if there are any entries in the <<_exceptions,*Exception List*>>.  Some of these may require staff follow up. 
 
 
 
@@ -99,35 +99,7 @@ image::images/circ/offlineupload6.png[]
 . Scroll to the bottom of the screen to see if there are any entries in the <<_exceptions,*Exception List*>>.  Some of these may require staff follow up.
 +
 image::images/circ/offlineupload7.png[]
-
 ////
-
-
-
-Export Offline Transactions
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-If you anticipate a *multi-day closing* or if you plan to *process your offline transactions at a different workstation*, you will want to export your offline transactions.
-
-To export transactions while you are offline, navigate to *Circulation -> Offline Circulation* and click *Export Transactions* in the top-right of the screen.  This will save a file entitled pending.xacts to your browser's default download location.  If you will be processing these transactions on another workstation, move this file to an external device like a thumb drive.
-
-To export transactions while you are logged in, navigate to *Circulation -> Offline Circulation* and click on the *Session Management* tab.  Click on the *Export Transactions* button to generate the pending.xacts file as above.  If you wish, you can at this point click *Clear Transactions* to clear the list of pending transactions.
-
-Upload Previously Exported Transactions
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-If you had previous exported your offline transactions you can upload them for processing.
-
-To import transactions:
-
-. Log in to the staff client via your *Login Page*
-. Navigate to *Circulation -> Offline Circulation*
-. Click on the *Session Management* tab.
-. Click on the *Import Transactions* button.
-. Navigate to the location on your computer where the pending.xacts file is saved.
-. Select the file for importing.
-. The *Pending Transactions* list will populate with your imported transactions.
-. You may now proceed according to the instructions under <<_upload_offline_transactions,Upload Offline Transactions>>.
 
 Exceptions
 ^^^^^^^^^^
@@ -161,3 +133,31 @@ Common event names in the Exceptions List include:
 * +ACTOR_CARD_NOT_FOUND+ - Indicates the patron's library barcode was mis-scanned, mis-typed, or nonexistent.
 * +OPEN_CIRCULATION_EXISTS+ - Indicates a book was checked out that had never been checked in.
 * +MAX_RENEWALS_REACHED+ - Indicates the item has already been renewed the maximum times allowed.  Note that if the staff member processing the offline transaction set has the +MAX_RENEWALS_REACHED.override+ permission at the appropriate level, the system will automatically override the error and will allow the renewal.
+
+
+
+Export Offline Transactions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you anticipate a *multi-day closing* or if you plan to *process your offline transactions at a different workstation*, you will want to export your offline transactions.
+
+To export transactions while you are offline, navigate to *Circulation -> Offline Circulation* and click *Export Transactions* in the top-right of the screen.  This will save a file entitled pending.xacts to your browser's default download location.  If you will be processing these transactions on another workstation, move this file to an external device like a thumb drive.
+
+To export transactions while you are logged in, navigate to *Circulation -> Offline Circulation* and click on the *Session Management* tab.  Click on the *Export Transactions* button to generate the pending.xacts file as above.  If you wish, you can at this point click *Clear Transactions* to clear the list of pending transactions.
+
+Upload Previously Exported Transactions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you had previous exported your offline transactions you can upload them for processing.
+
+To import transactions:
+
+. Log in to the staff client via your *Login Page*
+. Navigate to *Circulation -> Offline Circulation*
+. Click on the *Session Management* tab.
+. Click on the *Import Transactions* button.
+. Navigate to the location on your computer where the pending.xacts file is saved.
+. Select the file for importing.
+. The *Pending Transactions* list will populate with your imported transactions.
+. You may now proceed according to the instructions under <<_upload_offline_transactions,Upload Offline Transactions>>.
+
