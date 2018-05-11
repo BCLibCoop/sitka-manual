@@ -121,6 +121,7 @@ These are a few notes about possible exceptions. It is not an all-inclusive list
 * The Offline Interface can recognize blocked, barred, and expired patrons if you have downloaded the Offline Block List in the browser you are using.  You will get an error message indicating the patron status from within the Standalone Interface at check-out time.  See the section on the <<download_offline_block_list,Offline Block List>> for more information.
 
 At the right side of each exception are buttons for *Item*, *Patron*, and *Debug*.
+
 * Clicking the *Item* button will retrieve the associated item in a new browser window.
 * Clicking on the *Patron* button will retrieve the associated patron in a new browser window.
 * Clicking the *Debug* button will result in a modal with detailed debugging information.
