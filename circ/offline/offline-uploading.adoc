@@ -149,7 +149,7 @@ Export Offline Transactions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To export transactions while you are offline, navigate to *Circulation -> Offline Circulation* and click *Export Transactions* in the top-right of the screen.  This will save a file entitled pending.xacts to your browser's default download location. If you will be processing these transactions on another workstation, move this file to an external device like a thumb drive.
-+
+
 image::images/circ/offline-upload9.png[]
 
 NOTE: Depending on your browser's setting, you may be prompted to choose a location to save file.
