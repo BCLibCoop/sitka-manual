@@ -23,7 +23,9 @@ image::images/serials/serialsadmincopytemp.png[]
 image::images/serials/copytemplate.png[]
 +
 . Enter a _Template Name_.
+
 . Choose the item attributes for this template.
+
 . Click *Save*.
 +
 image::images/serials/copytemplate1.png[]
@@ -32,19 +34,24 @@ Edit a Serial Copy Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Click *Administration* -> *Serials Administration* -> *Serial Copy Templates*.
+
 . Click the check box beside the template you want to edit.
+
 . Click *Actions* -> Choose _Edit Template_.
 +
 image::images/serials/copytemplate3.png[]
 +
 . Edit the item attributes for this template.
+
 . Click *Save*.
 
 Delete a Serial Copy Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Click *Administration* -> *Serials Administration* -> *Serial Copy Templates*.
+
 . Click the check box beside the template you want to delete.
+
 . Click *Actions* -> Choose _Delete Template_.
 +
 image::images/serials/copytemplate4.png[]
@@ -67,13 +74,17 @@ image::images/serials/serialsadminprediction.png[]
 image::images/serials/prediction1.png[]
 +
 . Enter a *Name*.
+
 . Click *Pattern Wizard*. The wizard has five tabs that will step you through creating a prediction pattern for your publication.
 +
 image::images/serials/prediction2.png[]
 +
 .. See xref:pattern-wizard[] for detailed instructions.
+
 . Choose the *Owning Library*.
+
 . Choose the *Share Depth*.
+
 . Click *Save*.
 +
 image::images/serials/prediction3.png[]
@@ -83,24 +94,32 @@ Pattern Wizard
 ^^^^^^^^^^^^^^
 
 .*Enumeration Labels*
+
 . Select the radio button adjacent to *Use enumerations*.
 .. The enumerations conform to $a-$h of the 853,854 and 855 MARC tags.
 .. If the publication only uses dates, select the radio button adjacent to *Use Calendar Dates Only* and click *Next* in the upper right-hand corner. _Skip to next step_.
+
 . Enter the first level of enumeration in the field labeled *Level 1* -> Click *Add Level*.
 .. A common first level enumeration is volume, or "v.".
+
 . Enter the second level of enumeration in the field labeled *Level 2*.
 .. A common second level enumeration is number, or "no.".
+
 . Select if the second level of enumeration is a set Number, Varies, or is Undetermined.
 .. *Number* - Enter the number of bibliographic units per next higher level (e.g. 12 no. per v.).
 ... This conforms to $u in the 853, 854, and 855 MARC tags.
 .. Select the radio button for the enumeration scheme: *Restarts at unit completion* or *Increments continuously*.
 ... This conforms to $v in the 853, 854, and 855 MARC tags.
+
 . You can add up to six levels of enumeration.
+
 . Check the box adjacent to *Add alternative enumeration* if the publication uses an alternative enumeration.
+
 . Check the box adjacent to *First level enumeration changes during subscription year* to configure calendar changes if needed.
 .. A common calendar change is for the first level of enumeration to increment every January.
 .. Select when the Change occurs from the drop down menu: Start of the month, Specific date, or Start of season.
 .. Select the specific point in time at which the first level of enumeration should change.
+
 . Click *Next*
 
 image:images/serials/pattern1.png[]
