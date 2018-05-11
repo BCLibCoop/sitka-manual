@@ -5,7 +5,7 @@ Conduct Offline Transactions
 
 To access Offline Circulation interface, go to *Circulation -> Offline Circulation*. Alternatively you may bookmark the URL for Offline Circulation: https://catalogue.libraries.coop/eg/staff/offline-interface and access it from there.
 
-TIP: The top menu bar will load when accessing Evergreen staff client during offline, though the login form will not.
+TIP: The top menu bar will load when accessing Evergreen staff client URL https://catalogue.libraries.coop/eg/staff/ during offline.
 
 CAUTION: Co-op support strongly recommends that you only use *Offline Circulation* for Check Out & Renew.
 
