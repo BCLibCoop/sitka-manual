@@ -15,6 +15,7 @@ NOTE: Besides the above regular steps, you may need to handle exceptions if some
 
 Once the network has come back up, a local system administrator must first create a session before uploading transactions. Then, staff can upload transactions from each of the workstations used in offline circulation to that session.  Once all of the library/branch workstations have uploaded their transactions, the local system administrator will process all the transactions in the session at once.
 
+CAUTION: Do not use slash (/) or backslash (\) in the session name.
 
 Create a session
 ^^^^^^^^^^^^^^^^
@@ -61,7 +62,7 @@ To process uploaded transactions, you need to log in with a local system adminis
 +
 image::images/circ/offlineupload6.png[]
 +
-. It may take a while if you have many transactions. Click *Refresh* to see the processing progress. Once all transactions are processed the Date Completed and Transactions Processed column will be updated. 
+. It may take a while if you have many transactions. Click *Refresh* to see the processing progress. Once all transactions are processed the Date Completed and Transactions Processed columns will be updated. 
 +
 image::images/circ/offlineupload7.png[]
 
