@@ -3,6 +3,14 @@ Offline Circulation
 
 Evergreen's Offline Circulation Module is designed to log transactions during network outage, which can be uploaded and processed once network operations are restored.
 
+[CAUTION]
+=============
+By default, offline transactions are saved as browser cookies on workstations. It is optional to keep them outside the browser by using Evergreen's storage management tool Hatch. 
+ 
+Do not delete browser cookies when you have pending offline transactions, if you do not use Hatch to store them.
+=============
+
+
 In order to do offline circulation, you need to make your workstations ready when you have network access. Some information required by the Offline Circulation program needs to be downloaded to your computers. You need to access Evergreen server to get it. 
 
 //include::offline/offline-intro.adoc[]

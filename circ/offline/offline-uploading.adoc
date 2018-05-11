@@ -69,41 +69,6 @@ image::images/circ/offlineupload7.png[]
 . Scroll to the bottom of the screen to see if there are any entries in the <<_exceptions,*Exception List*>>.  Some of these may require staff follow up. 
 
 
-
-////
-Upload Offline Transactions
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-. Open the *Evergreen Login Page*.  You will see a message telling you that there are *Unprocessed offline transactions waiting for upload*.
-+
-image::images/circ/offlineupload1.png[]
-+
-. Enter your *Username* and *Password*.
-. Click *Circulation* -> *Offline Circulation*.
-. You will now see a *Session Management* tab to the left of the Register Patron tab.  The Session Management tab includes *Pending Transactions* and *Offline Sessions*.
-.. In the *Pending Transactions* tab you will see a list of all transactions recorded on that browser.
-.. If you click *Clear Transactions*, you will be prompted with a warning.
-. Click on the *Offline Sessions* tab and then click *Create Session*.
-+
-image::images/circ/offlineupload3.png[]
-+
-. Enter a descriptive name for your session in the pop-up and click *OK/Continue* to proceed.
-. You will see your new session at the top of the *Session List*.
-.. The Session List may be sorted ascending or descending by clicking on one of the following column headers: *Organization*, *Created By*, *Description*, *Date Created*, or *Date Completed*.  The default sort is descending by Date Created.
-. Click *Upload* to upload everything listed in the *Pending Transactions* tab.
-+
-image::images/circ/offlineupload5.png[]
-+
-. Once all transactions are uploaded, the *Upload Count* column will update to show the number of uploaded transactions.
-. Click *Process* to process the offline transactions.  Click *Refresh* to see the processing progress.  Once all transactions are processed the *Date Completed* column will be updated.
-+
-image::images/circ/offlineupload6.png[]
-+
-. Scroll to the bottom of the screen to see if there are any entries in the <<_exceptions,*Exception List*>>.  Some of these may require staff follow up.
-+
-image::images/circ/offlineupload7.png[]
-////
-
 Handle Exceptions
 ^^^^^^^^^^^^^^^^^
 
