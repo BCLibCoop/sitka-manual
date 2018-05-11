@@ -20,9 +20,9 @@ The public catalogue defaults to the Basic Search where you can search for books
 other libraries in the consortium.
 
 Basic Search contains a single search box for you to enter a search term.
-+
+
 image::images/opac/opac-basic-search-1.png[]
-+
+
 You can select to search by:
 
 * Keyword — finds the terms you enter anywhere in the entire record for an item, including title, author, subject, and other information.
