@@ -2,7 +2,7 @@ Offline Workstation Set up
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-Prior to using Offline Circulation, you need to do the following:
+Prior to using Offline Circulation, you need to do the following, which requires network access:
 
 
 *Register the workstation* in the recommended browser on the computers you intend to use. Local system administrator's account is required to do it.
@@ -17,11 +17,29 @@ image::images/circ/downloadblocklist.png[]
 
 NOTE: This procedure should be repeated on a regular basis (daily, weekly etc.)
 
+The following procedures are optional, depending on whether you install and chooe to store offline transactions in Hatch.
 
-//Save Offline URL
-//^^^^^^^^^^^^^^^^
+[TIP]
+====
+By default, offline transactions are kept in the browser as cookies. Clearing the browser's cookies may delete them. 
+
+Hatch is Evergreen's printing and storage management tool. It allows libraries to set up default printers for different kinds of printing jobs, e.g. a printer for receipt printing and another for label printing. It also allows libraries to keep the offline transaction file and workstation settings in a local folder outside the browser. Clearing browser's cookies will not impact the settings or delete pending offline transactions. However, we strongly recommend you not keep offline transactions locally. You should upload them as soon as your network is restored.
+====
+
+*Set up a default printer for Offline Circulation*, go to *Administration -> Workstation -> Printer Settings*.
+
+*Switch to store offline transactions to Hatch*, you need to log into Evergreen with a local system administrator account.
+
+. Go to *Administration -> Workstation*. 
+. Click *Print/Storage Service ('Hatch')*
+. Make sure that you see that Hatch is available. Click *Store Offline Transaction Data in Hatch*.
+
 
 ////
+Save Offline URL
+^^^^^^^^^^^^^^^^
+
+
 The permanent link for *Offline Circulation* is *https://catalogue.libraries.coop/eg/staff/offline-interface* we recommend that this link is bookmarked on staff workstations.  This is the location for both entering transactions while offline as well as processing them later.  You will see a slightly different version of this interface depending on whether or not you are logged in.
 +
 * If you are logged out, you will see the tab default to *Checkout* and the button on the top-right will read *Export Transactions*.
@@ -49,7 +67,6 @@ To download the block list, navigate to *Circulation* -> *Offline Circulation* a
 image::images/circ/downloadblocklist.png[]
 +
 If you attempt a checkout or a renewal for a patron on the block list, you will get a modal informing you that the patron has penalties.  Click the *Allow* button to override this and proceed with the transaction.  Click the *Reject* button to cancel the checkout or renewal.
-////
 
 
 
@@ -69,7 +86,7 @@ xref:download-hatch-ref[] must be installed and enabled on your workstation
 . Click *Administration* -> *Workstation* -> *Printer Settings*.
 . Click *Offline* ->
 
-////
+
 Save Patron Registration Form
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
