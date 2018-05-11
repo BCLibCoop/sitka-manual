@@ -28,7 +28,7 @@ Hatch is Evergreen's printing and storage management tool. It allows libraries t
 
 *Set up a default printer* for Offline Circulation, go to *Administration -> Workstation -> Printer Settings*.
 
-*Switch to store offline transactions to Hatch*, you need to log into Evergreen with a local system administrator account. Go to *Administration -> Workstation*. 
+*Switch to storing offline transactions to Hatch*, you need to log into Evergreen with a local system administrator account. Go to *Administration -> Workstation*. 
 Click *Print/Storage Service ('Hatch')*. Make sure that you see that Hatch is available. Click *Store Offline Transaction Data in Hatch*.
 
 
