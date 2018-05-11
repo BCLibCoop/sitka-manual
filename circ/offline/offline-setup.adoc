@@ -26,13 +26,10 @@ By default, offline transactions are kept in the browser as cookies. Clearing th
 Hatch is Evergreen's printing and storage management tool. It allows libraries to set up default printers for different kinds of printing jobs, e.g. a printer for receipt printing and another for label printing. It also allows libraries to keep the offline transaction file and workstation settings in a local folder outside the browser. Clearing browser's cookies will not impact the settings or delete pending offline transactions. However, we strongly recommend you not unnecessarily keep offline transactions locally. You should upload them as soon as your network is restored.
 ====
 
-*Set up a default printer for Offline Circulation*, go to *Administration -> Workstation -> Printer Settings*.
+*Set up a default printer* for Offline Circulation, go to *Administration -> Workstation -> Printer Settings*.
 
-*Switch to store offline transactions to Hatch*, you need to log into Evergreen with a local system administrator account.
-
-. Go to *Administration -> Workstation*. 
-. Click *Print/Storage Service ('Hatch')*
-. Make sure that you see that Hatch is available. Click *Store Offline Transaction Data in Hatch*.
+*Switch to store offline transactions to Hatch*, you need to log into Evergreen with a local system administrator account. Go to *Administration -> Workstation*. 
+Click *Print/Storage Service ('Hatch')*. Make sure that you see that Hatch is available. Click *Store Offline Transaction Data in Hatch*.
 
 
 ////
