@@ -1,12 +1,18 @@
-Offline Transactions
-~~~~~~~~~~~~~~~~~~~~
+Conduct Offline Transactions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-CAUTION: Sitka Support strongly recommends that you only use *Offline Circulation* for Check Out & Renew.
+
+
+To access Offline Circulation interface, go to *Circulation -> Offline Circulation*. Alternatively you may bookmark the URL for Offline Circulation: https://catalogue.libraries.coop/eg/staff/offline-interface and access it from there.
+
+TIP: The top menu bar will load when accessing Evergreen staff client during offline, though the login form will not.
+
+CAUTION: Co-op support strongly recommends that you only use *Offline Circulation* for Check Out & Renew.
 
 Check Out
 ^^^^^^^^^
 
-To check out items in *Offline Circulation*:
+To check out items in Offline Circulation:
 
 . Click the *Checkout* tab.
 . Enter a value in the *Due Date* field or select a date from the Calendar widget.  You may also select an option from the *Offset Dropdown*.  The date field entry will honor the format set in the Library Settings Editor.
@@ -15,7 +21,7 @@ To check out items in *Offline Circulation*:
 .. For cataloged items, scan the item barcode in the box labelled *Item Barcode*.  Each item barcode will appear on the right side of the screen, along with its due date and the patron barcode.  If you are manually typing barcodes, you need to click the *Checkout* button or hit the *Enter* key on your keyboard after each Item Barcode entry in order to record the transaction.
 .. For non-cataloged items, select a *Non-cataloged Type* from the dropdown and enter the number of items you wish to check out.  Click *Checkout*.  In the list to the right, the item barcode will appear blank since this item is unbarcoded.  The due date and patron barcode will appear, however.
 .. If you make an error in entry, click *Clear* to reset the Patron Barcode and Item Barcode fields.
-. Make sure *Strict Barcode* is unchecked.
+. Make sure *Strict Barcode* is unchecked if you use non-codabar barcodes.
 . To print a receipt, check *Print Receipt*.
 +
 image::images/circ/offlinecheckout1.png[]

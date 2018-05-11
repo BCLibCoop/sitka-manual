@@ -1,10 +1,36 @@
-Upload Offline Transactions
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Upload and Process Offline Transactions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Once you are able to connect to the server, you need to upload the offline transactions.  It is good practice to do this as soon as possible, but if the local system administrator is not on site for a day or two do not panic.
+
+There are 3 steps to to load offline transactions into Evergreen database:
+
+. Create a session: to be done by local system administrators at an administration workstation. This process creates a file on the server outside Evergreen database.
+
+. Upload transactions to a session: to be done by circulation staff at circulation workstations. Offline transactions are uploaded to the file created on the server.
+
+. Process the uploaded transactions: to be done by local system administrators at an administration workstation. Offline transactions are loaded into Evergreen database.
+
+Once the network has come back up, a local system administrator must first create a session before uploading transactions. Then, staff can upload transactions from each of the workstations used in offline circulation to that session.  Once all of the branch workstations have uploaded their transactions, the local system administrator will process all the transactions in the session at once.
+
+
+Create a session
+^^^^^^^^^^^^^^^^
+
+. Log into Evergreen with a local system administrator account.
+. Go to *Circulation -> Offline Circulation*.
+. On Session Management tab, click *Offline Sessions*.
+. Click *Create Session*.
++
+image::images/circ/offlineupload3.png[]
++
+. On the prompt, type in a name. Click *OK/Continue*.
+. The new session shows up on top of the list.
+
+
+////
 Upload Offline Transactions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Once connectivity is restored you will need to upload your offline transactions.
 
 . Open the *Evergreen Login Page*.  You will see a message telling you that there are *Unprocessed offline transactions waiting for upload*.
 +
@@ -34,6 +60,8 @@ image::images/circ/offlineupload6.png[]
 . Scroll to the bottom of the screen to see if there are any entries in the <<_exceptions,*Exception List*>>.  Some of these may require staff follow up.
 +
 image::images/circ/offlineupload7.png[]
+
+////
 
 Export Offline Transactions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
