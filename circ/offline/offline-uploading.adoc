@@ -27,6 +27,45 @@ image::images/circ/offlineupload3.png[]
 . On the prompt, type in a name. Click *OK/Continue*.
 . The new session shows up on top of the list.
 
+Upload transactions to a session
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If there are pending offline transactions on a workstation, on the login page there will be an alert.
+
+image::images/circ/offlineupload1.png[]
+
+You need to upload the transactions to the session just created on each workstation used for offline circulation. 
+
+. To upload, log in to Evergreen. 
+. Go to *Circulation -> Offline Circulation*.
+. You will see transactions listed on *Pending Transactions* tab under *Session Management*.
++
+image::images/circ/offlineupload1.png[]
++
+. Click *Offline Sessions* tab. You will see the session your local system administrator just created. Click *Upload*. 
++
+image::images/circ/offlineupload5.png[]
++
+. Repeat the above process on each workstation used for offline circulation. Once done, local system adminstrator may process the session.
+
+Process the uploaded transactions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To process uploaded transactions, you need to log in with a local system administrator's account. 
+
+. Go to the offline session you created.
+. Check the *Upload Count*, which indicates the number of workstations that have uploaded offline transactions.
+. If the number matches the number of workstations used during offline, click *Process*. 
++
+image::images/circ/offlineupload6.png[]
++
+. It may take a while if you have many transactions. Click *Refresh* to see the processing progress. Once all transactions are processed the Date Completed and Transactions Processed column will be updated. 
++
+image::images/circ/offlineupload7.png[]
+
+. Scroll to the bottom of the screen to see if there are any entries in the <<_exceptions,*Exception List*>>.  Some of these may require staff follow up.
+
+
 
 ////
 Upload Offline Transactions
@@ -62,6 +101,8 @@ image::images/circ/offlineupload6.png[]
 image::images/circ/offlineupload7.png[]
 
 ////
+
+
 
 Export Offline Transactions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
