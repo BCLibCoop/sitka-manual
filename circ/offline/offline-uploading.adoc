@@ -13,7 +13,7 @@ There are 3 steps to to load offline transactions into Evergreen database:
 
 NOTE: Besides the above regular steps, you may need to handle exceptions if some of your transactions can not be processed.
 
-Once the network has come back up, a local system administrator must first create a session before uploading transactions. Then, staff can upload transactions from each of the workstations used in offline circulation to that session.  Once all of the branch workstations have uploaded their transactions, the local system administrator will process all the transactions in the session at once.
+Once the network has come back up, a local system administrator must first create a session before uploading transactions. Then, staff can upload transactions from each of the workstations used in offline circulation to that session.  Once all of the library/branch workstations have uploaded their transactions, the local system administrator will process all the transactions in the session at once.
 
 
 Create a session
