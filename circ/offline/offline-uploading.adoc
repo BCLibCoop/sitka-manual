@@ -157,9 +157,12 @@ NOTE: Depending on your browser's setting, you may be prompted to choose a locat
 
 To export transactions while you are logged in, navigate to *Circulation -> Offline Circulation* and click on the *Session Management* tab.  Click on the *Export Transactions* button to generate the pending.xacts file as above.  
 
-Double check to make sure the file is saved safely on the workstation, click *Clear Transactions* to clear the pending transactions. If you do not clear them, next time when you do offline transaction, your records will be appended to these transactions.
+Double check to make sure the file is saved safely on the workstation, click *Clear Transactions* to clear the pending transactions. 
 
 image::images/circ/offline-upload10.png[]
+
+CAUTION: If you do not clear transactions after exporting, next time when you do offline circulation, your records will be appended to these transactions.
+
 
 Import Offline Transactions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
