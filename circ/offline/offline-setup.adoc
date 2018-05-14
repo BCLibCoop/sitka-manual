@@ -5,16 +5,16 @@ Set up Workstations for Offline Circulation
 Prior to using Offline Circulation, you need to do the following, which requires network access:
 
 
-*Register the workstation* in the recommended browser on the computers you intend to use. Local system administrator's account is required to do it.
+. *Register the workstation* in the recommended browser on the computers you intend to use. Local system administrator's account is required to do it.
++
+. *Load configuration information* by performing a patron search. Select any patron on the result list. Go to Edit tab. The relevent configuration information for the workstation is downloaded during this process. 
 
-*Load configuration information* by performing a patron search. Select any patron on the result list. Go to Edit tab. The relevent configuration information for the workstation is downloaded during this process. 
-
-*Download Offline Block List*. The list contains patrons with blocks at the time of the download. Offline Circulation will check patrons against this list and prompt staff if a patron is found on the list when you try to check out or renew items.
-
+. *Download Offline Block List*. The list contains patrons with blocks at the time of the download. Offline Circulation will check patrons against this list and prompt staff if a patron is found on the list when you try to check out or renew items.
++
 To download the block list, navigate to *Circulation -> Offline Circulation*. Click *Download Block List* button.
-
++
 image::images/circ/downloadblocklist.png[]
-
++
 NOTE: This procedure should be repeated on a regular basis (daily, weekly etc.)
 
 The following two steps are optional. You may do it if you choose to install Hatch and store offline transactions in it. 
@@ -23,12 +23,12 @@ The following two steps are optional. You may do it if you choose to install Hat
 ====
 By default, offline transactions are kept in the browser as cookies. Clearing the browser's cookies may delete them. 
 
-Hatch is Evergreen's printing and storage management tool. It allows libraries to set up default printers for different kinds of printing jobs, e.g. a printer for receipt printing and another for label printing. It also allows libraries to keep the offline transaction file and workstation settings in a local folder outside the browser. Clearing browser's cookies will not impact the settings or delete pending offline transactions. However, we strongly recommend you not unnecessarily keep offline transactions locally. You should upload them as soon as your network is restored.
+Hatch is Evergreen's printing and storage management tool. It allows libraries to set up default printers for different kinds of printing jobs, e.g. a printer for receipt printing and another for label printing. It also allows libraries to keep the offline transaction file and workstation settings in a local folder outside the browser. Clearing browser's cookies will not impact the settings or delete pending offline transactions. However, we strongly recommend you not unnecessarily keep offline transactions local. You should upload them as soon as your network is restored.
 ====
 
-*Set up a default printer* for Offline Circulation, go to *Administration -> Workstation -> Printer Settings*.
-
-*Switch to store offline transactions to Hatch*, you need to log into Evergreen with a local system administrator account. Go to *Administration -> Workstation*. 
+. *Set up a default printer* for Offline Circulation, go to *Administration -> Workstation -> Printer Settings*.
++
+. *Switch to storing offline transactions to Hatch*, you need to log into Evergreen with a local system administrator account. Go to *Administration -> Workstation*. 
 Click *Print/Storage Service ('Hatch')*. Make sure that you see that Hatch is available. Click *Store Offline Transaction Data in Hatch*.
 
 

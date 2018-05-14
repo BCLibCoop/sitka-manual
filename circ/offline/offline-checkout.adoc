@@ -1,13 +1,19 @@
 Conduct Offline Transactions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-
 To access Offline Circulation interface, go to *Circulation -> Offline Circulation*. Alternatively you may bookmark the URL for Offline Circulation: https://catalogue.libraries.coop/eg/staff/offline-interface and access it from there.
 
-TIP: The top menu bar will load when accessing Evergreen staff client during offline, though the login form will not.
+[TIP] 
+=====
+The top menu bar will load when accessing Evergreen staff client at https://catalogue.libraries.coop/eg/staff/ during offline. 
 
-CAUTION: Co-op support strongly recommends that you only use *Offline Circulation* for Check Out & Renew.
+You may see different contents when accessing the above two URLs during online and offline time.
+
+You may see some different contents on some screens in Offline Circulation module when you access it during online and offline time, and when you are logged in and not. 
+
+====
+
+CAUTION: Co-op support strongly recommends that you only use Offline Circulation for *Check Out* & *Renew*.
 
 Check Out
 ^^^^^^^^^
@@ -15,7 +21,7 @@ Check Out
 To check out items in Offline Circulation:
 
 . Click the *Checkout* tab.
-. Enter a value in the *Due Date* field or select a date from the Calendar widget.  You may also select an option from the *Offset Dropdown*.  The date field entry will honor the format set in the Library Settings Editor.
+. Enter a value in the *Due Date* field or select a date from the Calendar widget, or choose a loan period from the dropdown list.  The date field entry will honor the format set in the Library Settings Editor.
 . Scan the Patron Barcode in the box labelled *Patron Barcode*.
 . Check out items:
 .. For cataloged items, scan the item barcode in the box labelled *Item Barcode*.  Each item barcode will appear on the right side of the screen, along with its due date and the patron barcode.  If you are manually typing barcodes, you need to click the *Checkout* button or hit the *Enter* key on your keyboard after each Item Barcode entry in order to record the transaction.
