@@ -15,7 +15,7 @@ Introduction
 ============
 include::intro/intro-whatsnew.adoc[New Features in Evergreen Version 3.1]
 
-include::intro/intro-newbehaviour.adoc[New Behaviour in Evergreen Version 3.1]
+//include::intro/intro-newbehaviour.adoc[New Behaviour in Evergreen Version 3.1]
 
 include::intro/intro-revisions.adoc[Revisions to Version 3.1 and Attributions to Contributors]
 
