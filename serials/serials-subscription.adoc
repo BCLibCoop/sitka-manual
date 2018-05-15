@@ -5,7 +5,7 @@ The Serials Module can be used to create subscriptions, distributions, streams, 
 
 To access the Serials Module, go to a serials record in the catalog, and click on *Serials* -> *Manage Subscriptions*.  This will open the serials interface for that particular record.
 
-image:images/serials/subscription1.png[]
+image:images/serials/subscription.png[]
 
 Create and Manage Subscriptions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -15,23 +15,22 @@ A subscription must be added to a bibliographic record. If the record is not alr
 . Retrieve the bibliographic record you would like to attach your subscription to.
 . Click *Serials* -> Choose *Manage Subscriptions*.
 . Existing subscriptions for the workstation location will be displayed.
-.. Multibranch libraries will need to choose the system level library code to see their subscriptions.
 . Click *New Subscription*
 +
 image:images/serials/subscription1.png[]
 +
 . Enter the subscription information.
 .. *Owned By* - Owning Library
-.. *Start Date* - The subscription start date
-.. *End Date* - The Subscription end date (Optional)
-.. *Expected Offset* - The difference between the nominal publishing date of an issue and the date that you expect to receive your copy. (Optional)
+.. *Start Date* - Subscription start date
+.. *End Date* - Subscription end date (Optional)
+.. *Expected Offset* - Difference between the nominal publishing date of an issue and the date that you expect to receive your copy. (Optional)
 .. *Distributed At* - Circulation Library
 ... Click *Add Distribution* to add a second copy to the subscription
-.. *Label*
+.. *Label* - Free Text field
 .. *OPAC Display* - Whether the public catalog display of issues should be grouped by chronology (e.g., years) or enumeration (e.g., volume and number).
-.. *Receiving Template*
-.. *Send to*
-... Click *Add Copy stream* to add additional Routing
+.. *Receiving Template* - Specifies the item attributes applied on receipt - see xref:serial-copy-template[] for more information.
+.. *Send to* - Designate specific users and/or departments that serial items need to be routed to upon receiving.
+... Click *Add Copy stream* to add additional Routing.
 . Click *Save*
 +
 image:images/serials/subscription2.png[]
@@ -41,8 +40,8 @@ Create and Manage Predictions
 
 From the Manage Predictions tab you can create a new prediction pattern from scratch, use an existing pattern template, or use an existing pattern template as the basis for a new prediction pattern.
 
-. Retrieve the bibliographic record you would like to attach your subscription to.
-. Click *Serials* -> Choose *Manage Subscriptions*.
+. Retrieve the bibliographic record your subscription is attached to.
+. Click *Serials* -> Choose *Manage Subscriptions* -> Click *Manage Predictions*
 +
 image:images/serials/subscription3.png[]
 
