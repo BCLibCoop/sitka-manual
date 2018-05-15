@@ -57,8 +57,9 @@ Copy Tag
 
 anchor:copy-tag[Copy Tag]
 
+////
 Libraries may add searchable copy tags to *Digital Bookplate*. Go to *Administration -> Local Administration -> Copy Tag*. Click *New Record* to add new tags. Select *Digital Bookplate* from the Copy Tag Type dropdown list. Type in a label and value, if needed. Select *Is OPAC Visible?* checkbox if you wish the tag to show up on OPAC, Choose your library from the Owner dropdown list. Click *Save*.
 
 image::images/admin/copy-tag-1.png[]
 
-
+////

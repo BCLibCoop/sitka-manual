@@ -65,6 +65,9 @@ NOTE: Notes can not be edited. There can be multiple notes for one copy record.
 Copy Tag
 ^^^^^^^^
 
+Not in use yet.
+
+////
 A copy tag adds searchable information to copy records. Staff and patrons search the copy tag by choosing *Digital Bookplate* on the catalogue.
 
 image::images/cat/copy-alert-7.png[]
@@ -89,6 +92,7 @@ Copy tags can be removed via the same process.
 . Click *OK* to close the pop-up window.
 . Click *Save & Exit* on copy editor.
 
+////
 
 Copy Statistical Category (Stat Cat)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
