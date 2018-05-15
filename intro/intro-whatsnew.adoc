@@ -24,7 +24,7 @@ This feature allows patrons to receive checkout receipts through email at the ci
 Allow Others to Use My Account in Patron Summary
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Allow Others to Use My Account informatin is displayed in patron summary area.
+Allow Others to Use My Account information is displayed in patron summary area.
 
 Batch Editing Patrons
 ^^^^^^^^^^^^^^^^^^^^^
@@ -126,11 +126,11 @@ Cataloguing
 ~~~~~~~~~~~
 
 
-* Merge Profile is applied when merging bibliographic records in Record Bucket and overlaying records via Z35.50.
+* Ehnancement on merging bibliographic records in Record Bucket and overlaying records via Z35.50. Merge profile may be applied.
 +
 . Big interface and function changes on Holdings View, which requires new workflow. Please read the cataloguing document at xref:add_holdings[] and xref:_maintaining_holdings[]  before you attempt to catalogue new items.
 +
-* Change in label printing. Refer to xref:spine-label[]
+* Change in label printing. Refer to xref:spine-label[].
 
 
 Catalogue
