@@ -8,7 +8,7 @@ New Staff Client on Web Browser
 +
 * Workstations have to be registered the first time you access the new staff URL, and you must be an Evergreen Local System Administrator (LSA) to register workstations. All existing staff logins will work once a workstation is registered.
 +
-* Though the new web client looks and functions similar to the old staff client, you will experience differences when navigating on it. Please refer to xref:_getting_startrd[] and xref:configure-browser[] for details.
+* Though the new web client looks and functions similar to the old staff client, you will experience differences when navigating on it. Please refer to xref:_getting_started[] and xref:configure-browser[] for details.
 +
 * The new web client is responsive to device and to screen size, and can look different on different devices.
 
@@ -83,7 +83,7 @@ This feature does not change the way in which the system fills holds. The multip
 Alternate Patron Hold Pickup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-When an on-hold item is being checked out to another patron, not the requester, on the prompt there is a new checkbox allowing staff to cancel the hold during the checking out. If the borrower is picking up the item on behalf of the requester, you can select the checkbox to cancel the hold. However, such cancelled holds are not counted as fulfilled. If you track fulfilled holds statistics, Co-op Support suggests you check out the item to the requester only.
+When an on-hold item is being checked out to another patron, not the requester, there is a new checkbox in the prompt allowing staff to cancel the hold during the check out. If the borrower is picking up the item on behalf of the requester, you can select the checkbox to cancel the hold. However, such cancelled holds are not counted as fulfilled. If you track fulfilled holds statistics, Co-op Support suggests you check out the item to the requester only.
 
 There is a new library setting, Clear Hold When Other Patron Checks Out Item,  to allow libraries to choose whether the cancel hold checkbox is selected by default.
 
@@ -126,7 +126,7 @@ Cataloguing
 ~~~~~~~~~~~
 
 
-* Ehnancement on merging bibliographic records in Record Bucket and overlaying records via Z35.50. Merge profile may be applied.
+* Enhancement to allow a merge profile to be applied on merging bibliographic records in Record Buckets, and overlaying records via Z35.50.
 +
 * Big interface and function changes on Holdings View, which requires new workflow. Please read the cataloguing document at xref:add_holdings[] and xref:_maintaining_holdings[]  before you attempt to catalogue new items.
 +
