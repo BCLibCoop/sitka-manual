@@ -7,7 +7,13 @@ Quick Receive
 ~~~~~~~~~~~~~
 
 . From a serials record in the catalog, go to *Serials* -> *Quick Receive*.
++
+image::images/serials/quickreceive1.png
++
 . Select the Library and Subscription for which you are receiving issues from the drop down menu and click *OK/Continue*.
++
+image::images/serials/quickreceive2.png
++
 . A Receive items dialog box will appear with the next expected issue.
 
 *To receive the item(s) and barcode them:*
@@ -15,6 +21,9 @@ Quick Receive
 . *Call Number*: Enter a call number. Any item with a barcode must also have a call number.
 . *Barcode*: Scan in the barcode that will be affixed to the issue.
 . The box adjacent to Receive the issue will be checked by default.
++
+image::images/serials/quickreceive3.png
++
 . Click *Save* to receive the issue. The Status of the issue will update to "Received" and a Date Received will be recorded.
 . The barcoded copy will now appear in the holdings area of the catalog and the Holdings Summary in the Issues Held tab in the catalog will reflect the newly received issue.
 
@@ -23,6 +32,9 @@ NOTE: The Copy Location and Circulation Modifier will be pre-populated from the 
 *To receive the item(s) without barcoding them:*
 
 . Uncheck the box adjacent to Barcode Items and click Save. The Holdings Summary in the Issues Held tab in the catalog will reflect the newly received issue.
++
+image::images/serials/quickreceive4.png
+
 
 Receive from the Manage Issues tab
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
