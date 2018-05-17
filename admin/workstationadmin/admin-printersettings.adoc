@@ -1,16 +1,16 @@
 Printer Settings
 ~~~~~~~~~~~~~~~~
 
-*Administration* -> *Workstation* -> *Printer Settings*
+Click *Administration* -> *Workstation* -> *Printer Settings*
 
 Printing without Hatch
 ^^^^^^^^^^^^^^^^^^^^^^
 
 If you do not have Hatch installed on your computer you will see this message "Hatch is not installed in this browser. Printing must be configured via the native browser print configuration."
 
-image:images/admin/printersettingsnohatch.png
+image:images/admin/printersettingnohatch.png
 
 Printing with Hatch
 ^^^^^^^^^^^^^^^^^^^
 
-If you do have Hatch installed on your computer you will use this screen to setup your printer defaults.
+If Hatch is installed on your computer you will use this screen to setup your printer defaults.
