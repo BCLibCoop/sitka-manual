@@ -203,7 +203,7 @@ The following settings should be configured in the Library Settings Editor befor
 
 |======================
 |Group|Setting|Description|Options|Notes
-|Serials|Default display grouping for serials distributions presented in the OPAC| | "enum" or "chron" | *enum* should display in the OPAC volume and number by month and year. *chron* will display in the OPAC by month  .
+|Serials|Default display grouping for serials distributions presented in the OPAC| | "enum" or "chron" | *enum* display in the OPAC by volume and number. *chron* display in the OPAC by month and year .
 |Serials|Previous Issuance Copy Location|When a serial issuance is received, copies (units) of the previous issuance will be automatically moved into the configured shelving location|   | use this setting to specify a default copy location for serials
 |OPAC| Use fully compressed serials holdings |    | "true" or "false" | *true* is recommended
 |======================
