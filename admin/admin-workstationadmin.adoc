@@ -20,7 +20,7 @@ Here you can view stored user preferences. User settings are added to the list w
 * Click on a preference to view the stored value.
 * Click on the delete (X) button to remove a preference's value
 
-image::images/admin/usersettings.png
+image::images/admin/usersettings.png[]
 
 Local Prefs
 ^^^^^^^^^^^
@@ -31,9 +31,6 @@ Remote Prefs
 ^^^^^^^^^^^^
 
 * Saved settings for any workstation registered to your Library
-
-Hatch
-~~~~~
 
 include::workstationadmin/admin-hatch.adoc[]
 
