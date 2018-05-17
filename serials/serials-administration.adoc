@@ -25,9 +25,9 @@ image::images/serials/serialsadmincopytemp.png[]
 image::images/serials/copytemplate.png[]
 +
 . Enter a _Template Name_.
-
++
 . Choose the item attributes for this template.
-
++
 . Click *Save*.
 +
 image::images/serials/copytemplate1.png[]
@@ -113,8 +113,6 @@ Pattern Wizard
 .. Select the radio button for the enumeration scheme: *Restarts at unit completion* or *Increments continuously*.
 ... This conforms to $v in the 853, 854, and 855 MARC tags.
 
-. You can add up to six levels of enumeration.
-
 . Check the box adjacent to *Add alternative enumeration* if the publication uses an alternative enumeration.
 
 . Check the box adjacent to *First level enumeration changes during subscription year* to configure calendar changes if needed.
@@ -157,24 +155,29 @@ image:images/serials/pattern3.png[]
 .. From the first drop down menu, select the appropriate publication information: Combined, Omitted, or Published issues.
 .. From the subsequent drop down menus, select the appropriate frequency and issue information.
 .. Add additional regularity rows as needed.
-.. For a Combined issue, enter the relevant combined issue code. E.g., for a monthly combined issue, enter 02/03 to specify that February and March are combined.
+.. For a Combined issue, enter the relevant combined issue code.
+... E.g., for a monthly combined issue, enter 02/03 to specify that February and March are combined.
 . Click *Next*
-
++
 image:images/serials/pattern4.png[]
 
 .*Review*
 . Review the *Pattern Summary*
 .. Click the blue arrows to see the *Raw Pattern Code*
++
+image:images/serials/pattern5.png[]
++
 . Click *Save*
 
-image:images/serials/pattern5.png[]
 
 Edit a Prediction Pattern Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Click *Administration* -> *Serials Administration* -> *Prediction Pattern Templates*.
+
 . Click the check box beside the template you want to edit.
-. Click *Actions* -> Choose _Edit Template_.
+
+. Click *Actions* -> Choose *Edit Record*.
 +
 image::images/serials/prediction6.png[]
 
@@ -185,7 +188,7 @@ Delete a Prediction Pattern Template
 
 . Click *Administration* -> *Serials Administration* -> *Prediction Pattern Templates*.
 . Click the check box beside the template you want to delete.
-. Click *Actions* -> Choose _Delete Template_.
+. Click *Actions* -> Choose *Delete Selected*.
 +
 image::images/serials/prediction7.png[]
 
