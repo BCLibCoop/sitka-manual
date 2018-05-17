@@ -1,48 +1,46 @@
 Public Catalogue Holds
 ----------------------
 
-Through your public catalogue patron can place for a particular title or specific volume. If the item is available, it will appear on a 
-library's holds pull list and be pulled from the shelf and held for your patron. If the item 
-is not available your patron is be placed on a waiting list and notified when the item become available.
+Patrons can place holds for a particular title or a specific volume on your public catalogue. If the item is available, it will appear on a
+library's holds pull list and be pulled from the shelf and held for your patron. If the item is not available, the patron is placed on a waiting list and notified when the item become available.
 
 NOTE: Some libraries do not allow holds to be placed on available items.
 
 Title and Volume Holds
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Patron can place holds using the *Place Hold* link in the search results view or on the title details page. 
-Using either of these links means that any copy attached to the record will fill the hold. This is generally 
-the best method when requesting an item, as the hold will be filled by any copy of the title record you are 
+Patrons can place holds using the *Place Hold* link in the search results view or on the title details page.
+Using either of these links means that any copy attached to the record will fill the hold. This is generally
+the best method when requesting an item, as the hold will be filled by any copy of the title record you are
 viewing.
 
-If a patron wants a specific issue of a magazine or a specific DVD in a set, they can select *Volume Hold* 
+If a patron wants a specific issue of a magazine or a specific DVD in a set, they can select *Volume Hold*
 in the item details view just below.
 
 After clicking on *Place Hold* the system will prompt the patron to log into their account.
 
-If your library is multi-branch or participates in reciprocal borrowing your patron can choose their 
+If your library is a multi-branch or participates in resource sharing, patrons can choose their
 pickup location.
 
-Patrons can choose to be notified by phone, text message, or email. The notification method will be selected 
-automatically if they have set it in their account preferences but can be overriden on this screen.
+Patrons can choose to be notified by phone, text message, or email. The notification method will be selected
+automatically if they have set it in their account preferences but can be overridden on this screen.
 
-The phone number and email set in your patron's account will be used to populare the notification options but 
-our patrons can supply a different phone number for phone or text notification when placing their hold.
+The phone number and email set in your patron's account will be used to populate the notification options but
+patrons can supply a different phone number for phone or text notification when placing their hold.
 
-While placing holds patrons have the option to suspend the hold so it can be activated at a later date.
+Patrons have the option to suspend the hold so it can be activated at a later date.
 
-Once your patron clicks *Submit* a message will appear confirming their hold was successfully placed or 
+Once your patron clicks *Submit* a message will appear confirming their hold was successfully placed or
 indicating that their hold could not be placed.
 
-Patrons can view and cancel their holds at anytime through My Account. Patrons can edit, suspend or activate 
+Patrons can view and cancel their holds at anytime through My Account, and can edit, suspend, or activate
 their holds until they are captured for pick up.
 
 
 Placing Holds on Multiple Records of the Same Title
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If _Group by Formats and Edition_ was selected when doing a search, your patron may place a hold on multiple 
-records  of the title but of different formats or editions by clicking *Place Hold* to the right of the 
+If _Group by Formats and Edition_ was selected when doing a search, your patron may place a hold on multiple
+records  of the title but of different formats or editions by clicking *Place Hold* to the right of the
 meta record.
-
-Your patron may select the acceptable formats on the placing hold screen.
+Patrons can select the acceptable formats on the place hold screen.
