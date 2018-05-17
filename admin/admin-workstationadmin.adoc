@@ -15,7 +15,7 @@ include::workstationadmin/admin-printtemplates.adoc[]
 Stored Preferences
 ~~~~~~~~~~~~~~~~~~
 
-Here you can view stored user preferences. User settings are added to the list whenever you choose to *Save Columns*, *Set default view* or pick a value from a sticky dropdown menu.
+Here you can view stored user preferences. User settings are added to the list whenever you choose to *Save Columns*, *Set default view* or pick a value from a sticky drop down menu.
 
 * Click on a preference to view the stored value.
 * Click on the delete (X) button to remove a preference's value
@@ -35,7 +35,7 @@ Remote Prefs
 Hatch
 ~~~~~
 
-Refer to xref:download-hatch[] for detailed instructions
+include::workstationadmin/admin-hatch.adoc[]
 
 Tests
 ~~~~~
@@ -53,11 +53,16 @@ This will measure the websocket latency between your workstation client and the 
 
 NOTE: The current status of all BC Libraries Cooperative services can be found here - https://status.libraries.coop/
 
-
 Disable Sounds
 ~~~~~~~~~~~~~~
 
-Disable Sounds - Check the box for *Disable Sounds* to turn off the staff client Sounds.
+.Disable Sounds
+. Check the box for *Disable Sounds* to turn off the staff client Sounds.
 
-Test - Click the buttons to test the staff client sounds
-* Distinct sounds for *Success* *Info* *Warning* or *Error* events.
+.Test Sounds
+. Click the buttons to test the staff client sounds.
+. Distinct sounds will be played for each event.
+.. *Success*
+.. *Info*
+.. *Warning*
+.. *Error*

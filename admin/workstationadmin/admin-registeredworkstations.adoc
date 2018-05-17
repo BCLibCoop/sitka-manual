@@ -1,19 +1,16 @@
 Registered Workstations
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-You must register a workstation before you can log in to Sitka's Evergreen for the first time on a new computer or a new server.
-
-* Click *Administration* -> *Workstation* -> *Registered Workstations*
-
 Register a New Workstation For This Browser
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .Register more than one workstation on a computer.
+* Click *Administration* -> *Workstation* -> *Registered Workstations*
 . Choose your library short code from the drop down menu.
 . Enter a unique workstation name -> Click *Register*.
 . The new workstation is listed in the *Workstations Registered With This Browser* menu -> click *Use Now* to return to the login page.
 
-TIP: Multi-branch library adminstrators and Federation Coordinators will require multiple workstations.
+TIP: Multi-branch library adminstrators and Federation Coordinators may require multiple workstations.
 
 Workstations Registered With This Browser
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
