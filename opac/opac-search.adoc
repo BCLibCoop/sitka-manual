@@ -89,6 +89,8 @@ The available search options are the same as in Basic Search, but you may use on
 simultaneously. If you want to combine more than three search options, use the *Add Search Row* button to
 add more search input rows. Clicking the *X* button will close the search input row.
 
+image::images/opac/opac-advanced-search-1.png[scaledwidth="75%",alt="Basic Search"]
+
 
 Search Library
 ^^^^^^^^^^^^^^
@@ -172,6 +174,8 @@ You can access the Numeric Search by clicking on the *Numeric Search* tab on the
 . Use the drop-down menu to select ISBN, ISSN, Call Number, LCCN, TCN, or Item Barcode.
 . Enter the information and click *Search*.
 
+image::images/opac/opac-numeric-search-1.png[scaledwidth="75%",alt="Basic Search"]
+
 [TIP]
 =====
 Searching by Call Number will take you to the Shelf Browser.
@@ -188,6 +192,8 @@ If you are familiar with the MARC standard, you may search by specific MARC tags
 to the tag. For example, to search by publisher name, enter 260 b Random House.
 .. To search several tags simultaneously, use the *Add Row* option.
 . Click *Search* to run the search.
+
+image::images/opac/opac-expert-search-1.png[scaledwidth="75%",alt="Basic Search"]
 
 Browse the Catalogue
 ~~~~~~~~~~~~~~~~~~~~
@@ -211,6 +217,8 @@ The browse is constructed by the term _starting with_.
 . Select a field to browse, enter a keyword, and click *Browse*.
 . A list of results will appear.
 . Click on the bolded text to view bibliographic records.
+
+image::images/opac/opac-browse-catalogue-1.png[scaledwidth="75%",alt="Basic Search"]
 
 You may move backward or forward through your results by clicking on *Back* or *Next*. Note your results
 are alphabetical, with results prior to your search term, and after, listed.
@@ -340,14 +348,12 @@ scale, where more points indicates a more popular record. The average of the bad
 record constitutes a "popularity rating". The number and types of badges break ties for average popularity,
 and relevance sorts items with like popularity.
 
-Popularity ratings display in the catalogue when search results are sorted by _Most Popular_ or
-_Popularity Adjusted Relevance_.
+image::images/opac/opac-popularity-1.png[scaledwidth="75%",alt="Basic Search"]
 
 
 NOTE: Currently popularity badges have been set up in Sitka based on hold and circulation counts over the
 last 3 years.
 
-*Title search for "river"*
 
 
 
@@ -360,6 +366,8 @@ forth between the pages by clicking the double arrow on top or bottom of the lis
 to go to that page directly.
 
 Your search terms will be highlighted both the search results and title details screens.
+
+image::images/opac/opac-search-results-1.png[scaledwidth="75%",alt="Basic Search"]
 
 Information about the title, such as author, edition, publication date, call number, shelving location,
 status, etc., is displayed under each title. The icons below the title link indicate formats such as books,
@@ -383,6 +391,8 @@ Formats and Editions
 If you have selected _Group Formats and Editions_ with your search, your search results are grouped by
 various formats and editions of the same title. Multiple format icons may be lit up.
 
+image::images/opac/opac-search-results-2.png[scaledwidth="75%",alt="Basic Search"]
+
 
 Refine Your Search
 ^^^^^^^^^^^^^^^^^^
@@ -393,12 +403,16 @@ also refine your search by clicking the hyperlink labelled *Refine My Original S
 results. Refining a search this way allows you to add search filters such as Publication Date, Format,
 Language, etc., to your original search.
 
+image::images/opac/opac-search-results-3.png[scaledwidth="75%",alt="Basic Search"]
+
 
 Expand Your Search
 ^^^^^^^^^^^^^^^^^^
 
 You may expand your search results by removing search limiters that you applied in your initial search.
 You can remove a limiter by clicking on the _X_ beside it.
+
+image::images/opac/opac-search-results-4.png[scaledwidth="75%",alt="Basic Search"]
 
 
 Availability
@@ -410,6 +424,7 @@ The availability will be scoped depending on your search library. If your librar
 system you can see how many copies are available in all branches. If your library participates in a
 larger borrowing zone you will see the available copies at your search library and the larger zone.
 
+image::images/opac/opac-search-results-5.png[scaledwidth="75%",alt="Basic Search"]
 
 If you are searching multiple branches or libraries you will see the libraries with copies listed.
 
