@@ -8,7 +8,7 @@ Printing without Hatch
 
 If you do not have Hatch installed on your computer you will see this message "Hatch is not installed in this browser. Printing must be configured via the native browser print configuration."
 
-image:images/admin/printersettingnohatch.png
+image::images/admin/printersettingnohatch.png
 
 Printing with Hatch
 ^^^^^^^^^^^^^^^^^^^
