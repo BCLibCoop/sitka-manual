@@ -1,9 +1,9 @@
 My Account
 ----------
 Patrons and library staff can access information about their account from any page in the public catalogue by 
-selecting the *My Account* link at the top right of the page. Account information includes contact 
+clicking the *My Account* button at the top right of the page. Account information includes contact 
 information, items checked out or on hold, fines, account preferences, notes left by the library 
-(if any) and lists. Each of the sections in the _My Account_ area is described in this chapter.
+(if any) and lists. 
 
 
 Logging into My Account
@@ -49,7 +49,7 @@ image::images/opac/opac-account-3.png[scaledwidth="75%",alt="My Account"]
 =====
 You must enter only one value, this is an either or choice, as some people only use their barcode to access their account, while others only ever 
 use a username.
-+
+
 Some libraries also require that you enter the email address associated with the account.  This is controlled
 by the library setting _Require matching email address for password reset requests_.
 =====
