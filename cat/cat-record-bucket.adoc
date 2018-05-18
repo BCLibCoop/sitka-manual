@@ -1,15 +1,13 @@
 Record Bucket
 -------------
 
-Record Bucket allows you to build a list of titles that you may process in batch. It is also the interface for merging records. Records, even after being deleted, remain in a bucket until they are removed from it.
+Record buckets allow you to build a list of titles that you may process in batch. It is also the interface for merging records. Records, even after being deleted, remain in a bucket until they are removed from it.
 
-We will demonstrate how to create and manage bibliographic record buckets. The steps used for copy buckets are similar. It is very important when working with buckets to ensure you are working with the correct type of record for the corresponding bucket. You cannot add copy records to bibliographic record buckets and vice versa.
+We will demonstrate how to create and manage bibliographic record buckets.  It is very important when working with buckets to ensure you are working with the correct type of record for the corresponding bucket. You cannot add copy records to bibliographic record buckets and vice versa.
 
 [[create-record-bucket]]
 Creating Record Buckets
 ~~~~~~~~~~~~~~~~~~~~~~~~
-
-
 
 There are two ways to create a record bucket. You can either create a bucket first, without accessing any records, or you can access a record and choose to create the bucket from that view. We will demonstrate both methods here.
 
@@ -40,13 +38,16 @@ Only buckets created by the login account are listed. But those created by other
 
 *Creating a Record Bucket when Adding a Record to a Bucket*
 
-You can also create a bucket from within a record. Search for, retrieve, and display any bibliographic record, then choose *Other Actions -> Add to Bucket*.
+You can also create a bucket from within a record.
 
+. Search for, retrieve, and display any bibliographic record, then choose *Other Actions -> Add to Bucket*.
++
 image::images/cat/record-bucket-5.png[]
-
-You are prompted to add the record to an existing bucket or to a new one. To add to a new bucket, type in a name in *Name For New Bucket* box, then click *Add to New Bucket*.
-
++
+. You are prompted to add the record to an existing bucket or to a new one. To add to a new bucket, type in a name in *Name For New Bucket* box, then click *Add to New Bucket*.
++
 image::images/cat/record-bucket-6.png[]
+
 
 [[add-record-to-bucket]]
 Adding Records to a Record Bucket
@@ -76,7 +77,7 @@ image::images/cat/record-bucket-8.png[]
 +
 image::images/cat/record-bucket-9.png[]
 +
-. You may continue search for more records and add them to Pending tab or Bucket. Once done, you may go *Bucket View* to create or select a bucket, if not done yet. You can select, then add records, on Pending Records tab, if any, to a bucket.
+. You can continue to search for more records and add them to the Pending tab or the Bucket. Once done, you may go *Bucket View* to create or select a bucket, if not done yet. You can select, then add records, on Pending Records tab, if any, to a bucket.
 +
 image::images/cat/record-bucket-10.png[]
 +
@@ -102,7 +103,7 @@ Multiclass Search Help
 
 *Adding Imported Records on MARC Batch Import/Export*
 
-MARC records that have already been imported via MARC Batch Import/Export can be added to a bucket. 
+MARC records that have already been imported via MARC Batch Import/Export can be added to a bucket.
 
 image::images/cat/record-bucket-11.png[]
 
@@ -110,7 +111,7 @@ image::images/cat/record-bucket-11.png[]
 Working with Records in a Record Bucket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You may apply the following functions to selected copies in a bucket.
+You can apply the following functions to selected records in a bucket.
 
 * *Show Selected Records in Catalogue*
 * *Delete Selected Records from Catalogue*
@@ -119,5 +120,3 @@ You may apply the following functions to selected copies in a bucket.
 
 
 To apply these functions, retrieve the bucket, select titles, then choose the function from the *Actions* list.
-
-CAUTION: Co-op support strongly suggests *not* using *Transfer Title Holds* as it transfers all holds, including other libraries', to the selected title.
