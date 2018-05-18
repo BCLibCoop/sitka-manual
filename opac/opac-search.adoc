@@ -365,7 +365,7 @@ divided into several pages. At the top of the list, you can see the total number
 forth between the pages by clicking the double arrow on top or bottom of the list or click the page number
 to go to that page directly.
 
-Your search terms will be highlighted both the search results and title details screens.
+Your search terms will be highlighted in both the search results and title details screens.
 
 image::images/opac/opac-search-results-1.png[scaledwidth="75%",alt="Basic Search"]
 
@@ -428,12 +428,15 @@ image::images/opac/opac-search-results-5.png[scaledwidth="75%",alt="Basic Search
 
 If you are searching multiple branches or libraries you will see the libraries with copies listed.
 
+image::images/opac/opac-search-results-6.png[scaledwidth="75%",alt="Search Results"]
 
 Viewing a record
 ^^^^^^^^^^^^^^^^
 
 Click on a title to view a detailed record of the title, including descriptive information, location
 and availability, and options for placing holds.
+
+image::images/opac/opac-search-results-7.png[scaledwidth="75%",alt="Search Results"]
 
 
 Details
@@ -462,6 +465,7 @@ You can search for additional items by an author, one of the subjects in the rec
 series. Clicking the author, subject or series will start a new search in the catalogue. You can do this from
 the results page or from within the record details view.
 
+image::images/opac/opac-search-results-8.png[scaledwidth="75%",alt="Search Results"]
 
 Going back
 ^^^^^^^^^^
@@ -469,10 +473,14 @@ Going back
 When you are viewing a specific record, you can always go back to your title list by clicking the link
 *Search Results* on the left of the page.
 
+image::images/opac/opac-search-results-9.png[scaledwidth="75%",alt="Search Results"]
+
 
 If you have selected _Group Formats and Editions_ with your search, your search results are grouped by various
 formats and editions of the same title under _My Search Results_. You can always go back to this page by
 selecting the link to *Return to Grouped Search Results*.
+
+image::images/opac/opac-search-results-10.png[scaledwidth="75%",alt="Search Results"]
 
 
 You can start a new search at any time by entering new search terms in the search box at the top of the page,
