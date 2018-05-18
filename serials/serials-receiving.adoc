@@ -47,23 +47,35 @@ The *Manage Issues* tab can be used to receive the next expected issue and to re
 Receive Next Issue and Barcode
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Within the Manage Issues tab, *Select Subscription* to work on from the drop down menu. The list of predicted issues for the subscription will appear.
+. Within the Manage Issues tab, *Select Subscription* from the drop down menu. The list of predicted issues for the subscription will appear.
 . Check the box adjacent to *Barcode on receive*.
 . Click *Receive Next*.
++
+image::images/serials/receiveissue3.png[]
++
 . A Receive items dialog box will appear with the next expected issue and item(s).
 . The Copy Location and Circulation Modifier will be pre-populated from the Receive Template associated with the Distribution. Changes can be made to the pre-populated information.
 . *Call Number*: Enter a call number. Any item with a barcode must also have a call number.
 . *Barcode*: Scan in the barcode that will be affixed to the item(s).
 . The box to Receive the item(s) will be checked by default.
 . Check the box adjacent to Routing List to print an existing routing list.
++
+image::images/serials/quickreceive3.png[]
++
 . Click *Save* to receive the item(s). The Status of the issue will update to "Received" and a Date Received will be recorded.
-. The barcoded item(s) will now appear in the holdings area of the catalog and the Holdings Summary in the Issues Held tab in the catalog will reflect the newly received issue.
+.. The barcoded item(s) will now appear in the holdings area of the catalog and the Holdings Summary in the Issues Held tab in the catalog will reflect the newly received issue.
 
 Receive Next Issue (no barcode)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . In the *Manage Issues* tab, make sure the box adjacent to Barcode on receive is unchecked and click Receive Next.
++
+image::images/serials/receiveissuenobarcode.png[]
++
 . A Receive items dialog box will appear with the message "Will receive # item(s) without barcoding."
++
+image::images/serials/receiveissuenobarcode1.png[]
++
 . Click *OK/Continue* to receive the issue. The Status of the issue will update to "Received" and a Date Received will be recorded. The Holdings Summary in the Issues Held tab in the catalog will reflect the newly received issue.
 
 Batch Receive
@@ -74,23 +86,30 @@ Multiple issues can be received at the same time using the Manage Issues tab.
 Batch Receive and Barcode
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Within the Manage Issues tab, *Select Subscription* to work on from the drop down menu. The list of predicted issues for the subscription will appear.
+. Within the Manage Issues tab, *Select Subscription* from the drop down menu. The list of predicted issues for the subscription will appear.
 . Check the box adjacent to *Barcode on receive*.
 . Check the boxes adjacent to the expected issues you want to receive.
 . Go to *Actions* -> *Receive selected*.
-A Receive items dialog box will appear with the selected issues and items.
-The Copy Location and Circulation Modifier will be pre-populated from the Receive Template associated with the Distribution. Changes can be made to the pre-populated information.
-Call Number: Enter a call number. Any item with a barcode must also have a call number.
-Barcode: Scan in the barcodes that will be affixed to the items.
-The box to Receive the items will be checked by default.
-Check the box adjacent to Routing List to print an existing routing list.
-Click Save to receive the items. The Status of the items will update to "Received" and a Date Received will be recorded. The barcoded items will now appear in the holdings area of the catalog and the Holdings Summary in the Issues Held tab in the catalog will reflect the newly received issues.
+. A Receive items dialog box will appear with the selected issues and items.
+. The Copy Location and Circulation Modifier will be pre-populated from the Receive Template associated with the Distribution. Changes can be made to the pre-populated information.
+. Call Number: Enter a call number. Any item with a barcode must also have a call number.
+. Barcode: Scan in the barcodes that will be affixed to the items.
+. The box to Receive the items will be checked by default.
+. Check the box adjacent to Routing List to print an existing routing list.
++
+image::images/serials/batchreceive.png[]
++
+. Click *Save* to receive the items. The Status of the items will update to "Received" and a Date Received will be recorded.
+.. The barcoded items will now appear in the holdings area of the catalog and the Holdings Summary in the Issues Held tab in the catalog will reflect the newly received issues.
 
 
 Receive multiple issues (no barcode)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Within the Manage Issues tab, *Select Subscription* to work on from the drop down menu. The list of predicted issues for the subscription will appear.
-Make sure the box next to Barcode on receive is unchecked and check the boxes adjacent to the expected issues you want to receive.
-A Receive items dialog box will appear with the message "Will receive # item(s) without barcoding."
-Click OK/Continue to receive the issues. The Status of the issue will update to "Received" and a Date Received will be recorded. The Holdings Summary in the Issues Held tab in the catalog will reflect the newly received issues.
+. Within the Manage Issues tab, *Select Subscription* to work on from the drop down menu. The list of predicted issues for the subscription will appear.
+. Make sure the box next to Barcode on receive is unchecked and check the boxes adjacent to the expected issues you want to receive.
+. A Receive items dialog box will appear with the message "Will receive # item(s) without barcoding."
++
+image::images/serials/batchreceive1.png[]
++
+. Click OK/Continue to receive the issues. The Status of the issue will update to "Received" and a Date Received will be recorded. The Holdings Summary in the Issues Held tab in the catalog will reflect the newly received issues.
