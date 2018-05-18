@@ -40,32 +40,22 @@ If you have an email address recorded in your library account you can use the *F
 in the event that you forget your password.
 
 . Click on the *Forgot Your Password?* link.
-
 image::images/opac/opac-account-3.png[scaledwidth="75%",alt="My Account"]
-
 . Enter your username or barcode into the appropriate field. 
-
 .. Note you must enter only one value, this is an 
 either or choice, as some people only use their barcode to access their account, while others only ever 
 use a username.
-
+.. Some libraries also require that you enter the email address associated with the account.  This is controlled
+by the library setting _Require matching email address for password reset requests_.
 . Click *Submit*.
-
 image::images/opac/opac-account-4.png[scaledwidth="75%",alt="My Account"]
-
 . Check your email account for the _Library Account Password Reset Request_ email.
-
 .. Reset emails are sent every two minutes.
-
 . Open the link provided in the _Library Account Password Reset Request_ email.
-
 . Enter your new password in the password reset form in the browser.
-
 image::images/opac/opac-account-4a.png[scaledwidth="75%",alt="My Account"]
-
-. You must enter the password twice to ensure that you do not make a mistake. If the passwords match, you 
+.. You must enter the password twice to ensure that you do not make a mistake. If the passwords match, you 
 will then be able to log in to your library account with the new password.
-
 . Please contact your local library if you do not receive the _Library Account Password Reset Request_ email 
 or if you continue to be unable to login to your account.
 
@@ -261,9 +251,9 @@ Fines and Payments
 ~~~~~~~~~~~~~~~~~~
 
 The _Fines and Payments_ tab, at bottom of the _Account Summary_ screen, displays any fines or fees that 
-you have accrued and the payments you have made. You can pay your fines at the library.
+your patron has accrued and the payments that have made. Patron can pay their fines at the library.
 
-
+image::images/opac/opac-account-fines-1.png[scaledwidth="75%",alt="My Account Fines"]
 
 My Lists
 ~~~~~~~~
@@ -290,20 +280,20 @@ optional description.
 . Decide if you would like to share the contents of the list with other users.
 . Click *Submit*.
 
-image::images/opac/opac-account-list-1.png[scaledwidth="75%",alt="My Account Lists"]
+image::images/opac/opac-list-1.png[scaledwidth="75%",alt="My Account Lists"]
 
 You can also create a temporary list from search results.
 . If you are logged into your account, hover over _Add to my list_ and select *Temporary List*.
 
-image::images/opac/opac-account-list-2.png[scaledwidth="75%",alt="My Account Lists"]
+image::images/opac/opac-list-2.png[scaledwidth="75%",alt="My Account Lists"]
 
 . If you are not logged into your account click on *Add to my list*.
 
-image::images/opac/opac-account-list-3.png[scaledwidth="75%",alt="My Account Lists"]
+image::images/opac/opac-list-3.png[scaledwidth="75%",alt="My Account Lists"]
 
 . A warning will appear indicating that you are adding to a temporary list.
 
-image::images/opac/opac-account-list-4.png[scaledwidth="75%",alt="My Account Lists"]
+image::images/opac/opac-list-4.png[scaledwidth="75%",alt="My Account Lists"]
 
 . Click _OK_ and the title will be added to your temporary list.
 
@@ -319,7 +309,7 @@ website.
 
 . In the _My Lists_ section there is an *HTML View link* for every shared list.
 
-image::images/opac/opac-account-list-5.png[scaledwidth="75%",alt="My Account Lists"]
+image::images/opac/opac-list-5.png[scaledwidth="75%",alt="My Account Lists"]
  
 . Click on that link and bookmark the resulting web page in your browser or copy and paste the address 
 (URL) to share your list as required.
@@ -332,14 +322,14 @@ Downloading Lists
 You can export your list to a comma delimited file by selecting *Download CSV* and following your computer's 
 prompts to save the file on your computer.
 
-image::images/opac/opac-account-list-6.png[scaledwidth="75%",alt="My Account Lists"]
+image::images/opac/opac-list-6.png[scaledwidth="75%",alt="My Account Lists"]
 
 Deleting Lists
 ^^^^^^^^^^^^^^
 
 If you no longer need a list you can delete it by clicking *Delete List*.
 
-image::images/opac/opac-account-list-7.png[scaledwidth="75%",alt="My Account Lists"]
+image::images/opac/opac-list-7.png[scaledwidth="75%",alt="My Account Lists"]
 
 
 Adding Items to a List
@@ -349,7 +339,7 @@ Adding Items to a List
 . Search the catalogue for the item you would like to add to your list. 
 . Hover over *Add to my list* and select the list you would like to add the item to.
 
-image::images/opac/opac-account-list-2.png[scaledwidth="75%",alt="My Account Lists"]
+image::images/opac/opac-list-2.png[scaledwidth="75%",alt="My Account Lists"]
 
 
 [TIP]
@@ -369,18 +359,18 @@ Managing Items in a List
 You can place a hold on an item from your list by selecting the item in your list, and choosing 
 *Place hold* in the *Actions for these items* menu.
 
-image::images/opac/opac-account-list-9.png[scaledwidth="75%",alt="My Account Lists"]
+image::images/opac/opac-list-9.png[scaledwidth="75%",alt="My Account Lists"]
 
 You can annotate your lists by using the _Notes _feature. 
 
 . Click on one of your lists to open it and display the contents. 
 . A _Notes_ column will appear, with an *Edit* hyperlink beside it. 
 
-image::images/opac/opac-account-list-10.png[scaledwidth="75%",alt="My Account Lists"]
+image::images/opac/opac-list-10.png[scaledwidth="75%",alt="My Account Lists"]
 
 . Click *Edit*, enter your note and click *Save Notes*. 
 
-image::images/opac/opac-account-list-11.png[scaledwidth="75%",alt="My Account Lists"]
+image::images/opac/opac-list-11.png[scaledwidth="75%",alt="My Account Lists"]
 
 . Your note will display in your view of your list. If the list is shared, the note will also display in 
 title record on the webpage used to access your shared list.
@@ -393,4 +383,4 @@ Removing Items From a List
 . Select the item you would like to remove from the list, click on 
 *Actions for these items* -> *Remove from list* and click *Go*.
 
-image::images/opac/opac-account-list-12.png[scaledwidth="75%",alt="My Account Lists"]
+image::images/opac/opac-list-12.png[scaledwidth="75%",alt="My Account Lists"]
