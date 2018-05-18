@@ -69,7 +69,6 @@ Due: {{checkout.circ.due_date | date:"short"}}<br/>
 ----
 
 .Text Formatting
-[options="header"]
 |===
 | Goal      | Original   | Code                       | Result
 | Bold (HTML) | hello       | `$$<b>hello</b>$$`            | **hello**
@@ -79,7 +78,6 @@ Due: {{checkout.circ.due_date | date:"short"}}<br/>
 |===
 
 .Date Formatting
-[options="header"]
 |===
 | Code                          | Result
 | `{{today}}`                     | 2017-08-01T14:18:51.445Z
@@ -88,7 +86,6 @@ Due: {{checkout.circ.due_date | date:"short"}}<br/>
 |===
 
 .Currency Formatting
-[options="header"]
 |===
 | Code                                      | Result
 | `{{xact.summary.balance_owed \| currency}}` | $2.50
@@ -109,7 +106,6 @@ See also: https://docs.angularjs.org/api/ng/directive/ngIf
 Substrings
 ++++++++++
 To print just a substring of a variable, you can use a *limitTo* function:  `{{variable | limitTo:limit}}` where limit is the number of characters you want.
-[options="header"]
 |===
 | Original                             | Code                                   | Result
 | The Sisterhood of the Traveling Pants  | `$${{checkout.title \| limitTo:10}}$$`       | The Sisterhood of th
