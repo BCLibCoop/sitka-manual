@@ -22,7 +22,7 @@ Co-op support encourages libraries to use the method or methods that work best f
 CAUTION: Generic accounts will not be granted permissions to create/run reports. Libraries are encouraged to have a dedicated account(s) for reporting purpose. The account must belong to an individual staff member and is for office use only. To avoid re-setting up reports, the owner of the account may be updated when the reporting task is passed on to another staff member.
 
 Creating Staff Account
-^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~
 
 Local System Administrators can create staff accounts the same way as creating a patron record. The difference is choosing a staff profile from the *Main Permission (Profile) Group* list.
 
@@ -34,18 +34,19 @@ CAUTION: Staff account without a working location can not register/edit patron a
 
 
 Creating Local System Administrator Accounts
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 Local System Administrator profile can only be assigned by Co-op staff.  Libraries may create a staff account first, submit a request to Co-op support to upgrade the account to local system administrator. Please include the account's barcode in the request.
 
 Editing Staff Accounts
-^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~
 
 Staff members can update their username, password, and email addresses via either the staff client or My Account on OPAC. Local System Administrators can edit staff accounts.  Local System Administrators need to submit a request to Co-op support to edit other information in their accounts.
 
 
 Resetting Staff Account Password
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Staff passwords can be reset in four ways:
 
@@ -53,13 +54,13 @@ Staff passwords can be reset in four ways:
 
 . Use the *Forgot Your Password?* link in the OPAC. You must have an email address recorded in your account for this to method to work.
 
-. Have a staff member with Local System Administrator permissions assign a temporary password and then use method 1 or 2 to reset it to a secure password. Local system administrators can not use this method. 
+. Have a staff member with Local System Administrator permissions assign a temporary password and then use method 1 or 2 to reset it to a secure password. Local system administrators can not use this method.
 
 . Send in a request to Co-op support to have a temporary password assigned and then use method 1 or 2 to reset it to a secure password.
 
 
 Staff Account Permission Groups
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Below is a general outline of staff account permission levels.  The list contains staff profiles for public libraries only. Corresponding profiles for other libraries have similar permissions. To view a detailed list of permissions for a particular Evergreen account, go to *Administration -> User Permission Editor* in the staff client.
 
@@ -71,13 +72,13 @@ Below is a general outline of staff account permission levels.  The list contain
 | CheckIn Missing/Lost/ClaimedReturned overrides|	| *	| *	| *	| 	 	| *
 | CheckOut overrides	 	| *	| *	| *	 |	| *     |
 | MaxRenewalReached override	|	| *	| *	| *	| *	| *
-| Basic patron record	| *	| *	| *	| *	| *	| *     
-| Bar patrons	| *	| *	| *	| *	| 	| *            
+| Basic patron record	| *	| *	| *	| *	| *	| *
+| Bar patrons	| *	| *	| *	| *	| 	| *
 | Unbar patrons	 	| 	| *	| *	| *	|      | *
 | Merge/delete patrons	| 	| 	| 	|	| 	| *
 | Patron restriction overrides	 |	| *	| *	| *	| 	| *
 | Bills and payments	| *	| *	| *	| *	| 	| *
-| Holds	| *	| *	| *	| *	| *	| *     
+| Holds	| *	| *	| *	| *	| *	| *
 | Copy/volume records	 |	| 	| *	| *	| *	| *
 | Bib records	 |	 |	 |	| *	| *	| *
 | Buckets	| *	| *	| *	| *	| *	| *
@@ -91,12 +92,12 @@ Below is a general outline of staff account permission levels.  The list contain
 NOTE: Only users with reporting permissions (granted by Sitka Support on libraries' request) can access the Reports interface, but the output can be visible to all staff accounts. Any staff requesting reporting permissions must sign and submit the Reporter Privacy Agreement see https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[Reporter Privacy Waiver].
 
 Granting Additional Permissions to Staff Accounts
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A Local System Administrator (LSA) may selectively grant its permissions to other staff accounts. In the example below a Circ +Full Cat account is granted permission to process offline transactions, a function which otherwise requires an LSA login.
 
 . Log in to Evergreen with a local system administrator account.
-. Find the staff acount on *User Permission Editor*. You may search for the patron account, then go to *Others -> User Permission Editor*, or go to *Administration -> User Permission Editor* to search for the account by barcode. 
+. Find the staff acount on *User Permission Editor*. You may search for the patron account, then go to *Others -> User Permission Editor*, or go to *Administration -> User Permission Editor* to search for the account by barcode.
 . When User Permission Editor is loaded, scroll down the permission list to find *OFFLINE_EXECUTE*. Select the checkbox in *Applied* column. Scroll down to the bottom to click *Save*.
 +
 image::images/admin/staff-account-2.png[]
@@ -108,4 +109,3 @@ image::images/admin/staff-account-2.png[]
 * *Depth*:  limits application to the staff member's library and should be left at the default. Evergreen blocks attempts to set Federation- or Sitka-wide privileges.
 * *Grantable*: If checked this staff account will be able to grant the new privilege to other accounts (not recommended).
 =====
-
