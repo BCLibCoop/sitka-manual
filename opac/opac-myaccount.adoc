@@ -10,20 +10,24 @@ Logging into My Account
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 . Click on the *My Account* link on any search page.
-+
+
+image::images/opac/opac-account-1.png[scaledwidth="75%",alt="My Account"]
+
 . Enter your username or your library barcode.
-+
+
 .. If this is your first time logging in, your username will be your library card number. You have the 
 option to change your username on the _Account Preferences_ screen.
-+
+
 . Enter your password.
-+
+
 .. You should have been given a password when you received your library card.
-+
+
 .. If you do not have or cannot recall your password please contact your local library to have the password 
 reset or use the *Forgot Your Password?* link.
-+
+
 . Click *Login*.
+
+image::images/opac/opac-account-2.png[scaledwidth="75%",alt="My Account"]
 
 NOTE: All patron and staff accounts in Evergreen can access _My Account_ through the public catalogue.
 
@@ -36,26 +40,32 @@ If you have an email address recorded in your library account you can use the *F
 in the event that you forget your password.
 
 . Click on the *Forgot Your Password?* link.
-+
+
+image::images/opac/opac-account-3.png[scaledwidth="75%",alt="My Account"]
+
 . Enter your username or barcode into the appropriate field. 
-+
+
 .. Note you must enter only one value, this is an 
 either or choice, as some people only use their barcode to access their account, while others only ever 
 use a username.
-+
+
 . Click *Submit*.
-+
+
+image::images/opac/opac-account-4.png[scaledwidth="75%",alt="My Account"]
+
 . Check your email account for the _Library Account Password Reset Request_ email.
-+
+
 .. Reset emails are sent every two minutes.
-+
+
 . Open the link provided in the _Library Account Password Reset Request_ email.
-+
+
 . Enter your new password in the password reset form in the browser.
-+
+
+image::images/opac/opac-account-4a.png[scaledwidth="75%",alt="My Account"]
+
 . You must enter the password twice to ensure that you do not make a mistake. If the passwords match, you 
 will then be able to log in to your library account with the new password.
-+
+
 . Please contact your local library if you do not receive the _Library Account Password Reset Request_ email 
 or if you continue to be unable to login to your account.
 
@@ -72,8 +82,12 @@ The default view when you login to your account is the _Account Summary_ page. T
 overview of items checked out, items on hold and any fines you may have. You can access any of these screens 
 by clicking on the relevant tab.
 
+image::images/opac/opac-account-5.png[scaledwidth="75%",alt="My Account"]
+
 
 If your library subscribes to Overdrive additional information will display.
+
+image::images/opac/opac-eresource-1.png[scaledwidth="75%",alt="My Account"]
 
 Account Preferences
 ~~~~~~~~~~~~~~~~~~~
@@ -86,6 +100,8 @@ Personal Information
 You can change the username and password that you use to log in to your library account as well as the email 
 address the library uses to contact you in the _Personal Information_ tab by clicking the *Change* link 
 next to the information you'd like to update.
+
+image::images/opac/opac-account-6.png[scaledwidth="75%",alt="My Account"]
 
 NOTE: Changing your username and password for a library staff account through My Account also changes it 
 for logging into the staff client.
@@ -103,13 +119,13 @@ The Notification Preferences tab is where you set your preferences for holds not
 to be contacted by email, phone or text message.
 
 This is also where you can opt-out of receiving courtesy and overdue email notices using the _Receive 
-Overdue and Courtesy Emails_ setting.
-
-Un-checking this box means your library will not send you any emails for items coming due or overdue. 
+Overdue and Courtesy Emails_ setting.  Un-checking this box means your library will not send you any emails for items coming due or overdue. 
 You are still responsible for returning items on time and paying any applicable fines.
 
 If you wish to receive checkout receipts via email by default you can check the 
 _Email checkout receipts by default_ checkbox.
+
+image::images/opac/opac-account-7.png[scaledwidth="75%",alt="My Account"]
 
 
 Search and History Preferences
@@ -132,11 +148,15 @@ You may also choose to disable a warning about adding items to a temporary list.
 You can specify who, if anyone, you want to access to your account and what access you wish them to 
 have.  This is useful if you'd like someone else to be able to pick up your holds for you.
 
+image::images/opac/opac-account-8.png[scaledwidth="75%",alt="My Account"]
+
 My Lists Preferences
 ^^^^^^^^^^^^^^^^^^^^
 
 The _My Lists Preferences_ tab allows you to set how many lists you'd like to display per page and how many item
 should be displayed per page in your lists.
+
+image::images/opac/opac-account-9.png[scaledwidth="75%",alt="My Account"]
 
 Messages
 ~~~~~~~~
@@ -145,12 +165,18 @@ Messages
 Select the Messages tab at the top of the _My Account_ area to display any messages library staff have added 
 to your account.
 
+image::images/opac/opac-account-messages-1.png[scaledwidth="75%",alt="My Account Messages"]
+
 An indicator will also appear in the upper right corner when you have new messages.
+
+image::images/opac/opac-account-messages-2.png[scaledwidth="75%",alt="My Account Messages"]
 
 You can set messages to read or unread, or delete them by selecting the message(s) and then choosing the 
 desired action from the *Action for selected messages* menu and clicking *Go*.
 
 Unread messages appear with the subject bolded. Click on the subject to read the message.
+
+image::images/opac/opac-account-messages-3.png[scaledwidth="75%",alt="My Account Messages"]
 
 
 Items Checked Out
@@ -162,16 +188,22 @@ Current Items Checked Out
 Select the _Items Checked Out_ tab at the top of the _My Account_ area to display all of the items you 
 currently have checked out.
 
+image::images/opac/opac-account-checked-out-1.png[scaledwidth="75%",alt="My Account Checked Out"]
+
 You can sort the list by Title, Author, Renewals Left, Due Date, Barcode, or Call number by clicking on 
 the blue text. The first click sorts the list alphabetically in ascending order and a second click sorts 
 the list alphabetically in descending order.
 
 If you wish to renew items select the items you wish to renew and click *Go* beside _Renew Selected Titles_.
 
+image::images/opac/opac-account-checked-out-2.png[scaledwidth="75%",alt="My Account Checked Out"]
+
 Check Out History
 ^^^^^^^^^^^^^^^^^
 
 Select the _Check Out History_ tab to display a list of items that you have previously checked out.
+
+image::images/opac/opac-account-checked-out-3.png[scaledwidth="75%",alt="My Account Checked Out"]
 
 Check out history will only display if it has been enabled in your _Search and History Preferences_.  History
 displays from the date you enabled it; items checked out prior will not be included in your history.
@@ -183,6 +215,8 @@ click sorts the list alphabetically in descending order.
 If you wish to delete individual titles from the list select the items you wish to delete and click *Go* 
 beside _Delete Selected Titles_.
 
+image::images/opac/opac-account-checked-out-4.png[scaledwidth="75%",alt="My Account Checked Out"]
+
 Holds
 ~~~~~
 
@@ -190,6 +224,8 @@ Items on Hold
 ^^^^^^^^^^^^^
 
 Select the Holds tab to display a list of items you have holds on.
+
+image::images/opac/opac-account-holds-1.png[scaledwidth="75%",alt="My Account Holds"]
 
 You can sort the list by Title, Author, and Format by clicking on the blue text. The first click sorts the 
 list alphabetically in ascending order and a second click sorts the list alphabetically in descending order.
@@ -207,12 +243,16 @@ Your position in the hold queue is indicated by the first number in the status c
 Clicking the *Edit* link will bring you to the hold editing screen, where you may suspend the hold, if not 
 already captured, or change the activation date or cancellation date. If your library has multiple branches you may also change the pick up location.
 
+image::images/opac/opac-account-holds-2.png[scaledwidth="75%",alt="My Account Holds"]
+
 
 Holds History
 ^^^^^^^^^^^^^
 
 Select the Holds History tab to display a list of items that you have previously had on hold. History
 displays from the date you enabled it; holds placed prior will not be included in your history.
+
+image::images/opac/opac-account-holds-3.png[scaledwidth="75%",alt="My Account Holds"]
 
 Holds history will only display if it has been enabled in your _Search and History Preferences_.
 
