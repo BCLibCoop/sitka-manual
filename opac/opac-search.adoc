@@ -152,12 +152,12 @@ You can filter your search by:
 * Literary Form
 +
 * Publication Year
-+
+
 ** Publication year is inclusive. For example, if you set Publication Year Between 2005 and 2007,
 your result items will be published in 2005, 2006 and 2007.
 +
 * Shelving Location
-+
+
 ** Shelving Locations that are not OPAC visible will not be displayed
 
 [TIP]
@@ -172,6 +172,7 @@ Numeric Search
 You can access the Numeric Search by clicking on the *Numeric Search* tab on the _Advanced Search_ screen.
 
 . Use the drop-down menu to select ISBN, ISSN, Call Number, LCCN, TCN, or Item Barcode.
++
 . Enter the information and click *Search*.
 
 image::images/opac/opac-numeric-search-1.png[scaledwidth="75%",alt="Basic Search"]
@@ -190,7 +191,9 @@ If you are familiar with the MARC standard, you may search by specific MARC tags
 
 . Enter the three-digit tag number, the subfield (if relevant), and the value or text that corresponds
 to the tag. For example, to search by publisher name, enter 260 b Random House.
++
 .. To search several tags simultaneously, use the *Add Row* option.
++
 . Click *Search* to run the search.
 
 image::images/opac/opac-expert-search-1.png[scaledwidth="75%",alt="Basic Search"]
