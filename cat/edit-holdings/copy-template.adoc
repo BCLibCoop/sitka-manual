@@ -38,7 +38,6 @@ Sharing Volume Copy Template
 
 Templates are saved on the Evergreen server, but only viewable by the staff account that created them.  To share templates with other staff logins, you will need to export the templates, and have  staff import them into their accounts.
 
-
 . To export copy templates, click on *Export* on Volume Copy Template Editor.
 +
 image::images/cat/copy-template-4.png[]

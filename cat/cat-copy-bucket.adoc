@@ -2,7 +2,7 @@
 Copy Bucket
 -----------
 
-https://www.youtube.com/watch?v=4W-zw-jieos[Sitka Snippet Video - Copy Buckets (3:48)]
+link:https://youtu.be/DmLBBMAMFDQ[Sitka Snippet Video - Copy Buckets (4:33)]
 
 Buckets is the name for a batch change functionality in Evergreen, or for a function that groups records in one place.  Batch changes allow you to group together many records and enact changes on them all at once, instead of individually editing them. Buckets can also be used to create pull lists. Buckets allow you to track and work with your materials in arbitrary ways and more easily collaborate with others.
 
