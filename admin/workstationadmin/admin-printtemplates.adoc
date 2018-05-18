@@ -69,7 +69,8 @@ Due: {{checkout.circ.due_date | date:"short"}}<br/>
 ----
 
 .Text Formatting
-|===
+[options="header"]
+|===============
 | Goal      | Original   | Code                       | Result
 | Bold (HTML) | hello       | `$$<b>hello</b>$$`            | **hello**
 | Bold (CSS)  | hello      | `$$<span style="font-weight:bold;">hello</span>$$`                  | **hello**
@@ -78,7 +79,8 @@ Due: {{checkout.circ.due_date | date:"short"}}<br/>
 |===
 
 .Date Formatting
-|===
+[options="header"]
+|===============
 | Code                          | Result
 | `{{today}}`                     | 2017-08-01T14:18:51.445Z
 | `{{today \| date:'short'}}`     | 8/1/17 10:18 AM
@@ -86,7 +88,8 @@ Due: {{checkout.circ.due_date | date:"short"}}<br/>
 |===
 
 .Currency Formatting
-|===
+[options="header"]
+|===================
 | Code                                      | Result
 | `{{xact.summary.balance_owed \| currency}}` | $2.50
 |===
@@ -149,21 +152,21 @@ template customizations that you make. Be sure to export a copy of your
 customizations as a backup so that you can import it as needed.
 ====
 
-Exporting and Importing Customized Receipts
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Export and Import Customized Receipts
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Once you have your receipts set up on one machine you can export your receipts, and then load them on to another machine.  Just remember to ''Save Locally'' once you import the receipts on the new machine.
 
-Exporting templates
-+++++++++++++++++++
+Export templates
+++++++++++++++++
 As you can only save a template on to the computer you are working on you will need to export the template if you have more than one computer that prints out receipts (i.e., more than one computer on the circulation desk, or another computer in the workroom that you use to checkin items or capture holds with)
 
 . Export.
 . Select the location to save the template to, name the template, and click Save.
 . Click OK.
 
-Importing Templates
-+++++++++++++++++++
+Import Templates
+++++++++++++++++
 
 . Click Import.
 . Navigate to and select the template that you want to import.  Click Open.
