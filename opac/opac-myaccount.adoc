@@ -10,21 +10,21 @@ Logging into My Account
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 . Click on the *My Account* link on any search page.
-
++
 image::images/opac/opac-account-1.png[scaledwidth="75%",alt="My Account"]
-
++
 . Enter your username or your library barcode.
-
++
 .. If this is your first time logging in, your username will be your library card number. You have the 
 option to change your username on the _Account Preferences_ screen.
-
++
 . Enter your password.
-
++
 .. You should have been given a password when you received your library card.
-
++
 .. If you do not have or cannot recall your password please contact your local library to have the password 
 reset or use the *Forgot Your Password?* link.
-
++
 . Click *Login*.
 
 image::images/opac/opac-account-2.png[scaledwidth="75%",alt="My Account"]
@@ -40,22 +40,37 @@ If you have an email address recorded in your library account you can use the *F
 in the event that you forget your password.
 
 . Click on the *Forgot Your Password?* link.
++
 image::images/opac/opac-account-3.png[scaledwidth="75%",alt="My Account"]
++
 . Enter your username or barcode into the appropriate field. 
-.. Note you must enter only one value, this is an 
-either or choice, as some people only use their barcode to access their account, while others only ever 
++
+[NOTE]
+=====
+You must enter only one value, this is an either or choice, as some people only use their barcode to access their account, while others only ever 
 use a username.
-.. Some libraries also require that you enter the email address associated with the account.  This is controlled
++
+Some libraries also require that you enter the email address associated with the account.  This is controlled
 by the library setting _Require matching email address for password reset requests_.
+=====
++
 . Click *Submit*.
++
 image::images/opac/opac-account-4.png[scaledwidth="75%",alt="My Account"]
++
 . Check your email account for the _Library Account Password Reset Request_ email.
++
 .. Reset emails are sent every two minutes.
++
 . Open the link provided in the _Library Account Password Reset Request_ email.
++
 . Enter your new password in the password reset form in the browser.
++
 image::images/opac/opac-account-4a.png[scaledwidth="75%",alt="My Account"]
++
 .. You must enter the password twice to ensure that you do not make a mistake. If the passwords match, you 
 will then be able to log in to your library account with the new password.
++
 . Please contact your local library if you do not receive the _Library Account Password Reset Request_ email 
 or if you continue to be unable to login to your account.
 
@@ -313,9 +328,9 @@ You can give the address (URL) of your list to anyone you want to share it with 
 website. 
 
 . In the _My Lists_ section there is an *HTML View link* for every shared list.
-
++
 image::images/opac/opac-list-5.png[scaledwidth="75%",alt="My Account Lists"]
- 
++
 . Click on that link and bookmark the resulting web page in your browser or copy and paste the address 
 (URL) to share your list as required.
 
@@ -341,7 +356,9 @@ Adding Items to a List
 ^^^^^^^^^^^^^^^^^^^^^^
 
 . Log in to the public catalogue by clicking the *My Account* button. 
++
 . Search the catalogue for the item you would like to add to your list. 
++
 . Hover over *Add to my list* and select the list you would like to add the item to.
 
 image::images/opac/opac-list-2.png[scaledwidth="75%",alt="My Account Lists"]
@@ -368,15 +385,16 @@ image::images/opac/opac-list-9.png[scaledwidth="75%",alt="My Account Lists"]
 
 You can annotate your lists by using the _Notes _feature. 
 
-. Click on one of your lists to open it and display the contents. 
+. Click on one of your lists to open it and display the contents.
++ 
 . A _Notes_ column will appear, with an *Edit* hyperlink beside it. 
-
++
 image::images/opac/opac-list-10.png[scaledwidth="75%",alt="My Account Lists"]
-
++
 . Click *Edit*, enter your note and click *Save Notes*. 
-
++
 image::images/opac/opac-list-11.png[scaledwidth="75%",alt="My Account Lists"]
-
++
 . Your note will display in your view of your list. If the list is shared, the note will also display in 
 title record on the webpage used to access your shared list.
 
@@ -385,6 +403,7 @@ Removing Items From a List
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Click on the name of the list you would like to remove the item from. The items in the list will appear. 
++
 . Select the item you would like to remove from the list, click on 
 *Actions for these items* -> *Remove from list* and click *Go*.
 
