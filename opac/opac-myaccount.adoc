@@ -273,30 +273,35 @@ Creating Lists
 
 Best practice is to log in to your account and create a list. 
 
-. Select the _My Lists_ tab at the top of the _My Account_ area. 
+. Select the _My Lists_ tab at the top of the _My Account_ area.
++ 
 . In the _My Account_ area, click on *My Lists*. 
++
 . In the _Create New List_ section, enter a name for your list into the text box. You may also enter an 
 optional description.
++
 . Decide if you would like to share the contents of the list with other users.
++
 . Click *Submit*.
 
 image::images/opac/opac-list-1.png[scaledwidth="75%",alt="My Account Lists"]
 
 You can also create a temporary list from search results.
+
 . If you are logged into your account, hover over _Add to my list_ and select *Temporary List*.
-
++
 image::images/opac/opac-list-2.png[scaledwidth="75%",alt="My Account Lists"]
-
++
 . If you are not logged into your account click on *Add to my list*.
-
++
 image::images/opac/opac-list-3.png[scaledwidth="75%",alt="My Account Lists"]
-
++
 . A warning will appear indicating that you are adding to a temporary list.
-
++
 image::images/opac/opac-list-4.png[scaledwidth="75%",alt="My Account Lists"]
-
++
 . Click _OK_ and the title will be added to your temporary list.
-
++
 
 Sharing Lists
 ^^^^^^^^^^^^^
