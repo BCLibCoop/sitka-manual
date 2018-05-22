@@ -57,7 +57,7 @@ You can limit your search by format. Some of the more popular formats in the lis
 [TIP]
 =====
 The format filter uses values from the Leader, 007, and 008 fields of the MARC record to determine which
-records to include in your search results.  LINK TO CHAPTER 20
+records to include in your search results.  xref:_format_filters_and_format_icons.html[]
 =====
 
 Library
