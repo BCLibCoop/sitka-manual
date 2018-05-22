@@ -41,7 +41,7 @@ You will be prompted to log in with your library account, if you have not alread
 +
 image::images/opac/opac-eresource-4.png[scaledwidth="75%",alt="eResources"]
 +
-. Choose a format type from the _Actions_menu and click *Download*.  The item will be downloaded in the chosen
+. Choose a format type from the _Actions_ menu and click *Download*.  The item will be downloaded in the chosen
 format.
 
 
@@ -64,7 +64,7 @@ image::images/opac/opac-eresource-6.png[scaledwidth="75%",alt="eResources"]
 +
 [Note]
 =====
-You must have an email address recorded in your account in order to sucessfully place a hold.
+You must have an email address recorded in your account in order to successfully place a hold.
 =====
 +
 . The hold is placed and you will receive an email when it is ready to be checked out.
