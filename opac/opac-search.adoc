@@ -57,7 +57,8 @@ You can limit your search by format. Some of the more popular formats in the lis
 [TIP]
 =====
 The format filter uses values from the Leader, 007, and 008 fields of the MARC record to determine which
-records to include in your search results.  xref:_format_filters_and_format_icons[]
+records to include in your search results.  More information can be found in 
+xref:_format_filters_and_format_icons[].
 =====
 
 Library
@@ -113,7 +114,7 @@ Sort Results
 ^^^^^^^^^^^^
 
 By default, the search results are in order of greatest to least relevance. See 
-xref:_search_methodology[Public Catalogue Order of Results]. In
+xref:_search_methodology[Order of Results in]. In
 the _Sort Results_ box you may select to order the search results by relevance, title, author,
 publication date, or popularity.
 
@@ -282,8 +283,9 @@ produce more relevant results than _nice places to stay_.
   - Two phrases are joined by AND, so a search for _“golden compass”_ _“dark materials”_ is equivalent to
   _“golden compass”_ and _“dark materials”_.
 
-  - To prevent xref:_search_methodology[stemming], use double quotes around a single word or a phrase. So, a search
+  - To prevent stemming, use double quotes around a single word or a phrase. So, a search
   for _parenting_ will also return results for _parental_ but a search for _“parenting”_ will not.
+  See xref:_search_methodology[Stemming in].
 
 * Use * (asterisk) as a wildcard to truncate search terms, e.g. _comp* golden_ may return the same results
 for _compass golden_ and more.
