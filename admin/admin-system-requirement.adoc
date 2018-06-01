@@ -16,7 +16,7 @@ Most of the bandwidth usage in a library is not from Evergreen, but from other u
 
 *Staff Terminals*
 
-Staff terminals connect to the central database using the Evergreen web client, currently only supported by BC Libraries Cooperative in Chrome.
+Staff terminals connect to the central database using the Evergreen web client, currently supported by BC Libraries Cooperative in Chrome only .
 
 * Windows 10, 8, 7, or Vista operating system. Win 10 users may need to manage Win 10 privacy settings based on best practice in Windows community or on advice of your IT department or vendor.
 

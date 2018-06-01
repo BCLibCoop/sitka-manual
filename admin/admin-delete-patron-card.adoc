@@ -21,19 +21,19 @@ When a patron's card is marked lost and a new barcode is assigned, the old barco
 
 . Click *Patron Deletion Tool*.
 +
-image:images/circ/patrondelete1.png[scaledwidth="75%"]
+image:images/admin/patrondelete1.png[scaledwidth="75%"]
 +
 . Login with a Local System Administrator username and password.
 +
-image:images/circ/patrondelete2.png[scaledwidth="75%"]
+image:images/admin/patrondelete2.png[scaledwidth="75%"]
 +
 . Enter one or more inactive cards to delete (one barcode per line). Ensure *Delete cards only*  is checked, then click *Submit*.
 +
-image:images/circ/patrondelete3.png[scaledwidth="75%"]
+image:images/admin/patrondelete3.png[scaledwidth="75%"]
 +
 . After a few seconds the confirmation screen appears (for multiple cards it may take longer). It is not possible to delete a patron's primary card. Review patron data, select the card(s) you wish delete, then click *Delete Checked Card*.
 +
-image:images/circ/patrondelete4.png[scaledwidth="75%"]
+image:images/admin/patrondelete4.png[scaledwidth="75%"]
 +
 . The deletion report lists successfully deleted cards.
 
@@ -50,4 +50,4 @@ Deleted patron accounts remain in the Evergreen database for reporting purposes 
 
 *Bills*.  Accounts with unpaid bills are flagged but may still be deleted; if deleted the bills are voided
 
-Follow the steps for deleting cards, but do not select *Delete cards only*.
+NOTE: Follow the steps for deleting cards, but do not select *Delete cards only*.
