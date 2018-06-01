@@ -12,11 +12,11 @@ Most internet traffic uses moments of brief connectivity rather than a persisten
 Evergreen will work down to a 3Mbps connection, but the performance will get progressively worse the lower the connection speed gets. While Evergreen will be functionally usable at 3Mbps it may of limited use at lower speeds. Ideally it runs at 12Mbps.
 
 
-Most of the bandwidth usage in a library is not from Evergreen, but from other usage of the Internet by both staff and patrons. When staff workstations share an ISP connection with public workstations libraries ideally should have at least 1.5-2x more down/upstream capacity than what is recommended in the table above.
+Most of the bandwidth usage in a library is not from Evergreen, but from other usage of the internet by both staff and patrons. When staff workstations share an ISP connection with public workstations libraries ideally should have at least 1.5-2x more down/upstream capacity than what is recommended in the table above.
 
 *Staff Terminals*
 
-Staff terminals connect to the central database using the Evergreen staff client, available for download from https://bc.libraries.coop/support/staff-client-executables/. The Evergreen staff client must be installed on each staff workstation and requires at minimum:
+Staff terminals connect to the central database using the Evergreen web client, currently only supported by BC Libraries Cooperative in Chrome.
 
 * Windows 10, 8, 7, or Vista operating system. Win 10 users may need to manage Win 10 privacy settings based on best practice in Windows community or on advice of your IT department or vendor.
 
