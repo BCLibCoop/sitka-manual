@@ -1,0 +1,94 @@
+Running Inventory
+-----------------
+
+The first step to running inventory is to chose the section of your library you will inventory. We recommend 
+that you inventory a shelving location or particular call number range. There are several report templates 
+you can use to aid you in preparing for your inventory.
+
+* Sitka_templates -> Collection -> Copy and Title Count -> Title and Copy Count by Shelving Location and 
+Circulation Modifier
++
+* Sitka_templates -> Collection -> Copy List by Item Attributes -> Call Number : Copies with Call Numbers 
+within a Range
++
+* Sitka_templates -> Collection -> Copy List by Item Attributes -> Shelving Location : Copies with 
+Selected Shelving Locations
+
+[TIP]
+=====
+Once inventory starts, any item found in an incorrect location should be checked in before it is shelved 
+in the correct location.
+=====
+
+Running Inventory with the Staff Client
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+. In Evergreen go to **Circulation → Check In Items**.
++
+. Check the items in.
+
+[TIP]
+=====
+Staff can check for cataloguing issues while checking in items for inventory. To do so set up your Check In 
+screen with the following columns:
++
+* Title
++
+*Location
++
+*Circulation Modifier
++
+*Call Number
++
+Staff can fix items right away or put them aside to be dealt with later.
+=====
+
+Running Inventory with the Offline Module
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you do not have wi-fi available you can use Evergreen's Offline module to check items in for inventory.
+
+. Open _Offline Circulation_.
++
+. Check in the items in the area you are inventoring. See xref:_check_out_2[].
++
+. Connect the computer to the internet and open the Evergreen Staff Client.
++
+. Upload your check ins. See xref:_upload_and_process_offline_transactions[].
++
+. Make sure you follow up on any exceptions that appear when the transactions are uploaded. See 
+xref:_handle_exceptions[].
++
+. These items will need to be pulled from the shelf and checked in on the live staff client to 
+resolve the exceptions.
+
+Running Inventory with a 3rd Party Portable Barcode Scanner
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+. Scan every item barcode on shelf in the chosen area.
++
+. Export the barcodes to a text file (we recommends using Notepad) to a computer with Evergreen installed. 
+The barcodes should be in one single spaced single column without extra spaces anywhere.
++
+. Use Cut and Paste functions to break the big list of barcodes into smaller lists and save each list as an 
+individual text file (we recommend each list contains about 50 barcodes). Name your files in sequence, e.g. 
+inventory001, inventory002..., so that it will be easy to follow when you upload the files.
++
+. On Item Status screen of Evergreen, click **Choose File**.
++
+. You are prompted to browse your local computer to find the barcode files. Navigate to and select your 
+first file and click Open.
++
+. Every item on the list is retrieved and displayed. It may take a while if the list is long. Select all 
+items using the checkbox at the top of the Row Selector Column.
++
+. Click **Actions → Check in Items**.
++
+. Repeat steps 4-7 to check in items in all files.
+
+[TIP]
+=====
+You may see prompt popups for items with special status, such as lost, missing, checked out, 
+in-transit or routing to the holds shelf. Once you confirm the prompt, the loading will continue. 
+You need to follow up with items going on hold shelf and in-transit.
+=====

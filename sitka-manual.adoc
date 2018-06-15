@@ -106,6 +106,12 @@ include::serials/serials-routing.adoc[]
 
 include::serials/serials-binding.adoc[]
 
+Inventory
+=========
+include::inventory/inventory-running.adoc[]
+
+include::inventory/inventory-reporting.adoc[]
+
 Administration
 ==============
 include::admin/admin-overview.adoc[]
