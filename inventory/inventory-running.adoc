@@ -31,7 +31,7 @@ Running Inventory with the Staff Client
 =====
 Staff can check for cataloguing issues while checking in items for inventory. To do so set up your Check In 
 screen with the following columns:
-+
+
 * Title
 +
 * Location
@@ -39,7 +39,7 @@ screen with the following columns:
 * Circulation Modifier
 +
 * Call Number
-+
+
 Staff can fix items right away or put them aside to be dealt with later.
 =====
 
