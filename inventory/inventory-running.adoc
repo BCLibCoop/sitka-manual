@@ -23,7 +23,7 @@ in the correct location.
 Running Inventory with the Staff Client
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-. In Evergreen go to **Circulation → Check In Items**.
+. In Evergreen go to **Circulation → Check In**.
 +
 . Check the items in.
 
@@ -34,11 +34,11 @@ screen with the following columns:
 +
 * Title
 +
-*Location
+* Location
 +
-*Circulation Modifier
+* Circulation Modifier
 +
-*Call Number
+* Call Number
 +
 Staff can fix items right away or put them aside to be dealt with later.
 =====
@@ -48,18 +48,16 @@ Running Inventory with the Offline Module
 
 If you do not have wi-fi available you can use Evergreen's Offline module to check items in for inventory.
 
-. Open _Offline Circulation_.
+. In Evergreen go to **Circulation → Offline Circulation**.
 +
-. Check in the items in the area you are inventoring. See xref:_check_out_2[].
+. Go to **Checkin** and check in the items in the area you are inventoring.
 +
 . Connect the computer to the internet and open the Evergreen Staff Client.
 +
 . Upload your check ins. See xref:_upload_and_process_offline_transactions[].
 +
 . Make sure you follow up on any exceptions that appear when the transactions are uploaded. See 
-xref:_handle_exceptions[].
-+
-. These items will need to be pulled from the shelf and checked in on the live staff client to 
+xref:_handle_exceptions[]. These items will need to be pulled from the shelf and checked in on the live staff client to 
 resolve the exceptions.
 
 Running Inventory with a 3rd Party Portable Barcode Scanner
@@ -74,21 +72,21 @@ The barcodes should be in one single spaced single column without extra spaces a
 individual text file (we recommend each list contains about 50 barcodes). Name your files in sequence, e.g. 
 inventory001, inventory002..., so that it will be easy to follow when you upload the files.
 +
-. On Item Status screen of Evergreen, click **Choose File**.
+. On the Item Status screen in Evergreen, click **Choose File**.
 +
-. You are prompted to browse your local computer to find the barcode files. Navigate to and select your 
-first file and click Open.
+. You will be prompted to browse your local computer to find the barcode files. Navigate to and select your 
+first file and click **Open**.
 +
 . Every item on the list is retrieved and displayed. It may take a while if the list is long. Select all 
 items using the checkbox at the top of the Row Selector Column.
 +
 . Click **Actions → Check in Items**.
 +
-. Repeat steps 4-7 to check in items in all files.
+. Repeat steps 4-7 to check in the items in all of your files.
 
 [TIP]
 =====
-You may see prompt popups for items with special status, such as lost, missing, checked out, 
+You may see prompt popups for items with special statuses, such as lost, missing, checked out, 
 in-transit or routing to the holds shelf. Once you confirm the prompt, the loading will continue. 
 You need to follow up with items going on hold shelf and in-transit.
 =====
