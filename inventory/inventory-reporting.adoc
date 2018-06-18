@@ -5,7 +5,7 @@ There are two report templates in the Sitka_templates -> Inventory folder on the
 
 **Inventory - Scanned Items Count by Shelving Location**
 
-This report counts the items that have been checked in/out or otherwise has their status changed
+This report counts the items that have been checked in/out or otherwise had their status changed
 (including being checked out, marked missing or lost) during the inventory period. 
 The date when you started taking inventory should be entered as the _Copy Status Changed Time_ when 
 running the report. The numbers are broken down by shelving locations.
@@ -13,7 +13,7 @@ running the report. The numbers are broken down by shelving locations.
 **Inventory - Un-scanned Items**
 
 This report generates a list of items that should be on the shelf but were not checked in/out 
-or otherwise has their status changed during the inventory period. When running the report use the 
+or otherwise had their status changed during the inventory period. When running the report use the 
 date when you started taking inventory for the _Copy Status Changed Time_, the shelving location(s) in which 
 you took inventory and the "on shelf" statuses _Reshelving_ and _Available_.
 

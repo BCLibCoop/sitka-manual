@@ -1,6 +1,18 @@
 Running Inventory
 -----------------
 
+The following procedure was developed by Co-op Support based on the current functionality available 
+in Sitka's Evergreen and the experience of inventory projects done by libraries in the Sitka consortium and 
+the Evergreen community. 
+
+Inventory in Evergreen involves staff checking in all items in a specific area and then running a report 
+to list all the items that were not scanned. When items are checked in/out the date and time is recorded in 
+the _Copy Status Changed Time_ field of the item record. This field is used by the inventory reports 
+to determine which items have been inventoried and which have not.
+
+Preparing for Inventory
+~~~~~~~~~~~~~~~~~~~~~~~
+
 The first step to running inventory is to chose the section of your library you will inventory. We recommend 
 that you inventory a shelving location or particular call number range. There are several report templates 
 you can use to aid you in preparing for your inventory.
@@ -46,7 +58,8 @@ Staff can fix items right away or put them aside to be dealt with later.
 Running Inventory with the Offline Module
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you do not have wi-fi available you can use Evergreen's Offline module to check items in for inventory.
+If you are planning to take a laptop into your shelves and do not have Wi-Fi available you can use 
+Evergreen's Offline module to check items in for inventory.
 
 . In Evergreen go to **Circulation → Offline Circulation**.
 +
@@ -60,12 +73,13 @@ If you do not have wi-fi available you can use Evergreen's Offline module to che
 xref:_handle_exceptions[]. These items will need to be pulled from the shelf and checked in on the live staff client to 
 resolve the exceptions.
 
-Running Inventory with a 3rd Party Portable Barcode Scanner
+Running Inventory with a Portable Barcode Scanner
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 . Scan every item barcode on shelf in the chosen area.
 +
-. Export the barcodes to a text file (we recommends using Notepad) to a computer with Evergreen installed. 
+. Export the barcodes to a text file (we recommends using Notepad) and save the file on a computer with 
+access to Sitka's Evergreen. 
 The barcodes should be in one single spaced single column without extra spaces anywhere.
 +
 . Use Cut and Paste functions to break the big list of barcodes into smaller lists and save each list as an 
