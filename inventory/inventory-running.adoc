@@ -76,6 +76,9 @@ resolve the exceptions.
 Running Inventory with a Portable Barcode Scanner
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Some libraries have portable barcode scanners designed to be used for inventory.  These scanners collect and 
+store barcode information which can then be exported as a file and saved on a computer. 
+
 . Scan every item barcode on shelf in the chosen area.
 +
 . Export the barcodes to a text file (we recommends using Notepad) and save the file on a computer with 
