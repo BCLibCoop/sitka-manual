@@ -74,7 +74,7 @@ xref:_handle_exceptions[]. These items will need to be pulled from the shelf and
 resolve the exceptions.
 
 Running Inventory with a Portable Barcode Scanner
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Some libraries have portable barcode scanners designed to be used for inventory.  These scanners collect and 
 store barcode information which can then be exported as a file and saved on a computer. 
