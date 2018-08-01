@@ -2,5 +2,15 @@ Patron Credit
 ~~~~~~~~~~~~~
 (((Patron Credit)))
 
-BC Libraries Cooperative Support advises that the optional Patron Credit function is not working correctly in version 3.1 of Sitka's Evergreen, effective May 22, 2018. This page will be updated when the functionality changes.
-Libraries that  have disabled  this feature in the library setting, Disable Patron Credit, are not affected
+A credit can be kept in a patron account and used later to pay bills.
+
+. To create or add a credit, select the payment method and enter the amount in *Payment Received*
+. Select *Convert Change to Patron Credit* on bottom right.
+. Click *Apply Payment.*
+
+image:images/circ/patroncredit1.png[scaledwidth="75%"]
+
+
+To use patron credit to pay bills, select *Patron Credit* as the payment type.
+
+If your library does not use patron credit, you can turn it off through a library setting.
