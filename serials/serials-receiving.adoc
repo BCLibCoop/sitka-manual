@@ -36,8 +36,8 @@ NOTE: The Copy Location and Circulation Modifier will be pre-populated from the 
 image::images/serials/quickreceive4.png[]
 
 
-Receive from the Manage Issues tab
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Receive Issues
+~~~~~~~~~~~~~~
 
 The *Manage Issues* tab can be used to receive the next expected issue and to receive multiple expected issues.
 
@@ -51,7 +51,7 @@ Receive Next Issue and Barcode
 . Check the box adjacent to *Barcode on receive*.
 . Click *Receive Next*.
 +
-image::images/serials/receiveissue3.png[]
+image::images/serials/receiveissue1.png[]
 +
 . A Receive items dialog box will appear with the next expected issue and item(s).
 . The Copy Location and Circulation Modifier will be pre-populated from the Receive Template associated with the Distribution. Changes can be made to the pre-populated information.
