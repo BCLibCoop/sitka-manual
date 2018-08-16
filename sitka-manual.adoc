@@ -112,6 +112,11 @@ include::inventory/inventory-running.adoc[]
 
 include::inventory/inventory-reporting.adoc[]
 
+Course Reserves
+===============
+include::course-reserves/course-reserves.adoc[]
+
+
 Administration
 ==============
 include::admin/admin-overview.adoc[]
