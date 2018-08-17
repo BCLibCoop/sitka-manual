@@ -54,7 +54,7 @@ image::images/cat/add-holdings-3a.png[]
 + 
 . Type/scan in barcodes for each copy.
 
-NOTE: *Save & Exit* is greyed out when barcodes are not filled up.
+NOTE: *Save & Exit* is greyed out before barcodes are not filled up.
 
 Working on multiple copies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
