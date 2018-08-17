@@ -56,7 +56,7 @@ image::images/cat/add-holdings-3a.png[]
 
 NOTE: *Save & Exit* is greyed out before barcodes are not filled up.
 
-Working on multiple copies
+Working on Multiple Copies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you add multiple copies and they do not share the values in one or more item attributes, you may select and work on those that share item attributes as a group. You may also temporarily store some items to *Completed Copies* tab, then work on those on Working Copies tab, which share the same attributes. Save and exit when all copies are done.
@@ -86,7 +86,7 @@ image::images/cat/add-holdings-8.png[]
 * *Save Completed* will save those copies on Completed Copies tab only. Those on Working Copies tab will be considered discarded, though they do not disappear.
 =========
 
-Adding Copies Volumes to Multiple Libraries
+Adding Volumes/Copies to Multiple Libraries
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . To add more than one volume for the same library, use the arrow in the  *Volumes* column to increase the number.
@@ -105,3 +105,6 @@ image::images/cat/add-holdings-9.png[]
 +
 * If all volumes share the same attributes, you can select the values in *Batch Apply* row, then click *Apply*.  The selected values will be copied into all volumes.
 =====
+
+Adding Copies to an Existing Volume
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
