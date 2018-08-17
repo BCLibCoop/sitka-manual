@@ -89,8 +89,15 @@ image::images/cat/add-holdings-8.png[]
 Adding Volumes/Copies to Multiple Libraries
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. To add more than one volume for the same library, use the arrow in the  *Volumes* column to increase the number.
+. On Holdings View, select the libraries you want to add copies to. Click *Add Copies*.
 +
+image::images/cat/add-holdings-8a.png[]
++
+. If you want to add multiple volumes/copies, use the arrown in *Volume* and *Copy* volumes to increase the number. Extra lines will show up. Fill up Call Number and Barcodes, then you may work on copies on the Working Copies tab.
++
+image::images/cat/add-holdings-8b.png[]
++
+
 . To add volumes for other libraries, use the arrow in the *Owning Library* column to list the libraries, then click on *Add Volume*.
 +
 image::images/cat/add-holdings-4.png[]
