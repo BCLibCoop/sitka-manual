@@ -80,13 +80,13 @@ image::images/cat/add-holdings-8.png[]
 [CAUTION]
 =========
 * Stored copies on *Completed Copies* tab are *not* saved in the database until you click on *Save & Exit* or *Save Completed*. They are available on the current Volume Copy Creator only. If you close the browser tab without saving them, you will lose them.
-
++
 * *Save Completed* will save those copies on Completed Copies tab only. Those on Working Copies tab will be considered discarded, though they do not disappear.
 ==========
 
 
 Adding Copies Volumes to Multiple Libraries
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . To add more than one volume for the same library, use the arrow in the  *Volumes* column to increase the number.
 +
@@ -95,7 +95,6 @@ Adding Copies Volumes to Multiple Libraries
 image::images/cat/add-holdings-4.png[]
 +
 . To create more than one copy for the same volume, use the arrow in the *Copies* column of the volume record.
-
 
 [TIP]
 =====
