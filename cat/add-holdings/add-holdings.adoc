@@ -21,7 +21,7 @@ CAUTION: Make sure your browser allows Evergreen to open pop-ups.
 +
 [TIP]
 =====
-* For multi-branch libraries, you need to select the branch before clicking Add Copies. If you do not select one, the default owning and circulating library is your login working location.
+* For multi-branch libraries, you may need to select the branch before clicking Add Copies. If you do not select one, the default owning and circulating library is your login working location.
 +
 image::images/cat/add-holdings-2a.png[]
 +
@@ -52,12 +52,7 @@ Adding Multiple Copies to One Volume
 +
 image::images/cat/add-holdings-3a.png[]
 + Type/scan in barcodes for each copy.
-
-
-
-
-
-
+NOTE: *Save & Exit* is greyed out when barcodes are not filled up.
 
 Working on multiple copies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
