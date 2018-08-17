@@ -25,7 +25,7 @@ CAUTION: Make sure your browser allows Evergreen to open pop-ups.
 +
 image::images/cat/add-holdings-2a.png[]
 +
-* Make sure both *Show empty volumes* and *Show empty libraries* checkboxes are selected to see libraries without copies on the library list.
+* Make sure both *Show empty volumes* and *Show empty libraries* checkboxes are selected in order to display libraries without copies on the library list.
 =====
 +
 . Complete the required fields in both volume and copy records. Refer to xref:_working_on_copy_attributes[] for information about individual fields in a copy record. To ensure data consistency, using copy templates is recommended. Select one from the dropdown list, then click on *Apply*. Refer to xref:_volume_copy_template[] for more information.
@@ -52,7 +52,7 @@ Adding Multiple Copies/Volumes to One Library
 
 
 Adding Copies/Volumes to Multiple Libraries
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . To add more than one volume for the same library, use the arrow in the  *Volumes* column to increase the number.
 +
