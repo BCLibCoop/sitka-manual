@@ -119,5 +119,8 @@ Adding Copies to an Existing Volume
 . If your library has multiple volumes and you want to add copies to a particular volume, select it on Holdings View, then click *Add Copies*.
 +
 image::images/cat/add-holdings-9a.png[]
++ Fill up the barcode to continue edit item attributes.
+
+TIP: Evergreen allows one library to have one unique call number under one title. When saving new copies or editing existing copies, copies sharing the same call number are grouped under one volume record.
 
 
