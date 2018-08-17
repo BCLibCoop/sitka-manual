@@ -57,20 +57,17 @@ NOTE: *Save & Exit* is greyed out when barcodes are not filled up.
 Working on multiple copies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+If you add multiple copies and they do not share the values in one or more item attributes, you may select and work on those that share item attributes as a group. You may also temporarily store some items to *Completed Copies* tab, then work on those on Working Copies tab, which share the same attributes. Save and exit when all copies are done.
 
-If you add multiple copies and they do not share the values in one or more item attributes, you can work on those that share item attributes first, temporarily store them to *Completed Copies* tab, then work on the next batch of items sharing the same attributes. Save and exit when all copies are done.
-
-. After you enter the barcode(s), copies are displayed under *Working Copies*. Select those copies that share the same item attribute values. Complete the item attributes for these copies. Click on *Store Selected*.
+. After you enter the barcode(s), copies are displayed under *Working Copies*. Select those copies that share the same item attribute values. Complete the item attributes for these copies. To move them to Completed Copies tab, click on *Store Selected*.
 +
 image::images/cat/add-holdings-5.png[]
 +
-. Selected copies are moved to the *Completed Copies* tab.
-+
-. Select more copies on *Working Copies*. Complete the required fields. Once done, store them in the *Completed Copies* tab, or click on *Save & Exit*.
+. Select more copies on *Working Copies*. Complete the required fields. Once done, store them in the *Completed Copies* tab, or click on *Save & Exit* on Completed Copies tab.
 +
 image::images/cat/add-holdings-6.png[]
 +
-. Completed copies may be edited. Click the *Completed Copies* tab. Select those you want to edit, and click on *Edit Selected*.
+. Completed copies may be further edited, if needed. Select those you want to edit, then click on *Edit Selected*.
 +
 image::images/cat/add-holdings-7.png[]
 +
