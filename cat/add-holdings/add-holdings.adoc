@@ -12,12 +12,21 @@ Adding a Single Volume/Copy
 +
 image::images/cat/add-holdings-1.png[]
 +
-. To add a new volume (also known as call number), click on *Add Volumes*, as shown in the above image.
+. To add a new volume (also known as call number), click on *Add Copies*, as shown in the above image.
 . The Volume Copy creator opens up in a new tab.
 +
 image::images/cat/add-holdings-2.png[]
 +
 CAUTION: Make sure your browser allows Evergreen to open pop-ups.
++
+[TIP]
+=====
+* For multi-branch libraries, you need to select the branch before clicking Add Copies. If you do not select one, the default owning and circulating library is your login working location.
++
+image::images/cat/add-holdings-2a.png[]
++
+* Make sure both *Show empty volumes* and *Show empty libraries* checkboxes are selected, in order to see libraries without copies on the library list.
+=====
 +
 . Complete the required fields in both volume and copy records. Refer to xref:_working_on_copy_attributes[] for information about individual fields in a copy record. To ensure data consistency, using copy templates is recommended. Select one from the dropdown list, then click on *Apply*. Refer to xref:_volume_copy_template[] for more information.
 +
