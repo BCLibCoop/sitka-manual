@@ -45,32 +45,19 @@ image::images/cat/add-holdings-10.png[]
 =====
 
 
-Adding Multiple Copies/Volumes to One Library
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Adding Multiple Copies to One Volume
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-
-
-
-Adding Copies/Volumes to Multiple Libraries
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-. To add more than one volume for the same library, use the arrow in the  *Volumes* column to increase the number.
+. To add multiple copies/volumes to one library, on Volume Copy Creator, use the arrow in the Copies column to increase the number. Extra lines show up for more barcodes.
 +
-. To add volumes for other libraries, use the arrow in the *Owning Library* column to list the libraries, then click on *Add Volume*.
-+
-image::images/cat/add-holdings-4.png[]
-+
-. To create more than one copy for the same volume, use the arrow in the *Copies* column of the volume record.
+image::images/cat/add-holdings-3a.png[]
++ Type/scan in barcodes for each copy.
 
 
-[TIP]
-=====
-* You can hide or display volume and copy details by coordinating the two Hide/Show buttons shown below.
-+
-image::images/cat/add-holdings-9.png[]
-+
-* If all volumes share the same attributes, you can select the values in *Batch Apply* row, then click *Apply*.  The selected values will be copied into all volumes.
-=====
+
+
+
+
 
 Working on multiple copies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -105,3 +92,24 @@ image::images/cat/add-holdings-8.png[]
 
 * *Save Completed* will save those copies on Completed Copies tab only. Those on Working Copies tab will be considered discarded, though they do not disappear.
 ========
+
+Adding Copies/Volumes to Multiple Libraries
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. To add more than one volume for the same library, use the arrow in the  *Volumes* column to increase the number.
++
+. To add volumes for other libraries, use the arrow in the *Owning Library* column to list the libraries, then click on *Add Volume*.
++
+image::images/cat/add-holdings-4.png[]
++
+. To create more than one copy for the same volume, use the arrow in the *Copies* column of the volume record.
+
+
+[TIP]
+=====
+* You can hide or display volume and copy details by coordinating the two Hide/Show buttons shown below.
++
+image::images/cat/add-holdings-9.png[]
++
+* If all volumes share the same attributes, you can select the values in *Batch Apply* row, then click *Apply*.  The selected values will be copied into all volumes.
+=====
