@@ -75,7 +75,7 @@ image::images/cat/add-holdings-7.png[]
 +
 . Selected copies are moved back to the *Working Copies* tab where you can edit them. After editing, you can store them to the *Completed Copies* tab, or click *Save & Exit* when all copies are done.
 +
-. You can save copies on the *Completed Copies* tab or *Save & Exit* from *Completed Copies* tab. When you choose to *Save Completed*, copy records are created in the database, but they remain on the *Completed Copies* tab.
+. You can *Save Completed* copies or *Save & Exit* from *Completed Copies* tab. When you choose to *Save Completed*, copy records are created in the database, but they remain on the *Completed Copies* tab.
 +
 image::images/cat/add-holdings-8.png[]
 
