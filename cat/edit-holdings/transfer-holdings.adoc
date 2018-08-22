@@ -66,13 +66,13 @@ Transferring Copies
 
 You may want to transfer some of the copies under one volume to another volume under the same or another record, or transfer all copies under one volume to another with a different call number. You use the  transfer copies function.
 
-*Transferring Copies to Another Volume*
+*Transferring Copies to Another Volume/Library*
 
-. Find the destination title record. On Holdings View, select the destination volume. Click *Actions* dropdown. Go to *Mark* to select *Library/Volume as Transfer Destination*.
+. Find the destination title record. On Holdings View, select the destination volume/library. Click *Actions* dropdown. Go to *Mark* to select *Library/Volume as Transfer Destination*.
 +
 image::images/cat/transfer-holding-9.png[]
 +
-. Go to the source record, if different from the destination. On Holdings View, select the copies you wish to transfer. Click *Actions* dropdown list. Go to *Transfer* to select *Items to Previously Marked Volume*.
+. Go to the source record, if different from the destination. On Holdings View, select the copies you wish to transfer. Click *Actions* dropdown list. Go to *Transfer* to select *Items to Previously Marked Destination*.
 +
 image::images/cat/transfer-holding-10.png[]
 +
@@ -80,19 +80,3 @@ image::images/cat/transfer-holding-10.png[]
 +
 image::images/cat/transfer-holding-11.png[]
 
-*Transferring Copies to Another Library*
-
-You may transfer some copies under one volume to another library, which may not have a volume, or to a volume with a different call number. The copies will be under a new volume record with the same call number.
-
-
-. Find the destination bibliographic record. On Holdings View, select the destination library. Click *Actions* dropdown. Go to *Mark* to select *Volume as Volume Transfer Destination*.
-+
-image::images/cat/transfer-holding-12.png[]
-+
-. Go to the source record, if different from the destination. On Holdings View, select the copies you wish to transfer. Click *Actions* dropdown list. *Go to Transfer* to select *Copies to Previously Marked Library*.
-+
-image::images/cat/transfer-holding-13.png[]
-+
-. The copy is transferred to the marked library under a separate volume. The copy's old call number is kept.
-+
-image::images/cat/transfer-holding-14.png[]
