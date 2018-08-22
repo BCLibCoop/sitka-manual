@@ -64,7 +64,7 @@ If the destination library has a volume with the same call number as the source 
 Transferring Copies
 ^^^^^^^^^^^^^^^^^^^
 
-You may want to transfer some of the copies under one volume to another volume under the same or another record, or transfer all copies under one volume to another with a different call number. You use the  transfer copies function.
+You may want to transfer some of the copies under one volume to another volume/library under the same or another record, or transfer all copies under one volume to another with a different call number. You use the  transfer copies function.
 
 *Transferring Copies to Another Volume/Library*
 
@@ -72,7 +72,7 @@ You may want to transfer some of the copies under one volume to another volume u
 +
 image::images/cat/transfer-holding-9.png[]
 +
-. Go to the source record, if different from the destination. On Holdings View, select the copies you wish to transfer. Click *Actions* dropdown list. Go to *Transfer* to select *Items to Previously Marked Destination*.
+. Go to the source record, if different from the destination. On *Holdings View*, select the copies you wish to transfer. Click *Actions* dropdown list. Go to *Transfer* to select *Items to Previously Marked Destination*.
 +
 image::images/cat/transfer-holding-10.png[]
 +
