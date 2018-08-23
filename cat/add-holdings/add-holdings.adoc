@@ -120,7 +120,20 @@ Adding Copies to an Existing Volume
 +
 image::images/cat/add-holdings-9a.png[]
 + 
-. Fill up the barcode to continue to edit item attributes.
+. Fill up the barcode to continue to edit item attributes, then save.
+
+Adding a Volume without a Copy
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Sometimes you may need to create a volume/call number record without any copy. For exampple, you may want to move one of two regular collection copies to reference, which will use a different call number prefix or catalouge a pre-catalogued item. 
+
+. Find the title record, on *Holdings View*,  select your library, go to *Actions* list, scroll to *Add* to select *Volumes*.
++
+image::images/cat/add-holdings-11.png[]
++
+. Fill up the fields for your call number, then click *Save & Exit*.
++
+image::images/cat/add-holdings-12.png[]
 
 [TIP]
 =====
