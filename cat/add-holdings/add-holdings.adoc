@@ -127,7 +127,7 @@ Adding a Volume without a Copy
 
 Sometimes you may need to create a volume/call number record without any copy. For exampple, you may want to move one of two regular collection copies to reference, which will use a different call number prefix or catalouge a pre-catalogued item. 
 
-. Find the title record, on *Holdings View*,  select your library, go to *Actions* list, scroll to *Add* to select Volumes*.
+. Find the title record, on *Holdings View*,  select your library, go to *Actions* list, scroll to *Add* to select *Volumes*.
 +
 image::images/cat/add-holdings-11.png[]
 +
