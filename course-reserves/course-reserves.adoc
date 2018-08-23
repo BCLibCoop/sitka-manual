@@ -4,14 +4,14 @@ Course Reserves Administration
 The Course Reserves module is available to academic libraries for displaying and managing course 
 reserve lists.  
 
-The module uses the My Lists functionality in the public catalogue to create lists of 
+The module uses the _My Lists_ functionality in the public catalogue to create lists of 
 reserves materials that can be viewed by users.
 
 Implementing Course Reserves
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To request the course reserves module for your library
- https://bc.libraries.coop/support/[contact Support].  This module is only available for academic
+ https://bc.libraries.coop/support/[contact Co-op Support].  This module is only available for academic
  libraries.
  
 Before implementing course reserves you will need to consider the following:
@@ -19,32 +19,37 @@ Before implementing course reserves you will need to consider the following:
 **How will your reserve items will be identified in Evergreen?**
 
 Support recommends setting up a Course Reserves shelving location and using reserve specific
-modifiers.
+circulation modifiers.
 
 **How will your reserve items circulate?**
 
 If your reserve materials will have special loan periods or fines you will need to consider which circulation
-modifiers you use and contact Support to set up new circulation policies.  If reserve materials
+modifiers you use and contact Co-op Support to set up new circulation policies.  If reserve materials
 are not holdable your shelving location needs to be set accordingly or hold policies adjusted by Support.
 
 **Who will create the course reserve lists?**
 
-Because the course reserves module uses the My Lists functionality the lists can be created by 
+Because the course reserves module uses the _My Lists_ functionality the lists can be created by 
 instructors or library staff or both.  Decide who will create the lists and how admin staff
 will be informed of new lists to be added or old lists needing to be removed.
 
 Creating Course Reserve Lists
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-. Start from the reserve item's Record Summary in the OPAC
-. Select Add to my list
-. Select Add to new list from the bottom of the drop down menu
-. A new tab will open. Create a new list (eg: AHIS 320 : Smith.)
+Course Reserve lists are created using the xref:_my_lists[My List] functionality. 
+
+. Log into your account in the public catalogue.
+. Select the _My Lists_ tab at the top of the _My Account_ area.
+. In the _My Account_ area, click on *My Lists*.
+. In the _Create New List_ section, enter a name for your list into the text box.
 . Optional - enter a list description
-. Set Share this list? to Yes.
-. Click Submit. The tab will automatically reload to include the new list.
-. Find the course and click HTML View
+. Set Share this list? to *Yes*.
+. Click *Submit*.
+image::images/course-reserves/course-reserves-1.png[scaledwidth="75%",alt="Creating Course Reserve Lists"]
+. Find the course and click *HTML View*
+image::images/course-reserves/course-reserves-2.png[scaledwidth="75%",alt="Creating Course Reserve Lists"]
 . Check the URL to find “bookbag=######”  this number is required to add the list to Course Reserves
+image::images/course-reserves/course-reserves-3.png[scaledwidth="75%",alt="Creating Course Reserve Lists"]
 
 [NOTE]
 =====
