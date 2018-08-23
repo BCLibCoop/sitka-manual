@@ -17,21 +17,24 @@ To request the course reserves module for your library
 Before implementing course reserves you will need to consider the following:
 
 **How will your reserve items will be identified in Evergreen?**
+
 Support recommends setting up a Course Reserves shelving location and using reserve specific
 modifiers.
 
 **How will your reserve items circulate?**
+
 If your reserve materials will have special loan periods or fines you will need to consider which circulation
 modifiers you use and contact Support to set up new circulation policies.  If reserve materials
 are not holdable your shelving location needs to be set accordingly or hold policies adjusted by Support.
 
 **Who will create the course reserve lists?**
+
 Because the course reserves module uses the My Lists functionality the lists can be created by 
 instructors or library staff or both.  Decide who will create the lists and how admin staff
 will be informed of new lists to be added or old lists needing to be removed.
 
 Creating Course Reserve Lists
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 . Start from the reserve item's Record Summary in the OPAC
 . Select Add to my list
