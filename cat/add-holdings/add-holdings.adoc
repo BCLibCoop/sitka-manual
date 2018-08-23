@@ -122,11 +122,11 @@ image::images/cat/add-holdings-9a.png[]
 + 
 . Fill up the barcode to continue to edit item attributes.
 
-TIP: Evergreen allows one library to have one unique call number under one title. When saving new copies or editing existing copies, copies sharing the same call number are grouped under one volume record.
-
 [TIP]
 =====
-Adding volumes/copies functions are also available on the *Actions* dropdown list, or right click your mouse when an entry on the library list is selected.
+* Evergreen allows one library to have one unique call number under one title. When saving new copies or editing existing copies, copies sharing the same call number are grouped under one volume record.
+
+* Adding volumes/copies functions are also available on the *Actions* dropdown list, or right click your mouse when an entry on the library list is selected.
 
 image::images/cat/add-holdings-9b.png[]
 =====
