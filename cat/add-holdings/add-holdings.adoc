@@ -22,7 +22,7 @@ CAUTION: Make sure your browser allows Evergreen to open pop-ups.
 [TIP]
 =====
 * For multi-branch libraries, you may need to select the branch before clicking Add Copies. If you do not select one, the default owning and circulating library is your login working location.
-
++
 image::images/cat/add-holdings-2a.png[]
 
 * Make sure both *Show empty volumes* and *Show empty libraries* checkboxes are selected in order to display libraries without copies on the library list.
