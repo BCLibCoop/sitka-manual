@@ -58,7 +58,7 @@ image::images/cat/transfer-holding-6a.png[]
 
 [TIP]
 =======
-If the destination library has a volume with the same call number as the source volume, the volumes will be merged during the transfer.
+If the destination library has a volume with the same call number, the volumes will be merged during the transfer.
 =======
 
 [[transfer-copy]]
