@@ -42,13 +42,13 @@ Course Reserve lists are created using the xref:_my_lists[My List] functionality
 . Select the _My Lists_ tab at the top of the _My Account_ area.
 . In the _My Account_ area, click on *My Lists*.
 . In the _Create New List_ section, enter a name for your list into the text box.
-. Optional - enter a list description
+. Optional - enter a list description.
 . Set Share this list? to *Yes*.
 . Click *Submit*.
 image::images/course-reserves/course-reserves-1.png[scaledwidth="75%",alt="Creating Course Reserve Lists"]
-. Find the course and click *HTML View*
+. Find the course and click *HTML View*.
 image::images/course-reserves/course-reserves-2.png[scaledwidth="75%",alt="Creating Course Reserve Lists"]
-. Check the URL to find “bookbag=######”  this number is required to add the list to Course Reserves
+. Check the URL to find “bookbag=######”  this number is required to add the list to Course Reserves.
 image::images/course-reserves/course-reserves-3.png[scaledwidth="75%",alt="Creating Course Reserve Lists"]
 
 [NOTE]
@@ -57,22 +57,38 @@ The owner of the list can add and remove items from the list as needed and users
 see the current list.
 =====
 
-Adding Course Reserve Lists 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Adding Course Reserves
+~~~~~~~~~~~~~~~~~~~~~~
 
-. Login to the Course Reserves Admin interface provided to you by Support
-. Enter course information
-. Course code 
-. Instructor 
-. Bookbag ID
+. Login to the Course Reserves Admin module provided to you by Co-op Support
+. Enter the course information
+.. Course code 
+.. Instructor 
+.. Bookbag ID
 . Click Submit
-. Go back to the Course Reserves interface to make sure the course and items are listed.
+image::images/course-reserves/course-reserves-4.png[scaledwidth="75%",alt="Adding Course Reserves"]
+. Go to the public Course Reserves page and click on the course to make sure the list opens as expected
+in the public catalogue.
+image::images/course-reserves/course-reserves-5.png[scaledwidth="75%",alt="Adding Course Reserves"]
+
+Editing/Removing Course Reserves
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+. Login to the Course Reserves Admin module provided to you by Co-op Support
+. Click on reserve you wish to modify or delete.
+. In the pop-up that appears make the needed edits and click *Save* or click *Delete This Reserve* to remove
+the reserve.
+image::images/course-reserves/course-reserves-8.png[scaledwidth="75%",alt="Edit or Remove Course Reserves"]
+
 
 
 Using Course Reserves
 ---------------------
 
-. Link to the public course reserves module so that students and faculty can access item
+. From your library website, or elsewhere as appropriate, link to the your public course reserves module
+ so that students and faculty can access the course reserve lists.
 . Users can search for particular courses by code or instructor name
+image::images/course-reserves/course-reserves-6.png[scaledwidth="75%",alt="Using Course Reserves"]
 . Clicking on the course list will display the items on the list in your public catalogue.  If
-the list has a description that will display.
+the list has a description it will display.
+image::images/course-reserves/course-reserves-7.png[scaledwidth="75%",alt="Using Course Reserves"]
