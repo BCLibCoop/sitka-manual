@@ -19,7 +19,7 @@ image::images/cat/transfer-holding-1.png[]
 +
 image::images/cat/transfer-holding-2.png[]
 +
-NOTE: Transfer target is kept until it is reset or a new target is marked.
+NOTE: Transfer target is kept until it is reset (via *Reset Record Marks* on *Mark for* list) or a new target is marked.
 +
 . Go to *Holdings View* of the title you want to transfer volume from. Select the volume. Click *Actions* list. Scroll down to *Transfer*. Choose *Volumes to Previously Marked Destination*.
 +
