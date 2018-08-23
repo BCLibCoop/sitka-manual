@@ -9,7 +9,7 @@ Transferring Volume and Copies
 When you want to transfer all items under one call number/volume to another title record or another library under the same title, you  use the *Transfer Volume* function. Evergreen will transfer both the call number record and all items under it to the new title and/or library.
 
 [[transfer-volume-to-another-record]]
-*Transferring Volumes to Another Record*
+*Transferring Volumes to Another Title Record*
 
 . Find the destination or target record. On *Mark for* dropdown list, select *Holdings Transfer*.
 +
