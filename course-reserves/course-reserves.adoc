@@ -36,7 +36,7 @@ will be informed of new lists to be added or old lists needing to be removed.
 Creating Course Reserve Lists
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Course Reserve lists are created using the xref:_my_lists[My List] functionality. 
+Course Reserve lists are created using the _my_lists[My List] functionality. 
 
 . Log into your account in the public catalogue.
 . Select the _My Lists_ tab at the top of the _My Account_ area.
@@ -66,9 +66,12 @@ Adding Course Reserves
 .. Instructor 
 .. Bookbag ID
 . Click Submit
+
 image::images/course-reserves/course-reserves-4.png[scaledwidth="75%",alt="Adding Course Reserves"]
+
 . Go to the public Course Reserves page and click on the course to make sure the list opens as expected
 in the public catalogue.
+
 image::images/course-reserves/course-reserves-5.png[scaledwidth="75%",alt="Adding Course Reserves"]
 
 Editing/Removing Course Reserves
@@ -79,8 +82,6 @@ Editing/Removing Course Reserves
 . In the pop-up that appears make the needed edits and click *Save* or click *Delete This Reserve* to remove
 the reserve.
 image::images/course-reserves/course-reserves-8.png[scaledwidth="75%",alt="Edit or Remove Course Reserves"]
-
-
 
 Using Course Reserves
 ---------------------
