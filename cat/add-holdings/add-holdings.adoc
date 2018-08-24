@@ -73,9 +73,9 @@ image::images/cat/add-holdings-6.png[]
 +
 image::images/cat/add-holdings-7.png[]
 +
-. Selected copies are moved back to the *Working Copies* tab where you can edit them. After editing, you can store them to the *Completed Copies* tab, or click *Save & Exit* when all copies are done.
+. Selected copies are moved back to the *Working Copies* tab where you can edit them. After editing, you can store them to the Completed Copies tab, or click Save & Exit when all copies are done.
 +
-. You can *Save Completed* copies or *Save & Exit* from *Completed Copies* tab. When you choose to *Save Completed*, copy records are created in the database, but they remain on the *Completed Copies* tab.
+. You can *Save Completed* copies or *Save & Exit* from *Completed Copies* tab. When you choose to *Save Completed*, copy records are created in the database, but they remain on the Completed Copies tab.
 +
 image::images/cat/add-holdings-8.png[]
 
@@ -83,13 +83,13 @@ image::images/cat/add-holdings-8.png[]
 =========
 * Stored copies on *Completed Copies* tab are *not* saved in the database until you click on *Save & Exit* or *Save Completed*. They are available on the current Volume/Copy Creator only. If you close the browser tab without saving them, you will lose them.
 +
-* *Save Completed* will save those copies on Completed Copies tab only. Those on Working Copies tab will be considered discarded, though they do not disappear.
+* *Save Completed* will save those copies on *Completed Copies* tab only. Those on *Working Copies* tab will be considered discarded, though they do not disappear.
 =========
 
 Adding Volumes/Copies to Multiple Libraries
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. On Holdings View, select the libraries you want to add copies to. Click *Add Copies*.
+. On *Holdings View*, select the libraries you want to add copies to. Click *Add Copies*.
 +
 image::images/cat/add-holdings-8a.png[]
 +
@@ -116,7 +116,7 @@ image::images/cat/add-holdings-9.png[]
 Adding Copies to an Existing Volume
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. If your library has multiple volumes and you want to add copies to a particular volume, select it on Holdings View, then click *Add Copies*.
+. If your library has multiple volumes and you want to add copies to a particular volume, select it on *Holdings View*, then click *Add Copies*.
 +
 image::images/cat/add-holdings-9a.png[]
 + 
