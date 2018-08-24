@@ -40,11 +40,17 @@ Course Reserve lists are created using the My List functionality. Further detail
 can be found in xref:_my_lists[].
 
 . Log into your account in the public catalogue.
++
 . Select the _My Lists_ tab at the top of the _My Account_ area.
++
 . In the _My Account_ area, click on *My Lists*.
++
 . In the _Create New List_ section, enter a name for your list into the text box.
++
 . Optional - enter a list description.
++
 . Set Share this list? to *Yes*.
++
 . Click *Submit*.
 +
 image::images/course-reserves/course-reserves-1.png[scaledwidth="75%",alt="Creating Course Reserve Lists"]
@@ -84,6 +90,7 @@ Editing/Removing Course Reserves
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 . Login to the Course Reserves Admin module provided to you by Co-op Support
++
 . Click on reserve you wish to modify or delete.
 . In the pop-up that appears make the needed edits and click *Save* or click *Delete This Reserve* to remove
 the reserve.
