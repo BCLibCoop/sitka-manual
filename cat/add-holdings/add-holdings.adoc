@@ -6,14 +6,14 @@ link:https://youtu.be/Zn1rqJESu5Q[*Sitka Training Video - Volume/Copy Editor (7:
 Adding a Single Volume/Copy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Search the catalogue for a record that matches the item in hand, as described in xref:_searching_the_database_for_cataloguing_purposes[]. If you do not find a match, refer to the  http://sitka.bclibraries.ca/governance/sitka-policy/[Sitka Cataloguing Policy] for recommendations on required procedures. If you do find a match, proceed to next step.
+. Search the catalogue for a record that matches the item in hand, as described in xref:_searching_the_database_for_cataloguing_purposes[]. If you do not find a match, refer to the  http://docs.libraries.coop/policy/html/policy-cat.html[Sitka Cataloguing Policy] for recommendations on required procedures. If you do find a match, proceed to next step.
 
 . When the record details are loaded, click *Holdings View*.
 +
 image::images/cat/add-holdings-1.png[]
 +
 . To add a new volume (also known as call number), click on *Add Copies*, as shown in the above image.
-. The Volume Copy creator opens up in a new tab.
+. The Volume/Copy creator opens up in a new tab.
 +
 image::images/cat/add-holdings-2.png[]
 +
@@ -39,7 +39,7 @@ image::images/cat/add-holdings-3.png[]
 =====
 * By default, a new item has In Process status, unless you choose a different one when creating it. Item must be checked in to become Available. Item's *Active Date* will be filled when it leaves In Process status.
 +
-* You may configure the default displayed fields in volume copy editor. Click on *Defaults* on volume copy editor. See xref:_volume_copy_defaults[] for more information.
+* You may configure the default displayed fields in Volume/Copy Editor. Click on *Defaults* on Volume/Copy Editor. See xref:_volume_copy_defaults[] for more information.
 +
 image::images/cat/add-holdings-10.png[]
 =====
@@ -48,13 +48,13 @@ image::images/cat/add-holdings-10.png[]
 Adding Multiple Copies to One Volume
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. To add multiple copies to one library, on Volume Copy Creator, use the arrow in the Copies column to increase the number. Extra lines show up for more barcodes.
+. To add multiple copies to one library, on Volume/Copy Creator, use the arrow in the Copies column to increase the number. Extra lines show up for more barcodes.
 +
 image::images/cat/add-holdings-3a.png[]
 + 
 . Type/scan in barcodes for each copy.
 
-NOTE: *Save & Exit* is greyed out before barcodes are not filled up.
+NOTE: *Save & Exit* is greyed out until barcodes are filled up.
 
 Working on Multiple Copies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -81,7 +81,7 @@ image::images/cat/add-holdings-8.png[]
 
 [CAUTION]
 =========
-* Stored copies on *Completed Copies* tab are *not* saved in the database until you click on *Save & Exit* or *Save Completed*. They are available on the current Volume Copy Creator only. If you close the browser tab without saving them, you will lose them.
+* Stored copies on *Completed Copies* tab are *not* saved in the database until you click on *Save & Exit* or *Save Completed*. They are available on the current Volume/Copy Creator only. If you close the browser tab without saving them, you will lose them.
 +
 * *Save Completed* will save those copies on Completed Copies tab only. Those on Working Copies tab will be considered discarded, though they do not disappear.
 =========
@@ -99,7 +99,7 @@ image::images/cat/add-holdings-8b.png[]
 +
 [NOTE]
 ======
-You may also add volumes to more libraries on Volume Copy Creator screen. Use the arrow in the *Owning Library* column to list the libraries, then click on *Add Volume*.
+You may also add volumes to more libraries on Volume/Copy Creator screen. Use the arrow in the *Owning Library* column to list the libraries, then click on *Add Volume*.
 
 image::images/cat/add-holdings-4.png[]
 ======
@@ -125,7 +125,7 @@ image::images/cat/add-holdings-9a.png[]
 Adding a Volume without a Copy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Sometimes you may need to create a volume/call number record without any copy. For exampple, you may want to move one of two regular collection copies to reference, which will use a different call number prefix or catalouge a pre-catalogued item. 
+Sometimes you may need to create a volume/call number record without any copy. For example, you may want to move one of two regular collection copies to reference, which will use a different call number prefix or catalouge a pre-catalogued item. 
 
 . Find the title record, on *Holdings View*,  select your library, go to *Actions* list, scroll to *Add* to select *Volumes*.
 +
