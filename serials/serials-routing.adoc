@@ -11,9 +11,10 @@ Routing lists enable you to designate specific users and/or departments that ser
 +
 image::images/serials/routing.png[]
 +
-. Scan or type in the barcode of the user the items should be routed to in the Reader (barcode) field and click *Add Route*. Continue adding barcodes until the list is complete.
+. Scan or type in the barcode of the user the items should be routed to in the Reader (barcode) field and click *Add Route*.
+.. A Note may be added along with each addition to the list.
+.. Continue adding barcodes until the list is complete.
 . To route items to a location, click the radio button next to Department, type in the routing location, and click *Add Route*.
-. A Note may be added along with each addition to the list.
 . The names and departments on the list will appear at the top of the dialog box and can be reordered by clicking the arrows or removed by clicking the x next to each name or department.
 +
 image::images/serials/routing2.png[]
