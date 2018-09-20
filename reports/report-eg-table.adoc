@@ -27,6 +27,8 @@ pre-made by the Reports interface. You just need to follow the link to find the 
 table. Below is a simplified diagram showing the connections among some commonly used tables/views on the 
 Reports interface, which can be a guide for you to find various fields in different tables. Some explanation 
 of these tables is after the diagram.
+
+image::images/report/database-1.png[scaledwidth="75%",alt="Database Diagram"]
  
  
 Commonly used tables and views
