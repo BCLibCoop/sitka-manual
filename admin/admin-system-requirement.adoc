@@ -9,6 +9,7 @@ Most internet traffic uses moments of brief connectivity rather than a persisten
 
 Evergreen will work down to a 3Mbps connection, but the performance will get progressively worse the lower the connection speed gets. While Evergreen will be functionally usable at 3Mbps it may of limited use at lower speeds. Ideally it runs at 12Mbps.
 
+.Recommended Internet Connection Speeds
 [options="header"]
 |====
 | Category |	Downstream |	Upstream	Latency (to Sitka)
