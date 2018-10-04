@@ -12,7 +12,7 @@ Evergreen will work down to a 3Mbps connection, but the performance will get pro
 .Recommended Internet Connection Speeds
 [options="header"]
 |====
-| Category |	Downstream |	Upstream	Latency (to Sitka)
+| Category |	Downstream |	Upstream |	Latency (to Sitka)
 | Bare Minimum To Function |	3Mbps |	786Kbps |	less than 200ms
 | Adequate |	6Mbps |	1Mbps |	less than 125ms
 | Ideal |	12Mbps |	2Mbpbs |	less than 75ms
