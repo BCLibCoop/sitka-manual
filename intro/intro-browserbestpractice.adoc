@@ -118,6 +118,18 @@ Security Software and Cookies
 
 If you have cookies enabled in your browser, but they are disappearing, check your computer's security or antivirus software to see if it may be deleting your cookies on a regular basis.
 
+Turn Off Autofill
+^^^^^^^^^^^^^^^^^
+
+. Click *Menu*.
++
+image::images/intro/browser1.png[]
++
+. Click *Settings*.
+. Under *People* -> *Addresses*.
+. Uncheck *Autofill forms*
++
+image::images/intro/autofill.png[]
 
 Troubleshooting
 ~~~~~~~~~~~~~~~
