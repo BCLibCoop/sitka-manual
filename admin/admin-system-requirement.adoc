@@ -1,16 +1,21 @@
 Evergreen System Requirements
 -----------------------------
 
-
 Evergreen runs smoothly on most modern computers with a good internet connection. To ensure your system is ready for migration here are a few tips and minimum requirements.
 
 *Internet Connectivity*
-
 
 Most internet traffic uses moments of brief connectivity rather than a persistent connection so it is not unusual when experiencing connectivity issues to notice it in the Evergreen staff client.
 
 Evergreen will work down to a 3Mbps connection, but the performance will get progressively worse the lower the connection speed gets. While Evergreen will be functionally usable at 3Mbps it may of limited use at lower speeds. Ideally it runs at 12Mbps.
 
+[options="header"]
+|====
+| Category |	Downstream |	Upstream	Latency (to Sitka)
+| Bare Minimum To Function |	3Mbps |	786Kbps |	less than 200ms
+| Adequate |	6Mbps |	1Mbps |	less than 125ms
+| Ideal |	12Mbps |	2Mbpbs |	less than 75ms
+|====
 
 Most of the bandwidth usage in a library is not from Evergreen, but from other usage of the internet by both staff and patrons. When staff workstations share an ISP connection with public workstations libraries ideally should have at least 1.5-2x more down/upstream capacity than what is recommended in the table above.
 
