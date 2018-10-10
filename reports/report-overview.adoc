@@ -14,7 +14,7 @@ or the whole Sitka Consortium.
 
 Evergreen has very powerful reporting functionalities. It is possible to report on almost every field in every
 table in the database. Connections between tables are pre-made on the Reports screen. Some views are also
-provided to group together records meeting certain conditions. For details refer to xref:_commonly_used_tables_and_views_in_evergreen_database.
+provided to group together records meeting certain conditions. For details refer to xref:_commonly_used_tables_and_views_in_evergreen_database[].
 
 
 The ultimate goal of reporting is finding the records in the database which meet the requirements. Sometimes
