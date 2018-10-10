@@ -34,21 +34,20 @@ circulation records with Due Date before 2012-01-01. It can also be used to capt
 Date before 2012-02-15.
 
 Once a template is ready, the next step is assigning values to the filter fields, for example, giving 2012-01-01
-to the *Due Date* field. This process is commonly known as defining a report, or running a report or setting up
-a report. The process also schedules the report's run-time and frequency (one time only or on regularly basis),
+to the Due Date field. This process is commonly known as defining a report, or running a report or setting up
+a report. The process also schedules the report's run-time and frequency (one time only or on regular basis),
 selects the result file format(s) and designates output file receivers, if preferred. The information provided
 during this step is saved in a file called "Report" on Evergreen. This file contains the template information
-and the value for each filter. Unfortunately, most of these contents are neither viewable nor editable after
-the file is saved.
+and the value for each filter. 
 
 When a report starts to run, the program goes through the database and gathers the records that meet the
 conditions into a file in the selected format(s). This is the Output file that contains the result records.
 
 The three types of files created during the above procedure need to be kept separately in different folders
-on the Reports interface. Before anything, you must create at least one Template, Report, and Output folder
-as described in Chapter 27, Folders.
+on the Reports interface. Before doing anything, you must create at least one Template, Report, and Output folder
+as described in _folders[].
 
-This chapter focuses on the movements on the Reports module while demonstrating how to create reports in
-Evergreen. Once you understand how to navigate around the Reports module, you can create your own reports
+This chapter focuses on the movements on the Reports interface while demonstrating how to create reports in
+Evergreen. Once you understand how to navigate around the Reports interface, you can create your own reports
 from scratch or take advantage of Sitka's pre-packaged report templates. Some background information about the Evergreen
 database and database terminology is at the end of this chapter.
