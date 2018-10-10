@@ -37,12 +37,14 @@ image::images/report/folder-2.png[]
 . Click *Create Sub Folder*, and then *OK* on the confirmation prompt.
 . Next, create a folder for the report definition to be saved to. Click on *Reports*.
 . Repeat steps 2-5 to create a Reports folder also called Circulation.
-. Finally, you need to create a folder for the report’s output to be saved in. Click on *Output*.
+. Finally, you need to create a folder for the report's output to be saved in. Click on *Output*.
 . Repeat steps 2-5 to create an Output folder named Circulation.
  
 TIP: Using a parallel naming scheme for folders in Templates, Reports, and Output helps keep your reports organized and easier to find.
  
-The folders you have just created, will now be visible by clicking the arrows in *My Folders*. Bracketed after the folder name, is the name of with whom the folder is shared. For example, Circulation (BNCLF) is shared with the North Coast Library Federation. If it is not a shared folder, there will be nothing after the folder name. You may create as many folders and sub-folders as you like.
+The folders you have just created, will now be visible by clicking the arrows in *My Folders*. Bracketed after the folder name, is the name of with whom the folder is shared. For example, Circulation (ZSP-B) is shared with the New Coopville Library. If it is not a shared folder, there will be nothing after the folder name. You may create as many folders and sub-folders as you like.
+
+image::images/report/folder-3.png[]
 
 TIP: Clicking the blue text of a folder name displays the contents of the folder. Clicking the arrow in front of a folder name displays its subfolders.
  
@@ -51,10 +53,19 @@ Managing Folders
 
 Once a folder has been created, you can change the name, delete it, create a new subfolder, or change the sharing settings. This example demonstrates changing a folder name; the other choices follow similar steps.
  
-. Click on the folder that you wish to rename.
+. Click on the folder name that you wish to rename.
 . Click *Manage Folder*.
++
+image::images/report/folder-4.png[]
++
 . Select *Change folder name* from the dropdown menu and click *Go*.
++
+image::images/report/folder-5.png[]
++
 . Enter the new name and click *Submit*.
++
+image::images/report/folder-6.png[]
++
 . Click *OK*.
 . You will get a confirmation box that the Action Succeeded. Click *OK*.
 
