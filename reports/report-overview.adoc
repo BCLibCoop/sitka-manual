@@ -24,8 +24,8 @@ two parts: the conditions used to extract the records and the information to be 
 
 
 Evergreen is designed to achieve the above goal by creating a template first. The template specifies the fields
-to be displayed in the result file (Displayed Fields) and the fields on which conditions can be applied (Filter
-Fields). For example, in an overdue template, Due Date in the circulation record should be a filter field so
+to be displayed in the result file (*Displayed Fields*) and the fields on which conditions can be applied (*Filter
+Fields*). For example, in an overdue template, Due Date in the circulation record should be a filter field so
 that a date can be given in order for the reporting program to compare and decide whether a checkout is overdue;
 while patron's names may be displayed fields so that staff may know who has the overdue item. In short, a
 template simply contains a list of displayed fields and a list of filter fields. The template can be used
@@ -34,7 +34,7 @@ circulation records with Due Date before 2012-01-01. It can also be used to capt
 Date before 2012-02-15.
 
 Once a template is ready, the next step is assigning values to the filter fields, for example, giving 2012-01-01
-to the _Due Date_ field. This process is commonly known as defining a report, or running a report or setting up
+to the *Due Date* field. This process is commonly known as defining a report, or running a report or setting up
 a report. The process also schedules the report's run-time and frequency (one time only or on regularly basis),
 selects the result file format(s) and designates output file receivers, if preferred. The information provided
 during this step is saved in a file called "Report" on Evergreen. This file contains the template information
