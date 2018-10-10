@@ -25,20 +25,20 @@ Whether you are creating a report from scratch or working from a shared template
  
 The steps for creating folders are similar for each reporting function. It is easier to create folders for templates, reports, and output all at once at the beginning, though it is possible to do it before each step. This example demonstrates creating a folder for a template.
  
-. Click on *Templates* in the _My Folders_ section.
+. Click on *Templates* in the *My Folders* section.
 +
 image::images/report/folder-1.png[]
 +
 . Name the folder. Select *Share* or *Do not share* from the dropdown menu.
-. If you want to share your folder, select who you want to share this folder with from the dropdown menu.
+. If you want to share your folder, select whom you want to share this folder with from the dropdown menu.
 +
 image::images/report/folder-2.png[]
 +
 . Click *Create Sub Folder*, and then *OK* on the confirmation prompt.
 . Next, create a folder for the report definition to be saved to. Click on *Reports*.
-. Repeat steps 2-5 to create a Reports folder also called Circulation.
+. Repeat steps 2-4 to create a Reports folder also called Circulation.
 . Finally, you need to create a folder for the report's output to be saved in. Click on *Output*.
-. Repeat steps 2-5 to create an Output folder named Circulation.
+. Repeat steps 2-4 to create an Output folder named Circulation.
  
 TIP: Using a parallel naming scheme for folders in Templates, Reports, and Output helps keep your reports organized and easier to find.
  
