@@ -6,21 +6,22 @@ module, but the output is visible to all staff accounts. Any staff requesting re
 must sign and submit the Reporter Privacy Agreement
 see https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/
 
-The Reports interface is accessed from *Administration* → *Reports*.
+The Reports interface is accessed from *Administration* -> *Reports*.
 
 
-Reports are owned by the account used to create them, though the owner can allow other people to view and copy templates by sharing templates with other staff in the library, other libraries in the federation,
+Reports are owned by the account used to create them, though the owner can allow other people to view and copy templates by sharing template folders with other staff in the library, other libraries in the federation,
 or the whole Sitka Consortium.
 
 Evergreen has very powerful reporting functionalities. It is possible to report on almost every field in every
 table in the database. Connections between tables are pre-made on the Reports screen. Some views are also
-provided to group together records meeting certain conditions. For details refer to Commonly used tables and
-views in Evergreen Database.
+provided to group together records meeting certain conditions. For details refer to xref:_commonly_used_tables_and_views_in_evergreen_database.
+
 
 The ultimate goal of reporting is finding the records in the database which meet the requirements. Sometimes
-the resulting records are processed to some extent before they are included in the output, such as counting and
+the result records are processed to some extent before they are included in the output, such as counting and
 displaying the count of the records found instead of showing the records themselves. The requirements include
 two parts: the conditions used to extract the records and the information to be displayed in the result file.
+
 
 Evergreen is designed to achieve the above goal by creating a template first. The template specifies the fields
 to be displayed in the result file (Displayed Fields) and the fields on which conditions can be applied (Filter
