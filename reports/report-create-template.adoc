@@ -10,9 +10,9 @@ other libraries by selecting their own library as the circulating library when t
  
 Creating a template is complex. It requires some understanding of the Evergreen database and how Evergreen 
 handles various records when performing tasks on the staff client. You may refer to the last section of this 
-chapter for some background knowledge. Bear in mind, that a template includes a list of displayed fields, 
+chapter for some background knowledge. Bear in mind that a template includes a list of displayed fields, 
 the information you will see in the result, and a list of filter fields which enables you to set up the 
-conditions for your target records. Generally you do not record your conditions in the template. For example, 
+conditions for your target records. Generally you do not record your specific conditions in the template. For example, 
 in an overdue template, you do not record 2012-01-01 as the due date. Instead, you just make the Due Date 
 field in the circulation record as a filter field. When setting up the report with this template, you will 
 be given the chance to put in 2012-01-01 as the due date.
@@ -22,16 +22,16 @@ thing to decide is the source table. You can choose only one starting source tab
 you need information from other tables, follow the link in the source table to those tables. Grouping together 
 related fields and identifying the key fields will help you select the correct source.
  
-We will take a report on circulation statistics as an example to show you how to create the template. In 
-circulation statistic reports, libraries usually want to know how many circulations were done within a 
-selected time period. When an item is checked out on the staff client, a record is created in the circulation 
+We will take a report on circulation statistics as an example to show you how to create a template. In 
+circulation statistic reports, libraries usually want to know how many items were checked out within a 
+selected time period (in fact how many times items were checked out). When an item is checked out on the staff client, a record is created in the circulation 
 table. You want a count of the number of circulation records created within the time period. So, the 
 Circulation table is likely the source with which you want to start.
  
 You may wish to break down the number of circulations by items' shelving locations to see the circulations by 
 different types of materials (or the patrons' profile groups). In this case, the count of circulation records 
 and the shelving location (or patron profile) are the potential displayed fields. For the filter fields, you 
-need to limit the circulations done within a time period, so checkout date should be a filter. You probably 
+need to limit the circulations done within a time period, so checkout date should be a filter. You 
 want to count the circulations done at your library only as you are part of a consortium, or for all the 
 branches of your library system. (In such a case, you may want to see the checkout library in the result, 
 too.) So, the circulating library will be another filter.
@@ -45,22 +45,26 @@ Choosing Displayed Fields
 
 . Click on the My Folder template folder where you want the template to be saved.
 . Click on *Create a new Template* for this folder.
-. You can now see the template creating interface. The upper half of the screen is the Database Source 
-Browser, where you view the available tables in the database, the fields in each table, and the available 
-transforms for the selected field. You select fields for your template here. The lower half is the Template 
-Configuration, which displays your selected Displayed Fields and Base Filters and/or Aggregate Filters in 
-the template.
++
+image::images/report/template-1.png[]
++
+. You can now see the template creating interface. The three columns below the template name and description are for database source table, fields in the selected table and available transform for the selected field. You select fields for your template here. The lower half is the selected displayed fields and fitlers in the template.
++
+image::images/report/template-2.png[]
+
  
 We will select the displayed fields for our template first. So make sure Displayed Fields is selected.
  
-The top left hand pane contains the database Sources drop-down list. This is the list of tables available 
+The top left hand pane contains the database Core Sources drop-down list. This is the list of tables available 
 as a starting point for your template. Commonly used sources are Circulation (contains circulation records 
 that may be used for circulation statistics and overdue reports), ILS User (contains patron records that 
 may be used for patron reports), and Item (contains copy records that may be used for reports on collection 
 or items with special status).
+
+image::images/report/template-3.png[]
  
-The Enable source nullability checkbox below the sources list is for specifying the join type between 
-linked source tables. In most cases, it should be left unchecked by default. See for how to use Enable 
+The Nullability checkbox beside the sources list is for specifying the join type between 
+linked source tables. In most cases, it should be left unchecked by default.  For  details refer to tip xref:nullibility_commonly_used_tables[]  how to use Enable 
 source nullability checkbox.
  
 The relationship between tables can be found by displaying Relationship field (using the Column Picker) 
@@ -68,7 +72,7 @@ in the low Source Specifier pane.
  
 . Select Circulation in the Sources dropdown menu. Note that the Core Sources for reporting are listed first, 
 however it is possible to access all available sources at the bottom of this dropdown menu.
- 
+
 CAUTION: One template can have only one starting source table. If you need information from other tables 
 you should follow the links made by the Reports interface to those tables. The reporting program can not 
 put two pieces of isolated information together into one record in the result. When you change a starting 
