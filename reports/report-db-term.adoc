@@ -48,8 +48,8 @@ Upper Case/Lower Case.  Transforms text to all upper/lower case. They are only a
 type.
  
 Substring.  This transform can be applied to filters, not display fields. It matches the given value with a 
-continuous string of characters in the field. For example, if a given value is "123’ and the match is with a 
-call number field, call numbers like ‘123.34’, ‘ANF 123.34’, ‘JNF 233.123’, etc. will be in the result list. 
+continuous string of characters in the field. For example, if a given value is "123" and the match is with a 
+call number field, call numbers like "123.34", "ANF 123.34", "JNF 233.123", etc. will be in the result list. 
 Substring is only available to text data type.
  
 First Continuous Non-space string.  The first word (or string of numbers and/or characters until the first 
