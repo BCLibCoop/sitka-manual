@@ -125,7 +125,9 @@ NOTE: In the left Source Path column, *(inner)* indicates the join type between 
 . Select the Check Out Date/Time row. Click *Actions* -> *Change Column Label* to change the column header to *Check out month*.
  
 . Move Check out month to the top of the list using *Actions* -> *Move Field Up*, so that it will be the first column in an MS Excel spreadsheet. Now, the report output will sort by the checkout month first, then by shelving locations.
- 
++
+image::images/report/template-9.png[]
++  
 TIP: Note that field transform can be changed after fields being added. Use the function on the Actions list.
  
 Applying Filters
@@ -137,35 +139,32 @@ out the unwanted records.
  
 The following procedure shows how to add filters to the example template:
  
-. Select the Base Filters tab in the bottom Template Configuration pane.
-. For this circulation statistics example, select Circulation → Check Out Date/Time → Year + Month and 
-click on Add Selected Fields. You are going to filter on the checkout month.
-. Select Check Out Date/Time. Click on Change Operator and select In list from the dropdown menu. This 
-operator allows you to count circulations done within each month for several months by just one report.
-. To filter on the location of the circulation select Circulation → Circulating library → Raw Data and 
-click on Add Selected Fields.
-. Select Circulating Library and click on Change Operator and select Equals. Note that this is a template, 
-so the value for Equals will be filled out when you run the report.
-
-For multi-branch libraries, you would select Circulating Library with In list as the operator, so you could 
+. Select the Filters tab at the bottom.
+. For this circulation statistics example, select Circulation table, Check Out Date/Time field and Year + Month in transform column,then click on Add Fields. We are going to filter on the checkout month.
++
+image::images/report/template-10.png[]
++  
+. Note that the default operator for the filter is Equal. It may be changed. Select Check Out Date/Time row. Click on *Actions* -> *Change Operator* and select *In list* from the dropdown menu in the popup window. This operator allows you to count circulations done within each month for several months by just one report.
++
+image::images/report/template-11.png[]
+image::images/report/template-12.png[]
++ 
+. To filter on the location of the circulation, select Circulation table, Circulating library field and Raw Data transform, and 
+click on Add Fields.
+. Note that this is a template, so the value for this filter may be filled out when you run the report. 
++
+For multi-branch libraries, you may want to change the operator to In List so that you could 
 specify multiple branch(es) when you run the report.
- 
-Refer to Template Terminology for details of Transforms and Operators, and Aggregate and Non-aggregate filters.
- 
 . You may add a hint to the filter, e.g. explaining the function of the filter, what value is expected when 
-setting up the report, etc. Select the filter and click Change Field Hint.
- 
+setting up the report, etc. Select the filter and click *Actions* -> *Change Column Documentation* to change field hint.
++
 In the above example, we added some instruction on how to fill up the filter when setting up the report. 
 The hint will show up on the report creation screen. Below is how it looks like on the report creation screen.
- 
-. Once you have configured your template, you must name and save it. Name this template Circulations by month for one library. You can also add a description. In this example, the title is descriptive enough, so a description is not necessary. Click Save.
-. Click OK.
-. You will get a confirmation dialogue box that the template was successfully saved. Click OK.
-
-TIP: The bottom right hand pane is also a source specifier. By selecting one of these rows you will limit 
-the fields that are visible to the sources you have specified. This may help to find out the source of the 
-fields, e.g. a circulating library is from the circulation table or item table. Use Ctrl+Click to select or 
-deselect items.
++
+image::images/report/template-13.png[]
++
+. Once you have configured your template, you must name and save it. Name this template Circulations by Months. You also need to add a description. Click *Save Template*.
+. You will get a confirmation dialogue box that the template was successfully saved. Click *OK/Continue*.
  
 Once a template is saved, it can not be edited anymore. To make changes you will need to clone it and edit 
 the clone. This will ensure that the work you have done will not be lost. As mentioned before, creating a 
@@ -175,8 +174,8 @@ correctness of the result on each step. This may help you to find out the exact 
 you have the desired template, you may delete all the interim ones.
  
 The above paragraphs described how to create a template from scratch with a very simple example. You may 
-choose instead to use one of the generic templates created by the Sitka team to meet common reporting needs 
-(see Chapter 33, Shared Templates in SITKA_templates). However, knowing how a template is created will help 
+choose instead to use one of the generic templates created by the Sitka team to meet common reporting needs. 
+(see xref:_shared_sitka_templates[]). However, knowing how a template is created will help 
 you understand the report structure and is recommended as an introduction to editing template fields and 
 filters.
  
