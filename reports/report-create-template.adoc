@@ -83,12 +83,12 @@ displayed in the right column. Transforms specify how data should be processed b
 displayed/compared. Fields may contain different types of data. Different data types may be transformed differently. Refer to xref:template_terminology[Template Terminology] for details of transforms for each data type.
 +
 For our example template, select Circ ID in the middle column, and Count Distinct from the 
-right Transform column. You are counting the number of circulation records.
+right Transform column. We are counting the number of circulation records.
 +
-. Click Add Selected Fields underneath the Field Transform pane to add this field to your report output. 
+. Click Add Fields to add this field to your report output. 
 Note that Circ ID now shows up in the bottom left hand pane under the Displayed Fields tab.
 +
-image::images/report/template-4.png[]
+image::images/report/template-5.png[]
 +
 . Circ ID will be the column header in the report output. You can rename default display names 
 to something more meaningful. To do so in this example, select the Circ ID row and click Alter 

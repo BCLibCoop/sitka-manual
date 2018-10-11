@@ -24,7 +24,7 @@ uses:
 |Link    |It is similar to the id data type. It is the id of a record in another table.    |Examples in Evergreen: "user id" and "item id" in a circulation record. Link outputs a number that is a meaningful reference for the database but not of much use to a human user. You will usually want to drill further down the tree in the Sources pane and select fields from the linked table. However, in some instances you might want to use a link field. For example, to count the number of patrons who borrowed items you could do a count on the "user id" in the circulation record.
 |Money    |Monetary amount    |Examples in Evergreen: "price" in item record, "billing amount" in billing record.
 |Org_unit    |Organizational unit. It is a number. It acts like link data type.    |In Evergreen, libraries are organizational units. In Sitka context they are organized into a tree structure with consortium, library federations, libraries/library systems and branches for library systems. To filter on a library, make sure you choose the field having org_unit data type. To display a library, it is a better option to drill down to the org unit record to display the "name" of it.
-|Text    |Text field. Usually it takes whatever is typed into the field.    |Examples: "call number label" in call number record, "patron’s names".
+|Text    |Text field. Usually it takes whatever is typed into the field.    |Examples: "call number label" in call number record, "patron's names".
 |Timestamp    |A very detailed time such as 2007-11-25 17:54:26-07    |Example: checkout time in circulation record, last status date in item record.
 |=============
 
