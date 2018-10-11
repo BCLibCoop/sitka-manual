@@ -79,53 +79,54 @@ image::images/report/template-4.png[]
 +
 . When you select a field in the middle column, the available data transforms of the selected field are 
 displayed in the right column. Transforms specify how data should be processed before they are 
-displayed/compared. Fields may contain different types of data. Different data types may be transformed differently. Refer to xref:template_terminology[Template Terminology] for details of transforms for each data type.
+displayed/compared. Fields may contain different types of data, indicated by the little icon in front of each field. Different data types may be transformed differently. Refer to xref:template_terminology[] for details of transforms for each data type. 
 +
 For our example template, select Circ ID in the middle column, and Count Distinct from the 
 right Transform column. We are counting the number of circulation records.
 +
-. Click Add Fields to add this field to your report output. 
-Note that Circ ID now shows up in the bottom left hand pane under the Displayed Fields tab.
+. Click *Add Fields* to add this field to your report output. 
+Note that Circ ID now shows up at the bottom under Displayed Fields tab.
 +
 image::images/report/template-5.png[]
 +
 . Circ ID will be the column header in the report output. You can rename default display names 
 to something more meaningful. To do so in this example, select the Circ ID row and click *Actions* -> *Change Column Label*. Type in a new name, "Circ Count", then click *OK/Continue* on the prompt.
 +
-Double-clicking on the displayed field name is a shortcut to altering the display header.
+image::images/report/template-6.png[]
 +
-. Type in the new column header name, for example Circ count and click OK.
- 
-. Add other data to your report by going back to the Sources pane and selecting the desired fields. 
-In this example, we are going to add Circulating Item → Shelving Location to further refine the 
+. Add other data to your report by going back to the Source area and selecting the desired fields. 
+In this example, we are going to add Circulating Item's Shelving Location to further refine the 
 circulation report.
 +
-In the top left hand Sources pane, expand Circulation. Depending on your computer you will either click 
-on the + sign or on an arrow to expand the tree.
+Shelving Location is listed in the Circulation table. But the icon in front it indicates it is link, which means it is an ID from another table. It is meaningless to most users. We need to display shelving location's name. We will follow the link to Shelving Location table to select Name field. Click the arrow in fron of Circulation in the left table column to display the linked tables. 
 +
-. Click on the + or arrow to expand Circulating Item. Select Shelving Location.
+image::images/report/template-7.png[]
++
+. Click on Shelving Location in the table list.
 
-. In the Field Name pane select Name.
+. In the middle Field column, select *Name*.
  
-. In the upper right Field Transform pane, select Raw Data and click Add Selected Fields. Use Raw Data when you do not wish to transform field data in any manner.
+. In the right Transform column, select Raw Data and click *Add Fields*. Use Raw Data when you do not wish to transform field data in any manner.
++
+image::images/report/template-8.png[]
++ 
+. *Name* will appear in the bottom Displayed Fields tab. Select the Name row and click *Actions* -> *Change Column Label* to the field name to Shelving Location. 
++
+NOTE: In the left Source Path column, *(inner)* indicates the join type between Circulation and Shelving Location table is inner join.
++
+. Note that the order of rows (top to bottom) will correspond to the order of columns (left to right) on the final report. The results will be sorted by the columns in this order, too. Select Shelving location and click on *Actions* -> *Move Field Up* to move Shelving location before Circ Count. The result will be sorted by Shelving Location first.
  
-. Name will appear in the bottom left pane. Select the Name row and click Alter Display Header.
+. Return to the Sources area to add more fields to your template. Under Sources click Circulation, then select Check Out Date/Time from the middle Field column.
  
-. Enter a new, more descriptive column header, for example, Shelving location. Click OK.
+. Select Year + Month in the right hand Field Transform column and click Add Fields
  
-. Note that the order of rows (top to bottom) will correspond to the order of columns (left to right) on the final report. The results will be sorted by the columns in this order, too. Select Shelving location and click on Move Up to move Shelving location before Circ count. The result will be sorted by Shelving Location first.
+. Check Out Date/Time will appear in the Displayed Fields tab. In the report it will appear as a year and month (YYYY-MM) corresponding to the selected transform.
  
-. Return to the Sources pane to add more fields to your template. Under Sources click Circulation, then select Check Out Date/Time from the middle Field Name pane.
+. Select the Check Out Date/Time row. Click *Actions* -> *Change Column Label* to change the column header to *Check out month*.
  
-. Select Year + Month in the right hand Field Transform pane and click Add Selected Fields
+. Move Check out month to the top of the list using *Actions* -> *Move Field Up*, so that it will be the first column in an MS Excel spreadsheet. Now, the report output will sort by the checkout month first, then by shelving locations.
  
-. Check Out Date/Time will appear in the Displayed Fields pane. In the report it will appear as a year and month (YYYY-MM) corresponding to the selected transform.
- 
-. Select the Check Out Date/Time row. Click Alter Display Header and change the column header to Check out month.
- 
-. Move Check out month to the top of the list using the Move Up button, so that it will be the first column in an MS Excel spreadsheet. Now, the report output will sort by the checkout month first, then by shelving locations.
- 
-TIP: Note the Change Transform button in the bottom left hand pane. It has the same function as the upper right Field Transform pane for fields that have already been added.
+TIP: Note that field transform can be changed after fields being added. Use the function on the Actions list.
  
 Applying Filters
 ~~~~~~~~~~~~~~~~
