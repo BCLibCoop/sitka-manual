@@ -164,7 +164,7 @@ be from one or more tables. Before you use a view for your report, you need to m
 the type of records that you want to report on. For example, Overdue Circulation is a view which contains 
 circulation records without checkin date and the due date past "today". It does not work for a report on 
 last month's circulation statistics, but it makes an overdue report easier.
-* anchor:nullibility_commonly_used_tables[Nullibility]By default, tables are often, but not always, joined by left join. Other join types may be available. Select 
+* anchor:nullability_commonly_used_tables[Nullability]By default, tables are often, but not always, joined by left join. Other join types may be available. Select 
 the Enable nullability checkbox under the source list on Template Creation screen (before linked tables are 
 displayed) to list all available join types. You may see None, Child, Parent, Default in Nullable column 
 beside the table names. None means a inner join; Parent is a right outer join; Child left outer join. Default 

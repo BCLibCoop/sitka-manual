@@ -1,0 +1,35 @@
+Template Terminology: Data Types, Transforms, and Operators
+------------------------------------------------------------
+
+Data Types
+~~~~~~~~~~
+
+The central column of the Database Source Browser lists Field Name and Data Type for the selected database 
+table.
+ 
+ 
+Data Type is associated with each field. It tells what kind of information is stored in the field. The system 
+handles the information differently based on the data type. Each data type has its own characteristics and 
+uses:
+
+[options="header"]
+|============= 
+|Data Type |Description    |Notes
+|Boolean    |Contains either "trueâ€Template Terminology: Data Types, Transforms, and Operators
+------------------------------------------------------------
+
+Data Types
+~~~~~~~~~~
+
+The central column of the Database Source Browser lists Field Name and Data Type for the selected database 
+table.
+ 
+ 
+Data Type is associated with each field. It tells what kind of information is stored in the field. The system 
+handles the information differently based on the data type. Each data type has its own characteristics and 
+uses:
+
+[options="header"]
+|============= 
+|Data Type |Description    |Notes
+|Boolean    |Contains either "trueâ€

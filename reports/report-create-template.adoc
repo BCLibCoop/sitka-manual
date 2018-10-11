@@ -44,11 +44,11 @@ Choosing Displayed Fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 . Click on the My Folder template folder where you want the template to be saved.
-. Click on *Create a new Template* for this folder.
+. Click on *Create a new Template for this folder*.
 +
 image::images/report/template-1.png[]
 +
-. You can now see the template creating interface. The three columns below the template name and description are for database source table, fields in the selected table and available transform for the selected field. You select fields for your template here. The lower half is the selected displayed fields and fitlers in the template.
+. You can now see the template creating interface. The three columns below the template name and description are for database source table, fields in the selected table and available transform for the selected field. You select fields for your template here. The lower portion is the selected displayed fields and fitlers in the template.
 +
 image::images/report/template-2.png[]
 
@@ -64,28 +64,24 @@ or items with special status).
 image::images/report/template-3.png[]
  
 The Nullability checkbox beside the sources list is for specifying the join type between 
-linked source tables. In most cases, it should be left unchecked by default.  For  details refer to tip xref:nullibility_commonly_used_tables[]  how to use Enable 
-source nullability checkbox.
- 
-The relationship between tables can be found by displaying Relationship field (using the Column Picker) 
-in the low Source Specifier pane.
+linked source tables. In most cases, it should be left unchecked by default.  For  details refer to the tip xref:nullability_commonly_used_tables[] for how to use Nullability checkbox.
  
 . Select Circulation in the Sources dropdown menu. Note that the Core Sources for reporting are listed first, 
 however it is possible to access all available sources at the bottom of this dropdown menu.
+
 
 CAUTION: One template can have only one starting source table. If you need information from other tables 
 you should follow the links made by the Reports interface to those tables. The reporting program can not 
 put two pieces of isolated information together into one record in the result. When you change a starting 
 table all your existing selected fields will be removed.
  
-. Click on Circulation to retrieve all the fields and links, which will be displayed in the middle pane. 
-The Field Name column contains the label of each field. The Data Type column shows what type of data is in 
-the field. For details of data type see Template Terminology. Note that the Source Specifier (above the 
-middle and right panes) shows the path that you took to get to the specific field.
- 
-. When you select a field in the middle pane, the available data transforms of the selected field are 
-displayed in the right pane. Transforms specify how data should be processed before they are 
-displayed/compared. Refer to Template Terminology for details of Transforms for each data type.
+. Click on Circulation to retrieve all the fields, which will be displayed in the middle column. 
++
+image::images/report/template-4.png[]
++
+. When you select a field in the middle column, the available data transforms of the selected field are 
+displayed in the right column. Transforms specify how data should be processed before they are 
+displayed/compared. Fields may contain different types of data. Different data types may be transformed differently. Refer to xref:template_terminology[Template Terminology] for details of Transforms for each data type.
  
 For our example template, select Circ ID in the middle Field Name pane, and Count Distinct from the 
 right Field Transform pane. You are counting the number of circulation records.

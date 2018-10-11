@@ -1,3 +1,5 @@
+[[template_terminology]]
+
 Template Terminology: Data Types, Transforms, and Operators
 ------------------------------------------------------------
 
@@ -15,14 +17,14 @@ uses:
 [options="header"]
 |============= 
 |Data Type |Description    |Notes
-|Boolean    |Contains either “true” or “false”.    |Examples in Evergreen: “deleted” in item/patron record, “circulate?” in item record.
+|Boolean    |Contains either "true" or "false".    |Examples in Evergreen: "deleted" in item/patron record, "circulate?" in item record.
 |ID    |Unique number assigned by the database to identify a record    |IDs look like numbers, but the id data type is treated specially by the software for determining how tables are linked. Id is a good candidate field for counting records.
 |Integer    |A number like 1, 2, 3.    |Examples in Evergreen: "remaining renewal count" in circulation record, "claimed returned count" in patron record.
-|Interval    |Time intervals, such as “2 weeks” and “6 months”    |Examples in Evergreen: “loan duration” and "grace period" in circulation record,
+|Interval    |Time intervals, such as "2 weeks" and "6 months"    |Examples in Evergreen: "loan duration" and "grace period" in circulation record,
 |Link    |It is similar to the id data type. It is the id of a record in another table.    |Examples in Evergreen: "user id" and "item id" in a circulation record. Link outputs a number that is a meaningful reference for the database but not of much use to a human user. You will usually want to drill further down the tree in the Sources pane and select fields from the linked table. However, in some instances you might want to use a link field. For example, to count the number of patrons who borrowed items you could do a count on the "user id" in the circulation record.
 |Money    |Monetary amount    |Examples in Evergreen: "price" in item record, "billing amount" in billing record.
 |Org_unit    |Organizational unit. It is a number. It acts like link data type.    |In Evergreen, libraries are organizational units. In Sitka context they are organized into a tree structure with consortium, library federations, libraries/library systems and branches for library systems. To filter on a library, make sure you choose the field having org_unit data type. To display a library, it is a better option to drill down to the org unit record to display the "name" of it.
-|Text    |Text field. Usually it takes whatever is typed into the field.    |Examples: "call number label" in call number record, "patron’s names".
+|Text    |Text field. Usually it takes whatever is typed into the field.    |Examples: "call number label" in call number record, "patron�s names".
 |Timestamp    |A very detailed time such as 2007-11-25 17:54:26-07    |Example: checkout time in circulation record, last status date in item record.
 |=============
 
@@ -46,13 +48,13 @@ Upper Case/Lower Case.  Transforms text to all upper/lower case. They are only a
 type.
  
 Substring.  This transform can be applied to filters, not display fields. It matches the given value with a 
-continuous string of characters in the field. For example, if a given value is “123’ and the match is with a 
-call number field, call numbers like ‘123.34’, ‘ANF 123.34’, ‘JNF 233.123’, etc. will be in the result list. 
+continuous string of characters in the field. For example, if a given value is "123� and the match is with a 
+call number field, call numbers like �123.34�, �ANF 123.34�, �JNF 233.123�, etc. will be in the result list. 
 Substring is only available to text data type.
  
 First Continuous Non-space string.  The first word (or string of numbers and/or characters until the first 
-spacing) in a field is returned by this transform. For example, this transform will return “E” from text 
-“E DOR”, “E 123”, etc. This transform is available to the text data type.
+spacing) in a field is returned by this transform. For example, this transform will return "E" from text 
+"E DOR", "E 123", etc. This transform is available to the text data type.
  
 Count.  This transform counts the records found. Though you can count by any field, very often id field is 
 used. Count is available to text, integer, id, money, and timestamp.
@@ -108,7 +110,7 @@ when none of the parameters is matched with the value in the field.
 Greater Than.  This operator returns TRUE if a field is greater than your parameter. For text fields, the 
 string is compared character by character in accordance with the general rule that numerical characters are 
 smaller than alphabetical characters and upper case alphabeticals are smaller than lower case alphabeticals; 
-for timestamps “Greater Than” can be thought of as “later than” or "after".
+for timestamps "Greater Than" can be thought of as "later than" or "after".
  
 Less Than.  This operator returns TRUE if a field is less than, lower than, earlier than or smaller than your 
 parameter.
@@ -127,12 +129,4 @@ case-sensitive.
  
 Contains Matching Substring (Ignore Case).  This operator is identical to Contains Matching Substring, except 
 it is not case-sensitive.
-
-
-
-
-
-
-
-
 
