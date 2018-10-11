@@ -68,33 +68,34 @@ linked source tables. In most cases, it should be left unchecked by default.  Fo
  
 . Select Circulation in the Sources dropdown menu. Note that the Core Sources for reporting are listed first, 
 however it is possible to access all available sources at the bottom of this dropdown menu.
-
-
++
 CAUTION: One template can have only one starting source table. If you need information from other tables 
 you should follow the links made by the Reports interface to those tables. The reporting program can not 
 put two pieces of isolated information together into one record in the result. When you change a starting 
 table all your existing selected fields will be removed.
- 
+ +
 . Click on Circulation to retrieve all the fields, which will be displayed in the middle column. 
 +
 image::images/report/template-4.png[]
 +
 . When you select a field in the middle column, the available data transforms of the selected field are 
 displayed in the right column. Transforms specify how data should be processed before they are 
-displayed/compared. Fields may contain different types of data. Different data types may be transformed differently. Refer to xref:template_terminology[Template Terminology] for details of Transforms for each data type.
- 
-For our example template, select Circ ID in the middle Field Name pane, and Count Distinct from the 
-right Field Transform pane. You are counting the number of circulation records.
- 
+displayed/compared. Fields may contain different types of data. Different data types may be transformed differently. Refer to xref:template_terminology[Template Terminology] for details of transforms for each data type.
++
+For our example template, select Circ ID in the middle column, and Count Distinct from the 
+right Transform column. You are counting the number of circulation records.
++
 . Click Add Selected Fields underneath the Field Transform pane to add this field to your report output. 
 Note that Circ ID now shows up in the bottom left hand pane under the Displayed Fields tab.
- 
++
+image::images/report/template-4.png[]
++
 . Circ ID will be the column header in the report output. You can rename default display names 
 to something more meaningful. To do so in this example, select the Circ ID row and click Alter 
 Display Header.
- 
++
 Double-clicking on the displayed field name is a shortcut to altering the display header.
- 
++
 . Type in the new column header name, for example Circ count and click OK.
  
 . Add other data to your report by going back to the Sources pane and selecting the desired fields. 
