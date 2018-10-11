@@ -51,21 +51,20 @@ image::images/report/template-1.png[]
 . You can now see the template creating interface. The three columns below the template name and description are for database source table, fields in the selected table and available transform for the selected field. You select fields for your template here. The lower portion is the selected displayed fields and fitlers in the template.
 +
 image::images/report/template-2.png[]
-
- 
++ 
 We will select the displayed fields for our template first. So make sure Displayed Fields is selected.
- 
++
 The top left hand pane contains the database Core Sources drop-down list. This is the list of tables available 
 as a starting point for your template. Commonly used sources are Circulation (contains circulation records 
 that may be used for circulation statistics and overdue reports), ILS User (contains patron records that 
 may be used for patron reports), and Item (contains copy records that may be used for reports on collection 
 or items with special status).
-
++
 image::images/report/template-3.png[]
- 
++
 The Nullability checkbox beside the sources list is for specifying the join type between 
 linked source tables. In most cases, it should be left unchecked by default.  For  details refer to the tip xref:nullability_commonly_used_tables[] for how to use Nullability checkbox.
- 
++
 . Select Circulation in the Sources dropdown menu. Note that the Core Sources for reporting are listed first, 
 however it is possible to access all available sources at the bottom of this dropdown menu.
 +
@@ -73,7 +72,7 @@ CAUTION: One template can have only one starting source table. If you need infor
 you should follow the links made by the Reports interface to those tables. The reporting program can not 
 put two pieces of isolated information together into one record in the result. When you change a starting 
 table all your existing selected fields will be removed.
- +
++
 . Click on Circulation to retrieve all the fields, which will be displayed in the middle column. 
 +
 image::images/report/template-4.png[]
@@ -91,8 +90,7 @@ Note that Circ ID now shows up in the bottom left hand pane under the Displayed 
 image::images/report/template-5.png[]
 +
 . Circ ID will be the column header in the report output. You can rename default display names 
-to something more meaningful. To do so in this example, select the Circ ID row and click Alter 
-Display Header.
+to something more meaningful. To do so in this example, select the Circ ID row and click *Actions* -> *Change Column Label*. Type in a new name, "Circ Count", then click *OK/Continue* on the prompt.
 +
 Double-clicking on the displayed field name is a shortcut to altering the display header.
 +
@@ -101,10 +99,10 @@ Double-clicking on the displayed field name is a shortcut to altering the displa
 . Add other data to your report by going back to the Sources pane and selecting the desired fields. 
 In this example, we are going to add Circulating Item → Shelving Location to further refine the 
 circulation report.
- 
++
 In the top left hand Sources pane, expand Circulation. Depending on your computer you will either click 
 on the + sign or on an arrow to expand the tree.
- 
++
 . Click on the + or arrow to expand Circulating Item. Select Shelving Location.
 
 . In the Field Name pane select Name.
