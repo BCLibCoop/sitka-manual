@@ -157,6 +157,7 @@ Note that this is a template, so the value for this filter may be filled out whe
 +
 For multi-branch libraries, you may want to change the operator to In List so that you could 
 specify multiple branches when you run the report.
++
 . You may add a hint to the filter, e.g. explaining the function of the filter, what value is expected when 
 setting up the report, etc. Select the filter and click *Actions* -> *Change Column Documentation* to change field hint.
 +
