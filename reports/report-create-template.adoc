@@ -144,9 +144,10 @@ The following procedure shows how to add filters to the example template:
 +
 image::images/report/template-10.png[]
 +  
-. Note that the default operator for the filter is Equal. It may be changed. Select Check Out Date/Time row. Click on *Actions* -> *Change Operator* and select *In list* from the dropdown menu in the popup window. This operator allows you to count circulations done within each month for several months by just one report.
+. Note that the default operator for the filter is Equal. It may be changed. Select Check Out Date/Time row. Click on *Actions* -> *Change Operator* and select *In list* from the dropdown menu in the popup window. This operator allows you to select multiple months when running the report,thus counting  circulations done within each month for several months by just one report.
 +
 image::images/report/template-11.png[]
++
 image::images/report/template-12.png[]
 + 
 . To filter on the location of the circulation, select Circulation table, Circulating library field and Raw Data transform, and 
