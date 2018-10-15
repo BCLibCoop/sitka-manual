@@ -156,7 +156,7 @@ click on Add Fields.
 Note that this is a template, so the value for this filter may be filled out when you run the report. 
 +
 For multi-branch libraries, you may want to change the operator to In List so that you could 
-specify multiple branch(es) when you run the report.
+specify multiple branches when you run the report.
 . You may add a hint to the filter, e.g. explaining the function of the filter, what value is expected when 
 setting up the report, etc. Select the filter and click *Actions* -> *Change Column Documentation* to change field hint.
 +
@@ -165,14 +165,14 @@ The hint will show up on the report creation screen. Below is how it looks like 
 +
 image::images/report/template-13.png[]
 +
-. Once you have configured your template, you must name and save it. Name this template Circulations by Months. You also need to add a description. Click *Save Template*.
+. Once you have configured your template, you must name and save it. Name this template Circulations by Months. You also need to add a description, otherwise the template can not be saved. Click *Save Template*.
 . You will get a confirmation dialogue box that the template was successfully saved. Click *OK/Continue*.
  
 Once a template is saved, it can not be edited anymore. To make changes you will need to clone it and edit 
 the clone. This will ensure that the work you have done will not be lost. As mentioned before, creating a 
 template is complex. The first try seldom gets the perfect result. Your subsequent changes may not always 
 improve the result. You may need to refer back to your old version. Make changes step-by-step. Check the 
-correctness of the result on each step. This may help you to find out the exact cause of the issue. After 
+correctness of the result on each step. This may help you find out the exact cause of the issue. After 
 you have the desired template, you may delete all the interim ones.
  
 The above paragraphs described how to create a template from scratch with a very simple example. You may 
