@@ -17,7 +17,7 @@ template* from the dropdown menu. Click *Submit*.
 .. Template Name, Template Creator, and Template Description are for informational purposes only. They are hard 
 coded when the template is created. At the report definition stage it is not possible to change them.
 .. Report Name is required. Reports stored in the same folder must have unique names.
-.. Report Description is optional but may help distinguish among similar reports.
+.. Report Description is optional, but may help distinguish among similar reports.
 .. Report Columns lists the columns that will appear in the output. This is derived from the template and cannot 
 be changed during the report definition.
 .. Pivot Label Column and Pivot Data Column are optional. Pivot tables are a different way to view data. If you 
@@ -32,7 +32,7 @@ You may add multiple dates with an InList operator by repeating the above step.
 The Transform for this field is Year + Month, so even if you choose a specific date (2009-10-20) it will 
 appear as the corresponding month only (2009-10).
  
-. Select a value for the Circulating Library.
+. Select a value for the Circulating Library. 
 . Complete the bottom portion of the report definition interface, then click Save.
 .. Select one or more output formats. In this example the report output will be available as an Excel 
 spreadsheet, an HTML table (for display in the staff client or browser), and as a bar chart. Please note 
