@@ -4,10 +4,16 @@ Generating Reports from Templates
 Now you are ready to run a report from the template you have created.
  
 . Find the template you just created in the Template folder. In the My Folders section, click the arrow 
-next to Templates to expand this folder and select circulation.
-. Select the box beside Circulations by month for one library. Select Create a new report from selected 
-template from the dropdown menu. Click Submit.
+next to *Templates* to expand this folder and select *Circulation*.
+. Select the checkbox in front of *Circulations by Months*. Select *Create a new report from selected 
+template* from the dropdown menu. Click *Submit*.
++
++image::images/report/run-report-1.png[]
++
 . Complete the first part of report settings. Only Report Name and Choose a folder... are required fields.
++
++image::images/report/run-report-2.png[]
++
 .. Template Name, Template Creator, and Template Description are for informational purposes only. They are hard 
 coded when the template is created. At the report definition stage it is not possible to change them.
 .. Report Name is required. Reports stored in the same folder must have unique names.
