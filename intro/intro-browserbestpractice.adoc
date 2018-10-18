@@ -181,6 +181,7 @@ If you have Hatch installed, use these directions to reconnect your browser to H
 . Register workstation and click *Use Now* to log in again.
 . Navigate to *Administration* -> *Workstation* -> *Print/Storage Service ("Hatch")*.
 . Check all three boxes.
+. Click *Copy Local Storage Settings To Hatch*.
 . Click on the Home icon.
 . You will be returned to the workstation registration screen again - click *Use Now* to log in again.
 . Your local settings should now be restored.
