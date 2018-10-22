@@ -57,10 +57,9 @@ You can generate a new report based on the past report file or re-schedule a rec
 =====
 * The required value for filters should be in a format corresponding to the data transform. For example, 
 for a call number field transformed to First Continuous Non-space string, you need to put in the call 
-number prefix; for a field transformed to Count you need to give an integer. See Template Terminology 
-section for more on Data Transforms.
-*Action corresponds to Operator used for filter fields. It specifies how the given value will be compared 
-with the field value. See Template Terminology section for more on Operators.
+number prefix; for a field transformed to Count you need to give an integer. See xref:template_terminology[] for more on Data Transforms.
+* *Action* corresponds to *Operator* used for filter fields. It specifies how the given value will be compared 
+with the field value. See xref:template_terminology[] for more on Operators.
 *When creating a report, you may disable an unwanted filter in the template by choosing an appropriate 
 value for it. For example, if a template lists items created within a time frame, specify a time frame 
 between "1900-01-01" and "today" to cover the whole collection; select all copy statuses on the list to 
