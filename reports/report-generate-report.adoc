@@ -33,7 +33,7 @@ The Transform for this field is Year + Month, so even if you choose a specific d
 appear as the corresponding month only (2009-10).
  
 . Select a value for the Circulating Library. 
-. Complete the bottom portion of the report definition interface, then click Save.
+. Complete the bottom portion of the report definition interface, then click *Save Report*.
 .. Select one or more output formats. In this example the report output will be available as an Excel 
 spreadsheet, an HTML table (for display in the staff client or browser), and as a bar chart. Please note 
 that charts are suitable to some result data only.
@@ -60,11 +60,11 @@ for a call number field transformed to First Continuous Non-space string, you ne
 number prefix; for a field transformed to Count you need to give an integer. See xref:template_terminology[] for more on Data Transforms.
 * *Action* corresponds to *Operator* used for filter fields. It specifies how the given value will be compared 
 with the field value. See xref:template_terminology[] for more on Operators.
-*When creating a report, you may disable an unwanted filter in the template by choosing an appropriate 
+* When creating a report, you may disable an unwanted filter in the template by choosing an appropriate 
 value for it. For example, if a template lists items created within a time frame, specify a time frame 
 between "1900-01-01" and "today" to cover the whole collection; select all copy statuses on the list to 
 bypass the filter on item status.
-*If the calendar widget is not provided for a date filter, key in the date in format yyyy-mm-dd.
+* If the calendar widget is not provided for a date filter, key in the date in format yyyy-mm-dd.
 =====
 
 
