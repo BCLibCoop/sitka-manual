@@ -7,7 +7,7 @@ when the report was set up.
  
 . To view the report output in the staff client, open the reports module from 
 *Administration* -> *Reports*.
-. Click on Output to expand the folder. Select Circulation (where you just saved the circulation report output).
+. Click on arrow in front of *Output* to expand the folder. Select Circulation (where you just saved the circulation report output).
 . View report output is the default selection in the dropdown menu. Select Recurring Monthly Circ by Location 
 by clicking the checkbox and click Submit.
 .. Click on the report name in blue colour, you will see the template name and report description field.
