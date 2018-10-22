@@ -28,7 +28,7 @@ available. Click on the desired folder to select it.
 . Select values for the Circulation > Check Out Date/Time. Use the calendar widget or manually enter the 
 desired dates (always in YYYY-MM or YYYY-MM-DD format), then click Add to include the date on the list. 
 You may add multiple dates with an InList operator by repeating the above step.
- 
++
 The Transform for this field is Year + Month, so even if you choose a specific date (2009-10-20) it will 
 appear as the corresponding month only (2009-10).
  
@@ -37,14 +37,12 @@ appear as the corresponding month only (2009-10).
 .. Select one or more output formats. In this example the report output will be available as an Excel 
 spreadsheet, an HTML table (for display in the staff client or browser), and as a bar chart. Please note 
 that charts are suitable to some result data only.
-.. If you want the report to be recurring, check the box and select the Recurrence Interval as described in 
-Recurring Reports.  In this example, as this is a report that will only be run once, the Recurring Report 
+.. If you want the report to be recurring, check the box and select the Recurrence Interval as described in xref:_running_recurring_reports[].  In this example, as this is a report that will only be run once, the Recurring Report 
 box is not checked.
-.. Select Run as soon as possible for immediate output. It is also possible to set up reports that run 
+.. Select *Run as soon as possible* for immediate output. It is also possible to set up reports that run 
 automatically in the future.
 .. It is optional to fill out an email address where a completion notice can be sent. The email will contain 
-a link to a password-protected report output (staff login required). If you have an email address in your 
-Local System Administrator account, it will automatically appear in the email notification box.  However, 
+a link to a password-protected report output (staff login required). If you have an email address in your account, it will automatically appear in the email notification box.  However, 
 you can enter a different email address or multiple addresses separated by commas.
 .. Select a folder for the report's output.
 . You will get a confirmation dialogue box that the Action Succeeded. Click OK.
@@ -52,9 +50,8 @@ you can enter a different email address or multiple addresses separated by comma
 Once saved, reports stay there forever unless you delete them. When a report is deleted all the linked output 
 files will be deleted, too.
  
-CAUTION: With version 2.8, report files are viewable and editable. You may view the contents of a report. 
-You can generate a new report based on the past report file or re-schedule a recurring report. See 
-Viewing/Editing/Rescheduling Reports for details.
+Report files are viewable and editable (recurring report only). You may view the contents of a report. 
+You can generate a new report based on the past report file or re-schedule a recurring report. See xref:edit_reports[] for details.
  
 [TIP]
 =====
