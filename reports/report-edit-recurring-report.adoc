@@ -8,12 +8,13 @@ with a new name; change the condition or email reminder recipient of a recurring
 or run-frequency of a recurring report. For example, you may reschedule a recurring report to run on Mondays, 
 instead of Thursdays.
  
-You may edit a report in Reports or Output folder.
+You may edit a report from Reports or Output folder.
  
 To view or edit a report in Reports folder, go to Reports folder to find the report that you wish to view/edit. 
 Click View or Edit in the Edit column. We choose Edit in this example.
- 
- 
+
+image::images/report/edit-report-1.png[]
+
 To edit a report in Output folder, go to Output to find the report. Click the report name. The details of the 
 report show up in the line below. Click Edit.
  
