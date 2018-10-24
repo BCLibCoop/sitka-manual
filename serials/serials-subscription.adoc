@@ -26,7 +26,7 @@ image::images/serials/subscription11.png[]
 .. *Expected Offset* - Difference between the nominal publishing date of an issue and the date that you expect to receive your copy. (Optional)
 .. *Distributed At* - Circulation Library
 ... Click *Add Distribution* to add a second copy to the subscription
-.. *Label* - Free Text field
+.. *Label* -  This field is not publicly visible and only appears when an item is received. There are no limits on the number of characters that can be entered in this field. It may be useful to identify the branch to which you are distributing these issues in this field. 
 .. *OPAC Display* - Whether the public catalog display of issues should be grouped by chronology (e.g., years) or enumeration (e.g., volume and number).
 .. *Receiving Template* - Specifies the item attributes applied on receipt - see xref:serial-copy-template[] for more information.
 .. *Send to* - Designate specific users and/or departments that serial items need to be routed to upon receiving.
