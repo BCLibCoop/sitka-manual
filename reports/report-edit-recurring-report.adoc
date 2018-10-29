@@ -10,25 +10,29 @@ with a new name.
 You may edit a report from Reports or Output folder.
  
 To view or edit a report in Reports folder, go to Reports folder to find the report that you wish to view/edit. 
-Click View or Edit in the Edit column. We choose Edit in this example.
+Click View or Edit in the Edit column. We choose Edit in this example to change the reminder recipient's email address.
 +
 image::images/report/edit-report-1.png[]
 +
+The report is loaded on the report creation screen, where you make the required changes. In this example we edit the receipt's email address. 
++
+image::images/report/edit-report-2.png[]
++
+Once done, click *Save Report*. Note that Evergreen 
+will update the pending output only. The existing output will remain as is. You will see a prompt to choose *Apply Changes* to the pending output or *Save as New* to create a new report. 
++
+image::images/report/edit-report-3.png[]
++
+It is not possible to modify a completed report. In fact, it is useless to attempt to edit a completed report, because the report has run and the output has been generated already. But you may generate a new report based on the conditions in a completed report. 
+
+To create a new report, you need to enter a new report name or choose different report/output folders. Click *Save As New* at the bottom after finishing 
+the editing. You can choose to create a one time or a recurring report.
+
 To edit a report in Output folder, go to Output to find the report. Click the report name. The details of the 
 report show up in the line below. Click Edit.
- 
- 
-The report is loaded on the report creation screen, where you make the required changes.
- 
-To create a new report, you need to enter a new report name. Click Save As New at the bottom after finishing 
-the editing. You can choose to create a one time or a recurring report.
- 
-To modify an existing recurring report, click Save Report after finishing the editing. Note that Evergreen 
-will update the pending output only. The existing output will remain as is.
- 
-It is not possible to modify a completed one-time report. You need to enter a new report name and save it 
-as a new report.
- 
++
+image::images/report/edit-report-4.png[]
++
 When choosing View a report on the above two screens, the report will be displayed in non-editable mode.
 
 
