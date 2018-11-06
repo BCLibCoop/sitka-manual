@@ -13,9 +13,9 @@ handles various records when performing tasks on the staff client. You may refer
 chapter for some background knowledge. Bear in mind that a template includes a list of displayed fields, 
 the information you will see in the result, and a list of filter fields which enables you to set up the 
 conditions for your target records. Generally you do not record your specific conditions in the template. For example, 
-in an overdue template, you do not record 2012-01-01 as the due date. Instead, you just make the Due Date 
+in an overdue template, you do not record 2018-01-01 as the due date. Instead, you just make the Due Date 
 field in the circulation record as a filter field. When setting up the report with this template, you will 
-be given the chance to put in 2012-01-01 as the due date.
+be given the chance to put in 2018-01-01 as the due date.
  
 It can be useful to plan out your report on paper before getting started with the reporting tool. The first 
 thing to decide is the source table. You can choose only one starting source table for each template. If 
@@ -143,20 +143,20 @@ The following procedure shows how to add filters to the example template:
 . For this circulation statistics example, select Circulation table, Check Out Date/Time field and Year + Month in transform column,then click on Add Fields. We are going to filter on the checkout month.
 +
 image::images/report/template-10.png[]
-+  
-. Note that the default operator for the filter is Equal. It may be changed. Select Check Out Date/Time row. Click on *Actions* -> *Change Operator* and select *In list* from the dropdown menu in the popup window. This operator allows you to select multiple months when running the report,thus counting  circulations done within each month for several months by just one report.
++ 
+Note that this is a template, so the value for this filter may be filled up when you run the report. 
++
+. To filter on the location of circulation, click the arrow in front of Circulation table to list the linked tables. Click Checkout/Renewal Library table to list its fields. Select Organizational ID and Raw Data transform, then click on Add Fields.
++
+image::images/report/template-10a.png[]
++ 
+. Note that the default operator for the filter is Equal, which allows you to specify one checkout library only. For multi-branch libraries, you may want to change the operator to In List so that you could specify multiple branches when you run the report. To do so, you need to change the operator to InList. Select Checkout/Renewal Library row. Click on *Actions* -> *Change Operator* and select *In list* from the dropdown menu in the popup window. This operator allows you to select multiple months when running the report,thus counting  circulations done within each month for several months by just one report.
 +
 image::images/report/template-11.png[]
 +
 image::images/report/template-12.png[]
-+ 
-. To filter on the location of the circulation, select Circulation table, Circulating Library field and Raw Data transform, and 
-click on Add Fields.
 +
-Note that this is a template, so the value for this filter may be filled out when you run the report. 
-+
-For multi-branch libraries, you may want to change the operator to In List so that you could 
-specify multiple branches when you run the report.
+TIP: Generally for filters on ID field, such as the above Checkout/Renewal Librrary ID, the report interface will generate a selection list for you to choose, instead of a box for you to type in the ID when you run the report.
 +
 . You may add a hint to the filter, e.g. explaining the function of the filter, what value is expected when 
 setting up the report, etc. Select the filter and click *Actions* -> *Change Column Documentation* to change field hint.
