@@ -52,7 +52,7 @@ image::images/report/template-1.png[]
 +
 image::images/report/template-2.png[]
 + 
-We will select the displayed fields for our template first. So make sure Displayed Fields is selected.
+We will select the displayed fields for our template first. So make sure Displayed Fields is selected in the lower pane.
 +
 The top left hand pane contains the database Core Sources drop-down list. This is the list of tables available 
 as a starting point for your template. Commonly used sources are Circulation (contains circulation records 
@@ -63,7 +63,7 @@ or items with special status).
 image::images/report/template-3.png[]
 +
 The Nullability checkbox beside the sources list is for specifying the join type between 
-linked source tables. In most cases, it should be left unchecked by default.  For  details refer to the tip xref:nullability_commonly_used_tables[] for how to use Nullability checkbox.
+linked source tables. In most cases, it should be left unchecked by default, which is innner join.  However, if you need to include records without a corresponding record in the linked table, you need to use the Nullability checkbox to specifiy left or right join. For  details refer to the tip xref:nullability_commonly_used_tables[] for how to use Nullability checkbox.
 +
 . Select Circulation in the Sources dropdown menu. Note that the Core Sources for reporting are listed first, 
 however it is possible to access all available sources at the bottom of this dropdown menu.
@@ -122,9 +122,9 @@ NOTE: In the left Source Path column, *(inner)* indicates the join type between 
  
 . Check Out Date/Time will appear in the Displayed Fields tab. In the report it will appear as a year and month (YYYY-MM) corresponding to the selected transform.
  
-. Select the Check Out Date/Time row. Click *Actions* -> *Change Column Label* to change the column header to *Check out month*.
+. Select the Check Out Date/Time row. Click *Actions* -> *Change Column Label* to change the column header to *Checkout month*.
  
-. Move Check out month to the top of the list using *Actions* -> *Move Field Up*, so that it will be the first column in an MS Excel spreadsheet. Now, the report output will sort by the checkout month first, then by shelving locations.
+. Move Checkout month to the top of the list using *Actions* -> *Move Field Up*, so that it will be the first column in an MS Excel spreadsheet. Now, the report output will sort by the checkout month first, then by shelving locations.
 +
 image::images/report/template-9.png[]
 +  
