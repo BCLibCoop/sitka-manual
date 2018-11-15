@@ -18,20 +18,27 @@ The report is loaded on the report creation screen, where you make the required 
 
 image::images/report/edit-report-2.png[]
 
+CAUTION: Right now you need to re-select values for filters using In List operator. 
+
 Once done, click *Save Report*. Note that Evergreen 
 will update the pending output only. The existing output will remain as is. You will see a prompt to choose *Apply Changes* to the pending output or *Save as New* to create a new report. 
 
 image::images/report/edit-report-3.png[]
 
+[TIP]
+=====
 It is not possible to modify a completed report. In fact, it is useless to attempt to edit a completed report, because the report has run and the output has been generated already. But you may generate a new report based on the conditions in a completed report. 
 
 To create a new report, you need to enter a new report name or choose different report/output folders. Click *Save As New* at the bottom after finishing 
 the editing. You can choose to create a one time or a recurring report.
+====
 
 To edit a report in Output folder, go to Output to find the report. Click the report name. The details of the 
 report show up in the line below. Click Edit.
 
 image::images/report/edit-report-4.png[]
+
+TIP: We suggest you edit recurring reports in from the Pending Items in Output folder, as only the pending items are to be updated. 
 
 When choosing View a report on the above two screens, the report will be displayed in non-editable mode.
 
