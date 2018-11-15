@@ -144,9 +144,9 @@ Modify a template
 
 Once saved it is not possible to edit a template. To make changes, clone the template and change the clone.
  
-To modify a template, repeat the above steps 1-6. You will see the template open on Template Creating screen. 
-Click Displayed Fields you will see all the displayed fields. To remove one, highlight it and click 
-Remove Selected Field. You may move a field up or down the list, which will affect the sorting of the 
+To modify a template, repeat the steps 1-6 in cloning a template. You will see the template open on Template Creating screen. 
+Click Displayed Fields you will see all the displayed fields. To remove one, highlight it and click *Actions* > 
+*Remove Selected Field*. You may move a field up or down the list, which will affect the sorting of the 
 result records. You may also change the column label or the transform of the field by using respective 
 buttons. See Field Transforms section for more information.
  
