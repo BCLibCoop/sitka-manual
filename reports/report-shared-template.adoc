@@ -1,9 +1,7 @@
 Shared Sitka Templates
 ----------------------
 
-CAUTION: Sitka templates are currently unavailable as report templates created in the desktop client cannot
-be cloned in the web client.  A fix for this is expected post-upgrade.  Please contact Support if you need
-to report template created.
+CAUTION: Cloning templates created on the old staff client (XUL in ui column) may not work perfectly. You may need to remove, then put back some fields during cloning. 
 
 The Sitka support team has created generic templates for commonly requested reports and shared them under 
 the Sitka_templates folder. This chapter describes how to make local copies of these templates for 
@@ -15,20 +13,19 @@ templates from the Shared Folders section and save them to My Folders.
 What's in Sitka_templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Sitka support team uses a dedicated staff account, Sitka_templates, to share ready-to-use templates. 
+The Coop support team uses a dedicated staff account, Sitka_templates, to share ready-to-use templates. 
 Below is what a user with reporter permissions can see after going to the Reports module, then follow the 
 path to Shared Folders, click the arrow (or + sign) in front of Templates, and then Sitka_templates.
  
  
-From Acquisitions to Typical Week Stats are the subfolders containing various templates. Templates using 
+From Acquisitions to Serials are the subfolders containing various templates. Templates using 
 the same source table are usually grouped together under one subfolder. These templates are created based 
-on the anticipation that most libraries may need such reports. The Support Team tends to make these templates 
+on the anticipation that most libraries may need such reports. Coop support tends to make these templates 
 generic, which means they contain more information. Individual libraries may have slightly different 
 requirements. You can remove the unwanted information when cloning the templates or choose appropriate 
 values for some filters to disable them. These templates are usually referred to as Sitka standard templates.
  
-The following is a guideline of the templates for various kinds of reports. Please note that the Support 
-Team regularly maintains the templates. The list below may not be the latest.
+The following is a guideline of the templates for various kinds of reports. Please note that Coop support regularly maintains the templates. The list below may not be the latest.
  
 *Overdue reports*. Find overdue reports in Circulation folder. There are templates capturing checkouts 
 with due date within a selected time frame for all patrons or those without email address (phone list) 
@@ -38,7 +35,7 @@ capturing items which are at a certain number of days overdue.
 *Circulation statistics reports*. These templates are in Circulation folder. The regular circulation 
 statistics can be grouped by various criteria: patron's home library, profile and/or stat cat; items' 
 owning library and/or shelving location. There are two sets of templates: one set limit the circulation 
-period by selected dates; the other selected month(s). The latter are for monthly recurring reports.
+period by selected dates kept in Circulation within time frame folder; the other selected month(s), in Monthly Circulation Stats folder. The latter are for generating monthly recurring reports.
  
 Other circulation statistics related templates are:
  
@@ -56,11 +53,11 @@ Other circulation related templates are:
 * lost with outstanding bills item list
 * claimed returned item list
  
-*Reports on collection*. These templates are in Holdings folder. You will find templates counting items 
+*Reports on collection*. These templates are in Collection folder. You will find templates counting items 
 or titles of your whole collection or catalogued within the selected time period (new title/items statistics). 
 The numbers are grouped by shelving location and/or circulation modifier.
  
-Another group of templates in Holdings folder are item/title lists for items meeting various criteria: 
+Another group of templates in Collection folder are item/title lists for items meeting various criteria: 
 having selected shelving location(s) and/or circulation modifier(s), copy stat cat, barcode prefix, call 
 number prefix or within a call number range; or being catalogued (new title/item list), marked missing, 
 lost or deleted within selected time period.
@@ -100,7 +97,7 @@ the Inventory - un-scanned items are the potential missing items.
  
 *Library setting and policy related reports*. Find them in Library Configuration folder.
  
-*Other folders*. If your library uses the Acquisitions Module or the Booking Module, you may find related 
+*Other folders*. If your library uses the Acquisitions Module, Serials or the Booking Module, you may find related 
 templates in the relevant folders.
  
 *Custom Templates folder*. If you open this folder, you will see a subfolder for your library federation 
@@ -108,14 +105,14 @@ with sub-subfolders for your library and other libraries within your library fed
   
 These folders are created when the Support Team creates or customizes templates for individual 
 libraries. The templates go to these folders when there are similar templates in the standard folders 
-already, or the Support Team does not anticipate wide use of the templates. The Support Team tries to 
+already, or Coop support does not anticipate wide use of the templates. Coop support tries to 
 limit the number of templates in each standard folder so that staff may find the target template easily.
  
 Clone a template from Sitka_templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The steps below assume you have already created at least one Templates folder.  If you have not done so, 
-please see Chapter 27, Folders.
+please see xref: _folders_[].
  
 . Access the Reports interface from *Administration* -> *Reports*
 . Under Shared Folders expand the Templates folder and the Sitka_templates subfolder.  To expand the 
