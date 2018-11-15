@@ -150,13 +150,13 @@ Note that this is a template, so the value for this filter may be filled up when
 +
 image::images/report/template-10a.png[]
 + 
-. Note that the default operator for the filter is Equal, which allows you to specify one checkout library only. For multi-branch libraries, you may want to change the operator to In List so that you could specify multiple branches when you run the report. To do so, you need to change the operator to InList. Select Checkout/Renewal Library row. Click on *Actions* -> *Change Operator* and select *In list* from the dropdown menu in the popup window. This operator allows you to select multiple months when running the report,thus counting  circulations done within each month for several months by just one report.
+. Note that the default operator for the filter is Equal, which allows you to specify one checkout library only. For multi-branch libraries, you may want to change the operator to In List so that you could specify multiple branches when you run the report. To do so, you need to change the operator to InList. Select Checkout/Renewal Library row. Click on *Actions* -> *Change Operator* and select *In list* from the dropdown menu in the popup window. 
 +
 image::images/report/template-11.png[]
 +
 image::images/report/template-12.png[]
 +
-TIP: Generally for filters on ID field, such as the above Checkout/Renewal Librrary ID, the report interface will generate a selection list for you to choose, instead of a box for you to type in the ID when you run the report.
+TIP: Generally, for filters on ID field, such as the above Checkout/Renewal Librrary ID, the report interface will generate a selection list for you to choose, instead of a box for you to type in the ID when you run the report.
 +
 . You may add a hint to the filter, e.g. explaining the function of the filter, what value is expected when 
 setting up the report, etc. Select the filter and click *Actions* -> *Change Column Documentation* to change field hint.
@@ -177,7 +177,7 @@ correctness of the result on each step. This may help you find out the exact cau
 you have the desired template, you may delete all the interim ones.
  
 The above paragraphs described how to create a template from scratch with a very simple example. You may 
-choose instead to use one of the generic templates created by the Sitka team to meet common reporting needs. 
+choose, instead, to use one of the generic templates created by the Sitka team to meet common reporting needs. 
 (see xref:_shared_sitka_templates[]). However, knowing how a template is created will help 
 you understand the report structure and is recommended as an introduction to editing template fields and 
 filters.
