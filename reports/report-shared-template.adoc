@@ -3,7 +3,7 @@ Shared Sitka Templates
 
 CAUTION: Cloning templates created on the old staff client (XUL in ui column) may not work perfectly. You may need to remove, then put back some fields during cloning. 
 
-The Sitka support team has created generic templates for commonly requested reports and shared them under 
+Coop support has created generic templates for commonly requested reports and shared them under 
 the Sitka_templates folder. This chapter describes how to make local copies of these templates for 
 routine reports or as a starting point for customization. When creating a new template it is a good idea 
 to review the shared templates first: even if the exact template you need does not exist, it is often faster 
@@ -112,7 +112,7 @@ Clone a template from Sitka_templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The steps below assume you have already created at least one Templates folder.  If you have not done so, 
-please see xref:_folders_[].
+please see xref:_folders[].
  
 . Access the Reports interface from *Administration* -> *Reports*
 . Under Shared Folders expand the Templates folder and the Sitka_templates subfolder.  To expand the 
@@ -135,7 +135,7 @@ folders created with your account will be visible.
 image::images/report/clone-template-3.png[]
 +
 . The cloned template opens in the template editor. From here you may modify the template by adding, 
-removing, or editing fields and filters as described in xref:_creating_templates_[]. Template Name 
+removing, or editing fields and filters as described in xref:_creating_templates[]. Template Name 
 and Description can also be edited. When satisfied with your changes, click *Save Template*.
 . Click *OK/Continue* in the resulting confirmation window.
  
@@ -144,11 +144,12 @@ Modify a template
 
 Once saved it is not possible to edit a template. To make changes, clone the template and change the clone.
  
-To modify a template, repeat the steps 1-6 in cloning a template. You will see the template open on Template Creating screen. 
-Click Displayed Fields you will see all the displayed fields. To remove one, highlight it and click *Actions* > 
+To modify a template, repeat the steps 1-6 in cloning a template. You will see the template open on Template Creating screen. Here you can add/remove/edit fields as when you create a new template. 
+
+To operate on Displayed fields, click Displayed Fields. You will see all the displayed fields. To remove one, highlight it and click *Actions* > 
 *Remove Selected Field*. You may move a field up or down the list, which will affect the sorting of the 
 result records. You may also change the column label or the transform of the field by using respective 
-buttons. See Field Transforms section for more information.
+functions on the Actions list. 
  
 [TIP]
 =====
@@ -156,21 +157,11 @@ buttons. See Field Transforms section for more information.
 report displays the count of records by each group. Sometimes some fields may contain important information. 
 Removing them may cause misunderstanding the results. Usually such fields are explained in the template 
 Description. Be cautious when you delete such fields.
-* If you are not clear where a displayed field is from, you may use the Source Browser to the right to display 
-fields from the selected table only.
+* 
 =====
+
+You may add fields. See xref:_creating_templates[] for details.
  
-To add a displayed field, go to the Sources to open the source table to find the field or follow the links 
-to the appropriate table which contains the field you want to display. Click the text in the Sources to 
-display fields in the table in Field Name pane. Click the arrow in front of the text to display the linked 
-tables in the Sources pane.
- 
-Once find the field, select it in Field Name pane and the appropriate transform in Field Transform pane. 
-Click Add Selected Fields.
- 
-The below screenshot shows how to add Precat Dummy Title field. Find Circulating Item table, which is linked 
-from Circulation. Click it (text) to display its fields in Field Name. Select Precat Dummy Title, and then 
-Raw Data in Field Transform.
  
 CAUTION: You can not change the starting source table, but have to follow the links to tables in the Sources 
 pane. Changing the starting table will remove all existing fields, meaning building a new template from scratch.
@@ -178,7 +169,7 @@ pane. Changing the starting table will remove all existing fields, meaning build
 Select Base Filters or Aggregate Filters to add or remove filters. The steps are the same as adding or 
 removing displayed fields. Be careful with filters as usually changing filter makes a difference in the 
 result set.
- 
+
 Examples of using Sitka's templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -190,8 +181,7 @@ output files.
 Below are a few screenshots showing you how to set up the reports based on some templates in Sitka_templates. 
 Some explanation is added in the boxes with light coloured background.
  
-. Setting up a monthly recurring report by using template: Monthly Circulation by Shelving Location 
-(updated to include item's owning library) in Circulation folder:
+. Setting up a monthly recurring report by using template: Monthly Circulation by Shelving Location in Circulation folder:
  
 . Setting up a weekly recurring report by using template: Overdues Within Time Span - for Patrons without 
 Email in Circulation folder:
@@ -199,10 +189,10 @@ Email in Circulation folder:
 . Setting up a one-time report by using template: Circulation Statistics by One Patron Stat Cat within 
 timespan in Circulation folder:
  
-. Setting up a report by using template: Items List by Shelving Location in Holdings folder:
+. Setting up a report by using template: Items List by Shelving Location in Collection folder:
  
 . Setting up a report by using template: Weeding - Items with few circulations since a selected month 
-in Holdings folder:
+in Collection folder:
 
 
 
