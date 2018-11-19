@@ -30,16 +30,15 @@ of these tables is after the diagram.
 
 image::images/report/database-1.png[scaledwidth="75%",alt="Database Diagram"]
  
- 
 Commonly used tables and views
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-ILS User (aka Patron or User): contains patron records. A patron's name, phone number, email address, and 
+*ILS User* (aka Patron or User): contains patron records. A patron's name, phone number, email address, and 
 registration date can all be found in this table. Follow the links to the table Current Library Card to find 
 a patron's current barcode, Circulation to find the circulation history, Home Library, Mailing Address, 
 Physical Address, and Main Profile Group, etc. to find more information about the patron.
  
-Item (aka Circulating Item): contains copy records. Item's barcode, creation date, active date, last edited 
+*Item* (aka Circulating Item): contains copy records. Item's barcode, creation date, active date, last edited 
 date, last copy status change date and price are in this table. For related information like call number, 
 circulating library, circ modifier, status, shelving location, etc., you need to follow the links to the 
 respective table to find them. For title information you need to follow the Call Number table to the 
@@ -50,10 +49,10 @@ Pre-catalogued item information such as dummy ISBN, title and author are also in
 pre-catalogued item is checked out, an item record is created. If the barcode is already in the table and 
 the item is not marked deleted, the item record will be updated with the new title, author, etc.
  
-Bibliographic Record. Contains title information. To find the basic bibliographic information such as title, 
+*Bibliographic Record:* Contains title information. To find the basic bibliographic information such as title, 
 author, ISBN, etc., follow the link to Simple Records Extract.
  
-Circulation. Contains circulation records, including pre-catalogued item circulations. When an item is 
+*Circulation:* Contains circulation records, including pre-catalogued item circulations. When an item is 
 checked out, a circulation record is created. When an item is renewed, the existing circulation record is 
 closed and another record is created. Below are some important timestamps in this table.
  
@@ -76,27 +75,24 @@ is the same as Checkout Date/Time. For offline checkout, this date is the offlin
 Transaction Finish Date/Time: the date when the bills linked to this checkout have been resolved. For a 
 regular checkout without bills this field is filled with the checkin time when the item is returned.
  
-TIP: The circulating_library field in this table refers to the checkout location. The circulating_library in the 
-Item table refers to the item's owning library.
- 
-Non-catalogued Circulation.  When a non-catalogued checkout is recorded, a record is created in this table. 
+*Non-catalogued Circulation:* When a non-catalogued checkout is recorded, a record is created in this table. 
 Non-catalogued item category can be found in the linked Non-Cat Item Type table.
  
-In-house Use.  Contains the catalogued item in-house use records.
+*In-house Use:*  Contains the catalogued item in-house use records.
  
-Non-catalogued In-house Use.  Contains the non-catalogued item in-house use records. Follow the link to Item 
+*Non-catalogued In-house Use:*  Contains the non-catalogued item in-house use records. Follow the link to Item 
 Type to find the non-catalogued item category.
  
-Copy Transit.  When a copy is sent in transit, regardless of whether it is going back to its circulating 
+*Copy Transit:*  When a copy is sent in transit, regardless of whether it is going back to its circulating 
 library or going to fill a hold, a copy transit record is created in this table. Follow the link to Transit 
 Copy to find the item information.
  
-Hold Transit. When a copy is sent in transit to fill a hold, a hold transit record is created in this table 
+*Hold Transit:* When a copy is sent in transit to fill a hold, a hold transit record is created in this table 
 and the Copy Transit table. So this table contains a subset of records of the Copy Transit table. You may find 
 hold information following the link to Hold Requiring Transit. Follow the link to Transit Copy to find the 
 item information.
  
-Hold Request.  When a hold is placed, a hold record is created in this table. You may find the hold receiver's 
+*Hold Request:* When a hold is placed, a hold record is created in this table. You may find the hold receiver's 
 information in Hold User. Requesting User is the person who takes the placing hold action. It can be the hold 
 receiver or a staff member. Generally if the Hold User is different from the Requesting User, this is a 
 staff-placed hold. Hold Copy Map equals Eligible Copies. Copies that can be used to fill the hold are in this 
@@ -132,10 +128,9 @@ Shelf Time: when the hold achieves On Hold Shelf status.
  
 Thaw Date: the activation date for a suspended hold.
  
-Bills tables and views.
+*Bills and Payments tables and views*
  
-Scroll down to the bottom of the Source list. Hover your mouse over All Available Sources. A new list will 
-pop up to the right. Move your cursor to the list and scroll down to Billing Line Item. This table contains 
+Billing Line Item. This table contains 
 all the billing line items such as each day's overdue fines and the grocery bills created manually. The 
 records in this table are viewable on the Full Details screen on Bills in the staff client.
  
@@ -144,8 +139,6 @@ Most information in these records is displayed on Bills or Bills History screen.
 either the related billings or payments are updated. Transaction ID is the bill ID. It is also the circulation 
 record ID for circulation bills. Transaction Start Time is the grocery bill creation time or circulation 
 checkout time. Transaction Finish Time is when the bill is resolved.
- 
-Payments tables and views.
  
 Payments: ALL contains all payment records. When a lump sum of payment is made on the staff client, one 
 or more payment records are created depending on the number of bills it resolved or partially resolved. 
@@ -164,11 +157,7 @@ be from one or more tables. Before you use a view for your report, you need to m
 the type of records that you want to report on. For example, Overdue Circulation is a view which contains 
 circulation records without checkin date and the due date past "today". It does not work for a report on 
 last month's circulation statistics, but it makes an overdue report easier.
-* anchor:nullability_commonly_used_tables[Nullability]By default, tables are often, but not always, joined by left join. Other join types may be available. Select 
-the Enable nullability checkbox under the source list on Template Creation screen (before linked tables are 
-displayed) to list all available join types. You may see None, Child, Parent, Default in Nullable column 
-beside the table names. None means a inner join; Parent is a right outer join; Child left outer join. Default 
-is unknown, but likely left outer join.
+* anchor:nullability_commonly_used_tables[Nullability]By default, tables are often joined by inner join, which means the result records should be in both linked tables. For example,an item may or may not be circulated, meaning having circulation records. An inner join between Circulation table and Item table will not contain those items that do not have circulation history as there is no record in Circulation table for them. However, sometimes you may want include all items. You may use other join types to achieve it. You may use the Nullability checkbox beside the Source table list on Template Creation screen to select the join type.  You may see Default, Child Nullable and Parent Nullable in a dropdown list in front of the table names. None means a inner join; Parent is right outer join, meaning all records in the Parent table (the linked from table) are included; Child is left outer join, meaning all records in the child table (the linked to table) are included.
 =====
  
 
