@@ -17,7 +17,7 @@ uses:
 [options="header"]
 |============= 
 |Data Type |Icon on Evergreen|Description    |Notes
-|Boolean    |image::images/report/data-type-1.png[]|Contains either "true" or "false".    |Examples in Evergreen: "deleted" in item/patron record, "circulate?" in item record.
+|Boolean    | image::images/report/data-type-1.png[]|Contains either "true" or "false".    |Examples in Evergreen: "deleted" in item/patron record, "circulate?" in item record.
 |ID    ||Unique number assigned by the database to identify a record    |IDs look like numbers, but the id data type is treated specially by the software for determining how tables are linked. Id is a good candidate field for counting records.
 |Integer    ||A number like 1, 2, 3.    |Examples in Evergreen: "remaining renewal count" in circulation record, "claimed returned count" in patron record.
 |Interval    ||Time intervals, such as "2 weeks" and "6 months"    |Examples in Evergreen: "loan duration" and "grace period" in circulation record,
