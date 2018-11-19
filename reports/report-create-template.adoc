@@ -73,7 +73,7 @@ you should follow the links made by the Reports interface to those tables. The r
 put two pieces of isolated information together into one record in the result. When you change a starting 
 table all your existing selected fields will be removed.
 +
-. Click on Circulation to retrieve all the fields, which will be displayed in the middle column. 
+. Click on Circulation to retrieve all the fields, which will be displayed in the middle column. The icon in front of each entry(field) indicates the data type of the value in the field. Refer to xref:template_terminology[] for details. 
 +
 image::images/report/template-4.png[]
 +
