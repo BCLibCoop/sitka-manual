@@ -80,7 +80,7 @@ All permissions must be granted at the organizational unit that the workstation 
 
 [[batch-mod-statcat]]
 Batch Modify Statistical Categories
-+++++++++++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .Batch modify statistical categories for all users in a bucket:
 . Go to *Circulation->User Buckets* and select the *Bucket View* tab.
@@ -98,19 +98,14 @@ Batch Modify Statistical Categories
 [[batch-delete-user]]
 Batch Delete Users
 ^^^^^^^^^^^^^^^^^^
+To ensure needed statistics are preserved it is not currently possible to delete users through
+User Buckets.
 
-. Go to *Circulation->User Buckets* and select the *Bucket View* tab.
-. Click on *Buckets* and select the bucket you want to modify from the list of existing buckets.
-.. After selecting a bucket, the Name, Description, number of items, and creation date of the bucket will appear at the top of the screen.
-. Verify the list of users in the bucket and click *Delete all users*. A dialogue box will appear.
-. Assign a _Name for delete set_.  This name will allow staff to identify the batch deletion for future verification or rollbacks.
-. Click *Apply Changes*.  All users in the bucket will be marked as deleted.
-
-NOTE: Batch deleting patrons from a user bucket does not use the Purge User functionality, but instead marks the users as deleted.
+To delete users refer to xref:delete-patron-card[]
 
 [[view-batch-change]]
 View Batch Changes
-++++++++++++++++++
+^^^^^^^^^^^^^^^^^^
 
 . The batch changes that have been made to User Buckets can be viewed by going to *Circulation->User Buckets* and selecting the *Bucket View* tab.
 . Click *Buckets* to select an existing bucket.
@@ -119,7 +114,7 @@ View Batch Changes
 
 [[roll-back-changes]]
 Roll Back Batch Changes
-+++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^
 
 . Batch Changes and Batch Deletions can be rolled back or reversed by going to *Circulation* -> *User Buckets* and selecting the *Bucket View* tab.
 . Click *Buckets* to select an existing bucket.
