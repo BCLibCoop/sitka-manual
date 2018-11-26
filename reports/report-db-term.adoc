@@ -15,6 +15,7 @@ handles the information differently based on the data type. Each data type has i
 uses:
 
 [options="header"]
+[cols="2a"]
 |============= 
 |Data Type |Icon on Evergreen|Description    |Notes
 |Boolean    a|image::images/report/data-type-1.png[]|Contains either "true" or "false".    |Examples in Evergreen: "deleted" in item/patron record, "circulate?" in item record.
@@ -35,43 +36,43 @@ Transforms determine how data is processed when it is retrieved from the databas
 be transformed differently. Not all transforms are available to a certain data type.
  
  
-Raw Data.  To display the data exactly as it is stored in the database. It is available to all data types.
+*Raw Data:*  To display the data exactly as it is stored in the database. It is available to all data types.
  
-Date.  This transform presents a timestamp as a human-readable date in yyyy-mm-dd format. For example, 
+*Date:*  This transform presents a timestamp as a human-readable date in yyyy-mm-dd format. For example, 
 timestamp 2007-11-25 17:54:26-07 will be displayed as 2007-11-25. Date is available to timestamp field.
  
-Year + Month.  Presents a timestamp as the year and month in yyyy-mm format. For example, 2007-11-25 
+*Year + Month:*  Presents a timestamp as the year and month in yyyy-mm format. For example, 2007-11-25 
 17:54:26-07 will be displayed as 2007-11. If filtering on a timestamp transformed to Year + Month, all 
 days in the calendar month are included. It is available to timestamp field.
  
-Upper Case/Lower Case.  Transforms text to all upper/lower case. They are only available for the text data 
+*Upper Case/Lower Case:*  Transforms text to all upper/lower case. They are only available for the text data 
 type.
  
-Substring.  This transform can be applied to filters, not display fields. It matches the given value with a 
+*Substring:*  This transform can be applied to filters, not display fields. It matches the given value with a 
 continuous string of characters in the field. For example, if a given value is "123" and the match is with a 
 call number field, call numbers like "123.34", "ANF 123.34", "JNF 233.123", etc. will be in the result list. 
 Substring is only available to text data type.
  
-First Continuous Non-space string.  The first word (or string of numbers and/or characters until the first 
+*First Continuous Non-space string:*  The first word (or string of numbers and/or characters until the first 
 spacing) in a field is returned by this transform. For example, this transform will return "E" from text 
 "E DOR", "E 123", etc. This transform is available to the text data type.
  
-Count.  This transform counts the records found. Though you can count by any field, very often id field is 
+*Count:*  This transform counts the records found. Though you can count by any field, very often id field is 
 used. Count is available to text, integer, id, money, and timestamp.
  
-Count Distinct.  This transform counts the number of records with unique value in the field. If two records 
+*Count Distinct:*  This transform counts the number of records with unique value in the field. If two records 
 have the same value in the field, they will be counted once only. A typical example of using Count Distinct 
 is counting the number of active patrons who borrowed items at a library. Each patron can be counted once 
 only but he/she may borrow multiple items. Transforming the patron id in circulation record with Count 
 Distinct will result in the required number. Since each patron has a unique id, she/her will be counted once 
 only. Count Distinct is available to text, integer, id, money, and timestamp.
  
-Max. It compares the values in the field of all result records and then returns the one record with the 
+*Max:* It compares the values in the field of all result records and then returns the one record with the 
 highest value. Max is available to text, integer, money, and timestamp. For timestamp the highest value means 
 the latest date. For example, if a checkout date is transformed by Max, the returned date is the last checkout 
 date.
  
-Min. It works the same way as Max except that it returns the lowest value. Min is available to text, integer, 
+*Min:* It works the same way as Max except that it returns the lowest value. Min is available to text, integer, 
 money, and timestamp.
  
 Output Type
