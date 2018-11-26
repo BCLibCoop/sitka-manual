@@ -11,7 +11,7 @@ To set up a monthly recurring report, follow the procedure in xref:_generating_r
 changes described below.
  
 . Select the *Recurring Report* check-box and set the *Recurrence Interval* to 1 month.
-. Do *not* select *Run as soon as possible*. Instead, schedule the report to run early on the first day of the next month. 
+. Do *not* select *Run as soon as possible*. Instead, schedule the report to run early on the first day of next month. 
 Enter the date in YYYY-MM-DD format.
 +
 image::images/report/recurring-1.png[]
@@ -34,7 +34,7 @@ creating screen. When using relative date the actual date will be calculated whe
 real date, the actual value of relative date is adjusted according to the run time. For example, if the report 
 runs at 2018-10-10 04:00, a relative date transformed to YYYY-MM of "1 month ago" will be Sept, 2018; while a 
 relative date transformed to YYYY-MM-DD of '1 day ago" will be 2018-10-09. When it runs at 2018-11-10 04:00 
-"1 month ago", it will be Oct, 2018, while "1 day ago" will be 2018-11-09. The date goes by calendar day 
+"1 month ago", it will be Oct, 2018, while "1 day ago" will be 2018-11-10. The date goes by calendar day 
 or month.
 +
 If you use Real Date, you will have the same result every time, as the report is always generated based on the same condition.

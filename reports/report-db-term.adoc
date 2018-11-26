@@ -16,17 +16,24 @@ uses:
 
 [options="header"]
 |============= 
-|Data Type |Icon on Evergreen|Description    |Notes
-|Boolean    a|image::images/report/data-type-1.png[]|Contains either "true" or "false".    |Examples in Evergreen: "deleted" in item/patron record, "circulate?" in item record.
-|ID    ||Unique number assigned by the database to identify a record    |IDs look like numbers, but the id data type is treated specially by the software for determining how tables are linked. Id is a good candidate field for counting records.
-|Integer    ||A number like 1, 2, 3.    |Examples in Evergreen: "remaining renewal count" in circulation record, "claimed returned count" in patron record.
-|Interval    ||Time intervals, such as "2 weeks" and "6 months"    |Examples in Evergreen: "loan duration" and "grace period" in circulation record,
-|Link    ||It is similar to the id data type. It is the id of a record in another table.    |Examples in Evergreen: "user id" and "item id" in a circulation record. Link outputs a number that is a meaningful reference for the database but not of much use to a human user. You will usually want to drill further down the tree in the Sources pane and select fields from the linked table. However, in some instances you might want to use a link field. For example, to count the number of patrons who borrowed items you could do a count on the "user id" in the circulation record.
-|Money    ||Monetary amount    |Examples in Evergreen: "price" in item record, "billing amount" in billing record.
-|Org_unit    ||Organizational unit. It is a number. It acts like link data type.    |In Evergreen, libraries are organizational units. In Sitka context they are organized into a tree structure with consortium, library federations, libraries/library systems and branches for library systems. To filter on a library, make sure you choose the field having org_unit data type. To display a library, it is a better option to drill down to the org unit record to display the "name" of it.
+|Data Type |Description    |Notes
+|Boolean    |Contains either "true" or "false".    |Examples in Evergreen: "deleted" in item/patron record, "circulate?" in item record.
+|ID    |Unique number assigned by the database to identify a record    |IDs look like numbers, but the id data type is treated specially by the software for determining how tables are linked. Id is a good candidate field for counting records.
+|Integer    |A number like 1, 2, 3.    |Examples in Evergreen: "remaining renewal count" in circulation record, "claimed returned count" in patron record.
+|Interval    |Time intervals, such as "2 weeks" and "6 months"    |Examples in Evergreen: "loan duration" and "grace period" in circulation record,
+|Link    |It is similar to the id data type. It is the id of a record in another table.    |Examples in Evergreen: "user id" and "item id" in a circulation record. Link outputs a number that is a meaningful reference for the database but not of much use to a human user. You will usually want to drill further down the tree in the Sources pane and select fields from the linked table. However, in some instances you might want to use a link field. For example, to count the number of patrons who borrowed items you could do a count on the "user id" in the circulation record.
+|Money    |Monetary amount    |Examples in Evergreen: "price" in item record, "billing amount" in billing record.
+|Org_unit    |Organizational unit. It is a number. It acts like link data type.    |In Evergreen, libraries are organizational units. In Sitka context they are organized into a tree structure with consortium, library federations, libraries/library systems and branches for library systems. To filter on a library, make sure you choose the field having org_unit data type. To display a library, it is a better option to drill down to the org unit record to display the "name" of it.
 |Text    |Text field. Usually it takes whatever is typed into the field.    |Examples: "call number label" in call number record, "patron's names".
-|Timestamp    ||A very detailed time such as 2007-11-25 17:54:26-07    |Example: checkout time in circulation record, last status date in item record.
+|Timestamp    |A very detailed time such as 2018-11-25 17:54:26-07    |Example: checkout time in circulation record, last status date in item record.
 |=============
+
+Evergreen uses icons to indicate data type on the report interface.
+
+image::images/report/term-1.png[]
+
+
+
 
 Field Transforms
 ~~~~~~~~~~~~~~~~
@@ -38,10 +45,10 @@ be transformed differently. Not all transforms are available to a certain data t
 *Raw Data:*  To display the data exactly as it is stored in the database. It is available to all data types.
  
 *Date:*  This transform presents a timestamp as a human-readable date in yyyy-mm-dd format. For example, 
-timestamp 2007-11-25 17:54:26-07 will be displayed as 2007-11-25. Date is available to timestamp field.
+timestamp 2018-11-25 17:54:26-07 will be displayed as 2018-11-25. Date is available to timestamp field.
  
-*Year + Month:*  Presents a timestamp as the year and month in yyyy-mm format. For example, 2007-11-25 
-17:54:26-07 will be displayed as 2007-11. If filtering on a timestamp transformed to Year + Month, all 
+*Year + Month:*  Presents a timestamp as the year and month in yyyy-mm format. For example, 2018-11-25 
+17:54:26-07 will be displayed as 2018-11. If filtering on a timestamp transformed to Year + Month, all 
 days in the calendar month are included. It is available to timestamp field.
  
 *Upper Case/Lower Case:*  Transforms text to all upper/lower case. They are only available for the text data 

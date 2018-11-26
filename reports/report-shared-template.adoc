@@ -3,7 +3,7 @@ Shared Sitka Templates
 
 CAUTION: Cloning templates created on the old staff client (XUL in ui column) may not work perfectly. You may need to remove, then put back some fields during cloning. 
 
-Coop support has created generic templates for commonly requested reports and shared them under 
+Co-op support has created generic templates for commonly requested reports and shared them under 
 the Sitka_templates folder. This chapter describes how to make local copies of these templates for 
 routine reports or as a starting point for customization. When creating a new template it is a good idea 
 to review the shared templates first: even if the exact template you need does not exist, it is often faster 
@@ -13,14 +13,15 @@ templates from the Shared Folders section and save them to My Folders.
 What's in Sitka_templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Coop support team uses a dedicated staff account, Sitka_templates, to share ready-to-use templates. 
+Co-op support uses a dedicated staff account, Sitka_templates, to share ready-to-use templates. 
 Below is what a user with reporter permissions can see after going to the Reports module, then follow the 
 path to Shared Folders, click the arrow (or + sign) in front of Templates, and then Sitka_templates.
- 
+
+image::images/report/sitka-template-1.png[]
  
 From Acquisitions to Serials are the subfolders containing various templates. Templates using 
 the same source table are usually grouped together under one subfolder. These templates are created based 
-on the anticipation that most libraries may need such reports. Coop support tends to make these templates 
+on the anticipation that most libraries may need such reports. Co-op support tends to make these templates 
 generic, which means they contain more information. Individual libraries may have slightly different 
 requirements. You can remove the unwanted information when cloning the templates or choose appropriate 
 values for some filters to disable them. These templates are usually referred to as Sitka standard templates.

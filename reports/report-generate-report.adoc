@@ -10,7 +10,7 @@ template* from the dropdown menu. Click *Submit*.
 +
 image::images/report/run-report-1.png[]
 +
-. Complete the first part of report settings. Only Report Name and Choose a folder... are required fields.
+. Complete the first part of report settings. 
 +
 image::images/report/run-report-2.png[]
 +
@@ -31,7 +31,7 @@ desired date (always in YYYY-MM or YYYY-MM-DD format).
 The Transform for this field is Year + Month, so even if you choose a specific date (2018-09-20) it will 
 appear as the corresponding month only (2018-09).
  
-. Select a value for the Circulating Library on the Organizational Unit list, then click Add. You may add more than one library. You may use CTRL or SHIFT plus mouse click to select multiple libraries, then click Add, too.
+. Select a value for the Checkour/Renewal Library on the Organizational Unit list, then click Add. You may add more than one library. You may use CTRL or SHIFT plus mouse click to select multiple libraries, then click Add, too.
 . Complete the bottom portion of the report definition interface, then click *Save Report*.
 .. Select one or more output formats. In this example the report output will be available as an Excel 
 spreadsheet, an HTML table (for display in the staff client or browser), and as a bar chart. Please note 
