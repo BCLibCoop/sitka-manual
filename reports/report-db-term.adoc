@@ -15,7 +15,6 @@ handles the information differently based on the data type. Each data type has i
 uses:
 
 [options="header"]
-[cols="2a"]
 |============= 
 |Data Type |Icon on Evergreen|Description    |Notes
 |Boolean    a|image::images/report/data-type-1.png[]|Contains either "true" or "false".    |Examples in Evergreen: "deleted" in item/patron record, "circulate?" in item record.
@@ -75,6 +74,7 @@ date.
 *Min:* It works the same way as Max except that it returns the lowest value. Min is available to text, integer, 
 money, and timestamp.
  
+////
 Output Type
 ~~~~~~~~~~~
 
@@ -91,7 +91,9 @@ When used as filters, non-aggregate and aggregate types correspond to Base and A
 To see the difference between a base filter and an aggregate filter, imagine that you are creating a report to 
 find out the popular items that were circulated more than 3 times last month. This would require a base filter 
 to specify the month of interest and an aggregate filter on the count of circulation record on each item.
- 
+
+////
+
 Operators
 ~~~~~~~~~
 
@@ -100,34 +102,34 @@ in a template to determine which records should be included in the result. The r
 comparation returns "TRUE". The possible ways of comparing data are related to data type and data transforms. 
 Below are some commonly used operators.
  
-Equals.  Compares two operands and returns TRUE if they are exactly the same.
+*Equals:*  Compares two operands and returns TRUE if they are exactly the same.
  
-In List.  It is similar to Equals, except it allows you specify multiple parameters and returns "TRUE" if the 
+*In List:* It is similar to Equals, except it allows you specify multiple parameters and returns "TRUE" if the 
 field is equal to any one of the given values.
  
-Not In List .  It is the opposite of In List. Multiple parameters can be specified. TRUE will be returned only 
+*Not In List:*  It is the opposite of In List. Multiple parameters can be specified. TRUE will be returned only 
 when none of the parameters is matched with the value in the field.
  
-Greater Than.  This operator returns TRUE if a field is greater than your parameter. For text fields, the 
+*Greater Than:*  This operator returns TRUE if a field is greater than your parameter. For text fields, the 
 string is compared character by character in accordance with the general rule that numerical characters are 
 smaller than alphabetical characters and upper case alphabeticals are smaller than lower case alphabeticals; 
 for timestamps "Greater Than" can be thought of as "later than" or "after".
  
-Less Than.  This operator returns TRUE if a field is less than, lower than, earlier than or smaller than your 
+*Less Than:*  This operator returns TRUE if a field is less than, lower than, earlier than or smaller than your 
 parameter.
  
-Between.  Two parameters are required by this operator. TRUE is returned when the field value is Greater Than 
+*Between:*  Two parameters are required by this operator. TRUE is returned when the field value is Greater Than 
 or Equal to the smaller given value and Less Than or Equal to the bigger given value. The smaller parameter 
 should always comes first when filling in a filter with this operator. For example: between 3 and 5 is 
 correct. Between 5 and 3 will return FALSE on the Reports interface. For timestamp earlier date always comes 
 first.
  
-Is NULL or Blank.  Returns TRUE for fields that contain no data or blank string. For most intents and purposes 
+*Is NULL or Blank:*  Returns TRUE for fields that contain no data or blank string. For most intents and purposes 
 this operator should be used when there is no visible value in the field.
  
-Contains Matching Substring.  This operator checks if any part of the field matches the given parameter. It is 
+*Contains Matching Substring:*  This operator checks if any part of the field matches the given parameter. It is 
 case-sensitive.
  
-Contains Matching Substring (Ignore Case).  This operator is identical to Contains Matching Substring, except 
+*Contains Matching Substring (Ignore Case):*  This operator is identical to Contains Matching Substring, except 
 it is not case-sensitive.
 
