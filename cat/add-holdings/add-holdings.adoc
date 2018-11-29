@@ -21,7 +21,7 @@ CAUTION: Make sure your browser allows Evergreen to open pop-ups.
 +
 [TIP]
 =====
-* For multi-branch libraries, you may need to select the branch before clicking Add Copies. If you do not select one, the default owning and circulating library is your login working location.
+* For multi-branch libraries, you may need to select the branch before clicking *Add Copies*. If you do not select one, the default owning and circulating library is your login working location.
 +
 image::images/cat/add-holdings-2a.png[]
 
@@ -37,9 +37,9 @@ image::images/cat/add-holdings-3.png[]
 
 [TIP]
 =====
-* By default, a new item has In Process status, unless you choose a different one when creating it. Item must be checked in to become Available. Item's *Active Date* will be filled when it leaves In Process status.
+* By default, a new item has *In Process* status, unless you choose a different one when creating it. Item must be checked in to become *Available* and to create item's *Active Date*.
 +
-* You may configure the default displayed fields in Volume/Copy Editor. Click on *Defaults* on Volume/Copy Editor. See xref:_volume_copy_defaults[] for more information.
+* You can configure the default displayed fields in Volume/Copy Editor. Click on *Defaults* on Volume/Copy Editor. See xref:_volume_copy_defaults[] for more information.
 +
 image::images/cat/add-holdings-10.png[]
 =====
@@ -48,24 +48,24 @@ image::images/cat/add-holdings-10.png[]
 Adding Multiple Copies to One Volume
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. To add multiple copies to one library, on Volume/Copy Creator, use the arrow in the Copies column to increase the number. Extra lines show up for more barcodes.
+. To add multiple copies to one library on Volume/Copy Creator, use the arrow in the *Copies* column to increase the number. Extra lines show up for more barcodes.
 +
 image::images/cat/add-holdings-3a.png[]
-+ 
++
 . Type/scan in barcodes for each copy.
 
-NOTE: *Save & Exit* is greyed out until barcodes are filled up.
+NOTE: *Save & Exit* is greyed out until barcodes are entered.
 
 Working on Multiple Copies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you add multiple copies and they do not share the values in one or more item attributes, you may select and work on those that share item attributes as a group. You may also temporarily store some items to *Completed Copies* tab, then work on those on Working Copies tab, which share the same attributes. Save and exit when all copies are done.
+If you add multiple copies, and they do not share the values in one or more item attributes, you can select and work on those that share item attributes as a group. You can also temporarily store some items to *Completed Copies* tab, then work on those on *Working Copies* tab, which share the same attributes. Save and exit when all copies are done.
 
-. After you enter the barcode(s), copies are displayed under *Working Copies*. Select those copies that share the same item attribute values. Complete the item attributes for these copies. To move them to Completed Copies tab, click on *Store Selected*.
+. After you enter the barcode(s), copies are displayed under *Working Copies*. Select those copies that share the same item attribute values. Complete the item attributes for these copies. To move them to *Completed Copies* tab, click on *Store Selected*.
 +
 image::images/cat/add-holdings-5.png[]
 +
-. Select more copies on *Working Copies*. Complete the required fields. Once done, store them in the Completed Copies tab, or click on *Save & Exit*.
+. Select more copies on *Working Copies*. Complete the required fields. Once done, store them in the *Completed Copies* tab, or click on *Save & Exit*.
 +
 image::images/cat/add-holdings-6.png[]
 +
@@ -73,15 +73,15 @@ image::images/cat/add-holdings-6.png[]
 +
 image::images/cat/add-holdings-7.png[]
 +
-. Selected copies are moved back to the *Working Copies* tab where you can edit them. After editing, you can store them to the Completed Copies tab, or click Save & Exit when all copies are done.
+. Selected copies are moved back to the *Working Copies* tab where you can edit them. After editing, you can store them in the *Completed Copies* tab, or click *Save & Exit* when all copies are done.
 +
-. You can *Save Completed* copies or *Save & Exit* from *Completed Copies* tab. When you choose to *Save Completed*, copy records are created in the database, but they remain on the Completed Copies tab.
+. You can *Save Completed* copies or *Save & Exit* from *Completed Copies* tab. When you choose to *Save Completed*, copy records are created in the database, but they remain on the *Completed Copies* tab.
 +
 image::images/cat/add-holdings-8.png[]
 
 [CAUTION]
 =========
-* Stored copies on *Completed Copies* tab are *not* saved in the database until you click on *Save & Exit* or *Save Completed*. They are available on the current Volume/Copy Creator only. If you close the browser tab without saving them, you will lose them.
+* Stored copies on *Completed Copies* tab are not saved in the database until you click on *Save & Exit* or *Save Completed*. They are available on the current Volume/Copy Creator only. If you close the browser tab without saving them, you will lose them.
 +
 * *Save Completed* will save those copies on *Completed Copies* tab only. Those on *Working Copies* tab will be considered discarded, though they do not disappear.
 =========
@@ -93,10 +93,11 @@ Adding Volumes/Copies to Multiple Libraries
 +
 image::images/cat/add-holdings-8a.png[]
 +
-. If you want to add multiple volumes/copies to one library, use the arrown in *Volume* and *Copy* volumes to increase the number. Extra lines will show up. Fill up or edit Call Numbers and Barcodes, then you may work on copies on the Working Copies tab.
+. If you want to add multiple volumes/copies to one library, use the arrow in *Volume* and *Copy* volumes to increase the number. Extra lines will show up. Complete or edit call numbers and barcodes, then you can work on copies on the *Working Copies* tab.
 +
 image::images/cat/add-holdings-8b.png[]
 +
+
 [NOTE]
 ======
 You may also add volumes to more libraries on Volume/Copy Creator screen. Use the arrow in the *Owning Library* column to list the libraries, then click on *Add Volume*.
@@ -106,7 +107,7 @@ image::images/cat/add-holdings-4.png[]
 
 [TIP]
 =====
-* You can hide or display volume and copy details by coordinating the two Hide/Show buttons shown below.
+* You can hide or display volume and copy details by coordinating the two hide/show buttons shown below.
 +
 image::images/cat/add-holdings-9.png[]
 +
@@ -119,25 +120,25 @@ Adding Copies to an Existing Volume
 . If your library has multiple volumes and you want to add copies to a particular volume, select it on *Holdings View*, then click *Add Copies*.
 +
 image::images/cat/add-holdings-9a.png[]
-+ 
-. Fill up the barcode to continue to edit item attributes, then save.
++
+. Enter the barcode to continue to edit item attributes, then save.
 
 Adding a Volume without a Copy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Sometimes you may need to create a volume/call number record without any copy. For example, you may want to move one of two regular collection copies to reference, which will use a different call number prefix or catalouge a pre-catalogued item. 
+Sometimes you may need to create a volume/call number record without any copy. For example, you may want to move one of two regular collection copies to reference, which will use a different call number prefix, or catalogue a pre-catalogued item.
 
-. Find the title record, on *Holdings View*,  select your library, go to *Actions* list, scroll to *Add* to select *Volumes*.
+. Find the title record, then click on *Holdings View*,  select your library, go to *Actions* list, and scroll to *Add* to select *Volumes*.
 +
 image::images/cat/add-holdings-11.png[]
 +
-. Fill up the fields for your call number, then click *Save & Exit*.
+. Complete the call number fields, then click *Save & Exit*.
 +
 image::images/cat/add-holdings-12.png[]
 
 [TIP]
 =====
-* Evergreen does not allow one library to have two identical call numbers under one title. When saving new copies or editing existing copies, copies sharing the same call number are grouped under one volume/call number record. This call number can be edited via any copy under it, and shows up in all copies. If only one copy needs a different call number, you need to create a new call number record, then transfer the copy to it.
+* Evergreen does not allow one library to have two identical call numbers under one title. When saving new copies or editing existing copies, copies sharing the same call number are grouped under one volume/call number record. This call number can be edited via any copy under it, and any edit affects all copies. If only one copy needs a different call number, you need to create a new volume/call number record, then transfer the copy to it.
 
 * Adding volumes/copies functions are also available on the *Actions* dropdown list, or right click your mouse when an entry on the library list is selected.
 
