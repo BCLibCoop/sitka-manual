@@ -34,14 +34,14 @@ image::images/booking/booking-create-resourcetype-1.png[]
 image::images/booking/booking-create-resourcetype-2.png[]
 +
 * Resource Type Name - Give your resource a name.
-* Fine Interval - How often will fines be charged? This period can be input in several ways:
+* Fine Interval - How often will fines be charged?
 ** second(s), minute(s), hour(s), day(s), week(s), month(s), year(s)
 ** 00:00:30, 00:01:00, 01:00:00
 * Fine Amount - The amount that will be charged at each Fine Interval.
 * Owning Library - The home library of the resource.
 * Catalog Item - (Function not currently available.)
 * Transferable - This allows the item to be transferred between libraries.
-* Inter-booking and Inter-circulation Interval - The amount of time required by your library between the return of a resource and a new reservation for the resource. This interval uses * the same input conventions as the Fine Interval.
+* Inter-booking and Inter-circulation Interval - The amount of time required by your library between the return of a resource and a new reservation for the resource.
 * Max Fine Amount - The amount at which fines will stop generating.
 +
 . Click *Save* when you have entered the needed information.
@@ -77,42 +77,48 @@ Create New Resource Attribute Value
 
 . One resource attribute may have multiple values. To add new attribute value, select *Administration* -> *Booking Administration* -> *Resource Attribute Values*.
 
-. Click New Resource Attribute Value in the top right corner.
+. Click *New Resource Attribute Value* in the top right corner.
++
+image::images/booking/booking-create-rav-1.png[]
++
+. A box will appear in which you assign a value to a particular attribute.
 
-. A box will appear in which you assign a value to a particular attribute. Values can be numbers, words, or a combination of them, that describe the particular aspects of the resource that have been defined as Attributes. As all values appear on the same list for selection, values should be as unique as possible. For example, a laptop may have a computing platform that is either PC or Mac.
+.. Values can be numbers, words, or a combination of them, that describe the particular aspects of the resource that have been defined as Attributes. As all values appear on the same list for selection, values should be as unique as possible. For example, a laptop may have a computing platform that is either PC or Mac.
++
+image::images/booking/booking-create-rav-2.png[]
++
+.. Owning Library - The home library of the resource.
+.. Resource Attribute - The attribute you wish to assign the value to.
+.. Valid Value - Enter the value for your attribute.
 
-image::images/booking/booking-create-bookable-3.png[]
+. Click *Save* when the required information has been added.
 
-* Owning Library - The home library of the resource.
-* Resource Attribute - The attribute you wish to assign the value to.
-* Valid Value - Enter the value for your attribute.
-
-4) Click Save when the required information has been added.
-
-5) The attribute value will appear in the list. Each attribute should have at least two values attached to it; repeat this process for all applicable attribute values.
+. The attribute value will appear in the list. Each attribute should have at least two values attached to it; repeat this process for all applicable attribute values.
 
 Create New Resource
 ^^^^^^^^^^^^^^^^^^^
 
-1) Add items to a resource type. Click Administration -> Booking Administration -> Resources.
+. Add items to a resource type. Click *Administration* -> *Booking Administration* -> *Resources*.
 
-2) Click New Resource in the top right corner.
+. Click *New Resource* in the top right corner.
++
+image::images/booking/booking-create-resource-1.png[]
++
+. A box will appear. Add information for the resource.
++
+image::images/booking/booking-create-resource-2.png[]
++
+.. Owning Library - The home library of the resource.
+.. Resource Type - Type in the first letter of the resource type's name to list then select the resource type for your item.
+.. Barcode - Barcode for the resource.
+.. Overbook - This allows a single item to be reserved, picked up, and returned by multiple patrons during overlapping or identical time periods.
+.. Is Deposit Required
+.. Deposit Amount
+.. User Fee
 
-3) A box will appear. Add information for the resource.
+. Click *Save* when the required information has been added.
 
-image::images/booking/booking-create-bookable-4.png[]
-
-* Owning Library - The home library of the resource.
-* Resource Type - Type in the first letter of the resource type's name to list then select the resource type for your item.
-* Barcode - Barcode for the resource.
-* Overbook - This allows a single item to be reserved, picked up, and returned by multiple patrons during overlapping or identical time periods.
-* Is Deposit Required - (Function not currently available.)
-* Deposit Amount - (Function not currently available.)
-* User Fee - (Function not currently available.)
-
-4) Click Save when the required information has been added.
-
-5) The resource will appear in the list.
+. The resource will appear in the list.
 
 [NOTE]
 One resource type may have multiple resources attached.
@@ -120,28 +126,26 @@ One resource type may have multiple resources attached.
 Map Resource Attributes and Values to Resources
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1) Use Resource Attribute Maps to bring together the resources and their attributes and values. Select Administration -> Booking Administration -> Resource Attribute Maps.
+. Use Resource Attribute Maps to bring together the resources and their attributes and values. Select *Administration* -> *Booking Administration* -> *Resource Attribute Maps*.
 
-2) Click New Resource Attribute Map in the right top corner.
+. Click *New Resource Attribute Map* in the right top corner.
++
+image::images/booking/booking-create-attrmap-1.png[]
++
+. A box will appear in which you will map your attributes and values to your resources.
++
+image::images/booking/booking-create-attrmap-2.png[]
++
+.. Resource - Enter the barcode of your resource.
+.. Resource Attribute - Select an attribute that belongs to the Resource Type.
+.. Attribute Value - Select a value that belongs to your chosen attribute and describes your resource. If your attribute and value do not belong together you will be unable to save.
 
-3) A box will appear in which you will map your attributes and values to your resources.
+. Click *Save* once you have entered the required information.
 
-image::images/booking/booking-create-bookable-5.png[]
-
-* Resource - Enter the barcode of your resource.
-* Resource Attribute - Select an attribute that belongs to the Resource Type.
-* Attribute Value - Select a value that belongs to your chosen attribute and describes your resource. If your attribute and value do not belong together you will be unable to save.
-
-4) Click Save once you have entered the required information.
+. The resource attribute map will appear in the list.
 
 [NOTE]
 A resource may have multiple attributes and values. Repeat the above steps to map all.
-
-5) The resource attribute map will appear in the list.
-
-Once all attributes have been mapped your resource will be part of a hierarchy similar to the example below.
-
-image::images/booking/booking-create-bookable-6.png[]
 
 
 Editing Non-Bibliographic Resources
@@ -152,24 +156,27 @@ Staff with the required permissions can edit aspects of existing non-bibliograph
 Editing Resource Types
 ^^^^^^^^^^^^^^^^^^^^^^
 
-1) Bring up your list of resource types. Select Administration -> Booking Administration -> Resource Types.
+. Bring up your list of resource types. Select *Administration* -> *Booking Administration* -> *Resource Types*.
 
-2) A list of current resource types will appear.
+. A list of current resource types will appear.
 
-3) Double click anywhere on the line of the resource type you would like to edit.
+. Double click anywhere on the line of the resource type you would like to edit.
 
-4) The resource type box will appear. Make your changes and click Save.
+. The resource type box will appear. Make your changes and click Save.
 
-5) Following the same procedure you may edit Resource Attributes, Attributes Values, Resources and Attribute Map by selecting them on Administration -> Booking Administration.
+. Following the same procedure you may edit Resource Attributes, Attributes Values, Resources and Attribute Map by selecting them on *Administration* -> *Booking Administration*.
 
 
 Deleting Non-bibliographic Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1) To delete a booking resource, go to Administration -> Booking Administration -> Resources.
+. To delete a booking resource, go to *Administration* -> *Booking Administration* -> *Resources*.
 
-2) Select the checkbox in front the resource you want to delete. Click Delete Selected. The resource will disappear from the list.
+. Select the check box in front the resource you want to delete.
 
+. Click *Delete Selected*. The resource will disappear from the list.
+
+[NOTE]
 Following the same procedure you may delete Resource Attributes Maps.
 
 You may also delete Resource Attribute Values, Resource Attributes and Resource Types. But you have to delete them in the reverse order when you create them to make sure the entry is not in use when you try to delete it.
