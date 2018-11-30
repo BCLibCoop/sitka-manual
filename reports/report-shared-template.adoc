@@ -55,16 +55,16 @@ Other circulation related templates are:
  
 *Reports on collection*. These templates are in Collection folder. You will find templates counting items 
 or titles of your whole collection or catalogued within the selected time period (new title/items statistics). 
-The numbers are grouped by shelving location and/or circulation modifier.
+The numbers are grouped by shelving location and/or circulation modifier. The templates are in Copy and Title Count subfolder.
  
 Another group of templates in Collection folder are item/title lists for items meeting various criteria: 
 having selected shelving location(s) and/or circulation modifier(s), copy stat cat, barcode prefix, call 
 number prefix or within a call number range; or being catalogued (new title/item list), marked missing, 
-lost or deleted within selected time period.
+lost or deleted within selected time period. These templates are in Copy List by Item Attributes and Title List subfolders.
  
 In this folder, you will also find templates listing pre-catalogued items and items with certain circulation 
 history (items with fewer circulation count for weeding report or more circulation count for popular 
-title/item report).
+title/item report). They are in Others folder.
  
 *Patron reports*. All patron reports are in Patrons folder. You may find templates counting patrons by 
 profile group and/or patron stat cat, registered or expired/expiring within a selected time period, or 
