@@ -117,7 +117,7 @@ please see xref:_folders[].
 . Access the Reports interface from *Administration* -> *Reports*
 . Under Shared Folders expand the Templates folder and the Sitka_templates subfolder.  To expand the 
 folders click on the grey arrow or folder icon.  Do not click on the blue underlined hyperlink.
-. Expand the Circulation (SITKA) folder, then click on Monthly Circulation Stats to list templates in it.
+. Expand the Circulation (SITKA) folder, then click on Monthly Circulation Stats (the blue text) to list templates in it.
 +
 image::images/report/clone-template-1.png[]
 +
