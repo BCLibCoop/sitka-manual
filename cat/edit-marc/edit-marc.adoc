@@ -7,7 +7,7 @@ image::images/cat/marc-edit-1.png[]
 +
 [TIP]
 =====
-You can set the displayed veiw as default by clicking *Set Default View*. Individual records will be loaded in this view when selected/retrieved.
+You can set the displayed view as the default by clicking *Set Default View*. Individual records will be loaded in this view when selected/retrieved.
 =====
 +
 . MARC record is displayed. Use scroll bar on right to move record up and down on screen.
@@ -30,12 +30,12 @@ image::images/cat/marc-edit-5.png[]
 +
 image::images/cat/marc-edit-5a.png[]
 +
-. To work with the data in a tag, simply click or Tab into required field.
-. To edit indicators, click or Tab into the required field and right click to view correct indicators and enter appropriate data.
+. To work with the data in a tag, simply click or tab into required field.
+. To edit indicators, click or tab into the required field, and right click to view correct indicators and enter appropriate data.
 +
 image::images/cat/marc-edit-6.png[]
 +
-. Once your edits are complete, click *Save Record*.
+. Once your edits are complete, click *Save*.
 +
 image::images/cat/marc-edit-7.png[]
 

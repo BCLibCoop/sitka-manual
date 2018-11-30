@@ -24,11 +24,11 @@ There are a set of penalties on Sitka level for all patrons. These rules will be
 
 *Creating local penalty thresholds*
 
-Local System Administrators can created local penalty thresholds. Go to *Administration -> Local Administration -> Group Penalty Threshold*. Click *New Penalty Threshold*. Choose/enter the appropirate value for each field. Click *Save*.
+Local System Administrators can created local penalty thresholds. Go to *Administration -> Local Administration -> Group Penalty Threshold*. Click *New Penalty Threshold*. Choose or enter the appropriate value for each field. Click *Save*.
 
 image:images/admin/group-penalty-2.png[]
 
-TIP: You may set up penalties with too_high_to_reach limit to achieve the no limit effect.
+TIP: You may set up penalties with a too_high_to_reach limit to achieve the no limit effect.
 
 *Editing local penalty thresholds*
 
@@ -36,5 +36,4 @@ Double clicking a penalty on the list will open it in editing mode. Edit, then s
 
 *Deleting local penalty thresholds*
 
-Select the checkbox in fron the penalty you wish to delete, click *Delete Selected*.
-
+Select the checkbox in front of the penalty you wish to delete, and click *Delete Selected*.

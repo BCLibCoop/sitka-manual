@@ -58,10 +58,9 @@ This table below describes the copy statuses with Sitka's property settings.
 Hard Due Date
 ~~~~~~~~~~~~~
 
-One or more hard due date(s) can be set up for a library to force the circulation due on selected date(s). The hard due date is used in the circulation policy based on patron profile and/or item circulation modifier. It may be used to extend or shortern the regular loan duration. For example, it may be used to grant faculty members term loan by an Always Use? TRUE hard due date, or to force all students to return their items by the end of the term by an Always Use? FALSE hard due date, which takes effect when the regular due date falls after the hard due date. Please contact SCo-op support if you wish to use hard due date.
+One or more hard due date(s) can be set up for a library to force the circulation due on selected date(s). The hard due date is used in the circulation policy based on patron profile and/or item circulation modifier. It may be used to extend or shorten the regular loan duration. For example, it may be used to grant faculty members term loan by an Always Use? TRUE hard due date, or to force all students to return their items by the end of the term by an Always Use? FALSE hard due date, which takes effect when the regular due date falls after the hard due date. Please contact Co-op Support if you wish to use hard due date.
 
 Floating Group
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
 
-Evergreen supports floating collections. Floating items stay at the checkin library, instead of being sent back to the item's original circulating library. Floating Groups are used to limit the range of libraries that an item can float within. Please contact Co-op support if you wish make all or partial of your items float within selected libraries/branches.
-
+Evergreen supports floating collections. Floating items stay at the checkin library, instead of being sent back to the item's original circulating library. Floating Groups are used to limit the range of libraries that an item can float within. Please contact Co-op Support if you wish make all or part of your items float within selected libraries/branches.

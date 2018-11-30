@@ -5,7 +5,7 @@ anchor:admin-survey[Survey]
 
 This section illustrates how to create a survey, shows where the survey responses are saved in the patron record, and explains how to report on surveys.
 
-Surveys questions can be optional or required. Surveys come up when a patron is first registered and edited subsequently. Required survey questions have to be answered whenever the patron record is edited. Some examples of survey questions might include: Would you use the library if it were open on a Sunday? Would you like to be contacted by the library to learn about new services? Do you attend library programs?
+Survey questions can be optional or required. Surveys come up when a patron is first registered, and upon subsequent edits. Required survey questions have to be answered whenever the patron record is edited. Some examples of survey questions might include: Would you use the library if it were open on a Sunday? Would you like to be contacted by the library to learn about new services? Do you attend library programs?
 
 To find out the survey result you need to run reports on survey questions. For example, you could find out how many people say they would use the library if it were open on a Sunday, or you could get a list of patrons who say they would like to receive marketing material from the library. There is a shared report template for reporting on patron surveys under *Sitka_templates -> Patrons -> Other* folder. See xref:_shared_sitka_templates[] for more about shared templates and contact Co-op support if you need help tweaking this template.
 
@@ -33,7 +33,7 @@ image::images/admin/survey-2.png[]
 image::images/admin/survey-3.png[]
 +
 . Repeat the steps above to add as many questions and answers as you wish. Once finished, click a *Save Changes* button. Use browser back button to go back.
-. Your new survey will appear in the Survey List table. To make further changes click the survey name to open the detailed view. To end a survey before the end date, you may select it, then click *End Survey*. 
+. Your new survey will appear in the Survey List table. To make further changes click the survey name to open the detailed view. To end a survey before the end date, you may select it, then click *End Survey*.
 +
 image::images/admin/survey-4.png[]
 
@@ -48,12 +48,10 @@ image::images/admin/survey-6.png[]
 
 [TIP]
 =====
-Survey questions show up in patron account only after the start date. They disappear after the end date. 
+Survey questions show up in patron account only after the start date. They disappear after the end date.
 =====
 
 *Reporting on Surveys*
 (((admin, Survey result)))
 
 There is a shared report template for reporting on patron surveys on the report interface, under *Sitka_templates -> Patrons -> Other* folder. For more information about shared templates, refer to xref:_shared_sitka_templates[]. If you need help tweaking this template please contact Co-op support.
-
-

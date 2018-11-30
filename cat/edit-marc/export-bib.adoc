@@ -31,7 +31,7 @@ image::images/cat/export-marc-2.png[]
 
 [NOTE]
 ======
-All records in the bukcet are exported, not just the one you selected. 
+All records in the bucket are exported, not just the one you selected.
 ======
 
 Select the exported record format and encoding, and whether to include holdings. Once done, click *Export*. You will be prompted to save the file.

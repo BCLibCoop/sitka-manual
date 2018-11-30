@@ -5,7 +5,7 @@ https://goo.gl/91kp4e[Sitka Training Video - Merge Duplicate Bibliographic Recor
 
 This lesson will demonstrate merging bibliographic records in the catalogue. A common application for this functionality is to replace brief records with full records to keep one bibliographic record for one title.
 
-Any volume and copy records or holds associated with the brief record will be transferred to the full record upon merging.
+Any volume and copy records, or holds, associated with the brief record, will be transferred to the full record upon merging.
 
 . Records are merged via a *Record Bucket*. You need to have a bucket for the records you wish to merge. To create a record bucket, refer to  xref:create-record-bucket[] for detailed instructions. In the example below the bucket is named "merge117036601".
 
@@ -21,7 +21,7 @@ image::images/cat/merge-1.png[]
 +
 image::images/cat/merge-2.png[]
 +
-. Merge screen opens in a pop-up window. Records are listed in the right column. You can scroll down to view each record and its holdings, if any. Once decided on a lead record, click *Use as Lead Record*. You can remove a record if you decide not to merge it by clicking *Remove from Consideration*.
+. Merge screen opens in a pop-up window. Records are listed in the right column. You can scroll down to view each record and its holdings, if any. Once decided on a lead record, click *Use as lead record*. You can remove a record if you decide not to merge it by clicking *Remove from consideration*.
 +
 image::images/cat/merge-3.png[]
 +
@@ -29,7 +29,7 @@ image::images/cat/merge-3.png[]
 +
 image::images/cat/merge-4.png[]
 +
-. Select a merge profile. We use "Merge Keeping Local Fields".
+. Select a merge profile. We use "Merge keeping local fields".
 . Once ready, click *Merge*. The lead record is displayed in the catalogue.
 
 
