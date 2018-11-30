@@ -26,7 +26,7 @@ generic, which means they contain more information. Individual libraries may hav
 requirements. You can remove the unwanted information when cloning the templates or choose appropriate 
 values for some filters to disable them. These templates are usually referred to as Sitka standard templates.
  
-The following is a guideline of the templates for various kinds of reports. Please note that Coop support regularly maintains the templates. The list below may not be the latest.
+The following is a guideline of the templates for various kinds of reports. Please note that Co-op support regularly maintains the templates. The list below may not be the latest.
  
 *Overdue reports*. Find overdue reports in Circulation folder. There are templates capturing checkouts 
 with due date within a selected time frame for all patrons or those without email address (phone list) 
