@@ -105,7 +105,7 @@ with sub-subfolders for your library and other libraries within your library fed
   
 These folders are created when Co-op support creates or customizes templates for individual 
 libraries. The templates go to these folders when there are similar templates in the standard folders 
-already, or Coop support does not anticipate wide use of the templates. Coop support tries to 
+already, or Co-op support does not anticipate wide use of the templates. Co-op support tries to 
 limit the number of templates in each standard folder so that staff may find the target template easily.
  
 Clone a template from Sitka_templates
