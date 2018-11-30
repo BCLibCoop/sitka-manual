@@ -75,7 +75,7 @@ One resource type may have multiple attributes. You may repeat the above procedu
 Create New Resource Attribute Value
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. One resource attribute may have multiple values. To add new attribute value, select *Administration* -> *Booking Administration* -> *Resource Attribute Values*.
+. Select *Administration* -> *Booking Administration* -> *Resource Attribute Values*.
 
 . Click *New Resource Attribute Value* in the top right corner.
 +
@@ -98,7 +98,7 @@ image::images/booking/booking-create-rav-2.png[]
 Create New Resource
 ^^^^^^^^^^^^^^^^^^^
 
-. Add items to a resource type. Click *Administration* -> *Booking Administration* -> *Resources*.
+. Click *Administration* -> *Booking Administration* -> *Resources*.
 
 . Click *New Resource* in the top right corner.
 +
@@ -126,7 +126,9 @@ One resource type may have multiple resources attached.
 Map Resource Attributes and Values to Resources
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Use Resource Attribute Maps to bring together the resources and their attributes and values. Select *Administration* -> *Booking Administration* -> *Resource Attribute Maps*.
+. Use Resource Attribute Maps to bring together the resources and their attributes and values.
+
+. Select *Administration* -> *Booking Administration* -> *Resource Attribute Maps*.
 
 . Click *New Resource Attribute Map* in the right top corner.
 +
