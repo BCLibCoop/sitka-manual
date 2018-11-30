@@ -171,12 +171,12 @@ Examples of using Sitka's templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 CAUTION: Please clone templates in Sitka_templates and set up your reports from your own copy. This is to avoid any 
-potential impact that may be resulted from changing the orignal templates. Coop support regularly 
+potential impact that may be resulted from changing the orignal templates. Co-op support regularly 
 maintains these templates. Deletion may happen. Deleting a template will delete all linked reports and 
 output files.
  
 Below are a few screenshots showing you how to set up the reports based on some templates in Sitka_templates. 
-Some explanation is added in the boxes.
+Some explanation is added in the orange boxes and text.
  
 . Setting up a monthly recurring report by using template: Monthly Circulation by Shelving Location in Circulation > Monthly circulation stats folder:
 +
