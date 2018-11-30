@@ -20,7 +20,7 @@ Library pre-due notices are generated and sent via email to patrons three days b
 
 These emails are not spam, and should not be marked as spam by either patrons or staff.
 
-The pre-due notice template can be customized at the federation or library level. Please contact Co-op support for customization.
+The pre-due notice template can be customized at the federation or library level. Please contact Co-op Support for customization.
 
 Libraries can opt out of pre-due notices using the *org.opt_out_email_predue setting* in the Library Settings Editor.
 
