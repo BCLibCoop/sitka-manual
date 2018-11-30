@@ -4,7 +4,7 @@ Booking Module Administration
 Creating Bookable Non-Bibliographic Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Staff with the required permissions (Circulator and above) can create bookable non-bibliographic resources such as laptops, projectors, and meeting rooms.
+Staff with the required permissions can create bookable non-bibliographic resources such as laptops, projectors, and meeting rooms.
 
 The following pieces make up a non-bibliographic resource:
 
@@ -19,25 +19,20 @@ You need to create resource types and resource attributes (features of the resou
 Create New Resource Type
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-1) Select Administration -> Booking Administration -> Resource Types.
+. Select Administration -> Booking Administration -> Resource Types.
 
-image::images/booking/booking-create-resourcetype_webclient-1.png[]
-
-2) A list of current resource types will appear. Use Back and Next buttons to browse the whole list.
-
-image::images/booking/booking-create-resourcetype-2.png[]
+. A list of current resource types will appear. Use Back and Next buttons to browse the whole list.
 
 [NOTE]
 You may also see cataloged items in the list. Those items have been marked bookable or booked before.
 
+. To create a new resource type, click New Resource Type in the top right corner, .
 
-3) To create a new resource type, click New Resource Type in the top right corner, .
+image::images/booking/booking-create-resourcetype-1.png[]
 
-image::images/booking/booking-create-resourcetype-3.png[]
+. A box will appear in which you create your new type of resource.
 
-4) A box will appear in which you create your new type of resource.
-
-image::images/booking/booking-create-bookable-1.png[]
+image::images/booking/booking-create-resourcetype-2.png[]
 
 * Resource Type Name - Give your resource a name.
 * Fine Interval - How often will fines be charged? This period can be input in several ways:
@@ -57,13 +52,9 @@ image::images/booking/booking-create-bookable-1.png[]
 * Inter-booking and Inter-circulation Interval - The amount of time required by your library between the return of a resource and a new reservation for the resource. This interval uses * the same input conventions as the Fine Interval.
 * Max Fine Amount - The amount at which fines will stop generating.
 
-5) Click Save when you have entered the needed information.
+. Click Save when you have entered the needed information.
 
-image::images/booking/booking-create-resourcetype-4.png[]
-
-6) The new resource type will appear in the list.
-
-image::images/booking/booking-create-resourcetype-5.png[]
+. The new resource type will appear in the list.
 
 Create New Resource Attribute
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -177,8 +168,6 @@ Editing Resource Types
 4) The resource type box will appear. Make your changes and click Save.
 
 5) Following the same procedure you may edit Resource Attributes, Attributes Values, Resources and Attribute Map by selecting them on Administration -> Booking Administration.
-
-
 
 
 Deleting Non-bibliographic Resources
