@@ -1,36 +1,36 @@
 Folders
 -------
 
-There are three main components used by the Reports module: Templates, Reports, and Output. Each of these components 
-must be stored in a folder. Folders can be private (accessible to your login only) or shared with other staff at 
-your library, other libraries in your federation, or with the whole Sitka Consortium. It is also possible to 
+There are three main components used by the Reports module: Templates, Reports, and Output. Each of these components
+must be stored in a folder. Folders can be private (accessible to your login only) or shared with other staff at
+your library, other libraries in your federation, or with the whole Sitka Consortium. It is also possible to
 selectively share only certain folders and/or subfolders.
 
-CAUTION: A shared subfolder must be created in a shared folder. The sharing scope of the subfolder should be 
-within the sharing scope of the parent folder. For example, a subfolder shared with Sitka Consortium should only be 
-in a parent folder shared with Sitka. It should not be in a folder shared with your library only. Though creating 
-shared subfolders in unshared folders or a subfolder with the sharing scope exceeding its parent's is not blocked 
-by Evergreen, serious consequences will be caused by such folders. You must be cautious when creating shared 
+CAUTION: A shared subfolder must be created in a shared folder. The sharing scope of the subfolder should be
+within the sharing scope of the parent folder. For example, a subfolder shared with Sitka Consortium should only be
+in a parent folder shared with Sitka. It should not be in a folder shared with your library only. Though creating
+shared subfolders in unshared folders or a subfolder with the sharing scope exceeding its parent's is not blocked
+by Evergreen, serious consequences will be caused by such folders. You must be cautious when creating shared
 subfolders.
 
-There are two parts in the folders pane. The My Folders section contains folders created with your Evergreen 
-account. Folders that other users have shared with you appear in the Shared Folders section under the username 
-of the sharing account. You can only view the contents or clone the templates in the shared folders, but not make 
+There are two parts in the folders pane. The My Folders section contains folders created with your Evergreen
+account. Folders that other users have shared with you appear in the Shared Folders section under the username
+of the sharing account. You can only view the contents or clone the templates in the shared folders, but not make
 any change in the shared folders. The cloned template can only be saved into your own folder.
- 
+
 Creating Folders
 ~~~~~~~~~~~~~~~~
 
 Whether you are creating a report from scratch or working from a shared template you must first create at least one folder.
- 
+
 The steps for creating folders are similar for each reporting function. It is easier to create folders for templates, reports, and output all at once at the beginning, though it is possible to do it before each step. This example demonstrates creating a folder for a template.
- 
+
 . Click on *Templates* in the *My Folders* section.
 +
 image::images/report/folder-1.png[]
 +
-. Name the folder. Select *Share* or *Do not share* from the dropdown menu.
-. If you want to share your folder, select whom you want to share this folder with from the dropdown menu.
+. Name the folder. Select *Share* or *Do not share* from the drop down menu.
+. If you want to share your folder, select whom you want to share this folder with from the drop down menu.
 +
 image::images/report/folder-2.png[]
 +
@@ -39,26 +39,26 @@ image::images/report/folder-2.png[]
 . Repeat steps 2-4 to create a Reports folder also called Circulation.
 . Finally, you need to create a folder for the report's output to be saved in. Click on *Output*.
 . Repeat steps 2-4 to create an Output folder named Circulation.
- 
+
 TIP: Using a parallel naming scheme for folders in Templates, Reports, and Output helps keep your reports organized and easier to find.
- 
+
 The folders you have just created, will now be visible by clicking the arrows in *My Folders*. Bracketed after the folder name, is the name of with whom the folder is shared. For example, Circulation (ZSP-B) is shared with the New Coopville Library. If it is not a shared folder, there will be nothing after the folder name. You may create as many folders and sub-folders as you like.
 
 image::images/report/folder-3.png[]
 
 TIP: Clicking the blue text of a folder name displays the contents of the folder in the right pane. Clicking the arrow in front of a folder name displays its subfolders.
- 
+
 Managing Folders
 ~~~~~~~~~~~~~~~~
 
 Once a folder has been created, you can change the name, delete it, create a new subfolder, or change the sharing settings. This example demonstrates changing a folder name. The other choices follow similar steps.
- 
+
 . Click on the folder name that you wish to rename.
 . Click *Manage Folder*.
 +
 image::images/report/folder-4.png[]
 +
-. Select *Change folder name* from the dropdown menu and click *Go*.
+. Select *Change folder name* from the drop down menu and click *Go*.
 +
 image::images/report/folder-5.png[]
 +
@@ -67,4 +67,3 @@ image::images/report/folder-5.png[]
 image::images/report/folder-6.png[]
 +
 . You will get a confirmation box that the Action Succeeded. Click *OK*.
-
