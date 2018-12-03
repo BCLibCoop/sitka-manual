@@ -11,17 +11,15 @@ To create a reservation from a patron record
 
 . Retrieve the patron’s record.
 
-. Select *Other* -> *Booking* -> *Create or Cancel Reservations*. This takes you to the Reservations Screen.
+. Select *Other* -> *Booking: Create or Cancel Reservations*. This takes you to the Reservations Screen.
 +
 image::images/booking/booking-create-1.png[]
 +
-. For non-catalogued items, choose a Bookable Resource Type and click Next. For catalogued items, enter the barcode in Enter the barcode of a catalogued, bookable resource box, then click Next beside the box.
+. For non-catalogued items, choose a Bookable Resource Type and click *Next*. For catalogued items, enter the barcode, then click *Next* beside the box.
 +
 image::images/booking/booking-create-2.png[]
 +
-.. For non-catalogued resources, the Bookable Resource Type and the items associated with the type will appear.
-
-.. For catalogued items, the title and the item will display in the box.
+. For non-catalogued resources, the Bookable Resource Type and the items associated with the type will appear. For catalogued items, the title and the item will display in the box.
 
 . Select the date and time for the reservation in *I need this resource...* area. Click the date field. A calendar widget will be displayed for you to choose a date. Click the time field to choose time from the dropdown list.
 +
@@ -30,25 +28,23 @@ image::images/booking/booking-create-3.png[]
 [NOTE]
 If incorrect date and time is selected, the date/time boxes will appear in red. For example, if the time for which the reservation is set has already passed, the boxes will appear in red. There must be at least 15 minutes between the creation of the reservation and the start time of the reservation.
 
-. For non-catalogued resources, patrons may specify special feature(s), if any, of the resource. With these attributes: allows you to do so. For example, if a patron is booking a laptop he/she can choose between PC and Mac and even choose a specific operating system if they need to. Click the drop down arrow to select your option from the list.
+. For non-catalogued resources, patrons may specify special feature(s), if any, of the resource. With these attributes: allows you to do so. For example, if a patron is booking a laptop he/she can choose a specific operating system if they need to. Click the drop down arrow to select your option from the list.
 
-image::images/booking/booking-create-5.png[]
+image::images/booking/booking-create-4.png[]
 
 . Select the pickup location from the drop down list.
-
-image::images/booking/booking-create-6.png[]
 
 . If there are multiple copies of the resource and any item listed is acceptable, click *Reserve Any*.
 
 . To choose a specific item, select it and then click *Reserve Selected*.
 +
-image::images/booking/booking-create-7.png[]
+image::images/booking/booking-create-5.png[]
 +
-. A message will confirm that the action succeeded. Click OK on the prompt.
+. A message will confirm that the action succeeded. Click *OK* on the prompt.
 
 . The screen will refresh and the reservation will appear below the patron’s name at the bottom of the screen.
 
-image::images/booking/booking-create-9.png[]
+image::images/booking/booking-create-6.png[]
 
 To create a reservation from a booking resource
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -56,47 +52,34 @@ To create a reservation from a booking resource
 You need to know the barcode of the patron when you create a reservation for him/her from a booking resource.
 
 . From the Booking menu, select Create Reservations
-
++
 image::images/booking/booking-create-module-1.png[]
-
++
 . Choose a Bookable Resource Type and click Next or enter the barcode of a catalogued resource and click Next.
-
++
 image::images/booking/booking-create-module-2.png[]
-
-. For non-catalogued resources, a screen showing the Bookable Resource Type and the items associated with the type will appear.
 +
-image::images/booking/booking-create-module-3.png[]
-+
-For catalogued resources, the title and item will appear.
+. For non-catalogued resources, a screen showing the Bookable Resource Type and the items associated with the type will appear. For catalogued resources, the title and item will appear.
 
 . Enter the user’s barcode in the Reserve to patron barcode box. The user’s existing reservations, if any, will appear at the bottom of the screen.
 +
-image::images/booking/booking-create-module-4.png[]
+image::images/booking/booking-create-module-3.png[]
 +
 . Select the date and time for the reservation in *I need this resource...* area. Click the date field. A calendar widget will be displayed for you to choose a date. Click the time field to choose time from the dropdown list.
 
 .. If incorrect date and time is selected, the date/time boxes will appear in red. For example, if the time for which the reservation is set has already passed, the boxes will appear in red. The times must be set correctly for the reservation to be created. There must be at least 15 minutes between the creation of the reservation and the start time of the reservation.
 
-+
-image::images/booking/booking-create-4.png[]
-+
 . For non-catalogued resources, patrons may specify special feature(s), if any, of the resource. The With these attributes: allows you to do so. For example, if a patron is booking a laptop they can choose between PC and Mac and even choose a specific operating system if they need to. Click the dropdown arrow to select your option from the list.
-
-image::images/booking/booking-create-5.png[]
 
 . Select the pickup location from the dropdown list.
 
-image::images/booking/booking-create-6.png[]
-
 . If there are multiple copies of the resource and any item listed is acceptable, click Reserve Any. To choose a specific item, select it and then click Reserve Selected.
-
-image::images/booking/booking-create-7.png[]
-
++
+image::images/booking/booking-create-4.png[]
++
 . A message will confirm that the action succeeded. Click OK on the prompt.
 
 . The screen will refresh and the reservation will appear below the patron’s name at the bottom of the screen.
-
-image::images/booking/booking-create-9.png[]
 
 
 Search the catalogue to create a reservation
@@ -106,10 +89,10 @@ If you would like to reserve a catalogued item but do not know the item barcode,
 
 . In the staff client, select *Cataloguing* -> *Search the Catalogue* or keyboard shortcut F3 to search for the item you wish to reserve. You may search by any bibliographic information.
 
-. Click the title to display the record summary. In the Copy Summary, select Copy Details in Actions column.
-
-. The Copy Details will appear in a new row. In the barcode column, click the *book now* link.
-
+. Click the title to display the record summary. Click *Holdings View* -> select Copy -> click *Actions* -> *Book Item Now*.
++
+image::images/booking/booking-catalogue-1.png[]
++
 . A screen showing the title and barcodes of available copies will appear.
 
 . Enter the user’s barcode in the Reserve to patron barcode box. The user’s existing reservations, if any, will appear at the bottom of the screen.
@@ -117,13 +100,13 @@ If you would like to reserve a catalogued item but do not know the item barcode,
 . Select the date and time in *I need this resource...* section. If the date and time set is incorrect the boxes appear in red. For example, if the time for which the reservation is set has already passed, the boxes will appear in red.
 
 . Select pickup location. If there are multiple copies and any of the listed items is acceptable, click Reserve Any. To choose a specific item, select it and then click Reserve Selected.
-
-. A message will confirm that the action succeeded. Click OK on the prompt.
-
-. The screen will refresh, and the reservation will appear below the user’s name.
++
+image::images/booking/booking-catalogue-2.png[]
++
+. A message will confirm that the action succeeded. Click *OK* on the prompt.
 
 [NOTE]
-Reservations on catalogued items can be created on Item Status (F. screen. Select the item, then Actions for Selected Items → Book Item Now.
+Reservations on catalogued items can also be created on Item Status (Scan the barcode -> *Actions* -> *Book Item Now*.
 
 Reservation Pull List
 ~~~~~~~~~~~~~~~~~~~~~
@@ -131,18 +114,16 @@ Reservation Pull List
 Reservation pull list can be generated dynamically on the Staff Client.
 
 . To create a pull list, select Booking -> Pull List.
-
++
 image::images/booking/booking-pull-1.png[]
-
++
 . You can decide how many days in advance you would like to pull reserved items. Enter the number of days in the box adjacent to Generate list for this many days hence. For example, if you would like to pull items that are needed today, you can enter 1 in the box, and you will retrieve items that need to be pulled today.
 
 . Click Fetch to retrieve the pull list.
-
++
 image::images/booking/booking-pull-2.png[]
-
-. The pull list will appear. Click Print to print the pull list.
-
-image::images/booking/booking-pull-3.png[]
++
+. Click *Print* to print the pull list.
 
 Capturing Items for Reservations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -153,16 +134,14 @@ Reservations must be captured before they are ready to be picked up by the patro
 Always capture reservations in Booking Module. Check In function in Circulation does not function the same as Capture Resources.
 
 . In the staff client, select Booking -> Capture Resources.
-
++
 image::images/booking/booking-capture-1.png[]
-
-. Scan the item barcode or type the barcode then click Capture.
-
++
+. Scan the item barcode or type the barcode then click *Capture*.
++
 image::images/booking/booking-capture-2.png[]
-
-. The message Capture succeeded will appear to the right. Information about the item will appear below the message. Click Print button to print a slip for the reservation.
-
-image::images/booking/booking-capture-3.png[]
++
+. The message Capture succeeded will appear to the right. Information about the item will appear below the message. Click *Print* button to print a slip for the reservation.
 
 
 Picking Up Reservations

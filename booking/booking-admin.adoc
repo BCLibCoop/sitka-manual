@@ -62,10 +62,11 @@ image::images/booking/booking-create-ra-1.png[]
 +
 image::images/booking/booking-create-ra-2.png[]
 +
-.. Resource Attribute Name - Give your attribute a name.
-.. Owning Library - The home library of the resource.
-.. Resource Type - Type in the first letter to list then choose the Resource Type to which the Attribute is applicable.
-.. Is Required - (Function not currently available.)
+* Resource Attribute Name - Give your attribute a name.
+* Owning Library - The home library of the resource.
+* Resource Type - Type in the first letter to list then choose the Resource Type to which the Attribute is applicable.
+* Is Required - (Function not currently available.)
++
 . Click *Save*.
 
 [NOTE]
@@ -87,10 +88,10 @@ image::images/booking/booking-create-rav-1.png[]
 +
 image::images/booking/booking-create-rav-2.png[]
 +
-.. Owning Library - The home library of the resource.
-.. Resource Attribute - The attribute you wish to assign the value to.
-.. Valid Value - Enter the value for your attribute.
-
+* Owning Library - The home library of the resource.
+* Resource Attribute - The attribute you wish to assign the value to.
+* Valid Value - Enter the value for your attribute.
++
 . Click *Save*..
 
 .. Each attribute should have at least two values attached to it; repeat this process for all applicable attribute values.
@@ -108,14 +109,14 @@ image::images/booking/booking-create-resource-1.png[]
 +
 image::images/booking/booking-create-resource-2.png[]
 +
-.. Owning Library - The home library of the resource.
-.. Resource Type - Type in the first letter of the resource type's name to list then select the resource type for your item.
-.. Barcode - Barcode for the resource.
-.. Overbook - This allows a single item to be reserved, picked up, and returned by multiple patrons during overlapping or identical time periods.
-.. Is Deposit Required
-.. Deposit Amount
-.. User Fee
-
+* Owning Library - The home library of the resource.
+* Resource Type - Type in the first letter of the resource type's name to list then select the resource type for your item.
+* Barcode - Barcode for the resource.
+* Overbook - This allows a single item to be reserved, picked up, and returned by multiple patrons during overlapping or identical time periods.
+* Is Deposit Required
+* Deposit Amount
+* User Fee
++
 . Click *Save*.
 
 
@@ -134,10 +135,10 @@ image::images/booking/booking-create-attrmap-1.png[]
 +
 image::images/booking/booking-create-attrmap-2.png[]
 +
-.. Resource - Enter the barcode of your resource.
-.. Resource Attribute - Select an attribute that belongs to the Resource Type.
-.. Attribute Value - Select a value that belongs to your chosen attribute and describes your resource. If your attribute and value do not belong together you will be unable to save.
-
+* Resource - Enter the barcode of your resource.
+* Resource Attribute - Select an attribute that belongs to the Resource Type.
+* Attribute Value - Select a value that belongs to your chosen attribute and describes your resource. If your attribute and value do not belong together you will be unable to save.
++
 . Click *Save*.
 
 [NOTE]
