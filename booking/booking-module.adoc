@@ -90,7 +90,7 @@ Search the catalogue to create a reservation
 
 If you would like to reserve a catalogued item but do not know the item barcode, you may start with a catalogue search.
 
-. In the staff client, select *Cataloguing* -> *Search the Catalogue* or keyboard shortcut F3 to search for the item you wish to reserve. You may search by any bibliographic information.
+. In the staff client, click *Cataloguing* -> *Search the Catalogue*. You may search by any bibliographic information.
 
 . Click the title to display the record summary. Click *Holdings View* -> select Copy -> click *Actions* -> *Book Item Now*.
 +
@@ -116,13 +116,13 @@ Reservation Pull List
 
 Reservation pull list can be generated dynamically on the Staff Client.
 
-. To create a pull list, select Booking -> Pull List.
+. To create a pull list, click *Booking* -> *Pull List*.
 +
 image::images/booking/booking-pull-1.png[]
 +
 . You can decide how many days in advance you would like to pull reserved items. Enter the number of days in the box adjacent to Generate list for this many days hence. For example, if you would like to pull items that are needed today, you can enter 1 in the box, and you will retrieve items that need to be pulled today.
 
-. Click Fetch to retrieve the pull list.
+. Click *Fetch* to retrieve the pull list.
 +
 image::images/booking/booking-pull-3.png[]
 +
@@ -138,7 +138,7 @@ Reservations must be captured before they are ready to be picked up by the patro
 [CAUTION]
 Always capture reservations in Booking Module. Check In function in Circulation does not function the same as Capture Resources.
 
-. In the staff client, select Booking -> Capture Resources.
+. In the staff client, click *Booking* -> *Capture Resources*.
 +
 image::images/booking/booking-capture-1.png[]
 +
@@ -205,7 +205,7 @@ Cancel a reservation from the patron record
 
 . Retrieve the patron's record.
 
-. Select *Other* -> *Booking: Create or Cancel Reservations*.
+. Click *Other* -> *Booking: Create or Cancel Reservations*.
 +
 image::images/booking/booking-create-1.png[]
 +
@@ -226,7 +226,7 @@ image::images/booking/booking-cancel-2.png[]
 Cancel a reservation on reservation creation screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Access the reservation creation screen by selecting *Booking* -> *Create Reservations*.
+. Click *Booking* -> *Create Reservations*.
 
 . Select any Bookable Resource Type, then click *Next*.
 
