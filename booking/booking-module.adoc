@@ -21,17 +21,16 @@ image::images/booking/booking-create-2.png[]
 +
 . For non-catalogued resources, the Bookable Resource Type and the items associated with the type will appear. For catalogued items, the title and the item will display in the box.
 
-. Select the date and time for the reservation in *I need this resource...* area. Click the date field. A calendar widget will be displayed for you to choose a date. Click the time field to choose time from the dropdown list.
+. Select the date and time for the reservation in *I need this resource...* area. Click the date field. A calendar widget will be displayed for you to choose a date. Click the time field to choose time from the drop down list.
 +
 image::images/booking/booking-create-3.png[]
-
-[NOTE]
-If incorrect date and time is selected, the date/time boxes will appear in red. For example, if the time for which the reservation is set has already passed, the boxes will appear in red. There must be at least 15 minutes between the creation of the reservation and the start time of the reservation.
++
+.. If incorrect date and time is selected, the date/time boxes will appear in red. For example, if the time for which the reservation is set has already passed, the boxes will appear in red. There must be at least 15 minutes between the creation of the reservation and the start time of the reservation.
 
 . For non-catalogued resources, patrons may specify special feature(s), if any, of the resource. With these attributes: allows you to do so. For example, if a patron is booking a laptop he/she can choose a specific operating system if they need to. Click the drop down arrow to select your option from the list.
-
++
 image::images/booking/booking-create-4.png[]
-
++
 . Select the pickup location from the drop down list.
 
 . If there are multiple copies of the resource and any item listed is acceptable, click *Reserve Any*.
@@ -43,7 +42,7 @@ image::images/booking/booking-create-5.png[]
 . A message will confirm that the action succeeded. Click *OK* on the prompt.
 
 . The screen will refresh and the reservation will appear below the patron’s name at the bottom of the screen.
-
++
 image::images/booking/booking-create-6.png[]
 
 To create a reservation from a booking resource
@@ -65,13 +64,13 @@ image::images/booking/booking-create-module-2.png[]
 +
 image::images/booking/booking-create-module-3.png[]
 +
-. Select the date and time for the reservation in *I need this resource...* area. Click the date field. A calendar widget will be displayed for you to choose a date. Click the time field to choose time from the dropdown list.
+. Select the date and time for the reservation in *I need this resource...* area. Click the date field. A calendar widget will be displayed for you to choose a date. Click the time field to choose time from the drop down list.
 
 .. If incorrect date and time is selected, the date/time boxes will appear in red. For example, if the time for which the reservation is set has already passed, the boxes will appear in red. The times must be set correctly for the reservation to be created. There must be at least 15 minutes between the creation of the reservation and the start time of the reservation.
 
-. For non-catalogued resources, patrons may specify special feature(s), if any, of the resource. The With these attributes: allows you to do so. For example, if a patron is booking a laptop they can choose between PC and Mac and even choose a specific operating system if they need to. Click the dropdown arrow to select your option from the list.
+. For non-catalogued resources, patrons may specify special feature(s), if any, of the resource. The With these attributes: allows you to do so. For example, if a patron is booking a laptop they can choose between PC and Mac and even choose a specific operating system if they need to. Click the drop down arrow to select your option from the list.
 
-. Select the pickup location from the dropdown list.
+. Select the pickup location from the drop down list.
 
 . If there are multiple copies of the resource and any item listed is acceptable, click Reserve Any. To choose a specific item, select it and then click Reserve Selected.
 +
