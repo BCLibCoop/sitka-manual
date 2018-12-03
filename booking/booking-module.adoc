@@ -25,14 +25,15 @@ image::images/booking/booking-create-2.png[]
 +
 image::images/booking/booking-create-3.png[]
 +
-.. If incorrect date and time is selected, the date/time boxes will appear in red. For example, if the time for which the reservation is set has already passed, the boxes will appear in red. There must be at least 15 minutes between the creation of the reservation and the start time of the reservation.
+.. If incorrect date and time is selected, the date/time boxes will appear in red. For example, if the time for which the reservation is set has already passed, the boxes will appear in red.
+.. There must be at least 15 minutes between the creation of the reservation and the start time of the reservation.
 
 . For non-catalogued resources, patrons may specify special feature(s), if any, of the resource. Click the *With these attributes* drop down arrow to select your option from the list.
-
-.. For example, if a patron is booking a laptop they can choose a specific operating system if they need to.
 +
 image::images/booking/booking-create-4.png[]
 +
+.. For example, if a patron is booking a laptop they can choose a specific operating system if they need to.
+
 . Select the pickup location from the drop down list.
 
 . If there are multiple copies of the resource and any item listed is acceptable, click *Reserve Any*. To choose a specific item, select it and then click *Reserve Selected*.
@@ -66,7 +67,8 @@ image::images/booking/booking-create-module-3.png[]
 +
 . Select the date and time for the reservation in *I need this resource...* area. Click the date field to choose a date using the calendar widget. Click the time field to choose a time from the drop down list.
 
-.. If incorrect date and time is selected, the date/time boxes will appear in red. For example, if the time for which the reservation is set has already passed, the boxes will appear in red. The times must be set correctly for the reservation to be created. There must be at least 15 minutes between the creation of the reservation and the start time of the reservation.
+.. If incorrect date and time is selected, the date/time boxes will appear in red. For example, if the time for which the reservation is set has already passed, the boxes will appear in red. The times must be set correctly for the reservation to be created.
+.. There must be at least 15 minutes between the creation of the reservation and the start time of the reservation.
 
 . For non-catalogued resources, patrons may specify special feature(s), if any, of the resource. Click the *With these attributes* drop down arrow to select your option from the list.
 
@@ -107,7 +109,7 @@ image::images/booking/booking-catalogue-2.png[]
 . A message will confirm that the action succeeded. Click *OK* on the prompt.
 
 [NOTE]
-Reservations on catalogued items can also be created on Item Status (Scan the barcode -> *Actions* -> *Book Item Now*.
+Reservations on catalogued items can also be created on Item Status (Scan the barcode -> *Actions* -> *Book Item Now*).
 
 Reservation Pull List
 ~~~~~~~~~~~~~~~~~~~~~
@@ -151,24 +153,22 @@ Picking Up Reservations
 [CAUTION]
 Always use the dedicated Booking Module interfaces for tasks related to reservations. Items that have been captured for a reservation cannot be checked out using the Check Out interface, even if the patron is the reservation recipient.
 
-. Ready-for-pickup reservations can be listed from Other -> Booking -> Pick Up Reservations within a patron record or Booking -> Pick Up Reservations.
-
-
+. Click *Booking* -> *Pick Up Reservations*.
++
 image::images/booking/booking-pickup-1.png[]
++
+. Scan the patron barcode
 
-image::images/booking/booking-pickup-module-1.png[]
-
-
-. Scan the patron barcode if using Booking -> Pick Up Reservations.
-
-. The reservation(s) available for pickup will display. Select those you want to pick up and click Pick Up.
-
+. The reservation(s) available for pickup will display. Select those you want to pick up and click *Pick Up*.
++
 image::images/booking/booking-pickup-2.png[]
-
++
 . The screen will refresh to show that the patron has picked up the reservation(s).
-
++
 image::images/booking/booking-pickup-3.png[]
 
+[NOTE]
+Reservations can picked up from within patron records. Click *Other* -> *Booking* -> *Pick Up Reservations*.
 
 Returning Reservations
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -176,26 +176,22 @@ Returning Reservations
 [CAUTION]
 When a reserved item is brought back, staff must use the Booking Module to return the reservation.
 
-. To return reservations, select Booking -> Return Reservations
-
+. Click *Booking* -> *Return Reservations*.
++
 image::images/booking/booking-return-module-1.png[]
-
-. You can return the item by patron or item barcode. Here we choose Resource to return by item barcode. Scan or enter the barcode, and click Go.
-
++
+. You can return the item by patron or item barcode. Scan or enter the barcode, and click *Go*.
++
 image::images/booking/booking-return-module-2.png[]
-
++
 . A pop up box will tell you that the item was returned. Click OK on the prompt.
 
-. If we select Patron on the above screen, after scanning the patron's barcode, reservations currently out to that patron are displayed. Highlight the reservations you want to return, and click Return.
-
-image::images/booking/booking-return-2.png[]
-
-. The screen will refresh to show any resources that remain out and the reservations that have been returned.
-
-image::images/booking/booking-return-module-4.png[]
+. The screen will refresh to show that the patron has returned the resource.
++
+image::images/booking/booking-return-module-3.png[]
 
 [NOTE]
-Reservations can be returned from within patron records by selecting *Other* -> *Booking* -> *Return Reservations*
+Reservations can be returned from within patron records. Click *Other* -> *Booking* -> *Return Reservations*
 
 Cancelling a Reservation
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -207,7 +203,7 @@ Cancel a reservation from the patron record
 
 . Retrieve the patron's record.
 
-. Select *Other* -> *Booking* -> *Create or Cancel Reservations*.
+. Select *Other* -> *Booking: Create or Cancel Reservations*.
 +
 image::images/booking/booking-create-1.png[]
 +
@@ -216,16 +212,14 @@ image::images/booking/booking-create-1.png[]
 image::images/booking/booking-cancel-1.png[]
 +
 . Highlight the reservation that you want to cancel. Click Cancel Selected.
-
-.. Use Shift or Ctrl on keyboard and mouse click to select multiple reservations if needed.
 +
 image::images/booking/booking-cancel-2.png[]
 +
+.. Use Shift or Ctrl on keyboard and mouse click to select multiple reservations if needed.
+
 . A pop-up window will confirm the cancellation. Click OK on the prompt.
-+
+
 . The screen will refresh, and the cancelled reservation(s) will disappear.
-+
-image::images/booking/booking-cancel-4.png[]
 
 Cancel a reservation on reservation creation screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
