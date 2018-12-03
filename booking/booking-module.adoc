@@ -21,21 +21,21 @@ image::images/booking/booking-create-2.png[]
 +
 . For non-catalogued resources, the Bookable Resource Type and the items associated with the type will appear. For catalogued items, the title and the item will display in the box.
 
-. Select the date and time for the reservation in *I need this resource...* area. Click the date field. A calendar widget will be displayed for you to choose a date. Click the time field to choose time from the drop down list.
+. Select the date and time for the reservation in *I need this resource...* area. Click the date field to choose a date using the calendar widget. Click the time field to choose a time from the drop down list.
 +
 image::images/booking/booking-create-3.png[]
 +
 .. If incorrect date and time is selected, the date/time boxes will appear in red. For example, if the time for which the reservation is set has already passed, the boxes will appear in red. There must be at least 15 minutes between the creation of the reservation and the start time of the reservation.
 
-. For non-catalogued resources, patrons may specify special feature(s), if any, of the resource. With these attributes: allows you to do so. For example, if a patron is booking a laptop he/she can choose a specific operating system if they need to. Click the drop down arrow to select your option from the list.
+. For non-catalogued resources, patrons may specify special feature(s), if any, of the resource. Click the *With these attributes* drop down arrow to select your option from the list.
+
+.. For example, if a patron is booking a laptop they can choose a specific operating system if they need to.
 +
 image::images/booking/booking-create-4.png[]
 +
 . Select the pickup location from the drop down list.
 
-. If there are multiple copies of the resource and any item listed is acceptable, click *Reserve Any*.
-
-. To choose a specific item, select it and then click *Reserve Selected*.
+. If there are multiple copies of the resource and any item listed is acceptable, click *Reserve Any*. To choose a specific item, select it and then click *Reserve Selected*.
 +
 image::images/booking/booking-create-5.png[]
 +
@@ -50,11 +50,11 @@ To create a reservation from a booking resource
 
 You need to know the barcode of the patron when you create a reservation for him/her from a booking resource.
 
-. From the Booking menu, select Create Reservations
+. From the Booking menu, click *Create Reservations*.
 +
 image::images/booking/booking-create-module-1.png[]
 +
-. Choose a Bookable Resource Type and click Next or enter the barcode of a catalogued resource and click Next.
+. Choose a Bookable Resource Type and click *Next* or enter the barcode of a catalogued resource and click *Next*.
 +
 image::images/booking/booking-create-module-2.png[]
 +
@@ -64,11 +64,13 @@ image::images/booking/booking-create-module-2.png[]
 +
 image::images/booking/booking-create-module-3.png[]
 +
-. Select the date and time for the reservation in *I need this resource...* area. Click the date field. A calendar widget will be displayed for you to choose a date. Click the time field to choose time from the drop down list.
+. Select the date and time for the reservation in *I need this resource...* area. Click the date field to choose a date using the calendar widget. Click the time field to choose a time from the drop down list.
 
 .. If incorrect date and time is selected, the date/time boxes will appear in red. For example, if the time for which the reservation is set has already passed, the boxes will appear in red. The times must be set correctly for the reservation to be created. There must be at least 15 minutes between the creation of the reservation and the start time of the reservation.
 
-. For non-catalogued resources, patrons may specify special feature(s), if any, of the resource. The With these attributes: allows you to do so. For example, if a patron is booking a laptop they can choose between PC and Mac and even choose a specific operating system if they need to. Click the drop down arrow to select your option from the list.
+. For non-catalogued resources, patrons may specify special feature(s), if any, of the resource. Click the *With these attributes* drop down arrow to select your option from the list.
+
+.. For example, if a patron is booking a laptop they can choose a specific operating system if they need to.
 
 . Select the pickup location from the drop down list.
 
