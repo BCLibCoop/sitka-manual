@@ -75,7 +75,7 @@ include::reports/report-overview.adoc[]
 
 include::reports/report-folder.adoc[]
 
-include::reports/report-create-template.adoc[]
+include::reports/report-shared-template.adoc[]
 
 include::reports/report-generate-report.adoc[]
 
@@ -85,7 +85,7 @@ include::reports/report-recurring-report.adoc[]
 
 include::reports/report-edit-recurring-report.adoc[]
 
-include::reports/report-shared-template.adoc[]
+include::reports/report-create-template.adoc[]
 
 include::reports/report-eg-table.adoc[]
 
