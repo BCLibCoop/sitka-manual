@@ -186,7 +186,7 @@ image::images/booking/booking-return-module-1.png[]
 +
 image::images/booking/booking-return-module-2.png[]
 +
-. A pop up box will tell you that the item was returned. Click OK on the prompt.
+. A pop up box will tell you that the item was returned. Click *OK* on the prompt.
 
 . The screen will refresh to show that the patron has returned the resource.
 +
@@ -210,9 +210,7 @@ Cancel a reservation from the patron record
 image::images/booking/booking-create-1.png[]
 +
 . The existing reservations will appear at the bottom of the screen.
-+
-image::images/booking/booking-cancel-1.png[]
-+
+
 . Highlight the reservation that you want to cancel. Click Cancel Selected.
 +
 image::images/booking/booking-cancel-2.png[]
