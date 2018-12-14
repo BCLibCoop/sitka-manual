@@ -109,7 +109,7 @@ See also: https://docs.angularjs.org/api/ng/directive/ngIf
 Substrings
 ++++++++++
 To print just a substring of a variable, you can use a *limitTo* function:  `{{variable | limitTo:limit}}` where limit is the number of characters you want.
-|===
+|===============
 | Original                             | Code                                   | Result
 | The Sisterhood of the Traveling Pants  | `$${{checkout.title \| limitTo:10}}$$`       | The Sisterhood of th
 | 123456789                              | `$${{patron.card.barcode \| limitTo:-5}}$$`  | 56789
