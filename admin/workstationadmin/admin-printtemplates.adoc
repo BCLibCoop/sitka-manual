@@ -70,7 +70,7 @@ Due: {{checkout.circ.due_date | date:"short"}}<br/>
 
 .Text Formatting
 [options="header"]
-|===============
+|===
 | Goal      | Original   | Code                       | Result
 | Bold (HTML) | hello       | `$$<b>hello</b>$$`            | **hello**
 | Bold (CSS)  | hello      | `$$<span style="font-weight:bold;">hello</span>$$`                  | **hello**
@@ -80,7 +80,7 @@ Due: {{checkout.circ.due_date | date:"short"}}<br/>
 
 .Date Formatting
 [options="header"]
-|===============
+|===
 | Code                          | Result
 | `{{today}}`                     | 2017-08-01T14:18:51.445Z
 | `{{today \| date:'short'}}`     | 8/1/17 10:18 AM
@@ -89,10 +89,10 @@ Due: {{checkout.circ.due_date | date:"short"}}<br/>
 
 .Currency Formatting
 [options="header"]
-|===================
+|===
 | Code                                      | Result
 | `{{xact.summary.balance_owed \| currency}}` | $2.50
-|===============
+|===
 
 Conditional Formatting
 ++++++++++++++++++++++
@@ -109,11 +109,11 @@ See also: https://docs.angularjs.org/api/ng/directive/ngIf
 Substrings
 ++++++++++
 To print just a substring of a variable, you can use a *limitTo* function:  `{{variable | limitTo:limit}}` where limit is the number of characters you want.
-|===============
+|===
 | Original                             | Code                                   | Result
 | The Sisterhood of the Traveling Pants  | `$${{checkout.title \| limitTo:10}}$$`       | The Sisterhood of th
 | 123456789                              | `$${{patron.card.barcode \| limitTo:-5}}$$`  | 56789
-|===============
+|===
 
 Images
 ++++++
@@ -181,7 +181,7 @@ Receipt templates use variables for various pieces of information coming from th
 
 .Any Type of Print Template
 [options="header"]
-|==========================
+|===
 |Tag   |Notes
 |$${{current_location.name}}$$   |Current library's full name
 |$${{current_location.shortname}}$$ |Current library's short name
@@ -191,11 +191,11 @@ Receipt templates use variables for various pieces of information coming from th
 |$${{today\|date:'short'}}$$   |Readable time and date: 8/1/17 10:18 AM
 |$${{today\|date:'M/d/yyyy'}}$$   |Date only: 8/1/2017
 |$${{staff.first_given_name}}$$ |Staff first name
-|====
+|===
 
 .Bills, Current
 [options="header"]
-|==============
+|===
 |Tag  |Notes
 |$${{xact.summary.balance_owed}}$$ |Balance remaining
 |$${{xact.copy_barcode}}$$ |Barcode
@@ -209,11 +209,11 @@ Receipt templates use variables for various pieces of information coming from th
 |$${{xact.title}}$$ |Title
 |$${{xact.summary.total_owed}}$$ |Total billed
 |$${{xact.summary.total_paid}}$$ |Total paid
-|====
+|===
 
 .Bills, Historical
 [options="header"]
-|=================
+|===
 |Tag |Notes
 |$${{xact.summary.balance_owed}}$$ |Balance remaining
 |$${{xact.copy_barcode}}$$ |Barcode
@@ -230,11 +230,11 @@ Receipt templates use variables for various pieces of information coming from th
 |$${{xact.title}}$$ |Title
 |$${{xact.summary.total_owed}}$$ |Total billed
 |$${{xact.summary.total_paid}}$$ |Total paid
-|====
+|===
 
 .Bills, Payment
 [options="header"]
-|==============
+|===
 |Tag |Notes
 |$${{payment_applied}}$$ |Amount paid
 |$${{amount_voided}}$$ |Amount voided
@@ -248,20 +248,20 @@ Receipt templates use variables for various pieces of information coming from th
 |$${{payment.xact.id}}$$ |Payment ID
 |$${{payment.amount}}$$ |Payment received
 |$${{payment.xact.title}}$$ |Title
-|====
+|===
 
 .Checkin
 [options="header"]
-|=======
+|===
 |Tag |Notes
 |$${{checkin.copy_barcode}}$$ |Barcode
 |$${{checkin.call_number.label\|\|"Not Cataloged"}}$$ |Call Number (if no call number, displays ``Not Cataloged'')
 |$${{checkin.title}}$$ |Title
-|====
+|===
 
 .Checkout
 [options="header"]
-|========
+|===
 |Tag |Notes
 |$${{patron_money.balance_owed}}$$ |Amount Owed
 |$${{checkout.author}}$$ |Author
@@ -270,11 +270,11 @@ Receipt templates use variables for various pieces of information coming from th
 |$${{checkout.circ.due_date}}$$ |Due Date
 |$${{checkout.copy.price}}$$ |Price
 |$${{checkout.title}}$$ |Title
-|====
+|===
 
 .Hold Pull List
 [options="header"]
-|==============
+|===
 |Tag |Notes
 |$${{hold_data.author}}$$ |Author
 |$${{hold_data.copy.barcode}}$$ |Barcode
@@ -283,11 +283,11 @@ Receipt templates use variables for various pieces of information coming from th
 |$${{hold_data.part.label}}$$ |Part
 |$${{hold_data.copy.location.name}}$$ |Shelving location
 |$${{hold.title}}$$ |Title
-|====
+|===
 
 .Hold Shelf Slip
 [options="header"]
-|===============
+|===
 |Tag   |Notes
 |$${{call_number.label}}$$ |Call Number
 |$${{today}}$$ |Hold available date
@@ -306,11 +306,11 @@ Receipt templates use variables for various pieces of information coming from th
 |$${{patron.first_given_name}}$$ |Patron first name
 |$${{patron.family_name}}$$ |Patron last Name
 |$${{patron.second_given_name}}$$ |Patron middle name
-|===============
+|===
 
 .Hold Transit Slip
 [options="header"]
-|=================
+|===
 |Tag   |Notes
 |$${{dest_address.city}}$$ |Destination city
 |$${{dest_courier_code}}$$ |Destination courier code
@@ -332,11 +332,11 @@ Receipt templates use variables for various pieces of information coming from th
 |$${{patron.first_given_name}}$$ |Patron first name
 |$${{patron.family_name}}$$ |Patron last Name
 |$${{patron.second_given_name}}$$ |Patron middle name
-|=================
+|===
 
 .Holds for Bib Record
 [options="header"]
-|====================
+|===
 |Tag |Notes
 |$${{holds$$[0]$$.title}}$$ |Title
 |$${{hold_data.author}}$$ |Author
@@ -345,11 +345,11 @@ Receipt templates use variables for various pieces of information coming from th
 |$${{hold.patron_barcode}}$$ |Patron barcode
 |$${{hold.patron_alias}}$$ |Patron hold alias
 |$${{hold.patron_last}}$$ |Patron last name
-|====
+|===
 
 .Holds for Patron
 [options="header"]
-|================
+|===
 |Tag |Notes
 |$${{hold.author}}$$ |Author
 |$$div ng-if="hold.hold.email_notify == 't'">$$ +
@@ -360,36 +360,36 @@ $${{hold.hold.requestor.email}} /div>$$ |Notify by email +
 |$${{hold.hold.pickup_lib.name}}$$ |Pickup library
 |$${{hold.hold.request_time}}$$ |Request date
 |$${{hold.title}}$$ |Title
-|====
+|===
 
 .In-House Use List
 [options="header"]
-|=================
+|===
 |Tag |Notes
 |$${{ihu.copy.barcode}}$$ |Barcode
 |$${{ihu.num_uses}}$$ |Number of uses
-|====
+|===
 
 .Item Status
 [options="header"]
-|===========
+|===
 |Tag   |Notes
 |$${{copy.barcode}}$$ |Barcode
 |$${{copy['call_number.record.simple_record.title']}}$$ |Title
-|====
+|===
 
 .Items Out
 [options="header"]
-|=========
+|===
 |Tag |Notes
 |$${{checkout.copy.barcode}}$$ |Barcode
 |$${{checkout.circ.due_date}}$$ |Due date
 |$${{checkout.title}}$$ |Title
-|====
+|===
 
 .Patron Address
 [options="header"]
-|==============
+|===
 |Tag   |Notes
 |$${{patron.first_given_name}}$$ |Patron first name
 |$${{patron.second_given_name}}$$ |Patron middle name
@@ -399,11 +399,11 @@ $${{hold.hold.requestor.email}} /div>$$ |Notify by email +
 |$${{address.city}}$$ |City
 |$${{address.state}}$$ |State
 |$${{address.post_code}}$$ |Zip code
-|====
+|===
 
 .Patron Note
 [options="header"]
-|===========
+|===
 |Tag   |Notes
 |$${{note.value}}$$ |Note contents
 |$${{note.create_date}}$$ |Note creation date
@@ -412,31 +412,31 @@ $${{hold.hold.requestor.email}} /div>$$ |Notify by email +
 |$${{note.usr.first_name}}$$ |Patron first name
 |$${{note.usr.family_name}}$$ |Patron last name
 |$${{note.usr.second_given_name}}$$ |Patron middle name
-|====
+|===
 
 .Renew
 [options="header"]
-|=====
+|===
 |Tag |Notes
 |$${{renewal.copy.barcode}}$$ |Barcode
 |$${{renewal.circ.due_date}}$$ |Due date
 |$${{renewal.title}}$$ |Title
-|====
+|===
 
 .Transit List
 [options="header"]
-|============
+|===
 |Tag |Notes
 |$${{transit.target_copy.barcode}}$$ |Barcode
 |$${{transit.source_send_time}}$$ |Date sent
 |$${{transit.dest.shortname}}$$ |Short name of destination library
 |$${{transit.source.shortname}}$$ |Short name of sending library
 |$${{transit.target_copy.call_number.record.simple_record.title}}$$ |Title
-|===========
+|===
 
 .Transit Slip
 [options="header"]
-|============
+|===
 |Tag   |Notes
 |$${{dest_address.city}}$$ |Destination city
 |$${{dest_courier_code}}$$ |Destination courier code
@@ -449,4 +449,4 @@ $${{hold.hold.requestor.email}} /div>$$ |Notify by email +
 |$${{author}}$$ |Item author
 |$${{copy.barcode}}$$ |Item barcode
 |$${{title}}$$ |Item title
-|===========
+|===
