@@ -113,7 +113,7 @@ To print just a substring of a variable, you can use a *limitTo* function:  `{{v
 | Original                             | Code                                   | Result
 | The Sisterhood of the Traveling Pants  | `$${{checkout.title \| limitTo:10}}$$`       | The Sisterhood of th
 | 123456789                              | `$${{patron.card.barcode \| limitTo:-5}}$$`  | 56789
-|===
+|===============
 
 Images
 ++++++
