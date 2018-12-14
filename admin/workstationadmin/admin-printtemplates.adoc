@@ -92,7 +92,7 @@ Due: {{checkout.circ.due_date | date:"short"}}<br/>
 |===================
 | Code                                      | Result
 | `{{xact.summary.balance_owed \| currency}}` | $2.50
-|===
+|===============
 
 Conditional Formatting
 ++++++++++++++++++++++
