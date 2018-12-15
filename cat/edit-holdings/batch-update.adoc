@@ -14,7 +14,6 @@ image::images/cat/copy-batch-edit-1.png[]
 
 [NOTE]
 ======
-
 . When the selected copies do not share the same value in a field, the field is empty on the Copy Editor.
 . To update all selected copies to one shared value, for example *Shelving Location*, edit that attribute in Copy Editor in first record.
 . You can select a few copies to edit, store them in the *Completed Copies* tab, then work on other copies.
