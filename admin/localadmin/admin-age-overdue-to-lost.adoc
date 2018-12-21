@@ -9,11 +9,11 @@ This feature does not support a date parameter. *ALL* overdue items by selected 
 .Age Overdue Items to Lost
 . Click *Administration* -> *Local Administration* -> *Age Overdue Circs to Lost*
 
-. Choose the *User Profile* and *Circulation Library" for the overdue circulations you wish to age to a Lost status.
+. Choose the *User Profile* and *Circulation Library* for the overdue circulations you wish to age to a Lost status.
 
 .. Note the descendants of these values (sub-groups, sub-libraries) will also be affected.
 
-. Check the *Are you Sure?* Check box.
+. Check the *Are you Sure?* check box.
 
 . Click *Queue for Aging*
 +
@@ -22,14 +22,13 @@ image::images/admin/ageoverduetolost.png[]
 . Evergreen will process the request and create action trigger events for all overdue items for the selected patron profiles at selected libraries.
 
 . You will see a _Processing Complete_ message with a count of Events created.
-
-.. The number of events created indicates the number of items which will be marked Lost.
 +
 image::images/admin/ageoverduetolost_2.png[]
-
++
+. The number of events created indicates the number of items which will be marked Lost.
 
 [NOTE]
-This feature must be turned on by Co-op Support.
+This feature must be turned on by Co-op Support. It is also possible to send an automatic email when the items are marked lost. 
 
 .Action Triggers
 * Mark Overdue Lost
