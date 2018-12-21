@@ -2,6 +2,8 @@ Local Administration
 --------------------
 include::localadmin/admin-local-overview.adoc[]
 
+include::localadmin/admin-age-overdue-to-lost.adoc[]
+
 include::localadmin/admin-cash-report.adoc[]
 
 include::localadmin/admin-circ-policy.adoc[]
@@ -12,17 +14,16 @@ include::localadmin/admin-copy.adoc[]
 
 include::localadmin/admin-group-penalty.adoc[]
 
-include::localadmin/admin-recall.adoc[]
-
 include::localadmin/admin-hold-policy.adoc[]
 
 include::localadmin/admin-lse.adoc[]
 
 include::localadmin/admin-non-catalogued-type.adoc[]
 
+include::localadmin/admin-recall.adoc[]
+
 include::localadmin/admin-stat-cat.adoc[]
 
 include::localadmin/admin-survey.adoc[]
 
 include::localadmin/admin-transit-list.adoc[]
-
