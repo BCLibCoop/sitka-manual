@@ -65,7 +65,7 @@ Staff Account Permission Groups
 Below is a general outline of staff account permission levels.  The list contains staff profiles for public libraries only. Corresponding profiles for other libraries have similar permissions. To view a detailed list of permissions for a particular Evergreen account, go to *Administration -> User Permission Editor* in the staff client.
 
 [option="header"]
-|====
+|===
 | Action	| General Staff	| Circulators	| Circ + Copy Edit	| Circ + Full Cat	| Catalogers	| Local System Administrator (LSA)
 | Basic circulation functions	| *	| *	| *	| *	| *	| *
 | CheckIn bad status overrides	| *	| *	| *	| *	| *	| *
@@ -87,7 +87,7 @@ Below is a general outline of staff account permission levels.  The list contain
 | Process offline transactions	 |	 |	 |	| 	 |	| *
 | Transit	| *	| *	| *	| *	| *	| *
 | Abort remote transit	 |	 |	| *	| *	| *	| *
-|====
+|===
 
 NOTE: Only users with reporting permissions (granted by Sitka Support on libraries' request) can access the Reports interface, but the output can be visible to all staff accounts. Any staff requesting reporting permissions must sign and submit the Reporter Privacy Agreement see https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[Reporter Privacy Waiver].
 
@@ -103,7 +103,7 @@ A Local System Administrator (LSA) may selectively grant its permissions to othe
 image::images/admin/staff-account-2.png[]
 
 [TIP]
-====
+=====
 * *Permission*: List of permission names. For help correlating permissions to specific Evergreen functions please contact Co-op support.
 * *Applied*: If checked the permission is granted to this account.
 * *Depth*:  limits application to the staff member's library and should be left at the default. Evergreen blocks attempts to set Federation- or Sitka-wide privileges.
