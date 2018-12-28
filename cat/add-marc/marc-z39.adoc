@@ -1,5 +1,5 @@
 Importing Bibliographic Records via Z39.50 Interface
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 https://www.youtube.com/watch?v=nkjOfMfUyFc[Sitka Training Video - Z39.50 (5:20)]
 
@@ -8,7 +8,7 @@ It is required practice and Sitka policy to check the Evergreen database for exi
 
 [[import_from_z39]]
 Importing Bibliographic Records via Z39.50
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . To access the Z39.50 interface, select *Cataloguing -> Import Record from Z39.50*.
 +
@@ -83,7 +83,7 @@ Overlay target remains even after you log out of Evergreen. After you re-log in,
 
 
 Overlaying Using Z39.50
-++++++++++++++++++++++++
++++++++++++++++++++++++
 
 . To overlay a record, go to *Cataloguing -> Import Record from Z39.50* to find a target record as described in xref:import_from_z39[]. This record should be a fuller and better catalogued record than the one you are overlaying. You can select potential records on the list based on the summary. Click on *View MARC* to see the full MARC record. Cancel the pop-up window, click on next record to view, or click *Overlay* once deciding on a record to import.
 +
