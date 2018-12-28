@@ -4,7 +4,7 @@ Deleting Holdings
 When adding items to the catalogue, you need to have a bibliographic record first, then you create a volume and a copy record. When you delete holdings you follow the reverse order. You need to delete copy records first. By design and Sitka's configuration, Evergreen will also attempt to delete the volume and bibliographic record. These records will be deleted if they are not used by other copies/volumes. If you delete your library's last copy, the volume record will be deleted together with the copy. If this is also the last copy for the title (no other libraries have a copy), the bibliographic record will be deleted, too. So, for most cases, you just need to delete the copy records. . If possible, Evergreen will delete the volume and bibliographic records automatically. Occasionally you may want to delete an "orphan" volume (without any copy) or bibliographic (without any volume) record.
 
 Deleting Copies
-^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
 
 *Deleting Copies on Item Status Screen*
 
@@ -40,12 +40,12 @@ If your items are in a copy bucket, you can delete them from there.
 image::images/cat/delete-holding-4.png[]
 
 Deleting Volumes without Copies Attached
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Occasionally you may want to delete a volume record without copies attached to it. For example, you created a volume record, but did not add a copy to it. To delete it, you need to find the title. Go to Holdings View. Highlight the "orphan" volume record, select *Actions -> Delete -> Empty Volumes*. If this is the last volume, the bibliographic record will be deleted, too.
 
 Deleting Bibliographic Record without Volume/Copy Attached
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You may have created/imported a MARC record, but did not use it for your copy. In such a scenario you should delete the record. Find the title on the catalogue, go to *MARC Edit*, click *Delete*. You are prompted to confirm the deletion. Once done, the record will be deleted.
 
