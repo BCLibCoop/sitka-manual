@@ -1,7 +1,7 @@
 [[template_terminology]]
 
 Template Terminology: Data Types, Transforms, and Operators
-------------------------------------------------------------
+-----------------------------------------------------------
 
 Data Types
 ~~~~~~~~~~
@@ -15,7 +15,7 @@ handles the information differently based on the data type. Each data type has i
 uses:
 
 [options="header"]
-|=============
+|===
 |Data Type |Description    |Notes
 |Boolean    |Contains either "true" or "false".    |Examples in Evergreen: "deleted" in item/patron record, "circulate?" in item record.
 |ID    |Unique number assigned by the database to identify a record    |IDs look like numbers, but the id data type is treated specially by the software for determining how tables are linked. Id is a good candidate field for counting records.
@@ -26,7 +26,7 @@ uses:
 |Org_unit    |Organizational unit. It is a number. It acts like link data type.    |In Evergreen, libraries are organizational units. In Sitka context they are organized into a tree structure with consortium, library federations, libraries/library systems and branches for library systems. To filter on a library, make sure you choose the field having org_unit data type. To display a library, it is a better option to drill down to the org unit record to display the "name" of it.
 |Text    |Text field. Usually it takes whatever is typed into the field.    |Examples: "call number label" in call number record, "patron's names".
 |Timestamp    |A very detailed time such as 2018-11-25 17:54:26-07    |Example: checkout time in circulation record, last status date in item record.
-|=============
+|===
 
 Evergreen uses icons to indicate data type on the report interface.
 
