@@ -53,14 +53,14 @@ image::images/cat/copy-alert-3.png[]
 +
 image::images/cat/copy-alert-4.png[]
 
-
-
- . To delete a note, open the copy record and select the *Deleted?* check box. Click *OK*, then *Save & Exit*.
+. To delete a note, open the copy record and select the *Deleted?* check box. Click *OK*, then *Save & Exit*.
 +
 image::images/cat/copy-alert-5.png[]
 
-NOTE: Notes can not be edited. There can be multiple notes for one copy record.
-
+[NOTE]
+=====
+Notes can not be edited. There can be multiple notes for one copy record.
+=====
 
 Copy Tag
 ^^^^^^^^
