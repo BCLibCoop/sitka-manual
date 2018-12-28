@@ -59,4 +59,4 @@ image::images/cat/copy-template-7.png[]
 [TIP]
 =====
 When importing copy templates, existing templates will be kept, and new ones  added. Templates sharing the same name will be overlaid by the new templates.
-====
+=====
