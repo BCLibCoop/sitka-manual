@@ -1,5 +1,5 @@
 Merging Bibliographic Records
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 https://goo.gl/91kp4e[Sitka Training Video - Merge Duplicate Bibliographic Records (7:31)]
 
@@ -35,7 +35,7 @@ image::images/cat/merge-4.png[]
 
 
 [NOTE]
-======
+=====
 While you can edit volumes and/or copies from merge screen, Co-op Support recommends you focus on bibliographic records on merge screen. After the merging is done, you can edit your volume/copy on Holdings View.
 =====
 
@@ -44,9 +44,9 @@ While you can edit volumes and/or copies from merge screen, Co-op Support recomm
 Merging time and target record is displayed when the merged non-lead records are retrieved.
 
 image::images/cat/merge-5.png[]
-=======
+=====
 
 [CAUTION]
 =========
 Deleted records remain in a Record Bucket. We suggest you merge records right after you add them to the bucket. If you merge them later, good practice is to check the records again before merging to avoid merging them into a deleted record. Right now, deleted records are not indicated on merge screen.
-==========
+=========
