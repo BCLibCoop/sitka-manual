@@ -1,5 +1,5 @@
-Record Bucket
--------------
+Record Buckets
+--------------
 
 Record buckets allow you to build a list of titles that you may process in batch. It is also the interface for merging records. Records, even after being deleted, remain in a bucket until they are removed from it.
 
@@ -7,7 +7,7 @@ We will demonstrate how to create and manage bibliographic record buckets.  It i
 
 [[create-record-bucket]]
 Creating Record Buckets
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
 
 There are two ways to create a record bucket. You can either create a bucket first, without accessing any records, or you can access a record and choose to create the bucket from that view. We will demonstrate both methods here.
 
@@ -51,7 +51,7 @@ image::images/cat/record-bucket-6.png[]
 
 [[add-record-to-bucket]]
 Adding Records to a Record Bucket
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can add records to a bucket in a few places.
 
@@ -109,7 +109,7 @@ image::images/cat/record-bucket-11.png[]
 
 [[work-with-records-in-bucket]]
 Working with Records in a Record Bucket
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can apply the following functions to selected records in a bucket.
 
