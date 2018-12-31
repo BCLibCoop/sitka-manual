@@ -141,7 +141,9 @@ include::admin/admin-staff-account.adoc[]
 
 include::admin/admin-notice.adoc[]
 
+////
 include::admin/admin-opac-station.adoc[]
+////
 
 include::admin/admin-system-requirement.adoc[]
 
