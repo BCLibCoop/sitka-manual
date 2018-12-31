@@ -35,11 +35,12 @@ NOTE: Text in the Label prefix and Label suffix fields will automatically be add
 TIP: Whether an item can be circulated, is holdable, or visible on the OPAC, is controlled by three factors: item status, shelving location, and item attributes (the options in the Copy Editor). Evergreen follows the aforementioned sequence to check the value of each factor until it encounters a NO. An item can be circulated, holdable or visible on OPAC when all three factors are set to YES.
 
 
+////
 Copy Location Group
 ~~~~~~~~~~~~~~~~~~~~
 
 anchor:copy-location-group[Copy Location Group]
-
+////
 
 
 
@@ -56,6 +57,8 @@ Copy Tag
 ~~~~~~~~
 
 anchor:copy-tag[Copy Tag]
+
+Copy tags are not currently used.
 
 ////
 Libraries may add searchable copy tags to *Digital Bookplate*. Go to *Administration -> Local Administration -> Copy Tag*. Click *New Record* to add new tags. Select *Digital Bookplate* from the Copy Tag Type dropdown list. Type in a label and value, if needed. Select *Is OPAC Visible?* checkbox if you wish the tag to show up on OPAC, Choose your library from the Owner dropdown list. Click *Save*.
