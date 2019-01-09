@@ -19,7 +19,7 @@ This feature does not support a date parameter. *ALL* overdue items by selected 
 +
 image::images/admin/ageoverduetolost.png[]
 +
-. Evergreen will process the request and create action trigger events for all overdue items for the selected patron profiles at selected libraries.
+. Evergreen will process the request and create action trigger events for all overdue items for the selected patron profiles at the selected libraries.
 
 . You will see a _Processing Complete_ message with a count of Events created.
 +
