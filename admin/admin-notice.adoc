@@ -65,13 +65,20 @@ The 1 and 2 weeks overdue notices are sent to patrons without email address only
 +
 This wording of the paper notices is customizable by library. PDF notices are set up by Co-op Support, and cannot be modified in the staff client. Please submit required revisions to Co-op Support.
 
-CAUTION: A final notice which includes billing information can be set to coincide with the system automatically marking long overdue items to lost. See xref:_final_notices[] for information on setting up this notice
+CAUTION: A final notice which includes billing information can be set to coincide with the system 
+automatically marking long overdue items to lost. See xref:_final_notices[] for information on setting 
+up this notice
 
 
 Overdue Notice by Phone
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can set up a recurring report to generate a list of overdues for all patrons, or for those without an email address only. Then you can phone each person individually. You can specify an email address to receive an email reminder each time a list is generated. There are shared templates for overdue reports in the *SITKA_templates -> Circulation* folder. See Chapter 33, Shared Templates in SITKA_templates for more about using shared templates. Co-op Support staff will be very happy to assist if you need help in this process.
+You can set up a recurring report to generate a list of overdues for all patrons, or 
+for those without an email address only. Then you can phone each person individually. 
+You can specify an email address to receive an email reminder each time a list is generated. 
+There are shared templates for overdue reports in the *SITKA_templates -> Circulation* folder. 
+See xref:_shared_sitka_templates[] for more about using shared templates. Co-op 
+Support staff will be very happy to assist if you need help in this process.
 
 Final Notices
 ~~~~~~~~~~~~~
