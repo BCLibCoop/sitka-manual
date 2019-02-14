@@ -118,7 +118,12 @@ To print just a substring of a variable, you can use a *limitTo* function:  `{{v
 Images
 ++++++
 You can use HTML and CSS to add an image to your print template if you
-have the image uploaded onto a publicly available web server.
+have the image uploaded onto a publicly available web server.  The logo image from your Evergreen public 
+catalogue can be used for this.
+
+----
+<img src="https://LIBRARYCODE.PROVINCE.catalogue.libraries.coop/eg/opac/images/small_logo.png" style="width:150px;padding:5px;">
+----
 
 Sort Order
 ++++++++++
