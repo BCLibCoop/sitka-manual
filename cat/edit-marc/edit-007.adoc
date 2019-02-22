@@ -30,9 +30,9 @@ As the user navigates through the wizard, each position will display its corresp
 The first value defines the *Category of Material*. The choices within the remaining character positions will be appropriate for the Category of Material selected.
 
 . Select the Category of Material for the given record by choosing an option from the *Category of Material?* drop down menu.
-
++
 . Once the Category of Material is selected, click *Next*.
-
++
 . Evergreen will display the result of each selection in the preview above. The affected character will be in red.
 +
 image::images/cat/pcw-3.png[]
