@@ -30,21 +30,21 @@ As the user navigates through the wizard, each position will display its corresp
 The first value defines the *Category of Material*. The choices within the remaining character positions will be appropriate for the Category of Material selected.
 
 . Select the Category of Material for the given record by choosing an option from the *Category of Material?* drop down menu.
-+
+
 . Once the Category of Material is selected, click *Next*.
-+
+
 . Evergreen will display the result of each selection in the preview above. The affected character will be in red.
 +
 image::images/cat/pcw-3.png[]
 +
 . By clicking either the *Previous* or *Next* buttons, the user may step forward and backward, as needed, through the various positions in the 007 field.
-+
+
 . Once the user enters all of the applicable values for the 007 field and is ready to exit the wizard, click *Save*.
 +
 image::images/cat/pcw-4.png[]
 +
-All of the values selected will be stored and displayed within the 007 field of the bibliographic record.
+. All of the values selected will be stored and displayed within the 007 field of the bibliographic record.
 +
 image::images/cat/pcw-5.png[]
 +
-Continue editing the MARC record, as needed. Once the user is finished editing the record, click *Save*.
+. Continue editing the MARC record, as needed. Once the user is finished editing the record, click *Save*.
