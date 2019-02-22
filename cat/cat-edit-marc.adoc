@@ -10,6 +10,8 @@ include::edit-marc/edit-marc.adoc[Editing MARC Records]
 
 include::edit-marc/edit-leader.adoc[Editing MARC Record Leader and Fixed Fields]
 
+include::edit-marc/edit-007.adoc[MARC 007 Field Physical Characteristics Wizard]
+
 include::edit-marc/format-filter.adoc[Format Filters and Format Icons]
 
 include::edit-marc/merge-bib.adoc[Merging Bibliographic Records]
