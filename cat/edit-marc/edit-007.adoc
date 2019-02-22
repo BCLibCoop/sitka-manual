@@ -3,9 +3,9 @@ Fixed Field 007 Physical Characteristics Wizard
 
 link:https://youtu.be/h5o8c6z5U9I[Sitka Snippet Video - Physical Characteristics Wizard (3:52)]
 
-The MARC 007 Field Physical Characteristics Wizard enables catalogers to interact with a database wizard that leads the user step-by-step through the MARC 007 field positions. The wizard displays the significance of the current position and provides drop down lists of possible values for the various components of the MARC 007 field in a more user-friendly way.
+The MARC Fixed Field 007 Physical Characteristics Wizard enables catalogers to interact with a database wizard that leads the user step-by-step through the MARC 007 field positions. The wizard displays the significance of the current position and provides drop down lists of possible values for the various components of the MARC 007 field in a more user-friendly way.
 
-*To Access the MARC 007 Field Physical Characteristics Wizard for a Record that Does Not Already Contain the 007 Field (i.e. Creating the 007 Field from Scratch):*
+*To Access the Physical Characteristics Wizard for a Record that Does Not Already Contain the 007 Field (i.e. Creating the 007 Field from Scratch):*
 
 . Within the bibliographic record that needs to be edited, select *MARC Edit*.
 
@@ -21,7 +21,7 @@ image::images/cat/pcw-1.png[]
 +
 image::images/cat/pcw-2.png[]
 +
-. The *MARC 007 Field Physical Characteristics Wizard* will open.
+. The *Physical Characteristics Wizard* will open.
 
 *Using the Physical Characteristics Wizard:*
 
