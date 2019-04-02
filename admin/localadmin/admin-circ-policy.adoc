@@ -14,8 +14,8 @@ specific levels, e.g. BFSJ instead of BC_ILC, take precedence. When in doubt, pl
 ====
 All changes to your circulation policies are made by Support.  
 
-To request a changes to your circulation policies submit a ticket to https://bc.libraries.coop/support/[Support]. 
-We recommend submitting your request at least one week before you'd like the change go into affect.
+To request changes to your circulation policies submit a ticket to https://bc.libraries.coop/support/[Support]. 
+We recommend submitting your request at least one week before you'd like the change go into effect.
 ====
 
 To view your current circulation policies run a report (reporter permissions required) or
@@ -29,30 +29,30 @@ view your policies in Evergreen (Local System Administrator permissions required
 in the box after *Context Org Unit* (i.e. Checkout Library). The initial display will show all circulation rules 
 at your library and the federation level. 
 
-** You can filter the display to show rules applied to selected materials, e.g. DVDs. Click *Filter* under 
-Context Org Unit. In the popped up window, select *Org Unit* from the first dropdown list; *Is* from the second 
-list, and your library or library system the third. Click *Add Row* to add a filter on circulation modifier. 
-Click *Apply* to limit display to rules applied to the selected circulation modifier checked out at your library.
+** You can filter the display to show policies applied to selected materials, e.g. DVDs. Click *Filter* under 
+Context Org Unit. In the popped up window, select *Org Unit* from the first drop down menu; *Is* from the second, 
+and your library or library system from the third. Click *Add Row* to add a filter on circulation modifier. 
+Click *Apply* to limit display to policies applied to the selected circulation modifier checked out at your library.
 +
 image::images/admin/circ-policy-1.png[]
 
-** The resulting screen provides a summary view of each circulation rule for your library, and more detail can be 
+** The resulting screen provides a summary view of each circulation policy for your library, and more detail can be 
 seen by clicking on the individual entries.
 
 ** Select the individual circulation policy for viewing by double-clicking on the desired row.
 +
-The circulation rules are typically attached to the Org Unit (checkout library), User Permission Group, 
-Copy Circ Library, and Circulation Modifier of the items being circulated. For example, the rule below is for 
+The circulation policies are typically attached to the Org Unit (checkout library), User Permission Group, 
+Copy Circ Library, and Circulation Modifier of the items being circulated. For example, the policy below is for 
 items with circulating library of any BC_ILC library and circulation modifier of 'bookclub' to be checked out to 
 all Public Library Patrons at BFSJ.
 +
-Each circulation rule defines the Loan Duration, Renewal, Recurring Fine, Maximum Fine, Grace Period, and whether 
-the item is allowed to circulate at all. For example, circulation items falling under the rule below would have a 
+Each circulation policy defines the Loan Duration, Renewal, Recurring Fine, Maximum Fine, Grace Period, and whether 
+the item is allowed to circulate at all. For example, circulation items falling under the policy below would have a 
 loan duration rule of "7_28_42_0", a recurring fine rule of "twentycents" per day and a maximum fine amount of 
 "tendollar".
 +
-A rule is turned off, if the *Active* box is unchecked.
+A policy is turned off if the *Active* box is unchecked.
 +
 image::images/admin/circ-policy-2.png[]
-+
-**Clicking *Save* will have no affect as only Support can make changes to circulation policies.
+
+** Clicking *Save* will have no effect as only Support can make changes to circulation policies.
