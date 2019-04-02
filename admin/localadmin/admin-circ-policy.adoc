@@ -54,5 +54,5 @@ loan duration rule of "7_28_42_0", a recurring fine rule of "twentycents" per da
 A rule is turned off, if the *Active* box is unchecked.
 +
 image::images/admin/circ-policy-2.png[]
-
++
 **Clicking *Save* will have no affect as only Support can make changes to circulation policies.
