@@ -3,6 +3,13 @@ Circulation Policies
 
 anchor:circulation-policy[Circulation Policy]
 
+Circulation policies define the loan duration, renewals, recurring fine rate, maximum fine amount, grace period 
+and item specific limits for different combinations of User Permission Groups, Home Library and Circulation Modifiers 
+for items checked out at your library or library system. Other item attributes may be used for more specific rules. 
+
+There may be more than one policy applicable to certain types of materials. Generally, policies on more 
+specific levels, e.g. BFSJ instead of BC_ILC, take precedence. When in doubt, please contact Co-op support.
+
 [NOTE]
 ====
 All changes to your circulation policies are made by Support.  
@@ -49,13 +56,3 @@ A rule is turned off, if the *Active* box is unchecked.
 image::images/admin/circ-policy-2.png[]
 
 **Clicking *Save* will have no affect as only Support can make changes to circulation policies.
-
-[TIP]
-====
-* Circulation policies define the loan duration, renewals, recurring fine rate, maximum fine amount, grace period 
-and item specific limits rules for different combinations of User Permission Groups, Home Library and Circulation Modifiers 
-for items checked out at your library or library system. Other item attributes may be used for more specific rules. 
-
-* There may be more than one policies applicable to certain types of materials. Generally, policies on more 
-specific levels, e.g. BFSJ instead of BC_ILC, take precedence. When in doubt, please contact Co-op support.
-====
