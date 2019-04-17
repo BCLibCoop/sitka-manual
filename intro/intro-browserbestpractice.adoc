@@ -174,7 +174,33 @@ image::images/intro/browser1.png[]
 . Click *Clear Data*.
 . Return to https://catalogue.libraries.coop/eg/staff
 
-If you have Hatch installed, use these directions to reconnect your browser to Hatch:
+Delete the Offline Database
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you still see a blank page with the green bar across after clearing your cookies the next step is to delete
+the offline database.
+
+. Navigate to https://catalogue.libraries.coop/eg/staff
+. Click *Menu*.
++
+image::images/intro/browser1.png[]
++
+. Click *More Tools*.
+. Click *Developer Tools*.
+. Switch to the _Application tab_ (you may need to click on the double arrow so see all the tabs).
+. Expand the _Indexed DB section_.
+. Click on the *offline - https://catalogue.libraries.coop* section.
+. Click the *Delete database* button.
+. Click the *X* in the upper-right corner of the section to close the tool frame.
++
+image::images/intro/browser3.png[]
++
+
+Reconnect Hatch
+^^^^^^^^^^^^^^^
+
+If you have Hatch installed, use these directions to reconnect your browser to Hatch after clearing your cache 
+or deleting the offline database.
 
 .Reconnect your browser to Hatch
 . Log in with a Local System Administrator account.
