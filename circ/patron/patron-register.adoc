@@ -10,7 +10,7 @@ Before you register a new patron, you need to ensure the person does not have an
 
 . Select *Circulation -> Register Patron.*
 . Enter required information, based on your library guidelines. This screen can look  different depending on 
-whether you're showing Required Fields, Suggested Fields, or All Fields.  See xref:_library_settings_editor to 
+whether you're showing Required Fields, Suggested Fields, or All Fields.  See xref:_library_settings_editor[Library Settings Editor] to 
 adjust which fields display for the different options.
 . Click *Save* at top-right of screen.
 +
