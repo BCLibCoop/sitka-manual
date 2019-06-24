@@ -194,7 +194,7 @@ image::images/intro/browser1.png[]
 . Click the *X* in the upper-right corner of the section to close the tool frame.
 +
 image::images/intro/browser3.png[]
-+
+
 
 Reconnect Hatch
 ^^^^^^^^^^^^^^^
@@ -202,7 +202,7 @@ Reconnect Hatch
 If you have Hatch installed, use these directions to reconnect your browser to Hatch after clearing your cache 
 or deleting the offline database.
 
-.Reconnect your browser to Hatch
+. Reconnect your browser to Hatch
 . Log in with a Local System Administrator account.
 . Register workstation and click *Use Now* to log in again.
 . Navigate to *Administration* -> *Workstation* -> *Print/Storage Service ("Hatch")*.
