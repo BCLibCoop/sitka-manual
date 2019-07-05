@@ -47,12 +47,18 @@ image:images/circ/checkout4.png[scaledwidth="75%"]
 
 Due Dates
 ^^^^^^^^^
+(((Check Out, Due Date Time)))
 
-Due dates based on your circulation policies are calculated automatically at *Check Out*. Use *Date Options* to override default due dates. Choose to use a specific due date per session, or continuously until log-out.
+Due dates based on your circulation policies are calculated automatically at *Check Out*. 
+Use *Date Options* to override the default due dates. You can choose to use a specific due date 
+per session or continuously until log-out.
+
 
 . Before you scan the item, click the drop down arrow in *Date Options*.
 . Select  *Specific Due Date* or *Use Specific Due Date Until Logout*.
-. Use calendar widget or enter date.
-. Scan item barcode.
+. Use the calendar widget or enter a date.  
+.. For hourly loans use the time picker to select the due date time.  (Daily loans always have 
+11:59pm/23:59pm as the due date time regardless of what is selected for due date time.)
+. Scan the item barcode.
 +
 image:images/circ/checkout5.png[scaledwidth="75%"]
