@@ -7,16 +7,33 @@ Checked-out items can be renewed if your library's policy allows it. The new due
 
 Renewal
 ^^^^^^^
-. Click *Items Out* tab in patron account.
+. Click the *Items Out* tab in the patron account.
 . Select the items and click *Actions*.
 . Select, *Renew*, *Renew All*, or *Renew With Specific Due Date*.
 +
 image:images/circ/renew1.png[scaledwidth="75%"]
 
-
 TIP: You can also renew items on the *Item Status* screen.
+
+NOTE: It is not currently possible to select a specific due date time when renewing hourly loans with 
+*Renew With Specific Due Date*.  For now the *Edit Due Date* function should be used if a specific time
+is required.
 
 Edit Due Date
 ^^^^^^^^^^^^^
+(((Due Date, Edit)))
 
-NOTE: *Edit Due Date* changes the due date in the existing circulation record without reducing remaining renewals, or creating a new circulation record. It does not generate new circulation statistics, and no new notices are generated. For example, editing the due date will not generate a new pre-due notice near the new due date. Co-op Support strongly recommends you use *Renew With Specific Due Date* rather than manually edit a due date.
+
+. Click the *Items Out* tab in the patron account.
+. Select the items and click *Actions*.
+. Select, *Edit Due Date*.
+. Select the new due date and due date time (if working with hourly loans).
++
+image:images/circ/renew2.png[scaledwidth="75%"]
+
+NOTE: *Edit Due Date* changes the due date in the existing circulation record without reducing 
+remaining renewals, or creating a new circulation record. It does not generate new 
+circulation statistics, and no new notices are generated. For example, editing the due date 
+will not generate a new pre-due notice near the new due date. Co-op Support strongly recommends 
+you use *Renew With Specific Due Date* rather than manually edit a due date unless you are working with
+hourly loans.
