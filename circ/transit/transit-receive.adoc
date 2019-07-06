@@ -2,6 +2,7 @@ Receive In Transit Items
 ~~~~~~~~~~~~~~~~~~~~~~~~
 (((Receive Transit)))
 (((In Transit, Check In)))
+(((Check In, In Transit)))
 
 * All items received from other branches or Sitka libraries must be checked in. Checking in updates an in transit item's status and its location.
 * If it is your item coming back, its status changes to *Reshelving*, and its location is updated.
