@@ -1,10 +1,5 @@
 Sitka's Evergreen Documentation
 ===============================
-:doctype: book
-:toc:
-:toclevels: 3
-:numbered:
-
 *Evergreen 3.1*
 
 Copyright (symbol) 2018 BC Libraries Cooperative
@@ -13,6 +8,13 @@ Last Updated May 17, 2018
 
 
 testtest
+
+:doctype: book
+:toc:
+:toclevels: 3
+:numbered:
+
+
 
 Introduction
 ============
