@@ -1,15 +1,11 @@
 Sitka's Evergreen Documentation
 ===============================
-
+:doctype: book
 Search Document
 ~~~~~~~~~~~~~~~~
 
-
-
 <script async src="https://cse.google.com/cse.js?cx=004118323935733566362:uoicxmjem6w"></script>
 <div class="gcse-search"></div>
-
-
 
 
 *Evergreen 3.1*
@@ -21,7 +17,7 @@ Last Updated May 17, 2018
 
 testtest
 
-:doctype: book
+
 :toc:
 :toclevels: 3
 :numbered:
