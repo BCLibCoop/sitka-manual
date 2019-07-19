@@ -4,9 +4,7 @@ Sitka's Evergreen Documentation
 Search Document
 ~~~~~~~~~~~~~~~~
 
-<script async src="https://cse.google.com/cse.js?cx=004118323935733566362:uoicxmjem6w"></script>
-<div class="gcse-search"></div>
-
+include:: gcs.html[]
 
 *Evergreen 3.1*
 
