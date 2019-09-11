@@ -6,11 +6,11 @@ include::gcs.html[]
 
 include::googlef565b0146b6f0831.html[]
 
-*Evergreen 3.1*
+*Evergreen 3.3*
 
 Copyright (symbol) 2018 BC Libraries Cooperative
 
-Last Updated May 17, 2018
+Last Updated October 15, 2019
 
 
 :toc:
@@ -21,11 +21,11 @@ Last Updated May 17, 2018
 
 Introduction
 ============
-include::intro/intro-whatsnew.adoc[New Features in Evergreen Version 3.1]
+include::intro/intro-whatsnew.adoc[New Features in Evergreen Version 3.3]
 
-//include::intro/intro-newbehaviour.adoc[New Behaviour in Evergreen Version 3.1]
+//include::intro/intro-newbehaviour.adoc[New Behaviour in Evergreen Version 3.3]
 
-include::intro/intro-revisions.adoc[Revisions to Version 3.1 and Attributions to Contributors]
+include::intro/intro-revisions.adoc[Revisions to Version 3.3 and Attributions to Contributors]
 
 include::intro/intro-resources.adoc[Sitka and Evergreen Resources]
 

@@ -1,188 +1,26 @@
-New Features in Evergreen Version 3.1
+New Features in Evergreen Version 3.3
 -------------------------------------
 
-link:https://youtu.be/QPKQm5HHjWA[*Sitka's Evergreen 3.1 - New Features (15:43)*]
-
-New Staff Client on Web Browser
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* Sitka's new Evergreen web client is accessed, in the internet browser Chrome, at *https://catalogue.libraries.coop/eg/staff/login*. It is only supported in Chrome. You must use Chrome to login to Evergreen.
-+
-* Workstations have to be registered the first time you access the new staff URL, and you must be an Evergreen Local System Administrator (LSA) to register workstations. All existing staff logins will work once a workstation is registered.
-+
-* Though the new web client looks and functions similar to the old staff client, you will experience differences when navigating on it. Please refer to xref:_getting_started[] and xref:configure-browser[] for details.
-+
-* The new web client is responsive to device and to screen size, and can look different on different devices.
+link:https://youtu.be/QPKQm5HHjWA[*Sitka's Evergreen 3.3 - New Features (00:00)*]
 
 
 Circulation
 ~~~~~~~~~~~
 
-Email Checkout Receipts
-^^^^^^^^^^^^^^^^^^^^^^^
-
-This feature allows patrons to receive checkout receipts through email at the circulation desk and in the Evergreen self-checkout interface. Patrons need to opt in to receive email receipts by default, and must have an email address in their account. Opt in can be staff mediated at the time of account creation or in existing accounts. Patrons can also opt in directly in their OPAC account. This feature does not affect the behavior of checkouts from SIP2 devices.
-
-Allow Others to Use My Account in Patron Summary
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Allow Others to Use My Account information is displayed in patron summary area.
-
-Batch Editing Patrons
-^^^^^^^^^^^^^^^^^^^^^
-
-User Buckets allow staff to make batch modifications to user accounts in Evergreen.
-
-Clickable Patron Email Address
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Patron's email address is a mailto link in the profile, so it can be clicked to send an email to the patron.
-
-
-New Notice Columns in Items Out Screen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Two new columns indicating the number of circulation notifications generated for a given loan and the date of the most recent notification are added to Items Out screen in patron record. These columns will allow circulation staff to better respond to patron questions about whether they were sent a notification about an overdue item.
-
-A new library setting, "Exclude Courtesy Notices from Patrons Itemsout Notices Count", is added to allow libraries to choose whether to exclude courtesy notices in these fields.
-
-
-Honour Time Zone of the Acting Library
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Display day-granular due dates in the circulating library's time zone, which means libraries in non-Pacific time zone will see due date ending at 23:59PM.
-
-A whole day (or days) of the client time is (are) marked closed when marking a single or multiple dates closed on Closed Dates Editor. Libraries in non-Pacific time zone no longer need to adjust computer time to server time zone. Time portion is no longer displayed for such closed dates.
-
-Scope Holds by Pickup Library on View Holds
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Staff can choose to view holds picked up at all branches of a library system, or all libraries in a federation. Previously staff could only choose to view holds picked up at a selected library/branch or all Sitka libraries.
-
-Option to Suspend Holds at the Time They are Placed
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Users now have the option to suspend a hold at the same time they place the hold. The Place Hold screen has a checkbox that can be enabled for users who want to suspend a hold at the time it is placed. There is also an option to set the activation date at the same time. This option is also available when placing holds on a batch of titles from My List and will apply to all the titles in the batch.
-
-
-Patron Search from Place Hold
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-There is a Patron Search link for staff to retrieve patrons via names and other information,  rather than relying on barcode alone, on the Place Hold screen in the catalogue.
-
-
-Place Multiple Holds at Once
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Staff can place multiple title/metarecord holds at once. This feature is especially beneficial for book clubs and reading groups, which need to place holds on multiple copies of a title.
-
-In order to use the feature, libraries need to set up a new library setting: Maximum number of duplicate holds allowed to a number higher than 1.
-
-When placing a title or a metarecord hold, a *Number of copies* field will display. This field is not available when placing volume or copy holds.
-
-This feature does not change the way in which the system fills holds. The multiple holds will fill in the same way that they would if the user had placed multiple holds separately.
-
-Alternate Patron Hold Pickup
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-When an on-hold item is being checked out to another patron, not the requester, there is a new checkbox in the prompt allowing staff to cancel the hold during the check out. If the borrower is picking up the item on behalf of the requester, you can select the checkbox to cancel the hold. However, such cancelled holds are not counted as fulfilled. If you track fulfilled holds statistics, Co-op Support suggests you check out the item to the requester only.
-
-There is a new library setting, Clear Hold When Other Patron Checks Out Item,  to allow libraries to choose whether the cancel hold checkbox is selected by default.
-
-
-Retrieve Recent Patrons
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-Libraries may choose to allow staff to retrieve a few recently accessed patron accounts. To do so, libraries need to set up a new library setting, Number of Retrievable Recent Patrons. Once done, an entry called "Retrieve Recent Patrons" will show up on the Circulation menu.
-
-
-Patron Search by Birth Date
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Now you can include the patron birth year and/or birth month and/or birth day when searching for patrons.
-
-Day and month values are exact matches. E.g. month "1" (or "01") matches January, "12" matches December. Year searches are "contains" searches, i.e. year "15" matches 2015, 1915, 1599, etc. For exact matches use the full 4-digit year.
-
-Copy Alerts and Suppression of Copy Alerts
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Copy alerts can be added via the volume/copy creator and the check in, check out, and renew pages. Copy alerts can also be managed at the item status page.
-
-Copy Alerts types are added to allow library staff to add alerts appearing when a specific event takes place, such as when the copy is checked in, checked out, or renewed.
-
-Libraries may choose to suppress certain types of copy alerts via the Copy Alert Suppression page under Local Administration.
-
-
-Patron Billing Statement on Full Details
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-A patron billing statement, which summarizes a patron's bills, credits and payments, is added to Full Details screen. There are two tabs on the screen: Statement and Details.
-
-
-Enhanced Billing Timestamp
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-More timestamps are added to billing records indicating the create date,  a fine period start, and a fine period end.
 
 Cataloguing
 ~~~~~~~~~~~
 
 
-* Enhancement to allow a merge profile to be applied on merging bibliographic records in Record Buckets, and overlaying records via Z35.50.
-+
-* Big interface and function changes on Holdings View, which requires new workflow. Please read the cataloguing document at xref:add_holdings[] and xref:_maintaining_holdings[]  before you attempt to catalogue new items.
-+
-* Change in label printing. Refer to xref:spine-label[].
-
 
 Catalogue
 ~~~~~~~~~~
-
-Copy Location Filter Displays for System Level Searches
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-The Shelving Location filter now displays on the advanced search page when a search is scoped to a library system, not just to an individual branch. If a library system is selected as the Search Library, the shelving location limiter will display any shelving location that is owned by the selected system or by the consortium. It will NOT display shelving locations owned by child branches.
-
-Search Term Highlighting
-^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Evergreen now highlights search terms on the public catalogue's main search results page, the record detail page, and intermediate pages such as metarecord grouped results page. Highlighting search terms will help the user determine why a particular record (or set of records) was retrieved.
-
-
-Clickable Copy Locations
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-You may add a URL to a shelving location on Copy Locations Editor. The shelving location will display as a link in the public catalogue summary display. This link can be useful for retrieving maps or other directions to the copy location to aid users in finding material.
-
-
-Multilingual Search
-^^^^^^^^^^^^^^^^^^^^
-
-Search for multilingual materials is possible now by combining language attributes, e.g. keyword: piano item_lang(eng) item_lang(ita). Attribute values are from tag 008 and 041.
-
-NOTE: This is different from selecting multiple entries in the Language filter on Advanced Search, which searches for materials in any of the selected languages.
 
 
 Serials
 ~~~~~~~
 
-Web Client Serials Module
-^^^^^^^^^^^^^^^^^^^^^^^^^
-The web client serials module has a new unified interface that combines ideas from both the serial control view and alternate serials control view from the old staff client.
 
-In addition to carrying over functionality that was available in the old staff client, several new features are included:
-
-* A more streamlined interface for managing subscriptions, distributions, and streams
-* A new *Serials Administration* page where prediction pattern and serial copy templates can be managed.
-* Prediction pattern codes can be saved as templates.
-* The new serials interfaces can be accessed from the record details page via a Serials drop-down button.
 
 Reports
 ~~~~~~~
-
-Report Template Searching
-^^^^^^^^^^^^^^^^^^^^^^^^^
-
-A new form appears along the top of the reports interface for searching report templates. Once found, typical template actions (e.g. clone or create new report) are available from within the results interface.
-
-Searches may be performed across selected folders or all folders owned by or shared with the logged in user.
