@@ -13,7 +13,7 @@ Importing Bibliographic Records via Z39.50
 . To access the Z39.50 interface, select *Cataloguing -> Import Record from Z39.50*.
 +
 image::images/cat/z39-1.png[]
-. Select single or multiple pre-configured Z39.50 targets from the list. Note that most free targets do not have a User name or Password field. Some free targets and the subscription services held by some Sitka libraries require login. Once you have made your choices, click *Save as Default* to save the services you usually search and the user names and passwords you have entered. They will be automatically selected the next time you open the Z39.50 screen.
+. Select single or multiple pre-configured Z39.50 targets from the list. Note that most free targets do not have a User name or Password field. Some free targets and the subscription services held by some Sitka libraries require login. Once you have made your choices, click *Save as Default* to save the services you usually search and the user names and passwords you have entered. They will be automatically selected next time you open the Z39.50 screen.
 +
 image::images/cat/z39-2.png[]
 +
@@ -35,7 +35,11 @@ image::images/cat/z39-6.png[]
 +
 image::images/cat/z39-7.png[]
 +
-. The Import Record window remains open. You can continue to edit the record. . Click *Save* once done editing.
+. Confirmation pops up with options to *Go to record* or *Go back* to the import record window. 
++
+image::images/cat/z39-7a.png[]
++
+. Choose *Go back* to Import Record window. You can continue to edit the record. . Click *Save* once done editing.
 . Click  *Go to Imported Record* to add holdings.
 +
 image::images/cat/z39-8.png[]
@@ -48,7 +52,7 @@ image::images/cat/z39-9.png[]
 
 [TIP]
 ====
-Sitka Support has profiled certain fields, primarily 9xx fields, to be automatically stripped when records are imported through Z39.50. The default fields that are stripped are 906, 923, 925, 936, 948, 955, 959, 963.
+Co-op Support has profiled certain fields, primarily 9xx fields, to be automatically stripped when records are imported through Z39.50. The default fields that are stripped are 906, 923, 925, 936, 948, 955, 959, 963.
 ====
 
 Overlaying Records via Z39.50 Interface
@@ -72,7 +76,7 @@ You must first identify the MARC record which you wish to  overlay. You do this 
 +
 image:images/cat/z39-10.png[]
 +
-. Confirmation appears at the bottom right of the screen.
+. Confirmation appears at the right bottom corner of the screen.
 +
 image:images/cat/z39-11.png[]
 
@@ -89,18 +93,18 @@ Overlaying Using Z39.50
 +
 image::images/cat/z39-12.png[]
 +
-. The overlay interface pops up in a new window. The default merge profile is Merge Using INCOMING Record, unless you chose another before. You can edit the Z39.50 record before importing it to overlay. Click *Edit Z39.50 Record*.
+. The overlay interface pops up in a new window. The default merge profile is Keep Local Fields, unless you chose another before. You can edit the Z39.50 record before importing it to overlay. Click *Edit Z39.50 Record*.
 +
 image::images/cat/z39-13.png[]
 +
-. MARC Edit screen opens up. Edit the record. Once done, click *Modify*, then *Use Edits*. You are back on Overlay screen.
+. MARC Edit screen opens up. Edit the record. Once done, click *Save*. You are back on Overlay screen.
 +
 image::images/cat/z39-14.png[]
 +
-. Click *Overlay* button at the bottom. You are back on Z39.50 Import interface. You can find the overlaid record based on its TCN number to continue to add holdings or further edit the MARC record.
+. Click *Overlay* button at the bottom. The record is imported and displayed in a new tab.
 
 
 [CAUTION]
 =========
-You must select *Merge Using INCOMING Record* as the merge profile. You may encounter error if you choose others.
+You must select *Keep Local Fields* as the merge profile. You may encounter error if you choose others.
 =========
