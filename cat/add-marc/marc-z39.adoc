@@ -27,11 +27,15 @@ image::images/cat/z39-4.png[]
 +
 image::images/cat/z39-5.png[]
 +
-. To import a record, choose the record from the results list that you would like to import. You should view the record first by clicking on *View MARC*.  MARC record is displayed in a pop-up window. If a cover image is available, it will display as well. When you are sure you have chosen the correct record to import, click *Import*, if you do not want to edit the record or edit it after importing. The record is imported. A pop-up window appears with the new record ID and a link to it in the catalogue. Click *Go to Record* to add holdings.
+. To import a record, choose the record from the results list that you would like to import. You should view the record first by clicking on *View MARC*.  MARC record is displayed in a pop-up window. If a cover image is available, it will display as well. Click *Cancel* to go back to the result list.
++
+image::images/cat/z39-5a.png[]
++
+. When you are sure you have chosen the correct record to import, click *Import*, if you do not want to edit the record or edit it after importing. The record is imported. A pop-up window appears with the new record ID and a link to it in the catalogue. Click *Go to Record* to add holdings.
 +
 image::images/cat/z39-6.png[]
 +
-. You can also choose to *Edit then Import* a record. The MARC record is displayed in a pop-up window. Edit the MARC record, then click on *Import*.
+. You may also choose to *Edit then Import* a record. The MARC record is displayed in a pop-up window. Edit the MARC record, then click on *Import*.
 +
 image::images/cat/z39-7.png[]
 +
@@ -44,7 +48,7 @@ image::images/cat/z39-7a.png[]
 +
 image::images/cat/z39-8.png[]
 +
-. You can also choose to add an item by selecting the *Add Item* checkbox on Import Record screen. Type in a call number and barcode, then click *Import* or *Save* if record has been imported already.
+. You may choose to add an item by selecting the *Add Item* checkbox on Import Record screen. Type in a call number and barcode, then click *Import* or *Save* if record has been imported already.
 +
 image::images/cat/z39-9.png[]
 +
