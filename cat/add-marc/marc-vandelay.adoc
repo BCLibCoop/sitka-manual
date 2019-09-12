@@ -24,7 +24,7 @@ There are some settings, namely Record Display Attributes, Record Match Sets, Me
 +
 These profiles ensure local data in these six fields in a merged MARC record is never overwritten, and holding records (in tag 852) can be loaded to either the existing MARC record or with the incoming record.
 
-*Import Item Attributes* are profiles set up by Sitka to allow importing of item records with vendor supplied MARC records. The vendor will need to send item level information in a local MARC tag and subfields (eg. 9xx or 852), and this information can be mapped into item records when the bibliographic records are loaded. Please contact Co-op Support if you are interested in loading item records with your bibliographic records.
+*Holdings Import Profiles* are profiles set up by Sitka to allow importing of item records with vendor supplied MARC records. The vendor will need to send item level information in a local MARC tag and subfields (eg. 9xx or 852), and this information can be mapped into item records when the bibliographic records are loaded. Please contact Co-op Support if you are interested in loading item records with your bibliographic records.
 =====
 
 Uploading MARC Record Files
@@ -38,14 +38,16 @@ image:images/cat/vandelay-1.png[]
 +
 image:images/cat/vandelay-2.png[]
 +
-. You can create a new queue for the file you are to upload, or append the file's records to an existing queue. To create a new queue, type in a name for your file in the box beside *Create a New Upload Queue*. To append records to an existing queue, choose a queue from the dropdown list beside *Add to an Existing Queue*.
+. Keep Bibliogrpahic Record for *Record Type*.
+. Select a Record Source from the dropdown list. The default is oclc, but choose the one that best matches your file (eg. ULS, Whitehots etc.). Only commonly used vendors are on the list. Use *Other* or *Other E-records* if your vendor is not on the list.
+. You can create a new queue for the file you are to upload, or append the file's records to an existing queue. To create a new queue, type in a name in the *Select or Create a Queue* box. To append records to an existing queue, click the arrows to choose a queue from the dropdown list.
 +
 [CAUTION]
 =========
 Do not use "/" or "\" (slash or backslash) in import queue name.
 =========
 +
-. Leave *SitkaMatch* in Record Match Set box.
+. Choose *SitkaMatch* in Record Match Set box.
 +
 [CAUTION]
 =========
@@ -59,9 +61,10 @@ The NoMatch profile matches records on tag 901$c only, and should only be used a
 You need to contact Co-op Support for holding information format before asking your vendors to include it in the MARC records. Holdings may not be loaded if the format does not match Sitka's holding profile.
 =========
 +
-. Select a Record Source from the dropdown list. The default is oclc, but choose the one that best matches your file (eg. ULS, Whitehots etc.) Contact Co-op Support if you need to load records for non-physical items, such as an e-record collection like ebrary.
-+
 . You do not need to choose a Merge Profile now.
++
+. You may type in a session name in *Optional Session Name* box if you import records. It will help you identify your import session when checking the status on *Recent Imports*.
+. Select a Record Source from the dropdown list. The default is oclc, but choose the one that best matches your file (eg. ULS, Whitehots etc.). Only commonly used vendors are on the list. Use *Other* or *Other E-records* if your vendor is not on the list.
 +
 . Check *Import Non-Matching Records* box to automatically import records without matches into the catalogue.
 +
@@ -77,8 +80,9 @@ If you want to view your incoming records first without importing any, leave the
 +
 . You do not need to select any of the checkboxes in Copy Import Actions now.
 +
-. Click *Choose File* to choose the source MARC file on your computer, then click *Upload*. Depending on the size of the file, it may take a while for the uploading to finish. Once it is finished, records will be displayed in Inspect Queue view. You can continue to examine and import records in the queue as described below. Or you can come back later to find the queue to examine and import the records.
+. Click *Choose File* to choose the source MARC file on your computer, then click *Upload*. The status bars show up for the processes. Depending on the size of the file, it may take a while for the uploading to finish. If you did not choose to import non-matching records, Import Process will stay at 0%. Click *Go to Queue* to examine and further process your records.
 +
+image::images/cat/vandelay-2a.png[]
 [CAUTION]
 =========
 Do not load a MARC file of more than 500 records, as the importing process can time out. If you have more than 500 records, please break into multiple files.
