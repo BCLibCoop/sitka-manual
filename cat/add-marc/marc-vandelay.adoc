@@ -38,6 +38,11 @@ image:images/cat/vandelay-1.png[]
 +
 image:images/cat/vandelay-2.png[]
 +
+[TIP]
+=====
+The top row allows you to apply/manage your import/upload templates. To create a template, select values for those fields you wish to set up, tpye in a name in *Apply or Create a Template* box, then click *Save as New Template*. To apply a template, click in the box to choose from the dropdown list. You may mark a template as default so that it will appear selected next time you load the MARC File Upload screen. 
+=====
++
 . Keep Bibliogrpahic Record for *Record Type*.
 . Select a Record Source from the dropdown list. The default is oclc, but choose the one that best matches your file (eg. ULS, Whitehots etc.). Only commonly used vendors are on the list. Use *Other* or *Other E-records* if your vendor is not on the list.
 . You can create a new queue for the file you are to upload, or append the file's records to an existing queue. To create a new queue, type in a name in the *Select or Create a Queue* box. To append records to an existing queue, click the arrows to choose a queue from the dropdown list.
@@ -98,37 +103,34 @@ Records in a queue are saved on the server, but are outside the catalogue. By im
 Importing and Merging Records from Queues
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you want to import records from MARC files already uploaded, go to *Cataloguing -> MARC Batch Export/Import*, then click *Inspect Queue*. Click the queue that you wish to examine and import records from. The Queue Summary screen will open.
+If you want to import records from MARC files already uploaded, go to *Cataloguing -> MARC Batch Export/Import*, then click *Inspect Queue*. Dbouble click the queue that you wish to examine and import records from. The Queue Summary screen will open.
 
-If you continue to import records right after uploading the MARC file, the Queue Summary screen is loaded after you upload the file.
+image::images/cat/vandelay-2b.png[]
 
-. The Queue Summary shows the total number of MARC records in the queue, and items contained in these records, if any, how many of them have been imported, and how many of them encountered an error when Evergreen attempted to import them.
+If you continue to import records right after uploading the MARC file, click *Go to Queue* to load the Queue Summary.
+
+. The *Queue Summary* shows the total number of MARC records in the queue, and items contained in these records, if any, how many of them have been imported, and how many of them encountered an error when Evergreen attempted to import them.
 +
-*Queue Filters* allows you to display only the selected type of records in the table below.
-+
-A selected number of records (10, 20, 50, 100) are displayed per page. Use the dropdown list beside *Records per Page* to select your preferred number. Use Previous and Next to flip over the page.
-+
-The records in the queue can be exported in non-MARC format via the method selected from the *Export Queue As* dropdown list. (Exporting via email is not currently functional.)
+The *Queue Actions* lists the actions you can take from this screen.  
 +
 If you imported holdings with the MARC records, click *View Import Items* to see them.
 +
 You can export non-imported records to a MARC file by clicking *Export Non-Imported Records*. You can work on these records and load them later.
 +
-You can add all imported MARC records in the queue to a Record Bucket by using *Copy to Bucket*.
+You can add all imported MARC records in the queue to a Record Bucket by using *Copy Queue to Bucket*.
 +
 image::images/cat/vandelay-3.png[]
 +
-. You can view both incoming and existing match records, if any, to determine which record to use. The links in *View MARC* column lead you to the incoming records, while records in the *Matches* column link to existing records.
-+
-. Click the blue coloured *View MARC* link to view the incoming record. You may edit it before importing by clicking *Edit*. Once editing is complete, click *Save Changes*. Click *Return* to go back to the Record Queue screen.
+. You should view all records to determine which one to use. To view the incoming record in the queue, double click a line. 
 +
 image::images/cat/vandelay-4.png[]
 +
-. On Queue screen click the blue coloured *Matches* link to view the match record. This takes you to the following *Import Matches* screen.
-. On the *Import Matches* screen, you will see the match record's ID number and some non-MARC information. Click *View MARC*. The existing MARC record is displayed in view mode. You can not edit it. Click *Return* to go back to the Import Matches screen.
+. To view match records, click the blue number in *Matches* column.
 +
 image::images/cat/vandelay-5.png[]
 +
+. You will see the match records' ID number and some non-MARC information. Click the blue record id. The default tab is Copy Table. Click *MARC View* to view a record. Use browser's Go Back function to exit MARC View.
+image::images/cat/vandelay-5a.png[]
 [TIP]
 =====
 Match Score is the total score from all matched fields specified in the Record Match Set.
