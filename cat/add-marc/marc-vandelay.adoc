@@ -154,16 +154,20 @@ image::images/cat/vandelay-6.png[]
 +
 However, if the incoming record contains local information in tags 590, 595, 690, 852 or 856 that you want to bring into the existing record, such as loading holding records to existing MARC records, you need to mark the match record as a merge target. In this scenario you would use the *Merge Using EXISTING Record* merge profile as described in next step. If you are interested in loading holdings/item information, please contact Co-op support to set it up.
 
-. If you have marked a merge target, the record is shown as selected once you are back on the Record Queue screen.
+. After you have marked a merge target, you may select the record once you are back on the Record Queue screen.
 +
 You may inspect other records on the list. Once finished inspecting the list, click *Import Selected Records* under Queue Actions.
 +
 image::images/cat/vandelay-7.png[]
 +
-. You are prompted to select import options. Make your choices and click *Import*.
+. You are back on MARC File Upload screen with a selected import session. Make import options, and click *Upload* to import the records. If you wish not to carry on the import, you may click *Clear Selection*.
 +
 image::images/cat/vandelay-8.png[]
 +
+[CAUTION]
+=========
+*Upload* button remains inactive until all required import options are made.
+=========
 For Merge Profile, choose one of the following based on which record should be the lead.
 +
 * Merge Using INCOMING Record: uses the incoming record as the lead. Information in existing record in tags 590, 595, 690, 852 (holdings) and 856 will be kept.
@@ -207,6 +211,6 @@ To view a queue, go to *Cataloguing -> MARC Batch Import/Export*. The default sc
 
 Under Inspect Queue you can click on an existing queue to view and import records that have already been queued for importing or simply view records that have already been imported.
 
-To delete queues, select the checkbox in front of the queue name and click *Delete Selected* at the bottom.
+To delete queues, select the checkbox in front of the queue name and click *Delete Selected* on the action list.
 
 image::images/cat/vandelay-9.png[]
