@@ -173,7 +173,6 @@ For Merge Profile, choose one of the following based on which record should be t
 
 
 If you have marked a merge target, you do not need to select any further import options. The marked target will be merged. If you have not already imported non-matching records you can now select Import Non-Matching Records.
-
 [TIP]
 =====
 Merge On Exact Match (901c), Merge On Single Match, and Merge On Best Match are designed to allow Evergreen to programmatically select the best match. Due to the nature of Sitka's shared database, Co-op Support strongly advises against allowing Evergreen to select a merge target and cautions you to adhere to instructions for selecting a match as outlined above.
@@ -189,9 +188,9 @@ If you load items for multiple branches or a branch other than your working loca
 =========
 The option Auto-Overlay In-process Acquisitions Copies should only be used if you are working with on-order line items created in the Acquisitions module. For more details please see Auto-Overlay In Process Acquisitions Copies
 =========
-+
-. Once the records are imported, the display is back on Queue Summary screen. You will see the Import Time column is filled in for the selected records. The imported record id is displayed in Imported As column.
-+
+
+Once the records are imported, the display is back on Queue Summary screen. You will see the Import Time column is filled in for the selected records. The imported record id is displayed in Imported As column.
+
 [TIP]
 =====
 A record can be imported only once.
@@ -212,3 +211,13 @@ Under Inspect Queue you can click on an existing queue to view and import record
 To delete queues, select the checkbox in front of the queue name and click *Delete Selected* on the action list.
 
 image::images/cat/vandelay-9.png[]
+
+Import Status
+^^^^^^^^^^^^^^
+
+You may start more than one import sessions. To check the status of these sessions, you may go to *Recent Import*. You may identify a session by session name or queue name. 
+
+image::images/cat/vandelay-10.png[]
+
+
+
