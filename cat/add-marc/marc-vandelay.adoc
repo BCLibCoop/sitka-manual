@@ -168,6 +168,7 @@ image::images/cat/vandelay-8.png[]
 For Merge Profile, choose one of the following based on which record should be the lead.
 
 * Merge Using INCOMING Record: uses the incoming record as the lead. Information in existing record in tags 590, 595, 690, 852 (holdings) and 856 will be kept.
+
 * Merge Using EXISTING Record: uses the existing record in the catalogue as the lead. Information in the incoming record in tags 590, 595, 690, 852 (holdings) and 856 will be kept. Use this profile when you attach holdings in your MARC file to existing Evergreen MARC records.
 
 
