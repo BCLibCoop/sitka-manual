@@ -21,15 +21,15 @@ image::images/cat/merge-1.png[]
 +
 image::images/cat/merge-2.png[]
 +
-. Merge screen opens in a pop-up window. Records are listed in the right column. You can scroll down to view each record and its holdings, if any. Once decided on a lead record, click *Use as lead record*. You can remove a record if you decide not to merge it by clicking *Remove from consideration*.
-+
+. Merge screen opens in a pop-up window. Record summary is listed above. You may shorten it by clicking the double arrows. You may also *Toggle Holdings Display*, which is positioned at the bottom of the screen.  You can remove a record if you decide not to merge it by clicking *Remove from consideration*. Once decided on a lead record, click *Use as lead record*. 
++ 
 image::images/cat/merge-3.png[]
 +
-. The lead record is moved to the left column. Compare the records. Edit the lead record if necessary. Click *Edit* to edit in the current window. Once done, click *Save*. You can also click *Edit using full editor* to open the record in a pop-up window. Once done editing, click *Save* on top, then *Done* at the bottom to go back to the merge screen.
+.Edit the lead record if necessary. Click *Edit* to edit in the current window. Once done, click *Save*. You can also click *Edit using full editor* to open the record in a pop-up window. Once done editing, click *Save* on top, then *Done* at the bottom to go back to the merge screen.
 +
 image::images/cat/merge-4.png[]
 +
-. Select a merge profile. We use "Merge keeping local fields".
+. Select a merge profile. We use "Keep Local Fields".
 . Once ready, click *Merge*. The lead record is displayed in the catalogue.
 
 
