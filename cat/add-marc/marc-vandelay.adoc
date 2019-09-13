@@ -40,12 +40,12 @@ image:images/cat/vandelay-2.png[]
 +
 [TIP]
 =====
-The top row allows you to apply/manage your import/upload templates. To create a template, select values for those fields you wish to set up, tpye in a name in *Apply or Create a Template* box, then click *Save as New Template*. To apply a template, click in the box to choose from the dropdown list. You may mark a template as default so that it will appear selected next time you load the MARC File Upload screen. 
+The top row allows you to apply/manage your import/upload templates. To create a template, select values for those fields you wish to set up, type in a name in *Apply or Create a Template* box, then click *Save as New Template*. To apply a template, click in the box to choose from the dropdown list. You may mark a template as default so that it will appear selected next time you load the MARC File Upload screen. 
 =====
 +
 . Keep Bibliogrpahic Record for *Record Type*.
-. Select a Record Source from the dropdown list. The default is oclc, but choose the one that best matches your file (eg. ULS, Whitehots etc.). Only commonly used vendors are on the list. Use *Other* or *Other E-records* if your vendor is not on the list.
-. You can create a new queue for the file you are to upload, or append the file's records to an existing queue. To create a new queue, type in a name in the *Select or Create a Queue* box. To append records to an existing queue, click the arrows to choose a queue from the dropdown list.
+. Select a *Record Source* from the dropdown list. The default is oclc, but choose the one that best matches your file (eg. ULS, Whitehots etc.). Only commonly used vendors are on the list. Use *Other* or *Other E-records* if your vendor is not on the list.
+. You can create a new queue for the file you are to upload, or append the file's records to an existing queue. To create a new queue, type in a name in the *Select or Create a Queue* box. To append records to an existing queue, click in the box to choose a queue from the dropdown list.
 +
 [CAUTION]
 =========
@@ -69,7 +69,6 @@ You need to contact Co-op Support for holding information format before asking y
 . You do not need to choose a Merge Profile now.
 +
 . You may type in a session name in *Optional Session Name* box if you import records. It will help you identify your import session when checking the status on *Recent Imports*.
-. Select a Record Source from the dropdown list. The default is oclc, but choose the one that best matches your file (eg. ULS, Whitehots etc.). Only commonly used vendors are on the list. Use *Other* or *Other E-records* if your vendor is not on the list.
 +
 . Check *Import Non-Matching Records* box to automatically import records without matches into the catalogue.
 +
