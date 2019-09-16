@@ -13,9 +13,11 @@ image::images/cat/export-marc-1.png[]
 
 If you want to export more than one record at a time, the records need to be saved in a Record Bucket or their IDs saved in a CSV file. If the CSV file contains other information than just record ids, specify which column is the record id by filling it into the Use Field Number box. Note that the field number starts from 0. If the second column in the CSV file is record id, the field number is 1.
 
-If you export one record only, you may type in the record ID directly on the Export interface.
+If you export one record only, you may click *Record ID*, then type in the record ID directly on the Export interface.
 
-Once you have completed the above form, click the *Retrieve Records* button at the bottom. You will be prompted to browse the records, and then save them, or save them directly into a file.
+If your records are in a Record Bucket and you know the bucket id, you may click on *Bucket* to type in the bucket id.
+
+Once you have completed the above form, you need to choose *Record Format* and *Encoding*, then click the *Export* button at the bottom. You will be prompted to browse the records, and then save them, or save them directly into a file.
 
 [NOTE]
 ======
