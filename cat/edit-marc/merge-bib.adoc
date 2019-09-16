@@ -21,11 +21,11 @@ image::images/cat/merge-1.png[]
 +
 image::images/cat/merge-2.png[]
 +
-. Merge screen opens in a pop-up window. Record summary is listed above. You may shorten it by clicking the double arrows. You may also *Toggle Holdings Display*, which is positioned at the bottom of the screen.  You can remove a record if you decide not to merge it by clicking *Remove from consideration*. Once decided on a lead record, click *Use as lead record*. 
+. Merge screen opens in a pop-up window. Record summary is listed above. You may shorten it by clicking the double arrows. You may also *Toggle Holdings Display*. Holdings information h is below each MARC record.  You can remove a record if you decide not to merge it by clicking *Remove from consideration*. Once decided on a lead record, click *Use as lead record*. 
 + 
 image::images/cat/merge-3.png[]
 +
-.Edit the lead record if necessary. Click *Edit* to edit in the current window. Once done, click *Save*. You can also click *Edit using full editor* to open the record in a pop-up window. Once done editing, click *Save* on top, then *Done* at the bottom to go back to the merge screen.
+. Edit the lead record if necessary. Click *Edit* to edit in the current window. Once done, click *Save*. You can also click *Edit using full editor* to open the record in a pop-up window. Once done editing, click *Save* on top, then *Done* at the bottom to go back to the merge screen.
 +
 image::images/cat/merge-4.png[]
 +
