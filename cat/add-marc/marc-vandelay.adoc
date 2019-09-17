@@ -24,7 +24,7 @@ There are some settings, namely Record Display Attributes, Record Match Sets, Me
 +
 These profiles ensure local data in these six fields in a merged MARC record is never overwritten, and holding records (in tag 852) can be loaded to either the existing MARC record or with the incoming record.
 
-*Import Item Attributes* are profiles set up by Sitka to allow importing of item records with vendor supplied MARC records. The vendor will need to send item level information in a local MARC tag and subfields (eg. 9xx or 852), and this information can be mapped into item records when the bibliographic records are loaded. Please contact Co-op Support if you are interested in loading item records with your bibliographic records.
+*Holdings Import Profiles* are profiles set up by Sitka to allow importing of item records with vendor supplied MARC records. The vendor will need to send item level information in a local MARC tag and subfields (eg. 9xx or 852), and this information can be mapped into item records when the bibliographic records are loaded. Please contact Co-op Support if you are interested in loading item records with your bibliographic records.
 =====
 
 Uploading MARC Record Files
@@ -38,14 +38,21 @@ image:images/cat/vandelay-1.png[]
 +
 image:images/cat/vandelay-2.png[]
 +
-. You can create a new queue for the file you are to upload, or append the file's records to an existing queue. To create a new queue, type in a name for your file in the box beside *Create a New Upload Queue*. To append records to an existing queue, choose a queue from the dropdown list beside *Add to an Existing Queue*.
+[TIP]
+=====
+The top row allows you to apply/manage your import/upload templates. To create a template, select values for those fields you wish to set up, type in a name in *Apply or Create a Template* box, then click *Save as New Template*. To apply a template, click in the box to choose from the dropdown list. You may mark a template as default so that it will appear selected next time you load the MARC File Upload screen. 
+=====
++
+. Keep "Bibliogrpahic Record" in *Record Type*.
+. Select a *Record Source* from the dropdown list. The default is oclc, but choose the one that best matches your file (eg. ULS, Whitehots, etc.). Only commonly used vendors are on the list. Use *Other* or *Other E-records* if your vendor is not on the list.
+. You can create a new queue for the file you are to upload, or append the file's records to an existing queue. To create a new queue, type in a name in the *Select or Create a Queue* box. To append records to an existing queue, click in the box to choose a queue from the dropdown list.
 +
 [CAUTION]
 =========
 Do not use "/" or "\" (slash or backslash) in import queue name.
 =========
 +
-. Leave *SitkaMatch* in Record Match Set box.
+. Choose *SitkaMatch* in Record Match Set box.
 +
 [CAUTION]
 =========
@@ -59,9 +66,9 @@ The NoMatch profile matches records on tag 901$c only, and should only be used a
 You need to contact Co-op Support for holding information format before asking your vendors to include it in the MARC records. Holdings may not be loaded if the format does not match Sitka's holding profile.
 =========
 +
-. Select a Record Source from the dropdown list. The default is oclc, but choose the one that best matches your file (eg. ULS, Whitehots etc.) Contact Co-op Support if you need to load records for non-physical items, such as an e-record collection like ebrary.
-+
 . You do not need to choose a Merge Profile now.
++
+. You may type in a session name in *Optional Session Name* box if you import records. It will help you identify your import session when checking the status on Recent Imports.
 +
 . Check *Import Non-Matching Records* box to automatically import records without matches into the catalogue.
 +
@@ -75,17 +82,15 @@ Co-op Support strongly advises that you do not select other import options. Thes
 If you want to view your incoming records first without importing any, leave the *Import Non-Matching Records* box unchecked. You will be able to view all records in the file on Inspect Queue and import all/selected records with/without matching records there.
 =====
 +
-. You do not need to select any of the checkboxes in Copy Import Actions now.
+. You do not need to select any of the merge/overlay checkboxes.
 +
-. Click *Choose File* to choose the source MARC file on your computer, then click *Upload*. Depending on the size of the file, it may take a while for the uploading to finish. Once it is finished, records will be displayed in Inspect Queue view. You can continue to examine and import records in the queue as described below. Or you can come back later to find the queue to examine and import the records.
+. Click *Choose File* to choose the source MARC file on your computer, then click *Upload*. The status bars show up for the processes. Depending on the size of the file, it may take a while for the uploading to finish. If you did not choose to import non-matching records, Import Progress will stay at 0%. In such a case you may click *Go to Queue* to examine and further process your records once Upload and Enqueue reach 100%. 
 +
+image::images/cat/vandelay-2a.png[]
 [CAUTION]
 =========
 Do not load a MARC file of more than 500 records, as the importing process can time out. If you have more than 500 records, please break into multiple files.
-
-Once you hit the Upload button, the uploading process starts to run behind the scene until it finishes. Sometimes the progress bar persists and the process seems hanging, but the actual process may have finished. It is best practice to inspect queue to check the queue status first before attempting to reload the file.
 =========
-+
 [TIP]
 =====
 Records in a queue are saved on the server, but are outside the catalogue. By importing, you bring the records into the catalogue.
@@ -94,37 +99,35 @@ Records in a queue are saved on the server, but are outside the catalogue. By im
 Importing and Merging Records from Queues
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you want to import records from MARC files already uploaded, go to *Cataloguing -> MARC Batch Export/Import*, then click *Inspect Queue*. Click the queue that you wish to examine and import records from. The Queue Summary screen will open.
+If you want to import records from MARC files already uploaded, go to *Cataloguing -> MARC Batch Export/Import*, then click *Inspect Queue*. Double click the queue that you wish to examine and import records from. The Queue Summary screen will open.
 
-If you continue to import records right after uploading the MARC file, the Queue Summary screen is loaded after you upload the file.
+image::images/cat/vandelay-2b.png[]
 
-. The Queue Summary shows the total number of MARC records in the queue, and items contained in these records, if any, how many of them have been imported, and how many of them encountered an error when Evergreen attempted to import them.
+If you continue to import records right after uploading the MARC file, click *Go to Queue* to load the Queue Summary.
+
+. The *Queue Summary* shows the total number of MARC records in the queue, and items contained in these records, if any, how many of them have been imported, and how many of them encountered an error when Evergreen attempted to import them.
 +
-*Queue Filters* allows you to display only the selected type of records in the table below.
+The *Queue Actions* lists the actions you can take from this screen.  
 +
-A selected number of records (10, 20, 50, 100) are displayed per page. Use the dropdown list beside *Records per Page* to select your preferred number. Use Previous and Next to flip over the page.
-+
-The records in the queue can be exported in non-MARC format via the method selected from the *Export Queue As* dropdown list. (Exporting via email is not currently functional.)
-+
-If you imported holdings with the MARC records, click *View Import Items* to see them.
+If you imported holdings with the MARC records, you may click *View Import Items* to view them.
 +
 You can export non-imported records to a MARC file by clicking *Export Non-Imported Records*. You can work on these records and load them later.
 +
-You can add all imported MARC records in the queue to a Record Bucket by using *Copy to Bucket*.
+You can add all imported MARC records in the queue to a Record Bucket by using *Copy Queue to Bucket*.
 +
 image::images/cat/vandelay-3.png[]
 +
-. You can view both incoming and existing match records, if any, to determine which record to use. The links in *View MARC* column lead you to the incoming records, while records in the *Matches* column link to existing records.
-+
-. Click the blue coloured *View MARC* link to view the incoming record. You may edit it before importing by clicking *Edit*. Once editing is complete, click *Save Changes*. Click *Return* to go back to the Record Queue screen.
+. You should view all records to determine which one to use. To view the incoming record in the queue, double click a line. 
 +
 image::images/cat/vandelay-4.png[]
 +
-. On Queue screen click the blue coloured *Matches* link to view the match record. This takes you to the following *Import Matches* screen.
-. On the *Import Matches* screen, you will see the match record's ID number and some non-MARC information. Click *View MARC*. The existing MARC record is displayed in view mode. You can not edit it. Click *Return* to go back to the Import Matches screen.
+. To view match records, click the blue number in *Matches* column.
 +
 image::images/cat/vandelay-5.png[]
 +
+. You will see the match records' ID number and some non-MARC information. Click the blue record id. The default tab is Copy Table. Click *MARC View* to view a record. Use browser's Go Back function to exit MARC View
++
+image::images/cat/vandelay-5a.png[]
 [TIP]
 =====
 Match Score is the total score from all matched fields specified in the Record Match Set.
@@ -146,26 +149,30 @@ If the match record in Evergreen is a true match but a full record, Sitka policy
 +
 image::images/cat/vandelay-6.png[]
 +
-However, if the incoming record contains local information in tags 590, 595, 690, 852 or 856 that you want to bring into the existing record, such as loading holding records to existing MARC records, you need to mark the match record as a merge target. In this scenario you would use the *Merge Using EXISTING Record* merge profile as described in next step. If you are interested in loading holdings/item information, please contact Co-op support to set it up.
+However, if the incoming record contains local information in tags 590, 595, 690, 852 or 856 that you want to bring into the existing record, such as loading holding records to existing MARC records, you need to mark the match record as a merge target. In this scenario you would use the *Merge Using EXISTING Record* merge profile in next step. If you are interested in loading holdings/item information, please contact Co-op support to set it up.
 
-. If you have marked a merge target, the record is shown as selected once you are back on the Record Queue screen.
+. After you have marked a merge target, you may select the record once you are back on the Record Queue screen.
 +
 You may inspect other records on the list. Once finished inspecting the list, click *Import Selected Records* under Queue Actions.
 +
 image::images/cat/vandelay-7.png[]
 +
-. You are prompted to select import options. Make your choices and click *Import*.
+. You are back on MARC File Upload screen with a selected import session. Make import options, and click *Upload* to import the records. If you wish not to carry on the import, you may click *Clear Selection*.
 +
 image::images/cat/vandelay-8.png[]
 +
+[CAUTION]
+=========
+*Upload* button remains inactive until all required import options are made.
+=========
 For Merge Profile, choose one of the following based on which record should be the lead.
-+
+
 * Merge Using INCOMING Record: uses the incoming record as the lead. Information in existing record in tags 590, 595, 690, 852 (holdings) and 856 will be kept.
+
 * Merge Using EXISTING Record: uses the existing record in the catalogue as the lead. Information in the incoming record in tags 590, 595, 690, 852 (holdings) and 856 will be kept. Use this profile when you attach holdings in your MARC file to existing Evergreen MARC records.
 
-+
-If you have marked a merge target, you do not need to select any further import options. The marked target will be merged. If you have not already imported non-matching records you can now select Import Non-Matching Records.
 
+If you have marked a merge target, you do not need to select any further import options. The marked target will be merged. If you have not already imported non-matching records you can now select Import Non-Matching Records.
 [TIP]
 =====
 Merge On Exact Match (901c), Merge On Single Match, and Merge On Best Match are designed to allow Evergreen to programmatically select the best match. Due to the nature of Sitka's shared database, Co-op Support strongly advises against allowing Evergreen to select a merge target and cautions you to adhere to instructions for selecting a match as outlined above.
@@ -182,8 +189,8 @@ If you load items for multiple branches or a branch other than your working loca
 The option Auto-Overlay In-process Acquisitions Copies should only be used if you are working with on-order line items created in the Acquisitions module. For more details please see Auto-Overlay In Process Acquisitions Copies
 =========
 
-. Once the records are imported, the display is back on Queue Summary screen. You will see the Import Time column is filled in for the selected records. The imported record id is displayed in Imported As column.
-+
+Once the records are imported, the display is back on Queue Summary screen. You will see the Import Time column is filled in for the selected records. The imported record id is displayed in Imported As column.
+
 [TIP]
 =====
 A record can be imported only once.
@@ -201,6 +208,16 @@ To view a queue, go to *Cataloguing -> MARC Batch Import/Export*. The default sc
 
 Under Inspect Queue you can click on an existing queue to view and import records that have already been queued for importing or simply view records that have already been imported.
 
-To delete queues, select the checkbox in front of the queue name and click *Delete Selected* at the bottom.
+To delete queues, select the checkbox in front of the queue name and click *Delete Selected* on the action list.
 
 image::images/cat/vandelay-9.png[]
+
+Import Status
+^^^^^^^^^^^^^^
+
+You may start more than one import sessions. To check the status of these sessions, you may go to *Recent Import*. You may identify a session by session name or queue name. 
+
+image::images/cat/vandelay-10.png[]
+
+
+
