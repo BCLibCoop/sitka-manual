@@ -31,7 +31,10 @@ Mark Library Card Lost
 +
 image:images/circ/patronupdate3.png[scaledwidth="75%"]
 
-Once a library card is marked lost, Evergreen marks the card inactive and keeps it in the database. If the patron has lost a library card before, the *See All* button shows up.
+See All Barcodes
+^^^^^^^^^^^^^^^^
+
+Once a library card is marked lost, Evergreen marks the card inactive and keeps it in the database. If the patron has lost a library card before, the *See All* button shows up. If patron presents an inactive card, Evergreen will retrieve account with inactive warning. Staff cannot edit the account but will know to access active account either by use of another card, or a name search, and can then decide which card to make active or inactive.
 
 . Click *See All*. All barcodes that the patron has had are displayed in a pop-up window.
 . Click *Active*  to activate an inactive card.
@@ -69,5 +72,5 @@ Unlinking Shared Patron Addresses
 If your library links addresses in cloned accounts, the address in the new, cloned record is greyed out, and can only be edited in the original record. The address' owning account can not be deleted or merged when other accounts are still using the address, so there are times when you need to unlink shared addresses. You do this by adding a new address to the cloned patron account record.
 
 . Click  *New Address* button.
-. Click  *Mailing* and *Physical* address and click *Save*.
+. Click  *Mailing* and *Physical* address, enter the information, and click *Save*.
 . The linked address is replaced.

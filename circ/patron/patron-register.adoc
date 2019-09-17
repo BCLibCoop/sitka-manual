@@ -9,10 +9,12 @@ Register New Patrons
 Before you register a new patron, you need to ensure the person does not have an account in Sitka's Evergreen. Recommended practice is to ask the patron if they have a library card from another library in BC or MB, and scan that card in *Check Out Items*. If an account exists, you must ask the patron if they agree to share their personal information with your library before using the card. If changes to patron information are required, you should modify the existing patron account, instead of creating a new one.
 
 . Select *Circulation -> Register Patron.*
-. Enter required information, based on your library guidelines. This screen can look  different depending on 
-whether you're showing Required Fields, Suggested Fields, or All Fields.  See xref:_library_settings_editor[] 
+. Enter required information, based on your library guidelines. This screen can look  different depending on
+whether you're showing Required Fields, Suggested Fields, or All Fields.  See xref:_library_settings_editor[]
 for the settings that control which fields display.
-. Click *Save* at top-right of screen.
+. Toggle between *Primary Name* and *Preferred Name* tabs to enter required names.
+. If you do not record the address, you need to delete the fields by clicking the red cross sign beside *Address*. Blank address fields result in an error.
+. Click *Save* or *Save & Clone* at top-right of screen. *Save and Clone* will save the record, and open a new record with some shared details such as phone number and optionally address.
 +
 image:images/circ/patronregister1.png[scaledwidth="75%"]
 
@@ -25,11 +27,12 @@ NOTE: The patron account record is composed of required and optional fields, and
 
 * Blank mandatory fields and fields with a value in the wrong format will result in a "Form is invalid" error.
 
+* *Primary Name* and *Preferred Name* enables greater flexibility, and is optional. Click on tab to switch between fields.
+
 * *Juvenile flag*. This flag is optional. Each library can determine an age threshold of juvenile patrons. The checkbox must be manually de-selected, there is no automated process to update the record.
 
 * *Receive Overdue and Courtesy Emails* checkbox allows patrons to opt-in or opt-out of receiving courtesy and overdue email notifications. Patrons can also set this in *My Account* on your online catalogue.
 
-* If you do not record the address, you need to delete the fields by clicking the red cross sign beside *Address*. Blank address fields result in an error.
 
 * *Main (Profile) Permission Group*. Sitka's Evergreen has a shared list of patron profile groups, but individual libraries choose which profiles to use, and how to configure chosen profiles to suit local policy.
 
@@ -39,4 +42,4 @@ NOTE: The patron account record is composed of required and optional fields, and
 
 * Statistical categories are used to further group patrons by categories not in the profile groups. Individual libraries can create their own patron statistical categories.
 
-* *Save and Clone* will save the patron record and open a new patron record. Phone numbers will be copied into the new record. Depending on your library's setting, addresses may also be linked from original record.
+* *Save and Clone* will save the patron record and open a new patron record. Phone numbers will be copied into the new record. Depending on your library's setting, addresses may also be linked from original record, and can only be edited in original patron record.
