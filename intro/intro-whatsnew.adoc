@@ -13,7 +13,9 @@ Web Staff Client (Web Client)
 
 Circulation
 ~~~~~~~~~~~
-* New Checkin Modifier *Update Inventory* adds an inventory date to item records, simplifying inventory workflows. *Update Inventory* is also available on the *Actions* menu on the *Item Status* screen.
+* New Checkin Modifier *Update Inventory* adds an inventory date to item records, simplifying inventory workflows.
+
+* Update Inventory* is also available on the *Actions* menu on the *Item Status* screen.
 
 
 Cataloguing
@@ -24,7 +26,9 @@ Cataloguing
 Catalogue/OPAC
 ~~~~~~~~~~~~~~
 
-* Batch Actions In the Catalogue. Staff and patrons can select multiple records into a “cart”, and perform batch actions, including Place Hold, Print Title Details, Email Title Details, Add Cart to Saved List, and Clear Cart. In the web staff client, the cart actions also include Add Cart to Bucket.
+* Batch Actions In the Catalogue. Staff and patrons can select multiple records into a “cart”, and perform batch actions, including Place Hold, Print Title Details, Email Title Details, Add Cart to Saved List, and Clear Cart.
+
+* In the web staff client, the cart actions also include Add Cart to Bucket.
 
 * French OPAC.
 
