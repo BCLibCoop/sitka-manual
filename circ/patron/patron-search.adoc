@@ -15,6 +15,7 @@ Barcode scan is the recommended method if you have the patron's barcode: it is f
 image:images/circ/patronsearch2.png[scaledwidth="75%"]
 
 
+
 For patron search, we recommend you set search scope to Sitka, in order to search all opted in patrons at your library, and to select *Include Inactive?*, in order to search expired patrons. These selections are "sticky" and should be left on.
 
 We also recommend you display all search field options by clicking the up and down arrow on right to show all search fields.

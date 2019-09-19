@@ -5,13 +5,15 @@ link:https://youtu.be/QPKQm5HHjWA[*Sitka's Evergreen 3.3 - New Features (00:00)*
 
 Web Staff Client (Web Client)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-* Local workstation settings can now be stored on Sitka's Evergreen servers. Current settings on the browser will continue to function, but once they  have been edited and saved in any way, they will be stored on server from then on. Settings can be transitioned to server gradually as edits occur, or, you can delete browser cookies, re-configure all  workstation settings, and save them on the servers.
+* Local workstation settings can now be stored on Sitka's Evergreen servers. Your current settings stored on the browser will continue to function, but once they  have been edited and saved in any way, they will be stored on server from then on. Settings can be transitioned to server gradually as edits occur, or, you can delete browser cookies, re-configure all  workstation settings, and save them on the servers.
 
 * Hatch can still be used to print. Use of Hatch is optional. See xref:download-hatch-ref[]
 
+* Tooltip functionality is restored. You can hover your mouse over column cells to display content of fields, to see the information you want, with no need to widen columns on the fly.
+
 Circulation
 ~~~~~~~~~~~
-
+* New Checkin Modifier *Update Inventory* adds an inventory date to item records, simplifying inventory workflows. *Update Inventory* is also available on the *Actions* menu on the *Item Status* screen.
 
 
 Cataloguing

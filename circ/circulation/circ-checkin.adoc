@@ -50,3 +50,4 @@ Click the *Checkin Modifiers* drop down arrow. These options may be selected sin
 * Retarget All Statuses. Checks for a local hold to retarget, regardless of the status of the item being checked in. This modifier must be used in conjunction with the Retarget Local Holds modifier.
 * Capture Local Holds as Transits. Local holds will be given an in transit status instead of on holds shelf. The intent is to stop the system from sending holds notifications before the item is ready to be placed on the holds shelf and item will have a status of in-transit until checked in again.
 * Manual Floating Active. Works in conjunction with floating groups, if configured for your library by Co-op Support.
+* Update Inventory adds a date and time stamp, and workstation name, to item records as they are checked in, facilitating inventory processes.
