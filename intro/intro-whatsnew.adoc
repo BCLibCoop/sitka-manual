@@ -3,9 +3,16 @@ New Features in Evergreen Version 3.3
 
 link:https://youtu.be/QPKQm5HHjWA[*Sitka's Evergreen 3.3 - New Features (00:00)*]
 
+Web Staff Client (Web Client)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*Local workstation settings can now be stored on Sitka's Evergreen servers. Current settings on the browser will continue to function, but once they  have been edited and saved in any way, they will be stored on server from then on. Settings can be transitioned to server gradually as edits occur, or, you can delete browser cookies, re-configure all  workstation settings, and save them on the servers.
+
+* Hatch can still be used to print. Use of Hatch is optional. See xref:download-hatch-ref[]
 
 Circulation
 ~~~~~~~~~~~
+
+
 
 
 Cataloguing
@@ -13,13 +20,28 @@ Cataloguing
 
 
 
-Catalogue
-~~~~~~~~~~
+Catalogue/OPAC
+~~~~~~~~~~~~~~
 
+*Batch Actions In the Catalogue. Staff and patrons can select multiple records into a “cart”, and perform batch actions, including Place Hold, Print Title Details, Email Title Details, Add Cart to Saved List, and Clear Cart. In the web staff client, the cart actions also include Add Cart to Bucket.
+
+*French OPAC.
+
+
+Library Settings
+~~~~~~~~~~~~~~~~
+* Emergency Closing Handler. Staff can create library closings that, in addition to affecting future circulation and booking due dates, and hold shelf expiry dates, will automatically move existing circulation and booking due dates and hold shelf expiry times.
+
+Patron Accounts
+~~~~~~~~~~~~~~~
+*Patron Preferred Name fields added to patron record, providing increased options and flexibility for staff and patrons.
+
+*Patron Name Keyword Search. An additional field for storing search terms in a patron record, plus the addition of a global patron name keyword search, that searches across all name fields.
+
+*Parent/Guardian field has been restored in 3.3, and displays in the patron summary.
 
 Serials
 ~~~~~~~
-
 
 
 Reports

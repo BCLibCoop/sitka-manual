@@ -2,11 +2,16 @@ Getting Started
 ---------------
 
 Accessing the Evergreen Staff Client
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* Sitka's Evergreen web client is only supported in Chrome. You must use Chrome to login to Evergreen.
 
-The default URL to log into the client is *https://catalogue.libraries.coop/eg/staff/*
+* The web client is responsive to device and to screen size, and can look different on different devices.
+
+* The default URL to log into the client is *https://catalogue.libraries.coop/eg/staff/*
 
 image::images/intro/getstarted1.png[]
+
+
 
 Register Staff Workstation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
