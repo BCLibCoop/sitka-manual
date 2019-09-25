@@ -100,7 +100,7 @@ image::images/cat/add-holdings-8b.png[]
 
 [NOTE]
 ======
-You may also add volumes to more libraries on Volume/Item Creator screen. Use the arrow in the *Owning Library* column to list the libraries, then click on *Add Volume*.
+You may also add volumes to more libraries on Volume/Item Creator screen. Use the arrow in the *Owning Library* column to list the libraries, then click on *Add call number*.
 
 image::images/cat/add-holdings-4.png[]
 ======
@@ -123,10 +123,10 @@ image::images/cat/add-holdings-9a.png[]
 +
 . Enter the barcode to continue to edit item attributes, then save.
 
-Adding a Volume without a Copy
+Adding a Volume without an Item
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Sometimes you may need to create a volume/call number record without any copy. For example, you may want to move one of two regular collection copies to reference, which will use a different call number prefix, or catalogue a pre-catalogued item.
+Sometimes you may need to create a call number record without any copy. For example, you may want to move one of two regular collection copies to reference, which will use a different call number prefix, or catalogue a pre-catalogued item.
 
 . Find the title record, then click on *Holdings View*,  select your library, go to *Actions* list, and scroll to *Add* to select *Volumes*.
 +
