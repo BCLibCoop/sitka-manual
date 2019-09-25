@@ -3,7 +3,7 @@ Adding Holdings to Bibliographic Records
 
 link:https://youtu.be/Zn1rqJESu5Q[*Sitka Training Video - Volume/Copy Editor (7:26)*]
 
-Adding a Single Volume/Copy
+Adding a Single Call Number/Copy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Search the catalogue for a record that matches the item in hand, as described in xref:_searching_the_database_for_cataloguing_purposes[]. If you do not find a match, refer to the  http://docs.libraries.coop/policy/html/policy-cat.html[Sitka Cataloguing Policy] for recommendations on required procedures. If you do find a match, proceed to next step.
@@ -12,8 +12,8 @@ Adding a Single Volume/Copy
 +
 image::images/cat/add-holdings-1.png[]
 +
-. To add a new volume (also known as call number), click on *Add Holdings*, as shown in the above image.
-. The Volume/Item creator opens up in a new tab.
+. To add a new call number (also known as volume), click on *Add Holdings*, as shown in the above image.
+. The Call Number/Item creator opens up in a new tab.
 +
 image::images/cat/add-holdings-2.png[]
 +
@@ -25,10 +25,10 @@ CAUTION: Make sure your browser allows Evergreen to open pop-ups.
 +
 image::images/cat/add-holdings-2a.png[]
 
-* Make sure both *Show empty volumes* and *Show empty libraries* checkboxes are selected in order to display libraries without copies on the library list.
+* Make sure both *Show empty call numbers* and *Show empty libraries* checkboxes are selected in order to display libraries without items on the library list.
 =====
 
-. Complete the required fields in both volume and item records. Refer to xref:_working_on_copy_attributes[] for information about individual fields in an item record. To ensure data consistency, using holdings templates is recommended. Select one from the dropdown list, then click on *Apply*. Refer to xref:_volume_copy_template[] for more information.
+. Complete the required fields in both call number and item records. Refer to xref:_working_on_copy_attributes[] for information about individual fields in an item record. To ensure data consistency, using holdings templates is recommended. Select one from the dropdown list, then click on *Apply*. Refer to xref:_volume_copy_template[] for more information.
 +
 image::images/cat/add-holdings-3.png[]
 +
@@ -39,16 +39,16 @@ image::images/cat/add-holdings-3.png[]
 =====
 * By default, a new item has *In Process* status, unless you choose a different one when creating it. Item must be checked in to become *Available* and to create item's *Active Date*.
 +
-* You can configure the default displayed fields in Volume/Item Editor. Click on *Defaults* on Volume/Item Editor. See xref:_volume_copy_defaults[] for more information.
+* You can configure the default displayed fields in Call Number/Item Editor. Click on *Defaults* on Call Number/Item Editor. See xref:_volume_copy_defaults[] for more information.
 +
 image::images/cat/add-holdings-10.png[]
 =====
 
 
-Adding Multiple Items to One Volume
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Adding Multiple Items to One Call NUmber
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. To add multiple copies to one library on Volume/Item Creator, use the arrow in the *Items* column to increase the number. Extra lines show up for more barcodes.
+. To add multiple items to one library on Call Number/Item Creator, use the arrow in the *Items* column to increase the number. Extra lines show up for more barcodes.
 +
 image::images/cat/add-holdings-3a.png[]
 +
@@ -73,62 +73,62 @@ image::images/cat/add-holdings-6.png[]
 +
 image::images/cat/add-holdings-7.png[]
 +
-. Selected copies are moved back to the *Working Copies* tab where you can edit them. After editing, you can store them in the *Completed Copies* tab, or click *Save & Exit* when all copies are done.
+. Selected items are moved back to the *Working Items* tab where you can edit them. After editing, you can store them in the *Completed Items* tab, or click *Save & Exit* when all items are done.
 +
-. You can *Save Completed* copies or *Save & Exit* from *Completed Copies* tab. When you choose to *Save Completed*, copy records are created in the database, but they remain on the *Completed Copies* tab.
+. You can *Save Completed* items or *Save & Exit* from *Completed Items* tab. When you choose to *Save Completed*, item records are created in the database, but they remain on the *Completed Items* tab.
 +
 image::images/cat/add-holdings-8.png[]
 
 [CAUTION]
 =========
-* Stored copies on *Completed Copies* tab are not saved in the database until you click on *Save & Exit* or *Save Completed*. They are available on the current Volume/Item Creator only. If you close the browser tab without saving them, you will lose them.
+* Stored items on *Completed Items* tab are not saved in the database until you click on *Save & Exit* or *Save Completed*. They are available on the current Call Number/Item Creator only. If you close the browser tab without saving them, you will lose them.
 +
 * *Save Completed* will save those items on *Completed Items* tab only. Those on *Working Items* tab will be considered discarded, though they do not disappear.
 =========
 
-Adding Volumes/Items to Multiple Libraries
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Adding Call Numbers/Items to Multiple Libraries
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . On *Holdings View*, select the libraries you want to add items to. Click *Add Holdings*.
 +
 image::images/cat/add-holdings-8a.png[]
 +
-. If you want to add multiple volumes/items to one library, use the arrow in *Volume* and *Items* volumes to increase the number. Extra lines will show up. Complete or edit call numbers and barcodes, then you can work on copies on the *Working Items* tab.
+. If you want to add multiple volumes/items to one library, use the arrow in *Call Number* and *Items* volumes to increase the number. Extra lines will show up. Complete or edit call numbers and barcodes, then you can work on items on the *Working Items* tab.
 +
 image::images/cat/add-holdings-8b.png[]
 +
 
 [NOTE]
 ======
-You may also add volumes to more libraries on Volume/Item Creator screen. Use the arrow in the *Owning Library* column to list the libraries, then click on *Add call number*.
+You may also add call numbers to more libraries on Call Number/Item Creator screen. Use the arrow in the *Owning Library* column to list the libraries, then click on *Add call number*.
 
 image::images/cat/add-holdings-4.png[]
 ======
 
 [TIP]
 =====
-* You can hide or display volume and item details by coordinating the two hide/show buttons shown below.
+* You can hide or display call number and item details by coordinating the two hide/show buttons shown below.
 +
 image::images/cat/add-holdings-9.png[]
 +
-* If all volumes share the same attributes, you can select the values in *Batch Apply* row, then click *Apply*.  The selected values will be copied into all volumes.
+* If all call numbers share the same attributes, you can select the values in *Batch Apply* row, then click *Apply*.  The selected values will be copied into all call numbers.
 =====
 
-Adding Items to an Existing Volume
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Adding Items to an Existing Call Number
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. If your library has multiple volumes and you want to add Items to a particular volume, select it on *Holdings View*, then click *Add Holdings*.
+. If your library has multiple call numbers and you want to add Items to a particular one, select it on *Holdings View*, then click *Add Holdings*.
 +
 image::images/cat/add-holdings-9a.png[]
 +
 . Enter the barcode to continue to edit item attributes, then save.
 
-Adding a Volume without an Item
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Adding a Call Number without an Item
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Sometimes you may need to create a call number record without any copy. For example, you may want to move one of two regular collection copies to reference, which will use a different call number prefix, or catalogue a pre-catalogued item.
+Sometimes you may need to create a call number record without any item. For example, you may want to move one of two regular collection items to reference, which will use a different call number prefix, or catalogue a pre-catalogued item.
 
-. Find the title record, then click on *Holdings View*,  select your library, go to *Actions* list, and scroll to *Add* to select *Volumes*.
+. Find the title record, then click on *Holdings View*,  select your library, go to *Actions* list, and scroll to *Add* to select *Add Call Numbers*.
 +
 image::images/cat/add-holdings-11.png[]
 +
@@ -138,9 +138,9 @@ image::images/cat/add-holdings-12.png[]
 
 [TIP]
 =====
-* Evergreen does not allow one library to have two identical call numbers under one title. When saving new copies or editing existing copies, copies sharing the same call number are grouped under one volume/call number record. This call number can be edited via any copy under it, and any edit affects all copies. If only one copy needs a different call number, you need to create a new volume/call number record, then transfer the copy to it.
+* Evergreen does not allow one library to have two identical call numbers under one title. When saving new items or editing existing items, items sharing the same call number are grouped under one call number record. This call number can be edited via any item under it, and any edit affects all items. If only one item needs a different call number, you need to create a new call number record, then transfer the item to it.
 
-* Adding volumes/copies functions are also available on the *Actions* dropdown list, or right click your mouse when an entry on the library list is selected.
+* Adding call number/items functions are also available on the *Actions* dropdown list, or right click your mouse when an entry on the library list is selected.
 
 image::images/cat/add-holdings-9b.png[]
 =====
