@@ -85,8 +85,8 @@ image::images/intro/browserpopup.png[]
 +
 image::images/intro/browser2.png[]
 +
-. Under _Privacy and Security_ click *Content settings*.
-. Click *Pop-ups*.
+. Under _Privacy and Security_ click *Site settings*.
+. Click *Pop-ups and re-directs*.
 . Click *Add*.
 . Site: *https://catalogue.libraries.coop*.
 . Click *Add*.
@@ -103,10 +103,10 @@ image::images/intro/browser1.png[]
 +
 . Click *Settings*.
 . Scroll down to the bottom and click *Advanced*.
-. Under _Privacy and Security_ click *Content settings*.
-. Click *Cookies*.
+. Under _Privacy and Security_ click *Site settings*.
+. Click *Cookies and site data*.
 . _Allow sites to save and read cookie data_ should be on.
-. _Keep local data only until you quit your browser_ should be off.
+. _Clear cookies and site data when you quit Chrome_ should be off.
 . Click *Add*.
 . Site: https://catalogue.libraries.coop/eg/staff/
 . Click *Add*.
@@ -126,8 +126,8 @@ Turn Off Autofill
 image::images/intro/browser1.png[]
 +
 . Click *Settings*.
-. Under People -> Click *Addresses*.
-. Uncheck *Autofill forms*
+. Under Autofill click *Addresses and more*.
+. Turn *Save and fill addresses* off.
 +
 image::images/intro/autofill.png[]
 
@@ -199,7 +199,7 @@ image::images/intro/browser3.png[]
 Reconnect Hatch
 ^^^^^^^^^^^^^^^
 
-If you have Hatch installed, use these directions to reconnect your browser to Hatch after clearing your cache 
+If you have Hatch installed, use these directions to reconnect your browser to Hatch after clearing your cache
 or deleting the offline database.
 
 . Reconnect your browser to Hatch

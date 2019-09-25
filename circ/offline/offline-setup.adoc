@@ -7,9 +7,10 @@ Prior to using Offline Circulation, you need to do the following, which requires
 
 . *Register the workstation* in the recommended browser on the computers you intend to use. Local system administrator's account is required to do it.
 +
-. *Load configuration information* by performing a patron search. Select any patron on the result list. Go to Edit tab. The relevent configuration information for the workstation is downloaded during this process. 
+. *Load configuration information* by performing a patron search. Select any patron on the result list. Go to Edit tab. The relevant configuration information for the workstation is downloaded during this process.
 
-. *Download Offline Block List*. The list contains patrons with blocks at the time of the download. Offline Circulation will check patrons against this list and prompt staff if a patron is found on the list when you try to check out or renew items.
+////
+*Download Offline Block List*. The list contains patrons with blocks at the time of the download. Offline Circulation will check patrons against this list and prompt staff if a patron is found on the list when you try to check out or renew items.
 +
 To download the block list, navigate to *Circulation -> Offline Circulation*. Click *Download Block List* button.
 +
@@ -18,15 +19,16 @@ image::images/circ/downloadblocklist.png[]
 
 [NOTE]
 ====
-This procedure should be repeated on a regular basis (daily, weekly etc.). Downloading 
+This procedure should be repeated on a regular basis (daily, weekly etc.). Downloading
 the block list can take a couple minutes to complete.
 ====
+////
 
 .  *Set up a default printer* for Offline Circulation, if you use Hatch.  Go to *Administration -> Workstation -> Printer Settings*.
 
 [TIP]
 ====
-Offline transactions are kept in the browser as cookies. Clearing the browser's cookies may delete them. 
+Offline transactions are kept in the browser as cookies. Clearing the browser's cookies may delete them.
 ====
 
 
