@@ -47,7 +47,7 @@ image::images/cat/add-holdings-10.png[]
 
 Adding Multiple Items to One Call Number
 <<<<<<< HEAD
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 =======
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 >>>>>>> b309517c185460e947152ae44ca7c09396691905
@@ -61,7 +61,7 @@ image::images/cat/add-holdings-3a.png[]
 NOTE: *Save & Exit* is greyed out until barcodes are entered.
 
 Working on Multiple Items
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you add multiple items, and they do not share the values in one or more item attributes, you can select and work on those that share item attributes as a group. You can also temporarily store some items to *Completed Items* tab, then work on those on *Working Items* tab, which share the same attributes. Save and exit when all items are done.
 
@@ -91,7 +91,7 @@ image::images/cat/add-holdings-8.png[]
 =========
 
 Adding Call Numbers/Items to Multiple Libraries
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . On *Holdings View*, select the libraries you want to add items to. Click *Add Holdings*.
 +
@@ -119,7 +119,7 @@ image::images/cat/add-holdings-9.png[]
 =====
 
 Adding Items to an Existing Call Number
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . If your library has multiple call numbers and you want to add Items to a particular one, select it on *Holdings View*, then click *Add Holdings*.
 +
@@ -128,7 +128,7 @@ image::images/cat/add-holdings-9a.png[]
 . Enter the barcode to continue to edit item attributes, then save.
 
 Adding a Call Number without an Item
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Sometimes you may need to create a call number record without any item. For example, you may want to move one of two regular collection items to reference, which will use a different call number prefix, or catalogue a pre-catalogued item.
 
