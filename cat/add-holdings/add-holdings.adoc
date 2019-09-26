@@ -61,7 +61,7 @@ image::images/cat/add-holdings-3a.png[]
 NOTE: *Save & Exit* is greyed out until barcodes are entered.
 
 Working on Multiple Items
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you add multiple items, and they do not share the values in one or more item attributes, you can select and work on those that share item attributes as a group. You can also temporarily store some items to *Completed Items* tab, then work on those on *Working Items* tab, which share the same attributes. Save and exit when all items are done.
 
