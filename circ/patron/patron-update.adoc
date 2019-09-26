@@ -34,7 +34,7 @@ image:images/circ/patronupdate3.png[scaledwidth="75%"]
 See All Barcodes
 ^^^^^^^^^^^^^^^^
 
-Once a library card is marked lost, Evergreen marks the card inactive and keeps it in the database. If the patron has lost a library card before, the *See All* button shows up. If patron presents an inactive card, Evergreen will retrieve account with inactive warning. Staff cannot edit the account but will know to access active account either by use of another card, or a name search, and can then decide which card to make active or inactive.
+Once a library card is marked lost, Evergreen marks the card inactive and keeps it in the database. If the patron has lost a library card before, the *See All* button shows up. If patron presents an inactive card, Evergreen will retrieve active account with inactive warning. Staff can then decide which card to make active or inactive. Best practice is to delete inactive patron cards.
 
 . Click *See All*. All barcodes that the patron has had are displayed in a pop-up window.
 . Click *Active*  to activate an inactive card.

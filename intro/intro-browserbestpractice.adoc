@@ -142,8 +142,7 @@ Clear Cache
 +
 image::images/intro/browser1.png[]
 +
-. Click *History*.
-. Click *History* (on flyout menu).
+. Click *More Tools*.
 . Click *Clear Browsing Data*.
 . Set Time Range
 .. *All time*
@@ -157,16 +156,15 @@ Clear Cookies
 
 If you log in and see a blank page with the green bar across the top, but nothing else will load, you may need to clear your browser's cache and cookies.
 
-CAUTION: Before you clear cookies, be aware that clearing cookies will cause you to lose your registered workstations and local settings if they are still stored on the browser. As of Evergreen 3.3 these settings are stored on the Sitka server, but they have to be moved manually. Clearing cookies, and subsequently reconfiguring local settings, will save settings to the Sitka server by default in Evergreen 3.3.
+CAUTION: Before you clear cookies, be aware that clearing cookies will cause you to lose your registered workstations and local settings if they are still stored on the browser. As of Evergreen 3.3 these settings are stored on the Sitka server, and they have to be moved from browser to server manually. Clearing cookies, and subsequently reconfiguring local settings in Evergreen, will manually save settings to the Sitka server by default, and then clearing browser cookies will no longer be a concern for local settings.
 
 .Clear Cookies
 . Click *Menu*.
 +
 image::images/intro/browser1.png[]
 +
-. Click *History*.
-. Click *History* (on flyout menu).
-. Click *Clear Browsing Data*.
+. Click *More Tools*.
+. Click *Clear browsing data*.
 . Check the box next to _Cookies and other site data_.
 . Check the box next to _Cached images and files_.
 . Set Time Range
