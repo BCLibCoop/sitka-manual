@@ -4,7 +4,7 @@ Adding Holdings to Bibliographic Records
 link:https://youtu.be/Zn1rqJESu5Q[*Sitka Training Video - Volume/Copy Editor (7:26)*]
 
 Adding a Single Call Number/Copy
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Search the catalogue for a record that matches the item in hand, as described in xref:_searching_the_database_for_cataloguing_purposes[]. If you do not find a match, refer to the  http://docs.libraries.coop/policy/html/policy-cat.html[Sitka Cataloguing Policy] for recommendations on required procedures. If you do find a match, proceed to next step.
 
@@ -46,7 +46,11 @@ image::images/cat/add-holdings-10.png[]
 
 
 Adding Multiple Items to One Call Number
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<<<<<<< HEAD
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+=======
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>>>>>>> b309517c185460e947152ae44ca7c09396691905
 
 . To add multiple items to one library on Call Number/Item Creator, use the arrow in the *Items* column to increase the number. Extra lines show up for more barcodes.
 +
