@@ -39,7 +39,7 @@ link:https://goo.gl/MCa42e[Google Chrome Help - Create, view & edit bookmarks]
 [[tab-buttons-keyboard-shortcuts]]
 Tab Buttons and Keyboard Shortcuts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Now that the client will be loaded in a web browser, users can use browser-based tab controls and keyboard shortcuts to help with navigation. Below are some tips for browser navigation that can be used in Chrome on Windows PCs.
+As the staff client is loaded in a web browser, library staff can use browser-based tab controls and keyboard shortcuts to help with navigation. Below are some tips for browser navigation that can be used in Chrome on Windows PCs.
 
 .Keyboard Shortcuts
 * Use *CTRL-T* or click the browser’s new tab button to open a new tab.
@@ -155,9 +155,9 @@ image::images/intro/clearcache.png[]
 Clear Cookies
 ^^^^^^^^^^^^^
 
-If you log in and see a blank page with the green bar across the top (aka, the "white screen of death"), but nothing else will load, you may need to clear your browser's cache and cookies.
+If you log in and see a blank page with the green bar across the top, but nothing else will load, you may need to clear your browser's cache and cookies.
 
-CAUTION: Before you clear cookies, be aware that clearing cookies will cause you to lose your registered workstations and local settings unless you are using Hatch to store those settings.
+CAUTION: Before you clear cookies, be aware that clearing cookies will cause you to lose your registered workstations and local settings if they are still stored on the browser. As of Evergreen 3.3 these settings are stored on the Sitka server, but they have to be moved manually. Clearing cookies, and subsequently reconfiguring local settings, will save settings to the Sitka server by default in Evergreen 3.3.
 
 .Clear Cookies
 . Click *Menu*.
