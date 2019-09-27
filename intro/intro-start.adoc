@@ -132,9 +132,9 @@ Enable Hatch in Evergreen
 
 . Make sure that you see that Hatch is available. Select *Use Hatch For Printing* .
 
-. Click *Copy Local Storage Settings To Hatch*.
+. Log out. Print preferences will now be stored in Hatch. 
 
-. Log out. Preferences will now be stored in Hatch. This will enable you to clear your browser settings and not lose your staff preferences .
+
 
 Refer to xref:hatch-troubleshooting[] if you are having issues with Hatch.
 
