@@ -82,7 +82,7 @@ image::images/intro/changeop2.png[]
 Column Configuration
 ~~~~~~~~~~~~~~~~~~~~
 
-From many screens and lists, you can click on the column picker drop-down menu to change which columns are displayed. Various search results tables may not default to the most useful columns. For instance, the patron search results page may be easier to use if you change the columns to Card, Last Name, First Name, Middle Name, Dob, and Primary Identification, and you may wish to have the results sort by Last Name, then by First Name.
+From many screens and lists, you can click on the column picker drop-down menu to change which columns are displayed. Various search results tables may not default to the most useful columns. For instance, the patron search results page may be easier to use if you change the columns to Card, Last Name, First Name, Middle Name, and Primary Identification, and you may wish to have the results sort by Last Name, then by First Name.
 
 .To customize your columns:
 . Click on the dropdown arrow at the top-right of the results table.
@@ -112,7 +112,7 @@ image::images/intro/columnconfig4.png[]
 Downloading and Installing Hatch
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Hatch is an *optional* installable program that works with your browser to manage complex printing needs (such as printing to different printers under different circumstances) and store local settings (such as column configurations and custom print templates).
+Hatch is an *optional* installable program that works with your browser to manage complex printing needs, such as printing to different printers under different circumstances.
 
 anchor:download-hatch-ref[Hatch]
 . Install Java Runtime Environment (JRE).
@@ -130,7 +130,7 @@ Enable Hatch in Evergreen
 
 . Click *Print/Storage Service ('Hatch')*
 
-. Make sure that you see that Hatch is available. Click *Use Hatch For Printing*, *Store Local Settings in Hatch*, and *Store Offline Transaction Data in Hatch*.
+. Make sure that you see that Hatch is available. Select *Use Hatch For Printing* .
 
 . Click *Copy Local Storage Settings To Hatch*.
 
