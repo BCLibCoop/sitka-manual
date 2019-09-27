@@ -85,7 +85,7 @@ image::images/intro/browserpopup.png[]
 +
 image::images/intro/browser2.png[]
 +
-. Under _Privacy and Security_ click *Site settings*.
+. Under _Privacy and security_ click *Site settings*.
 . Click *Pop-ups and re-directs*.
 . Click *Add*.
 . Site: *https://catalogue.libraries.coop*.
@@ -103,7 +103,7 @@ image::images/intro/browser1.png[]
 +
 . Click *Settings*.
 . Scroll down to the bottom and click *Advanced*.
-. Under _Privacy and Security_ click *Site settings*.
+. Under _Privacy and security_ click *Site settings*.
 . Click *Cookies and site data*.
 . _Allow sites to save and read cookie data_ should be on.
 . _Clear cookies and site data when you quit Chrome_ should be off.
@@ -127,7 +127,7 @@ image::images/intro/browser1.png[]
 +
 . Click *Settings*.
 . Under Autofill click *Addresses and more*.
-. Turn *Save and fill addresses* off.
+. Turn off *Save and fill addresses*.
 +
 image::images/intro/autofill.png[]
 
@@ -142,8 +142,8 @@ Clear Cache
 +
 image::images/intro/browser1.png[]
 +
-. Click *More Tools*.
-. Click *Clear Browsing Data*.
+. Click *More tools*.
+. Click *Clear browsing data*.
 . Set Time Range
 .. *All time*
 . Check the box next to _Cached images and files_ (other boxes can be left unchecked).
@@ -163,7 +163,7 @@ CAUTION: Before you clear cookies, be aware that clearing cookies will cause you
 +
 image::images/intro/browser1.png[]
 +
-. Click *More Tools*.
+. Click *More tools*.
 . Click *Clear browsing data*.
 . Check the box next to _Cookies and other site data_.
 . Check the box next to _Cached images and files_.
@@ -183,8 +183,8 @@ the offline database.
 +
 image::images/intro/browser1.png[]
 +
-. Click *More Tools*.
-. Click *Developer Tools*.
+. Click *More tools*.
+. Click *Developer tools*.
 . Switch to the _Application tab_ (you may need to click on the double arrow so see all the tabs).
 . Expand the _Indexed DB section_.
 . Click on the *offline - https://catalogue.libraries.coop* section.
@@ -227,7 +227,7 @@ image::images/intro/browser1.png[]
 
 .Hatch Extension Console Messages:
 . In Chrome, click *Menu*.
-. Select More Tools.
+. Select More tools.
 . Select Extensions.
 . Check the box at the top of the screen that says Developer Mode.
 . Scroll down to Hatch Native Messenger.
