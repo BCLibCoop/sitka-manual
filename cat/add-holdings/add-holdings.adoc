@@ -30,8 +30,6 @@ image::images/cat/add-holdings-2a.png[]
 
 . Complete the required fields in both call number and item records. Refer to xref:_working_on_copy_attributes[] for information about individual fields in an item record. To ensure data consistency, using holdings templates is recommended. Select one from the dropdown list, then click on *Apply*. Refer to xref:_volume_copy_template[] for more information.
 +
-image::images/cat/add-holdings-3.png[]
-+
 . Once done, click on *Save & Exit*. The pop-up tab is closed. Use the browser function key to refresh the screen to see new items.
 
 
@@ -93,7 +91,7 @@ Adding Call Numbers/Items to Multiple Libraries
 +
 image::images/cat/add-holdings-8a.png[]
 +
-. If you want to add multiple volumes/items to one library, use the arrow in *Call Number* and *Items* volumes to increase the number. Extra lines will show up. Complete or edit call numbers and barcodes, then you can work on items on the *Working Items* tab.
+. If you want to add multiple call numbers/items to one library, use the arrow in *Call Number* and *Items* volumes to increase the number. Extra lines will show up. Complete or edit call numbers and barcodes, then you can work on items on the *Working Items* tab.
 +
 image::images/cat/add-holdings-8b.png[]
 +
