@@ -3,7 +3,7 @@ New Itemss and Holds
 (((Re-target Holds)))
 (((New Items)))
 
-Because of the way Evergreen targets holds, new copies are not guaranteed to fulfill pre-existing holds correctly until 24 hours after cataloguing. If your cataloguing turn-around time is shorter than 24 hours you can ensure the new copy is captured correctly at check in by using the checkin modifiers *Retarget Local Holds* and *Retarget All Statuses*, or by following the steps below. Co-op Support recommends single-branch libraries use the checkin modifiers, as once selected they are "sticky" and it is a simpler workflow than that described below. We recommend multi-branch libraries not use check-in modifiers to retarget holds, as the check-in modifier will only re-target the top local hold, which may not be the top system hold. We recommend you using the following procedure.
+Because of the way Evergreen targets holds, new items are not guaranteed to fulfill pre-existing holds correctly until 24 hours after cataloguing. If your cataloguing turn-around time is shorter than 24 hours you can ensure the new item is captured correctly at check in by using the checkin modifiers *Retarget Local Holds* and *Retarget All Statuses*, or by following the steps below. Co-op Support recommends single-branch libraries use the checkin modifiers, as once selected they are "sticky" and it is a simpler workflow than that described below. We recommend multi-branch libraries not use check-in modifiers to retarget holds, as the check-in modifier will only re-target the top local hold, which may not be the top system hold. We recommend you using the following procedure.
 
 . After adding the item, click on *View Holds*.
 +
