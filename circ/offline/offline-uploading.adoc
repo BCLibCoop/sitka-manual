@@ -9,7 +9,7 @@ There are 3 steps to to load offline transactions into Evergreen database:
 
 . Upload transactions to a session: to be done by circulation staff at circulation workstations. Offline transactions are uploaded to the file created on the server.
 
-. Process the uploaded transactions: to be done by local system administrators at an administration workstation. Offline transactions are loaded into Evergreen database. 
+. Process the uploaded transactions: to be done by local system administrators at an administration workstation. Offline transactions are loaded into Evergreen database.
 
 NOTE: Besides the above regular steps, you may need to handle exceptions if some of your transactions can not be processed.
 
@@ -37,36 +37,36 @@ If there are pending offline transactions on a workstation, on the login page th
 
 image::images/circ/offlineupload1.png[]
 
-You need to upload the transactions to the session just created on each workstation used for offline circulation. 
+You need to upload the transactions to the session just created on each workstation used for offline circulation.
 
-. To upload, log in to Evergreen. 
+. To upload, log in to Evergreen.
 . Go to *Circulation -> Offline Circulation*.
 . You will see transactions listed on *Pending Transactions* tab under *Session Management*.
 +
 image::images/circ/offlineupload1a.png[]
 +
-. Click *Offline Sessions* tab. You will see the session your local system administrator just created. Click *Upload*. 
+. Click *Offline Sessions* tab. You will see the session your local system administrator just created. Click *Upload*.
 +
 image::images/circ/offlineupload5.png[]
 +
-. Repeat the above process on each workstation used for offline circulation. Once done, local system adminstrator may process the session.
+. Repeat the above process on each workstation used for offline circulation. Once done, local system administrators may process the session.
 
 Process the uploaded transactions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To process uploaded transactions, you need to log in with a local system administrator's account. 
+To process uploaded transactions, you need to log in with a local system administrator's account.
 
 . Go to the offline session you created.
 . Check the *Upload Count*, which indicates the number of workstations that have uploaded offline transactions.
-. If the number matches the number of workstations used during offline, click *Process*. 
+. If the number matches the number of workstations used during offline, click *Process*.
 +
 image::images/circ/offlineupload6.png[]
 +
-. It may take a while if you have many transactions. Click *Refresh* to see the processing progress. Once all transactions are processed the Date Completed and Transactions Processed columns will be updated. 
+. It may take a while if you have many transactions. Click *Refresh* to see the processing progress. Once all transactions are processed the Date Completed and Transactions Processed columns will be updated.
 +
 image::images/circ/offlineupload7.png[]
 
-. Scroll to the bottom of the screen to see if there are any entries in the <<_exceptions,*Exception List*>>.  Some of these may require staff follow up. 
+. Scroll to the bottom of the screen to see if there are any entries in the <<_exceptions,*Exception List*>>.  Some of these may require staff follow up.
 
 
 Handle Exceptions
@@ -120,9 +120,9 @@ image::images/circ/offline-upload9.png[]
 
 NOTE: Depending on your browser's setting, you may be prompted to choose a location to save the file.
 
-To export transactions while you are logged in, navigate to *Circulation -> Offline Circulation* and click on the *Session Management* tab.  Click on the *Export Transactions* button to generate the pending.xacts file as above.  
+To export transactions while you are logged in, navigate to *Circulation -> Offline Circulation* and click on the *Session Management* tab.  Click on the *Export Transactions* button to generate the pending.xacts file as above.
 
-Double check to make sure the file is saved safely on the workstation, click *Clear Transactions* to clear the pending transactions. 
+Double check to make sure the file is saved safely on the workstation, click *Clear Transactions* to clear the pending transactions.
 
 image::images/circ/offline-upload10.png[]
 
@@ -132,9 +132,9 @@ CAUTION: If you do not clear transactions after exporting, next time when you do
 Import Offline Transactions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To import transactions, make sure your exported transactions file is available to the workstation you wish to load them to. 
+To import transactions, make sure your exported transactions file is available to the workstation you wish to load them to.
 
-. Log in to the staff client. 
+. Log in to the staff client.
 . Navigate to *Circulation -> Offline Circulation*
 . Click on the *Session Management* tab.
 . Click on the *Import Transactions* button.
@@ -145,4 +145,3 @@ image::images/circ/offline-upload11.png[]
 . Select the file for importing.
 . The *Pending Transactions* list will populate with your imported transactions.
 . You may now proceed according to the instructions under <<_upload_offline_transactions,Upload Offline Transactions>>.
-
