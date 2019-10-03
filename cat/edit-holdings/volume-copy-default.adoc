@@ -1,10 +1,10 @@
 [[_volume_copy_defaults]]
-Volume/Copy Defaults
+Call Number/Item Defaults
 ~~~~~~~~~~~~~~~~~~~~
 
-You may select to disable some fields in volume and copy records. 
+You may select to disable some fields in call number and item records. 
 
-. To configure the default fields, click on *Defaults* on volume copy editor.
+. To configure the default fields, click on *Defaults* on call number/item editor.
 +
 image::images/cat/volume-copy-default-1.png[]
 +
@@ -12,12 +12,10 @@ image::images/cat/volume-copy-default-1.png[]
 +
 image::images/cat/volume-copy-default-2.png[]
 
-. When you load the volume copy editor again, you will see those deselected fields are disabled. You can not edit them.
-+
-image::images/cat/volume-copy-default-3.png[]
+. When you load the call number/item editor again, you will see those deselected fields are gone.
 
 [TIP]
 ====
-If you wish to print spine and/or pocket labels when saving copy records, select *Print Item Labels on Save & Exit* checkbox. You will be directed to the spine label printing screen when clicking on *Save & Exit* on volume copy editor.
+If you wish to print spine and/or pocket labels when saving item records, select *Print Item Labels on Save & Exit* checkbox. You will be directed to the spine label printing screen when clicking on *Save & Exit* on call number/item editor.
 ====
 
