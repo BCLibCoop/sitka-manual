@@ -1,16 +1,16 @@
 [[_volume_copy_template]]
-Volume/Copy Template
+Holdings Template
 ~~~~~~~~~~~~~~~~~~~~~
 
-link:https://youtu.be/1GR6VDYMNpk[*Sitka Snippet Video - Volume/Copy Templates (4:55)*]
+link:https://youtu.be/1GR6VDYMNpk[*Sitka Snippet Video - Holdings Templates (4:55)*]
 
-anchor:volume-copy-template[Volume Copy Template]
-Volume Copy templates allow you to set up default values for selected volume and item attributes. For example, all adult fiction items use the same shelving location and circulation modifier. You may set up a template for adult fiction with the appropriate shelving location and circulation modifier values. When you apply this template, the two fields will be automatically filled with the default values. Use of templates enhances item creation and helps ensure consistency in records.
+anchor:volume-copy-template[Holdings Template]
+Holdings templates allow you to set up default values for selected call number and item attributes. For example, all adult fiction items use the same shelving location and circulation modifier. You may set up a template for adult fiction with the appropriate shelving location and circulation modifier values. When you apply this template, the two fields will be automatically filled with the default values. Use of templates enhances item creation and helps ensure consistency in records.
 
-Creating Volume Copy Template
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Creating Holdings Template
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. You can create a volume copy template directly under *Admin -> Local Administration -> Volume/Copy Template Editor* or  you can create a copy template when creating a new item or editing an existing item record.
+. You can create a holdings template directly under *Admin -> Local Administration -> Holdings Template Editor* or  you can create a holdings template when creating a new item or editing an existing item record.
 +
 image::images/cat/copy-template-3.png[]
 +
