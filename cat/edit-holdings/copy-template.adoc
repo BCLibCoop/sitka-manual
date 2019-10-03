@@ -10,7 +10,7 @@ Holdings templates allow you to set up default values for selected call number a
 Creating Holdings Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. You can create a holdings template directly under *Admin -> Local Administration -> Holdings Template Editor* or  you can create a holdings template when creating a new item or editing an existing item record.
+. You can create a holdings template directly under *Admin -> Local Administration -> Holdings Template Editor* or  you can create an item template when creating a new item or editing an existing item record.
 +
 image::images/cat/copy-template-3.png[]
 +
@@ -22,23 +22,23 @@ image::images/cat/copy-template-1.png[]
 +
 [TIP]
 ====
-If you choose to allow call number attributes to be included in copy template, you will be able set up classification scheme and call number prefixes for the template, as shown in the above screenshot. When the template is applied, these attributes will be applied to the call number. Refer to xref:_volume_copy_defaults[] for how to allow call number attributes to be included in copy template.
+If you choose to allow call number attributes to be included in holdings template, you will be able set up classification scheme and call number prefixes for the template, as shown in the above screenshot. When the template is applied, these attributes will be applied to the call number. Refer to xref:_volume_copy_defaults[] for how to allow call number attributes to be included in holdings template.
 ====
 +
-. When you go to Volume Copy Editor again, you will see the newly created template listed in the *Template* dropdown list.
+. When you go to Call Number/Item Editor again, you will see the newly created template listed in the *Template* dropdown list.
 +
 image::images/cat/copy-template-2.png[]
 +
 . To use it, select it and click *Apply*.
 
 
-Sharing Volume Copy Template
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Sharing Holdings Template
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 Templates are saved on the Evergreen server, but only viewable by the staff account that created them.  To share templates with other staff logins, you will need to export the templates, and have  staff import them into their accounts.
 
-. To export copy templates, click on *Export* on Volume Copy Template Editor.
+. To export holdings templates, click on *Export* on Holdings Template Editor.
 +
 image::images/cat/copy-template-4.png[]
 +
@@ -47,7 +47,7 @@ image::images/cat/copy-template-4.png[]
 image::images/cat/copy-template-5.png[]
 +
 . Copy or email the file to the staff who wants to load the templates.
-. Open the Volme Copy Template Editor on their workstation. Click on *Import*.
+. Open the Holdings Template Editor on their workstation. Click on *Import*.
 +
 image::images/cat/copy-template-6.png[]
 +
@@ -58,5 +58,5 @@ image::images/cat/copy-template-7.png[]
 
 [TIP]
 =====
-When importing copy templates, existing templates will be kept, and new ones  added. Templates sharing the same name will be overlaid by the new templates.
+When importing holdings templates, existing templates will be kept, and new ones  added. Templates sharing the same name will be overlaid by the new templates.
 =====
