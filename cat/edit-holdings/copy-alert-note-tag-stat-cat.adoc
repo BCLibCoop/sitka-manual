@@ -1,13 +1,13 @@
 [[copy-alert]]
-Copy Alert, Note, Tag and Stat Cat
+Item Alert, Note, Tag and Stat Cat
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Copy Alert
+Item Alert
 ^^^^^^^^^^
 
-Copy alerts pop up on the screen when the item is retrieved. There are a few types of copy alert that show up when the corresponding type of action is applied to the item. For example, you may add a checkin copy alert when you are checking out an item to a patron and notice that the spine label needs to be replaced. When the item is returned, on checking in, staff will see the message you left. You may create a checkout copy alert for items that have accompanying materials kept separately. When the item is checked out, the alert will pop up on the screen.
+Item alerts pop up on the screen when the item is retrieved. There are a few types of copy alert that show up when the corresponding type of action is applied to the item. For example, you may add a checkin copy alert when you are checking out an item to a patron and notice that the spine label needs to be replaced. When the item is returned, on checking in, staff will see the message you left. You may create a checkout copy alert for items that have accompanying materials kept separately. When the item is checked out, the alert will pop up on the screen.
 
-Copy alerts can be added when you create or edit a copy record.
+Item alerts can be added when you create or edit a item record.
 
 . Click *Copy Alerts*.
 . Choose a type from the dropdown list.
