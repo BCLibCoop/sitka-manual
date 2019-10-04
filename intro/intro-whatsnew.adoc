@@ -12,19 +12,19 @@ Web Staff Client (Web Client)
 * Tooltip functionality is restored. You can hover your mouse over column cells to display content of fields, to see the information you want, with no need to widen columns on the fly.
 
 Circulation
-~~~~~~~~~~~
+^^^^^^^^^^^
 * New Checkin Modifier Update Inventory adds an inventory date to item records, simplifying inventory workflows.
 
 * Update Inventory is also available on the Actions menu on the Item Status screen.
 
 
 Cataloguing
-~~~~~~~~~~~
+^^^^^^^^^^^
 
 
 
 Catalogue/OPAC
-~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^
 
 * Batch Actions In the Catalogue. Staff and patrons can select multiple records into a “cart”, and perform batch actions, including Place Hold, Print Title Details, Email Title Details, Add Cart to Saved List, and Clear Cart.
 
@@ -34,11 +34,11 @@ Catalogue/OPAC
 
 
 Library Settings
-~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^
 * Emergency Closing Handler. Staff can create library closings that, in addition to affecting future circulation and booking due dates, and hold shelf expiry dates, will automatically move existing circulation and booking due dates and hold shelf expiry times.
 
 Patron Accounts
-~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^
 * Patron Preferred Name fields added to patron record, providing increased options and flexibility for staff and patrons.
 
 * Patron Name Keyword Search. An additional field for storing search terms in a patron record, plus the addition of a global patron name keyword search, that searches across all name fields.
@@ -46,8 +46,8 @@ Patron Accounts
 * Parent/Guardian field has been restored in 3.3, and displays in the patron summary.
 
 Serials
-~~~~~~~
+^^^^^^^
 
 
 Reports
-~~~~~~~
+^^^^^^^
