@@ -53,7 +53,7 @@ image::images/cat/copy-alert-3.png[]
 +
 image::images/cat/copy-alert-4.png[]
 
-. To delete a note, open the copy record and select the *Deleted?* check box. Click *OK*, then *Save & Exit*.
+. To delete a note, open the item record to access item note. Click *Remove*, then *OK* in the popup window. *Save & Exit* the item record.
 +
 image::images/cat/copy-alert-5.png[]
 
@@ -97,7 +97,7 @@ Item tags can be removed via the same process.
 Item Statistical Category (Stat Cat)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Item Statistical Category, aka Item Stat Cat, is another piece of item level information that may be added to item records. As the name suggests, it may be used to facilitate reporting categories, if the data is not available in item records.  Libraries create their own stat cats. Refer to xref:uio[].
+Item Statistical Category, aka Item Stat Cat, is another piece of item level information that may be added to item records. As the name suggests, it may be used to facilitate reporting categories, if the data is not available in item records.  Libraries create their own stat cats. Refer to xref:stat-cat[].
 
 . To add a item stat cat, go to item editor.
 . In the  *Statistical Categories* column, choose an entry from the appropriate stat cat dropdown list. The value is added when the item record is saved.

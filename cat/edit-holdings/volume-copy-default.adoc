@@ -2,13 +2,13 @@
 Call Number/Item Defaults
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You may select to disable some fields in call number and item records. 
+You may select to hide some fields in call number and item records. 
 
 . To configure the default fields, click on *Defaults* on call number/item editor.
 +
 image::images/cat/volume-copy-default-1.png[]
 +
-. Select/deselect the fields you want to enable/disable. Once done, close the tab.
+. Select/deselect the fields you want to show/hide. Once done, close the tab or go to another tab.
 +
 image::images/cat/volume-copy-default-2.png[]
 
