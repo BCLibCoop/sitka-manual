@@ -4,7 +4,8 @@ New Features in Evergreen Version 3.3
 link:https://www.youtube.com/playlist?list=PLdwlgwBNnH4pEJoh9XhMuiDHPmfNKrLLh[*Sitka's Evergreen 3.3 - New Features (00:00)*]
 
 Web Staff Client (Web Client)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 * Local workstation settings can now be stored on Sitka's Evergreen servers. Your current settings stored on the browser will continue to function, but once they  have been edited and saved in any way, they will be stored on server from then on. Settings can be transitioned to server gradually as edits occur, or, you can delete browser cookies, re-configure all  workstation settings, and save them on the servers.
 
 * Hatch can still be used to print. Use of Hatch is optional. See xref:download-hatch-ref[]
@@ -21,9 +22,9 @@ Circulation
 Cataloguing
 ^^^^^^^^^^^
 
-* what is new
+* Spine Label Sheet Printing. Cataloguers can now print spine labels onto 8 1/2 x 11 inch label sheets.
 
-* need content
+
 
 Catalogue/OPAC
 ^^^^^^^^^^^^^^
@@ -46,12 +47,3 @@ Patron Accounts
 * Patron Name Keyword Search. An additional field for storing search terms in a patron record, plus the addition of a global patron name keyword search, that searches across all name fields.
 
 * Parent/Guardian field has been restored in 3.3, and displays in the patron summary.
-
-Serials
-^^^^^^^
-
-* anything to add?
-
-Reports
-^^^^^^^
-* what to say
