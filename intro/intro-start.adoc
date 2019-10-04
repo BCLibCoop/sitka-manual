@@ -20,6 +20,8 @@ link:https://youtu.be/-3HbQQdH9FQ[*Sitka Snippet Video - Register Workstation (1
 
 Before logging into Evergreen, you must first register a workstation from your browser.
 
+NOTE: Local System Administrator permissions are required to register a new workstation.
+
 . Navigate to the web client log in page.
 . Enter *Username* and *Password* -> Click *Sign In*
 +
@@ -42,7 +44,7 @@ image::images/intro/getstarted5.png[]
 +
 image::images/intro/getstarted6.png[]
 
-NOTE: Local System Administrator permissions are required to register a new workstation.
+
 
 Logging into Evergreen
 ^^^^^^^^^^^^^^^^^^^^^^
