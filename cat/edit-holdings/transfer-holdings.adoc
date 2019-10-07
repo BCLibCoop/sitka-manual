@@ -1,15 +1,15 @@
 Transferring Holdings
 ~~~~~~~~~~~~~~~~~~~~~
 
-There are times when you need to move copy records from one title record to another, or move copies from one volume to another under the same or another title record. There are functions in Evergreen to allow you to do so. The critical step is to ensure that you first mark the destination record, then move the source record with the corresponding transfer function. Co-op Support recommends you read through the process first before starting, as each scenario has different characteristics. 
+There are times when you need to move item records from one title record to another, or move items from one call number to another under the same or another title record. There are functions in Evergreen to allow you to do so. The critical step is to ensure that you first mark the destination record, then move the source record with the corresponding transfer function. Co-op Support recommends you read through the process first before starting, as each scenario has different characteristics. 
 
-Transferring Volume and Copies
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Transferring Call Numbers and Items
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-When you want to transfer all items under one call number/volume to another title record or another library under the same title, you  use the *Transfer Volume* function. Evergreen will transfer both the call number record and all items under it to the new title and/or library.
+When you want to transfer all items under one call number to another title record or another library under the same title, you  use the *Transfer Call Number* function. Evergreen will transfer both the call number record and all items under it to the new title and/or library.
 
 [[transfer-volume-to-another-record]]
-*Transferring Volumes to Another Title Record*
+*Transferring Call Numbers to Another Title Record*
 
 . Find the destination or target record. On *Mark for* dropdown list, select *Holdings Transfer*.
 +
@@ -31,13 +31,13 @@ image::images/cat/transfer-holding-4a.png[]
 +
 [NOTE]
 ========
-Your volume's owning library and copies' circulation library will not be changed during the transfer. If you already have volumes under the destination record and the call numbers are the same, the call numbers will be merged.
+Your call number's owning library and items' circulation library will not be changed during the transfer. If you already have call numbers under the destination record and the call numbers are the same, the call numbers will be merged.
 ========
 
 [[transfer-volume-to-another-library]]
-*Transferring Volumes to Another Library*
+*Transferring Call Numbers to Another Library*
 
-. On *Holdings View* of the target title record, select the destination library. Click *Actions* dropdown list. Scroll down to *Mark*. Select *Library/Volume as Transfer Destination*. 
+. On *Holdings View* of the target title record, select the destination library. Click *Actions* dropdown list. Scroll down to *Mark*. Select *Library/Call Number as Transfer Destination*. 
 +
 image::images/cat/transfer-holding-5.png[]
 +
