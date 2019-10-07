@@ -6,20 +6,23 @@ You can edit items in batch on the *Item Status* screen, or in *Item Bucket*. On
 
 *Batch Editing Items on Item Status Screen*
 
-. Scan the barcodes to retrieve the items you want to edit, or load items from a CSV file of a list of barcodes.
+. Scan the barcodes to retrieve the items you want to edit, or click "Choose File" to load items from a text file of a list of barcodes*.
 . Select records to edit,  click *Actions* dropdown list, scroll down to *Edit*, and click *Items*.
-. Item Editor opens in a new tab. Edit the items and click *Save & Exit*.
 +
 image::images/cat/copy-batch-edit-1.png[]
++
+. Item Editor opens in a new tab. Edit the items and click *Save & Exit*.
++
+image::images/cat/copy-batch-edit-2.png[]
 
 [NOTE]
 ======
-. When the selected items do not share the same value in a field, the field is empty on the Item Editor.
-. To update all selected items to one shared value, for example *Shelving Location*, edit that attribute in Item Editor in first record.
+. When the selected items do not share the same value in a field, the field is empty and a dropdowm list with the multiple values shows up under the field.
+. For each field, you can only put in one value for all the selected records. Do not touch fields that you do not intend to edit, esp. those with multiple values.
 . You can select a few items to edit, store them in the *Completed Items* tab, then work on other items.
 ======
 
-*Batch Editing Items in Item Bucket*
+*Batch Editing Items in Item Buckets*
 
 . Click *Cataloguing -> Item Buckets*.
 . Select an item bucket from the *Buckets* dropdown list.
