@@ -64,26 +64,21 @@ image::images/cat/spine-label-8.png[]
 +
 .. Print Feed Option: click the radio button to choose to use sheet labels or roll labels (continuous)
 .. Starting Position on Label Grid: specify the starting row and colum
-.. the number of rows and colums the label sheet/roll contains, the starting position of the first label, spine or pocket label only or both, number of copies for each label, and the position of the print on each label (label mar
+.. Label Set Configuration: click the Spine Label and/or Pocket Label radio button(s) to print spine or pocket label only or both.  Each call number is considered a label set. You may specify the number of labels in each set and which label (spine label or pocket label) to be printed in which column. The screenshot shows two labels to be printed for each call number.
+.. Page Settings section allows you to specify the position of the labels: the page margin, number of rows and columns of labels on each page and gaps between labels.
+.. Font & Label Settings: here you define the size of the label, position the printed content in the label and format the print.
 +
 image::images/cat/spine-label-9.png[]
 +
 . *Label Template* includes the script used to do the printing job. The top portion is the explanation. The lower portion is the code for printing. Changes in Settings will be reflected in the code. You do not edit the code directly.
 
-. The default template prints both spine labels and pocket labels. To print spine label only, you need to delete the portion for printing pocket label.
-+
-image::images/cat/spine-label-10.png[]
 
-TIP: If you need to adjust the pocket label content, follow the instructions above the printing code.
+*Label Printing Template*
 
-CAUTION: Changes made on all tabs, except *Call Numbers*, will be automatically saved when you leave the tab. To revert everything back to the default, click  *Default* on the top template bar.
+You can save your adjustment on label printing settings to a label printing template. For example, if you usually print spine labels only, but sometimes print both spine and  pocket label, you can create two templates: one for spine label only, the other for both labels. When printing the labels, you just need to choose the appropriate one from the list, then click *Apply*.
 
-*Label Template*
-
-You can save your adjustment on label printing settings to a label template. For example, if you usually print spine labels only, but sometimes print both spine and  pocket label, you can create two templates: one for spine label only, the other for both labels. When printing the labels, you just need to choose the appropriate one from the list, then click *Apply*.
-
-To create a label template, make the necessary adjustment on any or all tabs. Once done,  type in a name in the *Template* box, and click *Save*.
+To create a label printing template, make the necessary adjustment on any or all tabs. Once done,  type in a name in the *Template* box, and click *Save*.
 
 image::images/cat/spine-label-11.png[]
 
-TIP: Label templates are linked to login accounts. To share templates, you can export them, and send them to your colleagues for them to import into their own accounts.
+TIP: Label printing templates are linked to login accounts. To share templates, you can export them, and send them to your colleagues for them to import into their own accounts.
