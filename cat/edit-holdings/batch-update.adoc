@@ -1,26 +1,26 @@
-Batch Editing Copies
-~~~~~~~~~~~~~~~~~~~~
+Batch Editing Items
+~~~~~~~~~~~~~~~~~~~
 
-You can edit copies in batch on the *Item Status* screen, or in *Copy Bucket*. On *Holdings View*, you can edit a few selected copies under the same title.
+You can edit items in batch on the *Item Status* screen, or in *Item Bucket*. On *Holdings View*, you can edit a few selected Items under the same title.
 
 
-*Batch Editing Copies on Item Status Screen*
+*Batch Editing Items on Item Status Screen*
 
-. Scan the barcodes to retrieve the copies you want to edit, or load copies from a CSV file of a list of barcodes.
+. Scan the barcodes to retrieve the items you want to edit, or load items from a CSV file of a list of barcodes.
 . Select records to edit,  click *Actions* dropdown list, scroll down to *Edit*, and click *Items*.
-. Copy Editor opens in a new tab. Edit the copies and click *Save & Exit*.
+. Item Editor opens in a new tab. Edit the items and click *Save & Exit*.
 +
 image::images/cat/copy-batch-edit-1.png[]
 
 [NOTE]
 ======
-. When the selected copies do not share the same value in a field, the field is empty on the Copy Editor.
-. To update all selected copies to one shared value, for example *Shelving Location*, edit that attribute in Copy Editor in first record.
-. You can select a few copies to edit, store them in the *Completed Copies* tab, then work on other copies.
+. When the selected items do not share the same value in a field, the field is empty on the Item Editor.
+. To update all selected items to one shared value, for example *Shelving Location*, edit that attribute in Item Editor in first record.
+. You can select a few items to edit, store them in the *Completed Items* tab, then work on other items.
 ======
 
-*Batch Editing Copies in Copy Bucket*
+*Batch Editing Items in Item Bucket*
 
-. Click *Cataloguing -> Copy Buckets*.
-. Select a copy bucket from the *Buckets* dropdown list.
-. Select the copies you wish to edit and click *Actions -> Edit Selected Copies*.
+. Click *Cataloguing -> Item Buckets*.
+. Select an item bucket from the *Buckets* dropdown list.
+. Select the items you wish to edit and click *Actions -> Edit Selected Items*.
