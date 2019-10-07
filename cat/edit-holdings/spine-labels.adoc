@@ -6,13 +6,11 @@ Spine/Pocket Labels
 Single Label Roll
 ^^^^^^^^^^^^^^^^^
 
-If your printer uses single label roll paper, please follow the procedure below.
-
 *Printing Spine Label during Cataloguing*
 
-You may choose to print spine labels during the cataloguing process. On saving copy records, you will be automatically directed to the printing item label screen. However, you need to set it up first.
+You may choose to print spine labels during the cataloguing process. On saving item records, you will be automatically directed to the printing item label screen. However, you need to set it up first.
 
-. Go to *Defaults* on copy editor.
+. Go to *Defaults* on item editor.
 +
 image::images/cat/spine-label-1.png[]
 +
@@ -20,8 +18,7 @@ image::images/cat/spine-label-1.png[]
 +
 image::images/cat/spine-label-2.png[]
 +
-. With the above setting in place, when you finish editing copy records, click *Save & Exit*.
-. *Print Item Labels* screen opens up in a new tab. Make adjustments, if necessary.
+. With the above setting in place, when you finish editing item records, click Save & Exit. *Print Item Labels* screen opens up in a new tab. Make adjustments, if necessary.
 . Click *Print*.
 +
 image::images/cat/spine-label-3.png[]
@@ -47,16 +44,9 @@ image::images/cat/spine-label-5.png[]
 +
 image::images/cat/spine-label-6.png[]
 
-You can also print labels from a  *Copy Bucket*.
+You can also print labels from a  *Item Buckets*.
 
 image::images/cat/spine-label-7.png[]
-
-
-[[sheet_label]]
-Label Sheet
-^^^^^^^^^^^
-
-If your printer uses sheet labels, you can prepare a template in a text editor. On the above label preview screen, copy over labels from Evergreen to your template to print them.
 
 
 Configuring Label Printing
@@ -64,18 +54,18 @@ Configuring Label Printing
 
 You configure label printing on the *Print Item Labels* screen. There are four tabs on this screen.
 
-. *Call Number Template* shows the template used to extract information for the spine label. The default includes call number prefix, copy location prefix, call number label, call number suffix and copy location suffix.
+. *Call Number Template* shows the template used to extract information for the spine label. The default includes call number prefix, copy location prefix, call number label, call number suffix and shelving location suffix.
 
 . *Call Numbers* shows the spine label generated for the item based on the above template. For individual spine labels, you may edit them temporarily for the current printing only.
 +
 image::images/cat/spine-label-8.png[]
 +
-. *Settings* is the place where you set up the format of the printing and the label. Settings here will override the group of settings under Item Print Label on Library Settings Editor.
-
-. *Label Template* includes the script used to do the printing job. The top portion is the explanation. The code for printing contents and format starts from *<table ...*.
+. *Settings* is the place where you set up the format of the printing and the label. Settings here will override the group of settings under Item Print Label on Library Settings Editor. Here you may configure the following:  choose to use sheet labels or roll labels (continuous), the number of rows and colums the label sheet/roll contains, the starting position of the first label, spine or pocket label only or both, number of copies for each label, and the position of the print on each label (label mar
 +
 image::images/cat/spine-label-9.png[]
 +
+. *Label Template* includes the script used to do the printing job. The top portion is the explanation. The lower portion is the code for printing. Changes in Settings will be reflected in the code. You do not edit the code directly.
+
 . The default template prints both spine labels and pocket labels. To print spine label only, you need to delete the portion for printing pocket label.
 +
 image::images/cat/spine-label-10.png[]
