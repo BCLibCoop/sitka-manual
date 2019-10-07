@@ -60,7 +60,11 @@ You configure label printing on the *Print Item Labels* screen. There are four t
 +
 image::images/cat/spine-label-8.png[]
 +
-. *Settings* is the place where you set up the format of the printing and the label. Settings here will override the group of settings under Item Print Label on Library Settings Editor. Here you may configure the following:  choose to use sheet labels or roll labels (continuous), the number of rows and colums the label sheet/roll contains, the starting position of the first label, spine or pocket label only or both, number of copies for each label, and the position of the print on each label (label mar
+. *Settings* is the place where you set up the format of the printing and the label. Settings here will override the group of settings under Item Print Label on Library Settings Editor. Here you may configure the following:  
++
+.. Print Feed Option: click the radio button to choose to use sheet labels or roll labels (continuous)
+.. Starting Position on Label Grid: specify the starting row and colum
+.. the number of rows and colums the label sheet/roll contains, the starting position of the first label, spine or pocket label only or both, number of copies for each label, and the position of the print on each label (label mar
 +
 image::images/cat/spine-label-9.png[]
 +
