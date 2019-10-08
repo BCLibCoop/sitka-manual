@@ -1,12 +1,12 @@
 Deleting Holdings
 ~~~~~~~~~~~~~~~~~
 
-When adding items to the catalogue, you need to have a bibliographic record first, then you create a volume and a copy record. When you delete holdings you follow the reverse order. You need to delete copy records first. By design and Sitka's configuration, Evergreen will also attempt to delete the volume and bibliographic record. These records will be deleted if they are not used by other copies/volumes. If you delete your library's last copy, the volume record will be deleted together with the copy. If this is also the last copy for the title (no other libraries have a copy), the bibliographic record will be deleted, too. So, for most cases, you just need to delete the copy records. . If possible, Evergreen will delete the volume and bibliographic records automatically. Occasionally you may want to delete an "orphan" volume (without any copy) or bibliographic (without any volume) record.
+When adding items to the catalogue, you need to have a bibliographic record first, then you create a call number and an item record. When you delete holdings you follow the reverse order. You need to delete item records first. By design and Sitka's configuration, Evergreen will also attempt to delete the call number and bibliographic record. These records will be deleted if they are not used by other items/call numbers. If you delete your library's last item, the call number record will be deleted together with the item. If this is also the last item for the title (no other libraries have an item), the bibliographic record will be deleted, too. So, for most cases, you just need to delete the item records. . If possible, Evergreen will delete the call number and bibliographic records automatically. Occasionally you may want to delete an "orphan" call number (without any item) or bibliographic (without any call number) record.
 
-Deleting Copies
+Deleting Items
 ^^^^^^^^^^^^^^^
 
-*Deleting Copies on Item Status Screen*
+*Deleting Items on Item Status Screen*
 
 If you have the item in hand, the quickest way to delete an item is to scan the item into Item Status screen.
 
@@ -14,7 +14,7 @@ If you have the item in hand, the quickest way to delete an item is to scan the 
 +
 image::images/cat/delete-holding-1.png[]
 +
-. You are prompted to confirm deleting the copies and volumes, if any.
+. You are prompted to confirm deleting the items and call numbers, if any.
 +
 image::images/cat/delete-holding-2.png[]
 
@@ -23,35 +23,35 @@ image::images/cat/delete-holding-2.png[]
 You will see *Item not Found* in a red box showing up after the deletion. You can ignore it.
 =====
 
-*Deleting Copies on Holdings View*
+*Deleting Items on Holdings View*
 
-. On the catalogue, in Holdings View, select the copies you want to delete.    . Click *Actions* dropdown list.
-. Scroll down to *Delete* to select *Delete Copies* or *Volumes and Copies*.
+. On the catalogue, in Holdings View, select the items you want to delete.  Click *Actions* dropdown list.
+. Scroll down to *Delete* to select *Delete Items* or *Call Numbers and Items*.
 +
 image::images/cat/delete-holding-3.png[]
 
-*Deleting Copies in Copy Bucket*
+*Deleting Items in Item Buckets*
 
-If your items are in a copy bucket, you can delete them from there.
+If your items are in a Item bucket, you can delete them from there.
 
-. Select those copies you wish to delete.
-. On *Actions* dropdown list, under *Items*, click *Delete Selected Copies from Catalogue*.
+. Select those items you wish to delete.
+. On *Actions* dropdown list, under *Items*, click *Delete Selected Items from Catalogue*.
 +
 image::images/cat/delete-holding-4.png[]
 
-Deleting Volumes without Copies Attached
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Deleting Call Numbers without Items Attached
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Occasionally you may want to delete a volume record without copies attached to it. For example, you created a volume record, but did not add a copy to it. To delete it, you need to find the title. Go to Holdings View. Highlight the "orphan" volume record, select *Actions -> Delete -> Empty Volumes*. If this is the last volume, the bibliographic record will be deleted, too.
+Occasionally you may want to delete a call number record without items attached to it. For example, you created a call number record, but did not add an item to it. To delete it, you need to find the title. Go to Holdings View. Highlight the "orphan" call number record, select *Actions -> Delete -> Delete Empty Call Numbers*. If this is the last call number, the bibliographic record will be deleted, too.
 
-Deleting Bibliographic Record without Volume/Copy Attached
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Deleting Bibliographic Record without Call Number/Item Attached
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You may have created/imported a MARC record, but did not use it for your copy. In such a scenario you should delete the record. Find the title on the catalogue, go to *MARC Edit*, click *Delete*. You are prompted to confirm the deletion. Once done, the record will be deleted.
+You may have created/imported a MARC record, but did not use it for your item. In such a scenario you should delete the record. Find the title on the catalogue, go to *MARC Edit*, click *Delete*. You are prompted to confirm the deletion. Once done, the record will be deleted.
 
 image::images/cat/delete-holding-5.png[]
 
-If you do not see any copies under the record, but are prompted that the record can not be deleted, very likely there are "orphan" volume records still under the title. You need to go to Holdings View to locate and delete the volume records. The MARC record will be deleted when you delete the last volume.
+If you do not see any itemss under the record, but are prompted that the record can not be deleted, very likely there are "orphan" call number records still under the title. You need to go to Holdings View to locate and delete the call number records. The MARC record will be deleted when you delete the last call number.
 
 [TIP]
 =====
@@ -59,5 +59,5 @@ Deleted MARC records can be retrieved and undeleted if you know the record's dat
 
 image::images/cat/delete-holding-6.png[]
 
-Co-op Support regularly deletes volume records without copies and bibliographic records without copies or volumes.
+Co-op Support regularly deletes call number records without items and bibliographic records without items or call numbers.
 =====
