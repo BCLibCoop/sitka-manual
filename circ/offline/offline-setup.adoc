@@ -10,7 +10,8 @@ Prior to using Offline Circulation, you need to do the following, which requires
 . *Load configuration information* by performing a patron search. Select any patron on the result list. Go to Edit tab. The relevant configuration information for the workstation is downloaded during this process.
 +
 . *Set up a default printer* for Offline Circulation, if you use Hatch.  Go to *Administration -> Workstation -> Printer Settings*.
-+. *Save the Offline Circulation URL* as a Chrome Bookmark.
++
+. *Save the Offline Circulation URL* as a Chrome Bookmark.
 
 [TIP]
 ====
