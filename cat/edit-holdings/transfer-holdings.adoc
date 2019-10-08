@@ -21,7 +21,7 @@ image::images/cat/transfer-holding-2.png[]
 +
 NOTE: Transfer target is kept until it is reset (via *Reset Record Marks* on *Mark for* list) or a new target is marked.
 +
-. Go to *Holdings View* of the source title. Select the volume you want to transfer. Click *Actions* list. Scroll down to *Transfer*. Choose *Volumes to Previously Marked Destination*.
+. Go to *Holdings View* of the source title. Select the call number you want to transfer. Click *Actions* list. Scroll down to *Transfer*. Choose *Call Numbers to Previously Marked Destination*.
 +
 image::images/cat/transfer-holding-3.png[]
 +
@@ -43,7 +43,7 @@ image::images/cat/transfer-holding-5.png[]
 +
 . Confirmation appears at the bottom right corner of the screen.
 +
-. Find the source title. Select the source volume on *Holdings View*. Click *Actions* dropdown list. Scroll down to *Transfer*. Select *Volumes to Previously Marked Destination*.
+. Find the source title. Select the source volume on *Holdings View*. Click *Actions* dropdown list. Scroll down to *Transfer*. Select *Call Numbers to Previously Marked Destination*.
 +
 image::images/cat/transfer-holding-6.png[]
 +
@@ -51,33 +51,33 @@ image::images/cat/transfer-holding-6.png[]
 
 [NOTE]
 ========
-During the above process, if you select to show copy details, you may select one copy under the volume/library to represent it. Below is an example.
+During the above process, if you select to show item details, you may select one item under the call number/library to represent it. Below is an example.
 
 image::images/cat/transfer-holding-6a.png[]
 ========
 
 [TIP]
 =======
-If the destination library has a volume with the same call number, the volumes will be merged during the transfer.
+If the destination library has a call number with the same call number, the call numbers will be merged during the transfer.
 =======
 
 [[transfer-copy]]
-Transferring Copies
-^^^^^^^^^^^^^^^^^^^
+Transferring Items
+^^^^^^^^^^^^^^^^^^
 
-You may want to transfer some of the copies under one volume to another volume/library under the same or another record, or transfer all copies under one volume to another with a different call number. You use the  *Transfer Copies* function.
+You may want to transfer some of the items under one call number to another call number/library under the same or another record, or transfer all items under one call number to another with a different call number. You use the  *Transfer Items* function.
 
-*Transferring Copies to Another Volume/Library*
+*Transferring Items to Another Call Number/Library*
 
-. Find the destination title record. On *Holdings View*, select the destination volume/library. Click *Actions* dropdown. Go to *Mark* to select *Library/Volume as Transfer Destination*.
+. Find the destination title record. On *Holdings View*, select the destination call number/library. Click *Actions* dropdown. Go to *Mark* to select *Library/Call Number as Transfer Destination*.
 +
 image::images/cat/transfer-holding-9.png[]
 +
-. Go to the source record, if different from the destination. On *Holdings View*, select the copies you wish to transfer. Click *Actions* dropdown list. Go to *Transfer* to select *Items to Previously Marked Destination*.
+. Go to the source record, if different from the destination. On *Holdings View*, select the items you wish to transfer. Click *Actions* dropdown list. Go to *Transfer* to select *Items to Previously Marked Destination*.
 +
 image::images/cat/transfer-holding-10.png[]
 +
-. The source copy disappears, if destination is under another record. The confirmation pops up at the bottom right of the screen.
+. The source item disappears, if destination is under another record. The confirmation pops up at the bottom right of the screen.
 +
 image::images/cat/transfer-holding-11.png[]
 
