@@ -39,7 +39,7 @@ image::images/circ/offline_warning.png[]
 +
 ** This warning is not network-aware and it will appear regardless of network connection state.  You must be logged out to record offline transactions.
 ** If you see this warning and wish to record offline transactions, click *Proceed* in order to log out.
-+
+
 
 Set Offline Printer
 ^^^^^^^^^^^^^^^^^^^
