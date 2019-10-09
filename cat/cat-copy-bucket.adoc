@@ -75,15 +75,15 @@ image::images/cat/copy-bucket-5a.png[]
 Adding/Removing Item Records to/from a Bucket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-*Add Copies to a Bucket*
+*Add Items to a Bucket*
 
-Copies can be added to a bucket when they are displayed on *Checkin*, *Item Status* and *Holdings View* screen.
+Items can be added to a bucket when they are displayed on *Checkin*, *Item Status* and *Holdings View* screen.
 
 . You can select multiple items and add them to an item bucket at one time.    . Click *Actions -> Add Items to Bucket*.
 +
 image::images/cat/copy-bucket-6.png[]
 
-You can add copies to a bucket on *Item Bucket View*.
+You can add items to a bucket on *Item Bucket View*.
 
 . Go to *Pending* tab to scan or type in item barcodes.
 +
@@ -95,26 +95,25 @@ image::images/cat/copy-bucket-7.png[]
 +
 image::images/cat/copy-bucket-8.png[]
 
-*Remove Copies from a Bucket*
+*Remove Items from a Bucket*
 
-To remove copies from a bucket, retrieve the bucket, select the copies, choose *Actions -> Bucket -> Remove Selected Copies from Bucket*
+To remove items from a bucket, retrieve the bucket, select the items, choose *Actions -> Bucket -> Remove Selected Items from Bucket*
 
 image::images/cat/copy-bucket-9.png[]
 
 
-Working with Copies in a Bucket
+Working with Items in a Bucket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-You can apply the following functions to selected copies in a bucket.
+You can apply the following functions to selected items in a bucket.
 
 
 * *Delete Item Records*
 * *Edit Item Records*
-* *Transfer Copies to a Selected Volume*
+* *Transfer Items to a Selected Volume*
 * *Print Labels*
 
-To apply these functions, retrieve the bucket, select copies, then choose the function from the *Actions* list.
+To apply these functions, retrieve the bucket, select items, then choose the function from the *Actions* list.
 
-image::images/cat/copy-bucket-10.png[]
 
 Retrieving Shared Buckets
 ~~~~~~~~~~~~~~~~~~~~~~~~
