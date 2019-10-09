@@ -18,7 +18,7 @@ Buckets can be shared or private, and are associated with a login account.
 =====
 Deleted records are not automatically removed from buckets. It is recommended that you always display *Deleted?* field in Bucket View.
 
-When a bucket is retrieved, all information about the records in it is transferred to the workstation. It consumes the computer's resources. It is recommended that a item bucket contain no more than a few hundred records.
+When a bucket is retrieved, all information about the records in it is transferred to the workstation. It consumes the computer's resources. It is recommended that an item bucket contain no more than a few hundred records.
 =====
 
 Creating/Deleting Item Buckets
@@ -27,9 +27,9 @@ Creating/Deleting Item Buckets
 [[create-bucket]]
 *Create Item Buckets*
 
-There are two ways to create a item bucket. You can either create a bucket first, without accessing any copies, or you can access a item record and choose to create the bucket from that view. We will demonstrate both methods here.
+There are two ways to create an item bucket. You can either create a bucket first, without accessing any copies, or you can access an item record and choose to create the bucket from that view. We will demonstrate both methods here.
 
-*Create a Item Bucket on Item Buckets* view
+*Create an Item Bucket on Item Buckets* view
 
 . Select *Cataloging -> Item Buckets* from the menu bar.
 
@@ -41,7 +41,7 @@ image::images/cat/copy-bucket-1.png[]
 +
 image::images/cat/copy-bucket-2.png[]
 +
-. The newly created bucket is the active bucket in Bucket View.  Note that the bucket is numbered, and creating owner identified.
+. The newly created bucket is the active bucket in Bucket View.  Note that the bucket is numbered, and creator/owner identified.
 +
 image::images/cat/copy-bucket-3.png[]
 +
@@ -53,11 +53,11 @@ image::images/cat/copy-bucket-3.png[]
 * Ignore the check box for *Publicly Visible* - this function does not work as expected.
 =====
 
-*Create a Item Bucket when Adding a Item Record to a Bucket*
+*Create an Item Bucket when Adding an Item Record to a Bucket*
 
-You can also create a bucket from within a item record.
+You can also create a bucket from within an item record.
 
-. When a item is displayed on a screen such as *Checkin* or *Item Status*, you can add it to a item bucket by choosing *Actions -> Add Items to Bucket*.
+. When an item is displayed on a screen such as *Checkin* or *Item Status*, you can add it to an item bucket by choosing *Actions -> Add Items to Bucket*.
 +
 image::images/cat/copy-bucket-4.png[]
 +
@@ -68,7 +68,7 @@ image::images/cat/copy-bucket-5.png[]
 [[delete-copy-bucket]]
 *Delete Item Buckets*
 
-To delete a item bucket, retrieve it on Bucket View, then select *Delete Bucket* on *Buckets* dropdown list.
+To delete an item bucket, retrieve it on Bucket View, then select *Delete Bucket* on *Buckets* dropdown list.
 
 image::images/cat/copy-bucket-5a.png[]
 
@@ -79,7 +79,7 @@ Adding/Removing Item Records to/from a Bucket
 
 Copies can be added to a bucket when they are displayed on *Checkin*, *Item Status* and *Holdings View* screen.
 
-. You can select multiple items and add them to a item bucket at one time.    . Click *Actions -> Add Items to Bucket*.
+. You can select multiple items and add them to an item bucket at one time.    . Click *Actions -> Add Items to Bucket*.
 +
 image::images/cat/copy-bucket-6.png[]
 
