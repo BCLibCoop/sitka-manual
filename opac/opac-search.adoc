@@ -196,7 +196,7 @@ You can access the MARC Expert Search by clicking on the *Expert Search* tab on 
 If you are familiar with the MARC standard, you may search by specific MARC tags in the Expert Search.
 
 . Enter the three-digit tag number, the subfield (if relevant), and the value or text that corresponds
-to the tag. For example, to search by publisher name, enter 260 b Random House.
+to the tag. For example, to search by publisher name, enter 264 b Random House.
 +
 .. To search several tags simultaneously, use the *Add Row* option.
 +
@@ -372,7 +372,7 @@ Search Results
 
 The search results are a list of relevant works from the catalogue. If there are many results, they are
 divided into several pages. At the top of the list, you can see the total number of results and go back and
-forth between the pages by clicking the double arrow on top or bottom of the list or click the page number
+forth between the pages by clicking the Next or Previous at the top or bottom of the list or click the page number
 to go to that page directly.
 
 Your search terms will be highlighted in both the search results and title details screens.
@@ -493,6 +493,5 @@ selecting the link to *Return to Grouped Search Results*.
 image::images/opac/opac-search-results-10.png[scaledwidth="75%",alt="Search Results"]
 
 
-You can start a new search at any time by entering new search terms in the search box at the top of the page,
- or by selecting the *Another Search*, *Basic Search*,or *Advanced Search* link at top of search results,
- depending on what screen you are on when wanting to do another search
+You can start a new search at any time by entering new search terms in the search box at the top of the page
+ or by selecting the *Another Search*, *Advanced Search*, or *Browse* buttons at the top of the search results page.
