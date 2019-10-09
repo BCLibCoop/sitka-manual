@@ -18,6 +18,7 @@ Circulation
 
 * Update Inventory is also available on the Actions menu on the Item Status screen.
 
+* Overdue items are highlighted again in patron's Items Out tab.
 
 Cataloguing
 ^^^^^^^^^^^
@@ -29,9 +30,9 @@ Cataloguing
 Catalogue/OPAC
 ^^^^^^^^^^^^^^
 
-* Batch Actions In the Catalogue. Staff and patrons can select multiple records into a “cart”, and perform batch actions, including Place Hold, Print Title Details, Email Title Details, Add Cart to Saved List, and Clear Cart.
+* Batch Actions In the Catalogue. Staff and patrons can select multiple records into a Basket, and perform batch actions, including Place Hold, Print Title Details, Email Title Details, Add Basket to Saved List, and Clear Basket.
 
-* In the web staff client, the cart actions also include Add Cart to Bucket.
+* In the web staff client, the Basket actions also include Add Basket to Bucket.
 
 * French OPAC.
 
@@ -47,3 +48,5 @@ Patron Accounts
 * Patron Name Keyword Search. An additional field for storing search terms in a patron record, plus the addition of a global patron name keyword search, that searches across all name fields.
 
 * Parent/Guardian field has been restored in 3.3, and displays in the patron summary.
+
+* Overdue items are highlighted again in patron's Items Out tab.
