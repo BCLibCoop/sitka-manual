@@ -6,13 +6,13 @@ in Sitka's Evergreen,  and the experience of inventory projects done by librarie
 the Evergreen community.
 
 Inventory in Evergreen involves staff checking in all items in a specific area, using the Checkin Modifier Update Inventory,  and then running a report
-to list all the items that were not scanned. When items are checked in the date and time is recorded in
-the Update Inventory  field of the item record. This field is used by the inventory reports to determine which items have been inventoried and which have not. Staff can also scan or upload item barcode files into Item Status screen,  and batch change the Update Inventory field.
+to list all the items that were not scanned. When items are checked in the date, time, and workstation is recorded in
+the Update Inventory  field of the item record. This field is used by the inventory reports to determine which items have been inventoried and which have not. Staff can also scan or upload item barcode files into the Item Status screen,  and batch change the Update Inventory field from the Actions menu.
 
 Preparing for Inventory
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-The first step to running inventory is to chose the section of your library you will inventory. We recommend
+The first step to running inventory is to choose the section of your library you will inventory. We recommend
 that you inventory a shelving location or particular call number range. There are several report templates
 you can use to aid you in preparing for your inventory.
 
@@ -39,6 +39,7 @@ Running Inventory with the Staff Client
 . Enable Checkin Modifier *Update Inventory*.
 +
 . Check the items in.
+
 
 [TIP]
 =====
@@ -82,12 +83,10 @@ store barcode information which can then be exported as a file and saved on a co
 
 . Scan every item barcode on shelf in the chosen area.
 +
-. Export the barcodes to a text file (we recommends using Notepad) and save the file on a computer with
-access to Sitka's Evergreen.
-The barcodes should be in one single spaced single column without extra spaces anywhere.
+. Export the barcodes to a text file (we recommend using Notepad) and save the file. The barcodes should be in one single spaced single column without extra spaces anywhere.
 +
 . Use Cut and Paste functions to break the big list of barcodes into smaller lists and save each list as an
-individual text file (we recommend each list contains about 50 barcodes). Name your files in sequence, e.g.
+individual text file (we recommend each list contains about 50 to 100 barcodes). Name your files in sequence, e.g.
 inventory001, inventory002..., so that it will be easy to follow when you upload the files.
 +
 . On the Item Status screen in Evergreen, click **Choose File**.
@@ -100,11 +99,13 @@ items using the checkbox at the top of the Row Selector Column.
 +
 . Click **Actions → Update Inventory**.
 +
-. Repeat steps 4-7 to check in the items in all of your files.
+. Repeat steps 4-7 to inventory the items in all of your files.
 
++\\\\+
 [TIP]
 =====
 You may see prompt popups for items with special statuses, such as lost, missing, checked out,
 in-transit or routing to the holds shelf. Once you confirm the prompt, the loading will continue.
 You need to follow up with items going on hold shelf and in-transit.
 =====
++\\\\+
