@@ -3,8 +3,6 @@ Convert Hatch Settings to Local Storage
 
 link:https://youtu.be/VPMAKpM6X0M[*Sitka Upgrade Video - New Features (01:12)*]
 
-[[hatch-convert]]
-
 Local workstation settings and preferences are now stored on Sitka’s Evergreen servers.
 
 Storing settings in Hatch is now deprecated. If you have enabled Hatch to Store Local Settings you will need to disable this.
