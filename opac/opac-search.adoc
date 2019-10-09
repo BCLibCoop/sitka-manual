@@ -6,11 +6,9 @@ Search the Public Catalogue
 
 The public catalogue can be accessed online from any location via the Internet and is available in English and French.
 
-The language selector in the top right allows user to switch between English and French as desired.
+The language selector in the top-right allows users to switch between English and French as desired.
 
 image::images/opac/opac-language-selector-1.png[scaledwidth="75%",alt="Language Selector]
-
-
 
 The generic public catalogue which searches all of Sitka is https://catalogue.libraries.coop. This catalogue
 is also used in the staff client for searching the catalogue.
@@ -171,7 +169,7 @@ your result items will be published in 2005, 2006 and 2007.
 [TIP]
 =====
 All the search filters, with the exception of Shelving Location, rely on values entered into the Leader,
-007, or 008 fields of the MARC record.  Records with incorrect coding will not filter correctly.
+007, 008, or 041 fields of the MARC record.  Records with incorrect coding will not filter correctly.
 =====
 
 Numeric Search
