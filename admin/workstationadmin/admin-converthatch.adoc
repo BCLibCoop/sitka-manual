@@ -1,0 +1,21 @@
+Convert Hatch Settings to Local Storage
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+link:https://youtu.be/VPMAKpM6X0M[*Sitka Upgrade Video - New Features (01:12)*]
+
+Local workstation settings and preferences are now stored on Sitka’s Evergreen servers.
+
+Storing settings in Hatch is now deprecated. If you have enabled Hatch to Store Local Settings you will need to disable this.
+
+*Copy your Hatch Settings To Local Storage before disabling Hatch*
+
+. Click *Administration*.
+. Click *Workstation*.
+. Click *Print / Storage Service ("Hatch)*.
+. Click *Copy Hatch Settings to Local Storage*.
++
+image::images/admin/hatch1.png[]
++
+. Uncheck the check box for *Store Local Settings in Hatch*.
++
+image::images/admin/hatch2.png[]

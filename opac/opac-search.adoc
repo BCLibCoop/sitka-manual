@@ -1,10 +1,16 @@
 Search the Public Catalogue
 ---------------------------
 
-The public catalogue can be accessed online from any location via the Internet.
-
 (((Public Catalogue)))
 (((OPAC)))
+
+The public catalogue can be accessed online from any location via the Internet and is available in English and French.
+
+The language selector in the top right allows user to switch between English and French as desired.
+
+image::images/opac/opac-language-selector-1.png[scaledwidth="75%",alt="Language Selector]
+
+
 
 The generic public catalogue which searches all of Sitka is https://catalogue.libraries.coop. This catalogue
 is also used in the staff client for searching the catalogue.
