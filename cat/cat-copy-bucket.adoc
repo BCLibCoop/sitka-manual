@@ -1,14 +1,14 @@
 [[cat-copy-bucket]]
-Copy Bucket
------------
+Item Buckets
+------------
 
-link:https://youtu.be/DmLBBMAMFDQ[Sitka Snippet Video - Copy Buckets (4:33)]
+link:https://youtu.be/DmLBBMAMFDQ[Sitka Snippet Video - Item Buckets (4:33)]
 
 Buckets is the name for a batch change functionality in Evergreen, or for a function that groups records in one place.  Batch changes allow you to group together many records and enact changes on them all at once, instead of individually editing them. Buckets can also be used to create pull lists. Buckets allow you to track and work with your materials in arbitrary ways and more easily collaborate with others.
 
-This chapter will demonstrate a variety of ways in which you can manage your copies with Buckets.
+This chapter will demonstrate a variety of ways in which you can manage your items with Buckets.
 
-Currently there are copy and title record buckets. You may work on copy records with Copy Buckets and MARC records with Record Buckets.
+Currently there are item and title record buckets. You may work on item records with Item Buckets and MARC records with Record Buckets.
 
 Some possible uses for buckets are batch editing items, deleting items, and grouping like items temporarily to change their status or to create bibliographies and pull lists. While you can batch edit records a variety of ways in Evergreen, using common Windows functions such as select all and edit, buckets are useful for keeping records together over a period of time. For example, if you scan 20 items into the Item Status screen you can batch edit or delete from there by selecting all, but you have to enact those changes right then while records are all together on the screen. By utilizing Evergreen's bucket functionality, you can create a bucket and add records to that bucket, and they stay there until you are ready to work with them, whether that be immediately or days later. Adding items to a bucket is like creating and saving a query. The record being in a bucket does not affect normal library functions such as circulation, as being in a bucket is not a status.
 
@@ -18,20 +18,20 @@ Buckets can be shared or private, and are associated with a login account.
 =====
 Deleted records are not automatically removed from buckets. It is recommended that you always display *Deleted?* field in Bucket View.
 
-When a bucket is retrieved, all information about the records in it is transferred to the workstation. It consumes the computer's resources. It is recommended that a copy bucket contain no more than a few hundred records.
+When a bucket is retrieved, all information about the records in it is transferred to the workstation. It consumes the computer's resources. It is recommended that a item bucket contain no more than a few hundred records.
 =====
 
-Creating/Deleting Copy Buckets
+Creating/Deleting Item Buckets
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 [[create-bucket]]
-*Create Copy Buckets*
+*Create Item Buckets*
 
-There are two ways to create a copy bucket. You can either create a bucket first, without accessing any copies, or you can access a copy record and choose to create the bucket from that view. We will demonstrate both methods here.
+There are two ways to create a item bucket. You can either create a bucket first, without accessing any copies, or you can access a item record and choose to create the bucket from that view. We will demonstrate both methods here.
 
-*Create a Copy Bucket on Copy Buckets* view
+*Create a Item Bucket on Item Buckets* view
 
-. Select *Cataloging -> Copy Buckets* from the menu bar.
+. Select *Cataloging -> Item Buckets* from the menu bar.
 
 . Select *New Bucket* from the *Buckets* dropdown list.
 +
@@ -53,11 +53,11 @@ image::images/cat/copy-bucket-3.png[]
 * Ignore the check box for *Publicly Visible* - this function does not work as expected.
 =====
 
-*Create a Copy Bucket when Adding a Copy Record to a Bucket*
+*Create a Item Bucket when Adding a Item Record to a Bucket*
 
-You can also create a bucket from within a copy record.
+You can also create a bucket from within a item record.
 
-. When a copy is displayed on a screen such as *Checkin* or *Item Status*, you can add it to a copy bucket by choosing *Actions -> Add Items to Bucket*.
+. When a item is displayed on a screen such as *Checkin* or *Item Status*, you can add it to a item bucket by choosing *Actions -> Add Items to Bucket*.
 +
 image::images/cat/copy-bucket-4.png[]
 +
@@ -66,26 +66,26 @@ image::images/cat/copy-bucket-4.png[]
 image::images/cat/copy-bucket-5.png[]
 
 [[delete-copy-bucket]]
-*Delete Copy Buckets*
+*Delete Item Buckets*
 
-To delete a copy bucket, retrieve it on Bucket View, then select *Delete Bucket* on *Buckets* dropdown list.
+To delete a item bucket, retrieve it on Bucket View, then select *Delete Bucket* on *Buckets* dropdown list.
 
 image::images/cat/copy-bucket-5a.png[]
 
-Adding/Removing Copy Records to/from a Bucket
+Adding/Removing Item Records to/from a Bucket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 *Add Copies to a Bucket*
 
 Copies can be added to a bucket when they are displayed on *Checkin*, *Item Status* and *Holdings View* screen.
 
-. You can select multiple items and add them to a copy bucket at one time.    . Click *Actions -> Add Items to Bucket*.
+. You can select multiple items and add them to a item bucket at one time.    . Click *Actions -> Add Items to Bucket*.
 +
 image::images/cat/copy-bucket-6.png[]
 
-You can add copies to a bucket on *Copy Bucket View*.
+You can add copies to a bucket on *Item Bucket View*.
 
-. Go to *Pending* tab to scan or type in copy barcodes.
+. Go to *Pending* tab to scan or type in item barcodes.
 +
 image::images/cat/copy-bucket-7.png[]
 +
@@ -107,8 +107,8 @@ Working with Copies in a Bucket
 You can apply the following functions to selected copies in a bucket.
 
 
-* *Delete Copy Records*
-* *Edit Copy Records*
+* *Delete Item Records*
+* *Edit Item Records*
 * *Transfer Copies to a Selected Volume*
 * *Print Labels*
 
