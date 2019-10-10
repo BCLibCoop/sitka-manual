@@ -5,9 +5,10 @@ The following procedure was developed by Co-op Support based on the current func
 in Sitka's Evergreen,  and the experience of inventory projects done by libraries in the Sitka consortium and
 the Evergreen community.
 
-Inventory in Evergreen involves staff checking in all items in a specific area, using the Checkin Modifier Update Inventory,  and then running a report
-to list all the items that were not scanned. When items are checked in the date, time, and workstation is recorded in
-the Update Inventory  field of the item record. This field is used by the inventory reports to determine which items have been inventoried and which have not. Staff can also scan or upload item barcode files into the Item Status screen,  and batch change the Update Inventory field from the Actions menu.
+Inventory in Evergreen involves staff checking in all items in a specific area, using the Checkin Modifier Update Inventory, or, scanning or uploading barcodes to the Item Status screen, and batch editing the Update Inventory date. Staff can then run a report to list all the items that were not scanned, and look for them.
+
+When items are inventoried,  the date, time, and workstation is recorded in
+the Update Inventory  field of the item record. This field is used by the inventory reports to determine which items have been inventoried and which have not.
 
 Preparing for Inventory
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -34,11 +35,13 @@ in the correct location.
 Running Inventory with the Staff Client
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-. In Evergreen go to **Circulation → Check In**.
+. In Evergreen go to **Circulation → Check In** or **Circulation → Item Status**.
 +
-. Enable Checkin Modifier *Update Inventory*.
+. If using *Check in*, enable Checkin Modifier *Update Inventory*.
 +
-. Check the items in.
+. Scan the items in.
++
+. If using *Item Status*, select all items on screen and click **Actions → Update Inventory**.
 
 
 [TIP]
@@ -101,11 +104,11 @@ items using the checkbox at the top of the Row Selector Column.
 +
 . Repeat steps 4-7 to inventory the items in all of your files.
 
-+\\\\+
+////
 [TIP]
 =====
 You may see prompt popups for items with special statuses, such as lost, missing, checked out,
 in-transit or routing to the holds shelf. Once you confirm the prompt, the loading will continue.
 You need to follow up with items going on hold shelf and in-transit.
 =====
-+\\\\+
+////
