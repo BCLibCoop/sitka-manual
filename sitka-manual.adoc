@@ -75,6 +75,8 @@ include::opac/opac-holds.adoc[]
 
 include::opac/opac-myaccount.adoc[]
 
+include::opac/opac-basket-lists.adoc[]
+
 include::opac/opac-integrated-eresource.adoc[]
 
 Reports
