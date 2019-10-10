@@ -22,11 +22,11 @@ Titles can be added to the basket in three ways:
 
 image::images/opac/opac-basket-1.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
-* by clicking *Add to Basket* in the search results view 
+* by clicking *Add to basket* in the search results view 
 
 image::images/opac/opac-basket-2.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
-* by clicking *Add to Basket* on the title details page
+* by clicking *Add to basket* on the title details page
 
 image::images/opac/opac-basket-3.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
@@ -46,17 +46,41 @@ Titles can be removed from the basket in a number of ways:
 
 image::images/opac/opac-basket-5.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
-* by clicking *Remove from Basket* in the search results view 
+* by clicking *Remove from basket* in the search results view 
 
 image::images/opac/opac-basket-6.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
-* by clicking *Remove from Basket* on the title details page
+* by clicking *Remove from basket* on the title details page
 
 image::images/opac/opac-basket-7.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
+* by using the *Clear Basket* action from the menu located beside the basket icon.
 
+image::images/opac/opac-basket-8.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
-The contents of the basket are cleared when you log out of your account.
+* by selecting the titles you wish to remove and using the *Remove from basket* option in the basket view.
+
+image::images/opac/opac-basket-9.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
+
+* by checking the box for *Clear entire basket when actions complete* before performing an action.
+
+image::images/opac/opac-basket-10.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
+
+Additionally, the contents of the basket are cleared when you log out of your account.
+
+Batch Actions Through the Basket
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The Basket Actions menu, found beside the basket icon, enables patrons to view the contents of the basket,
+batch place holds, print or email the title details for all titles, add the contents of the basket to a
+saved list, and clear the basket.
+
+image::images/opac/opac-basket-11.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
+
+The action menu within the basket view also allows the patron to add the contents of the basket to a new list
+or specific existing list.
+
+image::images/opac/opac-basket-12.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
 
 Creating Lists
