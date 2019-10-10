@@ -144,11 +144,15 @@ The list below shows the matching points and the scores assigned to each point o
 If you see a score of 9999, it means the incoming record has the same value in tag 901$c, which is the record id in Evergreen. Likely you will see it when you load a record that was exported from Evergreen.
 =====
 +
-. Upon inspecting both incoming and existing record(s), if the match record is a true match but a brief record, you may mark the match MARC record as a merge target by selecting the checkbox in front of the record in the Merge Target column. Click *Back to Import Queue* once done.
-+
-If the match record in Evergreen is a true match but a full record, Sitka policy requires you to use the existing record instead of importing another. Do not import the record.
+. Upon inspecting both incoming and existing record(s), if the match record is a true match but a brief record, you may mark the match MARC record as a merge target by clicking the  record. You will see the record is ticked in the Merge Target column. Click *Back to Import Queue* once done. 
 +
 image::images/cat/vandelay-6.png[]
++
+Records with specified merge target are marked by an asterisk.
++
+image::images/cat/vandelay-6a.png[]
++
+If the match record in Evergreen is a true match but a full record, Sitka policy requires you to use the existing record instead of importing another. Do not import the record.
 +
 However, if the incoming record contains local information in tags 590, 595, 690, 852 or 856 that you want to bring into the existing record, such as loading holding records to existing MARC records, you need to mark the match record as a merge target. In this scenario you would use the *Merge Using EXISTING Record* merge profile in next step. If you are interested in loading holdings/item information, please contact Co-op support to set it up.
 
@@ -164,7 +168,7 @@ image::images/cat/vandelay-8.png[]
 +
 [CAUTION]
 =========
-*Upload* button remains inactive until all required import options are made.
+*Upload* button remains inactive until all required import options are made. Keep *Importing Non-Matching Records* selected to enable *Upload* button, though you may not have non-matching records selected.
 =========
 For Merge Profile, choose one of the following based on which record should be the lead.
 
