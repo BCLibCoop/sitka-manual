@@ -74,7 +74,7 @@ You need to contact Co-op Support for holding information format before asking y
 +
 [CAUTION]
 =========
-Co-op Support strongly advises that you do not select other import options. These options allow Evergreen to automatically merge records before you inspect them. It is best practice to inspect the potentially merged records first.
+Co-op Support strongly advises that you do not select other import options at this stage. These options allow Evergreen to automatically merge records before you inspect them. It is best practice to inspect the potentially merged records first.
 =========
 +
 [TIP]
@@ -117,17 +117,18 @@ You can add all imported MARC records in the queue to a Record Bucket by using *
 +
 image::images/cat/vandelay-3.png[]
 +
-. You should view all records to determine which one to use. To view the incoming record in the queue, double click a line. 
+. You should view both incoming and existing records to determine which one to use. To view the incoming record in the queue, double click a line. 
 +
 image::images/cat/vandelay-4.png[]
 +
-. To view match records, click the blue number in *Matches* column.
+. To view match records, click the blue number in *Matches* column. You will see the match records' ID number and some non-MARC information. 
 +
 image::images/cat/vandelay-5.png[]
 +
-. You will see the match records' ID number and some non-MARC information. Click the blue record id. The default tab is Copy Table. Click *MARC View* to view a record. Use browser's Go Back function to exit MARC View
+. Click the blue record id. The default tab is Copy Table. Click *MARC View* to view a record. Use browser's Go Back function to exit MARC View.
 +
 image::images/cat/vandelay-5a.png[]
++
 [TIP]
 =====
 Match Score is the total score from all matched fields specified in the Record Match Set.
@@ -142,7 +143,7 @@ The list below shows the matching points and the scores assigned to each point o
 
 If you see a score of 9999, it means the incoming record has the same value in tag 901$c, which is the record id in Evergreen. Likely you will see it when you load a record that was exported from Evergreen.
 =====
-
++
 . Upon inspecting both incoming and existing record(s), if the match record is a true match but a brief record, you may mark the match MARC record as a merge target by selecting the checkbox in front of the record in the Merge Target column. Click *Back to Import Queue* once done.
 +
 If the match record in Evergreen is a true match but a full record, Sitka policy requires you to use the existing record instead of importing another. Do not import the record.
