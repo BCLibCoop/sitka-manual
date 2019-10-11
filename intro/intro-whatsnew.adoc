@@ -4,7 +4,7 @@ New Features in Evergreen Version 3.3
 link:https://www.youtube.com/playlist?list=PLdwlgwBNnH4pEJoh9XhMuiDHPmfNKrLLh[*Sitka's Evergreen 3.3 - New Features (00:00)*]
 
 Web Staff Client (Web Client)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Local workstation settings can now be stored on Sitka's Evergreen servers. Your current settings stored on the browser will continue to function, but once they  have been edited and saved in any way, they will be stored on server from then on. Settings can be transitioned to server gradually as edits occur, or, you can delete browser cookies, re-configure all  workstation settings, and save them on the servers.
 ** If you use Hatch to store settings, after the upgrade you will need to move your settings from Hatch to the server. See xref:convert-hatch[]
@@ -14,7 +14,7 @@ Web Staff Client (Web Client)
 * Tooltip functionality is restored. You can hover your mouse over column cells to display content of fields, to see the information you want, with no need to widen columns on the fly.
 
 Circulation
-^^^^^^^^^^^
+~~~~~~~~~~~
 * New Checkin Modifier Update Inventory adds an inventory date to item records, simplifying inventory workflows.
 
 * Update Inventory is also available on the Actions menu on the Item Status screen.
@@ -22,14 +22,14 @@ Circulation
 * Overdue items are highlighted again in patron's Items Out tab.
 
 Cataloguing
-^^^^^^^^^^^
+~~~~~~~~~~~
 
 * Spine Label Sheet Printing. Cataloguers can now print spine labels onto 8 1/2 x 11 inch label sheets.
 
 
 
 Catalogue/OPAC
-^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~
 
 * Batch Actions In the Catalogue. Staff and patrons can select multiple records into a Basket, and perform batch actions, including Place Hold, Print Title Details, Email Title Details, Add Basket to Saved List, and Clear Basket.
 
@@ -39,12 +39,13 @@ Catalogue/OPAC
 
 
 Library Settings
-^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~
 * Emergency Closing Handler. Staff can create library closings that, in addition to affecting future circulation and booking due dates, and hold shelf expiry dates, will automatically move existing circulation and booking due dates and hold shelf expiry times.
 
 Patron Accounts
-^^^^^^^^^^^^^^^
-* Patron Preferred Name fields added to patron record, providing increased options and flexibility for staff and patrons.
+~~~~~~~~~~~~~~~
+* Patron Preferred Name fields added to patron record, providing increased options and 
+flexibility for staff and patrons.
 
 * Patron Name Keyword Search. An additional field for storing search terms in a patron record, plus the addition of a global patron name keyword search, that searches across all name fields.
 
