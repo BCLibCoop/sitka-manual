@@ -101,21 +101,26 @@ optional description.
 
 image::images/opac/opac-list-1.png[scaledwidth="75%",alt="My Account Lists"]
 
-You can also create a temporary list from search results.
+You can also create a new list from the basket.
 
-. If you are logged into your account, hover over _Add to my list_ and select *Temporary List*.
+. Add your desired titles to the basket.
++
+. Select *Add Basket to Saved List* from the basket action menu and click *Go*.
+.. If you are not logged into your account you will be promoted to.
 +
 image::images/opac/opac-list-2.png[scaledwidth="75%",alt="My Account Lists"]
 +
-. If you are not logged into your account click on *Add to my list*.
+. In the _Create New List_ section, enter a name for your list into the text box. You may also enter an 
+optional description.
 +
+. Decide if you would like to share the contents of the list with other users.
++
+. By default _Move contents of basket to this list?_ is set to _Yes_.
+.. The contents of the basket displays below.
++
+. Click *Submit*.
+
 image::images/opac/opac-list-3.png[scaledwidth="75%",alt="My Account Lists"]
-+
-. A warning will appear indicating that you are adding to a temporary list.
-+
-image::images/opac/opac-list-4.png[scaledwidth="75%",alt="My Account Lists"]
-+
-. Click _OK_ and the title will be added to your temporary list.
 
 
 Sharing Lists
@@ -152,28 +157,24 @@ If you no longer need a list you can delete it by clicking *Delete List*.
 image::images/opac/opac-list-7.png[scaledwidth="75%",alt="My Account Lists"]
 
 
-Adding Items to a List
+Adding Titles to a List
 ~~~~~~~~~~~~~~~~~~~~~~
 
-. Log in to the public catalogue by clicking the *My Account* button. 
+. Titles are added to a list by first adding them to the basket. Refer to xref:_adding_titles_to_the_basket
 +
-. Search the catalogue for the item you would like to add to your list. 
+. From the basket actions menu select *View Basket* and click *Go*.
 +
-. Hover over *Add to my list* and select the list you would like to add the item to.
+. Check the boxes for the titles you wish to add to your list.
++
+. From the actions menu select the list you would like to add the titles to and click *Go*.
 
-image::images/opac/opac-list-2.png[scaledwidth="75%",alt="My Account Lists"]
+image::images/opac/opac-list-8.png[scaledwidth="75%",alt="My Account Lists"]
+
+. The titles are added to your list and removed from the basket.
++
 
 
-[TIP]
-=====
-If you select a default list in the _My List_ section that list will appear first in the list of lists.
-=====
 
-You can also move items from a temporary list to a permanent list by selecting the titles in the temporary 
-list and then clicking on the drop-down menu labeled *Actions for these items* and making the appropriate 
-choice.
-
-image::images/opac/opac-account-list-8.png[scaledwidth="75%",alt="My Account Lists"]
 
 Managing Items in a List
 ~~~~~~~~~~~~~~~~~~~~~~~~
