@@ -8,22 +8,22 @@ How to Contact Support
 
 There are four ways to contact Co-op Support for Evergreen support:
 
-. *Request Tracker Interface*. Submit and track requests with RT Self Service. After 
-logging in you may use the form to create new tickets, track the progress of open tickets, or 
-review issues that have been resolved.  More information can be found in 
+. *Request Tracker Interface*. Submit and track requests with RT Self Service. After
+logging in you may use the form to create new tickets, track the progress of open tickets, or
+review issues that have been resolved.  More information can be found in
 xref:_rt_self_service[RT Self Service].
 
 . *Email*. Send questions to the support email address. Requests submitted by email generate RT tickets and can also be viewed online by logging in to RT Self Service.
 
-. *Online Contact Form*. Send questions to Co-op Support through the 
-https://bc.libraries.coop/support/[contact form] on the BC Libraries Cooperative website. Requests 
-submitted through the contact form generate RT tickets and can also be viewed online by logging in to 
+. *Online Contact Form*. Send questions to Co-op Support through the
+https://bc.libraries.coop/support/[contact form] on the BC Libraries Cooperative website. Requests
+submitted through the contact form generate RT tickets and can also be viewed online by logging in to
 RT Self Service.
 
 . *Phone*. Telephone support is available *9:00 AM to 4:00 PM Pacific Time, Monday to Friday*, with *emergency after hours support 7 days a week*. Call our toll free number during regular hours to speak with support staff, or after hours to leave a message or request emergency server support. To protect our staff we do not accept anonymous calls so please ensure your caller ID is not blocked.
 
-The Co-op Support toll free number and email address can be found on the 
-https://bc.libraries.coop/support/sitka/[Sitka Support] page. This information is also given to libraries 
+The Co-op Support toll free number and email address can be found on the
+https://bc.libraries.coop/support/sitka/[Sitka Support] page. This information is also given to libraries
 during migration.
 
 You can check on the status of Co-op supported services at: http://status.libraries.coop/
@@ -68,6 +68,6 @@ Each library has one account to access RT. Under this account staff are able to 
 Access RT Self Service
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Through the RT website https://support.libraries.coop/rt/
+You can login on the RT website https://support.libraries.coop/rt/
 
 The Self Service home page displays current tickets submitted by email or in RT. To re-open a closed ticket simply add a new reply. This will change the status to open and alert Co-op Support that more attention is required.

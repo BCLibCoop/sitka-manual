@@ -13,10 +13,12 @@ Prior to using Offline Circulation, you need to do the following, which requires
 +
 . *Save the Offline Circulation URL* as a Chrome Bookmark.
 
+////
 [TIP]
 ====
 Offline transactions are kept in the browser as cookies. Clearing the browser's cookies may delete them.
 ====
+////
 
 
 Save Offline URL
