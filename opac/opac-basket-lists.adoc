@@ -162,9 +162,9 @@ Adding Titles to a List
 
 . Titles are added to a list by first adding them to the basket. Refer to xref:_adding_titles_to_the_basket
 +
-. From the basket actions menu select *View Basket* and click *Go*.
+. From the basket actions menu select *View Basket* and click *Go* or go to _My Lists_.
 +
-. Check the boxes for the titles you wish to add to your list.
+. Check the boxes for the titles in the basket that you wish to add to your list.
 +
 . From the actions menu select the list you would like to add the titles to and click *Go*.
 
@@ -174,15 +174,15 @@ image::images/opac/opac-list-8.png[scaledwidth="75%",alt="My Account Lists"]
 +
 
 
+Managing Titles in a List
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-Managing Items in a List
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-You can place a hold on an item from your list by selecting the item in your list, and choosing 
-*Place hold* in the *Actions for these items* menu.
+You can place holds, email yourself the title details, and remove titles from your list using 
+*Actions for these items* menu.
 
 image::images/opac/opac-list-9.png[scaledwidth="75%",alt="My Account Lists"]
+
+NOTE: The Print title details option in lists is currently non-functional.
 
 You can annotate your lists by using the _Notes_ feature. 
 
@@ -200,12 +200,4 @@ image::images/opac/opac-list-11.png[scaledwidth="75%",alt="My Account Lists"]
 title record on the webpage used to access your shared list.
 
 
-Removing Items From a List
-^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Click on the name of the list you would like to remove the item from. The items in the list will appear. 
-+
-. Select the item you would like to remove from the list, click on 
-*Actions for these items* -> *Remove from list* and click *Go*.
-
-image::images/opac/opac-list-12.png[scaledwidth="75%",alt="My Account Lists"]
