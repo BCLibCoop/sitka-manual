@@ -10,7 +10,7 @@ include::localadmin/admin-circ-policy.adoc[]
 
 include::localadmin/admin-closed-date.adoc[]
 
-include::localadmin/admin-copy.adoc[]
+include::localadmin/admin-item.adoc[]
 
 include::localadmin/admin-group-penalty.adoc[]
 
