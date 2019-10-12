@@ -3,11 +3,12 @@ Renew Items
 
 Patrons can renew items at the self check if they physically have the item.
 
-. Scan item barcodes, or place item on RFID pad.
+. Scan item barcodes.
+
 . A renewal confirmation message displays, with item details. Type displays as *Renewal*, rather than *Check out*.
 +
 image:images/circ/self_check_renew_1.png[scaledwidth="75%"]
 +
 . If the renewal fails, a message advises patron to speak to staff.
 +
-image:images/circ/self_check_renew_2.png[scaledwidth="75%"]
+image:images/circ/self_check_error_1.png[scaledwidth="75%"]
