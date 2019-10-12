@@ -9,15 +9,15 @@ include::serveradmin/admin-call-number.adoc[]
 
 include::serveradmin/admin-org-unit.adoc[]
 
-Copy Status
+Item Status
 ~~~~~~~~~~~
 
-This table below describes the copy statuses with Sitka's property settings.
+This table below describes the item statuses with Sitka's property settings.
 
 
 [option="header"]
 |===
-| Copy Status | Definition | Holdable | OPAC Viewable | Sets copy active | Is Available?
+| Item Status | Definition | Holdable | OPAC Viewable | Sets copy active | Is Available?
 | Available	| Item is on the shelf	| Yes | Yes | Yes | Yes
 | Bindery | Sent to be rebound | No| Yes| No| No
 | Canceled Transit	| A transit for the item was aborted | Yes	| Yes	| No	| No
