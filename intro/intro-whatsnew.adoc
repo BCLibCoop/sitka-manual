@@ -21,21 +21,26 @@ Circulation
 
 * Overdue items are highlighted again in patron's Items Out tab.
 
+
 Cataloguing
 ~~~~~~~~~~~
 
 * Spine Label Sheet Printing. Cataloguers can now print spine labels onto 8 1/2 x 11 inch label sheets.
 
+* The MARC Batch Import/Export screen has been redesigned.
 
 
-Catalogue/OPAC
-~~~~~~~~~~~~~~
+
+Catalogue/Public Catalogue
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Batch Actions In the Catalogue. Staff and patrons can select multiple records into a Basket, and perform batch actions, including Place Hold, Print Title Details, Email Title Details, Add Basket to Saved List, and Clear Basket.
 
 * In the web staff client, the Basket actions also include Add Basket to Bucket.
 
 * French OPAC.
+
+* UPC has been added as an option in the Numeric Search.
 
 
 Library Settings
