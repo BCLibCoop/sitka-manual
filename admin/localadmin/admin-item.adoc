@@ -9,30 +9,39 @@ Go to *Administration -> Local Administration -> Copy Alert Suppression* . Click
 image::images/admin/copy-alert-1.png[]
 
 
-Copy Location Editor
-~~~~~~~~~~~~~~~~~~~~
+Shelving Location Editor
+~~~~~~~~~~~~~~~~~~~~~~~~
 
-anchor:copy-location-editor[Copy Location Editor]
+anchor:shelving-location-editor[Shelving Location Editor]
 
 
-. Select *Administration-> Local Administration-> Copy Locations Editor.*
+. Select *Administration-> Local Administration-> Shelving Locations Editor.*
 
-. You can create new copy locations (aka shelving locations), or edit existing copy locations. To create a new shelving location, type in the name, and select *Yes* or *No* for the various attributes. Click *Create a new copy location.*
+. You can create new shelving locations or edit existing shelving locations. 
+To create a new shelving location, type in the name, and select *Yes* or *No* for the 
+various attributes. Click *Create a new shelving location.*
 +
 * *Holdable* means a patron is able to place a hold on an item in this location.
 * *Hold Verify*, if set up, will generate a prompt when an item is captured for a hold.
 * *Checkin Alert* will prompt staff to route the item to the location when checking in items with this location.
 * *Label Prefix* and *Label Suffix*, if set up, will be automatically included when printing spine labels.
 +
-image::images/admin/copy-location-1.png[]
+image::images/admin/shelving-location-1.png[]
 
-. In the bottom part of the Copy Locations Editor you can edit or delete existing copy locations. You cannot delete a location that contains items. In this example the copy location Adult Fiction is being edited.
+. In the bottom part of the Shelving Locations Editor you can edit or delete existing 
+shelving locations. You cannot delete a location that contains items. 
 +
-image::images/admin/copy-location-2.png[]
+image::images/admin/shelving-location-2.png[]
 
-NOTE: Text in the Label prefix and Label suffix fields will automatically be added to spine labels printed for items in the selected copy location. It does not affect OPAC or staff client display.
+NOTE: Text in the Label prefix and Label suffix fields will automatically be added to 
+spine labels printed for items in the selected shelving location. It does not affect 
+OPAC or staff client display.
 
-TIP: Whether an item can be circulated, is holdable, or visible on the OPAC, is controlled by three factors: item status, shelving location, and item attributes (the options in the Copy Editor). Evergreen follows the aforementioned sequence to check the value of each factor until it encounters a NO. An item can be circulated, holdable or visible on OPAC when all three factors are set to YES.
+TIP: Whether an item can be circulated, is holdable, or visible on the OPAC, is 
+controlled by three factors: item status, shelving location, and item attributes 
+(the options in the Copy Editor). Evergreen follows the aforementioned sequence 
+to check the value of each factor until it encounters a NO. An item can be circulated, 
+holdable or visible on OPAC when all three factors are set to YES.
 
 
 ////
