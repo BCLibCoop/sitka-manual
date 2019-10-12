@@ -74,9 +74,9 @@ image::images/intro/changeop1.png[]
 +
 . Enter the *Username* and *Password*.
 . Choose Login Type from the drop down menu.
-.. *Temporary* -
-.. *Staff* -
-.. *Persistent* -
+.. *Temporary* - The new operator will be automatically logged out after a set period of time.
+.. *Staff* - The new operator will remain until the user selects *Restore Operator* from the *Menu*.
+.. *Persistent* - The new operator will replace the original operator.
 +
 image::images/intro/changeop2.png[]
 +
