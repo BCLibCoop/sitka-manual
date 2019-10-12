@@ -8,3 +8,5 @@ image:images/circ/self_check_view_fines_1.png[scaledwidth="75%"]
 . Current fines display. Fines cannot be paid through the self check.
 +
 image:images/circ/self_check_view_fines_2.png[scaledwidth="75%"]
+
+NOTE: The Print List button can be enabled and disabled through the Library Settings Editor.
