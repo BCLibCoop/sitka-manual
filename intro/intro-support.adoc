@@ -11,7 +11,7 @@ There are four ways to contact Co-op Support for Evergreen support:
 . *Request Tracker Interface*. Submit and track requests with RT Self Service. After
 logging in you may use the form to create new tickets, track the progress of open tickets, or
 review issues that have been resolved.  More information can be found in
-xref:_rt_self_service[RT Self Service].
+xref:_rt_self_service[].
 
 . *Email*. Send questions to the support email address. Requests submitted by email generate RT tickets and can also be viewed online by logging in to RT Self Service.
 
