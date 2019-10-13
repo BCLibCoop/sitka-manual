@@ -1,10 +1,13 @@
-Copy Alert Suppression
+Item Alert Suppression
 ~~~~~~~~~~~~~~~~~~~~~~
-anchor:copy-alert-suppression[Copy Alert Suppression]
+anchor:item-alert-suppression[Item Alert Suppression]
 
-You may suppress some copy alerts from showing up on the corresponding staff action. For example, you may choose to suppress the alert when checking out a missing copy.
+You may suppress some item alerts from showing up on the corresponding staff action. 
+For example, you may choose to suppress the alert when checking out a missing item.
 
-Go to *Administration -> Local Administration -> Copy Alert Suppression* . Click *Create*. In the pop-up window, select the Alert Type from the dropdown list. Make sure your library is in the Org Unit box. Click *Save*.
+Go to *Administration -> Local Administration -> Item Alert Suppression* . Click 
+*Create*. In the pop-up window, select the Alert Type from the dropdown list. 
+Make sure your library is in the Org Unit box. Click *Save*.
 
 image::images/admin/copy-alert-1.png[]
 
@@ -45,32 +48,39 @@ holdable or visible on OPAC when all three factors are set to YES.
 
 
 ////
-Copy Location Group
-~~~~~~~~~~~~~~~~~~~~
+Shelving Location Groups
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 anchor:copy-location-group[Copy Location Group]
 ////
 
 
 
-Copy Location Order
-~~~~~~~~~~~~~~~~~~~~
+Shelving Location Order
+~~~~~~~~~~~~~~~~~~~~~~~
 
-anchor:copy-location-order[Copy Location Order]
+anchor:shelving-location-order[Shelving Location Order]
 
-This is where you specify the copy location order on your holds pull list. Items are grouped together by copy location on the list to ease the process of tracing items on shelves. You may adjust the order according to the layout of your library's shelves.
+This is where you specify the shelving location order on your holds pull list. 
+Items are grouped together by shelving location on the list to ease the process 
+of tracing items on shelves. You may adjust the order according to the layout of 
+your library's shelves.
 
-Drag a copy location on the list to the proper position, then click *Apply Changes.*
+Drag a shelving location on the list to the proper position, then click *Apply Changes.*
 
-Copy Tag
-~~~~~~~~
+Item Tags
+~~~~~~~~~
 
-anchor:copy-tag[Copy Tag]
+anchor:item-tag[Copy Tag]
 
-Copy tags are not currently used.
+Item tags are not currently used.
 
 ////
-Libraries may add searchable copy tags to *Digital Bookplate*. Go to *Administration -> Local Administration -> Copy Tag*. Click *New Record* to add new tags. Select *Digital Bookplate* from the Copy Tag Type dropdown list. Type in a label and value, if needed. Select *Is OPAC Visible?* checkbox if you wish the tag to show up on OPAC, Choose your library from the Owner dropdown list. Click *Save*.
+Libraries may add searchable item tags to *Digital Bookplate*. Go to *Administration -> Local Administration -> Item Tag*. Click 
+*New Record* to add new tags. Select *Digital Bookplate* from 
+the Item Tag Type dropdown list. Type in a label and value, if needed. 
+Select *Is OPAC Visible?* checkbox if you wish the tag to show 
+up on OPAC, Choose your library from the Owner dropdown list. Click *Save*.
 
 image::images/admin/copy-tag-1.png[]
 
