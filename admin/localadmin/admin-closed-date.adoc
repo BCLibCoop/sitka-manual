@@ -15,9 +15,9 @@ To enter closed dates:
 . Go to *Administration -> Local Administration -> Closed Date Editor*. 
 . Click *Add Closing* 
 +
-image::images/admin/closed-date-1.png[]
+image::images/admin/closed-date-1.png[scaledwidth="75%",alt="Closed Dates Editor"]
 +
-. By default the Library field is populated with thw workstation's location.  Libraries with
+. By default the Library field is populated with the workstation's location.  Libraries with
  multiple branches can switch this to their system level organizational unit and then check
 the box for _Apply to all of my libraries_ to apply the closing to the whole system.
 +
@@ -32,13 +32,38 @@ the box for _Apply to all of my libraries_ to apply the closing to the whole sys
 +
 . Click *OK*.
 +
-image::images/admin/closed-date-2.png[]
+image::images/admin/closed-date-2.png[scaledwidth="75%",alt="Closed Dates Editor"]
 
 NOTE: The closed period is your local time.
 
-Emergency Closures
+Emergency Closing
 ^^^^^^^^^^^^^^^^^^
 
 Closures can be applied retroactively if the library has to close unexpectedly.
+
+When an emergency closing is processed due dates are adjusted to fall on the day they would have
+had the closing been in place at the time of check out; hourly loans have their due date adjusted to the
+end of the day following the closing.  Depending on a library's settings any fines acrrued 
+doing the closing may be voided.  Notification emails will be sent to patrons to alert them to 
+the change in due date.
+
+To enter an emergency closing:
+
+. Go to *Administration -> Local Administration -> Closed Date Editor*. 
+. Click *Add Closing* 
+. Fill out the top section of the form as you would for a regular closed date.
+. Check the box for _Emergency_.
+. Check the box for _Process immediately_ if you are ready to have the system process 
+the closing
++
+image::images/admin/closed-date-3.png[scaledwidth="75%",alt="Emergency Closure"]
++
+. Click *OK*.
+. A summary of what has been processed during the emergency closing will display.  If the
+closing falls in the past you may need to update the date in the date filter to see it.
++
+image::images/admin/closed-date-4.png[scaledwidth="75%",alt="Emergency Closure"]
+
+
 
 
