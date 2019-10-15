@@ -118,10 +118,11 @@ Downloading and Installing Hatch
 Hatch is an *optional* installable program that works with your browser to manage complex printing needs, such as printing to different printers under different circumstances.
 
 anchor:download-hatch-ref[Hatch]
+
 . Install Java Runtime Environment (JRE).
 Windows only requires a JRE to run Hatch, not a full JDK. Download and install JRE version 1.8 or higher from https://www.java.com[java].
 
-. Install Hatch from https://evergreen-ils.org/downloads/Hatch-Installer-0.1.5.exe[Hatch]
+. Install Hatch from https://evergreen-ils.org/downloads/Hatch-Installer-0.2.0.exe[Hatch]
 
 . Install Chrome extension. If the extension was not installed automatically when installing Hatch you can get it directly in the browser from the Chrome App Store https://chrome.google.com/webstore/detail/hatch-native-messenger/ppooibdipmklfichpmkcgplfgdplgahl[Chrome App Store]
 
