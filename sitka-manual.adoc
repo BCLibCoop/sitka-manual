@@ -10,9 +10,12 @@ Copyright (symbol) 2018 BC Libraries Cooperative
 Last Updated October 15, 2019
 
 ++++
-<script async src="https://cse.google.com/cse.js?cx=004118323935733566362:1sfwpn2ock8"></script>
+<script async="1"  src="https://cse.google.com/cse.js?cx=004118323935733566362:1sfwpn2ock8">
+</script>
 <div class="gcse-search"></div>
 ++++
+
+
 :toc:
 :toclevels: 3
 :numbered:
