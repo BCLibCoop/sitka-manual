@@ -8,14 +8,14 @@ Sitka's Evergreen Documentation
 Copyright (symbol) 2018 BC Libraries Cooperative
 
 Last Updated October 15, 2019
-
-//<?dbhtml-include href="matomoTracking.html"?>    
+  
 :toc:
 :toclevels: 3
 :numbered:
 
 ++++
 <?dbhtml-include href="/data/asciidoc/checkouts/sitka-manual-master/gcs.html"?>    
+<?dbhtml-include href="/data/asciidoc/checkouts/sitka-manual-master/matomoTracking.html"?> 
 ++++
 
 Introduction
