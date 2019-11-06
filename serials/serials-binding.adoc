@@ -1,7 +1,21 @@
 Serials Binding
 ---------------
 
-To bind received issues together:
+Apply a Binding Template
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+To bind issues, first a binding template needs to be applied to the associated 
+Distribution.
+
+. Go to the *Manage Subscriptions* tab and from the grid, select the distribution(s) with issues you’d like to 
+bind.
+. Right-click on the distribution(s) or go to *Actions* and select *Apply Binding Template*.
+. In the dialog box that appears, select the Serial Copy Template you’d like to use from the dropdown 
+and click *Update*.
+
+
+Bind Received Issues Together
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 . Go to the *Manage Issues* tab and select the issues you want to bind together.
 . Right-click on the issues or go to *Action* and select *Bind*.
