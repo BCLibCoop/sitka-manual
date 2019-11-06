@@ -5,7 +5,7 @@ Apply a Binding Template
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 To bind issues, first a binding template needs to be applied to the associated 
-Distribution.
+distribution.
 
 . Go to the *Manage Subscriptions* tab and from the grid, select the distribution(s) with issues you’d like to 
 bind.
@@ -32,8 +32,8 @@ will be editable.
 +
 image::images/serials/bind-issues-2.png[scaledwidth="75%",alt="Binding Issues"]
 +
-. Modify the Call Number if needed.
-. Replace the Barcode and click Save.
+. Modify the call number if needed.
+. Replace the barcode and click *Save*.
 
 
 
