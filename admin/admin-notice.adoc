@@ -12,9 +12,11 @@ There are three email addresses on the notices besides the recipient's email: Fr
 Patrons can opt out of receiving overdue and courtesy notice emails in *My Account* under *Notification Preferences*.
 
 
-Circulation Pre-due Email Notice
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Circulation Pre-due Notices
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Email Pre-due Notice
+^^^^^^^^^^^^^^^^^^^^
 
 Library pre-due notices are generated and sent via email to patrons three days before an item is due. Only patrons with email addresses in Evergreen receive pre-due notices.
 
@@ -24,7 +26,18 @@ The pre-due notice template can be customized at the federation or library level
 
 Libraries can opt out of pre-due notices using the *org.opt_out_email_predue setting* in the Library Settings Editor.
 
-CAUTION: One checkout will receive only one pre-due notice. If the due date is extended via Edit Due Date after the pre-due notice is sent out, no new notice will be generated. Staff is encouraged to use Renew or Renew with Specific Due Date function instead of Edit Due Date to make sure a second notice will be generated in the due course.
+SMS Pre-due Notice
+^^^^^^^^^^^^^^^^^^
+
+Library pre-due notices are generated and sent via SMS to patrons three days before an item is due. Only patrons with a default Mobile Carrier and Mobile Number saved in their My Account notification preferences will receive pre-due notices.
+
+The pre-due notice template is shared by all Sitka libraries and cannot be customized.
+
+Libraries must opt in to have these notices turned on. Please contact Co-op Support to opt in.
+
+CAUTION: Patrons will receive both the email pre-due notice and the SMS pre-due notice.
+
+CAUTION: One checkout will receive pre-due notice(s) only once. If the due date is extended via Edit Due Date after the pre-due notice is sent out, no new notice will be generated. Staff is encouraged to use Renew or Renew with Specific Due Date function instead of Edit Due Date to make sure a second notice will be generated in the due course.
 
 
 Circulation Overdue Notices
@@ -65,19 +78,19 @@ The 1 and 2 weeks overdue notices are sent to patrons without email address only
 +
 This wording of the paper notices is customizable by library. PDF notices are set up by Co-op Support, and cannot be modified in the staff client. Please submit required revisions to Co-op Support.
 
-CAUTION: A final notice which includes billing information can be set to coincide with the system 
-automatically marking long overdue items to lost. See xref:_final_notices[] for information on setting 
+CAUTION: A final notice which includes billing information can be set to coincide with the system
+automatically marking long overdue items to lost. See xref:_final_notices[] for information on setting
 up this notice
 
 
 Overdue Notice by Phone
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can set up a recurring report to generate a list of overdues for all patrons, or 
-for those without an email address only. Then you can phone each person individually. 
-You can specify an email address to receive an email reminder each time a list is generated. 
-There are shared templates for overdue reports in the *SITKA_templates -> Circulation* folder. 
-See xref:_shared_sitka_templates[] for more about using shared templates. Co-op 
+You can set up a recurring report to generate a list of overdues for all patrons, or
+for those without an email address only. Then you can phone each person individually.
+You can specify an email address to receive an email reminder each time a list is generated.
+There are shared templates for overdue reports in the *SITKA_templates -> Circulation* folder.
+See xref:_shared_sitka_templates[] for more about using shared templates. Co-op
 Support staff will be very happy to assist if you need help in this process.
 
 Final Notices
