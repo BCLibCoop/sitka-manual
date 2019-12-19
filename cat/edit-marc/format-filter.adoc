@@ -8,7 +8,7 @@ Format Filter Groups and Format Icons are configured at the Sitka level.
 * bib_level (BLvl) is Leader position 07
 
 * item_form (Form) is 008 position 23
-** for item_type g, 008 position 29
+** if item_type is g, 008 position 29
 
 * vr_format is 007 position 04
 
