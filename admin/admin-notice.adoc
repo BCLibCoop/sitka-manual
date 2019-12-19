@@ -26,6 +26,8 @@ The pre-due notice template can be customized at the federation or library level
 
 Libraries can opt out of pre-due notices using the *org.opt_out_email_predue setting* in the Library Settings Editor.
 
+CAUTION: One checkout will receive pre-due notice(s) only once. If the due date is extended via Edit Due Date after the pre-due notice is sent out, no new notice will be generated. Staff is encouraged to use Renew or Renew with Specific Due Date function instead of Edit Due Date to make sure a second notice will be generated in the due course.
+
 SMS Pre-due Notice
 ^^^^^^^^^^^^^^^^^^
 
@@ -34,10 +36,6 @@ Library pre-due notices are generated and sent via SMS to patrons three days bef
 The pre-due notice template is shared by all Sitka libraries and cannot be customized.
 
 Libraries must opt in to have these notices turned on. Please contact Co-op Support to opt in.
-
-CAUTION: Patrons will receive both the email pre-due notice and the SMS pre-due notice.
-
-CAUTION: One checkout will receive pre-due notice(s) only once. If the due date is extended via Edit Due Date after the pre-due notice is sent out, no new notice will be generated. Staff is encouraged to use Renew or Renew with Specific Due Date function instead of Edit Due Date to make sure a second notice will be generated in the due course.
 
 
 Circulation Overdue Notices
