@@ -37,7 +37,7 @@ The pre-due notice template is shared by all Sitka libraries and cannot be custo
 
 Libraries must opt in to have these notices turned on. Please contact Co-op Support to opt in.
 
-CAUTION: If libraries are setup with both 3 day email notice and 3 day SMS notice templates, patrons will receive both an email and a text. The action trigger runs early in the morning, SMS messages will be sent around *2:00am*.
+CAUTION: The action trigger runs early in the morning, SMS messages will be sent around *2:00am*. If libraries are setup with both 3 day email notice and 3 day SMS notice templates, patrons will receive both an email and a text. 
 
 
 Circulation Overdue Notices
