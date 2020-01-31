@@ -3,6 +3,8 @@ Capturing Holds
 (((Holds)))
 (((Holds, Capture Holds)))
 
+link:https://youtu.be/KiUAjFFqvsU[*Sitka Training Video - Capturing Holds (2:29)*]
+
 Holds are captured when a checked-out item is checked-in, or an item on the *Holds Pull List* is retrieved and captured. When a hold is captured, the hold slip will be printed, unless disabled, and if the patron has chosen to be notified by email, the email notification will be sent out.
 
 . Select *Circulation → Capture Holds* or *Circulation → Check In*.
@@ -14,4 +16,4 @@ Holds are captured when a checked-out item is checked-in, or an item on the *Hol
 
 TIP: Patron contact information on the slip may differ from what is in their patron account record. Patrons have the option to enter different information when placing a hold, and Evergreen will print information from the hold record, rather than from the patron record.
 
-.
+
