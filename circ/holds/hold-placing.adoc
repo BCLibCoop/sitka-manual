@@ -92,6 +92,9 @@ image:images/circ/volhold1.png[scaledwidth="75%"]
 +
 . Edit patron hold notification fields as required and click *Submit*.
 
+NOTE: Support recommends only using copy holds if it's absolutely necessary to target a particular physical 
+copy.  Copy holds should never be used when placing holds on items owned by other libraries.
+
 Placing Holds in Patron Records
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
