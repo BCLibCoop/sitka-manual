@@ -15,8 +15,9 @@ The pull list is dynamic and is updated constantly. Once an item on the list is 
 +
 image:images/circ/pulllist1.png[scaledwidth="75%"]
 
+////
 TIP: The order of shelving locations can be adjusted on *Administration -> Local Administration -> Shelving Location Order*.
-
+////
 
 Print or Export Pull List for Hold Requests
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
