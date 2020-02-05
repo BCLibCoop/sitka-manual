@@ -1,7 +1,8 @@
 [[delete-patron-card]]
 Deleting Inactive Cards and Patron Accounts by Sitka's In-house Patron Deletion Tool
 ------------------------------------------------------------------------------------
-
+(((Delete Patrons)))
+(((Patron Deletion)))
 The patron deletion tool developed by the Sitka team allows Local System Administrators to delete inactive cards and patron accounts. This is done outside of patrons' records, and a small batch of barcodes/records can be deleted at once. The table below describes a few scenarios where this tool may be used.
 
 Staff can only delete cards and accounts for patrons whose home library is their library or one of their branches. The home library may need to be updated.
