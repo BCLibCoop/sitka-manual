@@ -1,8 +1,7 @@
 [[delete-patron-card]]
 Deleting Inactive Cards and Patron Accounts by Sitka's In-house Patron Deletion Tool
 ------------------------------------------------------------------------------------
-(((Delete Patrons)))
-(((Patron Deletion)))
+
 The patron deletion tool developed by the Sitka team allows Local System Administrators to delete inactive cards and patron accounts. This is done outside of patrons' records, and a small batch of barcodes/records can be deleted at once. The table below describes a few scenarios where this tool may be used.
 
 Staff can only delete cards and accounts for patrons whose home library is their library or one of their branches. The home library may need to be updated.
@@ -17,6 +16,8 @@ Staff can only delete cards and accounts for patrons whose home library is their
 
 Deleting Inactive Cards
 ~~~~~~~~~~~~~~~~~~~~~~~~
+
+(((Delete Inactive Cards)))
 
 When a patron's card is marked lost and a new barcode is assigned, the old barcode remains in the Evergreen database as an inactive card. Deleting lost or inactive cards is optional, but recommended. Patrons cannot check out items or log into the OPAC with an inactive card, but the lost cards can be used to retrieve the active patron record in the staff client. Whether a library routinely deletes inactive cards is a matter of local policy.
 
@@ -42,6 +43,9 @@ image:images/admin/patrondelete4.png[scaledwidth="75%"]
 
 Deleting Patron Accounts
 ~~~~~~~~~~~~~~~~~~~~~~~~
+
+(((Delete Patrons)))
+(((Patron Deletion)))
 
 Deleted patron accounts remain in the Evergreen database for reporting purposes but are no longer accessible from the staff client. The deletion tool checks the following before deleting any account:
 
