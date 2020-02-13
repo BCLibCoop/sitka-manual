@@ -6,8 +6,8 @@ Hatch is an optional installable program that works with your browser to manage 
 Refer to xref:download-hatch[] for installation instructions.
 
 [[hatch-troubleshooting]]
-Troubleshooting
-^^^^^^^^^^^^^^^
+Troubleshooting Hatch
+^^^^^^^^^^^^^^^^^^^^^
 
 Operating System
 ++++++++++++++++
@@ -34,7 +34,15 @@ You can also check to be sure that your operating system is able to find the pat
 Hatch Program
 +++++++++++++
 
-Verify that you are running the correct version of Hatch (0.3.2). You can see this from your computer's list of programs *Control Panel > Uninstall or change a program*.
+Verify that you are running the correct version of Hatch (0.3.2). You can see this from your computer's list of programs *Control Panel > Programs and Features*.
+
+.Test Hatch
+. Open up a command window (Start Menu, type in cmd).
+. C:\>cd %ProgramFiles(x86)%\Hatch
+. C:\Program Files (x86)\Hatch>hatch.bat test
+
+Check for lib directory
+
 
 Hatch Extension
 +++++++++++++++
@@ -48,8 +56,21 @@ image::images/intro/browser1.png[]
 . Click *More Tools*.
 . Click *Extensions.
 . Scroll down to Hatch Native Messenger.
-. Verify that it is version 0.1.5 and Enabled.
+. Verify that it is version 0.2.2 and Enabled.
 . When the Hatch Extension is installed and enabled, a small yellow icon should appear in the top-right corner of the browser:
+
+.Hatch Extension Console Messages:
+. In Chrome, click *Menu*.
+. Select *More Tools*.
+. Select *Extensions*.
+. Enable Developer Mode.
+. Choose Hatch Native Messenger.
+. Click on the link that says "background" page. (This will open a new window.)
+. Select the Console tab.
+. Change the "Default" dropdown to be sure that Verbose is checked.
+. Either take a screenshot or copy and paste the text that appears in the console when you see the errors occurring. Be sure to include any of the errors that display in red.
+
+
 
 Convert Hatch Settings to Local Storage
 +++++++++++++++++++++++++++++++++++++++
