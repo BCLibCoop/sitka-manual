@@ -36,16 +36,20 @@ Hatch Program
 
 Verify that you are running the correct version of Hatch (0.3.2). You can see this from your computer's list of programs *Control Panel > Programs and Features*.
 
-.Test Hatch
-. Open up a command window (Start Menu, type in cmd).
-. C:\>cd ProgramFiles(x86)\Hatch
-. C:\Program Files (x86)\Hatch>hatch.bat test
-
-Check for lib directory
-
+Confirm a "lib" directory exists in the Hatch install directory and that it includes a hatch.jar file
 +
 image::images/intro/hatchlibdirectory.png[]
+
+.Test Hatch
+. Open up a command window (Start Menu, type in cmd).
+. C:\>cd %ProgramFiles(x86)%\
+. enter
+. C:\Program Files (x86)\Hatch>hatch.bat test
+. enter
 +
+image::images/intro/testhatch.png[]
++
+. Either take a screenshot or copy and paste the text that appears in the command window.
 
 Hatch Extension
 +++++++++++++++

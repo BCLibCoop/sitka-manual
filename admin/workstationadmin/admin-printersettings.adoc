@@ -10,7 +10,10 @@ If you do not have Hatch installed on your computer you will see this message "H
 
 image::images/admin/printersettingnohatch.png[]
 
+[[hatch-printing]]
 Printing with Hatch
 ^^^^^^^^^^^^^^^^^^^
 
 If Hatch is installed on your computer you will use this screen to setup your printer defaults.
+
+image::images/admin/printersettinghatch.png[]
