@@ -5,10 +5,10 @@ Hatch is an optional installable program that works with your browser to manage 
 
 Refer to xref:download-hatch[] for installation instructions.
 
+[[hatch-troubleshooting]]
 Troubleshooting
 ^^^^^^^^^^^^^^^
 
-[[hatch-troubleshooting]]
 Operating System
 ++++++++++++++++
 
@@ -34,12 +34,12 @@ You can also check to be sure that your operating system is able to find the pat
 Hatch Program
 +++++++++++++
 
-Verify that you are running the correct version of Hatch (0.1.5). You can see this from your computer's list of programs *Control Panel > Uninstall or change a program*.
+Verify that you are running the correct version of Hatch (0.3.2). You can see this from your computer's list of programs *Control Panel > Uninstall or change a program*.
 
 Hatch Extension
 +++++++++++++++
 
-Verify that you are running the correct version of the Hatch Chrome Extension (0.1.5).
+Verify that you are running the correct version of the Hatch Chrome Extension (0.2.2).
 
 . Click Menu.
 +
