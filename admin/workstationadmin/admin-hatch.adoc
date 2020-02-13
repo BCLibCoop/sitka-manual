@@ -38,7 +38,7 @@ Verify that you are running the correct version of Hatch (0.3.2). You can see th
 
 Confirm a "lib" directory exists in the Hatch install directory and that it includes a hatch.jar file
 +
-image::images/intro/hatchlibdirectory.png[]
+image::images/admin/hatchlibdirectory.png[]
 
 .Test Hatch
 . Open up a command window (Start Menu, type in cmd).
@@ -47,7 +47,7 @@ image::images/intro/hatchlibdirectory.png[]
 . C:\Program Files (x86)\Hatch>hatch.bat test
 . enter
 +
-image::images/intro/testhatch.png[]
+image::images/admin/testhatch.png[]
 +
 . Either take a screenshot or copy and paste the text that appears in the command window.
 
@@ -74,8 +74,8 @@ image::images/intro/browser1.png[]
 . Choose Hatch Native Messenger.
 . Click on the link that says "background" page. (This will open a new window.)
 . Select the Console tab.
-. Change the "Default" dropdown to be sure that Verbose is checked.
-. Either take a screenshot or copy and paste the text that appears in the console when you see the errors occurring. Be sure to include any of the errors that display in red.
+. Change the "Default" drop down to be sure that Verbose is checked.
+. Either take a screen shot or copy and paste the text that appears in the console when you see the errors occurring. Be sure to include any of the errors that display in red.
 
 
 
