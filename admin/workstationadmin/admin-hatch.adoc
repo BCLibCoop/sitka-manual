@@ -37,7 +37,7 @@ Hatch Program
 Verify that you are running the correct version of Hatch (0.3.2). You can see this from your computer's list of programs *Control Panel > Programs and Features*.
 
 Confirm a "lib" directory exists in the Hatch install directory and that it includes a hatch.jar file
-+
+
 image::images/admin/hatchlibdirectory.png[]
 
 .Test Hatch
