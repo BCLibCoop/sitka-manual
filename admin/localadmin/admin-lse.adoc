@@ -587,7 +587,7 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 
 |Retain empty bib records|Retain a bib record even when all attached copies are deleted|True/False|Default: False | Sitka
 
-|Sending email address for patron notices|This email address is for automatically generated patron notices (e.g. email overdues, email holds notification).  It is good practice to set up a generic account, like info@nameofyourlibrary.org, so that one person’s individual email inbox doesn’t get cluttered with emails that were not delivered.|Text| | LSA
+|Sending email address for patron notices|This email address is for automatically generated patron notices (e.g. email overdues, email holds notification).  It is good practice to set up a generic account, like info@nameofyourlibrary.org, so that one person’s individual email inbox doesn’t get cluttered with emails that were not delivered.  Multi-branch libraries must set the email at the branch level rather than the system level, though the same email can be used for each branch. |Text| | LSA
 
 |===
 
