@@ -229,6 +229,7 @@ image::images/opac/opac-account-checked-out-4.png[scaledwidth="75%",alt="My Acco
 
 Holds
 ~~~~~
+(((My Account)))
 
 Items on Hold
 ^^^^^^^^^^^^^
@@ -265,6 +266,22 @@ displays from the date you enabled it; holds placed prior will not be included i
 image::images/opac/opac-account-holds-3.png[scaledwidth="75%",alt="My Account Holds"]
 
 Holds history will only display if it has been enabled in your _Search and History Preferences_.
+
+
+Reservations
+~~~~~~~~~~~~
+(((Booking)))
+(((My Account)))
+
+
+Patrons of libraries using the Booking Module will have a Reservations tab display in their account.
+
+image::images/opac/opac-reservations-1.png[scaledwidth="75%",alt="My Account Reservations"]
+
+On the reservations tab patrons can view items they have reserved, are ready for pick up, and items 
+that they have checked out through the Booking Module.
+
+image::images/opac/opac-reservations-2.png[scaledwidth="75%",alt="My Account Reservations"]
 
 
 Fines and Payments
