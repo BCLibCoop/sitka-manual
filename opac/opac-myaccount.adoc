@@ -229,7 +229,7 @@ image::images/opac/opac-account-checked-out-4.png[scaledwidth="75%",alt="My Acco
 
 Holds
 ~~~~~
-(((My Account)))
+(((My Account, Holds)))
 
 Items on Hold
 ^^^^^^^^^^^^^
@@ -270,8 +270,8 @@ Holds history will only display if it has been enabled in your _Search and Histo
 
 Reservations
 ~~~~~~~~~~~~
-(((Booking)))
-(((My Account)))
+(((Booking, My Account)))
+(((My Account, Reservations)))
 
 
 Patrons of libraries using the Booking Module will have a Reservations tab display in their account.
