@@ -42,10 +42,8 @@ image::images/admin/hatchlibdirectory.png[]
 
 .Test Hatch
 . Open up a command window (Start Menu, type in cmd).
-. C:\>cd %ProgramFiles(x86)%\
-. enter
-. C:\Program Files (x86)\Hatch>hatch.bat test
-. enter
+. enter command C:\>cd %ProgramFiles(x86)%\
+. enter command C:\Program Files (x86)\Hatch>hatch.bat test
 +
 image::images/admin/testhatch.png[]
 +
