@@ -42,8 +42,8 @@ image::images/admin/hatchlibdirectory.png[]
 
 .Test Hatch
 . Open up a command window (Start Menu, type in cmd).
-. enter command C:\>cd %ProgramFiles(x86)%\
-. enter command C:\Program Files (x86)\Hatch>hatch.bat test
+. Enter command C:\>cd %ProgramFiles(x86)%\
+. Enter command C:\Program Files (x86)\Hatch>hatch.bat test
 +
 image::images/admin/testhatch.png[]
 +
@@ -59,7 +59,7 @@ Verify that you are running the correct version of the Hatch Chrome Extension (0
 image::images/intro/browser1.png[]
 +
 . Click *More Tools*.
-. Click *Extensions.
+. Click *Extensions*.
 . Scroll down to Hatch Native Messenger.
 . Verify that it is version 0.2.2 and Enabled.
 . When the Hatch Extension is installed and enabled, a small yellow icon should appear in the top-right corner of the browser:
