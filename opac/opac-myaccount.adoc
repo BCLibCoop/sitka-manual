@@ -290,8 +290,7 @@ Patrons of libraries using the Booking Module will have a Reservations tab displ
 
 image::images/opac/opac-reservations-1.png[scaledwidth="75%",alt="My Account Reservations"]
 
-On the reservations tab patrons can view items they have reserved, are ready for pick up, and items 
-that they have checked out through the Booking Module.
+On the reservations tab patrons can view items they have reserved through the Booking Module and their status.
 
 image::images/opac/opac-reservations-2.png[scaledwidth="75%",alt="My Account Reservations"]
 
