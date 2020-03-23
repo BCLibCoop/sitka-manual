@@ -5,6 +5,8 @@ include::patron/patron-search.adoc[Patron Search]
 
 include::patron/patron-register.adoc[Register New Patrons]
 
+include::patron/patron-selfregister.adoc[Patron Self-Registration]
+
 include::patron/patron-update.adoc[Updating Individual Patron Records]
 
 include::patron/patron-alerts.adoc[Patron Alerts]
