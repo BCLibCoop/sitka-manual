@@ -1,8 +1,5 @@
 Patron Self-Registration
 ~~~~~~~~~~~~~~~~~~~~~~~~
-
-Patron Self-Registration
-~~~~~~~~~~~~~~~~~~~~~~~~
 *Abstract*
 
 Patron Self-Registration allows patrons to initiate registration for a library account through the OPAC.  Patrons can fill out a web-based form with basic information that will be stored as a “pending patron” in Evergreen.  Library staff can review pending patrons in the staff-client and use the pre-loaded account information to create a full patron account.  Pending patron accounts that are not approved within a configurable amount of time will be automatically deleted.
