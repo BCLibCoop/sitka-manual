@@ -29,7 +29,7 @@ image:images/circ/manage_registration.png[Managing Pending Patrons]
 
 Three new Library Settings have been created to manage patron self-registration:
 
-* *OPAC: Allow Patron Self-Registration* must be set to ‘True’ to enable use of this feature. *Only Co-op Support can edit this setting. xref:_how_to_contact_support[] if you would like to enable Patron Self-Registration*
+* *OPAC: Allow Patron Self-Registration* must be set to ‘True’ to enable use of this feature. *Only Co-op Support can edit this setting. Contact Co-op Support if you would like to enable Patron Self-Registration*
 
 * *OPAC: Patron Self-Reg. Expire Interval* allows each library to set the amount of time after which pending patron accounts should be deleted.
 
