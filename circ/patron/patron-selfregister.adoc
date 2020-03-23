@@ -1,0 +1,78 @@
+Patron Self-Registration
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Patron Self-Registration
+~~~~~~~~~~~~~~~~~~~~~~~~
+*Abstract*
+
+Patron Self-Registration allows patrons to initiate registration for a library account through the OPAC.  Patrons can fill out a web-based form with basic information that will be stored as a “pending patron” in Evergreen.  Library staff can review pending patrons in the staff-client and use the pre-loaded account information to create a full patron account.  Pending patron accounts that are not approved within a configurable amount of time will be automatically deleted.
+
+*Patron Self-Registration*
+
+. In the OPAC, click on the link to *Request Library Card*
+
+. Fill out the self-registration form to request a library card, and click *Submit Registration*.
+
+. Patrons will see a confirmation message: “Registration successful!  Please see library staff to complete your registration.”
+
+image:images/circ/patron_self_registration.png[Patron Self-Registration form]
+
+*Managing Pending Patrons*
+
+. In the staff client select *Circulation* -> *Pending Patrons*.
+
+. Select the patron you would like to review.  In this screen you have the option to *Delete* a pending patron account or *Load* the pending patron information to create a permanent library account.
+
+. To create a permanent library account for the patron, click on the patron’s row, right-click and select *Load Patron* or click on the *Load Patron* button at the top of the screen.  This will load the patron self-registration information into the main *Patron Registration* form.
+
+. Fill in the necessary patron information for your library, and click *Save* to create the permanent patron account.
+
+image:images/circ/manage_registration.png[Managing Pending Patrons]
+
+*Library Settings*
+
+Three new Library Settings have been created to manage patron self-registration:
+
+* *OPAC: Allow Patron Self-Registration* must be set to ‘True’ to enable use of this feature. Co-op Support must turn this on for you
+
+* *OPAC: Patron Self-Reg. Expire Interval* allows each library to set the amount of time after which pending patron accounts should be deleted.
+
+* *OPAC: Patron Self-Reg. Display Timeout* allows each library to set the amount of time after which the patron self-registration screen will timeout in the OPAC.  The default is 5 minutes.
+
+Several existing Library Settings can be used to determine if a field should be required or hidden in the self-registration form:
+
+* *GUI: Require day_phone field on patron registration*
+
+* *GUI: Show day_phone on patron registration*
+
+* *GUI: Require dob (date of birth) field on patron registration*
+
+* *GUI: Show dob field on patron registration*
+
+* *GUI: Require email field on patron registration*
+
+* *GUI: Show email field on patron registration*
+
+* *GUI: Require State field on patron registration*
+
+* *GUI: Show State field on patron registration*
+
+* *GUI: Require county field on patron registration*
+
+* *GUI: Show county field on patron registration*  [New Setting]
+
+Several existing Library Settings can be used to verify values in certain fields and provide examples for data format on the registration form:
+
+* *Global: Patron username format*
+
+* *GUI: Regex for phone fields on patron registration* OR *GUI: Regex for day_phone field on patron registration*
+
+* *GUI: Regex for email field on patron registration*
+
+* *GUI: Regex for post_code field on patron registration*
+
+* *GUI: Example for email field on patron registration*
+
+* *GUI: Example for post_code field on patron registration*
+
+* *GUI: Example for day_phone field on patron registration* OR *GUI: Example for phone fields on patron registration*
