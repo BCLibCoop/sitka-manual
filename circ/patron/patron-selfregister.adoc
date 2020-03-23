@@ -1,6 +1,5 @@
 Patron Self-Registration
 ~~~~~~~~~~~~~~~~~~~~~~~~
-*Abstract*
 
 Patron Self-Registration allows patrons to initiate registration for a library account through the OPAC.  Patrons can fill out a web-based form with basic information that will be stored as a “pending patron” in Evergreen.  Library staff can review pending patrons in the staff-client and use the pre-loaded account information to create a full patron account.  Pending patron accounts that are not approved within a configurable amount of time will be automatically deleted.
 
@@ -30,7 +29,7 @@ image:images/circ/manage_registration.png[Managing Pending Patrons]
 
 Three new Library Settings have been created to manage patron self-registration:
 
-* *OPAC: Allow Patron Self-Registration* must be set to ‘True’ to enable use of this feature. Co-op Support must turn this on for you
+* *OPAC: Allow Patron Self-Registration* must be set to ‘True’ to enable use of this feature. *Only Co-op Support can edit this setting. xref:_how_to_contact_support[] if you would like to enable Patron Self-Registration*
 
 * *OPAC: Patron Self-Reg. Expire Interval* allows each library to set the amount of time after which pending patron accounts should be deleted.
 
