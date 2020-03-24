@@ -9,7 +9,7 @@ Patron Self-Registration allows patrons to initiate registration for a library a
 
 . Fill out the self-registration form to request a library card, and click *Submit Registration*.
 
-. Patrons will see a confirmation message: “Registration successful!  Please see library staff to complete your registration.”
+. Patrons will see a confirmation message: “Registration successful!  Please see library staff to complete your registration.”  This message is customizable per library.
 
 image:images/circ/patron_self_registration.png[Patron Self-Registration form]
 
@@ -27,13 +27,13 @@ image:images/circ/manage_registration.png[Managing Pending Patrons]
 
 *Library Settings*
 
-Three new Library Settings have been created to manage patron self-registration:
+Three new Library Settings have been created to manage patron self-registration: *Only Co-op Support can edit this setting. Contact Co-op Support if you would like to enable Patron Self-Registration*
 
-* *OPAC: Allow Patron Self-Registration* must be set to ‘True’ to enable use of this feature. *Only Co-op Support can edit this setting. Contact Co-op Support if you would like to enable Patron Self-Registration*
+* *OPAC: Allow Patron Self-Registration* must be set to ‘True’ to enable use of this feature.
 
-* *OPAC: Patron Self-Reg. Expire Interval* allows each library to set the amount of time after which pending patron accounts should be deleted.
+* *OPAC: Patron Self-Reg. Expire Interval* to set the amount of time after which pending patron accounts should be deleted.
 
-* *OPAC: Patron Self-Reg. Display Timeout* allows each library to set the amount of time after which the patron self-registration screen will timeout in the OPAC.  The default is 5 minutes.
+* *OPAC: Patron Self-Reg. Display Timeout* to set the amount of time after which the patron self-registration screen will timeout in the OPAC.  The default is 5 minutes.
 
 Several existing Library Settings can be used to determine if a field should be required or hidden in the self-registration form:
 
