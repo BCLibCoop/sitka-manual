@@ -27,7 +27,7 @@ image:images/circ/manage_registration.png[Managing Pending Patrons]
 
 *Library Settings*
 
-Three new Library Settings have been created to manage patron self-registration: *Only Co-op Support can edit this setting. Contact Co-op Support if you would like to enable Patron Self-Registration*
+Three new Library Settings have been created to manage patron self-registration: *only Co-op Support can edit this setting. Contact Co-op Support if you would like to enable Patron Self-Registration*
 
 * *OPAC: Allow Patron Self-Registration* must be set to ‘True’ to enable use of this feature.
 
