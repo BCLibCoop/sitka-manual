@@ -3,30 +3,24 @@ Serials Administration
 
 link:https://www.youtube.com/watch?v=51LbKxtnETY[*Serials Training Video - Serials Overview (10:41)*]
 
-Serials Permissions
-~~~~~~~~~~~~~~~~~~~
-
-Serials permissions are required to use the Serials Module. If your library is interested in using the Serials module please contact Sitka Support.
-
-
-[[serial-copy-template]]
-Serial Copy Templates
+[[serial-item-template]]
+Serial Item Templates
 ~~~~~~~~~~~~~~~~~~~~~~
 
 link:https://youtu.be/A2xKgU4Ddwo[*Serials Training Video - Serial Copy Templates (2:30)*]
 
-Serial Copy Templates specify the item attributes that should be applied when a serial copy is received. You must create at least one template to receive serials.
+Serial Item Templates specify the item attributes that should be applied when a serial item is received. You must create at least one template to receive serials.
 
-Create a Serial Copy Template
+Create a Serial Item Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Click *Administration* -> *Serials Administration* -> *Serial Copy Templates*.
+. Click *Administration* -> *Serials Administration* -> *Serial Item Templates*.
 +
 image::images/serials/serialsadmincopytemp.png[]
 +
 . Click *Create Template*.
 +
-image::images/serials/copytemplate.png[]
+image::images/serials/itemtemplate.png[]
 +
 . Enter a _Template Name_.
 +
@@ -34,36 +28,39 @@ image::images/serials/copytemplate.png[]
 +
 . Click *Save*.
 +
-image::images/serials/copytemplate1.png[]
+image::images/serials/itemtemplate1.png[]
 
-Edit a Serial Copy Template
+Edit a Serial Item Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Click *Administration* -> *Serials Administration* -> *Serial Copy Templates*.
+. Click *Administration* -> *Serials Administration* -> *Serial Item Templates*.
 
 . Click the check box beside the template you want to edit.
 
 . Click *Actions* -> Choose _Edit Template_.
 +
-image::images/serials/copytemplate3.png[]
+image::images/serials/itemtemplate3.png[]
 +
 . Edit the item attributes for this template.
 
 . Click *Save*.
 
-Delete a Serial Copy Template
++\\\\+
+
+Delete a Serial Item Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Click *Administration* -> *Serials Administration* -> *Serial Copy Templates*.
+. Click *Administration* -> *Serials Administration* -> *Serial Item Templates*.
 +
 . Click the check box beside the template you want to delete.
 +
 . Click *Actions* -> Choose _Delete Template_.
 +
-image::images/serials/copytemplate4.png[]
+image::images/serials/itemtemplate4.png[]
 
++\\\\+
 
-NOTE: Serial Copy Templates that are being used by subscriptions cannot be deleted.
+NOTE: Serial Item Templates cannot be deleted.
 
 Prediction Pattern Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
