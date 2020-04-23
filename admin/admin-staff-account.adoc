@@ -87,6 +87,8 @@ Below is a general outline of staff account permission levels.  The list contain
 | Process offline transactions	 |	 |	 |	| 	 |	| *
 | Transit	| *	| *	| *	| *	| *	| *
 | Abort remote transit	 |	 |	| *	| *	| *	| *
+| Receive serials	 |	 | * | *	| *	| *	| *
+| Create serials subscriptions	 |	 |  |  | * | * | *
 |===
 
 NOTE: Only users with reporting permissions (granted by Sitka Support on libraries' request) can access the Reports interface, but the output can be visible to all staff accounts. Any staff requesting reporting permissions must sign and submit the Reporter Privacy Agreement see https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[Reporter Privacy Waiver].
