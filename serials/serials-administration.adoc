@@ -16,7 +16,7 @@ Create a Serial Item Template
 
 . Click *Administration* -> *Serials Administration* -> *Serial Item Templates*.
 +
-image::images/serials/serialsadmincopytemp.png[]
+image::images/serials/serialsadminitemtemp.png[]
 +
 . Click *Create Template*.
 +
@@ -45,7 +45,7 @@ image::images/serials/itemtemplate3.png[]
 
 . Click *Save*.
 
-+\\\\+
+\\\\
 
 Delete a Serial Item Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -58,7 +58,7 @@ Delete a Serial Item Template
 +
 image::images/serials/itemtemplate4.png[]
 
-+\\\\+
+\\\\
 
 NOTE: Serial Item Templates cannot be deleted.
 
