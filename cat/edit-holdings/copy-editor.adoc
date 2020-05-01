@@ -2,17 +2,17 @@ Working on Item Attributes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 (((Age-based Hold Protection)))
-((Fine Level))
-((Circulation Modifier))
-((Loan Duration))
-((Statistical Categories))
-((Circulate as Type))
+(((Fine Level)))
+(((Circulation Modifier)))
+(((Loan Duration)))
+(((Statistical Categories)))
+(((Circulate as Type)))
 
 :linkattrs:
 
 https://www.youtube.com/watch?v=zIgen-2N4PI[Sitka Training Video - Item Editor (6:17)]
 
-The item editor is used to create or edit item records. It is accessed through the *Holdings View* tab, or from the *Item Status* screen, or by clicking  *Edit* beside the item barcode on record details screen. Item records contain multiple fields, called *Item Attributes*. The *Item Attributes* fields display during the process of cataloguing or editing an item record. It is best practice to understand how these attributes work.
+The Holdings Editor is used to create or edit item records. It is accessed through the *Holdings View* tab, or from the *Item Status* screen, or by clicking  *Edit* beside the item barcode on record details screen. Item records contain multiple fields, called *Item Attributes*. The *Item Attributes* fields display during the process of cataloguing or editing an item record. It is best practice to understand how these attributes work.
 
 The table below provides detailed descriptions of each field in an item record.
 
