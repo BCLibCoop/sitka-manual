@@ -28,11 +28,11 @@ Create New Resource Type
 
 . To create a new resource type, click *New Resource Type* in the top right corner, .
 +
-image::images/booking/booking-create-resourcetype-1.png[]
+image::images/booking/booking-create-resourcetype-1.png[scaledwidth="75%",alt="new resource type"]
 +
 . A box will appear in which you create your new type of resource.
 +
-image::images/booking/booking-create-resourcetype-2.png[]
+image::images/booking/booking-create-resourcetype-2.png[scaledwidth="75%",alt="new resource type"]
 +
 * Catalog Item - (Function not currently available.)
 * Fine Amount - The amount that will be charged at each Fine Interval.
@@ -55,13 +55,13 @@ Create New Resource Attribute
 
 . Click *New Resource Attribute* in the top right corner.
 +
-image::images/booking/booking-create-ra-1.png[]
+image::images/booking/booking-create-ra-1.png[scaledwidth="75%",alt="new resource attribute"]
 +
 . A box will appear in which you can add the attributes of the resource.
 .. Attributes are categories of descriptive information. For example, an attribute of a projector may be the type of projector. Other attributes might be the number of seats available in a room, or the computing platform of a laptop.
 +
-image::images/booking/booking-create-ra-2.png[]
-+
+image::images/booking/booking-create-ra-2.png[scaledwidth="75%",alt="new resource attribute"]
+
 * Resource Attribute Name - Give your attribute a name.
 * Owning Library - The home library of the resource.
 * Resource Type - Type in the first letter to list then choose the Resource Type to which the Attribute is applicable.
@@ -129,11 +129,11 @@ Use Resource Attribute Maps to bring together the resources and their attributes
 
 . Click *New Resource Attribute Map* in the right top corner.
 +
-image::images/booking/booking-create-attrmap-1.png[]
+image::images/booking/booking-create-attrmap-1.png[scaledwidth="75%",alt="assign resource attribute"]
 +
 . A box will appear in which you will map your attributes and values to your resources.
 +
-image::images/booking/booking-create-attrmap-2.png[]
+image::images/booking/booking-create-attrmap-2.png[scaledwidth="75%",alt="assign resource attribute"]
 +
 * Resource - Enter the barcode of your resource.
 * Resource Attribute - Select an attribute that belongs to the Resource Type.
