@@ -79,14 +79,14 @@ Create New Resource Attribute Value
 
 . Click *New Resource Attribute Value* in the top right corner.
 +
-image::images/booking/booking-create-rav-1.png[]
+image::images/booking/booking-create-rav-1.png[scaledwidth="75%",alt="new resource attribute value"]
 +
 . A box will appear in which you assign a value to a particular attribute.
 
 .. Values can be numbers, words, or a combination of them, that describe the particular aspects of the resource that have been defined as Attributes.
 .. As all values appear on the same list for selection, values should be as unique as possible. For example, a laptop may have a computing platform that is either PC or Mac.
 +
-image::images/booking/booking-create-rav-2.png[]
+image::images/booking/booking-create-rav-2.png[scaledwidth="75%",alt="new resource attribute value"]
 +
 * Owning Library - The home library of the resource.
 * Resource Attribute - The attribute you wish to assign the value to.
@@ -103,11 +103,11 @@ Create New Resource
 
 . Click *New Resource* in the top right corner.
 +
-image::images/booking/booking-create-resource-1.png[]
+image::images/booking/booking-create-resource-1.png[scaledwidth="75%",alt="new resource"]
 +
 . A box will appear. Add information for the resource.
 +
-image::images/booking/booking-create-resource-2.png[]
+image::images/booking/booking-create-resource-2.png[scaledwidth="75%",alt="new resource"]
 +
 * Owning Library - The home library of the resource.
 * Resource Type - Type in the first letter of the resource type's name to list then select the resource type for your item.
