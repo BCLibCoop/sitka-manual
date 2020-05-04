@@ -1,19 +1,18 @@
 Course Reserves Administration
 ------------------------------
 
-The Course Reserves module is available to academic libraries for displaying and managing course 
-reserve lists.  
+The Course Reserves module is available to academic libraries for displaying and managing course
+reserve lists.
 
-The module uses the _My Lists_ functionality in the public catalogue to create lists of 
+The module uses the _My Lists_ functionality in the public catalogue to create lists of
 reserves materials that can be viewed by users.
 
 Implementing Course Reserves
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To request the course reserves module for your library
- https://bc.libraries.coop/support/[contact Co-op Support].  This module is only available for academic
+To request the course reserves module for your library https://bc.libraries.coop/support/[contact Co-op Support].  This module is only available for academic
  libraries.
- 
+
 Before implementing course reserves you will need to consider the following:
 
 **How will your reserve items will be identified in Evergreen?**
@@ -29,15 +28,15 @@ are not holdable your shelving location needs to be set accordingly or hold poli
 
 **Who will create the course reserve lists?**
 
-Because the course reserves module uses the _My Lists_ functionality the lists can be created by 
+Because the course reserves module uses the _My Lists_ functionality the lists can be created by
 instructors or library staff or both.  Decide who will create the lists and how admin staff
 will be informed of new lists to be added or old lists needing to be removed.
 
 Creating Course Reserve Lists
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Course Reserve lists are created using the My List functionality. Further details 
-can be found in xref:_my_lists[].
+Course Reserve lists are created using the My List functionality. Further details
+can be found in xref:__basket_and_lists[].
 
 . Log into your account in the public catalogue.
 +
@@ -65,7 +64,7 @@ image::images/course-reserves/course-reserves-3.png[scaledwidth="75%",alt="Creat
 
 [NOTE]
 =====
-The owner of the list can add and remove items from the list as needed and users will always 
+The owner of the list can add and remove items from the list as needed and users will always
 see the current list.
 =====
 
@@ -74,8 +73,8 @@ Adding Course Reserves
 
 . Login to the Course Reserves Admin module provided to you by Co-op Support
 . Enter the course information
-.. Course code 
-.. Instructor 
+.. Course code
+.. Instructor
 .. Bookbag ID
 . Click Submit
 +
