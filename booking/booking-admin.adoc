@@ -9,13 +9,13 @@ Staff with the required permissions can create bookable non-bibliographic resour
 The following pieces make up a non-bibliographic resource:
 
 * Resource Type
+* Resource
 * Resource Attribute
 * Resource Attribute Values
-* Resource
 * Resource Attribute Map
 
 [NOTE]
-You need to create *Resource Types* and *Resource Attributes*, and add *Resources* (booking items) to individual resource types. Each resource attribute may have multiple values. You need to link the applicable features (resource attributes and values) to individual items (resource) through the *Resource Attribute Map*. Before you create resources (booking items) you need to have a resource type and associated resource attributes and values, if any, for them.
+You must create *Resource Types* and add *Resources* (booking items) to individual resource types. *Resource Attributes* are optional. Resource attribute may have multiple values. You need to link the applicable features (resource attributes and values) to individual items (resource) through the *Resource Attribute Map*. Before you create resources (booking items) you need to have a resource type and associated resource attributes and values, if any, for them.
 
 Create New Resource Type
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -34,16 +34,16 @@ image::images/booking/booking-create-resourcetype-1.png[]
 +
 image::images/booking/booking-create-resourcetype-2.png[]
 +
-* Resource Type Name - Give your resource a name.
+* Catalog Item - (Function not currently available.)
+* Fine Amount - The amount that will be charged at each Fine Interval.
 * Fine Interval - How often will fines be charged?
 ** second(s), minute(s), hour(s), day(s), week(s)
 ** 00:00:30, 00:01:00, 01:00:00
-* Fine Amount - The amount that will be charged at each Fine Interval.
-* Owning Library - The home library of the resource.
-* Catalog Item - (Function not currently available.)
-* Transferable - This allows the item to be transferred between libraries.
 * Inter-booking and Inter-circulation Interval - The amount of time required by your library between the return of a resource and a new reservation for the resource.
 * Max Fine Amount - The amount at which fines will stop generating.
+* Owning Library - The home library of the resource.
+* Resource Type Name - Give your resource a name.
+* Transferable - This allows the item to be transferred between libraries.
 +
 . Click *Save*.
 
