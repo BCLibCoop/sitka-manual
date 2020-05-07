@@ -2,9 +2,9 @@
 Call Number/Item Defaults
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You may select to hide some fields in call number and item records. 
+You may select to hide some fields in call number and item records.
 
-. To configure the default fields, click on *Defaults* on call number/item editor.
+. To configure the default fields, click on *Defaults* on the Holdings Editor.
 +
 image::images/cat/volume-copy-default-1.png[]
 +
@@ -18,4 +18,3 @@ image::images/cat/volume-copy-default-2.png[]
 ====
 If you wish to print spine and/or pocket labels when saving item records, select *Print Item Labels on Save & Exit* checkbox. You will be directed to the spine label printing screen when clicking on *Save & Exit* on call number/item editor.
 ====
-

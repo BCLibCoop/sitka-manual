@@ -10,11 +10,11 @@ Holdings templates allow you to set up default values for selected call number a
 Creating Holdings Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. You can create a holdings template directly under *Admin -> Local Administration -> Holdings Template Editor* or  you can create an item template when creating a new item or editing an existing item record.
+. You can create a holdings template directly under *Admin -> Local Administration -> Holdings Template Editor* or, you can create an item template when creating a new item, or editing an existing item record, using the Holdings Editor.
 +
 image::images/cat/copy-template-3.png[]
 +
-. On Call Number/Item Editor, select/enter value for each required item attribute sharing the same default value.
+. Click Item Templates on the Holdings Editor, and select or enter value for each required item attribute sharing the same default value.
 +
 image::images/cat/copy-template-1.png[]
 +
@@ -25,7 +25,7 @@ image::images/cat/copy-template-1.png[]
 If you choose to allow call number attributes to be included in holdings template, you will be able set up classification scheme and call number prefixes for the template, as shown in the above screenshot. When the template is applied, these attributes will be applied to the call number. Refer to xref:_volume_copy_defaults[] for how to allow call number attributes to be included in holdings template.
 ====
 +
-. When you go to Call Number/Item Editor again, you will see the newly created template listed in the *Template* dropdown list.
+. When you go to the Holdings Editor again, you will see the newly created template listed in the *Template* dropdown list.
 +
 image::images/cat/copy-template-2.png[]
 +

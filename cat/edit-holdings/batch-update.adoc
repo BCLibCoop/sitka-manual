@@ -1,7 +1,7 @@
 Batch Editing Items
 ~~~~~~~~~~~~~~~~~~~
 
-You can edit items in batch on the *Item Status* screen, or in *Item Bucket*. On *Holdings View*, you can edit a few selected Items under the same title.
+You can edit items in batch on the *Item Status* screen, or in an *Item Bucket*. On *Holdings View*, you can edit a few selected Items under the same title.
 
 
 *Batch Editing Items on Item Status Screen*
@@ -17,8 +17,8 @@ image::images/cat/copy-batch-edit-2.png[]
 
 [NOTE]
 ======
-. When the selected items do not share the same value in a field, the field is empty and a dropdowm list with the multiple values shows up under the field.
-. For each field, you can only put in one value for all the selected records. Do not touch fields that you do not intend to edit, esp. those with multiple values.
+. When the selected items do not share the same value in a field, the field is empty and a dropdown list with the multiple values shows up under the field.
+. For each field, you can only put in one value for all the selected records. Do not touch fields that you do not intend to edit, especially those with multiple values.
 . You can select a few items to edit, store them in the *Completed Items* tab, then work on other items.
 ======
 

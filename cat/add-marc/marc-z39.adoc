@@ -39,7 +39,7 @@ image::images/cat/z39-6.png[]
 +
 image::images/cat/z39-7.png[]
 +
-. Confirmation pops up with options to *Go to record* or *Go back* to the import record window. 
+. Confirmation pops up with options to *Go to record* or *Go back* to the import record window.
 +
 image::images/cat/z39-7a.png[]
 +
@@ -52,7 +52,7 @@ image::images/cat/z39-8.png[]
 +
 image::images/cat/z39-9.png[]
 +
-. Volume Copy Editor opens in a new tab, so you can finish cataloguing the item.
+. The Holdings Editor opens in a new tab, so you can finish cataloguing the item.
 
 [TIP]
 ====
@@ -64,14 +64,14 @@ Overlaying Records via Z39.50 Interface
 
 https://goo.gl/kMu9iX[Overlay via Z39.50 (4:23)]
 
-There are times when it is necessary to overlay an existing MARC record in Evergreen with a better MARC record from a Z39.50 target. This lesson will demonstrate the steps required to achieve an overlay. Overlaying a MARC record replaces an existing MARC record and leaves all holdings, and corresponding holds, active circulations, bills, and fines intact. As overlay affects all libraries sharing a MARC record it is critical that this procedure be done judiciously and correctly. Please refer to Sitka's cataloguing policy, Co-op Support, or your library's cataloguing mentor, if in place, for more information about this process and its effect on the shared database.
+There are times when it is necessary to overlay an existing MARC record in Evergreen with a better MARC record from a Z39.50 target. This section will demonstrate the steps required to achieve an overlay. Overlaying a MARC record replaces an existing MARC record and leaves all holdings, and corresponding holds, active circulations, bills, and fines intact. As overlay affects all libraries sharing a MARC record it is critical that this procedure be done judiciously and correctly. Please refer to Sitka's cataloguing policy, Co-op Support, or your library's cataloguing mentor, if in place, for more information about this process and its effect on the shared database.
 
 
 Marking a Record for Overlay
 ++++++++++++++++++++++++++++
 
 
-You must first identify the MARC record which you wish to  overlay. You do this by "marking" it for overlay. Only one record can be marked at a time. When you mark another record, the previous record is unmarked. Once a record is marked, it stays marked until it is overlaid, or  has been reset. Therefore, you can mark and overlay one record at a time, following through the entire process to completion before moving on to another record.
+You must first identify the MARC record which you wish to  overlay. You do this by "marking" it for overlay. Only one record can be marked at a time. When you mark another record, the previous record is unmarked. Once a record is marked, it stays marked until it is overlaid, or has been reset. Therefore, you can mark and overlay one record at a time, following through the entire process to completion before moving on to another record.
 
 
 . To mark a record for overlay, find it in the catalogue first.
