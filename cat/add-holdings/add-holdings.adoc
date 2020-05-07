@@ -46,7 +46,7 @@ image::images/cat/add-holdings-10.png[]
 Adding Multiple Items to One Call Number
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. To add multiple items to one library on Call Number/Item Creator, use the arrow in the *Items* column to increase the number. Extra lines show up for more barcodes.
+. To add multiple items to one library on Holdings Editor, use the arrow in the *Items* column to increase the number. Extra lines show up for more barcodes.
 +
 image::images/cat/add-holdings-3a.png[]
 +
@@ -79,7 +79,7 @@ image::images/cat/add-holdings-8.png[]
 
 [CAUTION]
 =========
-* Stored items on *Completed Items* tab are not saved in the database until you click on *Save & Exit* or *Save Completed*. They are available on the current Call Number/Item Creator only. If you close the browser tab without saving them, you will lose them.
+* Stored items on *Completed Items* tab are not saved in the database until you click on *Save & Exit* or *Save Completed*. They are available on the current Holdings Editor screen only. If you close the browser tab without saving them, you will lose them.
 +
 * *Save Completed* will save those items on *Completed Items* tab only. Those on *Working Items* tab will be considered discarded, though they do not disappear.
 =========
@@ -98,7 +98,7 @@ image::images/cat/add-holdings-8b.png[]
 
 [NOTE]
 ======
-You may also add call numbers to more libraries on Call Number/Item Creator screen. Use the arrow in the *Owning Library* column to list the libraries, then click on *Add call number*.
+You may also add call numbers to more libraries on the Holdings Editor.  Use the arrow in the *Owning Library* column to list the libraries, then click on *Add call number*.
 
 image::images/cat/add-holdings-4.png[]
 ======
@@ -136,7 +136,7 @@ image::images/cat/add-holdings-12.png[]
 
 [TIP]
 =====
-* Evergreen does not allow one library to have two identical call numbers under one title. When saving new items or editing existing items, items sharing the same call number are grouped under one call number record. This call number can be edited via any item under it, and any edit affects all items. If only one item needs a different call number, you need to create a new call number record, then transfer the item to it.
+* Evergreen does not allow one library to have two identical call numbers under one title. When saving new items or editing existing items, items sharing the same call number are grouped under one call number record. This call number can be edited via any item under it, and any edit affects all items. If an item needs a different call number, you need to create a new call number record, then transfer the item to it.
 
 * Adding call number/items functions are also available on the *Actions* dropdown list, or right click your mouse when an entry on the library list is selected.
 
