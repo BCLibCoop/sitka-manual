@@ -112,17 +112,20 @@ Picking Up Reservations
 image::images/booking/booking-pickup-1.png[]
 +
 . Scan the patron barcode
-
-. The reservation(s) available for pickup will display. Select those you want to pick up and click *Pick Up*.
+. The reservation(s) available for pickup will display.
 +
 image::images/booking/booking-pickup-2.png[]
 +
+. *Show only captured resources*
+.. if checked, only captured resources will display
+.. if unchecked, all the resources the patron has upcoming reservations for will display
+. Select the items you want to pick up and click *Pick Up Selected*.
 . The screen will refresh to show that the patron has picked up the reservation(s).
 +
 image::images/booking/booking-pickup-3.png[]
 
 [NOTE]
-Reservations can picked up from within patron records. Click *Other* -> *Booking* -> *Pick Up Reservations*.
+Reservations can picked up starting from the patron record. Click *Other* -> *Booking* -> *Pick Up Reservations*.
 
 [CAUTION]
 Always use the dedicated Booking Module interfaces for tasks related to reservations. Items that have been captured for a reservation cannot be checked out using the Check Out interface, even if the patron is the reservation recipient.
@@ -130,56 +133,52 @@ Always use the dedicated Booking Module interfaces for tasks related to reservat
 Returning Reservations
 ~~~~~~~~~~~~~~~~~~~~~~
 
-[CAUTION]
-When a reserved item is brought back, staff must use the Booking Module to return the reservation.
-
 . Click *Booking* -> *Return Reservations*.
 +
 image::images/booking/booking-return-module-1.png[]
 +
-. You can return the item by patron or item barcode. Scan or enter the barcode, and click *Go*.
+. You can return the item by patron or item barcode. Scan or enter the barcode.
 +
 image::images/booking/booking-return-module-2.png[]
 +
-. A pop up box will tell you that the item was returned. Click *OK* on the prompt.
-
-. The screen will refresh to show that the patron has returned the resource.
+. Select the items you want to return and click *Return Selected*.
 +
 image::images/booking/booking-return-module-3.png[]
++
+. The screen will refresh to show that the patron has returned the resource(s).
++
+image::images/booking/booking-return-module-4.png[]
 
 [NOTE]
 Reservations can be returned from within patron records. Click *Other* -> *Booking* -> *Return Reservations*
 
-Cancelling a Reservation
-~~~~~~~~~~~~~~~~~~~~~~~~
+[CAUTION]
+When a reserved item is brought back, staff must use the Booking Module to return the reservation.
 
-A reservation can be cancelled in a patron’s record or reservation creation screen.
+Cancel a Reservation
+~~~~~~~~~~~~~~~~~~~~
+
+A reservation can be cancelled from the patron’s record or from Manage Reservations.
 
 Cancel a reservation from the patron record
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Retrieve the patron's record.
 
-. Click *Other* -> *Booking: Create or Cancel Reservations*.
+. Click *Other* -> *Booking: Manage Reservation*.
 +
 image::images/booking/booking-create-1.png[]
 +
-. The existing reservations will appear at the bottom of the screen.
-
-. Highlight the reservation that you want to cancel. Click Cancel Selected.
+. Highlight the reservation(s) that you want to cancel. Click *Actions* -> Cancel Selected.
 +
 image::images/booking/booking-cancel-2.png[]
 +
-.. Use Shift or Ctrl on keyboard and mouse click to select multiple reservations if needed.
-
-. A pop-up window will confirm the cancellation. Click OK on the prompt.
-
 . The screen will refresh, and the cancelled reservation(s) will disappear.
 
-Cancel a reservation on reservation creation screen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Cancel a reservation from the Manage Reservations screen
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Click *Booking* -> *Create Reservations*.
+. Click *Booking* -> *Manage Reservations*.
 
 . Select any Bookable Resource Type, then click *Next*.
 
