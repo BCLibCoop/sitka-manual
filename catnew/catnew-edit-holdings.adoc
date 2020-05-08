@@ -1,22 +1,13 @@
 Maintaining Holdings
 --------------------
 
-include::edit-holdings/copy-editor.adoc[Volume/Copy Editor]
-
-include::edit-holdings/volume-copy-default.adoc[Volume/Copy Defaults]
-
-include::edit-holdings/copy-template.adoc[Volume/Copy Template]
-
-include::edit-holdings/copy-alert-note-tag-stat-cat.adoc[Copy Aler, Note, Tag and Stat Cat]
-
-include::edit-holdings/edit-holdings.adoc[Editing Holdings]
-
-include::edit-holdings/replace-barcode.adoc[Replacing a Barcode]
-
-include::edit-holdings/batch-update.adoc[Batch Editing Copies]
-
-include::edit-holdings/spine-labels.adoc[Spine Labels]
-
-include::edit-holdings/transfer-holdings.adoc[Transferring Holdings]
-
-include::edit-holdings/delete-holdings.adoc[Deleting Holdings]
+    Working on Item Attributes
+    Call Number/Item Defaults
+    Holdings Template
+    Item Alert, Note, Tag and Stat Cat
+    Editing Holdings
+    Replacing a Barcode
+    Batch Editing Items
+    Spine/Pocket Labels
+    Transferring Holdings
+    Deleting Holdings
