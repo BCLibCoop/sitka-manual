@@ -10,7 +10,7 @@ some tasks will still need to be completed in the current catalogue.
 Enable the Experimental Catalogue
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A local system administrator at you library can enable the experimental catalogue.
+A local system administrator at your library can enable the experimental catalogue.
 
 . Go to *Administration → Local Administration → Library Setting Editor*.
 . Find the setting _GUI:Enable Experimental Angular Staff Catalog_ and set it to _True_.
