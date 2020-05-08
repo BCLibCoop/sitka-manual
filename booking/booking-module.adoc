@@ -1,8 +1,8 @@
 Booking Module
 --------------
 
-Creating a Booking Reservation
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Create a Booking Reservation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Only staff members may create reservations. A reservation can be started from a patron record, or from the booking module. To reserve catalogued items, you may start from searching the catalogue.
 
@@ -90,8 +90,8 @@ image::images/booking/booking-pull-2.png[]
 +
 image::images/booking/booking-pull-3.png[]
 
-Capturing Items for Reservations
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Capture Items for Reservations
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 . Click *Booking* -> *Capture Resources*.
 +
@@ -106,8 +106,8 @@ image::images/booking/booking-capture-2.png[]
 [CAUTION]
 Always capture reservations in Booking Module. Check In function in Circulation does not function the same as Capture Resources.
 
-Picking Up Reservations
-~~~~~~~~~~~~~~~~~~~~~~~
+Pick Up Reservations
+~~~~~~~~~~~~~~~~~~~~
 
 . Click *Booking* -> *Pick Up Reservations*.
 +
@@ -132,8 +132,8 @@ Reservations can picked up starting from the patron record. Click *Other* -> *Bo
 [CAUTION]
 Always use the dedicated Booking Module interfaces for tasks related to reservations. Items that have been captured for a reservation cannot be checked out using the Check Out interface, even if the patron is the reservation recipient.
 
-Returning Reservations
-~~~~~~~~~~~~~~~~~~~~~~
+Return Reservations
+~~~~~~~~~~~~~~~~~~~
 
 . Click *Booking* -> *Return Reservations*.
 +
@@ -157,13 +157,13 @@ Reservations can be returned from within patron records. Click *Other* -> *Booki
 [CAUTION]
 When a reserved item is brought back, staff must use the Booking Module to return the reservation.
 
-Cancel a Reservation
-~~~~~~~~~~~~~~~~~~~~
+Cancel Reservations
+~~~~~~~~~~~~~~~~~~~
 
 A reservation can be cancelled from the patron’s record or from Manage Reservations.
 
-Cancel a reservation from the patron record
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Cancel reservations from the patron record
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Retrieve the patron's record.
 
@@ -177,7 +177,7 @@ image::images/booking/booking-cancel-2.png[]
 +
 . The screen will refresh, and the cancelled reservation(s) will disappear.
 
-Cancel a reservation from the Manage Reservations screen
+Cancel reservations from the Manage Reservations screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Click *Booking* -> *Manage Reservations*.
