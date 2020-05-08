@@ -26,7 +26,7 @@ Create New Resource Type
 
 .. You may also see cataloged items in the list. Those items have been marked bookable or booked before.
 
-. To create a new resource type, click *New Resource Type* in the top right corner, .
+. To create a new resource type, click *New Resource Type* in the top right corner.
 +
 image::images/booking/booking-create-resourcetype-1.png[scaledwidth="75%",alt="new resource type"]
 +
@@ -46,6 +46,30 @@ image::images/booking/booking-create-resourcetype-2.png[scaledwidth="75%",alt="n
 * Transferable - This allows the item to be transferred between libraries.
 +
 . Click *Save*.
+
+Create New Resource
+^^^^^^^^^^^^^^^^^^^
+
+. Click *Administration* -> *Booking Administration* -> *Resources*.
+
+. Click *New Resource* in the top right corner.
++
+image::images/booking/booking-create-resource-1.png[scaledwidth="75%",alt="new resource"]
++
+. A box will appear. Add information for the resource.
++
+image::images/booking/booking-create-resource-2.png[scaledwidth="75%",alt="new resource"]
++
+* Owning Library - The home library of the resource.
+* Resource Type - Type in the first letter of the resource type's name to list then select the resource type for your item.
+* Barcode - Barcode for the resource.
+* Overbook - This allows a single item to be reserved, picked up, and returned by multiple patrons during overlapping or identical time periods.
+* Is Deposit Required
+* Deposit Amount
+* User Fee
++
+. Click *Save*.
+
 
 
 Create New Resource Attribute
@@ -95,29 +119,6 @@ image::images/booking/booking-create-rav-2.png[scaledwidth="75%",alt="new resour
 . Click *Save*..
 
 .. Each attribute should have at least two values attached to it; repeat this process for all applicable attribute values.
-
-Create New Resource
-^^^^^^^^^^^^^^^^^^^
-
-. Click *Administration* -> *Booking Administration* -> *Resources*.
-
-. Click *New Resource* in the top right corner.
-+
-image::images/booking/booking-create-resource-1.png[scaledwidth="75%",alt="new resource"]
-+
-. A box will appear. Add information for the resource.
-+
-image::images/booking/booking-create-resource-2.png[scaledwidth="75%",alt="new resource"]
-+
-* Owning Library - The home library of the resource.
-* Resource Type - Type in the first letter of the resource type's name to list then select the resource type for your item.
-* Barcode - Barcode for the resource.
-* Overbook - This allows a single item to be reserved, picked up, and returned by multiple patrons during overlapping or identical time periods.
-* Is Deposit Required
-* Deposit Amount
-* User Fee
-+
-. Click *Save*.
 
 
 Map Resource Attributes and Values to Resources
