@@ -1,4 +1,3 @@
-[[cat-copy-bucket]]
 Item Buckets
 ------------
 
@@ -24,7 +23,6 @@ When a bucket is retrieved, all information about the records in it is transferr
 Creating/Deleting Item Buckets
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[[create-bucket]]
 *Create Item Buckets*
 
 There are two ways to create an item bucket. You can either create a bucket first, without accessing any copies, or you can access an item record and choose to create the bucket from that view. We will demonstrate both methods here.
@@ -65,7 +63,7 @@ image::images/cat/copy-bucket-4.png[]
 +
 image::images/cat/copy-bucket-5.png[]
 
-[[delete-copy-bucket]]
+
 *Delete Item Buckets*
 
 To delete an item bucket, retrieve it on Bucket View, then select *Delete Bucket* on *Buckets* dropdown list.
