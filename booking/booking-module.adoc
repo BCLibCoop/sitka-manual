@@ -15,7 +15,7 @@ To create a reservation from a patron record
 +
 image::images/booking/booking-create-1.png[scaledwidth="75%",alt="create reservation"]
 +
-. This will open the Create Reservation Screen.
+. This will open the xref:create-reservation-interface[] screen.
 
 To create a reservation from the catalogue
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -28,13 +28,15 @@ If you would like to reserve a catalogued item but do not know the item barcode,
 +
 image::images/booking/booking-catalogue-1.png[scaledwidth="75%",alt="book item now"]
 +
-. This will open the xref:_create_reservation[] screen.
+. This will open the xref:create-reservation-interface[] screen.
 
 [NOTE]
 If you know the catalogued items barcode a reservation can be created from Item Status (Scan the barcode -> *Actions* -> *Book Item Now*).
 
-Create Reservation
-^^^^^^^^^^^^^^^^^^
+Create reservations
+^^^^^^^^^^^^^^^^^^^
+
+anchor:create-reservation-interface[Create Reservations]
 
 . Click *Booking* -> *Create Reservations*.
 .. from the patron record, click *Other* -> *Booking: Create Reservation*.
