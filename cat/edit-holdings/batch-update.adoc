@@ -6,7 +6,7 @@ You can edit items in batch on the *Item Status* screen, or in an *Item Bucket*.
 
 *Batch Editing Items on Item Status Screen*
 
-. Scan the barcodes to retrieve the items you want to edit, or click "Choose File" to load items from a text file of a list of barcodes*.
+. Scan the barcodes to retrieve the items you want to edit, or click "Choose File" to load items from a text file of a list of barcodes.
 . Select records to edit,  click *Actions* dropdown list, scroll down to *Edit*, and click *Items*.
 +
 image::images/cat/copy-batch-edit-1.png[]

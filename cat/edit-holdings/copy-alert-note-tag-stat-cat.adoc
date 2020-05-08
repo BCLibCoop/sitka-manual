@@ -12,7 +12,7 @@ Item alerts can be added when you create or edit a item record.
 . Click *Item Alerts*.
 . Choose a type from the dropdown list.
 . Type in the message, Click *OK*.
-. Back on the item editor, click *Save & Exit*.
+. Back on the Item Editor, click *Save & Exit*.
 +
 image::images/cat/copy-alert-1.png[]
 +
@@ -27,11 +27,11 @@ image::images/cat/copy-alert-2.png[]
 +
 image::images/cat/copy-alert-2a.png[]
 +
-. An *Alert* column is available on some screens to provide a quick link to viewing and/or managing the alert message.  Click *Manage* in the column, the item alert pop-up opens. You may edit/clear the message. *Manage* is greyed out if the item does not have an alert.
+. An *Alert* column is available on some screens to provide a quick link to viewing and/or managing the alert message.  Click *Manage* in the column to open the item alert pop-up. You may edit/clear the message. *Manage* is greyed out if the item does not have an alert.
 +
 image::images/cat/copy-alert-2c.png[]
 +
-. Alerts may be manually removed, following the same process as adding item alerts. On item alert pop-up window, select *Clear?* check box, then click *OK*. Click *Save & Exit* on item editor.
+. Alerts may be manually removed, following the same process as adding item alerts. On item alert pop-up window, select *Clear?* check box, then click *OK*. Click *Save & Exit* on Item Editor.
 +
 image::images/cat/copy-alert-2b.png[]
 =====
@@ -44,7 +44,7 @@ Notes can be added to item records. Notes will not show up when items are retrie
 . To add a note, go to the item record and click *Item Notes*.
 . Enter the note content in the pop-up window.
 . Select *Public*  to make it show up on the catalogue.
-. Once done, click *OK* to go back to item editor.
+. Once done, click *OK* to go back to Item Editor.
 . Click *Save & Exit*.
 +
 image::images/cat/copy-alert-3.png[]
@@ -74,7 +74,7 @@ image::images/cat/copy-alert-7.png[]
 
 Tags are added via *Item Tags* on the item editor. Libraries may pre-create their own tags. Refer to xref:_copy_tag[]
 
-. To add a item tag, go to the item editor.
+. To add a item tag, go to the Item Editor.
 . Click *Item Tags*.
 . Type a letter in the *Tag* box to display the tags, and choose one.
 . Click *Add Tag*, then *OK*.
@@ -99,7 +99,7 @@ Item Statistical Category (Stat Cat)
 
 Item Statistical Category, aka Item Stat Cat, is another piece of item level information that may be added to item records. As the name suggests, it may be used to facilitate reporting categories, if the data is not available in item records.  Libraries create their own stat cats. Refer to xref:stat-cat[].
 
-. To add a item stat cat, go to item editor.
+. To add an item stat cat, go to Item Editor.
 . In the  *Statistical Categories* column, choose an entry from the appropriate stat cat dropdown list. The value is added when the item record is saved.
 +
 image::images/cat/copy-alert-8.png[]

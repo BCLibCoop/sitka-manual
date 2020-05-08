@@ -26,13 +26,13 @@ You will see *Item not Found* in a red box showing up after the deletion. You ca
 *Deleting Items on Holdings View*
 
 . On the catalogue, in Holdings View, select the items you want to delete.  Click *Actions* dropdown list.
-. Scroll down to *Delete* to select *Delete Items* or *Call Numbers and Items*.
+. Scroll down to *Delete* to select *Delete Items* or *Delete Call Numbers and Items*.
 +
 image::images/cat/delete-holding-3.png[]
 
 *Deleting Items in Item Buckets*
 
-If your items are in a Item bucket, you can delete them from there.
+If your items are in an Item Bucket, you can delete them from there.
 
 . Select those items you wish to delete.
 . On *Actions* dropdown list, under *Items*, click *Delete Selected Items from Catalogue*.
@@ -42,7 +42,7 @@ image::images/cat/delete-holding-4.png[]
 Deleting Call Numbers without Items Attached
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Occasionally you may want to delete a call number record without items attached to it. For example, you created a call number record, but did not add an item to it. To delete it, you need to find the title. Go to Holdings View. Highlight the "orphan" call number record, select *Actions -> Delete -> Delete Empty Call Numbers*. If this is the last call number, the bibliographic record will be deleted, too.
+Occasionally you may want to delete a call number record without items attached to it. For example, you created a call number record, but did not add an item to it. To delete it, you need to find the title. Go to Holdings View. Highlight the "orphan" call number record, select *Actions -> Delete -> Delete Empty Call Numbers*. If this is the last call number record attached to the bibliographic record, the bibliographic record will be deleted, too.
 
 Deleting Bibliographic Record without Call Number/Item Attached
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

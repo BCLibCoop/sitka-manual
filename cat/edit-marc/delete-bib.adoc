@@ -6,7 +6,7 @@ Due to cascading record deletion on sole copies, you may find you do not need to
 
 Remember that Sitka's Evergreen is configured to always delete a MARC record when the only copy attached to it is deleted and you can only delete a MARC record if there are no holdings attached to it. This may happen if you have imported a new MARC record in error, and have not attached any holdings to it, or some other error or conversion circumstance that leaves a MARC record in the database with no holdings attached.
 
-You can delete a MARC record directly from the *MARC Edit* view only.
+You can delete a MARC record directly from the *MARC Edit* view.
 
 . Find the record in the catalogue and go to Record Details, and click on *MARC Edit*.
 +
@@ -16,7 +16,7 @@ image::images/cat/delete-marc-1.png[]
 +
 image::images/cat/delete-marc-2.png[]
 +
-. Confirmation window pops up. Click *OK/Continue*. 
+. Confirmation window pops up. Click *OK/Continue*.
 +
 image::images/cat/delete-marc-3.png[]
 +
@@ -32,4 +32,3 @@ Deleted records can be undeleted. Retrieve the record by record id. Go to MARC E
 
 image::images/cat/delete-marc-5.png[]
 =====
-

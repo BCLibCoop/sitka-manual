@@ -12,7 +12,14 @@ Web Staff Client (Web Client)
 Circulation
 ~~~~~~~~~~~
 
+* Circulation staff can mark an item Discard/Weed on checkin, item status, renew, and other patron and hold screens.
 
+* Checked out items can now be marked as Missing, as well as Discard/Weed, and be automatically checked in before having their status changed to Missing, or Discard/Weed. If staff choose not to check them in, their status is not changed.
+
+* Library Links in Billing Details Screen -The Full Details view now includes links to information about the billing and owning libraries. This can be useful in situations where circulation staff are troubleshooting a bill and would like to quickly find contact information for the billing or owning library
+
+* Self Check - Hide Print List Button On Self Check Home Page.
+The Print List button is no longer displayed on the main page of the self check interface. This addresses an issue where users were observed to either hit the Print List button and walk away or hit it and the Logout button, causing duplicate receipts to be printed. The Print List button continues to be displayed on the Items Out, Holds, and Fines Details pages of the self check interface.
 
 Cataloguing
 ~~~~~~~~~~~
@@ -24,7 +31,7 @@ Cataloguing
 Catalogue/Public Catalogue
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
+* Update Hold Notification Information – The public catalogue and staff client now have the ability to update existing holds if a patron or a staff member changes certain notification preferences or contact information. Evergreen will detect these changes and prompt the staff user or patron user  if they want to update existing holds with the new contact information and/or notification preferences.
 
 
 Library Settings

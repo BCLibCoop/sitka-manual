@@ -1,7 +1,7 @@
 Editing Holdings
 ~~~~~~~~~~~~~~~~
 
-In Evergreen, the call number is kept in a separate record, called call number record. Items under the same title with the same call number share the same call number record. Item records and call number records can be edited at several places.
+In Evergreen, the local call number is kept in a separate record, called call number record. Items under the same title with the same call number share the same call number record. Item records and call number records can be edited at several places.
 
 
 Editing Call Number and Item on Item Status
@@ -15,7 +15,7 @@ image::images/cat/edit-holding-1.png[]
 +
 image::images/cat/edit-holding-2.png[]
 +
-. The Item editor opens in a new tab. Make the changes, then *Save & Exit* to close the tab.
+. The Item Editor opens in a new tab. Make the changes, then *Save & Exit* to close the tab.
 +
 image:images/cat/edit-holding-3.png[]
 
@@ -27,9 +27,9 @@ Use the *Show Holdings Details* and *Hide Item Attributes* buttons to choose to 
 Editing Item on OPAC View
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can access the item editor in the catalogue on record details in the OPAC view.
+You can access the Item Editor in the catalogue on record details in the OPAC view.
 
-. Click *Edit* beside the item barcode that you want to edit. The item editor opens in a new tab.
+. Click *Edit* beside the item barcode that you want to edit. The Item Editor opens in a new tab.
 +
 image:images/cat/edit-holding-4.png[]
 
