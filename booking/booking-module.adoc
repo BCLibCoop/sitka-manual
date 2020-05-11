@@ -1,24 +1,23 @@
 Booking Module
 --------------
 
-Create a Booking Reservation
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Create Booking reservations
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Only staff members may create reservations. A reservation can be started from a patron record, or from the booking module. To reserve catalogued items, you may start from searching the catalogue.
 
-To create a reservation from a patron record
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Create reservation from the patron record
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Retrieve the patron’s record.
-
-. Select *Other* -> *Booking: Create Reservation*.
+. Retrieve the patron.
+. Click *Other* -> *Booking: Create Reservation*.
 +
 image::images/booking/booking-create-1.png[scaledwidth="75%",alt="create reservation"]
 +
 . This will open the xref:create-reservation-interface[] screen.
 
-To create a reservation from the catalogue
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Create reservation from the catalogue
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you would like to reserve a catalogued item but do not know the item barcode, you may start with a catalogue search.
 
@@ -44,30 +43,32 @@ anchor:create-reservation-interface[Create Reservations]
 +
 image::images/booking/booking-create-module-1.png[scaledwidth="75%",alt="create reservation"]
 +
-. *Reservation type* -
-. *Reservation date* -
-. For non-catalogued items, you can *Choose resource by type* or *Choose resource by barcode*. For catalogued items, *Choose resource by barcode*.
+. *Reservation type* - Choose Single day reservation or Multiple day reservation
+. *Reservation date* - Enter the reservation date(s)
+. *Reservation details* - use the filters to find a bookable resource
+..*Choose resource by type* -
+..*Choose resource by barcode* - use this if you know the barcode of the specific item you want to reserve
 +
 image::images/booking/booking-create-2.png[scaledwidth="75%",alt="create reservation"]
 +
-. Select the date and time for the reservation in *I need this resource...* area. Click the date field to choose a date using the calendar widget. Click the time field to choose a time from the drop down list.
+. Click *Create Reservation*
 +
-image::images/booking/booking-create-3.png[scaledwidth="75%",alt="create reservation"]
+image::images/booking/booking-create-module-2.png[scaledwidth="75%",alt="create reservation"]
 +
-.. If incorrect date and time is selected, the date/time boxes will appear in red. For example, if the time for which the reservation is set has already passed, the boxes will appear in red.
-.. There must be at least 15 minutes between the creation of the reservation and the start time of the reservation.
+. *Patron barcode* - scan or enter the patron barcode
+.. If you start from the patron record the patron barcode will be autofilled.
+. *Start time* - choose or confirm the start time for the reservation
+. *End time* - choose or confirm the start time for the reservation
+. *Reservation location*
+. *Resource*
+.. Any resource
+..
+. *Notify by email?*
+. *Note*
+. Click *Confirm reservation* or *Confirm and show patron reservations* to save the reservation.
 
-. Select the pickup location from the drop down list.
 
-. If there are multiple copies of the resource and any item listed is acceptable, click *Reserve Any*. To choose a specific item, select it and then click *Reserve Selected*.
-+
-image::images/booking/booking-create-5.png[]
-+
-. A message will confirm that the action succeeded. Click *OK* on the prompt.
 
-. The screen will refresh and the reservation will appear below the patron’s name at the bottom of the screen.
-+
-image::images/booking/booking-create-6.png[]
 
 
 [NOTE]
@@ -127,7 +128,7 @@ image::images/booking/booking-pickup-2.png[]
 image::images/booking/booking-pickup-3.png[]
 
 [NOTE]
-Reservations can picked up starting from the patron record. Click *Other* -> *Booking* -> *Pick Up Reservations*.
+Reservations can be picked up from the patron record. Retrieve patron -> click *Other* -> *Booking: Pick Up Reservations*.
 
 [CAUTION]
 Always use the dedicated Booking Module interfaces for tasks related to reservations. Items that have been captured for a reservation cannot be checked out using the Check Out interface, even if the patron is the reservation recipient.
@@ -152,17 +153,17 @@ image::images/booking/booking-return-module-3.png[]
 image::images/booking/booking-return-module-4.png[]
 
 [NOTE]
-Reservations can be returned from within patron records. Click *Other* -> *Booking* -> *Return Reservations*
+Reservations can be returned from the patron record. Retrieve patron -> click *Other* -> *Booking: Return Reservations*.
 
 [CAUTION]
 When a reserved item is brought back, staff must use the Booking Module to return the reservation.
 
-Cancel Reservations
+Manage Reservations
 ~~~~~~~~~~~~~~~~~~~
 
-A reservation can be cancelled from the patron’s record or from Manage Reservations.
+A reservation can be edited or cancelled from the patron’s record or from Manage Reservations.
 
-Cancel reservations from the patron record
+Manage reservations from the patron record
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Retrieve the patron's record.
@@ -170,14 +171,10 @@ Cancel reservations from the patron record
 . Click *Other* -> *Booking: Manage Reservation*.
 +
 image::images/booking/booking-create-1.png[]
-+
-. Highlight the reservation(s) that you want to cancel. Click *Actions* -> Cancel Selected.
-+
-image::images/booking/booking-cancel-2.png[]
-+
-. The screen will refresh, and the cancelled reservation(s) will disappear.
 
-Cancel reservations from the Manage Reservations screen
+
+
+Manage reservations from the Manage Reservations screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Click *Booking* -> *Manage Reservations*.
