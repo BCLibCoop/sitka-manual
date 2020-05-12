@@ -5,7 +5,9 @@ Update Patron Account
 (((Renew Patron Card)))
 (((Library Card)))
 
-Routine maintenance of your patron accounts includes updating patrons' contact information, renewing expired library cards, marking library cards lost, re-setting patrons' passwords, inserting  notes or alert messages, and so on. It is good practice to understand how the patron account record functions.
+Routine maintenance of your patron accounts includes updating patrons' contact information, contact preferences, renewing expired library cards, marking library cards lost, re-setting patrons' passwords, inserting  notes or alert messages, and so on. It is good practice to understand how the patron account record functions.
+
+As of Evergreen 3.5, if you edit phone numbers, email addresses, or hold notification preferences, you have the option to update any outstanding holds with the new information. Watch this short video to see how it works. https://www.youtube.com/watch?v=V33rC85pqy4
 
 . Scan the patron barcode or search for patron by name.
 . Once the patron record is loaded, *Check Out* is the default tab.
