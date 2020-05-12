@@ -23,4 +23,6 @@ image::images/cat/new-marc-4.png[]
 +
 . Complete the MARC record as per Sitka policy. You can add and delete tags and subfields as required.
 . Click *Save*.
-. The record is created and will open up in your tab in the current default view. If you did not utilize *Fast Item Add*, you may now attach holdings as described in xref:add-holdings[].
+. The record is created and will open up in your tab in the current default view.
+
+If you did not utilize *Fast Item Add*, you may now attach holdings as described in xref:_adding_holdings_to_bibliographic_records[].
