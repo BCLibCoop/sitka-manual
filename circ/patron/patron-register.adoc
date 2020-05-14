@@ -14,6 +14,7 @@ whether you're showing Required Fields, Suggested Fields, or All Fields.  See xr
 for the settings that control which fields display.
 . Toggle between *Primary Name* and *Preferred Name* tabs to enter required names.
 . If you do not record the address, you need to delete the fields by clicking the red cross sign beside *Address*. Blank address fields result in an error.
+. *Holds Notices* default setting is Phone and Email, and *Default Hold Notification Phone Number* and *Email Address* are required fields. You can override these settings and required fields with patron's actual preferences as needed.
 . Click *Save* or *Save & Clone* at top-right of screen. *Save and Clone* will save the record, and open a new record with some shared details such as phone number and optionally address.
 +
 image:images/circ/patronregister1.png[scaledwidth="75%"]
