@@ -9,7 +9,7 @@ Only staff members may create reservations. A reservation can be started from a 
 Create reservation from the patron record
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Retrieve the patron.
+. Retrieve the patron record.
 . Click *Other* -> *Booking: Create Reservation*.
 +
 image::images/booking/booking-create-1.png[scaledwidth="75%",alt="create reservation"]
@@ -46,8 +46,8 @@ image::images/booking/booking-create-module-1.png[scaledwidth="75%",alt="create 
 . *Reservation type* - Choose Single day reservation or Multiple day reservation
 . *Reservation date* - Enter the reservation date(s)
 . *Reservation details* - use the filters to find a bookable resource
-..*Choose resource by type* -
-..*Choose resource by barcode* - use this if you know the barcode of the specific item you want to reserve
+.. *Choose resource by type* -
+.. *Choose resource by barcode* - use this if you know the barcode of the specific item you want to reserve
 +
 image::images/booking/booking-create-2.png[scaledwidth="75%",alt="create reservation"]
 +
@@ -55,24 +55,18 @@ image::images/booking/booking-create-2.png[scaledwidth="75%",alt="create reserva
 +
 image::images/booking/booking-create-module-2.png[scaledwidth="75%",alt="create reservation"]
 +
-. *Patron barcode* - scan or enter the patron barcode
-.. If you start from the patron record the patron barcode will be autofilled.
-. *Start time* - choose or confirm the start time for the reservation
-. *End time* - choose or confirm the start time for the reservation
-. *Reservation location*
-. *Resource*
-.. Any resource
-..
+. Confirm Reservation Details
+.. *Patron barcode* - enter or confirm the patron barcode
+.. *Start time* - choose or confirm the start time for the reservation
+.. *End time* - choose or confirm the start time for the reservation
+.. *Reservation location*
+.. *Resource* - choose *Any resource* to reserve any available resource of the chosen resource type or choose a specific resource barcode
 . *Notify by email?*
 . *Note*
 . Click *Confirm reservation* or *Confirm and show patron reservations* to save the reservation.
 
-
-
-
-
 [NOTE]
-You need to know the barcode of the patron when you create a reservation for him/her from a booking resource.
+You need to know the barcode of the patron when you create reservations from booking.
 
 
 Reservation Pull List

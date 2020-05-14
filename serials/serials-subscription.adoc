@@ -1,9 +1,9 @@
 Serials Subscriptions
 ---------------------
 
-The Serials Module can be used to create subscriptions, distributions, streams, and prediction patterns.  As well as to generate predictions and receive issues as they come in to the library.
+The Serials Module can be used to create subscriptions, distributions, streams, and prediction patterns, as well as to generate predictions and receive issues as they come in to the library.
 
-To access the Serials Module, retrieve a bibliographic record, click on *Serials* -> *Manage Subscriptions*.  This will open the serials interface for that particular record.
+To access the Serials Module, retrieve a bibliographic record and click on *Serials* -> *Manage Subscriptions*.  This will open the serials interface for that particular record.
 
 image:images/serials/subscription.png[]
 
@@ -26,7 +26,7 @@ image::images/serials/subscription11.png[]
 .. *Expected Offset* - Difference between the nominal publishing date of an issue and the date that you expect to receive your copy. (Optional)
 .. *Distributed At* - Circulation Library
 ... Click *Add Distribution* to add a second copy to the subscription
-.. *Label* -  This field is not publicly visible and only appears when an item is received. There are no limits on the number of characters that can be entered in this field. It may be useful to identify the branch to which you are distributing these issues in this field. 
+.. *Label* -  This field is not publicly visible and only appears when an item is received. There are no limits on the number of characters that can be entered in this field. It may be useful to identify the branch to which you are distributing these issues in this field.
 .. *OPAC Display* - Whether the public catalog display of issues should be grouped by chronology (e.g., years) or enumeration (e.g., volume and number).
 .. *Receiving Template* - Specifies the item attributes applied on receipt - see xref:serial-copy-template[] for more information.
 .. *Send to* - Designate specific users and/or departments that serial items need to be routed to upon receiving.
@@ -133,7 +133,7 @@ Evergreen can also generate a prediction pattern from existing MFHD records atta
 Create and Manage Issues
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-After generating predictions in the *Manage Predictions* tab, you will see a list of the predicted issues in the *Manage Issues* tab.  A variety of actions can be taken in this tab,
+After generating predictions in the *Manage Predictions* tab, you will see a list of the predicted issues in the *Manage Issues* tab.  A variety of actions can be taken in this tab:
 
 * Receive issues
 ** Click *Receive Next*. Refer to xref:_serials_receiving[] for details.
