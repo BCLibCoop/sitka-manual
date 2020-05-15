@@ -6,8 +6,8 @@ Create Booking reservations
 
 Only staff members may create reservations. A reservation can be started from a patron record, or from the booking module. To reserve catalogued items, you may start from searching the catalogue.
 
-Create reservation from the patron record
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Create reservations from the patron record
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Retrieve the patron record.
 . Click *Other* -> *Booking: Create Reservation*.
@@ -16,8 +16,8 @@ image::images/booking/booking-create-1.png[scaledwidth="75%",alt="create reserva
 +
 . This will open the xref:create-reservation-interface[] screen.
 
-Create reservation from the catalogue
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Create reservations from the catalogue
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you would like to reserve a catalogued item but do not know the item barcode, you may start with a catalogue search.
 
@@ -46,7 +46,7 @@ image::images/booking/booking-create-module-1.png[scaledwidth="75%",alt="create 
 . *Reservation type* - Choose Single day reservation or Multiple day reservation
 . *Reservation date* - Enter the reservation date(s)
 . *Reservation details* - use the filters to find a bookable resource
-.. *Choose resource by type* -
+.. *Choose resource by type* - use this to see all resources by resource type
 .. *Choose resource by barcode* - use this if you know the barcode of the specific item you want to reserve
 +
 image::images/booking/booking-create-2.png[scaledwidth="75%",alt="create reservation"]
@@ -59,10 +59,10 @@ image::images/booking/booking-create-module-2.png[scaledwidth="75%",alt="create 
 .. *Patron barcode* - enter or confirm the patron barcode
 .. *Start time* - choose or confirm the start time for the reservation
 .. *End time* - choose or confirm the start time for the reservation
-.. *Reservation location*
+.. *Reservation location* - the library where the resource is picked up or used
 .. *Resource* - choose *Any resource* to reserve any available resource of the chosen resource type or choose a specific resource barcode
-. *Notify by email?*
-. *Note*
+. *Notify by email?* - check the box to notify the patron by email when the resource is ready for pick up
+. *Note* - enter a note (optional)
 . Click *Confirm reservation* or *Confirm and show patron reservations* to save the reservation.
 
 [NOTE]
