@@ -46,8 +46,8 @@ image::images/booking/booking-create-module-1.png[scaledwidth="75%",alt="create 
 . *Reservation type* - Choose Single day reservation or Multiple day reservation
 . *Reservation date* - Enter the reservation date(s)
 . *Reservation details* - use the filters to find a bookable resource
-.. *Choose resource by type* - use this to see all resources by resource type
-.. *Choose resource by barcode* - use this if you know the barcode of the specific item you want to reserve
+.. *Choose resource by type* - use this to see all resources of a specific type
+.. *Choose resource by barcode* - use this if you know the barcode of the item you want to reserve
 +
 image::images/booking/booking-create-2.png[scaledwidth="75%",alt="create reservation"]
 +
@@ -56,13 +56,13 @@ image::images/booking/booking-create-2.png[scaledwidth="75%",alt="create reserva
 image::images/booking/booking-create-module-2.png[scaledwidth="75%",alt="create reservation"]
 +
 . Confirm Reservation Details
-.. *Patron barcode* - enter or confirm the patron barcode
-.. *Start time* - choose or confirm the start time for the reservation
-.. *End time* - choose or confirm the start time for the reservation
-.. *Reservation location* - the library where the resource is picked up or used
-.. *Resource* - choose *Any resource* to reserve any available resource of the chosen resource type or choose a specific resource barcode
-. *Notify by email?* - check the box to notify the patron by email when the resource is ready for pick up
-. *Note* - enter a note (optional)
+.. *Patron barcode* - enter or confirm the patron barcode.
+.. *Start time* - choose or confirm the start time for the reservation.
+.. *End time* - choose or confirm the start time for the reservation.
+.. *Reservation location* - the library where the resource is picked up or used.
+.. *Resource* - choose *Any resource* to reserve any available resource of the chosen resource type or choose a specific resource barcode from the drop down menu.
+.. *Notify by email?* - check the box to notify the patron by email when the resource is ready for pick up
+.. *Note* - enter a note (optional)
 . Click *Confirm reservation* or *Confirm and show patron reservations* to save the reservation.
 
 [NOTE]
@@ -74,27 +74,27 @@ Reservation Pull List
 
 . Click *Booking* -> *Pull List*.
 +
-image::images/booking/booking-pull-1.png[]
+image::images/booking/booking-pull-1.png[scaledwidth="75%",alt="reservation pull list"]
 +
 . The pull list of reserved items will appear
 +
-image::images/booking/booking-pull-2.png[]
+image::images/booking/booking-pull-2.png[scaledwidth="75%",alt="reservation pull list"]
 +
 . Enter the *Number of days to fetch*. For example, if you would like to see only items that are needed today, you can enter 1 in the box, and you will retrieve items that need to be pulled today.
 . Click *Actions* -> *Print Pull List* to print the pull list.
 +
-image::images/booking/booking-pull-3.png[]
+image::images/booking/booking-pull-3.png[scaledwidth="75%",alt="reservation pull list"]
 
 Capture Items for Reservations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 . Click *Booking* -> *Capture Resources*.
 +
-image::images/booking/booking-capture-1.png[]
+image::images/booking/booking-capture-1.png[scaledwidth="75%",alt="capture resource"]
 +
 . Scan the item barcode or type the barcode then click *Capture*.
 +
-image::images/booking/booking-capture-2.png[]
+image::images/booking/booking-capture-2.png[scaledwidth="75%",alt="capture resource"]
 +
 . The message Capture succeeded will appear to the right. Information about the item will appear below the message. Click *Print* button to print a slip for the reservation.
 
@@ -106,12 +106,12 @@ Pick Up Reservations
 
 . Click *Booking* -> *Pick Up Reservations*.
 +
-image::images/booking/booking-pickup-1.png[]
+image::images/booking/booking-pickup-1.png[scaledwidth="75%",alt="pick up reservations"]
 +
 . Scan the patron barcode
 . The reservation(s) available for pickup will display.
 +
-image::images/booking/booking-pickup-2.png[]
+image::images/booking/booking-pickup-2.png[scaledwidth="75%",alt="pick up reservations"]
 +
 . *Show only captured resources*
 .. if checked, only captured resources will display
@@ -119,10 +119,10 @@ image::images/booking/booking-pickup-2.png[]
 . Select the items you want to pick up and click *Pick Up Selected*.
 . The screen will refresh to show that the patron has picked up the reservation(s).
 +
-image::images/booking/booking-pickup-3.png[]
+image::images/booking/booking-pickup-3.png[scaledwidth="75%",alt="pick up reservations"]
 
 [NOTE]
-Reservations can be picked up from the patron record. Retrieve patron -> click *Other* -> *Booking: Pick Up Reservations*.
+Reservations can also be picked up from the patron record. Retrieve the patron record -> click *Other* -> *Booking: Pick Up Reservations*.
 
 [CAUTION]
 Always use the dedicated Booking Module interfaces for tasks related to reservations. Items that have been captured for a reservation cannot be checked out using the Check Out interface, even if the patron is the reservation recipient.
@@ -132,19 +132,19 @@ Return Reservations
 
 . Click *Booking* -> *Return Reservations*.
 +
-image::images/booking/booking-return-module-1.png[]
+image::images/booking/booking-return-module-1.png[scaledwidth="75%",alt="return reservations"]
 +
 . You can return the item by patron or item barcode. Scan or enter the barcode.
 +
-image::images/booking/booking-return-module-2.png[]
+image::images/booking/booking-return-module-2.png[scaledwidth="75%",alt="return reservations"]
 +
 . Select the items you want to return and click *Return Selected*.
 +
-image::images/booking/booking-return-module-3.png[]
+image::images/booking/booking-return-module-3.png[scaledwidth="75%",alt="return reservations"]
 +
 . The screen will refresh to show that the patron has returned the resource(s).
 +
-image::images/booking/booking-return-module-4.png[]
+image::images/booking/booking-return-module-4.png[scaledwidth="75%",alt="return reservations"]
 
 [NOTE]
 Reservations can be returned from the patron record. Retrieve patron -> click *Other* -> *Booking: Return Reservations*.
@@ -164,7 +164,7 @@ Manage reservations from the patron record
 
 . Click *Other* -> *Booking: Manage Reservation*.
 +
-image::images/booking/booking-create-1.png[]
+image::images/booking/booking-manage-reservations.png[scaledwidth="75%",alt="manage reservations"]
 
 
 
@@ -172,11 +172,20 @@ Manage reservations from the Manage Reservations screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Click *Booking* -> *Manage Reservations*.
-
-. Select any Bookable Resource Type, then click *Next*.
-
-. Scan or type in the patron barcode in Reserve to Patron box then hit *Enter*.
-
-. Patron's existing reservations will display at the bottom of the screen.
-
-. Select those that you want to cancel, then click *Cancel Selected*.
++
+image::images/booking/booking-manage-reservations-1.png[scaledwidth="75%",alt="manage reservations"]
++
+. Filter reservations
+.. Filter by patron
++
+image::images/booking/booking-manage-reservations-p.png[scaledwidth="75%",alt="manage reservations"]
++
+.. Filter by resource
++
+image::images/booking/booking-manage-reservations-r.png[scaledwidth="75%",alt="manage reservations"]
++
+.. Filter by resource type
++
+image::images/booking/booking-manage-reservations-rt.png[scaledwidth="75%",alt="manage reservations"]
++
+. 
