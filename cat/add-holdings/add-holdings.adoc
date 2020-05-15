@@ -15,7 +15,8 @@ image::images/cat/add-holdings-1.png[]
 . To add a new call number (also known as volume), click on *Add Holdings*, as shown in the above image.
 . The Holdings Editor opens up in a new tab.
 +
-image::images/cat/add-holdings-2.png[]
+image::images/cat/add-holdings-2.png[scaledwidth="75%"]
+
 +
 CAUTION: Make sure your browser allows Evergreen to open pop-ups.
 +
@@ -48,7 +49,7 @@ Adding Multiple Items to One Call Number
 
 . To add multiple items to one library on Holdings Editor, use the arrow in the *Items* column to increase the number. Extra lines show up for more barcodes.
 +
-image::images/cat/add-holdings-3a.png[]
+image::images/cat/add-holdings-3a.png[scaledwidth="75%"]
 +
 . Type/scan in barcodes for each item.
 
@@ -61,7 +62,7 @@ If you add multiple items, and they do not share the values in one or more item 
 
 . After you enter the barcode(s), items are displayed under *Working Items*. Select those items that share the same item attribute values. Complete the item attributes for these items. To move them to *Completed Items* tab, click on *Store Selected*.
 +
-image::images/cat/add-holdings-5.png[]
+image::images/cat/add-holdings-5.png[scaledwidth="75%"]
 +
 . Select more items on *Working Items*. Complete the required fields. Once done, store them in the *Completed Items* tab, or click on *Save & Exit*.
 +
