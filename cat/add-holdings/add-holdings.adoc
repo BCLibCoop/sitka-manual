@@ -17,20 +17,23 @@ image::images/cat/add-holdings-1.png[]
 +
 image::images/cat/add-holdings-2.png[scaledwidth="75%"]
 
-+
-CAUTION: Make sure your browser allows Evergreen to open pop-ups.
-+
+
+[CAUTION]
+=========
+ Make sure your browser allows Evergreen to open pop-ups.
+=========
+
 [TIP]
 =====
 * For multi-branch libraries, you may need to select the branch before clicking *Add Holdings*. If you do not select one, the default owning and circulating library is your login working location.
 +
 image::images/cat/add-holdings-2a.png[]
-
++
 * Make sure both *Show empty call numbers* and *Show empty libraries* checkboxes are selected in order to display libraries without items on the library list.
 =====
 
 . Complete the required fields in both call number and item records. Refer to xref:_working_on_item_attributes[] for information about individual fields in an item record. To ensure data consistency, using holdings templates is recommended. Select one from the dropdown list, then click on *Apply*. Refer to xref:_volume_copy_template[] for more information.
-+
+
 . Once done, click on *Save & Exit*. The pop-up tab is closed.
 
 
@@ -56,7 +59,7 @@ image::images/cat/add-holdings-3a.png[scaledwidth="75%"]
 NOTE: *Save & Exit* is greyed out until barcodes are entered.
 
 Working on Multiple Items
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you add multiple items, and they do not share the values in one or more item attributes, you can select and work on those that share item attributes as a group. You can also temporarily store some items to *Completed Items* tab, then work on those on *Working Items* tab, which share the same attributes. Save and exit when all items are done.
 
