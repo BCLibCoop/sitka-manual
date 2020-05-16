@@ -171,7 +171,7 @@ When a reserved resource is brought back, staff must use the Booking Module to r
 Manage Reservations
 ~~~~~~~~~~~~~~~~~~~
 
-A reservation can be edited or cancelled from the patron’s record or from Manage Reservations.
+A reservation can be cancelled or edited from the patron’s record or from Manage Reservations.
 
 Manage reservations from the patron record
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -183,7 +183,6 @@ Manage reservations from the patron record
 image::images/booking/booking-manage-reservations.png[scaledwidth="75%",alt="manage reservations"]
 
 
-
 Manage reservations from the Manage Reservations screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -191,7 +190,7 @@ Manage reservations from the Manage Reservations screen
 +
 image::images/booking/booking-manage-reservations-1.png[scaledwidth="75%",alt="manage reservations"]
 +
-. Filter reservations
+. Use the filters to find specific reservations
 .. Filter by patron
 +
 image::images/booking/booking-manage-reservations-p.png[scaledwidth="75%",alt="manage reservations"]
@@ -204,4 +203,27 @@ image::images/booking/booking-manage-reservations-r.png[scaledwidth="75%",alt="m
 +
 image::images/booking/booking-manage-reservations-rt.png[scaledwidth="75%",alt="manage reservations"]
 +
-.
+. Select the reservation -> Click *Actions* to see a list of available Actions.
++
+image::images/booking/booking-manage-actions-rt.png[scaledwidth="75%",alt="manage reservation actions"]
+
+
+Cancel Reservation
+++++++++++++++++++
+
+. Select the reservation(s) -> Click *Actions* -> Cancel Selected
+. A pop-up will ask you to confirm the cancellation -> Click *Confirm*
+. A confirmation message will appear - Reservation successfully canceled.
+
+Edit Reservation
+++++++++++++++++
+
+You can change the start time and/or the end time of a reservation. You can also add a Note.
+
+. Select the reservation -> Click *Actions* -> Edit Selected
+. The reservation record editor will open
++
+image::images/booking/booking-manage-reservations-rt.png[scaledwidth="75%",alt="edit reservation"]
++
+. Edit the reservation
+. Click *Save*
