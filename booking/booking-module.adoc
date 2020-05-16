@@ -47,9 +47,12 @@ image::images/booking/booking-create-module-1.png[scaledwidth="75%",alt="create 
 . *Reservation date* - Enter the reservation date(s)
 . *Reservation details* - use the filters to find a bookable resource
 .. *Choose resource by type* - use this to see all resources of a specific type
++
+image::images/booking/booking-create-t.png[scaledwidth="75%",alt="create reservation"]
++
 .. *Choose resource by barcode* - use this if you know the barcode of the item you want to reserve
 +
-image::images/booking/booking-create-2.png[scaledwidth="75%",alt="create reservation"]
+image::images/booking/booking-create-r.png[scaledwidth="75%",alt="create reservation"]
 +
 . Click *Create Reservation*
 +
@@ -65,8 +68,16 @@ image::images/booking/booking-create-module-2.png[scaledwidth="75%",alt="create 
 .. *Note* - enter a note (optional)
 . Click *Confirm reservation* or *Confirm and show patron reservations* to save the reservation.
 
-[NOTE]
-You need to know the barcode of the patron when you create reservations from booking.
+Schedule settings
++++++++++++++++++
+
+The schedule start time and end time will match your Hours of Operation.
+
+. Start Time - adjust the schedule start time.
+. End time - adjust the schedule end time.
+. Granularity - adjust the schedule granularity. Options are 15 min, 30 min or 60 min.
++
+image::images/booking/booking-schedule-settings.png[scaledwidth="75%",alt="schedule settings"]
 
 
 Reservation Pull List
@@ -188,4 +199,4 @@ image::images/booking/booking-manage-reservations-r.png[scaledwidth="75%",alt="m
 +
 image::images/booking/booking-manage-reservations-rt.png[scaledwidth="75%",alt="manage reservations"]
 +
-. 
+.
