@@ -55,14 +55,11 @@ image::images/booking/booking-create-multi.png[scaledwidth="75%",alt="multi day 
 +
 image::images/booking/booking-create-t.png[scaledwidth="75%",alt="create reservation"]
 +
-.. *Choose resource by barcode* - use this if you know the barcode of the item you want to reserve
+.. *Choose resource by barcode* - use this if you know the barcode of the resource you want to reserve
 +
 image::images/booking/booking-create-r.png[scaledwidth="75%",alt="create reservation"]
 +
 . Click *Create Reservation*
-+
-image::images/booking/booking-create-module-2.png[scaledwidth="75%",alt="create reservation"]
-+
 . Confirm Reservation Details
 .. *Patron barcode* - enter or confirm the patron barcode.
 .. *Start time* - choose or confirm the start time for the reservation.
@@ -71,6 +68,9 @@ image::images/booking/booking-create-module-2.png[scaledwidth="75%",alt="create 
 .. *Resource* - choose *Any resource* to reserve any available resource of the chosen resource type or choose a specific resource barcode from the drop down menu.
 .. *Notify by email?* - check the box to notify the patron by email when the resource is ready for pick up
 .. *Note* - enter a note (optional)
++
+image::images/booking/booking-create-module-2.png[scaledwidth="75%",alt="create reservation"]
++
 . Click *Confirm reservation* or *Confirm and show patron reservations* to save the reservation.
 
 Schedule settings
@@ -92,27 +92,27 @@ Reservation Pull List
 +
 image::images/booking/booking-pull-1.png[scaledwidth="75%",alt="reservation pull list"]
 +
-. The pull list of reserved items will appear
+. The pull list of reserved resources will appear
 +
 image::images/booking/booking-pull-2.png[scaledwidth="75%",alt="reservation pull list"]
 +
-. Enter the *Number of days to fetch*. For example, if you would like to see only items that are needed today, you can enter 1 in the box, and you will retrieve items that need to be pulled today.
+. Edit the *Number of days to fetch*. For example, if you would like to see only resources that are needed today, you can enter 1 in the box, and you will retrieve a list of resources that need to be pulled today.
 . Click *Actions* -> *Print Pull List* to print the pull list.
 +
 image::images/booking/booking-pull-3.png[scaledwidth="75%",alt="reservation pull list"]
 
-Capture Items for Reservations
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Capture Resources for Reservations
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 . Click *Booking* -> *Capture Resources*.
 +
 image::images/booking/booking-capture-1.png[scaledwidth="75%",alt="capture resource"]
 +
-. Scan the item barcode or type the barcode then click *Capture*.
+. Enter the resource barcode then click *Capture*.
 +
 image::images/booking/booking-capture-2.png[scaledwidth="75%",alt="capture resource"]
 +
-. The message Capture succeeded will appear to the right. Information about the item will appear below the message. Click *Print* button to print a slip for the reservation.
+. The message Capture succeeded will appear to the right. Information about the resource will appear below the message. Click *Print* button to print a slip for the reservation.
 
 [CAUTION]
 Always capture reservations in Booking Module. Check In function in Circulation does not function the same as Capture Resources.
@@ -124,7 +124,7 @@ Pick Up Reservations
 +
 image::images/booking/booking-pickup-1.png[scaledwidth="75%",alt="pick up reservations"]
 +
-. Scan the patron barcode
+. Enter the patron barcode
 . The reservation(s) available for pickup will display.
 +
 image::images/booking/booking-pickup-2.png[scaledwidth="75%",alt="pick up reservations"]
@@ -132,7 +132,7 @@ image::images/booking/booking-pickup-2.png[scaledwidth="75%",alt="pick up reserv
 . *Show only captured resources*
 .. if checked, only captured resources will display
 .. if unchecked, all the resources the patron has upcoming reservations for will display
-. Select the items you want to pick up and click *Pick Up Selected*.
+. Select the resources you want to pick up and click *Pick Up Selected*.
 . The screen will refresh to show that the patron has picked up the reservation(s).
 +
 image::images/booking/booking-pickup-3.png[scaledwidth="75%",alt="pick up reservations"]
@@ -141,7 +141,7 @@ image::images/booking/booking-pickup-3.png[scaledwidth="75%",alt="pick up reserv
 Reservations can also be picked up from the patron record. Retrieve the patron record -> click *Other* -> *Booking: Pick Up Reservations*.
 
 [CAUTION]
-Always use the dedicated Booking Module interfaces for tasks related to reservations. Items that have been captured for a reservation cannot be checked out using the Check Out interface, even if the patron is the reservation recipient.
+Always use the dedicated Booking Module interfaces for tasks related to reservations. Resources that have been captured for a reservation cannot be checked out using the Check Out interface, even if the patron is the reservation recipient.
 
 Return Reservations
 ~~~~~~~~~~~~~~~~~~~
@@ -150,11 +150,11 @@ Return Reservations
 +
 image::images/booking/booking-return-module-1.png[scaledwidth="75%",alt="return reservations"]
 +
-. You can return the item by patron or item barcode. Scan or enter the barcode.
+. You can return the reservation by patron or resource barcode. Scan or enter the barcode.
 +
 image::images/booking/booking-return-module-2.png[scaledwidth="75%",alt="return reservations"]
 +
-. Select the items you want to return and click *Return Selected*.
+. Select the resources you want to return and click *Return Selected*.
 +
 image::images/booking/booking-return-module-3.png[scaledwidth="75%",alt="return reservations"]
 +
@@ -166,7 +166,7 @@ image::images/booking/booking-return-module-4.png[scaledwidth="75%",alt="return 
 Reservations can be returned from the patron record. Retrieve patron -> click *Other* -> *Booking: Return Reservations*.
 
 [CAUTION]
-When a reserved item is brought back, staff must use the Booking Module to return the reservation.
+When a reserved resource is brought back, staff must use the Booking Module to return the reservation.
 
 Manage Reservations
 ~~~~~~~~~~~~~~~~~~~
