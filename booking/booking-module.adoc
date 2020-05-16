@@ -96,7 +96,7 @@ image::images/booking/booking-pull-1.png[scaledwidth="75%",alt="reservation pull
 +
 image::images/booking/booking-pull-2.png[scaledwidth="75%",alt="reservation pull list"]
 +
-. Edit the *Number of days to fetch*. For example, if you would like to see only resources that are needed today, you can enter 1 in the box, and you will retrieve a list of resources that need to be pulled today.
+. Edit the *Number of days to fetch*. For example, if you would like to see only resources that are needed today, enter 1 in the box to retrieve a list of resources with reservations that start today.
 . Click *Actions* -> *Print Pull List* to print the pull list.
 +
 image::images/booking/booking-pull-3.png[scaledwidth="75%",alt="reservation pull list"]
