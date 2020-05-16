@@ -5,9 +5,11 @@ anchor:item-alert-suppression[Item Alert Suppression]
 You may suppress some item alerts from showing up on the corresponding staff action. 
 For example, you may choose to suppress the alert when checking out a missing item.
 
-Go to *Administration -> Local Administration -> Item Alert Suppression* . Click 
-*Create*. In the pop-up window, select the Alert Type from the dropdown list. 
-Make sure your library is in the Org Unit box. Click *Save*.
+Go to *Administration -> Local Administration -> Item Alert Suppression*. 
+. Click *Create*. 
+. In the pop-up window, select the Alert Type from the dropdown list. 
+. Make sure your library is in the Org Unit box. 
+. Click *Save*.
 
 image::images/admin/copy-alert-1.png[]
 
@@ -18,23 +20,27 @@ Shelving Location Editor
 anchor:shelving-location-editor[Shelving Location Editor]
 
 
-. Select *Administration-> Local Administration-> Shelving Locations Editor.*
+Select *Administration-> Local Administration-> Shelving Locations Editor.*
 
-. You can create new shelving locations or edit existing shelving locations. 
-To create a new shelving location, type in the name, and select *Yes* or *No* for the 
-various attributes. Click *Create a new shelving location.*
+To view the shelving locations at your library enter your library code into the Library filter.
+Multi-branch libraries can enter the system and then check the box to display the descendants.
+
+image::images/admin/library-filter-1.png[Library Filter]
+
+Create a Shelving Location
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Click *New Copy/Shelving Location*.
+. Enter the relevant information for your shelving location and click *Save*.
 +
-* *Holdable* means a patron is able to place a hold on an item in this location.
-* *Hold Verify*, if set up, will generate a prompt when an item is captured for a hold.
+* *Circulate?* means an item in this location can be checked out.
 * *Checkin Alert* will prompt staff to route the item to the location when checking in items with this location.
+* *Hold Capture Requires Verification*, if set up, will generate a prompt when an item is captured for a hold.
+* *Holdable* means a patron is able to place a hold on an item in this location.
+* *OPAC Visible* means items in the location will display in your public catalogue.
 * *Label Prefix* and *Label Suffix*, if set up, will be automatically included when printing spine labels.
 +
-image::images/admin/shelving-location-1.png[]
-
-. In the bottom part of the Shelving Locations Editor you can edit or delete existing 
-shelving locations. You cannot delete a location that contains items. 
-+
-image::images/admin/shelving-location-2.png[]
+image::images/admin/shelving-location-1.png[Create Shelving Location]
 
 NOTE: Text in the Label prefix and Label suffix fields will automatically be added to 
 spine labels printed for items in the selected shelving location. It does not affect 
@@ -46,14 +52,30 @@ controlled by three factors: item status, shelving location, and item attributes
 to check the value of each factor until it encounters a NO. An item can be circulated, 
 holdable or visible on OPAC when all three factors are set to YES.
 
+Edit a Shelving Location
+^^^^^^^^^^^^^^^^^^^^^^^^
 
-////
+. Select the location.
+. Click the actions button and select *Edit Selected*.
+. Make your changes and click *Save*.
++
+image::images/admin/shelving-location-2.png[Edit Shelving Location]
+
+
+
+Delete a Shelving Location
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Shelving locations that contain items cannont be deleted through the staff client.  Please contact Support if you wish to delete a shelving location.
+
+
+
 Shelving Location Groups
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-anchor:copy-location-group[Copy Location Group]
-////
+anchor:shelving-location-group[Shelving Location Group]
 
+Shelving location groups are currently not in use.
 
 
 Shelving Location Order
