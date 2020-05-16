@@ -1,13 +1,14 @@
 New Features in Evergreen Version 3.5
 -------------------------------------
 
-https://www.youtube.com/playlist?list=PLdwlgwBNnH4qvEzhSkKbhnH6OcQzsHSNm[*Sitka's Evergreen 3.5 - New Features Playlist (00:00)*]
+https://www.youtube.com/playlist?list=PLdwlgwBNnH4qvEzhSkKbhnH6OcQzsHSNm[*Sitka's Evergreen 3.5 - New Features Playlist*]
 
 Web Staff Client (Web Client)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Hatch - Workstation name is now stored in Hatch.
 
+* Hatch - Hatch print to file – A new stock printer called the Hatch File Writer translates print content into text and writes the data to a file on the PC in the Hatch profile directory.
 
 Circulation
 ~~~~~~~~~~~
@@ -28,7 +29,6 @@ Cataloguing
 * Staff Catalogue Basket Export Option (Available in the Experimental Staff Catalogue)
 
 
-
 Catalogue/Public Catalogue
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -38,6 +38,14 @@ Catalogue/Public Catalogue
 Library Settings
 ~~~~~~~~~~~~~~~~
 
+* GUI: Enable Experimental Angular Staff Catalog - turns on the Experimental Staff Catalogue
+
+Booking
+~~~~~~~
+
+* Manage Reservations
+
+* Usability improvements
 
 Bug Fixes
 ~~~~~~~~~
