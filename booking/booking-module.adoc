@@ -44,6 +44,11 @@ anchor:create-reservation-interface[Create Reservations]
 image::images/booking/booking-create-module-1.png[scaledwidth="75%",alt="create reservation"]
 +
 . *Reservation type* - Choose Single day reservation or Multiple day reservation
++
+image::images/booking/booking-create-single.png[scaledwidth="75%",alt="single day reservation"]
++
+image::images/booking/booking-create-multi.png[scaledwidth="75%",alt="multi day reservation"]
++
 . *Reservation date* - Enter the reservation date(s)
 . *Reservation details* - use the filters to find a bookable resource
 .. *Choose resource by type* - use this to see all resources of a specific type
