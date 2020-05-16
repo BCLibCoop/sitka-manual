@@ -22,13 +22,18 @@ Here you can view stored user preferences. User settings are added to the list w
 
 image::images/admin/usersettings.png[]
 
-Local Prefs
-^^^^^^^^^^^
+In-Browser Prefs
+^^^^^^^^^^^^^^^^
 
 * Saved settings for this workstation only
 
-Remote Prefs
-^^^^^^^^^^^^
+Hatch Prefs
+^^^^^^^^^^^
+
+* Saved settings via Hatch
+
+Server Workstation Prefs
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Saved settings for any workstation registered to your Library
 

@@ -1,15 +1,20 @@
 Administration Overview
 ------------------------
 
-Administration functions are available on the *Administration* dropdown menu.  Functions on this menu are grouped into either the target module that the configuration applied to or the effect scope, e.g. individual workstations, libraries or the whole consortium.  These function are visible to anyone logged into the staff client,  but most of them usually require special permissions to edit.
+Administration functions are available on the *Administration* dropdown menu.  Functions on this menu are grouped into either the target module
+ that the configuration applies to or the effect scope, e.g. individual workstations, libraries or the whole consortium.  These function 
+ are visible to anyone logged into the staff client but most of them require special permissions to edit.
 
 
-*Workstation Administration*: Here you may register your computer with extra libraries, configure printer settings, print templates, workstation's settings and their storage location.
+*Workstation Administration*: Here you may register your computer with extra libraries, configure printer settings, print templates, 
+workstation's settings and their storage location.
 
 *Local Administration*: Most settings applied to individual libraries are configured here.
 
-*Server Administration*: Settings here are mainly applied to the whole consortium. But individual libraries can configure a few items, such as, call number prefix/suffix, library's operation hours and addresses under Orginaztion Unit.
+*Server Administration*: Settings here are mainly applied to the whole consortium. But individual libraries can configure a few 
+items, such as, call number prefix/suffix, library's operation hours and addresses under Organizational Units.
 
 *User Permission Editor*: Local system administrators may add extra permissions to individual staff accounts. 
 
-NOTE: You may access most of the administration functions. But attempting to edit may fail silently if you do not have the required permission. Your editing will not be saved.
+NOTE: You may access most of the administration functions but attempting to edit may fail silently if you do not have the required 
+permission. Your editing will not be saved.
