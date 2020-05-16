@@ -12,9 +12,9 @@ The following table describes each of the menu options in use and their required
 | xref:cash-report[] |	View summary report of cash transactions for selected date range | All staff
 | xref:circulation-policy[] | View circulation policies	| Viewable to LSA. Contact Co-op support for editing
 | xref:closed-date-editor[]	| Set library ad hoc closure dates (affects due dates and fines)	| LSA
+| xref:group-penalty-threshold[] | Set library-specific thresholds for maximum items out, maximum overdues, and maximum fines | LSA
 | xref:item-alert-suppression[] | not to display copy alert on selected actions | LSA
 | xref:item-tag[] | Searchable copy information | LSA
-| xref:group-penalty-threshold[] | Set library-specific thresholds for maximum items out, maximum overdues, and maximum fines | LSA
 | xref:library-settings-editor[] | Detailed library configuration settings | LSA/Co-op suppport
 | xref:non-catalogued-type[] | Create and edit optional non-catalogued item types | LSA
 | Patrons with Negative Balances | Display a list of patron accounts with negative bill balances, to whom the library may owe refunds | All staff
