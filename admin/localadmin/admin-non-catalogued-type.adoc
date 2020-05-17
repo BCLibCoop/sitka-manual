@@ -6,14 +6,45 @@ Non-catalogued Type Editor
 
 anchor:non-catalogued-type[Non-catalogued Type Editor]
 
-This is where you configure your non-catalogued and/or in-house types that appear in the dropdown menu for non-catalogued circulations/in-house use.
+. Go to *Administration -> Local Administration -> Non-cataloged Type Editor*. 
 
-Go to *Administration -> Local Administration -> Non-cataloged Type Editor*. To create a new non-catalogued circulation, type in a name, a loan period, and click *Create*. Select the *Circulate In-House* box for non-catalogued items that will circulate in house.  This can be used to manually track computer use, or meeting room rentals, etc.  
+To view the shelving locations at your library enter your library code into the Library filter.
+Multi-branch libraries can enter the system and then check the box to display the descendants.
 
-image::images/admin/non-cat-1.png[]
+image::images/admin/library-filter-1.png[Library Filter]
 
+This is where you configure your non-catalogued and/or in-house types that appear in the dropdown 
+menu for non-catalogued circulations/in-house use.   Non-catalogued items can be used to manually track 
+  
 
-This is what the dropdown menu for non-catalogued circulations in the patron checkout screen looks like:
+image::images/admin/non-cat-2.png[scaledwidth="75%",alt="Non-Catalogued Type Drop Down"]
 
+Create a Non-Catalogued Type
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-image::images/admin/non-cat-2.png[]
+. Click *New Non-cataloged Type*.
+. Enter the relevant information for your non-catalogued type and click *Save*.
++
+image::images/admin/non-cat-1.png[scaledwidth="75%",alt="Create Non-Catalogued Type"]
++
+
+NOTE:  Check the *In House?* box for items that will circulate in house.  This can be used to manually track
+computer use, meeting room rentals, etc.
+
+Edit a Non-Catalogued Type
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Select the non-catalogued type you'd like to edit.
+. Click the actions button and select *Edit Selected*.
+. Make your changes and click *Save*.
++
+image::images/admin/non-cat-3.png[[scaledwidth="75%",alt="Edit Non-Catalogued Type"]
+
+Delete a Non-Catalogued Type
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Select the non-catalogued type you'd like to delete.
+. Click the actions button and select *Delete Selected*.
+. Make your changes and click *Save*.
++
+image::images/admin/non-cat-4.png[[scaledwidth="75%",alt="Delete Non-Catalogued Type"]
