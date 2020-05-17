@@ -223,7 +223,7 @@ You can change the start time and/or the end time of a reservation. You can also
 . Select the reservation -> Click *Actions* -> Edit Selected
 . The reservation record editor will open
 +
-image::images/booking/booking-manage-reservations-rt.png[scaledwidth="75%",alt="edit reservation"]
+image::images/booking/booking-manage-edit.png[scaledwidth="75%",alt="edit reservation"]
 +
 . Edit the reservation
 . Click *Save*
