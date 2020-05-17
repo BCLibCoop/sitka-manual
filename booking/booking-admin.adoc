@@ -24,7 +24,7 @@ Create New Resource Type
 
 . A list of current resource types will appear.
 
-.. You may also see cataloged items in the list. Those items have been marked bookable or booked before.
+.. You may also see catalogued items in the list. Those items have been marked bookable or booked before.
 
 . To create a new resource type, click *New Resource Type* in the top right corner.
 +
@@ -158,11 +158,13 @@ Editing Resource Types
 
 . A list of current resource types will appear.
 
-. Double click anywhere on the line of the resource type you would like to edit.
+. Select the check box of the resource type you want to edit.
+
+. Click *Actions -> *Edit Selected*.
 
 . The resource type box will appear. Make your changes and click *Save*.
 
-. Following the same procedure you may edit Resource Attributes, Attributes Values, Resources and Attribute Map by selecting them on *Administration* -> *Booking Administration*.
+. Following the same procedure you may edit Resource Attributes, Attribute Values, Resources and Attribute Map by selecting them on *Administration* -> *Booking Administration*.
 
 
 Deleting Non-bibliographic Resources
@@ -170,13 +172,13 @@ Deleting Non-bibliographic Resources
 
 . To delete a booking resource, go to *Administration* -> *Booking Administration* -> *Resources*.
 
-. Select the check box in front the resource you want to delete.
+. Select the check box of the resource you want to delete.
 
-. Click *Delete Selected*. The resource will disappear from the list.
+. Click *Actions -> *Delete Selected*. The resource will disappear from the list.
 
 [NOTE]
 Following the same procedure you may delete Resource Attributes Maps.
 
-You may also delete Resource Attribute Values, Resource Attributes and Resource Types. But you have to delete them in the reverse order when you create them to make sure the entry is not in use when you try to delete it.
+You may also delete Resource Attribute Values, Resource Attributes and Resource Types. But you have to delete them in the reverse order as when you created them to make sure the entry is not in use when you try to delete it.
 
 This is the deletion order: Resources -> Resource Attribute Values -> Resource Attributes -> Resource Types.

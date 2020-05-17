@@ -34,7 +34,7 @@ image::images/booking/booking-catalogue-1.png[scaledwidth="75%",alt="book item n
 . This will open the xref:create-reservation-interface[] screen.
 
 [NOTE]
-If you know the catalogued items barcode a reservation can be created from Item Status (Scan the barcode -> *Actions* -> *Book Item Now*).
+If you know the catalogued item's barcode a reservation can be created from Item Status (Scan the barcode -> *Actions* -> *Book Item Now*).
 
 Create reservations
 ^^^^^^^^^^^^^^^^^^^
@@ -67,7 +67,7 @@ image::images/booking/booking-create-r.png[scaledwidth="75%",alt="create reserva
 . Confirm Reservation Details
 .. *Patron barcode* - enter or confirm the patron barcode.
 .. *Start time* - choose or confirm the start time for the reservation.
-.. *End time* - choose or confirm the start time for the reservation.
+.. *End time* - choose or confirm the end time for the reservation.
 .. *Reservation location* - the library where the resource is picked up or used.
 .. *Resource* - choose *Any resource* to reserve any available resource of the chosen resource type or choose a specific resource barcode from the drop down menu.
 .. *Notify by email?* - check the box to notify the patron by email when the resource is ready for pick up
@@ -116,7 +116,8 @@ image::images/booking/booking-capture-1.png[scaledwidth="75%",alt="capture resou
 +
 image::images/booking/booking-capture-2.png[scaledwidth="75%",alt="capture resource"]
 +
-. The message Capture succeeded will appear to the right. Information about the resource will appear below the message. Click *Print* button to print a slip for the reservation.
+. The message Capture succeeded will appear to the right. Information about the resource will appear below the message.
+. Click *Print* to print a slip for the reservation.
 
 [CAUTION]
 Always capture reservations in Booking Module. Check In function in Circulation does not function the same as Capture Resources.
