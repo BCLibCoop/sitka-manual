@@ -55,3 +55,5 @@ Bug Fixes
 * The MARC batch import/export interface allows users to view and edit the incoming MARC records while inspecting an imported queue.
 
 * Notify by Email column on the Holds Shelf now populates with yes/no as expected.
+
+* On the Holds Shelf, only holds that can be cleared shows as clearable holds.
