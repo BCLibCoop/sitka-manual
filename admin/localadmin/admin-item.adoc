@@ -20,7 +20,7 @@ Shelving Location Editor
 anchor:shelving-location-editor[Shelving Location Editor]
 
 
-Select *Administration-> Local Administration-> Shelving Locations Editor.*
+Go to *Administration-> Local Administration-> Shelving Locations Editor.*
 
 To view the shelving locations at your library enter your library code into the Library filter.
 Multi-branch libraries can enter the system and then check the box to display the descendants.
@@ -55,7 +55,7 @@ holdable or visible on OPAC when all three factors are set to YES.
 Edit a Shelving Location
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Select the location.
+. Select the shelving location you'd like to edit..
 . Click the actions button and select *Edit Selected*.
 . Make your changes and click *Save*.
 +
