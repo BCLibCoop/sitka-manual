@@ -40,7 +40,7 @@ Create a Shelving Location
 * *OPAC Visible* means items in the location will display in your public catalogue.
 * *Label Prefix* and *Label Suffix*, if set up, will be automatically included when printing spine labels.
 +
-image::images/admin/shelving-location-1.png[Create Shelving Location]
+image::images/admin/shelving-location-1.png[[scaledwidth="75%",alt="Create Shelving Location"]
 
 NOTE: Text in the Label prefix and Label suffix fields will automatically be added to 
 spine labels printed for items in the selected shelving location. It does not affect 
@@ -59,7 +59,7 @@ Edit a Shelving Location
 . Click the actions button and select *Edit Selected*.
 . Make your changes and click *Save*.
 +
-image::images/admin/shelving-location-2.png[Edit Shelving Location]
+image::images/admin/shelving-location-2.png[[scaledwidth="75%",alt="Edit Shelving Location"]
 
 
 
