@@ -12,7 +12,7 @@ Overview>> table below.
 Editing Library Settings
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-1. To open the *Library Settings Editor* select *Admin* -> *Local
+1. To open the *Library Settings Editor* select *Administration* -> *Local
 Administration* -> *Library Settings Editor*.
 2. Settings having effects on the same function or module are grouped
 together. You may browse the list or search for the entry you want to
@@ -149,6 +149,8 @@ marks are never required when updating settings in the staff client.
 |===
 |Setting|Description|Data type|Notes | Edited by
 
+|Allow others to use patron account (privacy waiver) | Add a note to a user account indicating that specified people are allowed to place holds, pick up holds, check out items, or view borrowing history for that user account | True/False | Default: True | LSA
+
 |Auto-extend grace periods|When enabled grace periods will auto-extend. By default this will be only when they are a full day or more and end on a closed date, though other options can alter this.|True/False| | LSA
 
 |Auto-extending grace periods extend for all closed dates|It works when the above setting "Auto-Extend Grace Periods" is set to TRUE. If enabled, when the grace period falls on a closed date(s), it will be extended past all closed dates that intersect, but within the hard-coded limits (your library's grace period).|True/False| | LSA
@@ -268,6 +270,14 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 |All settings can be ignored.
 |===
 
+[[lse-ebook-api]]
+.Ebook API Integration
+[options="header"]
+|===
+|Ebook API Integration
+|All settings are set by Sitka.
+|===
+
 
 [[lse-finances]]
 .Finances
@@ -336,6 +346,7 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 
 |Disable the ability to save list column configurations locally.|GUI: Disable the ability to save list column configurations locally. If set, columns may still be manipulated, however, the changes do not persist. Also, existing local configurations are ignored if this setting is true.|True/False| | LSA
 
+|Example dob field on patron registration | The example for validation on the dob field in patron registration.| Text | | LSA
 |Example for Day_phone field on patron registration|The example on validation on the Day_phone field in patron registration.|Text| | LSA
 
 |Example for Email field on patron registration|The example on validation on the Email field in patron  registration.|Text| | LSA
@@ -350,6 +361,8 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 |Format Date+Time with this pattern| |Text|Default: yyyy-MM-dd HH:mm | Sitka
 
 |Format Dates with this pattern | | Text | Default: yyyy-MM-dd | Sitka
+
+|GUI: Enable Experimental Angular Staff Catalog | Display an entry point in the browser client for the experimental Angular staff catalog. | True/False | Default: False | LSA
 
 |GUI: Hide these fields within the Item Attribute Editor.|Sets which fields in the Item Attribute Editor to hide in the staff client.|Text|This is useful to hide attributes that are not used. | LSA
 
@@ -528,6 +541,8 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 |Allow pending addresses|If true patrons can edit their addresses in the OPAC. Changes must be approved by staff|True/False| | LSA
 |Auto-Override Permitted Hold Blocks (Patrons)|This will allow patrons with the permission "HOLD_ITEM_CHECKED_OUT.override" to automatically override permitted holds.|True/False|When a patron places a hold in the OPAC that fails, and the patron has the permission to override the failed hold, this automatically overrides the failed hold rather than requiring the patron to manually override the hold.  Default: False |  Sitka
 
+|Custom CSS for the OPAC | This can be populated with CSS that will load in the OPAC after the stylesheets and allow for custom CSS without editing server side templates. | Text | | Sitka |
+
 | Enable Digital Bookplate Search | If enabled, adds a "Digital Bookplate" option to the query type selectors in the public catalog for search on copy tags. | True/False | | Sitka
 
 | Ignore the Global luri_as_copy flag for this OU |	Admin setting on e-records scoping	| True/False | | Sitka
@@ -548,6 +563,7 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 
 |OPAC: Org Unit is not a hold pickup library|If set, this org unit will not be offered to the patron as an option for a hold pickup location. This setting has no affect on searching or hold targeting.|True/False| | Sitka
 
+|Open Reviews & More in a new tab | Allows the Reviews & More links in the search results to be opened in a new tab | True/False | | Sitka
 
 |Org unit hiding depth|This will hide certain org units in the public OPAC if the Original Location (url param "ol") for the OPAC inherits this setting. This setting specifies an org unit depth, that together with the OPAC Original Location determines which section of the Org Hierarchy should be visible in the OPAC. For example, a stock Evergreen installation will have a 3-tier hierarchy (Consortium/System/Branch), where System has a depth of 1 and Branch has a depth of 2. If this setting contains a depth of 1 in such an installation, then every library in the System in which the Original Location belongs will be visible, and everything else will be hidden. A depth of 0 will effectively make every org visible. The embedded OPAC in the staff client ignores this setting.|Number| | Sitka
 
