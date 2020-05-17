@@ -10,7 +10,7 @@ When libraries recall an item they ususally shorten the loan period and block re
 
 Evergreen uses three library setting entries to trigger hold-driven recall and define change parameters. When a hold is placed and there is no availabe copy, Evergeen will check whether the Recall settings are set up for the library. If settings are on and recall condition is met, a recall will be triggered.
 
-Go to Administration -> Local Administration -> Library Settings Editor to set them up.
+Go to *Administration -> Local Administration -> Library Settings Editor* to set them up.
 
 . Recalls: Circulation duration that triggers a recall
 +
