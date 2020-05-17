@@ -22,6 +22,8 @@ include::localadmin/admin-non-catalogued-type.adoc[]
 
 include::localadmin/admin-recall.adoc[]
 
+include::localadmin/admin-shelving-location.adoc[]
+
 include::localadmin/admin-stat-cat.adoc[]
 
 include::localadmin/admin-survey.adoc[]
