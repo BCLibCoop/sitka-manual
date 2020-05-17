@@ -72,6 +72,7 @@ Experimental Catalogue
 
 include::catnew/catnew-intro.adoc[Introduction to the Experimental Catalogue]
 
+////
 include::catnew/catnew-search.adoc[Searching the Database for Cataloguing Purposes]
 
 include::catnew/catnew-add-holdings.adoc[Adding Holdings to Existing MARC Records]
@@ -85,7 +86,7 @@ include::catnew/catnew-add-marc.adoc[Adding Bibliographic Records]
 include::catnew/catnew-edit-marc.adoc[Maintaining MARC records]
 
 include::catnew/catnew-record-bucket.adoc[Record Bucket]
-
+////
 
 Public Catalogue
 ================

@@ -14,6 +14,7 @@ A local system administrator at your library can enable the experimental catalog
 
 . Go to *Administration → Local Administration → Library Setting Editor*.
 . Find the setting _GUI:Enable Experimental Angular Staff Catalog_ and set it to _True_.
+. Log out and back into the staff client.
 . Both the current catalogue and the experimental catalogue will display as options in the Cataloguing drop down menu.
 +
 image::images/catnew/catnew-intro-1.png[]
