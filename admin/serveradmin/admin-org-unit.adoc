@@ -1,7 +1,8 @@
 Organizational Units
 ~~~~~~~~~~~~~~~~~~~~
 
-Anyone with access to the staff client may view these settings, but a Local System Administrator login may edit some parts.
+Anyone with access to the staff client may view these settings, but only a Local System Administrator login 
+can edit some parts.
 
 Library Main Settings
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -9,19 +10,18 @@ Library Main Settings
 . Go to *Administration -> Server Administration -> Organizational Units*.
 . Find your library from the tree on the left side of the page and click it to open settings. Multi-branch library systems will see an entry for each branch.
 +
-image::images/admin/org-unit-1.png[]
+image::images/admin/org-unit-1.png[scaledwidth="75%",alt="Library Main Settings"]
 +
 . The *Main Settings* tab opens displaying settings for your library. Only Main Email Address and Main Phone Number should be edited, please leave all other settings at their default values.
 . Click *Save* to record changes.
-
-NOTE: The Organizational Units screen flashes green when saving changes to any tab. If there is no flash or flash in red, please ensure you are using an LSA login and click Save again. Contact Co-op support if you still cannot save the changes.
-
 
 [[operation-hour]]
 Library Hours of Operation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Local System Administrators can use the Organizational Units interface to set the library's hours of operation. These are regular weekly hours; holiday and other closures are recorded in the xref:closed-date-editor[].
+Local System Administrators can use the Organizational Units interface to set the library's hours 
+of operation. These are regular weekly hours; holiday and other closures are recorded in 
+the xref:closed-date-editor[].
 
 Hours of operation and closed dates affect due dates, overdue fines and holds targeting.
 
@@ -31,30 +31,38 @@ Hours of operation and closed dates affect due dates, overdue fines and holds ta
 
 * Hold Targeting: By default items at a closed library are not targeted for holds. This means that available items that patrons have placed holds on will not appear on the Holds Pull List until the next open day. If you wish items to be targeted when the library is closed to the public, perhaps staff are still working and would like to pull items for holds, you can use the library settings *Target copies for a hold even if copy's circ lib is closed* and *Target copies for a hold even if copy's circ lib is closed IF the circ lib is the hold's pickup lib* to override the default behaviour.
 
-To review or edit your library's hours of operation, go to *Hours of Operation* tab. Review your library's weekly hours, edit if necessary. To set a closed day, click the corresponding *Closed* button. Closed days (Sunday in the example below) have open and close times of 00:00. Click *Save* to record any changes
+. To review or edit your library's hours of operation, open the Organizational Units interface. Click the 
+*Hours of Operation* tab. 
+. Review your library's weekly hours, edit if necessary. 
+* To set a day as closed, click the corresponding *Closed* button.  Closed days (Sunday in the example below) 
+have open and close times of 12:00 AM to 12:00 AM. 
+. Click *Save* to record any changes
 
-image::images/admin/org-unit-3.png[]
+image::images/admin/org-unit-2.png[scaledwidth="75%",alt="Library Hours of Operation"]
 
 Library Addresses
 ^^^^^^^^^^^^^^^^^
 
-
-Addresses set in Organizational Units appear in patron email notifications, hold slips, and transit slips. Local System Adminstrators should ensure that the Mailing, Holds, and Physical addresses are set correctly.
-
+Addresses set in Organizational Units appear in patron email notifications, hold slips, and transit slips. 
+Local System Adminstrators should ensure that the Mailing, Holds, Physical, and ILL addresses 
+are set correctly.
 
 . Open the Organizational Units interface. Click the *Addresses* tab.
 
-. There are four address tabs: Mailing, Holds, Physical, and ILL. Co-op support recommends setting the first three at a minimum. The Holds Address appears on hold transit slips when items are sent to fulfill holds at another branch. The Mailing address is used in notices.
+. There are four address tabs: Mailing, Holds, Physical, and ILL. Co-op support recommends setting all four. 
+* The Holds Address appears on hold transit slips when items are sent to fulfill holds at another branch. 
+* The Mailing address is used in notices.
 +
-image::images/admin/org-unit-2.png[]
+image::images/admin/org-unit-2.png[scaledwidth="75%",alt="Library Addresses"]
 +
 . Click *Save* to record changes for each tab.
 
-CAUTION: The value in *State* (Province) field in Mailing address is used to generate the URLs to My Account link in email notices. To ensure correct URLs, please always use BC for BC libraries or MB for Manitoba libraries.
+CAUTION: The value in *State* (Province) field in Mailing address is used to generate the 
+URLs to My Account link in email notices. To ensure correct URLs, please always use BC for BC libraries, MB for Manitoba 
+libraries, and ON for Ontario libraries.
 
 [NOTE]
 =====
-
-. You may ignore the alert in *Zip* field. The value will be saved.
-. The Valid checkbox is an optional setting that does not affect current Evergreen functions, but the Sitka Support team recommends checking it for all correct addresses.
+. The Valid checkbox is an optional setting that does not affect current Evergreen functions, 
+but the Sitka Support team recommends checking it for all correct addresses.
 =====
