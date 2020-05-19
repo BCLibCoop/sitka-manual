@@ -8,7 +8,7 @@ anchor:non-catalogued-type[Non-catalogued Type Editor]
 
 . Go to *Administration -> Local Administration -> Non-cataloged Type Editor*. 
 
-To view the shelving locations at your library enter your library code into the Library filter.
+To view the non-catalogued types at your library enter your library code into the Library filter.
 Multi-branch libraries can enter the system and then check the box to display the descendants.
 
 image::images/admin/library-filter-1.png[Library Filter]
