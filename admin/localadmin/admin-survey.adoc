@@ -11,11 +11,12 @@ To find out the survey result you need to run reports on survey questions. For e
 
 . Go to *Administration -> Local Administration -> Surveys*.
 
-. The Survey List will open. In this example the table is empty because no surveys have been created. Click *Add New Survey*.
+. The Survey List will open. In this example the table is empty because no surveys have been created. 
+Click *New Survey*.
 
-. Fill out the New Survey form, then click *Save Changes*.
+. Fill out the New Survey form, then click *Save*.
 +
-image::images/admin/survey-1.png[]
+image::images/admin/survey-1.png[scaledwidth="75%",alt="Create Survey"]
 +
 * *Start Date* must always be in the future. It is not possible to add questions to a survey after the start date.
 * Dates should be in YYYY-MM-DD format
@@ -24,27 +25,36 @@ image::images/admin/survey-1.png[]
 * Check *Display in User Summary* to make survey answers visible in patron records in *Other* -> *Surveys*.
 * Surveys can not only start from a future date.
 +
-. A summary of your new survey will appear. Type the first survey question in the *Question* field, then click *Save Question & Add Answer*. Survey questions are multiple choice.
+. Double click on the line for your survey.
+. Select the *Questions and Answers* tab. 
+. Enter the first survey question in the *Question* field, then click *Save Question & Add Answer*. 
+Survey questions are multiple choice.
 +
-image::images/admin/survey-2.png[]
+image::images/admin/survey-2.png[scaledwidth="75%",alt="Create Survey"]
 +
 . Enter possible multiple choice answers and click *Add Answer*. Each question may have as many answers as you like.
 +
-image::images/admin/survey-3.png[]
+image::images/admin/survey-3.png[scaledwidth="75%",alt="Create Survey"]
 +
-. Repeat the steps above to add as many questions and answers as you wish. Once finished, click a *Save Changes* button. Use browser back button to go back.
-. Your new survey will appear in the Survey List table. To make further changes click the survey name to open the detailed view. To end a survey before the end date, you may select it, then click *End Survey*.
+. Repeat the steps above to add as many questions and answers as you wish. 
+. Once finished use browser back button to go back.
+. Your new survey will appear in the Survey List table. To make further changes double click the 
+survey name to open the detailed view. 
 +
-image::images/admin/survey-4.png[]
+image::images/admin/survey-4.png[scaledwidth="75%",alt="Create Survey"]
++
+. To end a survey before the end date, go into the survey and click *End Survey Now*.
++
+image::images/admin/survey-5.png[scaledwidth="75%",alt="Create Survey"]
 
 This is what the survey looks like in the patron registration/edit screen. Note that in this example this survey question appears in red and is required as the Is Required box was checked when creating the survey.
 
 
-image::images/admin/survey-5.png[]
+image::images/admin/survey-5.png[scaledwidth="75%",alt="Create Survey"]
 
 To see a patron's response to a survey, retrieve the patron record. Click *Other-> Surveys* to see the response.
 
-image::images/admin/survey-6.png[]
+image::images/admin/survey-6.png[scaledwidth="75%",alt="Create Survey"]
 
 [TIP]
 =====
