@@ -262,8 +262,11 @@ suspended, and what your position is in the hold queue.
 Your position in the hold queue is indicated by the first number in the status column. For example 
 "Hold #3 on 1 copy" indicates you are third in the hold queue.
 
-Clicking the *Edit* link will bring you to the hold editing screen, where you may suspend the hold, if not 
-already captured, or change the activation date or cancellation date. If your library has multiple branches you may also change the pick up location.
+Clicking the *Edit* link will bring you to the hold editing screen.  Here you can:
+* change the pick up location if your a multi-branch library.
+* activate the hold or suspend it hold, if not already captured.
+* change the activation date or cancellation date.
+* change the method of notification for the hold.
 
 image::images/opac/opac-account-holds-2.png[scaledwidth="75%",alt="My Account Holds"]
 
