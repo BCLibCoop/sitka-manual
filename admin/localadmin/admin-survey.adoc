@@ -1,7 +1,11 @@
-Survey
-~~~~~~
+Surveys
+~~~~~~~
 
 anchor:admin-survey[Survey]
+
+Surveys are not used at this time.
+
+////
 
 This section illustrates how to create a survey, shows where the survey responses are saved in the patron record, and explains how to report on surveys.
 
@@ -65,3 +69,4 @@ Survey questions show up in patron account only after the start date. They disap
 (((admin, Survey result)))
 
 There is a shared report template for reporting on patron surveys on the report interface, under *Sitka_templates -> Patrons -> Other* folder. For more information about shared templates, refer to xref:_shared_sitka_templates[]. If you need help tweaking this template please contact Co-op support.
+////
