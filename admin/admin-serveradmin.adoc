@@ -1,13 +1,34 @@
 Server Administration
 ---------------------
 
-Most options under the Server Administration menu are global Sitka settings that cannot be changed locally. The exception inlcudes the call number prefix/suffix, and the  Organizational Units submenu, which allows Local System Administrators to edit library contact information, hours of operation, and addresses.
+Most options under the Server Administration menu are global Sitka settings that cannot be changed locally. 
+The exception inlcudes the call number prefix/suffix, and the  Organizational Units submenu, which allows 
+Local System Administrators to edit library contact information, hours of operation, and addresses.
 
-There is some view-only information that is useful under Server Administration, in particular the list of Copy Statuses.
+There is some view-only information that is useful under Server Administration, in particular the list 
+of Item Statuses.
 
 include::serveradmin/admin-call-number.adoc[]
 
-include::serveradmin/admin-org-unit.adoc[]
+Floating Group
+~~~~~~~~~~~~~~
+
+Evergreen supports floating collections. Floating items stay at the checkin library, instead of being 
+sent back to the item's original circulating library. Floating Groups are used to limit the range of 
+libraries that an item can float within. Please contact Co-op Support if you wish make all or part of 
+your items float within selected libraries/branches.
+
+Hard Due Date
+~~~~~~~~~~~~~
+
+One or more hard due date(s) can be set up for a library to force the circulation due on selected 
+date(s). The hard due date is used in the circulation policy based on patron profile and/or item 
+circulation modifier. It may be used to extend or shorten the regular loan duration. For example, 
+it may be used to grant faculty members term loan by an Always Use? TRUE hard due date, or to force 
+all students to return their items by the end of the term by an Always Use? FALSE hard due date, 
+which takes effect when the regular due date falls after the hard due date. Please contact Co-op 
+Support if you wish to use hard due date.
+
 
 Item Status
 ~~~~~~~~~~~
@@ -54,13 +75,4 @@ This table below describes the item statuses with Sitka's property settings.
 . If Is Available? is set to YES, items with that status will appear in search results when the *Limit to Available* checkbox is checked and can be checked out without needing to be first checked in or have any prompts regarding unavailable status appearing.
 =====
 
-
-Hard Due Date
-~~~~~~~~~~~~~
-
-One or more hard due date(s) can be set up for a library to force the circulation due on selected date(s). The hard due date is used in the circulation policy based on patron profile and/or item circulation modifier. It may be used to extend or shorten the regular loan duration. For example, it may be used to grant faculty members term loan by an Always Use? TRUE hard due date, or to force all students to return their items by the end of the term by an Always Use? FALSE hard due date, which takes effect when the regular due date falls after the hard due date. Please contact Co-op Support if you wish to use hard due date.
-
-Floating Group
-~~~~~~~~~~~~~~
-
-Evergreen supports floating collections. Floating items stay at the checkin library, instead of being sent back to the item's original circulating library. Floating Groups are used to limit the range of libraries that an item can float within. Please contact Co-op Support if you wish make all or part of your items float within selected libraries/branches.
+include::serveradmin/admin-org-unit.adoc[]
