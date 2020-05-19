@@ -1,20 +1,30 @@
 Call Number Prefix and Suffix
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-
-If you library uses prefixes and/or suffixes in call numbers, you can build a standard list, which will be displayed as dropdown lists when creating/editing call number record.
+If you library uses prefixes and/or suffixes in call numbers, you can build a standard list, which 
+will be displayed as dropdown lists when creating/editing call number record.
 
 This is how it looks on the call number creating/editing screen.
 
-image::images/admin/call-number-prefix-1.png[]
+image::images/admin/call-number-prefix-1.png[scaledwidth="75%",alt="Create Call Number Suffix"]
 
-To create a call number prefix/suffix, go to Administration -> Server Administration- > Call Number Prefix (Suffix)
+. To create a call number prefix or suffix, go 
+to *Administration -> Server Administration- > Call Number Prefix* or *Call Number Suffix*.
++
+To view the group penalty thresholds for your library enter your library code into the Library filter.
+Multi-branch libraries can enter the system and then check the box to display the descendants.
++
+image::images/admin/call-number-prefix-2.png[scaledwidth="75%",alt="Create Call Number Suffix"]
++
+. Click *New Call Number/Volume Prefix/Suffix*. 
+. Type in the Label and Label Sort Key. 
+. Choose your library as the Owning Library.
+. Click Save.
++
+image::images/admin/call-number-prefix-3.png[scaledwidth="75%",alt="Create Call Number Suffix"]
 
-Click New Prefix (Suffix). Type in the label. Choose your library as the Owning Library, and then Save.
+To edit or delete a prefix/suffix, check the record, and then click *Edit Selected* or *Delete Selected*.
 
-image::images/admin/call-number-prefix-2.png[]
-
-To delete a prefix/suffix, check the record, and then click Delete Selected.
-
-TIP: Call Number Prefix/Suffix created here are different from Label Prefix/Suffix created on Copy Location Editor. The former are displayed as part of call number in OPAC, while the latter are on printed labels only.
+TIP: Call Number Prefix/Suffix created here are different from Label Prefix/Suffix created on 
+Copy Location Editor. The former are displayed as part of call number in OPAC, while the latter are on 
+printed labels only.
