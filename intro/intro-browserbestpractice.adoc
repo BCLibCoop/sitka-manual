@@ -174,11 +174,29 @@ image::images/intro/browser1.png[]
 . Click *Clear Data*.
 . Return to https://catalogue.libraries.coop/eg/staff
 
-Delete the Offline Database
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Reset Settings
+^^^^^^^^^^^^^^
 
 If you still see a blank page with the green bar across after clearing your cookies the next step is to delete
 the offline database.
+
+.Reset Settings
+. Click *Menu*.
++
+image::images/intro/browser1.png[]
++
+. Click *Settings*.
+. Click *Advanced*.
+. Click *Reset and clean up*.
+. Click *Restore settings to their original defaults*.
+. Click *Reset settings". 
+. Return to https://catalogue.libraries.coop/eg/staff
+
+Delete the Offline Database
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you still see a blank page with the green bar across after clearing your cookies and resetting your settings 
+the next step is to delete the offline database.
 
 . Navigate to https://catalogue.libraries.coop/eg/staff
 . Click *Menu*.
@@ -194,7 +212,6 @@ image::images/intro/browser1.png[]
 . Click the *X* in the upper-right corner of the section to close the tool frame.
 +
 image::images/intro/browser3.png[]
-
 
 Reconnect Hatch
 ^^^^^^^^^^^^^^^
