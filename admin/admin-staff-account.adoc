@@ -1,7 +1,7 @@
 Staff Accounts
 --------------
 
-Staff accounts are special patron accounts on Evergreen which have been granted more permissions to allow the owners to log into the Staff Client. Besides extra permissions, each staff account has its own working location. Many functions on the staff client are available to the account at the assigned working locations only.
+Staff accounts are special patron accounts on Evergreen which have been granted more permissions to allow the owners to log into the Staff Client. They also work to log into your OPAC, same as a patron record.  Besides extra permissions, each staff account has its own working location. Many functions on the staff client are available to the account at the assigned working locations only.
 
 There are three ways staff accounts can be set up and used in the system.
 
@@ -17,7 +17,7 @@ Accounts are created for staff members and given the appropriate Library Staff p
 
 Accounts are created for functions, such as circulation, rather than for specific staff members and given the appropriate Library Staff permission group and working location. These accounts' barcodes and names are often related to their function. For example, an account for circulation may use circulation1 as the barcode and be named Dummy, Circulation. These accounts are shared by the appropriate staff. Sitka Staff strongly encourage libraries to ensure that shared usernames and passwords are kept secure and are changed as needed, especially when staff leave the library.
 
-Co-op support encourages libraries to use the method or methods that work best for them.
+Co-op Support encourages libraries to use the method or methods that work best for them.
 
 CAUTION: Generic accounts will not be granted permissions to create/run reports. Libraries are encouraged to have a dedicated account(s) for reporting purpose. The account must belong to an individual staff member and is for office use only. To avoid re-setting up reports, the owner of the account may be updated when the reporting task is passed on to another staff member.
 
@@ -30,33 +30,33 @@ After saving the account, retrieve it, go to *Other -> User Permission Editor* t
 
 image::images/admin/staff-account-1.png[]
 
-CAUTION: Staff account without a working location can not register/edit patron account, or access some cataloguing functions.
+CAUTION: Staff accounts without a working location can not register/edit patron accounts, or access some cataloguing functions.
 
 
 Creating Local System Administrator Accounts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-Local System Administrator profile can only be assigned by Co-op staff.  Libraries may create a staff account first, submit a request to Co-op support to upgrade the account to local system administrator. Please include the account's barcode in the request.
+Local System Administrator profile can only be assigned by Co-op staff.  Libraries may create a staff account first, submit a request to Co-op Support to upgrade the account to local system administrator. Please include the account's barcode in the request.
 
 Editing Staff Accounts
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Staff members can update their username, password, and email addresses via either the staff client or My Account on OPAC. Local System Administrators can edit staff accounts.  Local System Administrators need to submit a request to Co-op support to edit other information in their accounts.
+Staff members can update their own username, password, and email addresses by logging into *My Account* on your OPAC. They can use the *Forgot your Password* link on the *My Account* login screen as well, as long as their staff account contains a valid email address. Updating your staff account on the OPAC is the same as updating it in the staff client.
+
+Local System Administrators can edit all staff accounts with permissions below LSA.  For edits to Local System Administrator accounts, other than user name, password, or email address, you need to submit a request to Co-op Support.
 
 
 Resetting Staff Account Password
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Staff passwords can be reset in four ways:
+Staff passwords can be reset as follows:
 
-. Edit your own account in the staff client while signed in as yourself.
+. Use the *Forgot Your Password?* link in the *My Account* login screen on your OPAC. You must have an email address recorded in your staff account for this to method to work.
 
-. Use the *Forgot Your Password?* link in the OPAC. You must have an email address recorded in your account for this to method to work.
+. Have a staff member with higher permissions than you, such as Local System Administrator, assign a new password to your account in staff client.
 
-. Have a staff member with Local System Administrator permissions assign a temporary password and then use method 1 or 2 to reset it to a secure password. Local system administrators can not use this method.
-
-. Send in a request to Co-op support to have a temporary password assigned and then use method 1 or 2 to reset it to a secure password.
+. Send in a request to Co-op Support to have a temporary password assigned, and then use the *My Account* login on your OPAC to reset it to a secure password. Updating your staff account on the OPAC is the same as updating it in the staff client.
 
 
 Staff Account Permission Groups
