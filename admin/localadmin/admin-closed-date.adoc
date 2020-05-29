@@ -49,6 +49,8 @@ end of the day following the closing.  Depending on a library's settings any fin
 doing the closing may be voided.  Notification emails will be sent to patrons to alert them to
 the change in due date.
 
+NOTE: The notification email is a global email and cannot be customized for individual libraries.
+
 To enter an emergency closing:
 
 . Go to *Administration -> Local Administration -> Closed Date Editor*.
