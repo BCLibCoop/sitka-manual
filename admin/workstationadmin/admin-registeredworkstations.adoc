@@ -5,7 +5,7 @@ Register a New Workstation For This Browser
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .Register more than one workstation on a computer.
-* Click *Administration* -> *Workstation* -> *Registered Workstations*
+. Click *Administration* -> *Workstation* -> *Registered Workstations*
 . Choose your library short code from the drop down menu.
 . Enter a unique workstation name -> Click *Register*.
 .. If you are re-registering a workstation you can use the workstation's previous name to keep your 
@@ -15,7 +15,7 @@ workstation settings.
 
 image::images/admin/workstation-registration-1.png[scaledwidth="75%",alt="Workstation Registration"]
 
-TIP: Multi-branch library adminstrators and Federation Coordinators may require multiple workstations.
+TIP: Multi-branch library adminstrators and federation coordinators may require multiple workstations.
 
 Workstations Registered With This Browser
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -23,6 +23,6 @@ Workstations Registered With This Browser
 A drop down menu shows the Workstations registered with this browser. Use the drop down to choose a 
 registered workstation
 
-* Click *Use Now* to go to the staff client log in page
-* Click *Mark as Default* to make the selected workstation your default.
-* Click *Remove* to deleted the selected workstation.
+. Click *Use Now* to go to the staff client log in page
+. Click *Mark as Default* to make the selected workstation your default.
+. Click *Remove* to deleted the selected workstation.

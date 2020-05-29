@@ -5,7 +5,10 @@ anchor:transit-list[Transit List]
 
 This is where you may list items in transit to your library or from your library to other libraries. You may select a date range when items were sent in transit.
 
-Go to *Administration -> Local Administration -> Transit List*. Select *Transit To* or *Transit From*. Specify a date range. Items were sent in transit during the date range and still have in transit status are listed. 
+. Go to *Administration -> Local Administration -> Transit List*. 
+. Select *Transit To* or *Transit From*. 
+. Specify a date range. 
+. Items were sent in transit during the date range and still have in transit status are listed. 
 
 
 image::images/admin/transit-list-1.png[]

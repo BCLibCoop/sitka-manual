@@ -35,7 +35,7 @@ Hatch Prefs
 Server Workstation Prefs
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Saved settings for any workstation registered to your Library
+* Saved settings for any workstation registered to your library
 
 include::workstationadmin/admin-hatch.adoc[]
 
@@ -47,9 +47,9 @@ Latency Test
 
 This will measure the websocket latency between your workstation client and the Evergreen server at the host above.
 
-* Click *Start Test* to run the test
-* Click *Copy to Clipboard* to copy the results
-* Click *Clear* to clear the results
+. Click *Start Test* to run the test
+. Click *Copy to Clipboard* to copy the results
+. Click *Clear* to clear the results
 
 *Average Latency* - Indicates how long it takes for your workstation to communicate with Sitka's Evergreen servers.
 
