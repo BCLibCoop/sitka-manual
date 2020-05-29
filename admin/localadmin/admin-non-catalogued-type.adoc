@@ -6,18 +6,16 @@ Non-catalogued Type Editor
 
 anchor:non-catalogued-type[Non-catalogued Type Editor]
 
-. Go to *Administration -> Local Administration -> Non-cataloged Type Editor*. 
+Non-catalogued types diplay in a drop down menu in the Check Out and In-House screens.
+
+image::images/admin/non-cat-2.png[scaledwidth="75%",alt="Non-Catalogued Type Drop Down"]
+
+The non-catalogued types can be viewed and configured by going to *Administration -> Local Administration -> Non-cataloged Type Editor*. 
 
 To view the non-catalogued types at your library enter your library code into the Library filter.
 Multi-branch libraries can enter the system and then check the box to display the descendants.
 
 image::images/admin/library-filter-1.png[Library Filter]
-
-This is where you configure your non-catalogued and/or in-house types that appear in the dropdown 
-menu for non-catalogued circulations/in-house use.   Non-catalogued items can be used to manually track 
-  
-
-image::images/admin/non-cat-2.png[scaledwidth="75%",alt="Non-Catalogued Type Drop Down"]
 
 Create a Non-Catalogued Type
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -28,7 +26,7 @@ Create a Non-Catalogued Type
 image::images/admin/non-cat-1.png[scaledwidth="75%",alt="Create Non-Catalogued Type"]
 +
 
-NOTE:  Check the *In House?* box for items that will circulate in house.  This can be used to manually track
+NOTE:  Check the *In House?* box for items that will circulate in house.  This can be used to manually track 
 computer use, meeting room rentals, etc.
 
 Edit a Non-Catalogued Type
