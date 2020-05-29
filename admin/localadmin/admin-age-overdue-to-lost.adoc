@@ -1,6 +1,8 @@
 Age Overdue Circs to Lost
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
+anchor:admin-age-to-lost[Age Overdue Circs to Lost]
+
 The _Age Overdue Circs to Lost_ feature allows you to create a queue of items to be marked lost. *ALL* overdue items by selected patron profiles at selected libraries will be marked Lost.
 
 [NOTE]
