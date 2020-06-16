@@ -1,24 +1,20 @@
-Catalogue Preferences
-~~~~~~~~~~~~~~~~~~~~~
+Catalog Preferences
+~~~~~~~~~~~~~~~~~~~
 
-
-
-
+.To set your catalogue preferences:
+. In the Experimental Catalogue click on *Catalog Preferences*.
 +
-image::images/cat/search-10.png[]
+image::images/catnew/preferences-1.png[Catalog Preference Button]
 +
-. You may search multiple tags by clicking *Add Search Row*. The Boolean operator between the tags is always AND.
+. Set the values you would like for your preferences.
 +
-image::images/cat/search-11.png[]
+image::images/catnew/preferences-2.png[Catalog Preference Options]
 +
-. You may now search multiple tags.
-+
-image::images/cat/search-12.png[]
+.. For cataloguing workstations it is recommended that the Default Search Library be set to Sitka. 
+This will ensure that staff using those workstations are always searching all of Sitka.
 
-
-[TIP]
+[NOTE]
 ======
-You can toggle record views during a session. You may set a default view by selecting the view, then clicking on *Set default view* button. Next time a record is loaded, it will be displayed in the selected view. MARC Edit is set as the default view in this example.
-
-image::images/cat/search-13.png[]
+The preference set in the staff client override any preferences for the logged in account that 
+have been set in the public catalogue via My Account.
 ======
