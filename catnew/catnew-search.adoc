@@ -8,7 +8,11 @@ and to do an exhaustive search for the item before cataloguing it. By doing so, 
 title record, or if you need to import or create a new title record. It is very important that you scope your cataloguing searches to the entire 
 Sitka database.
 
-section link here - Cataogue Preferences
+.To search the experimental catalogue:
+. Go to *Cataloguing* ->  *Search the Catalog (Experimental).
+
+Catalog Preferences
+
 
 
 You can set workstation search preferences  to configure default search location and preferred search library, and you can choose to have Numeric Search or MARC Expert search be the default advanced search view. These workstation preferences override account login preferences set in My Account. For cataloguing workstations it is recommended that the Default Search Library be set to Sitka. This will ensure staff using those workstations are always searching all of Sitka.

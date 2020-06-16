@@ -1,0 +1,24 @@
+Catalogue Preferences
+~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
++
+image::images/cat/search-10.png[]
++
+. You may search multiple tags by clicking *Add Search Row*. The Boolean operator between the tags is always AND.
++
+image::images/cat/search-11.png[]
++
+. You may now search multiple tags.
++
+image::images/cat/search-12.png[]
+
+
+[TIP]
+======
+You can toggle record views during a session. You may set a default view by selecting the view, then clicking on *Set default view* button. Next time a record is loaded, it will be displayed in the selected view. MARC Edit is set as the default view in this example.
+
+image::images/cat/search-13.png[]
+======
