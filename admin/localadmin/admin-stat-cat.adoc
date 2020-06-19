@@ -10,7 +10,7 @@ This is where you configure your statistical categories (stat cats).  Stat cats 
 . To create a new stat cat, enter the name of the stat cat and select *Copy* or *Patron* in the dropdown menu. Check the respective *On* or *Off* radio buttons beside each option, and click *Create new statistical category*.
 +
 *OPAC Visibility*: If On, the stat cat and its value are displayed in Copy Details on OPAC.
-** This feature is not working. The stat cat and its value will not be displayed in the OPAC.
+**This feature is not working. The stat cat and its value will not be displayed in the OPAC.
 +
 *Required*: If On, the stat cat becomes mandatory.
 +
