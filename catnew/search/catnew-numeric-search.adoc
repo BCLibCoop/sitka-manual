@@ -18,20 +18,18 @@ image::images/catnew/numeric-search-2.png[Numeric Search options]
 +
 image::images/catnew/numeric-search-3.png[Numeric Search select Search]
 +
-. Your results are displayed.
+. Your results are displayed.  Refer to xref:_viewing_search_results_for_cataloguing_purposes[Search Results] 
+for information on determining which result to add your holding to.
 +
-image::images/catnew/numeric-search-3.png[search result with 5 items]
+image::images/catnew/numeric-search-4.png[two search results]
 +
 
 [TIP]
 ======
 * It is possible to search ISBNs by Keyword, but results may not be exhaustive. 
 We recommend using *Numeric Search* when searching for ISBN or other standard identifiers.
-
 * If an OCLC number is nine digits then Evergreen uses ocn as a prefix. For example:  ocn123456789.
-
 * If an OCLC number is less than 8 digits then Evergreen uses ocm as a prefix.  In addition Evergreen will automatically prefix the number with zeros so that it is nine digits.  For example:  ocm01234567, or ocm00123456.
-
 * If searching a LCCN do not use a hyphen,  add a 0 in place of a hyphen, e.g. 2001001234.
 ======
 
