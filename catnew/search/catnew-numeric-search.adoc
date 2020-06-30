@@ -1,41 +1,32 @@
 Numeric Search
 ~~~~~~~~~~~~~~
 
-. To search the catalogue for holdings select *Cataloguing* ->  *Search the Catalog (Experimnental) ue*, or *Search* -> *the Catalogue*, or press *F3*.
+. To search the catalogue for holdings select *Cataloging* -> *Search the Catalog (Experimnental)*.
 +
-image::images/cat/search-1.png[title for image search-1 in image cat folder]
+image::images/catnew/experimental-cat-menu.png[Catalogue Menu]
 +
-. The advanced search screen is loaded. In this example, the search screen defaults to the *Numeric Search* tab. You may set up a different default search tab via *Workstation Administration*. In this example, note the search library is set to Sitka. A cataloguer must ensure they are searching the entire Sitka database.
+. Select the *Numeric Search* tab. When searching for cataloguing purposes it is important to ensure 
+that you search the entire consortium. 
 +
-image::images/cat/search-3.png[]
+image::images/catnew/numeric-search-1.png[Numeric Search screen]
++
+. You can search by ISBN, ISSN, LCCN, TCN, or Item Barcode.
++
+image::images/catnew/numeric-search-2.png[Numeric Search options]
 +
 . Enter your search criteria and click *Search*.
 +
-image::images/cat/search-4.png[]
+image::images/catnew/numeric-search-3.png[Numeric Search select Search]
 +
-. In this example, the title has 6 copies in Sitka.
+. Your results are displayed.
 +
-image::images/cat/search-5.png[]
+image::images/catnew/numeric-search-3.png[search result with 5 items]
 +
-. To view record details, click on the title link.
-+
-image::images/cat/search-6.png[]
-+
-. Confirm bibliographic data as displayed in the brief record. If satisfied that the record matches the item in hand, you can proceed to add holdings as described in xref:_adding_holdings_to_bibliographic_records[]
-+
-image::images/cat/search-7.png[]
-+
-. You may also choose to view the MARC record by clicking on *MARC Record* button near the bottom of the screen, or click *MARC View* above the search bar.
-+
-image::images/cat/search-8.png[]
-+
-. This presents detailed bibliographic data to help you determine whether the record matches the item in hand.
-+
-image::images/cat/search-9.png[]
 
 [TIP]
 ======
-* It is possible to search ISBNs by Keyword, but results may not be exhaustive. We recommend using *Numeric Search* as described above.
+* It is possible to search ISBNs by Keyword, but results may not be exhaustive. 
+We recommend using *Numeric Search* when searching for ISBN or other standard identifiers.
 
 * If an OCLC number is nine digits then Evergreen uses ocn as a prefix. For example:  ocn123456789.
 
