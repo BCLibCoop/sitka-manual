@@ -5,8 +5,12 @@ Numeric Search
 +
 image::images/catnew/experimental-cat-menu.png[Catalogue Menu]
 +
-. Select the *Numeric Search* tab. When searching for cataloguing purposes it is important to ensure 
+. When searching for cataloguing purposes it is important to ensure 
 that you search the entire consortium. 
++
+image::images/catnew/experimental-cat-search-library.png[Search Library]
++
+. Select the *Numeric Search* tab. It will be open by default if it's set as your Default Search Pane. 
 +
 image::images/catnew/numeric-search-1.png[Numeric Search screen]
 +
@@ -18,7 +22,7 @@ image::images/catnew/numeric-search-2.png[Numeric Search options]
 +
 image::images/catnew/numeric-search-3.png[Numeric Search select Search]
 +
-. Your results are displayed.  Refer to xref:_viewing_search_results_for_cataloguing_purposes[Search Results] 
+. Your results are displayed.  Refer to xref:_viewing_search_results_for_cataloguing_purposes[] 
 for information on determining which result to add your holding to.
 +
 image::images/catnew/numeric-search-4.png[two search results]
