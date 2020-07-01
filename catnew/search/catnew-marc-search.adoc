@@ -1,23 +1,30 @@
 MARC Search
 ~~~~~~~~~~~
 
-. To search the catalogue for holdings select *Cataloguing* -> *Search the Catalogue*, or *Search* -> *the Catalogue*, or press *F3* and click on *Expert Search* tab.
-. Enter tag definitions and search criteria and click *Search*.
+. To search the catalogue for holdings select *Cataloging* -> *Search the Catalog (Experimnental)*.
 +
-image::images/cat/search-10.png[]
+image::images/catnew/experimental-cat-menu.png[Catalogue Menu]
 +
-. You may search multiple tags by clicking *Add Search Row*. The Boolean operator between the tags is always AND.
+. When searching for cataloguing purposes it is important to ensure 
+that you search the entire consortium. 
 +
-image::images/cat/search-11.png[]
+image::images/catnew/experimental-cat-search-library.png[Search Library]
 +
-. You may now search multiple tags.
+. Select the *MARC Search* tab. It will be open by default if it's set as your Default Search Pane. 
++
+image::images/catnew/marc-search-1.png[MARC Search screen]
++
+. Enter the tag, subfield, and value and click *Search*.
++
+image::images/catnew/marc-search-2.png[MARC Search screen]
 +
 image::images/cat/search-12.png[]
+. Your results are displayed.  Refer to xref:_viewing_search_results_for_cataloguing_purposes[] 
+for information on determining which result to add your holding to.
++
+image::images/catnew/numeric-search-4.png[two search results]
 
-
-[TIP]
+[NOTE]
 ======
-You can toggle record views during a session. You may set a default view by selecting the view, then clicking on *Set default view* button. Next time a record is loaded, it will be displayed in the selected view. MARC Edit is set as the default view in this example.
-
-image::images/cat/search-13.png[]
+There is currently a bug that prevents Evergreen from returning results if you use more than one tag in a search.
 ======
