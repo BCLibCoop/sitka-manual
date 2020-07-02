@@ -5,16 +5,15 @@ Searching the Database for Cataloguing Purposes
 replace - Sitka Training Video - Search the Catalogue (5:16)
 ////
 
-It is critical to search the database before adding titles, volumes, or copies. Good practice is to assume the item you are adding already exists, 
-and to do an exhaustive search for the item before cataloguing it. By doing so, you will discover whether you need to add your item to an existing 
-title record, or if you need to import or create a new title record. It is very important that you scope your cataloguing searches to the entire 
-Sitka database.
-
 .To search the experimental catalogue:
 . Go to *Cataloguing* ->  *Search the Catalog (Experimental)*.
 +
 image::images/catnew/experimental-cat-menu.png[Catalogue Menu]
 
+It is critical to search the database before adding titles, volumes, or copies. Good practice is to assume the item you are adding already exists, 
+and to do an exhaustive search for the item before cataloguing it. By doing so, you will discover whether you need to add your item to an existing 
+title record, or if you need to import or create a new title record. It is very important that you scope your cataloguing searches to the entire 
+Sitka database.
 
 include::search/catnew-catalogue-preferences.adoc[Catalogue Preferences]
 
