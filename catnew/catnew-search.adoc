@@ -12,6 +12,9 @@ Sitka database.
 
 .To search the experimental catalogue:
 . Go to *Cataloguing* ->  *Search the Catalog (Experimental)*.
++
+image::images/catnew/experimental-cat-menu.png[Catalogue Menu]
+
 
 include::search/catnew-catalogue-preferences.adoc[Catalogue Preferences]
 
