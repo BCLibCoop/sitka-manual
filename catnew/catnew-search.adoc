@@ -9,3 +9,5 @@ Sitka database.
 include::search/catnew-catalogue-preferences.adoc[Catalogue Preferences]
 
 include::search/catnew-numeric-search.adoc[Numeric Search]
+
+include::search/catnew-keyword-search.adoc[Keyword Search]
