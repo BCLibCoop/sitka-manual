@@ -1,9 +1,9 @@
 Keyword Search
 ~~~~~~~~~~~~~~
 
-The Keyword Search tab is generally not used when searching for records for cataloguing.  Libraries that
-catalogue non-bibliographic items (laptops, museum passes, cake pans, etc.) that don't use standard identifiers,
-like ISBN, may need to use the Keyword Search when adding additional items to these records.
+When searching the catalogue for cataloguing purposes the Numeric Search should be preferred over the Keyword Search.
+Libraries that catalogue non-bibliographic items (laptops, museum passes, cake pans, etc.) that don't use standard 
+identifiers, like ISBN, may need to use the Keyword Search when adding additional items to these records.
 
 . To search the catalogue for holdings select *Cataloging* -> *Search the Catalog (Experimnental)*.
 +
@@ -22,7 +22,7 @@ image::images/catnew/keyword-search-1.png[Keyword Search screen]
 +
 image::images/catnew/keyword-search-3.png[Keyword Search screen]
 +
-. Your results are displayed.  Refer to X 
+. Your results are displayed.  Refer to xref:_viewing_search_results_for_cataloguing_purposes[]
 for information on determining which result to add your holding to.
 +
 image::images/catnew/numeric-search-4.png[two search results]
