@@ -2,26 +2,24 @@ Viewing Search Results for Cataloguing Purposes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When you retrieve results it's important to look at the results to decide 
-which is the best match for your item.
+which is the best match for your item.  Refer to xref:
 
-. In this example, the title has 6 copies in Sitka.
+. The results for your search will display.+
+.. Brief holdings and bibliographic details display for each search result.
 +
 image::images/catnew/numeric-search-4.png[two search results]
 +
-. To view record details, click on the title link.
+. To view the record details, click on the title link.
 +
-image::images/cat/search-6.png[]
+. Use the **MARC View** or **MARC Edit** tab to look at the MARC record to confirm that it matches with your 
+item.  Refer to the http://docs.libraries.coop/policy/_cataloguing_procedures.html[Cataloguing Procedures] section
+of the Policy Manual for information on how to determine a match.
 +
-. Confirm bibliographic data as displayed in the brief record. If satisfied that the record matches the item in hand, you can proceed to add holdings as described in xref:_adding_holdings_to_bibliographic_records[]
+image::images/catnew/viewing-search-results-1.png[Record Details with MARC View]
 +
-image::images/cat/search-7.png[]
-+
-. You may also choose to view the MARC record by clicking on *MARC Record* button near the bottom of the screen, or click *MARC View* above the search bar.
-+
-image::images/cat/search-8.png[]
-+
-. This presents detailed bibliographic data to help you determine whether the record matches the item in hand.
-+
-image::images/cat/search-9.png[]
+. If satisfied that the record matches the item in hand, you can proceed to add your holdings to the record.
+
+
+
 
 
