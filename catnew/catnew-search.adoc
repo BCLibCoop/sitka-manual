@@ -6,11 +6,3 @@ title record, or if you need to import or create a new title record. It is very 
 Sitka database.
 
 include::search/catnew-catalogue-preferences.adoc[Catalogue Preferences]
-
-include::search/catnew-numeric-search.adoc[Numeric Search]
-
-include::search/catnew-keyword-search.adoc[Keyword Search]
-
-include::search/catnew-marc-search.adoc[MARC Search]
-
-include::search/catnew-search-results.adoc[Viewing Search Results for Cataloguing Purposes]
