@@ -1,0 +1,9 @@
+Adding Holdings for Non-physical Resources in the Experimental Catalogue
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+There are two ways to catalogue non-physical resources in Evergreen. Recommended process is 
+to use specially coded MARC records as described in xref:cataloguing_nonphysical_resources[]. 
+Alternatively you may add fake holdings to a MARC record, using the same steps as adding physical 
+holdings as described in prior section. Adding fake holdings will scope your non-physical resources 
+to your public catalogue. If you create fake holdings, it is important to use item barcodes from within 
+your designated barcode range.
