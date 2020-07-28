@@ -1,0 +1,24 @@
+New Items and Holds in the Experimental Catalogue
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(((Re-target Holds)))
+(((New Items)))
+
+Because of the way Evergreen targets holds, new items are not guaranteed to fulfill pre-existing holds 
+correctly until 24 hours after cataloguing. If you are a single branch library and your cataloguing turn-around 
+time is shorter than 24 hours you can ensure the new item is captured correctly at check in by using the checkin modifiers 
+*Retarget Local Holds* and *Retarget All Statuses*.
+
+As the checkin modifiers will only re-target the top local hold, which may not be the top system hold, 
+multi-branch libraries should instead follow the procedure below.
+
+. After adding the item, click on *View Holds*.
++
+image::images/catnew/new-item-hold-1.png[]
++
+. If there are outstanding hold requests, select the hold that is next in line then click  
+the actions button and choose *Find Another Target*. This forces Evergreen to re-target the hold 
+and recognize the newly catalogued item.
++
+image::images/catnwq/new-item-hold-2.png[]
++
+. Check in the new item to capture it for the selected hold.
