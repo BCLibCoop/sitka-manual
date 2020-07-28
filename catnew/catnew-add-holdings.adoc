@@ -1,8 +1,14 @@
-Adding Holdings to Bibliographic Records
-----------------------------------------
+Adding Holdings in the Experimental Catalogue
+---------------------------------------------
 
-Adding Holdings to Bibliographic Records
+Once you have located a bibliographic record that matches your item physical or electronic holdings can 
+be added to make the item discoverable at your library.
 
-New Copies and Holds
+Bibliographic recirds can be located as described in xref:__searching_the_database_for_cataloguing_purposes_2[] or\
+added as described in the section on Adding Bibliographic Records.
 
-Adding Holdings for Non-physical Resources
+include::holdings-add/catnew-add-holding.adoc[]
+
+include::holdings-add/catnew-new-items-holds.adoc[]
+
+include::holdings-add/catnew-add-eholdings.adoc[]
