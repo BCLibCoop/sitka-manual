@@ -5,7 +5,7 @@ Adding Holdings
 
 . From the Record Details screen, click *Add Holdings*.
 +
-image::images/catnew/add-holding1-1.png[]
+image::images/catnew/add-holdings-1.png[]
 +
 . The Holdings Editor opens up in a new tab.
 +
@@ -24,4 +24,4 @@ for more information.
 . Once done, click on *Save & Exit*. The pop-up tab is closed.
 
 The Holdings Editor as not changed between the current catalogue and the experimental catalogue so additional 
-information on working with it can be found in xref:_add_holdings[].
+information on working with it can be found in xref:_adding_holdings_to_bibliographic_records[].
