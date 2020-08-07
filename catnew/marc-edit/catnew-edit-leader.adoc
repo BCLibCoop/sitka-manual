@@ -1,0 +1,33 @@
+Editing MARC Record Leader and Fixed Field 008
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Parts of the leader and the 008 can be edited in the MARC Editor via the fixed field editor box displayed above the MARC record in default MARC Edit view, and at top of record in Flat-Text Editor view. Information about the leader and the 008 can be found on the Library of Congress's MARC Standards page at http://www.loc.gov/marc/
+
+To edit the fixed fields, it is easiest to use default Edit MARC view and click on the name of the field. In Flat-Text Editor view, you must place the cursor at the correct position in the number to edit. When you click on the field name , e.g. Date1, what you type will appear in the box. When you click on the field box itself, you have to backspace your cursor to the very beginning of the box in order to type, because there are space takers in these positionally defined fields. Right-clicking in certain fields such as Type, BLvl, Form, Audn, and Lang will show a drop-down menu of possible choices.
+
+[TIP]
+=====
+The format filter (eg. Books, E-Books, Audiobooks, Videos etc.) and format icons in the OPAC rely on accurate coding in the Leader, 008 and 007. Please see the format filter and icon specifications in xref:_format_filters_and_format_icons[].
+=====
+
+. Retrieve and display record in Edit MARC view.
+. Click into any box displayed in the fixed field editor. In this example we are editing the first position, the Type or Format box, to describe the format of the resource, textual material, by use of an "a".
++
+image::images/cat/leader-1.png[]
++
+. Right-clicking in the box will show a list of possible values (eg. BLvl, Type, Form Audn, and Lang). Choose from this list to populate the box.
++
+image::images/cat/leader-2.png[]
++
+. You can press the *Tab* key or use the mouse to click through to each field, and can delete and add text as required by backspacing or highlighting existing text and over typing. Here the publication date is being edited; OPAC searches filtered by date rely on correct coding in the 008.
++
+image::images/cat/leader-3.png[]
++
+. Click *Save*.
++
+image::images/cat/leader-4.png[]
++
+. The OPAC icon for textual materials is displayed as in the example below.
++
+image::images/cat/leader-5.png[]
