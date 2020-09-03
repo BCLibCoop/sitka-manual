@@ -15,6 +15,8 @@ include::workstationadmin/admin-printtemplates.adoc[]
 Stored Preferences
 ~~~~~~~~~~~~~~~~~~
 
+Click *Administration* -> *Workstation* -> *Stored Preferences*
+
 Here you can view stored user preferences. User settings are added to the list whenever you choose to *Save Columns*, *Set default view* or pick a value from a sticky drop down menu.
 
 * Click on a preference to view the stored value.
@@ -42,6 +44,8 @@ include::workstationadmin/admin-hatch.adoc[]
 Tests
 ~~~~~
 
+Click *Administration* -> *Workstation* -> *Tests*
+
 Latency Test
 ^^^^^^^^^^^^
 
@@ -57,6 +61,8 @@ NOTE: The current status of all BC Libraries Cooperative services can be found h
 
 Disable Sounds
 ~~~~~~~~~~~~~~
+
+Click *Administration* -> *Workstation*
 
 .Disable Sounds
 . Check the box for *Disable Sounds* to turn off the staff client Sounds.
