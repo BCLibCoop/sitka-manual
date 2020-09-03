@@ -1,5 +1,7 @@
-Maintaining Bibliographic records
----------------------------------
+Bibliographic Records in the Experimental Catalogue
+---------------------------------------------------
+
+The record summary page 
 
 The appropriate title information displayed on the OPAC relies on correct MARC coding. For example, 
 format icons for text, moving pictures, and sound, rely on  MARC coding in the leader, 007, and 008 tags, 
@@ -15,9 +17,12 @@ to the position of the tags, indicators, and spacing required to preserve the re
 
 include::marc-edit/catnew-edit-marc.adoc[]
 
+include::marc-edit/catnew-search-filter.adoc[]
+
 include::marc-edit/catnew-edit-leader.adoc[]
 
 include::marc-edit/catnew-edit-007.adoc[]
+
 
 
     Editing MARC Records
