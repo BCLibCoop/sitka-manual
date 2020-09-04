@@ -76,9 +76,9 @@ include::catnew/catnew-search.adoc[Searching the Database for Cataloguing Purpos
 
 include::catnew/catnew-add-holdings.adoc[Adding Holdings to Existing MARC Records]
 
-include::catnew/catnew-edit-marc.adoc[Maintaining MARC records]
-
 ////
+include::catnew/catnew-edit-marc.adoc[Bibliographic Records in the Experimental Catalogue]
+
 include::catnew/catnew-edit-holdings.adoc[Maintainting Holdings]
 
 include::catnew/catnew-item-bucket.adoc[Copy Bucket]
