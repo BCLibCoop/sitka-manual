@@ -180,7 +180,7 @@ marks are never required when updating settings in the staff client.
 
 | Exclude Courtesy Notices from Patrons Itemsout Notices Count | | True/False | | LSA
 
-| Forgive fines when checking out a long-overdue item and copy alert is suppressed? | | | Not in use | 
+| Forgive fines when checking out a long-overdue item and copy alert is suppressed? | | | Not in use |
 
 | Forgive fines when checking out a lost item and copy alert is suppressed? | Controls whether fines are automatically forgiven when checking out an item that has been marked as lost, and the corresponding copy alert has been suppressed. | True/False | | LSA
 
@@ -195,19 +195,19 @@ marks are never required when updating settings in the staff client.
 
 |Load patron from Checkout|When scanning barcodes into Checkout auto-detect if a new patron barcode is scanned and auto-load the new patron.|True/False|Not in use |
 
-|Long-Overdue Check-In Interval Uses Last Activity Date|Use the long-overdue last-activity date instead of the due_date to determine whether the item has been checked out too long to perform long-overdue check-in processing. If set, the system will first check the last payment time, followed by the last billing time, followed by the due date. See also "Long-Overdue Max Return Interval"|True/False|Not in use | 
+|Long-Overdue Check-In Interval Uses Last Activity Date|Use the long-overdue last-activity date instead of the due_date to determine whether the item has been checked out too long to perform long-overdue check-in processing. If set, the system will first check the last payment time, followed by the last billing time, followed by the due date. See also "Long-Overdue Max Return Interval"|True/False|Not in use |
 
 |Long-Overdue Items Usable on Checkin|Long-overdue items are usable on checkin instead of going "home" first|True/False| Not in use |
 
-|Long-Overdue Max Return Interval|Long-overdue check-in processing (voiding fees, re-instating overdues, etc.) will not take place for items that have been overdue for (or have last activity older than) this amount of time|Duration| Not in use | 
+|Long-Overdue Max Return Interval|Long-overdue check-in processing (voiding fees, re-instating overdues, etc.) will not take place for items that have been overdue for (or have last activity older than) this amount of time|Duration| Not in use |
 
-|Lost check-in generates new overdues|Enabling this setting causes retroactive creation of not-yet-existing overdue fines on lost item check-in, up to the point of check-in time (or max fines is reached). This is different than "restore overdue on lost", because it only creates new overdue fines. Use both settings together to get the full complement of overdue fines for a lost item|True/False| | LSA 
+|Lost check-in generates new overdues|Enabling this setting causes retroactive creation of not-yet-existing overdue fines on lost item check-in, up to the point of check-in time (or max fines is reached). This is different than "restore overdue on lost", because it only creates new overdue fines. Use both settings together to get the full complement of overdue fines for a lost item|True/False| | LSA
 
 |Lost items usable on checkin|Lost items are usable on checkin instead of going 'home' first|True/false|  | LSA
-|Max patron claims returned count|When this count is exceeded, a staff override is required to mark the item as claims returned.|Number| | LSA 
+|Max patron claims returned count|When this count is exceeded, a staff override is required to mark the item as claims returned.|Number| | LSA
 |Maximum visible age of User Trigger Events in Staff Interfaces|If this is unset, staff can view User Trigger Events regardless of age. When this is set to an interval, it represents the age of the oldest possible User Trigger Event that can be viewed.|Duration| Not working | LSA
 
-|Minimum transit checkin interval|In-Transit items checked in this close to the transit start time will be prevented from checking in|Duration| | LSA 
+|Minimum transit checkin interval|In-Transit items checked in this close to the transit start time will be prevented from checking in|Duration| | LSA
 | Number of Retrievable Recent Patrons | Number of most recently accessed patrons that can be re-retrieved in the staff client. A value of 0 or less disables the feature. Defaults to 1. | Number | | LSA
 
 |Patron merge address delete|Delete address(es) of subordinate user(s) in a patron merge.|True/False| | LSA
@@ -217,7 +217,7 @@ marks are never required when updating settings in the staff client.
 
 |Patron search diacritic insensitive | Match patron last, first, and middle names irrespective of usage of diacritical marks or spaces. | True/False | Default: True |Sitka
 
-|Printing: custom JavaScript file|Full URL path to a JavaScript File to be loaded when printing. Should implement a print_custom function for DOM manipulation. Can change the value of the do_print variable to false to cancel printing.|Text| Not in use | 
+|Printing: custom JavaScript file|Full URL path to a JavaScript File to be loaded when printing. Should implement a print_custom function for DOM manipulation. Can change the value of the do_print variable to false to cancel printing.|Text| Not in use |
 
 |Require matching email address for password reset requests||True/False| | LSA
 |Restore Overdues on Long-Overdue Item Return||True/False| | LSA
@@ -235,7 +235,7 @@ marks are never required when updating settings in the staff client.
 
 |Target copies for a hold even if copy's circ lib is closed IF the circ lib is the hold's pickup lib|If this setting is true at a given org unit or one of its ancestors, the hold targeter will target copies from this org unit even if the org unit is closed (according to the Org Unit's closed dates) IF AND ONLY IF the copy's circ lib is the same as the hold's pickup lib.|True/False| Set the value to True if you want to target copies for holds at closed circulating libraries when the circulating library of the item and the pickup library of the hold are the same. Set the value to False, or leave it unset, if you do not want to enable this feature. | LSA
 
-|Truncate fines to max fine amount||True/False|Default: True | Sitka 
+|Truncate fines to max fine amount||True/False|Default: True | Sitka
 
 |Use Lost and Paid copy status|Use Lost and Paid copy status when lost or long overdue billing is paid|True/False| Default: True | Sitka
 |Void Long-Overdue Item Billing When Returned||True/False| Not in use | LSA
@@ -285,7 +285,7 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 |===
 |Setting|Description|Data type|Notes |Edited by
 
-|Allow credit card payments|If enabled, patrons will be able to pay fines accrued at this location via credit card.|True/False| Not in use | 
+|Allow credit card payments|If enabled, patrons will be able to pay fines accrued at this location via credit card.|True/False| Not in use |
 
 |Charge item price when marked damaged|If true Evergreen bills item price to the last patron who checked out the damaged item. Staff receive an alert with patron information and must confirm the billing.| True/False| | LSA
 
@@ -301,7 +301,7 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 
 |Leave transaction open when lost balance equals zero|Leave transaction open when lost balance equals zero. This leaves the lost copy on the patron record when it is paid|True/False|Default: False | Sitka
 
-|Long-Overdue Materials Processing Fee|The amount charged in addition to item price when an item is marked Long-Overdue|Number (Currency)|Not in use | 
+|Long-Overdue Materials Processing Fee|The amount charged in addition to item price when an item is marked Long-Overdue|Number (Currency)|Not in use |
 
 |Lost materials processing fee|The amount charged in addition to item price when an item is marked lost.| Number(Currency)| |LSA
 
@@ -321,7 +321,7 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 
 |Prohibit negative balance on bills for overdue materials|Prevent negative balances (refunds) on bills for lost/long overdue materials. Set to "true" to prohibit negative balances at all times or, when used in conjunction with an interval setting, to prohibit negative balances after an interval of time.|True/False| | LSA
 
-|Void Overdue Fines When Items are Marked Long-Overdue|If true overdue fines are voided when an item is marked Long-Overdue|True/False|Not in use | 
+|Void Overdue Fines When Items are Marked Long-Overdue|If true overdue fines are voided when an item is marked Long-Overdue|True/False|Not in use |
 
 |Void overdue fines when items are marked lost|If true overdue fines are voided when an item is marked lost|True/False| | LSA
 |===
@@ -333,7 +333,7 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 |===
 |Setting|Description|Data type|Notes | Edited by
 |Alert on empty bib records|Alert staff when the last copy for a record is being deleted.|True/False| | LSA
-|Button bar|If TRUE, the staff client button bar appears by default on all workstations registered to your library; staff can override this setting at each login.|True/False|Not in use anymore | 
+|Button bar|If TRUE, the staff client button bar appears by default on all workstations registered to your library; staff can override this setting at each login.|True/False|Not in use anymore |
 |Cap results in Patron Search at this number.|The maximum number of results returned per search. If 100 is set up here, any search will return 100 records at most.|Number| | LSA
 
 |Default Country for New Addresses in Patron Editor|This is the default Country for new addresses in the patron editor.|Text| | LSA
@@ -375,7 +375,7 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 
 |Items Out Long-Overdue display setting| |Number|Not in use| LSA
 
-|Items Out Lost display setting|Value is a numeric code, describing which list the circulation should appear while checked out and whether the circulation should continue to appear in the special list, when checked in with outstanding fines. 1 = regular list, special list. 2 = special list, special list. 5 = regular list, do not display. 6 = special list, do not display.|Number| | LSA 
+|Items Out Lost display setting|Value is a numeric code, describing which list the circulation should appear while checked out and whether the circulation should continue to appear in the special list, when checked in with outstanding fines. 1 = regular list, special list. 2 = special list, special list. 5 = regular list, do not display. 6 = special list, do not display.|Number| | LSA
 
 |Max user activity entries to retrieve (staff client)|Sets the maximum number of recent user activity entries to retrieve for display in the staff client.|Number| | LSA
 
@@ -421,13 +421,13 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 
 |Suggest XXXXX field on patron registration|The XXXXX field will be suggested on the patron registration screen. Suggesting a field makes it appear when suggested fields are shown. If the field is shown or required this setting is ignored.|True/False| | LSA
 
-|Toggle off the patron summary sidebar after first view.|When true, the patron summary sidebar will collapse after a new patron sub-interface is selected.|True/False| Not in use anymore | 
+|Toggle off the patron summary sidebar after first view.|When true, the patron summary sidebar will collapse after a new patron sub-interface is selected.|True/False| Not in use anymore |
 
-|URL for remote directory containing list column settings.| |Text| Not in use | 
+|URL for remote directory containing list column settings.| |Text| Not in use |
 
 |Uncheck bills by default in the patron billing interface|Uncheck bills by default in the patron billing interface, and focus on the Uncheck All button instead of the Payment Received field.|True/False| | LSA
 
-|Unified Volume/Item Creator/Editor|If True, combines the Volume/Copy Creator and Item Attribute Editor in some instances.|True/False| Not in use anymore | 
+|Unified Volume/Item Creator/Editor|If True, combines the Volume/Copy Creator and Item Attribute Editor in some instances.|True/False| Not in use anymore |
 
 |Work Log: maximum actions logged|Maximum entries for "Most Recent Staff Actions" section of the Work Log interface.|Number| | LSA
 
@@ -458,7 +458,7 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 
 |Best-hold selection sort order|Defines the sort order of holds when selecting a hold to fill using a given copy at capture time|Selection list| | Sitka
 |Block renewal of items needed for holds|When an item could fulfill a hold, do not allow the current patron to renew|True/False| | Sitka
- 
+
 |Cancelled holds display age|Show all cancelled holds that were cancelled within this amount of time|Duration| | LSA
 |Cancelled holds display count|How many cancelled holds to show in patron holds interfaces|Number| | LSA
 
@@ -513,7 +513,7 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 
 |Claim return copy status|Claims returned copies are put into this status. Default is to leave the copy in the Checked Out status|Selection list| | Sitka
 
-|Courier code|Courier Code for the library. Available in transit slip templates as the %courier_code% macro.|Text| Not in use |  
+|Courier code|Courier Code for the library. Available in transit slip templates as the %courier_code% macro.|Text| Not in use |
 
 |Juvenile age threshold|Upper cut-off age for patrons to be considered juvenile, calculated from date of birth in patron accounts|Duration  (years)| | LSA
 
@@ -541,7 +541,7 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 |Allow pending addresses|If true patrons can edit their addresses in the OPAC. Changes must be approved by staff|True/False| | LSA
 |Auto-Override Permitted Hold Blocks (Patrons)|This will allow patrons with the permission "HOLD_ITEM_CHECKED_OUT.override" to automatically override permitted holds.|True/False|When a patron places a hold in the OPAC that fails, and the patron has the permission to override the failed hold, this automatically overrides the failed hold rather than requiring the patron to manually override the hold.  Default: False |  Sitka
 
-|Custom CSS for the OPAC | This can be populated with CSS that will load in the OPAC after the stylesheets and allow for custom CSS without editing server side templates. | Text | | Sitka 
+|Custom CSS for the OPAC | This can be populated with CSS that will load in the OPAC after the stylesheets and allow for custom CSS without editing server side templates. | Text | | Sitka
 
 | Enable Digital Bookplate Search | If enabled, adds a "Digital Bookplate" option to the query type selectors in the public catalog for search on copy tags. | True/False | | Sitka
 
@@ -556,7 +556,7 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 
 |Limit the number of URIs on the results page | Admin setting on e-record link display | Number | | Sitka
 
-|OPAC login message | HTML blob to be rendered in an interstitial page upon OPAC login | Text	|  | Sitka
+|OPAC login message | HTML blob to be rendered in an interstitial page upon OPAC login | Text	|  | LSA
 
 |OPAC: Number of staff client saved searches to display on left side of results and record details pages|If unset, the OPAC (only when wrapped in the staff client!) will default to showing you your ten most recent searches on the left side of the results and record details pages. If you actually don't want to see this feature at all, set this value to zero at the top of your organizational tree.|Number| | LSA
 
@@ -573,7 +573,7 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 
 |Patron Self-Reg. Expire Interval|If set, this is the amount of time a pending user account will be allowed to sit in the database. After this time, the pending user information will be purged|Duration| | Sitka
 
-|Payment history age limit|The OPAC should not display payments by patrons that are older than any interval defined here.|Duration|Not in use| 
+|Payment history age limit|The OPAC should not display payments by patrons that are older than any interval defined here.|Duration|Not in use|
 
 | Permit renewals when patron exceeds max fine threshold | Permit renewals even when the patron exceeds the maximum fine threshold |True/False | |LSA
 
@@ -583,7 +583,7 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 
 |Use fully compressed serial holdings|Show fully compressed serial holdings for all libraries at and below the current context unit|True/False| | Sitka
 
-|Uses phone as default pin | | True/False |Not in use | 
+|Uses phone as default pin | | True/False |Not in use |
 |Warn patrons when adding to a temporary book list|Present a warning dialogue when a patron adds a book to the temporary book list.|True/False| | Sitka
 |===
 
@@ -612,7 +612,7 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 [options="header"]
 |===
 |Setting|Description|Data type|Notes| Edited by
-|Content of alert_text include|Text/HTML/Macros to be inserted into receipt templates in place of %INCLUDE(alert_text)%|Text| Not in use anymore | 
+|Content of alert_text include|Text/HTML/Macros to be inserted into receipt templates in place of %INCLUDE(alert_text)%|Text| Not in use anymore |
 |Content of event_text include|Text/HTML/Macros to be inserted into receipt templates in place of %INCLUDE(event_text)%|Text|Not in use anymore |
 |Content of footer_text include|Text/HTML/Macros to be inserted into receipt templates in place of %INCLUDE(footer_text)%|Text|Not in use anymore |
 |Content of header_text include|Text/HTML/Macros to be inserted into receipt templates in place of %INCLUDE(header_text)%|Text|Not in use anymore |
@@ -639,7 +639,7 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 |Obscure the Date of Birth field|When true, the Date of Birth column in patron lists will default to Not Visible, and in the Patron Summary sidebar the value will display as unless the field label is clicked.|True/False| | LSA
 
 |Offline: Patron usernames allowed|During offline circulations, allow patrons to identify themselves with
-usernames in addition to barcode. For this setting to work, a barcode format must also be defined|True/False| | 
+usernames in addition to barcode. For this setting to work, a barcode format must also be defined|True/False| |
 
 |Patron opt-in boundary|Admin setting|Text| | Sitka
 
@@ -661,9 +661,9 @@ usernames in addition to barcode. For this setting to work, a barcode format mus
 |===
 |Setting|Description|Data type|Notes | Edited by
 
-| Allow Fine printing	| If true, there will be a print option on the fine list screen.	|True/False	||LSA	 
-| Allow Hold printing	| If true, there will be a print option on the hold list screen.	|True/False	||LSA	 
-| Allow Items out printing	| If true, there will be a print option on the items out list screen.	|True/False ||	LSA	 
+| Allow Fine printing	| If true, there will be a print option on the fine list screen.	|True/False	||LSA
+| Allow Hold printing	| If true, there will be a print option on the hold list screen.	|True/False	||LSA
+| Allow Items out printing	| If true, there will be a print option on the items out list screen.	|True/False ||	LSA
 |Audio Alerts|Use audio alerts for selfcheck events.|True/False| | LSA
 |Block copy checkout status|List of copy status IDs that will block checkout even if the generic COPY_NOT_AVAILABLE event is overridden.|Number|Look up copy status ID from Server Admin. |LSA
 |Patron login timeout (in seconds)|Number of seconds of inactivity before the patron is logged out of the selfcheck interface.|Duration| | LSA
@@ -677,23 +677,23 @@ usernames in addition to barcode. For this setting to work, a barcode format mus
 |URL verify: Maximum redirect lookups|Admin setting|Number| | Sitka
 |URL verify: Maximum wait time (in seconds) for a URL to lookup|Admin setting|Number| | Sitka
 |URL verify: Number of seconds to wait between URL test attempts|Throttling mechanism for batch URL verification runs. Each running process will wait this number of seconds after a URL test before performing the next.|Duration| | Sitka
-|Circ: default precat circ modifier	 | |	Selection List | |	LSA	 
+|Circ: default precat circ modifier	 | |	Selection List | |	LSA
 | Claim Return: Mark copy as missing| |	 	True/False | Default: False | Sitka
-| Disallow circulation of items when they are on booking reserve and that reserve overlaps with the checkout period	| When true, items on booking reserve during the proposed checkout period will not be allowed to circulate unless overridden with the COPY_RESERVED.override permission.	| True/False	|| LSA	 
+| Disallow circulation of items when they are on booking reserve and that reserve overlaps with the checkout period	| When true, items on booking reserve during the proposed checkout period will not be allowed to circulate unless overridden with the COPY_RESERVED.override permission.	| True/False	|| LSA
 
-| Limit Due Date by Patron Expiry |	If True automatically adjusts item due date to match patron card expiry date if expiry date sooner than due date. If False item due date applied. |	True/False| | LSA	 
+| Limit Due Date by Patron Expiry |	If True automatically adjusts item due date to match patron card expiry date if expiry date sooner than due date. If False item due date applied. |	True/False| | LSA
 | Recalls: An array of fine amount, fine interval, and maximum fine. |	An array of fine amount, fine interval, and maximum fine. For example, to specify a new fine rule of $5.00 per day, with a maximum fine of $50.00, use: [5.00,"1 day",50.00]	| Text		| Brackets are required in the text. | LSA
 
-| Recalls: Circulation duration that triggers a recall.	| A hold placed on an item with a circulation duration longer than this will trigger a recall. For example, "14 days" or "3 weeks". | 	Duration | |	LSA	 
+| Recalls: Circulation duration that triggers a recall.	| A hold placed on an item with a circulation duration longer than this will trigger a recall. For example, "14 days" or "3 weeks". | 	Duration | |	LSA
 
-| Recalls: Truncated loan period.	| When a recall is triggered, this defines the adjusted loan period for the item. For example, "4 days" or "1 week". |	Duration	| |LSA	 
-| Use in-database circ policy |	Admin setting |	True/False	| |Sitka	 
-| Use in-database holds policy | Admin setting |	True/False | |	Sitka	 
-| Use legacy hardcoded receipts/slips	| | 	True/False |	| LSA	 
-| circ.renew.check_penalty	 | |	True/False	| |Sitka	 
+| Recalls: Truncated loan period.	| When a recall is triggered, this defines the adjusted loan period for the item. For example, "4 days" or "1 week". |	Duration	| |LSA
+| Use in-database circ policy |	Admin setting |	True/False	| |Sitka
+| Use in-database holds policy | Admin setting |	True/False | |	Sitka
+| Use legacy hardcoded receipts/slips	| | 	True/False |	| LSA
+| circ.renew.check_penalty	 | |	True/False	| |Sitka
 | global.credit.allow	 | | 	True/False	| Not in use |Sitka
-| org.opt_out_email_predue	| | 	True/False | Not in use |	Sitka	
-| ui.network.progress_meter	| Switch off/on a bar indicating network in progress	| True/False	| Not in use anymore|LSA	 
+| org.opt_out_email_predue	| | 	True/False | Not in use |	Sitka
+| ui.network.progress_meter	| Switch off/on a bar indicating network in progress	| True/False	| Not in use anymore|LSA
 |===
 
 [[lse-vandelay]]
@@ -709,5 +709,3 @@ usernames in addition to barcode. For this setting to work, a barcode format mus
 |Vandelay Generate Default Barcodes|Auto-generate default item barcodes when no item barcode is present|True/False| | LSA
 |Vandelay Generate Default Call Numbers|Auto-generate default item call numbers when no item call number is present|True/False|These are pulled from the MARC Record. | LSA
 |===
-
-
