@@ -45,7 +45,8 @@ image:images/circ/manageholds2.png[scaledwidth="75%"]
 . If item was on holds shelf, check it in to change its status.
 
 
-
+[TIP]
+=====
  A captured hold with a status of *On Holds Shelf* or *Ready for Pickup* can be cancelled 
  by staff or patrons. The item must be checked in to update its status.
 =====
