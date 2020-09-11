@@ -44,7 +44,11 @@ image:images/circ/manageholds2.png[scaledwidth="75%"]
 +
 . If item was on holds shelf, check it in to change its status.
 
-TIP: A captured hold with a status of *On Holds Shelf* or *Ready for Pickup* can be cancelled by staff or patrons. The item must be checked in to update its status.
+
+
+ A captured hold with a status of *On Holds Shelf* or *Ready for Pickup* can be cancelled 
+ by staff or patrons. The item must be checked in to update its status.
+=====
 
 Suspend, Activate, and Modify Holds Dates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -55,7 +59,16 @@ image:images/circ/manageholds3.png[scaledwidth="75%"]
 +
 . Use calendar widgets or enter dates for required action and click *Submit*.
 
-TIP: Suspended holds will not be filled but their hold position is kept. If there is no activation date, suspended holds remain inactive until staff or patrons activate them manually.
+[TIP]
+=====
+Suspended holds will not be filled but their hold position is kept. If there is no 
+activation date, suspended holds remain inactive until staff or patrons activate 
+them manually.
+
+Suspended holds with activation dates will be automatically activated after hours 
+on the activation date, regardless of the time displayed in the Activation Date field. For example, a 
+suspended hold with an activation date of January 10th will be active for January 11th. 
+=====
 
 Edit Holds Notification Settings
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
