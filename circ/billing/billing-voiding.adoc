@@ -1,17 +1,59 @@
-Void Bills
-~~~~~~~~~~
+Voiding Bills
+~~~~~~~~~~~~~
 (((Void Bills)))
 
-Local System Administration staff can void bills, either entirely or in part. Co-op Support recommends you use *Adjust Bill to Zero* in most cases.
+Local System Administration staff can void bills, either entirely or in part. Co-op Support recommends you 
+use xref:_adjust_bill_balance_to_zero[Adjust Bill to Zero] in most cases.
 
-. Click *Bills* in patron account.
-. Select bill line and click *Actions -> Void All Billings*.
+Voiding a Bill
+^^^^^^^^^^^^^^
+
+. Click on the *Bills* tab in the patron's account.
+. Select the bill line you wish to void and click *Actions -> Void All Billings*.
 +
 image:images/circ/voidbill1.png[scaledwidth="75%"]
 +
-. To void a partial amount, select the bill, click *Actions → Full Details*.
-. Select line item and click *Actions -> Void Billings*.
+. Click *OK/Continue*.  The bill will no longer display on the patron's bill tab.
+
+Voiding Part of a Bill
+^^^^^^^^^^^^^^^^^^^^^^
+
+Sometimes you may wish to void part of a bill, such as overdue fines for a specific day or a processing charge
+for a lost item.
+
+. Click on the *Bills* tab in the patron's account.
+. Select the bill line you wish to partially void and click *Actions -> Full Details*.
 +
 image:images/circ/voidbill2.png[scaledwidth="75%"]
 +
-. Click *OK/Continue*.
+. The bill will open on the Statement tab.  Click the *Details* tab.
++
+image:images/circ/void-bill-3.png[scaledwidth="75%"]
++
+. Select the specific bill line you would like to void and click *Actions -> Void Billings*.
++
+image:images/circ/void-bill-4.png[scaledwidth="75%"]
++
+. Click *OK/Continue*.  The amount owing for the bill will be updated.
+
+Voiding a Paid Bill
+^^^^^^^^^^^^^^^^^^^
+
+Sometimes you may need to void a bill a patron has already paid in order to process a refund.
+
+. Click on the *Bills* tab in the patron's account.
+. Click *History*
++
+image:images/circ/void-paid-bill-1.png[scaledwidth="75%"]
++
+. Select the relevant transaction and go to *Actions -> Full Details*.
++
+image:images/circ/void-paid-bill-2.png[scaledwidth="75%"]
++
+. The bill will open on the Statement tab.  Click the *Details* tab.
+. Select the bill(s) you wish to void and go to *Actions -> Void Billings*
++
+image:images/circ/void-paid-bill-3.png[scaledwidth="75%"]
++
+. Click *OK/Continue*.  The patron will now have a credit of the amount voided on their account.
+
