@@ -4,7 +4,7 @@ Refund
 
 Sometimes paid bills need to be voided, such as when lost and paid items are returned. A negative balance 
 may be created once such bills are voided. To close negative bills, you can link:_adjust_bill_balance_to_zero[adjust the balance to 
-zero], refund the balance amount, or link:_add_charge_to_existing_bill[add a bill entry to the negative line item].
+zero.html], refund the balance amount, or link:_add_charge_to_existing_bill.html[add a bill entry to the negative line item].
 
 . Click on the *Bills* tab in the patron's account.
 . Select the line for the refund and go to *Actions → Refund*.
