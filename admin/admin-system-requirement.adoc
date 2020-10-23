@@ -48,6 +48,6 @@ Evergreen will work with virtually any barcode scanner - if it worked with your 
 
 *Printers*
 
-Evergreen can use most desktop printers configured for your terminal to print receipts, check-out slips, holds lists, etc. The exception is spine label printing, which requires roll printers. Evergreen currently formats spine labels for output to a label roll printer. If you do not have a roll printer manual formatting may be required.
+Evergreen can use most desktop or roll printers configured for your terminal to print receipts, check-out slips, holds lists, spine labels, etc. 
 
 NOTE: Evergreen might not print correctly to receipt printers using the Windows XP Generic/Text Only printer driver. Please use a printer-specific driver instead.
