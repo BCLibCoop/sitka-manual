@@ -1,7 +1,7 @@
-Closed Date Editor
-~~~~~~~~~~~~~~~~~~
+Closed Dates Editor
+~~~~~~~~~~~~~~~~~~~
 
-anchor:closed-date-editor[Closed Date Editor]
+anchor:closed-date-editor[Closed Dates Editor]
 
 https://www.youtube.com/watch?v=Jy1d62vfZaE[Sitka Snippet Video - Setting Closed Dates (2:18)]
 
@@ -19,9 +19,10 @@ To enter closed dates:
 +
 image::images/admin/closed-date-1.png[scaledwidth="75%",alt="Closed Dates Editor"]
 +
-. By default the Library field is populated with the workstation's location.  Libraries with
- multiple branches can switch this to their system level organizational unit and then check
-the box for _Apply to all of my libraries_ to apply the closing to the whole system.
+. By default the Library field is populated with the workstation's location.  
+.. Multi-branch libraries must set closed dates at the branch level.  This can be done individually by branch or 
+by setting *Library* to the system level organizational unit and then checking the box for _Apply to all 
+of my libraries_ to apply the closing to all branches.
 +
 .  Select the type of closing from the drop down menu.
 .. One Full Day - use for single day closure.
