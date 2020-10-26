@@ -3,17 +3,20 @@ Editing MARC Records in the Experimental Catalogue
 
 . To edit a MARC record, retrieve it on the catalogue. Once record is displayed on Record Details screen, click *MARC Edit*.
 +
-image::images/cat/marc-edit-1.png[]
+image::images/catnew/marc-edit-1.png[]
 +
 [TIP]
 =====
-You can set the displayed view as the default by clicking *Set Default View*. Individual records will be loaded in this view when selected/retrieved.
+You can set the displayed view as the default by clicking *Set Default View*. Individual records will be loaded 
+in this view when selected/retrieved.
 =====
 +
-. MARC record is displayed. Use scroll bar on right to move record up and down on screen.
+. The MARC record is displayed. You can use either the _Enhanced MARC Editor_ or the _Flat Text Editor_.
 +
-image::images/cat/marc-edit-2.png[]
-+
+image::images/catnew/marc-edit-2.png[]
+
+Enhanced MARC Editor
+^^^^^^^^^^^^^^^^^^^^
 . Depending on your preference, you can select *Stack subfields* to change the way subfields are displayed.
 +
 image::images/cat/marc-edit-3.png[]
@@ -39,8 +42,20 @@ image::images/cat/marc-edit-6.png[]
 +
 image::images/cat/marc-edit-7.png[]
 
-To access the Flat-Text Editor, select the checkbox in front of it. To switch back to the form editor, de-select it.
-[TIP]
-=====
-On Flat-Text Editor, each line stands for a tag. The tags, indicators and their values are at fixed positions. If there is no value at a position, you will see "\" as a spacing taker. For positionally defined tags, such as 007 or 008, you will see "\" in the field content area, too. You need to replace it with the content you want to put in, when necessary.
-=====
+
+Flat Text Editor
+^^^^^^^^^^^^^^^^
+
+The text of the MARC record can be edited directly in the Flat Text Editor.
++
+image::images/catnew/marc-edit-flat-text-1.png[]
+
+* The fields, indicators, and values are in fixed positions in the Flat Text Editor.
+* Each MARC field begins with a = followed by the 3 digit tag for the field.
+* If there is no value for an indicator "\" is used to fill the space.
+* The "\" is also used in the control fields (Leader, 006, 007, and 008) for characters where 
+no value is specified.
+
+
+
+
