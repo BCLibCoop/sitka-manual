@@ -77,6 +77,9 @@ The format filter is used by the OPAC to allow staff and patrons to limit their 
 | Videos (physical) | item_type(g) AND NOT item_form (o,q,s)
 |===
 
+Format Icons
+^^^^^^^^^^^^
+
 The format icons show in the search results and record display in the catalogue. The following table shows the fixed fields associated with each format icon.
 
 [options="header"]
