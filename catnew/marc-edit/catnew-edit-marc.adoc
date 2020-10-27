@@ -24,7 +24,7 @@ fields. Right-clicking in a field will display a list of the possible values for
 +
 image::images/catnew/marc-edit-enhanced-1.png[]
 +
-. The *Undo* and *Redo* buttons can be used to undo and redo changes that haven't been saved yet.
+* The *Undo* and *Redo* buttons can be used to undo and redo changes that haven't been saved yet.
 +
 image::images/catnew/marc-edit-enhanced-3.png[]
 +
@@ -51,9 +51,9 @@ Flat Text Editor
 ^^^^^^^^^^^^^^^^
 
 The text of the MARC record can be edited directly in the Flat Text Editor.
-+
+
 image::images/catnew/marc-edit-flat-text-1.png[]
-+
+
 * The fields, indicators, and values are in fixed positions in the Flat Text Editor.
 * Each MARC field begins with a = followed by the 3 digit tag for the field.
 * If there is no value for an indicator "\" is used to fill the space.
