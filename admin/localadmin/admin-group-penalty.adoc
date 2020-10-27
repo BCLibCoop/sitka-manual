@@ -11,7 +11,7 @@ Group Penalty Thresholds block circulation transactions for users who exceed max
 * PATRON_EXCEEDS_FINES:	Blocks new circulations and renewals if patron exceeds X in fines
 * PATRON_EXCEEDS_OVERDUE_COUNT:	Blocks new circulations if patron exceeds X overdue items
 * PATRON_EXCEEDS_CHECKOUT_COUNT: Blocks new circulations if patron exceeds X items out
-* PATRON_EXCEEDS_LOST_COUNT: Blocks new circulations if patron exceeds X lost items
+* PATRON_EXCEEDS_LOST_COUNT: Blocks new circulations and placing holds if patron exceeds X lost items
 
 NOTE: Other penalties are not used by Sitka.
 
@@ -26,20 +26,20 @@ There are a set of penalties on Sitka level for all patrons. These rules will be
 Creating Local Penalty Thresholds
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Local System Administrators can created local penalty thresholds. 
+Local System Administrators can created local penalty thresholds.
 
-. Go to *Administration -> Local Administration -> Group Penalty Threshold*. 
+. Go to *Administration -> Local Administration -> Group Penalty Threshold*.
 
 To view the group penalty thresholds for your library enter your library code into the Library filter.
 Multi-branch libraries can enter the system and then check the box to display the descendants.
 
 image::images/admin/library-filter-1.png[Library Filter]
 
-. Click *New Penalty Threshold*. 
+. Click *New Penalty Threshold*.
 +
 image:images/admin/group-penalty-2.png[scaledwidth="75%",alt="Create Local Penalty Threshold"]
 +
-. Choose or enter the appropriate value for each field. 
+. Choose or enter the appropriate value for each field.
 . Click *Save*.
 +
 image:images/admin/group-penalty-3.png[scaledwidth="75%",alt="Create Local Penalty Threshold"]
@@ -65,5 +65,3 @@ Deleting Local Penalty Thresholds
 . The penalty will be deleted.
 +
 image::images/admin/group-penalty-5.png[scaledwidth="75%",alt="Delete Local Penalty Threshold"]
-
-
