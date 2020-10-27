@@ -1,48 +1,56 @@
 Physical Characteristics Wizard
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The MARC Fixed Field 007 Physical Characteristics Wizard enables catalogers to interact with a database wizard that leads the user step-by-step through the MARC 007 field positions. The wizard displays the significance of the current position and provides drop down lists of possible values for the various components of the MARC 007 field in a more user-friendly way.
+The MARC Fixed Field 007 Physical Characteristics Wizard enables catalogers to interact with a 
+database wizard that leads the user step-by-step through the MARC 007 field positions. 
+The wizard displays the significance of the current position and provides drop down lists of 
+possible values for the various components of the MARC 007 field in a more user-friendly way.
 
-*To Access the Physical Characteristics Wizard for a Record that Does Not Already Contain the 007 Field (i.e. Creating the 007 Field from Scratch):*
+*To Access the Physical Characteristics Wizard for a Record that Does Not Already Contain the 007 Field 
+(i.e. Creating the 007 Field from Scratch):*
 
-. Within the bibliographic record that needs to be edited, select *MARC Edit*.
+. Within the bibliographic record that needs to be edited go to the *Enhanced MARC Editor*.
 
-. Make sure that the Flat-Text Editor check box is not selected and that you are not using the Flat-Text Editor interface.
-
-. Right-click in the MARC field column.
+. Right-click in the MARC field column and click *Add 007*.
 +
-image::images/cat/pcw-1.png[]
+image::images/catnew/pcw-1.png[]
 +
-. Click *Add 007*. The 007 row will appear in the record.
-
-. Click the blue icon to the right of the field.
+. Click the blue icon to the right of the 007 field.
 +
-image::images/cat/pcw-2.png[]
+image::images/catnew/pcw-2.png[]
 +
 . The *Physical Characteristics Wizard* will open.
 
 *Using the Physical Characteristics Wizard:*
 
-As the user navigates through the wizard, each position will display its corresponding label that describes the significance of that position. Each position contains a selection of drop down choices that list the possible values for that particular position. When the user makes a selection from the drop down options, the value for that position will also change.
+As the user navigates through the wizard, each position will display its corresponding label that describes 
+the significance of that position. Each position contains a selection of drop down choices that list the 
+possible values for that particular position. When the user makes a selection from the drop down options, 
+the value for that position will also change.
 
-The first value defines the *Category of Material*. The choices within the remaining character positions will be appropriate for the Category of Material selected.
+The first value defines the *Category of Material*. The choices within the remaining character positions 
+will be appropriate for the Category of Material selected.
 
-. Select the Category of Material for the given record by choosing an option from the *Category of Material?* drop down menu.
+. Select the Category of Material for the given record by choosing an option from the *Category of Material* 
+drop down menu.
 
 . Once the Category of Material is selected, click *Next*.
 
-. Evergreen will display the result of each selection in the preview above. The character of your current position will be in red.
+. Evergreen will display the result of each selection in the preview above. The character of your current 
+position will be in red.
 +
-image::images/cat/pcw-3.png[]
+image::images/catnew/pcw-3.png[]
 +
-. By clicking either the *Previous* or *Next* buttons, the user may step forward and backward, as needed, through the various positions in the 007 field.
+. By clicking either the *Previous* or *Next* buttons, the user may step forward and backward, as needed, 
+through the various positions in the 007 field.
 
-. Once the user enters all of the applicable values for the 007 field and is ready to exit the wizard, click *Save*.
+. Once the user enters all of the applicable values for the 007 field and is ready to exit the wizard, 
+click *Apply*.
 +
-image::images/cat/pcw-4.png[]
+image::images/catnew/pcw-4.png[]
 +
 . All of the values selected will be stored and displayed within the 007 field of the bibliographic record.
 +
-image::images/cat/pcw-5.png[]
+image::images/catnew/pcw-5.png[]
 +
-. Continue editing the MARC record, as needed. Once the user is finished editing the record, click *Save*.
+. Continue editing the MARC record, as needed. When finished, click *Save Changes*.
