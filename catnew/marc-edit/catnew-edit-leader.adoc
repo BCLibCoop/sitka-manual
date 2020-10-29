@@ -1,48 +1,47 @@
 MARC Record Leader and Fixed Field 008
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The leader and 008 field can be edited directly via the Flat Text Editor in MARC Edit or using the grid
+The Leader and 008 field can be edited directly via the Flat Text Editor in MARC Edit or using the grid
 at the top of the Enhanced MARC Editor.
 
-Information about the leader and the 008 can be found on the Library of Congress's MARC Standards 
+Information about the Leader and the 008 can be found on the Library of Congress's MARC Standards 
 page at http://www.loc.gov/marc/
 
-To edit the fixed fields, it is easiest to use default Edit MARC view and click on the name of the field. 
-In Flat-Text Editor view, you must place the cursor at the correct position in the number to edit. 
-When you click on the field name , e.g. Date1, what you type will appear in the box. When 
-you click on the field box itself, you have to backspace your cursor to the very beginning 
-of the box in order to type, because there are space takers in these positionally defined 
-fields. Right-clicking in certain fields such as Type, BLvl, Form, Audn, and Lang will show a 
+To edit the fixed fields, it is easiest to use grid in the Enchanced MARC Editor. In the Flat Text 
+Editor, you must count characters and make sure you place the cursor at the correct position in the field. 
+When you click on the field name , e.g. Date1, what you type will appear in the box.  Right-clicking in certain fields such as Type, BLvl, Form, Audn, and Lang will show a 
 drop-down menu of possible choices.
 
 [TIP]
 =====
-The format filter (eg. Books, E-Books, Audiobooks, Videos etc.) and format icons in the OPAC rely on 
-accurate coding in the Leader, 008 and 007. Please see the format filter and icon specifications 
-in xref:_format_filters_and_format_icons[].
+The search filters and format icons in the public catalogue rely on 
+accurate coding in the Leader, 007 and 008 fields. Please see the format filter and icon specifications 
+in xref:_search_filters_and_format_icons[].
 =====
 
-. Retrieve and display record in Edit MARC view.
+. Retrieve and display the record in MARC Edit.
 . Click into any box displayed in the fixed field editor. In this example we are editing the first position, 
 the Type or Format box, to describe the format of the resource, textual material, by use of an "a".
+.. Some fields with have spaces as values so you need to backspace your cursor to the very beginning 
+of the box in order to type in a new value.  
 +
-image::images/cat/leader-1.png[]
+image::images/catnew/marc-leader-1.png[]
 +
-. Right-clicking in the box will show a list of possible values (eg. BLvl, Type, Form Audn, and Lang). 
+. For some fields, right-clicking in the box will show a list of possible values (eg. BLvl, Type, Form Audn, and Lang). 
 Choose from this list to populate the box.
 +
-image::images/cat/leader-2.png[]
+image::images/catnew/marc-leader-2.png[]
 +
 . You can press the *Tab* key or use the mouse to click through to each field, and can delete and add 
 text as required by backspacing or highlighting existing text and over typing. Here the publication 
 date is being edited; OPAC searches filtered by date rely on correct coding in the 008.
 +
-image::images/cat/leader-3.png[]
+image::images/catnew/marc-leader-3.png[]
 +
-. Click *Save*.
+. Click *Save Changes*.
 +
-image::images/cat/leader-4.png[]
+image::images/catnew/marc-leader-4.png[]
 +
 . The OPAC icon for textual materials is displayed as in the example below.
 +
-image::images/cat/leader-5.png[]
+image::images/catnew/marc-leader-5.png[]
