@@ -8,9 +8,7 @@ Information about the Leader and the 008 can be found on the Library of Congress
 page at http://www.loc.gov/marc/
 
 To edit the fixed fields, it is easiest to use grid in the Enchanced MARC Editor. In the Flat Text 
-Editor, you must count characters and make sure you place the cursor at the correct position in the field. 
-When you click on the field name , e.g. Date1, what you type will appear in the box.  Right-clicking in certain fields such as Type, BLvl, Form, Audn, and Lang will show a 
-drop-down menu of possible choices.
+Editor, you must count characters and make sure you place the cursor at the correct position in the field.
 
 [TIP]
 =====
@@ -22,7 +20,7 @@ in xref:_search_filters_and_format_icons[].
 . Retrieve and display the record in MARC Edit.
 . Click into any box displayed in the fixed field editor. In this example we are editing the first position, 
 the Type or Format box, to describe the format of the resource, textual material, by use of an "a".
-.. Some fields with have spaces as values so you need to backspace your cursor to the very beginning 
+.. Some fields have spaces as values so you need to backspace your cursor to the very beginning 
 of the box in order to type in a new value.  
 +
 image::images/catnew/marc-leader-1.png[]
@@ -34,7 +32,7 @@ image::images/catnew/marc-leader-2.png[]
 +
 . You can press the *Tab* key or use the mouse to click through to each field, and can delete and add 
 text as required by backspacing or highlighting existing text and over typing. Here the publication 
-date is being edited; OPAC searches filtered by date rely on correct coding in the 008.
+date is being edited; catalogue searches filtered by date rely on correct coding in the 008.
 +
 image::images/catnew/marc-leader-3.png[]
 +

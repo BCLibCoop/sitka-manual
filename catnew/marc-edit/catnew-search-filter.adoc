@@ -51,7 +51,7 @@ Search Filters
 *Formats* - currently includes formats not included in our regular format list
 
 
-The format filter is used by the OPAC to allow staff and patrons to limit their search by material format. The following table shows the fixed fields associated with each format filter value.
+The format filter is used by the catalogue to allow staff and patrons to limit their search by material format. The following table shows the fixed fields associated with each format filter value.
 
 [options="header"]
 |===
