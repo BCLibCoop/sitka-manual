@@ -1,8 +1,6 @@
 Bibliographic Records in the Experimental Catalogue
 ---------------------------------------------------
 
-The record summary page 
-
 The appropriate title information displayed on the OPAC relies on correct MARC coding. For example, 
 format icons for text, moving pictures, and sound, rely on  MARC coding in the leader, 007, and 008 tags, 
 as do OPAC search filters, such as publication date, item type, or target audience. Bibliographic record 
@@ -24,11 +22,8 @@ include::marc-edit/catnew-edit-leader.adoc[]
 include::marc-edit/catnew-edit-007.adoc[]
 
 
-
-    Editing MARC Records
-    Editing MARC Record Leader and Fixed Field 008
-    Fixed Field 007 Physical Characteristics Wizard
-    Format Filters and Format Icons
+////
     Merging Bibliographic Records
     Deleting Bibliographic Records
     Exporting Bibliographic Records
+////
