@@ -78,6 +78,7 @@ include::catnew/catnew-add-holdings.adoc[Adding Holdings to Existing MARC Record
 
 include::catnew/catnew-edit-marc.adoc[Bibliographic Records in the Experimental Catalogue]
 
+////
 include::catnew/catnew-edit-holdings.adoc[Maintainting Holdings]
 
 include::catnew/catnew-item-bucket.adoc[Copy Bucket]
@@ -85,7 +86,7 @@ include::catnew/catnew-item-bucket.adoc[Copy Bucket]
 include::catnew/catnew-add-marc.adoc[Adding Bibliographic Records]
 
 include::catnew/catnew-record-bucket.adoc[Record Bucket]
-
+////
 
 Public Catalogue
 ================
