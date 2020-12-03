@@ -1,12 +1,14 @@
 Sitka's Evergreen Support
 -------------------------
 
-The Co-op Support team strives to respond to new requests within 24 hours, excluding weekends. To manage requests (also referred to as tickets) the Support team uses ticket tracking software called *Request Tracker (RT)*.
+The Co-op Support team strives to respond to new requests within 24 hours, excluding weekends. To manage 
+requests (also referred to as tickets) the Support team uses ticket tracking software called 
+*Request Tracker (RT)*.
 
 How to Contact Support
 ~~~~~~~~~~~~~~~~~~~~~~
 
-There are four ways to contact Co-op Support for Evergreen support:
+There are four ways to contact Co-op Support for regular Evergreen support:
 
 . *Request Tracker Interface*. Submit and track requests with RT Self Service. After
 logging in you may use the form to create new tickets, track the progress of open tickets, or
@@ -20,11 +22,20 @@ https://bc.libraries.coop/support/[contact form] on the BC Libraries Cooperative
 submitted through the contact form generate RT tickets and can also be viewed online by logging in to
 RT Self Service.
 
-. *Phone*. Telephone support is available *9:00 AM to 4:00 PM Pacific Time, Monday to Friday*, with *emergency after hours support 7 days a week*. Call our toll free number during regular hours to speak with support staff, or after hours to leave a message or request emergency server support. To protect our staff we do not accept anonymous calls so please ensure your caller ID is not blocked.
+. *Phone*. Telephone support is available *9:00 AM to 4:00 PM Pacific Time, Monday to Friday*.  Call our toll free number during regular 
+hours to speak with support staff or leave a message. To protect our staff we do not accept anonymous calls so please ensure your caller 
+ID is not blocked.
 
-The Co-op Support toll free number and email address can be found on the
+The Co-op Support toll free number can be found on the
 https://bc.libraries.coop/support/sitka/[Sitka Support] page. This information is also given to libraries
 during migration.
+
+Emergency Support
+^^^^^^^^^^^^^^^^^
+
+Emergency support is available via phone outside of regular support hours.  If you are unable to connect to 
+the Evergreen server, your LibPress site is down, or patron authentication via SIP is down call our 
+toll free support number and select option 9 to connect to an on-call tech.  
 
 You can check on the status of Co-op supported services at: http://status.libraries.coop/
 
