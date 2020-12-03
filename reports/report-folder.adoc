@@ -5,12 +5,12 @@ link:https://youtu.be/JSAIrijfj2w[*Setting Up Report Folders (2:51)*]
 
 There are three main components used by the Reports module: Templates, Reports, and Output. Each of these components
 must be stored in a folder. Folders can be private (accessible to your login only) or shared with other staff at
-your library, other libraries in your federation, or with the whole Sitka Consortium. It is also possible to
+your library or other libraries in your federation or lending zone. It is also possible to
 selectively share only certain folders and/or subfolders.
 
 CAUTION: A shared subfolder must be created in a shared folder. The sharing scope of the subfolder should be
-within the sharing scope of the parent folder. For example, a subfolder shared with Sitka Consortium should only be
-in a parent folder shared with Sitka. It should not be in a folder shared with your library only. Though creating
+within the sharing scope of the parent folder. For example, a subfolder shared with your federation should only be
+in a parent folder shared with your federation. It should not be in a folder shared with your library only. Though creating
 shared subfolders in unshared folders or a subfolder with the sharing scope exceeding its parent's is not blocked
 by Evergreen, serious consequences will be caused by such folders. You must be cautious when creating shared
 subfolders.
@@ -32,7 +32,8 @@ The steps for creating folders are similar for each reporting function. It is ea
 image::images/report/folder-1.png[]
 +
 . Name the folder. Select *Share* or *Do not share* from the drop down menu.
-. If you want to share your folder, select whom you want to share this folder with from the drop down menu.
+. If you want to share your folder, select whom you want to share this folder with from the 
+drop down menu.
 +
 image::images/report/folder-2.png[]
 +
