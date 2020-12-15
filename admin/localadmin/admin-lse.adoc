@@ -677,7 +677,6 @@ usernames in addition to barcode. For this setting to work, a barcode format mus
 |URL verify: Maximum redirect lookups|Admin setting|Number| | Sitka
 |URL verify: Maximum wait time (in seconds) for a URL to lookup|Admin setting|Number| | Sitka
 |URL verify: Number of seconds to wait between URL test attempts|Throttling mechanism for batch URL verification runs. Each running process will wait this number of seconds after a URL test before performing the next.|Duration| | Sitka
-|Circ: default precat circ modifier	 | |	Selection List | |	LSA
 | Claim Return: Mark copy as missing| |	 	True/False | Default: False | Sitka
 | Disallow circulation of items when they are on booking reserve and that reserve overlaps with the checkout period	| When true, items on booking reserve during the proposed checkout period will not be allowed to circulate unless overridden with the COPY_RESERVED.override permission.	| True/False	|| LSA
 
