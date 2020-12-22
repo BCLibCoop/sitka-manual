@@ -9,6 +9,8 @@ include::circulation/circ-checkin.adoc[Check In]
 
 include::circulation/circ-renewal.adoc[Renewing and Editing the Item's Due Date]
 
+include::circulation/circ-autorenewal.adoc[Autorenewal]
+
 include::circulation/circ-lost-claimed.adoc[Marking Items Lost, Claimed Returned, and Claimed Never Checked Out]
 
 include::circulation/circ-in-house.adoc[In-House Use]
