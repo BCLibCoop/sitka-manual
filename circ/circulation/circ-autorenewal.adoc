@@ -32,5 +32,5 @@ Autorenewals in Patron Accounts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 A new column called AutoRenewalsRemaining indicates how many autorenewals are available for a transaction.
-+
+
 image:images/circ/autorenewalremaining.png[scaledwidth="75%"]
