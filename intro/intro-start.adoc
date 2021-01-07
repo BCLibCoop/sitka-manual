@@ -111,6 +111,35 @@ image::images/intro/columnconfig3.png[]
 +
 image::images/intro/columnconfig4.png[]
 
+Keyboard Shortcuts
+~~~~~~~~~~~~~~~~~~
+
+Staff can use the following keyboard shortcuts to navigate Evergreen.  
+
+[[keyboard-shortcuts]]
+.Keyboard Shortcuts
+[options="header"]
+|===
+|Key | Function
+|*F1* | Check Out
+|*F2* | Check In
+|*F3* | Search the Catalogue
+|*F4* | Search for Patrons
+|*F5* | Item Status
+|*F6* | Record In-House Use
+|*F8* | Retrieve Last Patron
+|*F9* | Reprint Last Receipt
+|*Shift+F1* | Register Patron
+|*Shift+F2* | Capture Holds
+|*Shift+F3* | Retrieve Bib Record by TCN
+|*Shift+F8* | Retrieve Last Bib Record
+|*CTRL+F2* | Renew Items
+|===
+
+CAUTION: These shortcut keys will not work properly on pages that use embedded content such as the 
+traditional catalogue.  On these pages you must first click the white space at the edge of the page
+before using the keyboard shortcut.
+
 [[download-hatch]]
 Downloading and Installing Hatch
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
