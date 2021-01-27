@@ -64,7 +64,11 @@ image::images/cat/spine-label-8.png[]
 .. Starting Position on Label Grid: specify the starting row and column.
 .. Label Set Configuration: click the Spine Label and/or Pocket Label radio button(s) to print spine or pocket label only or both.  Each call number is considered a label set. You may specify the number of labels in each set and which label (spine label or pocket label) to be printed in which column. The screenshot shows two labels to be printed for each call number.
 .. Page Settings section allows you to specify the position of the labels on the page: the page margin, number of rows and columns of labels on each page and gaps between labels.
-.. Font & Label Settings: here you define the size of the label, position the printed content in the label and format the print.
+.. Font & Label Settings: here you define the size of the label, position the printed content in the label 
+and format the print.
+...The setting _Item Print Label - Inline CSS_ allows you to add CSS into the template to further adjust 
+where your text displays on your labels.  For example, this centers the text and adds padding to the 
+top of the label. +code+ .spine {text-align:center; padding-top: 20px;}
 +
 image::images/cat/spine-label-9.png[]
 +
