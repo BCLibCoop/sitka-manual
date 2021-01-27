@@ -43,8 +43,9 @@ box is not checked.
 .. Select *Run as soon as possible* for immediate output. It is also possible to set up reports that run
 automatically in the future.
 .. It is optional to fill out an email address where a completion notice can be sent. The email will contain
-a link to a password-protected report output (staff login required). If you have an email address in your account, it will automatically appear in the email notification box.  However,
-you can enter a different email address or multiple addresses separated by commas.
+a link to a password-protected report output which staff with permission to view report output can access. 
+If you have an email address in your account, it will automatically appear in the email notification box.  
+However, you can enter a different email address or multiple addresses separated by commas.
 .. Select a folder for the report's output.
 . You will get a confirmation dialogue box that the Action Succeeded. Click OK.
 
