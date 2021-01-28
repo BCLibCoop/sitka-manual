@@ -68,7 +68,13 @@ image::images/cat/spine-label-8.png[]
 and format the print.
 ...The setting _Item Print Label - Inline CSS_ allows you to add CSS into the template to further adjust 
 where your text displays on your labels.  For example, this centers the text and adds padding to the 
-top of the label. .spine {text-align:center; padding-top: 20px;}
+top of the label. 
+
+[source,css]
+----
+.spine {text-align:center; padding-top: 20px;}
+----
+
 +
 image::images/cat/spine-label-9.png[]
 +
