@@ -76,7 +76,7 @@ top of the label.
 ----
 
 image::images/cat/spine-label-9.png[]
-+
+
 . *Label Template* includes the script used to do the printing job. The top portion is the explanation. The lower portion is the code for printing. Changes in Settings will be reflected in the code. You do not edit the code directly.
 
 
