@@ -62,7 +62,8 @@ Staff passwords can be reset as follows:
 Staff Account Permission Groups
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Below is a general outline of staff account permission levels.  The list contains staff profiles for public libraries only. Corresponding profiles for other libraries have similar permissions. To view a detailed list of permissions for a particular Evergreen account, go to *Administration -> User Permission Editor* in the staff client.
+Below is a general outline of staff account permission levels.  To view a detailed list of permissions for a 
+particular Evergreen account, go to *Administration -> User Permission Editor* in the staff client.
 
 [option="header"]
 |===
@@ -82,7 +83,6 @@ Below is a general outline of staff account permission levels.  The list contain
 | Copy/volume records	 |	| 	| *	| *	| *	| *
 | Bib records	 |	 |	 |	| *	| *	| *
 | Buckets	| *	| *	| *	| *	| *	| *
-| View report output	| *	| *	| *	| *	| *	| *
 | Create/upload offline transactions	| *	| *	| *	| *	| *	| *
 | Process offline transactions	 |	 |	 |	| 	 |	| *
 | Transit	| *	| *	| *	| *	| *	| *
@@ -91,7 +91,10 @@ Below is a general outline of staff account permission levels.  The list contain
 | Create serials subscriptions	 |	 |  |  | * | * | *
 |===
 
-NOTE: Only users with reporting permissions (granted by Sitka Support on libraries' request) can access the Reports interface, but the output can be visible to all staff accounts. Any staff requesting reporting permissions must sign and submit the Reporter Privacy Agreement see https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[Reporter Privacy Waiver].
+NOTE: Only users with reporting permissions (granted by Sitka Support on libraries' request) 
+can access the Reports interface or view report output. Any staff requesting reporting 
+permissions must sign and submit a Reporter Privacy Waiver
+ see https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[Reporter Privacy Waiver].
 
 Granting Additional Permissions to Staff Accounts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
