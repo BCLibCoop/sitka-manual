@@ -91,10 +91,9 @@ particular Evergreen account, go to *Administration -> User Permission Editor* i
 | Create serials subscriptions	 |	 |  |  | * | * | *
 |===
 
-NOTE: Only users with reporting permissions (granted by Sitka Support on libraries' request) 
-can access the Reports interface or view report output. Any staff requesting reporting 
-permissions must sign and submit a Reporter Privacy Waiver
- see https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[Reporter Privacy Waiver].
+NOTE: Only users with reporting permissions  
+can access the Reports interface or view report output. To request reporting 
+permissions staff must sign and submit a https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[Reporter Privacy Waiver].
 
 Granting Additional Permissions to Staff Accounts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
