@@ -160,23 +160,39 @@ permissions staff must sign and submit a https://bc.libraries.coop/support/sitka
 Granting Additional Permissions to Staff Accounts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A Local System Administrator (LSA) may selectively grant its permissions to other staff accounts. In the 
-example below a Circ +Full Cat account is granted permission to process offline transactions, a function 
-which otherwise requires an LSA login.
+Additional permissions can be granted to library staff in two ways.
+
+*Secondary Permission Groups*
+
+link:https://youtu.be/QgChELUq48E[*Sitka Snippet Video - Additional Permissions for Library Staff Accounts (2:03)*]
+
+Acquisitions and reporter permissions are granted as secondary permission groups.  Acq Admin users can grant 
+acquisitions permissions.  Reporter permissions are granted by Support after a 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[Reporter Privacy Waiver] is completed.
+
+
+*Individual Permissions*
+
+Local System Administrators may selectively grant additional permissions available to LSA accounts 
+to other non-LSA accounts.
+
+In the example below a Circ + Full Cat account is granted permission to process offline transactions, a 
+function which otherwise requires an LSA login.
 
 . Log in to Evergreen with a local system administrator account.
 . Find the staff acount on *User Permission Editor*. You may search for the patron account, then go to 
 *Others -> User Permission Editor*, or go to *Administration -> User Permission Editor* to search for 
 the account by barcode.
 . When User Permission Editor is loaded, scroll down the permission list to find *OFFLINE_EXECUTE*. 
-Select the checkbox in *Applied* column. Scroll down to the bottom to click *Save*.
+. Select the checkbox in *Applied* column. 
+. Scroll down to the bottom to click *Save*.
 +
 image::images/admin/staff-account-2.png[]
 
 [TIP]
 =====
 * *Permission*: List of permission names. For help correlating permissions to specific Evergreen functions 
-please contact Co-op support.
+please contact Support.
 * *Applied*: If checked the permission is granted to this account.
 * *Depth*:  limits application to the staff member's library and should be left at the default. Evergreen 
 blocks attempts to set Federation- or Sitka-wide privileges.
