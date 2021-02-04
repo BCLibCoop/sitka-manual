@@ -10,10 +10,6 @@ an account can be used at.
 
 There are three kinds of library staff accounts:
 
-* staff specific account
-* staff and personal account
-* generic staff account
-
 *Staff Specific Accounts*
 
 * Account is specific to a particular staff member and includes their personal details like first 
@@ -21,7 +17,7 @@ and last name.
 * Account is used for staff functions only, never used for personal borrowing.
 * Account can be granted permissions to use the reporter and/or view report output.
 * Account can be updated and transferred to a new staff member preserving access to recurring reports
-that run from the report.  The new user MUST complete a 
+that run from the reporter.  The new user MUST complete a 
  https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[reporter privacy waiver] to comply 
  with Sitka’s privacy policy.
  
@@ -36,7 +32,7 @@ and last name.
 * Account can be granted permissions to use the reporter and/or view report output.
 * Account CANNOT be transferred to a new staff member as it is linked to personal borrowing data.
 
-NOTE: Support recommends using Staff Specific Accounts over Staff/Personal Accounts.
+NOTE: Support recommends using Staff Specific Accounts instead of Staff/Personal Accounts.
 
 *Generic Staff Accounts*
 
@@ -58,15 +54,16 @@ into consideration:
 only they know.
 * For an account to be a staff account it needs to have a Main (Profile) Permission Group with library 
 staff permissions.  Choose the appropriate permission group for the access the staff member needs.  The
-table in Staff Account Permission Groups shows what staff functions different permission groups can perform.
+table in http://docs.libraries.coop/sitka/_staff_account_permission_groups.html[Staff Account Permission Groups]
+ shows what staff functions different permission groups can perform.
 +
-image::images/admin/staff-account-1.png[]
+image::images/admin/staff-account-1.png[scaledwidth="75%"]
 
 This example shows public library staff permission groups.  A similar list of 
 groups is available for each library type. 
 
 NOTE: The Local System Administrator permission group can only be assigned by Support.  Libraries may create 
-an account using any permission group and then submit a request to Support to update the account to 
+an account using any permission group and then submit a request to Support to have the account updated to 
 local system administrator. Please include the account's barcode in the request.
 
 After creating the account you need to assign a working location:
@@ -93,10 +90,10 @@ into *My Account* in the public catalogue.  They can use the *Forgot your Passwo
 login screen as well, as long as their staff account contains a valid email address. Updating your 
 staff account in the public catalogue is the same as updating it in the staff client.
 
-Note: Some libraries have disabled editing of email address through My Account.
+NOTE: Some libraries have disabled editing of email addresses through My Account.
 
 Local System Administrators can edit staff accounts in the staff client, with the exception of any LSA staff 
-accounts.  For edits to Local System Administrator accounts, other than user name, password, or 
+accounts.  For edits to Local System Administrator accounts, other than username, password, or 
 email address, contact Support. Please include the account barcode and the changes needed.
 
 
@@ -113,7 +110,7 @@ address recorded in your staff account for this to method to work.
 link:https://www.youtube.com/watch?v=L03pBsN5u0c&t[*Sitka Snippet Video - Password Reset (1:20)*]
 
 . Have a staff member with higher permissions than you, such as Local System Administrator, assign a new 
-password to your account in staff client.
+password to your account in the staff client.
 
 . Send in a request to Support to have a temporary password assigned and then use 
 the _Change_ link in *My Account*.
@@ -259,6 +256,6 @@ folders, same as you would clone a report from the Sitka Templates folder.
 . Any recurring reports running from the old account need to be cancelled by going into the Reports folder 
 for each report and deleting the report. 
 
-CAUTION: Deleting reports also deletes any output attached to the report so make sure to any needed 
+CAUTION: Deleting reports also deletes any output attached to the report so make sure to download any needed 
 report output as Excel or CSV files and save them to your computer or network drive.
 
