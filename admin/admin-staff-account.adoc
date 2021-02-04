@@ -32,7 +32,8 @@ and last name.
 * Account can be granted permissions to use the reporter and/or view report output.
 * Account CANNOT be transferred to a new staff member as it is linked to personal borrowing data.
 
-NOTE: Support recommends using Staff Specific Accounts instead of Staff/Personal Accounts.
+NOTE: Support recommends using Staff Specific Accounts instead of Staff/Personal Accounts. It is easier 
+for libraries to manage accounts when staff and personal accounts are kept separate.
 
 *Generic Staff Accounts*
 
