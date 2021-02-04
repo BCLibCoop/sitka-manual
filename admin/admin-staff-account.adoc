@@ -21,7 +21,7 @@ that run from the reporter.  The new user MUST complete a
  https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[reporter privacy waiver] to comply 
  with Sitka’s privacy policy.
  
-Note: Libraries are encouraged to use Staff Specific Accounts for all accounts that need access to the 
+NOTE: Libraries are encouraged to use Staff Specific Accounts for all accounts that need access to the 
 reporter in Evergreen to avoid the need to re-set up recurring reports.
 
 *Staff/Personal Accounts*
@@ -53,18 +53,22 @@ into consideration:
 * It is best practice to use a temporary password and then have your staff reset their password to something 
 only they know.
 * For an account to be a staff account it needs to have a Main (Profile) Permission Group with library 
-staff permissions.  Choose the appropriate permission group for the access the staff member needs.  The
-table in http://docs.libraries.coop/sitka/_staff_account_permission_groups.html[Staff Account Permission Groups]
- shows what staff functions different permission groups can perform.
-+
-image::images/admin/staff-account-1.png[scaledwidth="75%"]
-
-This example shows public library staff permission groups.  A similar list of 
-groups is available for each library type. 
+staff permissions.  Choose the appropriate permission group for the access the staff member needs.  
 
 NOTE: The Local System Administrator permission group can only be assigned by Support.  Libraries may create 
 an account using any permission group and then submit a request to Support to have the account updated to 
 local system administrator. Please include the account's barcode in the request.
+
+The table in 
+http://docs.libraries.coop/sitka/_staff_account_permission_groups.html[Staff Account Permission Groups]
+ shows what staff functions different permission groups can perform.
++
+image::images/admin/staff-account-1.png[scaledwidth="50%"]
+
+This example shows public library staff permission groups.  A similar list of 
+groups is available for each library type. 
+
+
 
 After creating the account you need to assign a working location:
 
