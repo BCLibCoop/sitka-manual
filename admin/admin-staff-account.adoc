@@ -1,56 +1,103 @@
-Staff Accounts
---------------
+Library Staff Accounts
+----------------------
 
-Staff accounts are special patron accounts on Evergreen which have been granted more permissions to allow the owners to log into the Staff Client. They also work to log into your OPAC, same as a patron record.  Besides extra permissions, each staff account has its own working location. Many functions on the staff client are available to the account at the assigned working locations only.
+In Evergreen library staff accounts are the same as patron accounts with two differences.
 
-There are three ways staff accounts can be set up and used in the system.
+. Staff accounts use Main (Profile) Permissions Groups with permissions that give access to 
+Evergreen’s staff functions.
+. Staff accounts have working locations which tell Evergreen which libraries or branches 
+an account can be used at.
 
-*Staff and Patron Accounts*
+There are three kinds of library staff accounts:
 
-Accounts are created for staff members and given the appropriate Library Staff permission group and working location. Staff use the account for borrowing as well as to login into the staff client and perform their work.
+* staff specific account
+* staff and personal account
+* generic staff account
 
 *Staff Specific Accounts*
 
-Accounts are created for staff members and given the appropriate Library Staff permission group and working location. These accounts often have something like LOGIN or STAFF as part of the name and may use a barcode such as SITKASTAFF rather than an actual barcode. Staff use the accounts only for logging into the staff client for work. Staff have a separate patron account for borrowing.
+* Account is specific to a particular staff member and includes their personal details like first 
+and last name.
+* Account is used for staff functions only, never used for personal borrowing.
+* Account can be granted permissions to use the reporter and/or view report output.
+* Account can be updated and transferred to a new staff member preserving access to recurring reports
+that run from the report.  The new user MUST complete a 
+ https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[reporter privacy waiver] to comply 
+ with Sitka’s privacy policy.
+ 
+Note: Libraries are encouraged to use Staff Specific Accounts for all accounts that need access to the 
+reporter in Evergreen to avoid the need to re-set up recurring reports.
 
-*Generic Accounts*
+*Staff/Personal Accounts*
 
-Accounts are created for functions, such as circulation, rather than for specific staff members and given the appropriate Library Staff permission group and working location. These accounts' barcodes and names are often related to their function. For example, an account for circulation may use circulation1 as the barcode and be named Dummy, Circulation. These accounts are shared by the appropriate staff. Sitka Staff strongly encourage libraries to ensure that shared usernames and passwords are kept secure and are changed as needed, especially when staff leave the library.
+* Account is specific to a particular staff member and includes their personal details like first 
+and last name.
+* Account is used both for performing staff functions and for personal borrowing.
+* Account can be granted permissions to use the reporter and/or view report output.
+* Account CANNOT be transferred to a new staff member as it is linked to personal borrowing data.
 
-Co-op Support encourages libraries to use the method or methods that work best for them.
+NOTE: Support recommends using Staff Specific Accounts over Staff/Personal Accounts.
 
-CAUTION: Generic accounts will not be granted permissions to create/run reports. Libraries are encouraged to have a dedicated account(s) for reporting purpose. The account must belong to an individual staff member and is for office use only. To avoid re-setting up reports, the owner of the account may be updated when the reporting task is passed on to another staff member.
+*Generic Staff Accounts*
 
-Creating Staff Account
-~~~~~~~~~~~~~~~~~~~~~~
+* Account is generally specific to a department or function, such as circulation or cataloguing, and is used
+by multiple staff members.
+* Account name is not tied to a specific person.  For example, Circulation FrontDesk is a commonly used name.
+* Account CANNOT be granted permissions to use the reporter or view report output.
 
-link:https://youtu.be/8GXNpN-pxiM[*Creating Library Staff Accounts (4:46)*]
 
-Local System Administrators can create staff accounts the same way as creating a patron record. The difference is choosing a staff profile from the *Main Permission (Profile) Group* list.
+Creating Library Staff Accounts
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-After saving the account, retrieve it, go to *Other -> User Permission Editor* to assign the new account a working location. Select the checkbox in front of the libraries that you want to assign to the account. Once done, scroll down to the bottom to click *Save*.
+link:https://youtu.be/8GXNpN-pxiM[*Sitka Training Video - Creating Library Staff Accounts (4:46)*]
 
+To create a new library staff account register your user as you would a patron taking the following 
+into consideration:
+
+* It is best practice to use a temporary password and then have your staff reset their password to something 
+only they know.
+* For an account to be a staff account it needs to have a Main (Profile) Permission Group with library 
+staff permissions.  Choose the appropriate permission group for the access the staff member needs.  The
+table in Staff Account Permission Groups shows what staff functions different permission groups can perform.
++
 image::images/admin/staff-account-1.png[]
 
-link:https://youtu.be/VnY9NjaTxFc[*Working Locations (1:05)*]
+This example shows public library staff permission groups.  A similar list of 
+groups is available for each library type. 
 
-CAUTION: Staff accounts without a working location can not register/edit patron accounts, or access some cataloguing functions.
+NOTE: The Local System Administrator permission group can only be assigned by Support.  Libraries may create 
+an account using any permission group and then submit a request to Support to update the account to 
+local system administrator. Please include the account's barcode in the request.
 
+After creating the account you need to assign a working location:
 
-Creating Local System Administrator Accounts
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+. Retrieve the account.
+. Go to *Other -> User Permission Editor*.
+. Select the checkbox(es) in front of the library/branches that you want to assign to the account.
+. Scroll down to the bottom to click *Save*.
 
+image::images/admin/staff-account-3.png[]
 
-Local System Administrator profile can only be assigned by Co-op staff.  Libraries may create a staff account first, submit a request to Co-op Support to upgrade the account to local system administrator. Please include the account's barcode in the request.
+link:https://youtu.be/VnY9NjaTxFc[*Sitka Snippet Video - Working Locations (1:05)*]
 
-Editing Staff Accounts
-~~~~~~~~~~~~~~~~~~~~~~
+CAUTION: Staff accounts without a working location can not register/edit patron accounts, or access some 
+cataloguing functions.
 
-link:https://youtu.be/kQ9HD5SFcFU[*Editing Library Staff Accounts (1:08)*]
+Editing Library Staff Accounts
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Staff members can update their own username, password, and email addresses by logging into *My Account* on your OPAC. They can use the *Forgot your Password* link on the *My Account* login screen as well, as long as their staff account contains a valid email address. Updating your staff account on the OPAC is the same as updating it in the staff client.
+link:https://youtu.be/kQ9HD5SFcFU[*Sitka Training Video - Editing Library Staff Accounts (1:08)*]
 
-Local System Administrators can edit all staff accounts with permissions below LSA.  For edits to Local System Administrator accounts, other than user name, password, or email address, you need to submit a request to Co-op Support.
+All library staff members can update their own username, password, and email addresses by logging 
+into *My Account* in the public catalogue.  They can use the *Forgot your Password* link on the *My Account* 
+login screen as well, as long as their staff account contains a valid email address. Updating your 
+staff account in the public catalogue is the same as updating it in the staff client.
+
+Note: Some libraries have disabled editing of email address through My Account.
+
+Local System Administrators can edit staff accounts in the staff client, with the exception of any LSA staff 
+accounts.  For edits to Local System Administrator accounts, other than user name, password, or 
+email address, contact Support. Please include the account barcode and the changes needed.
 
 
 Resetting Staff Account Password
@@ -58,18 +105,27 @@ Resetting Staff Account Password
 
 Staff passwords can be reset as follows:
 
-. Use the *Forgot Your Password?* link in the *My Account* login screen on your OPAC. You must have an email address recorded in your staff account for this to method to work.
+. Log into *My Account* and using the the _Change_ link found on the *Personal Information* tab of 
+*Account Preferences*.
 
-. Have a staff member with higher permissions than you, such as Local System Administrator, assign a new password to your account in staff client.
+. Use the *Forgot Your Password?* link in the *My Account* login screen on your OPAC. You must have an email 
+address recorded in your staff account for this to method to work.  
+link:https://www.youtube.com/watch?v=L03pBsN5u0c&t[*Sitka Snippet Video - Password Reset (1:20)*]
 
-. Send in a request to Co-op Support to have a temporary password assigned, and then use the *My Account* login on your OPAC to reset it to a secure password. Updating your staff account on the OPAC is the same as updating it in the staff client.
+. Have a staff member with higher permissions than you, such as Local System Administrator, assign a new 
+password to your account in staff client.
+
+. Send in a request to Support to have a temporary password assigned and then use 
+the _Change_ link in *My Account*.
 
 
 Staff Account Permission Groups
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Below is a general outline of staff account permission levels.  To view a detailed list of permissions for a 
-particular Evergreen account, go to *Administration -> User Permission Editor* in the staff client.
+Below is a general outline of staff account permission levels.  
+
+To view a detailed list of permissions 
+for a particular account, go to *Administration -> User Permission Editor* in the staff client.
 
 [option="header"]
 |===
@@ -104,26 +160,51 @@ permissions staff must sign and submit a https://bc.libraries.coop/support/sitka
 Granting Additional Permissions to Staff Accounts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A Local System Administrator (LSA) may selectively grant its permissions to other staff accounts. In the example below a Circ +Full Cat account is granted permission to process offline transactions, a function which otherwise requires an LSA login.
+A Local System Administrator (LSA) may selectively grant its permissions to other staff accounts. In the 
+example below a Circ +Full Cat account is granted permission to process offline transactions, a function 
+which otherwise requires an LSA login.
 
 . Log in to Evergreen with a local system administrator account.
-. Find the staff acount on *User Permission Editor*. You may search for the patron account, then go to *Others -> User Permission Editor*, or go to *Administration -> User Permission Editor* to search for the account by barcode.
-. When User Permission Editor is loaded, scroll down the permission list to find *OFFLINE_EXECUTE*. Select the checkbox in *Applied* column. Scroll down to the bottom to click *Save*.
+. Find the staff acount on *User Permission Editor*. You may search for the patron account, then go to 
+*Others -> User Permission Editor*, or go to *Administration -> User Permission Editor* to search for 
+the account by barcode.
+. When User Permission Editor is loaded, scroll down the permission list to find *OFFLINE_EXECUTE*. 
+Select the checkbox in *Applied* column. Scroll down to the bottom to click *Save*.
 +
 image::images/admin/staff-account-2.png[]
 
 [TIP]
 =====
-* *Permission*: List of permission names. For help correlating permissions to specific Evergreen functions please contact Co-op support.
+* *Permission*: List of permission names. For help correlating permissions to specific Evergreen functions 
+please contact Co-op support.
 * *Applied*: If checked the permission is granted to this account.
-* *Depth*:  limits application to the staff member's library and should be left at the default. Evergreen blocks attempts to set Federation- or Sitka-wide privileges.
-* *Grantable*: If checked this staff account will be able to grant the new privilege to other accounts (not recommended).
+* *Depth*:  limits application to the staff member's library and should be left at the default. Evergreen 
+blocks attempts to set Federation- or Sitka-wide privileges.
+* *Grantable*: If checked this staff account will be able to grant the new privilege to other accounts 
+(not recommended).
 =====
+
+Searching for Library Staff Accounts
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Library staff accounts can be retrieved via Patron Search and Check Out the same as a patron account.
+
+You can easily retrieve a list of all library staff accounts at your library through the Patron Search.
+
+. Set *Profile Group* to the Library Staff group applicable to your library type.
+. Set the organizational unit to your library or system.
+. Click *Search*.
++
+image::images/admin/staff-account-4.png[]
+
+Support recommends reviewing your staff accounts on a regular basis and closing accounts for 
+staff who no longer work at your library.
+
 
 Closing Library Staff Accounts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-link:https://youtu.be/d-EbdpforW8[*Closing Library Staff Accounts (1:56)*]
+link:https://youtu.be/d-EbdpforW8[*Sitka Training Video - Closing Library Staff Accounts (1:56)*]
 
 When a staff member leaves the library their staff access should be disabled in a timely manner.
 
@@ -148,12 +229,20 @@ two options for handling those reports:
  https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[reporter privacy waiver] to comply 
  with Sitka’s privacy policy.
 *OR*
-. If the account has been used as both a staff and personal borrowing account the user should stop 
-the recurring reports and ensure any needed report output has been downloaded 
-and saved outside of Evergreen before the account is switched to use a patron profile. Another staff member 
-with reporter access then needs to set up new recurring reports.
+. If the account has been used as both a staff and personal borrowing account the reports will need 
+to be moved to a new staff member.
 
+Moving Reports to a New Staff Member
+++++++++++++++++++++++++++++++++++++
 
+. Ensure that folder(s) the report templates currently reside in are shared with your library. Sharing them 
+makes them visible to anyone at your library who has signed the Full Reporter Privacy Waiver and so has 
+access to the Reporter. 
+. The new staff member handling reports logs in and clones all the needed report templates into their own 
+folders, same as you would clone a report from the Sitka Templates folder.
+. Any recurring reports running from the old account need to be cancelled by going into the Reports folder 
+for each report and deleting the report. 
 
-
+CAUTION: Deleting reports also deletes any output attached to the report so make sure to any needed 
+report output as Excel or CSV files and save them to your computer or network drive.
 
