@@ -62,7 +62,7 @@ local system administrator. Please include the account's barcode in the request.
 The table in 
 http://docs.libraries.coop/sitka/_staff_account_permission_groups.html[Staff Account Permission Groups]
  shows what staff functions different permission groups can perform.
-+
+
 image::images/admin/staff-account-1.png[scaledwidth="50%"]
 
 This example shows public library staff permission groups.  A similar list of 
