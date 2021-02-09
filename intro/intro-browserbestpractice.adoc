@@ -105,13 +105,12 @@ Allow Cookies
 image::images/intro/browser1.png[]
 +
 . Click *Settings*.
-. Scroll down to the bottom and click *Advanced*.
-. Under _Privacy and security_ click *Site settings*.
-. Click *Cookies and site data*.
-. _Allow sites to save and read cookie data_ should be on.
+. Select *Privacy and security* from the left hand side.
+. Click *Cookies and other site data*.
+. Under _General Settings_ make sure  _Block third-party cookies in Incognito_ is selected.
 . _Clear cookies and site data when you quit Chrome_ should be off.
-. Click *Add*.
-. Site: https://catalogue.libraries.coop/eg/staff/
+. Under _See all cookies and site data_ click *Add* beside _Sites that can always use cookies_.
+. Site: https://catalogue.libraries.coop
 . Click *Add*.
 +
 image::images/intro/cookies.png[]
