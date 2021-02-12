@@ -45,6 +45,9 @@ Edit a Shelving Location
 +
 image::images/admin/shelving-location-2.png[[scaledwidth="75%",alt="Edit Shelving Location"]
 
+CAUTION: If your library uses the acquisitions module and loads vendor records make sure you let your vendors
+know about any changes you make to shelving location names that are used in their templates.  If the shelving
+location name doesn't match between Evergreen and their templates your MARC records will not load.
 
 
 Delete a Shelving Location
