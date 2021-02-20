@@ -1,0 +1,100 @@
+Circulation Modifiers
+~~~~~~~~~~~~~~~~~~~~~
+
+Circulation modifiers are labels that can be assigned to items that Evergreen uses in conjunction 
+with circulation policies and hold policies to determine how items should behave.  Circulation modifiers
+can also be used in reports for statistical purposes.
+
+This list includes the circulation modifiers recommended for use by Co-op Support.  
+
+[NOTE]
+====
+ We recommend libraries choose a subset of these circulation modifiers to use and ensure all 
+cataloguing staff are aware of the modifiers used at their library.
+====
+
+
+[option="header"]
+|===
+| Name | SIP2 Media Type | Magnetic Media | Description 
+| alternate-format | Other | False | Intended for items for print disabled patrons like DAISY readers
+| archives | Other | False | Intended for
+| audiobook-cassette | Other | True | Intended for
+| audiobook-cd | Other | True | Intended for
+| best-seller | Book | False | Intended for
+| binder | Other | False | Intended for
+| book | Book | False | Intended for
+| book-and-disk | Book with diskette | False | Intended for
+| bookclub | Other | False | Intended for
+| box | Other | False | Intended for
+| carousel | Other | False | Intended for
+| cassette-and-book | Book with audio tape | True | Intended for
+| cassette-and-book-in-bag | Book with audio tape | True | Intended for
+| cassettes | Audio Tape | True | Intended for
+| cd-and-book | Book with CD | False | Intended for
+| cd-and-book-in-bag | Book with CD | False | Intended for
+| cd-rom | CD/CDROM | False | Intended for
+| CIRCRESERVE | Other | False | Intended for
+| compact-disc | CD/CDROM | False | Intended for
+| course-reserve | Other | False | Intended for
+| dvd | CD/CDROM| False | Intended for
+| dvd-feature | Other | False | Intended for
+| dvd-rom | Other | False | Intended for
+| e-reader | Book | False | Intended for
+| equipment | Other | False | Intended for
+| film | Other | False | Intended for
+| floppy-disc | Diskette | True | Intended for
+| game | Other | False | Intended for
+| graphic-novel | Book | False | Intended for
+| hardback | Other | False | Intended for
+| holiday | Other | True | Intended for
+| ill-no-renewal | Other | False | Intended for
+| inter-library-loan | Other | False | Intended for
+| juvenile-audio-cassette | Audio Tape | True | Intended for
+| juvenile-audio-visual | Audio Tape | False | Intended for
+| juvenile-collection | Other | False | Intended for
+| juvenile-holiday | Other | False | Intended for
+| juvenile-playaway | Other | False | Intended for
+| juvenile-serial | Magazine | False | Intended for
+| juvenile-video | Video Tape | True | Intended for
+| kit | Audio Tape | True | Intended for
+| language-learning | Other | False | Intended for
+| language-other | Other | False | Intended for
+| laptop | Other | False | Intended for
+| large-print | Other | False | Intended for
+| library-equipment | Other | False | Intended for
+| literacy-kit | Other | False | Intended for
+| magazine | Magazine | False | Intended for
+| map | Other | False | Intended for
+| media | Other | False | Intended for
+| new-books | Book | False | Intended for
+| newspaper | Magazine | False | Intended for
+| non-circulating | Other | False | Intended for
+| other | Other | False | Intended for
+| pamphlet | Other | False | Intended for
+| paperback | Other | False | Intended for
+| pattern | Other | False | Intended for
+| periodical | Magazine | False | Intended for
+| playaway | Other | False | Intended for
+| precat | Other | Book | Intended for
+| puzzle | Other | False | Intended for
+| quick-video-game | Other | False | Intended for
+| quickread | Other | False | Intended for
+| readalongs | Other | False | Intended for
+| restricted-access | Other | False | Intended for
+| restricted-dvd | CD/CDROM | False | Intended for
+| semester | Other | False | Intended for
+| special-collection | Other | False | Intended for
+| spiral-binding | Other | False | Intended for
+| tablet | Other | False | Intended for
+| textbook | Book | False | Intended for
+| toy | Other | False | Intended for
+| unqiue-collection | Other | False | Intended for
+| vertical-file | Other | False | Intended for
+| video | Video Tape | True | Intended for
+| video-games | Other | False | Intended for
+|===
+
+Co-op Support has an on-going project to streamline the list of circulation modifiers available.  
+Circulation modifiers that specify a loan duration are on the list to remove as they are misleading since
+on its own a circulation modifier does not have a loan period. 
