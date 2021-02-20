@@ -6,6 +6,66 @@ Circulation policies define the loan duration, renewals, recurring fine rate, ma
 and item specific limits for different combinations of User Permission Groups, Home Library and Circulation Modifiers 
 for items checked out at your library or library system. Other item attributes may be used for more specific rules. 
 
+
+Understanding Circulation Policies
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The parts of circulation policies can be divided into the pieces that determine which patrons and items a policy
+applies to and the pieces that determine how the policy is applied.
+
+Who/What Does A Policy Apply To
+
+* Patron Permission Profile
+* Org Unit
+* Circulating Library
+* User Home Library
+* Circulation Modifier
+* Shelving Location
+
+
+How Is the Policy Applied
+
+* Circulate? - true/false
+* Duration Rule - includes renewals
+* Hard Due Date
+* Recurring Fine Rule
+* Maximum Fine Rule
+* Grace Period
+* Item Specific Limit
+
+
+Viewing Your Circulation Policies
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To view your current circulation policies run a report (reporter permissions required) or
+view your policies in Evergreen (Local System Administrator permissions required).
+
+* In the reporter go to *Shared Folders -> Templates -> Sitka_templates -> Library Configuration*
+
+** Multiple report templates for circulation policies are available here.
+
+* In Evergreen select *Administration ->  Local Administration -> Circulation Policies*. By default, your library is selected 
+in the box after *Context Org Unit* (i.e. Checkout Library). The initial display will show all circulation rules 
+at your library and the federation level. 
+
+
+Changing Your Circulation Policies
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+All changes to your circulation policies are made by Support.  
+
+To request changes to your circulation policies submit a ticket to https://bc.libraries.coop/support/[Support]. 
+We recommend submitting your request at least one week before you'd like the change go into effect.
+
+
+
+Original Docs
+^^^^^^^^^^^^^
+
+Circulation policies define the loan duration, renewals, recurring fine rate, maximum fine amount, grace period 
+and item specific limits for different combinations of User Permission Groups, Home Library and Circulation Modifiers 
+for items checked out at your library or library system. Other item attributes may be used for more specific rules. 
+
 There may be more than one policy applicable to certain types of materials. Generally, policies on more 
 specific levels, e.g. BFSJ instead of BC_ILC, take precedence. When in doubt, please contact Co-op support.
 
