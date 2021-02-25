@@ -27,7 +27,6 @@ cataloguing staff are aware of the modifiers used at their library.
 | book-and-disk | Book with diskette | False | Intended for
 | bookclub | Other | False | Intended for
 | box | Other | False | Intended for
-| carousel | Other | False | Intended for
 | cassette-and-book | Book with audio tape | True | Intended for
 | cassette-and-book-in-bag | Book with audio tape | True | Intended for
 | cassettes | Audio Tape | True | Intended for
@@ -46,7 +45,6 @@ cataloguing staff are aware of the modifiers used at their library.
 | floppy-disc | Diskette | True | Intended for
 | game | Other | False | Intended for
 | graphic-novel | Book | False | Intended for
-| hardback | Other | False | Intended for
 | holiday | Other | True | Intended for
 | ill-no-renewal | Other | False | Intended for
 | inter-library-loan | Other | False | Intended for
@@ -66,17 +64,14 @@ cataloguing staff are aware of the modifiers used at their library.
 | literacy-kit | Other | False | Intended for
 | magazine | Magazine | False | Intended for
 | map | Other | False | Intended for
-| media | Other | False | Intended for
 | new-books | Book | False | Intended for
 | newspaper | Magazine | False | Intended for
-| non-circulating | Other | False | Intended for
 | other | Other | False | Intended for
 | pamphlet | Other | False | Intended for
 | paperback | Other | False | Intended for
 | pattern | Other | False | Intended for
 | periodical | Magazine | False | Intended for
 | playaway | Other | False | Intended for
-| precat | Other | Book | Intended for
 | puzzle | Other | False | Intended for
 | quick-video-game | Other | False | Intended for
 | quickread | Other | False | Intended for
