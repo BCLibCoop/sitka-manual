@@ -10,7 +10,11 @@ of Item Statuses.
 
 include::serveradmin/admin-call-number.adoc[]
 
+<!--
+
 include::serveradmin/admin-circulation-modifiers.adoc[]
+
+-->
 
 Floating Group
 ~~~~~~~~~~~~~~
