@@ -1,59 +1,38 @@
-New Features in Evergreen Version 3.5
+New Features in Evergreen Version 3.7
 -------------------------------------
 
 https://www.youtube.com/playlist?list=PLdwlgwBNnH4qvEzhSkKbhnH6OcQzsHSNm[*Sitka's Evergreen 3.5 - New Features Playlist*]
 
-Web Staff Client (Web Client)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* Hatch - Workstation name is now stored in Hatch.
-
-* Hatch - A new stock printer called the Hatch File Writer translates print content into text and writes the data to a file on the PC in the Hatch profile directory.
-
 Circulation
 ~~~~~~~~~~~
 
-* Circulation staff can mark an item Discard/Weed on checkin, item status, renew, and other patron and hold screens.
+* Test Notifications - Patrons and staff may request a test notification for a patron’s default email address or SMS number via the Patron Registration screen in the staff client, or on the OPAC My Account preferences page.
 
-* Checked out items can now be marked as Missing, as well as Discard/Weed, and be automatically checked in before having their status changed to Missing, or Discard/Weed. If staff choose not to check them in, their status is not changed.
+* Hold Groups - Library staff may create lists of patrons that can then be used to place multiple title-level holds on the same bibliographic record.
 
-* Library Links in Billing Details Screen -The Full Details view now includes links to information about the billing and owning libraries. This can be useful in situations where circulation staff are troubleshooting a bill and would like to quickly find contact information for the billing or owning library
+* Hopeless Holds - Library staff can now quickly pull a list of holds deemed unfillable and take actions to resolve them.
 
-* Update Hold Notification Information – Evergreen now has the ability to update existing holds if a patron or a staff member changes certain notification preferences or contact information. Evergreen will detect these changes and prompt the staff user or patron user if they want to update existing holds with the new contact information and/or notification preferences.
+* In-house use now records workstations.
 
 Cataloguing
 ~~~~~~~~~~~
 
-* The full MARC Editor is now implemented in Angular (Available in the Experimental Staff Catalogue)
+* New Staff Catalogue – All cataloguing functions direct to new staff catalogue.
 
-* Staff Catalogue Basket Export Option (Available in the Experimental Staff Catalogue)
+* Item Status now allows pasting a list of barcodes in CSV format.
+
+* Publisher values are now extracted for display from tags 260 OR 264.
 
 
 Catalogue/Public Catalogue
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Update Hold Notification Information – The public catalogue and staff client now have the ability to update existing holds if a patron or a staff member changes certain notification preferences or contact information. Evergreen will detect these changes and prompt the staff user or patron user  if they want to update existing holds with the new contact information and/or notification preferences.
+* The new staff catalogue is now the supported staff catalogue and includes search templates and recent searches.
 
+* Open record in new tab.
 
-Library Settings
-~~~~~~~~~~~~~~~~
+* Basket To Bucket action now allows adding to Shared Buckets.
 
-* GUI: Enable Experimental Angular Staff Catalog - turns on the Experimental Staff Catalogue
+* Did you Mean? search suggestion in OPAC for misspelled search term.
 
-
-Bug Fixes
-~~~~~~~~~
-
-* Patron's hold notification preferences are now saved correctly, with no need to manually re-set preferences when saving other edits to the patron record.
-
-* Date displays correctly in the check out screen’s due date box.
-
-* Choose specific due date for check out no longer allows due dates in the past.
-
-* Evergreen now asks users to confirm that they want to delete items that are in non-ideal statuses, like Checked Out.
-
-* The MARC batch import/export interface allows users to view and edit the incoming MARC records while inspecting an imported queue.
-
-* Notify by Email column on the Holds Shelf now populates with yes/no as expected.
-
-* On the Holds Shelf, only holds that can be cleared shows as clearable holds.
+* Improved email and printing options from the OPAC, which now includes local call number.
