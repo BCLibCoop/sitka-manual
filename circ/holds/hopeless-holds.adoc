@@ -5,7 +5,7 @@ Hopeless Holds
 
 
 
-A hold is considered hopeless when there are no copies in Evergreen's "hold_copy_map" for a title,  or, when all copies in the  "hold_copy_map" are in a item status with "hopeless_prone" set to True. In Sitka's Evergreen, those statuses are globally set at Discard/Weed, Damaged, Lost, Lost and Paid, and Missing, and are administered by Co-op Support.
+A hold is considered hopeless when there are no copies in Evergreen's "hold_copy_map" for a title,  or, when all copies in the  "hold_copy_map" are in a item status with "hopeless_prone" set to True. In Sitka's Evergreen, these statuses are globally set at Discard/Weed, Damaged, Lost, Lost and Paid, and Missing.
 
 
 Managing Hopeless Holds
@@ -14,43 +14,24 @@ Unfulfillable holds are colloquially known as “hopeless holds.” In previous 
 
 Hopeless Holds Interface
 ^^^^^^^^^^^^^^^^^^^^^^^^
-The Hopeless Holds interface is accessed through *Administration → Local Administration → Hopeless Holds.* All staff with permissions to view and modify holds can access Hopeless Holds.
+. Click  *Administration → Local Administration → Hopeless Holds.* All staff with permissions to view and modify holds can access Hopeless Holds.
++
+image:images/circ/hopelessholds1.png[scaledwidth="75%"]
 
-The interface displays a grid similar to that of Holds Requests, with a list of holds that are considered unfulfillable. Requests are added to this list based on whether there is a value in the Hopeless Date field. Evergreen's hold targeter assigns this date in the field,  whenever it cannot find a potential target.
+. A list of holds that are considered unfulfillable is generated. Requests are added to this list based on whether there is a value in the Hopeless Date field. Evergreen's hold targeter assigns this date when it cannot find a potential target for a hold based on the criteria of hopeless.
++
+image:images/circ/hopelessholds2.png[scaledwidth="75%"]
 
+. The list of hold requests can be filtered by hopeless date range and/or pickup library. Pickup library defaults to the workstation library and retrieves results for the selected library and its descendants.
++
+image:images/circ/hopelessholds3.png[scaledwidth="75%"]
 
-The list of hold requests can be filtered by hopeless date range and/or pickup library. Pickup library defaults to the workstation library and retrieves results for the selected library and its descendents.
+. All columns in the grid can be sorted by clicking the column header.
 
-All columns in the grid can be sorted by clicking the column header. The following columns are visible by default:
+. Additional columns are available through the column picker, including the standard column options associated with Holds.
++
+image:images/circ/hopelessholds4.png[scaledwidth="75%"]
 
-Hold ID
-
-Patron Barcode
-
-Request Date
-
-Hold Type
-
-Pickup Library
-
-Title
-
-Holdable Formats
-
-Hopeless Date
-
-Status
-
-Part Label
-
-Additional columns are available through the column picker, including the standard column options associated with Holds.
-
-After selecting one or more hold requests from the list, staff can use the Actions menu to perform a variety of tasks. All actions activate new tabs for each selected record. Available actions are similar to those found in other holds-related menus (e.g., Cancel Hold, Modify Hold(s), Find Another Target.)
-
-Additional actions include:
-
-Add Holdings - opens the selected bibliographic records in the Holdings Editor for the purposes of adding new items to the records; this action is disabled if there are metarecord holds among the selected requests
-
-Show in Catalog - opens the selected bibliographic records in OPAC view
-
-View/Place Orders - opens the selected bibliographic records in Acquisitions, where staff can add the titles to a selection list, add the titles to an existing purchase order, or create a new purchase order; this action is disabled if there are metarecord holds among the selected requests
+. Click one or more hold requests from the list, and use the *Actions* menu to perform a variety of tasks. All actions activate new tabs for each selected record. Example actions are  *Cancel Hold*, *Modify Hold(s)*, *Find Another Target*, *Show Hold Details*, and so on.
++
+image:images/circ/hopelessholds5.png[scaledwidth="75%"]

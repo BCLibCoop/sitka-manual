@@ -8,9 +8,12 @@ Circulation
 
 * Test Notifications - Patrons and staff may request a test notification for a patron’s default email address or SMS number via the Patron Registration screen in the staff client, or on the OPAC My Account preferences page.
 
+
 * Hold Groups - Library staff may create lists of patrons that can then be used to place multiple title-level holds on the same bibliographic record.
 
+
 * Hopeless Holds - Library staff can now quickly pull a list of holds deemed unfillable and take actions to resolve them.
+
 
 * In-house use now records workstations.
 
@@ -19,7 +22,9 @@ Cataloguing
 
 * New Staff Catalogue – All cataloguing functions direct to new staff catalogue.
 
+
 * Item Status now allows pasting a list of barcodes in CSV format.
+
 
 * Publisher values are now extracted for display from tags 260 OR 264.
 
@@ -29,10 +34,14 @@ Catalogue/Public Catalogue
 
 * The new staff catalogue is now the supported staff catalogue and includes search templates and recent searches.
 
+
 * Open record in new tab.
+
 
 * Basket To Bucket action now allows adding to Shared Buckets.
 
+
 * Did you Mean? search suggestion in OPAC for misspelled search term.
+
 
 * Improved email and printing options from the OPAC, which now includes local call number.
