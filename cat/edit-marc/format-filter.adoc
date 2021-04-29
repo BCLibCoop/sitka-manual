@@ -1,5 +1,18 @@
-Format Filters and Format Icons
+Search Filters and Format Icons
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Evergreen utilizes the coded information entered into the leader and control fields in the 
+MARC record for search filters and format icons.  These fields need to be accurately coded
+so that the correct format icons display and expected records are included in 
+search results.
+
+[NOTE]
+======
+The new catalogue presently includes search filters that are different from those available in the 
+traditional catalogue.  Further work is required in the new catalogue to enable it to use our custom filters.
+======
+
+Evergreen looks at the following positions in the leader and control fields:
 
 Format Filter Groups and Format Icons are configured at the Sitka level.
 
@@ -14,7 +27,30 @@ position 29
 
 * sr_format is 007 position 03
 
-The format filter is used by the OPAC to allow staff and patrons to limit their search by material format. The following table shows the fixed fields associated with each format filter value.
+Search Filters
+^^^^^^^^^^^^^^
+
+*Item Types* - relies on character 06 of the leader
+
+*Item Forms* - relies on character 23 of the 008 field
+
+*Languages* - relies on characters 35-37 of the 088 field
+
+*Audience* - relies on character 22 of the 008 field (for the relevant material configurations)
+
+*Video Formats* - relies on character 04 of the 007 field
+
+*Bib Levels* - relies on character 07 of the leader
+
+*Literary Forms* - relies on character 33 of the 008 field (only applicable to books)
+
+*Formats* - currently includes formats not included in our regular format list
+
+
+The format filter is used by the catalogue to allow staff and patrons to limit their search by material 
+format. The following table shows the fixed fields associated with each format filter value.
+
+
 
 [options="header"]
 |===
@@ -40,7 +76,8 @@ The format filter is used by the OPAC to allow staff and patrons to limit their 
 | Videos (physical) | item_type(g) AND NOT item_form (o,q,s)
 |===
 
-The format icons show in the search results and record display in the catalogue. The following table shows the fixed fields associated with each format icon.
+The format icons show in the search results and record display in the catalogue. The following table 
+shows the fixed fields associated with each format icon.
 
 [options="header"]
 |===
