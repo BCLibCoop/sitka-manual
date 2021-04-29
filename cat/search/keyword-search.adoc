@@ -1,5 +1,5 @@
-EXP Keyword Search
-~~~~~~~~~~~~~~~~~~
+Keyword Search
+~~~~~~~~~~~~~~
 
 When searching the catalogue for cataloguing purposes the Numeric Search should be preferred over the Keyword Search.
 Libraries that catalogue non-bibliographic items (laptops, museum passes, cake pans, etc.) that don't use standard 
@@ -26,3 +26,16 @@ image::images/catnew/keyword-search-3.png[Keyword Search screen]
 for information on determining which result to add your holding to.
 +
 image::images/catnew/numeric-search-4.png[two search results]
+
+
+[TIP]
+======
+* It is possible to search ISBNs by Keyword, but results may not be exhaustive. We recommend using *Numeric Search* as described above.
+
+* If an OCLC number is nine digits then Evergreen uses ocn as a prefix. For example:  ocn123456789.
+
+* If an OCLC number is less than 8 digits then Evergreen uses ocm as a prefix.  In addition Evergreen will automatically prefix the number with zeros so that it is nine digits.  For example:  ocm01234567, or ocm00123456.
+
+* If searching a LCCN do not use a hyphen,  add a 0 in place of a hyphen, e.g. 2001001234.
+======
+
