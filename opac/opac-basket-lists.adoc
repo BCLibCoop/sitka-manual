@@ -1,5 +1,7 @@
-Basket and Lists
+Baskets and Lists
 ----------------
+
+(((Baskets and Lists)))
 
 The basket feature enables patrons to add titles in batch to a temporary basket.  From the basket patrons
 can place holds, print and email title details, and add the titles to a new or existing list.
@@ -31,7 +33,7 @@ image::images/opac/opac-basket-2.png[scaledwidth="75%",alt="Adding Titles to the
 image::images/opac/opac-basket-3.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
 When titles are added to the basket the count at the top of the search results increases as does
-count beside the basket icon.
+the count beside the basket icon.
 
 image::images/opac/opac-basket-4.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
@@ -41,12 +43,12 @@ Removing Titles from the Basket
 
 Titles can be removed from the basket in a number of ways:
 
-* un-checking the box beside the search result. The entire page of results can be added by checking
+* un-checking the box beside the search results. The entire page of results can be removed by un-checking
  the select all box at the top of the results.
 
 image::images/opac/opac-basket-5.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
-* by clicking *Remove from basket* in the search results view.
+* by clicking *remove from basket* in the search results view.
 
 image::images/opac/opac-basket-6.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
@@ -178,12 +180,23 @@ image::images/opac/opac-list-8.png[scaledwidth="75%",alt="My Account Lists"]
 Managing Titles in a List
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can place holds, email yourself the title details, and remove titles from your list using the
+You can place holds, email or print the title details, and remove titles from your list using the
 *Actions for these items* menu.
 
 image::images/opac/opac-list-9.png[scaledwidth="75%",alt="My Account Lists"]
 
-NOTE: The Print title details option in lists is currently non-functional.
+
+Email or Print from a List
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.
+
+
+
+
+
+Add a Note or Annotate a List
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can annotate your lists by using the _Notes_ feature.
 
