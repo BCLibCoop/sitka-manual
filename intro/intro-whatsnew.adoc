@@ -58,6 +58,7 @@ recent searches.
 * Improved email and printing options from the OPAC, which now includes local call number.
 
 
+<<<<<<< Updated upstream
 Booking
 ~~~~~~~
 
@@ -69,3 +70,6 @@ Reports
 
 A new output option _Calculate grouping subtotals_ available.
 
+=======
+* Show Only Available Copies filter on a title record in the OPAC. Patrons can choose to see only the available copies of a title they are interested in.
+>>>>>>> Stashed changes
