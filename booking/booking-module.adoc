@@ -65,7 +65,7 @@ image::images/booking/booking-create-r.png[scaledwidth="75%",alt="create reserva
 +
 . Click *Create Reservation*
 . Confirm Reservation Details
-.. *Patron barcode* - enter or confirm the patron barcode.
+.. *Patron barcode* - enter or search for the patron barcode.
 .. *Start time* - choose or confirm the start time for the reservation.
 .. *End time* - choose or confirm the end time for the reservation.
 .. *Reservation location* - the library where the resource is picked up or used.
