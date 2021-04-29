@@ -1,16 +1,16 @@
 Integrated eResources
 ----------------------
 
-Electronic resources are usually hosted by separate suppliers outside the library. Most of these resources 
-have records in the library catalogue. Links leading to the suppliers' website are provided in these 
-records. Some electronic resources can be integrated into the library catalogue, which allows users not 
-only to view the records, but also to borrow and place holds on the resources on the library catalogue 
-directly. Currently eBooks and eAudiobooks from OverDrive are integrated. Users can borrow or place 
+Electronic resources are usually hosted by separate suppliers outside the library. Most of these resources
+have records in the library catalogue. Links leading to the suppliers' website are provided in these
+records. Some electronic resources can be integrated into the library catalogue, which allows users not
+only to view the records, but also to borrow and place holds on the resources on the library catalogue
+directly. Currently eBooks and eAudiobooks from OverDrive are integrated. Users can borrow or place
 holds on these eResources, and view their borrowed or on-hold items in their library account.
 
-When your search result includes an integrated e-book or e-audiobook from OverDrive, you may see the record 
-is marked as electronic resource with a link going to the supplier's website.You will see two columns 
-for _Available Formats_ and _Status_. You may also see *Place Hold on E-book/E-audiobook*, or 
+When your search result includes an integrated e-book or e-audiobook from OverDrive, you may see the record
+is marked as electronic resource with a link going to the supplier's website.You will see two columns
+for _Available Formats_ and _Status_. You may also see *Place Hold on E-book/E-audiobook*, or
 *Check Out E-book/E-audiobook*, depending on whether there is an available copy, instead of the normal
 *Place Hold* option on the right hand side of the results list.
 
@@ -18,8 +18,8 @@ image::images/opac/opac-eresource-2.png[scaledwidth="75%",alt="eResources"]
 
 [TIP]
 =====
-If you're logged into your account you may see *Go to E-items on Hold* for titles you've already placed 
-holds on or *Go to E-items Checked Out* for titles already checked out to you. Clicking those links takes 
+If you're logged into your account you may see *Go to E-items on Hold* for titles you've already placed
+holds on or *Go to E-items Checked Out* for titles already checked out to you. Clicking those links takes
 you to your account to view those items.
 =====
 
@@ -27,7 +27,7 @@ you to your account to view those items.
 Checking Out eResources
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-. If there is an available copy under a title, click on *Check Out E-book/E-audiobook* on the search 
+. If there is an available copy under a title, click on *Check Out E-book/E-audiobook* on the search
 result list or record details screen.
 +
 image::images/opac/opac-eresource-3.png[scaledwidth="75%",alt="eResources"]
@@ -45,7 +45,7 @@ format.
 Placing Holds on eResources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-. If all copies under a title are checked out, click on *Place Hold on E-book/E-audiobook* on the result 
+. If all copies under a title are checked out, click on *Place Hold on E-book/E-audiobook* on the result
 list or record details screen.
 +
 .. You will be prompted to log in with your library account, if you have not already done so.
@@ -64,20 +64,20 @@ image::images/opac/opac-eresource-7.png[scaledwidth="75%",alt="eResources"]
 
 
 Checked out and On Hold eResources in My Account
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You may view eResources currently checked out to or on hold for you after you log into your account. 
+You may view eResources currently checked out to or on hold for you after you log into your account.
 The summary is displayed at top right of your screen.
 
 image::images/opac/opac-eresource-9.png[scaledwidth="75%",alt="eResources"]
 
 
-Click the *E-items Currently Checked Out* tab to view the titles you have checked out 
+Click the *E-items Currently Checked Out* tab to view the titles you have checked out
 and download a copy from there.
 
 image::images/opac/opac-eresource-8.png[scaledwidth="75%",alt="eResources"]
 
-Click the *E-Items on Hold* tab to cancel an unwanted hold or check where you are in the hold 
+Click the *E-Items on Hold* tab to cancel an unwanted hold or check where you are in the hold
 queue.
 
 image::images/opac/opac-eresource-10.png[scaledwidth="75%",alt="eResources"]
@@ -85,8 +85,5 @@ image::images/opac/opac-eresource-10.png[scaledwidth="75%",alt="eResources"]
 
 
 
-NOTE: OverDrive allows users to keep some preference settings, such as preferred loan period. These preferences 
+NOTE: OverDrive allows users to keep some preference settings, such as preferred loan period. These preferences
 can be set up or updated through OverDrive's website or app.
-
-
-
