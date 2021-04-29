@@ -101,15 +101,17 @@ Email or Print from the Baskets
 +
 image:images/opac/opac-print-basket-1.png[scaledwidth="75%"]
 +
-. If there are multiple libraries copies in the preview, choose required library in *Holdings* field,  and click *Update* again.
+. If there are multiple libraries copies in the preview, choose required library in *Holdings Library* field,  and click *Update* again.
 +
 image:images/opac/opac-print-basket-2.png[scaledwidth="75%"]
 +
 . The preview is presented.
++
+image:images/opac/opac-print-basket-4.png[scaledwidth="75%"]
++
+. Click *Print Now*, or *Email Now*,  and follow on screen instructions.
 
-. Click *Print Now* or *Email Now* and follow on screen instructions.
 
-.
 
 
 Creating Lists
@@ -225,7 +227,7 @@ image:images/opac/opac-print-basket-3.png[scaledwidth="75%"]
 
 . Click into *Format* field, choose *Full* and click *Update*. This ensures the local call number and shelving information will be included.
 
-. If there are multiple libraries copies in the preview, choose required library in *Holdings* field,  and click *Update* again.
+. If there are multiple libraries copies in the preview, choose required library in *Holdings Library* field,  and click *Update* again.
 
 . The preview is presented.
 
