@@ -3,10 +3,10 @@ My Account
 
 (((My Account)))
 
-Patrons and library staff can access information about their account from any page in the public catalogue by 
-clicking the *My Account* button at the top right of the page. Account information includes contact 
-information, items checked out or on hold, fines, account preferences, notes left by the library 
-(if any) and lists. 
+Patrons and library staff can access information about their account from any page in the public catalogue by
+clicking the *My Account* button at the top right of the page. Account information includes contact
+information, items checked out or on hold, fines, account preferences, notes left by the library
+(if any) and lists.
 
 
 Logging into My Account
@@ -18,14 +18,14 @@ image::images/opac/opac-account-1.png[scaledwidth="75%",alt="My Account"]
 +
 . Enter your username or your library barcode.
 +
-.. If this is your first time logging in, your username will be your library card number. You have the 
+.. If this is your first time logging in, your username will be your library card number. You have the
 option to change your username on the _Account Preferences_ screen.
 +
 . Enter your password.
 +
 .. You should have been given a password when you received your library card.
 +
-.. If you do not have or cannot recall your password please contact your local library to have the password 
+.. If you do not have or cannot recall your password please contact your local library to have the password
 reset or use the *Forgot Your Password?* link.
 +
 . Click *Login*.
@@ -41,18 +41,18 @@ Resetting Your Password
 
 https://www.youtube.com/watch?v=L03pBsN5u0c&t[Sitka Snippet Video - Password Reset (1:20)]
 
-If you have an email address recorded in your library account you can use the *Forgot Your Password?* link 
+If you have an email address recorded in your library account you can use the *Forgot Your Password?* link
 in the event that you forget your password.
 
 . Click on the *Forgot Your Password?* link.
 +
 image::images/opac/opac-account-3.png[scaledwidth="75%",alt="My Account"]
 +
-. Enter your username or barcode into the appropriate field. 
+. Enter your username or barcode into the appropriate field.
 +
 [NOTE]
 =====
-You must enter only one value, this is an either or choice, as some people only use their barcode to access their account, while others only ever 
+You must enter only one value, this is an either or choice, as some people only use their barcode to access their account, while others only ever
 use a username.
 
 Some libraries also require that you enter the email address associated with the account.  This is controlled
@@ -73,23 +73,23 @@ image::images/opac/opac-account-4.png[scaledwidth="75%",alt="My Account"]
 +
 image::images/opac/opac-account-4a.png[scaledwidth="75%",alt="My Account"]
 +
-.. You must enter the password twice to ensure that you do not make a mistake. If the passwords match, you 
+.. You must enter the password twice to ensure that you do not make a mistake. If the passwords match, you
 will then be able to log in to your library account with the new password.
 +
-. Please contact your local library if you do not receive the _Library Account Password Reset Request_ email 
+. Please contact your local library if you do not receive the _Library Account Password Reset Request_ email
 or if you continue to be unable to login to your account.
 
 [TIP]
 =====
-Library staff can reset the password for their account using this method if there is an email address 
+Library staff can reset the password for their account using this method if there is an email address
 recorded in their account.
 =====
 
 Account Summary
 ~~~~~~~~~~~~~~~
 
-The default view when you login to your account is the _Account Summary_ page. This view gives you an 
-overview of items checked out, items on hold and any fines you may have. You can access any of these screens 
+The default view when you login to your account is the _Account Summary_ page. This view gives you an
+overview of items checked out, items on hold and any fines you may have. You can access any of these screens
 by clicking on the relevant tab.
 
 image::images/opac/opac-account-5.png[scaledwidth="75%",alt="My Account"]
@@ -107,19 +107,19 @@ Select the _Account Preferences_ tab at the top of the _My Account_ area to acce
 Personal Information
 ^^^^^^^^^^^^^^^^^^^^
 
-You can change the username and password that you use to log in to your library account as well as the email 
-address the library uses to contact you in the _Personal Information_ tab by clicking the *Change* link 
+You can change the username and password that you use to log in to your library account as well as the email
+address the library uses to contact you in the _Personal Information_ tab by clicking the *Change* link
 next to the information you'd like to update.
 
 image::images/opac/opac-account-6.png[scaledwidth="75%",alt="My Account"]
 
-NOTE: Changing your username and password for a library staff account through My Account also changes it 
+NOTE: Changing your username and password for a library staff account through My Account also changes it
 for logging into the staff client.
 
-Depending on your library's policy, you may request a change to your address by submitting a new address 
+Depending on your library's policy, you may request a change to your address by submitting a new address
 in your account. Library staff will verify it and update your account.
 
-If you need to make a change to other information, such as your phone number, please contact your local 
+If you need to make a change to other information, such as your phone number, please contact your local
 library.
 
 Notification Preferences
@@ -127,14 +127,14 @@ Notification Preferences
 (((Notifications, My Account)))
 
 
-The Notification Preferences tab is where you set your preferences for holds notification. You can choose 
+The Notification Preferences tab is where you set your preferences for holds notification. You can choose
 to be contacted by email, phone or text message.
 
-This is also where you can opt-out of receiving courtesy and overdue email notices using the _Receive 
-Overdue and Courtesy Emails_ setting.  Un-checking this box means your library will not send you any emails for items coming due or overdue. 
+This is also where you can opt-out of receiving courtesy and overdue email notices using the _Receive
+Overdue and Courtesy Emails_ setting.  Un-checking this box means your library will not send you any emails for items coming due or overdue.
 You are still responsible for returning items on time and paying any applicable fines.
 
-If you wish to receive checkout receipts via email by default you can check the 
+If you wish to receive checkout receipts via email by default you can check the
 _Email checkout receipts by default_ checkbox.
 
 image::images/opac/opac-account-7.png[scaledwidth="75%",alt="My Account"]
@@ -146,21 +146,21 @@ Search and History Preferences
 (((Check Out History)))
 (((Hold History)))
 
-The _Search and History Preferences_ tab allows you to configure settings around search results, history, 
+The _Search and History Preferences_ tab allows you to configure settings around search results, history,
 and allowing others access to your account.
 
 You can select how many search results are displayed per page on your catalogue searches as well as your
 preferred search location if your library is a multi-branch system or part of a larger borrowing zone.
 
-You can also set your preferred pick up location if your library is a multi branch system or part of a  
+You can also set your preferred pick up location if your library is a multi branch system or part of a
 larger borrowing zone.
 
-Check Out and Hold history can be enabled on this screen.  The check out and holds history is not retroactive;  
-it takes effect once you choose to retain your history. 
+Check Out and Hold history can be enabled on this screen.  The check out and holds history is not retroactive;
+it takes effect once you choose to retain your history.
 
 You may also choose to disable a warning about adding items to a temporary list.
 
-You can specify who, if anyone, you want to access to your account and what access you wish them to 
+You can specify who, if anyone, you want to access to your account and what access you wish them to
 have.  This is useful if you'd like someone else to be able to pick up your holds for you.
 
 image::images/opac/opac-account-8.png[scaledwidth="75%",alt="My Account"]
@@ -177,7 +177,7 @@ Messages
 ~~~~~~~~
 
 
-Select the Messages tab at the top of the _My Account_ area to display any messages library staff have added 
+Select the Messages tab at the top of the _My Account_ area to display any messages library staff have added
 to your account.
 
 image::images/opac/opac-account-messages-1.png[scaledwidth="75%",alt="My Account Messages"]
@@ -186,7 +186,7 @@ An indicator will also appear in the upper right corner when you have new messag
 
 image::images/opac/opac-account-messages-2.png[scaledwidth="75%",alt="My Account Messages"]
 
-You can set messages to read or unread, or delete them by selecting the message(s) and then choosing the 
+You can set messages to read or unread, or delete them by selecting the message(s) and then choosing the
 desired action from the *Action for selected messages* menu and clicking *Go*.
 
 Unread messages appear with the subject bolded. Click on the subject to read the message.
@@ -202,13 +202,13 @@ Items Checked Out
 Current Items Checked Out
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Select the _Items Checked Out_ tab at the top of the _My Account_ area to display all of the items you 
+Select the _Items Checked Out_ tab at the top of the _My Account_ area to display all of the items you
 currently have checked out.
 
 image::images/opac/opac-account-checked-out-1.png[scaledwidth="75%",alt="My Account Checked Out"]
 
-You can sort the list by Title, Author, Renewals Left, Due Date, Barcode, or Call number by clicking on 
-the blue text. The first click sorts the list alphabetically in ascending order and a second click sorts 
+You can sort the list by Title, Author, Renewals Left, Due Date, Barcode, or Call number by clicking on
+the blue text. The first click sorts the list alphabetically in ascending order and a second click sorts
 the list alphabetically in descending order.
 
 If you wish to renew items select the items you wish to renew and click *Go* beside _Renew Selected Titles_.
@@ -226,13 +226,13 @@ image::images/opac/opac-account-checked-out-3.png[scaledwidth="75%",alt="My Acco
 Check out history will only display if it has been enabled in your _Search and History Preferences_.  History
 displays from the date you enabled it; items checked out prior will not be included in your history.
 
-You can sort the list by Title, Author, Checkout Date, Due Date, Date Returned, Barcode, or Call number by 
-clicking on the blue text. The first click sorts the list alphabetically in ascending order and a second 
+You can sort the list by Title, Author, Checkout Date, Due Date, Date Returned, Barcode, or Call number by
+clicking on the blue text. The first click sorts the list alphabetically in ascending order and a second
 click sorts the list alphabetically in descending order.
 
-Click Download CSV to download your list in a file that can be opened in a spreadsheet program. 
+Click Download CSV to download your list in a file that can be opened in a spreadsheet program.
 
-If you wish to delete individual titles from the list select the items you wish to delete and click *Go* 
+If you wish to delete individual titles from the list select the items you wish to delete and click *Go*
 beside _Delete Selected Titles_.
 
 image::images/opac/opac-account-checked-out-4.png[scaledwidth="75%",alt="My Account Checked Out"]
@@ -249,17 +249,17 @@ Select the Holds tab to display a list of items you have holds on.
 
 image::images/opac/opac-account-holds-1.png[scaledwidth="75%",alt="My Account Holds"]
 
-You can sort the list by Title, Author, and Format by clicking on the blue text. The first click sorts the 
+You can sort the list by Title, Author, and Format by clicking on the blue text. The first click sorts the
 list alphabetically in ascending order and a second click sorts the list alphabetically in descending order.
 
-You can use the checkbox beside each hold to select the hold and the *Action for selected holds* drop down list 
-to suspend, activate, or cancel the selected holds. You may set an activation date when you suspend your hold 
+You can use the checkbox beside each hold to select the hold and the *Action for selected holds* drop down list
+to suspend, activate, or cancel the selected holds. You may set an activation date when you suspend your hold
 or leave the date blank and manually activate it later. A suspended hold will not lose its hold queue position.
 
-The _Status_ column shows whether or not your hold is currently available for pickup, if it has been 
+The _Status_ column shows whether or not your hold is currently available for pickup, if it has been
 suspended, and what your position is in the hold queue.
 
-Your position in the hold queue is indicated by the first number in the status column. For example 
+Your position in the hold queue is indicated by the first number in the status column. For example
 "Hold #3 on 1 copy" indicates you are third in the hold queue.
 
 Clicking the *Edit* link will bring you to the hold editing screen.  Here you can:
@@ -286,6 +286,16 @@ image::images/opac/opac-account-holds-3.png[scaledwidth="75%",alt="My Account Ho
 
 Holds history will only display if it has been enabled in your _Search and History Preferences_.
 
+Holds Groups
+^^^^^^^^^^^^
+(((Hold Groups)))
+
+Select the Hold Groups tab to display a list of Hold Groups you are included in.
+
+Click *Remove me* to remove yourself from the Hold Group.
+
+image::images/opac/opac-holdgroups.png[scaledwidth="75%",alt="My Account Hold Groups"]
+
 
 Reservations
 ~~~~~~~~~~~~
@@ -305,7 +315,7 @@ image::images/opac/opac-reservations-2.png[scaledwidth="75%",alt="My Account Res
 Fines and Payments
 ~~~~~~~~~~~~~~~~~~
 
-The _Fines and Payments_ tab, at bottom of the _Account Summary_ screen, displays any fines or fees that 
+The _Fines and Payments_ tab, at bottom of the _Account Summary_ screen, displays any fines or fees that
 your patron has accrued and the payments that have made. Patron can pay their fines at the library.
 
 image::images/opac/opac-account-fines-1.png[scaledwidth="75%",alt="My Account Fines"]
