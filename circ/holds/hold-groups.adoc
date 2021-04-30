@@ -20,6 +20,15 @@ image:images/circ/holdgroups.png[scaledwidth="75%",alt="Create a New Hold Group"
 
 NOTE: Hold Groups are visible only to the staff member who created them but can be shared through Bucket ID.
 
+Edit An Existing Hold Group
++++++++++++++++++++++++++++
+
+.Edit An Existing Hold Group
+. *Circulation* -> *Hold Groups*.
+. On the Hold Groups tab, double-click the Hold Group you wish to modify. This will open the Hold Group in the Current Users tab.
+. Click the Hold Groups button and choose Edit Hold Group.
+. The Edit Bucket pop-up will open. You can edit the name, description, owning library, or visibility.
+
 Add Users to a Hold Group
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -72,15 +81,6 @@ image:images/circ/holdgroups-patronsearch.png[scaledwidth="75%",alt="Patron Sear
 . Choose the Hold Group to which you want to add the patron(s).
 . A message displays on the bottom right corner of the screen to confirm whether the patrons were added successfully to the Hold Group.
 
-Edit An Existing Hold Group
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.Edit An Existing Hold Group
-. *Circulation* -> *Hold Groups*.
-. On the Hold Groups tab, double-click the Hold Group you wish to modify. This will open the Hold Group in the Current Users tab.
-. Click the Hold Groups button and choose Edit Hold Group.
-. The Edit Bucket pop-up will open. You can edit the name, description, owning library, or visibility.
-
 Place Holds For a Hold Group
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -111,6 +111,15 @@ Cancel Holds For a Hold Group
 
 Holds can be cancelled from the Hold Events tab by selecting the hold and using the Actions menu and choosing Cancel Hold Group Event.
 
+.Cancel Holds For a Hold Group
+. *Circulation* -> *Hold Groups*.
+. From the Hold Events tab, select the holds you wish to cancel.
+. Click *Actions* -> *Cancel hold group event*.
++
+image:images/circ/holdgroups-cancel.png[scaledwidth="75%",alt="Cancel Holds For a Hold Group"]
++
+. Click *OK/Continue*
+
 Deleting a Hold Group
 ^^^^^^^^^^^^^^^^^^^^^
 
@@ -120,6 +129,8 @@ Hold Groups can be deleted on the Current Users tab. Deleting a Hold Group does 
 . *Circulation* -> *Hold Groups*.
 . From the Hold Group tab, double-click the Hold Group you wish to delete. This will open the Hold Group in the Current Users tab.
 . Click the Hold Groups drop down and choose *Delete Hold Group*.
++
+image:images/circ/holdgroups-delete.png[scaledwidth="75%",alt="Delete Hold Group"]
 
 
 Administrative Features of Hold Groups
