@@ -84,7 +84,7 @@ Edit An Existing Hold Group
 Place Holds For a Hold Group
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Holds can be placed from the Hold Groups interface or by searching the catalog. Staff must have MANAGE_BATCH_HOLDS permissions to place a batch hold or cancel holds with this interface.
+Holds can be placed from the Hold Groups interface.
 
 .From the Hold Groups Interface
 . *Circulation* -> *Hold Groups*.
@@ -95,12 +95,16 @@ Holds can be placed from the Hold Groups interface or by searching the catalog. 
 . Use the checkbox to override all hold-blocking conditions possible if desired.
 . Click *Create Event*.
 
+////
 .From Searching the Catalog
 . Search the catalog to identify the record on which you wish to place a hold
 . Click *Place Hold* from the results or detailed record. The Hold Placement page appears.
 . Use the radio button to choose Place hold for patron Hold Group and use the drop down to choose the Hold Group from the list.
 .. Please note that most additional hold options (e.g., choosing the pickup library or notification preferences) are disabled for holds placed by Hold Group. Pickup location and notification preferences adhere to the defaults for the respective patrons. Patrons can edit their notification preferences and pickup locations from My Account on the public catalog after the hold is placed. Holds may be suspended and an activate date added if desired.
 .Click *Submit*.
+////
+
+NOTE: There is pending development to allow for holds to be placed for hold groups by searching the catalogue.
 
 Cancel Holds For a Hold Group
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
