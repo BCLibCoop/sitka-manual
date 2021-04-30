@@ -15,6 +15,8 @@ Create a Hold Group
 . Choose the owning library from the drop down (defaults to the workstation library).
 . If you want the Hold Group to be visible to the patrons on the list, check the Visible to Patrons? checkbox.
 . Click *Create Bucket*.
++
+image:images/circ/holdgroups.png[scaledwidth="75%",alt="Create a New Hold Group"]
 
 NOTE: Hold Groups are visible only to the staff member who created them but can be shared through Bucket ID.
 
@@ -27,34 +29,47 @@ Patrons can be added to a Hold Group by barcode, by searching for a patron with 
 . *Circulation* -> *Hold Groups*.
 . Double-click the name of the Hold Group you wish to add patrons to.
 . Go to the Add Users tab.
++
+image:images/circ/holdgroups-adduser.png[scaledwidth="75%",alt="Hold Group Add Users tab"]
++
 . Scan or enter the patron barcode into the Scan Barcode field.
 .. Added patrons appear in a list under the Add All To Hold Group button. Users in this list are considered pending and have not yet been added to the Hold Group. Note that the parenthetical number for Add Users increases to display the number of pending users.
 .. Continue adding barcodes as needed.
 . From the list, select one or more users with the checkboxes at the beginning of each row or select all users with the checkbox at the list.
 . Click *Actions* -> *Add to Hold Group*.
++
+image:images/circ/holdgroups-adduser.png[scaledwidth="75%",alt="Actions Add to Hold Group"]
++
 . The users will now appear on the Current Users tab as part of the Hold Group.
 
 .Add Users With Integrated Patron Search
 . *Circulation* -> *Hold Groups*.
-Double-click the name of the Hold Group you wish to add patrons to.
-Go to the Add Users tab.
-Click Search for Patron. A patron search pop-up opens. The search is scoped to the workstation of the logged in staff member, but can be expanded by using the additional search fields.
-Enter search criteria into the appropriate fields. The pop-up defaults to the basic patron search. Additional search fields are available by clicking the down-arrow button to the right of the Search button. This option is sticky.
-Click Search or hit the Enter key. Results appear in the bottom portion of the pop-up window.
-Click anywhere on a row in the results list to select that patron.
-Click Select. The patron is added to the list of pending users. Users on this list have not yet been added to the Hold Group. Note that the parenthetical number for Add Users increases to display the number of pending users.
+. Double-click the name of the Hold Group you wish to add patrons to.
+. Go to the Add Users tab.
+. Click *Search for Patron*. A patron search pop-up opens.
+.. The search is scoped to the workstation of the logged in staff member, but can be expanded by using the additional search fields.
+. Enter search criteria into the appropriate fields.
+.. The pop-up defaults to the basic patron search. Additional search fields are available by clicking the down-arrow button to the right of the Search button. This option is sticky.
+. Click *Search* or hit the Enter key. Results appear in the bottom portion of the pop-up window.
+. Click anywhere on a row in the results list to select that patron.
+. Click *Select*. The patron is added to the list of pending users. Users on this list have not yet been added to the Hold Group. Note that the parenthetical number for Add Users increases to display the number of pending users.
 Continue adding patrons as needed.
-From the list, select one or more users with the checkboxes at the beginning of each row or select all users with the checkbox at the list.
-Use the Actions button (or right click any user line) and choose Add to Hold Group. The users will now appear on the Current Users tab as part of the Hold Group.
-You can add some or all of the users in the pending users list to different Hold Groups without entering barcodes or searching again. Simply go to the Hold Groups tab and  double-click another Hold Group from the list. Return to the Add Users tab and select the users you wish to add to the new Hold Group, and use the Actions menu to add them to the Hold Group.
+. From the list, select one or more users with the checkboxes at the beginning of each row or select all users with the checkbox at the list.
+. Click *Actions* -> *Add to Hold Group*.
+. The users will now appear on the Current Users tab as part of the Hold Group.
+
+NOTE: You can add some or all of the users in the pending users list to different Hold Groups without entering barcodes or searching again. Simply go to the Hold Groups tab and double-click another Hold Group from the list. Return to the Add Users tab and select the users you wish to add to the new Hold Group, and use the Actions menu to add them to the Hold Group.
 
 .From Patron Search
 . *Search* -> *Search for Patrons*.
 . Enter your search criteria.
 . Use the checkboxes on each patron search result to select one or more patrons.
 . Click *Add to Bucket*.
++
+image:images/circ/holdgroups-patronsearch.png[scaledwidth="75%",alt="Patron Search Add to Hold Groups Bucket"]
++
 .. A list of Hold Groups, as well as other patron buckets, are visible. (Only those Hold Groups created by the logged in user are visible.)
-. Choose the Hold Group to which you want to add the patron(s) or create a new Hold Group.
+. Choose the Hold Group to which you want to add the patron(s).
 . A message displays on the bottom right corner of the screen to confirm whether the patrons were added successfully to the Hold Group.
 
 Edit An Existing Hold Group
@@ -81,10 +96,10 @@ Holds can be placed from the Hold Groups interface or by searching the catalog. 
 . Click *Create Event*.
 
 .From Searching the Catalog
-Search the catalog to identify the record on which you wish to place a hold
-Click “Place Hold” from the results or detailed record. The Hold Placement page appears.
-Use the radio button to choose Place hold for patron Hold Group and use the drop down to choose the Hold Group from the list.
-Please note that most additional hold options (e.g., choosing the pickup library or notification preferences) are disabled for holds placed by Hold Group. Pickup location and notification preferences adhere to the defaults for the respective patrons. Patrons can edit their notification preferences and pickup locations from My Account on the public catalog after the hold is placed. Holds may be suspended and an activate date added if desired.
+. Search the catalog to identify the record on which you wish to place a hold
+. Click *Place Hold* from the results or detailed record. The Hold Placement page appears.
+. Use the radio button to choose Place hold for patron Hold Group and use the drop down to choose the Hold Group from the list.
+.. Please note that most additional hold options (e.g., choosing the pickup library or notification preferences) are disabled for holds placed by Hold Group. Pickup location and notification preferences adhere to the defaults for the respective patrons. Patrons can edit their notification preferences and pickup locations from My Account on the public catalog after the hold is placed. Holds may be suspended and an activate date added if desired.
 .Click *Submit*.
 
 Cancel Holds For a Hold Group
