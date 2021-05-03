@@ -16,9 +16,19 @@ image::images/cat/cat-search-library.png[Search Library]
 +
 image::images/cat/numeric-search-1.png[Numeric Search screen]
 +
-. You can search by ISBN, ISSN, LCCN, TCN, or Item Barcode.
+. You can search by ISBN, UPC, ISSN, LCCN, TCN, or Item Barcode.
 +
 image::images/cat/numeric-search-2.png[Numeric Search options]
++
+[TIP]
+======
+* UPC's are only recognized by the Numeric Search when the 024 indicator 1 is coded as "1".
+* If searching a LCCN do not use a hyphen,  add a 0 in place of a hyphen, e.g. 2001001234.
+* If an OCLC number is nine digits then Evergreen uses ocn as a prefix. For example:  ocn123456789.
+* If an OCLC number is less than 8 digits then Evergreen uses ocm as a prefix.  In addition Evergreen 
+will automatically prefix the number with zeros so that it is nine digits.  For example:  ocm01234567, 
+or ocm00123456.
+======
 +
 . Enter your search criteria and click *Search*.
 +
@@ -30,12 +40,4 @@ for information on determining which result to add your holding to.
 image::images/catnew/numeric-search-4.png[two search results]
 +
 
-[TIP]
-======
-* It is possible to search ISBNs by Keyword, but results may not be exhaustive. 
-We recommend using *Numeric Search* when searching for ISBN or other standard identifiers.
-* If an OCLC number is nine digits then Evergreen uses ocn as a prefix. For example:  ocn123456789.
-* If an OCLC number is less than 8 digits then Evergreen uses ocm as a prefix.  In addition Evergreen will automatically prefix the number with zeros so that it is nine digits.  For example:  ocm01234567, or ocm00123456.
-* If searching a LCCN do not use a hyphen,  add a 0 in place of a hyphen, e.g. 2001001234.
-======
 
