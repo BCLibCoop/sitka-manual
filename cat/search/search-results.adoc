@@ -7,17 +7,17 @@ which is the best match for your item.  Refer to xref:
 . The results for your search will display.
 .. Brief holdings and bibliographic details display for each search result.
 +
-image::images/catnew/numeric-search-4.png[two search results]
+image::images/new/numeric-search-4.png[two search results]
 +
 . To view the record details, click on the title link.
 +
-image::images/catnew/viewing-search-results-1.png[section of the search result with the title link circled]
+image::images/new/viewing-search-results-1.png[section of the search result with the title link circled]
 +
 . Use the **MARC View** or **MARC Edit** tab to look at the MARC record to confirm that it matches with your 
 item.  Refer to the http://docs.libraries.coop/policy/_cataloguing_procedures.html[Cataloguing Procedures] section
 of the Policy Manual for information on how to determine a match.
 +
-image::images/catnew/viewing-search-results-2.png[Record Details with MARC View]
+image::images/cat/viewing-search-results-2.png[Record Details with MARC View]
 +
 . If satisfied that the record matches the item in hand, you can proceed to add your holdings to the record.
 
