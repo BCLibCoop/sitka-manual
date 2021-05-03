@@ -1,26 +1,28 @@
 Numeric Search
 ~~~~~~~~~~~~~~
 
-. To search the catalogue for holdings select *Cataloging* -> *Search the Catalog (Experimnental)*.
+. To search the catalogue for holdings select *Cataloging* -> *Search the Catalogue*.
 +
-image::images/catnew/experimental-cat-menu.png[Catalogue Menu]
+image::images/cat/cat-menu.png[Catalogue Menu]
 +
 . When searching for cataloguing purposes it is important to ensure 
 that you search the entire consortium. 
 +
-image::images/catnew/experimental-cat-search-library.png[Search Library]
+image::images/cat/cat-search-library.png[Search Library]
++
+..(GLCONS is the Green Land Consortium on Sitka's training server.)
 +
 . Select the *Numeric Search* tab. It will be open by default if it's set as your Default Search Pane. 
 +
-image::images/catnew/numeric-search-1.png[Numeric Search screen]
+image::images/cat/numeric-search-1.png[Numeric Search screen]
 +
 . You can search by ISBN, ISSN, LCCN, TCN, or Item Barcode.
 +
-image::images/catnew/numeric-search-2.png[Numeric Search options]
+image::images/cat/numeric-search-2.png[Numeric Search options]
 +
 . Enter your search criteria and click *Search*.
 +
-image::images/catnew/numeric-search-3.png[Numeric Search select Search]
+image::images/cat/numeric-search-3.png[Numeric Search select Search]
 +
 . Your results are displayed.  Refer to xref:_viewing_search_results_for_cataloguing_purposes[]
 for information on determining which result to add your holding to.
