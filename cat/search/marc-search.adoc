@@ -22,8 +22,3 @@ image::images/catnew/marc-search-2.png[MARC Search screen]
 for information on determining which result to add your holding to.
 +
 image::images/catnew/numeric-search-4.png[two search results]
-
-[NOTE]
-======
-There is currently a bug that prevents Evergreen from returning results if you use more than one tag in a search.
-======

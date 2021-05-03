@@ -20,6 +20,16 @@ image::images/cat/numeric-search-1.png[Numeric Search screen]
 +
 image::images/cat/numeric-search-2.png[Numeric Search options]
 +
+. Enter your search criteria and click *Search*.
++
+image::images/cat/numeric-search-3.png[Numeric Search select Search]
++
+. Your results are displayed.  Refer to xref:_viewing_search_results_for_cataloguing_purposes[]
+for information on determining which result to add your holding to.
++
+image::images/cat/numeric-search-4.png[two search results]
++
+
 [TIP]
 ======
 * UPC's are only recognized by the Numeric Search when the 024 indicator 1 is coded as "1".
@@ -29,15 +39,5 @@ image::images/cat/numeric-search-2.png[Numeric Search options]
 will automatically prefix the number with zeros so that it is nine digits.  For example:  ocm01234567, 
 or ocm00123456.
 ======
-+
-. Enter your search criteria and click *Search*.
-+
-image::images/cat/numeric-search-3.png[Numeric Search select Search]
-+
-. Your results are displayed.  Refer to xref:_viewing_search_results_for_cataloguing_purposes[]
-for information on determining which result to add your holding to.
-+
-image::images/catnew/numeric-search-4.png[two search results]
-+
 
 
