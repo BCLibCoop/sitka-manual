@@ -1,16 +1,16 @@
 Catalogue Preferences
 ~~~~~~~~~~~~~~~~~~~~~
 
-In the experimental catalogue it is now possible to set catalogue related preferences directly in the catalogue.
+Catalogue related preferences can be set directly in the staff catalogue.
 
 .To set your catalogue preferences:
-. In the experimental catalogue click on *Catalog Preferences*.
+. In the catalogue click on *Catalog Preferences*.
 +
-image::images/catnew/search-preferences-1.png[Catalog Preference Button]
+image::images/cat/search-preferences-1.png[Catalog Preference Button]
 +
 . Set the values you would like for your preferences.
 +
-image::images/catnew/search-preferences-2.png[Catalog Preference Options]
+image::images/cat/search-preferences-2.png[Catalog Preference Options]
 +
 .. For cataloguing workstations it is recommended that the Default Search Library be set to Sitka. 
 This will ensure that staff using those workstations are always searching all of Sitka.
