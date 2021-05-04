@@ -33,5 +33,5 @@ image::images/cat/keyword-search-3.png[one search results]
 ======
 It is possible to search ISBNs by Keyword, but results may not be exhaustive. 
 We recommend using *Numeric Search* when searching for ISBN or other standard identifiers.  
-Refer to xref:_numeric_search.html[].
+Refer to xref:_numeric_search[].
 ======

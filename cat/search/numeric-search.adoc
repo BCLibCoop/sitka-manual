@@ -1,7 +1,7 @@
 Numeric Search
 ~~~~~~~~~~~~~~
 
-. To search the catalogue for holdings select *Cataloging* -> *Search the Catalogue*.
+. To search the catalogue for holdings select *Cataloguing* -> *Search the Catalogue*.
 +
 image::images/cat/cat-menu.png[Catalogue Menu]
 +
@@ -32,7 +32,7 @@ image::images/cat/numeric-search-4.png[two search results]
 
 [TIP]
 ======
-* UPC's are only recognized by the Numeric Search when the 024 indicator 1 is coded as "1".
+* UPC's are only recognized by the Numeric Search when the 024 indicator 1 is coded as "1" for Universal Product Code.
 * If searching a LCCN do not use a hyphen,  add a 0 in place of a hyphen, e.g. 2001001234.
 * If an OCLC number is nine digits then Evergreen uses ocn as a prefix. For example:  ocn123456789.
 * If an OCLC number is less than 8 digits then Evergreen uses ocm as a prefix.  In addition Evergreen 
