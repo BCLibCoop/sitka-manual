@@ -23,7 +23,9 @@ Backdated Check In
 This is useful for clearing a book drop.
 
 . Click the calendar widget and set date, or edit date in *Effective Date* field.
-. Scan barcodes. The new effective date is now displayed in the header.
+.. The new effective date is now displayed in the header.
+.. If you check the box *Use effective date until logout* the effective date will be use until log out even if you close the tab.
+. Scan barcodes.
 . Edit *Effective Date* when backdated check in is complete.
 +
 image:images/circ/checkin2.png[scaledwidth="75%"]
