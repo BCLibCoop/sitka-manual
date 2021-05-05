@@ -24,7 +24,7 @@ This is useful for clearing a book drop.
 
 . Click the calendar widget and set date, or edit date in *Effective Date* field.
 .. The new effective date is now displayed in the header.
-.. If you check the box *Use effective date until logout* the effective date will be use until log out even if you close the tab.
+.. Check the box *Use effective date until logout* to make the backdate effective until logout.
 . Scan barcodes.
 . Edit *Effective Date* when backdated check in is complete.
 +
