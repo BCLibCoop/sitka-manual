@@ -6,20 +6,20 @@ https://www.youtube.com/playlist?list=PLdwlgwBNnH4qraSQkpaXZiwUrLtRF4ocd[*New Fe
 Circulation
 ~~~~~~~~~~~
 
-* Test Notifications - Patrons and staff may request a test notification for a patron’s default email 
-address or SMS number via the Patron Registration screen in the staff client, or on the OPAC My Account 
+* Test Notifications - Patrons and staff may request a test notification for a patron’s default email
+address or SMS number via the Patron Registration screen in the staff client, or on the OPAC My Account
 preferences page.
 
 https://youtu.be/BlkMo4ieM48[*Sitka Snippet Video - Test Notifications (0:46)*]
 
 
-* Hold Groups - Library staff may create lists of patrons that can then be used to place multiple title-level 
+* Hold Groups - Library staff may create lists of patrons that can then be used to place multiple title-level
 holds on the same bibliographic record.
 
 https://youtu.be/WpbGpyJX9Dg[*Sitka Snippet Video - Hold Groups (2:45)*]
 
 
-* Hopeless Holds - Library staff can now quickly pull a list of holds deemed unfillable and take actions to 
+* Hopeless Holds - Library staff can now quickly pull a list of holds deemed unfillable and take actions to
 resolve them.
 
 
@@ -39,10 +39,10 @@ Cataloguing
 * Publisher values are now extracted for display from tags 260 OR 264.
 
 
-Catalogue/Public Catalogue
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Staff Catalogue
+~~~~~~~~~~~~~~~
 
-* The new staff catalogue is now the supported staff catalogue and includes search templates and 
+* The new staff catalogue is now the supported staff catalogue, and includes search templates and
 recent searches.
 
 
@@ -51,9 +51,8 @@ recent searches.
 
 * Basket To Bucket action now allows adding to Shared Buckets.
 
-
-* Did you Mean? search suggestion in OPAC for misspelled search term.
-
+Public Catalogue
+~~~~~~~~~~~~~~~~
 
 * Improved email and printing options from the OPAC, which now includes local call number.
 
@@ -70,7 +69,3 @@ Reports
 ~~~~~~~
 
 A new output option _Calculate grouping subtotals_ available.
-
-
-
-
