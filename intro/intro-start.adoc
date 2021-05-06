@@ -105,10 +105,15 @@ image::images/intro/function-bar-2.png[]
 Column Configuration
 ~~~~~~~~~~~~~~~~~~~~
 
-From many screens and lists, you can click on the column picker drop-down menu to change which columns are displayed. Various search results tables may not default to the most useful columns. For instance, the patron search results page may be easier to use if you change the columns to Card, Last Name, First Name, Middle Name, and Primary Identification, and you may wish to have the results sort by Last Name, then by First Name.
+From many screens and lists, you can click on the column picker drop-down menu to change which columns 
+are displayed. Various search results tables may not default to the most useful columns. For instance, 
+the patron search results page may be easier to use if you change the columns to Card, Last Name, 
+First Name, Middle Name, and Primary Identification, and you may wish to have the results sort 
+by Last Name, then by First Name.
 
 .To customize your columns:
-. Click on the dropdown arrow at the top-right of the results table.
+. Click on the dropdown arrow or the settings symbol on the function bar to open the column picker.
+.. Some options in the menu and the resulting screens will differ depending on the version of the function bar.
 +
 image::images/intro/columnconfig1.png[]
 +
@@ -119,6 +124,7 @@ image::images/intro/columnconfig1.png[]
 .. Click *Move Up* or *Move Down* to change column position.
 .. Click *First Visible* or *Last Visible* to move the selected column to the top or bottom of the list.
 .. Use *Sort Priority* to prioritize how sorting should work. (A negative number will sort the column in reverse order.)
+... This option only appears in certain cases.
 +
 image::images/intro/columnconfig2.png[]
 +
@@ -127,12 +133,23 @@ image::images/intro/columnconfig2.png[]
 +
 image::images/intro/columnconfig3.png[]
 +
-. Click *Save columns*.
+. Click *Save Grid Settings*.
 +
 image::images/intro/columnconfig4.png[]
 
 Filters
 ~~~~~~~
+
+Some interfaces now include filters that enable staff to filter the available rows.
+
+image::images/intro/filters-1.png[]
+
+image::images/intro/filters-2.png[]
+
+image::images/intro/filters-3.png[]
+
+image::images/intro/filters-4.png[]
+
 
 Keyboard Shortcuts
 ~~~~~~~~~~~~~~~~~~
