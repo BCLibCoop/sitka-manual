@@ -14,7 +14,7 @@ image::images/admin/library-filter-1.png[Library Filter]
 Create a Shelving Location
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Click *New Copy/Shelving Location*.
+. Click *New Shelving Location*.
 . Enter the relevant information for your shelving location and click *Save*.
 +
 * *Circulate?* means an item in this location can be checked out.
@@ -26,14 +26,14 @@ Create a Shelving Location
 +
 image::images/admin/shelving-location-1.png[[scaledwidth="75%",alt="Create Shelving Location"]
 
-NOTE: Text in the Label prefix and Label suffix fields will automatically be added to 
-spine labels printed for items in the selected shelving location. It does not affect 
+NOTE: Text in the Label prefix and Label suffix fields will automatically be added to
+spine labels printed for items in the selected shelving location. It does not affect
 OPAC or staff client display.
 
-TIP: Whether an item can be circulated, is holdable, or visible on the OPAC, is 
-controlled by three factors: item status, shelving location, and item attributes 
-(the options in the Copy Editor). Evergreen follows the aforementioned sequence 
-to check the value of each factor until it encounters a NO. An item can be circulated, 
+TIP: Whether an item can be circulated, is holdable, or visible on the OPAC, is
+controlled by three factors: item status, shelving location, and item attributes
+(the options in the Holdings Editor). Evergreen follows the aforementioned sequence 
+to check the value of each factor until it encounters a NO. An item can be circulated,
 holdable or visible on OPAC when all three factors are set to YES.
 
 Edit a Shelving Location
@@ -53,7 +53,7 @@ location name doesn't match between Evergreen and the $l in the templates your M
 Delete a Shelving Location
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Shelving locations that contain items, including deleted items, cannot be deleted through the 
+Shelving locations that contain items, including deleted items, cannot be deleted through the
 staff client.  Please contact Support if you wish to delete a shelving location.
 
 
@@ -74,9 +74,9 @@ anchor:shelving-location-order[Shelving Location Order]
 Shelving location order is currently not in use.
 
 ////
-This is where you specify the shelving location order on your holds pull list. 
-Items are grouped together by shelving location on the list to ease the process 
-of tracing items on shelves. You may adjust the order according to the layout of 
+This is where you specify the shelving location order on your holds pull list.
+Items are grouped together by shelving location on the list to ease the process
+of tracing items on shelves. You may adjust the order according to the layout of
 your library's shelves.
 
 Drag a shelving location on the list to the proper position, then click *Apply Changes.*
