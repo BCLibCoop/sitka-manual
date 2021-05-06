@@ -1,14 +1,14 @@
 Search Filters and Format Icons
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Evergreen utilizes the coded information entered into the leader and control fields in the 
+Evergreen utilizes the coded information entered into the leader and control fields in the
 MARC record for search filters and format icons.  These fields need to be accurately coded
-so that the correct format icons display and expected records are included in 
+so that the correct format icons display and expected records are included in
 search results.
 
 [NOTE]
 ======
-The new catalogue presently includes search filters that are different from those available in the 
+The new catalogue presently includes search filters that are different from those available in the
 traditional catalogue.  Further work is required in the new catalogue to enable it to use our custom filters.
 ======
 
@@ -47,7 +47,7 @@ Search Filters
 *Formats* - currently includes formats not included in our regular format list
 
 
-The format filter is used by the catalogue to allow staff and patrons to limit their search by material 
+The format filter is used by the catalogue to allow staff and patrons to limit their search by material
 format. The following table shows the fixed fields associated with each format filter value.
 
 
@@ -76,7 +76,7 @@ format. The following table shows the fixed fields associated with each format f
 | Videos (physical) | item_type(g) AND NOT item_form (o,q,s)
 |===
 
-The format icons show in the search results and record display in the catalogue. The following table 
+The format icons show in the search results and record display in the catalogue. The following table
 shows the fixed fields associated with each format icon.
 
 [options="header"]
@@ -102,8 +102,9 @@ shows the fixed fields associated with each format icon.
 | Phonograph music | item_type(j) AND sr_format(a,b,c,d,e)
 | CD music | item_type(j) AND sr_format(f)
 | Cassette music | item_type(j) AND sr_format(l)
-| E-music | item_type(j) AND item_form(o, s, q)
+| E-music | item_type(j) AND item_form(o, s)
 | Music score | item_type(c,d)
+| Preloaded Audio | item_type(i) AND item_form(q)
 | Picture | item_type(k)
 | Serial or magazine | bib_level(b,s) and NOT item_form (o, s, q)
 | E-Serial or magazine | bib_level(b,s) AND item_form (o, s, q)
