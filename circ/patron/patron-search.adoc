@@ -20,11 +20,9 @@ Patron Search
 
 link:https://youtu.be/JqY14Jd-BVU[*Sitka Snippet Video - Patron Search (1:04)*]
 
-For patron search, we recommend you set search scope to Sitka, in order to search all opted in patrons at your library, and to select *Include Inactive?*, in order to search expired patrons. These selections are "sticky" and should be left on.
+For patron search, we recommend you set search scope to Sitka, in order to search all opted in patrons at your library.
 
-We also recommend you display all search field options by clicking the up and down arrow on right to show all search fields.
-
-As of Evergreen 3.3, you can search by patron *Name Keywords* and *Parent/Guardian* fields.
+You can expand the search field options by clicking the up and down arrow on right to show all search fields.
 
  . Click *Search For Patron By Name*, or select *Search → Search for Patrons* or *(F4)*.
 
