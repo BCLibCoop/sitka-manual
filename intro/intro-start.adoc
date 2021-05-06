@@ -82,6 +82,26 @@ image::images/intro/changeop2.png[]
 +
 . Click *OK/Continue*
 
+Function Bar
+~~~~~~~~~~~~
+
+The function bar can be found throughout Evergreen and enables you to page through pages, 
+adjust the number of rows displaying, access the Actions menu, and manage your columns.
+
+The function bar comes in two styles with similar functionality.
+
+image::images/intro/function-bar-1.png[]
+
+image::images/intro/function-bar-2.png[]
+
+. Page through pages
+. Actions Menu
+. Adjust number of rows
+. Jump to page
+. Column Configuration
+. Text wrap
+
+
 Column Configuration
 ~~~~~~~~~~~~~~~~~~~~
 
@@ -110,6 +130,9 @@ image::images/intro/columnconfig3.png[]
 . Click *Save columns*.
 +
 image::images/intro/columnconfig4.png[]
+
+Filters
+~~~~~~~
 
 Keyboard Shortcuts
 ~~~~~~~~~~~~~~~~~~
