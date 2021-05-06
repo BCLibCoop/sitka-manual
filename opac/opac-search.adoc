@@ -445,8 +445,8 @@ image::images/opac/opac-search-results-6.png[scaledwidth="75%",alt="Search Resul
 
 
 
-Viewing a Title Record
-^^^^^^^^^^^^^^^^^^^^^^
+View a Title Record
+^^^^^^^^^^^^^^^^^^^
 
 Click on a title to view a detailed record of the title, including descriptive information, location
 and availability, and options for placing holds.
@@ -456,13 +456,11 @@ Click *Show Only Available Copies* to limit view to available items of that titl
 image::images/opac/opac-search-results-7.png[scaledwidth="75%",alt="Search Results"]
 
 
-Details
-^^^^^^^
+Title Details
+^^^^^^^^^^^^^
 
-The record shows details such as the cover image, title, author, publication information, and an abstract or
-summary, if available.
-
-The Record Details view shows how many copies are at the library or libraries you have selected, and whether
+The record view shows details such as the cover image, title, author, publication information, an abstract or
+summary, if available, how many copies are at the library or libraries you have selected, and whether
 they are available or checked out. It also displays the _Call number_ and _Copy Location_ for locating the
 item on the shelves. Click on *Text* beside the call number to send the item's call number
 by text message. Clicking the location library link will reveal information about owning library,
@@ -484,8 +482,8 @@ the results page, or from within the record details view.
 
 image::images/opac/opac-search-results-8.png[scaledwidth="75%",alt="Search Results"]
 
-Going Back
-^^^^^^^^^^
+Go Back
+^^^^^^^
 
 When you are viewing a specific record, you can always go back to your title list by clicking the link
 *Search Results* on the left of the page.
