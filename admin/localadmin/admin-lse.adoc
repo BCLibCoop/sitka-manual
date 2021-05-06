@@ -541,6 +541,7 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 
 |Allow Patron Self-Registration|Allow patrons to self-register, creating pending user accounts|True/False| | Sitka
 |Allow pending addresses|If true patrons can edit their addresses in the OPAC. Changes must be approved by staff|True/False| | LSA
+|Allow record emailing without login|Instead of forcing a patron to log in in order to email the details of a record, just challenge them with a simple catpcha.|True/False| | LSA
 |Auto-Override Permitted Hold Blocks (Patrons)|This will allow patrons with the permission "HOLD_ITEM_CHECKED_OUT.override" to automatically override permitted holds.|True/False|When a patron places a hold in the OPAC that fails, and the patron has the permission to override the failed hold, this automatically overrides the failed hold rather than requiring the patron to manually override the hold.  Default: False |  Sitka
 
 |Custom CSS for the OPAC | This can be populated with CSS that will load in the OPAC after the stylesheets and allow for custom CSS without editing server side templates. | Text | | Sitka
