@@ -4,12 +4,12 @@ Search the Public Catalogue
 (((Public Catalogue)))
 (((OPAC)))
 
-NOTE: A patron friendly version of this section can be found at https://help.libraries.coop/catalogue. The *Help* 
+NOTE: A patron friendly version of this section can be found at https://help.libraries.coop/catalogue. The *Help*
 link in the footer of your public catalogue will also take users to this site.
 
 The public catalogue can be accessed online from any location via the Internet and is available in English and French.
 
-The language selector in the top-right allows users to switch between English and French as desired.
+The language selector in the top-right allows your users to switch between English and French as desired.
 
 image::images/opac/opac-language-selector-1.png[scaledwidth="75%",alt="Language Selector]
 
@@ -64,7 +64,7 @@ You can limit your search by format. Some of the more popular formats in the lis
 [TIP]
 =====
 The format filter uses values from the Leader, 007, and 008 fields of the MARC record to determine which
-records to include in your search results.  More information can be found in 
+records to include in your search results.  More information can be found in
 xref:_format_filters_and_format_icons[].
 =====
 
@@ -77,12 +77,12 @@ The default search library is your library or borrowing zone. If your library sy
 or a borrowing zone that includes multiple libraries you can use the _Library_ box to select different
 branches or libraries.
 
-If your library has multiple branches, your search result will display items available at your branch and
-all branches of your library system separately. If your library participates in Interlibrary Connect
+If your library has multiple branches, your search results will display items available at your branch and
+all branches of your library system separately. If your library participates in Interlibrary Connect resource sharing,
 the results may display items available across the larger borrowing zone.
 
 If you access the catalogue from https://catalogue.libraries.coop you may scope your search result to Sitka,
-regional libraries, a library system or a library branch by clicking into the Library box on the catalogue
+regional libraries, a library system, or a library branch by clicking into the _Library_ box on the catalogue
 homepage and selecting the target library from the drop down list. You will then be able to see how many
 copies of a title are available in all Sitka member libraries across Sitka, or within the regional libraries,
 or within the library system, or within the branch, depending on search scope selected.
@@ -120,7 +120,7 @@ different library or regional libraries, or all libraries in Sitka to search.
 Sort Results
 ^^^^^^^^^^^^
 
-By default, the search results are in order of greatest to least relevance. See 
+By default, the search results are in order of greatest to least relevance. See
 xref:_search_methodology[Order of Results in]. In
 the _Sort Results_ box you may select to order the search results by relevance, title, author,
 publication date, or popularity.
@@ -232,8 +232,8 @@ The browse is constructed by the term _starting with_.
 
 image::images/opac/opac-browse-catalogue-1.png[scaledwidth="75%",alt="Basic Search"]
 
-You may move backward or forward through your results by clicking on *Back* or *Next*. Note your results
-are alphabetical, with results prior to your search term, and after, listed.
+Click  *Back* or *Next* to move through results. Note results
+are alphabetical, with results prior to the search term, and after, listed.
 
 Search Tips
 ~~~~~~~~~~~
@@ -443,11 +443,15 @@ If you are searching multiple branches or libraries you will see the libraries w
 
 image::images/opac/opac-search-results-6.png[scaledwidth="75%",alt="Search Results"]
 
-Viewing a record
-^^^^^^^^^^^^^^^^
+
+
+Viewing a Title Record
+^^^^^^^^^^^^^^^^^^^^^^
 
 Click on a title to view a detailed record of the title, including descriptive information, location
 and availability, and options for placing holds.
+
+Click *Show Only Available Copies* to limit view to available items of that title. Click *Show All Copies* to see all items.
 
 image::images/opac/opac-search-results-7.png[scaledwidth="75%",alt="Search Results"]
 
@@ -460,8 +464,8 @@ summary, if available.
 
 The Record Details view shows how many copies are at the library or libraries you have selected, and whether
 they are available or checked out. It also displays the _Call number_ and _Copy Location_ for locating the
-item on the shelves. Clicking on *Text* beside the call number will allow you to send the item's call number
-by text message, if desired. Clicking the location library link will reveal information about owning library,
+item on the shelves. Click on *Text* beside the call number to send the item's call number
+by text message. Clicking the location library link will reveal information about owning library,
 such as address and open hours.
 
 Below the local details you can open up various tabs to display more information. You can select
@@ -475,12 +479,12 @@ Search Additional Items by Author, Subject or Series
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can search for additional items by an author, one of the subjects in the record or other works in the same
-series. Clicking the author, subject or series will start a new search in the catalogue. You can do this from
-the results page or from within the record details view.
+series. Click the author, subject or series to start a new search in the catalogue. You can do this from
+the results page, or from within the record details view.
 
 image::images/opac/opac-search-results-8.png[scaledwidth="75%",alt="Search Results"]
 
-Going back
+Going Back
 ^^^^^^^^^^
 
 When you are viewing a specific record, you can always go back to your title list by clicking the link

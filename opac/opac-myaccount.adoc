@@ -3,10 +3,10 @@ My Account
 
 (((My Account)))
 
-Patrons and library staff can access information about their account from any page in the public catalogue by
+Your patrons and staff can access information about their account from any page in the public catalogue by
 clicking the *My Account* button at the top right of the page. Account information includes contact
 information, items checked out or on hold, fines, account preferences, notes left by the library
-(if any) and lists.
+(if any) and lists. For library staff accounts, editing information in their account in the public catalogue is the same as editing their account in the staff catalogue.
 
 
 Logging into My Account
@@ -52,8 +52,7 @@ image::images/opac/opac-account-3.png[scaledwidth="75%",alt="My Account"]
 +
 [NOTE]
 =====
-You must enter only one value, this is an either or choice, as some people only use their barcode to access their account, while others only ever
-use a username.
+You must enter only one value, this is an either or choice, as some people only use their barcode to access their account, while others only ever use a username.
 
 Some libraries also require that you enter the email address associated with the account.  This is controlled
 by the library setting _Require matching email address for password reset requests_.
@@ -81,7 +80,7 @@ or if you continue to be unable to login to your account.
 
 [TIP]
 =====
-Library staff can reset the password for their account using this method if there is an email address
+Library staff can reset the password for their staff account using this method if there is an email address
 recorded in their account.
 =====
 
@@ -127,8 +126,8 @@ Notification Preferences
 (((Notifications, My Account)))
 
 
-The Notification Preferences tab is where you set your preferences for holds notification. You can choose
-to be contacted by email, phone or text message.
+The _Notification Preferences_ tab is where you set your preferences for holds notification. You can choose
+to be contacted by email, phone, or text message.
 
 This is also where you can opt-out of receiving courtesy and overdue email notices using the _Receive
 Overdue and Courtesy Emails_ setting.  Un-checking this box means your library will not send you any emails for items coming due or overdue.
@@ -160,15 +159,15 @@ it takes effect once you choose to retain your history.
 
 You may also choose to disable a warning about adding items to a temporary list.
 
-You can specify who, if anyone, you want to access to your account and what access you wish them to
-have.  This is useful if you'd like someone else to be able to pick up your holds for you.
+You can specify who, if anyone, can access your account and what access you wish them to
+have.  This is useful if you'd like someone else to be able to pick up your holds for you, for example.
 
 image::images/opac/opac-account-8.png[scaledwidth="75%",alt="My Account"]
 
 My Lists Preferences
 ^^^^^^^^^^^^^^^^^^^^
 
-The _My Lists Preferences_ tab allows you to set how many lists you'd like to display per page and how many item
+The _My Lists Preferences_ tab allows you to set how many lists you'd like to display per page, and how many items
 should be displayed per page in your lists.
 
 image::images/opac/opac-account-9.png[scaledwidth="75%",alt="My Account"]
@@ -177,7 +176,7 @@ Messages
 ~~~~~~~~
 
 
-Select the Messages tab at the top of the _My Account_ area to display any messages library staff have added
+Select the _Messages_ tab at the top of the _My Account_ area to display any messages library staff have added
 to your account.
 
 image::images/opac/opac-account-messages-1.png[scaledwidth="75%",alt="My Account Messages"]
@@ -211,7 +210,7 @@ You can sort the list by Title, Author, Renewals Left, Due Date, Barcode, or Cal
 the blue text. The first click sorts the list alphabetically in ascending order and a second click sorts
 the list alphabetically in descending order.
 
-If you wish to renew items select the items you wish to renew and click *Go* beside _Renew Selected Titles_.
+If you wish to renew items, select the items to renew and click *Go* beside _Renew Selected Titles_.
 
 image::images/opac/opac-account-checked-out-2.png[scaledwidth="75%",alt="My Account Checked Out"]
 
@@ -245,7 +244,7 @@ Holds
 Items on Hold
 ^^^^^^^^^^^^^
 
-Select the Holds tab to display a list of items you have holds on.
+Select the _Holds_ tab to display a list of items you have on hold.
 
 image::images/opac/opac-account-holds-1.png[scaledwidth="75%",alt="My Account Holds"]
 

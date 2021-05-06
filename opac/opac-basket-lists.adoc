@@ -73,13 +73,13 @@ Additionally, the contents of the basket are cleared when you log out of your ac
 Batch Actions Through the Basket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Basket Actions menu, found beside the basket icon, enables patrons to view the contents of the basket,
+The *Basket Actions* menu, found beside the basket icon, lets you view the contents of the basket,
 batch place holds, print or email the title details for all titles, add the contents of the basket to a
 saved list, and clear the basket.
 
 image::images/opac/opac-basket-11.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
-The action menu within the basket view also allows patrons to add the contents of the basket to a new list
+The action menu within the basket view also allows you to add the contents of the basket to a new list
 or specific existing list.
 
 image::images/opac/opac-basket-12.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
@@ -91,7 +91,7 @@ Email or Print from the Baskets
 
 . Choose *Email* or *Print* for title details, and click *Go*.
 
-. Patrons must be logged into *My Account* in order to email, and are prompted to do so if not.
+. You must be logged into *My Account* in order to email, and are prompted to do so if not.
 
 . The print and email preview and format editor opens.
 
@@ -155,7 +155,7 @@ image::images/opac/opac-list-3.png[scaledwidth="75%",alt="My Account Lists"]
 Sharing Lists
 ~~~~~~~~~~~~~
 
-By default, all lists are private, and patrons must instruct the system to allow others to view the
+By default, all lists are private, and you must instruct the system to allow others to view the
 contents of a list by clicking *Share* beside the list name.
 
 The address (URL) of the list is used to share it.

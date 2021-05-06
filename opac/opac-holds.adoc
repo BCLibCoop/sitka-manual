@@ -3,59 +3,58 @@ Public Catalogue Holds
 
 (((Holds, Public Catalogue)))
 
-Patrons can place holds for a particular title or a specific volume on your public catalogue. If the item is available, it will appear on a
-library's holds pull list and be pulled from the shelf and held for your patron. If the item is not available, the patron is placed on a waiting list and notified when the item become available.
+You and your patrons can place holds for a particular title or a specific volume on your public catalogue. If the item is available, it will appear on a library's holds pull list and be pulled from the shelf and held for your patron. If the item is not available, the patron is placed on a waiting list and notified when the item become available.
 
 NOTE: Some libraries do not allow holds to be placed on available items.
 
 Title and Volume Holds
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Patrons can place holds using the *Place Hold* link in the search results view or on the title details page.
+Best practice is to place holds using the *Place Hold* link in the search results view or on the title details page.
 Using either of these links means that any copy attached to the record will fill the hold. This is generally
 the best method when requesting an item, as the hold will be filled by any copy of the title record you are
 viewing.
 
 image::images/opac/opac-holds-1.png[scaledwidth="75%",alt="Holds"]
 
-If a patron wants a specific issue of a magazine or a specific DVD in a set, they can select *Volume Hold*
+If you want a specific issue of a magazine or a specific DVD in a set,  select *Volume Hold*
 in the item details view just below.
 
 image::images/opac/opac-holds-2.png[scaledwidth="75%",alt="Holds"]
 
-After clicking on *Place Hold* the system will prompt the patron to log into their account.
+You will be prompted to log in with your library account, if you have not already done so.
 
-If your library is a multi-branch or participates in resource sharing, patrons can choose their
+If your library is multi-branch, or participates in resource sharing, you can choose the
 pickup location.
 
-Patrons can choose to be notified by phone, text message, or email. The notification method will be selected
-automatically if they have set it in their account preferences but can be overridden on this screen.
+You can choose to be notified by phone, text message, or email. The notification method will be selected
+automatically if it is set in account preferences, but can be overridden on this screen.
 
-The phone number and email set in your patron's account will be used to populate the notification options but
-patrons can supply a different phone number for phone or text notification when placing their hold.
+The phone number and email in your account will be used to populate the notification options, but
+you can use a different phone number for phone or text notification when placing the hold.
 
-Patrons have the option to suspend the hold so it can be activated at a later date.
+You can suspend the hold to be activated at a later date.
 
 image::images/opac/opac-holds-3.png[scaledwidth="75%",alt="Holds"]
 
-Once your patron clicks *Submit* a message will appear confirming their hold was successfully placed or
-indicating that their hold could not be placed.
+Once you click *Submit* a message will appear confirming the hold was successfully placed or
+indicating that the hold could not be placed.
 
 image::images/opac/opac-holds-4.png[scaledwidth="75%",alt="Holds"]
 
-Patrons can view and cancel their holds at anytime through My Account, and can edit, suspend, or activate
-their holds until they are captured for pick up.
+You can view and cancel your holds at anytime through My Account, and can edit, suspend, or activate
+your holds until they are captured for pick up.
 
 
 Placing Holds on Multiple Records of the Same Title
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If _Group by Formats and Edition_ was selected when doing a search, your patron may place a hold on multiple
-records  of the title but of different formats or editions by clicking *Place Hold* to the right of the
+If _Group by Formats and Edition_ was selected when doing a search, you can place a hold on multiple
+records  of the title, but of different formats or editions, by clicking *Place Hold* to the right of the
 meta record.
 
 image::images/opac/opac-holds-5.png[scaledwidth="75%",alt="Holds"]
 
-Patrons can select the acceptable formats on the place hold screen.
+Select the acceptable formats on the place hold screen.
 
 image::images/opac/opac-holds-6.png[scaledwidth="75%",alt="Holds"]
