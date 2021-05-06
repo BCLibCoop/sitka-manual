@@ -44,33 +44,33 @@ This table below describes the item statuses with Sitka's property settings.
 
 [option="header"]
 |===
-| Item Status | Definition | Holdable | OPAC Viewable | Sets copy active | Is Available?
-| Available	| Item is on the shelf	| Yes | Yes | Yes | Yes
-| Bindery | Sent to be rebound | No| Yes| No| No
-| Canceled Transit	| A transit for the item was aborted | Yes	| Yes	| No	| No
-| Cataloguing	| Item is being catalogued or in cataloguing department	| Yes	| Yes	| Yes	| No
-| Checked out	| Item is on loan	| Yes	| Yes	| Yes	| No
-| Claimed Returned	| Patron reports item has been returned. (Libraries develop own procedure for deciding when to make an item Claimed Return)	| No	| Yes	| Yes	| No
-| Cleaning	| Item is being cleaned (ie. DVDs and CDs)	| Yes	| Yes	| Yes	| No
-| Damaged	| Damaged and may not circulate again	| No	| Yes	| Yes	| No
-| Discard/Weed	| Item is no longer in collection, it has been weeded or discarded	| No	| No	| Yes	| No
-| ILL	| Item is being used for an inter library loan (borrower is not tracked in Evergreen)	| Yes	| Yes	| Yes	| No
-| In process	| Item is being processed and will soon be available	|Yes	|Yes	| No	| No
-| In transit	| Item is travelling between libraries and remains in the In Transit status until checked in	| Yes	| Yes	| Yes	| No
-| Long Overdue	| Not currently used in Sitka.	| No	| No	| No	| No
-| Lost	| Declared lost by patron or library (either manually or automatically) |	No	| Yes	| Yes	| No
-| Lost and Paid	| Item was declared lost by patron or staff and has now been paid for.	| No	| Yes	| Yes	| No
-| Mending	| Item is being repaired	| Yes	| Yes	| Yes	| No
-| Missing	| Item cannot be found	| No	| Yes	| Yes	| No
-| On display	| Item is on display and is not in its usual shelving location	| Yes	| Yes	| Yes	| Yes
-| On holds shelf	| Item is awaiting pick-up by patron. Item is usually on a "holds shelf" within the library	| Yes	| Yes	| Yes	| No
-| On order	| Item has been ordered but not yet received from a vendor	| Yes	| Yes	| No	| No
-| On reservation shelf	| Used with room/booking module. When an item has been booked/reserved, it is placed in a unique location, ready for pick-up	| No	| Yes	| Yes	| No
-| Onsite consultation	| Item is available for use on-site and possibly needs to be requested through staff. This is not intended for normal reference materials.	| No	| Yes	| Yes	| Yes
-| Reserves	| In reserves collection	| No	| Yes	| Yes	| Yes
-| Reshelving	| Item has been returned but not yet shelved. Status automatically changes to Available after 24 hours	| Yes	| Yes	| Yes	| Yes
-| Storage	| On-site or off-site storage	| Yes	| Yes	| Yes	| No
-| Temporarily Unavailable	| Not available for patrons to borrow but will become available at a later date	| No	| No	| Yes	| No
+| Item Status | Definition | Holdable | OPAC Viewable | Sets copy active | Is Available? |Hopeless Prone |
+| Available	| Item is on the shelf	| Yes | Yes | Yes | Yes | No 
+| Bindery | Sent to be rebound | No| Yes| No| No | No 
+| Canceled Transit	| A transit for the item was aborted | Yes	| Yes	| No	| No | No 
+| Cataloguing	| Item is being catalogued or in cataloguing department	| Yes	| Yes	| Yes	| No | No 
+| Checked out	| Item is on loan	| Yes	| Yes	| Yes	| No | No 
+| Claimed Returned	| Patron reports item has been returned. (Libraries develop own procedure for deciding when to make an item Claimed Return)	| No	| Yes	| Yes	| No | No 
+| Cleaning	| Item is being cleaned (ie. DVDs and CDs)	| Yes	| Yes	| Yes	| No | No 
+| Damaged	| Damaged and may not circulate again	| No	| Yes	| Yes	| No | Yes
+| Discard/Weed	| Item is no longer in collection, it has been weeded or discarded	| No	| No	| Yes	| No | Yes
+| ILL	| Item is being used for an inter library loan (borrower is not tracked in Evergreen)	| Yes	| Yes	| Yes	| No | No 
+| In process	| Item is being processed and will soon be available	|Yes	|Yes	| No	| No | No 
+| In transit	| Item is travelling between libraries and remains in the In Transit status until checked in	| Yes	| Yes	| Yes	| No | No 
+| Long Overdue	| Not currently used in Sitka.	| No	| No	| No	| No | No 
+| Lost	| Declared lost by patron or library (either manually or automatically) |	No	| Yes	| Yes	| No | Yes
+| Lost and Paid	| Item was declared lost by patron or staff and has now been paid for.	| No	| Yes	| Yes	| No | Yes
+| Mending	| Item is being repaired	| Yes	| Yes	| Yes	| No | No 
+| Missing	| Item cannot be found	| No	| Yes	| Yes	| No | Yes
+| On display	| Item is on display and is not in its usual shelving location	| Yes	| Yes	| Yes	| Yes | No 
+| On holds shelf	| Item is awaiting pick-up by patron. Item is usually on a "holds shelf" within the library	| Yes	| Yes	| Yes	| No | No 
+| On order	| Item has been ordered but not yet received from a vendor	| Yes	| Yes	| No	| No | No 
+| On reservation shelf	| Used with room/booking module. When an item has been booked/reserved, it is placed in a unique location, ready for pick-up	| No	| Yes	| Yes	| No | No 
+| Onsite consultation	| Item is available for use on-site and possibly needs to be requested through staff. This is not intended for normal reference materials.	| No	| Yes	| Yes	| Yes | No 
+| Reserves	| In reserves collection	| No	| Yes	| Yes	| Yes | No 
+| Reshelving	| Item has been returned but not yet shelved. Status automatically changes to Available after 24 hours	| Yes	| Yes	| Yes	| Yes | No 
+| Storage	| On-site or off-site storage	| Yes	| Yes	| Yes	| No | No 
+| Temporarily Unavailable	| Not available for patrons to borrow but will become available at a later date	| No	| No	| Yes	| No | No 
 |===
 
 [TIP]
