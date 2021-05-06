@@ -38,13 +38,14 @@ appear as the corresponding month only (2018-09).
 .. Select one or more output formats. In this example the report output will be available as an Excel
 spreadsheet, an HTML table (for display in the staff client or browser), and as a bar chart. Please note
 that charts are suitable to some result data only.
+.. Check the “Calculate grouping subtotals” checkbox to add an unlabeled row or column with the subtotals for each grouping and an unlabeled grand total row or column. Please note group subtotals and grand totals are suitable to some result data only.
 .. If you want the report to be recurring, check the Recurring Report box and select the Recurrence Interval as described in xref:_running_recurring_reports[].  In this example, as this is a report that will only be run once, the Recurring Report
 box is not checked.
 .. Select *Run as soon as possible* for immediate output. It is also possible to set up reports that run
 automatically in the future.
 .. It is optional to fill out an email address where a completion notice can be sent. The email will contain
-a link to a password-protected report output which staff with permission to view report output can access. 
-If you have an email address in your account, it will automatically appear in the email notification box.  
+a link to a password-protected report output which staff with permission to view report output can access.
+If you have an email address in your account, it will automatically appear in the email notification box.
 However, you can enter a different email address or multiple addresses separated by commas.
 .. Select a folder for the report's output.
 . You will get a confirmation dialogue box that the Action Succeeded. Click OK.
