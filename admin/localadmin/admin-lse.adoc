@@ -488,6 +488,8 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 
 |Org unit target weight|Org Units can be organized into hold target groups based on a weight. Potential copies from org units with the same weight are chosen at random.|Number| |Sitka
 
+|Randomize group hold order|When placing a batch group hold, randomize the order of the patrons receiving the holds so they are not always in the same order.|True/False|Default: True|LSA
+
 |Reset request time on un-cancel|When a hold is uncancelled, reset the request time to push it to the end of the queue|True/False| |LSA
 
 |Skip for hold targeting|When true, don't target any copies at this org unit for holds|True/False| | Sitka
