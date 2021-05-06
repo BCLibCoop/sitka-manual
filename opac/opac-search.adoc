@@ -453,7 +453,7 @@ and availability, and options for placing holds.
 
 Click *Show Only Available Copies* to limit view to available items of that title. Click *Show All Copies* to see all items.
 
-image::images/opac/opac-search-results-7.png[scaledwidth="75%",alt="Search Results"]
+image:images/opac/opac-search-results-7.png[scaledwidth="75%"]
 
 
 Title Details
@@ -477,10 +477,11 @@ Search Additional Items by Author, Subject or Series
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can search for additional items by an author, one of the subjects in the record or other works in the same
-series. Click the author, subject or series to start a new search in the catalogue. You can do this from
+series. Click the author, subject, or series link to start a new search in the catalogue. You can do this from
 the results page, or from within the record details view.
 
-image::images/opac/opac-search-results-8.png[scaledwidth="75%",alt="Search Results"]
+image:images/opac/opac-search-results-8.png[scaledwidth="75%"]
+
 
 Go Back
 ^^^^^^^
