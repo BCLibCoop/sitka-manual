@@ -85,8 +85,7 @@ image:images/circ/metahold5.png[scaledwidth="75%"]
 
 TIP: The icons indicate the available formats at the search location. The number beside the title is the number of records with physical items. Click the title to view these individual records.
 
-TIP: If no format is selected all available formats are hold targets.
-After a meta-record hold is placed, if a new MARC record is added and it meets the grouping criteria, items under this new record will be targeted.
+TIP: After a meta-record hold is placed, if a new MARC record is added and it meets the grouping criteria, items under this new record will be targeted.
 
 Call Number and Item Level Hold
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
