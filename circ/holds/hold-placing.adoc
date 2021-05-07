@@ -35,11 +35,11 @@ Title Level Hold
 image:images/circ/placehold1.png[scaledwidth="75%"]
 +
 . Scan or type patron's barcode, or select your own staff login, or click *Patron Search* if you do not have patron's card.
-. Edit patron hold notification methods and pickup location, if necessary, and click *Submit*. Any method or contact number entered on this screen will override defaults in patron record, and will be used for display and print purposes for this hold.
+. Edit patron hold notification methods and pickup location, if necessary, and click *Place Hold(s)*. Any method or contact number entered on this screen will override defaults in patron record, and will be used for display and print purposes for this hold.
 +
 image:images/circ/placehold2.png[scaledwidth="75%"]
 +
-. Click *Continue* to go back to search results, or click *Place another hold for this title*.
+. Click *Return* to go back to search results, or place another hold for this title.
 +
 image:images/circ/placehold3.png[scaledwidth="75%"]
 
@@ -48,6 +48,7 @@ Meta-record Level Hold
 
 You can request acceptable formats and languages of a title at time of hold placement, or you can group formats at time of search. Records are grouped by title, author, and format. Format information is from the MARC record leader and fixed fields.
 
+////
 Advanced Hold Options
 +++++++++++++++++++++
 
@@ -62,11 +63,12 @@ image:images/circ/metahold2.png[scaledwidth="75%"]
 +
 . Edit patron hold notification methods and pickup location, if required.
 . Click *Submit*.
+////
 
 Group Formats and Editions Search
 +++++++++++++++++++++++++++++++++
 
-. On the *Advanced Search* screen, click *Group Formats and Editions*.
+. On the *Keyword Search* tab, check the box for *Group Formats and Editions*.
 +
 image:images/circ/metahold3.png[scaledwidth="75%"]
 +
@@ -75,7 +77,11 @@ image:images/circ/metahold3.png[scaledwidth="75%"]
 +
 image:images/circ/metahold4.png[scaledwidth="75%"]
 +
-. Select the acceptable formats and languages and click *Submit*.
+. Select the acceptable formats and languages
++
+image:images/circ/metahold5.png[scaledwidth="75%"]
++
+. Click *Place Hold(s)*.
 
 TIP: The icons indicate the available formats at the search location. The number beside the title is the number of records with physical items. Click the title to view these individual records.
 
@@ -92,7 +98,7 @@ image:images/circ/volhold1.png[scaledwidth="75%"]
 +
 . Edit patron hold notification fields as required and click *Submit*.
 
-NOTE: Support recommends only using copy holds if it's absolutely necessary to target a particular physical 
+NOTE: Support recommends only using copy holds if it's absolutely necessary to target a particular physical
 copy.  Copy holds should never be used when placing holds on items owned by other libraries.
 
 Placing Holds in Patron Records
