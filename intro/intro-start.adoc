@@ -7,7 +7,7 @@ Accessing the Evergreen Staff Client
 
 * The web client is responsive to device and to screen size, and can look different on different devices.
 
-* The default URL to log into the client is *https://catalogue.libraries.coop/eg/staff/*
+* The default URL to log into the staff client is *https://catalogue.libraries.coop/eg/staff/*
 
 image::images/intro/getstarted1.png[]
 
@@ -22,7 +22,7 @@ Before logging into Evergreen for the first time, you must register a workstatio
 
 NOTE: Local System Administrator permissions are required to register a new workstation.
 
-. Navigate to the web client log in page.
+. Navigate to the web client log in page. The default URL to log into the staff client is *https://catalogue.libraries.coop/eg/staff/*
 . Enter *Username* and *Password* -> Click *Sign In*
 +
 image::images/intro/getstarted2.png[]
@@ -50,7 +50,7 @@ image::images/intro/getstarted6.png[]
 Logging into Evergreen
 ^^^^^^^^^^^^^^^^^^^^^^
 
-. The default URL to log into the client is *https://catalogue.libraries.coop/eg/staff/*
+. The default URL to log into the staff client is *https://catalogue.libraries.coop/eg/staff/*
 . Enter your Username and Password.
 . Verify that the correct workstation is selected and click *Sign In*.
 +
@@ -85,7 +85,7 @@ image::images/intro/changeop2.png[]
 Function Bar
 ~~~~~~~~~~~~
 
-The function bar can be found throughout Evergreen and enables you to page through pages, 
+The function bar can be found throughout Evergreen and enables you to page through pages,
 adjust the number of rows displaying, access the Actions menu, and manage your columns.
 
 The function bar comes in two styles with similar functionality.
@@ -105,10 +105,10 @@ image::images/intro/function-bar-2.png[]
 Column Configuration
 ~~~~~~~~~~~~~~~~~~~~
 
-From many screens and lists, you can click on the column picker drop-down menu to change which columns 
-are displayed. Various search results tables may not default to the most useful columns. For instance, 
-the patron search results page may be easier to use if you change the columns to Card, Last Name, 
-First Name, Middle Name, and Primary Identification, and you may wish to have the results sort 
+From many screens and lists, you can click on the column picker drop-down menu to change which columns
+are displayed. Various search results tables may not default to the most useful columns. For instance,
+the patron search results page may be easier to use if you change the columns to Card, Last Name,
+First Name, Middle Name, and Primary Identification, and you may wish to have the results sort
 by Last Name, then by First Name.
 
 .To customize your columns:
