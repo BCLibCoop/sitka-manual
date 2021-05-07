@@ -88,18 +88,18 @@ TIP: The icons indicate the available formats at the search location. The number
 TIP: If no format is selected all available formats are hold targets.
 After a meta-record hold is placed, if a new MARC record is added and it meets the grouping criteria, items under this new record will be targeted.
 
-Volume and Copy Level Hold
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+Call Number and Item Level Hold
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. To place a volume or copy level hold, retrieve and display the record.
-. Select record in holdings grid and click *Volume hold* or *Copy hold* in *Holdable?* column.
+. To place a call number or item level hold, retrieve and display the record.
+. In the Item Table click *Call Number Hold* or *Item Hold* in *Holdable?* column.
 +
-image:images/circ/volhold1.png[scaledwidth="75%"]
+image:images/circ/callnumberhold1.png[scaledwidth="75%"]
 +
 . Edit patron hold notification fields as required and click *Submit*.
 
-NOTE: Support recommends only using copy holds if it's absolutely necessary to target a particular physical
-copy.  Copy holds should never be used when placing holds on items owned by other libraries.
+NOTE: Support recommends only using Items holds if it's absolutely necessary to target a particular physical
+item.  Item Holds should never be used when placing holds on items owned by other libraries.
 
 Placing Holds in Patron Records
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
