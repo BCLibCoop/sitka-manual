@@ -44,7 +44,7 @@ This table below describes the item statuses with Sitka's property settings.
 
 [option="header"]
 |===
-| Item Status | Definition | Holdable | OPAC Viewable | Sets copy active | Is Available? |Hopeless Prone |
+| Item Status | Definition | Holdable | OPAC Viewable | Sets copy active | Is Available? |Hopeless Prone 
 | Available	| Item is on the shelf	| Yes | Yes | Yes | Yes | No 
 | Bindery | Sent to be rebound | No| Yes| No| No | No 
 | Canceled Transit	| A transit for the item was aborted | Yes	| Yes	| No	| No | No 
