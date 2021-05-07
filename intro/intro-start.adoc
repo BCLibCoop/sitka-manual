@@ -224,3 +224,6 @@ Set Search Preferences
 .. Advanced search has secondary panes for Numeric and MARC Expert searching. You can change which one is loaded by default when opening a new catalog window here.
 +
 image::images/intro/searchpref.png[]
+
+Additional settings are available through Catalogue Preferences in the staff catalogue.  For 
+more details see xref:_catalogue_preferences[].
