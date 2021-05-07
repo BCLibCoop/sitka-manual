@@ -97,8 +97,17 @@ image:images/circ/callnumberhold1.png[scaledwidth="75%"]
 +
 . Edit patron hold notification fields as required and click *Submit*.
 
+Call Number Hold
+++++++++++++++++
+
+Item Hold
++++++++++
+
+
 NOTE: Support recommends only using Items holds if it's absolutely necessary to target a particular physical
 item.  Item Holds should never be used when placing holds on items owned by other libraries.
+
+NOTE: Do not use Recall Hold or Force Item Hold 
 
 Placing Holds in Patron Records
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
