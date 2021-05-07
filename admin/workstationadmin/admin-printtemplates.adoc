@@ -4,12 +4,10 @@ Print Templates
 (((Receipt Template Editor, Macros)))
 (((Receipt Template Editor, Checkout)))
 
-Most of the receipts that print from the Evergreen staff client software are managed via the Print Template Editor 
-(**Administration -> Workstation -> Print Templates**) and can be customized on an individual workstation basis. Typically, library systems 
-will set up the receipts the way they want them to print out on one workstation at a branch, then export the settings as a file and 
-import that file to each of the other workstations at that branch.
+Most of the receipts that print from the Evergreen staff client software are managed via the Print Template Editor
+(**Administration -> Workstation -> Print Templates**) and can be customized on an individual workstation basis. Typically, library systems will set up the receipts the way they want them to print out on one workstation at a branch, then export the settings as a file and import that file to each of the other workstations at that branch.
 
-If Hatch is installed receipts can be forced to use specific printer settings. Printer Settings can be set 
+If Hatch is installed receipts can be forced to use specific printer settings. Printer Settings can be set
 at *Administration -> Workstation -> Printer Settings*.
 
 *This is a complete list of the receipts currently in use in Evergreen.*
@@ -121,7 +119,7 @@ To print just a substring of a variable, you can use a *limitTo* function:  `{{v
 Images
 ++++++
 You can use HTML and CSS to add an image to your print template if you
-have the image uploaded onto a publicly available web server.  The logo image from your Evergreen public 
+have the image uploaded onto a publicly available web server.  The logo image from your Evergreen public
 catalogue can be used for this.
 
 ----
@@ -147,18 +145,9 @@ into other workstations. See *link*
 
 Reset Print Templates to Default
 ++++++++++++++++++++++++++++++++
-The web client doesn't have a built-in option to reset the print
-templates to default, but they should reset if you clear your entire
-browser cache. You could also un-zip the file below and import the file
-it contains.
 
+Click *Reset to Default*.
 
-WARNING:
-====
-Clearing your browser's cache/temporary files will clear any print
-template customizations that you make. Be sure to export a copy of your
-customizations as a backup so that you can import it as needed.
-====
 
 Export and Import Customized Receipts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
