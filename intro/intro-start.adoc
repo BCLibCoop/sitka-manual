@@ -144,9 +144,16 @@ Some interfaces now include filters that enable staff to filter the available ro
 
 image::images/intro/filters-1.png[]
 
+Depending on the data in the field the filters will either allow you to filter on true/false or the text values.
+
 image::images/intro/filters-2.png[]
 
+
 image::images/intro/filters-3.png[]
+
+When a column is filtered it will display with a blue Filter that can be edited to change the value of the filter.
+Filters can be removed individually per column by clearing the filter or all filters can be removed at once
+using the *Remove Filters* button.
 
 image::images/intro/filters-4.png[]
 
