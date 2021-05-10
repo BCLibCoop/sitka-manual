@@ -3,21 +3,21 @@ Hold Policies
 
 anchor:hold-policy[Hold Policy]
 
-The hold policy for each library or library system defines who can place how many holds on what types 
-of materials. It also defines whether the library's materials can be used to fill holds picked up at other 
-libraries. 
+The hold policy for each library or library system defines who can place how many holds on what types
+of materials. It also defines whether the library's materials can be used to fill holds picked up at other
+libraries.
 
-Hold policies are usually defined by a combination of the Requestor Permission Group 
+Hold policies are usually defined by a combination of the Requestor Permission Group
 (eg. Public Library Users, Public Library Staff etc.), item attributes like circulation modifier (
-eg. book, juvenile-collection etc.), and library (user home, item's owning and circulating library) 
-with additional parameters of maximum holds and whether a hold can be placed at all. Transit Range 
+eg. book, juvenile-collection etc.), and library (user home, item's owning and circulating library)
+with additional parameters of maximum holds and whether a hold can be placed at all. Transit Range
 defines where the library's materials can go to fill holds.
 
 [NOTE]
 ====
-All changes to your hold policies are made by Support.  
+All changes to your hold policies are made by Co-op Support Staff.
 
-To request changes to your hold policies submit a ticket to https://bc.libraries.coop/support/[Support]. 
+To request changes to your hold policies submit a ticket to https://bc.libraries.coop/support/[Support].
 We recommend submitting your request at least one week before you'd like the change go into effect.
 ====
 
@@ -28,31 +28,31 @@ view your policies in Evergreen (Local System Administrator permissions required
 +
 ** Multiple report templates for hold policies are available here.
 +
-* In Evergreen select *Administration -> Local Administration -> Hold Policies*. Select your 
-library from the drop down menu in *Context Org Unit*. 
-
-** The first screen provides a summary view of each hold policy for your library, and more detail can be seen by 
-clicking on the individual entries.
-
-image::images/admin/hold-policy-1.png[]
+* In Evergreen select *Administration -> Local Administration -> Hold Policies*.
++
+image::images/admin/hold-policy-1.png[scaledwidth="75%",alt="hold policies"]
 
 [NOTE]
 ====
 For libraries participating in reciprocal borrowing like Interlibrary Connect not all hold policies will
-display in Evergreen by default.  To ensure you see all your policies you need to filter the display twice: once 
-by Owning Library, and then a second time by Pickup Library.  
+display in Evergreen by default.  To ensure you see all your policies you need to filter the display twice: once
+by Owning Library, and then a second time by Pickup Library.
 
-Click *Filter* under Context Org Unit. In the popped up window, select *Owning Library* or *Pickup Library* 
-from the first drop down menu; *Is* from the second, and your library or library system from the third. Click 
-*Apply* to limit display to policies applied based on the owning library or pickup library.
+Click *Filter* under *Pickup Library*. In the popped up window, select *Is (or includes)*, check the box for *+ Ancestors*, and choose your library. Click
+*Apply filter* to limit display to policies based on the pickup library.
+
+Click *Filter* under *Owning Library*. In the popped up window, select *Is (or includes)*, check the box for *+ Ancestors*, and choose your library. Click
+*Apply filter* to limit display to policies based on the owning library.
 ====
 
-** Select an individual hold policy for viewing by double-clicking on the desired row.  
+////
+** Select an individual hold policy for viewing by double-clicking on the desired row.
 
-In the below example, all Sitka public library patrons, including all profiles under Public Library Patron, 
-are able to place holds on BPE library's items of any circulation modifier and pick up these items at BPE library. 
+In the below example, all Sitka public library patrons, including all profiles under Public Library Patron,
+are able to place holds on BPE library's items of any circulation modifier and pick up these items at BPE library.
 The hold limit is 9999, meaning no limit.
 
 image::images/admin/hold-policy-2.png[]
 
 ** Clicking *Save* will have no effect as only Support can make changes to hold policies.
+////
