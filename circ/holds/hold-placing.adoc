@@ -23,8 +23,8 @@ The chart below summarizes the four levels of holds.
 |Hold level |	Abbreviation |	When to use	How to use|	Who can use |Hold tied to
 |Meta-record| M	|Patron wants first available copy of multiple titles of the same/different format.	Click on place hold to the right of the record. From holds confirmation screen, click Advanced hold options and select other applicable formats. |Patron or staff |	Holdings attached to multiple MARC (title) records sharing the same title and author of selected format(s)(book, video, audiobook, etc.)
 |Title	| T	| Patron wants first available copy of a title.	Staff or patron click on place hold to the right of a record on search result list or record summary screen. | Patron or staff | Holdings attached to a single MARC (title) record
-|Volume	| V	| Patron wants the first available copy of a specific volume (call number) of a title. Staff or patron click Volume in *Holdable?* column on the   record summary screen.	| Patron or staff | Call number specific volume record (local call number resides in volume record)
-|Copy	| C | Patron or staff want a specific copy of a title.  Staff click *Copy hold* in *Holdable?* column on the record summary screen.	| Staff	| Item barcode
+|Call Number	| V	| Patron wants the first available copy of a specific call number of a title. Staff click *Call Number Hold* in *Holdable?* column on the record summary screen.	| Patron or staff | Call number specific volume record (local call number resides in volume record)
+|Item	| C | Patron or staff want a specific copy of a title.  Staff click *Item hold* in *Holdable?* column on the record summary screen.	| Staff	| Item barcode
 |===
 
 Title Level Hold
@@ -107,7 +107,7 @@ Item Hold
 NOTE: Support recommends only using Items holds if it's absolutely necessary to target a particular physical
 item.  Item Holds should never be used when placing holds on items owned by other libraries.
 
-NOTE: Do not use Recall Hold or Force Item Hold 
+NOTE: Do not use Recall Hold or Force Item Hold
 
 Placing Holds in Patron Records
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
