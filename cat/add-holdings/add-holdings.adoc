@@ -37,9 +37,9 @@ See xref:_volume_copy_defaults[] for more information.
 Item must be checked in to become *Available* and to create item's *Active Date*.
 .. Refer to 
 xref:_working_on_item_attributes[] for information about individual fields in an item record. 
-.. To ensure data consistency, we recommend using item templates. Select one from the dropdown list, 
+.. To ensure data consistency, we recommend using holding templates. Select one from the dropdown list, 
 then click on *Apply*. Refer to xref:_volume_copy_template[] for more information on creating and using
-item templates.
+holding templates.
 +
 . Once done, click on *Save & Exit*. The pop-up tab is closed.
 
