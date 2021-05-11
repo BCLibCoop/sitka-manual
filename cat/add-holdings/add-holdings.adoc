@@ -3,50 +3,58 @@ Adding Holdings to Bibliographic Records
 
 link:https://youtu.be/Zn1rqJESu5Q[*Sitka Training Video - Holdings Editor (7:26)*]
 
-Adding a Single Call Number/Item
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Adding Holdings
+^^^^^^^^^^^^^^^
 
-. Search the catalogue for a record that matches the item in hand, as described in xref:_searching_the_database_for_cataloguing_purposes[]. If you do not find a match, refer to the  http://docs.libraries.coop/policy/html/policy-cat.html[Sitka Cataloguing Policy] for recommendations on required procedures. If you do find a match, proceed to next step.
-
-. When the record details are loaded, click *Holdings View*.
+. Search the catalogue for a record that matches the item in hand, as described 
+in xref:_searching_the_database_for_cataloguing_purposes[].
+.. If you do not find a match, 
+refer to the http://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka Cataloguing Policy] for 
+recommendations on required procedures. 
+. Click on the title link to open the record.
++
+image::images/cat/viewing-search-results-1.png[section of the search result with the title link circled]
++
+. Click *Add Holdings*.
 +
 image::images/cat/add-holdings-1.png[]
 +
-. To add a new call number (also known as volume), click on *Add Holdings*, as shown in the above image.
-. The Holdings Editor opens up in a new tab.
+. The Holdings Editor will open up in a new tab and will include the Call Number/Volume Editor.
 +
 image::images/cat/add-holdings-2.png[scaledwidth="75%"]
-
-
++
 [CAUTION]
 =========
 
-* Make sure your browser allows Evergreen to open pop-ups.
+* Make sure your browser allows Evergreen to open pop-ups.  See xref:_browser_configuration.html#allow-popups[].
 
 =========
++
+. Complete the required fields in both call number and item records. 
+.. You can configure the default fields displayed in Holdings Editor. Click on *Defaults* on Holdings Editor. 
+See xref:_volume_copy_defaults[] for more information.
+..  By default, a new item has *In Process* status, unless you choose a different one when creating it. 
+Item must be checked in to become *Available* and to create item's *Active Date*.
+.. Refer to 
+xref:_working_on_item_attributes[] for information about individual fields in an item record. 
+.. To ensure data consistency, we recommend using item templates. Select one from the dropdown list, 
+then click on *Apply*. Refer to xref:_volume_copy_template[] for more information on creating and using
+item templates.
++
+. Once done, click on *Save & Exit*. The pop-up tab is closed.
 
 [TIP]
 =====
-* For multi-branch libraries, you may need to select the branch before clicking *Add Holdings*. If you do not select one, the default owning and circulating library is your login working location.
+* For multi-branch libraries, to add items to specific branches start by selecting the branch, or branches,
+on the _Holdings View_ tab before clicking *Add Holdings*. 
+** If you do not select one, the default owning and circulating library is your login working location.
 +
 image::images/cat/add-holdings-2a.png[]
 +
-* Make sure both *Show empty call numbers* and *Show empty libraries* checkboxes are selected in order to display libraries without items on the library list.
+* Make sure both *Show empty call numbers* and *Show empty libraries* checkboxes are selected in order to 
+display branches without items on the library list.
 =====
 
-. Complete the required fields in both call number and item records. Refer to xref:_working_on_item_attributes[] for information about individual fields in an item record. To ensure data consistency, using holdings templates is recommended. Select one from the dropdown list, then click on *Apply*. Refer to xref:_volume_copy_template[] for more information.
-
-. Once done, click on *Save & Exit*. The pop-up tab is closed.
-
-
-[TIP]
-=====
-* By default, a new item has *In Process* status, unless you choose a different one when creating it. Item must be checked in to become *Available* and to create item's *Active Date*.
-+
-* You can configure the default fields displayed in Holdings Editor. Click on *Defaults* on Holdings Editor. See xref:_volume_copy_defaults[] for more information.
-+
-image::images/cat/add-holdings-10.png[]
-=====
 
 
 Adding Multiple Items to One Call Number
