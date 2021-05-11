@@ -39,10 +39,10 @@ display in Evergreen by default.  To ensure you see all your policies you need t
 by Owning Library, and then a second time by Pickup Library.
 
 Click *Filter* under *Pickup Library*. In the popped up window, select *Is (or includes)*, check the box for *+ Ancestors*, and choose your library. Click
-*Apply filter* to limit display to policies based on the pickup library.
+*Apply filter* to display to policies based on the pickup library.
 
 Click *Filter* under *Owning Library*. In the popped up window, select *Is (or includes)*, check the box for *+ Ancestors*, and choose your library. Click
-*Apply filter* to limit display to policies based on the owning library.
+*Apply filter* to display policies based on the owning library.
 ====
 
 ////
