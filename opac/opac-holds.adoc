@@ -58,3 +58,23 @@ image::images/opac/opac-holds-5.png[scaledwidth="75%",alt="Holds"]
 Select the acceptable formats on the place hold screen.
 
 image::images/opac/opac-holds-6.png[scaledwidth="75%",alt="Holds"]
+
+
+Unsuccessful Hold Messages
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If a hold cannot be placed Evergreen will return the message "Hold was not successfully placed".  This will
+be accompanied by a reason why the hold cannot be placed and in some cases the option to override.
+
+*Problem: The patron has reached the maxiumum number of holds* - This indicates the patron has reached
+the maximum number of items they can have on hold at a time based on the library's hold policies.
+
+*Problem: All available copies are temporarily unavailable at your pickup library.  Placing this hold
+could result in longer wait times.* - This indicates that the item is under age-based hold protection 
+set through the Holdings Editor and cannot currently fill holds at your library.  If you override and 
+place the hold it will eventually be filled when the item is no longer protected.
+
+*Problem: Holds are not allowed on this item by library's policy* - This indicates that the item is under 
+age-based hold protection set through the Hold Policies and cannot currently fill holds at your library.  It can
+also indicate that the library has blocked holds placed by a particular patron type or on items using a particular 
+circulation modifier through their hold policies.
