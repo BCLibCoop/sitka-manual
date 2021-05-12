@@ -105,8 +105,8 @@ NOTE: Do not use Recall Hold or Force Item Hold
 Placing Holds in Patron Records
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Click *Holds* tab in the patron record.
-. Click  *Place Hold*.
+. Click the *Holds* tab in the patron record.
+. Click *Place Hold*.
 +
 image:images/circ/patron-place-hold-1.png[scaledwidth="75%"]
 +
@@ -115,22 +115,22 @@ image:images/circ/patron-place-hold-1.png[scaledwidth="75%"]
 . Click *Return* to search to return to your search results or click on the patron's name to return to the
 patron's account.
 +
-image:images/circ/patron-place-hold-1.png[scaledwidth="75%"]
+image:images/circ/patron-place-hold-2.png[scaledwidth="75%"]
 
 
 Holds Status Messages
 ^^^^^^^^^^^^^^^^^^^^^
 
-Hold Pending - Evergreen is waiting for the hold to be placed.
+*Hold Pending* - Evergreen is waiting for the hold to be placed.
 
-Hold Succeeded - The hold has successfully been placed for the patron.
+*Hold Succeeded* - The hold has successfully been placed for the patron.
 
-HIGH_LEVEL_HOLD_HAS_NO_COPIES - This indicates that there are no holdable items that can fill the hold.
+*HIGH_LEVEL_HOLD_HAS_NO_COPIES* - This indicates that there are no holdable items that can fill the hold.
 
-ITEM_AGE_PROTECTED - This indicates that the item is under age-based hold protection set through the Holdings
+*ITEM_AGE_PROTECTED* - This indicates that the item is under age-based hold protection set through the Holdings
 Editor and cannot currently fill holds at your library.  If you override and place the hold it will eventually
 be filled when the item is no longer protected.
 
-ITEM_NOT_HOLDABLE - This indicates that the item is under age-based hold protection set through the Hold
+*ITEM_NOT_HOLDABLE* - This indicates that the item is under age-based hold protection set through the Hold
 Policies and cannot currently fill holds at your library.  If you override and place the hold it will eventually
 be filled when the item is no longer protected.
