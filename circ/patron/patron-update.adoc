@@ -18,7 +18,7 @@ image:images/circ/patronupdate1.png[scaledwidth="75%"]
 
 Patron Summary
 ^^^^^^^^^^^^^^
-.Click the arrows beside the patron name to toggle between Patron Summary views. This choice is sticky and will stay on collapsed or expanded view until changed.
+. Click the arrows beside the patron name to toggle between Patron Summary views. This choice is sticky and will stay on collapsed or expanded view until changed.
 +
 image:images/circ/patronupdate6.png[scaledwidth="75%"]
 
@@ -63,13 +63,15 @@ Re-set Patron Password
 
 TIP: Existing password is not displayed in patron records for security reasons.
 
-Update and Test Email Address
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Update and Test Email Address or SMS/Text Number
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Enter new email address and click *Save*.
-. Click *Send Test Email*.
+. Enter new email address or SMS number, and click *Save*.
+. Click *Send Test Email* or *Send Test Text.*
 +
 image:images/circ/patronupdate5.png[scaledwidth="75%"]
+
+
 
 Invalidate Email Address or Phone Number
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
