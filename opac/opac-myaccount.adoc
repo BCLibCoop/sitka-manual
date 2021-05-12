@@ -105,10 +105,15 @@ Select the _Account Preferences_ tab at the top of the _My Account_ area to acce
 
 Personal Information
 ^^^^^^^^^^^^^^^^^^^^
+(((Update Password, My Account)))
+(((Send Test Email, My Account)))
 
-You can change the username and password that you use to log in to your library account as well as the email
-address the library uses to contact you in the _Personal Information_ tab by clicking the *Change* link
-next to the information you'd like to update.
+You can change the username and password that you use to log in to your library account, and the email
+address that the library uses to contact you, in the _Personal Information_ tab.
+
+Click the *Change* link next to the information you'd like to update.
+
+To test that your email address works, click *Send Test Email*. An automated message will be sent. If you do not receive it, first check your spam folder and contact your library for further assistance.
 
 image::images/opac/opac-account-6.png[scaledwidth="75%",alt="My Account"]
 

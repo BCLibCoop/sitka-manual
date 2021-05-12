@@ -16,6 +16,16 @@ If you edit phone numbers, email addresses, or hold notification preferences, yo
 +
 image:images/circ/patronupdate1.png[scaledwidth="75%"]
 
+Patron Summary
+^^^^^^^^^^^^^^
+.Click the arrows beside the patron name to toggle between Patron Summary views. This choice is sticky and will stay on collapsed or expanded view until changed.
++
+image:images/circ/patronupdate6.png[scaledwidth="75%"]
+
+. The expanded view displays key information about the account on left side of screen.
++
+image:images/circ/patronupdate7.png[scaledwidth="75%"]
+
 Renew Library Card
 ^^^^^^^^^^^^^^^^^^
 
@@ -52,6 +62,14 @@ Re-set Patron Password
 . If your library uses the last 4 digits of phone number as default password, please do not use *Reset Password* button. Instead, enter the new phone number, and click *Save*.
 
 TIP: Existing password is not displayed in patron records for security reasons.
+
+Update and Test Email Address
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Enter new email address and click *Save*.
+. Click *Send Test Email*.
++
+image:images/circ/patronupdate5.png[scaledwidth="75%"]
 
 Invalidate Email Address or Phone Number
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
