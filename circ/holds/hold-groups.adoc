@@ -2,6 +2,8 @@ Hold Groups
 ~~~~~~~~~~~
 (((Holds, Hold Groups)))
 
+https://youtu.be/WpbGpyJX9Dg[*Sitka Snippet Video - Hold Groups (2:45)*]
+
 The Hold Groups feature allows library staff to create lists of patrons that can then be used to place multiple title-level holds on the same bibliographic record. This is useful for book clubs, new or on-order items, and/or high demand items.
 
 Create a Hold Group
@@ -19,9 +21,6 @@ Create a Hold Group
 image:images/circ/holdgroups.png[scaledwidth="75%",alt="Create a New Hold Group"]
 
 NOTE: Hold Groups are visible only to the staff member who created them but can be shared through Bucket ID.
-
-Edit An Existing Hold Group
-+++++++++++++++++++++++++++
 
 .Edit An Existing Hold Group
 . *Circulation* -> *Hold Groups*.
