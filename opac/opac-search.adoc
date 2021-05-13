@@ -64,8 +64,8 @@ You can limit your search by format. Some of the more popular formats in the lis
 [TIP]
 =====
 The format filter uses values from the Leader, 007, and 008 fields of the MARC record to determine which
-records to include in your search results.  More information can be found in
-xref:_format_filters_and_format_icons[].
+records to include in your search results. More information can be found in
+xref:_search_filters_and_format_icons[Search Filters and Format Icons].
 =====
 
 Library
@@ -172,7 +172,7 @@ your result items will be published in 2005, 2006 and 2007.
 [TIP]
 =====
 All the search filters, with the exception of Shelving Location, rely on values entered into the Leader,
-007, 008, or 041 fields of the MARC record.  Records with incorrect coding will not filter correctly.
+007, 008, or 041 fields of the MARC record. Records with incorrect coding will not filter correctly.
 =====
 
 Numeric Search
