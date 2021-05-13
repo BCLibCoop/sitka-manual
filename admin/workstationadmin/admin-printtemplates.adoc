@@ -42,7 +42,7 @@ Customize Receipt Templates
 +
 image::images/admin/printtemplate1.png[]
 +
-.  If you are using Hatch, you can choose different printers for different types of receipts with the Force Content field. If not, leave that field blank.
+.  If you are using Hatch, you can choose different printers for different types of receipts with the Force Content field. If not, leave that field blank ,or on any selection.
 .  Make changes in the Template field.
 .  Click *Save Locally*.
 +
@@ -136,45 +136,38 @@ then by the call number:
 `$$<tr ng-repeat="hold_data in holds | orderBy : ['copy.location.name','volume.label']">$$`
 ----
 
-Export / Import Customized Templates
-++++++++++++++++++++++++++++++++++++
-To set up all workstations in a branch in the same way, set up one
-workstation's receipt templates completely, then use the ``Export
-Customized Templates'' to save an external file that you can then Import
-into other workstations. See *link*
-
 Reset Print Templates to Default
 ++++++++++++++++++++++++++++++++
 
 Click *Reset to Default*.
 
-
-Export and Import Customized Receipts
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Once you have your receipts set up on one machine you can export your receipts, and then load them on to another machine.  Just remember to ''Save Locally'' once you import the receipts on the new machine.
+Export / Import Customized Templates
+++++++++++++++++++++++++++++++++++++
+To quickly set up all workstations in a branch in the same way, set up one
+workstation's receipt templates completely, then use the ``Export
+Customized Templates'' function to save an external file of templates that you can import
+into other workstations. Just remember to ''Save Locally'' once you import the receipts on the new machine.
 
 Export templates
 ++++++++++++++++
-As you can only save a template on to the computer you are working on you will need to export the template if you have more than one computer that prints out receipts (i.e., more than one computer on the circulation desk, or another computer in the workroom that you use to checkin items or capture holds with)
 
-. Export.
-. Select the location to save the template to, name the template, and click Save.
-. Click OK.
+. Click *Export Customized Templates*.
+. The file will open in your default text editor, select the location to save the file to, name the file, and click *Save.*
+. Click *OK.*
 
 Import Templates
 ++++++++++++++++
 
-. Click Import.
-. Navigate to and select the template that you want to import.  Click Open.
-. Click OK.
-. Click Save Locally.
-. Click OK.
+. Click *Import*.
+. Navigate to and select the file that you want to import.  Click *Open.*
+. A message displays advising file imported.
+. Click *Save Locally.*
+
 
 Receipt Content Reference
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Receipt templates use variables for various pieces of information coming from the Evergreen database.  These variables deal with everything from the Library name to the due date of an item. Information from the database is entered in the templates with {{term}}.
+Receipt templates use variables for various pieces of information coming from the Evergreen database.  These variables deal with everything from the library name to the due date of an item. Information from the database is entered in the templates with {{term}}.
 
 .Any Type of Print Template
 [options="header"]
