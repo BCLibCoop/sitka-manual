@@ -136,11 +136,10 @@ The _Notification Preferences_ tab is where you set your preferences for holds n
 to be contacted by email, phone, or text message.
 
 Click *Send Test Text Message* to test your SMS/Text number.
-To opt-out of receiving courtesy and overdue email notices use the _Receive
-Overdue and Courtesy Emails_ setting.  Un-checking this box means your library will not send you any emails for items coming due or overdue.
-You are still responsible for returning items on time and paying any applicable fines.
 
-To receive checkout receipts via email by default check the
+To opt-out of receiving courtesy and overdue email notices use the _Receive Overdue and Courtesy Emails_ setting.  Un-checking this box means your library will not send you any emails for items coming due or overdue. You are still responsible for returning items on time and paying any applicable fines.
+
+To receive checkout receipts via email by default, check the
 _Email checkout receipts by default_ checkbox.
 
 image::images/opac/opac-account-7.png[scaledwidth="75%",alt="My Account"]
