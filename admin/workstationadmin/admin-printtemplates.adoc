@@ -42,7 +42,7 @@ Customize Receipt Templates
 +
 image::images/admin/printtemplate1.png[]
 +
-.  If Hatch is enabled, you can choose different printers for different receipts with the Force Context field. Otherwise, disregard this field.
+.  If Hatch is enabled, you can choose different printers for different receipts with the Force Printer Context field. Otherwise, disregard this field.
 .  Make changes to the code in the Template editor field on right. Examples of code and formatting are below.
 .  Click *Save Locally*.
 +

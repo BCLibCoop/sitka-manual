@@ -3,8 +3,9 @@ My Account
 
 (((My Account)))
 (((Update Staff Account in My Account)))
+(((Update Password, My Account)))
 
-Your patrons and staff can access information about their account from any page in the public catalogue by
+Patrons and staff can access information about their account from any page in the public catalogue by
 clicking the *My Account* button at the top right of the page. Account information includes contact
 information, items checked out or on hold, fines, account preferences, notes left by the library
 (if any) and lists. For library staff accounts, editing information in their account in the public catalogue is the same as editing their account in the staff catalogue.
@@ -139,8 +140,7 @@ Click *Send Test Text Message* to test your SMS/Text number.
 
 To opt-out of receiving courtesy and overdue email notices use the _Receive Overdue and Courtesy Emails_ setting.  Un-checking this box means your library will not send you any emails for items coming due or overdue. You are still responsible for returning items on time and paying any applicable fines.
 
-To receive checkout receipts via email by default, check the
-_Email checkout receipts by default_ checkbox.
+To receive emailed checkout receipts by default, select _Email checkout receipts by default_ .
 
 image::images/opac/opac-account-7.png[scaledwidth="75%",alt="My Account"]
 
@@ -319,7 +319,7 @@ image::images/opac/opac-reservations-2.png[scaledwidth="75%",alt="My Account Res
 Fines and Payments
 ~~~~~~~~~~~~~~~~~~
 
-The _Fines and Payments_ tab, at bottom of the _Account Summary_ screen, displays any fines or fees that
-your patron has accrued and the payments that have made. Patron can pay their fines at the library.
+The _Fines and Payments_ tab, at bottom of the _Account Summary_ screen, displays any fines or fees
+accrued and the payments made. Fines are paid at the library.
 
 image::images/opac/opac-account-fines-1.png[scaledwidth="75%",alt="My Account Fines"]
