@@ -19,9 +19,9 @@ There are some settings, namely Record Display Attributes, Record Match Sets, Me
 
 *Merge/Overlay Profiles* control how the incoming and existing MARC records are merged. Two profiles have been created for all Sitka libraries to use: Merge Using INCOMING Record and Merge Using EXISTING Record.
 
-* Merge Using INCOMING Record: all tags in the INCOMING record will be brought into the final record. Tags: 
+* Merge Using INCOMING Record: all tags in the INCOMING record will be brought into the final record. Tags:
 050, 055, 590, 595, 690, 852 and 856 in the ORIGINAL record will be preserved in the final record. The rest will be removed.
-* Merge Using EXISTING Record: all tags in the ORIGINAL record will be kept. Tags: 050, 055, 590, 595, 690, 
+* Merge Using EXISTING Record: all tags in the ORIGINAL record will be kept. Tags: 050, 055, 590, 595, 690,
 852 and 856 in the INCOMING record will be brought into the final record. The rest will be removed upon merge.
 +
 These profiles ensure local data in these six fields in a merged MARC record is never overwritten, and holding records (in tag 852) can be loaded to either the existing MARC record or with the incoming record.
@@ -156,10 +156,10 @@ image::images/cat/vandelay-6a.png[]
 +
 If the match record in Evergreen is a true match but a full record, Sitka policy requires you to use the existing record instead of importing another. Do not import the record.
 +
-However, if the incoming record contains local information in tags 050, 055, 590, 595, 690, 852 or 856 that you 
-want to bring into the existing record, such as loading holding records to existing MARC records, you 
-need to mark the match record as a merge target. In this scenario you would use the 
-*Merge Using EXISTING Record* merge profile in next step. If you are interested in loading 
+However, if the incoming record contains local information in tags 050, 055, 590, 595, 690, 852 or 856 that you
+want to bring into the existing record, such as loading holding records to existing MARC records, you
+need to mark the match record as a merge target. In this scenario you would use the
+*Merge Using EXISTING Record* merge profile in next step. If you are interested in loading
 holdings/item information, please contact Co-op support to set it up.
 
 . After you have marked a merge target, you may select the record once you are back on the Record Queue screen.
@@ -168,21 +168,27 @@ You may inspect other records on the list. Once finished inspecting the list, cl
 +
 image::images/cat/vandelay-7.png[]
 +
-. You are back on MARC File Upload screen with a selected import session. Make import options, and click *Upload* to import the records. If you wish not to carry on the import, you may click *Clear Selection*.
+. You are back on MARC File Upload screen.
 +
 image::images/cat/vandelay-8.png[]
 +
+. Choose your import options, you must click the arrows to enable the drop down menus and make your choices. 
++
+image::images/cat/vandelay-8b.png[]
++
+. Click *Upload* to import the records. If you wish not to carry on the import, you may click *Clear Selection*.
+
 [CAUTION]
 =========
 *Upload* button remains inactive until all required import options are made. Keep *Importing Non-Matching Records* selected to enable *Upload* button, though you may not have non-matching records selected.
 =========
 For Merge Profile, choose one of the following based on which record should be the lead.
 
-* Merge Using INCOMING Record: uses the incoming record as the lead. Information in existing record in 
+* Merge Using INCOMING Record: uses the incoming record as the lead. Information in existing record in
 tags 050, 055, 590, 595, 690, 852 (holdings) and 856 will be kept.
 
-* Merge Using EXISTING Record: uses the existing record in the catalogue as the lead. Information 
-in the incoming record in tags 050, 055, 590, 595, 690, 852 (holdings) and 856 will be kept. 
+* Merge Using EXISTING Record: uses the existing record in the catalogue as the lead. Information
+in the incoming record in tags 050, 055, 590, 595, 690, 852 (holdings) and 856 will be kept.
 Use this profile when you attach holdings in your MARC file to existing Evergreen MARC records.
 
 
