@@ -30,11 +30,11 @@ To check out items in Offline Circulation:
 . Make sure *Strict Barcode* is unchecked if you use non-codabar barcodes.
 . To print a receipt, check *Print Receipt*.
 +
-image::images/circ/offlinecheckout1.png[]
+image::images/circ/offlinecheckout1.png[scaledwidth="75%",alt="Offline Checkout"]
 +
 . Click *Save Transactions* in the upper-right of the screen to complete the checkout.
 +
-image::images/circ/offlinecheckout2.png[]
+image::images/circ/offlinecheckout2.png[scaledwidth="75%",alt="Save Transactions"]
 +
 .. *Save Transactions* will save any unsaved transactions across the Offline tabs Checkout, Renew, In-House Use, and Checkin.
 
@@ -59,13 +59,13 @@ To renew items in Offline Circulation:
 . For each item to be renewed, scan the item's barcode in the *Item Barcode* field. If you are typing the item barcode, click the *Renew* button or hit the *Enter* key on your keyboard after each item barcode.
 . _(Optional)_: Enter the patron's library card barcode in the *Patron Barcode* field by scanning or typing the barcode.
 +
-image::images/circ/offlinerenew1.png[]
+image::images/circ/offlinerenew1.png[scaledwidth="75%",alt="Offline Renew"]
 +
 . The item barcode, due date, and patron barcode (if entered) appear on the right side of the screen.
 . To print a receipt, check *Print Receipt*.
 . Click *Save Transactions* in the upper-right of the screen to complete the renewal.
 +
-image::images/circ/offlinerenew2.png[]
+image::images/circ/offlinerenew2.png[scaledwidth="75%",alt="Save Transactions"]
 
 ////
 In House Use
@@ -77,13 +77,13 @@ To record *In-House Use* transactions in *Offline Circulation*:
 . Enter the number of uses to record for the item in the *Use Count* field.
 . For each item to be recorded as in-house use, scan the item's barcode in the *Item Barcode* field. If you are typing the item barcode, click the *Record Use* button or hit the *Enter* key on your keyboard after each item barcode.
 +
-image::images/circ/offlineinhouse1.png[]
+image::images/circ/offlineinhouse1.png[scaledwidth="75%",alt="Offline In House Use"]
 +
 . The item barcode and use count will appear on the right side of the screen.
 . To print a receipt, check *Print Receipt*.
 . Click *Save Transactions* in the upper-right of the screen to record the in-house use.  The date of the in-house use is automatically recorded.
 +
-image::images/circ/offlineinhouse2.png[]
+image::images/circ/offlineinhouse2.png[scaledwidth="75%",alt="Offline In House Use"]
 
 Check In
 ^^^^^^^^
@@ -94,12 +94,12 @@ To *Check In* items in *Offline Circulation*:
 . Ensure that the *Due Date* value is correct.  It will default to today's date.
 . For each item to be checked in, scan the item's barcode in the *Item Barcode* field. If you are typing the item barcode, click the *Checkin* button or hit the *Enter* key on your keyboard after each item barcode.
 +
-image::images/circ/offlinecheckin1.png[]
+image::images/circ/offlinecheckin1.png[scaledwidth="75%",alt="Offline Checkin"]
 +
 . To print a receipt, check *Print Receipt*.
 . Click *Save Transactions* in the upper-right of the screen when you are finished entering checkins.
 +
-image::images/circ/offlinecheckin2.png[]
+image::images/circ/offlinecheckin2.png[scaledwidth="75%",alt="Offline Checkin"]
 
 
 [NOTE]
