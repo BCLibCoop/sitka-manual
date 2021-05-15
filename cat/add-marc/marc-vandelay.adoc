@@ -172,14 +172,18 @@ image::images/cat/vandelay-7.png[]
 +
 image::images/cat/vandelay-8.png[]
 +
-. Choose your import options, you must click the arrows to enable the drop down menus and make your choices. 
+. Choose your import options, you must click the arrows to enable the drop down menus and make your choices.
 +
 image::images/cat/vandelay-8b.png[]
 +
 . Click *Upload* to import the records. If you wish not to carry on the import, you may click *Clear Selection*.
++
+image::images/cat/vandelay-8c.png[]
 
 [CAUTION]
 =========
+There is a bug where your original selections are cleared.  You need to re-enter the required information before clicking *Import*.
+
 *Upload* button remains inactive until all required import options are made. Keep *Importing Non-Matching Records* selected to enable *Upload* button, though you may not have non-matching records selected.
 =========
 For Merge Profile, choose one of the following based on which record should be the lead.
