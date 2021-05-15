@@ -89,7 +89,7 @@ shows the fixed fields associated with each format icon.
 | VHS | vr_format(b)
 | Blu-ray | vr_format(s)
 | Audiobook (shown if format, eg. cassette, disc, is unknown) | item_type(i) and NOT item_form(o,q,s) and NOT sr_format(a,b,c,d,e,l,f)
-| E-audiobook | item_type(i) and item_form(o,q,s)
+| E-audiobook | item_type(i) and item_form(o,s)
 | CD Audiobook | item_type(i) and sr_format(f)
 | Cassette audiobook | item_type(i) and sr_format(l)
 | Phonograph audiobook | item_type(i) and sr_format(a,b,c,d,e)
