@@ -7,7 +7,7 @@ Hopeless Holds
 
 https://youtu.be/Sf6DISXuEu0[*Sitka Snippet Video - Hopeless Holds (1:11)*]
 
-A hold is considered hopeless when there are no copies in Evergreen's "hold_copy_map" for a title,  or, when all copies in the  "hold_copy_map" are in a item status with "hopeless_prone" set to True. In Sitka's Evergreen, these statuses are globally set at Discard/Weed, Damaged, Lost, Lost and Paid, and Missing.
+A hold is considered hopeless when there are no copies in Evergreen's "hold_copy_map" for a title,  or, when all copies in the  "hold_copy_map" are in an item status with "hopeless_prone" set to True. In Sitka's Evergreen, these statuses are globally set at Discard/Weed, Damaged, Lost, Lost and Paid, and Missing.
 
 
 Managing Hopeless Holds

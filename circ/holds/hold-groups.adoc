@@ -12,13 +12,16 @@ Create a Hold Group
 .Create a New Hold Group
 . *Circulation* -> *Hold Groups*.
 . On the Hold Group tab, click New Hold Group.
++
+image:images/circ/holdgroups.png[scaledwidth="75%",alt="Create a New Hold Group"]
++
 . Enter a name for the Hold Group.
 . Enter a description for the Hold Group (optional).
 . Choose the owning library from the drop down (defaults to the workstation library).
 . If you want the Hold Group to be visible to the patrons on the list, check the Visible to Patrons? checkbox.
 . Click *Create Bucket*.
 +
-image:images/circ/holdgroups.png[scaledwidth="75%",alt="Create a New Hold Group"]
+image:images/circ/holdgroups1.png[scaledwidth="75%",alt="Create Bucket"]
 
 NOTE: Hold Groups are visible only to the staff member who created them but can be shared through Bucket ID.
 
