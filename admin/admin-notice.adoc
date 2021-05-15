@@ -37,7 +37,7 @@ The pre-due notice template is shared by all Sitka libraries and cannot be custo
 
 Libraries must opt in to have these notices turned on. Please contact Co-op Support to opt in.
 
-CAUTION: The action trigger runs early in the morning, SMS messages will be sent around *2:00am*. If libraries are setup with both 3 day email notice and 3 day SMS notice templates, patrons will receive both an email and a text. 
+CAUTION: The action trigger runs early in the morning, SMS messages will be sent around *2:00am*. If libraries are setup with both 3 day email notice and 3 day SMS notice templates, patrons will receive both an email and a text.
 
 
 Circulation Overdue Notices
@@ -131,6 +131,12 @@ This notification is optional for individual libraries. The notification templat
 
 The emails are sent to the requesters when staff view and clear hold-shelf expired holds (click *Clear These Holds on Browse Holds Shelf*) on the staff client.
 
+Hold Group Hold Placed for Patron Notice
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This notification is optional for individual libraries. The notification templates can be customized on library level. Please contact Co-op Support if your library wishes to use this service.
+
+The emails are sent to patrons when a new hold is placed through Hold Groups.
 
 Patron Account Notices
 ~~~~~~~~~~~~~~~~~~~~~~
