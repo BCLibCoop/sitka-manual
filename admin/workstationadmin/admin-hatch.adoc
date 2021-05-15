@@ -74,29 +74,3 @@ image::images/intro/browser1.png[]
 . Select the Console tab.
 . Change the "Default" drop down to be sure that Verbose is checked.
 . Either take a screen shot or copy and paste the text that appears in the console when you see the errors occurring. Be sure to include any of the errors that display in red.
-
-
-
-Convert Hatch Settings to Local Storage
-+++++++++++++++++++++++++++++++++++++++
-
-anchor:convert-hatch[Convert Hatch settings to Local Storage]
-
-link:https://youtu.be/VPMAKpM6X0M[*Sitka Upgrade Video - Convert Hatch settings to Local Storage (01:12)*]
-
-Local workstation settings and preferences are now stored on Sitka’s Evergreen servers.
-
-Storing settings in Hatch is now deprecated. If you have enabled Hatch to Store Local Settings you will need to disable this.
-
-*Copy your Hatch Settings To Local Storage before disabling Hatch*
-
-. Click *Administration*.
-. Click *Workstation*.
-. Click *Print / Storage Service ("Hatch)*.
-. Click *Copy Hatch Settings to Local Storage*.
-+
-image::images/admin/hatch1.png[]
-+
-. Uncheck the check box for *Store Local Settings in Hatch*.
-+
-image::images/admin/hatch2.png[]

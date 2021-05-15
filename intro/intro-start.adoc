@@ -208,7 +208,7 @@ Enable Hatch in Evergreen
 
 . Click *Administration -> Workstation*.
 
-. Click *Print/Storage Service ('Hatch')*
+. Click *Print Service ('Hatch')*
 
 . Make sure that you see that Hatch is available. Select *Use Hatch For Printing* .
 
@@ -232,5 +232,5 @@ Set Search Preferences
 +
 image::images/intro/searchpref.png[]
 
-Additional settings are available through Catalogue Preferences in the staff catalogue.  For 
+Additional settings are available through Catalogue Preferences in the staff catalogue.  For
 more details see xref:_catalogue_preferences[].
