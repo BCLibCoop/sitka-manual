@@ -21,6 +21,8 @@ holds on the same bibliographic record.
 resolve them.
 ** https://youtu.be/Sf6DISXuEu0[*Sitka Snippet Video - Hopeless Holds (1:11)*]
 
+* Hold placement in the staff client is now done through the new staff catalogue.
+** https://youtu.be/MDuN4s7c-rQ[*Sitka Training Video - Placing Holds (6:18)*]
 
 * In-house use now records workstations.
 
@@ -30,7 +32,7 @@ resolve them.
 Cataloguing
 ~~~~~~~~~~~
 
-* New Staff Catalogue – All cataloguing functions direct to new staff catalogue.
+* New Staff Catalogue – All cataloguing functions direct to the new staff catalogue.
 
 
 * Item Status now allows pasting a list of barcodes in CSV format.
@@ -47,7 +49,7 @@ recent searches.
 ** https://youtu.be/u86TxsX3CY0[*Sitka Training Video - Search the Catalogue (4:35)*]
 
 
-* Open record in new tab.
+* Library staff can now open record in new tab from the search results list.
 
 
 * Basket To Bucket action now allows adding to Shared Buckets.
@@ -55,9 +57,9 @@ recent searches.
 Public Catalogue
 ~~~~~~~~~~~~~~~~
 
-* Improved email and printing options from the OPAC, which now includes local call number.
+* Improved email and printing options from the public catalogue, which now includes local call number.
 
-* Show Only Available Copies filter on a title record in the OPAC. Patrons can choose to see only the
+* Show Only Available Copies filter on a title record in the public catalogue. Patrons can choose to see only the
 available copies of a title they are interested in.
 
 * Preferred Name now displays first in Personal Information in My Account.
@@ -74,4 +76,4 @@ Booking
 Reports
 ~~~~~~~
 
-A new output option _Calculate grouping subtotals_ available.
+* A new output option _Calculate grouping subtotals_ is available.
