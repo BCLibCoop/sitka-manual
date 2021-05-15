@@ -34,7 +34,7 @@ Emergency Support
 ^^^^^^^^^^^^^^^^^
 
 Emergency support is available outside of regular support hours.  If you are unable to connect to 
-the Evergreen server, your LibPress site is down, or patron authentication via SIP is down call our
+the Evergreen server, your LibPress site is down, or patron authentication via SIP or PatronAPI is down call our
 toll free support number and select option 9 to connect to an on-call tech.
 
 You can check on the status of Co-op supported services at: http://status.libraries.coop/
@@ -49,15 +49,16 @@ Thorough and consistent reporting makes it easier for Co-op Support to respond t
 
 * *One issue per request*. Please submit one issue at a time. Emails generate tickets in RT which are assigned to support team members. Reporting each question separately helps us assign, classify, and prioritize tickets more efficiently.
 
-* *Contact information*. We strive to offer friendly, personalized service. Please include your name and use an email address where we can reach you directly.
+* *Contact information*. We strive to offer friendly, personalized service. Please include your name, your library, and use an email address where we can reach you directly.
 
 * *Descriptive subject*. To make tickets easier to identify in RT please provide as descriptive a subject as possible.
 ** Example of a descriptive subject line: Circ+Full Cat login unable to edit item record
 ** Example of a non-descriptive subject line: Editing question
 
-* *What, where, when, how?*. Be specific about what you were doing in Evergreen, what results you obtained versus what you expected, and the steps required to reproduce the problem. If you cannot reproduce the problem exactly please describe the circumstances in which it occurred and the symptoms observed, including relevant patron and item barcodes.
+* *What, where, when, how?* Be specific about what you were doing in Evergreen, what results you obtained versus what you expected, and the steps required to reproduce the problem. If you cannot reproduce the problem exactly please describe the circumstances in which it occurred and the symptoms observed, including relevant patron and item barcodes.
 
-* *Include error messages*. If the problem caused any OPAC or staff client error messages please copy and paste error text or attach screenshots when possible. See the section called “Submitting Images to Support” for guidelines.
+* *Include error messages*. If the problem caused any OPAC or staff client error messages please 
+copy and paste error text or attach screenshots when possible. See xref:_submitting_files_to_support for guidelines.
 
 * *Include example barcodes and IDs*. A problem in circulation? Make sure you include the patron and/or item barcodes that were in use when the problem occurred. Cataloguing issues? Make sure you include the item barcode and/or the record ISBN/ISSN or record ID where the problem occurred.
 
