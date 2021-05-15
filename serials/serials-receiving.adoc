@@ -1,9 +1,9 @@
 Serials Receiving
 -----------------
 
-Issues can be received through the *Manage Issues* tab. 
+Issues can be received through the *Manage Issues* tab.
 
-//// 
+////
 
 or through the *Quick Receive* option located in the bibliographic record display.
 
@@ -14,11 +14,11 @@ link:https://youtu.be/zs2Stegj-7g[*Serials Training Video - Quick Receive (1:43)
 
 . From a serials record in the catalogue, go to *Serials* -> *Quick Receive*.
 +
-image::images/serials/quickreceive1.png[]
+image::images/serials/quickreceive1.png[scaledwidth="75%"]
 +
 . Select the Library and Subscription for which you are receiving issues from the drop down menu and click *OK/Continue*.
 +
-image::images/serials/quickreceive2.png[]
+image::images/serials/quickreceive2.png[scaledwidth="75%"]
 +
 . A Receive items dialog box will appear with the next expected issue.
 
@@ -28,7 +28,7 @@ image::images/serials/quickreceive2.png[]
 . *Barcode*: Scan in the barcode that will be affixed to the issue.
 . The box adjacent to Receive the issue will be checked by default.
 +
-image::images/serials/quickreceive3.png[]
+image::images/serials/quickreceive3.png[scaledwidth="75%"]
 +
 . Check the box adjacent to Routing List to print an existing routing list.
 . Click *Save* to receive the issue. The Status of the issue will update to "Received" and a Date Received will be recorded.
@@ -40,7 +40,7 @@ NOTE: The Shelving Location and Circulation Modifier will be pre-populated from 
 
 . Uncheck the box adjacent to Barcode Items and click Save. The Holdings Summary in the Issues Held tab in the catalogue will reflect the newly received issue.
 +
-image::images/serials/quickreceive4.png[]
+image::images/serials/quickreceive4.png[scaledwidth="75%"]
 
 ////
 
@@ -59,7 +59,7 @@ Receive Next Issue and Barcode
 . Check the box adjacent to *Barcode on receive*.
 . Click *Receive Next*.
 +
-image::images/serials/receiveissue1.png[]
+image::images/serials/receiveissue1.png[scaledwidth="75%"]
 +
 . A Receive items dialog box will appear with the next expected issue and item(s).
 . The Shelving Location and Circulation Modifier will be pre-populated from the Receive Template associated with the Distribution. Changes can be made to the pre-populated information.
@@ -68,7 +68,7 @@ image::images/serials/receiveissue1.png[]
 . The box to Receive the item(s) will be checked by default.
 . Check the box adjacent to Routing List to print an existing routing list.
 +
-image::images/serials/quickreceive3.png[]
+image::images/serials/quickreceive3.png[scaledwidth="75%"]
 +
 . Click *Save* to receive the item(s). The Status of the issue will update to "Received" and a Date Received will be recorded.
 .. The barcoded item(s) will now appear in the holdings area of the catalogue and the Holdings Summary in the Issues Held tab in the catalogue will reflect the newly received issue.
@@ -78,11 +78,11 @@ Receive Next Issue (no barcode)
 
 . In the *Manage Issues* tab, make sure the box adjacent to Barcode on receive is unchecked and click Receive Next.
 +
-image::images/serials/receiveissuenobarcode.png[]
+image::images/serials/receiveissuenobarcode.png[scaledwidth="75%"]
 +
 . A Receive items dialog box will appear with the message "Will receive # item(s) without barcoding."
 +
-image::images/serials/receiveissuenobarcode1.png[]
+image::images/serials/receiveissuenobarcode1.png[scaledwidth="75%"]
 +
 . Click *OK/Continue* to receive the issue. The Status of the issue will update to "Received" and a Date Received will be recorded. The Holdings Summary in the Issues Held tab in the catalogue will reflect the newly received issue.
 
@@ -105,7 +105,7 @@ Batch Receive and Barcode
 . The box to Receive the items will be checked by default.
 . Check the box adjacent to Routing List to print an existing routing list.
 +
-image::images/serials/batchreceive.png[]
+image::images/serials/batchreceive.png[scaledwidth="75%"]
 +
 . Click *Save* to receive the items. The Status of the items will update to "Received" and a Date Received will be recorded.
 .. The barcoded items will now appear in the holdings area of the catalogue and the Holdings Summary in the Issues Held tab in the catalogue will reflect the newly received issues.
@@ -118,6 +118,6 @@ Receive multiple issues (no barcode)
 . Make sure the box next to Barcode on receive is unchecked and check the boxes adjacent to the expected issues you want to receive.
 . A Receive items dialog box will appear with the message "Will receive # item(s) without barcoding."
 +
-image::images/serials/batchreceive1.png[]
+image::images/serials/batchreceive1.png[scaledwidth="75%"]
 +
 . Click OK/Continue to receive the issues. The Status of the issue will update to "Received" and a Date Received will be recorded. The Holdings Summary in the Issues Held tab in the catalogue will reflect the newly received issues.

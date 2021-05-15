@@ -16,11 +16,11 @@ Create a Serial Item Template
 
 . Click *Administration* -> *Serials Administration* -> *Serial Item Templates*.
 +
-image::images/serials/serialsadminitemtemp.png[]
+image::images/serials/serialsadminitemtemp.png[scaledwidth="75%"]
 +
 . Click *Create Template*.
 +
-image::images/serials/itemtemplate.png[]
+image::images/serials/itemtemplate.png[scaledwidth="75%"]
 +
 . Enter a _Template Name_.
 +
@@ -28,7 +28,7 @@ image::images/serials/itemtemplate.png[]
 +
 . Click *Save*.
 +
-image::images/serials/itemtemplate1.png[]
+image::images/serials/itemtemplate1.png[scaledwidth="75%"]
 
 Edit a Serial Item Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -39,7 +39,7 @@ Edit a Serial Item Template
 
 . Click *Actions* -> Choose _Edit Template_.
 +
-image::images/serials/itemtemplate3.png[]
+image::images/serials/itemtemplate3.png[scaledwidth="75%"]
 +
 . Edit the item attributes for this template.
 
@@ -55,7 +55,7 @@ Delete a Serial Item Template
 +
 . Click *Actions* -> Choose _Delete Template_.
 +
-image::images/serials/itemtemplate4.png[]
+image::images/serials/itemtemplate4.png[scaledwidth="75%"]
 ////
 
 NOTE: Serial Item Templates cannot be deleted.
@@ -68,17 +68,17 @@ Create a Prediction Pattern Template
 
 . Click *Administration* -> *Serials Administration* -> *Prediction Pattern Templates*.
 +
-image::images/serials/serialsadminprediction.png[]
+image::images/serials/serialsadminprediction.png[scaledwidth="75%"]
 +
 . Click *New Record*.
 +
-image::images/serials/prediction1.png[]
+image::images/serials/prediction1.png[scaledwidth="75%"]
 +
 . Enter a *Name*.
 +
 . Click *Pattern Wizard*. The wizard has five tabs that will take you through the steps to create a prediction pattern for your publication.
 +
-image::images/serials/prediction2.png[]
+image::images/serials/prediction2.png[scaledwidth="75%"]
 +
 .. See xref:pattern-wizard[] for detailed instructions.
 
@@ -88,7 +88,7 @@ image::images/serials/prediction2.png[]
 
 . Click *Save*.
 +
-image::images/serials/prediction3.png[]
+image::images/serials/prediction3.png[scaledwidth="75%"]
 
 [[pattern-wizard]]
 Pattern Wizard
@@ -121,7 +121,7 @@ Pattern Wizard
 
 . Click *Next*
 
-image:images/serials/pattern1.png[]
+image:images/serials/pattern1.png[scaledwidth="75%"]
 
 .*Chronology display*
 . Check the box adjacent to *Use Chronology Captions?*
@@ -134,7 +134,7 @@ image:images/serials/pattern1.png[]
 . Check the box adjacent to Use Alternative Chronology Captions? If the publication uses alternative chronology.
 . Click *Next*
 
-image:images/serials/pattern2.png[]
+image:images/serials/pattern2.png[scaledwidth="75%"]
 
 .*MFHD Indicators*
 . Choose a *Compression Display Option*
@@ -145,7 +145,7 @@ image:images/serials/pattern2.png[]
 .. Sitka recommends *Captions verified; all levels present*
 . Click *Next*
 
-image:images/serials/pattern3.png[]
+image:images/serials/pattern3.png[scaledwidth="75%"]
 
 .*Frequency and Regularity*
 . Click the radio button for *Pre-selected* and choose the frequency from the drop down menu.
@@ -158,13 +158,13 @@ image:images/serials/pattern3.png[]
 ... E.g., for a monthly combined issue, enter 02/03 to specify that February and March are combined.
 . Click *Next*
 +
-image:images/serials/pattern4.png[]
+image:images/serials/pattern4.png[scaledwidth="75%"]
 
 .*Review*
 . Review the *Pattern Summary*
 .. Click the blue arrows to see the *Raw Pattern Code*
 +
-image:images/serials/pattern5.png[]
+image:images/serials/pattern5.png[scaledwidth="75%"]
 +
 . Click *Save*
 
@@ -178,7 +178,7 @@ Edit a Prediction Pattern Template
 
 . Click *Actions* -> Choose *Edit Record*.
 +
-image::images/serials/prediction6.png[]
+image::images/serials/prediction6.png[scaledwidth="75%"]
 
 NOTE: Prediction Patterns can be edited after creation as long as all predicted issues have the status of "Expected". Once an issue is moved into a different status, the Prediction Pattern cannot be changed.
 
@@ -189,7 +189,7 @@ Delete a Prediction Pattern Template
 . Click the check box beside the template you want to delete.
 . Click *Actions* -> Choose *Delete Selected*.
 +
-image::images/serials/prediction7.png[]
+image::images/serials/prediction7.png[scaledwidth="75%"]
 
 NOTE: Prediction Pattern Templates that are being used by subscriptions cannot be deleted.
 

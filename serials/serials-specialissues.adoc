@@ -8,12 +8,12 @@ If the library receives an extra copy of an expected issue, the extra copy can b
 .To add an extra copy of an expected issue:
 . In the *Manage Issues* tab, select the issuance that precedes the issuance that you received an extra copy of and go to *Actions* -> *Add following issue*.
 +
-image::images/serials/specialissue.png[]
+image::images/serials/specialissue.png[scaledwidth="75%"]
 +
 . Verify the Publication date, Type, and Chronology labels are correct.
 . The Enumeration labels will be filled in automatically when the issue is created.
 +
-image::images/serials/specialissue1.png[]
+image::images/serials/specialissue1.png[scaledwidth="75%"]
 +
 . Click *Save* to create the extra copy of the following issue.
 . The extra copy will appear in the list of issues and can be received using your typical workflow.
@@ -25,13 +25,13 @@ If the library receives an unexpected issue of a subscription, such as Summer Is
 .To add a special issue:
 . In the *Manage Issues* tab, click *Add Special Issue*.
 +
-image::images/serials/specialissue2.png[]
+image::images/serials/specialissue2.png[scaledwidth="75%"]
 +
 . Enter the Publication date of the special issue.
 . Select the Type (typically Basic).
 . Add an Issuance Label to identify the special issue, such as "Holiday Issue".
 +
-image::images/serials/specialissue3.png[]
+image::images/serials/specialissue3.png[scaledwidth="75%"]
 +
 . Click *Save*.
 . The special issue will appear in the list of issues and can be received using your typical workflow.

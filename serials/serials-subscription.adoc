@@ -5,7 +5,7 @@ The Serials Module can be used to create subscriptions, distributions, streams, 
 
 To access the Serials Module, retrieve a bibliographic record and click on *Serials* -> *Manage Subscriptions*.  This will open the serials interface for that particular record.
 
-image:images/serials/subscription.png[]
+image:images/serials/subscription.png[scaledwidth="75%"]
 
 Create and Manage Subscriptions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -17,7 +17,7 @@ A subscription must be added to a bibliographic record. If the record is not alr
 . Existing subscriptions for the workstation location will be displayed.
 . Click *New Subscription*
 +
-image::images/serials/subscription11.png[]
+image::images/serials/subscription11.png[scaledwidth="75%"]
 +
 . Enter the subscription information.
 .. *Owned By* - Owning Library
@@ -33,7 +33,7 @@ image::images/serials/subscription11.png[]
 ... Click *Add Copy stream* to add additional Routing.
 . Click *Save*
 +
-image::images/serials/subscription2.png[]
+image::images/serials/subscription2.png[scaledwidth="75%"]
 
 Create and Manage Predictions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -43,7 +43,7 @@ From the Manage Predictions tab you can create a new prediction pattern from scr
 . Retrieve the bibliographic record your subscription is attached to.
 . Click *Serials* -> Choose *Manage Subscriptions* -> Click *Manage Predictions*
 +
-image:images/serials/subscription3.png[]
+image:images/serials/subscription3.png[scaledwidth="75%"]
 
 Predict Issues Using a New Prediction Pattern
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -52,16 +52,16 @@ Predict Issues Using a New Prediction Pattern
 . Click *Add New*
 . Click *Create Pattern*
 +
-image:images/serials/subscription4.png[]
+image:images/serials/subscription4.png[scaledwidth="75%"]
 +
 . Follow the xref:pattern-wizard[] steps to modify the template.
 . Click *Create*.
 +
-image:images/serials/subscription5.png[]
+image:images/serials/subscription5.png[scaledwidth="75%"]
 +
 . To create predictions, click *Predict New Issues*.
 +
-image:images/serials/subscription6.png[]
+image:images/serials/subscription6.png[scaledwidth="75%"]
 +
 .. Note: you can also predict new issues from the *Manage Issues* tab.
 . A dialog box called *Predict New Issues: Initial Values* will appear.
@@ -72,11 +72,11 @@ image:images/serials/subscription6.png[]
 .. Enter the *Prediction count*.  This is the number of issues that you want to predict.
 . Click *Save*.
 +
-image::images/serials/predictissue1.png[]
+image::images/serials/predictissue1.png[scaledwidth="75%"]
 +
 . Evergreen will generate the predictions and bring you to the _Manage Issues_ tab to review the predicted issues.
 +
-image::images/serials/predictissue2.png[]
+image::images/serials/predictissue2.png[scaledwidth="75%"]
 
 
 Predict Issues Using a Prediction Pattern Template
@@ -85,12 +85,12 @@ Predict Issues Using a Prediction Pattern Template
 . Within the *Manage Predictions* tab, *Select Subscription* to work on from the drop down menu.
 . Select a template from the drop down menu beside *Create from Template*.
 +
-image::images/serials/subscription7.png[]
+image::images/serials/subscription7.png[scaledwidth="75%"]
 +
 . Click *Create from Template*.
 . If you want to use the pattern "as is" click *Create*.
 +
-image::images/serials/subscription8.png[]
+image::images/serials/subscription8.png[scaledwidth="75%"]
 +
 .. If you want to review or modify the pattern, click *Edit Pattern*.  The Pattern Wizard will appear.
 .. The Pattern Wizard will be pre-populated with the pattern template selected.
