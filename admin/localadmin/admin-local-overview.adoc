@@ -6,7 +6,7 @@ The following table describes each of the menu options in use and their required
 
 [options="header"]
 |====
-| Menu option | Description | Permission 
+| Menu option | Description | Permission
 | xref:admin-age-to-lost[] | To create a queue of ALL overdue items by selected patron profiles at selected libraries to be marked lost. It does not support date parameter. This feature is mainly for school libraries' end of term process. To automatically mark items lost when they are overdue for x days, contact Co-op support | LSA
 | Auto-Print Settings | To block automatic receipt printing in selected staff client transactions | LSA
 | xref:cash-report[] |	View summary report of cash transactions for selected date range | All staff
@@ -25,13 +25,5 @@ The following table describes each of the menu options in use and their required
 | xref:stat-cat[] | Create and manage optional categories for detailed patron/item information | LSA
 | xref:admin-survey[] | Create patron surveys to be completed at patron registration | LSA
 | xref:transit-list[] | View items in transit to or from your library during selected date range | All staff
-| Work Log | List the most recent transactions processed at the selected workstation | All staff
+| xref:work-log[] | List the most recent transactions processed on the workstation | All staff
 |====
-
-
-
-
-
-
-
-
