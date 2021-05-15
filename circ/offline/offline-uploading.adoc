@@ -25,7 +25,7 @@ Create a session
 . On Session Management tab, click *Offline Sessions*.
 . Click *Create Session*.
 +
-image::images/circ/offlineupload3.png[]
+image::images/circ/offlineupload3.png[scaledwidth="75%"]
 +
 . On the prompt, type in a name. Click *OK/Continue*.
 . The new session shows up on top of the list.
@@ -35,7 +35,7 @@ Upload transactions to a session
 
 If there are pending offline transactions on a workstation, on the login page there will be an alert.
 
-image::images/circ/offlineupload1.png[]
+image::images/circ/offlineupload1.png[scaledwidth="75%"]
 
 You need to upload the transactions to the session just created on each workstation used for offline circulation.
 
@@ -43,11 +43,11 @@ You need to upload the transactions to the session just created on each workstat
 . Go to *Circulation -> Offline Circulation*.
 . You will see transactions listed on *Pending Transactions* tab under *Session Management*.
 +
-image::images/circ/offlineupload1a.png[]
+image::images/circ/offlineupload1a.png[scaledwidth="75%"]
 +
 . Click *Offline Sessions* tab. You will see the session your local system administrator just created. Click *Upload*.
 +
-image::images/circ/offlineupload5.png[]
+image::images/circ/offlineupload5.png[scaledwidth="75%"]
 +
 . Repeat the above process on each workstation used for offline circulation. Once done, local system administrators may process the session.
 
@@ -60,11 +60,11 @@ To process uploaded transactions, you need to log in with a local system adminis
 . Check the *Upload Count*, which indicates the number of workstations that have uploaded offline transactions.
 . If the number matches the number of workstations used during offline, click *Process*.
 +
-image::images/circ/offlineupload6.png[]
+image::images/circ/offlineupload6.png[scaledwidth="75%"]
 +
 . It may take a while if you have many transactions. Click *Refresh* to see the processing progress. Once all transactions are processed the Date Completed and Transactions Processed columns will be updated.
 +
-image::images/circ/offlineupload7.png[]
+image::images/circ/offlineupload7.png[scaledwidth="75%"]
 
 . Scroll to the bottom of the screen to see if there are any entries in the <<_exceptions,*Exception List*>>.  Some of these may require staff follow up.
 
@@ -91,7 +91,7 @@ At the right side of each exception are buttons for *Item*, *Patron*, and *Debug
 * Clicking on the *Patron* button will retrieve the associated patron in a new browser window.
 * Clicking the *Debug* button will result in a modal with detailed debugging information.
 
-image::images/circ/offlineupload8.png[]
+image::images/circ/offlineupload8.png[scaledwidth="75%"]
 
 Common event names in the Exceptions List include:
 
@@ -116,7 +116,7 @@ Export Offline Transactions
 
 To export transactions while you are offline, navigate to *Circulation -> Offline Circulation* and click *Export Transactions* in the top-right of the screen.  This will save a file entitled pending.xacts to your browser's default download location. If you will be processing these transactions on another workstation, move this file to an external device like a thumb drive.
 
-image::images/circ/offline-upload9.png[]
+image::images/circ/offline-upload9.png[scaledwidth="75%"]
 
 NOTE: Depending on your browser's setting, you may be prompted to choose a location to save the file.
 
@@ -124,7 +124,7 @@ To export transactions while you are logged in, navigate to *Circulation -> Offl
 
 Double check to make sure the file is saved safely on the workstation, click *Clear Transactions* to clear the pending transactions.
 
-image::images/circ/offline-upload10.png[]
+image::images/circ/offline-upload10.png[scaledwidth="75%"]
 
 CAUTION: If you do not clear transactions after exporting, next time when you do offline circulation, your records will be appended to these transactions.
 
@@ -139,7 +139,7 @@ To import transactions, make sure your exported transactions file is available t
 . Click on the *Session Management* tab.
 . Click on the *Import Transactions* button.
 +
-image::images/circ/offline-upload11.png[]
+image::images/circ/offline-upload11.png[scaledwidth="75%"]
 +
 . Navigate to the location on your computer where the exported pending.xacts file is saved.
 . Select the file for importing.
