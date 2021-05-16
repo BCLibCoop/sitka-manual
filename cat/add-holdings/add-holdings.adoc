@@ -3,6 +3,14 @@ Adding Holdings to Bibliographic Records
 
 link:https://youtu.be/Zn1rqJESu5Q[*Sitka Training Video - Holdings Editor (7:26)*]
 
+[CAUTION]
+=========
+
+* Make sure your browser allows Evergreen to open pop-ups or the Holdings Editor will not appear.
+  See xref:_browser_configuration[].
+
+=========
+
 Adding Holdings
 ^^^^^^^^^^^^^^^
 
@@ -22,13 +30,6 @@ image::images/cat/add-holdings-1.png[]
 . The Holdings Editor will open up in a new tab and will include the Call Number/Volume Editor.
 +
 image::images/cat/add-holdings-2.png[scaledwidth="75%"]
-+
-[CAUTION]
-=========
-
-* Make sure your browser allows Evergreen to open pop-ups.  See xref:_browser_configuration[].
-
-=========
 +
 . Complete the required fields for both the call number and item records.
 .. You can configure the default fields displayed in Holdings Editor. Click on *Defaults* on Holdings Editor.
@@ -87,6 +88,43 @@ image::images/cat/add-holdings-9.png[]
 * If all call numbers share the same attributes, you can select the values in *Batch Apply* row, then click *Apply*.  The selected values will be copied into all call numbers.
 =====
 
+Adding Items to an Existing Call Number
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. If your library has multiple call numbers and you want to an new item to a particular one, 
+select the call number on the *Holdings View* tab.
+. Click *Add Holdings*.
++
+image::images/cat/add-holdings-9a.png[]
++
+. The Holdings Editor will open up in a new tab 
+and will include the Call Number/Volume Editor.
+
+Adding a Call Number without an Item
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Sometimes you may need to create a call number record without any item. For example, you may want to 
+move one of two regular collection items to reference, which will use a different call number prefix, 
+or catalogue a pre-catalogued item.
+
+. Find the title record, then click on *Holdings View*,  select your library, go to *Actions* list, and scroll to *Add* to select *Add Call Numbers*.
++
+image::images/cat/add-holdings-11.png[]
++
+. Complete the call number fields, then click *Save & Exit*.
++
+image::images/cat/add-holdings-12.png[]
+
+[TIP]
+=====
+* Evergreen does not allow one library to have two identical call numbers under one title. When saving new items or editing existing items, items sharing the same call number are grouped under one call number record. This call number can be edited via any item under it, and any edit affects all items. If an item needs a different call number, you need to create a new call number record, then transfer the item to it.
+
+* Adding call number/items functions are also available on the *Actions* dropdown list, or right click your mouse when an entry on the library list is selected.
+
+image::images/cat/add-holdings-9b.png[]
+=====
+
+
 
 Adding Multiple Items to One Call Number
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -95,7 +133,7 @@ Adding Multiple Items to One Call Number
 +
 image::images/cat/add-holdings-3a.png[scaledwidth="75%"]
 +
-. Type/scan in barcodes for each item.
+. Type or scan in the barcodes for each item.
 
 NOTE: *Save & Exit* is greyed out until barcodes are entered.
 
@@ -130,33 +168,3 @@ image::images/cat/add-holdings-8.png[]
 =========
 
 
-Adding Items to an Existing Call Number
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-. If your library has multiple call numbers and you want to add Items to a particular one, select it on *Holdings View*, then click *Add Holdings*.
-+
-image::images/cat/add-holdings-9a.png[]
-+
-. Enter the barcode to continue to edit item attributes, then save.
-
-Adding a Call Number without an Item
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Sometimes you may need to create a call number record without any item. For example, you may want to move one of two regular collection items to reference, which will use a different call number prefix, or catalogue a pre-catalogued item.
-
-. Find the title record, then click on *Holdings View*,  select your library, go to *Actions* list, and scroll to *Add* to select *Add Call Numbers*.
-+
-image::images/cat/add-holdings-11.png[]
-+
-. Complete the call number fields, then click *Save & Exit*.
-+
-image::images/cat/add-holdings-12.png[]
-
-[TIP]
-=====
-* Evergreen does not allow one library to have two identical call numbers under one title. When saving new items or editing existing items, items sharing the same call number are grouped under one call number record. This call number can be edited via any item under it, and any edit affects all items. If an item needs a different call number, you need to create a new call number record, then transfer the item to it.
-
-* Adding call number/items functions are also available on the *Actions* dropdown list, or right click your mouse when an entry on the library list is selected.
-
-image::images/cat/add-holdings-9b.png[]
-=====
