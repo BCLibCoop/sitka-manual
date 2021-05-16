@@ -30,7 +30,7 @@ image::images/cat/add-holdings-2.png[scaledwidth="75%"]
 
 =========
 +
-. Complete the required fields in both call number and item records.
+. Complete the required fields for both the call number and item records.
 .. You can configure the default fields displayed in Holdings Editor. Click on *Defaults* on Holdings Editor.
 See xref:_volume_copy_defaults[] for more information.
 ..  By default, a new item has *In Process* status, unless you choose a different one when creating it.
@@ -43,18 +43,49 @@ holding templates.
 +
 . Once done, click on *Save & Exit*. The pop-up tab is closed.
 
+
+Adding Holdings to Multiple Branches
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Go to the *Holdings View* tab and select the branches you'd like to add items to.
++
+.. If you do not select a branch, the default owning and circulating library is your login working location.
++
+image::images/cat/add-holdings-8a.png[]
++
+. Click *Add Holdings*.  The Holdings Editor will open up in a new tab 
+and will include the Call Number/Volume Editor.
++
+image::images/cat/add-holdings-2.png[scaledwidth="75%"]
+
 [TIP]
 =====
-* For multi-branch libraries, to add items to specific branches start by selecting the branch, or branches,
-on the _Holdings View_ tab before clicking *Add Holdings*.
-** If you do not select one, the default owning and circulating library is your login working location.
-+
-image::images/cat/add-holdings-2a.png[]
-+
-* Make sure both *Show empty call numbers* and *Show empty libraries* checkboxes are selected in order to
+
+Make sure both *Show empty call numbers* and *Show empty libraries* checkboxes are selected in order to
 display branches without items on the library list.
+
 =====
 
+You can also add call numbers for additional branches from within the Call Number/Volume Editor.
+
+. Click in the library field beside the *Add call number* button and select the branch from the drop down menu.
+. Click Add call number
++
+image::images/cat/add-holdings-call-number-1.png[]
++
+. An additional line will display.
++
+image::images/cat/add-holdings-call-number-2.png[]
+ 
+
+[TIP]
+=====
+* You can hide or display call number and item details by coordinating the two hide/show buttons shown below.
++
+image::images/cat/add-holdings-9.png[]
++
+* If all call numbers share the same attributes, you can select the values in *Batch Apply* row, then click *Apply*.  The selected values will be copied into all call numbers.
+=====
 
 
 Adding Multiple Items to One Call Number
@@ -98,33 +129,6 @@ image::images/cat/add-holdings-8.png[]
 * *Save Completed* will save those items on *Completed Items* tab only. Those on *Working Items* tab will be considered discarded, though they do not disappear.
 =========
 
-Adding Call Numbers/Items to Multiple Libraries
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-. On *Holdings View*, select the libraries you want to add items to. Click *Add Holdings*.
-+
-image::images/cat/add-holdings-8a.png[]
-+
-. If you want to add multiple call numbers/items to one library, use the arrow in *Call Number* and *Items* volumes to increase the number. Extra lines will show up. Complete or edit call numbers and barcodes, then you can work on items on the *Working Items* tab.
-+
-image::images/cat/add-holdings-8b.png[]
-+
-
-[NOTE]
-======
-You may also add call numbers to more libraries on the Holdings Editor.  Use the arrow in the *Owning Library* column to list the libraries, then click on *Add call number*.
-
-image::images/cat/add-holdings-4.png[]
-======
-
-[TIP]
-=====
-* You can hide or display call number and item details by coordinating the two hide/show buttons shown below.
-+
-image::images/cat/add-holdings-9.png[]
-+
-* If all call numbers share the same attributes, you can select the values in *Batch Apply* row, then click *Apply*.  The selected values will be copied into all call numbers.
-=====
 
 Adding Items to an Existing Call Number
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
