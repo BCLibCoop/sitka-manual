@@ -4,8 +4,8 @@ Editing Holdings
 In Evergreen, the local call number is kept in a separate record, called call number record. Items under the same title with the same call number share the same call number record. Item records and call number records can be edited at several places.
 
 
-Editing Call Number and Item on Item Status
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Editing Holdings via Item Status
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Go to *Circulation  -> Item Status*
 +
@@ -24,10 +24,10 @@ image:images/cat/edit-holding-3.png[]
 Use the *Show Holdings Details* and *Hide Item Attributes* buttons to choose to display call number or copy only, or both call number and item at the same time.
 =====
 
-Editing Item on OPAC View
-^^^^^^^^^^^^^^^^^^^^^^^^^
+Editing Holdings via the Item Table Tab
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can access the Item Editor in the catalogue on record details in the OPAC view.
+You can access the Holdings Editor in the catalogue from the *Item Table* tab in a record.
 
 . Click *Edit* beside the item barcode that you want to edit. The Item Editor opens in a new tab.
 +
@@ -35,11 +35,14 @@ image:images/cat/edit-holding-4.png[]
 
 anchor:edit-volume-copy-on-holdings-view[Edit Volume Copy on Holdings View]
 
-Editing Call Number and Item on Holdings View
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Editing Holdings via the Holdings View Tab
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can edit call numbers and items in the record's *Holdings View*.
+You can access the Holdings Editor in the catalogue from the *Holdings View* tab in a record.
 
-. Select the item you want to edit, click *Actions* dropdown list. Scroll down to *Edit*. Click *Call Numbers*, *Items* or *Call Numbers and Items*.
+. Select the item you want to edit and click the *Actions* button.
 +
 image:images/cat/edit-holding-5.png[]
++
+. Scroll down to *Edit*. and click *Edit Call Numbers*, *Edit Items* or *Edit Call Numbers and Items*.
+
