@@ -18,11 +18,13 @@ good practice to understand how the patron account record functions.
 +
 image:images/circ/patronupdate1.png[scaledwidth="75%"]
 
-
+[NOTE]
+======
 If you edit phone numbers, email addresses, or hold notification preferences, you will be 
 given the option to update any outstanding holds with the new information. 
 
 https://www.youtube.com/watch?v=V33rC85pqy4[*Sitka Snippet Video - Hold Notification Updates (0:41)*]
+======
 
 Patron Summary
 ^^^^^^^^^^^^^^
