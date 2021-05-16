@@ -5,9 +5,11 @@ Update Patron Account
 (((Renew Patron Card)))
 (((Library Card)))
 
-Routine maintenance of your patron accounts includes updating patrons' contact information, contact preferences, renewing expired library cards, marking library cards lost, re-setting patrons' passwords, inserting  notes or alert messages, and so on. It is good practice to understand how the patron account record functions.
+Routine maintenance of your patron accounts includes updating patrons' contact information, 
+contact preferences, renewing expired library cards, marking library cards lost, 
+re-setting patrons' passwords, inserting  notes or alert messages, and so on. It is 
+good practice to understand how the patron account record functions.
 
-If you edit phone numbers, email addresses, or hold notification preferences, you have the option to update any outstanding holds with the new information. Watch this short video to see how it works. https://www.youtube.com/watch?v=V33rC85pqy4
 
 . Scan the patron barcode or search for patron by name.
 . Once the patron record is loaded, *Check Out* is the default tab.
@@ -15,6 +17,12 @@ If you edit phone numbers, email addresses, or hold notification preferences, yo
 . Make required edits and click *Save* at top right of screen.
 +
 image:images/circ/patronupdate1.png[scaledwidth="75%"]
+
+
+If you edit phone numbers, email addresses, or hold notification preferences, you will be 
+given the option to update any outstanding holds with the new information. 
+
+https://www.youtube.com/watch?v=V33rC85pqy4[*Sitka Snippet Video - Hold Notification Updates (0:41)*]
 
 Patron Summary
 ^^^^^^^^^^^^^^
@@ -71,14 +79,18 @@ Update and Test Email Address or SMS/Text Number
 +
 image:images/circ/patronupdate5.png[scaledwidth="75%"]
 
-
-
 Invalidate Email Address or Phone Number
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-It is good practice to keep patron email addresses current to ensure service from Evergreen's automated messaging features. The *Invalidate* option alerts staff that a new email address is required, and removes the invalid address.
+It is good practice to keep patron email addresses current to ensure service from Evergreen's 
+automated messaging features. The *Invalidate* option alerts staff that a new email address 
+is required, and removes the invalid address.
 
-NOTE: Accumulated bounced back emails may result in courtesy and notice emails from Evergreen being blocked by some email service providers such as Gmail and Outlook/Hotmail. This denial of service affects all Sitka's Evergreen users, and we request your cooperation in maintaining current email addresses.
+NOTE: Accumulated bounced back emails may result in courtesy and notice emails from 
+Evergreen being blocked by some email service providers such as Gmail and Outlook/Hotmail. 
+This denial of service affects all Sitka's Evergreen users, and we request your cooperation 
+in maintaining current email addresses.
+
 
 Update Patron Address
 ^^^^^^^^^^^^^^^^^^^^^
