@@ -30,26 +30,17 @@ position 29
 Search Filters
 ^^^^^^^^^^^^^^
 
-*Item Types* - relies on character 06 of the leader
+*Languages* - relies on characters 35-37 of the 088 field.
 
-*Item Forms* - relies on character 23 of the 008 field
+*Audience* - relies on character 22 of the 008 field (for the relevant material configurations).
 
-*Languages* - relies on characters 35-37 of the 088 field
+*Literary Forms* - relies on character 33 of the 008 field (only applicable to books).
 
-*Audience* - relies on character 22 of the 008 field (for the relevant material configurations)
-
-*Video Formats* - relies on character 04 of the 007 field
-
-*Bib Levels* - relies on character 07 of the leader
-
-*Literary Forms* - relies on character 33 of the 008 field (only applicable to books)
-
-*Formats* - currently includes formats not included in our regular format list
-
+*Formats* - currently includes formats not included in our regular format list.  These are marked as 
+_(hidden)_ in the list.
 
 The format filter is used by the catalogue to allow staff and patrons to limit their search by material
 format. The following table shows the fixed fields associated with each format filter value.
-
 
 
 [options="header"]
@@ -76,6 +67,9 @@ format. The following table shows the fixed fields associated with each format f
 | Videos (electronic) | item_type(g) AND item_form (o,q,s)
 | Videos (physical) | item_type(g) AND NOT item_form (o,q,s)
 |===
+
+Format Icons
+^^^^^^^^^^^^
 
 The format icons show in the search results and record display in the catalogue. The following table
 shows the fixed fields associated with each format icon.
