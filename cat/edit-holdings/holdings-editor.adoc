@@ -21,14 +21,18 @@ these attributes work.
 Holdings Details
 ^^^^^^^^^^^^^^^^
 
-The Holdings Details section contains information related to call number and volume.
+The Holdings Details section of the Holdings Editor contains information related to call number and volume.
+
+image::images/cat/holdings-details-1.png[]
 
 Item Attributes
 ^^^^^^^^^^^^^^^
 
 The Item Attributes section contains information specific to your items.
 
-The table below provides detailed descriptions of each field in an item record.
+image::images/cat/item-attributes-1.png[]
+
+The table below provides detailed descriptions of the item attribues.
 
 [options="header"]
 |===
