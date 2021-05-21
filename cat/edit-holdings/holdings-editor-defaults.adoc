@@ -1,20 +1,59 @@
 [[_volume_copy_defaults]]
-Call Number/Item Defaults
+Holdings Editor Defaults
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You may select to hide some fields in call number and item records.
+In the Holdings Editor click on the *Defaults* tab to change settings for the Holdings Editor.
 
-. To configure the default fields, click on *Defaults* on the Holdings Editor.
-+
-image::images/cat/volume-copy-default-1.png[]
-+
-. Select/deselect the fields you want to show/hide. Once done, close the tab or go to another tab.
-+
-image::images/cat/volume-copy-default-2.png[]
+Holdings Detail Defaults
+^^^^^^^^^^^^^^^^^^^^^^^^
 
-. When you load the call number/item editor again, you will see those deselected fields are gone.
+The following settings can be set for the Holdings Details:
+
+* Always displat Holdings Details pane
+* Allow Call Number Attribues in Item Templates
+* Classification Scheme
+* Default Prefix
+* Default Suffix
+* Auto-generate Barcodes
+* Use checkdigit
+* Print Item Labels on Save & Exit
+
 
 [TIP]
 ====
-If you wish to print spine and/or pocket labels when saving item records, select *Print Item Labels on Save & Exit* checkbox. You will be directed to the spine label printing screen when clicking on *Save & Exit* on call number/item editor.
+If you wish to print spine and/or pocket labels when saving item records, select *Print Item Labels 
+on Save & Exit* checkbox. You will be directed to the spine label printing screen when clicking on 
+*Save & Exit* on call number/item editor.
 ====
+
+
+
+Display Defaults for Working Item Tab
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+De-select the checkboxes beside those fields that you don't want displaying as available item attribues.
+
+The following item attributes are not used by Sitka's Evergreen and should always be de-selected:
+
+* Circulate as Type
+* Quality
+* Add/Edit Item Tags
+
+You may also want to de-select item attributes that relate to features your library doesn't currently
+use.  The following are item attributes that relate to features libraries may or may not use.
+
+* Loan Duration
+* Fine Level
+* Age-based Hold Protection
+* Floating
+* Deposit
+* Deposit Amount
+
+Refer to xref: for information on specific Item Attributes.
+
+Display Defaults for Completed Items Tab
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+De-select the checkboxes beside those fields that you don't want displaying as available item attribues.
+
+

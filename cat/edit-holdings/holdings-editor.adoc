@@ -1,5 +1,5 @@
-Working on Item Attributes
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Holdings Editor
+~~~~~~~~~~~~~~~
 
 (((Age-based Hold Protection)))
 (((Fine Level)))
@@ -10,9 +10,23 @@ Working on Item Attributes
 
 :linkattrs:
 
-https://www.youtube.com/watch?v=zIgen-2N4PI[Sitka Training Video - Item Editor (6:17)]
+[Sitka Training Video - Holdings Editor (?:??)]
 
-The Item Editor is used to create or edit item records. It is accessed through the *Holdings View* tab, or from the *Item Status* screen, or by clicking  *Edit* beside the item barcode on record details screen. Item records contain multiple fields, called *Item Attributes*. The *Item Attributes* fields display during the process of cataloguing or editing an item record. It is best practice to understand how these attributes work.
+The Item Editor is used to create or edit item records. It is accessed through the *Holdings View* tab, 
+or from the *Item Status* screen, or by clicking  *Edit* beside the item barcode on record details screen. 
+Item records contain multiple fields, called *Item Attributes*. The *Item Attributes* fields display 
+during the process of cataloguing or editing an item record. It is best practice to understand how 
+these attributes work.
+
+Holdings Details
+^^^^^^^^^^^^^^^^
+
+The Holdings Details section contains information related to call number and volume.
+
+Item Attributes
+^^^^^^^^^^^^^^^
+
+The Item Attributes section contains information specific to your items.
 
 The table below provides detailed descriptions of each field in an item record.
 
