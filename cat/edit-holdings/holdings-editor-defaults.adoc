@@ -4,8 +4,14 @@ Holdings Editor Defaults
 
 In the Holdings Editor click on the *Defaults* tab to change settings for the Holdings Editor.
 
+image::images/cat/holdings-editor-defaults-1.png[]
+
 Holdings Detail Defaults
 ^^^^^^^^^^^^^^^^^^^^^^^^
+
+Select the checkboxes beside the settings or use the drop down menus to set the settings you'd like.
+
+image::images/cat/holdings-editor-defaults-2.png[]
 
 The following settings can be set for the Holdings Details:
 
@@ -34,6 +40,8 @@ Display Defaults for Working Item Tab
 
 De-select the checkboxes beside those fields that you don't want displaying as available item attribues.
 
+image::images/cat/holdings-editor-defaults-3.png[]
+
 The following item attributes are not used by Sitka's Evergreen and should always be de-selected:
 
 * Circulate as Type
@@ -57,5 +65,7 @@ Display Defaults for Completed Items Tab
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 De-select the checkboxes beside those fields that you don't want displaying as available item attribues.
+
+image::images/cat/holdings-editor-defaults-4.png[]
 
 
