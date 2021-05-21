@@ -23,13 +23,13 @@ The following settings can be set for the Holdings Details:
 when *Add/Edit Items* is selected from the *Actions* menu.
 | Allow Call Number Attribues in Item Templates | When selected Classification scheme, Prefix, and Suffix
 are available options that can be included in Item Templates.
-* Classification Scheme | By default Evergreen will use the classification scheme specified by the library settings
+| Classification Scheme | By default Evergreen will use the classification scheme specified by the library settings
 _Default Classification Scheme_.  Using this setting you can specify Generic, Dewey, Library of Congress.
-* Default Prefix | If your library uses Prefixes select the one you'd like used as a default.
-* Default Suffix | If your library uses Suffixes select the one you'd like used as a default.
-* Auto-generate Barcodes | Not currently used in Sitka.
-* Use checkdigit | When checked if a non-codabar barcode is entered the outline of the Barcode field turns red.
-* Print Item Labels on Save & Exit | When checked the Print Items Labels interface will open when you 
+| Default Prefix | If your library uses Prefixes select the one you'd like used as a default.
+| Default Suffix | If your library uses Suffixes select the one you'd like used as a default.
+| Auto-generate Barcodes | Not currently used in Sitka.
+| Use checkdigit | When checked if a non-codabar barcode is entered the outline of the Barcode field turns red.
+| Print Item Labels on Save & Exit | When checked the Print Items Labels interface will open when you 
 click Save & Close.  This setting is not recommend for libraries printing label sheets.
 |===
 
@@ -59,7 +59,7 @@ use.  The following are item attributes that relate to features libraries may or
 * Deposit Amount
 * Acquisitions Code
 
-Refer to xref:_item_attributes[] for information on specific Item Attributes.
+Refer to xref:_item_attributes[] for information on specific item attributes.
 
 Display Defaults for Completed Items Tab
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
