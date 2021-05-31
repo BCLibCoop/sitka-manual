@@ -5,25 +5,31 @@ Holdings Template
 link:https://youtu.be/1GR6VDYMNpk[*Sitka Snippet Video - Holdings Templates (4:55)*]
 
 anchor:volume-copy-template[Holdings Template]
-Holdings templates allow you to set up default values for selected call number and item attributes. For example, all adult fiction items use the same shelving location and circulation modifier. You may set up a template for adult fiction with the appropriate shelving location and circulation modifier values. When you apply this template, the two fields will be automatically filled with the default values. Use of templates enhances item creation and helps ensure consistency in records.
+Holdings templates allow you to set up templates with pre-selected values for call number and item attributes
+and help to ensure consistency in cataloguing of items.
 
-Creating Holdings Template
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+Call number attributes are not included in the template editor by default but can be added through the
+xref:_holdings_details_defaults[Holdings Details Defaults].
+  
 
-. You can create a holdings template directly under *Admin -> Local Administration -> Holdings Template Editor* or, you can create an item template when creating a new item, or editing an existing item record, using the Holdings Editor.
+Creating Holdings Templates
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Go to *Administration -> Local Administration -> Holdings Template Editor* 
 +
-image::images/cat/copy-template-3.png[]
+OR
 +
-. Click Item Templates on the Holdings Editor, and select or enter value for each required item attribute sharing the same default value.
+open the Holdings Editor through any bibliographic record and go to the *Item Templates* tab.
 +
-image::images/cat/copy-template-1.png[]
+image::images/cat/item-template-1.png[]
 +
-. Type in a name for the template. Click *Save*.
+. In the Holdings Editor enter the values for the call number and item attributes needed for your template.
 +
-[TIP]
-====
-If you choose to allow call number attributes to be included in holdings template, you will be able set up classification scheme and call number prefixes for the template, as shown in the above screenshot. When the template is applied, these attributes will be applied to the call number. Refer to xref:_volume_copy_defaults[] for how to allow call number attributes to be included in holdings template.
-====
+image::images/cat/item-template-2.png[]
++
+. Type in a name for the template and click *Save*.
++
+image::images/cat/item-template-3.png[]
 +
 . When you go to the Holdings Editor again, you will see the newly created template listed in the *Template* dropdown list.
 +
@@ -31,32 +37,50 @@ image::images/cat/copy-template-2.png[]
 +
 . To use it, select it and click *Apply*.
 
+Using Holdings Templates
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+. In the Holdings Editor click on the Template drop down menu.
++
+. Select the template from the list and click *Apply*.
++
+image::images/cat/item-template-4.png[]
++
+. The applicable attributes will be updated with the values from the template and outlined in black.
++
+image::images/cat/item-template-5.png[]
+
 
 Sharing Holdings Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Templates are saved on the Evergreen server, but only viewable by the staff account that created them.  
+To share templates with other staff account you need to export the templates and have
+ staff import them into their accounts.
+ 
+[TIP]
+=====
+When exporting, Evergreen will export all templates as one file.  Co-op Support recommends you set up all
+templates needed by your cataloguers on one account before exporting the file.
+=====
 
-Templates are saved on the Evergreen server, but only viewable by the staff account that created them.  To share templates with other staff logins, you will need to export the templates, and have  staff import them into their accounts.
-
-. To export holdings templates, click on *Export* on Holdings Template Editor.
+. In the Holdings Template Editor click *Export*.
 +
-image::images/cat/copy-template-4.png[]
+image::images/cat/item-template-6.png[]
 +
-. You are prompted to specify a folder to keep the template. Click *Save* once done.
+. You are prompted to specify where on your computer you would like to save the file. Click *Save* once done.
 +
-image::images/cat/copy-template-5.png[]
+. You can share the file with staff (via email or a shared network drive) who need to load the templates or
+have them log into Evergreen on computer the file has been saved to.
+. In the Holdings Template Editor click *Import*.
 +
-. Copy or email the file to the staff who wants to load the templates.
-. Open the Holdings Template Editor on their workstation. Click on *Import*.
-+
-image::images/cat/copy-template-6.png[]
+image::images/cat/item-template-7.png[]
 +
 . Follow the prompts to locate the templates file to be loaded. Click *Open*.
-+
-image::images/cat/copy-template-7.png[]
 
 
 [TIP]
 =====
-When importing holdings templates, existing templates will be kept, and new ones  added. Templates sharing the same name will be overlaid by the new templates.
+When importing holdings templates, existing templates will be kept and new ones added. Templates sharing 
+the same name will be overlaid by the new templates.
 =====
