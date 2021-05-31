@@ -13,6 +13,7 @@ Holdings Editor
 The Holdings Editor is used to create or edit call number and item records. 
 
 The Holdings Editor can be accessed:
++
 * from within a bibliographic record by clicking on the *Add Holdings* button.
 * from within a bibliographic record by going to *Holdings View* and selecting the appropriate option from
 the *Actions* menu.
@@ -39,11 +40,11 @@ branch.
 additional fields will appear.
 | Classification | The classification scheme used by the call number | Yes | The classification scheme affects
 how call numbers are sorted in the Shelf Browse.
-| Prefix | Configured prefixes can be selected from the drop down menu. | No | See xref:prefix_and_suffix[] for 
+| Prefix | Configured prefixes can be selected from the drop down menu. | No | See xref:_prefix_and_suffix[] for 
 more information.
 | Call Number Label | The call number you would like to assign to your item. | Yes | Evergreen will pre-populate this field
 with the value in the 082 $a or 050 $a, if there is a value in the field, depending on which classification scheme is the default.
-| Suffix | Configured suffixes can be selected from the drop down menu. | No |See xref:prefix_and_suffix[] for 
+| Suffix | Configured suffixes can be selected from the drop down menu. | No |See xref:_prefix_and_suffix[] for 
 more information.
 | Items | The number of items using the particular call number label. | Yes | When this number is increased additional 
 barcode, item #, and parts fields will appear.
@@ -92,7 +93,7 @@ used for statistical purposes. | Not currently used in Sitka's Evergreen.
 | Holdable? | Indicates whether the item is holdable or not | Leave it as "YES", unless the item is in a holdable shelving location, but holds should not be allowed on this particular item. If shelving location's Holdable? is set to "NO", this field will have no effect. The "NO" value in this field overrides the  shelving location's Holdable? is "YES" field.
 | Item Alert | Used for information that should been seen when an item is checked in or out 
 (ie. Damage or number of pieces to check for). | CAUTION: some 3rd party self check machines 
-cannot display item alerts. |
+cannot display item alerts. 
 | Item Note | Used for information specific to the item. | Notes set as public will display in the public catalogue.
 | Item Tags |  | Not currently used in Sitka's Evergreen.
 | Loan Duration | Indicates whether an item uses the Short, Normal, or Long loan duration attached to its circulation modifier or shelving location set up in the circulation policy. | Each circulation modifier/shelving location may have three loan durations, corresponding to these three values. Use 'Normal' if only one loan period is used. Please contact Co-op Support if you need multiple loan durations for one circulation modifier/shelving location.
