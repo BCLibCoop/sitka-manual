@@ -51,6 +51,7 @@ barcode, item #, and parts fields will appear.
 | Item # | The item number assigned to the item by library staff to keep track of how many copies
 of an item the library has. | No | The item number does not display on the spine label or in the public catalogue.
 | Part | The use of parts is not currently supported in Sitka's Evergreen. | No |
+|===
 
 Item Attributes
 ^^^^^^^^^^^^^^^
