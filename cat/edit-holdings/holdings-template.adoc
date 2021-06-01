@@ -1,6 +1,6 @@
 [[_volume_copy_template]]
-Holdings Template
-~~~~~~~~~~~~~~~~~
+Holdings Templates
+~~~~~~~~~~~~~~~~~~
 
 link:https://youtu.be/1GR6VDYMNpk[*Sitka Snippet Video - Holdings Templates (4:55)*]
 
@@ -15,15 +15,15 @@ xref:_holdings_details_defaults[Holdings Details Defaults].
 Creating Holdings Templates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Go to *Administration -> Local Administration -> Holdings Template Editor* 
+. Go to *Administration -> Local Administration -> Holdings Template Editor*. 
 +
 OR
 +
-open the Holdings Editor through any bibliographic record and go to the *Item Templates* tab.
+Open the Holdings Editor through any bibliographic record and go to the *Item Templates* tab.
 +
 image::images/cat/item-template-1.png[]
 +
-. In the Holdings Editor enter the values for the call number and item attributes needed for your template.
+. Enter the values for the call number and item attributes needed for your template.
 +
 image::images/cat/item-template-2.png[]
 +
@@ -34,7 +34,7 @@ image::images/cat/item-template-3.png[]
 Using Holdings Templates
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-. In the Holdings Editor click on the Template drop down menu.
+. In the Holdings Editor click on the template drop down menu.
 +
 . Select the template from the list and click *Apply*.
 +
@@ -64,7 +64,7 @@ image::images/cat/item-template-6.png[]
 +
 . You are prompted to specify where on your computer you would like to save the file. Click *Save* once done.
 +
-. You can share the file with staff (via email or a shared network drive) who need to load the templates or
+. You can share the file with staff via email or a shared network drive or
 have them log into Evergreen on computer the file has been saved to.
 . In the Holdings Template Editor click *Import*.
 +
