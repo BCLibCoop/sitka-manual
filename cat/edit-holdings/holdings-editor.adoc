@@ -57,7 +57,8 @@ of an item the library has. | No | The item number does not display on the spine
 Item Attributes
 ^^^^^^^^^^^^^^^
 
-The Item Attributes section contains information specific to your library's items.
+The Item Attributes section contains information specific to your library's items.  You can customize which
+attributes display in the xref:_working_item_defaults[defaults for the Working Item Tab].
 
 image::images/cat/item-attributes-1.png[]
 
