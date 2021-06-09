@@ -3,7 +3,7 @@ Placing Holds
 ~~~~~~~~~~~~
 (((Holds, Place Holds)))
 
-link:https://youtu.be/aUOIbvsouaw[*Sitka Training Video - Placing Holds (4:33)*]
+link:https://youtu.be/MDuN4s7c-rQ[*Sitka Training Video - Placing Holds (6:18)*]
 
 link:https://youtu.be/wb6Tp8sFmoA[*Sitka Snippet Video - Patron Search in Place Hold (0:51)*]
 
@@ -14,7 +14,8 @@ Holds can be placed by staff in the web client,  and by patrons on your public c
 Hold Levels
 ^^^^^^^^^^^
 
-Evergreen has four different holds levels. Library staff can place holds at all four levels, while patrons can only place meta-record, title-level, and volume-level holds.
+Evergreen has four different holds levels. Library staff can place holds at all four levels, while 
+patrons can only place meta-record, title level, and call number level holds.
 
 The chart below summarizes the four levels of holds.
 
@@ -22,13 +23,17 @@ The chart below summarizes the four levels of holds.
 |===
 |Hold level |	Abbreviation |	When to use	How to use|	Who can use |Hold tied to
 |Meta-record| M	|Patron wants first available copy of multiple titles of the same/different format.	Click on place hold to the right of the record. From holds confirmation screen, click Advanced hold options and select other applicable formats. |Patron or staff |	Holdings attached to multiple MARC (title) records sharing the same title and author of selected format(s)(book, video, audiobook, etc.)
-|Title	| T	| Patron wants first available copy of a title.	Staff or patron click on place hold to the right of a record on search result list or record summary screen. | Patron or staff | Holdings attached to a single MARC (title) record
+|Title	| T	| Patron wants first available copy of a title.	Staff or patron click on place hold to the right 
+of a record on search result list or record summary screen. *Libraries participating in Interlibrary Connect 
+should use title level holds for ILC holds.* | Patron or staff | Holdings attached to a single MARC (title) record
 |Call Number	| V	| Patron wants the first available copy of a specific call number of a title. Staff click *Call Number Hold* in *Holdable?* column on the record summary screen.	| Patron or staff | Call number specific volume record (local call number resides in volume record)
 |Item	| C | Patron or staff want a specific copy of a title.  Staff click *Item hold* in *Holdable?* column on the record summary screen.	| Staff	| Item barcode
 |===
 
 Title Level Hold
 ^^^^^^^^^^^^^^^^
+
+link:https://youtu.be/NkV8pIU2R34[*Sitka Snippet Video - Placing Title Level Holds (2:05)*]
 
 . To place a title level hold, click the *Place Hold* button to the right of the record on the search result list, or on the record summary screen.
 +
@@ -104,6 +109,9 @@ NOTE: Do not use Recall Hold or Force Item Hold
 
 Placing Holds in Patron Records
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+link:https://youtu.be/CBvMWZMgA24[*Sitka Snippet Video - Placing Holds from the Patron Account (1:03)*]
+
 
 . Click the *Holds* tab in the patron record.
 . Click *Place Hold*.
