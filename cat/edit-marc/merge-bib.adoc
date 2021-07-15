@@ -1,52 +1,80 @@
 Merging Bibliographic Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-https://goo.gl/91kp4e[Sitka Training Video - Merge Duplicate Bibliographic Records (7:31)]
+https://youtu.be/Why90G2qizg[Sitka Training Video - Merging Duplicate Bibliographic Records (5:10)]
 
 This section will demonstrate merging bibliographic records in the catalogue. A common application for this functionality is to replace brief records with full records to keep one bibliographic record for one title.
 
-Any volume and copy records, or holds, associated with the brief record, will be transferred to the full record upon merging.
+Any call number and item records, or holds, associated with the non-lead records will be transferred to 
+the lead record upon merging.
 
-. Records are merged via a *Record Bucket*. You need to have a bucket for the records you wish to merge. To create a record bucket, refer to  xref:create-record-bucket[] for detailed instructions. In the example below the bucket is named "merge117036601".
-
-. Identify records to be merged and add them to the bucket. See xref:add-record-to-bucket[] for detailed instructions.
-
-. Retrieve the bucket by selecting *Cataloguing -> Record Buckets* on menu bar.
-
+. Through a catalogue search identify records to be merged and add them to your basket
+by checking the boxes beside the relevant records in the search results list.
++
+image::images/cat/merge-records-1.png[]
++
+. From the Basket Actions drop down menu select *Add Basket to Bucket*.
++
+image::images/cat/merge-records-2.png[]
++
+. On the pop-up that appears select the *New Bucket* tab.
++
+. Enter a name for your bucket.  Support recommends using the title of the records you are merging.
++
+. Click *Add to New Bucket*.
++
+image::images/cat/merge-records-3.png[]
++
+. Retrieve the bucket by selecting *Cataloguing -> Record Buckets* on the menu bar.
++
 . Click the drop down arrow beside *Buckets*, then select the bucket containing the records to be merged.
 +
-image::images/cat/merge-1.png[]
+image::images/cat/merge-records-4.png[]
 +
 . Select the records you wish to merge. Click *Actions -> Merge Selected Records*.
 +
-image::images/cat/merge-2.png[]
+image::images/cat/merge-records-5.png[]
 +
-. Merge screen opens in a pop-up window. Record summary is listed above. You may shorten it by clicking the double arrows. You may also *Toggle Holdings Display*. Holdings information  is displayed below each MARC record.  You can remove a record if you decide not to merge it by clicking *Remove from consideration*. Once decided on a lead record, click *Use as lead record*.
+. The merge screen opens in a pop-up window. 
+.. The record summary is listed above. You may shorten it by 
+clicking the double arrows. 
+.. Clicking *Toggle Holdings Display* will display the holdings information below each MARC record.  
 +
-image::images/cat/merge-3.png[]
+image::images/cat/merge-records-6.png[]
 +
-. Edit the lead record if necessary. Click *Edit* to edit in the current window. Once done, click *Save*. You can also click *Edit using full editor* to open the record in a pop-up window. Once done editing, click *Save* on top, then *Done* at the bottom to go back to the merge screen.
+. If after comparing the MARC records you determine that any of them are not a match for merging click 
+*Remove from consideration*. The record will no longer be included in the merge.
 +
-image::images/cat/merge-4.png[]
+image::images/cat/merge-records-8.png[]
 +
-. Select a merge profile. We use "Keep Local Fields".
-. Once ready, click *Merge*. The lead record is displayed in the catalogue.
-
+. Leave the merge profile as "Keep Local Fields".  Any 050, 055, 092, 590, 595, 690, 852, and 856 fields 
+from non-lead records will be moved to the lead record.
++
+image::images/cat/merge-records-8.png[]
++
+. From the remaining records determine which is the best record and click *Use as lead record*.
++
+image::images/cat/merge-records-9.png[]
++
+. Edit buttons will appear for the lead record. You can edit the record if edits are necessary.  Any edits need to 
+follow Sitka http://docs.libraries.coop/policy/_cataloguing_policy.html[Cataloguing Policy].
++
+image::images/cat/merge-records-10.png[]
++
+. Click *Merge*. The lead record will open in the catalogue in a new tab. 
 
 
 [NOTE]
 =====
-While you can edit call numbers and/or items from the merge screen, Co-op Support recommends you focus on bibliographic records on merge screen. After the merging is done, you can edit your call number and item on Holdings View.
+While you can edit call numbers and/or items from the merge screen, Co-op Support recommends you focus 
+on bibliographic records here. After the merging is done, you can edit your call numbers and items through the
+Holdings Editor.
 =====
 
-[TIP]
-=====
-Merging time and target record is displayed when the merged non-lead records are retrieved.
-
-image::images/cat/merge-5.png[]
-=====
 
 [CAUTION]
 =========
-Deleted records remain in a Record Bucket. We suggest you merge records right after you add them to the bucket. If you merge them later, good practice is to check the records again before merging to avoid merging them into a deleted record. Right now, deleted records are not indicated on merge screen.
+Deleted records will remain in a record Bucket. We recommend you merge records right after you add 
+them to the bucket. If you merge them later, good practice is to check the *Deleted* column in the bucket  
+before merging to avoid merging records into a deleted record.
 =========
