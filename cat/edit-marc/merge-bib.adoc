@@ -50,7 +50,7 @@ image::images/cat/merge-records-8.png[]
 . Leave the merge profile as "Keep Local Fields".  Any 050, 055, 092, 590, 595, 690, 852, and 856 fields 
 from non-lead records will be moved to the lead record.
 +
-image::images/cat/merge-records-8.png[]
+image::images/cat/merge-records-7.png[]
 +
 . From the remaining records determine which is the best record and click *Use as lead record*.
 +
