@@ -29,11 +29,11 @@ NOTE: Transfer target is kept until it is reset (via *Reset Record Marks* on *Ma
 +
 . Go to *Holdings View* of the source title. Select the call number you want to transfer. Click *Actions* list.
 +
-image::images/cat/transfer-holding-3.png[]
+image::images/cat/transfer-holding-4.png[]
 +
 . Scroll down to *Transfer*. Choose *Transfer Holdings to Marked Destination*.
 +
-image::images/cat/transfer-holding-4.png[]
+image::images/cat/transfer-holding-3.png[]
 +
 . The confirmation pop-up appears on bottom right of the screen.
 +
@@ -65,7 +65,7 @@ image::images/cat/transfer-holding-7.png[]
 . Click *Actions* dropdown list. Scroll down to *Transfer*. Select 
 *Transfer Holdings to Marked Destination*.
 +
-image::images/cat/transfer-holding-4.png[]
+image::images/cat/transfer-holding-3.png[]
 +
 . Confirmation appears at bottom right of the screen.
 
