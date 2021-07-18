@@ -1,17 +1,23 @@
 Transferring Holdings
 ~~~~~~~~~~~~~~~~~~~~~
 
-There are times when you need to move item records from one title record to another, or move items from one call number to another under the same or another title record. There are functions in Evergreen to allow you to do so. The critical step is to ensure that you first mark the destination record, then move the source record with the corresponding transfer function. Co-op Support recommends you read through the process first before starting, as each scenario has different characteristics.
+There are times when you need to move item records from one title record to another, or move items 
+from one call number to another under the same or another title record. There are functions in 
+Evergreen to allow you to do so. The critical step is to ensure that you first mark the destination 
+record, then move the source record with the corresponding transfer function. Co-op Support recommends 
+you read through the process first before starting, as each scenario has different characteristics.
 
-Transferring Call Numbers and Items
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Transferring Holdings
+^^^^^^^^^^^^^^^^^^^^^
 
-When you want to transfer all items under one call number to another title record or another library under the same title, you  use the *Transfer Call Number* function. Evergreen will transfer both the call number record and all items under it to the new title and/or library.
+When you want to transfer all items under one call number to another title record or another 
+library under the same title, you  use the *Transfer Holdings* function. Evergreen will transfer both 
+the call number record and all items under it to the new title and/or library.
 
 [[transfer-volume-to-another-record]]
-*Transferring Call Numbers to Another Title Record*
+*Transferring Holdings to Another Title Record*
 
-. Find the destination or target record. On *Mark for* dropdown list, select *Holdings Transfer*.
+. Find the destination or target record. On *Mark for* dropdown list, select *Holding Transfer*.
 +
 image::images/cat/transfer-holding-1.png[]
 +
@@ -21,9 +27,13 @@ image::images/cat/transfer-holding-2.png[]
 +
 NOTE: Transfer target is kept until it is reset (via *Reset Record Marks* on *Mark for* list) or a new target is marked.
 +
-. Go to *Holdings View* of the source title. Select the call number you want to transfer. Click *Actions* list. Scroll down to *Transfer*. Choose *Call Numbers to Previously Marked Destination*.
+. Go to *Holdings View* of the source title. Select the call number you want to transfer. Click *Actions* list.
 +
 image::images/cat/transfer-holding-3.png[]
++
+. Scroll down to *Transfer*. Choose *Transfer Holdings to Marked Destination*.
++
+image::images/cat/transfer-holding-4.png[]
 +
 . The confirmation pop-up appears on bottom right of the screen.
 +
@@ -35,26 +45,30 @@ Your call number's owning library and items' circulation library will not be cha
 ========
 
 [[transfer-volume-to-another-library]]
-*Transferring Call Numbers to Another Library*
+*Transferring Holdings to Another Library*
 
-. On *Holdings View* of the target title record, select the destination library. Click *Actions* dropdown list. Scroll down to *Mark*. Select *Library/Call Number as Transfer Destination*.
+. On *Holdings View* of the target title record, select the destination library.
+.. You may need to select *Show Empty Libs* to see your destination.
 +
 image::images/cat/transfer-holding-5.png[]
 +
-. Confirmation appears at the bottom right corner of the screen.
-+
-. Find the source title. Select the source volume on *Holdings View*. Click *Actions* dropdown list. Scroll down to *Transfer*. Select *Call Numbers to Previously Marked Destination*.
+Click *Actions* dropdown list. Scroll down to *Mark*. Select *Mark Library/Call Number as Transfer Destination*.
 +
 image::images/cat/transfer-holding-6.png[]
 +
+. Confirmation appears at the bottom right corner of the screen.
++
+. Find the source title. Select the source volume on *Holdings View*.
++
+image::images/cat/transfer-holding-7.png[]
++ 
+. Click *Actions* dropdown list. Scroll down to *Transfer*. Select 
+*Transfer Holdings to Marked Destination*.
++
+image::images/cat/transfer-holding-4.png[]
++
 . Confirmation appears at bottom right of the screen.
 
-[NOTE]
-========
-During the above process, if you select to show item details, you may select one item under the call number/library to represent it. Below is an example.
-
-image::images/cat/transfer-holding-6a.png[]
-========
 
 [TIP]
 =======
@@ -65,7 +79,8 @@ If the destination library has a call number with the same call number, the call
 Transferring Items
 ^^^^^^^^^^^^^^^^^^
 
-You may want to transfer some of the items under one call number to another call number/library under the same or another record, or transfer all items under one call number to another with a different call number. You use the  *Transfer Items* function.
+You may want to transfer some of the items under one call number to another call number or transfer all 
+items under one call number to another with a different call number. You use the  *Transfer Items* function.
 
 *Transferring Items to Another Call Number/Library*
 
@@ -77,6 +92,7 @@ image::images/cat/transfer-holding-9.png[]
 +
 image::images/cat/transfer-holding-10.png[]
 +
-. The source item disappears, if destination is under another record. The confirmation pops up at the bottom right of the screen.
+. The source item disappears, if destination is under another record. The confirmation pops up at the bottom 
+right of the screen.
 +
 image::images/cat/transfer-holding-11.png[]
