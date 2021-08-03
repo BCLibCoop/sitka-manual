@@ -105,8 +105,13 @@ Update Patron Address
 Unlinking Shared Patron Addresses
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If your library links addresses in cloned accounts, the address in the new, cloned record is greyed out, and can only be edited in the original record. The address' owning account can not be deleted or merged when other accounts are still using the address, so there are times when you need to unlink shared addresses. You do this by adding a new address to the cloned patron account record.
+If your library links addresses in cloned accounts, the address in the new, cloned record is greyed out, and 
+can only be edited in the original record. The address' owning account can not be deleted or merged when 
+other accounts are still using the address, so there are times when you need to unlink shared addresses. 
+You do this by adding a new address to the cloned patron account record.
 
+. Uncheck the checkboxes for *Mailing* and *Physical* on the shared address.
 . Click  *New Address* button.
-. Click  *Mailing* and *Physical* address, enter the information, and click *Save*.
+. Check the checkboxes for *Mailing* and *Physical* on the new address.
+. Enter the address and click *Save*.
 . The linked address is replaced.
