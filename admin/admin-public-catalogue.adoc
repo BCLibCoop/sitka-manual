@@ -1,0 +1,15 @@
+[[public catalogue]]
+Public Catalogue Customizations
+-----------------------------------------
+
+Each library can customize the Evergreen public catalogue with their logo, colours, and 
+
+There can be separate colours for :
+
+-the header
+-the footer
+-the buttons (search, clear form, my account)
+-the tabs (advanced search, numeric search, expert search) on Advanced Search page
+-horizontal 'Library Home' bar
+
+NOTE: I need the colours you want in their hex codes. If you google 'hex code colors' lots of sites will come up which display the different colours and their hex codes. If you see some colours you want to use at some other Sitka sites let me know what site and I can grab those.

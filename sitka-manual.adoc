@@ -145,6 +145,8 @@ include::admin/admin-serveradmin.adoc[]
 
 include::admin/admin-self-check.adoc[]
 
+include::admin/admin-public-catalogue.adoc[]
+
 include::admin/admin-delete-patron-card.adoc[]
 
 include::admin/admin-staff-account.adoc[]
