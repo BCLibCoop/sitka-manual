@@ -49,11 +49,13 @@ Click *Administration* -> *Workstation* -> *Tests*
 Latency Test
 ^^^^^^^^^^^^
 
-This will measure the websocket latency between your workstation client and the Evergreen server at the host above.
+This will measure the websocket latency between your workstation client and the Evergreen server.
 
 . Click *Start Test* to run the test
 . Click *Copy to Clipboard* to copy the results
 . Click *Clear* to clear the results
+
+image::images/admin/latency-test.png[]
 
 *Average Latency* - Indicates how long it takes for your workstation to communicate with Sitka's Evergreen servers.
 
