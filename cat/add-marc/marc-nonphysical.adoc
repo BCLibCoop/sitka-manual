@@ -75,7 +75,7 @@ see http://www.loc.gov/marc/bibliographic/bd856.html.
 +
 [NOTE]
 ======
-If an 856 tage has both a $3 and a $z neither will display in the public catalogue.  We recommend always using $y
+If an 856 tag has both a $3 and a $z neither will display in the public catalogue.  We recommend always using $y
 instead of $z.
 ======
 
