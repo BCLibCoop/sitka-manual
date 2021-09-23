@@ -4,7 +4,7 @@ Cataloguing Non-physical Resources
 
 Ordinary bibliographic records are only visible in the OPAC when holdings records are attached, but it is 
 also possible to catalogue non-physical resources such as websites, online journals, or downloadable 
-audiobooks, etc. by adding a 856 tag with subfield $9. The steps below describe how to catalogue a 
+audiobooks, etc. by adding an 856 tag with subfield $9. The steps below describe how to catalogue a 
 non-physical resource so it appears in OPAC searches.
 
 [NOTE]
