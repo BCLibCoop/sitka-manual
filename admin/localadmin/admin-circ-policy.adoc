@@ -3,8 +3,6 @@ Circulation Policies
 anchor:circulation-policy[Circulation Policy]
 
 
-////
-
 Circulation policies define the loan duration, renewals, recurring fine rate, maximum fine amount, grace period 
 and item specific limits for different combinations of User Permission Groups, Home Library and Circulation Modifiers 
 for items checked out at your library or library system. Other item attributes may be used for more specific rules. 
@@ -64,7 +62,6 @@ We recommend submitting your request at least one week before you'd like the cha
 Original Docs
 ^^^^^^^^^^^^^
 
-////
 
 Circulation policies define the loan duration, renewals, recurring fine rate, maximum fine amount, grace period 
 and item specific limits for different combinations of User Permission Groups, Home Library and Circulation Modifiers 
