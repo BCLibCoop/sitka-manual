@@ -2,7 +2,13 @@
 Public Catalogue Customizations
 -------------------------------
 
-Each library can customize the Evergreen public catalogue with their logo, colours, and 
+Certain things in your public catalogue can be customized for you by Sitka staff.  Making these changes takes time
+so please ensure you contact Support with your requested changes at least one week before you want to changes live.
+
+Appearance
+~~~~~~~~~~
+
+Each library can customize the Evergreen public catalogue with their logo and colours. 
 
 There can be separate colours for :
 
@@ -12,6 +18,60 @@ There can be separate colours for :
 -the tabs (advanced search, numeric search, expert search) on Advanced Search page
 -horizontal 'Library Home' bar
 
-I need the colours you want in their hex codes. If you google 'hex code colors' lots of 
-sites will come up which display the different colours and their hex codes. If you see some 
-colours you want to use at some other Sitka sites let me know what site and I can grab those.
+Please provide the colours you want in their hex codes. If you like a colour used on another Sitka library's
+public catalogue let us know and we can pull the hex code from their site.
+
+By default the public catalogue displays just the date for due dates.  Libraries that have hourly loans
+can choose to have the due date time included; the due date time will display for all check outs, not
+just hourly loans.
+
+A temporary banner with text and links can be applied across the top of your public catalogue.  The yearly 
+banner for Sitka's Evergreen upgrade will override local banners.
+
+Search Library Scope
+~~~~~~~~~~~~~~~~~~~~
+
+Libraries participating in reciprocal borrowing agreements that allow patrons to place holds, 
+like Interlibrary Connect, have three option for how their public catalogue scopes.
+
+. Only your library displays in the search library list
+. All libraries in your zone display in the search list and your library is the default
+. All libraries in your zone display in the search list and the top organization in the zone is the default
+
+My Account Login
+~~~~~~~~~~~~~~~~
+
+The text on the My Account login page can be customized if your library has specific information that patrons
+need for logging in that isn't covered by the default text.
+
+image::images/admin/my-account-customize-1.png[]
+
+. Username Label
+.. This text can be customized.
+. Username Hint
+.. This text can be customized.
+. Password Label
+.. This text can be customized.
+. Password Hint
+.. This text can be controlled by the library setting _uses phone as default pin_ which switches the text between 
+wording about a default PIN or using the last 4 digits of the patron's phone number.  This text can also be
+customized if neither option covers the information your patrons need.
+
+
+Patron Settings
+~~~~~~~~~~~~~~~
+
+The ability for a patron to change their email can be disabled for libraries that require patrons 
+to use an institution issued email address.
+
+The ability for a patron to change their password can be disabled for libraries that use single-sign on or
+similar products.
+
+The ability for a patron to select hold notification by phone can be disabled for libraries that never contact
+patrons by phone.
+
+The password strength message can be customized if your library requires different criteria than Evergreen's
+default.
+
+
+
