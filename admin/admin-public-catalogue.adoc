@@ -10,13 +10,13 @@ Appearance
 
 Each library can customize the Evergreen public catalogue with their logo and colours. 
 
-There can be separate colours for :
+There can be separate colours for:
 
--the header
--the footer
--the buttons (search, clear form, my account)
--the tabs (advanced search, numeric search, expert search) on Advanced Search page
--horizontal 'Library Home' bar
+* the header
+* the footer
+* the buttons (search, clear form, my account)
+* the tabs (advanced search, numeric search, expert search) on Advanced Search page
+* horizontal _Library Home_ bar
 
 Please provide the colours you want in their hex codes. If you like a colour used on another Sitka library's
 public catalogue let us know and we can pull the hex code from their site.
@@ -54,7 +54,8 @@ image::images/admin/my-account-customize-1.png[]
 .. This text can be customized.
 . Password Hint
 .. This text can be controlled by the library setting _uses phone as default pin_ which switches the text between 
-wording about a default PIN or using the last 4 digits of the patron's phone number.  This text can also be
+wording about a default PIN or using the last 4 digits of the patron's phone number.  
+.. This text can also be
 customized if neither option covers the information your patrons need.
 
 
