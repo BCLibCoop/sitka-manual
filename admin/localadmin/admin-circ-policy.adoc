@@ -3,25 +3,46 @@ Circulation Policies
 anchor:circulation-policy[Circulation Policy]
 
 
-Circulation policies define the loan duration, renewals, recurring fine rate, maximum fine amount, grace period 
-and item specific limits for different combinations of User Permission Groups, Home Library and Circulation Modifiers 
-for items checked out at your library or library system. Other item attributes may be used for more specific rules. 
+Circulation policies tell Evergreen what to do when an item is scanned for check out.  This can vary from 
+check out to check out based on factors including the item's circulation modifier, shelving location, and 
+the patron's permission profile.
 
+When an item is scanned for check out Evergreen checks the following to determine if the item can be checked 
+out to the patron and if so with what parameters:
+
+* Group Penalty Thresholds for the check out library
+** Has the patron reached their maximum checked out, overdue, lost or fine amount?
+* Item Status
+** Is the item in a status that can be checked out?
+* Item's Shelving Location
+** Is circulate set to true or false for the shelving location?
+* Item's Circulate flag
+** If the circulate is set to true for the shelving location, is circulate set to true or false 
+for the particular item? 	
+* Circulation Policies for the check out library
+** Which of the check out library's policies match the attributes of the item and the patron type 
+it's being checked out to?
+* Library Operating Hours for the check out library
+** Is the library normally open on the day the item would be due?
+* Closed Dates Editor for the check out library
+** Is the closed for a holiday or other reason on the day the item would be due?
 
 Understanding Circulation Policies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Circulation policies can be divided into two parts the pieces that determine which patrons and items a policy
+Circulation policies can be divided into two parts - the pieces that determine which patrons and items a policy
 applies to and the pieces that determine how the policy is applied.
 
 Who/What Does A Policy Apply To
 
 * Patron Permission Profile
-* Org Unit
+* Org Unit (Owning Library)
 * Circulating Library
 * User Home Library
 * Circulation Modifier
 * Shelving Location
+* Reference
+* Item Age
 
 
 How Is the Policy Applied
@@ -35,28 +56,74 @@ How Is the Policy Applied
 * Item Specific Limit
 
 
+
 Viewing Your Circulation Policies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To view your current circulation policies run a report (reporter permissions required) or
-view your policies in Evergreen (Local System Administrator permissions required).
+To easiest way to view your current circulation policies is to run a report (reporter permissions required).
 
 * In the reporter go to *Shared Folders -> Templates -> Sitka_templates -> Library Configuration*
 
 ** Multiple report templates for circulation policies are available here.
 
-* In Evergreen select *Administration ->  Local Administration -> Circulation Policies*. By default, your library is selected 
-in the box after *Context Org Unit* (i.e. Checkout Library). The initial display will show all circulation rules 
-at your library and the federation level. 
+Local system administrators can also view their policies within Evergreen by going to 
+*Administration ->  Local Administration -> Circulation Policies*.
+
+Only 15 policies display per page so if you want to see all your policies at once running a report is the 
+better option.
+
+By default, your library is selected in the box after *Context Org Unit* (i.e. Checkout Library). 
+The initial display will show circulation policies at both your library and the federation level. 
+
+
+Troubleshooting Your Circulation Policies
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+When an item doesn't check out as expected it is usually because there is an issue with the item
+or the library's circulation policies need to be updated.  
+
+If multiple items aren't following the expected policy check your circulation policies to make sure the 
+expected policy is included in your policies.
+
+If a particular item isn't checking out as expected: 
+
+. Enter the item barcode into *Item Status* and go to the *Detail View*.
++
+..Here you can see information about the item as well as the circulation policy applied.  
++
+image::images/admin/circ-policy-troubleshoot-1.png[]
++
+. Check the values for Circulate, Circ Library, Owning Library, Shelving Location, Loan Duration, Fine Level, 
+Reference, and Circ Modifier.
+.. The most common reason for an item to not follow the expected policy is because it has the wrong 
+circulation modifier applied or doesn't have a circulation modifier at all.
+. If any values are incorrect edit the item to have the correct values.
+. To apply the correct policy you will need to check the item in and then back out to the patron.
+. If the item still doesn't follow the expected policy double check the patron's permission profile 
+matches what is specified in the policy you expect to be followed.
+. If the item still doesn't follow the expected policy contact https://bc.libraries.coop/support/[Support] 
+for assistance.
+.. In your ticket make sure to include the item barcode, the patron barcode, and a description of what 
+is currently happening and what should be happening.
+
+
+If you're unsure about what values are used for different policies you run the circulation policy report
+to view your current circulation policies. 
 
 
 Changing Your Circulation Policies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Anytime you change your library's policies circulation make sure you 
+
 All changes to your circulation policies are made by Support.  
 
 To request changes to your circulation policies submit a ticket to https://bc.libraries.coop/support/[Support]. 
 We recommend submitting your request at least one week before you'd like the change go into effect.
+
+With reciprocal borrowing circulation policies often involve multiple organizational units.  Due to this only
+Support can make changes to circulation policies.
+
 
 
 Original Docs
