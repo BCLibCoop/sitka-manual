@@ -89,7 +89,7 @@ If a particular item isn't checking out as expected:
 
 . Enter the item barcode into *Item Status* and go to the *Detail View*.
 +
-..Here you can see information about the item as well as the circulation policy applied.  
+.. Here you can see information about the item as well as the circulation policy applied.  
 +
 image::images/admin/circ-policy-troubleshoot-1.png[]
 +
