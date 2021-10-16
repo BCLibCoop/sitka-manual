@@ -19,6 +19,26 @@ out to the patron and if so with what parameters:
 * Closed Dates Editor for the check out library
 
 
+Viewing Your Circulation Policies
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To easiest way to view your current circulation policies is to run a report (reporter permissions required).
+
+* In the reporter go to *Shared Folders -> Templates -> Sitka_templates -> Library Configuration*
+
+** Libraries participating in any reciprocal borrowing agreements should use the template 
+_Circulation Policies by Checkout Library_.
+** All other libraries should use the template _Circulation Policies filtering by copy circ lib_.
+
+Local system administrators can also view their policies within Evergreen by going to 
+*Administration ->  Local Administration -> Circulation Policies*.
+
+Only 15 policies display per page so if you want to see all your policies at once running a report is the 
+better option.
+
+By default, your library is selected in the box after *Context Org Unit* (i.e. Checkout Library). 
+The initial display will show circulation policies at both your library and the federation level. 
+
 Understanding Your Circulation Policies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -27,7 +47,10 @@ applies to and the pieces that determine how the policy is applied.
 
 Who/What Does A Policy Apply To
 
-* Patron Permission Profile
+*Patron Permission Profile*
+
+
+
 * Org Unit (Owning Library)
 * Circulating Library
 * User Home Library
@@ -48,26 +71,6 @@ How Is the Policy Applied
 * Item Specific Limit
 
 
-
-Viewing Your Circulation Policies
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-To easiest way to view your current circulation policies is to run a report (reporter permissions required).
-
-* In the reporter go to *Shared Folders -> Templates -> Sitka_templates -> Library Configuration*
-
-** Multiple report templates for circulation policies are available here.
-
-Local system administrators can also view their policies within Evergreen by going to 
-*Administration ->  Local Administration -> Circulation Policies*.
-
-Only 15 policies display per page so if you want to see all your policies at once running a report is the 
-better option.
-
-By default, your library is selected in the box after *Context Org Unit* (i.e. Checkout Library). 
-The initial display will show circulation policies at both your library and the federation level. 
-
-
 Troubleshooting Your Circulation Policies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -79,7 +82,7 @@ expected policy is included in your policies.
 
 If a particular item isn't checking out as expected: 
 
-. Enter the item barcode into *Item Status* and go to the *Detail View*.
+. Enter the item barcode into _Item Status_ and click on *Detail View*.
 +
 .. Here you can see information about the item as well as the circulation policy applied.  
 +
