@@ -11,24 +11,16 @@ When an item is scanned for check out Evergreen checks the following to determin
 out to the patron and if so with what parameters:
 
 * Group Penalty Thresholds for the check out library
-** Has the patron reached their maximum checked out, overdue, lost or fine amount?
-* Item Status
-** Is the item in a status that can be checked out?
-* Item's Shelving Location
-** Is circulate set to true or false for the shelving location?
-* Item's Circulate flag
-** If the circulate is set to true for the shelving location, is circulate set to true or false 
-for the particular item? 	
+* Item's Status
+* Circulate flag for the item's Shelving Location
+* Circulate flag for the item
 * Circulation Policies for the check out library
-** Which of the check out library's policies match the attributes of the item and the patron type 
-it's being checked out to?
 * Library Operating Hours for the check out library
-** Is the library normally open on the day the item would be due?
 * Closed Dates Editor for the check out library
-** Is the closed for a holiday or other reason on the day the item would be due?
 
-Understanding Circulation Policies
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Understanding Your Circulation Policies
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Circulation policies can be divided into two parts - the pieces that determine which patrons and items a policy
 applies to and the pieces that determine how the policy is applied.
@@ -95,10 +87,10 @@ image::images/admin/circ-policy-troubleshoot-1.png[]
 +
 . Check the values for Circulate, Circ Library, Owning Library, Shelving Location, Loan Duration, Fine Level, 
 Reference, and Circ Modifier.
-.. The most common reason for an item to not follow the expected policy is because it has the wrong 
+.. The most common reason an item doesn't follow the expected policy is because it has the wrong 
 circulation modifier applied or doesn't have a circulation modifier at all.
 . If any values are incorrect edit the item to have the correct values.
-. To apply the correct policy you will need to check the item in and then back out to the patron.
+. To apply the correct policy you need to check the item in and then back out to the patron.
 . If the item still doesn't follow the expected policy double check the patron's permission profile 
 matches what is specified in the policy you expect to be followed.
 . If the item still doesn't follow the expected policy contact https://bc.libraries.coop/support/[Support] 
@@ -107,7 +99,7 @@ for assistance.
 is currently happening and what should be happening.
 
 
-If you're unsure about what values are used for different policies you run the circulation policy report
+If you're unsure about what values are used for different policies you can run the circulation policy report
 to view your current circulation policies. 
 
 
@@ -120,6 +112,9 @@ All changes to your circulation policies are made by Support.
 
 To request changes to your circulation policies submit a ticket to https://bc.libraries.coop/support/[Support]. 
 We recommend submitting your request at least one week before you'd like the change go into effect.
+
+Changes made to circulation policies only apply to new circulations.  Items already checked out will
+continue to follow the policy that was in place at the time of check out.
 
 With reciprocal borrowing circulation policies often involve multiple organizational units.  Due to this only
 Support can make changes to circulation policies.
