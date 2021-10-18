@@ -10,13 +10,13 @@ the patron's permission profile.
 When an item is scanned for check out Evergreen checks the following to determine if the item can be checked 
 out to the patron and if so with what parameters:
 
-* Group Penalty Thresholds for the check out library
-* Item's Status
-* Circulate flag for the item's Shelving Location
-* Circulate flag for the item
+* xref:_group_penalty_thresholds[Group Penalty Thresholds] for the check out library
+* Item's xref:_item_status_2[Status]
+* Circulate flag for the item's xref:_shelving_location_editor[Shelving Location]
+* xref:xref:_item_attributes[Circulate flag for the item]
 * Circulation Policies for the check out library
-* Library Operating Hours for the check out library
-* Closed Dates Editor for the check out library
+* xref:operation-hour[Library Operating Hours] for the check out library
+* xref:_closed_dates_editor[Closed Dates Editor] for the check out library
 
 
 Viewing Your Circulation Policies
@@ -64,19 +64,19 @@ image::images/admin/circ-policy-understand-1.png[]
 
 All libraries have at least one default circulation policy.  The default policy has no circulation 
 modifier or shelving location specified and so applies to all check outs unless there is a more specific 
-policy that applies to the check out.  More specific policies will look at the item's circulation 
-modifier, shelving location, reference flag, or item age to determine if policy should be used for the 
+policy that applies to a check out.  More specific policies will look at the item's circulation 
+modifier, shelving location, reference flag, and item age individually or in combination to determine if policy should be used for the 
 check out.  In Sitka, most circulation policies are based off the item's circulation modifier.  While
 circulation policies can be based off shelving location additional set up is required to enable this for a library.
 
 Some libraries apply different policies to different patron profile.  Libraries that do this will see
-separate default policies for each patron group.  Generally policies are set for the 
+separate default policies for the different patron groups.  Generally policies are set for the 
 patron group at the top of the permission tree and then additional policies are added for more specific patron
 groups as needed.  For example, most public libraries have policies set for _Public Library Users_ which apply
 to all patron groups unless there's a policy for a more specific group such as _PL Extended Loans_. 
 
 Libraries that participate in reciprocal borrowing will see policies with different organizational units 
-specified for the circulating library and the patron's home library.  These policies tell Evergreen how to 
+specified for the circulating library and patron's home library.  These policies tell Evergreen how to 
 handle items and patrons from other libraries who are checking out at your library.  For example, libraries 
 participating in Interlibrary Connect may have different loan durations or renewals for items that come 
 from another library compared to the items the library owns.  As well, libraries participating in BC One Card
@@ -103,31 +103,32 @@ image::images/admin/circ-policy-understand-3.png[]
 
 image::images/admin/circ-policy-understand-2.png[]
 
-The circulate flag on a circulation policy blocks a check out from going through. In the circulation policy
-report a 1 indicates true while a 0 indicates false. Staff with the appropriate 
+When set to false the circulate flag on a circulation policy will block a check out from going through. 
+(In the circulation policy report a 1 indicates true while a 0 indicates false.) Staff with the appropriate 
 permission level can force the check out through.  If the check out is forced it will follow the other parameters,
 such as duration, that are specified in the policy.
 
 Duration rules will display in one of two ways in circulation policies: 
 
-* SHORT_NORMAL_LONG_RENEWAL (3_7_14_100)
-* NORMAL_RENEWAL (21_0) - this is an older naming convention which is being phased out
+* SHORT_NORMAL_LONG_RENEWAL (ie. 3_7_14_100)
+* NORMAL_RENEWAL (ie. 21_0) - this is an older naming convention which is being phased out
 
 When applying the duration rule Evergreen looks at the value in _Loan Duration_ for the item, set via the 
-Holdings Editor. The default value is Normal.
+xref:_item_attributes[Holdings Editor], to tell it what duration to assign the check out. 
+The default value is Normal.
 
-A value set for renewals override will override the number of renewals specified in the duration rule.
+If a value is set for renewals override it will override the number of renewals specified in the duration rule.
 
 The recurring fine rule specifies the amount a patron is charged on an hourly or daily basis until the 
-item is returned, set to lost, or reaches the amount specified in the maximum fine rule.  Hourly recurring
+item is returned; set to lost, claimed returned, or claimed never checked out;  or reaches the amount specified in the maximum fine rule.  Hourly recurring
 fines indicate per hour in the fine rule name.  The fine level can be set as Low, Normal, or High for an 
-item via the Holdings Editor.  This is rarely used in Sitka's Evergreen.
+item via the xref:_item_attributes[Holdings Editor].  This is rarely used in Sitka's Evergreen.
 
-Sitka's Evergreen has a default grace period for all checkouts of one day.  The grace period override enables
-libraries to specify a different grace period for certain check outs.
+Sitka's Evergreen has a default grace period for all check outs of one day.  The grace period override enables
+libraries to specify a different grace period per circulation policy.
 
-If a library has a hard due date set the policies that use it will look at the current hard due date and
-applicable settings to determine what due date to give the item.
+If a library has a xref:_hard_due_date[hard due date] set the policies that use it will look at the current 
+hard due date and applicable settings to determine what due date to give the item.
 
 Libraries can also have item specific limits applied to specific circulation policies to restrict how 
 many items using a particular circulation modifier or shelving location can be out to a patron at a time.
@@ -152,9 +153,10 @@ expected policy is included in your policies.
 
 If a particular item isn't checking out as expected: 
 
-. Enter the item barcode into _Item Status_ and click on *Detail View*.
+. Enter the item barcode into xref:_item_status[_Item Status_] and click on *Detail View*.
 +
-.. Here you can see information about the item as well as the circulation policy applied.  
+.. Here you can see information about the item as well as the circulation policy applied to the current check
+out.  
 +
 image::images/admin/circ-policy-troubleshoot-1.png[]
 +
@@ -162,15 +164,15 @@ image::images/admin/circ-policy-troubleshoot-1.png[]
 Reference, and Circ Modifier.
 .. The most common reason an item doesn't follow the expected policy is because it has the wrong 
 circulation modifier applied or doesn't have a circulation modifier at all.
-. If any values are incorrect edit the item to have the correct values.
-. To apply the correct policy you need to check the item in and then back out to the patron.
-. If the item still doesn't follow the expected policy double check the patron's permission profile 
+. If any values are incorrect xref:_item_attributes[edit the item] to have the correct values.
+. Once the item is updated, to apply the correct policy you need to check the item in and then back out 
+to the patron.
+. If the item still doesn't follow the expected policy double check that the patron's permission profile 
 matches what is specified in the policy you expect to be followed.
 . If the item still doesn't follow the expected policy contact https://bc.libraries.coop/support/[Support] 
 for assistance.
 .. In your ticket make sure to include the item barcode, the patron barcode, and a description of what 
 is currently happening and what should be happening.
-
 
 If you're unsure about what values are used for different policies you can run the circulation policy report
 to view your current circulation policies. 
@@ -182,8 +184,8 @@ Changing Your Circulation Policies
 Circulation policy changes have the potential to affect circulation across the entire Sitka consortium so 
 all changes to your circulation policies are made by Support.
 
-While it is possible for local system administrators to view circulation policies within Evergreen, making changes
-and clicking *Save* will have no effect.
+While it is possible for local system administrators to view circulation policies within Evergreen, 
+making changes and clicking save will have no effect.
 
 To request changes to your circulation policies submit a ticket to https://bc.libraries.coop/support/[Support]. 
 We recommend submitting your request at least one week before you'd like the change go into effect.
@@ -192,7 +194,7 @@ In your request please include the specific changes you need made.  The minimum 
 new circulation policy is:
 
 * Circulation modifier, shelving location, or item age
-* What patron groups the policy applies to
+* What patron group(s) the policy applies to
 * Loan duration
 * Number of renewals
 * Recurring fine - if you don't charge fines please specify zero
@@ -205,7 +207,7 @@ If the policy should have different parameters for different patron groups or ba
 please specify that as well.
 
 If you are making extensive changes to your circulation policies please make sure to contact Support
-well in advance of when you would like the new policies to go into affect.  In those circumstances we recommend
+well in advance of when you would like the new policies to go into effect.  In those circumstances we recommend
 running the circulation policies report, making all your desired changes on the report in a spreadsheet 
 program, and then sending the updated spreadsheet to Support.
 
@@ -220,11 +222,11 @@ Going Fine Free
 
 If your library decides to go fine free your circulation policies need to be updated.
 
-To make the change we'll need to know the following:
+To make the change we need to know the following:
 
 * What date does this go into effect?
 * Are there any items (based on circulation modifier) that should still generate fines?
-* Are there any permission groups who should still get fined?
+* Are there any patron groups who should still get fined?
 * Are borrowers from other libraries exempt from fines? (ie. BC One Card users)
 * Do you want existing overdue fines voided or will staff manually resolve them as patrons come in?
 ** We do not void partially paid fines. We can generate a list of those for library staff to resolve manually.
