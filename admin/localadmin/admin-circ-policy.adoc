@@ -190,8 +190,9 @@ making changes and clicking save will have no effect.
 To request changes to your circulation policies submit a ticket to https://bc.libraries.coop/support/[Support]. 
 We recommend submitting your request at least one week before you'd like the change go into effect.
 
-In your request please include the specific changes you need made.  The minimum required to create a 
-new circulation policy is:
+In your request please include the specific changes you need made.  
+
+When requesting a new circulation policy you must include:
 
 * Circulation modifier, shelving location, or item age
 * What patron group(s) the policy applies to
@@ -205,6 +206,10 @@ please include that information.
 
 If the policy should have different parameters for different patron groups or based on the patron's home library
 please specify that as well.
+
+When selecting a circulation modifier to use for a new circulation policy please pick one that is not 
+already used at your library from the list of 
+xref:_circulation_modifiers[recommended circulation modifiers].  
 
 If you are making extensive changes to your circulation policies please make sure to contact Support
 well in advance of when you would like the new policies to go into effect.  In those circumstances we recommend
