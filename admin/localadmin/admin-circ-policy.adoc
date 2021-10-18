@@ -116,8 +116,6 @@ Duration rules will display in one of two ways in circulation policies:
 When applying the duration rule Evergreen looks at the value in _Loan Duration_ for the item, set via the 
 Holdings Editor. The default value is Normal.
 
-image::images/admin/circ-policy-understand-4.png[]
-
 A value set for renewals override will override the number of renewals specified in the duration rule.
 
 The recurring fine rule specifies the amount a patron is charged on an hourly or daily basis until the 
@@ -145,8 +143,6 @@ when items aren't circulating as expected.
 
 Troubleshooting Your Circulation Policies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-The more circulation policies you have the more complex troubleshooting is.  
 
 When an item doesn't check out as expected it is usually because there is an issue with the item
 or the library's circulation policies need to be updated.  
@@ -216,7 +212,7 @@ program, and then sending the updated spreadsheet to Support.
 [NOTE]
 ======
 Changes made to circulation policies only apply to new circulations.  Items already checked out will
-continue to follow the policy that was in place at the time of check out.
+continue to follow the policy that was in place at the time of check out until the item is checked in.
 ======
 
 Going Fine Free
