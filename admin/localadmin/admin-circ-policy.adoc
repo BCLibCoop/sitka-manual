@@ -98,7 +98,7 @@ image::images/admin/circ-policy-understand-3.png[]
 * Recurring Fine Rule
 * Maximum Fine Rule
 * Grace Period Override
-* Hard Due Date
+* xref:_hard_due_date[Hard Due Date]
 * Item Specific Limit
 
 image::images/admin/circ-policy-understand-2.png[]
