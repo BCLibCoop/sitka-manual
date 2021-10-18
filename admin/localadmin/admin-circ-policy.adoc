@@ -13,7 +13,7 @@ out to the patron and if so with what parameters:
 * xref:_group_penalty_thresholds[Group Penalty Thresholds] for the check out library
 * Item's xref:_item_status_2[Status]
 * Circulate flag for the item's xref:_shelving_location_editor[Shelving Location]
-* xref:xref:_item_attributes[Circulate flag for the item]
+* xref:_item_attributes[Circulate flag for the item]
 * Circulation Policies for the check out library
 * xref:operation-hour[Library Operating Hours] for the check out library
 * xref:_closed_dates_editor[Closed Dates Editor] for the check out library
