@@ -31,6 +31,7 @@ _Circulation Policies by Checkout Library_.
 ** All other libraries should use the template _Circulation Policies filtering by copy circ lib_.
 
 Local system administrators can also view their policies within Evergreen.
+
 * Go to *Administration ->  Local Administration -> Circulation Policies*.
 ** By default, your library is selected in the box after *Context Org Unit* (i.e. Checkout Library). 
 The initial display will show circulation policies at both your library and the federation level. 
@@ -48,7 +49,7 @@ Understanding Your Circulation Policies
 Circulation policies can be divided into two parts - the pieces that determine which patrons and items a policy
 applies to and the pieces that determine how the policy is applied.
 
-Who/What Does A Policy Apply To
+**Who/What Does A Policy Apply To**
 
 * Circulation Modifier
 * Shelving Location
@@ -89,7 +90,7 @@ The second policy allows patrons of Maple Public Library to borrow those items.
 image::images/admin/circ-policy-understand-3.png[]
 
 
-How Is the Policy Applied
+**How Is the Policy Applied**
 
 * Circulate? - true/false
 * Duration Rule - includes renewals
@@ -108,6 +109,7 @@ permission level can force the check out through.  If the check out is forced it
 such as duration, that are specified in the policy.
 
 Duration rules will display in one of two ways in circulation policies: 
+
 * SHORT_NORMAL_LONG_RENEWAL (3_7_14_100)
 * NORMAL_RENEWAL (21_0) - this is an older naming convention which is being phased out
 
@@ -192,6 +194,7 @@ We recommend submitting your request at least one week before you'd like the cha
 
 In your request please include the specific changes you need made.  The minimum required to create a 
 new circulation policy is:
+
 * Circulation modifier, shelving location, or item age
 * What patron groups the policy applies to
 * Loan duration
