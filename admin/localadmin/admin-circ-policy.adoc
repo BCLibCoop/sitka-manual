@@ -50,54 +50,95 @@ applies to and the pieces that determine how the policy is applied.
 
 Who/What Does A Policy Apply To
 
-* Patron Permission Group
-* Org Unit (Owning Library)
-* Circulating Library
-* User Home Library
 * Circulation Modifier
 * Shelving Location
 * Reference
 * Item Age
+* Patron Profile (Main Profile Permission Group)
+* Org Unit (Check Out Library)
+* Copy Circ Lib (Circulating Library)
+* Patron Home Library
 
 image::images/admin/circ-policy-understand-1.png[]
 
-All libraries have at least one default circulation policy set.  The default policy has no circulation 
+All libraries have at least one default circulation policy.  The default policy has no circulation 
 modifier or shelving location specified and so applies to all check outs unless there is a more specific 
 policy that applies to the check out.  More specific policies will look at the item's circulation 
 modifier, shelving location, reference flag, or item age to determine if policy should be used for the 
-check out.  In Sitka, most circulation policies look at the item's circulation modifier.
+check out.  In Sitka, most circulation policies are based off the item's circulation modifier.  While
+circulation policies can be based off shelving location additional set up is required to enable this for a library.
 
-
-
-Some libraries apply different policies to different patron groups.  Generally policies are set for the 
+Some libraries apply different policies to different patron profile.  Libraries that do this will see
+separate default policies for each patron group.  Generally policies are set for the 
 patron group at the top of the permission tree and then additional policies are added for more specific patron
 groups as needed.  For example, most public libraries have policies set for _Public Library Users_ which apply
-to all patron groups unless there's a policy for a more specific group such as _PL Extended Loans_.
+to all patron groups unless there's a policy for a more specific group such as _PL Extended Loans_. 
+
+Libraries that participate in reciprocal borrowing will see policies with different organizational units 
+specified for the circulating library and the patron's home library.  These policies tell Evergreen how to 
+handle items and patrons from other libraries who are checking out at your library.  For example, libraries 
+participating in Interlibrary Connect may have different loan durations or renewals for items that come 
+from another library compared to the items the library owns.  As well, libraries participating in BC One Card
+may have items that can only be checked out by patrons who live in the library's service area so need policies
+to block check outs by patrons visiting from other areas. 
+
+The image below shows two policies.  The first policy blocks patrons with a home library that falls within the 
+Green Land Consortium from borrowing items that use the circulation modifier _game_ at Maple Public Library.
+The second policy allows patrons of Maple Public Library to borrow those items.
+
+image::images/admin/circ-policy-understand-3.png[]
+
 
 How Is the Policy Applied
 
 * Circulate? - true/false
 * Duration Rule - includes renewals
-* Hard Due Date
+* Renewals Override
 * Recurring Fine Rule
 * Maximum Fine Rule
-* Grace Period
+* Grace Period Override
+* Hard Due Date
 * Item Specific Limit
 
 image::images/admin/circ-policy-understand-2.png[]
 
-image::images/admin/circ-policy-understand-3.png[]
+The circulate flag on a circulation policy blocks a check out from going through. In the circulation policy
+report a 1 indicates true while a 0 indicates false. Staff with the appropriate 
+permission level can force the check out through.  If the check out is forced it will follow the other parameters,
+such as duration, that are specified in the policy.
 
+Duration rules will display in one of two ways in circulation policies: 
+* SHORT_NORMAL_LONG_RENEWAL (3_7_14_100)
+* NORMAL_RENEWAL (21_0) - this is an older naming convention which is being phased out
 
+When applying the duration rule Evergreen looks at the value in _Loan Duration_ for the item, set via the 
+Holdings Editor. The default value is Normal.
 
+image::images/admin/circ-policy-understand-4.png[]
 
+A value set for renewals override will override the number of renewals specified in the duration rule.
 
-image::images/admin/circ-policy-understand-2.png[]
+The recurring fine rule specifies the amount a patron is charged on an hourly or daily basis until the 
+item is returned, set to lost, or reaches the amount specified in the maximum fine rule.  Hourly recurring
+fines indicate per hour in the fine rule name.  The fine level can be set as Low, Normal, or High for an 
+item via the Holdings Editor.  This is rarely used in Sitka's Evergreen.
 
-Evergreen can handle complex circulation policy needs but the more policies you have and the more complex
-they are the more complicated it is to troubleshoot when items aren't circulating as expected.
+Sitka's Evergreen has a default grace period for all checkouts of one day.  The grace period override enables
+libraries to specify a different grace period for certain check outs.
 
+If a library has a hard due date set the policies that use it will look at the current hard due date and
+applicable settings to determine what due date to give the item.
 
+Libraries can also have item specific limits applied to specific circulation policies to restrict how 
+many items using a particular circulation modifier or shelving location can be out to a patron at a time.
+For example, a item specific limit can restrict a user to having 5 items with the circulation modifier
+_dvd_ out at a time.  The limits can also have combinations specified, so you can have a limit of up to 
+5 items using the circulation modifier _dvd_, _dvd-feature_, or _video_.  Item specific limits can't be included
+in the circulation policy report so contact https://bc.libraries.coop/support/[Support] if you have questions about your existing limits.
+
+As you can see from the options, Evergreen can handle complex circulation policy needs but keep in mind 
+the more policies you have and the more complex they are the more complicated it is to troubleshoot 
+when items aren't circulating as expected.
 
 
 Troubleshooting Your Circulation Policies
@@ -140,12 +181,25 @@ to view your current circulation policies.
 Changing Your Circulation Policies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Anytime you change your library's policies circulation make sure you 
+Circulation policy changes have the potential to affect circulation across the entire Sitka consortium so 
+all changes to your circulation policies are made by Support.
 
-All changes to your circulation policies are made by Support.  
+While it is possible for local system administrators to view circulation policies within Evergreen, making changes
+and clicking *Save* will have no effect.
 
 To request changes to your circulation policies submit a ticket to https://bc.libraries.coop/support/[Support]. 
 We recommend submitting your request at least one week before you'd like the change go into effect.
+
+In your request please include the specific changes you need made.  The minimum required to create a 
+new circulation policy is:
+* Circulation modifier, shelving location, or item age
+* What patron groups the policy applies to
+* Loan duration
+* Number of renewals
+* Recurring fine - if you don't charge fines please specify zero
+* Maximum fine amount - if you don't charge fines please specify zero
+
+
 
 Changes made to circulation policies only apply to new circulations.  Items already checked out will
 continue to follow the policy that was in place at the time of check out.
@@ -154,61 +208,3 @@ With reciprocal borrowing circulation policies often involve multiple organizati
 Support can make changes to circulation policies.
 
 
-
-Original Docs
-^^^^^^^^^^^^^
-
-
-Circulation policies define the loan duration, renewals, recurring fine rate, maximum fine amount, grace period 
-and item specific limits for different combinations of User Permission Groups, Home Library and Circulation Modifiers 
-for items checked out at your library or library system. Other item attributes may be used for more specific rules. 
-
-There may be more than one policy applicable to certain types of materials. Generally, policies on more 
-specific levels, e.g. BFSJ instead of BC_ILC, take precedence. When in doubt, please contact Co-op support.
-
-[NOTE]
-====
-All changes to your circulation policies are made by Support.  
-
-To request changes to your circulation policies submit a ticket to https://bc.libraries.coop/support/[Support]. 
-We recommend submitting your request at least one week before you'd like the change go into effect.
-====
-
-To view your current circulation policies run a report (reporter permissions required) or
-view your policies in Evergreen (Local System Administrator permissions required).
-
-* In the reporter go to *Shared Folders -> Templates -> Sitka_templates -> Library Configuration*
-
-** Multiple report templates for circulation policies are available here.
-
-* In Evergreen select *Administration ->  Local Administration -> Circulation Policies*. By default, your library is selected 
-in the box after *Context Org Unit* (i.e. Checkout Library). The initial display will show all circulation rules 
-at your library and the federation level. 
-
-** You can filter the display to show policies applied to selected materials, e.g. DVDs. Click *Filter* under 
-Context Org Unit. In the popped up window, select *Org Unit* from the first drop down menu; *Is* from the second, 
-and your library or library system from the third. Click *Add Row* to add a filter on circulation modifier. 
-Click *Apply* to limit display to policies applied to the selected circulation modifier checked out at your library.
-+
-image::images/admin/circ-policy-1.png[]
-
-** The resulting screen provides a summary view of each circulation policy for your library, and more detail can be 
-seen by clicking on the individual entries.
-
-** Select the individual circulation policy for viewing by double-clicking on the desired row.
-+
-The circulation policies are typically attached to the Org Unit (checkout library), User Permission Group, 
-Copy Circ Library, and Circulation Modifier of the items being circulated. For example, the policy below is for 
-items with circulating library of any BC_ILC library and circulation modifier of 'bookclub' to be checked out to 
-all Public Library Patrons at BFSJ.
-+
-Each circulation policy defines the Loan Duration, Renewal, Recurring Fine, Maximum Fine, Grace Period, and whether 
-the item is allowed to circulate at all. For example, circulation items falling under the policy below would have a 
-loan duration rule of "7_28_42_0", a recurring fine rule of "twentycents" per day and a maximum fine amount of 
-"tendollar".
-+
-A policy is turned off if the *Active* box is unchecked.
-+
-image::images/admin/circ-policy-2.png[]
-
-** Clicking *Save* will have no effect as only Support can make changes to circulation policies.
