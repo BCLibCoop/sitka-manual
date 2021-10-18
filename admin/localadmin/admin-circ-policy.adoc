@@ -199,12 +199,35 @@ new circulation policy is:
 * Recurring fine - if you don't charge fines please specify zero
 * Maximum fine amount - if you don't charge fines please specify zero
 
+If additional paramters are needed such as item specific limits, grace period overrides, or hard due dates 
+please include that information.
 
+If the policy should have different parameters for different patron groups or based on the patron's home library
+please specify that as well.
 
+If you are making extensive changes to your circulation policies please make sure to contact Support
+well in advance of when you would like the new policies to go into affect.  In those circumstances we recommend
+running the circulation policies report, making all your desired changes on the report in a spreadsheet 
+program, and then sending the updated spreadsheet to Support.
+
+[NOTE]
+======
 Changes made to circulation policies only apply to new circulations.  Items already checked out will
 continue to follow the policy that was in place at the time of check out.
+======
 
-With reciprocal borrowing circulation policies often involve multiple organizational units.  Due to this only
-Support can make changes to circulation policies.
+Going Fine Free
++++++++++++++++
+
+If your library decides to go fine free your circulation policies need to be updated.
+
+To make the change we'll need to know the following:
+
+* What date does this go into effect?
+* Are there any items (based on circulation modifier) that should still generate fines?
+* Are there any permission groups who should still get fined?
+* Are borrowers from other libraries exempt from fines? (ie. BC One Card users)
+* Do you want existing overdue fines voided or will staff manually resolve them as patrons come in?
+** We do not void partially paid fines. We can generate a list of those for library staff to resolve manually.
 
 
