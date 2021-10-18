@@ -5,16 +5,16 @@ Circulation modifiers are labels that can be assigned to items that Evergreen us
 with xref:_circulation_policies[circulation policies] and xref:_hold_policies[hold policies] to determine 
 how items should behave.  Circulation modifiers can also be used in reports for statistical purposes.
 
-Support has an on-going project to streamline the list of circulation modifiers available.  The list below
-is those recommended for use by Support.  Modifiers available in Evergreen but not on the list will 
-eventually be removed.
+Support has an on-going project to streamline the list of circulation modifiers available as the same lists
+displays to all libraries.  The list below is those modifiers recommended for use by Support.  
+Modifiers available in Evergreen but not on the list will eventually be removed.
 
 [NOTE]
 ======
 We recommend libraries choose a subset of these circulation modifiers to use and ensure all 
 cataloguing staff are aware of the modifiers used at their library.
 
-When you start using a new circulation modifier items Evergreen will use your default circulation 
+When you start using a new circulation modifier for items Evergreen will use your default circulation 
 policy when checking out the item.  Contact https://bc.libraries.coop/support/[Support] to update your 
 xref:_changing_your_circulation_policies[circulation policies] if the items should follow a more specific 
 policy.
@@ -43,7 +43,8 @@ cassette and circulate in a bag
 | cd-and-book-in-bag | Book with CD | False | Intended for titles are presented both as a book and 
 CD and circulate in a bag 
 | cd-rom | CD/CDROM | False | Intended for cd-roms
-| CIRCRESERVE | Other | False | Intended for
+| circ-reserve | Other | False | A number of modifier start with _circ-reserve_.  These are intended to be
+used by academic libraries with course reserves
 | compact-disc | CD/CDROM | False | Intended for CDs, usually music
 | course-reserve | Other | False | Intended for items that will be reserved for specific courses
 | dvd | CD/CDROM| False | Intended for dvds
