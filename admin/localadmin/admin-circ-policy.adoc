@@ -2,10 +2,9 @@ Circulation Policies
 ~~~~~~~~~~~~~~~~~~~~
 anchor:circulation-policy[Circulation Policy]
 
-
-Circulation policies tell Evergreen what to do when an item is scanned for check out.  This can vary from 
-check out to check out based on factors including the item's circulation modifier, shelving location, and 
-the patron's permission profile.
+Circulation policies define the loan rules when an item is checked out. The policies are 
+applied based on factors including the item’s circulation modifier, shelving location, and 
+the patron’s permission profile.
 
 When an item is scanned for check out Evergreen checks the following to determine if the item can be checked 
 out to the patron and if so with what parameters:
