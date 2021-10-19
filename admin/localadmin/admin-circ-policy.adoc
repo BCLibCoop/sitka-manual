@@ -50,7 +50,8 @@ Circulation policies can be divided into two parts - the pieces that determine w
 applies to and the pieces that determine how the policy is applied.
 
 **Who/What Does A Policy Apply To**
-_Circulation Policy Filters_
+
+_(Circulation Policy Filters)_
 
 * Patron Profile (Main Profile Permission Group)
 * Org Unit (Check Out Library)
