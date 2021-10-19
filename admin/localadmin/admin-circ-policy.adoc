@@ -109,12 +109,12 @@ image::images/admin/circ-policy-understand-3.png[]
 
 image::images/admin/circ-policy-understand-2.png[]
 
-The *circulate flag* on a circulation policy when set to false will block a check out from going through. 
+The *circulate flag*, on a circulation policy, when set to false will block a check out from going through. 
 (In the circulation policy report a 1 indicates true while a 0 indicates false.) Staff with the appropriate 
 permission level can force the check out through.  If the check out is forced it will follow the other parameters,
 such as duration, that are specified in the policy.
 
-_Duration rules_ will display in one of two ways in circulation policies: 
+*Duration rules* will display in one of two ways in circulation policies: 
 
 * SHORT_NORMAL_LONG_RENEWAL (ie. 3_7_14_100)
 * NORMAL_RENEWAL (ie. 21_0) - this is an older naming convention which is being phased out
@@ -173,8 +173,6 @@ image::images/admin/circ-policy-troubleshoot-1.png[]
 +
 . Check the values for Circulate, Circ Library, Owning Library, Shelving Location, Loan Duration, Fine Level, 
 Reference, and Circ Modifier.
-.. The most common reason an item doesn't follow the expected policy is because it has the wrong 
-circulation modifier applied or doesn't have a circulation modifier at all.
 . If any values are incorrect xref:_item_attributes[edit the item] to have the correct values.
 . Once the item is updated, to apply the correct policy you need to check the item in and then back out 
 to the patron.
