@@ -109,7 +109,7 @@ image::images/admin/circ-policy-understand-3.png[]
 
 image::images/admin/circ-policy-understand-2.png[]
 
-When set to false the *circulate flag* on a circulation policy will block a check out from going through. 
+The *circulate flag* on a circulation policy when set to false will block a check out from going through. 
 (In the circulation policy report a 1 indicates true while a 0 indicates false.) Staff with the appropriate 
 permission level can force the check out through.  If the check out is forced it will follow the other parameters,
 such as duration, that are specified in the policy.
