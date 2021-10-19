@@ -5,8 +5,8 @@ Circulation modifiers are labels that can be assigned to items that Evergreen us
 with xref:_circulation_policies[circulation policies] and xref:_hold_policies[hold policies] to determine 
 how items should behave.  Circulation modifiers can also be used in reports for statistical purposes.
 
-Support has an on-going project to streamline the list of circulation modifiers available as the same lists
-displays to all libraries.  The list below is those modifiers recommended for use by Support.  
+Co-op Support has an on-going project to streamline the list of circulation modifiers available as the same lists
+displays to all libraries.  The list below is those modifiers recommended for use by Co-op Support.  
 Modifiers available in Evergreen but not on the list will eventually be removed.
 
 [NOTE]
@@ -15,7 +15,7 @@ We recommend libraries choose a subset of these circulation modifiers to use and
 cataloguing staff are aware of the modifiers used at their library.
 
 When you start using a new circulation modifier for items Evergreen will use your default circulation 
-policy when checking out the item.  Contact https://bc.libraries.coop/support/[Support] to update your 
+policy when checking out the item.  Contact https://bc.libraries.coop/support/[Co-op Support] to update your 
 xref:_changing_your_circulation_policies[circulation policies] if the items should follow a more specific 
 policy.
 ======
