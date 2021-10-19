@@ -157,15 +157,15 @@ There are three common reasons why items do not circulate as expected:
 actual library policy. 
 . The expected policy does not currently exist in Evergreen. To prevent these issues it is a good 
 idea to regularly review your circulation policies using the report and request changes as needed.
-. The item level information for the item is incorrect. Most commonly the circulation modifier 
+. The item attributes for the item is incorrect. Most commonly the circulation modifier 
 is incorrect or missing.
 
 
-To check the item level information: 
+To check the item attribues: 
 
 . Enter the item barcode into xref:_item_status[_Item Status_] and click on *Detail View*.
 +
-.. Here you can see information about the item as well as the circulation policy applied to the current check
+.. Here you can see the item attributes as well as the circulation policy applied to the current check
 out.  
 +
 image::images/admin/circ-policy-troubleshoot-1.png[]
