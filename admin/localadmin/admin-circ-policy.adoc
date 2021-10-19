@@ -109,12 +109,12 @@ image::images/admin/circ-policy-understand-3.png[]
 
 image::images/admin/circ-policy-understand-2.png[]
 
-When set to false the circulate flag on a circulation policy will block a check out from going through. 
+When set to false the *circulate flag* on a circulation policy will block a check out from going through. 
 (In the circulation policy report a 1 indicates true while a 0 indicates false.) Staff with the appropriate 
 permission level can force the check out through.  If the check out is forced it will follow the other parameters,
 such as duration, that are specified in the policy.
 
-Duration rules will display in one of two ways in circulation policies: 
+_Duration rules_ will display in one of two ways in circulation policies: 
 
 * SHORT_NORMAL_LONG_RENEWAL (ie. 3_7_14_100)
 * NORMAL_RENEWAL (ie. 21_0) - this is an older naming convention which is being phased out
@@ -123,20 +123,21 @@ When applying the duration rule Evergreen looks at the value in _Loan Duration_ 
 xref:_item_attributes[Holdings Editor], to tell it what duration to assign the check out. 
 The default value is Normal.
 
-If a value is set for renewals override it will override the number of renewals specified in the duration rule.
+*Renewals override* it will override the number of renewals specified in the duration rule.
 
-The recurring fine rule specifies the amount a patron is charged on an hourly or daily basis until the 
+*Recurring fine rule* specifies the amount a patron is charged on an hourly or daily basis until the 
 item is returned; set to lost, claimed returned, or claimed never checked out;  or reaches the amount specified in the maximum fine rule.  Hourly recurring
 fines indicate per hour in the fine rule name.  The fine level can be set as Low, Normal, or High for an 
 item via the xref:_item_attributes[Holdings Editor].  This is rarely used in Sitka's Evergreen.
 
-Sitka's Evergreen has a default grace period for all check outs of one day.  The grace period override enables
-libraries to specify a different grace period per circulation policy.
+The *grace period override* enables libraries to specify a different grace period per circulation policy.
+Sitka's Evergreen has a default grace period for all check outs of one day. 
 
-If a library has a xref:_hard_due_date[hard due date] set the policies that use it will look at the current 
+The xref:_hard_due_date[*hard due date*] is set up separately and linked to the relevant 
+circulation policies so that Evergreen can use the current 
 hard due date and applicable settings to determine what due date to give the item.
 
-Libraries can also have item specific limits applied to specific circulation policies to restrict how 
+*Item specific limits* can be applied to specific circulation policies to restrict how 
 many items using a particular circulation modifier or shelving location can be out to a patron at a time.
 For example, a item specific limit can restrict a user to having 5 items with the circulation modifier
 _dvd_ out at a time.  The limits can also have combinations specified, so you can have a limit of up to 
