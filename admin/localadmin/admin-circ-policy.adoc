@@ -50,15 +50,20 @@ Circulation policies can be divided into two parts - the pieces that determine w
 applies to and the pieces that determine how the policy is applied.
 
 **Who/What Does A Policy Apply To**
+_Circulation Policy Filters_
 
-* Circulation Modifier
-* Shelving Location
-* Reference
-* Item Age
 * Patron Profile (Main Profile Permission Group)
 * Org Unit (Check Out Library)
 * Copy Circ Lib (Circulating Library)
 * Patron Home Library
+* Circulation Modifier
+* Shelving Location
+* Reference
+* Item Age
+
+The filters are weighted differently in the system.  For most libraries the system looks at the patron group,
+then at the libraries involved, then the circulation modifier, then the shelving location, 
+then whether or not the item is reference, and then the age of the item. 
 
 image::images/admin/circ-policy-understand-1.png[]
 
