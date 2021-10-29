@@ -23,11 +23,10 @@ Viewing Your Circulation Policies
 
 To easiest way to view your current circulation policies is to run a report (reporter permissions required).
 
-* In the reporter go to *Shared Folders -> Templates -> Sitka_templates -> Library Configuration*
+. In the reporter go to *Shared Folders -> Templates -> Sitka_templates -> Library Configuration*
+. Clone the template _Circulation Policies by Checkout Library_ into your folders and run the report for
+your library.
 
-** Libraries participating in any reciprocal borrowing agreements should use the template 
-_Circulation Policies by Checkout Library_.
-** All other libraries should use the template _Circulation Policies filtering by copy circ lib_.
 
 Local system administrators can also view their policies within Evergreen.
 
