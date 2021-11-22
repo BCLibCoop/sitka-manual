@@ -61,7 +61,8 @@ This table below describes the item statuses with Sitka's property settings.
 | Available	| Item is on the shelf	| Yes | Yes | Yes | Yes | No 
 | Bindery | Sent to be rebound | No| Yes| No| No | No 
 | Canceled Transit	| A transit for the item was aborted | Yes	| Yes	| No	| No | No 
-| Cataloguing	| Item is being catalogued or in cataloguing department	| Yes	| Yes	| Yes	| No | No 
+| Cataloging	| This status is used by Evergreen for pre-cat items.	| Yes	| Yes	| Yes	| No | No 
+| Cataloguing Department | Item is being catalogued or in cataloguing department | Yes	| Yes	| No | No | No
 | Checked out	| Item is on loan	| Yes	| Yes	| Yes	| No | No 
 | Claimed Returned	| Patron reports item has been returned. (Libraries develop own procedure for deciding when to make an item Claimed Return)	| No	| Yes	| Yes	| No | No 
 | Cleaning	| Item is being cleaned (ie. DVDs and CDs)	| Yes	| Yes	| Yes	| No | No 
