@@ -181,13 +181,14 @@ image::images/intro/filters-4.png[]
 Keyboard Shortcuts
 ~~~~~~~~~~~~~~~~~~
 
-Staff can use the following keyboard shortcuts to navigate Evergreen.
+Staff can use the following keyboard shortcuts to navigate Evergreen:
 
 [[keyboard-shortcuts]]
 .Keyboard Shortcuts
 [options="header"]
 |===
 |Key | Function
+|*CTRL+h* | Display Keyboard Shortcut List
 |*F1* | Check Out
 |*F2* | Check In
 |*F3* | Search the Catalogue
