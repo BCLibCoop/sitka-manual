@@ -35,7 +35,7 @@ image:images/circ/patron-opt-in-1.png[]
 
 If a barcode is scanned from a non-participating library a message will indicate that the patron's record
 is not viewable at that library and the account cannot be opened.
-+
+
 image:images/circ/patron-opt-in-2.png[]
 
 
