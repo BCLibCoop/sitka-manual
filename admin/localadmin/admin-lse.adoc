@@ -586,7 +586,7 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 
 |Use fully compressed serial holdings|Show fully compressed serial holdings for all libraries at and below the current context unit|True/False| | Sitka
 
-|Uses phone as default pin | | True/False |Not in use |
+|Uses phone as default pin | | True/False | When set to True the password hint is "If this is your first time logging in use the last 4 digits of your phone number or contact your library for assistance." | LSA 
 |Warn patrons when adding to a temporary book list|Present a warning dialogue when a patron adds a book to the temporary book list.|True/False| | Sitka
 |===
 

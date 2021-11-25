@@ -1,9 +1,79 @@
-Patron Barcode Scan
-~~~~~~~~~~~~~~~~~~~
+Retrieving Patron Accounts
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 (((Patron Search)))
 (((Search Patron)))
 (((Patron Scan)))
+
+Patron accounts can be retrieved in Evergreen using the patron's barcode or other searchable terms from
+the patron's account.
+
+
+Retrieving an Account via Barcode
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The check out screen allows you to enter a patron's barcode.
+
+. Go to *Circulation → Check Out*.
+. Enter the patron's barcode.
+.. If manually entering the barcode click *Submit*.
++
+image:images/circ/retrieve-patron-1.png[]
++
+. The patron's account will open.
+
+Patron Opt-In
++++++++++++++
+
+Libraries participating in reciporcal borrowing agreements, like BC One Card, can opt-in patrons from other
+participating libraries. 
+
+. When the barcode is scanned a pop-up requesting the patron's consent appears.
+. Click *OK/Continue* or *Cancel* as appropriate. 
++
+image:images/circ/patron-opt-in-1.png[]
+
+If a barcode is scanned from a non-participating library a message will indicate that the patron's record
+is not viewable at that library and the account cannot be opened.
+
+image:images/circ/patron-opt-in-2.png[]
+
+
+Retrieving an Account via Search Term
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+link:https://youtu.be/JqY14Jd-BVU[*Sitka Snippet Video - Patron Search (1:04)*]
+
+The patron search enables you search using information in a patron account to retrieve your patrons and 
+those patrons opted into your library.
+
+. Go to *Search → Search for Patrons*.
+. Click on the arrow to see all possible search fields.
++
+image:images/circ/patron-search-1.png[]
++
+. Enter your search term or terms and click *Search*.
++
+image:images/circ/patron-search-2.png[]
+
+
+
+[TIP]
+=====
+* To ensure all relevant patrons are search Co-op Support recommends have _Include Inactive?_ checked.
+* Libraries participating in reciprocal borrowing agreements should always set SITKA as the search library
+to ensure all opted-in patrons are included in the search.
+* The name fields search both the primary and preferred name fields.
+* Name keywords will retrieve patrons with the specified term present in any of the name fields.
+* Doing a search with _Profile Group_ set to Post-Sec Library Staff, Public Library Staff, etc. is a quick
+way to retrieve all staff accounts for your library so you can review them on a regular basis to ensure 
+the appropriate people have access to the staff client.
+=====
+
+////
+
+Patron Barcode Scan
+~~~~~~~~~~~~~~~~~~~
 
 
 Patron accounts are retrieved by barcode scan or name search.
@@ -29,3 +99,5 @@ You can expand the search field options by clicking the up and down arrow on rig
  . Enter your search terms and click *Search.*
 +
 image:images/circ/patronsearch1.png[scaledwidth="75%"]
+////
+

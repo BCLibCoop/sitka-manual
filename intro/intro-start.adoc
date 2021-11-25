@@ -20,10 +20,14 @@ link:https://youtu.be/-3HbQQdH9FQ[*Sitka Snippet Video - Register Workstation (1
 
 Before logging into Evergreen for the first time, you must register a workstation from your browser.
 
-NOTE: Local System Administrator permissions are required to register a new workstation.
+[NOTE]
+======
+Local system administrator permissions are required to register a new workstation.
+======
 
 . Navigate to the web client log in page. The default URL to log into the staff client is *https://catalogue.libraries.coop/eg/staff/*
-. Enter *Username* and *Password* -> Click *Sign In*
+. Enter a local system administrator username and password.
+. Click *Sign In*
 +
 image::images/intro/getstarted2.png[]
 +
@@ -32,18 +36,22 @@ image::images/intro/getstarted2.png[]
 +
 image::images/intro/getstarted3.png[]
 +
-. Enter a unique workstation name -> Click *Register*.
+. Enter a unique workstation name.
 .. It is important to remember your workstation name.  Your workstation settings and preferences are stored on Sitka's Evergreen server with your workstation name.  If you rename your workstation you will lose your stored settings and preferences.
+.  Click *Register*.
 +
 image::images/intro/getstarted4.png[]
 +
-. The new workstation is listed in the *Workstations Registered With This Browser* menu -> click *Use Now* to return to the login page.
+. The new workstation is listed in the *Workstations Registered With This Browser* menu.
+. Click *Use Now* to return to the login page.
 +
 image::images/intro/getstarted5.png[]
 +
-. Your newly-registered workstation should be selected by default on the login page.
+. Your newly registered workstation should be selected by default on the login page.
 +
 image::images/intro/getstarted6.png[]
++
+. You can now use any library staff account to log into Evergreen.
 
 
 
@@ -51,32 +59,44 @@ Logging into Evergreen
 ^^^^^^^^^^^^^^^^^^^^^^
 
 . The default URL to log into the staff client is *https://catalogue.libraries.coop/eg/staff/*
-. Enter your Username and Password.
+. Enter your username and password.
 . Verify that the correct workstation is selected and click *Sign In*.
 +
 image::images/intro/login.png[]
 
+[NOTE]
+======
+Ensure you are using your username and not your barcode.  Your barcode cannot be used to log into the 
+staff client unless your barcode is also use for your username.
+======
+
 Logging Out of Evergreen
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Click *Menu* -> Click *Log Out*
+. Click the menu button in the upper right-hand corner.
+. Select *Log Out* from the drop down menu.
 +
 image::images/intro/logout.png[]
 
-CAUTION: Exiting all browser windows will automatically log you out of the web client. If you only close the tab where the web client is loaded, you will remain logged in.
+[CAUTION]
+=========
+Closing all browser windows will automatically log you out of the web client. If you only close the 
+tab where the web client is loaded, you will remain logged in.
+=========
 
 Change Operator
 ^^^^^^^^^^^^^^^
 
-. Click *Menu* -> Click *Change Operator*
+. Click the menu button in the upper right-hand corner.
+. Select *Change Operator* fom the drop down menu.
 +
 image::images/intro/changeop1.png[]
 +
-. Enter the *Username* and *Password*.
-. Choose Login Type from the drop down menu.
-.. *Temporary* - The new operator will be automatically logged out after a set period of time.
-.. *Staff* - The new operator will remain until the user selects *Restore Operator* from the *Menu*.
-.. *Persistent* - The new operator will replace the original operator.
+. Enter the username and password for the staff account you would like to switch to.
+. Choose a login type from the drop down menu.
+.. _Temporary_ - The new operator will be automatically logged out after a set period of time.
+.. _Staff_ - The new operator will remain until the user selects *Restore Operator* from the *Menu*.
+.. _Persistent_ - The new operator will replace the original operator.
 +
 image::images/intro/changeop2.png[]
 +
@@ -161,13 +181,14 @@ image::images/intro/filters-4.png[]
 Keyboard Shortcuts
 ~~~~~~~~~~~~~~~~~~
 
-Staff can use the following keyboard shortcuts to navigate Evergreen.
+Staff can use the following keyboard shortcuts to navigate Evergreen:
 
 [[keyboard-shortcuts]]
 .Keyboard Shortcuts
 [options="header"]
 |===
 |Key | Function
+|*CTRL+h* | Display Keyboard Shortcut List
 |*F1* | Check Out
 |*F2* | Check In
 |*F3* | Search the Catalogue
