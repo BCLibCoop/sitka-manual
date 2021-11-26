@@ -3,9 +3,6 @@ Merging Patron Accounts
 (((Merge Patrons)))
 (((Patron Merge)))
 
-Merge Patrons
-^^^^^^^^^^^^^
-
 [NOTE]
 ======
 * Local System Administration permission is required to merge patron accounts. 
@@ -29,12 +26,10 @@ image:images/circ/patron-merge-2.png[]
 . The accounts will be merged together.  The notes, bills, holds, and outstanding items from the
 non-lead card are transferred to the lead account and the non-lead card is marked inactive by default.
 
-Co-op Support recommends It is good practice to  delete the inactive card. Your library can also choose to automatically
-delete the inactive card by configuring the Library Setting _Patron Merge Barcode Delete_ to True.
-
 [TIP]
 =====
-If you scan an inactive card on the Check Out screen, Evergreen retrieves the account with the message _Patron
+If you scan an inactive card on the Check Out screen, Evergreen will retrieve the account 
+and show the message _Patron
 account retrieved with an INACTIVE card._,
 
 Co-op Support recommends manually deleting inactive cards using the 
