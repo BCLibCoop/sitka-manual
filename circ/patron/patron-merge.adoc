@@ -1,30 +1,43 @@
-Merge Patrons
-~~~~~~~~~~~~~
+Merging Patron Accounts
+~~~~~~~~~~~~~~~~~~~~~~~
 (((Merge Patrons)))
 (((Patron Merge)))
 
 Merge Patrons
 ^^^^^^^^^^^^^
 
-NOTE: Local System Administration permission is required to merge patron accounts. Patron accounts
-can only be merged if both accounts have the same home library; you may need to update the home library
-in one of the accounts before merging.
+[NOTE]
+======
+* Local System Administration permission is required to merge patron accounts. 
+* Patron accounts can only be merged if both accounts have the same home library; you may need to 
+update the home library in one of the accounts before merging.
+======
 
 . Click *Search* -> *Search for Patrons*.
 . Search by terms shared by the two accounts such as name or phone number.
 . Select the checkboxes for the two accounts you want to merge and click *Merge Patrons*.
-. Check the radio button *Use as lead* above the account you want to keep.
-. Click *Merge* at bottom right of screen.
 +
-image:images/circ/patronmerge2.png[scaledwidth="75%"]
+image:images/circ/patron-merge-1.png[]
++
+. Review the details of the two accounts to confirm that both accounts are for the same user.
+. Check the radio button *Use as lead* above the account you want to keep.
++
+image:images/circ/patron-merge-2.png[]
++
+. Click *Merge*.
++
+. The accounts will be merged together.  The notes, bills, holds, and outstanding items from the
+non-lead card are transferred to the lead account and the non-lead card is marked inactive by default.
 
-Inactive Card
-^^^^^^^^^^^^^
-Once the two accounts have been merged, the notes, bills, holds, and outstanding items on the
-non-lead card are transferred to the lead account, and the non-lead card is marked inactive.
-
-It is good practice to  delete the inactive card. Your library can also choose to automatically
+Co-op Support recommends It is good practice to  delete the inactive card. Your library can also choose to automatically
 delete the inactive card by configuring the Library Setting _Patron Merge Barcode Delete_ to True.
 
-NOTE: If you scan an inactive card on the Check Out screen, Evergreen retrieves the active account,
-and provides an informative message. The situation can be managed as per local policy.
+[TIP]
+=====
+If you scan an inactive card on the Check Out screen, Evergreen retrieves the account with the message _Patron
+account retrieved with an INACTIVE card._,
+
+Co-op Support recommends manually deleting inactive cards using the 
+xref:_deleting_inactive_cards[Patron Deletion Tool] or automatically deleting inactive cards by setting 
+the library setting _Patron Merge Barcode Delete_ to True.
+=====
