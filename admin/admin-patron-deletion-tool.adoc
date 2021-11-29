@@ -3,7 +3,7 @@ Sitka's Patron Deletion Tool
 ----------------------------
 
 The patron deletion tool developed by the Sitka team allows local system administrators to delete 
-inactive cards and patron accounts while retaining needed statistics. This is done outside of patron accounts, 
+inactive cards and patron accounts while retaining statistics. This is done outside of patron accounts, 
 and a small batch of barcodes/accounts can be deleted at once. The table below describes a few scenarios 
 where this tool may be used.
 
