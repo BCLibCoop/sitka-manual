@@ -60,7 +60,7 @@ Thorough and consistent reporting makes it easier for Co-op Support to respond t
 * *What, where, when, how?* Be specific about what you were doing in Evergreen, what results you obtained versus what you expected, and the steps required to reproduce the problem. If you cannot reproduce the problem exactly please describe the circumstances in which it occurred and the symptoms observed, including relevant patron and item barcodes.
 
 * *Include error messages*. If the problem caused any OPAC or staff client error messages please 
-copy and paste error text or attach screenshots when possible. See xref:_submitting_files_to_support for guidelines.
+copy and paste error text or attach screenshots when possible. See xref:_submitting_files_to_support[] for guidelines.
 
 * *Include example barcodes and IDs*. A problem in circulation? Make sure you include the patron and/or item barcodes that were in use when the problem occurred. Cataloguing issues? Make sure you include the item barcode and/or the record ISBN/ISSN or record ID where the problem occurred.
 
