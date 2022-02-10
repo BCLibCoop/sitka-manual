@@ -31,7 +31,6 @@ image::images/cat/new-marc-3.png[]
 . A blank MARC record will load with the fields and subfields most commonly used for the 
 resource type. The Leader and 008 will be coded for the specified type of resource; this coding affect the
 format icon and search filters.
-
 +
 image::images/cat/new-marc-4.png[]
 +
