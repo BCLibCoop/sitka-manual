@@ -65,6 +65,7 @@ Template Records within Evergreen
 +++++++++++++++++++++++++++++++++
 
 Template Set Up
+
 . Go to *Cataloguing -> Create New Marc Record*.
 . Select the appropriate template and click *Load*.
 . Edit the existing template to suit your needs. Make sure you include a title that you can use to retrieve 
@@ -74,6 +75,7 @@ your template.
 from being automatically deleted as part of the routine orphan bib deletion.
 
 Using the Template
+
 . Go to *Cataloguing -> Import Record from Z39.50*.
 . Make sure the service *Local Catalogue* is selected.
 . Do a title search for your template.
