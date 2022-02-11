@@ -89,6 +89,7 @@ Template Records outside of Evergreen
 +++++++++++++++++++++++++++++++++++++
 
 Template Set Up
+
 . Go to *Cataloguing -> Create New Marc Record*.
 . Select the appropriate template and click *Load*.
 . Edit the existing template to suit your needs. Make sure you include a title that you can use to retrieve 
@@ -96,6 +97,7 @@ your template.
 . Using the *Flat Text Editor* copy the template and save it as a text file using a program like Notepad.
 
 Using the Template
+
 . Go to *Cataloguing -> Create New Marc Record*.
 . Open the appropriate text file where you have saved your template.
 . Using the *Flat Text Editor* copy and paste the template into *Create New Marc Record*.
