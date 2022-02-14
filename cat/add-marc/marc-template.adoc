@@ -1,0 +1,58 @@
+Creating Library Specific MARC Templates
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+In addition to the global MARC templates Co-op Support has come up with a couple ways that libraries can 
+create their own MARC templates which can be copied and edited.  
+
+This is useful if you are entering the same information on a regular basis when creating new records, such as with 
+non-bibliographic records.
+  
+
+Template Records Saved Within Evergreen
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Template Set Up
++++++++++++++++
+
+. Go to *Cataloguing -> Create New Marc Record*.
+. Select the appropriate template and click *Load*.
+. Edit the existing template to suit your needs. Make sure you include a title that you can use to retrieve 
+your template.
+. Click *Save*.
+. Create an OPAC invisible fake item attached to the bibliographic record.  This will prevent the record 
+from being automatically deleted as part of the routine orphan bib deletion.
+
+Using the Template
+++++++++++++++++++
+
+. Go to *Cataloguing -> Import Record from Z39.50*.
+. Make sure the service *Local Catalogue* is selected.
+. Do a title search for your template.
+. Select the template record and click *Edit then Import*.
+. Complete the MARC record as per
+ http://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka cataloguing policy]. You can add and 
+ delete fields and subfields as required.
+. Click *Save*.
+
+Template Records Saved Outside of Evergreen
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Template Set Up
++++++++++++++++
+
+. Go to *Cataloguing -> Create New Marc Record*.
+. Select the appropriate template and click *Load*.
+. Edit the existing template to suit your needs. Make sure you include a title that you can use to retrieve 
+your template.
+. Using the *Flat Text Editor* copy the template and save it as a text file using a program like Notepad.
+
+Using the Template
+++++++++++++++++++
+
+. Go to *Cataloguing -> Create New Marc Record*.
+. Open the appropriate text file where you have saved your template.
+. Using the *Flat Text Editor* copy and paste the template into *Create New Marc Record*.
+. Complete the MARC record as per
+ http://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka cataloguing policy]. You can add and 
+ delete fields and subfields as required.
+. Click *Save*.

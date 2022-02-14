@@ -6,11 +6,8 @@ to search Evergreen, Z39.50 sources, or, in some libraries, a vendor file of MAR
 record template for original cataloguing. Original cataloguing should be done in Evergreen only 
 if there is no record available in any of these previous sources. 
 
-Global MARC Templates
-^^^^^^^^^^^^^^^^^^^^^
-
-Sitka's Evergreen has global MARC templates for commonly catalogued types of resources with the most frequently used 
-fields and subfields included. 
+Sitka's Evergreen has global MARC templates for commonly catalogued types of resources with the most frequently 
+used fields and subfields included. 
 
 
 For information about working with MARC records see xref:edit-marc[].
@@ -52,56 +49,3 @@ If you used *Add Item* the Holdings Editor will have opened in a new tab.
 If you did not use *Add Item*, you may now attach holdings as described 
 in xref:_adding_holdings_to_bibliographic_records[].
 ======
-
-Library Specific MARC Templates
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-For some resources, especially non-bibliographic resources, libraries may find they enter the same information
-on a regular basis and wish to have it saved in a template.
-  
-Libraries can create their own MARC templates in two ways.
-
-Template Records within Evergreen
-+++++++++++++++++++++++++++++++++
-
-Template Set Up
-
-. Go to *Cataloguing -> Create New Marc Record*.
-. Select the appropriate template and click *Load*.
-. Edit the existing template to suit your needs. Make sure you include a title that you can use to retrieve 
-your template.
-. Click *Save*.
-. Create an OPAC invisible fake item attached to the bibliographic record.  This will prevent the record 
-from being automatically deleted as part of the routine orphan bib deletion.
-
-Using the Template
-
-. Go to *Cataloguing -> Import Record from Z39.50*.
-. Make sure the service *Local Catalogue* is selected.
-. Do a title search for your template.
-. Select the template record and click *Edit then Import*.
-. Complete the MARC record as per
- http://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka cataloguing policy]. You can add and 
- delete fields and subfields as required.
-. Click *Save*.
-
-Template Records outside of Evergreen
-+++++++++++++++++++++++++++++++++++++
-
-Template Set Up
-
-. Go to *Cataloguing -> Create New Marc Record*.
-. Select the appropriate template and click *Load*.
-. Edit the existing template to suit your needs. Make sure you include a title that you can use to retrieve 
-your template.
-. Using the *Flat Text Editor* copy the template and save it as a text file using a program like Notepad.
-
-Using the Template
-
-. Go to *Cataloguing -> Create New Marc Record*.
-. Open the appropriate text file where you have saved your template.
-. Using the *Flat Text Editor* copy and paste the template into *Create New Marc Record*.
-. Complete the MARC record as per
- http://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka cataloguing policy]. You can add and 
- delete fields and subfields as required.
-. Click *Save*.
