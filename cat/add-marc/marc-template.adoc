@@ -21,7 +21,7 @@ Template Set Up
 image::images/cat/marc-template-1.png[]
 +
 . Edit the existing template to suit your needs. Make sure you include a unique title, that includes 
-your library code, that you can use to retrieve your template later.
+your library code, so you can retrieve your template later.
 . Click *Save*.
 +
 image::images/cat/marc-template-2.png[]
@@ -59,7 +59,7 @@ image::images/cat/marc-template-5.png[]
  http://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka cataloguing policy]. You can add and 
  delete fields and subfields as required.
 . Click *Go to imported record*.
-. Add your xref:_adding_holdings_to_bibliographic_records[holding(s)] to the record.
+. You may now attach holdings as described in xref:_adding_holdings_to_bibliographic_records[].
 
 Template Records Saved Outside of Evergreen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -84,9 +84,9 @@ image::images/cat/marc-template-6.png[]
 Using the Template
 ++++++++++++++++++
 
-. Go to *Cataloguing -> Create New Marc Record*.
-. Open the appropriate text file where you have saved your template.
-. Using the *Flat Text Editor* copy and paste the template into *Create New Marc Record*.
+. Open the appropriate text file with the applicable program on your computer.
+. In Evergreen, go to *Cataloguing -> Create New Marc Record*.
+. Using the *Flat Text Editor* copy and paste the template from the text file into *Create New Marc Record*.
 +
 image::images/cat/marc-template-6.png[]
 +
@@ -94,4 +94,4 @@ image::images/cat/marc-template-6.png[]
  http://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka cataloguing policy]. You can add and 
  delete fields and subfields as required.
 . Click *Save*.
-. Add your xref:_adding_holdings_to_bibliographic_records[holding(s)] to the record.
+. You may now attach holdings as described in xref:_adding_holdings_to_bibliographic_records[].
