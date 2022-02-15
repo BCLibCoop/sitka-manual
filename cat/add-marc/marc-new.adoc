@@ -1,13 +1,14 @@
 Creating New Bibliographic Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-It is required practice, and http://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka cataloguing policy], 
-to search Evergreen, Z39.50 sources, or, in some libraries, a vendor file of MARC records, before using a MARC 
-record template for original cataloguing. Original cataloguing should be done in Evergreen only 
-if there is no record available in any of these previous sources. 
+When cataloguing bibliographic resources it's important to follow 
+http://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka cataloguing policy] to avoid creating
+duplicate records in the Sitka database. Original cataloguing should be done in Evergreen only 
+if there is no record available in the Sitka catalogue, via Z39.50, or from your vendor.
 
 Sitka's Evergreen has global MARC templates for commonly catalogued types of resources with the most frequently 
-used fields and subfields included. 
+used fields and subfields included. Libraries can also use a workaround to set 
+up xref:_using_library_specific_marc_templates[library specific templates].
 
 
 For information about working with MARC records see xref:edit-marc[].
