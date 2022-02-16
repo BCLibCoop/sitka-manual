@@ -1,0 +1,97 @@
+Using Library Specific MARC Templates
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+In addition to the global MARC templates Co-op Support has come up with a couple ways that libraries can 
+create their own MARC templates which can be copied and edited.  
+
+This is useful if you are entering the same information on a regular basis when creating new records, such as with 
+non-bibliographic records.  You can also include hints for staff about what should go in particular fields but
+you'll want to make sure staff know to delete those hints before saving the new record.
+  
+
+Template Records Saved Within Evergreen
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Template Set Up
++++++++++++++++
+
+. Go to *Cataloguing -> Create New Marc Record*.
+. Select the appropriate template and click *Load*.
++
+image::images/cat/marc-template-1.png[]
++
+. Edit the existing template to suit your needs. Make sure you include a unique title, that includes 
+your library code, so you can retrieve your template later.
+. Click *Save*.
++
+image::images/cat/marc-template-2.png[]
++
+. Add a fake OPAC invisible item to the bibliographic record.  This will prevent the record 
+from being automatically deleted as part of the routine orphan bib deletion.  
++
+image::images/cat/marc-template-3.png[]
+
+[NOTE]
+======
+For your fake items Co-op Support recommends:
+
+* Set up a shelving location that is OPAC invisible, not holdable, and not circulatable. 
+* Use the Status _Cataloging_.
+* Use real barcodes from your range or use the format LIBRARYCODEtemplateNUMBER to ensure there is no conflict
+with other barcodes in the Sitka.
+======
+
+
+Using the Template
+++++++++++++++++++
+
+. Go to *Cataloguing -> Import Record from Z39.50*.
+. Make sure the service *Local Catalogue* is selected.
+. Do a title search for your template.
++
+image::images/cat/marc-template-4.png[]
++
+. Select the template record and click *Edit then Import*.
++
+image::images/cat/marc-template-5.png[]
++
+. Complete the MARC record as per
+ http://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka cataloguing policy]. You can add and 
+ delete fields and subfields as required.
+. Click *Go to imported record*.
+. You may now attach holdings as described in xref:_adding_holdings_to_bibliographic_records[].
+
+Template Records Saved Outside of Evergreen
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Template Set Up
++++++++++++++++
+
+. Go to *Cataloguing -> Create New Marc Record*.
+. Select the appropriate template and click *Load*.
++
+image::images/cat/marc-template-1.png[]
++
+. Edit the existing template to suit your needs. 
+. Using the *Flat Text Editor* copy the template and save it as a text file on your computer or network
+using a program like Notepad.
++
+image::images/cat/marc-template-6.png[]
++
+. Close the tab in Evergreen without saving.
+
+
+Using the Template
+++++++++++++++++++
+
+. Open the appropriate text file with the applicable program on your computer.
+. In Evergreen, go to *Cataloguing -> Create New Marc Record*.
+. Using the *Flat Text Editor* copy and paste the template from the text file into *Create New Marc Record*.
++
+image::images/cat/marc-template-6.png[]
++
+. Complete the MARC record as per
+ http://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka cataloguing policy]. You can add and 
+ delete fields and subfields as required.
+. Click *Save*.
+. You may now attach holdings as described in xref:_adding_holdings_to_bibliographic_records[].
