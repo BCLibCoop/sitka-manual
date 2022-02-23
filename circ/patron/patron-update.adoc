@@ -1,5 +1,5 @@
-Update Patron Account
-~~~~~~~~~~~~~~~~~~~~~
+Updating a Patron Account
+~~~~~~~~~~~~~~~~~~~~~~~~~
 (((Edit Patron)))
 (((Patron Account)))
 (((Renew Patron Card)))
@@ -7,16 +7,18 @@ Update Patron Account
 
 Routine maintenance of your patron accounts includes updating patrons' contact information, 
 contact preferences, renewing expired library cards, marking library cards lost, 
-re-setting patrons' passwords, inserting  notes or alert messages, and so on. It is 
-good practice to understand how the patron account record functions.
+re-setting patrons' passwords, inserting notes or alert messages, and so on. 
 
+To access a patron's account: 
 
-. Scan the patron barcode or search for patron by name.
+. Scan the patron's barcode or search for the patron by name.
 . Once the patron record is loaded, *Check Out* is the default tab.
-. Click *Edit* to retrieve patron information.
-. Make required edits and click *Save* at top right of screen.
+. Click *Edit* to retrieve the patron information.
 +
 image:images/circ/patronupdate1.png[scaledwidth="75%"]
++
+. Make the needed edits and click *Save* at top right of screen.
+
 
 [NOTE]
 ======
@@ -36,42 +38,84 @@ image:images/circ/patronupdate6.png[scaledwidth="75%"]
 +
 image:images/circ/patronupdate7.png[scaledwidth="75%"]
 
-Renew Library Card
-^^^^^^^^^^^^^^^^^^
+Renewing a Library Card
+^^^^^^^^^^^^^^^^^^^^^^^
 
 . Click *Update Expire Date* or use the calendar widget to renew a card.
-. Click *Save* at top right of screen.
 +
 image:images/circ/patronupdate2.png[scaledwidth="75%"]
++
+. Click *Save* at top right of screen.
 
-Mark Library Card Lost
-^^^^^^^^^^^^^^^^^^^^^^
+[NOTE]
+======
+*Update Expire Date* will give a date 3 years in the future for all Permission Groups except PL New User, 
+which gets a date 3 months in the future.
+
+Libraries can manually edit the expiry date to match their local policy.
+======
+
+
+Marking a Library Card Lost
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Click *Replace Barcode*
-. If the username is still the original barcode, replace it with the new barcode number.
-. Click *Save* at top right of screen.
 +
 image:images/circ/patronupdate3.png[scaledwidth="75%"]
++
+. Enter the new barcode.
++
+image:images/circ/patronupdate8.png[scaledwidth="75%"]
++ 
+. If the username is still the original barcode, update it to match new barcode number.
+. Click *Save* at top right of screen.
+
 
 See All Barcodes
 ^^^^^^^^^^^^^^^^
 
-Once a library card is marked lost, Evergreen marks the card inactive and keeps it in the database. If the patron has lost a library card before, the *See All* button shows up. If patron presents an inactive card, Evergreen will retrieve active account with inactive warning. Staff can then decide which card to make active or inactive. Best practice is to delete inactive patron cards.
+When patron accounts are merged togather or a patron barcode is replaced, Evergreen marks the barcode as inactive 
+and keeps it in the database. 
 
-. Click *See All*. All barcodes that the patron has had are displayed in a pop-up window.
-. Click *Active*  to activate an inactive card.
-. Click *Primary*  on the Active card, Active must be the Primary Card.
-. Click *Apply Changes* and *Save*.
+If patron presents an inactive card Evergreen will retrieve active account with inactive warning and 
+will not allow check outs. Staff can then decide which cards should be active or 
+inactive. Best practice is to delete inactive patron cards.
+
+. Click *See All*.
 +
 image:images/circ/patronupdate4.png[scaledwidth="75%"]
++
+. All barcodes that the patron has had are displayed in a pop-up window.
+. Click *Active*  to activate an inactive card.
+. Click *Primary*  on the Active card, Active must be the Primary Card.
+. Click *Apply Changes*.
++
+image:images/circ/patronupdate9.png[scaledwidth="75%"]
++
+. Click *Save* at top right of screen.
 
 
-Re-set Patron Password
-^^^^^^^^^^^^^^^^^^^^^^
-. Click *Reset Password* or enter a new password and click *Save*.
-. If your library uses the last 4 digits of phone number as default password, please do not use *Reset Password* button. Instead, enter the new phone number, and click *Save*.
+Re-setting a Patron Password
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-TIP: Existing password is not displayed in patron records for security reasons.
+Co-op Support recommends libraries encourage their patrons to use the 
+xref:_resetting_your_password[Forgot Your Password link] in the public catalogue for password resets whenever possible.
+When needed it is also possible for staff to reset a patron's password in the staff client.  This should be a temporary
+password and patrons should be encouraged to sign into My Account and update the password to something secure that only
+they know.
+
+. Click *Generate Password* to generate a random 4 digit password or type a new password into the field.
++
+image:images/circ/patronupdate10.png[scaledwidth="75%"]
++
+. If your library uses the last 4 digits of phone number as default password, you may wish to set the password to match
+their phone number.
+. Click *Save* at top right of screen.
+
+[TIP]
+======
+The existing password is not displayed in patron records for security reasons.
+======
 
 Update and Test Email Address or SMS/Text Number
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -80,18 +124,58 @@ Update and Test Email Address or SMS/Text Number
 . Click *Send Test Email* or *Send Test Text.*
 +
 image:images/circ/patronupdate5.png[scaledwidth="75%"]
++
+. Confirm with the patron whether or not they received the test email or text message.
 
-Invalidate Email Address or Phone Number
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Invalidating an Email Address
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 It is good practice to keep patron email addresses current to ensure service from Evergreen's 
-automated messaging features. The *Invalidate* option alerts staff that a new email address 
-is required, and removes the invalid address.
+automated messaging features. If an email to a patron bounces back you can invalidate the email address.
 
-NOTE: Accumulated bounced back emails may result in courtesy and notice emails from 
+. Click *Invalidate*.
++
+image:images/circ/patronupdate11.png[scaledwidth="75%"]
++
+. The email address will be removed and a Penalty will be added to the *Messages* tab which will display when the 
+patron's account is retrieved.
++
+image:images/circ/patronupdate12.png[scaledwidth="75%"]
++
+. To resolve the penalty go to the *Messages* tab.
+. Select the penalty and from the *Actions* menu choose *Archive Penalty / Message* or *Remove Penalty / Message* 
+depending on whether or not you want an archived copy of the message to remain.
++
+image:images/circ/patronupdate13.png[scaledwidth="75%"]
++
+. The penalty will be archived or removed as desired.
+
+
+[NOTE]
+======
+Accumulated bounced back emails may result in notification emails from 
 Evergreen being blocked by some email service providers such as Gmail and Outlook/Hotmail. 
-This denial of service affects all Sitka's Evergreen users, and we request your cooperation 
+This denial of service affects all Sitka's Evergreen users and we request your cooperation 
 in maintaining current email addresses.
+======
+
+Invalidating a Phone Number
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+It is good practice to invalidate phone numbers that are no longer valid for your patron to prevent staff from
+continuing to call an out of service number or a phone number that has been re-assigned to a different person.
+
+. Click *Invalidate*.
++
+image:images/circ/patronupdate14.png[scaledwidth="75%"]
++
+. The phone number will be removed and a Penalty will be added to the *Messages* tab which will display when the 
+patron's account is retrieved.
+. To resolve the penalty go to the *Messages* tab.
+. Select the penalty and from the *Actions* menu choose *Archive Penalty / Message* or *Remove Penalty / Message* 
+depending on whether or not you want an archived copy of the message to remain.
+. The penalty will be archived or removed as desired.
+
 
 
 Update Patron Address
