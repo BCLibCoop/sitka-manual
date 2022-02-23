@@ -12,7 +12,7 @@ re-setting patrons' passwords, inserting notes or alert messages, and so on.
 To access a patron's account: 
 
 . Scan the patron's barcode or search for the patron by name.
-. Once the patron record is loaded, *Check Out* is the default tab.
+. When the patron account is loaded, *Check Out* is the default tab.
 . Click *Edit* to retrieve the patron information.
 +
 image:images/circ/patronupdate1.png[scaledwidth="75%"]
@@ -30,7 +30,8 @@ https://www.youtube.com/watch?v=V33rC85pqy4[*Sitka Snippet Video - Hold Notifica
 
 Patron Summary
 ^^^^^^^^^^^^^^
-. Click the arrows beside the patron name to toggle between Patron Summary views. This choice is sticky and will stay on collapsed or expanded view until changed.
+. Click the arrows beside the patron name to toggle between Patron Summary views. This choice is sticky and 
+will stay on collapsed or expanded view until changed.
 +
 image:images/circ/patronupdate6.png[scaledwidth="75%"]
 
@@ -77,7 +78,7 @@ See All Barcodes
 When patron accounts are merged togather or a patron barcode is replaced, Evergreen marks the barcode as inactive 
 and keeps it in the database. 
 
-If patron presents an inactive card Evergreen will retrieve active account with inactive warning and 
+If a patron presents an inactive card Evergreen will retrieve the account with warning that the barcode is inactive and 
 will not allow check outs. Staff can then decide which cards should be active or 
 inactive. Best practice is to delete inactive patron cards.
 
@@ -101,8 +102,8 @@ Re-setting a Patron Password
 Co-op Support recommends libraries encourage their patrons to use the 
 xref:_resetting_your_password[Forgot Your Password link] in the public catalogue for password resets whenever possible.
 When needed it is also possible for staff to reset a patron's password in the staff client.  This should be a temporary
-password and patrons should be encouraged to sign into My Account and update the password to something secure that only
-they know.
+password and patrons should be encouraged to sign into _My Account_ and update the password to something secure that 
+only they know.
 
 . Click *Generate Password* to generate a random 4 digit password or type a new password into the field.
 +
@@ -137,7 +138,7 @@ automated messaging features. If an email to a patron bounces back you can inval
 +
 image:images/circ/patronupdate11.png[scaledwidth="75%"]
 +
-. The email address will be removed and a Penalty will be added to the *Messages* tab which will display when the 
+. The email address will be removed and a penalty will be added to the *Messages* tab which will display when the 
 patron's account is retrieved.
 +
 image:images/circ/patronupdate12.png[scaledwidth="75%"]
@@ -169,7 +170,7 @@ continuing to call an out of service number or a phone number that has been re-a
 +
 image:images/circ/patronupdate14.png[scaledwidth="75%"]
 +
-. The phone number will be removed and a Penalty will be added to the *Messages* tab which will display when the 
+. The phone number will be removed and a penalty will be added to the *Messages* tab which will display when the 
 patron's account is retrieved.
 . To resolve the penalty go to the *Messages* tab.
 . Select the penalty and from the *Actions* menu choose *Archive Penalty / Message* or *Remove Penalty / Message* 
