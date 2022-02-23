@@ -75,10 +75,10 @@ image:images/circ/patronupdate8.png[scaledwidth="75%"]
 See All Barcodes
 ^^^^^^^^^^^^^^^^
 
-When patron accounts are merged togather or a patron barcode is replaced, Evergreen marks the barcode as inactive 
+When patron accounts are merged together or a patron barcode is replaced, Evergreen marks the barcode as inactive 
 and keeps it in the database. 
 
-If a patron presents an inactive card Evergreen will retrieve the account with warning that the barcode is inactive and 
+If a patron presents an inactive card Evergreen will retrieve the account with a warning that the barcode is inactive and 
 will not allow check outs. Staff can then decide which cards should be active or 
 inactive. Best practice is to delete inactive patron cards.
 
