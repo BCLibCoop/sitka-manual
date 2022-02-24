@@ -1,16 +1,18 @@
-Patron Records
---------------
+Patron Accounts
+---------------
 
-include::patron/patron-search.adoc[Patron Search]
+include::patron/patron-search.adoc[Retrieving Patron Accounts]
 
-include::patron/patron-register.adoc[Register New Patrons]
+include::patron/patron-register.adoc[Registering New Patrons]
 
 include::patron/patron-selfregister.adoc[Patron Self-Registration]
 
-include::patron/patron-update.adoc[Updating Individual Patron Records]
+include::patron/patron-account-fields.adoc[Fields in the Patron Account]
+
+include::patron/patron-update.adoc[Updating Patron Accounts]
 
 include::patron/patron-alerts.adoc[Patron Alerts]
 
 include::patron/patron-patronbuckets.adoc[Patron Buckets]
 
-include::patron/patron-merge.adoc[Merge Patron Records]
+include::patron/patron-merge.adoc[Merging Patron Accounts]
