@@ -1,25 +1,67 @@
 Fields in the Patron Account
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The patron account is made up of required and non-required fields, some of which are filled out based on
-local library policy and some of which are determined by global Sitka policy.
+The patron account is made up of required and optional fields, some of which are filled out based on
+local library policy and some of which are determined by global Sitka policy. Some fields can be edited by
+patrons via _My Account_.
+
 
 Viewing a Patron Account
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 The patron form can display Required Fields, Suggested Fields, or All Fields. 
++
+image:images/circ/patron-fields-1.png[]
++
+By default all fields will display.  The local system administrator at your library can set the default to 
+_Suggested Fields_ using the library setting _Default showing suggested patron registration fields_.
 
-The fields 
+Customizing the fields that display and are required in the patron account can help ensure the relevant information
+is being recorded for your patrons and can cut down on unnessary information being saved.
+
+Required Fields
+
+There are a number of fields that are required for all patron accounts across Sitka, such as barcode, home library
+ and permission group.  Required fields that must be filled in to save the account are indicated in yellow.
+ 
+ Libraries can decide to set additional fields as required to conform with local policy.
+The applicable library settings are:
+
+* Require State field on patron registration
+* Require at least one address for Patron Registration
+* Require day_phone field on patron registration
+* Require dob field on patron registration
+* Require email field on patron registration
+* Require evening_phone field on patron registration
+* Require other_phone field on patron registration
+* Require prefix field on patron registration
+* require ident_value field on patron registration
+
+When the setting is set to True the field will be indicated as required in yellow and will display when
+*Required Fields* is selected.
+
+Additionally, setting any of the library settings that begin with _Show_ to True will cause the applicable
+field to display when *Required Fields* is selected, though the field does not have to be filled in to save
+the account.
+
+The _Email Address_, _Default Phone Number_, and _Default SMS/Text Number_ fields are always required when
+the equivalent check box is checked for _Hold Notices_. Unchecking the relevant box will stop the 
+field from being required.
++
+image:images/circ/patron-fields-2.png[]
+
+Suggested Fields
+^^^^^^^^^^^^^^^^
+
+Setting any of the library settings that begin with _Suggest_ to True will cause the applicable
+field to display when *Suggested Fields* is selected.
 
 
 
 
 
 
-NOTE: The patron account record is composed of required and optional fields, and some fields 
-are editable by your patrons via the *My Account* feature on your online catalogue. It is good 
-practice to familiarize your self with the basic functions and features of the patron record as 
-described below.
+
 
 
 * All fields highlighted in yellow are mandatory.
