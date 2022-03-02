@@ -5,14 +5,13 @@ The patron account is made up of required and optional fields, some of which are
 local library policy and some of which are determined by global Sitka policy. Some fields can be edited by
 patrons via _My Account_.
 
-
 Viewing a Patron Account
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 The patron form can display Required Fields, Suggested Fields, or All Fields. 
-+
+
 image:images/circ/patron-fields-1.png[]
-+
+
 By default all fields will display.  The local system administrator at your library can set the default to 
 _Suggested Fields_ using the library setting _Default showing suggested patron registration fields_.
 
@@ -20,11 +19,12 @@ Customizing the fields that display and are required in the patron account can h
 is being recorded for your patrons and can cut down on unnessary information being saved.
 
 Required Fields
++++++++++++++++
 
 There are a number of fields that are required for all patron accounts across Sitka, such as barcode, home library
  and permission group.  Required fields that must be filled in to save the account are indicated in yellow.
  
- Libraries can decide to set additional fields as required to conform with local policy.
+Libraries can decide to set additional fields as required to conform with local policy.
 The applicable library settings are:
 
 * Require State field on patron registration
@@ -47,14 +47,98 @@ the account.
 The _Email Address_, _Default Phone Number_, and _Default SMS/Text Number_ fields are always required when
 the equivalent check box is checked for _Hold Notices_. Unchecking the relevant box will stop the 
 field from being required.
-+
+
 image:images/circ/patron-fields-2.png[]
 
 Suggested Fields
-^^^^^^^^^^^^^^^^
+++++++++++++++++
 
 Setting any of the library settings that begin with _Suggest_ to True will cause the applicable
 field to display when *Suggested Fields* is selected.
+
+Fields Required by Sitka
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Identification
+++++++++++++++
+
+* *Barcode*
+* *OPAC/Staff Client User Name*
+
+Password
+
+Primary Name
+
+Preferred Name
+
+Name Keywords
+
+OPAC/Staff Client Holds Alias
+
+Date of Birth
+
+Juvenile Check Box
+
+Parent/Guardian
+
+Primary Identification Type
+
+Primary Identification
+
+Secondary Identification Type
+
+Secondary Identification
+
+Contact Details
++++++++++++++++
+
+|===
+|Field | Required? | Description  
+|Email Address | Can be set as required by libraries | The email address the patron would like to be 
+contacted at.  Multiple adresses can be separated by a comma followed by a space.
+|Email checkout receipts by default? Check Box | Yes | Unchecked by default, this setting enable patrons to
+automatically be sent email check out receipts.
+|Daytime Phone | Can be set as required by libraries | Primary phone number for the patron.
+|Evening Phone | Can be set as required by libraries | Phone number to be used in the evenings.
+|Other Phone |Can be set as required by libraries | Additional phone number for the patron. 
+|===
+
+Account Settings
+++++++++++++++++
+
+|===
+|Field | Required? | Description  
+|Home Library | Yes | Home library should always be set to the library 
+|Main (Profile) Permission Group | Yes | 
+|Privilege Expiration Date | Yes | By default the date will be three years in the future for all permission
+groups, except PL New User which has an interval of 3 months.  Library staff can manually adjust the date
+to conform to local policy.
+|Internet Access Level
+|Active Check Box
+|Barred Check Box
+|Is Group Lead Account Check Box
+|Claims-returned Count
+|Claims Never Checked Out Count
+|Alert Message
+|===
+
+User Settings
++++++++++++++
+
+Default Phone Number
+Default Hold Pickup Location
+Holds Notices Check Box
+Default SMS/Text Number
+Default SMS Carrier
+Receive Overdue and Courtesy Emails
+Allow others to use my account
+
+Address
++++++++
+
+Statistical Categories
+++++++++++++++++++++++
+
 
 
 
