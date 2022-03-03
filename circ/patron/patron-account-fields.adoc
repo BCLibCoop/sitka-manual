@@ -5,8 +5,81 @@ The patron account is made up of required and optional fields, some of which are
 local library policy and some of which are determined by global Sitka policy. Some fields can be edited by
 patrons via _My Account_.
 
-Viewing a Patron Account
-^^^^^^^^^^^^^^^^^^^^^^^^
+Identification
+++++++++++++++
+|===
+|Barcode
+|OPAC/Staff Client User Name
+|Password
+|Primary Name
+|Preferred Name
+|Name Keywords
+|OPAC/Staff Client Holds Alias
+|Date of Birth
+|Juvenile Check Box
+|Parent/Guardian
+|Primary Identification Type
+|Primary Identification
+|Secondary Identification Type
+|Secondary Identification
+|===
+
+Contact Details
++++++++++++++++
+
+|===
+|Field | Required? | Description  
+|Email Address | Can be set as required by libraries | The email address the patron would like to be 
+contacted at.  Multiple adresses can be separated by a comma followed by a space.
+|Email checkout receipts by default? Check Box | Yes | Unchecked by default, this setting enable patrons to
+automatically be sent email check out receipts.
+|Daytime Phone | Can be set as required by libraries | Primary phone number for the patron.
+|Evening Phone | Can be set as required by libraries | Phone number to be used in the evenings.
+|Other Phone |Can be set as required by libraries | Additional phone number for the patron. 
+|===
+
+Account Settings
+++++++++++++++++
+
+|===
+|Field | Required? | Description  
+|Home Library | Yes | Home library should always be set to the library 
+|Main (Profile) Permission Group | Yes | 
+|Privilege Expiration Date | Yes | By default the date will be three years in the future for all permission
+groups, except PL New User which has an interval of 3 months.  Library staff can manually adjust the date
+to conform to local policy.
+|Internet Access Level | Yes | 
+|Active Check Box | Yes | This check box is checked by default.  
+|Barred Check Box | Yes | This check box is left unchecked by default.
+|Is Group Lead Account Check Box | 
+|Claims-returned Count | |
+|Claims Never Checked Out Count | |
+|Alert Message | No | This alert field will be made obsolete by new features coming with the next upgrade.
+Co-op Support recommends libraries use the alert field available via Messages.
+|===
+
+User Settings
++++++++++++++
+
+|===
+|Default Phone Number
+|Default Hold Pickup Location
+|Holds Notices Check Box
+|Default SMS/Text Number
+|Default SMS Carrier
+|Receive Overdue and Courtesy Emails
+|Allow others to use my account
+|===
+
+Address
++++++++
+
+Statistical Categories
+++++++++++++++++++++++
+
+
+Customizing the Display Fields
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The patron form can display Required Fields, Suggested Fields, or All Fields. 
 
@@ -55,92 +128,6 @@ Suggested Fields
 
 Setting any of the library settings that begin with _Suggest_ to True will cause the applicable
 field to display when *Suggested Fields* is selected.
-
-Fields Required by Sitka
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-Identification
-++++++++++++++
-
-* *Barcode*
-* *OPAC/Staff Client User Name*
-
-Password
-
-Primary Name
-
-Preferred Name
-
-Name Keywords
-
-OPAC/Staff Client Holds Alias
-
-Date of Birth
-
-Juvenile Check Box
-
-Parent/Guardian
-
-Primary Identification Type
-
-Primary Identification
-
-Secondary Identification Type
-
-Secondary Identification
-
-Contact Details
-+++++++++++++++
-
-|===
-|Field | Required? | Description  
-|Email Address | Can be set as required by libraries | The email address the patron would like to be 
-contacted at.  Multiple adresses can be separated by a comma followed by a space.
-|Email checkout receipts by default? Check Box | Yes | Unchecked by default, this setting enable patrons to
-automatically be sent email check out receipts.
-|Daytime Phone | Can be set as required by libraries | Primary phone number for the patron.
-|Evening Phone | Can be set as required by libraries | Phone number to be used in the evenings.
-|Other Phone |Can be set as required by libraries | Additional phone number for the patron. 
-|===
-
-Account Settings
-++++++++++++++++
-
-|===
-|Field | Required? | Description  
-|Home Library | Yes | Home library should always be set to the library 
-|Main (Profile) Permission Group | Yes | 
-|Privilege Expiration Date | Yes | By default the date will be three years in the future for all permission
-groups, except PL New User which has an interval of 3 months.  Library staff can manually adjust the date
-to conform to local policy.
-|Internet Access Level
-|Active Check Box
-|Barred Check Box
-|Is Group Lead Account Check Box
-|Claims-returned Count
-|Claims Never Checked Out Count
-|Alert Message
-|===
-
-User Settings
-+++++++++++++
-
-Default Phone Number
-Default Hold Pickup Location
-Holds Notices Check Box
-Default SMS/Text Number
-Default SMS Carrier
-Receive Overdue and Courtesy Emails
-Allow others to use my account
-
-Address
-+++++++
-
-Statistical Categories
-++++++++++++++++++++++
-
-
-
 
 
 
