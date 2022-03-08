@@ -12,7 +12,7 @@ patrons via _My Account_.
 |Barcode | Yes | The barcode assigned to the patron.  Generally this will be a 14 digit codabar barcode; some
 libraries may use a different format for older cards or if student numbers are used.
 |OPAC/Staff Client User Name | Yes | By default the username will match the barcode.  Patrons can 
-xref:_personal_information[update] their username via My Account.
+xref:_personal_information[update their username] via My Account.
 |Password | Yes | Saved passwords are not visible to library or Co-op Staff. Patrons can 
 xref:_resetting_your_password[reset their password] via the public catalogue.  
 |Primary Name | Yes | A first and last name must be entered for all patrons.  Prefix, suffix, and middle name
@@ -68,8 +68,7 @@ groups, except PL New User which has an interval of 3 months.  Library staff can
 to conform to local policy.
 |Internet Access Level | Yes | This field can be used by staff to manually track if patrons' may access the 
 internet at the library. The value set doesn't affect patron's access to the public catalogue or subscribed
-3rd party products.  A default value can be set using the library. 
-setting _Default level of patrons' internet access_.
+3rd party products.  A default value can be set using the library setting _Default level of patrons' internet access_.
 |Active Check Box | Yes | This check box is checked by default.  Patron set to Inactive are not included
 in patron searches when the _Include Inactive?_ check box is unchecked on search form.
 |Barred Check Box | Yes | This check box is left unchecked by default. Patrons should only be barred in
