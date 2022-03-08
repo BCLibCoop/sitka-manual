@@ -12,7 +12,7 @@ Public libraries with reciprocal borrowing agreements, such as BC One Card, shou
 have a library card at another public library and then 
 xref:_retrieving_an_account_via_barcode[retrieve the account via barcode].
 
-As the registration form is completed Evergreen will alert you if the phone number, email , or address
+As the registration form is completed Evergreen will alert you if the phone number, email, or address
 you are entering matches that of another patron belonging to or opted in at your library.  The alert text
 is a link that will take you to a patron search of the matching patrons so you can check if they are
 the same patron.
