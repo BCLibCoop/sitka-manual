@@ -177,7 +177,10 @@ patron's account is retrieved.
 depending on whether or not you want an archived copy of the message to remain.
 . The penalty will be archived or removed as desired.
 
+Invalidating an Address
+^^^^^^^^^^^^^^^^^^^^^^^
 
+Library setting Invalid patron address penalty set to TRUE
 
 Update Patron Address
 ^^^^^^^^^^^^^^^^^^^^^

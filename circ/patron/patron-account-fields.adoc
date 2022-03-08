@@ -5,9 +5,10 @@ The patron account is made up of required and optional fields, some of which are
 local library policy and some of which are determined by global Sitka policy. Some fields can be edited by
 patrons via _My Account_.
 
-Identification
-++++++++++++++
+*Identification*
+
 |===
+|Field | Required? | Description  
 |Barcode
 |OPAC/Staff Client User Name
 |Password
@@ -24,8 +25,7 @@ Identification
 |Secondary Identification
 |===
 
-Contact Details
-+++++++++++++++
+*Contact Details*
 
 |===
 |Field | Required? | Description  
@@ -38,8 +38,7 @@ automatically be sent email check out receipts.
 |Other Phone |Can be set as required by libraries | Additional phone number for the patron. 
 |===
 
-Account Settings
-++++++++++++++++
+*Account Settings*
 
 |===
 |Field | Required? | Description  
@@ -58,10 +57,10 @@ to conform to local policy.
 Co-op Support recommends libraries use the alert field available via Messages.
 |===
 
-User Settings
-+++++++++++++
+*User Settings*
 
 |===
+|Field | Required? | Description  
 |Default Phone Number
 |Default Hold Pickup Location
 |Holds Notices Check Box
@@ -71,11 +70,11 @@ User Settings
 |Allow others to use my account
 |===
 
-Address
-+++++++
+*Address*
 
-Statistical Categories
-++++++++++++++++++++++
+
+*Statistical Categories*
+
 
 
 Customizing the Display Fields
