@@ -41,7 +41,7 @@ image:images/circ/patronregister3.png[]
 this setting, and the required field, with patron's actual preferences as needed. You must de-select 
 the *Email* option to save a patron record without an email address.
 +
-image:images/circ/patron-fields-2.png[]
+image:images/circ/patronregister5.png[]
 +
 . Click *Save* or *Save & Clone* at top-right of screen. *Save and Clone* will save the record 
 and open a new record with some shared details such as phone number and optionally address.
