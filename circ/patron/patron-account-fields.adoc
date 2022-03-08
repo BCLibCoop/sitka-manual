@@ -99,7 +99,7 @@ of placing a hold. Patrons can also xref:_notification_preference[update their d
 |Default SMS/Text Number | Required if SMS checked for Hold Notices | The number at which the patron would 
 like to receive hold and courtesy text messages if enabled for your library. Patrons
 can xref:_notification_preference[update this] via My Account.
-|Default SMS Carrier | Required if value enter in _Default SMS/Text Number _ | To receive text messages must 
+|Default SMS Carrier | Required if value enter in _Default SMS/Text Number_ | To receive text messages must 
 specify who their carrier is.  Some carriers may not be listed as not all carriers provide the information 
 required to allow Evergreen to send them text messages.  Patrons
 can xref:_notification_preference[update this] via My Account.
@@ -205,30 +205,3 @@ Suggested Fields
 
 Setting any of the library settings that begin with _Suggest_ to True will cause the applicable
 field to display when *Suggested Fields* is selected.
-
-
-
-
-
-
-
-* All fields highlighted in yellow are mandatory.
-
-* Blank mandatory fields and fields with a value in the wrong format will result in a "Form is invalid" error.
-
-* *Primary Name* and *Preferred Name* enables greater flexibility, and is optional. Click on tab to switch between fields.
-
-* *Juvenile flag*. This flag is optional. Each library can determine an age threshold of juvenile patrons. The checkbox must be manually de-selected, there is no automated process to update the record.
-
-* *Receive Overdue and Courtesy Emails* checkbox allows patrons to opt-in or opt-out of receiving courtesy and overdue email notifications. Patrons can also set this in *My Account* on your online catalogue.
-
-
-* *Main (Profile) Permission Group*. Sitka's Evergreen has a shared list of patron profile groups, but individual libraries choose which profiles to use, and how to configure chosen profiles to suit local policy.
-
-* *Privilege Expiration Date*. There is a Sitka default of 3 years for all profile groups except PL New User, which has an expiration of 3 months. The expiry date can be edited on all profile groups.
-
-* *Is Group Lead Account* should always be unchecked.
-
-* Statistical categories are used to further group patrons by categories not in the profile groups. Individual libraries can create their own patron statistical categories.
-
-* *Save and Clone* will save the patron record and open a new patron record. Phone numbers will be copied into the new record. Depending on your library's setting, addresses may also be linked from original record, and can only be edited in original patron record.
