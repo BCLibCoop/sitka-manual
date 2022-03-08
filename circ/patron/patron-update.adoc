@@ -180,6 +180,20 @@ depending on whether or not you want an archived copy of the message to remain.
 Invalidating an Address
 ^^^^^^^^^^^^^^^^^^^^^^^
 
+It is good practice to invalidate addresses that are no longer valid.  Paper overdues do not check whether an
+address is valid so staff handling paper overdues should have a method for tracking notices returned to sender.
+
+. Uncheck the check box *Valid Address?*.
+. Click *Save*.
+. If the library setting _Invalid patron address penalty_ is set to False for your library the box
+ will simply be unchecked.
+. If the library setting _Invalid patron address penalty_ is set to True for your library a penalty will
+be applied that can be seen in the Messages.  Additionally, in the summary the address label will appear
+in red.
++
+image:images/circ/patronupdate15.png[]
+
+
 Library setting Invalid patron address penalty set to TRUE
 
 Update Patron Address
