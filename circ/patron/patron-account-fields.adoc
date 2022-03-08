@@ -11,10 +11,10 @@ patrons via _My Account_.
 |Field | Required? | Description  
 |Barcode | Yes | The barcode assigned to the patron.  Generally this will be a 14 digit codabar barcode; some
 libraries may use a different format for older cards or if student numbers are used.
-|OPAC/Staff Client User Name | Yes | By default the username will match the barcode.  Patrons can update
-their username via My Account.
-|Password | Yes | Saved passwords are not visible to library or Co-op Staff. Patrons can reset their password
-via My Account.  
+|OPAC/Staff Client User Name | Yes | By default the username will match the barcode.  Patrons can 
+xref:_personal_information[update] their username via My Account.
+|Password | Yes | Saved passwords are not visible to library or Co-op Staff. Patrons can 
+xref:_resetting_your_password[reset their password] via the public catalogue.  
 |Primary Name | Yes | A first and last name must be entered for all patrons.  Prefix, suffix, and middle name
 are optional as can be used needed.
 |Preferred Name | No | These field can be used if the patron goes by a name different from their primary name.
@@ -41,10 +41,11 @@ Generally this is used by academic libraries for data such as student number or 
 |===
 |Field | Required? | Description  
 |Email Address | Can be set as required by libraries | The email address the patron would like to be 
-contacted at.  Multiple adresses can be separated by a comma followed by a space. Patrons can edit their email
-via My Account unless the option has been disabled for your library.
+contacted at.  Multiple adresses can be separated by a comma followed by a space. Patrons can 
+xref:_personal_information[edit their email] via My Account unless the option has been disabled for your library.
 |Email checkout receipts by default? Check Box | Yes | Unchecked by default, this setting enables patrons to
-automatically be sent email check out receipts. Patrons can update this check box via My Account.
+automatically be sent email check out receipts. Patrons can 
+xref:_notification_preference[update this check box] via My Account.
 |Daytime Phone | Can be set as required by libraries | Primary phone number for the patron.
 |Evening Phone | Can be set as required by libraries | Phone number to be used in the evenings.
 |Other Phone |Can be set as required by libraries | Additional phone number for the patron. 
@@ -58,9 +59,10 @@ automatically be sent email check out receipts. Patrons can update this check bo
 the patron falls into.  For academic and special libraries the home library should be the library or applicable
 branch.
 |Main (Profile) Permission Group | Yes | The profile groups are set globally by library type.  All groups 
-have a three year expiry period with the exception of PL New User which is 3 months. Profiles are used by Evergreen
-to determine how items circulate so it's important to know which profile are used at your library and for
-which patrons.
+have a three year expiry period with the exception of PL New User which is 3 months. Individual libraries 
+can choose which profiles to use and how to configure your chosen profiles to suit local policy.  Profiles 
+are used by Evergreen to determine how items circulate so it's important to know which profile are used at 
+your library and for which patrons. 
 |Privilege Expiration Date | Yes | By default the date will be three years in the future for all profile
 groups, except PL New User which has an interval of 3 months.  Library staff can manually adjust the date
 to conform to local policy.
@@ -68,7 +70,8 @@ to conform to local policy.
 internet at the library. The value set doesn't affect patron's access to the public catalogue or subscribed
 3rd party products.  A default value can be set using the library. 
 setting _Default level of patrons' internet access_.
-|Active Check Box | Yes | This check box is checked by default.  
+|Active Check Box | Yes | This check box is checked by default.  Patron set to Inactive are not included
+in patron searches when the _Include Inactive?_ check box is unchecked on search form.
 |Barred Check Box | Yes | This check box is left unchecked by default. Patrons should only be barred in
 extreme situations, especially if they belong to a library that participates in reciprocal borrowing.
 |Is Group Lead Account Check Box | Yes | This check box is left unchecked by default. This feature isn't used
@@ -78,7 +81,7 @@ claimed returned.  Staff can manually update this value.
 |Claims Never Checked Out Count | No | Evergreen will update the value in this field if the patron has 
 items marked claimed never checked out.  Staff can manually update this value.
 |Alert Message | No | This alert field will be made obsolete by new features coming with the next upgrade.
-Co-op Support recommends libraries use the alert field available via Messages.
+Co-op Support recommends libraries use the alert field available via the xref:_patron_messages[Messages] tab.
 |===
 
 *User Settings*
@@ -87,26 +90,29 @@ Co-op Support recommends libraries use the alert field available via Messages.
 |Field | Required? | Description  
 |Default Phone Number | Required if Phone checked for Hold Notices | This is the phone number used for hold 
 notifications via phone.  If blank Evergreen will use the value in Daytime Phone.  Patrons
-can update this in My Account.
+can xref:_notification_preference[update this] via My Account.
 |Default Hold Pickup Location | No | The location at which the patron would like to pickup their holds. Patrons
-can update this in My Account.
+can xref:_search_and_history_preferences[update this] via My Account.
 |Holds Notices Check Box | No, but highly recommend at least one option selected | The selected options will
 be checked by default when the patron places a hold.  Patrons and staff can uncheck options in the process
-of placing a hold. Patrons can also update their defaults in My Account.
+of placing a hold. Patrons can also xref:_notification_preference[update their defaults] via My Account.
 |Default SMS/Text Number | Required if SMS checked for Hold Notices | The number at which the patron would 
 like to receive hold and courtesy text messages if enabled for your library. Patrons
-can update this in My Account.
+can xref:_notification_preference[update this] via My Account.
 |Default SMS Carrier | Required if value enter in _Default SMS/Text Number _ | To receive text messages must 
 specify who their carrier is.  Some carriers may not be listed as not all carriers provide the information 
-required to allow Evergreen to send them text messages.  Patrons can update this in My Account.
+required to allow Evergreen to send them text messages.  Patrons
+can xref:_notification_preference[update this] via My Account.
 |Receive Overdue and Courtesy Emails | Yes | Checked by default, this setting enables patrons to
-automatically be courtesy and overdue notices. Patrons can update this check box via My Account.  If patrons 
+automatically be courtesy and overdue notices. Patrons can 
+xref:_notification_preference[update this check box] via My Account.  If patrons 
 opt out they will no longer receive courtey or overdue emails but will still receive hold notifications, depending
 the option chosen when the hold is place, and paper overdue notices for libraries that use paper overdues.
 |Allow others to use my account | No | This allows patrons to indicate other people who can place holds, pick up
-holds, check out items, and/or view their borrowing history.  This feature is enabled for all libraries by 
-default but can be disabled by setting the library setting _Allow others to use patron account (privacy waiver)_
-to False.
+holds, check out items, and/or view their borrowing history.  Patrons can 
+xref:_search_and_history_preferences[update who can use their account] via My Account. This feature is 
+enabled for all libraries by default but can be disabled by setting the library 
+setting _Allow others to use patron account (privacy waiver)_ to False.
 |===
 
 *Address*
@@ -127,16 +133,24 @@ be saved if an address is not included.
 country.
 |Valid Address? | Yes | Checked by default, this check box indicates that the address is valid. This can
 be used in conjuntion with the library setting _Invalid patron address penalty_.
-|Within City Limits? | Checked by default, this check box indicates that the address is within the city limits.
+|Within City Limits? | Unchecked by default, this check box indicates that the address is within the city limits.
 This can be used in reporting.
+|===
 
 Multiple addresses can be included if the patron has more than one address that should be entered in their
 account.
 
+Libraries can allow their patrons to edit their address via My Account by setting the library setting
+_Allow pending addresses_ to True.  Editing an address creates a pending address in the patron's account
+that must be approved by library staff.
+
+image:images/circ/patron-fields-3.png[]
+
 
 *Statistical Categories*
 
-Patron statistical categories for your library display at the bottom of the patron account.  Whether statistical
+Patron statistical categories are used to further group patrons by categories not otherwise captured
+in the patron account fields. Whether statistical
 categories are required or not depends on how they are set up.  For information on setting up patron
 statistical categories see xref:_statistical_category_editor[].
 
