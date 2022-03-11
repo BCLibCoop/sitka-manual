@@ -1,0 +1,207 @@
+Patron Account Fields
+~~~~~~~~~~~~~~~~~~~~~
+
+The patron account is made up of required and optional fields, some of which are filled out based on
+local library policy and some of which are determined by global Sitka policy. Some fields can be edited by
+patrons via _My Account_.
+
+*Identification*
+
+|===
+|Field | Required? | Description  
+|Barcode | Yes | The barcode assigned to the patron.  Generally this will be a 14 digit codabar barcode; some
+libraries may use a different format for older cards or if student numbers are used.
+|OPAC/Staff Client User Name | Yes | By default the username will match the barcode.  Patrons can 
+xref:_personal_information[update their username] via My Account.
+|Password | Yes | Saved passwords are not visible to library or Co-op Staff. Patrons can 
+xref:_resetting_your_password[reset their password] via the public catalogue.  
+|Primary Name | Yes | A first and last name must be entered for all patrons.  Prefix, suffix, and middle name
+are optional as can be used needed.
+|Preferred Name | No | These field can be used if the patron goes by a name different from their primary name.
+The preferred name is used instead of the primary for notifications and display in My Account.  
+|Name Keywords | No | Additional keywords that can be used to group accounts for searching purposes.
+|OPAC/Staff Client Holds Alias | No | The alias can be used if a patron doesn't want items on the hold shelf appearing
+under their real name.
+|Date of Birth | Can be set as required by libraries | Date of birth of the patron.
+|Juvenile Check Box | No | Can be used to tag accounts as juvenile for policy or reporting purposes.  Generally
+the PL Juvenile permission group is used instead.
+|Parent/Guardian | No | Can be used to include the parent or guardian's name for juvenile patrons.
+|Primary Identification Type | Yes | Co-op Support recommends using the value of _Other_ unless you have a
+legitimate use case for collecting data for one of the other values.  
+|Primary Identification | Can be set as required by libraries | This field is used to collect identification information about the patron. 
+Generally this is used by academic libraries for data such as student number or homeroom.
+|Secondary Identification Type | No | Co-op Support recommends using the value of _Other_ unless you have a
+legitimate use case for collecting data for one of the other values.
+|Secondary Identification | No | This field is used to collect identification information about the patron. 
+Generally this is used by academic libraries for data such as student number or homeroom.
+|===
+
+*Contact Details*
+
+|===
+|Field | Required? | Description  
+|Email Address | Can be set as required by libraries | The email address the patron would like to be 
+contacted at.  Multiple adresses can be separated by a comma followed by a space. Patrons can 
+xref:_personal_information[edit their email] via My Account unless the option has been disabled for your library.
+|Email checkout receipts by default? Check Box | Yes | Unchecked by default, this setting enables patrons to
+automatically be sent email check out receipts. Patrons can 
+xref:_notification_preference[update this check box] via My Account.
+|Daytime Phone | Can be set as required by libraries | Primary phone number for the patron.
+|Evening Phone | Can be set as required by libraries | Phone number to be used in the evenings.
+|Other Phone |Can be set as required by libraries | Additional phone number for the patron. 
+|===
+
+*Account Settings*
+
+|===
+|Field | Required? | Description  
+|Home Library | Yes | For public libraries home library should always be set to the library whose tax base
+the patron falls into.  For academic and special libraries the home library should be the library or applicable
+branch.
+|Main (Profile) Permission Group | Yes | The profile groups are set globally by library type.  All groups 
+have a three year expiry period with the exception of PL New User which is 3 months. Individual libraries 
+can choose which profiles to use and how to configure your chosen profiles to suit local policy.  Profiles 
+are used by Evergreen to determine how items circulate so it's important to know which profile are used at 
+your library and for which patrons. Contact xref:https://bc.libraries.coop/support/[Support] to have 
+this list customized to display only the profiles you use at your library.
+|Privilege Expiration Date | Yes | By default the date will be three years in the future for all profile
+groups, except PL New User which has an interval of 3 months.  Library staff can manually adjust the date
+to conform to local policy.
+|Internet Access Level | Yes | This field can be used by staff to manually track if patrons' may access the 
+internet at the library. The value set doesn't affect patron's access to the public catalogue or subscribed
+3rd party products.  A default value can be set using the library setting _Default level of patrons' internet access_.
+|Active Check Box | Yes | This check box is checked by default.  Patron set to Inactive are not included
+in patron searches when the _Include Inactive?_ check box is unchecked on search form.
+|Barred Check Box | Yes | This check box is left unchecked by default. Patrons should only be barred in
+extreme situations, especially if they belong to a library that participates in reciprocal borrowing.
+|Is Group Lead Account Check Box | Yes | This check box is left unchecked by default. This feature isn't used
+by Sitka.
+|Claims-returned Count | No | Evergreen will update the value in this field if the patron has items marked
+claimed returned.  Staff can manually update this value.
+|Claims Never Checked Out Count | No | Evergreen will update the value in this field if the patron has 
+items marked claimed never checked out.  Staff can manually update this value.
+|Alert Message | No | This alert field will be made obsolete by new features coming with the next upgrade.
+Co-op Support recommends libraries use the alert field available via the xref:_patron_messages[Messages] tab.
+|===
+
+*User Settings*
+
+|===
+|Field | Required? | Description  
+|Default Phone Number | Required if Phone checked for Hold Notices | This is the phone number used for hold 
+notifications via phone.  If blank Evergreen will use the value in Daytime Phone.  Patrons
+can xref:_notification_preference[update this] via My Account.
+|Default Hold Pickup Location | No | The location at which the patron would like to pickup their holds. Patrons
+can xref:_search_and_history_preferences[update this] via My Account.
+|Holds Notices Check Box | No, but highly recommend at least one option selected | The selected options will
+be checked by default when the patron places a hold.  Patrons and staff can uncheck options in the process
+of placing a hold. Patrons can also xref:_notification_preference[update their defaults] via My Account.
+|Default SMS/Text Number | Required if SMS checked for Hold Notices | The number at which the patron would 
+like to receive hold and courtesy text messages if enabled for your library. Patrons
+can xref:_notification_preference[update this] via My Account.
+|Default SMS Carrier | Required if value enter in _Default SMS/Text Number_ | To receive text messages must 
+specify who their carrier is.  Some carriers may not be listed as not all carriers provide the information 
+required to allow Evergreen to send them text messages.  Patrons
+can xref:_notification_preference[update this] via My Account.
+|Receive Overdue and Courtesy Emails | Yes | Checked by default, this setting enables patrons to
+automatically be courtesy and overdue notices. Patrons can 
+xref:_notification_preference[update this check box] via My Account.  If patrons 
+opt out they will no longer receive courtey or overdue emails but will still receive hold notifications, depending
+the option chosen when the hold is place, and paper overdue notices for libraries that use paper overdues.
+|Allow others to use my account | No | This allows patrons to indicate other people who can place holds, pick up
+holds, check out items, and/or view their borrowing history.  Patrons can 
+xref:_search_and_history_preferences[update who can use their account] via My Account. This feature is 
+enabled for all libraries by default but can be disabled by setting the library 
+setting _Allow others to use patron account (privacy waiver)_ to False.
+|===
+
+*Address*
+
+Libraries can choose to require at least one address on every account. When required a patron account cannot
+be saved if an address is not included.
+
+|===
+|Field | Required? | Description
+|Type | Yes | By default this will be set as _Mailing_.
+|Postal Code | Yes | Entering the patron's postal code will automatically fill in the _City_ and _State_ fields.
+|Street (1) | Yes | Street address details are entered here.
+|Street (2) | No | Optional field for additional street address details.
+|City | Yes | This will be autofilled when postal code is entered.
+|County | No | This field can be used if there is a applicable county for the address.
+|State | Yes | The provincial or territorial abbreviation must be used.  
+|Country | Yes | Canada is entered by default.  This can be manually updated if entering addresses from another
+country.
+|Valid Address? | Yes | Checked by default, this check box indicates that the address is valid. This can
+be used in conjuntion with the library setting _Invalid patron address penalty_.
+|Within City Limits? | Unchecked by default, this check box indicates that the address is within the city limits.
+This can be used in reporting.
+|===
+
+Multiple addresses can be included if the patron has more than one address that should be entered in their
+account.
+
+Libraries can allow their patrons to edit their address via My Account by setting the library setting
+_Allow pending addresses_ to True.  Editing an address creates a pending address in the patron's account
+that must be approved by library staff.
+
+image:images/circ/patron-fields-3.png[]
+
+
+*Statistical Categories*
+
+Patron statistical categories are used to further group patrons by categories not otherwise captured
+in the patron account fields. Whether statistical
+categories are required or not depends on how they are set up.  For information on setting up patron
+statistical categories see xref:_statistical_category_editor[].
+
+
+Customizing the Display Fields
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The patron form can display Required Fields, Suggested Fields, or All Fields. 
+
+image:images/circ/patron-fields-1.png[]
+
+By default all fields will display.  The local system administrator at your library can set the default to 
+_Suggested Fields_ using the library setting _Default showing suggested patron registration fields_.
+
+Customizing the fields that display and are required in the patron account can help ensure the relevant information
+is being recorded for your patrons and can cut down on unnessary information being saved.
+
+Required Fields
++++++++++++++++
+
+There are a number of fields that are required for all patron accounts across Sitka, such as barcode, home library
+ and permission group.  Required fields that must be filled in to save the account are indicated in yellow.
+ 
+Libraries can decide to set additional fields as required to conform with local policy.
+The applicable library settings are:
+
+* Require State field on patron registration
+* Require at least one address for Patron Registration
+* Require day_phone field on patron registration
+* Require dob field on patron registration
+* Require email field on patron registration
+* Require evening_phone field on patron registration
+* Require other_phone field on patron registration
+* Require prefix field on patron registration
+* require ident_value field on patron registration
+
+When the setting is set to True the field will be indicated as required in yellow and will display when
+*Required Fields* is selected.
+
+Additionally, setting any of the library settings that begin with _Show_ to True will cause the applicable
+field to display when *Required Fields* is selected, though the field does not have to be filled in to save
+the account.
+
+The _Email Address_, _Default Phone Number_, and _Default SMS/Text Number_ fields are always required when
+the equivalent check box is checked for _Hold Notices_. Unchecking the relevant box will stop the 
+field from being required.
+
+image:images/circ/patron-fields-2.png[]
+
+Suggested Fields
+++++++++++++++++
+
+Setting any of the library settings that begin with _Suggest_ to True will cause the applicable
+field to display when *Suggested Fields* is selected.

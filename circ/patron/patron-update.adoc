@@ -143,7 +143,10 @@ patron's account is retrieved.
 +
 image:images/circ/patronupdate12.png[scaledwidth="75%"]
 +
-. To resolve the penalty go to the *Messages* tab.
+. If the patron had _Email_ selected as their default for hold notices you need to uncheck the box in the
+patron account or you will be unable to save the account in the future.
+. Evergreen will automatically archive the penalty when a new email address is entered.
+. To resolve the penalty manually go to the *Messages* tab.
 . Select the penalty and from the *Actions* menu choose *Archive Penalty / Message* or *Remove Penalty / Message* 
 depending on whether or not you want an archived copy of the message to remain.
 +
@@ -177,7 +180,21 @@ patron's account is retrieved.
 depending on whether or not you want an archived copy of the message to remain.
 . The penalty will be archived or removed as desired.
 
+Invalidating an Address
+^^^^^^^^^^^^^^^^^^^^^^^
 
+It is good practice to invalidate addresses that are no longer valid.  Paper overdues do not check whether an
+address is valid so staff handling paper overdues should have a method for tracking notices returned to sender.
+
+. Uncheck the check box *Valid Address?*.
+. Click *Save*.
+. If the library setting _Invalid patron address penalty_ is set to False for your library the box
+ will simply be unchecked.
+. If the library setting _Invalid patron address penalty_ is set to True for your library a penalty will
+be applied that can be seen in the Messages tab.  Additionally, in the summary the address label will appear
+in red.
++
+image:images/circ/patronupdate15.png[]
 
 Update Patron Address
 ^^^^^^^^^^^^^^^^^^^^^
