@@ -143,16 +143,9 @@ patron's account is retrieved.
 +
 image:images/circ/patronupdate12.png[scaledwidth="75%"]
 +
-. If the patron had _Email_ selected as their default for hold notices you need to uncheck the box in the
-patron account or you will be unable to save the account in the future.
 . Evergreen will automatically archive the penalty when a new email address is entered.
-. To resolve the penalty manually go to the *Messages* tab.
-. Select the penalty and from the *Actions* menu choose *Archive Penalty / Message* or *Remove Penalty / Message* 
-depending on whether or not you want an archived copy of the message to remain.
-+
-image:images/circ/patronupdate13.png[scaledwidth="75%"]
-+
-. The penalty will be archived or removed as desired.
+. To resolve the penalty manually see xref:_staff_generated_alerts_blocks_and_notes[].
+
 
 
 [NOTE]
@@ -175,10 +168,7 @@ image:images/circ/patronupdate14.png[scaledwidth="75%"]
 +
 . The phone number will be removed and a penalty will be added to the *Messages* tab which will display when the 
 patron's account is retrieved.
-. To resolve the penalty go to the *Messages* tab.
-. Select the penalty and from the *Actions* menu choose *Archive Penalty / Message* or *Remove Penalty / Message* 
-depending on whether or not you want an archived copy of the message to remain.
-. The penalty will be archived or removed as desired.
+. To resolve the penalty manually see xref:_staff_generated_alerts_blocks_and_notes[].
 
 Invalidating an Address
 ^^^^^^^^^^^^^^^^^^^^^^^

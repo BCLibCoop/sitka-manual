@@ -6,53 +6,107 @@ Patron Alerts, Notes, Messages, and Notifications
 (((Patron Notifications, Action Triggers)))
 (((Triggered Events)))
 
-Patron Alerts
-^^^^^^^^^^^^^
-If a patron’s account has an alert, a red *Stop* sign is displayed when the account is retrieved. There are three types of alerts in Evergreen: staff-generated, system-generated, and standing penalties.
+Alerts, notes, and blocks are applied to a patron's account either automatically by the system or manually
+by staff.
 
-Staff-generated Alerts
-+++++++++++++++++++++++
-Staff-generated alerts are created by staff, and must be removed by staff.
+System Generated Alerts and Blocks
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-System-generated Alerts
-+++++++++++++++++++++++
-System-generated alerts are automatically inserted on some conditions, such as the patron account is expired, patron has a ready-for-pickup hold, etc. Once the cause is resolved, these messages disappear automatically.
+When a patron has an alert or a block on their account a red *Stop* sign is displayed when the account 
+is retrieved. 
 
-Standing penalties
-++++++++++++++++++
-Standing penalties are inserted when a patron's circulation condition meets criteria set up by your library for the maximum fine threshold, maximum number of items allowed out, and the maximum number of overdue items allowed. If a patron exceeds any of these limits, an alert will block their account. Standing penalties are removed once the cause is resolved.
+image:images/circ/patronalert1.png[]
 
-Standing penalties can be overridden on an item by item basis. Alternatively, you can remove the standing penalties temporarily to carry out the circulation actions that need to be overridden. If the conditions persist, once you refresh or re-access the patron account the penalties will be re-applied immediately.
 
-. To remove standing penalties from a patron account, go to *Messages*.
-. Highlight the penalties. Click *Actions → Remove Penalty/Message*.
 
-Patron Notes
-^^^^^^^^^^^^
-You can add notes to patron accounts that can be viewed by staff, and can be shared with patrons in the My Account feature on your online catalogue.
+Evergreen will automatically apply alerts in the following situations:
 
-. To insert or remove a note, retrieve patron account and click *Other → Notes*.
-. Click *Add New Note*
-. Enter note and click *OK*.
-+
-image:images/circ/patronalert1.png[scaledwidth="75%"]
+* patron's account has expired.
+* patron has a hold ready for pick up.
+* patron has an invalid email address.
+* patron has an invalid phone number.
+* patron has an invalid address.
 
-The patron account will display a *Notes* icon while the note is present.
+Evergreen will automatically apply blocks in the following situations:
 
-Patron Messages
-^^^^^^^^^^^^^^^
-You can also enter Alerts, Notes, and Blocks on the *Messages* tab.
+* patron exceeds fine threshold.
+* patron exceeds max overdue threshold.
+* patron exceeds max checked out item threshold.
+* patron exceeds max lost item threshold.
 
-. Click *Messages* tab.
+When these blocks are applied to an account the patron is blocked from checking out, renewing, and placing items on hold.
+Evergreen will also not capture or fulfill holds for the patron.  The max checked out item threshold is an
+exception; patrons with this block can still renew items, place holds on items, and have holds captured
+for them.
+
+The thresholds for these blocks are set per library and can be edited by a local system 
+administrator in xref:_group_penalty_thresholds[Group Penalty Thresholds].
+
+Evergreen will remove these blocks and alerts when the cause is resolved.
+
+These blocks can also be overridden on an item by item basis. Alternatively, you can remove the 
+block temporarily to carry out the circulation actions that need to be overridden. If the conditions 
+persist, once you refresh or re-access the patron account the block will be re-applied immediately.
+
+Staff-Generated Alerts, Blocks, and Notes
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To add an alert, block, or note:
+
+. In the patron's acount click on the *Messages* tab.
 . Click *Apply Penalty/Message*.
-. Select *Note*, *Alert*, or *Block*, enter text, and click *OK*.
+. Select *Note*, *Alert*, or *Block*.
 +
-image:images/circ/patronalert2.png[scaledwidth="75%"]
+image:images/circ/patronalert2.png[]
++
+. Enter your text and initials and click *OK*.
++
+image:images/circ/patronalert3.png[]
 
-To edit, remove, or archive messages, select the message and click *Actions* and follow the on screen prompts.
+To edit an alert, block, or note:
 
-NOTE: Alerts and blocks created on the Messages screen are displayed on the Alert screen. System-generated standing penalties are displayed on the Messages screen.
-Based on your library's setting, staff initials may be required when creating a Note/Alert/Block.
+. In the patron's acount click on the *Messages* tab.
+. Select the penalty you would like to edit.
+. From the *Actions* menu select *Modify Penalty/Message*.
++
+image:images/circ/patronalert9.png[]
++
+. Make the needed changes and click *OK*.
+
+
+To delete or archive an alert, block, or note:
+
+. In the patron's acount click on the *Messages* tab.
+. Select the penalty you would like to delete or archive.
+. From the *Actions* menu select the appropriate action.
++
+image:images/circ/patronalert4.png[]
++
+. If archived, the penalty will now display in the archived section.
++
+image:images/circ/patronalert5.png[]
+
+
+Staff-Generated Patron Visible Notes
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Staff can add notes that display to the patron when they log into My Account.
+
+. In the patron's account go to *Other -> Notes*.
++
+image:images/circ/patronalert6.png[]
++
+. Click *Add New Note*.
+. Enter the title, note, your initials, and make sure the box for _Patron Visible_ is checked.
+. Click *OK*.
++
+image:images/circ/patronalert7.png[]
++
+. The patron account will display a _Notes_ icon in the staff client as well as being visible to 
+the patron in My Account.
++
+image:images/circ/patronalert8.png[]
+
 
 Patron Notifications
 ^^^^^^^^^^^^^^^^^^^^
