@@ -35,8 +35,24 @@ image:images/circ/itemstatus3.png[scaledwidth="75%"]
 Upload from File (Choose file)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This feature uploads multiple item barcodes saved in a text file on your local computer. To ensure smooth uploading and further processing of the items, it is recommended that the list contain no more than 100 items.
+You can upload a .csv file of multiple barcodes using the *Choose File* option. To ensure smooth uploading 
+and further processing of the items, it is recommended that the list contain no more than 100 items.
 
-. Click *Choose File* and follow on screen prompts.
+. Run a report in Evergreen to list the items you'd like to load into _Item Status_.
+. Open the report in a program like Excel and remove all columns other than the barcode column, remove the 
+header row, and save the file as a .csv file.  
+. In Evergreen, open _Item Status_.
+. Click *Choose File*.
 +
-image:images/circ/itemstatus4.png[scaledwidth="75%"]
+image:images/circ/item-status-upload-file-1.png[]
++
+. Follow the on screen prompts to select your file.
+. A progress bar will display as the file loads.
+. The items will be listed and the file name displays at the top.
++
+image:images/circ/item-status-upload-file-2.png[]
++
+. Ensure you've set the row count high enough so that all your items display in the list. 
++
+image:images/circ/item-status-upload-file-3.png[]
+
