@@ -3,33 +3,27 @@ Item Status
 (((Item Status)))
 
 link:https://youtu.be/XY_mdYQSoGo[*Sitka Snippet Video - Item Status (2:26)*]
+
 link:https://youtu.be/sWwZzrR7kUs[*Sitka Snippet Video - Batch Update (4:30)*]
 
-The *Item Status* screen is very useful to circulators and cataloguers at your library.  Many daily workflows are performed from this screen. It is good practice to familiarize yourself with the functions and features of Evergreen's *Item Status*.
+The _Item Status_ screen is very useful to circulators and cataloguers at your library. Scanning a barcode 
+into _Item Status_ does not affect the item's current status. 
 
-List View and Detail View
-^^^^^^^^^^^^^^^^^^^^^^^^^
-. To check an item's status click *Circulation -> Item Status*, or *Search -> Search for Copies by Barcode*, or press *F5*.
-. Scan or enter the item barcode.
-. The current status of the item is displayed. Click the down arrow to  configure columns to select more fields to view, or click *Detail View* to see item summary, circulation history, and other useful information.
+To access _Item Status _ select  *Cataloguing -> Item Status* or *Circulation -> Item Status*.  By default
+the _List View_ will open.
+
+
+The _List View_ allows staff to view information for multiple items at a glance as well as performing many
+actions on select items via the *Actions* menu.
 +
-image:images/circ/itemstatus1.png[scaledwidth="75%"]
+image:images/circ/item-status-1.png[]
+
+The _Detail View_ allows staff to a variety of information about a specific item using the different tabs.
 +
-. Click *List View* to revert.
-+
-image:images/circ/itemstatus2.png[scaledwidth="75%"]
+image:images/circ/item-status-2.png[]
 
-
-
-Item Status Actions Menu
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-Many circulation functions are available under the *Actions* menu. Common tasks are view last few circulations, retrieve last few patrons, mark item damaged or missing, insert item alert messages, check in items, renew items, request items, update inventory, and so on.
-
-. Select item and click *Actions* to make choice.
-. Click on down arrow to scroll through options.
-+
-image:images/circ/itemstatus3.png[scaledwidth="75%"]
+Clicking on the item's title either either the _List View_ or _Detail View_ will open the record in the 
+staff catalogue.
 
 
 Upload from File (Choose file)
