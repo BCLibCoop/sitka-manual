@@ -8,7 +8,7 @@ On _Holdings View_, you can edit a few selected Items under the same title.
 Batch Editing Items via Item Status
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Select  *Cataloguing -> Item Status* or *Circulation -> Item Status*.
+. Select *Cataloguing -> Item Status* or *Circulation -> Item Status*.
 . Scan the barcodes to retrieve the items you want to edit, or click *Choose File* to xref:_upload_from_file_choose_file[load items 
 from a file of a list of barcodes].
 . Select the items you would like to edit.
