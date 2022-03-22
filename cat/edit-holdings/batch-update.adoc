@@ -57,11 +57,12 @@ Batch Editing in the Holdings Editor
 There are some important differences in the _Holdings Editor_ when editing in batch versus editing
 a single item.
 
+* When editing, only one value can be entered for each item attribute.  Items that should be updated with 
+different values for particular item attributes should be edited separately.
 * If the selected items have differing values for an item attribute a button indicating there are multiple values
 for the attribute will display.
 +
 image::images/cat/batch-edit-item-2.png[]
-+
-* When editing only one value can be entered for each item attribute.  Items that should be updated with 
-different values for particular item attributes should be edited separately.
+
+
 
