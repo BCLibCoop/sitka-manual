@@ -30,9 +30,10 @@ image::images/cat/batch-edit-item-3.png[]
 +
 . Select the items you wish to edit.
 . From the *Actions* menu select *Edit Selected Items* or *Edit Call Numbers* depending on what you wish to edit.
-. The Holdings Editor will open in a new tab. 
 +
 image::images/cat/batch-edit-item-4.png[]
++
+. The Holdings Editor will open in a new tab. 
 
 Batch Editing Items via Holdings View
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -55,6 +56,7 @@ Batch Editing in the Holdings Editor
 
 There are some important differences in the _Holdings Editor_ when editing in batch versus editing
 a single item.
+
 * If the selected items have differing values for an item attribute a button indicating there are multiple values
 for the attribute will display.
 +
