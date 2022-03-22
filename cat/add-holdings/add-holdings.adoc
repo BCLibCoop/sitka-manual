@@ -157,4 +157,18 @@ image::images/cat/add-holdings-8.png[]
 * *Save Completed* will save those items on *Completed Items* tab only. Those on *Working Items* tab will be considered discarded, though they do not disappear.
 =========
 
+Adding Holdings When Barcode Completion is Used
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Every library in Sitka's Evergreen is assigned a unqiue prefix to use as part of their 14 digit codabar barcodes.
+
+We strongly encourage libraries to use 14 digit codabar barcodes with their barcode prefix for all new
+holdings that are added to the catalogue.
+
+In the rare case where a library is using non-14 digit codabar barcodes for new items barcode completion will
+have been enabled.  This means that the prefix assigned through barcode completion, often your library code,
+must be included in the item barcode when the item is catalogued.
+
+image::images/cat/cat-barcode-completion-1.png[]
+
 
