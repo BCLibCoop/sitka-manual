@@ -25,7 +25,7 @@ When barcode completion is turned on all non-14 digit codabar item and/or patron
 will have a prefix included in the barcode in the database. See 
 xref:_adding_holdings_when_barcode_completion_is_used[] for information on cataloguing with barcode completion.
 
-. Scan a barcode into Check Out, Check In, or Item Status.
+. Scan a barcode into _Check Out_, _Check In_, or _Item Status_.
 . If there is only one match Evergreen automatically adds the prefix and retrieves the 
 appropriate item or patron.
 . If there is a match a pop-up will appear listing the possible barcodes.
@@ -35,7 +35,7 @@ image:images/circ/barcode-completion-1.png[]
 . Select the barcode that matches the patron or item.
 . The patron will be retrieved or the item loaded on the screen.
 
-Barcode completion is not currently available for My Account or the Evergreen self check-out.
+Barcode completion is not currently available for _My Account_ or the Evergreen self check-out.
 
 3rd Party Services
 ^^^^^^^^^^^^^^^^^^
