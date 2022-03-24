@@ -31,7 +31,7 @@ xref:_adding_holdings_when_barcode_completion_is_used[] for information on catal
 . Scan a barcode into _Check Out_, _Check In_, or _Item Status_.
 . If there is only one match Evergreen automatically adds the prefix and retrieves the 
 appropriate item or patron.
-. If there is a match a pop-up will appear listing the possible barcodes.
+. If there are multiple matches a pop-up will appear listing the possible barcodes.
 +
 image:images/circ/barcode-completion-1.png[]
 +
