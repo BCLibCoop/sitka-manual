@@ -25,8 +25,7 @@ Circulation with Barcode Completion
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 When barcode completion is turned on all non-14 digit codabar item and/or patron barcodes for the library 
-will have a prefix included in the barcode in the database. See 
-xref:_adding_holdings_when_barcode_completion_is_used[] for information on cataloguing with barcode completion.
+will have a prefix included in the barcode in the database. 
 
 . Scan a barcode into _Check Out_, _Check In_, or _Item Status_.
 . If there is only one match Evergreen automatically adds the prefix and retrieves the 
