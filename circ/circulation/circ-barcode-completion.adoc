@@ -2,20 +2,23 @@ Barcode Completion
 ~~~~~~~~~~~~~~~~~~
 (((Barcode Completion)))
 
-It is best practice for libraries to use 14 digit codabar barcodes with their assigned prefix for items and 
+Barcode completion can be enabled for items or patrons or both depending on a library's needs.
+
+It is Sitka policy for libraries to use 14 digit codabar barcodes with their assigned prefix for items and 
 patrons. Barcode completion can be used temporarily to handle duplication within Sitka's Evergreen while libraries re-barcode any items 
 or patrons with non-14 digit codabar barcodes.  
 
-Barcode completion can be turned on for items or patrons or both depending on a library's needs.
 
 Registering Patrons with Barcode Completion
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In some cases there are reaons why 14 digit codabar barcodes can't be used, such as student numbers issued by a registar's office.  
-In those cases barcode completion to ensure unique barcodes are used within Sitka's Evergreen.
+In some cases 14 digit codabar barcodes can't be used, such as student numbers 
+issued by a registar's office.  In those cases a barcode prefix is used to create unique barcodes 
+within Sitka's Evergreen.
 
-When creating new patrons, either from patron registration or by loading patron records, the prefix for barcode
-completion must be included in the barcode for all non-14 digit codabar barcodes.
+When creating new patrons, either from patron registration or by loading patron records, the assigned 
+barcode prefix must be included in the barcode for all non-14 digit codabar barcodes.  For example, 123456 would 
+be entered as MPL123456.
 
 
 Circulation with Barcode Completion
@@ -40,7 +43,7 @@ Barcode completion is not currently available for _My Account_ or the Evergreen 
 3rd Party Services
 ^^^^^^^^^^^^^^^^^^
 
-Libraries that use barcode completion for patrons need to ensure that patrons know to include the prefix
+Libraries that use patron barcode completion for patrons need to ensure that patrons include the prefix
 when logging into 3rd party services that authenticate against Evergreen, such as Overdrive.
 
 For example, Maple Public Library uses barcode completion with the prefix MPL.  The patron's barcode is 123456 
