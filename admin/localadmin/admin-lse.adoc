@@ -340,7 +340,7 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 
 |Default hotkeyset|Default Hotkeyset for clients (filename without the .keyset). Examples: Default, Minimal, and None|Text|Not in use anymore|LSA
 
-|Default ident type for patron registration|This is the default Ident Type for new users in the patron editor.|Selection list| | LSA
+|Default ident type for patron registration|This is the default Ident Type for new users in the patron editor.|Selection list| Default: Other | LSA
 
 |Default showing suggested patron registration fields|Instead of All fields, show just suggested fields in patron registration by default.|True/False| | LSA
 
