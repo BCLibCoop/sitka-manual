@@ -4,7 +4,7 @@ Library Settings Editor
 
 anchor:library-settings-editor[Library Settings Editor]
 
-With the *Library Settings Editor* one can optionally customize
+With the _Library Settings Editor_ staff with local system administrator permissions can customize
 Evergreen's behavior for a particular library or library system. For
 descriptions of available settings see the <<_settings_overview,Settings
 Overview>> table below.
@@ -12,7 +12,7 @@ Overview>> table below.
 Editing Library Settings
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-1. To open the *Library Settings Editor* select *Administration* -> *Local
+1. To open the _Library Settings Editor_ select *Administration* -> *Local
 Administration* -> *Library Settings Editor*.
 2. Settings having effects on the same function or module are grouped
 together. You may browse the list or search for the entry you want to
