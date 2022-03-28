@@ -362,8 +362,6 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 
 |Format Dates with this pattern | | Text | Default: yyyy-MM-dd | Sitka
 
-|GUI: Enable Experimental Angular Staff Catalog | Display an entry point in the browser client for the experimental Angular staff catalog. | True/False | Default: False | LSA
-
 |GUI: Hide these fields within the Item Attribute Editor.|Sets which fields in the Item Attribute Editor to hide in the staff client.|Text|This is useful to hide attributes that are not used. | LSA
 
 |Horizontal layout for Volume/Copy Creator/Editor.|The main entry point for this interface is in Holdings Maintenance, Actions for Selected Rows, Edit Item Attributes / Call Numbers / Replace Barcodes. This setting changes the top and bottom panes (if FALSE) for that interface into left and right panes (if TRUE).|True/False|Not in use anymore | LSA
