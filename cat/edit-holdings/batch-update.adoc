@@ -1,29 +1,68 @@
 Batch Editing Items
 ~~~~~~~~~~~~~~~~~~~
 
-You can edit items in batch on the *Item Status* screen, or in an *Item Bucket*. On *Holdings View*, you can edit a few selected Items under the same title.
+You can edit items in batch on the _Item Status_ screen, or in an _Item Bucket_. 
+On _Holdings View_, you can edit a few selected Items under the same title.
 
 
-*Batch Editing Items on Item Status Screen*
+Batch Editing Items via Item Status
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Scan the barcodes to retrieve the items you want to edit, or click "Choose File" to load items from a text file of a list of barcodes.
-. Select records to edit,  click *Actions* dropdown list, scroll down to *Edit*, and click *Items*.
+. Select *Cataloguing -> Item Status* or *Circulation -> Item Status*.
+. Scan the barcodes to retrieve the items you want to edit, or click *Choose File* to xref:_upload_from_file_choose_file[load items 
+from a file of a list of barcodes].
+. Select the items you would like to edit.
+. From the *Actions* menu scroll to *Edit* and select *Call Numbers*, *Items*, or *Call Numbers and Items* depending
+on what you wish to edit.
 +
-image::images/cat/copy-batch-edit-1.png[]
+image::images/cat/batch-edit-item-1.png[]
 +
-. Item Editor opens in a new tab. Edit the items and click *Save & Exit*.
-+
-image::images/cat/copy-batch-edit-2.png[]
+. The Holdings Editor will open in a new tab. 
 
-[NOTE]
-======
-. When the selected items do not share the same value in a field, the field is empty and a dropdown list with the multiple values shows up under the field.
-. For each field, you can only put in one value for all the selected records. Do not touch fields that you do not intend to edit, especially those with multiple values.
-. You can select a few items to edit, store them in the *Completed Items* tab, then work on other items.
-======
 
-*Batch Editing Items in Item Buckets*
+Batch Editing Items via Item Buckets
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Click *Cataloguing -> Item Buckets*.
+. Select *Cataloguing -> Item Buckets*.
 . Select an item bucket from the *Buckets* dropdown list.
-. Select the items you wish to edit and click *Actions -> Edit Selected Items*.
++
+image::images/cat/batch-edit-item-3.png[]
++
+. Select the items you wish to edit.
+. From the *Actions* menu select *Edit Selected Items* or *Edit Call Numbers* depending on what you wish to edit.
++
+image::images/cat/batch-edit-item-4.png[]
++
+. The Holdings Editor will open in a new tab. 
+
+Batch Editing Items via Holdings View
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Open the desired record in the staff catalogue.
+. Go to the *Holdings View* tab.
+. Select the items you wish to edit.
++
+image::images/cat/batch-edit-item-5.png[]
++
+. From the *Actions* menu scroll to *Edit* and select *Edit Call Numbers*, *Edit Items*, or 
+*Edit Call Numbers and Items* depending on what you wish to edit.
++
+image::images/cat/batch-edit-item-6.png[]
++
+. The Holdings Editor will open in a new tab. 
+
+Batch Editing in the Holdings Editor
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+There are some important differences in the _Holdings Editor_ when editing in batch versus editing
+a single item.
+
+* When editing, only one value can be entered for each item attribute.  Items that should be updated with 
+different values for particular item attributes should be edited separately.
+* If the selected items have differing values for an item attribute a button indicating there are multiple values
+for the attribute will display.
++
+image::images/cat/batch-edit-item-2.png[]
+
+
+

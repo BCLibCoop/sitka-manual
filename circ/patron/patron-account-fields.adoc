@@ -10,7 +10,9 @@ patrons via _My Account_.
 |===
 |Field | Required? | Description  
 |Barcode | Yes | The barcode assigned to the patron.  Generally this will be a 14 digit codabar barcode; some
-libraries may use a different format for older cards or if student numbers are used.
+libraries may use a different format for older cards or if student numbers are used.  If your library uses
+non-14 digit codabar barcodes with xref:_barcode_completion[barcode completion] make sure the correct prefix, often your library code,
+is included.
 |OPAC/Staff Client User Name | Yes | By default the username will match the barcode.  Patrons can 
 xref:_personal_information[update their username] via My Account.
 |Password | Yes | Saved passwords are not visible to library or Co-op Staff. Patrons can 

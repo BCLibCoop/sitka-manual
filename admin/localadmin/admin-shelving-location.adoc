@@ -11,8 +11,8 @@ Multi-branch libraries can enter the system and then check the box to display th
 
 image::images/admin/library-filter-1.png[Library Filter]
 
-Create a Shelving Location
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+Creating a Shelving Location
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Click *New Shelving Location*.
 . Enter the relevant information for your shelving location and click *Save*.
@@ -24,37 +24,70 @@ Create a Shelving Location
 * *OPAC Visible* means items in the location will display in your public catalogue.
 * *Label Prefix* and *Label Suffix*, if set up, will be automatically included when printing spine labels.
 +
-image::images/admin/shelving-location-1.png[[scaledwidth="75%",alt="Create Shelving Location"]
+image::images/admin/shelving-location-1.png[scaledwidth="75%",alt="Create Shelving Location"]
 
-NOTE: Text in the Label prefix and Label suffix fields will automatically be added to
+[NOTE]
+======
+Text in the Label prefix and Label suffix fields will automatically be added to
 spine labels printed for items in the selected shelving location. It does not affect
 OPAC or staff client display.
+======
 
-TIP: Whether an item can be circulated, is holdable, or visible on the OPAC, is
+[TIP]
+=====
+Whether an item can be circulated, is holdable, or visible on the OPAC, is
 controlled by three factors: item status, shelving location, and item attributes
 (the options in the Holdings Editor). Evergreen follows the aforementioned sequence 
 to check the value of each factor until it encounters a NO. An item can be circulated,
 holdable or visible on OPAC when all three factors are set to YES.
+=====
 
-Edit a Shelving Location
-^^^^^^^^^^^^^^^^^^^^^^^^
+Editing a Shelving Location
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Select the shelving location you'd like to edit..
 . Click the actions button and select *Edit Selected*.
 . Make your changes and click *Save*.
 +
-image::images/admin/shelving-location-2.png[[scaledwidth="75%",alt="Edit Shelving Location"]
+image::images/admin/shelving-location-2.png[scaledwidth="75%",alt="Edit Shelving Location"]
 
-CAUTION: If your library uses the acquisitions module and loads vendor records make sure you let your vendors
+[CAUTION]
+=========
+If your library uses the acquisitions module and loads vendor records make sure you let your vendors
 know about any changes you make to shelving location names that are used in their templates.  If the shelving
 location name doesn't match between Evergreen and the $l in the templates your MARC records will not load.
+=========
 
 
-Delete a Shelving Location
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+Deleting a Shelving Location
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Shelving locations that contain items, including deleted items, cannot be deleted through the
-staff client.  Please contact Support if you wish to delete a shelving location.
+When deleting shelving locations it is important to make sure all non-deleted items have been moved to 
+another shelving location first; items in deleted shelving locations will not 
+display in the public catalogue.  Co-op Support recommends running a report using the Sitka report template 
+_Shelving Location : Copies with Selected Shelving Location_ before deleting a shelving location.
+
+. Select the shelving location you wish to delete.
+. From the *Actions* menu selected *Delete Selected*.
++
+image::images/admin/shelving-location-3.png[scaledwidth="75%",alt="Delete Shelving Location"]
++
+. The shelving location will still display in the list but _Is Deleted?_ will have a value of _Yes_.
+
+[NOTE]
+======
+In the Shelving Locations Editor you can use the filter to display only shelving locations where
+_Is Deleted?_ is _No_.
+
+Because deleted shelving locations also display in the reporter Co-op Support recommends renaming 
+deleted shelving locations to start with Z.  Deleted shelving locations
+will then sort alphabetically to the bottom of the list and it is very evident when running reports 
+that filter on shelving location which shelving locations in the list are deleted.
+
+
+======
+
+
 
 
 

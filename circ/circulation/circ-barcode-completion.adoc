@@ -2,29 +2,55 @@ Barcode Completion
 ~~~~~~~~~~~~~~~~~~
 (((Barcode Completion)))
 
-Barcode completion is sometimes used in Sitka's Evergreen to handle duplicate item or patron barcodes. It adds a prefix or a suffix to the physical barcode scanned. For example, all barcodes at a library may be prefixed in Evergreen with their Library and Archives Canada code MPL, to read MPL12345 in the database, but the physical barcode on the item or patron card is 12345. When barcode completion is in use, Evergreen will add MPL to every barcode scanned, matching the physical barcode with the correct saved record. Staff have to read the screen, and make correct choice, for barcode completion to work as designed. Co-op Support recommends you consider re-barcoding to better manage duplicate barcodes in Sitka's Evergreen.
+Barcode completion can be enabled for items or patrons or both depending on a library's needs.
 
-Multiple Matches
-^^^^^^^^^^^^^^^^
+It is Sitka policy for libraries to use 14 digit codabar barcodes with their assigned prefix for items and 
+patrons. 
 
-. Scan a barcode. If matches are found, a pop-up will appear listing the possible barcodes.
-
-. Select the required barcode and title, or barcode and name, and continue.
-
-
-Patron Barcodes
-^^^^^^^^^^^^^^^
-
-The patron barcode completion pop-up appears when a patron barcode is scanned in the following places:
-
-* Check Out
-* Place hold for patron by barcode in the web client catalogue.
+Barcode completion can be used temporarily to handle duplication within Sitka's Evergreen while 
+libraries re-barcode any items or patrons with non-14 digit codabar barcodes.  
 
 
-Item Barcodes
-^^^^^^^^^^^^^
-The item barcode completion pop-up appears when an item barcode is scanned in the following places:
+Registering Patrons with Barcode Completion
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Check Out
-* Check In
-* Item Status
+In some cases 14 digit codabar barcodes can't be used, such as student numbers 
+issued by a registar's office.  In those cases a barcode prefix is used to create unique barcodes 
+within Sitka's Evergreen.
+
+When creating new patrons, either from patron registration or by loading patron records, the assigned 
+barcode prefix must be included in the barcode for all non-14 digit codabar barcodes.  For example, 123456 would 
+be entered as MPL123456.
+
+
+Circulation with Barcode Completion
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Scan a barcode into _Check Out_, _Check In_, or _Item Status_.
+. If there is only one match Evergreen automatically adds the prefix and retrieves the 
+appropriate item or patron.
+. If there are multiple matches a pop-up will appear listing the possible barcodes.
++
+image:images/circ/barcode-completion-1.png[]
++
+. Select the barcode that matches the patron or item.
+. The patron will be retrieved or the item loaded on the screen.
+
+Barcode completion is not currently available for _My Account_ or the Evergreen self check-out.
+
+[NOTE]
+======
+Barcode completion will only work at your library. We recommend rebarcoding items before they 
+are sent to fill interlibrary loans via Interlibrary Connect or make a note that the item barcode must 
+be entered as MPL123456.
+======
+
+3rd Party Services
+^^^^^^^^^^^^^^^^^^
+
+Libraries that use patron barcode completion for patrons need to ensure that patrons include the prefix
+when logging into 3rd party services that authenticate against Evergreen, such as Overdrive.
+
+For example, Maple Public Library uses barcode completion with the prefix MPL.  The patron's barcode is 123456 
+on their card and is MPL123456 in the Sitka database.  To log into their Overdrive account the patron 
+must enter MPL123456.
