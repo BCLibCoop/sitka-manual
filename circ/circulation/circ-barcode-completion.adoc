@@ -8,9 +8,7 @@ It is Sitka policy for libraries to use 14 digit codabar barcodes with their ass
 patrons. 
 
 Barcode completion can be used temporarily to handle duplication within Sitka's Evergreen while 
-libraries re-barcode any items or patrons with non-14 digit codabar barcodes.  Non-14 digit codabar item 
-and/or patron barcodes for the library will have a prefix included in the barcode in the database which is
-automatically added when the barcode is scanned into Evergreen
+libraries re-barcode any items or patrons with non-14 digit codabar barcodes.  
 
 
 Registering Patrons with Barcode Completion
@@ -39,6 +37,13 @@ image:images/circ/barcode-completion-1.png[]
 . The patron will be retrieved or the item loaded on the screen.
 
 Barcode completion is not currently available for _My Account_ or the Evergreen self check-out.
+
+[NOTE]
+======
+Barcode completion will only work at your library. We recommend rebarcoding items before they 
+are sent to fill interlibrary loans via Interlibrary Connect or make a note that the item barcode must 
+be entered as MPL123456.
+======
 
 3rd Party Services
 ^^^^^^^^^^^^^^^^^^
