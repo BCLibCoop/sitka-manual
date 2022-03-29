@@ -5,8 +5,12 @@ Barcode Completion
 Barcode completion can be enabled for items or patrons or both depending on a library's needs.
 
 It is Sitka policy for libraries to use 14 digit codabar barcodes with their assigned prefix for items and 
-patrons. Barcode completion can be used temporarily to handle duplication within Sitka's Evergreen while libraries re-barcode any items 
-or patrons with non-14 digit codabar barcodes.  
+patrons. 
+
+Barcode completion can be used temporarily to handle duplication within Sitka's Evergreen while 
+libraries re-barcode any items or patrons with non-14 digit codabar barcodes.  Non-14 digit codabar item 
+and/or patron barcodes for the library will have a prefix included in the barcode in the database which is
+automatically added when the barcode is scanned into Evergreen
 
 
 Registering Patrons with Barcode Completion
@@ -23,9 +27,6 @@ be entered as MPL123456.
 
 Circulation with Barcode Completion
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-When barcode completion is turned on all non-14 digit codabar item and/or patron barcodes for the library 
-will have a prefix included in the barcode in the database. 
 
 . Scan a barcode into _Check Out_, _Check In_, or _Item Status_.
 . If there is only one match Evergreen automatically adds the prefix and retrieves the 
