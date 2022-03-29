@@ -63,7 +63,7 @@ Deleting a Shelving Location
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 When deleting shelving locations it is important to make sure all non-deleted items have been moved to 
-another shelving location first; item information for items in deleted shelving locations will not 
+another shelving location first; items in deleted shelving locations will not 
 display in the public catalogue.  Co-op Support recommends running a report using the Sitka report template 
 _Shelving Location : Copies with Selected Shelving Location_ before deleting a shelving location.
 
