@@ -10,7 +10,7 @@ Notifications are sent in three ways, depending on the notification:
 
 * Email - sent directly to the patron
 * SMS Text Message - sent directly to the patron
-* Mail - sent as a PDF to the library to be mailed out 
+* Mail - sent to the library as a PDF to be printed and mailed out 
 
 Email Notifications
 ^^^^^^^^^^^^^^^^^^^
@@ -31,36 +31,55 @@ replies are directed to the email of your choice. Bounced emails are also direct
 encourage staff to xref:_invalidating_an_email_address[invalidate any email addresses] that bounce
 to help keep us from being blacklisted by email providers.  
 
-Patrons can opt out of receiving overdue and courtesy notice emails through the 
-xref:_notification_preferences[Notification Preferences] in _My Account_.
+Email notifications from Sitka's Evergreen are not spam and should not be marked as spam by either patrons 
+or staff.  If patrons do not wish to receive them they can opt out of receiving overdue and courtesy notice 
+emails through the xref:_notification_preferences[Notification Preferences] in _My Account_.
 
 
-Circulation Pre-due Notices
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Courtesy Notifications
+~~~~~~~~~~~~~~~~~~~~~~
 
-Email Pre-due Notice
-^^^^^^^^^^^^^^^^^^^^
+Courtesy notifications are generated and sent via email and/or SMS text message ahead of an item being due.  
+If a library has both email and SMS text message courtesy notifications enabled patrons will received both.
 
-Library pre-due notices are generated and sent via email to patrons three days before an item is due. Only patrons with email addresses in Evergreen receive pre-due notices.
+[CAUTION]
+=========
+If the due date is extended via *Edit Due Date* after the courtesy notification is sent out, no 
+additional courtesy notification will be generated. Staff are encouraged to use the *Renew* or 
+*Renew with Specific Due Date* functions instead to ensure additional notifications are be generated in 
+due course.
+=========
 
-These emails are not spam, and should not be marked as spam by either patrons or staff.
 
-The pre-due notice template can be customized at the federation or library level. Please contact Co-op Support for customization.
+Email Courtesy Notifications
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Libraries can opt out of pre-due notices using the *org.opt_out_email_predue setting* in the Library Settings Editor.
+Courtesy notices are generated and sent via email to patrons before an item is due. The standard interval
+is 3 days ahead of the due date but this can be customized.  Only patrons with email addresses in their 
+patron account will receive email courtesy notifications.
 
-CAUTION: One checkout will receive pre-due notice(s) only once. If the due date is extended via Edit Due Date after the pre-due notice is sent out, no new notice will be generated. Staff is encouraged to use Renew or Renew with Specific Due Date function instead of Edit Due Date to make sure a second notice will be generated in the due course.
+To customize the wording or the interval of the notification please contact 
+xref:https://bc.libraries.coop/support/[Co-op Support].
 
-SMS Pre-due Notice
-^^^^^^^^^^^^^^^^^^
 
-Library pre-due notices are generated and sent via SMS to patrons three days before an item is due. Only patrons with a default Mobile Carrier and Mobile Number saved in their My Account notification preferences will receive pre-due notices.
+SMS Text Message Courtesy Notifications
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The pre-due notice template is shared by all Sitka libraries and cannot be customized.
+The SMS text message courtesy template is shared by all Sitka libraries and cannot be customized.
 
-Libraries must opt in to have these notices turned on. Please contact Co-op Support to opt in.
+Libraries must opt in to have these notifications turned on. Please contact 
+xref:https://bc.libraries.coop/support/[Co-op Support] to opt in.
 
-CAUTION: The action trigger runs early in the morning, SMS messages will be sent around *2:00am*. If libraries are setup with both 3 day email notice and 3 day SMS notice templates, patrons will receive both an email and a text.
+Library courtesy notifications are generated and sent via SMS text message to patrons 3 days before 
+an item is due. Patrons must have a default Default SMS/Text Number and Default SMS Carrier
+ saved in their patron account to receive these notifications. See xref:_patron_account_fields[] for more
+ information on these fields.
+
+[CAUTION]
+=========
+The process that generates courtesy notices runs early in the morning.  SMS text messages are sent around 
+*2:00am* PT. 
+=========
 
 
 Circulation Overdue Notices
