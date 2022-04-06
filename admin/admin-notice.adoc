@@ -35,6 +35,15 @@ Email notifications from Sitka's Evergreen are not spam and should not be marked
 or staff.  If patrons do not wish to receive them they can opt out of receiving overdue and courtesy notice 
 emails through the xref:_notification_preferences[Notification Preferences] in _My Account_.
 
+Checking for Notifications
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Evergreen keeps a record of courtesy, overdue, and hold notifications sent out via email and SMS text 
+message.  See xref:_patron_notifications for information on how you can check to see whether or not
+a notification was generated.
+
+These records are kept for 3 to 6 months, depending on the type of notification.
+
 
 Courtesy Notifications
 ~~~~~~~~~~~~~~~~~~~~~~
