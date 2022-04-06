@@ -37,6 +37,8 @@ emails through the xref:_notification_preferences[Notification Preferences] in _
 
 Checking for Notifications
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+(((Patron Notifications, Action Triggers)))
+(((Triggered Events)))
 
 Evergreen keeps a record of courtesy, overdue, and hold notifications sent out via email and SMS text 
 message.  You can check to see whether or not a notification was generated.
