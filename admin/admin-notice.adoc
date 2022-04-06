@@ -26,8 +26,8 @@ To discourage patrons from responding to these automated
 notifications most of them start with _This is an automated message.  Please do not reply to this email._
 
 In the email notification templates the _Reply to_ address is set to use the email address set for your library
-in the library setting _Sending email address for patron notices_.  This ensures any patron replies are 
-directed to the email of your choice. Bounced emails are also directed to this email address and we 
+in the library setting _Sending email address for patron notices_.  This ensures that if patrons do reply those
+replies are directed to the email of your choice. Bounced emails are also directed to this email address and we 
 encourage staff to xref:_invalidating_an_email_address[invalidate any email addresses] that bounce
 to help keep us from being blacklisted by email providers.  
 
