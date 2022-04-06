@@ -2,14 +2,37 @@
 Circulation, Hold, and Patron Account Notices
 ---------------------------------------------
 
+Libraries can opt into a number of automated patron notifications.  These notifications are set up by 
+Co-op Support.  If you are unsure what notifications your library has set up, please contact 
+xref:https://bc.libraries.coop/support/[Co-op Support].
 
-Patrons with email addresses in Evergreen receive pre-due email reminders three days before items are due. Evergreen also generates email notices for overdues and holds. Optional customized print overdue letters are also available.
+Notifications are sent in three ways, depending on the notification:
 
-Two optional patron account notices are also available.
+* Email - sent directly to the patron
+* SMS Text Message - sent directly to the patron
+* Mail - sent as a PDF to the library to be mailed out 
 
-There are three email addresses on the notices besides the recipient's email: From, Reply-To and Errors-To. The From address has to be the BC Libraries Cooperative's email address. The Reply-To and Errors-To addresses are from the Sending email addresses for patron notices setting in the Library Settings Editor. You must specify a address in this setting. This ensures patron replies are directed to the email of your choice. Bounced emails are also directed to this email address so staff can alert patrons when there is a problem with their email.
+Email Notifications
+^^^^^^^^^^^^^^^^^^^
 
-Patrons can opt out of receiving overdue and courtesy notice emails in *My Account* under *Notification Preferences*.
+When sending out emails the BC Libraries Cooperative needs to follow all of the best practices and conventions
+in order to avoid our emails being marked as spam and to have the best chance of the emails being delivered
+successfully to your patrons.  One of the important things we do is ensure that any emails sent 
+from our servers have a _From_ address with a domain that can be verified as coming from our servers.  This 
+means that all emails sent by Evergreen will come from noreply-YOURLIBRARYCODE@catalogue.libraries.coop. How
+this displays to your patrons will depend on their email client.
+
+To discourage patrons from responding to these automated
+notifications most of them start with _This is an automated message.  Please do not reply to this email._
+
+In the email notification templates the _Reply to_ address is set to use the email address set for your library
+in the library setting _Sending email address for patron notices_.  This ensures any patron replies are 
+directed to the email of your choice. Bounced emails are also directed to this email address and we 
+encourage staff to xref:_invalidating_an_email_address[invalidate any email addresses] that bounce
+to help keep us from being blacklisted by email providers.  
+
+Patrons can opt out of receiving overdue and courtesy notice emails through the 
+xref:_notification_preferences[Notification Preferences] in _My Account_.
 
 
 Circulation Pre-due Notices
@@ -103,11 +126,11 @@ Final notices are set up as part of the paper overdues. When setting up your pap
 Libraries have the option to have Evergreen automatically mark long overdue items as lost. An email or paper notice will billing information may be sent to patrons. Contact Co-op Support if you would like to set this up for your library. Please include the interval at which you would like long overdue items to be marked as lost. This interval can be set to coincide with your final notice so that patrons receive a bill for lost items. This does not apply to items that are manually marked lost by staff.
 
 
-Holds Notifications
-~~~~~~~~~~~~~~~~~~~
+Hold Notifications
+~~~~~~~~~~~~~~~~~~
 
-Ready-for-pickup Hold Notice
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Hold Ready For Pickup
+^^^^^^^^^^^^^^^^^^^^^
 
 When a hold is ready for pickup, the requester can be notified via automatic email and/or SMS Text, and/or manual phone call by staff, depending on the choice made when he/she placed the hold. The selected notification method(s) may be indicated on the hold slip. For example, if email notification is selected, the email address will be printed on the hold slip. A blank email address indicates that email notification was not selected.
 
@@ -117,8 +140,11 @@ The ready-for-pickup hold notification templates can be customized at the federa
 
 For phone notification, staff needs to phone patrons individually. Phone numbers are printed on the hold slips when holds are captured, if phone notification is chosen.
 
-Holds Cancelled by Staff Notice
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Hold Expires from Hold Shelf Soon
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Holds Cancelled by Staff 
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 This notification is optional for individual libraries. The notification templates can be customized on library level. Please contact Co-op Support if your library wishes to use this service.
 
