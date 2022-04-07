@@ -118,67 +118,84 @@ The process that generates courtesy notices runs early in the morning.  SMS text
 =========
 
 
-Circulation Overdue Notices
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Overdue Notifications
+~~~~~~~~~~~~~~~~~~~~~
 
-Overdue notices can be delivered via email, paper or phone.
-
-
-Email Overdue Notice
-^^^^^^^^^^^^^^^^^^^^
-
-The server sends overdue emails to patrons once a day, after hours, when the fines generator runs. The emails are generated when an item is 7 days, and then 14 days overdue (this is a global Sitka setting).
-
-These emails are not spam, and should not be marked as spam by either patrons or staff.
-
-The overdue email notice templates can be customized at the federation or library level. Please contact Co-op Support for customization.
-
-Paper Overdue Notice
-^^^^^^^^^^^^^^^^^^^^
-
-Evergreen generates a PDF file of overdue notices and emails the file to you to be printed and distributed to patrons. These notices are created and sent daily.
-
-An empty PDF file means that there is no notice for the day due to no item filling in the overdue category. You will still receive the empty file. If you are not receiving daily PDF files please contact Co-op Support.
-
-To set up paper overdues you need to provide Co-op Support with the following information:
-
-* The receiving email address for the PDF file to be sent to.
-
-* Ensure you inform Co-op Support if you need to change the receiving email.
-
-* The intervals at which you would like patrons to receive notices.
-+
-The standard intervals to choose from are 1, 2, 3, 4, 5, 6, 7, 8, 9 or 10 weeks after the item becomes due. The intervals define when a second, third, or fourth, and so on, letter is sent out.
-+
-The 1 and 2 weeks overdue notices are sent to patrons without email address only. From the 3 weeks overdue notice onwards it is sent to all patrons.
-
-* The wording you would like to be used on each notice.
-+
-This wording of the paper notices is customizable by library. PDF notices are set up by Co-op Support, and cannot be modified in the staff client. Please submit required revisions to Co-op Support.
-
-CAUTION: A final notice which includes billing information can be set to coincide with the system
-automatically marking long overdue items to lost. See xref:_final_notices[] for information on setting
-up this notice
+Overdue notifications are available via email and paper.  Library staff can also run reports to generate a 
+list of patrons to manually phone.
 
 
-Overdue Notice by Phone
-^^^^^^^^^^^^^^^^^^^^^^^^
+Email Overdue Notifications
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can set up a recurring report to generate a list of overdues for all patrons, or
-for those without an email address only. Then you can phone each person individually.
-You can specify an email address to receive an email reminder each time a list is generated.
-There are shared templates for overdue reports in the *SITKA_templates -> Circulation* folder.
-See xref:_shared_sitka_templates[] for more about using shared templates. Co-op
-Support staff will be very happy to assist if you need help in this process.
+Overdue notifications can be sent via email at intervals desired by the library.  The standard intervals
+are 7 and 14 days after an item is due but this can be customized. 
 
-Final Notices
-~~~~~~~~~~~~~
+To customize the wording or the interval of the notifications please contact 
+xref:https://bc.libraries.coop/support/[Co-op Support].
 
-The final paper overdue notice sent to patrons can be set as a billing notice which includes processing fees and replacement costs. The price is taken from the price entered in the price field of the copy editor for the item. If the price field is blank the price is taken from the Default Item Price setting in the Library Settings Editor. The processing fee comes from the Lost Materials Processing Fee setting found in the Library Settings Editor.
+Paper Overdue Notices
+^^^^^^^^^^^^^^^^^^^^^
 
-Final notices are set up as part of the paper overdues. When setting up your paper overdues specify the interval at which you would like the final notice to be sent and provide Co-op Support with the wording you would like to appear on the notice.
+Evergreen can generate a PDF file of overdue notices which is then emailed to the library to be printed and 
+distributed to patrons. 
 
-Libraries have the option to have Evergreen automatically mark long overdue items as lost. An email or paper notice will billing information may be sent to patrons. Contact Co-op Support if you would like to set this up for your library. Please include the interval at which you would like long overdue items to be marked as lost. This interval can be set to coincide with your final notice so that patrons receive a bill for lost items. This does not apply to items that are manually marked lost by staff.
+These notices are created and emailed daily.  An email with an empty PDF file means that there are no items 
+for that day that meet the criteria to have a paper overdue notice generated. If you do not receive the
+daily email with the PDF file please contact xref:https://bc.libraries.coop/support/[Co-op Support] as this
+means that paper overdues are not generating as expected.
+
+Paper overdues can be generated at the following intervals 1, 2, 3, 4, 5, 6, 7, 8, 9 or 10 weeks after the 
+item becomes due. The intervals define when a second, third, or fourth, and so on, letter is sent out.
+
+Paper overdues at 1 and 2 weeks overdue are generated for only for patrons without email addresses in their 
+account. From the 3 weeks onwards the notices are generated for all applicable patrons.
+
+The final paper overdue notice, at the interval of your choosing, can be set up as a billing notice and can
+include the item replacement cost and applicable processing fees. The replacement cost comes from the 
+_Price_ xref:_item_attributes[item attribute]; if this attribute is blank the value set for the library
+setting _Default Item Price_ is used instead.  The processing fee uses the value from the library 
+setting _Lost Materials Processing Fee_.
+
+To set up paper overdues for your library, update your existing notices, or update the
+email address the PDF file is sent to please contact 
+xref:https://bc.libraries.coop/support/[Co-op Support].
+
+
+Overdue Notifications by Phone
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+In some circumstances staff may wish to manually contact patrons with overdue items via the phone.
+
+You can use the report template _Overdues Within Time Span -Phone List for Patrons without Email 
+(based on Checkout Library)_ to generate a list of patrons with overdue items in the timeframe you 
+specify that do not have an email address on file.
+
+You can also use the report template _Overdues Within Time Span - General (Based on Checkout Library)_
+to generate a list of all patrons with overdue items in the timeframe you specify.
+
+Both of these report template can be found under *Shared Folders -> Sitka_templates -> Circulation -> 
+Overdue and others*.  These reports can be run as a one off or set up as a 
+xref:/_running_recurring_reports[recurring report] which emails
+the report to the specified staff email.
+
+Overdue Mark Lost Notification
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Evergreen can automatically mark items as lost that have been overdue for a specfied period of time.  When this
+process runs the item is set the status of lost and a lost bill is applied to the patron's account.  
+The bill includes the item's replacement cost from the _Price_ xref:_item_attributes[item attribute], 
+if this attribute is blank the value set for the library setting _Default Item Price_ is used instead, and
+a processing fee from the value in the library setting _Lost Materials Processing Fee_.
+
+When enabled the Overdue Mark Lost notification is sent via email to patrons when Evergreen automatically
+ marks an item as lost.  This notification is not sent when staff manually mark an item as lost.
+ 
+If you use paper overdues you may to have this set up so that items are marked lost in tandem with a 
+paper overdue billing notice being generated.
+
+To customize the wording of the notification or set up the automatic to lost process please contact 
+xref:https://bc.libraries.coop/support/[Co-op Support].
 
 
 Hold Notifications
