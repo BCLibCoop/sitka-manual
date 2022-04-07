@@ -180,7 +180,7 @@ xref:/_running_recurring_reports[recurring report] which emails
 the report to the specified staff email.
 
 Overdue Mark Lost Notification
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Evergreen can automatically mark items as lost that have been overdue for a specfied period of time.  When this
 process runs the item is set the status of lost and a lost bill is applied to the patron's account.  
@@ -197,9 +197,31 @@ paper overdue billing notice being generated.
 To customize the wording of the notification or set up the automatic to lost process please contact 
 xref:https://bc.libraries.coop/support/[Co-op Support].
 
+Circulation Notifications
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Check Out Receipt
+^^^^^^^^^^^^^^^^^
+
+Self Check Receipts
+^^^^^^^^^^^^^^^^^^^
+
+Auto Renew Notification
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Emergency Closing Notification
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
 
 Hold Notifications
 ~~~~~~~~~~~~~~~~~~
+
+Evergreen has a number of notifications that can be sent via email regarding patron holds.
+
+To opt in to a specific hold notification or to customize the wording of a notification please contact 
+xref:https://bc.libraries.coop/support/[Co-op Support].
+
 
 Hold Ready For Pickup
 ^^^^^^^^^^^^^^^^^^^^^
@@ -236,19 +258,31 @@ This notification is optional for individual libraries. The notification templat
 
 The emails are sent to patrons when a new hold is placed through Hold Groups.
 
-Patron Account Notices
-~~~~~~~~~~~~~~~~~~~~~~
+Patron Account Related Notifications
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Welcome Email to New Patrons
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Welcome to New Patrons Notification
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 An email will be sent to new patrons the day after their account is created, welcoming them to the library and confirming that the email address in their account is correct.
 
-Patron Account Expiration Email
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Patron Account Expiration Notification
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 An email will be sent to patrons 30 days before their account is set to expire. This is intended to give users time to renew their account before they lose access to library services.
 
 These emails are not spam and should not be marked as spam by either patrons or staff.
 
 The two patron account notices are optional, and libraries must opt in. Libraries can choose to opt in to only one or both of these notices. The patron account notice templates can be customized at the federation or library level. Please contact Co-op Support for set up and customization.
+
+Fine Limit Exceeded Notification
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Test Notification
+^^^^^^^^^^^^^^^^^
+
+Password Reset Notification
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Notification Examples
+~~~~~~~~~~~~~~~~~~~~~
