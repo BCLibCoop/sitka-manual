@@ -47,21 +47,21 @@ These records are kept for 3 to 6 months, depending on the type of notification.
 
 . To view notifications in the patron account, select *Other → Triggered Events/Notifications*.
 +
-image:images/circ/patron-notifications-1.png[]
+image:images/admin/patron-notifications-1.png[]
 +
 . By default completed courtesy and overdue notifications are displayed with the oldest notifications listed first.
 . You can change the filters for *Core Type* or *Event State* to view hold notifications and notifications in different
 states.
 +
-image:images/circ/patron-notifications-2.png[]
+image:images/admin/patron-notifications-2.png[]
 +
 . You can re-send a completed notification by selecting it and clicking *Reset Selected Event*.
 +
-image:images/circ/patron-notifications-3.png[]
+image:images/admin/patron-notifications-3.png[]
 +
 . You can cancel a pending notificiation by selecting it and clickingk *Cancel Selected Event*.
 +
-image:images/circ/patron-notifications-4.png[]
+image:images/admin/patron-notifications-4.png[]
 
 
 [NOTE]
