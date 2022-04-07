@@ -226,37 +226,50 @@ xref:https://bc.libraries.coop/support/[Co-op Support].
 Hold Ready For Pickup
 ^^^^^^^^^^^^^^^^^^^^^
 
-When a hold is ready for pickup, the requester can be notified via automatic email and/or SMS Text, and/or manual phone call by staff, depending on the choice made when he/she placed the hold. The selected notification method(s) may be indicated on the hold slip. For example, if email notification is selected, the email address will be printed on the hold slip. A blank email address indicates that email notification was not selected.
+Depending on the notification option selected when a hold is placed, a patron will be notified via email, 
+SMS text message, or a manual phone call when their hold is captured. 
 
-For automatic email notice and SMS Text, it works the same way as the automatic overdue notices. The notification email/SMS Text is generated and sent to the patron 5 to 30 minutes after the item achieves on-hold-shelf status. In order to receive these notices the patron must have chosen these notification methods when placing the hold, and the email address and or mobile number/carrier in his/her account must be valid.
+Email notifications are automatically sent to patrons when a hold is captured after a processing delay.  By 
+default the delay is 30 minutes but this can be customized if a library needs a longer or shorter processing
+delay.
 
-The ready-for-pickup hold notification templates can be customized at the federation or library level. Please contact Co-op Support for customization.
+SMS text message notifications are automatically sent 30 minutes after the hold is captured.  This processing
+delay is global and cannot be customized.  The wording of the SMS text message is also global and cannot
+be customized.
 
-For phone notification, staff needs to phone patrons individually. Phone numbers are printed on the hold slips when holds are captured, if phone notification is chosen.
+Phone notifications are done manually by library staff.
+
+See xref:_capturing_holds[] for information on determining how a patron has been notified about a captured
+hold.
+
 
 Hold Expires from Hold Shelf Soon
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+An additional email notification can be sent to remind patrons of a hold that is awaiting pick-up.  This 
+notification can be scheduled to go out a few days before the hold expires from the hold shelf.
+
+
 Holds Cancelled by Staff 
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-This notification is optional for individual libraries. The notification templates can be customized on library level. Please contact Co-op Support if your library wishes to use this service.
+An email notification can be sent to patrons when library staff cancel their hold in the staff client.  If staff
+include a note when cancelling the hold that note will appear on the notification.
 
-An email is sent to the requester when a hold is cancelled by staff on the staff client. The staff note on cancellation will be included in the email explaining the cancellation reason.
 
-Shelf Expired Holds Cancellation Notice
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Shelf Expired Holds Cancellation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This notification is optional for individual libraries. The notification templates can be customized on library level. Please contact Co-op Support if your library wishes to use this service.
+An email notification can be sent to patrons when holds are cleared from the hold shelf because they were not
+picked up and have now expired.  
 
-The emails are sent to the requesters when staff view and clear hold-shelf expired holds (click *Clear These Holds on Browse Holds Shelf*) on the staff client.
 
-Hold Group Hold Placed for Patron Notice
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Hold Group Hold Placed for Patron
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This notification is optional for individual libraries. The notification templates can be customized on library level. Please contact Co-op Support if your library wishes to use this service.
+Libraries using Hold Groups can enable this email notification so that their patrons receive an email when a 
+new hold is placed for them through a hold group.
 
-The emails are sent to patrons when a new hold is placed through Hold Groups.
 
 Patron Account Related Notifications
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
