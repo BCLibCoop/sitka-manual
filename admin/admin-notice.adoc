@@ -277,25 +277,57 @@ Patron Account Related Notifications
 Welcome to New Patrons Notification
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-An email will be sent to new patrons the day after their account is created, welcoming them to the library and confirming that the email address in their account is correct.
+An email notification can be sent to patrons after you register them in Evergreen.  The notification welcomes
+them to the library and can include any information you feel is relevant for your new patron.  If the patron
+receives the email it is also a confirmation that the email address in their account is correct.  
+
+These notifications are not sent for patrons that are automatically loaded into Evergreen from another
+source, such as a post-secondary's registrar's office.
+
+By default the notification is sent within 2 minutes of the account being created.  To customize the wording 
+or the time frame of the notification please contact 
+xref:https://bc.libraries.coop/support/[Co-op Support].
+
 
 Patron Account Expiration Notification
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-An email will be sent to patrons 30 days before their account is set to expire. This is intended to give users time to renew their account before they lose access to library services.
+An email notification can be sent to patrons to warn them their library account is about to expire.  This is 
+intended to give patrons time to renew their account before they lose access to library services and may be 
+especially useful for patrons who use primarily use electronic resources.
 
-These emails are not spam and should not be marked as spam by either patrons or staff.
+By default the notification is sent 30 days before the patron's account expires.  To customize the wording 
+or the time frame of the notification please contact 
+xref:https://bc.libraries.coop/support/[Co-op Support].
 
-The two patron account notices are optional, and libraries must opt in. Libraries can choose to opt in to only one or both of these notices. The patron account notice templates can be customized at the federation or library level. Please contact Co-op Support for set up and customization.
 
 Fine Limit Exceeded Notification
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+An email notification can be sent to patrons when they reach the fine limit set in your 
+xref:_group_penalty_threshold[Group Penalty Thresholds]. When a patron exceeed the fine limit they are blocked
+from renewing items and checking out new items so can be useful to alert patrons before they come into the 
+library.
+
+To customize the wording of the notification please contact 
+xref:https://bc.libraries.coop/support/[Co-op Support].
+
+
 Test Notification
 ^^^^^^^^^^^^^^^^^
 
+Library staff and patrons can initiate 
+xref:_update_and_test_email_address_or_sms_text_number[test email and test SMS text messages] to confirm the 
+information in the patron's account is correct.  These test notifications are sent after a 1 minute delay.
+The notifications are set globally so the wording and delay cannot be customized.
+
+
 Password Reset Notification
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Through the public catalogue patrons and staff can initiate a passwrd reset for their account.  As part
+of this process an email notification is sent to the user within minutes.  The notification is
+ set globally so the wording and delay cannot be customized.
 
 Notification Examples
 ~~~~~~~~~~~~~~~~~~~~~
