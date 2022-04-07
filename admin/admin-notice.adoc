@@ -2,7 +2,7 @@
 Patron Notifications
 --------------------
 
-Libraries can opt into a number of automated patron notifications.  These notifications are set up by 
+Libraries can opt in to a number of automated patron notifications.  These notifications are set up by 
 Co-op Support.  If you are unsure what notifications your library has set up, please contact 
 xref:https://bc.libraries.coop/support/[Co-op Support].
 
@@ -59,7 +59,7 @@ image:images/admin/patron-notifications-2.png[]
 +
 image:images/admin/patron-notifications-3.png[]
 +
-. You can cancel a pending notificiation by selecting it and clickingk *Cancel Selected Event*.
+. You can cancel a pending notificiation by selecting it and clicking *Cancel Selected Event*.
 +
 image:images/admin/patron-notifications-4.png[]
 
@@ -82,7 +82,7 @@ If a library has both email and SMS text message courtesy notifications enabled 
 =========
 If the due date is extended via *Edit Due Date* after the courtesy notification is sent out, no 
 additional courtesy notification will be generated. Staff are encouraged to use the *Renew* or 
-*Renew with Specific Due Date* functions instead to ensure additional notifications are be generated in 
+*Renew with Specific Due Date* functions instead to ensure additional notifications are generated in 
 due course.
 =========
 
