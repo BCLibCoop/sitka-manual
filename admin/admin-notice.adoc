@@ -200,18 +200,33 @@ xref:https://bc.libraries.coop/support/[Co-op Support].
 Circulation Notifications
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Check Out Receipt
-^^^^^^^^^^^^^^^^^
+Check Out Receipts
+^^^^^^^^^^^^^^^^^^
 
-Self Check Receipts
-^^^^^^^^^^^^^^^^^^^
+Patrons have the option to receive their check out receipt via email.  This receipt is set globally
+and cannot be customized.
+
+The Evergreen self check can also send a check out receipt via email.  This receipt is also set globally
+and cannot be customized.
+
 
 Auto Renew Notification
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
+Libraries that allow Evergreen to auto renew their items can also have Evergreen send an email notification
+to inform patrons whether or not their item(s) were successfully auto renewed.
+
+To customize the wording of the notification or set up the auto renew process please contact 
+xref:https://bc.libraries.coop/support/[Co-op Support].
+
 Emergency Closing Notification
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+When the xref:_emergency_closing[emergency closing] function in the Closed Dates Editor is used to 
+extend existing due dates Evergreen will send out an email notification to let your patrons know that their
+due dates have changed.
+
+This notification is set globally and cannot be customized.
 
 
 Hold Notifications
