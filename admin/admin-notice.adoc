@@ -66,10 +66,10 @@ image:images/admin/patron-notifications-4.png[]
 
 [NOTE]
 ======
-Triggered events with status of Invalid or Error encountered a problem during the generation process.
+Triggered events with a state of Invalid or Error encountered a problem during the generation process.
 In these cases no notices were generated.
 
-Statuses such as Pending may last for a short period of time while the event is being processed.
+States such as Pending may last for a short period of time while the event is being processed.
 ======
 
 Courtesy Notifications
@@ -210,13 +210,13 @@ The Evergreen self check can also send a check out receipt via email.  This rece
 and cannot be customized.
 
 
-Auto Renew Notification
-^^^^^^^^^^^^^^^^^^^^^^^^
+Autorenew Notification
+^^^^^^^^^^^^^^^^^^^^^^
 
-Libraries that allow Evergreen to auto renew their items can also have Evergreen send an email notification
-to inform patrons whether or not their item(s) were successfully auto renewed.
+Libraries that allow Evergreen to xref:_autorenewals[autorenew their items] can also have Evergreen 
+send an email notification to inform patrons whether or not their item(s) were successfully auto renewed.
 
-To customize the wording of the notification or set up the auto renew process please contact 
+To customize the wording of the notification or set up the autorenew process please contact 
 xref:https://bc.libraries.coop/support/[Co-op Support].
 
 Emergency Closing Notification
@@ -275,8 +275,8 @@ include a note when cancelling the hold that note will appear on the notificatio
 Shelf Expired Holds Cancellation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-An email notification can be sent to patrons when holds are cleared from the hold shelf because they were not
-picked up and have now expired.  
+An email notification can be sent to patrons when holds are xref:_clearable_holds[cleared from the hold shelf]
+ because they were not picked up and have now expired.  
 
 
 Hold Group Hold Placed for Patron
@@ -289,8 +289,8 @@ new hold is placed for them through a hold group.
 Patron Account Related Notifications
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Welcome to New Patrons Notification
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Welcome to New Patron Notification
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 An email notification can be sent to patrons after you register them in Evergreen.  The notification welcomes
 them to the library and can include any information you feel is relevant for your new patron.  If the patron
@@ -340,9 +340,54 @@ The notifications are set globally so the wording and delay cannot be customized
 Password Reset Notification
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Through the public catalogue patrons and staff can initiate a passwrd reset for their account.  As part
-of this process an email notification is sent to the user within minutes.  The notification is
- set globally so the wording and delay cannot be customized.
+Through the public catalogue patrons and staff can initiate a xref:_resetting_your_password[password reset]
+ for their account.  As part of this process an email notification is sent to the user within minutes.  
+ The notification is set globally so the wording and delay cannot be customized.
 
 Notification Examples
 ~~~~~~~~~~~~~~~~~~~~~
+
+* Text in italics can be customized to reflect individual library's needs.
+* Text in all caps indicates that the information is pulled from Evergreen and is not editable
+
+
+Hold Notification Example
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+*** This is an automated message. Please do not respond. ***
+
+Notification Date: 2013-09-22
+
+PATRON, FAKE
+1234 FICTIONAL STREET
+CITY, PROVINCE
+V1V 1V1
+CA
+PATRON EMAIL
+PATRON PHONE NUMBER
+
+_The item you requested is available for pickup from the_ YOUR LIBRARY NAME. _Contact the Circulation Desk 
+to check out the item, or call_ LIBRARY PHONE NUMBER/LIBRARY EMAIL _for more information_.
+
+Title: ITEM TITLE
+Author: ITEM AUTHOR
+Call Number: ITEM CALL NUMBER
+Barcode: ITEM BARCODE
+Library: LIBRARY NAME
+
+_Your item will be held until_ HOLD SHELF EXPIRE DATE.
+
+_If you are unable to pick up your hold , please cancel your hold so that another patron can enjoy the item.
+ You can log into your account here:_  LINK TO LIBRARY MY ACCOUNT PAGE
+
+_Thank you for using your local library._
+
+YOUR LIBRARY NAME
+9478 FAKE STREET
+FICTION, BC
+V0N 1B7
+CA
+LIBRARY EMAIL
+LIBRARY PHONE NUMBER
+LIBRARY HOURS
+
