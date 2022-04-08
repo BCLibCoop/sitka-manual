@@ -268,8 +268,9 @@ notification can be scheduled to go out a few days before the hold expires from 
 Holds Cancelled by Staff 
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-An email notification can be sent to patrons when library staff cancel their hold in the staff client.  If staff
-include a note when cancelling the hold that note will appear on the notification.
+An email notification can be sent to patrons when library staff xref:_cancelling_holds[cancel their hold]
+in the staff client.  If staff include a note when cancelling the hold that note will appear in 
+the notification.
 
 
 Shelf Expired Holds Cancellation
@@ -282,8 +283,8 @@ An email notification can be sent to patrons when holds are xref:_clearable_hold
 Hold Group Hold Placed for Patron
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Libraries using Hold Groups can enable this email notification so that their patrons receive an email when a 
-new hold is placed for them through a hold group.
+Libraries using xref:_place_holds_for_a_hold_group[Hold Groups] can enable this email notification so that 
+their patrons receive an email when a new hold is placed for them through a hold group.
 
 
 Patron Account Related Notifications
