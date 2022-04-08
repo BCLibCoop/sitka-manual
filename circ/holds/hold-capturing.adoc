@@ -26,12 +26,12 @@ Evergreen no longer considers it to be relevant.
 .. For hold slips the pop up will indicate what method is being used to contact the patron.  This information
 is also available on the printed slip.
 +
-image:images/circ/holds-capture-1.png
+image:images/circ/holds-capture-1.png[]
 +
 .. For hold transit slips the pop up will indicate what library the item needs to be sent to.This information
 is also available on the printed slip.
 +
-image:images/circ/holds-capture-2.png
+image:images/circ/holds-capture-2.png[]
 +
 . The hold or hold transit slip is automatically printed on the *Hold Capture* screen by default. On 
 the *Check In* screen you can select *Checkin Modifiers → Auto-Print Hold and Transit Slips* to print hold 
