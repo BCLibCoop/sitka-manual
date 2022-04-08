@@ -297,7 +297,7 @@ An email notification can be sent to patrons after you register them in Evergree
 them to the library and can include any information you feel is relevant for your new patron.  If the patron
 receives the email it is also a confirmation that the email address in their account is correct.  
 
-These notifications are not sent for patrons that are automatically loaded into Evergreen from another
+These notifications are sent for patrons that are automatically loaded into Evergreen from another
 source, such as a post-secondary's registrar's office.
 
 By default the notification is sent within 2 minutes of the account being created.  To customize the wording 
