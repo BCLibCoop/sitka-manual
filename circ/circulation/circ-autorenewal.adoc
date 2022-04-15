@@ -6,27 +6,31 @@ Autorenewals
 Autorenew
 ^^^^^^^^^
 
-Circulation policies in Evergreen can now be configured to automatically renew items checked out on patron accounts. Circulations will be renewed automatically and patrons will not need to log in to their accounts or ask library staff to renew materials.
+Circulation policies in Evergreen can now be configured to automatically renew items checked out on patron 
+accounts. Circulations will be renewed automatically and an xref:_autorenew_notification[email notification]
+sent to patrons to inform them of the renewal or if the item could not be renewed.  Patrons will not need 
+to log in to their accounts or ask library staff to renew materials.
 
-Autorenewals are set in the *Circulation Duration Rules*, which allows this feature to be applied to selected circulation policies. Effectively, this makes autorenewals configurable by patron group, organizational unit or library, and circulation modifier.
+Autorenewals are set in the *Circulation Duration Rules*, which allows this feature to be applied to selected 
+circulation policies. Effectively, this makes autorenewals configurable by patron group, organizational unit 
+or library, and circulation modifier.
 
 Configure Autorenewals
 ^^^^^^^^^^^^^^^^^^^^^^
-Autorenewals are configured by Co-op Support. Please email sitka@bc.libraries.coop if you would like to enable Autorenewals.
+Autorenewals are configured by Co-op Support. Please contact 
+xref:https://bc.libraries.coop/support/[Co-op Support] if you would like to enable Autorenewals.
 
 * max_auto_renewals is the allowed number of automatic renewals.
 * max_renewals is the allowed number of manual renewals, whether staff or patron initiated.
 
-The Circulation Duration Rule is then applied to specific circulation policies (Administration → Local Administration → Circulation Policies) to implement autorenewals in Evergreen.
+The Circulation Duration Rule is then applied to specific circulation policies (Administration → 
+Local Administration → Circulation Policies) to implement autorenewals in Evergreen.
 
-NOTE: Autorenewals will not occur if the item has holds, exceeds the maximum number of autorenewals allowed, or if the patron has been blocked from renewing items.
-
-Autorenewal Notice
-^^^^^^^^^^^^^^^^^^
-
-An email notification to inform patrons when their materials are automatically renewed or, if they are not automatically renewed due to one of the reasons listed above.
-
-This notice does not change or interact with the Courtesy Notice (Pre-due Notice).
+[NOTE]
+======
+Autorenewals will not occur if the item has holds, exceeds the maximum number of autorenewals allowed, 
+or if the patron has been blocked from renewing items.
+======
 
 Autorenewals in Patron Accounts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
