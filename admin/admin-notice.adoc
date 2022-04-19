@@ -19,10 +19,7 @@ When sending out emails the BC Libraries Cooperative needs to follow all of the 
 in order to avoid our emails being marked as spam and to have the best chance of the emails being delivered
 successfully to your patrons.  One of the important things we do is ensure that any emails sent 
 from our servers have a _From_ address with a domain that can be verified as coming from our servers.  This 
-means that all emails sent by Evergreen will come from 
-----
-noreply-YOURLIBRARYCODE@catalogue.libraries.coop.
-----
+means that all emails sent by Evergreen will come from ---- noreply-YOURLIBRARYCODE@catalogue.libraries.coop.---- 
 How this displays to your patrons will depend on their email client.
 
 To discourage patrons from responding to these automated
@@ -79,7 +76,7 @@ Courtesy Notifications
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Courtesy notifications are generated and sent via email and/or SMS text message ahead of an item being due.  
-If a library has both email and SMS text message courtesy notifications enabled patrons will received both.
+**If a library has both email and SMS text message courtesy notifications enabled patrons will received both.**
 
 [CAUTION]
 =========
