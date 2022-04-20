@@ -1,10 +1,8 @@
-Patron Alerts, Notes, Messages, and Notifications
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Patron Alerts, Notes, and Messages
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 (((Patron Messages)))
 (((Patron Alerts)))
-(((Patron Notifications, Action Triggers)))
-(((Triggered Events)))
 
 Alerts, notes, and blocks are applied to a patron's account either automatically by the system or manually
 by staff.
@@ -106,16 +104,3 @@ image:images/circ/patronalert7.png[]
 the patron in My Account.
 +
 image:images/circ/patronalert8.png[]
-
-
-Patron Notifications
-^^^^^^^^^^^^^^^^^^^^
-Evergreen sends various email and SMS (text) messages to patrons via *Action Triggers*.  Triggered events are viewable on the staff client in patron or item records.
-
-. To view notifications in the patron account, select *Other → Triggered Events/Notifications*.
-. Completed pre-due and overdue notifications are displayed by default. You can change the filters for *Core Type* or *Event State*, on the right, to view any or all notifications.
-. To re-send a completed notice, select the notice, and click *Reset Selected Event* at top right of screen.
-. To cancel a pending notice, select the notice, and click *Cancel Selected Event* at top right of screen.
-
-NOTE: Action Triggers are used for, but not limited to, pre-due, overdue, and hold notification generation. You may see other triggered events in a patron or item record, but not all events generate notices. Events with status of Invalid or Error encountered problems during the process. No notices were generated for such events.
-Pending and some statuses other than complete, error, or invalid, may last for a short period of time while the event is being processed.

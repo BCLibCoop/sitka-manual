@@ -1,156 +1,349 @@
 [[admin-notice]]
-Circulation, Hold, and Patron Account Notices
----------------------------------------------
+Patron Notifications
+--------------------
 
+Libraries can opt in to a number of automated patron notifications.  These notifications are set up by 
+Co-op Support.  If you are unsure what notifications your library has set up, please contact 
+xref:https://bc.libraries.coop/support/[Co-op Support].
 
-Patrons with email addresses in Evergreen receive pre-due email reminders three days before items are due. Evergreen also generates email notices for overdues and holds. Optional customized print overdue letters are also available.
+Notifications are sent in three ways, depending on the notification:
 
-Two optional patron account notices are also available.
+* Email - sent directly to the patron
+* SMS Text Message - sent directly to the patron
+* Mail - sent to the library as a PDF to be printed and mailed out 
 
-There are three email addresses on the notices besides the recipient's email: From, Reply-To and Errors-To. The From address has to be the BC Libraries Cooperative's email address. The Reply-To and Errors-To addresses are from the Sending email addresses for patron notices setting in the Library Settings Editor. You must specify a address in this setting. This ensures patron replies are directed to the email of your choice. Bounced emails are also directed to this email address so staff can alert patrons when there is a problem with their email.
+Email Notifications
+^^^^^^^^^^^^^^^^^^^
 
-Patrons can opt out of receiving overdue and courtesy notice emails in *My Account* under *Notification Preferences*.
+When sending out emails the BC Libraries Cooperative needs to follow all of the best practices and conventions
+in order to avoid our emails being marked as spam and to have the best chance of the emails being delivered
+successfully to your patrons.  One of the important things we do is ensure that any emails sent 
+from our servers have a _From_ address with a domain that can be verified as coming from our servers.  This 
+means that all emails sent by Evergreen will come from 
+----
+noreply-YOURLIBRARYCODE@catalogue.libraries.coop.
+---- 
+How this displays to your patrons will depend on their email client.
 
+To discourage patrons from responding to these automated
+notifications most of them start with _This is an automated message.  Please do not reply to this email._
 
-Circulation Pre-due Notices
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In the email notification templates the _Reply to_ address is set to use the email address set for your library
+in the library setting _Sending email address for patron notices_.  This ensures that if patrons do reply those
+replies are directed to the email of your choice. Bounced emails are also directed to this email address and we 
+encourage staff to xref:_invalidating_an_email_address[invalidate any email addresses] that bounce
+to help keep us from being blacklisted by email providers.  
 
-Email Pre-due Notice
-^^^^^^^^^^^^^^^^^^^^
+Email notifications from Sitka's Evergreen are not spam and should not be marked as spam by either patrons 
+or staff.  If patrons do not wish to receive them they can opt out of receiving overdue and courtesy notice 
+emails through the xref:_notification_preferences[Notification Preferences] in _My Account_.
 
-Library pre-due notices are generated and sent via email to patrons three days before an item is due. Only patrons with email addresses in Evergreen receive pre-due notices.
+Checking for Notifications
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+(((Patron Notifications, Action Triggers)))
+(((Triggered Events)))
 
-These emails are not spam, and should not be marked as spam by either patrons or staff.
+Evergreen keeps a record, called a triggered event, of courtesy, overdue, and hold notifications sent 
+out via email and SMS text message.  You can check to see whether or not a notification was generated.
 
-The pre-due notice template can be customized at the federation or library level. Please contact Co-op Support for customization.
+These records are kept for 3 to 6 months, depending on the type of notification.
 
-Libraries can opt out of pre-due notices using the *org.opt_out_email_predue setting* in the Library Settings Editor.
-
-CAUTION: One checkout will receive pre-due notice(s) only once. If the due date is extended via Edit Due Date after the pre-due notice is sent out, no new notice will be generated. Staff is encouraged to use Renew or Renew with Specific Due Date function instead of Edit Due Date to make sure a second notice will be generated in the due course.
-
-SMS Pre-due Notice
-^^^^^^^^^^^^^^^^^^
-
-Library pre-due notices are generated and sent via SMS to patrons three days before an item is due. Only patrons with a default Mobile Carrier and Mobile Number saved in their My Account notification preferences will receive pre-due notices.
-
-The pre-due notice template is shared by all Sitka libraries and cannot be customized.
-
-Libraries must opt in to have these notices turned on. Please contact Co-op Support to opt in.
-
-CAUTION: The action trigger runs early in the morning, SMS messages will be sent around *2:00am*. If libraries are setup with both 3 day email notice and 3 day SMS notice templates, patrons will receive both an email and a text.
-
-
-Circulation Overdue Notices
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Overdue notices can be delivered via email, paper or phone.
-
-
-Email Overdue Notice
-^^^^^^^^^^^^^^^^^^^^
-
-The server sends overdue emails to patrons once a day, after hours, when the fines generator runs. The emails are generated when an item is 7 days, and then 14 days overdue (this is a global Sitka setting).
-
-These emails are not spam, and should not be marked as spam by either patrons or staff.
-
-The overdue email notice templates can be customized at the federation or library level. Please contact Co-op Support for customization.
-
-Paper Overdue Notice
-^^^^^^^^^^^^^^^^^^^^
-
-Evergreen generates a PDF file of overdue notices and emails the file to you to be printed and distributed to patrons. These notices are created and sent daily.
-
-An empty PDF file means that there is no notice for the day due to no item filling in the overdue category. You will still receive the empty file. If you are not receiving daily PDF files please contact Co-op Support.
-
-To set up paper overdues you need to provide Co-op Support with the following information:
-
-* The receiving email address for the PDF file to be sent to.
-
-* Ensure you inform Co-op Support if you need to change the receiving email.
-
-* The intervals at which you would like patrons to receive notices.
+. To view notifications in the patron account, select *Other → Triggered Events/Notifications*.
 +
-The standard intervals to choose from are 1, 2, 3, 4, 5, 6, 7, 8, 9 or 10 weeks after the item becomes due. The intervals define when a second, third, or fourth, and so on, letter is sent out.
+image:images/admin/patron-notifications-1.png[]
 +
-The 1 and 2 weeks overdue notices are sent to patrons without email address only. From the 3 weeks overdue notice onwards it is sent to all patrons.
-
-* The wording you would like to be used on each notice.
+. By default completed courtesy and overdue notifications are displayed with the oldest notifications listed first.
+. You can change the filters for *Core Type* or *Event State* to view hold notifications and notifications in different
+states.
 +
-This wording of the paper notices is customizable by library. PDF notices are set up by Co-op Support, and cannot be modified in the staff client. Please submit required revisions to Co-op Support.
-
-CAUTION: A final notice which includes billing information can be set to coincide with the system
-automatically marking long overdue items to lost. See xref:_final_notices[] for information on setting
-up this notice
-
-
-Overdue Notice by Phone
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-You can set up a recurring report to generate a list of overdues for all patrons, or
-for those without an email address only. Then you can phone each person individually.
-You can specify an email address to receive an email reminder each time a list is generated.
-There are shared templates for overdue reports in the *SITKA_templates -> Circulation* folder.
-See xref:_shared_sitka_templates[] for more about using shared templates. Co-op
-Support staff will be very happy to assist if you need help in this process.
-
-Final Notices
-~~~~~~~~~~~~~
-
-The final paper overdue notice sent to patrons can be set as a billing notice which includes processing fees and replacement costs. The price is taken from the price entered in the price field of the copy editor for the item. If the price field is blank the price is taken from the Default Item Price setting in the Library Settings Editor. The processing fee comes from the Lost Materials Processing Fee setting found in the Library Settings Editor.
-
-Final notices are set up as part of the paper overdues. When setting up your paper overdues specify the interval at which you would like the final notice to be sent and provide Co-op Support with the wording you would like to appear on the notice.
-
-Libraries have the option to have Evergreen automatically mark long overdue items as lost. An email or paper notice will billing information may be sent to patrons. Contact Co-op Support if you would like to set this up for your library. Please include the interval at which you would like long overdue items to be marked as lost. This interval can be set to coincide with your final notice so that patrons receive a bill for lost items. This does not apply to items that are manually marked lost by staff.
+image:images/admin/patron-notifications-2.png[]
++
+. You can re-send a completed notification by selecting it and clicking *Reset Selected Event*.
++
+image:images/admin/patron-notifications-3.png[]
++
+. You can cancel a pending notificiation by selecting it and clicking *Cancel Selected Event*.
++
+image:images/admin/patron-notifications-4.png[]
 
 
-Holds Notifications
-~~~~~~~~~~~~~~~~~~~
+[NOTE]
+======
+Triggered events with a state of Invalid or Error encountered a problem during the generation process.
+In these cases no notices were generated.
 
-Ready-for-pickup Hold Notice
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+States such as Pending may last for a short period of time while the event is being processed.
+======
 
-When a hold is ready for pickup, the requester can be notified via automatic email and/or SMS Text, and/or manual phone call by staff, depending on the choice made when he/she placed the hold. The selected notification method(s) may be indicated on the hold slip. For example, if email notification is selected, the email address will be printed on the hold slip. A blank email address indicates that email notification was not selected.
-
-For automatic email notice and SMS Text, it works the same way as the automatic overdue notices. The notification email/SMS Text is generated and sent to the patron 5 to 30 minutes after the item achieves on-hold-shelf status. In order to receive these notices the patron must have chosen these notification methods when placing the hold, and the email address and or mobile number/carrier in his/her account must be valid.
-
-The ready-for-pickup hold notification templates can be customized at the federation or library level. Please contact Co-op Support for customization.
-
-For phone notification, staff needs to phone patrons individually. Phone numbers are printed on the hold slips when holds are captured, if phone notification is chosen.
-
-Holds Cancelled by Staff Notice
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-This notification is optional for individual libraries. The notification templates can be customized on library level. Please contact Co-op Support if your library wishes to use this service.
-
-An email is sent to the requester when a hold is cancelled by staff on the staff client. The staff note on cancellation will be included in the email explaining the cancellation reason.
-
-Shelf Expired Holds Cancellation Notice
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-This notification is optional for individual libraries. The notification templates can be customized on library level. Please contact Co-op Support if your library wishes to use this service.
-
-The emails are sent to the requesters when staff view and clear hold-shelf expired holds (click *Clear These Holds on Browse Holds Shelf*) on the staff client.
-
-Hold Group Hold Placed for Patron Notice
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-This notification is optional for individual libraries. The notification templates can be customized on library level. Please contact Co-op Support if your library wishes to use this service.
-
-The emails are sent to patrons when a new hold is placed through Hold Groups.
-
-Patron Account Notices
+Courtesy Notifications
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Welcome Email to New Patrons
+Courtesy notifications are generated and sent via email and/or SMS text message ahead of an item being due.  
+**If a library has both email and SMS text message courtesy notifications enabled patrons will received both.**
+
+[CAUTION]
+=========
+If the due date is extended via *Edit Due Date* after the courtesy notification is sent out, no 
+additional courtesy notification will be generated. Staff are encouraged to use the *Renew* or 
+*Renew with Specific Due Date* functions instead to ensure additional notifications are generated in 
+due course.
+=========
+
+
+Email Courtesy Notifications
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-An email will be sent to new patrons the day after their account is created, welcoming them to the library and confirming that the email address in their account is correct.
+Courtesy notices are generated and sent via email to patrons before an item is due. The standard interval
+is 3 days ahead of the due date but this can be customized.  Only patrons with email addresses in their 
+patron account will receive email courtesy notifications.
 
-Patron Account Expiration Email
+To customize the wording or the interval of the notification please contact 
+xref:https://bc.libraries.coop/support/[Co-op Support].
+
+
+SMS Text Message Courtesy Notifications
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The SMS text message courtesy template is shared by all Sitka libraries and cannot be customized.
+
+Libraries must opt in to have these notifications turned on. Please contact 
+xref:https://bc.libraries.coop/support/[Co-op Support] to opt in.
+
+Library courtesy notifications are generated and sent via SMS text message to patrons 3 days before 
+an item is due. Patrons must have a default Default SMS/Text Number and Default SMS Carrier
+ saved in their patron account to receive these notifications. See xref:_patron_account_fields[] for more
+ information on these fields.
+
+[CAUTION]
+=========
+The process that generates courtesy notices runs early in the morning.  SMS text messages are sent around 
+*2:00am* PT. 
+=========
+
+
+Overdue Notifications
+~~~~~~~~~~~~~~~~~~~~~
+
+Overdue notifications are available via email and paper.  Library staff can also run reports to generate a 
+list of patrons to manually phone.
+
+
+Email Overdue Notifications
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Overdue notifications can be sent via email at intervals desired by the library.  The standard intervals
+are 7 and 14 days after an item is due but this can be customized. 
+
+To customize the wording or the interval of the notifications please contact 
+xref:https://bc.libraries.coop/support/[Co-op Support].
+
+Paper Overdue Notices
+^^^^^^^^^^^^^^^^^^^^^
+
+Evergreen can generate a PDF file of overdue notices which is then emailed to the library to be printed and 
+distributed to patrons. 
+
+These notices are created and emailed daily.  An email with an empty PDF file means that there are no items 
+for that day that meet the criteria to have a paper overdue notice generated. If you do not receive the
+daily email with the PDF file please contact xref:https://bc.libraries.coop/support/[Co-op Support] as this
+means that paper overdues are not generating as expected.
+
+Paper overdues can be generated at the following intervals 1, 2, 3, 4, 5, 6, 7, 8, 9 or 10 weeks after the 
+item becomes due. The intervals define when a second, third, or fourth, and so on, letter is sent out.
+
+Paper overdues at 1 and 2 weeks overdue are generated for only for patrons without email addresses in their 
+account. From the 3 weeks onwards the notices are generated for all applicable patrons.
+
+The final paper overdue notice, at the interval of your choosing, can be set up as a billing notice and can
+include the item replacement cost and applicable processing fees. The replacement cost comes from the 
+_Price_ xref:_item_attributes[item attribute]; if this attribute is blank the value set for the library
+setting _Default Item Price_ is used instead.  The processing fee uses the value from the library 
+setting _Lost Materials Processing Fee_.
+
+To set up paper overdues for your library, update your existing notices, or update the
+email address the PDF file is sent to please contact 
+xref:https://bc.libraries.coop/support/[Co-op Support].
+
+
+Overdue Notifications by Phone
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+In some circumstances staff may wish to manually contact patrons with overdue items via the phone.
+
+You can use the report template _Overdues Within Time Span -Phone List for Patrons without Email 
+(based on Checkout Library)_ to generate a list of patrons with overdue items in the timeframe you 
+specify that do not have an email address on file.
+
+You can also use the report template _Overdues Within Time Span - General (Based on Checkout Library)_
+to generate a list of all patrons with overdue items in the timeframe you specify.
+
+Both of these report template can be found under *Shared Folders -> Sitka_templates -> Circulation -> 
+Overdue and others*.  These reports can be run as a one off or set up as a 
+xref:/_running_recurring_reports[recurring report] which emails
+the report to the specified staff email.
+
+Overdue Mark Lost Notification
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Evergreen can automatically mark items as lost that have been overdue for a specfied period of time.  When this
+process runs the item is set the status of lost and a lost bill is applied to the patron's account.  
+The bill includes the item's replacement cost from the _Price_ xref:_item_attributes[item attribute], 
+if this attribute is blank the value set for the library setting _Default Item Price_ is used instead, and
+a processing fee from the value in the library setting _Lost Materials Processing Fee_.
+
+When enabled the Overdue Mark Lost notification is sent via email to patrons when Evergreen automatically
+ marks an item as lost.  This notification is not sent when staff manually mark an item as lost.
+ 
+If you use paper overdues you may to have this set up so that items are marked lost in tandem with a 
+paper overdue billing notice being generated.
+
+To customize the wording of the notification or set up the automatic to lost process please contact 
+xref:https://bc.libraries.coop/support/[Co-op Support].
+
+Circulation Notifications
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Check Out Receipts
+^^^^^^^^^^^^^^^^^^
+
+Patrons have the option to receive their check out receipt via email.  This receipt is set globally
+and cannot be customized.
+
+The Evergreen self check can also send a check out receipt via email.  This receipt is also set globally
+and cannot be customized.
+
+
+Autorenew Notification
+^^^^^^^^^^^^^^^^^^^^^^
+
+Libraries that allow Evergreen to xref:_autorenewals[autorenew their items] can also have Evergreen 
+send an email notification to inform patrons whether or not their item(s) were successfully auto renewed.
+
+To customize the wording of the notification or set up the autorenew process please contact 
+xref:https://bc.libraries.coop/support/[Co-op Support].
+
+Emergency Closing Notification
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+When the xref:_emergency_closing[emergency closing] function in the Closed Dates Editor is used to 
+extend existing due dates Evergreen will send out an email notification to let your patrons know that their
+due dates have changed.
+
+This notification is set globally and cannot be customized.
+
+
+Hold Notifications
+~~~~~~~~~~~~~~~~~~
+
+Evergreen has a number of notifications that can be sent via email regarding patron holds.
+
+To opt in to a specific hold notification or to customize the wording of a notification please contact 
+xref:https://bc.libraries.coop/support/[Co-op Support].
+
+
+Hold Ready For Pickup
+^^^^^^^^^^^^^^^^^^^^^
+
+Depending on the notification option selected when a hold is placed, a patron will be notified via email, 
+SMS text message, or a manual phone call when their hold is captured. 
+
+Email notifications are automatically sent to patrons when a hold is captured after a processing delay.  By 
+default the delay is 30 minutes but this can be customized if a library needs a longer or shorter processing
+delay.
+
+SMS text message notifications are automatically sent 30 minutes after the hold is captured.  This processing
+delay is global and cannot be customized.  The wording of the SMS text message is also global and cannot
+be customized.
+
+Phone notifications are done manually by library staff.
+
+See xref:_capturing_holds[] for information on determining how a patron has been notified about a captured
+hold.
+
+
+Hold Expires from Hold Shelf Soon
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+An additional email notification can be sent to remind patrons of a hold that is awaiting pick-up.  This 
+notification can be scheduled to go out a few days before the hold expires from the hold shelf.
+
+
+Holds Cancelled by Staff 
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+An email notification can be sent to patrons when library staff xref:_cancelling_holds[cancel their hold]
+in the staff client.  If staff include a note when cancelling the hold that note will appear in 
+the notification.
+
+
+Shelf Expired Holds Cancellation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-An email will be sent to patrons 30 days before their account is set to expire. This is intended to give users time to renew their account before they lose access to library services.
+An email notification can be sent to patrons when holds are xref:_clearable_holds[cleared from the hold shelf]
+ because they were not picked up and have now expired.  
 
-These emails are not spam and should not be marked as spam by either patrons or staff.
 
-The two patron account notices are optional, and libraries must opt in. Libraries can choose to opt in to only one or both of these notices. The patron account notice templates can be customized at the federation or library level. Please contact Co-op Support for set up and customization.
+Hold Group Hold Placed for Patron
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Libraries using xref:_place_holds_for_a_hold_group[Hold Groups] can enable this email notification so that 
+their patrons receive an email when a new hold is placed for them through a hold group.
+
+
+Patron Account Related Notifications
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Welcome to New Patron Notification
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+An email notification can be sent to patrons after you register them in Evergreen.  The notification welcomes
+them to the library and can include any information you feel is relevant for your new patron.  If the patron
+receives the email it is also a confirmation that the email address in their account is correct.  
+
+These notifications are sent for patrons that are automatically loaded into Evergreen from another
+source, such as a post-secondary's registrar's office.
+
+By default the notification is sent within 2 minutes of the account being created.  To customize the wording 
+or the time frame of the notification please contact 
+xref:https://bc.libraries.coop/support/[Co-op Support].
+
+
+Patron Account Expiration Notification
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+An email notification can be sent to patrons to warn them their library account is about to expire.  This is 
+intended to give patrons time to renew their account before they lose access to library services and may be 
+especially useful for patrons who use primarily use electronic resources.
+
+By default the notification is sent 30 days before the patron's account expires.  To customize the wording 
+or the time frame of the notification please contact 
+xref:https://bc.libraries.coop/support/[Co-op Support].
+
+
+Fine Limit Exceeded Notification
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+An email notification can be sent to patrons when they reach the fine limit set in your 
+xref:_group_penalty_threshold[Group Penalty Thresholds]. When a patron exceeed the fine limit they are blocked
+from renewing items and checking out new items so can be useful to alert patrons before they come into the 
+library.
+
+To customize the wording of the notification please contact 
+xref:https://bc.libraries.coop/support/[Co-op Support].
+
+
+Test Notification
+^^^^^^^^^^^^^^^^^
+
+Library staff and patrons can initiate 
+xref:_update_and_test_email_address_or_sms_text_number[test email and test SMS text messages] to confirm the 
+information in the patron's account is correct.  These test notifications are sent after a 1 minute delay.
+The notifications are set globally so the wording and delay cannot be customized.
+
+
+Password Reset Notification
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Through the public catalogue patrons and staff can initiate a xref:_resetting_your_password[password reset]
+ for their account.  As part of this process an email notification is sent to the user within minutes.  
+ The notification is set globally so the wording and delay cannot be customized.

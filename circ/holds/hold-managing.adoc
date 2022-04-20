@@ -35,21 +35,27 @@ image:images/circ/manageholds1.png[scaledwidth="75%"]
 +
 . Manage the hold by choosing an action on the list. Use the arrow to scroll through choices.
 
-Cancel Holds
-^^^^^^^^^^^^
-. Click *Cancel Hold* from the *Actions* menu.
-. Enter a reason if required and click *Cancel Hold*.
+Cancelling Holds
+^^^^^^^^^^^^^^^^
+. Select *Cancel Hold* from the *Actions* menu.
+. Choose the appropriate cancel reason from the drop down menu.  Applicable cancel reasons are _Patron via phone_,
+_Patron in person_, and _Staff forced_.  The other listed cancel reasons apply to automated cancellations.
 +
 image:images/circ/manageholds2.png[scaledwidth="75%"]
 +
-. If item was on holds shelf, check it in to change its status.
+. Enter a note if applicable and click *Cancel Hold*.
++
+image:images/circ/manageholds2b.png[scaledwidth="75%"]
++
+. If the item was on holds shelf, check it in to capture the next hold or set the item to Reshelving.
 
 
-[TIP]
-=====
-A captured hold with a status of *On Holds Shelf* or *Ready for Pickup* can be cancelled 
-by staff or patrons. The item must be checked in to update its status.
-=====
+[CAUTION]
+=========
+If your library has has the xref:_holds_cancelled_by_staff[Holds Cancelled by Staff] notification enabled
+anything entered into the _Notes_ field when cancelling a hold appears as the Cancel Cause in the email
+sent to the patron.
+=========
 
 Suspend, Activate, and Edit Hold Dates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
