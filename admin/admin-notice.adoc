@@ -4,7 +4,7 @@ Patron Notifications
 
 Libraries can opt in to a number of automated patron notifications.  These notifications are set up by 
 Co-op Support.  If you are unsure what notifications your library has set up, please contact 
-xref:https://bc.libraries.coop/support/[Co-op Support].
+https://bc.libraries.coop/support/[Co-op Support].
 
 Notifications are sent in three ways, depending on the notification:
 
@@ -98,7 +98,7 @@ is 3 days ahead of the due date but this can be customized.  Only patrons with e
 patron account will receive email courtesy notifications.
 
 To customize the wording or the interval of the notification please contact 
-xref:https://bc.libraries.coop/support/[Co-op Support].
+https://bc.libraries.coop/support/[Co-op Support].
 
 
 SMS Text Message Courtesy Notifications
@@ -107,7 +107,7 @@ SMS Text Message Courtesy Notifications
 The SMS text message courtesy template is shared by all Sitka libraries and cannot be customized.
 
 Libraries must opt in to have these notifications turned on. Please contact 
-xref:https://bc.libraries.coop/support/[Co-op Support] to opt in.
+https://bc.libraries.coop/support/[Co-op Support] to opt in.
 
 Library courtesy notifications are generated and sent via SMS text message to patrons 3 days before 
 an item is due. Patrons must have a default Default SMS/Text Number and Default SMS Carrier
@@ -135,7 +135,7 @@ Overdue notifications can be sent via email at intervals desired by the library.
 are 7 and 14 days after an item is due but this can be customized. 
 
 To customize the wording or the interval of the notifications please contact 
-xref:https://bc.libraries.coop/support/[Co-op Support].
+https://bc.libraries.coop/support/[Co-op Support].
 
 Paper Overdue Notices
 ^^^^^^^^^^^^^^^^^^^^^
@@ -145,7 +145,7 @@ distributed to patrons.
 
 These notices are created and emailed daily.  An email with an empty PDF file means that there are no items 
 for that day that meet the criteria to have a paper overdue notice generated. If you do not receive the
-daily email with the PDF file please contact xref:https://bc.libraries.coop/support/[Co-op Support] as this
+daily email with the PDF file please contact https://bc.libraries.coop/support/[Co-op Support] as this
 means that paper overdues are not generating as expected.
 
 Paper overdues can be generated at the following intervals 1, 2, 3, 4, 5, 6, 7, 8, 9 or 10 weeks after the 
@@ -162,7 +162,7 @@ setting _Lost Materials Processing Fee_.
 
 To set up paper overdues for your library, update your existing notices, or update the
 email address the PDF file is sent to please contact 
-xref:https://bc.libraries.coop/support/[Co-op Support].
+https://bc.libraries.coop/support/[Co-op Support].
 
 
 Overdue Notifications by Phone
@@ -179,7 +179,7 @@ to generate a list of all patrons with overdue items in the timeframe you specif
 
 Both of these report template can be found under *Shared Folders -> Sitka_templates -> Circulation -> 
 Overdue and others*.  These reports can be run as a one off or set up as a 
-xref:/_running_recurring_reports[recurring report] which emails
+xref:_running_recurring_reports[recurring report] which emails
 the report to the specified staff email.
 
 Overdue Mark Lost Notification
@@ -198,7 +198,7 @@ If you use paper overdues you may to have this set up so that items are marked l
 paper overdue billing notice being generated.
 
 To customize the wording of the notification or set up the automatic to lost process please contact 
-xref:https://bc.libraries.coop/support/[Co-op Support].
+https://bc.libraries.coop/support/[Co-op Support].
 
 Circulation Notifications
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -220,7 +220,7 @@ Libraries that allow Evergreen to xref:_autorenewals[autorenew their items] can 
 send an email notification to inform patrons whether or not their item(s) were successfully auto renewed.
 
 To customize the wording of the notification or set up the autorenew process please contact 
-xref:https://bc.libraries.coop/support/[Co-op Support].
+https://bc.libraries.coop/support/[Co-op Support].
 
 Emergency Closing Notification
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -238,7 +238,7 @@ Hold Notifications
 Evergreen has a number of notifications that can be sent via email regarding patron holds.
 
 To opt in to a specific hold notification or to customize the wording of a notification please contact 
-xref:https://bc.libraries.coop/support/[Co-op Support].
+https://bc.libraries.coop/support/[Co-op Support].
 
 
 Hold Ready For Pickup
@@ -305,7 +305,7 @@ source, such as a post-secondary's registrar's office.
 
 By default the notification is sent within 2 minutes of the account being created.  To customize the wording 
 or the time frame of the notification please contact 
-xref:https://bc.libraries.coop/support/[Co-op Support].
+https://bc.libraries.coop/support/[Co-op Support].
 
 
 Patron Account Expiration Notification
@@ -317,7 +317,7 @@ especially useful for patrons who use primarily use electronic resources.
 
 By default the notification is sent 30 days before the patron's account expires.  To customize the wording 
 or the time frame of the notification please contact 
-xref:https://bc.libraries.coop/support/[Co-op Support].
+https://bc.libraries.coop/support/[Co-op Support].
 
 
 Fine Limit Exceeded Notification
@@ -329,7 +329,7 @@ from renewing items and checking out new items so can be useful to alert patrons
 library.
 
 To customize the wording of the notification please contact 
-xref:https://bc.libraries.coop/support/[Co-op Support].
+https://bc.libraries.coop/support/[Co-op Support].
 
 
 Test Notification
