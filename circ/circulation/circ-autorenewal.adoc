@@ -18,7 +18,7 @@ or library, and circulation modifier.
 Configure Autorenewals
 ^^^^^^^^^^^^^^^^^^^^^^
 Autorenewals are configured by Co-op Support. Please contact 
-xref:https://bc.libraries.coop/support/[Co-op Support] if you would like to enable Autorenewals.
+https://bc.libraries.coop/support/[Co-op Support] if you would like to enable Autorenewals.
 
 * max_auto_renewals is the allowed number of automatic renewals.
 * max_renewals is the allowed number of manual renewals, whether staff or patron initiated.
