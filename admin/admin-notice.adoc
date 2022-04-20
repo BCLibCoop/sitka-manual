@@ -324,7 +324,7 @@ Fine Limit Exceeded Notification
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 An email notification can be sent to patrons when they reach the fine limit set in your 
-xref:_group_penalty_threshold[Group Penalty Thresholds]. When a patron exceeed the fine limit they are blocked
+xref:_group_penalty_thresholds[Group Penalty Thresholds]. When a patron exceeed the fine limit they are blocked
 from renewing items and checking out new items so can be useful to alert patrons before they come into the 
 library.
 
