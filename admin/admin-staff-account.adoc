@@ -10,6 +10,9 @@ Evergreen’s staff functions.
 . Staff accounts have working locations which tell Evergreen which libraries or branches 
 an account can be used at.
 
+NOTE: When a library staff account expires the staff member is not able to log into the 
+Evergreen staff client until their account has been renewed. 
+
 There are three kinds of library staff accounts:
 
 *Staff Specific Accounts*
