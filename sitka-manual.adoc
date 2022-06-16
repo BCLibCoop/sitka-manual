@@ -124,6 +124,8 @@ Course Reserves
 ===============
 include::course-reserves/course-reserves.adoc[]
 
+include::course-reserves/old-course-reserves.adoc[]
+
 Booking
 =======
 include::booking/booking-module.adoc[]

@@ -1,0 +1,111 @@
+Old Course Reserves Administration
+----------------------------------
+
+The Course Reserves module is available to academic libraries for displaying and managing course
+reserve lists.
+
+The module uses the _My Lists_ functionality in the public catalogue to create lists of
+reserves materials that can be viewed by users.
+
+Implementing Course Reserves
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+To request the course reserves module for your library https://bc.libraries.coop/support/[contact Co-op Support].  This module is only available for academic
+ libraries.
+
+Before implementing course reserves you will need to consider the following:
+
+**How will your reserve items will be identified in Evergreen?**
+
+Support recommends setting up a Course Reserves shelving location and using reserve specific
+circulation modifiers.
+
+**How will your reserve items circulate?**
+
+If your reserve materials will have special loan periods or fines you will need to consider which circulation
+modifiers you use and contact Co-op Support to set up new circulation policies.  If reserve materials
+are not holdable your shelving location needs to be set accordingly or hold policies adjusted by Support.
+
+**Who will create the course reserve lists?**
+
+Because the course reserves module uses the _My Lists_ functionality the lists can be created by
+instructors or library staff or both.  Decide who will create the lists and how admin staff
+will be informed of new lists to be added or old lists needing to be removed.
+
+Creating Course Reserve Lists
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Course Reserve lists are created using the My List functionality. Further details
+can be found in xref:_baskets_and_lists[].
+
+. Log into your account in the public catalogue.
++
+. Select the _My Lists_ tab at the top of the _My Account_ area.
++
+. In the _My Account_ area, click on *My Lists*.
++
+. In the _Create New List_ section, enter a name for your list into the text box.
++
+. Optional - enter a list description.
++
+. Set Share this list? to *Yes*.
++
+. Click *Submit*.
++
+image::images/course-reserves/course-reserves-1.png[scaledwidth="75%",alt="Creating Course Reserve Lists"]
++
+. Find the course and click *HTML View*.
++
+image::images/course-reserves/course-reserves-2.png[scaledwidth="75%",alt="Creating Course Reserve Lists"]
++
+. Check the URL to find “bookbag=######”. This number is required to add the list to Course Reserves.
++
+image::images/course-reserves/course-reserves-3.png[scaledwidth="75%",alt="Creating Course Reserve Lists"]
+
+[NOTE]
+=====
+The owner of the list can add and remove items from the list as needed and users will always
+see the current list.
+=====
+
+Adding Course Reserves
+~~~~~~~~~~~~~~~~~~~~~~
+
+. Login to the Course Reserves Admin module provided to you by Co-op Support
+. Enter the course information
+.. Course code
+.. Instructor
+.. Bookbag ID
+. Click Submit
++
+image::images/course-reserves/course-reserves-4.png[scaledwidth="50%",alt="Adding Course Reserves"]
++
+. Go to the public Course Reserves page and click on the course to make sure the list opens as expected
+in the public catalogue.
++
+image::images/course-reserves/course-reserves-5.png[scaledwidth="75%",alt="Adding Course Reserves"]
+
+Editing/Removing Course Reserves
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+. Login to the Course Reserves Admin module provided to you by Co-op Support
++
+. Click on reserve you wish to modify or delete.
+. In the pop-up that appears make the needed edits and click *Save* or click *Delete This Reserve* to remove
+the reserve.
++
+image::images/course-reserves/course-reserves-8.png[scaledwidth="75%",alt="Edit or Remove Course Reserves"]
+
+Using Course Reserves
+---------------------
+
+. From your library website, or elsewhere as appropriate, link to the your public course reserves module
+ so that students and faculty can access the course reserve lists.
+. Users can search for particular courses by code or instructor name
++
+image::images/course-reserves/course-reserves-6.png[scaledwidth="75%",alt="Using Course Reserves"]
++
+. Clicking on the course list will display the items on the list in your public catalogue.  If
+the list has a description it will display.
++
+image::images/course-reserves/course-reserves-7.png[scaledwidth="75%",alt="Using Course Reserves"]
