@@ -3,11 +3,11 @@ Sitka's Evergreen Documentation
 :doctype: book
 
 
-*Evergreen 3.7*
+*Evergreen 3.9*
 
-Copyright (symbol) 2021 BC Libraries Cooperative
+Copyright (symbol) 2022 BC Libraries Cooperative
 
-Last Updated May 17, 2021
+Last Updated August 15, 2022
 
 :toc:
 :toclevels: 3
@@ -21,11 +21,9 @@ Last Updated May 17, 2021
 
 Introduction
 ============
-include::intro/intro-whatsnew.adoc[New Features in Evergreen Version 3.5]
+include::intro/intro-whatsnew.adoc[New Features in Evergreen Version 3.9]
 
-//include::intro/intro-newbehaviour.adoc[New Behaviour in Evergreen Version 3.3]
-
-include::intro/intro-revisions.adoc[Revisions to Version 3.3 and Attributions to Contributors]
+include::intro/intro-revisions.adoc[Revisions to Version 3.9 and Attributions to Contributors]
 
 include::intro/intro-resources.adoc[Sitka and Evergreen Resources]
 

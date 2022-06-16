@@ -1,79 +1,46 @@
-New Features in Evergreen Version 3.7
+New Features in Evergreen Version 3.9
 -------------------------------------
 
-https://www.youtube.com/playlist?list=PLdwlgwBNnH4qraSQkpaXZiwUrLtRF4ocd[*New Features in Sitka's Evergreen 3.7 Playlist*]
+*New Features in Sitka's Evergreen 3.9 Playlist*
 
 Circulation
 ~~~~~~~~~~~
 
-* Test Notifications - Patrons and staff may request a test notification for a patron’s default email
-address or SMS number via the Patron Registration screen in the staff client, or on the OPAC My Account
-preferences page.
-** https://youtu.be/BlkMo4ieM48[*Sitka Snippet Video - Test Notifications (0:46)*]
 
-
-* Hold Groups - Library staff may create lists of patrons that can then be used to place multiple title-level
-holds on the same bibliographic record.
-** https://youtu.be/WpbGpyJX9Dg[*Sitka Snippet Video - Hold Groups (2:45)*]
-
-
-* Hopeless Holds - Library staff can now quickly pull a list of holds deemed unfillable and take actions to
-resolve them.
-** https://youtu.be/Sf6DISXuEu0[*Sitka Snippet Video - Hopeless Holds (1:11)*]
-
-* Hold placement in the staff client is now done through the new staff catalogue.
-** https://youtu.be/MDuN4s7c-rQ[*Sitka Training Video - Placing Holds (6:18)*]
-
-* In-house use now records workstations.
-
-
-* Preferred Name is now displayed prominently in the patron account.
 
 Cataloguing
 ~~~~~~~~~~~
 
-* New Staff Catalogue – All cataloguing functions direct to the new staff catalogue.
 
-
-* Item Status now allows pasting a list of barcodes in CSV format.
-
-
-* Publisher values are now extracted for display from tags 260 OR 264.
 
 
 Staff Catalogue
 ~~~~~~~~~~~~~~~
 
-* The new staff catalogue is now the supported staff catalogue, and includes search templates and
-recent searches.
-** https://youtu.be/u86TxsX3CY0[*Sitka Training Video - Search the Catalogue (4:35)*]
 
-
-* Library staff can now open record in new tab from the search results list.
-
-
-* Basket To Bucket action now allows adding to Shared Buckets.
 
 Public Catalogue
 ~~~~~~~~~~~~~~~~
-
-* Improved email and printing options from the public catalogue, which now includes local call number.
-
-* Show Only Available Copies filter on a title record in the public catalogue. Patrons can choose to see only the
-available copies of a title they are interested in.
-
-* Preferred Name now displays first in Personal Information in My Account.
-
-* Patrons can now send themselves test emails and texts from within My Account.
-
-
-Booking
-~~~~~~~
-
-* When creating a new reservation a Patron Search is now available.
 
 
 Reports
 ~~~~~~~
 
-* A new output option _Calculate grouping subtotals_ is available.
+
+Course Reserves
+~~~~~~~~~~~~~~~	
+
+
+Booking
+~~~~~~~
+
+
+
+Administration
+~~~~~~~~~~~~~~
+
+
+
+
+
+
