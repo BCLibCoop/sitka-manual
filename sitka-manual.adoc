@@ -101,7 +101,8 @@ include::reports/report-db-term.adoc[]
 
 Simple Reports
 ==============
-include::reports/simple_reports.adoc[]
+
+include::reports/simple-reports.adoc[]
 
 
 Serials
