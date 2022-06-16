@@ -3,38 +3,68 @@ New Features in Evergreen Version 3.9
 
 *New Features in Sitka's Evergreen 3.9 Playlist*
 
+Staff Client
+~~~~~~~~~~~~
+
+* Re-designed staff portal page (splash page)
+* Actions menu option allows you to remove actions you don't use from the Actions menu in certain interfaces.
+
+
 Circulation
 ~~~~~~~~~~~
 
+* Patron notes, alerts, and messages are now managed through a single interface.
+* Password reset link button in patron Edit to enable staff to initiate a password reset for a patron.
+* New patron photo URL field added to patron account.  Acess to this feature is not available by default.  Please contact Co-op Support for more
+information.
+* New look for holds pull list
+* New look for the triggered events log
+* 
 
 
 Cataloguing
 ~~~~~~~~~~~
 
-
+* New bibliographic record note where cataloguers can include non-public information about why records have been edited in particular ways.
+* Cover image uploader which enables staff to load library created images.  This feature is currently in the pilot phase with a handful of libraries. 
+Wider rollout is expected at a later date.
+* Holdings Editor
 
 
 Staff Catalogue
 ~~~~~~~~~~~~~~~
+
+* More details button in search results that reveals the grid with item information.
 
 
 
 Public Catalogue
 ~~~~~~~~~~~~~~~~
 
+*Re-designed public catalogue with a new look
+* Option for patrons to select their locale which determines the lanugage their email notifications are sent in
+
 
 Reports
 ~~~~~~~
+
+* Simple Reports
 
 
 Course Reserves
 ~~~~~~~~~~~~~~~	
 
+* New course reserves module within Evergreen which replaces the existing 3rd party course reserves module
+
 
 Booking
 ~~~~~~~
 
+Patron Notifications
+~~~~~~~~~~~~~~~~~~~~
 
+* Email notifications are now available in French to patrons who set their locale to French.  Libraries that wish the French notifications to match
+their customized English notifications must provide translations to Co-op Support.
 
 Administration
 ~~~~~~~~~~~~~~
