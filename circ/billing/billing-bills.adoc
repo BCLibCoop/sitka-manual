@@ -4,6 +4,8 @@ Circulation vs. Grocery Bills
 
 There are two types of bills in Sitka's Evergreen: *Circulation* bills and *Grocery* bills.
 
-* Circulation bills are system-generated charges such as overdue fines, lost item costs, and processing fees. The fine rates, replacement costs, and processing fees are determined by each library.
+* Circulation bills are system-generated charges such as overdue fines, lost item costs, and processing fees. The fine rates, replacement costs, and 
+processing fees are determined by each library.
 
-* Grocery bills are manually created by staff. Grocery bill types can be shared by all Sitka libraries or created by an individual library. Default price can be attached to each bill type.
+* Grocery bills are manually created by staff. Sitka libraries share a list of default bill types.  Additional library specific bill types
+can be added by https://bc.libraries.coop/support/[Co-op Support] if a library requires a unique bill type; default prices can be attached to the unique bill type.
