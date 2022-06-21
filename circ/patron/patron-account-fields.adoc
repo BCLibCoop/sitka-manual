@@ -20,13 +20,13 @@ xref:_resetting_your_password[reset their password] via the public catalogue.
 |Primary Name | Yes | A first and last name must be entered for all patrons.  Prefix, suffix, and middle name
 are optional as can be used needed.
 |Preferred Name | No | These field can be used if the patron goes by a name different from their primary name.
-The preferred name is used instead of the primary for notifications and display in My Account.  
+The preferred name is used instead of the primary for notifications and displays in My Account.  
 |Name Keywords | No | Additional keywords that can be used to group accounts for searching purposes.
 |OPAC/Staff Client Holds Alias | No | The alias can be used if a patron doesn't want items on the hold shelf appearing
 under their real name.
 |Date of Birth | Can be set as required by libraries | Date of birth of the patron.
-|Juvenile Check Box | No | Can be used to tag accounts as juvenile for policy or reporting purposes.  Generally
-the PL Juvenile permission group is used instead.
+|Juvenile Check Box | No | Can be used to tag accounts as juvenile for policy and reporting purposes.
+  Generally the PL Juvenile permission group is used instead.
 |Parent/Guardian | No | Can be used to include the parent or guardian's name for juvenile patrons.
 |Primary Identification Type | Yes | Co-op Support recommends using the value of _Other_ unless you have a
 legitimate use case for collecting data for one of the other values.  
@@ -36,6 +36,11 @@ Generally this is used by academic libraries for data such as student number or 
 legitimate use case for collecting data for one of the other values.
 |Secondary Identification | No | This field is used to collect identification information about the patron. 
 Generally this is used by academic libraries for data such as student number or homeroom.
+|Photo URL | Can be set as required by libraries | This field allows libraries to link to a picture of a patron. Sitka
+does not store the photos. Additional permissions are required to use this field. Please contact 
+https://bc.libraries.coop/support/[Co-op Support] for more information.
+|Patron Preferred Language | No | Patrons can set English or French as their preferred language to receive email
+notifications in that language.  Patrons can xref:_personal_information[update their preference] via My Account.
 |===
 
 *Contact Details*
@@ -47,7 +52,7 @@ contacted at.  Multiple adresses can be separated by a comma followed by a space
 xref:_personal_information[edit their email] via My Account unless the option has been disabled for your library.
 |Email checkout receipts by default? Check Box | Yes | Unchecked by default, this setting enables patrons to
 automatically be sent email check out receipts. Patrons can 
-xref:_notification_preference[update this check box] via My Account.
+xref:_notification_preferences[update this check box] via My Account.
 |Daytime Phone | Can be set as required by libraries | Primary phone number for the patron.
 |Evening Phone | Can be set as required by libraries | Phone number to be used in the evenings.
 |Other Phone |Can be set as required by libraries | Additional phone number for the patron. 
@@ -64,7 +69,7 @@ branch.
 have a three year expiry period with the exception of PL New User which is 3 months. Individual libraries 
 can choose which profiles to use and how to configure your chosen profiles to suit local policy.  Profiles 
 are used by Evergreen to determine how items circulate so it's important to know which profile are used at 
-your library and for which patrons. Contact xref:https://bc.libraries.coop/support/[Support] to have 
+your library and for which patrons. Contact xref:https://bc.libraries.coop/support/[Co-op Support] to have 
 this list customized to display only the profiles you use at your library.
 |Privilege Expiration Date | Yes | By default the date will be three years in the future for all profile
 groups, except PL New User which has an interval of 3 months.  Library staff can manually adjust the date
@@ -82,19 +87,18 @@ by Sitka.
 claimed returned.  Staff can manually update this value.
 |Claims Never Checked Out Count | No | Evergreen will update the value in this field if the patron has 
 items marked claimed never checked out.  Staff can manually update this value.
-|Alert Message | No | This alert field will be made obsolete by new features coming with the next upgrade.
-Co-op Support recommends libraries use the alert field available via the xref:_patron_messages[Messages] tab.
 |===
 
 *User Settings*
 
 |===
 |Field | Required? | Description  
-|Default Phone Number | Required if Phone checked for Hold Notices | This is the phone number used for hold 
+|Default Hold Notification Phone Number | Required if Phone checked for Hold Notices | This is the phone number used for hold 
 notifications via phone.  If blank Evergreen will use the value in Daytime Phone.  Patrons
 can xref:_notification_preference[update this] via My Account.
 |Default Hold Pickup Location | No | The location at which the patron would like to pickup their holds. Patrons
 can xref:_search_and_history_preferences[update this] via My Account.
+|Collections: Exempt | No | Not currently used by Sitka
 |Holds Notices Check Box | No, but highly recommend at least one option selected | The selected options will
 be checked by default when the patron places a hold.  Patrons and staff can uncheck options in the process
 of placing a hold. Patrons can also xref:_notification_preference[update their defaults] via My Account.
@@ -135,7 +139,7 @@ be saved if an address is not included.
 country.
 |Valid Address? | Yes | Checked by default, this check box indicates that the address is valid. This can
 be used in conjuntion with the library setting _Invalid patron address penalty_.
-|Within City Limits? | Unchecked by default, this check box indicates that the address is within the city limits.
+|Within City Limits? | Yes | Unchecked by default, this check box indicates that the address is within the city limits.
 This can be used in reporting.
 |===
 
@@ -168,7 +172,8 @@ By default all fields will display.  The local system administrator at your libr
 _Suggested Fields_ using the library setting _Default showing suggested patron registration fields_.
 
 Customizing the fields that display and are required in the patron account can help ensure the relevant information
-is being recorded for your patrons and can cut down on unnessary information being saved.
+is being recorded for your patrons and can cut down on unnessary information being saved.  These customizations 
+apply to both the staff client patron registration form and the patron self-registration form.
 
 Required Fields
 +++++++++++++++
@@ -207,3 +212,19 @@ Suggested Fields
 
 Setting any of the library settings that begin with _Suggest_ to True will cause the applicable
 field to display when *Suggested Fields* is selected.
+
+Field Examples
+++++++++++++++
+
+Libraries can display examples for how information should be input for certain fields.
+The applicable library settings are: 
+
+* Example dob field on patron registration
+* Example for day_phone field on patron registration
+* Example for email field on patron registration
+* Example for evening_phone field on patron registration
+* Example for other_phone field on patron registration
+* Example for phone fields on patron registration
+* Example for post_code field on patron registration
+
+
