@@ -43,7 +43,7 @@ the *Email* option to save a patron record without an email address.
 +
 image:images/circ/patronregister5.png[]
 +
-. Click *Save* or *Save & Clone* at top-right of screen. *Save and Clone* will save the record 
+. Click *Save* or *Save & Clone* at top-right of screen. *Save & Clone* will save the record 
 and open a new record with some shared details such as phone number and optionally address.
 +
 image:images/circ/patronregister4.png[]
