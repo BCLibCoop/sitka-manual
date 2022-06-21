@@ -11,13 +11,14 @@ automatically deleted.
 Request a Library Card
 ^^^^^^^^^^^^^^^^^^^^^^
 
-. In the public catalogue, click on the link to *Request Library Card*
-
+. In the footer of the public catalogue, click on the *Request Library Card* link.
++
+image:images/circ/patron_self_registration-2.png[Patron Self-Registration form]
++
 . Fill out the form to request a library card and click *Submit Registration*.
-
 . Patrons will see a confirmation message: “Registration successful!  Please see library staff to 
 complete your registration.”  This message is customizable per library.
-
++
 image:images/circ/patron_self_registration.png[Patron Self-Registration form]
 
 Managing Pending Patrons
@@ -35,16 +36,17 @@ image:images/circ/pending-patrons-2.png[Managing Pending Patrons]
 +
 . The patron's information will be loaded into the registration form.  Fill in any additional patron information 
 required by your library and click *Save* to create the patron account.
-. You also have the option to delete pending patron accounts if the account is determined to be duplicate or no 
-longer needed.  Select the pending patrons you wish to delete and click the "Delete Pending Patron(s)* button.
 +
-image:images/circ/pending-patrons-3.png[Managing Pending Patrons]
-
 [NOTE]
 ======
 After loading the patron into the registration form you should click in the pre-filled fields (name, email, street address)
 to trigger Evergreen to check for duplicate patrons.
 ======
++
+. You also have the option to delete pending patron accounts if the account is determined to be duplicate or no 
+longer needed.  Select the pending patrons you wish to delete and click the *Delete Pending Patron(s)* button.
++
+image:images/circ/pending-patrons-3.png[Managing Pending Patrons]
 
 
 Library Settings
