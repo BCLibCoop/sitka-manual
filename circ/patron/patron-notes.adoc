@@ -1,5 +1,5 @@
-Patron Alerts, Notes, and Messages
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Patron Notes
+~~~~~~~~~~~~
 
 (((Patron Messages)))
 (((Patron Alerts)))
@@ -51,9 +51,9 @@ Staff-Generated Alerts, Blocks, and Notes
 
 To add an alert, block, or note:
 
-. In the patron's acount click on the *Messages* tab.
-. Click *Apply Penalty/Message*.
-. Select *Note*, *Alert*, or *Block*.
+. In the patron's acount click on the *Notes* tab.
+. Click *Create Note*.
+. Select *Note*, *Alert*, or *Block* by clicking on the button or selecting from the *Penalty Type* drop down.
 +
 image:images/circ/patronalert2.png[]
 +
@@ -63,9 +63,9 @@ image:images/circ/patronalert3.png[]
 
 To edit an alert, block, or note:
 
-. In the patron's acount click on the *Messages* tab.
+. In the patron's acount click on the *Notes* tab.
 . Select the penalty you would like to edit.
-. From the *Actions* menu select *Modify Penalty/Message*.
+. From the *Actions* menu select *Edit Note*.
 +
 image:images/circ/patronalert9.png[]
 +
@@ -74,7 +74,7 @@ image:images/circ/patronalert9.png[]
 
 To delete or archive an alert, block, or note:
 
-. In the patron's acount click on the *Messages* tab.
+. In the patron's acount click on the *Notes* tab.
 . Select the penalty you would like to delete or archive.
 . From the *Actions* menu select the appropriate action.
 +
@@ -83,24 +83,3 @@ image:images/circ/patronalert4.png[]
 . If archived, the penalty will now display in the archived section.
 +
 image:images/circ/patronalert5.png[]
-
-
-Staff-Generated Patron Visible Notes
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Staff can add notes that display to the patron when they log into My Account.
-
-. In the patron's account go to *Other -> Notes*.
-+
-image:images/circ/patronalert6.png[]
-+
-. Click *Add New Note*.
-. Enter the title, note, your initials, and make sure the box for _Patron Visible_ is checked.
-. Click *OK*.
-+
-image:images/circ/patronalert7.png[]
-+
-. The patron account will display a _Notes_ icon in the staff client as well as being visible to 
-the patron in My Account.
-+
-image:images/circ/patronalert8.png[]
