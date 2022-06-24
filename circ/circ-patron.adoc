@@ -5,7 +5,9 @@ include::patron/patron-search.adoc[Retrieving Patron Accounts]
 
 include::patron/patron-register.adoc[Registering New Patrons]
 
+////
 include::patron/patron-selfregister.adoc[Patron Self-Registration]
+////
 
 include::patron/patron-account-fields.adoc[Fields in the Patron Account]
 

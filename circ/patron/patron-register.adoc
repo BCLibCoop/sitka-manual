@@ -19,7 +19,8 @@ the same patron.
 
 image:images/circ/patronregister1.png[]
 
-To register a new patron:
+Creating New Patrons
+^^^^^^^^^^^^^^^^^^^^
 
 . Select *Circulation -> Register Patron.*
 . What fields display will depend on whether you're showing Required Fields, Suggested Fields, or All Fields. 
@@ -50,3 +51,36 @@ image:images/circ/patronregister4.png[]
 +
 . If any required fields have been missed an alert will appear asking you to enter valid values
 for all the required fields.
+
+Managing Pending Patrons
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Libraries can turn on self-registration so prospective patrons can request an account via the 
+public catalogue.  
+
+These self-registrations become pending patrons in Evergreen which staff can save or delete.
+
+. In the staff client select *Circulation* -> *Pending Patrons*.
+
+. Pending patrons for your library or branch will display.
++
+image:images/circ/pending-patrons-1.png[Managing Pending Patrons]
++
+. To create an account for the patron, select the pending patron and click the *Load Patron* patron button.  
++
+image:images/circ/pending-patrons-2.png[Managing Pending Patrons]
++
+. The patron's information will be loaded into the registration form.  Fill in any additional patron information 
+required by your library and click *Save* to create the patron account.
++
+[NOTE]
+======
+After loading the patron into the registration form you should click in the pre-filled fields (name, email, street address)
+to trigger Evergreen to check for duplicate patrons.
+======
++
+. You also have the option to delete pending patron accounts if the account is determined to be duplicate or no 
+longer needed.  Select the pending patrons you wish to delete and click the *Delete Pending Patron(s)* button.
++
+image:images/circ/pending-patrons-3.png[Managing Pending Patrons]
+
