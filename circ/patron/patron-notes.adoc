@@ -4,18 +4,23 @@ Patron Notes
 (((Patron Messages)))
 (((Patron Alerts)))
 
-Alerts, notes, and blocks are applied to a patron's account either automatically by the system or manually
-by staff.
+There are three types of patron notes in Evergreen.
+* Note - information recorded on the patron account.
+* Alert - information recorded on the patron account that staff are alerted to when the patron's account
+is retrieved.
+* Block - information recorded on the patron account that blocks patrons from checking out, renewing, 
+and placing items on hold.
 
-System Generated Alerts and Blocks
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Notes, alerts, and blocks can be applied to a patron's account either automatically by the system 
+or manually by staff.  These can be viewed and managed on the _Notes_ tab in the patron account.
+
+System Generated Notes
+^^^^^^^^^^^^^^^^^^^^^^
 
 When a patron has an alert or a block on their account a red *Stop* sign is displayed when the account 
 is retrieved. 
 
-image:images/circ/patronalert1.png[]
-
-
+image:images/circ/patron-note-1.png[]
 
 Evergreen will automatically apply alerts in the following situations:
 
@@ -46,40 +51,59 @@ These blocks can also be overridden on an item by item basis. Alternatively, you
 block temporarily to carry out the circulation actions that need to be overridden. If the conditions 
 persist, once you refresh or re-access the patron account the block will be re-applied immediately.
 
-Staff-Generated Alerts, Blocks, and Notes
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Staff Generated Notes
+^^^^^^^^^^^^^^^^^^^^^
 
-To add an alert, block, or note:
+To add a note:
 
 . In the patron's acount click on the *Notes* tab.
 . Click *Create Note*.
-. Select *Note*, *Alert*, or *Block* by clicking on the button or selecting from the *Penalty Type* drop down.
+. Select the type of note you would like to created by the appropriate button or selecting the option 
+from the *Penalty Type* drop down.
 +
-image:images/circ/patronalert2.png[]
+image:images/circ/patron-note-2.png[]
 +
-. Enter your text and initials and click *OK*.
+. If the note should be visible to patrons in My Account check the box for *Patron Visible*.
 +
-image:images/circ/patronalert3.png[]
+image:images/circ/patron-note-3.png[]
++
+. Select the depth at which the note should be visible.  Libraries participating in reciprocal borrowing
+may wish to set some notes at the _Regional Libraries_ level so all libraries that interact with the patron
+account can see the note.
++
+image:images/circ/patron-note-4.png[]
++
+. Enter a *Title* for the note.
+. Optionally, enter additional text for the note.
+. Enter your initials and click *OK* to save the note.
++
+image:images/circ/patron-note-5.png[]
 
-To edit an alert, block, or note:
+
+To edit a note:
 
 . In the patron's acount click on the *Notes* tab.
-. Select the penalty you would like to edit.
+. Select the note you would like to edit.
 . From the *Actions* menu select *Edit Note*.
 +
-image:images/circ/patronalert9.png[]
+image:images/circ/patron-note-6.png[]
 +
-. Make the needed changes and click *OK*.
+. Make the needed changes and enter your initials.
++
+image:images/circ/patron-note-7.png[]
++
+. Click *OK*.
 
 
-To delete or archive an alert, block, or note:
+To delete or archive a note:
 
 . In the patron's acount click on the *Notes* tab.
-. Select the penalty you would like to delete or archive.
+. Select the note you would like to delete or archive.
 . From the *Actions* menu select the appropriate action.
 +
-image:images/circ/patronalert4.png[]
+image:images/circ/patron-note-8.png[]
 +
-. If archived, the penalty will now display in the archived section.
+. If archived, the note will now display in the archived section.  By default archived notes from the 
+last year display.  Use the date selectors to adjust this period as needed.
 +
-image:images/circ/patronalert5.png[]
+image:images/circ/patron-note-9.png[]
