@@ -1,8 +1,36 @@
 Working with Patron Accounts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+The patron account has a summary which displays on the left side of the patron account and a tabbed interface
+allowing staff to look at different aspects of the patron account.
+
+image:images/circ/patron-account-1.png[]
+
+
 Patron Summary
 ^^^^^^^^^^^^^^
+
+The patron summary pulls together pertinent information about the patron so it can be seen at a glance.
+
+* The patron's name displays at the top of the summary.  Evergreen will use the patron's preferred name and
+fall back to the primary name if there is no preferred name.
+* Any alerts and/or blocks will appear under the patron's name.
+
+image:images/circ/patron-summary-1.png[]
+
+* dates
+
+image:images/circ/patron-summary-2.png[]
+
+
+image:images/circ/patron-summary-3.png[]
+
+image:images/circ/patron-summary-4.png[]
+
+
+* Any addresses associated with the patron display and can be easily copied to the clipboard or printed.
+image:images/circ/patron-summary-5.png[]
+
 
 Blurb about patron summary and how it displays
 
@@ -18,7 +46,7 @@ image:images/circ/patronupdate7.png[scaledwidth="75%"]
 Check Out
 ^^^^^^^^^
 
-See xref:_check_out[]
+For information on the *Check Out* tab see xref:_check_out[].
 
 Items Out
 ^^^^^^^^^
@@ -38,7 +66,7 @@ reference to managing holds
 Bills
 ^^^^^
 
-refernce to bills
+For information on the *Bills* tab see xref:_bills_and_payments[].
 
 Notes
 ^^^^^
@@ -64,15 +92,21 @@ xref:_patron_notes[*Notes*] tab.
 For more information on statistical categories see xref:_statistical_category_editor[].
 |Hold Groups | View any hold groups the patron is part of. For more information on hold groups
  see xref:_hold_groups[].
-|Surveys |
-|Group Member Details |
-|User Permission Editor |
-|Test Password |
+|Surveys | View the patron's responses to surveys. For more information on surveys
+ see xref:_surveys[].
+|Group Member Details | See any groups the patron is part of.  Sitka does not recommend using patron groups.
+|User Permission Editor | View and update staff xref:_working_locations[working locations] 
+and xref:_granting_additional_permissions_to_staff_accounts[individual permissions].
+|Test Password | Allows you to enter the password assigned to the account and confirm it works.
 |Acquisitions Patron Requests | Not currently used by Sitka.
-|Booking: Manage Reservations |
-|Booking: Create Reservations |
-|Booking: Pick Up Reservations |
-|Booking: Return Reservations |
+|Booking: Manage Reservations | This link opens the xref:_manage_reservations[Manage Reservations] interface
+in the same tab with the patron's barcode pre-filled.
+|Booking: Create Reservations | This link opens the xref:_create_booking_reservations[Create Reservation]
+ interface in the same tab.
+|Booking: Pick Up Reservations | This link opens the xref:_pick_up_reservations[Booking Pickup] interface
+in the same tab with the patron's barcode pre-filled.
+|Booking: Return Reservations | This link opens the xref:_return_reservations[Booking Return] interface
+in the same tab with the patron's barcode pre-filled.
 |Completely Purge Account | Not used by Sitka. See xref:delete-patron-card[] for information on deleting
 patrons.
 |===
