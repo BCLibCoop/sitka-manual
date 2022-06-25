@@ -28,26 +28,11 @@ given the option to update any outstanding holds with the new information.
 https://www.youtube.com/watch?v=V33rC85pqy4[*Sitka Snippet Video - Hold Notification Updates (0:41)*]
 ======
 
-Renewing a Library Card
-^^^^^^^^^^^^^^^^^^^^^^^
+Barcodes
+^^^^^^^^
 
-. Click *Update Expire Date* or use the calendar widget to renew a card.
-+
-image:images/circ/patronupdate2.png[scaledwidth="75%"]
-+
-. Click *Save* at top right of screen.
-
-[NOTE]
-======
-*Update Expire Date* will give a date 3 years in the future for all Permission Groups except PL New User, 
-which gets a date 3 months in the future.
-
-Libraries can manually edit the expiry date to match their local policy.
-======
-
-
-Marking a Library Card Lost
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Replace Barcode
++++++++++++++++
 
 . Click *Replace Barcode*
 +
@@ -60,9 +45,10 @@ image:images/circ/patronupdate8.png[scaledwidth="75%"]
 . If the username is still the original barcode, update it to match new barcode number.
 . Click *Save* at top right of screen.
 
+Co-op Support recommends deleting barcodes that have been replaced.  See xref:_deleting_inactive_cards[].
 
 See All Barcodes
-^^^^^^^^^^^^^^^^
+++++++++++++++++
 
 When patron accounts are merged together or a patron barcode is replaced, Evergreen marks the barcode as inactive 
 and keeps it in the database. 
@@ -135,8 +121,6 @@ image:images/circ/patronupdate12.png[scaledwidth="75%"]
 . Evergreen will automatically archive the penalty when a new email address is entered.
 . To resolve the penalty manually see xref:_staff_generated_alerts_blocks_and_notes[].
 
-
-
 [NOTE]
 ======
 Accumulated bounced back emails may result in notification emails from 
@@ -158,6 +142,24 @@ image:images/circ/patronupdate14.png[scaledwidth="75%"]
 . The phone number will be removed and a penalty will be added to the *Messages* tab which will display when the 
 patron's account is retrieved.
 . To resolve the penalty manually see xref:_staff_generated_alerts_blocks_and_notes[].
+
+
+Renewing a Library Card
+^^^^^^^^^^^^^^^^^^^^^^^
+
+. Click *Update Expire Date* or use the calendar widget to renew a card.
++
+image:images/circ/patronupdate2.png[scaledwidth="75%"]
++
+. Click *Save* at top right of screen.
+
+[NOTE]
+======
+*Update Expire Date* will give a date 3 years in the future for all Permission Groups except PL New User, 
+which gets a date 3 months in the future.
+
+Libraries can manually edit the expiry date to match their local policy.
+======
 
 Invalidating an Address
 ^^^^^^^^^^^^^^^^^^^^^^^
