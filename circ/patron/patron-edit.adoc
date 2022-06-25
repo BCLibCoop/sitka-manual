@@ -1,5 +1,5 @@
-Updating Patron Accounts
-~~~~~~~~~~~~~~~~~~~~~~~~
+Editing Patron Accounts
+~~~~~~~~~~~~~~~~~~~~~~~
 (((Edit Patron)))
 (((Patron Account)))
 (((Renew Patron Card)))
@@ -27,17 +27,6 @@ given the option to update any outstanding holds with the new information.
 
 https://www.youtube.com/watch?v=V33rC85pqy4[*Sitka Snippet Video - Hold Notification Updates (0:41)*]
 ======
-
-Patron Summary
-^^^^^^^^^^^^^^
-. Click the arrows beside the patron name to toggle between Patron Summary views. This choice is sticky and 
-will stay on collapsed or expanded view until changed.
-+
-image:images/circ/patronupdate6.png[scaledwidth="75%"]
-
-. The expanded view displays key information about the account on left side of screen.
-+
-image:images/circ/patronupdate7.png[scaledwidth="75%"]
 
 Renewing a Library Card
 ^^^^^^^^^^^^^^^^^^^^^^^

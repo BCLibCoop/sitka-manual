@@ -1,0 +1,61 @@
+Working with Patron Accounts
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Patron Summary
+^^^^^^^^^^^^^^
+
+Blurb about patron summary and how it displays
+
+. Click the arrows beside the patron name to toggle between Patron Summary views. This choice is sticky and 
+will stay on collapsed or expanded view until changed.
++
+image:images/circ/patronupdate6.png[scaledwidth="75%"]
+
+. The expanded view displays key information about the account on left side of screen.
++
+image:images/circ/patronupdate7.png[scaledwidth="75%"]
+
+Check Out
+^^^^^^^^^
+
+See xref:_check_out[]
+
+Items Out
+^^^^^^^^^
+
+three tabs
+comments about some of the action - like check in
+reference to mark status page 
+reference to renewals
+
+Holds
+^^^^^
+two tabs
+reference to place hold from patrons account
+reference to managing holds
+
+
+Bills
+^^^^^
+
+refernce to bills
+
+Notes
+^^^^^
+
+xref:_patron_notes[]
+
+Edit
+^^^^
+
+xref:_patron_edit[]
+
+Other
+^^^^^
+
+triggered events
+links to other sections
+
+table of options?
