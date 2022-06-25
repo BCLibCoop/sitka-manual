@@ -1,8 +1,6 @@
 Working with Patron Accounts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-
 Patron Summary
 ^^^^^^^^^^^^^^
 
@@ -45,17 +43,38 @@ refernce to bills
 Notes
 ^^^^^
 
-xref:_patron_notes[]
+For information on the *Notes* tab see xref:_patron_notes[].
 
 Edit
 ^^^^
 
-xref:_patron_edit[]
+For information on the *Edit* tab see xref:_editing_patron_accounts[].
 
 Other
 ^^^^^
 
-triggered events
-links to other sections
+Additional options for the patron account can be found in the *Other* drop down menu.
 
-table of options?
+|===
+|Display Alerts | Evergreen will display the initial alert/blocks page.
+|Triggered Events/Notifications | Check to see if emails and/or SMS messages have been generated for patrons.
+|Message Center | Obsolete interface. This functionality can be found in the 
+xref:_patron_notes[*Notes*] tab.
+|Statistical Categories | View information about any patron statistical categories assigned to the patron.
+For more information on statistical categories see xref:_statistical_category_editor[].
+|Hold Groups | View any hold groups the patron is part of. For more information on hold groups
+ see xref:_hold_groups[].
+|Surveys |
+|Group Member Details |
+|User Permission Editor |
+|Test Password |
+|Acquisitions Patron Requests | Not currently used by Sitka.
+|Booking: Manage Reservations |
+|Booking: Create Reservations |
+|Booking: Pick Up Reservations |
+|Booking: Return Reservations |
+|Completely Purge Account | Not used by Sitka. See xref:delete-patron-card[] for information on deleting
+patrons.
+|===
+
+
