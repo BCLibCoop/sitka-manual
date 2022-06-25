@@ -4,7 +4,8 @@ Patron Notes
 (((Patron Messages)))
 (((Patron Alerts)))
 
-There are three types of patron notes in Evergreen.
+There are three types of patron notes in Evergreen:
+
 * Note - information recorded on the patron account.
 * Alert - information recorded on the patron account that staff are alerted to when the patron's account
 is retrieved.
