@@ -12,36 +12,43 @@ Patron Summary
 
 The patron summary pulls together pertinent information about the patron so it can be seen at a glance.
 
-* The patron's name displays at the top of the summary.  Evergreen will use the patron's preferred name and
-fall back to the primary name if there is no preferred name.
-* Any alerts and/or blocks will appear under the patron's name.
+Some things of note in the patron summary.
 
 image:images/circ/patron-summary-1.png[]
 
-* dates
-
+* The patron's name displays at the top of the summary. The patron's name will be in red if they have
+alert, blocks, or owe fines.
+** Evergreen will use the patron's preferred name and
+fall back to the primary name if there is no preferred name.
+* Any alerts and/or blocks will appear under the patron's name.
++
 image:images/circ/patron-summary-2.png[]
-
-
++
+* Last Activity - Last time a circulation was done on the account or the account was accessed for 
+3rd party authentication.
+* Last Updated - Last time the account was updated via the *Edit* tab.
+* Create Date - Date on which the account was originally created.
+* Expire Date - Date on which the account will expire.  This can be updated via the *Edit* tab.
++
 image:images/circ/patron-summary-3.png[]
-
++
+* Sitka does not use Long Overdue
++
 image:images/circ/patron-summary-4.png[]
-
-
-* Any addresses associated with the patron display and can be easily copied to the clipboard or printed.
++
+* If a library used Homeroom or Student ID as _Primary Identification_ it will display in the ID1 field.
+* The patron's primary name displays in the Legal Name field in the summary.
+* The patron's email address is a Mail To link.
++
 image:images/circ/patron-summary-5.png[]
++
+* Any addresses associated with the patron display and can be easily copied to the clipboard or printed.
 
-
-Blurb about patron summary and how it displays
-
-. Click the arrows beside the patron name to toggle between Patron Summary views. This choice is sticky and 
+The patron summary can be hidden using the arrows beside the patron's name.  This choice is sticky and 
 will stay on collapsed or expanded view until changed.
 +
-image:images/circ/patronupdate6.png[scaledwidth="75%"]
+image:images/circ/patron-summary-5.png[]
 
-. The expanded view displays key information about the account on left side of screen.
-+
-image:images/circ/patronupdate7.png[scaledwidth="75%"]
 
 Check Out
 ^^^^^^^^^
