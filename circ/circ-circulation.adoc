@@ -7,14 +7,18 @@ include::circulation/circ-checkout.adoc[Checkout]
 
 include::circulation/circ-checkin.adoc[Check In]
 
-include::circulation/circ-renewal.adoc[Renewing and Editing the Item's Due Date]
+include::circulation/circ-barcode-completion.adoc[Barcode Completion]
 
+include::circulation/circ-renewal.adoc[Renewing Items]
+
+////
 include::circulation/circ-autorenewal.adoc[Autorenewal]
+////
 
-include::circulation/circ-lost-claimed.adoc[Marking Items Lost, Claimed Returned, and Claimed Never Checked Out]
+include::circulation/circ-lost-claimed.adoc[Marking Items]
 
 include::circulation/circ-in-house.adoc[In-House Use]
 
 include::circulation/circ-item-status.adoc[Item Status]
 
-include::circulation/circ-barcode-completion.adoc[Barcode Completion]
+
