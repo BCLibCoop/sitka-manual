@@ -102,7 +102,7 @@ complete your registration.”  This message is customizable per library.
 +
 image:images/opac/patron_self_registration.png[Patron Self-Registration form]
 +
-. A pending patron will be created in Evergreen.  See LINK HERE.
+. A pending patron will be created in Evergreen.  See xref:_managing_pending_patrons[].
 
 [NOTE]
 ======

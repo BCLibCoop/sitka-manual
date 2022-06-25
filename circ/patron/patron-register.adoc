@@ -55,8 +55,9 @@ for all the required fields.
 Managing Pending Patrons
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Libraries can turn on self-registration so prospective patrons can request an account via the 
-public catalogue.  
+Libraries can turn on self-registration so prospective patrons can 
+xref:_request_a_library_card[request an account via the 
+public catalogue].
 
 These self-registrations become pending patrons in Evergreen which staff can save or delete.
 
