@@ -46,47 +46,47 @@ image:images/circ/patron-summary-5.png[]
 
 The patron summary can be hidden using the arrows beside the patron's name.  This choice is sticky and 
 will stay on collapsed or expanded view until changed.
-+
-image:images/circ/patron-summary-5.png[]
+
+image:images/circ/patron-summary-6.png[]
 
 
-Check Out
-^^^^^^^^^
+Check Out Tab
+^^^^^^^^^^^^^
 
 For information on the *Check Out* tab see xref:_check_out[].
 
-Items Out
-^^^^^^^^^
+Items Out Tab
+^^^^^^^^^^^^^
 
 three tabs
 comments about some of the action - like check in
 reference to mark status page 
 reference to renewals
 
-Holds
-^^^^^
+Holds Tab
+^^^^^^^^^
 two tabs
 reference to place hold from patrons account
 reference to managing holds
 
 
-Bills
-^^^^^
+Bills Tab
+^^^^^^^^^
 
 For information on the *Bills* tab see xref:_bills_and_payments[].
 
-Notes
-^^^^^
+Notes Tab
+^^^^^^^^^
 
 For information on the *Notes* tab see xref:_patron_notes[].
 
-Edit
-^^^^
+Edit Tab
+^^^^^^^^
 
 For information on the *Edit* tab see xref:_editing_patron_accounts[].
 
-Other
-^^^^^
+Other Menu
+^^^^^^^^^^
 
 Additional options for the patron account can be found in the *Other* drop down menu.
 
