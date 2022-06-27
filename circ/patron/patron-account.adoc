@@ -58,10 +58,48 @@ For information on the *Check Out* tab see xref:_check_out[].
 Items Out Tab
 ^^^^^^^^^^^^^
 
-three tabs
-comments about some of the action - like check in
-reference to mark status page 
-reference to renewals
+The _Items Out_ tab shows items currently out to a patron.  It is divided into three tabs.
+
+Items Checked Out
++++++++++++++++++
+
+The _Items Checked Out_ tab shows the items currently out to the patron.
+
+* Overdue items will displays highlighted in red.
+* Using the *Actions* menu staff can perform functions such as printing an items out receipt, 
+renewing items, marking items with a different status, and showing triggered events for notifications sent
+to patrons about particular items.
+
+[NOTE]
+======
+Staff should only use *Check In* from the *Actions* menu if a checked out item has accidentally been 
+deleted and so cannot be checked in via the Check In interface. 
+======
+
+image:images/circ/check-out-tab-1.png[]
+
+
+Other/Special Circulations
+++++++++++++++++++++++++++
+
+The _Other/Special Circulations_ tab shows items that are considered to be lost by the patron or that the 
+patron claims they have returned.
+
+The _Fines Stopped_ column will show the reason the item has been moved to this tab.  Items are removed
+from this tab when they are checked in, changed to a different status, or paid for.
+
+image:images/circ/check-out-tab-2.png[]
+
+
+Non-Catalogued Circulations
++++++++++++++++++++++++++++
+
+The _Non-Catalogued Circulations_ tab shows a count of non-catalogued items.  These items will disapear from
+the patron's account when they reach their due date as non-catalogued check out is for statistical purposes
+only.
+
+image:images/circ/check-out-tab-3.png[]
+
 
 Holds Tab
 ^^^^^^^^^
