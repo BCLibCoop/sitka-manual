@@ -145,3 +145,6 @@ be filled when the item is no longer protected.
 *ITEM_NOT_HOLDABLE* - This indicates that the item is under age-based hold protection set through the Hold
 Policies and cannot currently fill holds at your library.  If you override and place the hold it will eventually
 be filled when the item is no longer protected.
+
+*PATRON_EXCEEDS_FINES* - This indicates that the patron has fines in excess of your fine threshold.  Staff 
+can choose to override and place the hold.
