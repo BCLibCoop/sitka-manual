@@ -14,34 +14,20 @@ The patron summary pulls together pertinent information about the patron so it c
 
 Some things of note in the patron summary.
 
-image:images/circ/patron-summary-1.png[]
-
 * The patron's name displays at the top of the summary. The patron's name will be in red if they have
 alert, blocks, or owe fines.
 ** Evergreen will use the patron's preferred name and
 fall back to the primary name if there is no preferred name.
 * Any alerts and/or blocks will appear under the patron's name.
-+
-image:images/circ/patron-summary-2.png[]
-+
 * Last Activity - Last time a circulation was done on the account or the account was accessed for 
 3rd party authentication.
 * Last Updated - Last time the account was updated via the *Edit* tab.
 * Create Date - Date on which the account was originally created.
 * Expire Date - Date on which the account will expire.  This can be updated via the *Edit* tab.
-+
-image:images/circ/patron-summary-3.png[]
-+
 * Sitka does not use Long Overdue
-+
-image:images/circ/patron-summary-4.png[]
-+
 * If a library used Homeroom or Student ID as _Primary Identification_ it will display in the ID1 field.
 * The patron's primary name displays in the Legal Name field in the summary.
 * The patron's email address is a Mail To link.
-+
-image:images/circ/patron-summary-5.png[]
-+
 * Any addresses associated with the patron display and can be easily copied to the clipboard or printed.
 
 The patron summary can be hidden using the arrows beside the patron's name.  This choice is sticky and 
@@ -67,8 +53,8 @@ The _Items Checked Out_ tab shows the items currently out to the patron.
 
 * Overdue items will displays highlighted in red.
 * Using the *Actions* menu staff can perform functions such as printing an items out receipt, 
-renewing items, marking items with a different status, and showing triggered events for notifications sent
-to patrons about particular items.
+xref:_renewing_items[renewing items], xref:_mark_items[marking items with a different status], 
+and showing triggered events for notifications sent to patrons about particular items.
 
 [NOTE]
 ======
@@ -86,7 +72,8 @@ The _Other/Special Circulations_ tab shows items that are considered to be lost 
 patron claims they have returned.
 
 The _Fines Stopped_ column will show the reason the item has been moved to this tab.  Items are removed
-from this tab when they are checked in, changed to a different status, or paid for.
+from this tab when they are checked in, changed to a different status, or paid for.  See
+xref:_mark_items[] for more information on handling these items.
 
 image:images/circ/check-out-tab-2.png[]
 
@@ -96,7 +83,7 @@ Non-Catalogued Circulations
 
 The _Non-Catalogued Circulations_ tab shows a count of non-catalogued items.  These items will disapear from
 the patron's account when they reach their due date as non-catalogued check out is for statistical purposes
-only.
+only.  See xref:_non_catalogued_items[] for more information on handling these items.
 
 image:images/circ/check-out-tab-3.png[]
 
