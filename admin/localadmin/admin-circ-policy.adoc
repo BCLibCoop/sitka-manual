@@ -10,7 +10,7 @@ When an item is scanned for check out Evergreen checks the following to determin
 out to the patron and if so with what parameters:
 
 * xref:_group_penalty_thresholds[Group Penalty Thresholds] for the check out library
-* Item's xref:_item_status_2[Status]
+* Item's xref:_item_statuses[Status]
 * Circulate flag for the item's xref:_shelving_location_editor[Shelving Location]
 * xref:_item_attributes[Circulate flag for the item]
 * Circulation Policies for the check out library
