@@ -39,12 +39,12 @@ the item can be marked as claims returned.
 +
 image:images/circ/mark-claims-returned-1.png[]
 +
-. Enter the date on which the patron claims they returned the item and click *Submit*.  If the due date is 
+. Enter the date on which the patron claims they returned the item and click *Submit*.  If the chosen date is 
 in the past any overdue fines will be adjusted accordingly.
 +
 image:images/circ/mark-claims-returned-2.png[]
 +
-. The item's status is updated to _Claims Returned_. It remains associated with the patron's account and 
+. The item's status is updated to _Claimed Returned_. It remains associated with the patron's account and 
 is now displayed on the _Other/Special Circulations_ tab.
 +
 [NOTE]
@@ -64,8 +64,8 @@ Libraries can use the library setting _Max Patron Claims Returned Count_ to set 
 a patron can claim as returned before a staff override is required.
 ====== 
 
-A claims returned items is resolved when it is checked in or when the status is updated to _Missing_ or _Lost_
-following local library policy.  An alert displays on check in to let staff know a claims returned
+A claimed returned items is resolved when it is checked in or when the status is updated to _Missing_ or _Lost_
+following local library policy.  An alert displays on check in to let staff know a claimed returned
 item has been found.  When an item is located staff may wish to adjust the patron's *Claims-returned Count*
 accordingly on the _Edit_ tab.
 
@@ -120,7 +120,7 @@ A discarded item is resolved when it is checked in to return it to circulation o
 [NOTE]
 ======
 Staff may wish to put discarded items into item buckets to make it easier for subsequent staff to view
-and work with the items.  See xref:cat-copy-bucket[] for information on item buckets. 
+and work with the items.  See xref:cat-copy-bucket[] for information on using item buckets. 
 ======
 
 Missing
@@ -155,8 +155,9 @@ image:images/circ/mark-missing-pieces-1.png[]
 . A pop-up appears where staff can confirm that they wish to mark the item by clicking *OK/Continue*.
 +
 . A print dialog will appear.  Staff can print the slip to keep with the item.
-. The _Create Note_ pop-up will appear.  Use the pop-up to create a note, alert, or block on the patron's 
-account.  This note can be set as patron visible so it displays to the patron in My Account.
+. The xref:_staff_generated_notes[_Create Note_] pop-up will appear.  Use the pop-up to create a note, 
+alert, or block on the patron's account.  This note can be set as patron visible so it displays to the 
+patron in My Account.
 . Click *OK*.
 . The note is applied to the last borrower's account and the item is set to _Damaged_.
 
@@ -204,7 +205,25 @@ See Billing for more information on managing *Lost* bills.
 
 There are a number of library settings which determine how Evergreen handles lost items:
 
+* Lost Materials Processing Fee
+* Charge lost on zero
+* Default Item Price
 
+* Lost items usable on checkin
+
+* Void overdue fines when items are marked lost
+* Restore overdues on lost item return
+* Lost Checkin Generates New Overdues
+
+* Void lost max interval
+
+* Void lost item billing when claims returned
+* Void lost item processing fee when claims returned
+* Void lost item billing when returned
+* Void processing fee on lost item return
+
+* Negative Balance Interval for Lost
+* Prohibit negative balance on bills for lost materials
 
 
 When a lost item is found and returned, your library may choose to:
