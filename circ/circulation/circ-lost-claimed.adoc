@@ -14,18 +14,36 @@ Missing
 Lost
 ^^^^
 
-Marking an item *Lost* automatically bills the patron the replacement cost of the item and a processing fee if you charge one. Overdue fines can be voided or retained.
+If a patron loses an item, it can be marked as Lost in their account.
 
-. Click *Items Out* in patron accounts.
+. Go to the _Items Out_ tab in the patron account.
 . Select the item and click *Actions -> Mark Lost (By Patron)*.
 +
-image:images/circ/lost1.png[scaledwidth="75%"]
+image:images/circ/mark-lost-1.png[]
 +
-. The item is now displayed on the patron's  *Other/Special Circulations* tab.
+. The item's status is updated to Lost. It remains associated with the patron's account and is now 
+displayed on the _Other/Special Circulations_ tab.
 +
-image:images/circ/lost2.png[scaledwidth="75%"]
+image:images/circ/mark-lost-2.png[]
++
+. A bill is automatically added to the patron's account on the _Bills_ tab for the replacement cost of 
+the item and displays in dark red. A processing fee is included if the library has a value in the 
+library setting _Lost Materials Processing Fee_.
++
+image:images/circ/mark-lost-3.png[]
 
-NOTE: A *Lost* item will display on the patron account until linked bills are resolved. Bills include replacement charges, overdue charges, and manual charges added to the existing bills. See Billing for more information on managing *Lost* bills.
+[NOTE]
+======
+Evergreen can also automatically mark an item as lost after the item is a set number of days overdue.
+See xref:_overdue_mark_lost_notification[] for information on this process.
+======
+
+A lost item is resolved when it is checked in or paid for.  A checked in lost item will continue
+to display on a patron's  _Other/Special Circulations_ tab until all bills linked to the item are
+resolved.  This includes replacement charges, overdue charges, and manual charges added to the existing bills. 
+See Billing for more information on managing *Lost* bills.
+
+There are a number of library settings which determine how Evergreen handles lost items:
 
 
 When a lost item is found and returned, your library may choose to:
@@ -45,15 +63,61 @@ When a lost item is found and returned, your library may choose to:
 Claims Returned
 ^^^^^^^^^^^^^^^
 
-The date entered for a *Claims Returned* item establishes the fine. If the date given is past, bills will be adjusted accordingly, and remain linked to patron account until resolved.  Patron's *Claims-returned Count* is automatically increased, and the item's status is changed to *Claimed Returned*.
+If a patron believes an item out on their account was returned and staff cannot locate it to check it in
+the item can be marked as Claims Returned. 
 
-. Click *Items Out* in patron account.
-. Select the item and click *Actions -> Mark Claims Returned*, enter date, and click *Submit*.
-. The item is now displayed on the patron's  *Other/Special Circulations* tab.
+. Go to the _Items Out_ tab in the patron account.
+. Select the item and click *Actions -> Mark Claims Returned*.
++
+image:images/circ/mark-claims-returned-1.png[]
++
+. Enter the date on which the patron claims they returned the item and click *Submit*.  If the due date is 
+in the past any overdue fines will be adjusted accordingly.
++
+image:images/circ/mark-claims-returned-2.png[]
++
+. The item's status is updated to Claims Returned. It remains associated with the patron's account and is now displayed on the 
+ _Other/Special Circulations_ tab.
++
+[NOTE]
+======
+Some libraries prefer to use the status Missing.  This can be set using the library setting 
+_Claim Return: Mark copy as missing_.
+====== 
++
+image:images/circ/mark-claims-returned-3.png[]
++
+. The patron's *Claims-returned Count* is automatically increased. This can be viewed in the patron summary
+and the _Edit_ tab.
++
+[NOTE]
+======
+Libraries can use the library setting _Max Patron Claims Returned Count_ to set a maximum number of items
+a patron can claim as returned before a staff override is required.
+====== 
+
+A claims returned items is resolved when it is checked in or when the status is updated to Missing or Lost
+following local library policy.  An alert displays on check in to let staff know a claims returned
+item has been found.  When an item is located staff may wish to adjust the patron's *Claims-returned Count*
+accordingly on the _Edit_ tab.
 
 Claims Never Checked Out
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Click *Items Out* in patron account.
-. Select the item and click *Actions -> Claims Never Checked Out*, and click *OK/Continue*.
-. The item is checked in effective from the check out date, disappears from the patron account, and has its status changed to *Missing*.
+If a patron believes an item was erroneously checked out on their account and staff cannot locate it 
+to check it in the item can be marked as Claims Never Checked Out.
+
+. Go to the _Items Out_ tab in the patron account.
+. Select the item and click *Actions -> Mark Claims Never Checked Out*.
++
+image:images/circ/mark-claims-never-checked-out-1.png[]
++
+. A pop-up appears where staff can confirm that they wish to mark the item by click *OK/Continue*.
+. The item is checked in and set to Missing. The item is no longer associated with the patron's account.
+
+[Note]
+======
+Libraries may wish to routinely run reports on items with the status of Missing so they can be searched for
+and replaced/deleted as appropriate.
+======
+
