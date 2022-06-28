@@ -144,7 +144,12 @@ A missing item is resolved when it is found and checked in or when it is deleted
 Missing Pieces
 ^^^^^^^^^^^^^^
 
-If an item is returned with pieces missing it can be marked as missing pieces from the check in screen.
+If an item is returned with pieces missing it can be marked as missing pieces from Check In or
+the Scan Item as Missing Pieces interface. The feature currently functions slightly different depending
+on which interface it is accessed through.
+
+Mark Missing Pieces via Check In
+++++++++++++++++++++++++++++++++
 
 . Go to *Circulation -> Check In*.
 . Check the item in.
@@ -159,7 +164,41 @@ image:images/circ/mark-missing-pieces-1.png[]
 alert, or block on the patron's account.  This note can be set as patron visible so it displays to the 
 patron in My Account.
 . Click *OK*.
-. The note is applied to the last borrower's account and the item is set to _Damaged_.
+. The note is applied to the last borrower's account and the item is set to _Damaged_ and checked back out
+to the patron's account.
++
+[NOTE]
+======
+This method of setting an item as missing pieces is missing the letter that is generated at the end of the 
+process.  If that letter is important to your workflow you should always mark items missing pieces
+via the Scan Item as Missing Pieces interface.
+======
+
+Scan Item as Missing Pieces
++++++++++++++++++++++++++++
+
+. Go to *Circulation -> Scan Item as Missing Pieces*.
+. Scan the item's barcode.
+. Click *Mark Item as Missing Pieces?*.
++
+image:images/circ/mark-missing-pieces-2.png[]
++
+. A print dialog will appear.  Staff can print the slip to keep with the item.
+. The xref:_staff_generated_notes[_Create Note_] pop-up will appear.  Use the pop-up to create a note, 
+alert, or block on the patron's account.  
++
+[NOTE]
+======
+This pop-up is the old Notes pop-up and is missing the functionality that allows staff to select the display
+depth and set a note as patron visible so it displays to the patron in My Account.
+======
++
+. Click *OK*.
+. The note is applied to the last borrower's account and the item is set to _Damaged_ and renewed on the
+patron's account, if there are remaining renewals.
+. A letter is generated that can be edited and then printed and mailed to the patron.
++
+image:images/circ/mark-missing-pieces-3.png[]
 
 A missing pieces item is resolved when the pieces are returned and the item is checked in or the pieces 
 are never returned and the item is deleted.  Notes related to the item must be manually removed from
