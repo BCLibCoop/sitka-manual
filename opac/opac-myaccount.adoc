@@ -222,20 +222,17 @@ image::images/opac/opac-account-9.png[scaledwidth="75%",alt="My Account"]
 Messages
 ~~~~~~~~
 
-
-Select the _Messages_ tab at the top of the _My Account_ area to display any messages library staff have added
+In _My Account_ click *Messages* to display any messages library staff have added
 to your account.
 
 image::images/opac/opac-account-messages-1.png[scaledwidth="75%",alt="My Account Messages"]
 
-An indicator will also appear in the upper right corner when you have new messages.
+Unread messages display in bold.  Click on the *Read* button or the subject to read the message.
 
 image::images/opac/opac-account-messages-2.png[scaledwidth="75%",alt="My Account Messages"]
 
 You can set messages to read or unread, or delete them by selecting the message(s) and then choosing the
-desired action from the *Action for selected messages* menu and clicking *Go*.
-
-Unread messages appear with the subject bolded. Click on the subject to read the message.
+appropriate button.
 
 image::images/opac/opac-account-messages-3.png[scaledwidth="75%",alt="My Account Messages"]
 
