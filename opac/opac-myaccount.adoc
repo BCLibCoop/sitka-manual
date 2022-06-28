@@ -6,7 +6,7 @@ My Account
 (((Update Password, My Account)))
 
 Patrons and staff can access information about their account from any page in the public catalogue by
-clicking the *My Account* button at the top right of the page. Account information includes contact
+clicking the *My Account* link at the top right of the page. Account information includes contact
 information, items checked out or on hold, fines, account preferences, notes left by the library
 (if any) and lists. For library staff accounts, editing information in their account in the public catalogue is the same as editing their account in the staff catalogue.
 
@@ -20,7 +20,7 @@ image::images/opac/opac-account-1.png[scaledwidth="75%",alt="My Account"]
 +
 . Enter your username or your library barcode.
 +
-.. If this is your first time logging in, your username will be your library card number. You have the
+.. If this is your first time logging in, your username will likely be your library card number. You have the
 option to change your username on the _Account Preferences_ screen.
 +
 . Enter your password.
@@ -28,9 +28,9 @@ option to change your username on the _Account Preferences_ screen.
 .. You should have been given a password when you received your library card.
 +
 .. If you do not have or cannot recall your password please contact your local library to have the password
-reset or use the *Forgot Your Password?* link.
+reset or use the xref:_resetting_your_password.[*Forgot Your Password?*] link.
 +
-. Click *Login*.
+. Click *Log in*.
 
 image::images/opac/opac-account-2.png[scaledwidth="75%",alt="My Account"]
 
@@ -70,7 +70,7 @@ image::images/opac/opac-account-4.png[scaledwidth="75%",alt="My Account"]
 +
 . Open the link provided in the _Library Account Password Reset Request_ email.
 +
-. Enter your new password in the password reset form in the browser.
+. Enter your new password in the password reset form in the browser and click *Submit*.
 +
 image::images/opac/opac-account-4a.png[scaledwidth="75%",alt="My Account"]
 +
