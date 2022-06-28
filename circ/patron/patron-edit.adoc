@@ -71,14 +71,19 @@ image:images/circ/patronupdate9.png[scaledwidth="75%"]
 . Click *Save* at top right of screen.
 
 
-Re-setting a Patron Password
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Resetting a Patron Password
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Co-op Support recommends libraries encourage their patrons to use the 
-xref:_resetting_your_password[Forgot Your Password link] in the public catalogue for password resets whenever possible.
-When needed it is also possible for staff to reset a patron's password in the staff client.  This should be a temporary
-password and patrons should be encouraged to sign into _My Account_ and update the password to something secure that 
-only they know.
+Co-op Support recommends libraries encourage their patrons to reset their own passwords whenever possible.
+Patrons can use the xref:_resetting_your_password[Forgot Your Password link] in the public catalogue 
+or staff can use the *Send Password Reset Link* button found beside the Password field on the _Edit_ tab of
+the patron account.
+
+image:images/circ/reset-patron-password-1.png[scaledwidth="75%"]
+
+When needed it is also possible for staff to reset a patron's password in the staff client.  This should 
+be a temporary password and patrons should be encouraged to sign into _My Account_ and 
+xref: _personal_information[update the password] to something secure that only they know.
 
 . Click *Generate Password* to generate a random 4 digit password or type a new password into the field.
 +
@@ -90,7 +95,8 @@ their phone number.
 
 [TIP]
 ======
-The existing password is not displayed in patron records for security reasons.
+The existing password is not displayed in the patron account for security reasons. As well, Co-op staff cannot 
+retrieve existing passwords. 
 ======
 
 Update and Test Email Address or SMS/Text Number
