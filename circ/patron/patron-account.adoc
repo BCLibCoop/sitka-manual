@@ -90,9 +90,34 @@ image:images/circ/check-out-tab-3.png[]
 
 Holds Tab
 ^^^^^^^^^
-two tabs
-reference to place hold from patrons account
-reference to managing holds
+
+The _Holds_ tab is divided into two tabs which show a patron's open hold requests and their recently
+cancelled holds.
+
+Open Hold Requests
+++++++++++++++++++
+
+This tab shows holds that are waiting to be filled or are ready to be picked up by the patron.
+
+image:images/circ/holds-tab-1.png[]
+
+Staff can xref:_placing_holds_in_patron_records[place new holds for the patron] from this tab as well 
+as xref:_managing_holds[manage their existing holds].
+
+The columns _Notifications Phone Number_, _Notifications SMS Number_, and _Notify by Email?_ can be 
+used to determine how a patron will be or should have been notified about a particular hold.  
+
+
+Recently Canceled Holds
++++++++++++++++++++++++
+
+This tab shows holds that have been cancelled.  Holds can be cancelled by the patron, by staff, or by
+Evergreen.  The _Cancel Cause_ column will indicate why the hold was cancelled and from that staff can determine
+whether the cancellation was done by the patron, staff, or Evergreen.
+
+image:images/circ/holds-tab-2.png[]
+
+See xref:_cancelling_holds[] for information on how holds are cancelled.
 
 
 Bills Tab
