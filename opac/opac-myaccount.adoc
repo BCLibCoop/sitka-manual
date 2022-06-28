@@ -227,14 +227,18 @@ to your account.
 
 image::images/opac/opac-account-messages-1.png[scaledwidth="75%",alt="My Account Messages"]
 
-Unread messages display in bold.  Click on the *Read* button or the subject to read the message.
-
-image::images/opac/opac-account-messages-2.png[scaledwidth="75%",alt="My Account Messages"]
-
 You can set messages to read or unread, or delete them by selecting the message(s) and then choosing the
 appropriate button.
 
+image::images/opac/opac-account-messages-2.png[scaledwidth="75%",alt="My Account Messages"]
+
+Unread messages display in bold.  Click on the *Read* button or the subject to read the message.
+
 image::images/opac/opac-account-messages-3.png[scaledwidth="75%",alt="My Account Messages"]
+
+The message will display.
+
+image::images/opac/opac-account-messages-4.png[scaledwidth="75%",alt="My Account Messages"]
 
 
 Items Checked Out
