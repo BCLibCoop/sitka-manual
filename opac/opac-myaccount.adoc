@@ -249,16 +249,21 @@ Items Checked Out
 Current Items Checked Out
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Select the _Items Checked Out_ tab at the top of the _My Account_ area to display all of the items you
+In _My Account_ click *Items Checked Out -> Current Items Checked out* to display all of the items you
 currently have checked out.
 
 image::images/opac/opac-account-checked-out-1.png[scaledwidth="75%",alt="My Account Checked Out"]
 
-You can sort the list by Title, Author, Renewals Left, Due Date, Barcode, or Call number by clicking on
-the blue text. The first click sorts the list alphabetically in ascending order and a second click sorts
-the list alphabetically in descending order.
+By default the list will sort by due date.  The due dates for overdue items will be indicated in red.
 
-If you wish to renew items, select the items to renew and click *Go* beside _Renew Selected Titles_.
+
+You can sort the list by Title, Author, Renewals Left, Due Date, Barcode, or Call number by clicking on
+the blue text. The first click sorts the list in ascending order and a second click sorts
+the list in descending order.
+
+If you wish to renew items, select the items to renew and click *Renew Selected*.  A pop-up will
+as you to confirm you wish to renew; click *OK*.  If the item cannot be renewed a message will indicate
+to the patron why the renewal was not possible.
 
 image::images/opac/opac-account-checked-out-2.png[scaledwidth="75%",alt="My Account Checked Out"]
 
@@ -266,23 +271,24 @@ Check Out History
 ^^^^^^^^^^^^^^^^^
 (((Check Out History)))
 
-Select the _Check Out History_ tab to display a list of items that you have previously checked out.
+In _My Account_ click *Items Checked Out -> Check Out History* to display a list of items that you have 
+previously checked out.
 
 image::images/opac/opac-account-checked-out-3.png[scaledwidth="75%",alt="My Account Checked Out"]
 
-Check out history will only display if it has been enabled in your _Search and History Preferences_.  History
+Check out history will only display if it has been enabled in your 
+xref:_search_and_history_preferences[_Search and History Preferences_].  History
 displays from the date you enabled it; items checked out prior will not be included in your history.
 
 You can sort the list by Title, Author, Checkout Date, Due Date, Date Returned, Barcode, or Call number by
-clicking on the blue text. The first click sorts the list alphabetically in ascending order and a second
-click sorts the list alphabetically in descending order.
+clicking on the blue text. The first click sorts the list in ascending order and a second
+click sorts the list in descending order.
 
 Click Download CSV to download your list in a file that can be opened in a spreadsheet program.
 
-If you wish to delete individual titles from the list select the items you wish to delete and click *Go*
-beside _Delete Selected Titles_.
+If you wish to delete individual titles from the list select the items you wish to delete and click 
+*Delete Selected*.
 
-image::images/opac/opac-account-checked-out-4.png[scaledwidth="75%",alt="My Account Checked Out"]
 
 Holds
 ~~~~~
@@ -292,15 +298,15 @@ Holds
 Items on Hold
 ^^^^^^^^^^^^^
 
-Select the _Holds_ tab to display a list of items you have on hold.
+In _My Account_ click *X Holds / X Ready -> Items on Hold* to display a list of items you have on hold.
 
 image::images/opac/opac-account-holds-1.png[scaledwidth="75%",alt="My Account Holds"]
 
 You can sort the list by Title, Author, and Format by clicking on the blue text. The first click sorts the
-list alphabetically in ascending order and a second click sorts the list alphabetically in descending order.
+list in ascending order and a second click sorts the list in descending order.
 
-You can use the checkbox beside each hold to select the hold and the *Action for selected holds* drop down list
-to suspend, activate, or cancel the selected holds. You may set an activation date when you suspend your hold
+You can use the checkbox beside each hold to select the hold and use the buttons to suspend, activate, 
+or cancel the selected holds. You may set an activation date when you suspend your hold
 or leave the date blank and manually activate it later. A suspended hold will not lose its hold queue position.
 
 The _Status_ column shows whether or not your hold is currently available for pickup, if it has been
@@ -309,9 +315,9 @@ suspended, and what your position is in the hold queue.
 Your position in the hold queue is indicated by the first number in the status column. For example
 "Hold #3 on 1 copy" indicates you are third in the hold queue.
 
-Clicking the *Edit* link will bring you to the hold editing screen.  Here you can:
+Clicking the *Edit* button will bring you to the hold editing screen.  Here you can:
 
-* change the pick up location if your a multi-branch library.
+* change the pick up location if you're a multi-branch library.
 +
 * activate the hold or suspend it hold, if not already captured.
 +
@@ -326,18 +332,20 @@ Holds History
 ^^^^^^^^^^^^^
 (((Holds History)))
 
-Select the Holds History tab to display a list of items that you have previously had on hold. History
-displays from the date you enabled it; holds placed prior will not be included in your history.
+In _My Account_ click *X Holds / X Ready -> Holds History* to display a list of items that you have 
+previously had on hold. History displays from the date you enabled it; holds placed prior will not 
+be included in your history.
 
 image::images/opac/opac-account-holds-3.png[scaledwidth="75%",alt="My Account Holds"]
 
-Holds history will only display if it has been enabled in your _Search and History Preferences_.
+Holds history will only display if it has been enabled in your 
+xref:_search_and_history_preferences[_Search and History Preferences_].
 
 Hold Groups
 ^^^^^^^^^^^
 (((Hold Groups)))
 
-Select the Hold Groups tab to display a list of Hold Groups you are included in.
+SIn _My Account_ click *X Holds / X Ready -> Hold Groups*  to display a list of Hold Groups you are included in.
 
 image::images/opac/opac-holdgroups.png[scaledwidth="75%",alt="My Account Hold Groups"]
 
