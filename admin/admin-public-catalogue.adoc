@@ -1,26 +1,36 @@
 Public Catalogue Customizations
 -------------------------------
 
-Certain things in your public catalogue can be customized for you by Sitka staff.  Making these changes takes time
-so please ensure you contact Support with your requested changes at least one week before you want the changes live.
+Certain things in your public catalogue can be customized for you by Sitka staff.  Making these changes 
+takes time so please ensure you xref:https://bc.libraries.coop/support/[contact Co-op Support] with your 
+requested changes at least one week before you want the changes live.
 
 Appearance
 ^^^^^^^^^^
 
 Each library can customize the Evergreen public catalogue with their logo and colours. 
 
-The logo should be sent to Support as a .png file.
+The logo should be sent to xref:[Co-op Support] as a .png file.
+
+[NOTE]
+======
+Co-op Support recommends thinking about how your logo will display on different devices.  Large or long
+logos may not display well when the public catalogue is viewed on a mobile device.
+======
 
 There can be separate colours for:
 
 * the header
 * the footer
 * the buttons (search, clear form, my account)
-* the tabs (advanced search, numeric search, expert search) on Advanced Search page
-* horizontal _Library Home_ bar
+* the facets (to the left of the search results)
 
 Please provide the colours you want in their hex codes. If you like a colour used on another Sitka library's
 public catalogue let us know and we can pull the hex code from their site.
+
+By default there are two links in the header - _Library Home_ and _My Account_.  Additional links can
+be added to point to other resources and pages the library wishes to include.  To have a link added
+please send both the link and the text to display to xref:https://bc.libraries.coop/support/[Co-op Support].
 
 By default the public catalogue displays just the date for due dates.  Libraries that have hourly loans
 can choose to have the due date time included; the due date time will display for all check outs, not
@@ -56,8 +66,7 @@ image::images/admin/my-account-customize-1.png[]
 . Password Hint
 .. This text can be controlled by the library setting _uses phone as default pin_ which switches the text between 
 wording about a default PIN or using the last 4 digits of the patron's phone number.  
-.. This text can also be
-customized if neither option covers the information your patrons need.
+.. This text can also be customized if neither option covers the information your patrons need.
 
 
 Patron Settings
