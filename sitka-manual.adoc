@@ -150,9 +150,7 @@ include::admin/admin-serveradmin.adoc[]
 
 include::admin/admin-self-check.adoc[]
 
-////
 include::admin/admin-public-catalogue.adoc[]
-////
 
 include::admin/admin-patron-deletion-tool.adoc[]
 
