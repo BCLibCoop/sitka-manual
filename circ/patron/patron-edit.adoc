@@ -5,10 +5,6 @@ Editing Patron Accounts
 (((Renew Patron Card)))
 (((Library Card)))
 
-Routine maintenance of your patron accounts includes updating patrons' contact information, 
-contact preferences, renewing expired library cards, marking library cards lost, 
-re-setting patrons' passwords, inserting notes or alert messages, and so on. 
-
 To access a patron's account: 
 
 . Scan the patron's barcode or search for the patron by name.
@@ -83,7 +79,7 @@ image:images/circ/reset-patron-password-1.png[scaledwidth="75%"]
 
 When needed it is also possible for staff to reset a patron's password in the staff client.  This should 
 be a temporary password and patrons should be encouraged to sign into _My Account_ and 
-xref: _personal_information[update the password] to something secure that only they know.
+xref:_personal_information[update the password] to something secure that only they know.
 
 . Click *Generate Password* to generate a random 4 digit password or type a new password into the field.
 +
