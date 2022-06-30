@@ -1,10 +1,10 @@
-Catalogue Preferences
-~~~~~~~~~~~~~~~~~~~~~
+Search Preferences
+~~~~~~~~~~~~~~~~~~
 
-Catalogue related preferences can be set directly in the staff catalogue.
+Catalogue searching related preferences can be set directly in the staff catalogue.
 
-.To set your catalogue preferences:
-. In the catalogue click on *Catalog Preferences*.
+.To set your preferences:
+. In the staff catalogue click on *Search Preferences*.
 +
 image::images/cat/search-preferences-1.png[Catalog Preference Button]
 +
@@ -28,5 +28,5 @@ We recommend keeping this number under 200.
 [NOTE]
 ======
 The preference set in the staff client override any preferences for the logged in account that 
-have been set in the public catalogue via My Account.
+have been set in the public catalogue via xref:_search_and_history_preferences[My Account].
 ======
