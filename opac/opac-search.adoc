@@ -13,8 +13,7 @@ The language selector in the top-right allows your users to switch between Engli
 
 image::images/opac/opac-language-selector-1.png[scaledwidth="75%",alt="Language Selector]
 
-The generic public catalogue which searches all of Sitka is https://catalogue.libraries.coop. This catalogue
-is also used in the staff client for searching the catalogue.
+The generic public catalogue which searches all of Sitka is https://catalogue.libraries.coop. 
 
 Each library has a public catalogue using their logo and colours.  The default URL for all library specific
 public catalogues is https://LIBRARYCODE.PROVINCECODE.catalogue.libraries.coop.
@@ -99,6 +98,26 @@ add more search input rows. Clicking the *X* button will close the search input 
 
 image::images/opac/opac-advanced-search-1.png[scaledwidth="75%",alt="Basic Search"]
 
+Search Filters
+^^^^^^^^^^^^^^
+
+You can filter your search by:
+
+* Format
+* Language
+* Audience
+* Literary Form
+* Shelving Location
+
+Click on a filter bar to see the available options.
+
+image::images/opac/opac-advanced-search-2.png[scaledwidth="75%",alt="Basic Search"]
+
+[TIP]
+=====
+All the search filters, with the exception of Shelving Location, rely on values entered into the Leader,
+007, 008, or 041 fields of the MARC record. Records with incorrect coding will not filter correctly.
+=====
 
 Search Library
 ^^^^^^^^^^^^^^
@@ -117,6 +136,21 @@ If you access the catalogue from https://catalogue.libraries.coop, your default 
 Sitka or the library you have selected on the homepage. You may use the _Search Library_ box to select a
 different library or regional libraries, or all libraries in Sitka to search.
 
+Publication Year
+^^^^^^^^^^^^^^^^
+
+For publication year you can filter for items published before, after, in-between, or during a particular
+year.
+
+Publication year is inclusive. For example, if you set Publication Year Between 2005 and 2007,
+your result items will be published in 2005, 2006 and 2007.
+
+[TIP]
+=====
+The publication year filter relies on the values in characters 07-10 in the 008 field of the MARC record.
+Records with incorrect coding will not filter correctly.
+=====
+
 Sort Results
 ^^^^^^^^^^^^
 
@@ -124,6 +158,20 @@ By default, the search results are in order of greatest to least relevance. See
 xref:_search_methodology[Order of Results in]. In
 the _Sort Results_ box you may select to order the search results by relevance, title, author,
 publication date, or popularity.
+
+Exclude Electronic Resources
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+When the _Exclude Electronic Resources_ checkbox is checked electronic resources are not included
+ in the search results.
+ 
+ 
+Group Formats and Editions
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+When the _Group Formats and Editions_ checkbox is checked all formats and editions of the same title are
+grouped as one result. For example, the DVD and the print editions of _Pride and 
+Prejudice_ will appear together.
 
 Limit to Available
 ^^^^^^^^^^^^^^^^^^
@@ -134,46 +182,6 @@ circulation status. Titles without available items in the selected search librar
 Item statuses that show as available are: _Available_, _On Display_, _Onsite Consultation_, _Reserves_,
 and _Reshelving_.
 
-Group Formats and Editions
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-When the _Group Formats and Editions_ checkbox is checked all formats and editions of the same title are
-grouped as one result. For example, the DVD and the first and second print editions of _Harry Potter and
-the Chamber of Secrets_ will appear together.
-
-Exclude Electronic Resources
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-When the _Exclude Electronic Resources_ checkbox is checked electronic resources are not included
- in the search results.
-
-Search Filter
-^^^^^^^^^^^^^
-
-You can filter your search by:
-
-* Format
-+
-* Language
-+
-* Audience
-+
-* Literary Form
-+
-* Publication Year
-
-** Publication year is inclusive. For example, if you set Publication Year Between 2005 and 2007,
-your result items will be published in 2005, 2006 and 2007.
-+
-* Shelving Location
-
-** Shelving Locations that are not OPAC visible will not be displayed
-
-[TIP]
-=====
-All the search filters, with the exception of Shelving Location, rely on values entered into the Leader,
-007, 008, or 041 fields of the MARC record. Records with incorrect coding will not filter correctly.
-=====
 
 Numeric Search
 ~~~~~~~~~~~~~~
@@ -191,8 +199,8 @@ image::images/opac/opac-numeric-search-1.png[scaledwidth="75%",alt="Basic Search
 Searching by Call Number will take you to the Shelf Browser.
 =====
 
-MARC Expert Search
-~~~~~~~~~~~~~~~~~~
+Expert Search
+~~~~~~~~~~~~~
 
 You can access the MARC Expert Search by clicking on the *Expert Search* tab on the Advanced Search screen.
 
@@ -201,7 +209,7 @@ If you are familiar with the MARC standard, you may search by specific MARC tags
 . Enter the three-digit tag number, the subfield (if relevant), and the value or text that corresponds
 to the tag. For example, to search by publisher name, enter 264 b Random House.
 +
-.. To search several tags simultaneously, use the *Add Row* option.
+.. To search several tags simultaneously, use the *Add Search Row* button.
 +
 . Click *Search* to run the search.
 
@@ -212,6 +220,8 @@ Browse the Catalogue
 
 You can access the browse search by clicking *Browse the Catalogue* on the Basic Search or search results
 screen.
+
+image::images/opac/opac-browse-catalogue-1.png[scaledwidth="75%",alt="Basic Search"]
 
 The following fields are browsable:
 
@@ -334,7 +344,7 @@ Understanding how stemming works can help you to create more relevant searches, 
 to anticipate how a search term will be stemmed. For example, searching for gold compass does not return
 for _golden compass_ because the search does not recognize _gold_ as a stem of _golden_.
 
-Truncation
+Truncationtitle:pride and prejudice
 ^^^^^^^^^^
 
 Use the wildcard * (asterisk) at the end of the word to truncate search term.
@@ -378,24 +388,26 @@ divided into several pages. At the top of the list, you can see the total number
 forth between the pages by clicking the Next or Previous at the top or bottom of the list or click the page number
 to go to that page directly.
 
-Your search terms will be highlighted in both the search results and title details screens.
+Your search terms will be highlighted in both the search results and title details screens. The
+checkbox *Disable Highlighting* will turn this off.
 
 image::images/opac/opac-search-results-1.png[scaledwidth="75%",alt="Basic Search"]
 
 Information about the title, such as author, edition, publication date, call number, shelving location,
-status, etc., is displayed under each title. The icons below the title link indicate formats such as books,
-audiobooks, video recordings, and other formats. Hover your mouse over the icon, and a text explanation
-will show up in a small pop-up box.
+status, etc., is displayed under each title. The icons beside the title link indicate formats such as books,
+audiobooks, video recordings, and other formats.
 
 Clicking a title goes to the title details. Clicking an author searches all works by the author. If you
 want to place a hold on the title, click *Place Hold* to the right of the title information.
 
-Above the results list there are _Limit to Available_ and _Exclude Electronic Resources_ checkboxes. Checking
+Above the results list there are _Limit to Available_, _Group By Formats and Editions_,
+ and _Exclude Electronic Resources_ checkboxes. Checking
 _Limit to Available_ will filter out those titles with no available copies in the library or libraries at
-the moment.  Checking _Exclude Electronic Resources_ will filter out titles for electronic resources. Usually
+the moment. Checking _Group By Formats and Editions_ will group all formats and editions of the same title 
+as one result. Checking _Exclude Electronic Resources_ will filter out titles for electronic resources. Usually
 you will see your search results re-displayed with fewer results.
 
-The _Sort by_ dropdown list is beside the checkboxes. Clicking an entry on the list will
+The _Sort by_ dropdown list is above the checkboxes. Clicking an entry on the list will
 re-sort your search results accordingly.
 
 Formats and Editions
@@ -410,9 +422,9 @@ image::images/opac/opac-search-results-2.png[scaledwidth="75%",alt="Basic Search
 Refine Your Search
 ^^^^^^^^^^^^^^^^^^
 
-You may refine your search results by _Topic_, _Place_, and _Genre_. Selecting one of these links on the left
-side of search results page narrows down the search results to that subject, author, or series. You may
-also refine your search by clicking the hyperlink labelled *Refine My Original Search* at top of search
+You may refine your search results by using the facets. Selecting one of these facet links on the left
+side of search results page narrows down the search results to your selected term. You may
+also refine your search by clicking the *Refine My Original Search* button at top of search
 results. Refining a search this way allows you to add search filters such as Publication Date, Format,
 Language, etc., to your original search.
 
