@@ -344,7 +344,7 @@ Understanding how stemming works can help you to create more relevant searches, 
 to anticipate how a search term will be stemmed. For example, searching for gold compass does not return
 for _golden compass_ because the search does not recognize _gold_ as a stem of _golden_.
 
-Truncationtitle:pride and prejudice
+Truncation
 ^^^^^^^^^^
 
 Use the wildcard * (asterisk) at the end of the word to truncate search term.
