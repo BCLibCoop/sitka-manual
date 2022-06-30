@@ -25,11 +25,11 @@ image:images/circ/retrieve-patron-1.png[]
 Patron Opt-In
 +++++++++++++
 
-Libraries participating in reciporcal borrowing agreements, like BC One Card, can opt-in patrons from other
-participating libraries. 
+Libraries participating in reciprocal borrowing agreements, like BC One Card, can opt-in patrons from other
+participating libraries.
 
 . When the barcode is scanned a pop-up requesting the patron's consent appears.
-. Click *OK/Continue* or *Cancel* as appropriate. 
+. Click *OK/Continue* or *Cancel* as appropriate.
 +
 image:images/circ/patron-opt-in-1.png[]
 
@@ -44,7 +44,7 @@ Retrieving an Account via Search Term
 
 link:https://youtu.be/JqY14Jd-BVU[*Sitka Snippet Video - Patron Search (1:04)*]
 
-The patron search enables you search using information in a patron account to retrieve your patrons and 
+The patron search enables you search using information in a patron account to retrieve your patrons and
 those patrons opted into your library.
 
 . Go to *Search → Search for Patrons*.
@@ -60,13 +60,12 @@ image:images/circ/patron-search-2.png[]
 
 [TIP]
 =====
-* To ensure all relevant patrons are search Co-op Support recommends have _Include Inactive?_ checked.
+* To ensure all relevant patrons are searched,  Co-op Support recommends having _Include Inactive?_ checked.
 * Libraries participating in reciprocal borrowing agreements should always set SITKA as the search library
 to ensure all opted-in patrons are included in the search.
 * The name fields search both the primary and preferred name fields.
 * Name keywords will retrieve patrons with the specified term present in any of the name fields.
 * Doing a search with _Profile Group_ set to Post-Sec Library Staff, Public Library Staff, etc. is a quick
-way to retrieve all staff accounts for your library so you can review them on a regular basis to ensure 
+way to retrieve all staff accounts for your library so you can review them on a regular basis to ensure
 the appropriate people have access to the staff client.
 =====
-

@@ -89,7 +89,7 @@ recorded in their account.
 Request a Library Card
 ~~~~~~~~~~~~~~~~~~~~~~
 
-If your library allows self-registration prospective patrons can request a card through your
+If your library allows self-registration, prospective patrons can request a card through your
 public catalogue.
 
 . In the footer of the public catalogue, click on the *Request Library Card* link.
@@ -97,7 +97,7 @@ public catalogue.
 image:images/opac/patron_self_registration-2.png[Patron Self-Registration form]
 +
 . Fill out the form to request a library card and click *Submit Registration*.
-. Patrons will see a confirmation message: “Registration successful!  Please see library staff to 
+. Patrons will see a confirmation message: “Registration successful!  Please see library staff to
 complete your registration.”  This message is customizable per library.
 +
 image:images/opac/patron_self_registration.png[Patron Self-Registration form]
@@ -106,7 +106,7 @@ image:images/opac/patron_self_registration.png[Patron Self-Registration form]
 
 [NOTE]
 ======
-The patron self-registration form shares settings with the staff client registration form.  
+The patron self-registration form shares settings with the staff client registration form.
 See xref:_customizing_the_display_fields[] for information on customizing which fields display and which fields
 are required.
 ======
@@ -157,7 +157,7 @@ for logging into the staff client.
 ======
 
 Depending on your library's policy, you may request a change to your address by submitting a new address
-in your account. This is controlled by the library setting _Allow pending addresses_.  Library staff will 
+in your account. This is controlled by the library setting _Allow pending addresses_.  Library staff will
 verify it and update your account.
 
 image::images/opac/opac-account-6a.png[scaledwidth="75%",alt="My Account"]
@@ -177,8 +177,8 @@ to be contacted by email, phone, or text message.
 Click *Send Test Text Message* to test your SMS/Text number.
 ////
 
-To opt-out of receiving courtesy and overdue email notices use the _Receive Overdue and Courtesy Emails_ 
-setting.  Un-checking this box means your library will not send you any emails for items coming due or 
+To opt-out of receiving courtesy and overdue email notices use the _Receive Overdue and Courtesy Emails_
+setting.  Un-checking this box means your library will not send you any emails for items coming due or
 overdue. You are still responsible for returning items on time and paying any applicable fines.
 
 To receive emailed checkout receipts by default, select _Email checkout receipts by default_ .
