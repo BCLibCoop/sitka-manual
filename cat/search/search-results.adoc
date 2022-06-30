@@ -11,14 +11,20 @@ http://docs.libraries.coop/policy/_cataloguing_procedures.html#_characteristics_
 +
 image::images/cat/viewing-search-results-1.png[two search results]
 +
-. The *Show More Details/Show Fewer Details* button will toggle the table with additional holdings information on 
-and off.  Items belonging to the preferred library will display first in the table.
+. The *Show More Details/Show Fewer Details* button will toggle grid with item information on 
+and off.  Items belonging to the preferred library will display first in the grid.
 +
 image::images/cat/viewing-search-results-2.png[two search results]
 +
 . To view the record details, click on the title link.
 +
 image::images/cat/viewing-search-results-3.png[section of the search result with the title link circled]
++
+[TIP]
+=====
+If there is only one result and the library setting _Jump to details on 1 hit (staff client)_ is set to TRUE you
+will taken directly into the record, bypassing the search results screen.
+=====
 +
 . Use the **MARC View** or **MARC Edit** tab to look at the MARC record to confirm that it matches with your 
 item.  Refer to the http://docs.libraries.coop/policy/_cataloguing_procedures.html[Cataloguing Procedures] section
