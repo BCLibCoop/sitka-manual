@@ -6,21 +6,28 @@ which is the best match for your item.  Refer to
 http://docs.libraries.coop/policy/_cataloguing_procedures.html#_characteristics_of_a_best_marc_record_in_the_sitka_database[Characteristics of a "Best" MARC Record in the Sitka Database].
 
 . The results for your search will display.
-.. Brief holdings and bibliographic details display for each search result.
+.. Brief bibliographic details display for each search result.
+.. Regardless of the search library, holdings counts for your preferred library will display.
 +
-image::images/cat/numeric-search-4.png[two search results]
+image::images/cat/viewing-search-results-1.png[two search results]
++
+. The *Show More Details/Show Fewer Details* button will toggle the table with additional holdings information on 
+and off.  Items belonging to the preferred library will display first in the table.
++
+image::images/cat/viewing-search-results-2.png[two search results]
 +
 . To view the record details, click on the title link.
 +
-image::images/cat/viewing-search-results-1.png[section of the search result with the title link circled]
+image::images/cat/viewing-search-results-3.png[section of the search result with the title link circled]
 +
 . Use the **MARC View** or **MARC Edit** tab to look at the MARC record to confirm that it matches with your 
 item.  Refer to the http://docs.libraries.coop/policy/_cataloguing_procedures.html[Cataloguing Procedures] section
 of the Policy Manual for information on how to determine a match.
 +
-image::images/cat/viewing-search-results-2.png[Record Details with MARC View]
+image::images/cat/viewing-search-results-4.png[Record Details with MARC View]
 +
-. If satisfied that the record matches the item in hand, you can proceed to add your holdings to the record.
+. If satisfied that the record matches the item in hand, you can proceed to 
+xref:add_holdings[add your holdings] to the record.
 
 
 
