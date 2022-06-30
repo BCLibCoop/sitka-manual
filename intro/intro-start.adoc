@@ -66,7 +66,7 @@ image::images/intro/login.png[]
 
 [NOTE]
 ======
-Ensure you are using your username and not your barcode.  Your barcode cannot be used to log into the 
+Ensure you are using your username and not your barcode.  Your barcode cannot be used to log into the
 staff client unless your barcode is also use for your username.
 ======
 
@@ -80,7 +80,7 @@ image::images/intro/logout.png[]
 
 [CAUTION]
 =========
-Closing all browser windows will automatically log you out of the web client. If you only close the 
+Closing all browser windows will automatically log you out of the web client. If you only close the
 tab where the web client is loaded, you will remain logged in.
 =========
 
@@ -106,7 +106,7 @@ Function Bar
 ~~~~~~~~~~~~
 
 The function bar can be found throughout Evergreen and enables you to page through pages,
-adjust the number of rows displaying, access the Actions menu, and manage your columns.
+adjust the number of rows displaying, access the Actions menu, and manage your columns and Actions menus.
 
 The function bar comes in two styles with similar functionality.
 
@@ -118,7 +118,7 @@ image::images/intro/function-bar-2.png[]
 . Actions Menu
 . Adjust number of rows
 . Jump to page
-. Column Configuration
+. Column and Actions Menus configuration
 . Text wrap
 
 
@@ -156,6 +156,15 @@ image::images/intro/columnconfig3.png[]
 . Click *Save Grid Settings*.
 +
 image::images/intro/columnconfig4.png[]
+
+
+Manage Actions Menu
+~~~~~~~~~~~~~~~~~~~
+On one version of the Function Bar, found on some screens,  you can click on the column picker drop-down menu and select *Manage Actions Menu* to change which actions are displayed. The action choices vary from screen to screen.
++
+image::images/intro/columnconfig5.png[]
++
+ Make required changes and click *Close*
 
 Filters
 ~~~~~~~
