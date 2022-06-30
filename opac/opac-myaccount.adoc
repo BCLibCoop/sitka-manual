@@ -345,7 +345,7 @@ Hold Groups
 ^^^^^^^^^^^
 (((Hold Groups)))
 
-In _My Account_ click *X Holds / X Ready -> Hold Groups*  to display a list of Hold Groups you are included in.
+In _My Account_ click *X Holds / X Ready -> Hold Groups* to display a list of Hold Groups you are included in.
 
 image::images/opac/opac-holdgroups.png[scaledwidth="75%",alt="My Account Hold Groups"]
 
@@ -366,10 +366,21 @@ On the reservations tab patrons can view items they have reserved through the Bo
 image::images/opac/opac-reservations-2.png[scaledwidth="75%",alt="My Account Reservations"]
 
 
-Fines and Payments
-~~~~~~~~~~~~~~~~~~
+Charges
+~~~~~~~
 
-The _Fines and Payments_ tab, at bottom of the _Account Summary_ screen, displays any fines or fees
-accrued and the payments made. Fines are paid at the library.
+Current Charges
+^^^^^^^^^^^^^^^
 
-image::images/opac/opac-account-fines-1.png[scaledwidth="75%",alt="My Account Fines"]
+In _My Account_ click *Charges -> Current Charges* to display any oustanding charges.
+
+image::images/opac/opac-account-charges-1.png[scaledwidth="75%",alt="My Account Fines"]
+
+Payment History
+^^^^^^^^^^^^^^^
+
+In _My Account_ click *Charges -> Payment History* to display any payments that have been made.
+
+image::images/opac/opac-account-charges-2.png[scaledwidth="75%",alt="My Account Fines"]
+
+You can email or print a payment receipt.
