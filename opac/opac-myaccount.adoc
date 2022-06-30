@@ -358,13 +358,10 @@ Reservations
 
 
 Patrons of libraries using the Booking Module will have a Reservations tab display in their account.
+On the reservations tab patrons can view items they have reserved or 
+borrowed through the Booking Module.
 
 image::images/opac/opac-reservations-1.png[scaledwidth="75%",alt="My Account Reservations"]
-
-On the reservations tab patrons can view items they have reserved through the Booking Module and their status.
-
-image::images/opac/opac-reservations-2.png[scaledwidth="75%",alt="My Account Reservations"]
-
 
 Charges
 ~~~~~~~
