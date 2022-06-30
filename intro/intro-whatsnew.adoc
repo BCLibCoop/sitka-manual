@@ -34,7 +34,13 @@ Wider rollout is expected at a later date.
 Staff Catalogue
 ~~~~~~~~~~~~~~~
 
-* More details button in search results that reveals the grid with item information.
+* More details button in search results that reveals either the grid with item information and/or URLs.
+* Call number now displays in the brief details in the search results.  This is the call number of the first item
+listed in the grid with item information.
+* Holding counts display in the search results for the preferred library.
+* Preferred library holdings display on top in the grid with item information.
+
+
 
 
 
