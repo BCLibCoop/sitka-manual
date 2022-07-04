@@ -3,13 +3,14 @@ New Features in Evergreen Version 3.9
 
 *New Features in Sitka's Evergreen 3.9 Playlist*
 
+[[new-features-staff-client]]
 Staff Client
 ~~~~~~~~~~~~
 
 * Re-designed staff portal page (splash page)
 * Actions menu option allows you to remove actions you don't use from the Actions menu in certain interfaces.
 
-
+[[new-features-circulation]]
 Circulation
 ~~~~~~~~~~~
 
@@ -21,7 +22,7 @@ information.
 * New look for the triggered events log
 * 
 
-
+[[new-features-cataloguing]]
 Cataloguing
 ~~~~~~~~~~~
 
@@ -30,7 +31,7 @@ Cataloguing
 Wider rollout is expected at a later date.
 * Holdings Editor
 
-
+[[new-features-staff-catalogue]]
 Staff Catalogue
 ~~~~~~~~~~~~~~~
 
@@ -40,38 +41,37 @@ listed in the grid with item information.
 * Holding counts display in the search results for the preferred library.
 * Preferred library holdings display on top in the grid with item information.
 
-
-
-
-
+[[new-features-public catalogue]]
 Public Catalogue
 ~~~~~~~~~~~~~~~~
 
-*Re-designed public catalogue with a new look
+* Re-designed public catalogue with a new look
 * Option for patrons to select their locale which determines the lanugage their email notifications are sent in
 
-
+[[new-features-reports]]
 Reports
 ~~~~~~~
 
 * Simple Reports
 
-
+[[new-features-course-reserves]]
 Course Reserves
 ~~~~~~~~~~~~~~~	
 
 * New course reserves module within Evergreen which replaces the existing 3rd party course reserves module
 
-
+[[new-features-booking]]
 Booking
 ~~~~~~~
 
+[[new-features-patron-notifications]]
 Patron Notifications
 ~~~~~~~~~~~~~~~~~~~~
 
 * Email notifications are now available in French to patrons who set their locale to French.  Libraries that wish the French notifications to match
 their customized English notifications must provide translations to Co-op Support.
 
+[[new-features-administration]]
 Administration
 ~~~~~~~~~~~~~~
 
