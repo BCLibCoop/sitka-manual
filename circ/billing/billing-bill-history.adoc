@@ -1,27 +1,41 @@
-[[cat-bill-history]]
 Bill History
 ~~~~~~~~~~~~
 (((Bill History)))
 
+Within the bill history in a patron's account staff can see the transactions (open and closed) that have 
+taken place on the patron's account as well as a history of payments made by the patron.
 
-Bill History
-^^^^^^^^^^^^^
+
+Transactions Tab
+^^^^^^^^^^^^^^^^
 
 . Click *History* in patron's bills screen.
-. View all bills, or bills from a specified time frame. Use the calendar widgets to choose the *Start Date* and *End Date*, and click *Apply*.
+. By default transactions from the last 12 months will display.  Use the calendar widgets to choose 
+select a different timeframe if needed.
 +
 image:images/circ/billhistory1.png[scaledwidth="75%"]
 +
-. For more information about a particular bill, select the line item and click *Actions -> Full Details*.
+. Select a line and go to the *Actions* menu to see the full details, add billing, or print the bill out.
 +
 image:images/circ/billhistory2.png[scaledwidth="75%"]
-+
-. All transaction details are listed, such as time stamps, circulation dates, billing dates, amounts, staff identification, and item information
 
 
-Payment History
-^^^^^^^^^^^^^^^
+Payments Tab
+^^^^^^^^^^^^
 
-. Click *Payments* on *Bill History* screen.
-. View all payments, or payments from a specified time frame. Use the calendar widgets to choose the *Start Date* and *End Date*, and click *Apply*.
+. Click *History* in patron's bills screen.
+. Select the *Payments* tab.
+. By default transactions from the last 12 months will display.  Use the calendar widgets to choose 
+select a different timeframe if needed.
 . For more information about a particular payment, select the line item and click *Actions -> Full Details*.
+
+[TIP]
+=====
+The value in the Payment Type field will show how the bill was paid. 
++
+image:images/circ/bill-history-3.png[scaledwidth="75%"]
++
+Bills can be paid automatically by 
+the system adjusting bills when lost items are returned or xref:_making_payments[manualy by staff]
+ accepting a form of payment, using patron credit or forgiving a patron's fines.
+=====
