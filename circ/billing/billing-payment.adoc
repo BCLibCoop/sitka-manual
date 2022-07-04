@@ -5,21 +5,39 @@ Making Payments
 
 Bills can be paid by cash, check, or credit, or be resolved by forgiveness, work, or goods.
 
-. Click on *Bills* tab.
+If the patron should not have to pay the bill (ie. the patron should not have been billed in the 
+first place) see xref:_adjust_bill_balance_to_zero[] and xref:_voiding_bills[] for additional options
+to resolve the bill.
+
+. In the patron's account click on the *Bills* tab.
 . Select or de-select bills to pay. Oldest bills are paid first by default.
-. Select *Receipt On Payment* and enter *#Copies* as required.
+. If the patron would like a printed receipt check the box for *Receipt On Payment* and enter number of 
+copies to print in the *#Items* field.
++
+image:images/circ/bills-payments-1.png[scaledwidth="75%"]
++
 . Select the payment type from the drop down menu.
 +
-image:images/circ/paybills1.png[scaledwidth="75%"]
+image:images/circ/bills-payments-2.png[scaledwidth="75%"]
 +
-. Enter the payment in the *Payment Received* field and click *Apply Payment*.
+. Enter the amount given by the patron in the *Payment Received* field.
 +
-image:images/circ/paybills2.png[scaledwidth="75%"]
-+
-. Details of the transaction are displayed.
-+
-image:images/circ/paybills3.png[scaledwidth="75%"]
+[TIP]
+===== 
+If the patron is paying in cash you can enter the total amount received and the amount of change 
+to give to the patron will display in the _Pending Change_ field.
 
+image:images/circ/bills-payments-3.png[scaledwidth="75%"]
+=====
++
+. Check the box for *Annotate* if you wish to include a note with the payment.
+. Click *Apply Payment*.
++
+image:images/circ/bills-payments-4.png[scaledwidth="75%"]
++
+. The payment is applied and the receipt will print if it was selected.
 
-
-TIP: Click *Annotate* to add a note to the payment.
+[NOTE]
+======
+If needed details of payments can be seen by clicking on the xref:_bill_history[History] button.
+======
