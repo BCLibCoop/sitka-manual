@@ -32,10 +32,10 @@ select a different timeframe if needed.
 [TIP]
 =====
 The value in the Payment Type field will show how the bill was paid. 
-+
+
 image:images/circ/bill-history-3.png[scaledwidth="75%"]
-+
+
 Bills can be paid automatically by 
-the system adjusting bills when lost items are returned or xref:_making_payments[manualy by staff]
+the system adjusting bills when lost items are returned or xref:_making_payments[manually by staff]
  accepting a form of payment, using patron credit or forgiving a patron's fines.
 =====
