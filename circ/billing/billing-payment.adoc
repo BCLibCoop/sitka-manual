@@ -11,8 +11,8 @@ to resolve the bill.
 
 . In the patron's account click on the *Bills* tab.
 . Select or de-select bills to pay. Oldest bills are paid first by default.
-. If the patron would like a printed receipt check the box for *Receipt On Payment* and enter number of 
-copies to print in the *#Items* field.
+. If the patron would like a printed receipt check the box for *Receipt On Payment* and enter the number of 
+copies to print in the *# Items* field.
 +
 image:images/circ/bills-payments-1.png[scaledwidth="75%"]
 +
@@ -35,9 +35,9 @@ image:images/circ/bills-payments-3.png[scaledwidth="75%"]
 +
 image:images/circ/bills-payments-4.png[scaledwidth="75%"]
 +
-. The payment is applied and the receipt will print if it was selected.
+. The payment is applied and a receipt will print if that option was checked.
 
 [NOTE]
 ======
-If needed details of payments can be seen by clicking on the xref:_bill_history[History] button.
+Details of payments can be seen by clicking on the xref:_bill_history[History] button.
 ======
