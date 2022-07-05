@@ -143,6 +143,7 @@ Additional options for the patron account can be found in the *Other* drop down 
 |===
 |Display Alerts | Evergreen will display the initial alert/blocks page.
 |Triggered Events/Notifications | Check to see if emails and/or SMS messages have been generated for patrons.
+See xref:_checking_for_notifications[].
 |Message Center | Obsolete interface. This functionality can be found in the
 xref:_patron_notes[*Notes*] tab.
 |Statistical Categories | View information about any patron statistical categories assigned to the patron.
