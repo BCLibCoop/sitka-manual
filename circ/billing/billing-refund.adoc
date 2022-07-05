@@ -7,6 +7,9 @@ account.  To close negative bills, you can link:_adjusting_the_bill_balance_to_z
 zero], link:_add_charge_to_existing_bill[add a bill entry to the negative line item], 
 or refund the balance amount.
 
+On occasion staff may need to manually void a payment in order to trigger the refund.  See 
+xref:_voiding_a_paid_bill[].
+
 [NOTE]
 ======
 The most common scenario resulting in a negative balance is a lost item that has been paid for being 
@@ -22,7 +25,7 @@ image:images/circ/billing-refund-1.png[scaledwidth="75%"]
 +
 image:images/circ/billing-refund-2.png[scaledwidth="75%"]
 +
-. The tally section of the *Bills* tab you will see the amount you are refunding reflecting in the 
+. In the summary section of the *Bills* tab you will see the amount you are refunding reflected in the 
 _Refunds Available_ and _Pending Payment_ amounts.
 +
 image:images/circ/billing-refund-3.png[scaledwidth="75%"]
