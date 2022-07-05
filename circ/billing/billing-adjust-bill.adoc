@@ -2,13 +2,25 @@ Adjusting the Bill Balance to Zero
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 (((Adjust to Zero)))
 
-This function sets any balance to zero, and is the easiest way to clear a negative balance from patron account.
+This function sets any balance to zero and can be used to clear bills that you have determined the patron
+should not pay, possibly because they shouldn't have been billed in the first place.  A record of the 
+adjustment is kept in the patron's transaction xref:_bill_history[history].
 
-. Click *Bills* in patron account.
+For bills that the patron should have been billed but that staff are choosing to forgive Co-op Support
+recommends using the _Forgive_ payment instead to enable staff to track amounts that are forgiven.  See
+xref:_making_payments[].
+
+Adjust to zero can also be used to clear a negative balance from patron account.  If money is being returned
+to the patron staff should instead xref:_refunding_payments[refund the payment].
+
+. In the patron's account click on the *Bills* tab.
 . Select the bill line item and click *Actions -> Adjust to Zero*.
 +
-image:images/circ/adjustzero1.png[scaledwidth="75%"]
+image:images/circ/adjust-zero-1.png[scaledwidth="75%"]
 +
-. Click *OK/Continue*.
+. Click *OK/Continue* on the pop-up that appears.
+. The bill has been adjusted to zero and no longer appears on the bill screen.
+. A record of the adjustment is available in the patron's bill xref:_bill_history[history] in the full details 
+of the payment.
 +
-image:images/circ/adjustzero2.png[scaledwidth="75%"]
+image:images/circ/adjust-zero-2.png[scaledwidth="75%"]
