@@ -7,7 +7,9 @@ include::billing/billing-bill-patron.adoc[Adding New "Grocery" Bills]
 
 include::billing/billing-payment.adoc[Making Payments]
 
+////
 include::billing/billing-patron-credit.adoc[Adding Patron Credit]
+////
 
 include::billing/billing-refund.adoc[Refunding Payments]
 

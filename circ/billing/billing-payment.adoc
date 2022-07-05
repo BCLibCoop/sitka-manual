@@ -6,7 +6,7 @@ Making Payments
 Bills can be paid by cash, check, or credit, or be resolved by forgiveness, work, or goods.
 
 If the patron should not have to pay the bill (ie. the patron should not have been billed in the 
-first place) see xref:_adjust_bill_balance_to_zero[] and xref:_voiding_bills[] for additional options
+first place) see xref:_adjusting_the_bill_balance_to_zero[] and xref:_voiding_bills[] for additional options
 to resolve the bill.
 
 . In the patron's account click on the *Bills* tab.
@@ -15,6 +15,17 @@ to resolve the bill.
 copies to print in the *# Items* field.
 +
 image:images/circ/bills-payments-1.png[scaledwidth="75%"]
++
+. If the patron is paying in cash and would like their change added as credit to their account check 
+the box for *Convert Change to Patron Credit*.
++
+image:images/circ/bills-payments-1a.png[scaledwidth="75%"]
++
+[NOTE]
+======
+Libraries that do not allow patron's to have credit can set the library setting _Disable Patron Credit_ 
+to FALSE to turn off this feature.
+======
 +
 . Select the payment type from the drop down menu.
 +
