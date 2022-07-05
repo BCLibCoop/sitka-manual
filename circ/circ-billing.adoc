@@ -3,7 +3,7 @@ Bills and Payments
 
 include::billing/billing-bills.adoc[Circulation vs. Grocery Bills]
 
-include::billing/billing-bill-patron.adoc[Adding New "Grocery" Bills]
+include::billing/billing-bill-patron.adoc[Billing a Patron]
 
 include::billing/billing-payment.adoc[Making Payments]
 

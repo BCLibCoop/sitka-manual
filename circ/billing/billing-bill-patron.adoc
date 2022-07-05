@@ -1,26 +1,49 @@
-Adding New "Grocery" Bills
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Billing a Patron
+~~~~~~~~~~~~~~~~
 (((Bills, Add Bills)))
 (((Bill Patron)))
 
-Create New Bill
+
+Creating a Bill
 ^^^^^^^^^^^^^^^
 
+Staff can manually add bills to a patron's account for fees like non-resident memberships, photocopying, 
+replacing lost library cards, and more.
+
+. In the patron's account click on the *Bills* tab.
 . Click *Bills* in patron account.
 . Click *Bill Patron*
 +
 image:images/circ/billpatron1.png[scaledwidth="75%"]
 +
-. Click on drop down arrow and select *Billing Type*, enter bill amount, and any required note, and click *Submit Bill*.
+. In the pop up that appears, select the appropriate billing type from the drop down menu.
+. Enter the amount you wish to bill the patron.
+. Optionally, include a note about the bill.
+. Click *Submit Bill*.
 +
 image:images/circ/billpatron2.png[scaledwidth="75%"]
-
-
-Add Charge to Existing Bill
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-. Select the required bill from patron's *Bills* screen and click *Actions -> Add Billing*.
++
+. The bill will display with a type of _grocery_ to indicate that the bill was manually created by staff.
 +
 image:images/circ/billpatron3.png[scaledwidth="75%"]
+
+
+Addding a Charge to an Existing Bill
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If the patron incurs additional charges that are related to existing charges, staff can add the new charge
+to the existing one instead of creating a new bill.
+
+. In the patron's account click on the *Bills* tab.
+. Select the bill you wish to add additional charges to and click *Actions -> Add Billing*.
 +
-. Click on drop down arrow and select *Billing Type*, enter bill amount, and any required note, and click *Submit Bill*. The bill's balance is updated.
+image:images/circ/bill-patron-4.png[scaledwidth="75%"]
++
+. In the pop up that appears, select the appropriate billing type from the drop down menu.
+. Enter the amount you wish to bill the patron.
+. Optionally, include a note about the bill.
+. Click *Submit Bill*.
++
+image:images/circ/bill-patron-5.png[scaledwidth="75%"]
++
+. The bill will be updated to reflect the new total.
