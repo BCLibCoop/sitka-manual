@@ -9,7 +9,8 @@ taken place on the patron's account as well as a history of payments made by the
 Transactions Tab
 ^^^^^^^^^^^^^^^^
 
-. Click *History* in patron's bills screen.
+. In the patron's account click on the *Bills* tab.
+. Click *History*
 . By default transactions from the last 12 months will display.  Use the calendar widgets to choose 
 select a different timeframe if needed.
 +
@@ -23,7 +24,8 @@ image:images/circ/billhistory2.png[scaledwidth="75%"]
 Payments Tab
 ^^^^^^^^^^^^
 
-. Click *History* in patron's bills screen.
+. In the patron's account click on the *Bills* tab.
+. Click *History*
 . Select the *Payments* tab.
 . By default transactions from the last 12 months will display.  Use the calendar widgets to choose 
 select a different timeframe if needed.
