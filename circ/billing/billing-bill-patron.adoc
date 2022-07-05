@@ -6,16 +6,14 @@ Billing a Patron
 
 There are two categories of bills in Evergreen:
 
-System Generated Bills
-++++++++++++++++++++++
+*System Generated Bills*
 
 Bills created by Evergreen show a type of _circulation_.  Evergreen will generate bills when 
 items are marked as lost or damaged and include any set processing fees.  Additionally, once an 
 item is overdue, Evergreen will generate on-going overdue fines based on a library's circulation policies; 
 overdue fines are generated overnight.
 
-Staff Generated Bills
-+++++++++++++++++++++
+*Staff Generated Bills*
 
 Bills created manually by staff show a type of _grocery_.  Sitka libraries share a list of billing types
 which staff can choose from.
