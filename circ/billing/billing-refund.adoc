@@ -2,29 +2,39 @@ Refunding Payments
 ~~~~~~~~~~~~~~~~~~
 (((Refund)))
 
-Sometimes paid bills need to be voided, such as when lost and paid items are returned. A negative balance 
-may be created once such bills are voided. To close negative bills, you can 
-link:_adjusting_the_bill_balance_to_zero[adjust the balance to 
+If a paid bill is voided, either by staff or by the system, it may result in a negative balance on the patron's
+account.  To close negative bills, you can link:_adjusting_the_bill_balance_to_zero[adjust the balance to 
 zero], link:_add_charge_to_existing_bill[add a bill entry to the negative line item], 
 or refund the balance amount.
 
-. Click on the *Bills* tab in the patron's account.
+[NOTE]
+======
+The most common scenario resulting in a negative balance is a lost item that has been paid for being 
+returned within the library's refund interval.  See LINK for information on lost settings.
+======
+
+. In the patron's account click on the *Bills* tab.
 . Select the line for the refund and go to *Actions → Refund*.
 +
-image:images/circ/refund-3.png[scaledwidth="75%"]
+image:images/circ/billing-refund-1.png[scaledwidth="75%"]
 +
 . Click *OK/Continue*. 
 +
-image:images/circ/refund-2.png[scaledwidth="75%"]
+image:images/circ/billing-refund-2.png[scaledwidth="75%"]
++
+. The tally section of the *Bills* tab you will see the amount you are refunding reflecting in the 
+_Refunds Available_ and _Pending Payment_ amounts.
++
+image:images/circ/billing-refund-3.png[scaledwidth="75%"]
 +
 . Enter 1 in the *Payment Received* box.  (There is currently a bug preventing the "Apply Payment" button 
 from being used without a positive number in this box.  The $1.00 payment won't actually be applied.)
 . Click Apply Payment.
 +
-image:images/circ/refund-1.png[scaledwidth="75%"]
+image:images/circ/billing-refund-4.png[scaledwidth="75%"]
 +
-. The payment has been refunded.
-. If you go into *History* and look at the full details for the bill you will see it shows the payment 
-has been refunded.
+. The payment has been refunded and you can return the money to the patron.
+. A record of the refund is available in the patron's bill xref:_bill_history[history] in the full details 
+of the payment.
 
 
