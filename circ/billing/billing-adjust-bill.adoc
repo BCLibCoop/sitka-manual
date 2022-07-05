@@ -10,8 +10,8 @@ For bills that the patron should have been billed but that staff are choosing to
 recommends using the _Forgive_ payment instead to enable staff to track amounts that are forgiven.  See
 xref:_making_payments[].
 
-Adjust to zero can also be used to clear a negative balance from patron account.  If money is being returned
-to the patron staff should instead xref:_refunding_payments[refund the payment].
+Adjust to zero can also be used to clear a negative balance from a patron account.  If money is being returned
+to the patron staff should xref:_refunding_payments[refund the payment] instead of adjusting it.
 
 . In the patron's account click on the *Bills* tab.
 . Select the bill line item and click *Actions -> Adjust to Zero*.
