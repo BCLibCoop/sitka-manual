@@ -243,6 +243,9 @@ A local system administrator at your library needs to do the following:
 If the former staff member will not be using the account as a personal borrowing account a local system
 administrator can use the http://docs.libraries.coop/sitka/_deleting_patron_accounts.html[patron deletion tool] to delete the account.
 
+Additionally, if the staff member had access to any other library accounts, such as generic accounts,
+those staff accounts must have their xref:_resetting_staff_account_password[passwords updated].
+
 Recurring Reports
 ^^^^^^^^^^^^^^^^^
 
