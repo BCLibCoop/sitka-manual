@@ -26,7 +26,7 @@ image:images/circ/billing-refund-1.png[scaledwidth="75%"]
 image:images/circ/billing-refund-2.png[scaledwidth="75%"]
 +
 . In the summary section of the *Bills* tab you will see the amount you are refunding reflected in the 
-_Refunds Available_ and _Pending Payment_ amounts.
+_Refunds Available_ and _Pending Payment_ fields.
 +
 image:images/circ/billing-refund-3.png[scaledwidth="75%"]
 +
@@ -37,7 +37,7 @@ from being used without a positive number in this box.  The $1.00 payment won't 
 image:images/circ/billing-refund-4.png[scaledwidth="75%"]
 +
 . The payment has been refunded and you can return the money to the patron.
-. A record of the refund is available in the patron's bill xref:_bill_history[history] in the full details 
+. A record of the refund is available in the patron's bill xref:_viewing_bill_history[history] in the full details 
 of the payment.
 
 

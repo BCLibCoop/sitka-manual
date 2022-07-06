@@ -4,7 +4,7 @@ Adjusting the Bill Balance to Zero
 
 This function sets any balance to zero and can be used to clear bills that you have determined the patron
 should not pay, possibly because they shouldn't have been billed in the first place.  A record of the 
-adjustment is kept in the patron's transaction xref:_bill_history[history].
+adjustment is kept in the patron's transaction xref:_viewing_bill_history[history].
 
 For bills that the patron should have been billed but that staff are choosing to forgive Co-op Support
 recommends using the _Forgive_ payment instead to enable staff to track amounts that are forgiven.  See
@@ -20,7 +20,7 @@ image:images/circ/adjust-zero-1.png[scaledwidth="75%"]
 +
 . Click *OK/Continue* on the pop-up that appears.
 . The bill has been adjusted to zero and no longer appears on the bill screen.
-. A record of the adjustment is available in the patron's bill xref:_bill_history[history] in the full details 
+. A record of the adjustment is available in the patron's bill xref:_viewing_bill_history[history] in the full details 
 of the payment.
 +
 image:images/circ/adjust-zero-2.png[scaledwidth="75%"]

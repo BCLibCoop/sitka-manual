@@ -23,8 +23,8 @@ image:images/circ/bills-payments-1a.png[scaledwidth="75%"]
 +
 [NOTE]
 ======
-Libraries that do not allow patron's to have credit can set the library setting _Disable Patron Credit_ 
-to FALSE to turn off this feature.
+Libraries that do not allow patrons to have credit can set the library setting _Disable Patron Credit_ 
+to TRUE to turn off this feature.
 ======
 +
 . Select the payment type from the drop down menu.
@@ -50,5 +50,5 @@ image:images/circ/bills-payments-4.png[scaledwidth="75%"]
 
 [NOTE]
 ======
-Details of payments can be seen by clicking on the xref:_bill_history[History] button.
+Details of payments can be seen by clicking on the xref:_viewing_bill_history[History] button.
 ======
