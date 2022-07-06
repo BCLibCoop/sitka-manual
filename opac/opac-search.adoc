@@ -4,14 +4,24 @@ Search the Public Catalogue
 (((Public Catalogue)))
 (((OPAC)))
 
-NOTE: A patron friendly version of this section can be found at https://help.libraries.coop/catalogue. The *Help*
+[NOTE]
+======
+A patron friendly version of this section can be found at https://help.libraries.coop/catalogue. The *Help*
 link in the footer of your public catalogue will also take users to this site.
+======
 
 The public catalogue can be accessed online from any location via the Internet and is available in English and French.
 
-The language selector in the top-right allows your users to switch between English and French as desired.
+The language selector in the bottom-right allows your users to switch between English and French as desired.
 
 image::images/opac/opac-language-selector-1.png[scaledwidth="75%",alt="Language Selector]
+
+[NOTE]
+======
+In order for a library's shelving locations to be translated in the public catalogue the library must 
+first provide Co-op Support with a list of the library's shelving locations with the translations so the
+translations can be entered into Evergreen.
+======
 
 The generic public catalogue which searches all of Sitka is https://catalogue.libraries.coop. 
 

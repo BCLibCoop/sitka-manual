@@ -11,6 +11,13 @@ Multi-branch libraries can enter the system and then check the box to display th
 
 image::images/admin/library-filter-1.png[Library Filter]
 
+[NOTE]
+======
+In order for a library's shelving locations to be translated in the public catalogue the library must 
+first provide Co-op Support with a list of the library's shelving locations with the translations so the
+translations can be entered into Evergreen.
+======
+
 Creating a Shelving Location
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
