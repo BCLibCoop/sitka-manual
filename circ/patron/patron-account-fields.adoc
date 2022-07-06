@@ -69,7 +69,7 @@ branch.
 have a three year expiry period with the exception of PL New User which is 3 months. Individual libraries 
 can choose which profiles to use and how to configure your chosen profiles to suit local policy.  Profiles 
 are used by Evergreen to determine how items circulate so it's important to know which profile are used at 
-your library and for which patrons. Contact xref:https://bc.libraries.coop/support/[Co-op Support] to have 
+your library and for which patrons. Contact https://bc.libraries.coop/support/[Co-op Support] to have 
 this list customized to display only the profiles you use at your library.
 |Privilege Expiration Date | Yes | By default the date will be three years in the future for all profile
 groups, except PL New User which has an interval of 3 months.  Library staff can manually adjust the date
@@ -104,14 +104,14 @@ be checked by default when the patron places a hold.  Patrons and staff can unch
 of placing a hold. Patrons can also xref:_notification_preference[update their defaults] via My Account.
 |Default SMS/Text Number | Required if SMS checked for Hold Notices | The number at which the patron would 
 like to receive hold and courtesy text messages if enabled for your library. Patrons
-can xref:_notification_preference[update this] via My Account.
+can xref:_notification_preferences[update this] via My Account.
 |Default SMS Carrier | Required if value enter in _Default SMS/Text Number_ | To receive text messages must 
 specify who their carrier is.  Some carriers may not be listed as not all carriers provide the information 
 required to allow Evergreen to send them text messages.  Patrons
-can xref:_notification_preference[update this] via My Account.
+can xref:_notification_preferences[update this] via My Account.
 |Receive Overdue and Courtesy Emails | Yes | Checked by default, this setting enables patrons to
 automatically be courtesy and overdue notices. Patrons can 
-xref:_notification_preference[update this check box] via My Account.  If patrons 
+xref:_notification_preferences[update this check box] via My Account.  If patrons 
 opt out they will no longer receive courtey or overdue emails but will still receive hold notifications, depending
 the option chosen when the hold is place, and paper overdue notices for libraries that use paper overdues.
 |Allow others to use my account | No | This allows patrons to indicate other people who can place holds, pick up
