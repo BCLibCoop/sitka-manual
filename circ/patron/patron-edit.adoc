@@ -121,7 +121,7 @@ patron's account is retrieved.
 image:images/circ/patronupdate12.png[scaledwidth="75%"]
 +
 . Evergreen will automatically archive the penalty when a new email address is entered.
-. To resolve the penalty manually see xref:_staff_generated_alerts_blocks_and_notes[].
+. To resolve the penalty manually see xref:_staff_generated_notes[].
 
 [NOTE]
 ======
