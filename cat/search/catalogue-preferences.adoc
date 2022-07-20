@@ -20,7 +20,7 @@ normally want to search.
 searched. One recommendation is to set this to your home library so that local copies show up first 
 in search results.
 .. *Default Search Pane*  You can change which search pane is loaded by default when 
-pening a new catalogue window.  Choose from Keyword Search, Numeric Search, MARC Search, Browse, and Shelf Browse.
+opening a new catalogue window.  Choose from Keyword Search, Numeric Search, MARC Search, Browse, and Shelf Browse.
 .. *Search Results Per Page* You can enter the number of search results that display per page.  
 We recommend keeping this number under 200. 
 .. *Exclude Electronic Resources* Checking this adds the checkbox to the main search form.
