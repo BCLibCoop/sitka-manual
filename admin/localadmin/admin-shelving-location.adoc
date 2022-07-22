@@ -111,13 +111,24 @@ Shelving Location Order
 
 anchor:shelving-location-order[Shelving Location Order]
 
-Shelving location order is currently not in use.
+Libraries can specify the order shelving locations should appear on the 
+xref:_pull_list_for_hold_requests[holds pull list].
 
-////
-This is where you specify the shelving location order on your holds pull list.
-Items are grouped together by shelving location on the list to ease the process
-of tracing items on shelves. You may adjust the order according to the layout of
-your library's shelves.
+Ordering the shelving locations so that locations that are physically close to 
+each other appear together on the list can make it easier for staff pulling holds.
 
-Drag a shelving location on the list to the proper position, then click *Apply Changes.*
-////
+. Go to *Administration-> Local Administration-> Shelving Locations Order.*
+. Select the shelving location you would like to re-order.
+. Use the arrow buttons to move the location up or down the list, or move it to the top or bottom
+of the list. 
++
+image::images/admin/shelving-location-order-1.png[scaledwidth="75%",alt="Delete Shelving Location"]
++ 
+. Once all changes have been made, click *Save Changes*. 
++
+image::images/admin/shelving-location-order-2.png[scaledwidth="75%",alt="Delete Shelving Location"]
++
+. Items on your xref:_pull_list_for_hold_requests[holds pull list] 
+will now be listed based on this order.
+
+
