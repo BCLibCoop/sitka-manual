@@ -1,7 +1,7 @@
 New Features in Evergreen Version 3.9
 -------------------------------------
 
-*New Features in Sitka's Evergreen 3.9 Playlist*
+https://www.youtube.com/playlist?list=PLdwlgwBNnH4r5hUb0EkOYmSv4kLv5QaL7[*New Features in Sitka's Evergreen 3.9 Playlist*]
 
 [[new-features-staff-client]]
 Staff Client
@@ -16,6 +16,7 @@ Circulation
 
 * Patron notes, alerts, and messages are now managed through a single interface.
 * Password reset link button in patron Edit to enable staff to initiate a password reset for a patron.
+** https://youtu.be/WNQwt2zXxOY[*Sitka Snippet Video - Resetting a Forgotten Password (2:10)*]
 * New patron photo URL field added to patron account.  Acess to this feature is not available by default.  Please contact Co-op Support for more
 information.
 * New look for holds pull list
@@ -34,6 +35,8 @@ Wider rollout is expected at a later date.
 [[new-features-staff-catalogue]]
 Staff Catalogue
 ~~~~~~~~~~~~~~~
+
+https://youtu.be/PGiYGKJuOnU[*Sitka Training Video - Search the Catalogue (5:56)*]
 
 * More details button in search results that reveals either the grid with item information and/or URLs.
 * Call number now displays in the brief details in the search results.  This is the call number of the first item
@@ -75,6 +78,9 @@ their customized English notifications must provide translations to Co-op Suppor
 Administration
 ~~~~~~~~~~~~~~
 
+* Shelving Location Order interface enables libraries to re-order their shelving locations for 
+their pull list for hold requests.
+** https://youtu.be/hjcLkDG2IFM[*Sitka Snippet Video - Shelving Location Order (1:22)*]
 
 
 
