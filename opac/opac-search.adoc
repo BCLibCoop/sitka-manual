@@ -196,6 +196,8 @@ and _Reshelving_.
 Numeric Search
 ~~~~~~~~~~~~~~
 
+[[public-catalogue-numeric-search]]
+
 You can access the Numeric Search by clicking on the *Numeric Search* tab on the _Advanced Search_ screen.
 
 . Use the drop-down menu to select ISBN, UPC, ISSN, Call Number, LCCN, TCN, or Item Barcode.
@@ -211,6 +213,7 @@ Searching by Call Number will take you to the Shelf Browser.
 
 Expert Search
 ~~~~~~~~~~~~~
+[[public-catalogue-expert-search]]
 
 You can access the MARC Expert Search by clicking on the *Expert Search* tab on the Advanced Search screen.
 
@@ -227,6 +230,7 @@ image::images/opac/opac-expert-search-1.png[scaledwidth="75%",alt="Basic Search"
 
 Browse the Catalogue
 ~~~~~~~~~~~~~~~~~~~~
+[[public-catalogue-browse-the-catalogue]]
 
 You can access the browse search by clicking *Browse the Catalogue* on the Basic Search or search results
 screen.
