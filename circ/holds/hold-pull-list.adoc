@@ -4,12 +4,12 @@ Pull List for Hold Requests
 (((Holds, Holds Pull List)))
 
 
-link:https://youtu.be/vVVkrPR8n8s[*Sitka Training Video - Pull List for Hold Requests (1:31)*]
+link:https://youtu.be/CYmk2mwgI5E[*Sitka Training Video - Pull List for Hold Requests (2:59)*]
 
 Items that are available on your shelf and have been requested to fill a hold will appear on the pull 
 list for hold requests.  Staff can print the list, pull the items from the shelf,and then check them
-in to capture the holds.  Co-op Support recommends checking the pull list at once day; libraries 
-that handle a large volume of holds may find the pull list needs to be checked throughout the day.
+in to capture the holds.  Co-op Support recommends checking the pull list at once day; libraries with a 
+high volume of holds may find it beneficial to check the list multiple times a day..
 
 [NOTE]
 ======
@@ -47,8 +47,8 @@ image:images/circ/hold-pull-list-3.png[scaledwidth="75%"]
 Print or Export Pull List for Hold Requests
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The default pull list, via *Print Full List* includes Hold Type, Title, Author, Shelving Location, 
-Call Number, and Item Barcode.
+The default pull list print through the *Print Full List* button includes only columns for Hold Type, Title, 
+Author, Shelving Location, Call Number, and Item Barcode.
 
 * To print exactly what is displayed on the screen, click 
 *Show Grid Options (Gear Icon) → Print Full Grid*.
