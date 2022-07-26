@@ -59,7 +59,7 @@ and showing triggered events for notifications sent to patrons about particular 
 [NOTE]
 ======
 Staff should only use *Check In* from the *Actions* menu if a checked out item has accidentally been
-deleted and so cannot be checked in via the Check In interface.
+deleted; deleted items cannot be checked in via the Check In interface.
 ======
 
 image:images/circ/check-out-tab-1.png[]
