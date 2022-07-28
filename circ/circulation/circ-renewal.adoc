@@ -12,7 +12,8 @@ image:images/circ/renewal-1.png[scaledwidth="75%"]
 
 Evergreen can also be set up to auto-renew items when they reach their due date.  Items will not be
 automatically renewed if the item has holds, exceeds the maximum number of auto-renewals allowed, 
-or if the patron has been blocked from renewing items.
+or if the patron has been blocked from renewing items.  An xref:_autorenew_notification[email notification]
+is sent to patrons to inform them of the renewal or if the item could not be renewed.
 
 image:images/circ/autorenewalremaining.png[scaledwidth="75%"]
 
