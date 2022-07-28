@@ -79,6 +79,9 @@ Go to *Administration* -> *Workstation*
 .Library Selector Shows Combined Names?
 . Check the box for *Library Selector Shows Combined Names?* to show the full name, as well as the short code,
 in library selectors in the staff client.
++
+image::images/admin/library-selector-name-setting-1.png[]
++
 . Log out of the staff client.
 . Clear your browser cache.  See xref:_clear_cache[].
 . Log into the staff client.  The full library name will now display in the library selector drop down.
