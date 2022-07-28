@@ -100,7 +100,7 @@ image::images/admin/circ-policy-understand-3.png[]
 **How Is the Policy Applied**
 
 * Circulate? - true/false
-* Duration Rule - includes renewals
+* Duration Rule - includes renewals and auto-renewals
 * Renewals Override
 * Recurring Fine Rule
 * Maximum Fine Rule
@@ -115,10 +115,14 @@ The *circulate flag*, on a circulation policy, when set to false will block a ch
 permission level can force the check out through.  If the check out is forced it will follow the other parameters,
 such as duration, that are specified in the policy.
 
-*Duration rules* will display in one of two ways in circulation policies: 
+*Duration rules* will display in one of four ways in circulation policies: 
 
 * SHORT_NORMAL_LONG_RENEWAL (ie. 3_7_14_100)
+* SHORT_NORMAL_LONG_RENEWAL_AR (ie. 3_7_14_100_AR)
 * NORMAL_RENEWAL (ie. 21_0) - this is an older naming convention which is being phased out
+* NORMAL_RENEWAL_AR (ie. 21_0_AR) - this is an older naming convention which is being phased out
+
+_AR_ indicates that auto-renewals apply to items checked out using the duration rule.
 
 When applying the duration rule Evergreen looks at the value in _Loan Duration_ for the item, set via the 
 xref:_item_attributes[Holdings Editor], to tell it what duration to assign the check out. 
