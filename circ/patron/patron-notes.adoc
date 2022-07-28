@@ -7,12 +7,12 @@ Patron Notes
 There are three types of patron notes in Evergreen:
 
 * Note - information recorded on the patron account.
-* Alert - information recorded on the patron account that staff are alerted to when the patron's account
+* Alert - information recorded on the patron account that generates an alert when the patron's account
 is retrieved.
 * Block - information recorded on the patron account that blocks patrons from checking out, renewing, 
 and placing items on hold.
 
-Notes, alerts, and blocks can be applied to a patron's account either automatically by the system 
+Notes, alerts, and blocks can be applied to a patron's account automatically by the system 
 or manually by staff.  These can be viewed and managed on the _Notes_ tab in the patron account.
 
 System Generated Notes
@@ -40,17 +40,17 @@ Evergreen will automatically apply blocks in the following situations:
 
 When these blocks are applied to an account the patron is blocked from checking out, renewing, and placing items on hold.
 Evergreen will also not capture or fulfill holds for the patron.  The max checked out item threshold is an
-exception; patrons with this block can still renew items, place holds on items, and have holds captured
-for them.
+exception; patrons with this block can still renew and place holds on items.
 
 The thresholds for these blocks are set per library and can be edited by a local system 
 administrator in xref:_group_penalty_thresholds[Group Penalty Thresholds].
 
 Evergreen will remove these blocks and alerts when the cause is resolved.
 
-These blocks can also be overridden on an item by item basis. Alternatively, you can remove the 
-block temporarily to carry out the circulation actions that need to be overridden. If the conditions 
-persist, once you refresh or re-access the patron account the block will be re-applied immediately.
+Blocks can also be overridden by staff with appropriate permissions when 
+xref:_holds_status_messages[placing holds], xref:_exceptions_at_check_out[checking out items], 
+or xref:_exceptions_at_renewal[renewing items]. 
+
 
 Staff Generated Notes
 ^^^^^^^^^^^^^^^^^^^^^
@@ -59,7 +59,7 @@ To add a note:
 
 . In the patron's account click on the *Notes* tab.
 . Click *Create Note*.
-. Select the type of note you would like to created by the appropriate button or selecting the option 
+. Select the type of note you would like to created by clicking the appropriate button or selecting the option 
 from the *Penalty Type* drop down.
 +
 image:images/circ/patron-note-2.png[]
@@ -95,6 +95,11 @@ image:images/circ/patron-note-7.png[]
 +
 . Click *OK*.
 
+[NOTE]
+======
+Patron visible notes cannot be edited after the patron has viewed the note.
+======
+
 
 To delete or archive a note:
 
@@ -108,3 +113,9 @@ image:images/circ/patron-note-8.png[]
 last year display.  Use the date selectors to adjust this period as needed.
 +
 image:images/circ/patron-note-9.png[]
+
+[NOTE]
+======
+Patron visible notes cannot be deleted after the patron has viewed the note. Instead, these notes
+must be archived to remove them from the active notes section.
+======
