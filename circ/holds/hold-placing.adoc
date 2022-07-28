@@ -152,6 +152,8 @@ by your xref:_group_penalty_thresholds[group penalty thresholds].
 
 Staff with appropriate permissions can choose to override these blocks and place the hold.
 
+image:images/circ/hold-status-message-1.png[scaledwidth="75%"]
+
 *PATRON_EXCEEDS_FINES* - This indicates that the patron has a system generated block because they have
 exceeded your fine threshold.  
 
