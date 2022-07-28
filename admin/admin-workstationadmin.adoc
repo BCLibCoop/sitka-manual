@@ -55,21 +55,31 @@ image::images/admin/latency-test.png[]
 *Average Latency* - Indicates how long it takes for your workstation to communicate with Sitka's Evergreen servers.
 
 
-Disable Sounds
-~~~~~~~~~~~~~~
+Sounds
+~~~~~~
+
+Sound is on by default in the Evergreen staff client. You can disable the test the sounds and disable
+them if desired.
 
 Go to *Administration* -> *Workstation*
 
-.Disable Sounds
-. Check the box for *Disable Sounds* to turn off the staff client Sounds.
-
 .Test Sounds
 . Click the buttons to test the staff client sounds.
++
+image::images/admin/sounds-test-1.png[]
++
 . Distinct sounds will be played for each event.
 .. *Success*
 .. *Info*
 .. *Warning*
 .. *Error*
+
+.Disable Sounds
+. Check the box for *Disable Sounds* to turn off the staff client sounds.
++
+image::images/admin/sounds-test-2.png[]
++
+. This will also disable the sound test buttons.
 
 Library Selector Shows Combined Names
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
