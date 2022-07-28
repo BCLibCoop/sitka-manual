@@ -19,11 +19,11 @@ the same patron.
 
 image:images/circ/patronregister1.png[]
 
-Creating New Patrons
+Registering a Patron
 ^^^^^^^^^^^^^^^^^^^^
 
 . Select *Circulation -> Register Patron.*
-. What fields display will depend on whether you're showing Required Fields, Suggested Fields, or All Fields.
+. The fields that display will depend on whether you're showing Required Fields, Suggested Fields, or All Fields.
 See xref:_customizing_the_display_fields[] for the settings that control which fields display.
 +
 image:images/circ/patron-fields-1.png[]
@@ -39,7 +39,7 @@ Blank address fields will result in an error.
 image:images/circ/patronregister3.png[]
 +
 . The *Holds Notices* default setting is *Email* which makes *Email Address* a required field. You can override
-this setting, and the required field, with patron's actual preferences as needed. You must de-select
+this setting, and the required field, with the patron's actual preferences as needed. You must de-select
 the *Email* option to save a patron record without an email address.
 +
 image:images/circ/patronregister5.png[]
@@ -67,7 +67,7 @@ These self-registrations become pending patrons in Evergreen which staff can sav
 +
 image:images/circ/pending-patrons-1.png[Managing Pending Patrons]
 +
-. To create an account for the patron, select the pending patron and click the *Load Patron* patron button.
+. To create an account for the patron, select the pending patron and click the *Load Patron* button.
 +
 image:images/circ/pending-patrons-2.png[Managing Pending Patrons]
 +

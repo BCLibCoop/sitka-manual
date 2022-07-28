@@ -1,7 +1,7 @@
 Working with Patron Accounts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The patron account has a summary which displays on the left side of the patron account and a tabbed interface
+The patron account has a summary, which displays on the left side of the patron account, and a tabbed interface
 allowing staff to look at different aspects of the patron account.
 
 image:images/circ/patron-account-1.png[]
@@ -15,7 +15,7 @@ The patron summary pulls together pertinent information about the patron so it c
 Some things of note in the patron summary.
 
 * The patron's name displays at the top of the summary. The patron's name will be in red if they have
-alert, blocks, or owe fines.
+alerts, blocks, or owe fines.
 ** Evergreen will use the patron's preferred name and
 fall back to the primary name if there is no preferred name.
 * Any alerts and/or blocks will appear under the patron's name.
@@ -44,14 +44,14 @@ For information on the *Check Out* tab see xref:_check_out[].
 Items Out Tab
 ^^^^^^^^^^^^^
 
-The _Items Out_ tab shows items currently out to a patron.  It is divided into three tabs.
+The _Items Out_ tab shows items currently out to a patron.  It is subdivided into three tabs.
 
 Items Checked Out
 +++++++++++++++++
 
 The _Items Checked Out_ tab shows the items currently out to the patron.
 
-* Overdue items will displays highlighted in red.
+* Overdue items will display highlighted in red.
 * Using the *Actions* menu staff can perform functions such as printing an items out receipt,
 xref:_renewing_items[renewing items], xref:_mark_items[marking items with a different status],
 and showing triggered events for notifications sent to patrons about particular items.
