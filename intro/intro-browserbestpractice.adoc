@@ -88,14 +88,14 @@ image::images/intro/browserpopup.png[]
 . Scroll down and click *Site settings*.
 . Scroll down to *Content* and click on *Pop ups and redirects*.
 +
-image::images/intro/browser2.png[]
+image:images/intro/browser2.png[scaledwidth="75%"]
 +
 
 . Under *Customised behaviors* click *Add* beside *Allowed to send pop-ups and use redirects* .
 . Site: *https://catalogue.libraries.coop*.
 . Click *Add*.
 +
-image::images/intro/popupallow.png[]
+image:images/intro/popupallow.png[scaledwidth="75%"]
 
 Allow Cookies
 ^^^^^^^^^^^^^
@@ -114,7 +114,7 @@ image::images/intro/browser1.png[]
 . Site: https://catalogue.libraries.coop
 . Click *Add*.
 +
-image::images/intro/cookies.png[]
+image:images/intro/cookies.png[scaledwidth="75%"]
 
 Security Software and Cookies
 +++++++++++++++++++++++++++++
