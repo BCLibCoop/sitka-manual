@@ -213,7 +213,7 @@ Here staff can:
 * xref:_printer_settings[configure printer settings]
 * xref:_print_templates[customize receipt printer templates]
 * xref:_stored_preferences[view and remove stored preferences]
-* xref:_hatch[view information about Hatch]
+* xref:_print_service_hatch[view information about Hatch]
 * xref:_tests[run latency tests]
 * xref:_disable_sounds[disable and test sounds for the staff client]
 * xref:_library_selector_shows_combined_names[set the library selector to include the full name of libraries]
