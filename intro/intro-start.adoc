@@ -164,13 +164,22 @@ image::images/intro/columnconfig4.png[]
 Manage Actions Menu
 ^^^^^^^^^^^^^^^^^^^
 
-On one version of the Function Bar, found on some screens,  you can click on the column picker drop-down menu and select *Manage Actions Menu* to change which actions are displayed. The action choices vary from screen to screen.
+On one version of the Function Bar, found on some screens,  to change which actions are displayed. The action choices vary 
+from screen to screen.
 
+. Click on the *Show Grid Options (gear icon)* menu.
+. Select *Manage Actions Menu*.
++
 image:images/intro/columnconfig5.png[scaledwidth="75%"]
-
-Make required changes and click *Close*
-
++
+. Make required changes and click *Close*.
++
 image:images/intro/columnconfig6.png[scaledwidth="75%"]
++
+. Click on the *Show Grid Options (gear icon)* menu again.
+. Select *Save Grid Settings*.
++
+image::images/intro/columnconfig4.png[]
 
 Filters
 ^^^^^^^
@@ -207,7 +216,7 @@ Here staff can:
 * xref:_hatch[view information about Hatch]
 * xref:_tests[run latency tests]
 * xref:_disable_sounds[disable and test sounds for the staff client]
-* set the library selector to include the full name of libraries
+* xref:_library_selector_shows_combined_names[set the library selector to include the full name of libraries]
 
 Staff should not use the search preferences settings found in Workstation Administration.  Instead
 search preferences should be set from within the staff catalogue.  See xref:_search_preferences[].
