@@ -13,8 +13,8 @@ image::images/intro/getstarted1.png[]
 
 
 
-Register Staff Workstation
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Registering a Staff Workstation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 link:https://youtu.be/-3HbQQdH9FQ[*Sitka Snippet Video - Register Workstation (1:36)*]
 
@@ -102,8 +102,11 @@ image::images/intro/changeop2.png[]
 +
 . Click *OK/Continue*
 
+Configuring Your Workstation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Function Bar
-~~~~~~~~~~~~
+^^^^^^^^^^^^
 
 The function bar can be found throughout Evergreen and enables you to page through pages,
 adjust the number of rows displaying, access the Actions menu, and manage your columns and Actions menus.
@@ -118,12 +121,12 @@ image::images/intro/function-bar-2.png[]
 . Actions Menu
 . Adjust number of rows
 . Jump to page
-. Column and Actions Menus configuration
+. Show Grid Options menu
 . Text wrap
 
 
 Column Configuration
-~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^
 
 From many screens and lists, you can click on the column picker drop-down menu to change which columns
 are displayed. Various search results tables may not default to the most useful columns. For instance,
@@ -159,7 +162,8 @@ image::images/intro/columnconfig4.png[]
 
 
 Manage Actions Menu
-~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^
+
 On one version of the Function Bar, found on some screens,  you can click on the column picker drop-down menu and select *Manage Actions Menu* to change which actions are displayed. The action choices vary from screen to screen.
 
 image:images/intro/columnconfig5.png[scaledwidth="75%"]
@@ -169,9 +173,9 @@ Make required changes and click *Close*
 image:images/intro/columnconfig6.png[scaledwidth="75%"]
 
 Filters
-~~~~~~~
+^^^^^^^
 
-Some interfaces now include filters that enable staff to filter the available rows.
+Some interfaces include filters that enable staff to filter the available rows.
 
 image::images/intro/filters-1.png[]
 
@@ -187,6 +191,26 @@ Filters can be removed individually per column by clearing the filter or all fil
 using the *Remove Filters* button.
 
 image::images/intro/filters-4.png[]
+
+Workstation Administration
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+[[getting-started-workstation-administration]]
+
+Workstation specific information can be set by going to *Administration -> Workstation*.
+
+Here staff can:
+
+* xref:_registered_workstations[register additional workstations]
+* xref:_printer_settings[configure printer settings]
+* xref:_print_templates[customize receipt printer templates]
+* xref:_stored_preferences[view and remove stored preferences]
+* xref:_hatch[view information about Hatch]
+* xref:_tests[run latency tests]
+* xref:_disable_sounds[disable and test sounds for the staff client]
+* set the library selector to include the full name of libraries
+
+Staff should not use the search preferences settings found in Workstation Administration.  Instead
+search preferences should be set from within the staff catalogue.  See xref:_search_preferences[].
 
 
 Keyboard Shortcuts
@@ -250,19 +274,4 @@ Refer to xref:hatch-printing[] to configure printer settings.
 
 Refer to xref:hatch-troubleshooting[] if you are having issues with Hatch.
 
-[[set-search-pref]]
-Set Search Preferences
-~~~~~~~~~~~~~~~~~~~~~~
 
-. Go to *Administration* -> *Workstation*.
-. Use the dropdown menu to select an appropriate *Default Search Library*.
-.. The default search library setting determines what library is searched from the advanced search screen and portal page by default. You can override this setting when you are actually searching by selecting a different library. One recommendation is to set the search library to the highest point you would normally want to search.
-. Use the dropdown menu to select an appropriate *Preferred Library*.
-.. The preferred library is used to show copies and electronic resource URIs regardless of the library searched. One recommendation is to set this to your home library so that local copies show up first in search results.
-. Use the dropdown menu to select an appropriate *Advanced Search Default Pane*.
-.. Advanced search has secondary panes for Numeric and MARC Expert searching. You can change which one is loaded by default when opening a new catalog window here.
-+
-image::images/intro/searchpref.png[]
-
-Additional settings are available through Catalogue Preferences in the staff catalogue.  For
-more details see xref:_catalogue_preferences[].
