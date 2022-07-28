@@ -83,6 +83,7 @@ image::images/intro/popup.png[]
 +
 image::images/intro/browserpopup.png[]
 +
+. Click *Settings*.
 . Click *Privacy and Security* on left side of screen.
 . Scroll down and click *Site settings*.
 . Scroll down to *Content* and click on *Pop ups and redirects*.
@@ -90,7 +91,7 @@ image::images/intro/browserpopup.png[]
 image::images/intro/browser2.png[]
 +
 
-. Click *Add*.
+. Under *Customised behaviors* click *Add* beside *Allowed to send pop-ups and use redirects* .
 . Site: *https://catalogue.libraries.coop*.
 . Click *Add*.
 +
@@ -104,6 +105,7 @@ Allow Cookies
 +
 image::images/intro/browser1.png[]
 +
+. Click *Settings*.
 . Select *Privacy and security* from the left hand side.
 . Click *Cookies and other site data*.
 . Under _General Settings_ make sure  _Block third-party cookies in Incognito_ is selected.
