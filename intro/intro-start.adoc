@@ -7,7 +7,7 @@ Accessing the Evergreen Staff Client
 
 * The web client is responsive to device and to screen size, and can look different on different devices.
 
-* The default URL to log into the staff client is *https://catalogue.libraries.coop/eg/staff/*
+* The URL to log into the staff client is *https://catalogue.libraries.coop/eg/staff/*
 
 image::images/intro/getstarted1.png[]
 
@@ -25,7 +25,7 @@ Before logging into Evergreen for the first time, you must register a workstatio
 Local system administrator permissions are required to register a new workstation.
 ======
 
-. Navigate to the web client log in page. The default URL to log into the staff client is *https://catalogue.libraries.coop/eg/staff/*
+. Navigate to the web client log in page. The URL to log into the staff client is *https://catalogue.libraries.coop/eg/staff/*
 . Enter a local system administrator username and password.
 . Click *Sign In*
 +
@@ -58,7 +58,7 @@ image::images/intro/getstarted6.png[]
 Logging into Evergreen
 ^^^^^^^^^^^^^^^^^^^^^^
 
-. The default URL to log into the staff client is *https://catalogue.libraries.coop/eg/staff/*
+. The URL to log into the staff client is *https://catalogue.libraries.coop/eg/staff/*
 . Enter your username and password.
 . Verify that the correct workstation is selected and click *Sign In*.
 +
