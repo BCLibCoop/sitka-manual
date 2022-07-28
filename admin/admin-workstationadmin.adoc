@@ -1,11 +1,6 @@
 Workstation Administration
 --------------------------
 
-Search Preferences
-~~~~~~~~~~~~~~~~~~
-
-Refer to xref:set-search-pref[] for detailed instructions
-
 include::workstationadmin/admin-registeredworkstations.adoc[]
 
 include::workstationadmin/admin-printersettings.adoc[]
@@ -15,7 +10,7 @@ include::workstationadmin/admin-printtemplates.adoc[]
 Stored Preferences
 ~~~~~~~~~~~~~~~~~~
 
-Click *Administration* -> *Workstation* -> *Stored Preferences*
+Go to *Administration* -> *Workstation* -> *Stored Preferences*
 
 Here you can view stored user preferences. User settings are added to the list whenever you choose to *Save Columns*, *Set default view* or pick a value from a sticky drop down menu.
 
@@ -44,7 +39,7 @@ include::workstationadmin/admin-hatch.adoc[]
 Tests
 ~~~~~
 
-Click *Administration* -> *Workstation* -> *Tests*
+Go to *Administration* -> *Workstation* -> *Tests*
 
 Latency Test
 ^^^^^^^^^^^^
@@ -63,7 +58,7 @@ image::images/admin/latency-test.png[]
 Disable Sounds
 ~~~~~~~~~~~~~~
 
-Click *Administration* -> *Workstation*
+Go to *Administration* -> *Workstation*
 
 .Disable Sounds
 . Check the box for *Disable Sounds* to turn off the staff client Sounds.
@@ -75,3 +70,29 @@ Click *Administration* -> *Workstation*
 .. *Info*
 .. *Warning*
 .. *Error*
+
+Library Selector Shows Combined Names?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Go to *Administration* -> *Workstation*
+
+.Library Selector Shows Combined Names?
+. Check the box for *Library Selector Shows Combined Names?* to show the full name, as well as the short code,
+in library selectors in the staff client.
+
+[NOTE]
+======
+This setting only applies to library selectors written in angular code, such as the staff catalogue.  Library
+selectors in older interfaces, such as most of circulation, will not show the full name.
+
+Libraries can expect to see this setting apply to more interfaces in the future as the older parts of the 
+staff client are re-written in the newer code.
+======
+
+
+Search Preferences
+~~~~~~~~~~~~~~~~~~
+[[workstation-search-preferences]]
+
+Staff should not use the search preferences settings found in Workstation Administration.  Instead
+search preferences should be set from within the staff catalogue.  See xref:_search_preferences[].
