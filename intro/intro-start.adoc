@@ -161,10 +161,11 @@ image::images/intro/columnconfig3.png[]
 image::images/intro/columnconfig4.png[]
 
 
+[[manage actions menu]]
 Manage Actions Menu
 ^^^^^^^^^^^^^^^^^^^
 
-On one version of the Function Bar, found on some screens,  to change which actions are displayed. The action choices vary 
+On one version of the Function Bar, found on some screens,  to change which actions are displayed. The action choices vary
 from screen to screen.
 
 . Click on the *Show Grid Options (gear icon)* menu.
@@ -279,5 +280,3 @@ Enable Hatch in Evergreen
 Refer to xref:hatch-printing[] to configure printer settings.
 
 Refer to xref:hatch-troubleshooting[] if you are having issues with Hatch.
-
-
