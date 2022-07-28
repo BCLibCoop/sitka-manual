@@ -3,6 +3,119 @@ Renewing Items
 
 (((Renewal)))
 
+
+Items that are checked out can be manually renewed by staff or by patrons. The new due date is calculated 
+from the renewal date unless a specific due date is specified.  The number of renewals allowed for a 
+circulation is determined by the library's circulation policy. 
+
+image:images/circ/renewal-1.png[scaledwidth="75%"]
+
+Evergreen can also be set up to auto-renew items when they reach their due date.  Items will not be
+automatically renewed if the item has holds, exceeds the maximum number of auto-renewals allowed, 
+or if the patron has been blocked from renewing items.
+
+image:images/circ/autorenewalremaining.png[scaledwidth="75%"]
+
+Renewing Items
+^^^^^^^^^^^^^^
+[[renew-items]]
+
+. xref:_retrieving_patron_accounts[Retrieve the patron's account].
+. Click the *Items Out* tab.
+. Select the item(s) you wish to renew and click *Actions*.
+. Select, *Renew*, *Renew All*, or *Renew With Specific Due Date*.
++
+image:images/circ/renew1.png[scaledwidth="75%"]
+
+[TIP]
+=====
+You can also renew items on the *Item Status* screen.
+=====
+
+[NOTE]
+======
+It is not currently possible to select a specific due date time when renewing hourly loans with 
+*Renew With Specific Due Date*.  For now the *Edit Due Date* function should be used if a specific time
+is required.
+======
+
+Exceptions at Renewal
+^^^^^^^^^^^^^^^^^^^^^
+
+An item can be blocked from renewing for the following reasons:
+
+* Patron has a xref:_patron_notes[system generated or staff generated block] on their account
+* The item has no more renewals allowed as per the library's xref:_circulation_policies[circulation policies]
+* The item is needed to fill a hold
+
+.To override an exception when renewing:
+. Check or un-check the box for *Automatically override for subsequent items* as applicable to the check out.
+. Click *Force Action?*. Staff must have the xref:_staff_account_permission_groups[appropriate permissions]
+ to force the check out.
++
+image:images/circ/renewal-exceptions-1.png[scaledwidth="75%"]
++
+. The item will be updated in the grid. The new due date will be determined by your 
+xref:_circulation_policies[circulation policies].
+
+Edit Due Date
+^^^^^^^^^^^^^
+(((Due Date, Edit)))
+
+
+. Click the *Items Out* tab in the patron account.
+. Select the items and click *Actions*.
+. Select, *Edit Due Date*.
+. Select the new due date and due date time (if working with hourly loans).
++
+image:images/circ/renew2.png[scaledwidth="75%"]
+
+NOTE: *Edit Due Date* changes the due date in the existing circulation record without reducing 
+remaining renewals, or creating a new circulation record. It does not generate new 
+circulation statistics, and no new notices are generated. For example, editing the due date 
+will not generate a new pre-due notice near the new due date. Co-op Support strongly recommends 
+you use *Renew With Specific Due Date* rather than manually edit a due date unless you are working with
+hourly loans.
+
+////
+Auto Renewals
+^^^^^^^^^^^^^
+
+Circulation policies in Evergreen can now be configured to automatically renew items checked out on patron 
+accounts. Circulations will be renewed automatically and an xref:_autorenew_notification[email notification]
+sent to patrons to inform them of the renewal or if the item could not be renewed.  Patrons will not need 
+to log in to their accounts or ask library staff to renew materials.
+
+Autorenewals are set in the *Circulation Duration Rules*, which allows this feature to be applied to selected 
+circulation policies. Effectively, this makes autorenewals configurable by patron group, organizational unit 
+or library, and circulation modifier.
+
+Configure Autorenewals
+^^^^^^^^^^^^^^^^^^^^^^
+Autorenewals are configured by Co-op Support. Please contact 
+https://bc.libraries.coop/support/[Co-op Support] if you would like to enable Autorenewals.
+
+* max_auto_renewals is the allowed number of automatic renewals.
+* max_renewals is the allowed number of manual renewals, whether staff or patron initiated.
+
+The Circulation Duration Rule is then applied to specific circulation policies (Administration → 
+Local Administration → Circulation Policies) to implement autorenewals in Evergreen.
+
+[NOTE]
+======
+Autorenewals will not occur if the item has holds, exceeds the maximum number of autorenewals allowed, 
+or if the patron has been blocked from renewing items.
+======
+
+Autorenewals in Patron Accounts
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+A new column called AutoRenewalsRemaining indicates how many autorenewals are available for a transaction.
+
+image:images/circ/autorenewalremaining.png[scaledwidth="75%"]
+
+
+
 Checked-out items can be renewed if your library's policy allows it. The new due date is calculated from the renewal date. Existing loans can also be extended to a specific date by renewing with a specific due date, or editing the due date.
 
 Renewals
@@ -76,4 +189,4 @@ will not generate a new pre-due notice near the new due date. Co-op Support stro
 you use *Renew With Specific Due Date* rather than manually edit a due date unless you are working with
 hourly loans.
 
-
+////
