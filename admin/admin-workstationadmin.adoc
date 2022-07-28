@@ -71,13 +71,13 @@ Go to *Administration* -> *Workstation*
 .. *Warning*
 .. *Error*
 
-Library Selector Shows Combined Names?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Library Selector Shows Combined Names
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Go to *Administration* -> *Workstation*
 
-.Library Selector Shows Combined Names?
-. Check the box for *Library Selector Shows Combined Names?* to show the full name, as well as the short code,
+.Library Selector Shows Combined Names
+. Check the box for *Library Selector Shows Combined Names* to show the full name, as well as the short code,
 in library selectors in the staff client.
 +
 image::images/admin/library-selector-name-setting-1.png[]
