@@ -46,8 +46,8 @@ As the staff client is loaded in a web browser, library staff can use browser-ba
 * Use *CTRL+W* or click the x in the tab to close the tab.
 * Undo closing a tab by hitting *CTRL+Shift+Tab*.
 * Use *CTRL+F5* or click the Refresh button to refresh the tab.
-* To open a link from the web client in a new tab, *CTRL+click* the link or *right-click the 
-link and select Open Link in New Tab*. Using this method, you can also open options from the web 
+* To open a link from the web client in a new tab, *CTRL+click* the link or *right-click the
+link and select Open Link in New Tab*. Using this method, you can also open options from the web
 client’s dropdown menus in a new tab
 * Navigate from one tab to another using *CTRL+Tab* on the keyboard.
 
@@ -83,13 +83,13 @@ image::images/intro/popup.png[]
 +
 image::images/intro/browserpopup.png[]
 +
-. Click *Settings*.
-. Scroll to the bottom and click *Advanced*.
+. Click *Privacy and Security* on left side of screen.
+. Scroll down and click *Site settings*.
+. Scroll down to *Content* and click on *Pop ups and redirects*.
 +
 image::images/intro/browser2.png[]
 +
-. Under _Privacy and security_ click *Site settings*.
-. Click *Pop-ups and re-directs*.
+
 . Click *Add*.
 . Site: *https://catalogue.libraries.coop*.
 . Click *Add*.
@@ -104,11 +104,10 @@ Allow Cookies
 +
 image::images/intro/browser1.png[]
 +
-. Click *Settings*.
 . Select *Privacy and security* from the left hand side.
 . Click *Cookies and other site data*.
 . Under _General Settings_ make sure  _Block third-party cookies in Incognito_ is selected.
-. _Clear cookies and site data when you quit Chrome_ should be off.
+. _Clear cookies and site data when you close all windows_ should be off.
 . Under _See all cookies and site data_ click *Add* beside _Sites that can always use cookies_.
 . Site: https://catalogue.libraries.coop
 . Click *Add*.
@@ -179,7 +178,7 @@ image::images/intro/browser1.png[]
 Reset Settings
 ^^^^^^^^^^^^^^
 
-If you still see a blank page with the green bar across after clearing your cookies the next step is to reset your 
+If you still see a blank page with the green bar across after clearing your cookies the next step is to reset your
 settings for Chrome.
 
 .Reset Settings
@@ -191,13 +190,13 @@ image::images/intro/browser1.png[]
 . Click *Advanced*.
 . Click *Reset and clean up*.
 . Click *Restore settings to their original defaults*.
-. Click *Reset settings*. 
+. Click *Reset settings*.
 . Return to https://catalogue.libraries.coop/eg/staff
 
 Delete the Offline Database
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you still see a blank page with the green bar across after clearing your cookies and resetting your settings 
+If you still see a blank page with the green bar across after clearing your cookies and resetting your settings
 the next step is to delete the offline database.
 
 . Navigate to https://catalogue.libraries.coop/eg/staff
