@@ -146,5 +146,20 @@ be filled when the item is no longer protected.
 Policies and cannot currently fill holds at your library.  If you override and place the hold it will eventually
 be filled when the item is no longer protected.
 
-*PATRON_EXCEEDS_FINES* - This indicates that the patron has fines in excess of your fine threshold.  Staff 
-can choose to override and place the hold.
+The following messages indicate that the patron's account has a system or staff generated block on it 
+preventing holds from being placed.  The thresholds for staff generated blocks are determined
+by your xref:_group_penalty_thresholds[group penalty thresholds].
+
+Staff with appropriate permissions can choose to override these blocks and place the hold.
+
+*PATRON_EXCEEDS_FINES* - This indicates that the patron has a system generated block because they have
+exceeded your fine threshold.  
+
+*PATRON_EXCEEDS_OVERDUE_COUNT* - This indicates that the patron has a system generated block because
+they have exceeded your overdue item threshold. 
+
+*PATRON_EXCEEDS_LOST_COUNT* - This indicates that the patron has a system generated block because
+they have exceeded your lost item threshold.  
+
+*STAFF_CHR* - This indicates that the patron has had a manual block placed on their account by staff.  
+
