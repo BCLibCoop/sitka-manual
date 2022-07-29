@@ -33,7 +33,6 @@ Holdings Details
 The Holdings Details section of the Holdings Editor contains information related to your library's
 call numbers. 
 
-
 image::images/cat/holdings-details-1.png[]
 
 [options="header"]
@@ -64,7 +63,7 @@ this field in the xref:_holdings_preferences[Holdings Preferences].
 Item Attributes
 ^^^^^^^^^^^^^^^
 
-link:https://youtu.be/DVLUXIVLXdM[*Sitka Snippet Video - Item Attributes (:)*,window=_blank]]
+[*Sitka Snippet Video - Item Attributes (:)*]
 
 The Item Attributes section contains information specific to your library's items.  You can customize which
 attributes display in the xref:_item_attribute_settings[Item Attribute Settings].
