@@ -1,14 +1,17 @@
 Holdings Templates
 ~~~~~~~~~~~~~~~~~~
+[[holdings-template]]
 
 link:https://youtu.be/UUYO-li_dM4[*Sitka Snippet Video - Creating and Using Holdings Templates (2:37)*]
 
-anchor:volume-copy-template[Holdings Template]
-Holdings templates allow you to set up templates with pre-selected values for call number and item attributes
+anchor:holdings-template[Holdings Template]
+Holdings templates allow you to set up templates with pre-selected values for item attributes
 and help to ensure consistency in cataloguing of items.
 
+////
 Call number attributes are not included in the template editor by default but can be added through the
-xref:_holdings_details_defaults[Holdings Details Defaults].
+xref:_holdings_editor_preferences[Holdings Details Defaults].
+////
   
 
 Creating Holdings Templates
@@ -18,17 +21,20 @@ Creating Holdings Templates
 +
 OR
 +
-Open the Holdings Editor through any bibliographic record and go to the *Item Templates* tab.
+Open the Holdings Editor through any bibliographic record and go to the *Holdungs* tab if you are using 
+the unified editor or the *Item Attributes* tab if you are not.
 +
 image::images/cat/item-template-1.png[]
 +
-. Enter the values for the call number and item attributes needed for your template.
+. Enter the values for the item attributes needed for your template.
 +
 image::images/cat/item-template-2.png[]
 +
 . Type in a name for the template and click *Save*.
 +
 image::images/cat/item-template-3.png[]
++
+. The template is saved.
 
 Using Holdings Templates
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -39,7 +45,7 @@ Using Holdings Templates
 +
 image::images/cat/item-template-4.png[]
 +
-. The applicable attributes will be updated with the values from the template and outlined in black.
+. The applicable attributes will be updated with the values from the template and highlighted in green.
 +
 image::images/cat/item-template-5.png[]
 
@@ -59,7 +65,7 @@ When exporting, Evergreen will export all templates as one file.  Co-op Support 
 templates needed by your cataloguers on one account before exporting the file.
 =====
 
-. In the Holdings Template Editor click *Export*.
+. In the Holdings Editor click *Export*.
 +
 image::images/cat/item-template-6.png[]
 +
@@ -67,7 +73,7 @@ image::images/cat/item-template-6.png[]
 +
 . You can share the file with staff via email or a shared network drive or
 have them log into Evergreen on computer the file has been saved to.
-. In the Holdings Template Editor click *Import*.
+. In the Holdings Editor click *Import*.
 +
 image::images/cat/item-template-7.png[]
 +
