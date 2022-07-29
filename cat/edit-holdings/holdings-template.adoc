@@ -2,7 +2,7 @@ Holdings Templates
 ~~~~~~~~~~~~~~~~~~
 [[holdings-template]]
 
-link:https://youtu.be/UUYO-li_dM4[*Sitka Snippet Video - Creating and Using Holdings Templates (2:37)*]
+[*Sitka Snippet Video - Creating and Using Holdings Templates (:)*]
 
 anchor:holdings-template[Holdings Template]
 Holdings templates allow you to set up templates with pre-selected values for item attributes
@@ -21,7 +21,7 @@ Creating Holdings Templates
 +
 OR
 +
-Open the Holdings Editor through any bibliographic record and go to the *Holdungs* tab if you are using 
+Open the Holdings Editor through any bibliographic record and go to the *Holdings* tab if you are using 
 the unified editor or the *Item Attributes* tab if you are not.
 +
 image::images/cat/item-template-1.png[]
@@ -53,7 +53,7 @@ image::images/cat/item-template-5.png[]
 Sharing Holdings Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-link:https://youtu.be/Q59VGk3d_X4[*Sitka Snippet Video - Sharing Holdings Templates (1:56)*]
+[*Sitka Snippet Video - Sharing Holdings Templates (:)*]
 
 Templates are saved on the Evergreen server, but only viewable by the staff account that created them.  
 To share templates with other staff account you need to export the templates and have
