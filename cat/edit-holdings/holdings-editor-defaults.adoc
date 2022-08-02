@@ -65,17 +65,17 @@ image::images/cat/holdings-editor-defaults-3.png[]
 Hide Item Attributes
 ++++++++++++++++++++
 
-De-select the checkboxes beside those fields that you don't want displaying as available item attribues.
+Select the checkboxes beside those fields that you don't want displaying as available item attribues.
 
 image::images/cat/holdings-editor-defaults-4.png[]
 
-The following item attributes are not used by Sitka's Evergreen and are de-selected by default:
+The following item attributes are not used by Sitka's Evergreen and are selected by default:
 
 * Circulate as Type
 * Quality
 * Add Item Tags
 
-You may also want to de-select item attributes that relate to features your library doesn't currently
+You may also want to select item attributes that relate to features your library doesn't currently
 use.  The following are item attributes that relate to features libraries may or may not use.
 
 * Copy Number
