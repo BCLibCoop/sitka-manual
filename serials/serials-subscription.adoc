@@ -28,7 +28,7 @@ image::images/serials/subscription11.png[scaledwidth="75%"]
 ... Click *Add Distribution* to add a second copy to the subscription
 .. *Label* -  This field is not publicly visible and only appears when an item is received. There are no limits on the number of characters that can be entered in this field. It may be useful to identify the branch to which you are distributing these issues in this field.
 .. *OPAC Display* - Whether the public catalog display of issues should be grouped by chronology (e.g., years) or enumeration (e.g., volume and number).
-.. *Receiving Template* - Specifies the item attributes applied on receipt - see xref:_serial_item_template[] for more information.
+.. *Receiving Template* - Specifies the item attributes applied on receipt - see xref:serial-item-template[] for more information.
 .. *Send to* - Designate specific users and/or departments that serial items need to be routed to upon receiving.
 ... Click *Add item stream* to add additional Routing.
 . Click *Save*
