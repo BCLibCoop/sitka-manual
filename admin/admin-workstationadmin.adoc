@@ -81,14 +81,16 @@ image::images/admin/sounds-test-2.png[]
 +
 . This will also disable the sound test buttons.
 
-Library Selector Shows Combined Names
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Include Full Library Names in Library Selector
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+link:https://youtu.be/pgDPRt3J-MM[*Sitka Snippet Video - Turning on Full Library Names (1:19)*]
 
 Go to *Administration* -> *Workstation*
 
 .Library Selector Shows Combined Names
-. Check the box for *Library Selector Shows Combined Names* to show the full name, as well as the short code,
-in library selectors in the staff client.
+. Check the box for *Include Full Library Names in Library Selector* to show the full name, 
+as well as the short code, in library selectors in the staff client.
 +
 image::images/admin/library-selector-name-setting-1.png[]
 +
