@@ -1,43 +1,71 @@
-[[copy-alert]]
-Item Alert, Note, Tag and Stat Cat
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Item Alerts, Notes, Tags and Statistical Categories
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Item Alert
-^^^^^^^^^^
+Item Alerts
+^^^^^^^^^^^
 
-Item alerts pop up on the screen when the item is retrieved. There are a few types of item alert that show up when the corresponding type of action is applied to the item. For example, you may add a checkin item alert when you are checking out an item to a patron and notice that the spine label needs to be replaced. When the item is returned, on checking in, staff will see the message you left. You may create a checkout item alert for items that have accompanying materials kept separately. When the item is checked out, the alert will pop up on the screen.
+Item alerts pop up on the screen when the item is checked in or checked out to alert staff that something
+further needs to be done with or known about the item.
 
-Item alerts can be added when you create or edit a item record.
-
-. Click *Item Alerts*.
+.To add an item alert:
+. In the item attributes section of the Holdings Editor, click *Item Alerts*.
++
+image::images/cat/item-alert-1.png[scaledwidth="75%",alt="Item Alerts"]
++
 . Choose a type from the dropdown list.
-. Type in the message, Click *OK*.
-. Back on the Item Editor, click *Save & Exit*.
+. Type in the message.
+. Check the box for *Temporary?* if the alert is only needed to resolve a particular issue.
+. Click *Add New*. The alert will display as a pending new alert.
 +
-image::images/cat/copy-alert-1.png[]
+image::images/cat/item-alert-2.png[scaledwidth="75%",alt="Item Alerts"]
 +
-. When the item is checked out, the alert pops up.
+. Click *Apply Changes*.
 +
-image::images/cat/copy-alert-2.png[]
+image::images/cat/item-alert-3.png[scaledwidth="75%",alt="Item Alerts"]
++
+. Back in the holdings editor, click *Apply All, Save & Exit*.
++
+. The alert will appear at check out and/or check in depending on the alert type choosen.
 
-[TIP]
-=====
+.To edit an item alert:
+. In the item attributes section of the Holdings Editor, click *Item Alerts*.
++
+image::images/cat/item-alert-1.png[scaledwidth="75%",alt="Item Alerts"]
++
+. Make the the necessary changed and click *Apply Changes*
++
+image::images/cat/item-alert-4.png[scaledwidth="75%",alt="Item Alerts"]
++
+. Back in the holdings editor, click *Apply All, Save & Exit*.
++
+. The updated alert will appear at check out and/or check in depending on the alert type choosen.
 
-. Alerts can be made temporary by selecting the *Temporary* check box when adding the alert. A *Clear* button shows up when the alert is displayed.  Click it to delete the alert. Below is a checkin alert reminding staff to print spine label for the item. Click *Clear*, then *OK/Continue*.
+.To delete an item alert:
+. In the item attributes section of the Holdings Editor, click *Item Alerts*.
 +
-image::images/cat/copy-alert-2a.png[]
+image::images/cat/item-alert-1.png[scaledwidth="75%",alt="Item Alerts"]
 +
-. An *Alert* column is available on some screens to provide a quick link to viewing and/or managing the alert message.  Click *Manage* in the column to open the item alert pop-up. You may edit/clear the message. *Manage* is greyed out if the item does not have an alert.
+. Check the box for *Clear?* beside the alert you'd like to delete and click *Apply Changes*
 +
-image::images/cat/copy-alert-2c.png[]
+image::images/cat/item-alert-6.png[scaledwidth="75%",alt="Item Alerts"]
 +
-. Alerts may be manually removed, following the same process as adding item alerts. On item alert pop-up window, select *Clear?* check box, then click *OK*. Click *Save & Exit* on Item Editor.
+. Back in the holdings editor, click *Apply All, Save & Exit*.
 +
-image::images/cat/copy-alert-2b.png[]
-=====
+. The alert is deleted and will no longer appear at check out and/or check in.
 
-Item Note
-^^^^^^^^^
+[NOTE]
+======
+You can also view, edit, and delete item alerts from _Item Status_ by clicking on the *Manage* button.  A count
+beside the button indicates how many alerts are on the item.  This button opens the older version of 
+the alerts pop-up.
+
+*Manage* is greyed out if the item does not have an alert.
+
+image::images/cat/item-alert-5.png[scaledwidth="75%",alt="Item Alerts"]
+======
+
+Item Notes
+^^^^^^^^^^
 
 Notes can be added to item records. Notes will not show up when items are retrieved, but they can be made public and displayed on the catalogue.
 
@@ -62,10 +90,12 @@ image::images/cat/copy-alert-5.png[]
 Notes can not be edited. There can be multiple notes for one item record.
 =====
 
-Item Tag
-^^^^^^^^
+Item Tags
+^^^^^^^^^
 
-Not in use yet.
+Not currently used by Sitka.
+
+The item tag option is hidden by default in the Holdings Editor.
 
 ////
 A item tag adds searchable information to item records. Staff and patrons search the copy tag by choosing *Digital Bookplate* on the catalogue.
