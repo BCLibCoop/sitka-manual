@@ -112,12 +112,13 @@ Capture Resources for Reservations
 +
 image::images/booking/booking-capture-1.png[scaledwidth="75%",alt="capture resource"]
 +
-. Enter the resource barcode then click *Capture*.
+. Enter the resource barcode then press *ENTER*.
 +
 image::images/booking/booking-capture-2.png[scaledwidth="75%",alt="capture resource"]
 +
-. The message Capture succeeded will appear to the right. Information about the resource will appear below the message.
-. Click *Print* to print a slip for the reservation.
+. The Capture succeeded message will appear and you will be prompted to print the reservation slip.
++
+image::images/booking/booking-capture-3.png[scaledwidth="75%",alt="capture resource"]
 
 [CAUTION]
 Always capture reservations in Booking Module. Check In function in Circulation does not function the same as Capture Resources.
