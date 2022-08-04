@@ -53,3 +53,20 @@ Click the *Checkin Modifiers* drop down arrow. These options may be selected sin
 * Capture Local Holds as Transits. Local holds will be given an in transit status instead of on holds shelf. The intent is to stop the system from sending holds notifications before the item is ready to be placed on the holds shelf and item will have a status of in-transit until checked in again.
 * Manual Floating Active. Works in conjunction with floating groups, if configured for your library by Co-op Support.
 * Update Inventory adds a date and time stamp, and workstation name, to item records as they are checked in, facilitating inventory processes.
+
+////
+Exceptions at Check In
+^^^^^^^^^^^^^^^^^^^^^^
+
+Item Alerts
++++++++++++
+[[check-in-item-alerts]]
+
+If an item has a check in alert it will appear when the item is scanned at check in.
+
+image:images/circ/check-in-exceptions-1.png[scaledwidth="75%"]
+
+Staff can click *OK/Continue* after reading the alert to proceed with check in.
+
+Temporary alerts will have a *Clear* button which can be used to clear the alert when it is no longer needed.
+////

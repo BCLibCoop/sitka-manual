@@ -82,7 +82,7 @@ Item Alerts
 +++++++++++
 [[check-out-item-alerts]]
 
-If an item has a check out alert it will appear when the item is scanned.
+If an item has a check out alert it will appear when the item is scanned at check out.
 
 image:images/circ/check-out-exceptions-4.png[scaledwidth="75%"]
 
