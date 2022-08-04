@@ -3,62 +3,41 @@ Public Catalogue Holds
 
 (((Holds, Public Catalogue)))
 
-You and your patrons can place holds for a particular title or a specific volume on your public catalogue. If the item is available, it will appear on a library's holds pull list and be pulled from the shelf and held for your patron. If the item is not available, the patron is placed on a waiting list and notified when the item become available.
+Holds can be placed for a particular title or a specific volume through your public catalogue. 
 
-NOTE: Some libraries do not allow holds to be placed on available items.
+Available items will appear on the library's holds pull list. If the item is not available, 
+the patron is placed on a waiting list and notified when the item become available.
 
-Title and Volume Holds
-~~~~~~~~~~~~~~~~~~~~~~
+[NOTE]
+======
+Some libraries do not allow holds to be placed on available items.
+======
 
-Best practice is to place holds using the *Place Hold* link in the search results view or on the title details page.
-Using either of these links means that any copy attached to the record will fill the hold. This is generally
-the best method when requesting an item, as the hold will be filled by any copy of the title record you are
-viewing.
+Placing Holds
+~~~~~~~~~~~~~
+[[public-catalogue-place-hold]]
 
+. Click the *Place Hold* button to the right of the record on the search result list, or on the record 
+summary screen.
++
 image::images/opac/opac-holds-1.png[scaledwidth="75%",alt="Holds"]
-
-If you want a specific issue of a magazine or a specific DVD in a set,  select *Volume Hold*
-in the item details grid.
-
-image::images/opac/opac-holds-2.png[scaledwidth="75%",alt="Holds"]
-
-You will be prompted to log in with your library account, if you have not already done so.
-
-If your library is multi-branch, or participates in resource sharing, you can choose the
+. You will be prompted to log in with your library account, if you have not already done so.
+. If your library is multi-branch, or participates in reciprocal borrowing, you can choose the
 pickup location.
-
-You can choose to be notified by phone, text message, or email. The notification method will be selected
+. Choose the method of notification.  The notification method will be selected
 automatically if it is set in account preferences, but can be overridden on this screen.
-
-The phone number and email in your account will be used to populate the notification options, but
+.. The phone number and email in your account will be used to populate the notification options, but
 you can use a different phone number for phone or text notification when placing the hold.
-
-You can suspend the hold to be activated at a later date.
-
++
 image::images/opac/opac-holds-3.png[scaledwidth="75%",alt="Holds"]
-
-Once you click *Submit* a message will appear confirming the hold was successfully placed or
++
+Click *Submit*.  A message will appear either confirming the hold was successfully placed or
 indicating that the hold could not be placed.
-
++
 image::images/opac/opac-holds-4.png[scaledwidth="75%",alt="Holds"]
-
-You can view and cancel your holds at anytime through My Account, and can edit, suspend, or activate
-your holds until they are captured for pick up.
-
-
-Placing Holds on Multiple Records of the Same Title
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-If _Group by Formats and Edition_ was selected when doing a search, you can place a hold on multiple
-records  of the title, but of different formats or editions, by clicking *Place Hold* to the right of the
-meta record.
-
-image::images/opac/opac-holds-5.png[scaledwidth="75%",alt="Holds"]
-
-Select the acceptable formats on the place hold screen.
-
-image::images/opac/opac-holds-6.png[scaledwidth="75%",alt="Holds"]
-
++
+. You can view and cancel your holds at anytime through _Holds_ in _My Account_ and can edit, suspend, 
+or activate your holds until they are captured for pick up.
 
 Unsuccessful Hold Messages
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -78,3 +57,26 @@ place the hold it will eventually be filled when the item is no longer protected
 age-based hold protection set through the Hold Policies and cannot currently fill holds at your library.  It can
 also indicate that the library has blocked holds placed by a particular patron type or on items using a particular 
 circulation modifier through their hold policies.
+
+Additional Hold Options
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Volume/Issue Holds
+^^^^^^^^^^^^^^^^^^
+
+If you want a specific issue of a magazine or a specific DVD in a set, select *Volume Hold*
+in the item details grid.
+
+image::images/opac/opac-holds-2.png[scaledwidth="75%",alt="Holds"]
+
+Placing Holds on All Formats of the Same Title
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If _Group Formats and Edition_ is selected when doing a search, you can place a hold all formats
+and editions of the title by clicking *Place Hold* to the right of the search result.
+
+image::images/opac/opac-holds-5.png[scaledwidth="75%",alt="Holds"]
+
+Select the acceptable formats on the _Place Hold_ screen.
+
+image::images/opac/opac-holds-6.png[scaledwidth="75%",alt="Holds"]

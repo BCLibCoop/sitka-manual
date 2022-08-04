@@ -78,6 +78,18 @@ the due date passes at which time the items disappear from the patron's record.
 Exceptions at Check Out
 ^^^^^^^^^^^^^^^^^^^^^^^
 
+Item Alerts
++++++++++++
+[[check-out-item-alerts]]
+
+If an item has a check out alert it will appear when the item is scanned at check out.
+
+image:images/circ/check-out-exceptions-4.png[scaledwidth="75%"]
+
+Staff can click *OK/Continue* after reading the alert to proceed with check out.
+
+Temporary alerts will have a *Clear* button which can be used to clear the alert when it is no longer needed.
+
 Overriding at Check Out
 +++++++++++++++++++++++
 
@@ -134,6 +146,7 @@ image:images/circ/check-out-exceptions-3.png[scaledwidth="75%"]
 11:59pm/23:59pm as the due date time regardless of what is selected for due date time.)
 . Scan or enter item barcode.
 . The item will appear below in the grid.  The specified due date will display.
+
 
 
 ////
