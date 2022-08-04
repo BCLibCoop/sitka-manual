@@ -465,11 +465,6 @@ larger borrowing zone you will see the available copies at your search library a
 
 image::images/opac/opac-search-results-5.png[scaledwidth="75%",alt="Basic Search"]
 
-If you are searching multiple branches or libraries you will see the libraries with copies listed.
-
-image::images/opac/opac-search-results-6.png[scaledwidth="75%",alt="Search Results"]
-
-
 
 View a Title Record
 ^^^^^^^^^^^^^^^^^^^
@@ -477,34 +472,26 @@ View a Title Record
 Click on a title to view a detailed record of the title, including descriptive information, location
 and availability, and options for placing holds.
 
-Click *Show Only Available Copies* to limit view to available items of that title. Click *Show All Copies* to see all items.
-
 image:images/opac/opac-search-results-7.png[scaledwidth="75%"]
 
+* Click *More Details* to see more bibliographic details including subjects.
+* Click *Show Only Available Copies* to limit view to available items of that title. Click *Show All Copies* to see all items.
+* Click *Text* eside the call number to send the item's call number by text message.
+* Click the library name to see details about the library such as address and open hours.
+* Click *Summaries & More* to see the book’s summaries and reviews, if available.
+* Click *Additional Content* to see any additional content for the title.  
+* Click *Shelf Browser* to view items appearing near the current item on the library shelves. 
+* Click *MARC Record* to display the record in MARC format. If your
+* Click *Awards, Reviews, & Suggested Reads* to see additional information including read-alikes.  This will
+only appear as an option if your library subscribes to a 3rd party service which provides this content.
 
-Title Details
-^^^^^^^^^^^^^
-
-The record view shows details such as the cover image, title, author, publication information, an abstract or
-summary, if available, how many copies are at the library or libraries you have selected, and whether
-they are available or checked out. It also displays the _Call number_ and _Copy Location_ for locating the
-item on the shelves. Click on *Text* beside the call number to send the item's call number
-by text message. Clicking the location library link will reveal information about owning library,
-such as address and open hours.
-
-Below the local details you can open up various tabs to display more information. You can select
-_Reviews and More_ to see the book’s summaries and reviews, if available. You can select
-_Shelf Browser_ to view items appearing near the current item on the library shelves. Often this is a good way
-to browse for similar items. You can select _MARC Record_ to display the record in MARC format. If your
-library offers the service, clicking on _Awards, Reviews, and Suggested Reads_ will reveal that additional
-information.
 
 Search Additional Items by Author, Subject or Series
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can search for additional items by an author, one of the subjects in the record or other works in the same
 series. Click the author, subject, or series link to start a new search in the catalogue. You can do this from
-the results page, or from within the record details view.
+the results page or from within the record details view.
 
 image:images/opac/opac-search-results-8.png[scaledwidth="75%"]
 
@@ -512,11 +499,11 @@ image:images/opac/opac-search-results-8.png[scaledwidth="75%"]
 Go Back
 ^^^^^^^
 
-When you are viewing a specific record, you can always go back to your title list by clicking the link
-*Search Results* on the left of the page.
+When you are viewing a specific record, you can always go back to your title list by clicking the 
+*Back to Results* button.
+
 
 image::images/opac/opac-search-results-9.png[scaledwidth="75%",alt="Search Results"]
-
 
 If you have selected _Group Formats and Editions_ with your search, your search results are grouped by various
 formats and editions of the same title under _My Search Results_. You can always go back to this page by
@@ -526,4 +513,5 @@ image::images/opac/opac-search-results-10.png[scaledwidth="75%",alt="Search Resu
 
 
 You can start a new search at any time by entering new search terms in the search box at the top of the page
- or by selecting the *Another Search*, *Advanced Search*, or *Browse* buttons at the top of the search results page.
+ or by selecting the *Basic Search*, *Browse the Catalogue*, or *Advanced Search* links
+at the top of the search results page.
