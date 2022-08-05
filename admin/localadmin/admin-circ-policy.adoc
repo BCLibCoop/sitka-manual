@@ -21,7 +21,7 @@ out to the patron and if so with what parameters:
 Viewing Your Circulation Policies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-https://youtu.be/Lt1RN6LTo4c[Sitka Training Video - Viewing Your Circulation Policies (2:15)]
+https://youtu.be/Lt1RN6LTo4c[*Sitka Training Video - Viewing Your Circulation Policies (2:15)*]
 
 
 To easiest way to view your current circulation policies is to run a report (reporter permissions required).
@@ -76,7 +76,7 @@ modifier, shelving location, reference flag, and item age individually or in com
 check out.  In Sitka, most circulation policies are based off the item's circulation modifier.  While
 circulation policies can be based off shelving location additional set up is required to enable this for a library.
 
-Some libraries apply different policies to different patron profile.  Libraries that do this will see
+Some libraries apply different policies to different patron profiles.  Libraries that do this will see
 separate default policies for the different patron groups.  Generally policies are set for the 
 patron group at the top of the permission tree and then additional policies are added for more specific patron
 groups as needed.  For example, most public libraries have policies set for _Public Library Users_ which apply
@@ -144,7 +144,7 @@ hard due date and applicable settings to determine what due date to give the ite
 
 *Item specific limits* can be applied to specific circulation policies to restrict how 
 many items using a particular circulation modifier or shelving location can be out to a patron at a time.
-For example, a item specific limit can restrict a user to having 5 items with the circulation modifier
+For example, an item specific limit can restrict a user to having 5 items with the circulation modifier
 _dvd_ out at a time.  The limits can also have combinations specified, so you can have a limit of up to 
 5 items using the circulation modifier _dvd_, _dvd-feature_, or _video_.  Item specific limits can't be included
 in the circulation policy report so contact https://bc.libraries.coop/support/[Co-op Support] if you have questions about your existing limits.
@@ -157,7 +157,7 @@ when items aren't circulating as expected.
 Troubleshooting Your Circulation Policies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-https://youtu.be/bUOQHfFqWNM[Sitka Training Video - Troubleshooting Your Circulation Policies (3:12)]
+https://youtu.be/bUOQHfFqWNM[*Sitka Training Video - Troubleshooting Your Circulation Policies (3:12)*]
 
 There are three common reasons why items do not circulate as expected:
  
