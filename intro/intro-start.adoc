@@ -263,7 +263,8 @@ anchor:download-hatch-ref[Hatch]
 . Install Java Runtime Environment (JRE).
 Windows only requires a JRE to run Hatch, not a full JDK. Download and install JRE version 1.8 or higher from https://www.java.com[java].
 
-. Install Hatch from https://evergreen-ils.org/downloads/Hatch-Installer-0.3.2.exe[Hatch]
+. Install Hatch
+Download the executable file from https://evergreen-ils.org/downloads/Hatch-Installer-0.3.2.exe[Hatch] and refer to the https://evergreen-ils.org/documentation/install/INSTALL_Hatch.html[Installation Instructions]
 
 . Install Chrome extension. If the extension was not installed automatically when installing Hatch you can get it directly in the browser from the Chrome App Store https://chrome.google.com/webstore/detail/hatch-native-messenger/ppooibdipmklfichpmkcgplfgdplgahl[Chrome App Store]
 

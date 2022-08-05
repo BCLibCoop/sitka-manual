@@ -17,19 +17,18 @@ Circulation
 * Patron notes, alerts, and messages are now managed through a single interface.
 * Password reset link button in patron Edit to enable staff to initiate a password reset for a patron.
 ** https://youtu.be/WNQwt2zXxOY[*Sitka Snippet Video - Resetting a Forgotten Password (2:10)*]
-* New patron photo URL field added to patron account.  Acess to this feature is not available by default.  Please contact Co-op Support for more
+* New patron photo URL field added to patron account.  Access to this feature is not available by default.  Please contact Co-op Support for more
 information.
 * New look for holds pull list
 * New look for the triggered events log
-* 
+*
 
 [[new-features-cataloguing]]
 Cataloguing
 ~~~~~~~~~~~
 
 * New bibliographic record note where cataloguers can include non-public information about why records have been edited in particular ways.
-* Cover image uploader which enables staff to load library created images.  This feature is currently in the pilot phase with a handful of libraries. 
-Wider rollout is expected at a later date.
+* Cover image uploader which enables staff to load library created images.  This feature is currently in the pilot phase. This feature will not be available to the Sitka public libraries.
 * Holdings Editor
 
 [[new-features-staff-catalogue]]
@@ -59,7 +58,7 @@ Reports
 
 [[new-features-course-reserves]]
 Course Reserves
-~~~~~~~~~~~~~~~	
+~~~~~~~~~~~~~~~
 
 * New course reserves module within Evergreen which replaces the existing 3rd party course reserves module
 
@@ -78,11 +77,6 @@ their customized English notifications must provide translations to Co-op Suppor
 Administration
 ~~~~~~~~~~~~~~
 
-* Shelving Location Order interface enables libraries to re-order their shelving locations for 
+* Shelving Location Order interface enables libraries to re-order their shelving locations for
 their pull list for hold requests.
 ** https://youtu.be/hjcLkDG2IFM[*Sitka Snippet Video - Shelving Location Order (1:22)*]
-
-
-
-
-
