@@ -85,33 +85,36 @@ to your own library, or if you are a branch of a multi-branch library system and
 keep the holds at your own branch. Use the latter if you are a multi-branch library system 
 and allow items to fill holds picked up at all your branches, but not to go out of your system.
 | Circulate? |Indicates whether the item can circulate or not | Leave it as "YES", unless the item is in a 
-circulating shelving location but should not itself circulate. If the shelving location's Circulate? 
+circulating shelving location but should not itself circulate. If the shelving location's _Circulate?_ 
 attribute is "NO", this field will have no effect. The "NO" value in this field overrides the 
-shelving location's Circulate?  "YES" value.
+shelving location's _Circulate?_  "YES" value.
 | Circulation as Type |  Circulation policy may be controlled by the media type in MARC records. When media 
 type is used, this field can be used to override the MARC media type for individual items. It can also be 
-used for statistical purposes. | Not currently used in Sitka's Evergreen. This attribute it hidden by default.
+used for statistical purposes. | Not currently used in Sitka's Evergreen. This attribute is hidden by default.
 | Circulation Library | Library currently circulating the item |
 | Circulation Modifier | An identifier used for applying circulation policies or for statistical purposes |A shared list of Sitka circulation modifiers displays in the dropdown list for all libraries. Each library selects circulation modifiers to use, and defines its own circulation policy for each modifier.
-| Cost | The actual amount of money paid for the item | This automatically filled with the 
+| Cost | The actual amount of money paid for the item | This is automatically filled with the 
 billed amount from acquisitions module.  It can also be entered manually by libraries not using acquisitions.
 | Deposit? | Indicates whether the checking out item requires a deposit or not |
 | Deposit Amount | Amount required as a deposit for the item | When the item is checked out a bill for this amount is automatically created in the patron account.
 | Fine Level | Indicates whether an item uses the Low, Normal, or High fine level attached to its circulation modifier or shelving location set up in the circulation policy. | Each circulation modifier/shelving location may have three fine levels, corresponding to these three values. Use 'Normal' if only one fine level is used. Please contact Co-op Support if you need multiple fine levels for one circulation modifier/shelving location.
 | Floating | Indicates whether an item  belongs to a floating group | This functionality must be configured by Co-op Support. If Co-op Support has not configured floating groups for you, leave the field blank.
-| Holdable? | Indicates whether the item is holdable or not | Leave it as "YES", unless the item is in a holdable shelving location, but holds should not be allowed on this particular item. If shelving location's Holdable? is set to "NO", this field will have no effect. The "NO" value in this field overrides the  shelving location's Holdable? is "YES" field.
+| Holdable? | Indicates whether the item is holdable or not | Leave it as "YES", unless the item is in a 
+holdable shelving location, but holds should not be allowed on this particular item. If shelving 
+location's _Holdable?_ is set to "NO", this field will have no effect. The "NO" value in this field 
+overrides the  shelving location's _Holdable?_ is "YES" field.
 | Item Alert | Used for information that should been seen when an item is checked in or out 
-(ie. Damage or number of pieces to check for). | CAUTION: some 3rd party self check machines 
+(e.g. Damage or number of pieces to check for). | CAUTION: some 3rd party self check machines 
 cannot display item alerts. 
 | Item Note | Used for information specific to the item. | Notes set as public will display in the public catalogue.
-| Item Tags |  | Not currently used in Sitka's Evergreen. This attribute it hidden by default.
+| Item Tags |  | Not currently used in Sitka's Evergreen. This attribute is hidden by default.
 | Loan Duration | Indicates whether an item uses the Short, Normal, or Long loan duration attached to its circulation modifier or shelving location set up in the circulation policy. | Each circulation modifier/shelving location may have three loan durations, corresponding to these three values. Use 'Normal' if only one loan period is used. Please contact Co-op Support if you need multiple loan durations for one circulation modifier/shelving location.
 | OPAC Visible? | Indicates whether the item is visible in the public catalogue | Leave it as 'YES', unless 
-the item is in an OPAC visible shelving location, but should not be displayed on OPAC. If OPAC Visible? 
+the item is in an OPAC visible shelving location, but should not be displayed on OPAC. If _OPAC Visible?_ 
 is "NO" for the shelving location, this field will have no effect. The "NO" value in this field will 
-hide the item, even if OPAC Visible? is "YES" for the shelving location.
+hide the item, even if _OPAC Visible?_ is "YES" for the shelving location.
 | Price | Replacement price of the item. |  Evergreen uses this price when billing patrons for lost items.
-| Quality | Indicates the quality of the item | Not currently used in Sitka's Evergreen. This attribute it hidden by default.
+| Quality | Indicates the quality of the item | Not currently used in Sitka's Evergreen. This attribute is hidden by default.
 | Reference? | Indicates whether the item is reference or not. | This flag can be used for setting up circulation policies or for statistical purposes.
 | Shelving Location | The location where the item can be found. | Shelving locations belonging to the working location and the organizations on a higher hierarchal level (library system, federation, or Sitka) are displayed in the dropdown list. Multi-branch libraries may create system level shelving locations for all branches to share.
 | Statistical Categories | Item statistical categories created by your library or federation. | Use the dropdown list to choose which organization's entries to display.
