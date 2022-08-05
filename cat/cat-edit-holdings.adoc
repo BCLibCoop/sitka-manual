@@ -9,13 +9,15 @@ include::edit-holdings/holdings-template.adoc[Holdings Templates]
 
 include::edit-holdings/item-alert-note-tag-stat-cat.adoc[Item Alert, Note, Tag and Stat Cat]
 
+////
 include::edit-holdings/edit-holdings.adoc[Editing Holdings]
-
-include::edit-holdings/replace-barcode.adoc[Replacing a Barcode]
+////
 
 include::edit-holdings/batch-update.adoc[Batch Editing Copies]
 
 include::edit-holdings/spine-labels.adoc[Spine Labels]
+
+include::edit-holdings/replace-barcode.adoc[Replacing a Barcode]
 
 include::edit-holdings/transfer-holdings.adoc[Transferring Holdings]
 
