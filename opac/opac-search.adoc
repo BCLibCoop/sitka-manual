@@ -164,10 +164,11 @@ Records with incorrect coding will not filter correctly.
 Sort Results
 ^^^^^^^^^^^^
 
-By default, the search results are in order of greatest to least relevance. See
-xref:_order_of_results[]. In
+By default, the search results are in order of greatest to least relevance. In
 the _Sort Results_ box you may select to order the search results by relevance, title, author,
 publication date, or popularity.
+
+For more information see xref:_order_of_results[].
 
 Exclude Electronic Resources
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
