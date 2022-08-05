@@ -235,7 +235,7 @@ Staff can use the following keyboard shortcuts to navigate Evergreen:
 [options="header"]
 |===
 |Key | Function
-|*CTRL+h* | Display Keyboard Shortcut List
+|*CTRL+H* | Display Keyboard Shortcut List
 |*F1* | Check Out
 |*F2* | Check In
 |*F3* | Search the Catalogue
