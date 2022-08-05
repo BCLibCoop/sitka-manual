@@ -1,6 +1,9 @@
 Simple Reports
 --------------
 
+Sitka does not currently use the Simple Reports feature.  
+
+////
 Simple Reports implements a new reporting system focused on ease of use.
 The Simple Reports interface guides a user through a streamlined reports
 creation wizard and intentionally curtails the extensive options
@@ -429,3 +432,5 @@ end users, up to and including removing fields entirely. So long as the
 SELECT statements are not altered the inner workings of the Simple
 Reports installation are not changed and only the interface would be
 different.
+
+////
