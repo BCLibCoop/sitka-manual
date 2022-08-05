@@ -1,34 +1,35 @@
 [[spine-label]]
-Spine/Pocket Labels
-~~~~~~~~~~~~~~~~~~~
+Printing Item Labels
+~~~~~~~~~~~~~~~~~~~~
+(((Spine Labels)))
+(((Item Labels)))
 
-*Printing Spine Labels during Cataloguing*
 
-You may choose to print spine labels during the cataloguing process. On saving item records, you will be automatically directed to the printing item label screen. However, you need to set it up first.
+Printing Labels from the Holdings Editor
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Go to *Defaults* on Holdings Editor.
+Spine and pocket labels can be printed individually from the Holdings Editor. 
+
+. Use the Holdings Editor to create or edit your holding.
+. At the bottom of the Holding Editor check the box for *Print Labels?*
 +
-image::images/cat/spine-label-1.png[]
+image::images/cat/item-labels-1.png[scaledwidth="75%",alt="Print Labels check box"]
 +
-. Select *Print Item Labels on Save & Exit* checkbox.
-+
-image::images/cat/spine-label-2.png[]
-+
-. With the above setting in place, when you finish editing item records and click *Save & Exit*, the *Print Item Labels* screen will open up in a new tab.
+. Click *Apply All, Save & Exit*.
+. The _Print Item Labels_ interface will open.
 . Make any required adjustments and click *Print*.
 +
-image::images/cat/spine-label-3.png[]
+image::images/cat/item-labels-2.png[]
 
 [TIP]
 =====
-If you have spine label templates, select one from the dropdown list, and click *Apply*.
-
-image::images/cat/spine-label-4.png[]
+The *Print Labels?* check box is sticky and will remain checked until you un-check it.
 =====
 
-*Printing Spine Labels by Batch*
+Printing Labels from Item Status
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You may choose to print spine labels after cataloguing a batch of items.
+Spine and pocket labels can be printed in batch from Item Status.
 
 . Scan the items on *Items Status* screen and select them.
 . Click *Actions -> Show -> Print Labels*.
@@ -40,9 +41,10 @@ image::images/cat/spine-label-5.png[]
 +
 image::images/cat/spine-label-6.png[]
 
-*Printing Spine Labels from Item Buckets*
+Printing Labels from Item Buckets
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can also print labels from *Item Buckets*.
+Spine and pocket labels can be printed in batch from an Item Bucket.
 
 image::images/cat/spine-label-7.png[]
 
