@@ -3,8 +3,8 @@ Refunding Payments
 (((Refund)))
 
 If a paid bill is voided, either by staff or by the system, it may result in a negative balance on the patron's
-account.  To close negative bills, you can link:_adjusting_the_bill_balance_to_zero[adjust the balance to 
-zero], link:_add_charge_to_existing_bill[add a bill entry to the negative line item], 
+account.  To close negative bills, you can xref:_adjusting_the_bill_balance_to_zero[adjust the balance to 
+zero], xref:_add_charge_to_existing_bill[add a bill entry to the negative line item], 
 or refund the balance amount.
 
 On occasion staff may need to manually void a payment in order to trigger the refund.  See 
