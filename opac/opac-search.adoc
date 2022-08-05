@@ -60,7 +60,7 @@ You can limit your search by format. Some of the more popular formats in the lis
 
 * For Books, you can choose _All Books_, which includes regular print books, large print books, and e-books, _All Audiobooks_, which includes audiobooks on physical media and e-audiobooks, OR you can choose the individual format. The individual choices are: _Books (physical)_, _Books (large print)_, _Books (electronic)_, _Audiobooks (physical)_ or _Audiobooks (electronic)_.
 +
-* For Videos, you can choose _All Videos_ which includes video formats such as DVD,VHS, Blu-ray, and E-video. OR you can choose the individual format. The individual choices are: _Videos (electronic)_ or _Videos (physical)_.
+* For Videos, you can choose _All Videos_ which includes video formats such as DVD, VHS, Blu-ray, and E-video. OR you can choose the individual format. The individual choices are: _Videos (electronic)_ or _Videos (physical)_.
 +
 * _Music_ will search music on CD or other media.
 +
@@ -165,7 +165,7 @@ Sort Results
 ^^^^^^^^^^^^
 
 By default, the search results are in order of greatest to least relevance. See
-xref:_search_methodology[Order of Results in]. In
+xref:_order_of_results[]. In
 the _Sort Results_ box you may select to order the search results by relevance, title, author,
 publication date, or popularity.
 
@@ -227,6 +227,13 @@ to the tag. For example, to search by publisher name, enter 264 b Random House.
 . Click *Search* to run the search.
 
 image::images/opac/opac-expert-search-1.png[scaledwidth="75%",alt="Basic Search"]
+
+[TIP]
+=====
+The value in the MARC record must exactly match the value you enter as your search term or it will
+not be included in the results.
+=====
+
 
 Browse the Catalogue
 ~~~~~~~~~~~~~~~~~~~~

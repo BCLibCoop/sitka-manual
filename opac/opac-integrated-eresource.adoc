@@ -6,7 +6,7 @@ have records in the library catalogue. Links leading to the provider's website a
 records. Some electronic resources can be integrated into the library catalogue, which allows users not
 only to view the records, but also to borrow and place holds on the resources on the library catalogue
 directly. Currently eBooks and eAudiobooks from OverDrive are integrated. Users can borrow or place
-holds on these eResources, and view their borrowed or on-hold items in their library account.
+holds on these E-Items, and view their borrowed or on-hold items in their library account.
 
 When your search result includes an integrated eBooks and eAudiobooks from OverDrive, you may see the record
 is marked as electronic resource with a link going to the provider's website. You will see columns
@@ -46,7 +46,7 @@ NOTE: You will be prompted to log in with your library account, if you have not 
 image::images/opac/opac-eresource-4.png[scaledwidth="75%",alt="eResources"]
 +
 . Click *Download*.  The item will be downloaded in the chosen format.
-*
++
 image::images/opac/opac-eresource-4a.png[scaledwidth="75%",alt="eResources"]
 
 
