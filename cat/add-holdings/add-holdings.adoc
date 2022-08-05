@@ -27,12 +27,12 @@ image::images/cat/viewing-search-results-3.png[section of the search result with
 +
 . Click *Add Holdings*.
 +
-image::images/cat/add-holdings-1.png[]
+image::images/cat/holdings/add-holdings-1.png[scaledwidth="75%"]
 +
 . The Holdings Editor will open up in a new tab. Depending on your saved preferences you will see either 
 the _Unified Holdings and Item Attributes Display_ or separate tabs for _Holdings_ and _Item Attributes_.
 +
-image::images/cat/add-holdings-2.png[scaledwidth="75%"]
+image::images/cat/holdings/add-holdings-2.png[scaledwidth="75%"]
 +
 . Complete the required fields for both the call number and item records.
 .. You can configure the default fields displayed in the Holdings Editor. Click on the *Preferences* tab.
@@ -40,10 +40,14 @@ See xref:_holdings_editor_preferences[] for more information.
 ..  By default, a new item has *In Process* status, unless you choose a different one when creating it.
 Item must be checked in to become *Available* and to create item's *Active Date*.
 .. Refer to
-xref:_item_attributes[] for information about individual fields in an item record.
+xref:_item_attributes[] for information about individual attributes in an item record.
 .. To ensure data consistency, we recommend using holding templates. Select one from the dropdown list,
 then click on *Apply*. Refer to xref:_holdings_templates[] for more information on creating and using
 holding templates.
++
+. If you would like to print a spine or pocket label for the item, check the box for *Print Labels?*.
++
+image::images/cat/holdings/add-bib-holdings-3.png[scaledwidth="75%"]
 +
 . Once done, click on *Apply All, Save & Exit*. The pop-up tab is closed.
 
