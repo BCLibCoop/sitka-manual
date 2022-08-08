@@ -1,7 +1,7 @@
 Adding Holdings to Bibliographic Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-link:https://youtu.be/Zn1rqJESu5Q[*Sitka Training Video - Holdings Editor (7:26)*]
+link:https://youtu.be/7WBAJ1Unz_M[*Sitka Training Video - Holdings Editor (14:13)*]
 
 [CAUTION]
 =========
@@ -14,7 +14,7 @@ link:https://youtu.be/Zn1rqJESu5Q[*Sitka Training Video - Holdings Editor (7:26)
 Adding Holdings
 ^^^^^^^^^^^^^^^
 
-https://youtu.be/Frqoz8IYOvs[*Sitka Training Video - Adding Holdings (1:38)*]
+link:https://youtu.be/xD7ATa62KSo[*Sitka Training Video - Adding Holdings (2:05)*]
 
 . Search the catalogue for a record that matches the item in hand, as described
 in xref:_searching_the_database_for_cataloguing_purposes[].
@@ -27,12 +27,12 @@ image::images/cat/viewing-search-results-3.png[section of the search result with
 +
 . Click *Add Holdings*.
 +
-image::images/cat/holdings/add-holdings-1.png[scaledwidth="75%"]
+image::images/cat/holdings/add-bib-holdings-1.png[scaledwidth="75%"]
 +
 . The Holdings Editor will open up in a new tab. Depending on your saved preferences you will see either 
 the _Unified Holdings and Item Attributes Display_ or separate tabs for _Holdings_ and _Item Attributes_.
 +
-image::images/cat/holdings/add-holdings-2.png[scaledwidth="75%"]
+image::images/cat/holdings/add-bib-holdings-2.png[scaledwidth="75%"]
 +
 . Complete the required fields for both the call number and item records.
 .. You can configure the default fields displayed in the Holdings Editor. Click on the *Preferences* tab.
@@ -49,60 +49,119 @@ holding templates.
 +
 image::images/cat/holdings/add-bib-holdings-3.png[scaledwidth="75%"]
 +
-. Once done, click on *Apply All, Save & Exit*. The pop-up tab is closed.
+. Once done, click on *Apply All, Save & Exit*. If printing labels the 
+xref:_printing_item_labels[Item Label interface] will open otherwise the pop-up tab is closed.
+. Your item will now display in the catalogue.
 
 
 Adding Holdings to Multiple Branches
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Items that need different item attributes should be created separately.
+
+. Search the catalogue for a record that matches the item in hand, as described
+in xref:_searching_the_database_for_cataloguing_purposes[].
+.. If you do not find a match,
+refer to the http://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka Cataloguing Policy] for
+recommendations on required procedures.
+. Click on the title link to open the record.
++
+image::images/cat/viewing-search-results-3.png[section of the search result with the title link circled]
++
 . Go to the *Holdings View* tab and select the branches you'd like to add items to.
 +
-.. If you do not select a branch, the default owning and circulating library is your login working location.
-+
-image::images/cat/add-holdings-8a.png[]
-+
-. Click *Add Holdings*.  The Holdings Editor will open up in a new tab 
-and will include the Call Number/Volume Editor.
-+
-image::images/cat/add-holdings-2.png[scaledwidth="75%"]
-
 [TIP]
 =====
-
-Make sure both the *Show empty call numbers* and *Show empty libraries* checkboxes are selected in order to
+Make sure both the *Show Empty Call Numbers* and *Show Empty Libs* checkboxes are selected in order to
 display branches without items on the library list.
 
+If you don't select a branch, the default owning and circulating library is set to your workstation location.
 =====
++
+image::images/cat/holdings/add-bib-holdings-4.png[]
++
+. Click *Add Holdings*.
++
+image::images/cat/holdings/add-bib-holdings-5.png[scaledwidth="75%"]
++
+. The Holdings Editor will open up in a new tab. Depending on your saved preferences you will see either 
+the _Unified Holdings and Item Attributes Display_ or separate tabs for _Holdings_ and _Item Attributes_.
++
+image::images/cat/holdings/add-bib-holdings-6.png[scaledwidth="75%"]
++
+. Complete the required fields for both the call number and item records.
+.. You can configure the default fields displayed in the Holdings Editor. Click on the *Preferences* tab.
+See xref:_holdings_editor_preferences[] for more information.
+..  By default, a new item has *In Process* status, unless you choose a different one when creating it.
+Item must be checked in to become *Available* and to create item's *Active Date*.
+.. Refer to
+xref:_item_attributes[] for information about individual attributes in an item record.
+.. To ensure data consistency, we recommend using holding templates. Select one from the dropdown list,
+then click on *Apply*. Refer to xref:_holdings_templates[] for more information on creating and using
+holding templates.
++
+. If you would like to print spine or pocket labels for the items, check the box for *Print Labels?*.
++
+image::images/cat/holdings/add-bib-holdings-3.png[scaledwidth="75%"]
++
+. Once done, click on *Apply All, Save & Exit*. If printing labels the 
+xref:_printing_item_labels[Item Label interface] will open otherwise the pop-up tab is closed.
+. Your items will now display in the catalogue.
 
-You can also add call numbers for additional branches from within the Call Number/Volume Editor.
 
-. Click in the library field beside the *Add call number* button and select the branch from the drop down menu.
-. Click *Add call number*.
-+
-image::images/cat/add-holdings-call-number-1.png[]
-+
-. An additional line will display.
-+
-image::images/cat/add-holdings-call-number-2.png[]
- 
+
 
 Adding Items to an Existing Call Number
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. If your library has multiple call numbers and you want to an new item to a particular one, 
-select the call number on the *Holdings View* tab.
+. Search the catalogue for a record that matches the item in hand, as described
+in xref:_searching_the_database_for_cataloguing_purposes[].
+.. If you do not find a match,
+refer to the http://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka Cataloguing Policy] for
+recommendations on required procedures.
+. Click on the title link to open the record.
++
+image::images/cat/viewing-search-results-3.png[section of the search result with the title link circled]
++
+. Go to the *Holdings View* tab and select the call number you'd like to add items to.
++
+image::images/cat/holdings/add-bib-holdings-7.png[]
++
 . Click *Add Holdings*.
 +
-image::images/cat/add-holdings-9a.png[]
+image::images/cat/holdings/add-bib-holdings-8.png[scaledwidth="75%"]
 +
-. The Holdings Editor will open up in a new tab 
-and will include the Call Number/Volume Editor.
+. The Holdings Editor will open up in a new tab. Depending on your saved preferences you will see either 
+the _Unified Holdings and Item Attributes Display_ or separate tabs for _Holdings_ and _Item Attributes_.
++
+image::images/cat/holdings/add-bib-holdings-9.png[scaledwidth="75%"]
++
+. Complete the required fields for both the call number and item records.
+.. You can configure the default fields displayed in the Holdings Editor. Click on the *Preferences* tab.
+See xref:_holdings_editor_preferences[] for more information.
+..  By default, a new item has *In Process* status, unless you choose a different one when creating it.
+Item must be checked in to become *Available* and to create item's *Active Date*.
+.. Refer to
+xref:_item_attributes[] for information about individual attributes in an item record.
+.. To ensure data consistency, we recommend using holding templates. Select one from the dropdown list,
+then click on *Apply*. Refer to xref:_holdings_templates[] for more information on creating and using
+holding templates.
++
+. If you would like to print spine or pocket labels for the items, check the box for *Print Labels?*.
++
+image::images/cat/holdings/add-bib-holdings-3.png[scaledwidth="75%"]
++
+. Once done, click on *Apply All, Save & Exit*. If printing labels the 
+xref:_printing_item_labels[Item Label interface] will open otherwise the pop-up tab is closed.
+. Your items will now display in the catalogue.
+
+////
 
 Adding a Call Number without an Item
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Sometimes you may need to create a call number record without any item. For example, you may want to 
-move one of two regular collection items to reference, which will use a different call number prefix, 
+transfer an item to a new move one of two regular collection items to reference, which will use a different call number prefix, 
 or catalogue a pre-catalogued item.
 
 . Find the title record, then click on *Holdings View*,  select your library, go to *Actions* list, 
@@ -161,5 +220,5 @@ image::images/cat/add-holdings-8.png[]
 +
 * *Save Completed* will save those items on *Completed Items* tab only. Those on *Working Items* tab will be considered discarded, though they do not disappear.
 =========
-
+////
 
