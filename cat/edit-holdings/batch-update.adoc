@@ -3,7 +3,8 @@ Batch Editing Items
 
 . Items can be edited in batch:
 +
-* by scanning items or uploading barcodes into _Item Status_, selecting the relevant items, and then 
+* by scanning items or xref:_upload_from_file_choose_file[uploading a file of barcodes] 
+into _Item Status_, selecting the relevant items, and then 
 selecting *Edit -> Items* from the *Actions* menu.
 * from within an item bucket by selecting the relevant items, and then selecting 
 *Edit Selected Items* from the *Actions* menu.
