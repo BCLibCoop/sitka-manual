@@ -1,10 +1,46 @@
-[[spine-label]]
-Printing Item Labels
-~~~~~~~~~~~~~~~~~~~~
+Item Labels
+~~~~~~~~~~~
 (((Spine Labels)))
 (((Item Labels)))
 
+Printing Item Labels
+^^^^^^^^^^^^^^^^^^^^
 
+Item labels, both spine and pocket, can be printed:
+
+* from the _Holdings Editor_
+* from _Holdings View_
+* from _Item Status_
+* from _Item Buckets_
+
+In each of these places you can select the items you wish to print labels for and then choose the 
+*Print Labels* option.  (This is a checkbox in the _Holdings Editor_ and an option on the Actions 
+menu in the other interfaces.)  This will open the _Print Item Labels_ interface.
+
+Before you start printing labels you will need to configure your labels.  See 
+xref:_configuring_label_printing[] for set up information.
+
+. Review the label preview to make sure your labels are displaying correctly.
+. If needed, apply a template from the drop-down menu and click *Apply*.
++
+image::images/cat/print-item-labels-1.png[]
++
+. On the *Call Numbers* tab you can manually update call numbers for printing. For example,
+if you include copy numbers on your barcode you can add it here.  These changes only
+affect the printed call number and do not change the call number in the system.
++
+image::images/cat/print-item-labels-2.png[]
++
+. If you use label sheets, go to the *Settings* tab to adjust the starting position for your labels.
++
+image::images/cat/print-item-labels-3.png[]
++
+. Click *Print* and follow any browser prompts.
++
+image::images/cat/print-item-labels-4.png[]
++
+
+////
 Printing Labels from the Holdings Editor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -47,7 +83,7 @@ Printing Labels from Item Buckets
 Spine and pocket labels can be printed in batch from an Item Bucket.
 
 image::images/cat/spine-label-7.png[]
-
+////
 
 Configuring Label Printing
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
