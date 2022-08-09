@@ -526,7 +526,7 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 |Library time zone |  | Text | |Sitka
 
 |Mark item damaged voids overdues|When an item is marked damaged, overdue fines on the most recent circulation are voided.|True/False| | LSA
-
+|My Account URL | URL for a My Account link. Use a complete URL, such as "https://example.com/eg/opac/login". | | LSA
 |Pre-cat item circ lib|Override the default circ lib of "here" with a pre-configured circ lib for pre-cat items. The value should be the "shortname" (aka policy name) of the org unit|Text | | LSA
 
 |Telephony: Arbitrary line(s) to include in each notice callfile|This overrides lines from opensrf.xml. Line(s) must be valid for your target server and platform (e.g. Asterisk 1.4).|Text| Not in use | Sitka
