@@ -14,8 +14,9 @@ selecting *Edit -> Items* from the *Actions* menu.
 . This will open the _Holdings Editor_ in a new tab.
 . Make the needed changes to the call number record and/or item attributes.  Information on these fields
 can be found in xref:_holdings_editor[].
-. If your items have different values for particular item attributes you can edit those individually
-by clicking on the attribute and then de-select the values you don't want to change before making your changes.
+. If there are particular item attributes which will be different for different items, you can edit those 
+individually. Click on the attribute, and then de-select the values you don't want to be altered before 
+you apply the changes.
 +
 image::images/cat/batch-edit-item-1.png[]
 +

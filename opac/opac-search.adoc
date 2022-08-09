@@ -358,7 +358,7 @@ results with the words _parent_ and _parental_. This is because the search uses 
 most relevant results. That is, words are reduced to their stem (or root word) before the search is performed.
 
 The stemming algorithm relies on common English language patterns - like verbs ending in ing - to find the
-stems. This is more efficient that looking up each search term in a dictionary and usually produces desirable
+stems. This is more efficient than looking up each search term in a dictionary and usually produces desirable
 results. However, it also means the search will sometimes reduce a word to an incorrect stem and cause
 unexpected results. To prevent a word or phrase from stemming, put it in double-quotes.
 
