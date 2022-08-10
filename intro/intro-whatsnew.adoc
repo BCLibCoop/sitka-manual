@@ -7,7 +7,6 @@ https://www.youtube.com/playlist?list=PLdwlgwBNnH4r5hUb0EkOYmSv4kLv5QaL7[*New Fe
 Staff Client
 ~~~~~~~~~~~~
 
-* Re-designed staff portal page (splash page)
 * Actions menu option allows you to remove actions you don't use from the Actions menu in certain interfaces.
 
 [[new-features-circulation]]
@@ -21,15 +20,13 @@ Circulation
 information.
 * New look for holds pull list
 * New look for the triggered events log
-*
 
 [[new-features-cataloguing]]
 Cataloguing
 ~~~~~~~~~~~
 
-* New bibliographic record note where cataloguers can include non-public information about why records have been edited in particular ways.
-* Cover image uploader which enables staff to load library created images.  This feature is currently in the pilot phase. This feature will not be available to the Sitka public libraries.
-* Holdings Editor
+* New and improved Holdings Editor.
+** https://youtu.be/7WBAJ1Unz_M [*Sitka Training Video - Holdings Editor (14:12)*]
 
 [[new-features-staff-catalogue]]
 Staff Catalogue
@@ -50,21 +47,11 @@ Public Catalogue
 * Re-designed public catalogue with a new look
 * Option for patrons to select their locale which determines the lanugage their email notifications are sent in
 
-[[new-features-reports]]
-Reports
-~~~~~~~
-
-* Simple Reports
-
 [[new-features-course-reserves]]
 Course Reserves
 ~~~~~~~~~~~~~~~
 
-* New course reserves module within Evergreen which replaces the existing 3rd party course reserves module
-
-[[new-features-booking]]
-Booking
-~~~~~~~
+* New course reserves module within Evergreen which replaces the existing 3rd party course reserves module.
 
 [[new-features-patron-notifications]]
 Patron Notifications
