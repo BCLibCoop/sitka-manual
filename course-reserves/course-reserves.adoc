@@ -42,36 +42,32 @@ likely preferable here, as it would allow an electronic resource to display
 in the public catalog without adding any items or located URIs.
 
 
-
-The integrated course reserves module must be turned on before it will display in the 
-public catalogue.  You can add courses and materials prior to turning it on.
-
-. Go to *Administration ->Local Administration -> Library Settings Editor*.
-. Find the setting _Opt Org Unit into the Course Materials Module_ and set it to TRIE. Set it to True for the
-org units that want to use the module.  You may add courses and materials
-prior to enabling this setting.  However, they will not display in the
-catalog until the setting is enabled.
-
-There are additional library settings that apply to the Course Materials
-Module:
-
-
-
-
 Course Reserves Administration
 ------------------------------
 
-Adding terms
-~~~~~~~~~~~~
+To access the course reserves module go to *Administration -> Local Administration -> Course Reserves List*.
+
+Creating Terms
+~~~~~~~~~~~~~~
 
 You may optionally keep track of your institutions terms or semesters.
-To add a new term:
 
-. Navigate to Administration -> Local Administration -> Course Reserves List.
-. Open the Terms tab.
-. Press the "New Term" button.
-. Fill out the form and press the "Save" button.
+. Go to *Administration -> Local Administration -> Course Reserves List*.
+. Click on the *Terms* tab.
+. Click "Create Term".
++
+image::images/course-reserves/course-reserves-term-1.png[scaledwidth="50%",alt="Adding Course Reserve Terms"]
++
+. Enter the name of the term.
+. If you are a multi-branch library you may need to change the owning library to be your system, rather than
+a particular branch.
+. Enter a start date and an end date for the term.
+. Click *Save*.
++
+image::images/course-reserves/course-reserves-term-2.png[scaledwidth="50%",alt="Adding Course Reserve Terms"]
 
+
+////
 Modifying course roles
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -92,26 +88,52 @@ beneficial, as it could enable students to locate their course using the name
 of their instructor.  However, having a student role viewable in the OPAC could
 be a violation of the students' privacy rights, as it would expose their course
 registration to the general public.
+////
 
-Adding courses
-~~~~~~~~~~~~~~
+Creating Courses
+~~~~~~~~~~~~~~~~
 
-To add a course:
-
-. Navigate to Administration -> Local Administration -> Course Reserves List.
-. Press the "Create course" button.
+. Go to *Administration -> Local Administration -> Course Reserves List*.
+. The *Course list* tab will open by default.
+. Click *Create Course*.
++
+image::images/course-reserves/course-reserves-add-course-1.png[scaledwidth="50%",alt="Adding Course Reserve Terms"]
++
 . Fill out the characteristics of the course.  The course's number, name, and
-owning library are required.  The section number is not.
-. Once you have created a course, you can optionally associate it with the
-terms (or semesters) that it is taught in.  Do this by clicking the "Terms
-taught" link next to the course you created.  Press the New Course Term Map button
-and select the Term you wish to associate.  You can associate as many or as
-few terms as you wish to any course.
+owning library are required.  The section number is optional.
+. Click *Save*.
++
+image::images/course-reserves/course-reserves-add-course-2.png[scaledwidth="50%",alt="Adding Course Reserve Terms"]
++
+. The course is added to the list.
+. Click *Terms taught*.
++
+image::images/course-reserves/course-reserves-add-course-3.png[scaledwidth="50%",alt="Adding Course Reserve Terms"]
++
+. Click *Attach course to a term*.
++
+image::images/course-reserves/course-reserves-add-course-4.png[scaledwidth="50%",alt="Adding Course Reserve Terms"]
++
+. Select a term from the drop down menu and click *Save*.
++
+image::images/course-reserves/course-reserves-add-course-5.png[scaledwidth="50%",alt="Adding Course Reserve Terms"]
++
+. Repeat as needed if multiple terms need to be attached to the course.
+. Click *Return to Course List*.
+
+Setting 
 
 Adding materials to courses
 ---------------------------
 
-You may attach several different types of materials to a course.
+. Go to *Administration -> Local Administration -> Course Reserves List*.
+. The *Course list* tab will open by default.
+. Select the course you'd like to edit and from the *Actions* menu choose *Edit Selected*. 
++
+image::images/course-reserves/course-reserves-add-materials-1.png[scaledwidth="50%",alt="Adding Course Reserve Terms"]
++
+
+
 
 Attaching an item to a course
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
