@@ -1,11 +1,16 @@
 Old Course Reserves Administration
 ----------------------------------
 
-The Course Reserves module is available to academic libraries for displaying and managing course
-reserve lists.
+The old course reserves module has been used by academic libraries for displaying and managing course
+reserve lists.  All libraries using the old module should now move to use the new integrated course
+reserves module.  This documentation will be available until all libraries have made the move.
 
+ 
+////
 The module uses the _My Lists_ functionality in the public catalogue to create lists of
 reserves materials that can be viewed by users.
+
+
 
 Implementing Course Reserves
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -31,6 +36,8 @@ are not holdable your shelving location needs to be set accordingly or hold poli
 Because the course reserves module uses the _My Lists_ functionality the lists can be created by
 instructors or library staff or both.  Decide who will create the lists and how admin staff
 will be informed of new lists to be added or old lists needing to be removed.
+
+////
 
 Creating Course Reserve Lists
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
