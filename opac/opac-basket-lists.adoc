@@ -12,10 +12,9 @@ can place holds, print and email title details, and add the titles to a new or e
 Lists are maintained in My Account and you must be logged in to use this feature. Lists can be used to keep
 track of what books have been read, to maintain a class reading list, to maintain a
 reading list for a book club, and more. Lists can also be used for maintaining publicly visible lists such as
-staff picks or themed lists that can be posted on a library's website.  Lists are also used with Course
-Reserves module for post-secondary institutions.
+staff picks or themed lists that can be posted on a library's website.  
 
-Lists are accessed via the  _My Lists_ section of  _My Account_.
+Lists are accessed via the _My Lists_ section of  _My Account_.
 
 Adding Titles to the Basket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -59,11 +58,11 @@ image::images/opac/opac-basket-6.png[scaledwidth="75%",alt="Adding Titles to the
 
 image::images/opac/opac-basket-7.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
-* by using the *Clear Basket* action from the menu located beside the basket icon.
+* by using the *Clear Basket* action from the basket icon drop down menu.
 
 image::images/opac/opac-basket-8.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
-* by selecting the titles you wish to remove and using the *Remove from basket* option in the basket view.
+* by selecting the titles you wish to remove and using the *Delete* button in the basket view.
 
 image::images/opac/opac-basket-9.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
