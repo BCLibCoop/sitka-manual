@@ -183,6 +183,42 @@ image::images/opac/opac-list-3.png[scaledwidth="75%",alt="My Account Lists"]
 +
 image::images/opac/opac-list-4.png[scaledwidth="75%",alt="My Account Lists"]
 
+Adding Titles to a List
+~~~~~~~~~~~~~~~~~~~~~~~
+
+. Titles are added to a list by first adding them to the basket. Refer
+to xref:_adding_titles_to_the_basket[].
+. Select *Add Basket to Saved List* from the basket action menu.
+.. If  not logged in, a prompt appears.
++
+image::images/opac/opac-list-3.png[scaledwidth="75%",alt="My Account Lists"]
++
+. Un-check the box beside any titles you don't want added to the list.
+. Click *Move selcted items to list* and choose the list you want from the drop down.
++
+image::images/opac/opac-list-11.png[scaledwidth="75%",alt="My Account Lists"]
++
+. The items are moved to your list and removed in your basket.  Any titles you
+de-selected will still be in the basket unless you selected *Clear entire basket when the 
+above action is complete*.
++
+image::images/opac/opac-list-12.png[scaledwidth="75%",alt="My Account Lists"]
+
+
+Managing Titles in a List
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+You can place holds, print the title details, and remove titles from your list by selecting the 
+relevant titles and using the appropriate button.
+
+image::images/opac/opac-list-13.png[scaledwidth="75%",alt="My Account Lists"]
+
+Information on placing holds can be found in xref:_placing_holds[].
+
+Printing from a list works the same as printing from a basket. See xref:_print_from_the_baskets[].
+
+Emailing from a list is currently not functional.
+
 
 Managing Lists
 ~~~~~~~~~~~~~~
@@ -229,77 +265,26 @@ prompts to save the file on your computer.
 
 image::images/opac/opac-list-9.png[scaledwidth="75%",alt="My Account Lists"]
 
-Deleting Lists
-~~~~~~~~~~~~~~
+Deleting a List
+^^^^^^^^^^^^^^^
 
 If you no longer need a list you can delete it by clicking *Delete List*.
 
 image::images/opac/opac-list-10.png[scaledwidth="75%",alt="My Account Lists"]
 
 
-Adding Titles to a List
-~~~~~~~~~~~~~~~~~~~~~~~
-
-. Titles are added to a list by first adding them to the basket. Refer
-to xref:_adding_titles_to_the_basket[].
-+
-. From the basket actions menu select *View Basket* and click *Go* or go to _My Lists_.
-+
-. Check the boxes for the titles in the basket that you wish to add to your list.
-+
-. From the actions menu select the list you would like to add the titles to and click *Go*.
-+
-image::images/opac/opac-list-8.png[scaledwidth="75%",alt="My Account Lists"]
-+
-. The titles are added to your list and removed from the basket.
-
-
-
-Managing Titles in a List
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-You can place holds, email or print the title details, and remove titles from your list using the
-*Actions for these items* menu.
-
-image::images/opac/opac-list-9.png[scaledwidth="75%",alt="My Account Lists"]
-
-
-Email or Print from a List
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-. Select the titles and click the *Actions* menu.
-
-. Choose *Email* or *Print* for title details, and click *Go*.
-+
-image:images/opac/opac-print-basket-3.png[scaledwidth="75%"]
-+
-. The print and email preview and format editor opens.
-
-. Enter email address and subject if email is chosen.
-
-. Click into *Format* field, choose *Full* and click *Update*. This ensures the local call number and shelving information will be included.
-
-. If there are multiple libraries copies in the preview, choose required library in *Holdings Library* field,  and click *Update* again.
-
-. The preview is presented.
-
-. Click *Print Now* or *Email Now* and follow on screen instructions
-
-
-
-
-Add a Note or Annotate a List
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Annotating a List
+^^^^^^^^^^^^^^^^^
 
 . Click on a list to open it and display the contents.
 +
-. A _Notes_ column will appear, with an *Edit* hyperlink beside it.
+. In the _Notes_ column click *Edit*.
 +
-image::images/opac/opac-list-10.png[scaledwidth="75%",alt="My Account Lists"]
+image::images/opac/opac-list-14.png[scaledwidth="75%",alt="My Account Lists"]
 +
-. Click *Edit*, enter the note and click *Save Notes*.
+. Enter the note beside the relevant title(s) and click *Save Notes*.
 +
-image::images/opac/opac-list-11.png[scaledwidth="75%",alt="My Account Lists"]
+image::images/opac/opac-list-15.png[scaledwidth="75%",alt="My Account Lists"]
 +
 . The note will display in the patron's view of the list. If the list is shared, the note will also display
 on the webpage used to access the shared list.
