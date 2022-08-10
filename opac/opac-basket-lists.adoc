@@ -75,45 +75,73 @@ Additionally, the contents of the basket are cleared when you log out of your ac
 Batch Actions Through the Basket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The *Basket Actions* menu, found beside the basket icon, lets you view the contents of the basket,
+The *Basket Actions* menu, found by clicking on the basket icon, lets you view the contents of the basket,
 batch place holds, print or email the title details for all titles, add the contents of the basket to a
 saved list, and clear the basket.
 
 image::images/opac/opac-basket-11.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
-The action menu within the basket view also allows you to add the contents of the basket to a new list
-or specific existing list.
+In the basket view there is also a button that allows you to add the contents of the basket to a new list.
 
 image::images/opac/opac-basket-12.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
-Email or Print from the Baskets
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Print from the Baskets
+^^^^^^^^^^^^^^^^^^^^^^
 
-. Select the titles and click the *Actions* menu.
-
-. Choose *Email* or *Print* for title details, and click *Go*.
-
-. You must be logged into *My Account* in order to email, and are prompted to do so if not.
-
-. The print and email preview and format editor opens.
-
-. Enter email address and subject if email is chosen.
-
-. Click into *Format* field, choose *Full* and click *Update*. This ensures the local call number and shelving information will be included.
+. Select the titles you'd like included.
+. Click the *Print Details* button.
 +
 image:images/opac/opac-print-basket-1.png[scaledwidth="75%"]
 +
-. If there are multiple libraries copies in the preview, choose required library in *Holdings Library* field,  and click *Update* again.
+. The print preview and format editor opens.
+. From the *Format* drop down menu, choose *Full* and click *Update*. This ensures the local call number 
+and shelving information will be included.
 +
 image:images/opac/opac-print-basket-2.png[scaledwidth="75%"]
 +
+. If there are multiple libraries copies in the preview, choose required library in *Holdings Library* field,  and click *Update* again.
++
+image:images/opac/opac-print-basket-3.png[scaledwidth="75%"]
++
 . The preview is presented.
+. Click *Print Now*. 
 +
 image:images/opac/opac-print-basket-4.png[scaledwidth="75%"]
 +
-. Click *Print Now*, or *Email Now*,  and follow on screen instructions.
+. Follow any prompts from your browser to print the details.
+
+Email from the Baskets
+^^^^^^^^^^^^^^^^^^^^^^
+
+A bug currently prevents Evergreen from sending emails from baskets.
 
 
+. Select the titles you'd like included.
+. Click the *Email Details* button.
++
+image:images/opac/opac-email-basket-1.png[scaledwidth="75%"]
++
+. You must be logged into *My Account* in order to email, and are prompted to do so if not.
+. The email preview and format editor opens.
+. Update the email address and add a custom email subject if needed.
++
+image:images/opac/opac-email-basket-2.png[scaledwidth="75%"]
++
+. From the *Format* drop down menu, choose *Full* and click *Update*. This ensures the local call number 
+and shelving information will be included.
++
+image:images/opac/opac-email-basket-3.png[scaledwidth="75%"]
++
+. If there are multiple libraries copies in the preview, choose required library in *Holdings Library* field,  and click *Update* again.
++
+image:images/opac/opac-email-basket-4.png[scaledwidth="75%"]
++
+. The preview is presented.
+. Click *Email Now*.
++
+image:images/opac/opac-email-basket-5.png[scaledwidth="75%"]
++
+. A message appears letting you know your email has been queued.
 
 
 Creating Lists
