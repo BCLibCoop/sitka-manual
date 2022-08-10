@@ -147,72 +147,94 @@ image:images/opac/opac-email-basket-5.png[scaledwidth="75%"]
 Creating Lists
 ~~~~~~~~~~~~~~
 
-Best practice is to log in to *My Account* and create a list.
+Creating a List via My Account
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Select the _My Lists_ tab at the top of the _My Account_ area.
+. Select _My Lists_ from the menu.
 +
-. In the _My Account_ area, click on *My Lists*.
+image::images/opac/opac-list-1.png[scaledwidth="75%",alt="My Account Lists"]
 +
 . In the _Create New List_ section, enter a name and optional description for the list.
 +
-. Click *Share* to share the contents of the list with other users.
+. Click *Share* if you'd like to share the contents of the list with other users.
 +
-. Click *Submit*.
+. Click *Create List*.
++
+image::images/opac/opac-list-2.png[scaledwidth="75%",alt="My Account Lists"]
 
-image::images/opac/opac-list-1.png[scaledwidth="75%",alt="My Account Lists"]
-
-You can also create a new list from the basket.
+Creating a List from the Basket
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Add titles to the basket.
 +
-. Select *Add Basket to Saved List* from the basket action menu and click *Go*.
+. Select *Add Basket to Saved List* from the basket action menu.
 .. If  not logged in, a prompt appears.
 +
-image::images/opac/opac-list-2.png[scaledwidth="75%",alt="My Account Lists"]
+image::images/opac/opac-list-3.png[scaledwidth="75%",alt="My Account Lists"]
 +
 . In the _Create New List_ section, enter a name and optional description.
 +
-. Click *Share* to share the contents of the list with other users.
+. Click *Share* if you'd like to share the contents of the list with other users.
 +
-. By default _Move contents of basket to this list?_ is set to _Yes_.
+. By default _Move contents of basket to this list?_ is set to YES.
 .. The contents of the basket displays below.
 +
-. Click *Submit*.
+. Click *Create List*.
++
+image::images/opac/opac-list-4.png[scaledwidth="75%",alt="My Account Lists"]
 
-image::images/opac/opac-list-3.png[scaledwidth="75%",alt="My Account Lists"]
 
+Managing Lists
+~~~~~~~~~~~~~~
 
-Sharing Lists
-~~~~~~~~~~~~~
+Sharing a List
+^^^^^^^^^^^^^^
 
-By default, all lists are private, and you must instruct the system to allow others to view the
-contents of a list by clicking *Share* beside the list name.
-
-The address (URL) of the list is used to share it.
-
-. In the _My Lists_ section there is an *HTML View link* for every shared list.
+. In _My Lists_, click on *Share* beside the list you would like to share.
 +
 image::images/opac/opac-list-5.png[scaledwidth="75%",alt="My Account Lists"]
 +
-. Click on that link and bookmark the resulting web page in your browser or copy and paste the address
-(URL) to share your list as required.
+. The list will now have an icon for RSS and a *View in Catalogue* button. Share the relevant link with the
+person you'd like to share the list with or include the link on a webpage.
++
+image::images/opac/opac-list-6.png[scaledwidth="75%",alt="My Account Lists"]
 
-You can un-share a list by clicking *Hide*.
+[NOTE]
+======
+Libraries can use shared lists for sharing staff picks and other lists with patrons by creating a list 
+and posting the URL on the library's website.
 
-Downloading Lists
-~~~~~~~~~~~~~~~~~
+Co-op Support recommends libraries set up a patron account specifically to use for this instead of having
+staff use their own acounts.
+======
+
+Hiding a List
+^^^^^^^^^^^^^
+
+. In _My Lists_, click on *Hide* beside the list you would like to hide.
++
+image::images/opac/opac-list-7.png[scaledwidth="75%",alt="My Account Lists"]
++
+. The RSS icon and *View in Catalogue* button are removed.  Anyone with the link for the list will no longer
+be able to view it.
++
+image::images/opac/opac-list-8.png[scaledwidth="75%",alt="My Account Lists"]
+
+
+Downloading a List
+^^^^^^^^^^^^^^^^^^
 
 You can export your list to a comma delimited file by selecting *Download CSV* and following your computer's
 prompts to save the file on your computer.
 
-image::images/opac/opac-list-6.png[scaledwidth="75%",alt="My Account Lists"]
+image::images/opac/opac-list-9.png[scaledwidth="75%",alt="My Account Lists"]
 
 Deleting Lists
 ~~~~~~~~~~~~~~
 
 If you no longer need a list you can delete it by clicking *Delete List*.
 
-image::images/opac/opac-list-7.png[scaledwidth="75%",alt="My Account Lists"]
+image::images/opac/opac-list-10.png[scaledwidth="75%",alt="My Account Lists"]
 
 
 Adding Titles to a List
