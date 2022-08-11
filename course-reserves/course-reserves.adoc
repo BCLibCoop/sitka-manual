@@ -5,14 +5,15 @@ Before implementing course reserves you will need to consider the following:
 
 **How will your reserve items will be identified in Evergreen?**
 
-Co-op Support recommends setting up a course reserves related shelving locations and using reserve specific
+Co-op Support recommends setting up course reserves related shelving locations and using reserve specific
 circulation modifiers.
 
 **How will your reserve items circulate?**
 
 If your reserve materials will have special loan periods or fines you will need to consider which circulation
 modifiers you use and contact Co-op Support to set up new circulation policies.  If reserve materials
-are not holdable your shelving location needs to be set accordingly or hold policies adjusted by Support.
+are not holdable your applicable shelving locations needs to be set accordingly or hold policies 
+adjusted by Support.
 
 **Who will have access to course reserves?**
 
@@ -26,15 +27,18 @@ There are three library settings for the course reserves module.
 Local administrators can update the values for two of them by going to 
 *Administration ->Local Administration -> Library Settings Editor* and finding the relevant setting.
 
-* _Opt Org Unit into the Course Materials Module_: Set this to TRUE to have course reserves 
+* _Opt Org Unit into the Course Materials Module_
+** Set this to TRUE to have course reserves 
 functionality display in the public catalogue.
-* _Allow users to browse Courses by Instructor_: Some libraries may associate
+* _Allow users to browse Courses by Instructor_
+** Some libraries may associate
 many of their courses with their instructors.  Some may not associate any of
 their courses with an instructor, or the instructor data may be inconsistent.
 A TRUE value for this setting is appropriate for libraries that have
 consistent instructor data and want to allow patrons to locate courses in
 the public catalogue via instructor name.
-* _Bib source for brief records created in the course materials module_: This is set to 
+* _Bib source for brief records created in the course materials module_
+** This is set to 
 _Course materials module_ for all Sitka libraries.
 The course materials module will use this bib source for any new brief
 bibliographic records made inside that module. A transcendant bib source is
@@ -56,7 +60,7 @@ You may optionally keep track of your institutions terms or semesters.
 . Click on the *Terms* tab.
 . Click "Create Term".
 +
-image::images/course-reserves/course-reserves-term-1.png[scaledwidth="50%",alt="Adding Course Reserve Terms"]
+image::images/course-reserves/course-reserves-term-1.png[scaledwidth="75%",alt="Adding Course Reserve Terms"]
 +
 . Enter the name of the term.
 . If you are a multi-branch library you may need to change the owning library to be your system, rather than
@@ -64,7 +68,7 @@ a particular branch.
 . Enter a start date and an end date for the term.
 . Click *Save*.
 +
-image::images/course-reserves/course-reserves-term-2.png[scaledwidth="50%",alt="Adding Course Reserve Terms"]
+image::images/course-reserves/course-reserves-term-2.png[scaledwidth="75%",alt="Adding Course Reserve Terms"]
 
 
 ////
@@ -97,46 +101,45 @@ Creating Courses
 . The *Course list* tab will open by default.
 . Click *Create Course*.
 +
-image::images/course-reserves/course-reserves-add-course-1.png[scaledwidth="50%",alt="Adding Course Reserve Terms"]
+image::images/course-reserves/course-reserves-add-course-1.png[scaledwidth="75%",alt="Adding Course Reserve Terms"]
 +
 . Fill out the characteristics of the course.  The course's number, name, and
 owning library are required.  The section number is optional.
 . Click *Save*.
 +
-image::images/course-reserves/course-reserves-add-course-2.png[scaledwidth="50%",alt="Adding Course Reserve Terms"]
+image::images/course-reserves/course-reserves-add-course-2.png[scaledwidth="75%",alt="Adding Course Reserve Terms"]
 +
 . The course is added to the list.
+. To finish setting up the course, select it and from the *Actions* menu choose *Edit Selected*. 
++
+image::images/course-reserves/course-reserves-add-course-3.png[scaledwidth="75%",alt="Adding Course Reserve Terms"]
+
+Attaching a Course to a Term
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. In the course, click on the *Course terms* tab.
 . Click *Terms taught*.
-+
-image::images/course-reserves/course-reserves-add-course-3.png[scaledwidth="50%",alt="Adding Course Reserve Terms"]
-+
 . Click *Attach course to a term*.
 +
-image::images/course-reserves/course-reserves-add-course-4.png[scaledwidth="50%",alt="Adding Course Reserve Terms"]
+image::images/course-reserves/course-reserves-attach-term-1.png[scaledwidth="75%",alt="Adding Course Reserve Terms"]
 +
 . Select a term from the drop down menu and click *Save*.
 +
-image::images/course-reserves/course-reserves-add-course-5.png[scaledwidth="50%",alt="Adding Course Reserve Terms"]
+image::images/course-reserves/course-reserves-attach-term-2.png[scaledwidth="75%",alt="Adding Course Reserve Terms"]
 +
 . Repeat as needed if multiple terms need to be attached to the course.
-. Click *Return to Course List*.
 
-Setting 
+Associating Materials With a Course
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Adding materials to courses
----------------------------
+. In the course, click on the *Course materials* tab.
+. Three types of materials can be associated with a course:
+** Items
+** Brief Records
+** Electronic Resources
 
-. Go to *Administration -> Local Administration -> Course Reserves List*.
-. The *Course list* tab will open by default.
-. Select the course you'd like to edit and from the *Actions* menu choose *Edit Selected*. 
-+
-image::images/course-reserves/course-reserves-add-materials-1.png[scaledwidth="50%",alt="Adding Course Reserve Terms"]
-
-
-
-
-Attaching an item to a course
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Associating an Item
++++++++++++++++++++
 
 These procedures are intended if you already have an item with a barcode
 in your catalog, and you wish to attach it to a course.
@@ -156,8 +159,8 @@ until the item is detached from the course or the course is archived.
 - Press the "Add material" button.
 
 
-Attaching a brief record to a course
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Associating a Brief Record
+++++++++++++++++++++++++++
 
 These procedures are intended if you wish to attach a resource to a course,
 and the resource is not in your catalog.
@@ -176,8 +179,8 @@ your catalog, which catalogers may edit and enhance at any time.  When the resou
 is detached from the course or the course is archived, the bibliographic record
 will be automatically deleted.
 
-Attaching a cataloged electronic resource to a course
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Associating an Electronic Resource
+++++++++++++++++++++++++++++++++++
 
 These procedures are intended if you wish to attach a resource to a course,
 and the resource is an electronic resource in your catalog.  An example of
