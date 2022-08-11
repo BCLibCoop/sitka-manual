@@ -134,21 +134,17 @@ Associating Materials With a Course
 
 . In the course, click on the *Course materials* tab.
 . Three types of materials can be associated with a course:
-** Items
-** Brief Records
-** Electronic Resources
+** xref:associate-item[Catalogued Items]
+** xref:associate-brief-record[Brief Records]
+** xref:associate-electronic-resource[Electronic Resources]
 
+[[associate-item]]
 Associating an Item
 +++++++++++++++++++
 
-These procedures are intended if you already have an item with a barcode
-in your catalog, and you wish to attach it to a course.
+. On the *Course materials* tab, the *Associate item* tab will open by default.
+. Enter the barcode of the item you wish to associate with the course.
 
-- Navigate to Administration -> Local Administration -> Course Reserves List
-- Select an existing course.
-- Choose Edit Selected from the Actions menu.
-- Open the Course materials tab.
-- Enter the barcode of an item you wish to attach to the course.
 - You may optionally describe the relationship of the item to the course.  For
 example, the item may be "required reading" or "optional listening".
 - If necessary, you may temporarily change various characteristics of the item
@@ -158,7 +154,7 @@ circulation modifier, and call number.  The characteristics will remain in effec
 until the item is detached from the course or the course is archived.
 - Press the "Add material" button.
 
-
+[[associate-brief-record]]
 Associating a Brief Record
 ++++++++++++++++++++++++++
 
@@ -179,6 +175,7 @@ your catalog, which catalogers may edit and enhance at any time.  When the resou
 is detached from the course or the course is archived, the bibliographic record
 will be automatically deleted.
 
+[[associate-electronic-resource]]
 Associating an Electronic Resource
 ++++++++++++++++++++++++++++++++++
 
