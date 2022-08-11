@@ -15,10 +15,11 @@ Circulation
 
 * Patron notes, alerts, and messages are now managed through a single interface.
 * Password reset link button in patron Edit to enable staff to initiate a password reset for a patron.
-** https://youtu.be/WNQwt2zXxOY[*Sitka Snippet Video - Resetting a Forgotten Password (2:10)*]
-* New patron photo URL field added to patron account.  Access to this feature is not available by default.  Please contact Co-op Support for more
-information.
+** link:https://youtu.be/WNQwt2zXxOY[*Sitka Snippet Video - Resetting a Forgotten Password (2:10)*]
+* New patron photo URL field added to patron account.  Access to this feature is not available by default.  
+Please contact https://bc.libraries.coop/support/[Co-op Support] for more information.
 * New look for holds pull list
+** link:https://youtu.be/CYmk2mwgI5E[*Sitka Training Video - Pull List for Hold Requests (2:59)*]
 * New look for the triggered events log
 
 [[new-features-cataloguing]]
@@ -40,12 +41,12 @@ listed in the grid with item information.
 * Holding counts display in the search results for the preferred library.
 * Preferred library holdings display on top in the grid with item information.
 
-[[new-features-public catalogue]]
+[[new-features-public-catalogue]]
 Public Catalogue
 ~~~~~~~~~~~~~~~~
 
 * Re-designed public catalogue with a new look
-* Option for patrons to select their locale which determines the lanugage their email notifications are sent in
+* Option for patrons to select their locale which determines the language their email notifications are sent in
 
 [[new-features-course-reserves]]
 Course Reserves
