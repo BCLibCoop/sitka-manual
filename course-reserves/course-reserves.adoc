@@ -94,9 +94,15 @@ image::images/course-reserves/course-reserves-add-course-2.png[scaledwidth="75%"
 . To finish setting up the course, select it and from the *Actions* menu choose *Edit Selected*. 
 +
 image::images/course-reserves/course-reserves-add-course-3.png[scaledwidth="75%",alt="Adding Course Reserve Terms"]
++
+. From here you can attach terms, associate course materials, and add users to your course as well as 
+editing and archiving the course.
++
+image::images/course-reserves/course-reserves-add-course-4.png[scaledwidth="75%",alt="Adding Course Reserve Terms"]
+
 
 Attaching a Course to a Term
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 . In the course, click on the *Course terms* tab.
 . Click *Attach course to a term*.
@@ -110,7 +116,7 @@ image::images/course-reserves/course-reserves-attach-term-2.png[scaledwidth="75%
 . Repeat as needed if multiple terms need to be attached to the course.
 
 Associating Materials With a Course
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 . In the course, click on the *Course materials* tab.
 . Three types of materials can be associated with a course:
@@ -119,9 +125,9 @@ Associating Materials With a Course
 collection.
 ** xref:associate-electronic-resource[Electronic resources] from your collection.
 
-[[associate-item]]
+
 Associating an Item
-+++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^
 
 . On the *Course materials* tab, the *Associate item* tab will open by default.
 . Enter the barcode of the item you wish to associate with the course.
@@ -139,9 +145,9 @@ image::images/course-reserves/course-reserves-associate-item-1.png[scaledwidth="
 +
 image::images/course-reserves/course-reserves-associate-item-2.png[scaledwidth="75%",alt="Associating an item"]
 
-[[associate-brief-record]]
+
 Associating a Brief Record
-++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . On the *Course materials* tab, click on the *Associate brief record* tab.
 . Enter the relationship the item has with the course.  For example, an item may be
@@ -163,9 +169,9 @@ is detached from the course or the course is archived, the bibliographic record
 will be automatically deleted.
 ======
 
-[[associate-electronic-resource]]
+
 Associating an Electronic Resource
-++++++++++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . On the *Course materials* tab, click on the *Associate electronic resource from catalog* tab.
 . Enter the record ID for the electronic resource you'd like to add to the course.
