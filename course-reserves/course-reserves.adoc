@@ -20,30 +20,11 @@ adjusted by Support.
 Library staff must have cataloguing permissions in order to use the course reserves module
 as the module can update item attributes.
 
-Course Reserves Library Settings
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+To enable the course reserves module in your public catalogue:
 
-There are three library settings for the course reserves module.
-Local administrators can update the values for two of them by going to 
-*Administration ->Local Administration -> Library Settings Editor* and finding the relevant setting.
-
-* _Opt Org Unit into the Course Materials Module_
-** Set this to TRUE to have course reserves 
-functionality display in the public catalogue.
-* _Allow users to browse Courses by Instructor_
-** Some libraries may associate
-many of their courses with their instructors.  Some may not associate any of
-their courses with an instructor, or the instructor data may be inconsistent.
-A TRUE value for this setting is appropriate for libraries that have
-consistent instructor data and want to allow patrons to locate courses in
-the public catalogue via instructor name.
-* _Bib source for brief records created in the course materials module_
-** This is set to 
-_Course materials module_ for all Sitka libraries.
-The course materials module will use this bib source for any new brief
-bibliographic records made inside that module. A transcendant bib source is
-likely preferable here, as it would allow an electronic resource to display
-in the public catalog without adding any items or located URIs.
+. Go to *Administration ->Local Administration -> Library Settings Editor*
+. Set the library setting _Opt Org Unit into the Course Materials Module_ to TRUE
+. There will now be options for searching and browsing course reserves in the public catalogue.
 
 
 Course Reserves Administration
@@ -118,7 +99,6 @@ Attaching a Course to a Term
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . In the course, click on the *Course terms* tab.
-. Click *Terms taught*.
 . Click *Attach course to a term*.
 +
 image::images/course-reserves/course-reserves-attach-term-1.png[scaledwidth="75%",alt="Adding Course Reserve Terms"]
@@ -135,7 +115,7 @@ Associating Materials With a Course
 . In the course, click on the *Course materials* tab.
 . Three types of materials can be associated with a course:
 ** xref:associate-item[Catalogued items] from your collection.
-** xref:associate-brief-record[Brief records] for items not yet catalogued or not part of the library's 
+** xref:associate-brief-record[Brief records] for electronic resources that are not part of the library's 
 collection.
 ** xref:associate-electronic-resource[Electronic resources] from your collection.
 
@@ -204,3 +184,25 @@ image::images/course-reserves/course-reserves-associate-electronic-resource-1.pn
 Unlike brief records, detaching this resource from the course or archiving the
 course will not delete the bibliographic record.
 ======
+
+Adding a User to a Course
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+. In the course, click on the *Course users* tab.
+. Enter the barcode of the patron you'd like to add.
+. Type in the role for the patron.  The options are Instructor, Teaching Assistant, and Student.
+. Click *Add User*.
++
+image::images/course-reserves/course-reserves-add-user-1.png[scaledwidth="75%",alt="Adding a user"]
++
+. The patron will display in the list.
++
+image::images/course-reserves/course-reserves-add-user-2.png[scaledwidth="75%",alt="Adding a user"]
+
+Patrons assigned the role of Instructor or Teaching Assistant will display on the page 
+for their associated course(s) in the the public catalogue.
+
+image::images/course-reserves/course-reserves-add-user-3.png[scaledwidth="75%",alt="Adding a user"]
+
+If you wish users to be able to browse the course list in the public catalogue by instructor set the 
+library setting _Allow users to browse Courses by Instructor_ to TRUE.
