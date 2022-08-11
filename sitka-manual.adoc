@@ -77,6 +77,8 @@ include::opac/opac-basket-lists.adoc[]
 
 include::opac/opac-integrated-eresource.adoc[]
 
+include::opac/opac-course-reserves.adoc[]
+
 Reports
 =======
 include::reports/report-overview.adoc[]
