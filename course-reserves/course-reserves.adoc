@@ -134,9 +134,10 @@ Associating Materials With a Course
 
 . In the course, click on the *Course materials* tab.
 . Three types of materials can be associated with a course:
-** xref:associate-item[Catalogued Items]
-** xref:associate-brief-record[Brief Records]
-** xref:associate-electronic-resource[Electronic Resources]
+** xref:associate-item[Catalogued items] from your collection.
+** xref:associate-brief-record[Brief records] for items not yet catalogued or not part of the library's 
+collection.
+** xref:associate-electronic-resource[Electronic resources] from your collection.
 
 [[associate-item]]
 Associating an Item
@@ -144,56 +145,62 @@ Associating an Item
 
 . On the *Course materials* tab, the *Associate item* tab will open by default.
 . Enter the barcode of the item you wish to associate with the course.
-
-- You may optionally describe the relationship of the item to the course.  For
-example, the item may be "required reading" or "optional listening".
-- If necessary, you may temporarily change various characteristics of the item
-while attaching it.  For example, if you are bringing a book from your typical
-stacks to the reserves room, you may wish to change the book's shelving location,
-circulation modifier, and call number.  The characteristics will remain in effect
-until the item is detached from the course or the course is archived.
-- Press the "Add material" button.
+. Enter the relationship the item has with the course.  For example, an item may be
+required reading or be supplemental.
+. A new call number, circulation modifier, and shelving location can be assigned to the item.
+.. These are temporary values.  When the course is archived Evergreen will automatically restore
+the original values.
+. Optionally, enter an item status.
+. Click *Add Material*.
++
+image::images/course-reserves/course-reserves-associate-item-1.png[scaledwidth="75%",alt="Associating an item"]
++
+. The item displays in the list with the updated information.
++
+image::images/course-reserves/course-reserves-associate-item-2.png[scaledwidth="75%",alt="Associating an item"]
 
 [[associate-brief-record]]
 Associating a Brief Record
 ++++++++++++++++++++++++++
 
-These procedures are intended if you wish to attach a resource to a course,
-and the resource is not in your catalog.
+. On the *Course materials* tab, click on the *Associate brief record* tab.
+. Enter the relationship the item has with the course.  For example, an item may be
+required reading or be supplemental.
+. Fill in the relevant fields to create your brief record.  You must enter a value for title.
+. Click *Add material*.
++
+image::images/course-reserves/course-reserves-associate-brief-record-1.png[scaledwidth="75%",alt="Associating a brief record"]
++
+. The record displays in the list.
++
+image::images/course-reserves/course-reserves-associate-brief-record-2.png[scaledwidth="75%",alt="Associating a brief record"]
 
-- Navigate to Administration -> Local Administration -> Course Reserves List
-- Select an existing course.
-- Choose Edit Selected from the Actions menu.
-- Open the Course materials tab.
-- Open the "Associate brief record" tab.
-- Fill out the metadata for the resource.
-- You may optionally describe the relationship of the resource to the course.
-- Press the "Add material" button.
-
+[NOTE]
+======
 After creating a brief record, it is represented as a bibliographic record in
-your catalog, which catalogers may edit and enhance at any time.  When the resource
+your catalogue, which cataloguers may edit and enhance at any time.  When the resource
 is detached from the course or the course is archived, the bibliographic record
 will be automatically deleted.
+======
 
 [[associate-electronic-resource]]
 Associating an Electronic Resource
 ++++++++++++++++++++++++++++++++++
 
-These procedures are intended if you wish to attach a resource to a course,
-and the resource is an electronic resource in your catalog.  An example of
-this type of resource is a library-licensed ebook that is used as a course
-textbook.
+. On the *Course materials* tab, click on the *Associate electronic resource from catalog* tab.
+. Enter the record ID for the electronic resource you'd like to add to the course.
+. Enter the relationship the item has with the course.  For example, an item may be
+required reading or be supplemental.
+. Click *Add material*.
++
+image::images/course-reserves/course-reserves-associate-electronic-resource-1.png[scaledwidth="75%",alt="Associating a brief record"]
++
+. The record displays in the list.
++
+image::images/course-reserves/course-reserves-associate-electronic-resource-1.png[scaledwidth="75%",alt="Associating a brief record"]
 
-- In the staff catalog, find the electronic resource that you would like to
-add. In the record summary, note the Database ID.
-- Navigate to Administration -> Local Administration -> Course Reserves List
-- Select an existing course.
-- Choose Edit Selected from the Actions menu.
-- Open the Course materials tab.
-- Open the "Associate electronic resource from catalog" tab.
-- Enter the resource's bibliographic ID.
-- You may optionally describe the relationship of the resource to the course.
-- Press the "Add material" button.
-
+[NOTE]
+======
 Unlike brief records, detaching this resource from the course or archiving the
 course will not delete the bibliographic record.
+======
