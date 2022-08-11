@@ -2,15 +2,26 @@
 Course Reserves
 ---------------
 
-To enable the course reserves module in your public catalogue:
+When the course reserves module is enabled options for searching and browsing course reserves
+display in the public catalogue.
 
-. Go to *Administration ->Local Administration -> Library Settings Editor*
-. Set the library setting _Opt Org Unit into the Course Materials Module_ to TRUE
-. There will now be options for searching and browsing course reserves in the public catalogue.
+image::images/opac/course-reserves/opac-course-reserves-1.png[scaledwidth="75%",alt="Course Reserves"]
 
+Associated courses are displayed as part of the search results.
+
+image::images/opac/course-reserves/opac-course-reserves-2.png[scaledwidth="75%",alt="Course Reserves"]
+
+Additional fields for circulation modifier and course also display in the item information on the record view.
+
+image::images/opac/course-reserves/opac-course-reserves-3.png[scaledwidth="75%",alt="Course Reserves"]
+
+The display of course reserves in the public catalogue is controlled by the library 
+setting _Opt Org Unit into the Course Materials Module_.
 
 Search Course Reserves
 ~~~~~~~~~~~~~~~~~~~~~~
+
+
 
 Browse Course Reserves
 ~~~~~~~~~~~~~~~~~~~~~~
