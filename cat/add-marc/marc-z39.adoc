@@ -105,7 +105,11 @@ Overlaying Records via Z39.50 Interface
 
 https://youtu.be/eMfyQTkmx6g[*Sitka Snippet Video - Overlaying Bibliographic Records via Z39.50 (4:02)*]
 
-There are times when it is necessary to overlay an existing MARC record in Evergreen with a better MARC record from a Z39.50 target. This section will demonstrate the steps required to achieve an overlay. Overlaying a MARC record replaces an existing MARC record and leaves all holdings, and corresponding holds, active circulations, bills, and fines intact. As overlay affects all libraries sharing a MARC record it is critical that this procedure be done judiciously and correctly. Please refer to Sitka's cataloguing policy, Co-op Support, or your library's cataloguing mentor, if in place, for more information about this process and its effect on the shared database.
+There are times when it is necessary to overlay an existing MARC record in Evergreen with a better 
+MARC record from a Z39.50 target. Overlaying a MARC record replaces an existing MARC record and leaves 
+all holdings, and corresponding holds, active circulations, bills, and fines intact. As overlay affects all 
+libraries sharing a MARC record it is critical that this procedure be done judiciously and correctly. 
+Please refer to xref:_cataloguing_procedures[Sitka's cataloguing policy] for more information.
 
 
 Marking a Record for Overlay
