@@ -116,11 +116,40 @@ Working with Items in a Bucket
 Removing Items from a Bucket
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+. Select the items you would like to remove from the bucket.
+. From the *Actions* menu select *Remove Selected items from Bucket*.
++
+image::images/cat/buckets/item-bucket-remove-item-1.png[]
++
+. The items are removed from the bucket.
+
 image::images/cat/buckets/item-bucket-3.png[]
+
+Moving Items to a Different Bucket
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Select the items you would like to move to another bucket.
+. From the *Actions* menu select *Move Selected Items to Pending Items*.
++
+image::images/cat/buckets/item-bucket-move-item-1.png[]
++
+. The items have been removed from the current bucket and moved to the *Pending Items* tab.
++
+image::images/cat/buckets/item-bucket-move-item-2.png[]
++
+. The items can now be xref:_adding_items_to_a_bucket[added to a different bucket].
 
 [[item-bucket-edit-item]]
 Editing Items
 ^^^^^^^^^^^^^
+
+. Select the items you would like to edit.
+. From the *Actions* menu select *Edit Selected Items* or *Edit Call Numbers*.
++
+image::images/cat/buckets/item-bucket-edit-item-1.png[]
++
+. The xref:_batch_editing_items[Holdings Editor] will open in a new tab.
+
 
 [[item-bucket-print-label]]
 Printing Item Labels
@@ -140,22 +169,15 @@ Deleting Items
 See xref:_deleting_items_via_item_buckets[].
 
 
-You can apply the following functions to selected items in a bucket.
-
-
-* *Delete Item Records*
-* *Edit Item Records*
-* *Transfer Items to a Selected Volume*
-* *Print Labels*
-
-To apply these functions, retrieve the bucket, select items, then choose the function from the *Actions* list.
-
 
 Retrieving Shared Buckets
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 On the *Buckets* list, you can find all buckets created by yourself. You can retrieve your co-workers' buckets if they share them with you by telling you the bucket number.
 
-To retrieve a shared bucket, click *Shared Buckets* on the Buckets list. Type in the bucket number on the prompt, then click *Retrieve Bucket*.
-
+. To retrieve a shared bucket, click *Shared Buckets* on the Buckets drop down.
+. On the pop up that appears click *Load Bucket*.
++
 image::images/cat/copy-bucket-11.png[]
++
+. The bucket will load.
