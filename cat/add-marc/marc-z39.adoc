@@ -65,7 +65,7 @@ Importing Bibliographic Records via Z39.50
 
 https://youtu.be/y4poV6GWlk8[*Sitka Snippet Video - Importing Bibliographic Records via Z39.50 (2:54)*]
 
-
+. Search for your record via Z39.50. See xref:_searching_via_z39_50[].
 . To import a record, view the MARC records for the retruned search results by selecting each record in turn
 and clicking *View MARC*.
 +
@@ -109,51 +109,93 @@ There are times when it is necessary to overlay an existing MARC record in Everg
 MARC record from a Z39.50 target. Overlaying a MARC record replaces an existing MARC record and leaves 
 all holdings, and corresponding holds, active circulations, bills, and fines intact. As overlay affects all 
 libraries sharing a MARC record it is critical that this procedure be done judiciously and correctly. 
-Please refer to xref:_cataloguing_procedures[Sitka's cataloguing policy] for more information.
+Please refer to link:http://docs.libraries.coop/policy/_cataloguing_procedures.html[Sitka's cataloguing policy] for more information.
 
 
 Marking a Record for Overlay
 ++++++++++++++++++++++++++++
 
 
-You must first identify the MARC record which you wish to  overlay. You do this by "marking" it for overlay. Only one record can be marked at a time. When you mark another record, the previous record is unmarked. Once a record is marked, it stays marked until it is overlaid, or has been reset. Therefore, you can mark and overlay one record at a time, following through the entire process to completion before moving on to another record.
+You must first identify the MARC record which you wish to  overlay. You do this by "marking" it for overlay. 
+Only one record can be marked at a time. When you mark another record, 
+the previous record is unmarked. Once a record is marked, it stays marked until it is overlaid, 
+or has been reset. Therefore, you can mark and overlay one record at a time, 
+following through the entire process to completion before moving on to another record.
 
-
-. To mark a record for overlay, find it in the catalogue first.
-+
+.To mark a record for overlay via the catalogue:
+. Retrieve the record in the catalogue.
 . On record details screen, click *Mark for -> Overlay target*.
 +
-image:images/cat/z39-10.png[]
+image:images/cat/z3950-overlay-1.png[]
 +
 . Confirmation appears at the right bottom corner of the screen.
 +
-image:images/cat/z39-11.png[]
+image:images/cat/z3950-overlay-2.png[]
+
+.To mark a record for overlay via the Z39.50 interface.
+. In the Z29.50 interface xref:_searching_via_z39_50[search for your title].
+. Select the result for _native-evergreen-catalog_ and click *Mark Local Results As Overlay Target*.
++
+image:images/cat/z3950-overlay-3.png[]
++
+. The record ID of the record to be overlaid will display on the right.
++
+image:images/cat/z3950-overlay-4.png[]
+
 
 [CAUTION]
 =========
-Overlay target remains even after you log out of Evergreen. After you re-log in, the target is still in effect.
+The overlay target will remain even after you log out of Evergreen. After you re-log in, the target is 
+still in effect.
 =========
 
 
 Overlaying Using Z39.50
 +++++++++++++++++++++++
 
-. To overlay a record, go to *Cataloguing -> Import Record from Z39.50* to find a target record as described in xref:import_from_z39[]. This record should be a fuller and better catalogued record than the one you are overlaying. You can select potential records on the list based on the summary. Click on *View MARC* to see the full MARC record. Cancel the pop-up window, click on next record to view, or click *Overlay* once deciding on a record to import.
+. Search for your record via Z39.50. See xref:_searching_via_z39_50[].
+. Select the record you would like to overlay over the existing record and click *Overlay*.
 +
-image::images/cat/z39-12.png[]
+[CAUTION]
+=========
+The record you overlay over the existing record should be a fuller and better record than the one it's
+replacing, but still describe the same title. Any changes you make when overlaying records affect all
+Sitka libraries with holdings attached to the record.
+=========
 +
-. The overlay interface pops up in a new window. The default merge profile is Keep Local Fields, unless you chose another before. You can edit the Z39.50 record before importing it to overlay. Click *Edit Z39.50 Record*.
+image:images/cat/z3950-overlay-5.png[]
 +
-image::images/cat/z39-13.png[]
+. The overlay interface opens in a pop up. The default merge profile is _Keep Local Fields_; this will
+ copy any 050, 055, 092, 590, 595, 690, 852, and 856 fields from the existing record into the new one you
+are bringing in.
+. Click *Edit Z39.50 Record*.
 +
-. MARC Edit screen opens up. Edit the record. Once done, click *Save*. You are back on Overlay screen.
+image:images/cat/z3950-overlay-6.png[]
 +
-image::images/cat/z39-14.png[]
+Make any needed edits to the record following 
+link:http://docs.libraries.coop/policy/_cataloguing_procedures.html[Sitka's cataloguing policy]
+and click *Save*.
 +
-. Click *Overlay* button at the bottom. The record is imported and displayed in a new tab.
+image:images/cat/z3950-overlay-7.png[]
++ 
+[NOTE]
+======
+As the record already exists in the Sitka database and has holdings for other libraries only make edits
+that conform with Sitka's cataloguing policy. Co-op Support does recommend removing any fields that contain 
+local data related to items held by the service the record comes from.  In general this information will 
+be found in the 852 fields and 9xx fields.
+
+The fields 906, 923, 925, 936, 948, 955, 959, and 963 are stripped from imported records by default.
+======
++
+. Click *Overlay*.
++
+image:images/cat/z3950-overlay-8.png[]
++
+. The record is imported and overlaid over the existing record which opens in a new tab.
 
 
 [CAUTION]
 =========
-You must select *Keep Local Fields* as the merge profile. You may encounter error if you choose others.
+You must select *Keep Local Fields* as the merge profile. You may encounter an error if you choose another.
 =========
