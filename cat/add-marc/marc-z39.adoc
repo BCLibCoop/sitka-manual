@@ -59,7 +59,6 @@ image::images/cat/z3950-search-5.png[]
 xref:import_from_z3950[import a new record via Z39.50].
 
 
-
 [[import_from_z3950]]
 Importing Bibliographic Records via Z39.50
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -67,34 +66,39 @@ Importing Bibliographic Records via Z39.50
 https://youtu.be/y4poV6GWlk8[*Sitka Snippet Video - Importing Bibliographic Records via Z39.50 (2:54)*]
 
 
-. To import a record, choose the record from the results list that you would like to import. You should view the record first by clicking on *View MARC*.  MARC record is displayed in a pop-up window. If a cover image is available, it will display as well. Click *Cancel* to go back to the result list.
+. To import a record, view the MARC records for the retruned search results by selecting each record in turn
+and clicking *View MARC*.
 +
-image::images/cat/z39-5a.png[]
+image::images/cat/z3950-import-1.png[]
 +
-. When you are sure you have chosen the correct record to import, click *Import*, if you do not want to edit the record or edit it after importing. The record is imported. A pop-up window appears with the new record ID and a link to it in the catalogue. Click *Go to Record* to add holdings.
+. The MARC record is displayed in a pop-up window. Click *Cancel* to go back to the results list.
 +
-image::images/cat/z39-6.png[]
+image::images/cat/z3950-import-2.png[]
 +
-. You may also choose to *Edit then Import* a record. The MARC record is displayed in a pop-up window. Edit the MARC record, then click on *Import*.
+. Select the record you have determined in the best match to your item and click *Edit then Import*.
 +
-image::images/cat/z39-7.png[]
+image::images/cat/z3950-import-3.png[]
 +
-. Confirmation pops up with options to *Go to record* or *Go back* to the import record window.
+Make any needed edits to the record.  
 +
-image::images/cat/z39-7a.png[]
-+
-. Choose *Go back* to Import Record window. You can continue to edit the record. . Click *Save* once done editing.
-. Click  *Go to Imported Record* to add holdings.
-+
-image::images/cat/z39-8.png[]
+[NOTE]
+======
+As the record has not yet been added to the Sitka database and so has no items from other records attached 
+you can edit it as needed.  Co-op Support recommends removing any fields that contain local data related 
+to items held by the service the record comes from.  In general this information will be found in the 852 
+fields and 9xx fields.
 
+The fields 906, 923, 925, 936, 948, 955, 959, and 963 are stripped from imported records by default.
+======
++
+. Click *Import*.
++
+image::images/cat/z3950-import-4.png[]
++
+. The record is imported. On the pop-up that appears click *Go to Record*.
+. The record will open in a new tab.  You can now add your holding to the record. 
+See xref:_adding_holdings[],
 
-[TIP]
-====
-Co-op Support has profiled certain fields, primarily 9xx fields, to be automatically stripped when 
-records are imported through Z39.50. The default fields that are stripped are 906, 923, 925, 936, 948, 
-955, 959, 963.
-====
 
 Overlaying Records via Z39.50 Interface
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
