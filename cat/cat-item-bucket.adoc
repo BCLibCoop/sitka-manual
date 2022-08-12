@@ -1,7 +1,7 @@
 Item Buckets
 ------------
 
-link:https://youtu.be/DmLBBMAMFDQ[Sitka Snippet Video - Item Buckets (4:33)]
+link:https://youtu.be/DmLBBMAMFDQ[*Sitka Snippet Video - Item Buckets (4:33)*]
 
 Buckets is the name for a batch change functionality in Evergreen, or for a function that groups records in one place.  Batch changes allow you to group together many records and enact changes on them all at once, instead of individually editing them. Buckets can also be used to create pull lists. Buckets allow you to track and work with your materials in arbitrary ways and more easily collaborate with others.
 
@@ -24,7 +24,8 @@ Creating/Deleting Item Buckets
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 [[create-bucket]]
-*Create Item Buckets*
+Creating Item Buckets
+^^^^^^^^^^^^^^^^^^^^^
 
 There are two ways to create an item bucket. You can either create a bucket first, without accessing any copies, or you can access an item record and choose to create the bucket from that view. We will demonstrate both methods here.
 
@@ -34,22 +35,25 @@ There are two ways to create an item bucket. You can either create a bucket firs
 
 . Select *New Bucket* from the *Buckets* dropdown list.
 +
-image::images/cat/copy-bucket-1.png[]
+image::images/cat/buckets/item-bucket-1.png[]
 +
 . Type in a name and some description, if needed. Click *Create Bucket*.
 +
-image::images/cat/copy-bucket-2.png[]
+image::images/cat/buckets/item-bucket-2.png[]
 +
 . The newly created bucket is the active bucket in Bucket View.  Note that the bucket is numbered, and creator/owner identified.
 +
-image::images/cat/copy-bucket-3.png[]
+image::images/cat/buckets/item-bucket-3.png[]
 +
-. Click the *Buckets* dropdown list to see the bucket. You can edit the bucket's name or description by clicking on *Edit Bucket* on the list.
+. Click the *Buckets* dropdown list to see the bucket. You can edit the bucket's name or description by 
+clicking on *Edit Bucket* on the list.
++
+image::images/cat/buckets/item-bucket-4.png[]
 
 [TIP]
 =====
 * Only buckets created by the login account are listed. But those created by other people can be retrieved via bucket number, if shared with you. Click *Shared Bucket* to type in the number to retrieve it.
-* Ignore the check box for *Publicly Visible* - this function does not work as expected.
+* Ignore the check box for *Shareable* - this function does not work as expected.
 =====
 
 *Create an Item Bucket when Adding an Item Record to a Bucket*
@@ -64,23 +68,28 @@ image::images/cat/copy-bucket-4.png[]
 +
 image::images/cat/copy-bucket-5.png[]
 
-[[delete-copy-bucket]]
-*Delete Item Buckets*
+Deleting Item Buckets
+^^^^^^^^^^^^^^^^^^^^^
 
-To delete an item bucket, retrieve it on Bucket View, then select *Delete Bucket* on *Buckets* dropdown list.
+. To delete an item bucket, retrieve it from the *Buckets* drop down list
+. Select *Delete Bucket*.
++
+image::images/cat/buckets/item-bucket-delete-1.png[]
++
+. On the pop up that appears click *Delete Bucket*.
+. The bucket is deleted.
 
-image::images/cat/copy-bucket-5a.png[]
 
-Adding/Removing Item Records to/from a Bucket
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Adding Items to a Bucket
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 *Add Items to a Bucket*
 
 Items can be added to a bucket when they are displayed on *Checkin*, *Item Status* and *Holdings View* screen.
 
-. You can select multiple items and add them to an item bucket at one time.    . Click *Actions -> Add Items to Bucket*.
+. You can select multiple items and add them to an item bucket at one time. Click *Actions -> Add Items to Bucket*.
 +
-image::images/cat/copy-bucket-6.png[]
+image::images/cat/buckets/item-bucket-add-1.png[]
 
 You can add items to a bucket on *Item Bucket View*.
 
@@ -103,6 +112,34 @@ image::images/cat/copy-bucket-9.png[]
 
 Working with Items in a Bucket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Removing Items from a Bucket
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+image::images/cat/buckets/item-bucket-3.png[]
+
+[[item-bucket-edit-item]]
+Editing Items
+^^^^^^^^^^^^^
+
+[[item-bucket-print-label]]
+Printing Item Labels
+^^^^^^^^^^^^^^^^^^^^
+
+. Select the items you would like to print labels for.
+. From the *Actions* menu select *Print Labels*.
++
+image::images/cat/buckets/item-bucket-print-label-1.png[]
++
+. The xref:_printing_item_labels[Item Label interface] will open in a new tab.
+
+[[item-bucket-delete-item]]
+Deleting Items
+^^^^^^^^^^^^^^
+
+See xref:_deleting_items_via_item_buckets[].
+
+
 You can apply the following functions to selected items in a bucket.
 
 
