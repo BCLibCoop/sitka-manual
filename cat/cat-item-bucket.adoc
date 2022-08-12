@@ -176,6 +176,9 @@ Retrieving Shared Buckets
 On the *Buckets* list, you can find all buckets created by yourself. You can retrieve your co-workers' buckets if they share them with you by telling you the bucket number.
 
 . To retrieve a shared bucket, click *Shared Buckets* on the Buckets drop down.
++
+image::images/cat/buckets/item-bucket-shared-1.png[]
++
 . On the pop up that appears click *Load Bucket*.
 +
 image::images/cat/copy-bucket-11.png[]
