@@ -21,10 +21,40 @@ setting _Opt Org Unit into the Course Materials Module_.
 Search Course Reserves
 ~~~~~~~~~~~~~~~~~~~~~~
 
+You can access the course reserves search by clicking *Search Course Reserves*.
 
+The Course Reserves Search enables users to search for courses by course name, course number, and 
+instructor.  Patrons can search by a particular branch at multi-branch libraries and archived courses 
+can be included in the search results.
+
+image::images/opac/course-reserves/opac-course-reserves-4.png[scaledwidth="75%",alt="Course Reserves"]
+
+
+[TIP]
+=====
+The library setting _Allow users to browse Courses by Instructor_ must be set to TRUE to have 
+instructor incluced as a search option.
+=====
 
 Browse Course Reserves
 ~~~~~~~~~~~~~~~~~~~~~~
+
+You can access the course reserves browse by clicking *Browse Course Reserves*.
+
+image::images/opac/course-reserves/opac-course-reserves-5.png[scaledwidth="75%",alt="Course Reserves"]
+
+The following fields are browsable:
+
+* Course Names
+* Course Numbers
+* Instructors
+
+The browse is constructed by the term starting with.
+
+. Click *Browse Course Reserves*.
+. Select a field to browse, enter your term, and click *Browse*.
+. A list of results will appear.
+. Click on the bolded text to view the course list. 
 
 Course Lists
 ~~~~~~~~~~~~
