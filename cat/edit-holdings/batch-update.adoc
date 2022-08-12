@@ -6,7 +6,7 @@ Batch Editing Items
 * by scanning items or xref:_upload_from_file_choose_file[uploading a file of barcodes] 
 into _Item Status_, selecting the relevant items, and then 
 selecting *Edit -> Items* from the *Actions* menu.
-* from within an item bucket by selecting the relevant items, and then selecting 
+* from within an xref:item-bucket-edit-item[item bucket] by selecting the relevant items, and then selecting 
 *Edit Selected Items* from the *Actions* menu.
 * from within a bibliographic record by going to *Holdings View*, selecting the items you wish to edit,
  and then selecting *Edit -> Edit Items* from the *Actions* menu.
