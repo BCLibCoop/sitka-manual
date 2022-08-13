@@ -3,12 +3,12 @@ Importing Bibliographic Records via Z39.50 Interface
 
 https://youtu.be/SiFEcu8k_2g[*Sitka Training Video - Z39.50 (7:58)*]
 
-It is required practice and Sitka policy to check the Evergreen database for existing records before 
-importing a record. You can search the catalogue first, or you can configure the Z39.50 screen to 
-search the Evergreen database as well as Z39.50 targets at the same time. If searching Evergreen 
-via the Z39.50 screen and you find a record, it is required practice and Sitka policy to find 
-that record in the catalogue and attach your holdings to it. If you have confirmed that there 
-is no record in Evergreen that matches the item in your hand, but have found a record in another 
+It is required practice and Sitka policy to check the Evergreen database for existing records before
+importing a record. You can search the catalogue first, or you can configure the Z39.50 screen to
+search the Evergreen database as well as Z39.50 targets at the same time. If searching Evergreen
+via the Z39.50 screen and you find a record, it is required practice and Sitka policy to find
+that record in the catalogue and attach your holdings to it. If you have confirmed that there
+is no record in Evergreen that matches the item in your hand, but have found a record in another
 database, simply import the new record into Evergreen and then attach holdings.
 
 Searching via Z39.50
@@ -16,7 +16,7 @@ Searching via Z39.50
 
 . To access the Z39.50 interface, select *Cataloguing -> Import Record from Z39.50*.
 +
-. Select the Z39.50 services that you would like to search from the list. 
+. Select the Z39.50 services that you would like to search from the list.
 +
 image::images/cat/z3950-search-1.png[]
 +
@@ -24,38 +24,38 @@ image::images/cat/z3950-search-1.png[]
 =====
 Different types of libraries will see different services listed.
 
-The more services you select the longer your search will take as Evergreen has to search each Z39.50 service. 
-Co-op Support recommends setting 3 to 5 sources as your defaults and then adding additional services to 
+The more services you select the longer your search will take as Evergreen has to search each Z39.50 service.
+Co-op Support recommends setting 3 to 5 sources as your defaults and then adding additional services to
 your searching as needed.
 =====
 +
-. Fill in your search term(s) and click *Search*. 
+. Fill in your search term(s) and click *Search*.
 +
 image::images/cat/z3950-search-2.png[]
 +
 [NOTE]
 ======
-The active search fields will change depending on the targets you select. Different targets may support 
-different search types. For instance, Keyword and Subject will only be active if the local catalogue is 
+The active search fields will change depending on the targets you select. Different targets may support
+different search types. For instance, Keyword and Subject will only be active if the local catalogue is
 selected. When you select multiple targets to search, an active box may apply to only one target.
 ======
 +
-. Search results are displayed in the lower pane. You can hide the top pane to bring up the result list 
-or simply scroll down to it. 
+. Search results are displayed in the lower pane. You can hide the top pane to bring up the result list
+or simply scroll down to it.
 +
 image::images/cat/z3950-search-3.png[]
 +
-. Information about each retrieved record appears on a separate summary line. The _Service_ column indicates 
+. Information about each retrieved record appears on a separate summary line. The _Service_ column indicates
 where the record was found.
 +
 image::images/cat/z3950-search-4.png[]
 +
 . If "native-evergreen-catalog" is listed in the _Service_ column, the record is already in Sitka's database.
-Select the record and click *View in Catalogue*.
+Select the record and click *Show in Catalogue*.
 +
 image::images/cat/z3950-search-5.png[]
 +
-. If the record in the catalogue matches your item xref:_adding_holdings[add your holding], otherwise 
+. If the record in the catalogue matches your item xref:_adding_holdings[add your holding], otherwise
 xref:import_from_z3950[import a new record via Z39.50].
 
 
@@ -79,13 +79,13 @@ image::images/cat/z3950-import-2.png[]
 +
 image::images/cat/z3950-import-3.png[]
 +
-. Make any needed edits to the record.  
+. Make any needed edits to the record.
 +
 [NOTE]
 ======
-As the record has not yet been added to the Sitka database and so has no items from other records attached 
-you can edit it as needed.  Co-op Support recommends removing any fields that contain local data related 
-to items held by the service the record comes from.  In general this information will be found in the 852 
+As the record has not yet been added to the Sitka database and so has no items from other records attached
+you can edit it as needed.  Co-op Support recommends removing any fields that contain local data related
+to items held by the service the record comes from.  In general this information will be found in the 852
 fields and 9xx fields.
 
 The fields 906, 923, 925, 936, 948, 955, 959, and 963 are stripped from imported records by default.
@@ -96,7 +96,7 @@ The fields 906, 923, 925, 936, 948, 955, 959, and 963 are stripped from imported
 image::images/cat/z3950-import-4.png[]
 +
 . The record is imported. On the pop-up that appears click *Go to Record*.
-. The record will open in a new tab.  You can now add your holding to the record. 
+. The record will open in a new tab.  You can now add your holding to the record.
 See xref:_adding_holdings[],
 
 
@@ -105,10 +105,10 @@ Overlaying Records via Z39.50 Interface
 
 https://youtu.be/eMfyQTkmx6g[*Sitka Snippet Video - Overlaying Bibliographic Records via Z39.50 (4:02)*]
 
-There are times when it is necessary to overlay an existing MARC record in Evergreen with a better 
-MARC record from a Z39.50 target. Overlaying a MARC record replaces an existing MARC record and leaves 
-all holdings, and corresponding holds, active circulations, bills, and fines intact. As overlay affects all 
-libraries sharing a MARC record it is critical that this procedure be done judiciously and correctly. 
+There are times when it is necessary to overlay an existing MARC record in Evergreen with a better
+MARC record from a Z39.50 target. Overlaying a MARC record replaces an existing MARC record and leaves
+all holdings, and corresponding holds, active circulations, bills, and fines intact. As overlay affects all
+libraries sharing a MARC record it is critical that this procedure be done judiciously and correctly.
 Please refer to link:http://docs.libraries.coop/policy/_cataloguing_procedures.html[Sitka's cataloguing policy] for more information.
 
 
@@ -116,10 +116,10 @@ Marking a Record for Overlay
 ++++++++++++++++++++++++++++
 
 
-You must first identify the MARC record which you wish to  overlay. You do this by "marking" it for overlay. 
-Only one record can be marked at a time. When you mark another record, 
-the previous record is unmarked. Once a record is marked, it stays marked until it is overlaid, 
-or has been reset. Therefore, you can mark and overlay one record at a time, 
+You must first identify the MARC record which you wish to  overlay. You do this by "marking" it for overlay.
+Only one record can be marked at a time. When you mark another record,
+the previous record is unmarked. Once a record is marked, it stays marked until it is overlaid,
+or has been reset. Therefore, you can mark and overlay one record at a time,
 following through the entire process to completion before moving on to another record.
 
 .To mark a record for overlay via the catalogue:
@@ -145,7 +145,7 @@ image:images/cat/z3950-overlay-4.png[]
 
 [CAUTION]
 =========
-The overlay target will remain even after you log out of Evergreen. After you re-log in, the target is 
+The overlay target will remain even after you log out of Evergreen. After you re-log in, the target is
 still in effect.
 =========
 
@@ -172,17 +172,17 @@ are bringing in.
 +
 image:images/cat/z3950-overlay-6.png[]
 +
-Make any needed edits to the record following 
+Make any needed edits to the record following
 link:http://docs.libraries.coop/policy/_cataloguing_procedures.html[Sitka's cataloguing policy]
 and click *Save*.
 +
 image:images/cat/z3950-overlay-7.png[]
-+ 
++
 [NOTE]
 ======
 As the record already exists in the Sitka database and has holdings for other libraries only make edits
-that conform with Sitka's cataloguing policy. Co-op Support does recommend removing any fields that contain 
-local data related to items held by the service the record comes from.  In general this information will 
+that conform with Sitka's cataloguing policy. Co-op Support does recommend removing any fields that contain
+local data related to items held by the service the record comes from.  In general this information will
 be found in the 852 fields and 9xx fields.
 
 The fields 906, 923, 925, 936, 948, 955, 959, and 963 are stripped from imported records by default.
