@@ -5,7 +5,7 @@ The Leader and 008 field can be edited directly via the Flat Text Editor in MARC
 at the top of the Enhanced MARC Editor.
 
 Information about the Leader and the 008 can be found on the Library of Congress's MARC Standards 
-page at http://www.loc.gov/marc/
+page at https://www.loc.gov/marc/bibliographic/
 
 To edit the fixed fields, it is easiest to use grid in the Enchanced MARC Editor. In the Flat Text 
 Editor, you must count characters and make sure you place the cursor at the correct position in the field.
