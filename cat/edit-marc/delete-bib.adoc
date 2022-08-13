@@ -1,3 +1,20 @@
+Undeleting Bibliographic Records
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Deleted records can be undeleted if you know the record TCN or ID.
+
+. Retrieve the record by its database ID.
++
+image::images/cat/delete-marc-3.png[]
++
+. Click on the *MARC Edit* tab.
++. Click *Undelete Record*.
++
+image::images/cat/delete-marc-4.png[]
++
+. A pop up will appear.  Click *Confirm*.
+. The record is undeleted and holdings or scoped 856 fields can now be added.
+
 Deleting Bibliographic Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -21,20 +38,3 @@ image::images/cat/delete-marc-1.png[]
 image::images/cat/delete-marc-2.png[]
 
 You can also delete bibliographic records from a Record Bucket.
-
-Undeleting Bibliographic Records
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Deleted records can be undeleted if you know the record TCN or ID.
-
-. Retrieve the record by its database ID.
-+
-image::images/cat/delete-marc-3.png[]
-+
-. Click on the *MARC Edit* tab.
-+. Click *Undelete Record*.
-+
-image::images/cat/delete-marc-4.png[]
-+
-. A pop up will appear.  Click *Confirm*.
-. The record is undeleted and holdings or scoped 856 fields can now be added.
