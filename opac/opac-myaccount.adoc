@@ -117,7 +117,7 @@ Account Summary
 
 The default view when you login to your account is the _Account Summary_ page. This view gives you an
 overview of items checked out, items on hold and any fines you may have. You can access any of these screens
-by clicking on the relevant tab.
+by clicking on the relevant menu option.
 
 image::images/opac/opac-account-5.png[scaledwidth="75%",alt="My Account"]
 
@@ -138,11 +138,11 @@ Personal Information
 (((Update Password, My Account)))
 (((Send Test Email, My Account)))
 
-You can change your username, password, email address, and preferred language _Personal Information_ tab.
+You can change your username, password, email address, and preferred language in _Personal Information_.
 Libraries using single sign-on or other 3rd party password services may restrict editing of some of these
 fields.
 
-Click the *Change* link next to the information you'd like to update.
+Click the *Change* button next to the information you'd like to update.
 
 ////
 To test that your email address works, click *Send Test Email*. An automated message will be sent. If you do not receive it, first check your spam folder and contact your library for further assistance.
@@ -170,7 +170,7 @@ Notification Preferences
 (((Notifications, My Account)))
 
 
-The _Notification Preferences_ tab is where you set your preferences for holds notification. You can choose
+_Notification Preferences_ is where you set your preferences for holds notification. You can choose
 to be contacted by email, phone, or text message.
 
 ////
@@ -192,7 +192,7 @@ Search and History Preferences
 (((Check Out History)))
 (((Hold History)))
 
-The _Search and History Preferences_ tab allows you to configure settings around search results, history,
+_Search and History Preferences_ is where you configure settings around search results, history,
 and allowing others access to your account.
 
 You can select how many search results are displayed per page on your catalogue searches as well as your
@@ -214,7 +214,7 @@ image::images/opac/opac-account-8.png[scaledwidth="75%",alt="My Account"]
 My Lists Preferences
 ^^^^^^^^^^^^^^^^^^^^
 
-The _My Lists Preferences_ tab allows you to set how many lists you'd like to display per page, and how many items
+_My Lists Preferences_ allows you to set how many lists you'd like to display per page, and how many items
 should be displayed per page in your lists.
 
 image::images/opac/opac-account-9.png[scaledwidth="75%",alt="My Account"]
