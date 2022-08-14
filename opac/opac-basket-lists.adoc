@@ -50,7 +50,7 @@ Titles can be removed from the basket in a number of ways:
 
 image::images/opac/opac-basket-5.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
-* by clicking *remove from basket* in the search results view.
+* by clicking *Remove from basket* in the search results view.
 
 image::images/opac/opac-basket-6.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
@@ -115,7 +115,7 @@ Email from the Baskets
 
 A bug currently prevents Evergreen from sending emails from baskets.
 
-
+////
 . Select the titles you'd like included.
 . Click the *Email Details* button.
 +
@@ -142,7 +142,7 @@ image:images/opac/opac-email-basket-4.png[scaledwidth="75%"]
 image:images/opac/opac-email-basket-5.png[scaledwidth="75%"]
 +
 . A message appears letting you know your email has been queued.
-
+////
 
 Creating Lists
 ~~~~~~~~~~~~~~

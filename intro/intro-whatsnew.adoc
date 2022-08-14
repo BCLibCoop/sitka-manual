@@ -73,7 +73,8 @@ Patron Notifications
 ~~~~~~~~~~~~~~~~~~~~
 
 * Email notifications can now be set up in French so that patrons who set their preferred locale to French get 
-notifications in French.  Libraries that wish the French notifications to match
+notifications in French.  Co-op Support is working on setting up default templates in French. 
+Libraries that wish the French notifications to match
 their customized English notifications must provide translations to Co-op Support.
 
 [[new-features-administration]]
