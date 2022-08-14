@@ -1,0 +1,121 @@
+Patron Notes
+~~~~~~~~~~~~
+
+(((Patron Messages)))
+(((Patron Alerts)))
+
+There are three types of patron notes in Evergreen:
+
+* Note - information recorded on the patron account.
+* Alert - information recorded on the patron account that generates an alert when the patron's account
+is retrieved.
+* Block - information recorded on the patron account that blocks patrons from checking out, renewing, 
+and placing items on hold.
+
+Notes, alerts, and blocks can be applied to a patron's account automatically by the system 
+or manually by staff.  These can be viewed and managed on the _Notes_ tab in the patron account.
+
+System Generated Notes
+^^^^^^^^^^^^^^^^^^^^^^
+
+When a patron has an alert or a block on their account a red *Stop* sign is displayed when the account 
+is retrieved. 
+
+image:images/circ/patron-note-1.png[]
+
+Evergreen will automatically apply alerts in the following situations:
+
+* patron's account has expired.
+* patron has a hold ready for pick up.
+* patron has an invalid email address.
+* patron has an invalid phone number.
+* patron has an invalid address.
+
+Evergreen will automatically apply blocks in the following situations:
+
+* patron exceeds fine threshold.
+* patron exceeds max overdue threshold.
+* patron exceeds max checked out item threshold.
+* patron exceeds max lost item threshold.
+
+When these blocks are applied to an account the patron is blocked from checking out, renewing, and placing items on hold.
+Evergreen will also not capture or fulfill holds for the patron.  The max checked out item threshold is an
+exception; patrons with this block can still renew and place holds on items.
+
+The thresholds for these blocks are set per library and can be edited by a local system 
+administrator in xref:_group_penalty_thresholds[Group Penalty Thresholds].
+
+Evergreen will remove these blocks and alerts when the cause is resolved.
+
+Blocks can also be overridden by staff with appropriate permissions when 
+xref:_holds_status_messages[placing holds], xref:_exceptions_at_check_out[checking out items], 
+or xref:_exceptions_at_renewal[renewing items]. 
+
+
+Staff Generated Notes
+^^^^^^^^^^^^^^^^^^^^^
+
+To add a note:
+
+. In the patron's account click on the *Notes* tab.
+. Click *Create Note*.
+. Select the type of note you would like to created by clicking the appropriate button or selecting the option 
+from the *Penalty Type* drop down.
++
+image:images/circ/patron-note-2.png[]
++
+. If the note should be visible to patrons in My Account check the box for *Patron Visible*.
++
+image:images/circ/patron-note-3.png[]
++
+. Select the depth at which the note should be visible.  Libraries participating in reciprocal borrowing
+may wish to set some notes at the _Regional Libraries_ level so all libraries that interact with the patron
+account can see the note.
++
+image:images/circ/patron-note-4.png[]
++
+. Enter a *Title* for the note.
+. Optionally, enter additional text for the note.
+. Enter your initials and click *OK* to save the note.
++
+image:images/circ/patron-note-5.png[]
+
+
+To edit a note:
+
+. In the patron's account click on the *Notes* tab.
+. Select the note you would like to edit.
+. From the *Actions* menu select *Edit Note*.
++
+image:images/circ/patron-note-6.png[]
++
+. Make the needed changes and enter your initials.
++
+image:images/circ/patron-note-7.png[]
++
+. Click *OK*.
+
+[NOTE]
+======
+Patron visible notes cannot be edited after the patron has viewed the note.
+======
+
+
+To delete or archive a note:
+
+. In the patron's account click on the *Notes* tab.
+. Select the note you would like to delete or archive.
+. From the *Actions* menu select the appropriate action.
++
+image:images/circ/patron-note-8.png[]
++
+. If archived, the note will now display in the archived section.  By default archived notes from the 
+last year display.  Use the date selectors to adjust this period as needed.
++
+image:images/circ/patron-note-9.png[]
+
+[NOTE]
+======
+Patron visible notes cannot be deleted after the patron has viewed the note. Instead, these notes
+must be archived to remove them from the active notes section.
+======

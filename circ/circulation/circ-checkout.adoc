@@ -3,10 +3,153 @@ Check Out
 (((Check Out)))
 (((Check Out, Pre-catalogued)))
 (((Check Out, Non-catalogued)))
+(((Check Out, Exceptions)))
+(((Check Out, Override)))
+(((Check Out, Open Circulation)))
 (((Check Out, Specific Due Date)))
 
 link:https://youtu.be/OnD2LdI1hW0[*Sitka Training Video - Check Out (3:12)*]
 
+Three types of items can be circulated in Evergreen:
+
+* Catalogued - item that are catalogued in Evergreen
+* Pre-catalogued - items that haven't been catalogued yet or have been borrowed via interlibrary loan
+* Non-catalogued items - items that won't be catalogued but that the library wants to track statistics for
+
+.To check out an item:
+. xref:_retrieving_patron_accounts[Retrieve the patron's account].
+. On the _Check Out_ tab, scan or enter item barcode.
+. The item will appear below in the grid.  The due date will be determined by your 
+xref:_circulation_policies[circulation policies].
++
+image:images/circ/check-out-1.png[scaledwidth="75%"]
++
+. Click *Done* to exit the *Check Out* screen and generate a check out receipt for the patron.
+.. The icon will indicate the patron's receipt default - print or email. Staff can select a different 
+option from the drop down menu.
++
+image:images/circ/check-out-2.png[scaledwidth="75%"]
+
+Pre-catalogued Items
+^^^^^^^^^^^^^^^^^^^^
+
+.To check out an interlibrary loan or an item that hasn't been catalouged yet:
+. xref:_retrieving_patron_accounts[Retrieve the patron's account].
+. On the _Check Out_ tab, scan or enter a temporary item barcode.
+. Enter the the item information into the pop-up.  The circulation modifier applicable to the item must be 
+chosen from the drop down menu in order for the item to follow the expected circulation policy.
++
+image:images/circ/check-out-pre-cat-1.png[scaledwidth="75%"]
++
+. Click *Precat Checkout*.
+. The item will appear below in the grid. The due date will be determined by your 
+xref:_circulation_policies[circulation policies].
+
+[NOTE]
+======
+Information on using pre-catalogued items for interlibrary loans can be found in the 
+http://docs.libraries.coop/policy/_inter_library_loan.html#_using_pre_cats_for_incoming_ill[Using Pre-cats
+for Incoming ILL] section of Sitka's Evergreen Policy & Best Practices Manual.  Pre-cats should never
+be used to check out Interlibrary Connect items.
+======
+
+Non-catalogued Items
+^^^^^^^^^^^^^^^^^^^^
+
+Libraries can create xref:_non_catalogued_type_editor[non-catalogued types] to track statistics for items that the library will not 
+catalogue and does not expect to have returned.
+
+.To check out a non-catalogued item:
+. xref:_retrieving_patron_accounts[Retrieve the patron's account].
+. On the _Check Out_ tab, click on the drop down arrow beside *Barcode* to choose the applicable 
+non-catalogued type.
++
+image:images/circ/check-out-non-cat-1.png[scaledwidth="75%"]
++
+. Click *Submit*.
+. Enter the number of items and click *OK*.
++
+image:images/circ/check-out-non-cat-2.png[scaledwidth="75%"]
++
+. A record of the check out will appear in the grid.
+. The items can be viewed on the xref:_items_out_tab[Non-Catalogued Circulations tab in Items Out] until 
+the due date passes at which time the items disappear from the patron's record.
+
+Exceptions at Check Out
+^^^^^^^^^^^^^^^^^^^^^^^
+
+Item Alerts
++++++++++++
+[[check-out-item-alerts]]
+
+If an item has a check out alert it will appear when the item is scanned at check out.
+
+image:images/circ/check-out-exceptions-4.png[scaledwidth="75%"]
+
+Staff can click *OK/Continue* after reading the alert to proceed with check out.
+
+Temporary alerts will have a *Clear* button which can be used to clear the alert when it is no longer needed.
+
+Overriding at Check Out
++++++++++++++++++++++++
+
+An item can be blocked from circulation for the following reasons:
+
+* Patron has a xref:_patron_notes[system generated or staff generated block] on their account
+* Item is in a non-circulating xref:_item_statuses[status]
+* Item is in a non-circulating xref:_shelving_location_editor[shelving location]
+* Item has been set to xref:_item_attributes[Circulate = No in the item record]
+* The library's xref:_circulation_policies[circulation policies] block the patron from borrowing the item
+* Item is on the holds shelf for another patron
+
+.To override an exception at check out:
+. Check or un-check the box for *Automatically override for subsequent items* as applicable to the check out.
+. Click *Force Action?*. Staff must have the xref:_staff_account_permission_groups[appropriate permissions]
+ to force the check out.
++
+image:images/circ/check-out-exceptions-1.png[scaledwidth="75%"]
++
+. The item will appear below in the grid. The due date will be determined by your 
+xref:_circulation_policies[circulation policies].
+
+Open Circulation
+++++++++++++++++
+
+Occasionally a patron may try to check out an item that is already checked out.  This most commonly occurs 
+with items that got missed at check in.  Staff have three options to 
+resolve the open circulation:
+
+* Click *Normal Checkin then Checkout* - this checks the item in and then out to the new patron
+* Check the box for *Forgive Fines and then click *Normal Checkin then Checkout* - this checks the item in, 
+forgives any existing fines, and then checks the item out to the new patron
+* Click *Cancel* - this cancels the check out and allows staff to manually resolve the open circulation
+
+image:images/circ/check-out-exceptions-2.png[scaledwidth="75%"]
+
+
+Specific Due Date
++++++++++++++++++
+[[check-out-specific-due-date]]
+
+Staff can assign specific due dates to items at check out which override the due date the system would
+assign.
+
+.To assign a specific due date:
+. xref:_retrieving_patron_accounts[Retrieve the patron's account].
+. On the _Check Out_ tab, click on *Date Options*.
+. Select *Specific Due Date* or *Use Specific Due Date Until Logout*.
++
+image:images/circ/check-out-exceptions-3.png[scaledwidth="75%"]
++
+. Use the calendar widget or enter a date.  
+.. For hourly loans use the time picker to select the due date time.  (Daily loans always have 
+11:59pm/23:59pm as the due date time regardless of what is selected for due date time.)
+. Scan or enter item barcode.
+. The item will appear below in the grid.  The specified due date will display.
+
+
+
+////
 Sitka's Evergreen circulates catalogued, pre-catalogued, and non-catalogued items.
 
 * Regular circulation of items in your catalogue with a barcode.
@@ -63,3 +206,4 @@ per session or continuously until log-out.
 . Scan the item barcode.
 +
 image:images/circ/checkout5.png[scaledwidth="75%"]
+////

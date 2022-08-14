@@ -1,11 +1,6 @@
 Workstation Administration
 --------------------------
 
-Search Preferences
-~~~~~~~~~~~~~~~~~~
-
-Refer to xref:set-search-pref[] for detailed instructions
-
 include::workstationadmin/admin-registeredworkstations.adoc[]
 
 include::workstationadmin/admin-printersettings.adoc[]
@@ -15,7 +10,7 @@ include::workstationadmin/admin-printtemplates.adoc[]
 Stored Preferences
 ~~~~~~~~~~~~~~~~~~
 
-Click *Administration* -> *Workstation* -> *Stored Preferences*
+Go to *Administration* -> *Workstation* -> *Stored Preferences*
 
 Here you can view stored user preferences. User settings are added to the list whenever you choose to *Save Columns*, *Set default view* or pick a value from a sticky drop down menu.
 
@@ -44,10 +39,11 @@ include::workstationadmin/admin-hatch.adoc[]
 Tests
 ~~~~~
 
-Click *Administration* -> *Workstation* -> *Tests*
+Go to *Administration* -> *Workstation* -> *Tests*
 
 Latency Test
 ^^^^^^^^^^^^
+(((Latency Test)))
 
 This will measure the websocket latency between your workstation client and the Evergreen server.
 
@@ -60,18 +56,65 @@ image::images/admin/latency-test.png[]
 *Average Latency* - Indicates how long it takes for your workstation to communicate with Sitka's Evergreen servers.
 
 
-Disable Sounds
-~~~~~~~~~~~~~~
+Sounds
+~~~~~~
+(((Sounds)))
+(((Disable Sounds)))
 
-Click *Administration* -> *Workstation*
+Sound is on by default in the Evergreen staff client. You can test the sounds and disable
+them if desired.
 
-.Disable Sounds
-. Check the box for *Disable Sounds* to turn off the staff client Sounds.
+Go to *Administration* -> *Workstation*
 
 .Test Sounds
 . Click the buttons to test the staff client sounds.
++
+image::images/admin/sounds-test-1.png[]
++
 . Distinct sounds will be played for each event.
 .. *Success*
 .. *Info*
 .. *Warning*
 .. *Error*
+
+.Disable Sounds
+. Check the box for *Disable Sounds* to turn off the staff client sounds.
++
+image::images/admin/sounds-test-2.png[]
++
+. This will also disable the sound test buttons.
+
+Include Full Library Names in Library Selector
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(((Library Selector)))
+
+link:https://youtu.be/pgDPRt3J-MM[*Sitka Snippet Video - Turning on Full Library Names (1:19)*]
+
+Go to *Administration* -> *Workstation*
+
+.Library Selector Shows Combined Names
+. Check the box for *Include Full Library Names in Library Selector* to show the full name, 
+as well as the short code, in library selectors in the staff client.
++
+image::images/admin/library-selector-name-setting-1.png[]
++
+. Log out of the staff client.
+. Clear your browser cache.  See xref:_clear_cache[].
+. Log into the staff client.  The full library name will now display in the library selector drop down.
+
+[NOTE]
+======
+This setting only applies to library selectors written in angular code, such as the staff catalogue.  Library
+selectors in older interfaces, such as most of circulation, will not show the full name.
+
+Libraries can expect to see this setting apply to more interfaces in the future as the older parts of the 
+staff client are re-written in the newer code.
+======
+
+
+Search Preferences
+~~~~~~~~~~~~~~~~~~
+[[workstation-search-preferences]]
+
+Staff should not use the search preferences settings found in Workstation Administration.  Instead,
+search preferences should be set from within the staff catalogue.  See xref:_search_preferences[].

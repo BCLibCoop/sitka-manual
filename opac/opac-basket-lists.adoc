@@ -12,10 +12,9 @@ can place holds, print and email title details, and add the titles to a new or e
 Lists are maintained in My Account and you must be logged in to use this feature. Lists can be used to keep
 track of what books have been read, to maintain a class reading list, to maintain a
 reading list for a book club, and more. Lists can also be used for maintaining publicly visible lists such as
-staff picks or themed lists that can be posted on a library's website.  Lists are also used with Course
-Reserves module for post-secondary institutions.
+staff picks or themed lists that can be posted on a library's website.  
 
-Lists are accessed via the  _My Lists_ section of  _My Account_.
+Lists are accessed via the _My Lists_ section of  _My Account_.
 
 Adding Titles to the Basket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -59,11 +58,11 @@ image::images/opac/opac-basket-6.png[scaledwidth="75%",alt="Adding Titles to the
 
 image::images/opac/opac-basket-7.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
-* by using the *Clear Basket* action from the menu located beside the basket icon.
+* by using the *Clear Basket* action from the basket icon drop down menu.
 
 image::images/opac/opac-basket-8.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
-* by selecting the titles you wish to remove and using the *Remove from basket* option in the basket view.
+* by selecting the titles you wish to remove and using the *Delete* button in the basket view.
 
 image::images/opac/opac-basket-9.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
@@ -76,181 +75,218 @@ Additionally, the contents of the basket are cleared when you log out of your ac
 Batch Actions Through the Basket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The *Basket Actions* menu, found beside the basket icon, lets you view the contents of the basket,
+The *Basket Actions* menu, found by clicking on the basket icon, lets you view the contents of the basket,
 batch place holds, print or email the title details for all titles, add the contents of the basket to a
 saved list, and clear the basket.
 
 image::images/opac/opac-basket-11.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
-The action menu within the basket view also allows you to add the contents of the basket to a new list
-or specific existing list.
+In the basket view there is also a button that allows you to add the contents of the basket to a new list.
 
 image::images/opac/opac-basket-12.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
-Email or Print from the Baskets
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Print from the Baskets
+^^^^^^^^^^^^^^^^^^^^^^
 
-. Select the titles and click the *Actions* menu.
-
-. Choose *Email* or *Print* for title details, and click *Go*.
-
-. You must be logged into *My Account* in order to email, and are prompted to do so if not.
-
-. The print and email preview and format editor opens.
-
-. Enter email address and subject if email is chosen.
-
-. Click into *Format* field, choose *Full* and click *Update*. This ensures the local call number and shelving information will be included.
+. Select the titles you'd like included.
+. Click the *Print Details* button.
 +
 image:images/opac/opac-print-basket-1.png[scaledwidth="75%"]
 +
-. If there are multiple libraries copies in the preview, choose required library in *Holdings Library* field,  and click *Update* again.
+. The print preview and format editor opens.
+. From the *Format* drop down menu, choose *Full* and click *Update*. This ensures the local call number 
+and shelving information will be included.
 +
 image:images/opac/opac-print-basket-2.png[scaledwidth="75%"]
 +
+. If there are multiple libraries copies in the preview, choose required library in *Holdings Library* field,  and click *Update* again.
++
+image:images/opac/opac-print-basket-3.png[scaledwidth="75%"]
++
 . The preview is presented.
+. Click *Print Now*. 
 +
 image:images/opac/opac-print-basket-4.png[scaledwidth="75%"]
 +
-. Click *Print Now*, or *Email Now*,  and follow on screen instructions.
+. Follow any prompts from your browser to print the details.
+
+Email from the Baskets
+^^^^^^^^^^^^^^^^^^^^^^
+
+A bug currently prevents Evergreen from sending emails from baskets.
 
 
+. Select the titles you'd like included.
+. Click the *Email Details* button.
++
+image:images/opac/opac-email-basket-1.png[scaledwidth="75%"]
++
+. You must be logged into *My Account* in order to email, and are prompted to do so if not.
+. The email preview and format editor opens.
+. Update the email address and add a custom email subject if needed.
++
+image:images/opac/opac-email-basket-2.png[scaledwidth="75%"]
++
+. From the *Format* drop down menu, choose *Full* and click *Update*. This ensures the local call number 
+and shelving information will be included.
++
+image:images/opac/opac-email-basket-3.png[scaledwidth="75%"]
++
+. If there are multiple libraries copies in the preview, choose required library in *Holdings Library* field,  and click *Update* again.
++
+image:images/opac/opac-email-basket-4.png[scaledwidth="75%"]
++
+. The preview is presented.
+. Click *Email Now*.
++
+image:images/opac/opac-email-basket-5.png[scaledwidth="75%"]
++
+. A message appears letting you know your email has been queued.
 
 
 Creating Lists
 ~~~~~~~~~~~~~~
 
-Best practice is to log in to *My Account* and create a list.
+Creating a List via My Account
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Select the _My Lists_ tab at the top of the _My Account_ area.
+. Select _My Lists_ from the menu.
 +
-. In the _My Account_ area, click on *My Lists*.
+image::images/opac/opac-list-1.png[scaledwidth="75%",alt="My Account Lists"]
 +
 . In the _Create New List_ section, enter a name and optional description for the list.
 +
-. Click *Share* to share the contents of the list with other users.
+. Click *Share* if you'd like to share the contents of the list with other users.
 +
-. Click *Submit*.
+. Click *Create List*.
++
+image::images/opac/opac-list-2.png[scaledwidth="75%",alt="My Account Lists"]
 
-image::images/opac/opac-list-1.png[scaledwidth="75%",alt="My Account Lists"]
-
-You can also create a new list from the basket.
+Creating a List from the Basket
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Add titles to the basket.
 +
-. Select *Add Basket to Saved List* from the basket action menu and click *Go*.
+. Select *Add Basket to Saved List* from the basket action menu.
 .. If  not logged in, a prompt appears.
 +
-image::images/opac/opac-list-2.png[scaledwidth="75%",alt="My Account Lists"]
+image::images/opac/opac-list-3.png[scaledwidth="75%",alt="My Account Lists"]
 +
 . In the _Create New List_ section, enter a name and optional description.
 +
-. Click *Share* to share the contents of the list with other users.
+. Click *Share* if you'd like to share the contents of the list with other users.
 +
-. By default _Move contents of basket to this list?_ is set to _Yes_.
+. By default _Move contents of basket to this list?_ is set to YES.
 .. The contents of the basket displays below.
 +
-. Click *Submit*.
-
-image::images/opac/opac-list-3.png[scaledwidth="75%",alt="My Account Lists"]
-
-
-Sharing Lists
-~~~~~~~~~~~~~
-
-By default, all lists are private, and you must instruct the system to allow others to view the
-contents of a list by clicking *Share* beside the list name.
-
-The address (URL) of the list is used to share it.
-
-. In the _My Lists_ section there is an *HTML View link* for every shared list.
+. Click *Create List*.
 +
-image::images/opac/opac-list-5.png[scaledwidth="75%",alt="My Account Lists"]
-+
-. Click on that link and bookmark the resulting web page in your browser or copy and paste the address
-(URL) to share your list as required.
-
-You can un-share a list by clicking *Hide*.
-
-Downloading Lists
-~~~~~~~~~~~~~~~~~
-
-You can export your list to a comma delimited file by selecting *Download CSV* and following your computer's
-prompts to save the file on your computer.
-
-image::images/opac/opac-list-6.png[scaledwidth="75%",alt="My Account Lists"]
-
-Deleting Lists
-~~~~~~~~~~~~~~
-
-If you no longer need a list you can delete it by clicking *Delete List*.
-
-image::images/opac/opac-list-7.png[scaledwidth="75%",alt="My Account Lists"]
-
+image::images/opac/opac-list-4.png[scaledwidth="75%",alt="My Account Lists"]
 
 Adding Titles to a List
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 . Titles are added to a list by first adding them to the basket. Refer
 to xref:_adding_titles_to_the_basket[].
+. Select *Add Basket to Saved List* from the basket action menu.
+.. If  not logged in, a prompt appears.
 +
-. From the basket actions menu select *View Basket* and click *Go* or go to _My Lists_.
+image::images/opac/opac-list-3.png[scaledwidth="75%",alt="My Account Lists"]
 +
-. Check the boxes for the titles in the basket that you wish to add to your list.
+. Un-check the box beside any titles you don't want added to the list.
+. Click *Move selcted items to list* and choose the list you want from the drop down.
 +
-. From the actions menu select the list you would like to add the titles to and click *Go*.
+image::images/opac/opac-list-11.png[scaledwidth="75%",alt="My Account Lists"]
 +
-image::images/opac/opac-list-8.png[scaledwidth="75%",alt="My Account Lists"]
+. The items are moved to your list and removed in your basket.  Any titles you
+de-selected will still be in the basket unless you selected *Clear entire basket when the 
+above action is complete*.
 +
-. The titles are added to your list and removed from the basket.
-
+image::images/opac/opac-list-12.png[scaledwidth="75%",alt="My Account Lists"]
 
 
 Managing Titles in a List
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can place holds, email or print the title details, and remove titles from your list using the
-*Actions for these items* menu.
+You can place holds, print the title details, and remove titles from your list by selecting the 
+relevant titles and using the appropriate button.
+
+image::images/opac/opac-list-13.png[scaledwidth="75%",alt="My Account Lists"]
+
+Information on placing holds can be found in xref:_placing_holds[].
+
+Printing from a list works the same as printing from a basket. See xref:_print_from_the_baskets[].
+
+Emailing from a list is currently not functional.
+
+
+Managing Lists
+~~~~~~~~~~~~~~
+
+Sharing a List
+^^^^^^^^^^^^^^
+
+. In _My Lists_, click on *Share* beside the list you would like to share.
++
+image::images/opac/opac-list-5.png[scaledwidth="75%",alt="My Account Lists"]
++
+. The list will now have an icon for RSS and a *View in Catalogue* button. Share the relevant link with the
+person you'd like to share the list with or include the link on a webpage.
++
+image::images/opac/opac-list-6.png[scaledwidth="75%",alt="My Account Lists"]
+
+[NOTE]
+======
+Libraries can use shared lists for sharing staff picks and other lists with patrons by creating a list 
+and posting the URL on the library's website.
+
+Co-op Support recommends libraries set up a patron account specifically to use for this instead of having
+staff use their own acounts.
+======
+
+Hiding a List
+^^^^^^^^^^^^^
+
+. In _My Lists_, click on *Hide* beside the list you would like to hide.
++
+image::images/opac/opac-list-7.png[scaledwidth="75%",alt="My Account Lists"]
++
+. The RSS icon and *View in Catalogue* button are removed.  Anyone with the link for the list will no longer
+be able to view it.
++
+image::images/opac/opac-list-8.png[scaledwidth="75%",alt="My Account Lists"]
+
+
+Downloading a List
+^^^^^^^^^^^^^^^^^^
+
+You can export your list to a comma delimited file by selecting *Download CSV* and following your computer's
+prompts to save the file on your computer.
 
 image::images/opac/opac-list-9.png[scaledwidth="75%",alt="My Account Lists"]
 
+Deleting a List
+^^^^^^^^^^^^^^^
 
-Email or Print from a List
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+If you no longer need a list you can delete it by clicking *Delete List*.
 
-. Select the titles and click the *Actions* menu.
-
-. Choose *Email* or *Print* for title details, and click *Go*.
-+
-image:images/opac/opac-print-basket-3.png[scaledwidth="75%"]
-+
-. The print and email preview and format editor opens.
-
-. Enter email address and subject if email is chosen.
-
-. Click into *Format* field, choose *Full* and click *Update*. This ensures the local call number and shelving information will be included.
-
-. If there are multiple libraries copies in the preview, choose required library in *Holdings Library* field,  and click *Update* again.
-
-. The preview is presented.
-
-. Click *Print Now* or *Email Now* and follow on screen instructions
+image::images/opac/opac-list-10.png[scaledwidth="75%",alt="My Account Lists"]
 
 
-
-
-Add a Note or Annotate a List
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Annotating a List
+^^^^^^^^^^^^^^^^^
 
 . Click on a list to open it and display the contents.
 +
-. A _Notes_ column will appear, with an *Edit* hyperlink beside it.
+. In the _Notes_ column click *Edit*.
 +
-image::images/opac/opac-list-10.png[scaledwidth="75%",alt="My Account Lists"]
+image::images/opac/opac-list-14.png[scaledwidth="75%",alt="My Account Lists"]
 +
-. Click *Edit*, enter the note and click *Save Notes*.
+. Enter the note beside the relevant title(s) and click *Save Notes*.
 +
-image::images/opac/opac-list-11.png[scaledwidth="75%",alt="My Account Lists"]
+image::images/opac/opac-list-15.png[scaledwidth="75%",alt="My Account Lists"]
 +
 . The note will display in the patron's view of the list. If the list is shared, the note will also display
 on the webpage used to access the shared list.
++
+image::images/opac/opac-list-16.png[scaledwidth="75%",alt="My Account Lists"]

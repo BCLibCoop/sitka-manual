@@ -5,28 +5,44 @@ anchor:group-penalty-threshold[Group Penalty Thresholds]
 
 (((location administration, Circulation limit)))
 
-Group Penalty Thresholds block circulation transactions for users who exceed maximum check out limits, number of overdue items, or fines. Settings for your library are visible under *Administration -> Local Administration-> Group Penalty Thresholds*. There are four penalties in use now.
+Group Penalty Thresholds block circulation transactions for users who exceed maximum fine limites, check out 
+limits, number of overdue items, and number of lost item. Settings for your library are visible 
+under *Administration -> Local Administration-> Group Penalty Thresholds*. There are four penalties 
+in use now.
 
 
-* PATRON_EXCEEDS_FINES:	Blocks new circulations and renewals if patron exceeds X in fines
-* PATRON_EXCEEDS_OVERDUE_COUNT:	Blocks new circulations if patron exceeds X overdue items
+* PATRON_EXCEEDS_FINES:	Blocks new circulations, renewals, and placing of holds if patron exceeds X in fines
+* PATRON_EXCEEDS_OVERDUE_COUNT:	Blocks new circulations, renewals, and placing of holds if patron 
+exceeds X overdue items
 * PATRON_EXCEEDS_CHECKOUT_COUNT: Blocks new circulations if patron exceeds X items out
-* PATRON_EXCEEDS_LOST_COUNT: Blocks new circulations and placing holds if patron exceeds X lost items
+* PATRON_EXCEEDS_LOST_COUNT: Blocks new circulations, renewals, and placing of holds if patron 
+exceeds X lost items
 
-NOTE: Other penalties are not used by Sitka.
+[NOTE]
+======
+Other penalties are not used by Sitka.
+======
 
-Accounts that meet or exceed penalty thresholds display an alert message when opened and require staff overrides for blocked transactions.
+Accounts that meet or exceed penalty thresholds display an alert message when opened and require 
+staff overrides for blocked transactions.  See xref:_system_generated_notes[] for information
+on how this displays in a patron account.
 
 image:images/admin/group-penalty-1.png[scaledwidth="75%",alt="Local Penalty Thresholds"]
 
-Group Penalty Thresholds may be set up on different levels in terms of patron profiles and libraries. Penalties on more specific levels of profile and/or library take precedence. This allows you to set up penalties on a higher level of profile, e.g. Public Library Patrons, and/or library, e.g. system instead of branch, for most profiles and/or branches to share. If there are rules applied to lower level profiles, e.g. PL Juvenile or a branch, you just need to set them up for these specific profile/branch.
+Group Penalty Thresholds may be set up on different levels in terms of patron profiles and libraries. 
+Penalties on more specific levels of profile and/or library take precedence. This allows 
+you to set up penalties on a higher level of profile, e.g. Public Library Patrons, and/or library, 
+e.g. system instead of branch, for most profiles and/or branches to share. If there 
+are rules applied to lower level profiles, e.g. PL Juvenile or a branch, you just need to set 
+them up for these specific profile/branch.
 
-There are a set of penalties on Sitka level for all patrons. These rules will be applied if your library does not have your own rules.
+There are a set of penalties on Sitka level for all patrons. These rules will be applied if your 
+library does not have your own rules.
 
 Creating Local Penalty Thresholds
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Local System Administrators can created local penalty thresholds.
+Local System Administrators can create local penalty thresholds.
 
 . Go to *Administration -> Local Administration -> Group Penalty Threshold*.
 

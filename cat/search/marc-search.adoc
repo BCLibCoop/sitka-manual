@@ -19,8 +19,13 @@ image::images/cat/marc-search-1.png[MARC Search screen]
 . Enter the tag, subfield, and value and click *Search*.
 +
 image::images/cat/marc-search-2.png[MARC Search screen]
-
++
+[TIP]
+=====
+Remove any apostrophes from your search valyue. No results will be returned when apostrophes are included.
+=====
++
 . Your results are displayed.  Refer to xref:_viewing_search_results_for_cataloguing_purposes[] 
 for information on determining which result to add your holding to.
 +
-image::images/cat/numeric-search-4.png[two search results]
+image::images/cat/marc-search-3.png[two search results]

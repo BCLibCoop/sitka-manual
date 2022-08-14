@@ -14,9 +14,6 @@ up xref:_using_library_specific_marc_templates[library specific templates].
 For information about working with MARC records see xref:edit-marc[].
 
 . To access the global MARC templates, go to *Cataloguing -> Create New Marc Record*.
-+
-image::images/cat/new-marc-1.png[]
-+
 . The MARC Template screen opens. Click into the drop down menu field to see the available templates. 
 Note you can select one and set it as the default template for your workstation here.
 +

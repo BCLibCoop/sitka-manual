@@ -1,0 +1,170 @@
+Working with Patron Accounts
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The patron account has a summary, which displays on the left side of the patron account, and a tabbed interface
+allowing staff to look at different aspects of the patron account.
+
+image:images/circ/patron-account-1.png[]
+
+
+Patron Summary
+^^^^^^^^^^^^^^
+
+The patron summary pulls together pertinent information about the patron so it can be seen at a glance.
+
+Some things of note in the patron summary.
+
+* The patron's name displays at the top of the summary. The patron's name will be in red if they have
+alerts, blocks, or owe fines.
+** Evergreen will use the patron's preferred name and
+fall back to the primary name if there is no preferred name.
+* Any alerts and/or blocks will appear under the patron's name.
+* Last Activity - Last time a circulation was done on the account or the account was accessed for
+3rd party authentication.
+* Last Updated - Last time the account was updated via the *Edit* tab.
+* Create Date - Date on which the account was originally created.
+* Expire Date - Date on which the account will expire.  This can be updated via the *Edit* tab.
+* Sitka does not use Long Overdue
+* If a library used Homeroom or Student ID as _Primary Identification_ it will display in the ID1 field.
+* The patron's primary name displays in the Legal Name field in the summary.
+* The patron's email address is a Mail To link.
+* Any addresses associated with the patron display and can be easily copied to the clipboard or printed.
+
+The patron summary can be hidden using the arrows beside the patron's name.  This choice is sticky and
+will stay on collapsed or expanded view until changed.
+
+image:images/circ/patron-summary-6.png[]
+
+
+Check Out Tab
+^^^^^^^^^^^^^
+
+For information on the *Check Out* tab see xref:_check_out[].
+
+Items Out Tab
+^^^^^^^^^^^^^
+
+The _Items Out_ tab shows items currently out to a patron.  It is subdivided into three tabs.
+
+Items Checked Out
++++++++++++++++++
+
+The _Items Checked Out_ tab shows the items currently out to the patron.
+
+* Overdue items will display highlighted in red.
+* Using the *Actions* menu staff can perform functions such as printing an items out receipt,
+xref:_renewing_items[renewing items], xref:_mark_items[marking items with a different status],
+and showing triggered events for notifications sent to patrons about particular items.
+
+[NOTE]
+======
+Staff should only use *Check In* from the *Actions* menu if a checked out item has accidentally been
+deleted; deleted items cannot be checked in via the Check In interface.
+======
+
+image:images/circ/check-out-tab-1.png[]
+
+
+Other/Special Circulations
+++++++++++++++++++++++++++
+
+The _Other/Special Circulations_ tab shows items that are considered to be lost by the patron or that the
+patron claims they have returned.
+
+The _Fines Stopped_ column will show the reason the item has been moved to this tab.  Items are removed
+from this tab when they are checked in, changed to a different status, or paid for.  See
+xref:_mark_items[] for more information on handling these items.
+
+image:images/circ/check-out-tab-2.png[]
+
+
+Non-Catalogued Circulations
++++++++++++++++++++++++++++
+
+The _Non-Catalogued Circulations_ tab shows a count of non-catalogued items.  These items will disappear from
+the patron's account when they reach their due date as non-catalogued check out is for statistical purposes
+only.  See xref:_non_catalogued_items[] for more information on handling these items.
+
+image:images/circ/check-out-tab-3.png[]
+
+
+Holds Tab
+^^^^^^^^^
+
+The _Holds_ tab is divided into two tabs which show a patron's open hold requests and their recently
+cancelled holds.
+
+Open Hold Requests
+++++++++++++++++++
+
+This tab shows holds that are waiting to be filled or are ready to be picked up by the patron.
+
+image:images/circ/holds-tab-1.png[]
+
+Staff can xref:_placing_holds_in_patron_records[place new holds for the patron] from this tab as well
+as xref:_managing_holds[manage their existing holds].
+
+The columns _Notifications Phone Number_, _Notifications SMS Number_, and _Notify by Email?_ can be
+used to determine how a patron will be or should have been notified about a particular hold.
+
+
+Recently Canceled Holds
++++++++++++++++++++++++
+
+This tab shows holds that have been cancelled.  Holds can be cancelled by the patron, by staff, or by
+Evergreen.  The _Cancel Cause_ column will indicate why the hold was cancelled and from that staff can determine
+whether the cancellation was done by the patron, staff, or Evergreen.
+
+image:images/circ/holds-tab-2.png[]
+
+See xref:_cancelling_holds[] for information on how holds are cancelled.
+
+
+Bills Tab
+^^^^^^^^^
+
+For information on the *Bills* tab see xref:_bills_and_payments[].
+
+Notes Tab
+^^^^^^^^^
+
+For information on the *Notes* tab see xref:_patron_notes[].
+
+Edit Tab
+^^^^^^^^
+
+For information on the *Edit* tab see xref:_editing_patron_accounts[].
+
+Other Menu
+^^^^^^^^^^
+
+Additional options for the patron account can be found in the *Other* drop down menu.
+
+|===
+|Display Alerts | Evergreen will display the initial alert/blocks page.
+|Triggered Events/Notifications | Check to see if emails and/or SMS messages have been generated for patrons.
+See xref:_checking_for_notifications[].
+|Message Center | Obsolete interface. This functionality can be found in the
+xref:_patron_notes[*Notes*] tab.
+|Statistical Categories | View information about any patron statistical categories assigned to the patron.
+For more information on statistical categories see xref:_statistical_category_editor[].
+|Hold Groups | View any hold groups the patron is part of. For more information on hold groups
+ see xref:_hold_groups[].
+|Surveys | View the patron's responses to surveys. For more information on surveys
+ see xref:_surveys[].
+|Group Member Details | See any groups the patron is part of.  Sitka does not recommend using patron groups.
+|User Permission Editor | View and update staff xref:_working_locations[working locations]
+and xref:_granting_additional_permissions_to_staff_accounts[individual permissions].
+|Test Password | Allows you to enter the password assigned to the account and confirm it works.
+|Acquisitions Patron Requests | Not currently used by Sitka.
+|Booking: Manage Reservations | This link opens the xref:_manage_reservations[Manage Reservations] interface
+in the same tab with the patron's barcode pre-filled.
+|Booking: Create Reservations | This link opens the xref:_create_booking_reservations[Create Reservation]
+ interface in the same tab.
+|Booking: Pick Up Reservations | This link opens the xref:_pick_up_reservations[Booking Pickup] interface
+in the same tab with the patron's barcode pre-filled.
+|Booking: Return Reservations | This link opens the xref:_return_reservations[Booking Return] interface
+in the same tab with the patron's barcode pre-filled.
+|Completely Purge Account | Not used by Sitka. See xref:delete-patron-card[] for information on deleting
+patrons.
+|===

@@ -1,6 +1,28 @@
 Batch Editing Items
 ~~~~~~~~~~~~~~~~~~~
 
+. Items can be edited in batch:
++
+* by scanning items or xref:_upload_from_file_choose_file[uploading a file of barcodes] 
+into _Item Status_, selecting the relevant items, and then 
+selecting *Edit -> Items* from the *Actions* menu.
+* from within an xref:item-bucket-edit-item[item bucket] by selecting the relevant items, and then selecting 
+*Edit Selected Items* from the *Actions* menu.
+* from within a bibliographic record by going to *Holdings View*, selecting the items you wish to edit,
+ and then selecting *Edit -> Edit Items* from the *Actions* menu.
++
+. This will open the _Holdings Editor_ in a new tab.
+. Make the needed changes to the call number record and/or item attributes.  Information on these fields
+can be found in xref:_holdings_editor[].
+. If there are particular item attributes which will be different for different items, you can edit those 
+individually. Click on the attribute, and then de-select the values you don't want to be altered before 
+you apply the changes.
++
+image::images/cat/batch-edit-item-1.png[]
++
+. Click *Apply All, Save & Exit*.
+
+////
 You can edit items in batch on the _Item Status_ screen, or in an _Item Bucket_. 
 On _Holdings View_, you can edit a few selected Items under the same title.
 
@@ -63,6 +85,6 @@ different values for particular item attributes should be edited separately.
 for the attribute will display.
 +
 image::images/cat/batch-edit-item-2.png[]
-
+////
 
 

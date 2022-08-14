@@ -145,3 +145,23 @@ be filled when the item is no longer protected.
 *ITEM_NOT_HOLDABLE* - This indicates that the item is under age-based hold protection set through the Hold
 Policies and cannot currently fill holds at your library.  If you override and place the hold it will eventually
 be filled when the item is no longer protected.
+
+The following messages indicate that the patron's account has a system or staff generated block on it 
+preventing holds from being placed.  The thresholds for staff generated blocks are determined
+by your xref:_group_penalty_thresholds[group penalty thresholds].
+
+Staff with appropriate permissions can choose to override these blocks and place the hold.
+
+image:images/circ/hold-status-message-1.png[scaledwidth="75%"]
+
+*PATRON_EXCEEDS_FINES* - This indicates that the patron has a system generated block because they have
+exceeded your fine threshold.  
+
+*PATRON_EXCEEDS_OVERDUE_COUNT* - This indicates that the patron has a system generated block because
+they have exceeded your overdue item threshold. 
+
+*PATRON_EXCEEDS_LOST_COUNT* - This indicates that the patron has a system generated block because
+they have exceeded your lost item threshold.  
+
+*STAFF_CHR* - This indicates that the patron has had a manual block placed on their account by staff.  
+

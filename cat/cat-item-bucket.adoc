@@ -1,0 +1,186 @@
+Item Buckets
+------------
+
+link:https://youtu.be/DmLBBMAMFDQ[*Sitka Snippet Video - Item Buckets (4:33)*]
+
+Buckets is the name for a batch change functionality in Evergreen, or for a function that groups records in one place.  Batch changes allow you to group together many records and enact changes on them all at once, instead of individually editing them. Buckets can also be used to create pull lists. Buckets allow you to track and work with your materials in arbitrary ways and more easily collaborate with others.
+
+This chapter will demonstrate a variety of ways in which you can manage your items with Buckets.
+
+Currently there are item and title record buckets. You may work on item records with Item Buckets and MARC records with Record Buckets.
+
+Some possible uses for buckets are batch editing items, deleting items, and grouping like items temporarily to change their status or to create bibliographies and pull lists. While you can batch edit records a variety of ways in Evergreen, using common Windows functions such as select all and edit, buckets are useful for keeping records together over a period of time. For example, if you scan 20 items into the Item Status screen you can batch edit or delete from there by selecting all, but you have to enact those changes right then while records are all together on the screen. By utilizing Evergreen's bucket functionality, you can create a bucket and add records to that bucket, and they stay there until you are ready to work with them, whether that be immediately or days later. Adding items to a bucket is like creating and saving a query. The record being in a bucket does not affect normal library functions such as circulation, as being in a bucket is not a status.
+
+Buckets can be shared or private, and are associated with a login account.
+
+[TIP]
+=====
+Deleted records are not automatically removed from buckets. It is recommended that you always display *Deleted?* field in Bucket View.
+
+When a bucket is retrieved, all information about the records in it is transferred to the workstation. It consumes the computer's resources. It is recommended that an item bucket contain no more than a few hundred records.
+=====
+
+Creating/Deleting Item Buckets
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[[create-bucket]]
+Creating Item Buckets
+^^^^^^^^^^^^^^^^^^^^^
+
+There are two ways to create an item bucket. You can either create a bucket first, without accessing any copies, or you can access an item record and choose to create the bucket from that view. We will demonstrate both methods here.
+
+*Create an Item Bucket on Item Buckets* view
+
+. Select *Cataloging -> Item Buckets* from the menu bar.
+
+. Select *New Bucket* from the *Buckets* dropdown list.
++
+image::images/cat/buckets/item-bucket-1.png[]
++
+. Type in a name and some description, if needed. Click *Create Bucket*.
++
+image::images/cat/buckets/item-bucket-2.png[]
++
+. The newly created bucket is the active bucket in Bucket View.  Note that the bucket is numbered, and creator/owner identified.
++
+image::images/cat/buckets/item-bucket-3.png[]
++
+. Click the *Buckets* dropdown list to see the bucket. You can edit the bucket's name or description by 
+clicking on *Edit Bucket* on the list.
++
+image::images/cat/buckets/item-bucket-4.png[]
+
+[TIP]
+=====
+* Only buckets created by the login account are listed. But those created by other people can be retrieved via bucket number, if shared with you. Click *Shared Bucket* to type in the number to retrieve it.
+* Ignore the check box for *Shareable* - this function does not work as expected.
+=====
+
+*Create an Item Bucket when Adding an Item Record to a Bucket*
+
+You can also create a bucket from within an item record.
+
+. When an item is displayed on a screen such as *Checkin* or *Item Status*, you can add it to an item bucket by choosing *Actions -> Add Items to Bucket*.
++
+image::images/cat/copy-bucket-4.png[]
++
+. You are prompted to add the record to an existing bucket or a new one. To add to a new bucket, type in a name in *Name For New Bucket* box, then click *Add to New Bucket*.
++
+image::images/cat/copy-bucket-5.png[]
+
+Deleting Item Buckets
+^^^^^^^^^^^^^^^^^^^^^
+
+. To delete an item bucket, retrieve it from the *Buckets* drop down list
+. Select *Delete Bucket*.
++
+image::images/cat/buckets/item-bucket-delete-1.png[]
++
+. On the pop up that appears click *Delete Bucket*.
+. The bucket is deleted.
+
+
+Adding Items to a Bucket
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+*Add Items to a Bucket*
+
+Items can be added to a bucket when they are displayed on *Checkin*, *Item Status* and *Holdings View* screen.
+
+. You can select multiple items and add them to an item bucket at one time. Click *Actions -> Add Items to Bucket*.
++
+image::images/cat/buckets/item-bucket-add-1.png[]
+
+You can add items to a bucket on *Item Bucket View*.
+
+. Go to *Pending* tab to scan or type in item barcodes.
++
+image::images/cat/copy-bucket-7.png[]
++
+. Click the *Buckets* dropdown list to open or create a bucket, if not done yet.
+. Select records that you want to add to the bucket.
+. Click *Actions -> Add to Bucket*.
++
+image::images/cat/copy-bucket-8.png[]
+
+*Remove Items from a Bucket*
+
+To remove items from a bucket, retrieve the bucket, select the items, choose *Actions -> Bucket -> Remove Selected Items from Bucket*
+
+image::images/cat/copy-bucket-9.png[]
+
+
+Working with Items in a Bucket
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Removing Items from a Bucket
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Select the items you would like to remove from the bucket.
+. From the *Actions* menu select *Remove Selected items from Bucket*.
++
+image::images/cat/buckets/item-bucket-remove-item-1.png[]
++
+. The items are removed from the bucket.
+
+image::images/cat/buckets/item-bucket-3.png[]
+
+Moving Items to a Different Bucket
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Select the items you would like to move to another bucket.
+. From the *Actions* menu select *Move Selected Items to Pending Items*.
++
+image::images/cat/buckets/item-bucket-move-item-1.png[]
++
+. The items have been removed from the current bucket and moved to the *Pending Items* tab.
++
+image::images/cat/buckets/item-bucket-move-item-2.png[]
++
+. The items can now be xref:_adding_items_to_a_bucket[added to a different bucket].
+
+[[item-bucket-edit-item]]
+Editing Items
+^^^^^^^^^^^^^
+
+. Select the items you would like to edit.
+. From the *Actions* menu select *Edit Selected Items* or *Edit Call Numbers*.
++
+image::images/cat/buckets/item-bucket-edit-item-1.png[]
++
+. The xref:_batch_editing_items[Holdings Editor] will open in a new tab.
+
+
+[[item-bucket-print-label]]
+Printing Item Labels
+^^^^^^^^^^^^^^^^^^^^
+
+. Select the items you would like to print labels for.
+. From the *Actions* menu select *Print Labels*.
++
+image::images/cat/buckets/item-bucket-print-label-1.png[]
++
+. The xref:_printing_item_labels[Item Label interface] will open in a new tab.
+
+[[item-bucket-delete-item]]
+Deleting Items
+^^^^^^^^^^^^^^
+
+See xref:_deleting_items_via_item_buckets[].
+
+
+
+Retrieving Shared Buckets
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+On the *Buckets* list, you can find all buckets created by yourself. You can retrieve your co-workers' buckets if they share them with you by telling you the bucket number.
+
+. To retrieve a shared bucket, click *Shared Buckets* on the Buckets drop down.
++
+image::images/cat/buckets/item-bucket-shared-1.png[]
++
+. On the pop up that appears click *Load Bucket*.
++
+image::images/cat/copy-bucket-11.png[]
++
+. The bucket will load.

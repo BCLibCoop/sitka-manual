@@ -25,11 +25,11 @@ image:images/circ/retrieve-patron-1.png[]
 Patron Opt-In
 +++++++++++++
 
-Libraries participating in reciporcal borrowing agreements, like BC One Card, can opt-in patrons from other
-participating libraries. 
+Libraries participating in reciprocal borrowing agreements, like BC One Card, can opt-in patrons from other
+participating libraries.
 
 . When the barcode is scanned a pop-up requesting the patron's consent appears.
-. Click *OK/Continue* or *Cancel* as appropriate. 
+. Click *OK/Continue* or *Cancel* as appropriate.
 +
 image:images/circ/patron-opt-in-1.png[]
 
@@ -44,7 +44,7 @@ Retrieving an Account via Search Term
 
 link:https://youtu.be/JqY14Jd-BVU[*Sitka Snippet Video - Patron Search (1:04)*]
 
-The patron search enables you search using information in a patron account to retrieve your patrons and 
+The patron search enables you search using information in a patron account to retrieve your patrons and
 those patrons opted into your library.
 
 . Go to *Search → Search for Patrons*.
@@ -60,44 +60,12 @@ image:images/circ/patron-search-2.png[]
 
 [TIP]
 =====
-* To ensure all relevant patrons are search Co-op Support recommends have _Include Inactive?_ checked.
+* To ensure all relevant patrons are searched,  Co-op Support recommends having _Include Inactive?_ checked.
 * Libraries participating in reciprocal borrowing agreements should always set SITKA as the search library
 to ensure all opted-in patrons are included in the search.
 * The name fields search both the primary and preferred name fields.
 * Name keywords will retrieve patrons with the specified term present in any of the name fields.
 * Doing a search with _Profile Group_ set to Post-Sec Library Staff, Public Library Staff, etc. is a quick
-way to retrieve all staff accounts for your library so you can review them on a regular basis to ensure 
+way to retrieve all staff accounts for your library so you can review them on a regular basis to ensure
 the appropriate people have access to the staff client.
 =====
-
-////
-
-Patron Barcode Scan
-~~~~~~~~~~~~~~~~~~~
-
-
-Patron accounts are retrieved by barcode scan or name search.
-
-Barcode scan is the recommended method if you have the patron's barcode: it is faster and can retrieve accounts from any Sitka library. It is also Sitka policy. Patrons from other Sitka libraries must present their library card to scan, and must "opt in" and consent to share their personal information with your library, before their account can be used at your library. Once opted in to your library, their account can also be retrieved by a name search.
-
-. Click *Check Out Items* or select *(F1)* to scan patron's barcode.
-+
-image:images/circ/patronsearch2.png[scaledwidth="75%"]
-
-
-Patron Search
-~~~~~~~~~~~~~
-
-link:https://youtu.be/JqY14Jd-BVU[*Sitka Snippet Video - Patron Search (1:04)*]
-
-For patron search, we recommend you set search scope to Sitka, in order to search all opted in patrons at your library.
-
-You can expand the search field options by clicking the up and down arrow on right to show all search fields.
-
- . Click *Search For Patron By Name*, or select *Search → Search for Patrons* or *(F4)*.
-
- . Enter your search terms and click *Search.*
-+
-image:images/circ/patronsearch1.png[scaledwidth="75%"]
-////
-

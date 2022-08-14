@@ -1,111 +1,214 @@
-Course Reserves Administration
-------------------------------
-
-The Course Reserves module is available to academic libraries for displaying and managing course
-reserve lists.
-
-The module uses the _My Lists_ functionality in the public catalogue to create lists of
-reserves materials that can be viewed by users.
-
 Implementing Course Reserves
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-To request the course reserves module for your library https://bc.libraries.coop/support/[contact Co-op Support].  This module is only available for academic
- libraries.
+----------------------------
 
 Before implementing course reserves you will need to consider the following:
 
 **How will your reserve items will be identified in Evergreen?**
 
-Support recommends setting up a Course Reserves shelving location and using reserve specific
+Co-op Support recommends setting up course reserves related shelving locations and using reserve specific
 circulation modifiers.
 
 **How will your reserve items circulate?**
 
 If your reserve materials will have special loan periods or fines you will need to consider which circulation
-modifiers you use and contact Co-op Support to set up new circulation policies.  If reserve materials
-are not holdable your shelving location needs to be set accordingly or hold policies adjusted by Support.
+modifiers you use and contact Co-op Support to set up new circulation policies.  If reserve materials are 
+not holdable, your applicable shelving locations will need to be set accordingly, or, your hold 
+policies will have to be adjusted by Co-op Support.
 
-**Who will create the course reserve lists?**
+**Who will have access to course reserves?**
 
-Because the course reserves module uses the _My Lists_ functionality the lists can be created by
-instructors or library staff or both.  Decide who will create the lists and how admin staff
-will be informed of new lists to be added or old lists needing to be removed.
+Library staff must have cataloguing permissions in order to use the course reserves module
+as the module can update item attributes.
 
-Creating Course Reserve Lists
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+To enable the course reserves module in your public catalogue:
 
-Course Reserve lists are created using the My List functionality. Further details
-can be found in xref:_baskets_and_lists[].
+. Go to *Administration ->Local Administration -> Library Settings Editor*
+. Set the library setting _Opt Org Unit into the Course Materials Module_ to TRUE
+. There will now be options for searching and browsing course reserves in the public catalogue.
 
-. Log into your account in the public catalogue.
-+
-. Select the _My Lists_ tab at the top of the _My Account_ area.
-+
-. In the _My Account_ area, click on *My Lists*.
-+
-. In the _Create New List_ section, enter a name for your list into the text box.
-+
-. Optional - enter a list description.
-+
-. Set Share this list? to *Yes*.
-+
-. Click *Submit*.
-+
-image::images/course-reserves/course-reserves-1.png[scaledwidth="75%",alt="Creating Course Reserve Lists"]
-+
-. Find the course and click *HTML View*.
-+
-image::images/course-reserves/course-reserves-2.png[scaledwidth="75%",alt="Creating Course Reserve Lists"]
-+
-. Check the URL to find “bookbag=######”. This number is required to add the list to Course Reserves.
-+
-image::images/course-reserves/course-reserves-3.png[scaledwidth="75%",alt="Creating Course Reserve Lists"]
 
-[NOTE]
-=====
-The owner of the list can add and remove items from the list as needed and users will always
-see the current list.
-=====
+Course Reserves Administration
+------------------------------
 
-Adding Course Reserves
+To access the course reserves module go to *Administration -> Local Administration -> Course Reserves List*.
+
+Creating Terms
+~~~~~~~~~~~~~~
+
+You may optionally keep track of your institution's terms or semesters.
+
+. Go to *Administration -> Local Administration -> Course Reserves List*.
+. Click on the *Terms* tab.
+. Click "Create Term".
++
+image::images/course-reserves/course-reserves-term-1.png[scaledwidth="75%",alt="Adding Course Reserve Terms"]
++
+. Enter the name of the term.
+. If you are a multi-branch library you may need to change the owning library to be your system, rather than
+a particular branch.
+. Enter a start date and an end date for the term.
+. Click *Save*.
++
+image::images/course-reserves/course-reserves-term-2.png[scaledwidth="75%",alt="Adding Course Reserve Terms"]
+
+
+////
+Modifying course roles
 ~~~~~~~~~~~~~~~~~~~~~~
 
-. Login to the Course Reserves Admin module provided to you by Co-op Support
-. Enter the course information
-.. Course code
-.. Instructor
-.. Bookbag ID
-. Click Submit
-+
-image::images/course-reserves/course-reserves-4.png[scaledwidth="50%",alt="Adding Course Reserves"]
-+
-. Go to the public Course Reserves page and click on the course to make sure the list opens as expected
-in the public catalogue.
-+
-image::images/course-reserves/course-reserves-5.png[scaledwidth="75%",alt="Adding Course Reserves"]
+Evergreen users can be associated with courses in various roles.  For example,
+one Evergreen user may be associated as the instructor of a course, while others
+are associated as students in the course.
 
-Editing/Removing Course Reserves
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Course roles are shared across the entire Evergreen installation, rather than
+being specific to a specific library.
 
-. Login to the Course Reserves Admin module provided to you by Co-op Support
-+
-. Click on reserve you wish to modify or delete.
-. In the pop-up that appears make the needed edits and click *Save* or click *Delete This Reserve* to remove
-the reserve.
-+
-image::images/course-reserves/course-reserves-8.png[scaledwidth="75%",alt="Edit or Remove Course Reserves"]
+To modify course roles:
 
-Using Course Reserves
----------------------
+. Navigate to Administration -> Local Administration -> Course Reserves List.
+. Open the Course roles tab.
+. When modifying course roles, be very careful about whether or not they are
+_OPAC Viewable_.  Having an instructor role viewable in the OPAC could be very
+beneficial, as it could enable students to locate their course using the name
+of their instructor.  However, having a student role viewable in the OPAC could
+be a violation of the students' privacy rights, as it would expose their course
+registration to the general public.
+////
 
-. From your library website, or elsewhere as appropriate, link to the your public course reserves module
- so that students and faculty can access the course reserve lists.
-. Users can search for particular courses by code or instructor name
+Creating Courses
+~~~~~~~~~~~~~~~~
+
+. Go to *Administration -> Local Administration -> Course Reserves List*.
+. The *Course list* tab will open by default.
+. Click *Create Course*.
 +
-image::images/course-reserves/course-reserves-6.png[scaledwidth="75%",alt="Using Course Reserves"]
+image::images/course-reserves/course-reserves-add-course-1.png[scaledwidth="75%",alt="Adding Course Reserve Terms"]
 +
-. Clicking on the course list will display the items on the list in your public catalogue.  If
-the list has a description it will display.
+. Fill out the characteristics of the course.  The course's number, name, and
+owning library are required.  The section number is optional.
+. Click *Save*.
 +
-image::images/course-reserves/course-reserves-7.png[scaledwidth="75%",alt="Using Course Reserves"]
+image::images/course-reserves/course-reserves-add-course-2.png[scaledwidth="75%",alt="Adding Course Reserve Terms"]
++
+. The course is added to the list.
+. To finish setting up the course, select it and from the *Actions* menu choose *Edit Selected*. 
++
+image::images/course-reserves/course-reserves-add-course-3.png[scaledwidth="75%",alt="Adding Course Reserve Terms"]
++
+. From here you can attach terms, associate course materials, and add users to your course as well as 
+editing and archiving the course.
++
+image::images/course-reserves/course-reserves-add-course-4.png[scaledwidth="75%",alt="Adding Course Reserve Terms"]
+
+
+Attaching a Course to a Term
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+. In the course, click on the *Course terms* tab.
+. Click *Attach course to a term*.
++
+image::images/course-reserves/course-reserves-attach-term-1.png[scaledwidth="75%",alt="Adding Course Reserve Terms"]
++
+. Select a term from the drop down menu and click *Save*.
++
+image::images/course-reserves/course-reserves-attach-term-2.png[scaledwidth="75%",alt="Adding Course Reserve Terms"]
++
+. Repeat as needed if multiple terms need to be attached to the course.
+
+Associating Materials With a Course
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+. In the course, click on the *Course materials* tab.
+. Three types of materials can be associated with a course:
+** xref:associate-item[Catalogued items] from your collection.
+** xref:associate-brief-record[Brief records] for electronic resources that are not part of the library's 
+collection.
+** xref:associate-electronic-resource[Electronic resources] from your collection.
+
+
+Associating an Item
+^^^^^^^^^^^^^^^^^^^
+
+. On the *Course materials* tab, the *Associate item* tab will open by default.
+. Enter the barcode of the item you wish to associate with the course.
+. Enter the relationship the item has with the course.  For example, an item may be
+required reading or be supplemental.
+. A new call number, circulation modifier, and shelving location can be assigned to the item.
+.. These are temporary values.  When the course is archived Evergreen will automatically restore
+the original values.
+. Optionally, enter an item status.
+. Click *Add Material*.
++
+image::images/course-reserves/course-reserves-associate-item-1.png[scaledwidth="75%",alt="Associating an item"]
++
+. The item displays in the list with the updated information.
++
+image::images/course-reserves/course-reserves-associate-item-2.png[scaledwidth="75%",alt="Associating an item"]
+
+
+Associating a Brief Record
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. On the *Course materials* tab, click on the *Associate brief record* tab.
+. Enter the relationship the item has with the course.  For example, an item may be
+required reading or be supplemental.
+. Fill in the relevant fields to create your brief record.  You must enter a value for title.
+. Click *Add material*.
++
+image::images/course-reserves/course-reserves-associate-brief-record-1.png[scaledwidth="75%",alt="Associating a brief record"]
++
+. The record displays in the list.
++
+image::images/course-reserves/course-reserves-associate-brief-record-2.png[scaledwidth="75%",alt="Associating a brief record"]
+
+[NOTE]
+======
+After creating a brief record, it is represented as a bibliographic record in
+your catalogue, which cataloguers may edit and enhance at any time.  When the resource
+is detached from the course or the course is archived, the bibliographic record
+will be automatically deleted.
+======
+
+
+Associating an Electronic Resource
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. On the *Course materials* tab, click on the *Associate electronic resource from catalog* tab.
+. Enter the record ID for the electronic resource you'd like to add to the course.
+. Enter the relationship the item has with the course.  For example, an item may be
+required reading or be supplemental.
+. Click *Add material*.
++
+image::images/course-reserves/course-reserves-associate-electronic-resource-1.png[scaledwidth="75%",alt="Associating a brief record"]
++
+. The record displays in the list.
++
+image::images/course-reserves/course-reserves-associate-electronic-resource-1.png[scaledwidth="75%",alt="Associating a brief record"]
+
+[NOTE]
+======
+Unlike brief records, detaching this resource from the course or archiving the
+course will not delete the bibliographic record.
+======
+
+Adding a User to a Course
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+. In the course, click on the *Course users* tab.
+. Enter the barcode of the patron you'd like to add.
+. Type in the role for the patron.  The options are Instructor, Teaching Assistant, and Student.
+. Click *Add User*.
++
+image::images/course-reserves/course-reserves-add-user-1.png[scaledwidth="75%",alt="Adding a user"]
++
+. The patron will display in the list.
++
+image::images/course-reserves/course-reserves-add-user-2.png[scaledwidth="75%",alt="Adding a user"]
+
+Patrons assigned the role of Instructor or Teaching Assistant will display on the page 
+for their associated course(s) in the the public catalogue.
+
+image::images/course-reserves/course-reserves-add-user-3.png[scaledwidth="75%",alt="Adding a user"]
+
+If you wish users to be able to browse the course list in the public catalogue by instructor set the 
+library setting _Allow users to browse Courses by Instructor_ to TRUE.

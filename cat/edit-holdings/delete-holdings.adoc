@@ -1,7 +1,104 @@
 Deleting Holdings
 ~~~~~~~~~~~~~~~~~
 
-When adding items to the catalogue, you need to have a bibliographic record first, then you create a call number and an item record. When you delete holdings you follow the reverse order. You need to delete item records first. By design and Sitka's configuration, Evergreen will also attempt to delete the call number and bibliographic record. These records will be deleted if they are not used by other items/call numbers. If you delete your library's last item, the call number record will be deleted together with the item. If this is also the last item for the title (no other libraries have an item), the bibliographic record will be deleted, too. So, for most cases, you just need to delete the item records. . If possible, Evergreen will delete the call number and bibliographic records automatically. Occasionally you may want to delete an "orphan" call number (without any item) or bibliographic (without any call number) record.
+Library staff can delete both regular items and pre-catalogued items from Evergreen.
+
+Items can be deleted via:
+
+* Item Status
+* Item Buckets
+* the Holdings View tab in a bibliographic record.
+
+[CAUTION]
+=========
+When deleting items in Evergreen it is important to always check the item's status first. Checked out
+items should be checked in to remove them from the patron's account before an item is deleted. 
+
+Deleted items cannot be un-deleted in the staff client.  
+=========
+
+
+Deleting Items via Item Status
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. In the _Item Status_ interface, scan the items you wish to delete or 
+xref:_upload_from_file_choose_file[upload a file] of the barcodes you wish to delete.
+. Check the status of the items to ensure none have the status of _Checked Out_.
++
+image::images/cat/delete-item-1.png[]
++
+. Select the items you wish to delete and from the *Actions* menu choose *Delete Items*.
++
+image::images/cat/delete-item-2.png[]
++
+. A pop up will display the count of items and call numbers to be deleted. 
+Click *OK/Continue* to delete the items.
++
+image::images/cat/delete-item-3.png[]
++
+. The items are deleted and the _Item Status_ screen displays the message _Item Not Found_ as the items are no
+longer retrievable through the staff client.
++
+image::images/cat/delete-item-4.png[]
+
+Deleting Items via Item Buckets
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Retrieve the item bucket that contains the items you wish to delete. For more information on
+retrieving and using item buckets see xref:_item_buckets[].
+. Check the status of the items to ensure none have the status of _Checked Out_.
++
+image::images/cat/delete-item-5.png[]
++
+. Select the items you wish to delete and from the *Actions* menu choose *Delete Select Items from Catalogue*. 
++
+image::images/cat/delete-item-6.png[]
++
+. A pop up will appear asking you to confirm the deletion.  Click *OK/Continue*.
+. The items are now deleted but are still visible in the bucket. This is the only place in Evergreen
+the items will display.  You can use the _Is Deleted_ column to determine which item are deleted.
++
+image::images/cat/delete-item-7.png[]
+
+
+Deleting Items via the Holdings View Tab
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Search the catalogue for the record of the item you wish to delete.
+. Go to the *Holdings View* tab.
+. Check the status of the item(s) to ensure none have the status of _Checked Out_.
++
+image::images/cat/delete-item-8.png[]
++
+. Select the item(s) you wish to delete and from the Actions menu choose *Delete -> Delete Items*.
++
+image::images/cat/delete-item-9.png[]
++
+[TIP]
+=====
+When an item is deleted Evergreen automatically deletes the associated call number record if 
+it's not used by any other items so it's not necessary to manually delete call numbers. 
+=====
++
+. On the pop up that appears click *Delete Holdings*.
++
+image::images/cat/delete-item-10.png[]
++
+. The item(s) will be deleted. Evergreen will also automatically delete associated call number and 
+bibliographic records as necessary.
+
+
+////
+When adding items to the catalogue, you need to have a bibliographic record first, then you create a 
+call number and an item record. When you delete holdings you follow the reverse order. You need to 
+delete item records first. By design and Sitka's configuration, Evergreen will also attempt to delete 
+the call number and bibliographic record. These records will be deleted if they are not used by other 
+items/call numbers. If you delete your library's last item, the call number record will be deleted 
+together with the item. If this is also the last item for the title (no other libraries have an item), 
+the bibliographic record will be deleted, too. So, for most cases, you just need to delete the item records.
+ . If possible, Evergreen will delete the call number and bibliographic records automatically. 
+ Occasionally you may want to delete an "orphan" call number (without any item) or bibliographic 
+ (without any call number) record.
 
 Deleting Items
 ^^^^^^^^^^^^^^^
@@ -42,7 +139,11 @@ image::images/cat/delete-holding-4.png[]
 Deleting Call Numbers without Items Attached
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Occasionally you may want to delete a call number record without items attached to it. For example, you created a call number record, but did not add an item to it. To delete it, you need to find the title. Go to Holdings View. Highlight the "orphan" call number record, select *Actions -> Delete -> Delete Empty Call Numbers*. If this is the last call number record attached to the bibliographic record, the bibliographic record will be deleted, too.
+Occasionally you may want to delete a call number record without items attached to it. For example, 
+you created a call number record, but did not add an item to it. To delete it, you need to find the 
+title. Go to Holdings View. Highlight the "orphan" call number record, select *Actions -> Delete -> 
+Delete Empty Call Numbers*. If this is the last call number record attached to the bibliographic record, 
+the bibliographic record will be deleted, too.
 
 Deleting Bibliographic Record without Call Number/Item Attached
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -61,3 +162,4 @@ image::images/cat/delete-holding-6.png[]
 
 Co-op Support regularly deletes call number records without items and bibliographic records without items or call numbers.
 =====
+////

@@ -3,11 +3,11 @@ Sitka's Evergreen Documentation
 :doctype: book
 
 
-*Evergreen 3.7*
+*Evergreen 3.9*
 
-Copyright (symbol) 2021 BC Libraries Cooperative
+Copyright (symbol) 2022 BC Libraries Cooperative
 
-Last Updated May 17, 2021
+Last Updated August 15, 2022
 
 :toc:
 :toclevels: 3
@@ -21,11 +21,9 @@ Last Updated May 17, 2021
 
 Introduction
 ============
-include::intro/intro-whatsnew.adoc[New Features in Evergreen Version 3.5]
+include::intro/intro-whatsnew.adoc[New Features in Evergreen Version 3.9]
 
-//include::intro/intro-newbehaviour.adoc[New Behaviour in Evergreen Version 3.3]
-
-include::intro/intro-revisions.adoc[Revisions to Version 3.3 and Attributions to Contributors]
+include::intro/intro-revisions.adoc[Revisions to Version 3.9 and Attributions to Contributors]
 
 include::intro/intro-resources.adoc[Sitka and Evergreen Resources]
 
@@ -55,17 +53,17 @@ Cataloguing
 ===========
 include::cat/cat-search.adoc[Searching the Database for Cataloguing Purposes]
 
-include::cat/cat-add-holdings.adoc[Adding Holdings to Existing MARC Records]
+include::cat/cat-add-holdings.adoc[Adding Holdings]
 
 include::cat/cat-edit-holdings.adoc[Maintainting Holdings]
 
-include::cat/cat-copy-bucket.adoc[Copy Bucket]
+include::cat/cat-item-bucket.adoc[Item Buckets]
 
 include::cat/cat-add-marc.adoc[Adding Bibliographic Records]
 
-include::cat/cat-edit-marc.adoc[Maintaining MARC records]
+include::cat/cat-edit-marc.adoc[Maintaining MARC Records]
 
-include::cat/cat-record-bucket.adoc[Record Bucket]
+include::cat/cat-record-bucket.adoc[Record Buckets]
 
 Public Catalogue
 ================
@@ -78,6 +76,8 @@ include::opac/opac-myaccount.adoc[]
 include::opac/opac-basket-lists.adoc[]
 
 include::opac/opac-integrated-eresource.adoc[]
+
+include::opac/opac-course-reserves.adoc[]
 
 Reports
 =======
@@ -100,6 +100,11 @@ include::reports/report-create-template.adoc[]
 include::reports/report-eg-table.adoc[]
 
 include::reports/report-db-term.adoc[]
+
+Simple Reports
+==============
+
+include::reports/simple-reports.adoc[]
 
 
 Serials
@@ -126,6 +131,8 @@ Course Reserves
 ===============
 include::course-reserves/course-reserves.adoc[]
 
+include::course-reserves/old-course-reserves.adoc[]
+
 Booking
 =======
 include::booking/booking-module.adoc[]
@@ -145,9 +152,7 @@ include::admin/admin-serveradmin.adoc[]
 
 include::admin/admin-self-check.adoc[]
 
-////
 include::admin/admin-public-catalogue.adoc[]
-////
 
 include::admin/admin-patron-deletion-tool.adoc[]
 

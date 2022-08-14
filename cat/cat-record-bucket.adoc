@@ -1,5 +1,7 @@
 Record Buckets
 --------------
+(((Record Buckets)))
+(((Buckets, Record)))
 
 Record buckets allow you to build a list of titles that you may process in batch. It is also the interface for merging records. Records, even after being deleted, remain in a bucket until they are removed from it.
 

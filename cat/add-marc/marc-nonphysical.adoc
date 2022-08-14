@@ -27,11 +27,13 @@ OverDrive, Co-op Support creates and updates bibliographic records automatically
 | $z | Optional; a public note providing more information about the resource | library card required | Appears in parentheses to the right of the link
 | $9 | Required; your library code | BBI | 	Not displayed in the OPAC but required for the record to be included in searches scoped to your library
 |===
-. After the 856 tag is added, the record will be displayed as search result on OPAC for the library in $9. The image below shows a sample 856 tag and the corresponding OPAC display. This record would appear in OPAC searches of the Bowen Island Public Library catalogue (BBI).
-+
-image::images/cat/marc-nonphysical-2.png[]
+. After the 856 tag is added, the record will be displayed as search result in the public catalogue for the 
+for the library specified in the $9. The images below shows a sample 856 tag and the corresponding 
+public catalogue display. 
 +
 image::images/cat/marc-nonphysical-1.png[]
++
+image::images/cat/marc-nonphysical-2.png[]
 
 [TIP]
 =====

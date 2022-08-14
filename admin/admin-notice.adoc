@@ -14,6 +14,8 @@ Notifications are sent in three ways, depending on the notification:
 
 Email Notifications
 ^^^^^^^^^^^^^^^^^^^
+(((Email Notifications)))
+(((Notifications, Email)))
 
 When sending out emails the BC Libraries Cooperative needs to follow all of the best practices and conventions
 in order to avoid our emails being marked as spam and to have the best chance of the emails being delivered
@@ -55,16 +57,15 @@ These records are kept for 3 to 6 months, depending on the type of notification.
 image:images/admin/patron-notifications-1.png[]
 +
 . By default completed courtesy and overdue notifications are displayed with the oldest notifications listed first.
-. You can change the filters for *Core Type* or *Event State* to view hold notifications and notifications in different
-states.
+. You can use the tabs to switch between circulation and hold events.
 +
 image:images/admin/patron-notifications-2.png[]
 +
-. You can re-send a completed notification by selecting it and clicking *Reset Selected Event*.
+. You can re-send a completed notification by selecting it and clicking *Reset selected events*.
 +
 image:images/admin/patron-notifications-3.png[]
 +
-. You can cancel a pending notificiation by selecting it and clicking *Cancel Selected Event*.
+. You can cancel a pending notificiation by selecting it and clicking *Cancel selected events*.
 +
 image:images/admin/patron-notifications-4.png[]
 
@@ -79,6 +80,8 @@ States such as Pending may last for a short period of time while the event is be
 
 Courtesy Notifications
 ~~~~~~~~~~~~~~~~~~~~~~
+(((Courtesy Notifications)))
+(((Notifications, Courtesy)))
 
 Courtesy notifications are generated and sent via email and/or SMS text message ahead of an item being due.  
 **If a library has both email and SMS text message courtesy notifications enabled patrons will received both.**
@@ -125,6 +128,8 @@ The process that generates courtesy notices runs early in the morning.  SMS text
 
 Overdue Notifications
 ~~~~~~~~~~~~~~~~~~~~~
+(((Overdue Notifications)))
+(((Notifications, Overdue)))
 
 Overdue notifications are available via email and paper.  Library staff can also run reports to generate a 
 list of patrons to manually phone.
@@ -141,6 +146,7 @@ https://bc.libraries.coop/support/[Co-op Support].
 
 Paper Overdue Notices
 ^^^^^^^^^^^^^^^^^^^^^
+(((Paper Overdue Notices)))
 
 Evergreen can generate a PDF file of overdue notices which is then emailed to the library to be printed and 
 distributed to patrons. 
@@ -186,6 +192,8 @@ the report to the specified staff email.
 
 Overdue Mark Lost Notification
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(((Overdue Mark Lost Notifications)))
+(((Notifications, Overdue Mark Lost)))
 
 Evergreen can automatically mark items as lost that have been overdue for a specfied period of time.  When this
 process runs the item is set the status of lost and a lost bill is applied to the patron's account.  
@@ -204,6 +212,8 @@ https://bc.libraries.coop/support/[Co-op Support].
 
 Circulation Notifications
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+(((Circulation Notifications)))
+(((Notifications, Circulation)))
 
 Check Out Receipts
 ^^^^^^^^^^^^^^^^^^
@@ -236,6 +246,8 @@ This notification is set globally and cannot be customized.
 
 Hold Notifications
 ~~~~~~~~~~~~~~~~~~
+(((Hold Notifications)))
+(((Notifications, Hold)))
 
 Evergreen has a number of notifications that can be sent via email regarding patron holds.
 
@@ -294,6 +306,8 @@ their patrons receive an email when a new hold is placed for them through a hold
 
 Patron Account Related Notifications
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(((Patron Account Related Notifications)))
+(((Notifications, Patron Account)))
 
 Welcome to New Patron Notification
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

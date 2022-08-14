@@ -20,10 +20,17 @@ image::images/cat/cat-search-library.png[Search Library]
 +
 image::images/cat/keyword-search-1.png[Keyword Search screen]
 +
-. Enter your search criteria and click *Search*.
+. Use the three dots to expand the search form for more filtering options.
 +
 image::images/cat/keyword-search-2.png[Keyword Search screen]
 +
+[TIP]
+=====
+All the search filters, with the exception of Shelving Location, rely on values entered into the Leader, 
+007, 008, or 041 fields of the MARC record. Records with incorrect coding will not filter correctly.
+=====
++
+. Enter your search criteria and click *Search*.
 . Your results are displayed.  Refer to xref:_viewing_search_results_for_cataloguing_purposes[]
 for information on determining which result to add your holding to.
 +

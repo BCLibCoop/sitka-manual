@@ -3,15 +3,19 @@ Patron Accounts
 
 include::patron/patron-search.adoc[Retrieving Patron Accounts]
 
+include::patron/patron-account.adoc[Working with Patron Accounts]
+
 include::patron/patron-register.adoc[Registering New Patrons]
 
+////
 include::patron/patron-selfregister.adoc[Patron Self-Registration]
+////
+
+include::patron/patron-edit.adoc[Editing Patron Accounts]
 
 include::patron/patron-account-fields.adoc[Fields in the Patron Account]
 
-include::patron/patron-update.adoc[Updating Patron Accounts]
-
-include::patron/patron-alerts.adoc[Patron Alerts]
+include::patron/patron-notes.adoc[Patron Notes]
 
 include::patron/patron-patronbuckets.adoc[Patron Buckets]
 

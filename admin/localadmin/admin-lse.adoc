@@ -236,8 +236,10 @@ marks are never required when updating settings in the staff client.
 |Target copies for a hold even if copy's circ lib is closed IF the circ lib is the hold's pickup lib|If this setting is true at a given org unit or one of its ancestors, the hold targeter will target copies from this org unit even if the org unit is closed (according to the Org Unit's closed dates) IF AND ONLY IF the copy's circ lib is the same as the hold's pickup lib.|True/False| Set the value to True if you want to target copies for holds at closed circulating libraries when the circulating library of the item and the pickup library of the hold are the same. Set the value to False, or leave it unset, if you do not want to enable this feature. | LSA
 
 |Truncate fines to max fine amount||True/False|Default: True | Sitka
-
-|Use Lost and Paid copy status|Use Lost and Paid copy status when lost or long overdue billing is paid|True/False| Default: True | Sitka
+|Use Item Price or Cost as Backup Item Value| Expects "price" or "cost", but defaults to neither. This refers to the corresponding field on the item record and is used as a second-pass fall-through value when determining an item value. If needed, Evergreen will still look at the "Default Item Price" setting as a final fallback.|Text|  | LSA
+|Use Item Price or Cost as Primary Item Value| Expects "price" or "cost" and defaults to price. This refers to the corresponding field on the item record and gets used in such contexts as notices, max fine values when using item price caps (setting or fine rules), and long overdue, damaged, and lost billings.|Text|  | LSA
+|Use Lost and Paid copy status| Use Lost and Paid copy status when lost or long overdue billing is paid|True/False| Default: True | Sitka
+|Void item deposit fee on checkin| If a deposit was charged when checking out an item, void it when the item is returned | True/False| Default: False | LSA
 |Void Long-Overdue Item Billing When Returned||True/False| Not in use | LSA
 
 |Void Processing Fee on Long-Overdue Item Return||True/False|Not in use | LSA
@@ -255,7 +257,7 @@ marks are never required when updating settings in the staff client.
 
 |Void processing fee on lost item return|Void processing fee when lost item returned|True/False| | LSA
 |Warn when patron account is about to expire|If set, the staff client displays a warning this number of days before the expiry of a patron account. Value is in number of days.|Duration| | LSA
-
+| Workstation OU is the default for staff-placed holds | For staff-placed holds, regardless of the patron preferred pickup location, the staff workstation OU is the default pickup location | True/False | |LSA
 | Workstation OU fallback for staff-placed holds | For staff-placed holds, in the absence of a patron preferred pickup location, fall back to using the staff workstation OU (rather than patron home OU) | True/False | |LSA
 
 |===
@@ -485,6 +487,8 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 |Minimum estimated wait|When predicting the amount of time a patron will be waiting for a hold to be fulfilled, this is the minimum estimated length of time to assume an item will be checked out.|Duration | Not in use | Sitka
 
 |Org unit target weight|Org Units can be organized into hold target groups based on a weight. Potential copies from org units with the same weight are chosen at random.|Number| |Sitka
+|Pickup Library Hard stalling interval | When set for the pickup library, this specifies that no items with a calculated proximity greater than 0 from the pickup library can be directly targeted for this time period if there are local available copies. Example "3 days". | Duration| | Sitka
+|Pickup Library Soft stalling interval | When set for the pickup library, this specifies that for holds with a request time age smaller than this interval only items scanned at the pickup library can be opportunistically captured. Example "5 days". This setting takes precedence over "Soft stalling interval" (circ.hold_stalling.soft) when the interval is in force. | Duration| | Sitka
 
 |Randomize group hold order|When placing a batch group hold, randomize the order of the patrons receiving the holds so they are not always in the same order.|True/False|Default: True|LSA
 
@@ -522,7 +526,7 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 |Library time zone |  | Text | |Sitka
 
 |Mark item damaged voids overdues|When an item is marked damaged, overdue fines on the most recent circulation are voided.|True/False| | LSA
-
+|My Account URL | URL for a My Account link. Use a complete URL, such as "https://example.com/eg/opac/login". | | | LSA
 |Pre-cat item circ lib|Override the default circ lib of "here" with a pre-configured circ lib for pre-cat items. The value should be the "shortname" (aka policy name) of the org unit|Text | | LSA
 
 |Telephony: Arbitrary line(s) to include in each notice callfile|This overrides lines from opensrf.xml. Line(s) must be valid for your target server and platform (e.g. Asterisk 1.4).|Text| Not in use | Sitka
@@ -584,7 +588,7 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 
 |Use fully compressed serial holdings|Show fully compressed serial holdings for all libraries at and below the current context unit|True/False| | Sitka
 
-|Uses phone as default pin | | True/False | When set to True the password hint is "If this is your first time logging in use the last 4 digits of your phone number or contact your library for assistance." | LSA 
+|Uses phone as default pin | | True/False | When set to True the password hint is "If this is your first time logging in use the last 4 digits of your phone number or contact your library for assistance." | LSA
 |Warn patrons when adding to a temporary book list|Present a warning dialogue when a patron adds a book to the temporary book list.|True/False| | Sitka
 |===
 

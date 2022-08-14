@@ -3,23 +3,52 @@ Making Payments
 (((Bills Payment)))
 (((Pay Bills)))
 
-Bills can be paid by cash, check, or credit, or be resolved by forgiveness, work, or goods.
+Bills can be paid by cash, cheque, or credit, or be resolved by forgiveness, work, or goods.
 
-. Click on *Bills* tab.
+If the patron should not have to pay the bill (e.g. the patron should not have been billed in the 
+first place) see xref:_adjusting_the_bill_balance_to_zero[] and xref:_voiding_bills[] for additional options
+to resolve the bill.
+
+. In the patron's account click on the *Bills* tab.
 . Select or de-select bills to pay. Oldest bills are paid first by default.
-. Select *Receipt On Payment* and enter *#Copies* as required.
+. If the patron would like a printed receipt check the box for *Receipt On Payment* and enter the number of 
+copies to print in the *# Items* field.
++
+image:images/circ/bills-payments-1.png[scaledwidth="75%"]
++
+. If the patron is paying in cash and would like their change added as credit to their account check 
+the box for *Convert Change to Patron Credit*.
++
+image:images/circ/bills-payments-1a.png[scaledwidth="75%"]
++
+[NOTE]
+======
+Libraries that do not allow patrons to have credit can set the library setting _Disable Patron Credit_ 
+to TRUE to turn off this feature.
+======
++
 . Select the payment type from the drop down menu.
 +
-image:images/circ/paybills1.png[scaledwidth="75%"]
+image:images/circ/bills-payments-2.png[scaledwidth="75%"]
 +
-. Enter the payment in the *Payment Received* field and click *Apply Payment*.
+. Enter the amount given by the patron in the *Payment Received* field.
 +
-image:images/circ/paybills2.png[scaledwidth="75%"]
-+
-. Details of the transaction are displayed.
-+
-image:images/circ/paybills3.png[scaledwidth="75%"]
+[TIP]
+===== 
+If the patron is paying in cash you can enter the total amount received and the amount of change 
+to give to the patron will display in the _Pending Change_ field.
 
+image:images/circ/bills-payments-3.png[scaledwidth="75%"]
+=====
++
+. Check the box for *Annotate* if you wish to include a note with the payment.
+. Click *Apply Payment*.
++
+image:images/circ/bills-payments-4.png[scaledwidth="75%"]
++
+. The payment is applied and a receipt will print if that option was checked.
 
-
-TIP: Click *Annotate* to add a note to the payment.
+[NOTE]
+======
+Details of payments can be seen by clicking on the xref:_viewing_bill_history[History] button.
+======

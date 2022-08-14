@@ -7,14 +7,16 @@ Accessing the Evergreen Staff Client
 
 * The web client is responsive to device and to screen size, and can look different on different devices.
 
-* The default URL to log into the staff client is *https://catalogue.libraries.coop/eg/staff/*
+* The URL to log into the staff client is *https://catalogue.libraries.coop/eg/staff/*
 
 image::images/intro/getstarted1.png[]
 
 
 
-Register Staff Workstation
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Registering a Staff Workstation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(((Workstation Registration)))
+(((Registering, Workstation)))
 
 link:https://youtu.be/-3HbQQdH9FQ[*Sitka Snippet Video - Register Workstation (1:36)*]
 
@@ -25,7 +27,7 @@ Before logging into Evergreen for the first time, you must register a workstatio
 Local system administrator permissions are required to register a new workstation.
 ======
 
-. Navigate to the web client log in page. The default URL to log into the staff client is *https://catalogue.libraries.coop/eg/staff/*
+. Navigate to the web client log in page. The URL to log into the staff client is *https://catalogue.libraries.coop/eg/staff/*
 . Enter a local system administrator username and password.
 . Click *Sign In*
 +
@@ -58,7 +60,7 @@ image::images/intro/getstarted6.png[]
 Logging into Evergreen
 ^^^^^^^^^^^^^^^^^^^^^^
 
-. The default URL to log into the staff client is *https://catalogue.libraries.coop/eg/staff/*
+. The URL to log into the staff client is *https://catalogue.libraries.coop/eg/staff/*
 . Enter your username and password.
 . Verify that the correct workstation is selected and click *Sign In*.
 +
@@ -66,7 +68,7 @@ image::images/intro/login.png[]
 
 [NOTE]
 ======
-Ensure you are using your username and not your barcode.  Your barcode cannot be used to log into the 
+Ensure you are using your username and not your barcode.  Your barcode cannot be used to log into the
 staff client unless your barcode is also use for your username.
 ======
 
@@ -80,12 +82,13 @@ image::images/intro/logout.png[]
 
 [CAUTION]
 =========
-Closing all browser windows will automatically log you out of the web client. If you only close the 
+Closing all browser windows will automatically log you out of the web client. If you only close the
 tab where the web client is loaded, you will remain logged in.
 =========
 
 Change Operator
 ^^^^^^^^^^^^^^^
+(((Change Operator)))
 
 . Click the menu button in the upper right-hand corner.
 . Select *Change Operator* fom the drop down menu.
@@ -102,11 +105,15 @@ image::images/intro/changeop2.png[]
 +
 . Click *OK/Continue*
 
+Configuring Your Workstation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Function Bar
-~~~~~~~~~~~~
+^^^^^^^^^^^^
+(((Function Bar)))
 
 The function bar can be found throughout Evergreen and enables you to page through pages,
-adjust the number of rows displaying, access the Actions menu, and manage your columns.
+adjust the number of rows displaying, access the Actions menu, and manage your columns and Actions menus.
 
 The function bar comes in two styles with similar functionality.
 
@@ -118,12 +125,12 @@ image::images/intro/function-bar-2.png[]
 . Actions Menu
 . Adjust number of rows
 . Jump to page
-. Column Configuration
+. Show Grid Options menu
 . Text wrap
 
-
 Column Configuration
-~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^
+(((Column Configuration)))
 
 From many screens and lists, you can click on the column picker drop-down menu to change which columns
 are displayed. Various search results tables may not default to the most useful columns. For instance,
@@ -157,10 +164,54 @@ image::images/intro/columnconfig3.png[]
 +
 image::images/intro/columnconfig4.png[]
 
-Filters
-~~~~~~~
+Manage Actions Menu
+^^^^^^^^^^^^^^^^^^^
+(((Manage Actions Menu)))
+(((Actions Menu)))
 
-Some interfaces now include filters that enable staff to filter the available rows.
+On one version of the Function Bar, found on some screens, you can choose *Manage Actions Menu*  to change which actions are displayed and available. The action choices vary from screen to screen.
+
+. Click on the *Show Grid Options (gear icon)* menu.
+. Select *Manage Actions Menu*.
++
+image:images/intro/columnconfig5.png[scaledwidth="75%"]
++
+. Make required changes and click *Close*.
++
+image:images/intro/columnconfig6.png[scaledwidth="75%"]
++
+. Click on the *Show Grid Options (gear icon)* menu again.
+. Select *Save Grid Settings*.
++
+image::images/intro/columnconfig4.png[]
+
+Library Selector
+^^^^^^^^^^^^^^^^
+(((Library Selector)))
+
+Some interfaces include a library selector that enables staff to set the scope for the interface.
+
+There are currently several styles of the library selector.
+
+The library selector in newer interfaces shows the full names of the library if 
+xref:_include_full_library_names_in_library_selector[full names are enabled].
+
+Where applicable *Ancestor* and *Descendants* checkboxes are included.  Multi-branch libraries can set
+the library to their system and then check the *Descendants* checkbox to include all of their branches.
+
+image::images/intro/library-selector-1.png[]
+
+The library selector in older interfaces only shows the library shortcode.  This older style
+of library selector will be phased out as future updates to Evergreen replace the older interfaces.
+
+image::images/intro/library-selector-2.png[]
+
+
+Filters
+^^^^^^^
+(((Filters)))
+
+Some interfaces include filters that enable staff to filter the available rows.
 
 image::images/intro/filters-1.png[]
 
@@ -177,9 +228,30 @@ using the *Remove Filters* button.
 
 image::images/intro/filters-4.png[]
 
+Workstation Administration
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+[[getting-started-workstation-administration]]
+
+Workstation specific information can be set by going to *Administration -> Workstation*.
+
+Here staff can:
+
+* xref:_registered_workstations[register additional workstations]
+* xref:_printer_settings[configure printer settings]
+* xref:_print_templates[customize receipt printer templates]
+* xref:_stored_preferences[view and remove stored preferences]
+* xref:_print_service_hatch[view information about Hatch]
+* xref:_tests[run latency tests]
+* xref:_disable_sounds[disable and test sounds for the staff client]
+* xref:_library_selector_shows_combined_names[set the library selector to include the full name of libraries]
+
+Staff should not use the search preferences settings found in Workstation Administration.  Instead
+search preferences should be set from within the staff catalogue.  See xref:_search_preferences[].
+
 
 Keyboard Shortcuts
 ~~~~~~~~~~~~~~~~~~
+(((Keyboard Shortcuts)))
 
 Staff can use the following keyboard shortcuts to navigate Evergreen:
 
@@ -188,7 +260,7 @@ Staff can use the following keyboard shortcuts to navigate Evergreen:
 [options="header"]
 |===
 |Key | Function
-|*CTRL+h* | Display Keyboard Shortcut List
+|*CTRL+H* | Display Keyboard Shortcut List
 |*F1* | Check Out
 |*F2* | Check In
 |*F3* | Search the Catalogue
@@ -197,16 +269,13 @@ Staff can use the following keyboard shortcuts to navigate Evergreen:
 |*F6* | Record In-House Use
 |*F8* | Retrieve Last Patron
 |*F9* | Reprint Last Receipt
-|*Shift+F1* | Register Patron
-|*Shift+F2* | Capture Holds
-|*Shift+F3* | Retrieve Bib Record by TCN
-|*Shift+F8* | Retrieve Last Bib Record
+|*SHIFT+F1* | Register Patron
+|*SHIFT+F2* | Capture Holds
+|*SHIFT+F3* | Retrieve Bib Record by TCN
+|*SHIFT+F8* | Retrieve Last Bib Record
 |*CTRL+F2* | Renew Items
 |===
 
-CAUTION: These shortcut keys will not work properly on pages that use embedded content such as the
-traditional catalogue.  On these pages you must first click the white space at the edge of the page
-before using the keyboard shortcut.
 
 [[download-hatch]]
 Downloading and Installing Hatch
@@ -219,7 +288,8 @@ anchor:download-hatch-ref[Hatch]
 . Install Java Runtime Environment (JRE).
 Windows only requires a JRE to run Hatch, not a full JDK. Download and install JRE version 1.8 or higher from https://www.java.com[java].
 
-. Install Hatch from https://evergreen-ils.org/downloads/Hatch-Installer-0.3.2.exe[Hatch]
+. Install Hatch
+Download the executable file from https://evergreen-ils.org/downloads/Hatch-Installer-0.3.2.exe[Hatch] and refer to the https://evergreen-ils.org/documentation/install/INSTALL_Hatch.html[Installation Instructions]
 
 . Install Chrome extension. If the extension was not installed automatically when installing Hatch you can get it directly in the browser from the Chrome App Store https://chrome.google.com/webstore/detail/hatch-native-messenger/ppooibdipmklfichpmkcgplfgdplgahl[Chrome App Store]
 
@@ -238,20 +308,3 @@ Enable Hatch in Evergreen
 Refer to xref:hatch-printing[] to configure printer settings.
 
 Refer to xref:hatch-troubleshooting[] if you are having issues with Hatch.
-
-[[set-search-pref]]
-Set Search Preferences
-~~~~~~~~~~~~~~~~~~~~~~
-
-. Go to *Administration* -> *Workstation*.
-. Use the dropdown menu to select an appropriate *Default Search Library*.
-.. The default search library setting determines what library is searched from the advanced search screen and portal page by default. You can override this setting when you are actually searching by selecting a different library. One recommendation is to set the search library to the highest point you would normally want to search.
-. Use the dropdown menu to select an appropriate *Preferred Library*.
-.. The preferred library is used to show copies and electronic resource URIs regardless of the library searched. One recommendation is to set this to your home library so that local copies show up first in search results.
-. Use the dropdown menu to select an appropriate *Advanced Search Default Pane*.
-.. Advanced search has secondary panes for Numeric and MARC Expert searching. You can change which one is loaded by default when opening a new catalog window here.
-+
-image::images/intro/searchpref.png[]
-
-Additional settings are available through Catalogue Preferences in the staff catalogue.  For
-more details see xref:_catalogue_preferences[].

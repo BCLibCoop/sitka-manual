@@ -10,7 +10,7 @@ When an item is scanned for check out Evergreen checks the following to determin
 out to the patron and if so with what parameters:
 
 * xref:_group_penalty_thresholds[Group Penalty Thresholds] for the check out library
-* Item's xref:_item_status_2[Status]
+* Item's xref:_item_statuses[Status]
 * Circulate flag for the item's xref:_shelving_location_editor[Shelving Location]
 * xref:_item_attributes[Circulate flag for the item]
 * Circulation Policies for the check out library
@@ -21,7 +21,7 @@ out to the patron and if so with what parameters:
 Viewing Your Circulation Policies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-https://youtu.be/Lt1RN6LTo4c[Sitka Training Video - Viewing Your Circulation Policies (2:15)]
+https://youtu.be/Lt1RN6LTo4c[*Sitka Training Video - Viewing Your Circulation Policies (2:15)*]
 
 
 To easiest way to view your current circulation policies is to run a report (reporter permissions required).
@@ -76,7 +76,7 @@ modifier, shelving location, reference flag, and item age individually or in com
 check out.  In Sitka, most circulation policies are based off the item's circulation modifier.  While
 circulation policies can be based off shelving location additional set up is required to enable this for a library.
 
-Some libraries apply different policies to different patron profile.  Libraries that do this will see
+Some libraries apply different policies to different patron profiles.  Libraries that do this will see
 separate default policies for the different patron groups.  Generally policies are set for the 
 patron group at the top of the permission tree and then additional policies are added for more specific patron
 groups as needed.  For example, most public libraries have policies set for _Public Library Users_ which apply
@@ -100,7 +100,7 @@ image::images/admin/circ-policy-understand-3.png[]
 **How Is the Policy Applied**
 
 * Circulate? - true/false
-* Duration Rule - includes renewals
+* Duration Rule - includes renewals and auto-renewals
 * Renewals Override
 * Recurring Fine Rule
 * Maximum Fine Rule
@@ -115,10 +115,14 @@ The *circulate flag*, on a circulation policy, when set to false will block a ch
 permission level can force the check out through.  If the check out is forced it will follow the other parameters,
 such as duration, that are specified in the policy.
 
-*Duration rules* will display in one of two ways in circulation policies: 
+*Duration rules* will display in one of four ways in circulation policies: 
 
 * SHORT_NORMAL_LONG_RENEWAL (ie. 3_7_14_100)
+* SHORT_NORMAL_LONG_RENEWAL_AR (ie. 3_7_14_100_AR)
 * NORMAL_RENEWAL (ie. 21_0) - this is an older naming convention which is being phased out
+* NORMAL_RENEWAL_AR (ie. 21_0_AR) - this is an older naming convention which is being phased out
+
+_AR_ indicates that auto-renewals apply to items checked out using the duration rule.
 
 When applying the duration rule Evergreen looks at the value in _Loan Duration_ for the item, set via the 
 xref:_item_attributes[Holdings Editor], to tell it what duration to assign the check out. 
@@ -140,7 +144,7 @@ hard due date and applicable settings to determine what due date to give the ite
 
 *Item specific limits* can be applied to specific circulation policies to restrict how 
 many items using a particular circulation modifier or shelving location can be out to a patron at a time.
-For example, a item specific limit can restrict a user to having 5 items with the circulation modifier
+For example, an item specific limit can restrict a user to having 5 items with the circulation modifier
 _dvd_ out at a time.  The limits can also have combinations specified, so you can have a limit of up to 
 5 items using the circulation modifier _dvd_, _dvd-feature_, or _video_.  Item specific limits can't be included
 in the circulation policy report so contact https://bc.libraries.coop/support/[Co-op Support] if you have questions about your existing limits.
@@ -153,7 +157,7 @@ when items aren't circulating as expected.
 Troubleshooting Your Circulation Policies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-https://youtu.be/bUOQHfFqWNM[Sitka Training Video - Troubleshooting Your Circulation Policies (3:12)]
+https://youtu.be/bUOQHfFqWNM[*Sitka Training Video - Troubleshooting Your Circulation Policies (3:12)*]
 
 There are three common reasons why items do not circulate as expected:
  

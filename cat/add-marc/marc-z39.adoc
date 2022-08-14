@@ -3,111 +3,199 @@ Importing Bibliographic Records via Z39.50 Interface
 
 https://youtu.be/SiFEcu8k_2g[*Sitka Training Video - Z39.50 (7:58)*]
 
-It is required practice and Sitka policy to check the Evergreen database for existing records before importing a record. You can search the catalogue first, or you can configure the Z39.50 screen to search the Evergreen database as well as Z39.50 targets at the same time. If searching Evergreen via the Z39.50 screen and you find a record, it is required practice and Sitka policy to find that record in the catalogue and attach your holdings to it. If you have confirmed that there is no record in Evergreen that matches the item in your hand, but have found a record in another database, simply import the new record into Evergreen and then attach holdings.
+It is required practice and Sitka policy to check the Evergreen database for existing records before
+importing a record. You can search the catalogue first, or you can configure the Z39.50 screen to
+search the Evergreen database as well as Z39.50 targets at the same time. If searching Evergreen
+via the Z39.50 screen and you find a record, it is required practice and Sitka policy to find
+that record in the catalogue and attach your holdings to it. If you have confirmed that there
+is no record in Evergreen that matches the item in your hand, but have found a record in another
+database, simply import the new record into Evergreen and then attach holdings.
+
+Searching via Z39.50
+^^^^^^^^^^^^^^^^^^^^
+
+. To access the Z39.50 interface, select *Cataloguing -> Import Record from Z39.50*.
++
+. Select the Z39.50 services that you would like to search from the list.
++
+image::images/cat/z3950-search-1.png[]
++
+[TIP]
+=====
+Different types of libraries will see different services listed.
+
+The more services you select the longer your search will take as Evergreen has to search each Z39.50 service.
+Co-op Support recommends setting 3 to 5 sources as your defaults and then adding additional services to
+your searching as needed.
+=====
++
+. Fill in your search term(s) and click *Search*.
++
+image::images/cat/z3950-search-2.png[]
++
+[NOTE]
+======
+The active search fields will change depending on the targets you select. Different targets may support
+different search types. For instance, Keyword and Subject will only be active if the local catalogue is
+selected. When you select multiple targets to search, an active box may apply to only one target.
+======
++
+. Search results are displayed in the lower pane. You can hide the top pane to bring up the result list
+or simply scroll down to it.
++
+image::images/cat/z3950-search-3.png[]
++
+. Information about each retrieved record appears on a separate summary line. The _Service_ column indicates
+where the record was found.
++
+image::images/cat/z3950-search-4.png[]
++
+. If "native-evergreen-catalog" is listed in the _Service_ column, the record is already in Sitka's database.
+Select the record and click *Show in Catalogue*.
++
+image::images/cat/z3950-search-5.png[]
++
+. If the record in the catalogue matches your item xref:_adding_holdings[add your holding], otherwise
+xref:import_from_z3950[import a new record via Z39.50].
 
 
-[[import_from_z39]]
+[[import_from_z3950]]
 Importing Bibliographic Records via Z39.50
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 https://youtu.be/y4poV6GWlk8[*Sitka Snippet Video - Importing Bibliographic Records via Z39.50 (2:54)*]
 
-. To access the Z39.50 interface, select *Cataloguing -> Import Record from Z39.50*.
+. Search for your record via Z39.50. See xref:_searching_via_z39_50[].
+. To import a record, view the MARC records for the retruned search results by selecting each record in turn
+and clicking *View MARC*.
 +
-image::images/cat/z39-1.png[]
-. Select single or multiple pre-configured Z39.50 targets from the list. Note that most free targets do not have a User name or Password field. Some free targets and the subscription services held by some Sitka libraries require login. Once you have made your choices, click *Save as Default* to save the services you usually search and the user names and passwords you have entered. They will be automatically selected next time you open the Z39.50 screen.
+image::images/cat/z3950-import-1.png[]
 +
-image::images/cat/z39-2.png[]
+. The MARC record is displayed in a pop-up window. Click *Cancel* to go back to the results list.
 +
-. Fill in preferred search criteria and click *Search*. Note that the active search fields will change depending on the targets you select. Different targets may support different search types. For instance, Keyword and Subject will only be active if the local catalogue is selected. When you select multiple targets to search, an active box may apply to only one target.
+image::images/cat/z3950-import-2.png[]
 +
-image::images/cat/z39-3.png[]
+. Select the record you have determined in the best match to your item and click *Edit then Import*.
 +
-. Search results are displayed in the lower pane. You can hide the top pane to bring up the result list or simply scroll down to it. Information about each retrieved record appears on a separate summary line, with various columns of information.  The *Service* column indicates where the record was found. If "native-evergreen-catalog" is listed in this column, the record is in Sitka's Evergreen. If there are many results, you can navigate to the next page. You can view MARC records, and choose to import or overlay MARC records. This example demonstrates importing a record.
+image::images/cat/z3950-import-3.png[]
 +
-image::images/cat/z39-4.png[]
+. Make any needed edits to the record.
 +
-image::images/cat/z39-5.png[]
-+
-. To import a record, choose the record from the results list that you would like to import. You should view the record first by clicking on *View MARC*.  MARC record is displayed in a pop-up window. If a cover image is available, it will display as well. Click *Cancel* to go back to the result list.
-+
-image::images/cat/z39-5a.png[]
-+
-. When you are sure you have chosen the correct record to import, click *Import*, if you do not want to edit the record or edit it after importing. The record is imported. A pop-up window appears with the new record ID and a link to it in the catalogue. Click *Go to Record* to add holdings.
-+
-image::images/cat/z39-6.png[]
-+
-. You may also choose to *Edit then Import* a record. The MARC record is displayed in a pop-up window. Edit the MARC record, then click on *Import*.
-+
-image::images/cat/z39-7.png[]
-+
-. Confirmation pops up with options to *Go to record* or *Go back* to the import record window.
-+
-image::images/cat/z39-7a.png[]
-+
-. Choose *Go back* to Import Record window. You can continue to edit the record. . Click *Save* once done editing.
-. Click  *Go to Imported Record* to add holdings.
-+
-image::images/cat/z39-8.png[]
+[NOTE]
+======
+As the record has not yet been added to the Sitka database and so has no items from other records attached
+you can edit it as needed.  Co-op Support recommends removing any fields that contain local data related
+to items held by the service the record comes from.  In general this information will be found in the 852
+fields and 9xx fields.
 
+The fields 906, 923, 925, 936, 948, 955, 959, and 963 are stripped from imported records by default.
+======
++
+. Click *Import*.
++
+image::images/cat/z3950-import-4.png[]
++
+. The record is imported. On the pop-up that appears click *Go to Record*.
+. The record will open in a new tab.  You can now add your holding to the record.
+See xref:_adding_holdings[],
 
-[TIP]
-====
-Co-op Support has profiled certain fields, primarily 9xx fields, to be automatically stripped when 
-records are imported through Z39.50. The default fields that are stripped are 906, 923, 925, 936, 948, 
-955, 959, 963.
-====
 
 Overlaying Records via Z39.50 Interface
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 https://youtu.be/eMfyQTkmx6g[*Sitka Snippet Video - Overlaying Bibliographic Records via Z39.50 (4:02)*]
 
-There are times when it is necessary to overlay an existing MARC record in Evergreen with a better MARC record from a Z39.50 target. This section will demonstrate the steps required to achieve an overlay. Overlaying a MARC record replaces an existing MARC record and leaves all holdings, and corresponding holds, active circulations, bills, and fines intact. As overlay affects all libraries sharing a MARC record it is critical that this procedure be done judiciously and correctly. Please refer to Sitka's cataloguing policy, Co-op Support, or your library's cataloguing mentor, if in place, for more information about this process and its effect on the shared database.
+There are times when it is necessary to overlay an existing MARC record in Evergreen with a better
+MARC record from a Z39.50 target. Overlaying a MARC record replaces an existing MARC record and leaves
+all holdings, and corresponding holds, active circulations, bills, and fines intact. As overlay affects all
+libraries sharing a MARC record it is critical that this procedure be done judiciously and correctly.
+Please refer to link:http://docs.libraries.coop/policy/_cataloguing_procedures.html[Sitka's cataloguing policy] for more information.
 
 
 Marking a Record for Overlay
 ++++++++++++++++++++++++++++
 
 
-You must first identify the MARC record which you wish to  overlay. You do this by "marking" it for overlay. Only one record can be marked at a time. When you mark another record, the previous record is unmarked. Once a record is marked, it stays marked until it is overlaid, or has been reset. Therefore, you can mark and overlay one record at a time, following through the entire process to completion before moving on to another record.
+You must first identify the MARC record which you wish to  overlay. You do this by "marking" it for overlay.
+Only one record can be marked at a time. When you mark another record,
+the previous record is unmarked. Once a record is marked, it stays marked until it is overlaid,
+or has been reset. Therefore, you can mark and overlay one record at a time,
+following through the entire process to completion before moving on to another record.
 
-
-. To mark a record for overlay, find it in the catalogue first.
-+
+.To mark a record for overlay via the catalogue:
+. Retrieve the record in the catalogue.
 . On record details screen, click *Mark for -> Overlay target*.
 +
-image:images/cat/z39-10.png[]
+image:images/cat/z3950-overlay-1.png[]
 +
 . Confirmation appears at the right bottom corner of the screen.
 +
-image:images/cat/z39-11.png[]
+image:images/cat/z3950-overlay-2.png[]
+
+.To mark a record for overlay via the Z39.50 interface.
+. In the Z29.50 interface xref:_searching_via_z39_50[search for your title].
+. Select the result for _native-evergreen-catalog_ and click *Mark Local Results As Overlay Target*.
++
+image:images/cat/z3950-overlay-3.png[]
++
+. The record ID of the record to be overlaid will display on the right.
++
+image:images/cat/z3950-overlay-4.png[]
+
 
 [CAUTION]
 =========
-Overlay target remains even after you log out of Evergreen. After you re-log in, the target is still in effect.
+The overlay target will remain even after you log out of Evergreen. After you re-log in, the target is
+still in effect.
 =========
 
 
 Overlaying Using Z39.50
 +++++++++++++++++++++++
 
-. To overlay a record, go to *Cataloguing -> Import Record from Z39.50* to find a target record as described in xref:import_from_z39[]. This record should be a fuller and better catalogued record than the one you are overlaying. You can select potential records on the list based on the summary. Click on *View MARC* to see the full MARC record. Cancel the pop-up window, click on next record to view, or click *Overlay* once deciding on a record to import.
+. Search for your record via Z39.50. See xref:_searching_via_z39_50[].
+. Select the record you would like to overlay over the existing record and click *Overlay*.
 +
-image::images/cat/z39-12.png[]
+[CAUTION]
+=========
+The record you overlay over the existing record should be a fuller and better record than the one it's
+replacing, but still describe the same title. Any changes you make when overlaying records affect all
+Sitka libraries with holdings attached to the record.
+=========
 +
-. The overlay interface pops up in a new window. The default merge profile is Keep Local Fields, unless you chose another before. You can edit the Z39.50 record before importing it to overlay. Click *Edit Z39.50 Record*.
+image:images/cat/z3950-overlay-5.png[]
 +
-image::images/cat/z39-13.png[]
+. The overlay interface opens in a pop up. The default merge profile is _Keep Local Fields_; this will
+ copy any 050, 055, 092, 590, 595, 690, 852, and 856 fields from the existing record into the new one you
+are bringing in.
+. Click *Edit Z39.50 Record*.
 +
-. MARC Edit screen opens up. Edit the record. Once done, click *Save*. You are back on Overlay screen.
+image:images/cat/z3950-overlay-6.png[]
 +
-image::images/cat/z39-14.png[]
+Make any needed edits to the record following
+link:http://docs.libraries.coop/policy/_cataloguing_procedures.html[Sitka's cataloguing policy]
+and click *Save*.
 +
-. Click *Overlay* button at the bottom. The record is imported and displayed in a new tab.
+image:images/cat/z3950-overlay-7.png[]
++
+[NOTE]
+======
+As the record already exists in the Sitka database and has holdings for other libraries only make edits
+that conform with Sitka's cataloguing policy. Co-op Support does recommend removing any fields that contain
+local data related to items held by the service the record comes from.  In general this information will
+be found in the 852 fields and 9xx fields.
+
+The fields 906, 923, 925, 936, 948, 955, 959, and 963 are stripped from imported records by default.
+======
++
+. Click *Overlay*.
++
+image:images/cat/z3950-overlay-8.png[]
++
+. The record is imported and overlaid over the existing record which opens in a new tab.
 
 
 [CAUTION]
 =========
-You must select *Keep Local Fields* as the merge profile. You may encounter error if you choose others.
+You must select *Keep Local Fields* as the merge profile. You may encounter an error if you choose another.
 =========
