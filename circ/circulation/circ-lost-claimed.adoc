@@ -240,8 +240,9 @@ See xref:_overdue_mark_lost_notification[] for information on this process.
 A lost item is resolved when it is checked in or paid for.  A checked in lost item will continue
 to display on a patron's  _Other/Special Circulations_ tab until all bills linked to the item are
 resolved.  This includes replacement charges, overdue charges, and manual charges added to the existing bills. 
-See Billing for more information on managing *Lost* bills.
+See xref:_bills_and_payments[] for more information on managing *Lost* bills.
 
+////
 There are a number of library settings which determine how Evergreen handles lost items:
 
 * Lost Materials Processing Fee
@@ -278,7 +279,7 @@ When a lost item is found and returned, your library may choose to:
 * Restore existing overdue fines.
 
 * Generate new overdue fines based on the check in date.
-
+////
 
 
 
