@@ -262,10 +262,10 @@ Staff can use the following keyboard shortcuts to navigate Evergreen:
 |*F6* | Record In-House Use
 |*F8* | Retrieve Last Patron
 |*F9* | Reprint Last Receipt
-|*Shift+F1* | Register Patron
-|*Shift+F2* | Capture Holds
-|*Shift+F3* | Retrieve Bib Record by TCN
-|*Shift+F8* | Retrieve Last Bib Record
+|*SHIFT+F1* | Register Patron
+|*SHIFT+F2* | Capture Holds
+|*SHIFT+F3* | Retrieve Bib Record by TCN
+|*SHIFT+F8* | Retrieve Last Bib Record
 |*CTRL+F2* | Renew Items
 |===
 
