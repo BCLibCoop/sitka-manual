@@ -262,7 +262,7 @@ the blue text. The first click sorts the list in ascending order and a second cl
 the list in descending order.
 
 If you wish to renew items, select the items to renew and click *Renew Selected*.  A pop-up will
-as you to confirm you wish to renew; click *OK*.  If the item cannot be renewed a message will indicate
+ask you to confirm you wish to renew; click *OK*.  If the item cannot be renewed a message will indicate
 to the patron why the renewal was not possible.
 
 image::images/opac/opac-account-checked-out-2.png[scaledwidth="75%",alt="My Account Checked Out"]
