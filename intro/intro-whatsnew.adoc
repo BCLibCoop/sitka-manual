@@ -7,20 +7,25 @@ https://www.youtube.com/playlist?list=PLdwlgwBNnH4r5hUb0EkOYmSv4kLv5QaL7[*New Fe
 Staff Client
 ~~~~~~~~~~~~
 
-* Actions menu option allows you to remove actions you don't use from the Actions menu in certain interfaces.
-* Setting to turn on full library names in newer interfaces.
+* xref:_manage_actions_menu[Actions menu option] allows you to remove actions you don't use 
+from the Actions menu in newer interfaces.
+* Setting to turn on 
+xref:_include_full_library_names_in_library_selector[full library names in the library selector in 
+newer interfaces].
 ** link:https://youtu.be/pgDPRt3J-MM[*Sitka Snippet Video - Turning On Full Library Names (1:19)*]
 
 [[new-features-circulation]]
 Circulation
 ~~~~~~~~~~~
 
-* Patron notes, alerts, and messages are now managed through a single interface.
-* Password reset link button in patron Edit to enable staff to initiate a password reset for a patron.
+* xref:_patron_notes[Patron notes, alerts, and messages] are now managed through a single interface.
+* xref:_resetting_a_patron_password[Password reset link button] in patron Edit to enable staff 
+to initiate a password reset for a patron.
 ** link:https://youtu.be/WNQwt2zXxOY[*Sitka Snippet Video - Resetting a Forgotten Password (2:10)*]
-* New patron photo URL field added to patron account.  Access to this feature is not available by default.  
+* New xref:_patron_account_fields[patron photo URL field] added to patron account.  Access to this feature 
+is not available by default.  
 Please contact https://bc.libraries.coop/support/[Co-op Support] for more information.
-* New look for holds pull list
+* New look for the xref:_pull_list_for_hold_requests[holds pull list].
 ** link:https://youtu.be/CYmk2mwgI5E[*Sitka Training Video - Pull List for Hold Requests (2:59)*]
 * New look for the triggered events log
 
@@ -28,7 +33,7 @@ Please contact https://bc.libraries.coop/support/[Co-op Support] for more inform
 Cataloguing
 ~~~~~~~~~~~
 
-* New and improved Holdings Editor.
+* New and improved xref:_holdings_editor[Holdings Editor].
 ** link:https://youtu.be/7WBAJ1Unz_M[*Sitka Training Video - Holdings Editor (14:12)*]
 
 [[new-features-staff-catalogue]]
@@ -43,12 +48,15 @@ listed in the grid with item information.
 * Holding counts display in the search results for the preferred library.
 * Preferred library holdings display on top in the grid with item information.
 
+See xref:_viewing_search_results_for_cataloguing_purposes[].
+
 [[new-features-public-catalogue]]
 Public Catalogue
 ~~~~~~~~~~~~~~~~
 
-* Re-designed public catalogue with a new look
-* Option for patrons to select their locale which determines the language their email notifications are sent in
+* Re-designed xref:_public_catalogue[public catalogue].
+* Option for patrons to xref:_personal_information[select their locale] which determines the language 
+their email notifications are sent in.
 
 [[new-features-course-reserves]]
 Course Reserves
@@ -56,17 +64,20 @@ Course Reserves
 
 * New course reserves module within Evergreen which replaces the existing 3rd party course reserves module.
 
+See xref:_course_reserves[] and xref:public-catalogue-course-reserves[].
+
 [[new-features-patron-notifications]]
 Patron Notifications
 ~~~~~~~~~~~~~~~~~~~~
 
-* Email notifications are now available in French to patrons who set their locale to French.  Libraries that wish the French notifications to match
+* Email notifications can now be set up in French so that patrons who set their preferred locale to French get 
+notifications in French.  Libraries that wish the French notifications to match
 their customized English notifications must provide translations to Co-op Support.
 
 [[new-features-administration]]
 Administration
 ~~~~~~~~~~~~~~
 
-* Shelving Location Order interface enables libraries to re-order their shelving locations for
-their pull list for hold requests.
+* xref:_shelving_location_order[Shelving Location Order] interface enables libraries to re-order 
+their shelving locations for their pull list for hold requests.
 ** https://youtu.be/hjcLkDG2IFM[*Sitka Snippet Video - Shelving Location Order (1:22)*]
