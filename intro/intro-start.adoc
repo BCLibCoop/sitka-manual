@@ -15,6 +15,8 @@ image::images/intro/getstarted1.png[]
 
 Registering a Staff Workstation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(((Workstation Registration)))
+(((Registering, Workstation)))
 
 link:https://youtu.be/-3HbQQdH9FQ[*Sitka Snippet Video - Register Workstation (1:36)*]
 
@@ -86,6 +88,7 @@ tab where the web client is loaded, you will remain logged in.
 
 Change Operator
 ^^^^^^^^^^^^^^^
+(((Change Operator)))
 
 . Click the menu button in the upper right-hand corner.
 . Select *Change Operator* fom the drop down menu.
@@ -107,6 +110,7 @@ Configuring Your Workstation
 
 Function Bar
 ^^^^^^^^^^^^
+(((Function Bar)))
 
 The function bar can be found throughout Evergreen and enables you to page through pages,
 adjust the number of rows displaying, access the Actions menu, and manage your columns and Actions menus.
@@ -126,6 +130,7 @@ image::images/intro/function-bar-2.png[]
 
 Column Configuration
 ^^^^^^^^^^^^^^^^^^^^
+(((Column Configuration)))
 
 From many screens and lists, you can click on the column picker drop-down menu to change which columns
 are displayed. Various search results tables may not default to the most useful columns. For instance,
@@ -161,7 +166,6 @@ image::images/intro/columnconfig4.png[]
 
 Manage Actions Menu
 ^^^^^^^^^^^^^^^^^^^
-
 (((Manage Actions Menu)))
 (((Actions Menu)))
 
@@ -183,6 +187,7 @@ image::images/intro/columnconfig4.png[]
 
 Library Selector
 ^^^^^^^^^^^^^^^^
+(((Library Selector)))
 
 Some interfaces include a library selector that enables staff to set the scope for the interface.
 
@@ -204,6 +209,7 @@ image::images/intro/library-selector-2.png[]
 
 Filters
 ^^^^^^^
+(((Filters)))
 
 Some interfaces include filters that enable staff to filter the available rows.
 
@@ -245,6 +251,7 @@ search preferences should be set from within the staff catalogue.  See xref:_sea
 
 Keyboard Shortcuts
 ~~~~~~~~~~~~~~~~~~
+(((Keyboard Shortcuts)))
 
 Staff can use the following keyboard shortcuts to navigate Evergreen:
 

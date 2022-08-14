@@ -1,9 +1,22 @@
 Mark Items
 ~~~~~~~~~~
-(((Mark Items Lost)))
-(((Lost Items)))
-(((Claims Returned)))
 (((Claims Never Checked Out)))
+(((Claims Returned)))
+(((Claimed Returned)))
+(((Damaged)))
+(((Discard/Weed)))
+(((Missing)))
+(((Missing Pieces)))
+(((Lost)))
+(((Mark Items, Claims Never Checked Out)))
+(((Mark Items, Claims Returned)))
+(((Mark Items, Claimed Returned)))
+(((Mark Items, Damaged)))
+(((Mark Items, Discard/Weed)))
+(((Mark Items, Missing)))
+(((Mark Items, Missing Pieces)))
+(((Mark Items, Lost)))
+
 
 Items can have their status changed via the _Mark_ functions on the Actions menus. 
 See xref:_item_statuses[] for more information on how particular item statuses behave.

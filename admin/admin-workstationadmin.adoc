@@ -43,6 +43,7 @@ Go to *Administration* -> *Workstation* -> *Tests*
 
 Latency Test
 ^^^^^^^^^^^^
+(((Latency Test)))
 
 This will measure the websocket latency between your workstation client and the Evergreen server.
 
@@ -57,6 +58,8 @@ image::images/admin/latency-test.png[]
 
 Sounds
 ~~~~~~
+(((Sounds)))
+(((Disable Sounds)))
 
 Sound is on by default in the Evergreen staff client. You can test the sounds and disable
 them if desired.
@@ -83,6 +86,7 @@ image::images/admin/sounds-test-2.png[]
 
 Include Full Library Names in Library Selector
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(((Library Selector)))
 
 link:https://youtu.be/pgDPRt3J-MM[*Sitka Snippet Video - Turning on Full Library Names (1:19)*]
 
