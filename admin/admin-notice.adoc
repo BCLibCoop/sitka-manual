@@ -55,8 +55,7 @@ These records are kept for 3 to 6 months, depending on the type of notification.
 image:images/admin/patron-notifications-1.png[]
 +
 . By default completed courtesy and overdue notifications are displayed with the oldest notifications listed first.
-. You can change the filters for *Core Type* or *Event State* to view hold notifications and notifications in different
-states.
+. You can use the tabs to switch between circulation and hold events.
 +
 image:images/admin/patron-notifications-2.png[]
 +
