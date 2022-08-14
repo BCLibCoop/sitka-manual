@@ -7,9 +7,9 @@ https://www.youtube.com/playlist?list=PLdwlgwBNnH4r5hUb0EkOYmSv4kLv5QaL7[*New Fe
 Staff Client
 ~~~~~~~~~~~~
 
-* xref:_manage_actions_menu[Actions menu option] allows you to remove actions you don't use 
+* The xref:_manage_actions_menu[Manage Actions Menu] option allows you to remove actions you don't use 
 from the Actions menu in newer interfaces.
-* Setting to turn on 
+* New setting to turn on 
 xref:_include_full_library_names_in_library_selector[full library names in the library selector in 
 newer interfaces].
 ** link:https://youtu.be/pgDPRt3J-MM[*Sitka Snippet Video - Turning On Full Library Names (1:19)*]
@@ -19,7 +19,7 @@ Circulation
 ~~~~~~~~~~~
 
 * xref:_patron_notes[Patron notes, alerts, and messages] are now managed through a single interface.
-* xref:_resetting_a_patron_password[Password reset link button] in patron Edit to enable staff 
+* New xref:_resetting_a_patron_password[Password reset link button] in patron Edit to enable staff 
 to initiate a password reset for a patron.
 ** link:https://youtu.be/WNQwt2zXxOY[*Sitka Snippet Video - Resetting a Forgotten Password (2:10)*]
 * New xref:_patron_account_fields[patron photo URL field] added to patron account.  Access to this feature 
@@ -27,7 +27,7 @@ is not available by default.
 Please contact https://bc.libraries.coop/support/[Co-op Support] for more information.
 * New look for the xref:_pull_list_for_hold_requests[holds pull list].
 ** link:https://youtu.be/CYmk2mwgI5E[*Sitka Training Video - Pull List for Hold Requests (2:59)*]
-* New look for the triggered events log
+* New look for the xref:_checking_for_notifications[triggered events log].
 
 [[new-features-cataloguing]]
 Cataloguing
