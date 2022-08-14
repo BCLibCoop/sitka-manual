@@ -13,7 +13,7 @@ The following table describes each of the menu options in use and their required
 | xref:circulation-policy[] | View circulation policies	| Viewable to LSA. Contact Co-op support for editing
 | xref:closed-date-editor[]	| Set library ad hoc closure dates (affects due dates and fines)	| LSA
 | xref:group-penalty-threshold[] | Set library-specific thresholds for maximum items out, maximum overdues, and maximum fines | LSA
-| xref:volume-copy-template[] | Interface to create holdings templates  | LSA/Cataloguers
+| xref:_creating_holdings_templates[] | Interface to create holdings templates  | LSA/Cataloguers
 | xref:item-alert-suppression[] | not to display copy alert on selected actions | LSA
 | xref:item-tag[] | Searchable copy information | LSA
 | xref:library-settings-editor[] | Detailed library configuration settings | LSA/Co-op suppport
@@ -25,5 +25,5 @@ The following table describes each of the menu options in use and their required
 | xref:stat-cat[] | Create and manage optional categories for detailed patron/item information | LSA
 | xref:admin-survey[] | Create patron surveys to be completed at patron registration | LSA
 | xref:transit-list[] | View items in transit to or from your library during selected date range | All staff
-| xref:work-log[] | List the most recent transactions processed on the workstation | All staff
+| xref:_work_log[] | List the most recent transactions processed on the workstation | All staff
 |====
