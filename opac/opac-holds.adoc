@@ -31,7 +31,7 @@ you can use a different phone number for phone or text notification when placing
 +
 image::images/opac/opac-holds-3.png[scaledwidth="75%",alt="Holds"]
 +
-Click *Submit*.  A message will appear either confirming the hold was successfully placed or
+. Click *Submit*.  A message will appear either confirming the hold was successfully placed or
 indicating that the hold could not be placed.
 +
 image::images/opac/opac-holds-4.png[scaledwidth="75%",alt="Holds"]
