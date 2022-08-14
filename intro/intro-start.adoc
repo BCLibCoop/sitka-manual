@@ -124,7 +124,6 @@ image::images/intro/function-bar-2.png[]
 . Show Grid Options menu
 . Text wrap
 
-
 Column Configuration
 ^^^^^^^^^^^^^^^^^^^^
 
@@ -160,8 +159,6 @@ image::images/intro/columnconfig3.png[]
 +
 image::images/intro/columnconfig4.png[]
 
-
-
 Manage Actions Menu
 ^^^^^^^^^^^^^^^^^^^
 
@@ -183,6 +180,27 @@ image:images/intro/columnconfig6.png[scaledwidth="75%"]
 . Select *Save Grid Settings*.
 +
 image::images/intro/columnconfig4.png[]
+
+Library Selector
+^^^^^^^^^^^^^^^^
+
+Some interfaces include a library selector that enables staff to set the scope for the interface.
+
+There are currently several styles of the library selector.
+
+The library selector in newer interfaces shows the full names of the library if 
+xref:_include_full_library_names_in_library_selector[full names are enabled].
+
+Where applicable *Ancestor* and *Descendants* checkboxes are included.  Multi-branch libraries can set
+the library to their system and then check the *Descendants* checkbox to include all of their branches.
+
+image::images/intro/library-selector-1.png[]
+
+The library selector in older interfaces only shows the library shortcode.  This older style
+of library selector will be phased out as future updates to Evergreen replace the older interfaces.
+
+image::images/intro/library-selector-2.png[]
+
 
 Filters
 ^^^^^^^
