@@ -80,7 +80,8 @@ have them log into Evergreen on computer the file has been saved to.
 image::images/cat/holdings/item-template-editor-2.png[]
 +
 . Follow the prompts to locate the templates file to be loaded. Click *Open*.
-. The templates will be imported and appear in the template drop down menu in the Holdings Editor.
+. The templates will be imported.
+. Log out of Evergreen and back in and then the templates will appear in the template drop down menu in the Holdings Editor.
  
 ////
 This section is commented out until templates can be imported via the Holdings Editor.
