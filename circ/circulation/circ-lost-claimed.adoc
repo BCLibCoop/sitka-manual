@@ -94,7 +94,8 @@ image:images/circ/mark-damaged-1.png[]
 . A pop-up appears indicating that the item will be marked damaged.  Click *Submit*.
 . If your library has the library setting _Charge item price when marked damaged_ set to True a second
 pop-up will appear.
-.. If needed, adjust the amount being billed.
+.. If needed, adjust the amount being billed.  The processing fee from the library setting 
+_Charge processing fee for damaged items_ is included in the total. 
 .. Select the bill type from the drop down menu.
 .. If needed, add a note.
 .. If you are not charging the patron in this particular case, click *No Charge*.
@@ -103,7 +104,8 @@ pop-up will appear.
 image:images/circ/mark-damaged-2.png[]
 +
 . The item's status is updated to _Damaged_ and removed from the patron's account. If the patron has 
-been billed for the damage the bill will display in the _Bills_ tab.
+been billed for the damage the bill will display in the _Bills_ tab.  The bill displays as a single charge
+which includes the processing fee. 
 
 A damaged item is resolved when it is checked in to return it to circulation, when the status is updated to 
 _Discard/Weed_, or when the item is deleted.  An alert displays on check in to let staff know a damaged
