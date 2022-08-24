@@ -96,7 +96,7 @@ marks are never required when updating settings in the staff client.
 
 |Default Classification Scheme|Defines the default classification scheme for new call 
 numbers: 1 = Generic; 2 = Dewey; 3 = LC|Number| This library setting is obsolete. Default classification 
-scheme is now set in the xref:_holdings_editor_preferences[Holdings Editor Preferences]. | LSA
+scheme is now set in the xref:_holdings_editor_preferences[Holdings Editor Preferences]. |
 
 |Default copy status (fast add)|Default status when a copy is created using the "Fast Item Add" interface.|Selection list|Default: In process | LSA
 
@@ -194,7 +194,7 @@ to _Course materials module_. | Sitka
 
 |Do not include outstanding Claims Returned circulations in lump sum tallies in Patron Display.|In the Patron Display interface, the number of total active circulations for a given patron is presented in the Summary sidebar and underneath the Items Out navigation button. This setting will prevent Claims Returned circulations from counting toward these tallies.|True/False| | LSA
 
-| Exclude Courtesy Notices from Patrons Itemsout Notices Count | | True/False | | LSA
+| Exclude Courtesy Notices from Patrons Items Out Notices Count | | True/False | | LSA
 
 | Forgive fines when checking out a long-overdue item and copy alert is suppressed? | | | Not in use |
 
@@ -381,7 +381,9 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 
 |Format Dates with this pattern | | Text | Default: yyyy-MM-dd | Sitka
 
-|GUI: Hide these fields within the Item Attribute Editor.|Sets which fields in the Item Attribute Editor to hide in the staff client.|Text|This is useful to hide attributes that are not used. | LSA
+|GUI: Hide these fields within the Item Attribute Editor.|Sets which fields in the Item Attribute Editor 
+to hide in the staff client.|Text| This library setting is obsolete. Item attributes can now be  
+hidden via the xref:_holdings_editor_preferences[Holdings Editor Preferences]. |
 
 |Horizontal layout for Volume/Copy Creator/Editor.|The main entry point for this interface is in Holdings Maintenance, Actions for Selected Rows, Edit Item Attributes / Call Numbers / Replace Barcodes. This setting changes the top and bottom panes (if FALSE) for that interface into left and right panes (if TRUE).|True/False|Not in use anymore | LSA
 
