@@ -86,7 +86,9 @@ marks are never required when updating settings in the staff client.
 
 |Elbow room|Elbow room specifies how far in the future you must make a reservation on an item if that item will have to transit to reach its pick-up location. It secondarily defines how soon a reservation on a given item must start before the check-in process will opportunistically capture it for the reservation shelf.|Duration|  |LSA
 
-|Default Classification Scheme|Defines the default classification scheme for new call numbers: 1 = Generic; 2 = Dewey; 3 = LC|Number|Effect on call number sorting. | LSA
+|Default Classification Scheme|Defines the default classification scheme for new call 
+numbers: 1 = Generic; 2 = Dewey; 3 = LC|Number| This library setting is obsolete. Default classification 
+scheme is now set in the xref:_holdings_editor_preferences[Holdings Editor Preferences]. | LSA
 
 |Default copy status (fast add)|Default status when a copy is created using the "Fast Item Add" interface.|Selection list|Default: In process | LSA
 
@@ -427,7 +429,9 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 
 |Uncheck bills by default in the patron billing interface|Uncheck bills by default in the patron billing interface, and focus on the Uncheck All button instead of the Payment Received field.|True/False| | LSA
 
-|Unified Volume/Item Creator/Editor|If True, combines the Volume/Copy Creator and Item Attribute Editor in some instances.|True/False| Not in use anymore |
+|Unified Volume/Item Creator/Editor|If True, combines the Volume/Copy Creator and Item Attribute Editor 
+in some instances.|True/False| This library setting is obsolete. The unified editor is  
+is now set in the xref:_holdings_editor_preferences[Holdings Editor Preferences]. |
 
 |Work Log: maximum actions logged|Maximum entries for "Most Recent Staff Actions" section of the Work Log interface.|Number| | LSA
 
