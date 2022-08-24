@@ -161,11 +161,18 @@ scheme is now set in the xref:_holdings_editor_preferences[Holdings Editor Prefe
 
 |Allow others to use patron account (privacy waiver) | Add a note to a user account indicating that specified people are allowed to place holds, pick up holds, check out items, or view borrowing history for that user account | True/False | Default: True | LSA
 
+|Allow users to browse Courses by Instructor | If enabled, users can browse courses by instructor name in the 
+public catalogue. | True/False | | LSA
+
 |Auto-extend grace periods|When enabled grace periods will auto-extend. By default this will be only when they are a full day or more and end on a closed date, though other options can alter this.|True/False| | LSA
 
 |Auto-extending grace periods extend for all closed dates|It works when the above setting "Auto-Extend Grace Periods" is set to TRUE. If enabled, when the grace period falls on a closed date(s), it will be extended past all closed dates that intersect, but within the hard-coded limits (your library's grace period).|True/False| | LSA
 
 |Auto-extending grace periods include trailing closed dates|It works when the above setting "Auto-Extend Grace Periods" is set to TRUE. If enabled, grace periods will include closed dates that directly follow the last day of the grace period. A backdated check-in with effective date on the closed dates will assume the item is returned after hours on the last day of the grace period.|True/False|Useful when libraries' book drop equipped with AMH. | LSA
+
+|Bib source for brief records created in the course materials module | The course reserves module will use 
+this bib source for any new brief bibliographic records created by the module. | Text | Set 
+to _Course materials module_. | Sitka
 
 |Block hold request if hold recipient privileges have expired| |True/False| | LSA
 
@@ -187,13 +194,11 @@ scheme is now set in the xref:_holdings_editor_preferences[Holdings Editor Prefe
 
 |Do not include outstanding Claims Returned circulations in lump sum tallies in Patron Display.|In the Patron Display interface, the number of total active circulations for a given patron is presented in the Summary sidebar and underneath the Items Out navigation button. This setting will prevent Claims Returned circulations from counting toward these tallies.|True/False| | LSA
 
-
 | Exclude Courtesy Notices from Patrons Itemsout Notices Count | | True/False | | LSA
 
 | Forgive fines when checking out a long-overdue item and copy alert is suppressed? | | | Not in use |
 
 | Forgive fines when checking out a lost item and copy alert is suppressed? | Controls whether fines are automatically forgiven when checking out an item that has been marked as lost, and the corresponding copy alert has been suppressed. | True/False | | LSA
-
 
 |Hold shelf status delay|The purpose is to provide an interval of time after an item goes into the on-holds-shelf status before it appears to patrons that it is actually on the holds shelf. This gives staff time to process the item before it shows as ready-for-pick-up.|Duration| | LSA
 
@@ -218,7 +223,9 @@ scheme is now set in the xref:_holdings_editor_preferences[Holdings Editor Prefe
 |Maximum visible age of User Trigger Events in Staff Interfaces|If this is unset, staff can view User Trigger Events regardless of age. When this is set to an interval, it represents the age of the oldest possible User Trigger Event that can be viewed.|Duration| Not working | LSA
 
 |Minimum transit checkin interval|In-Transit items checked in this close to the transit start time will be prevented from checking in|Duration| | LSA
-| Number of Retrievable Recent Patrons | Number of most recently accessed patrons that can be re-retrieved in the staff client. A value of 0 or less disables the feature. Defaults to 1. | Number | | LSA
+|Number of Retrievable Recent Patrons | Number of most recently accessed patrons that can be re-retrieved in the staff client. A value of 0 or less disables the feature. Defaults to 1. | Number | | LSA
+|Opt Org Unit into the Course Materials Module | Enables the course reserves module in the public catalogue
+and allows users to search and browse course lists. | True/False | | LSA
 
 |Patron merge address delete|Delete address(es) of subordinate user(s) in a patron merge.|True/False| | LSA
 |Patron merge barcode delete|Delete barcode(s) of subordinate user(s) in a patron merge|True/False| | LSA
