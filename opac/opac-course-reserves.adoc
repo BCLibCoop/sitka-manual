@@ -2,8 +2,8 @@
 Course Reserves
 ---------------
 
-When the course reserves module is enabled options for searching and browsing course reserves
-display in the public catalogue.
+When the course reserves module is enabled an option for searching course reserves
+displays in the public catalogue.
 
 image::images/opac/course-reserves/opac-course-reserves-1.png[scaledwidth="75%",alt="Course Reserves"]
 
@@ -36,6 +36,8 @@ The library setting _Allow users to browse Courses by Instructor_ must be set to
 instructor incluced as a search option.
 =====
 
+
+\\\\
 Browse Course Reserves
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -57,12 +59,12 @@ The browse is constructed by the term starting with.
 . Click on the bolded text to view the course list.
 +
 image::images/opac/course-reserves/opac-course-reserves-6.png[scaledwidth="75%",alt="Course Reserves"]
-
+\\\\
 
 Course Lists
 ~~~~~~~~~~~~
 
-When searching or browsing for a course your search results will display.  
+When searching for a course your search results will display.  
 
 . Click on the course you would like to see the reserve list for.
 +
