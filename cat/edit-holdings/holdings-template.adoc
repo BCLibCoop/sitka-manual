@@ -36,6 +36,26 @@ image::images/cat/item-template-3.png[]
 +
 . The template is saved.
 
+Deleting Holdings Templates
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Go to *Administration -> Local Administration -> Holdings Template Editor*. 
++
+OR
++
+Open the Holdings Editor through any bibliographic record and go to the *Holdings* tab if you are using 
+the unified editor or the *Item Attributes* tab if you are not.
++
+image::images/cat/item-template-1.png[]
++
+. Select the template you would like to delete from the drop down menu.
++
+. Click *Delete Template*.
++
+image::images/cat/holdings/item-template-delete-1.png[]
++
+. Your template has been deleted and will no longer appear in the list.
+
 Using Holdings Templates
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
