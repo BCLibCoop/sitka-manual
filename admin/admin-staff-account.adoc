@@ -181,6 +181,10 @@ Acquisitions and reporter permissions are granted as secondary permission groups
 acquisitions permissions.  Reporter permissions are granted by Support after a 
 https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[Reporter Privacy Waiver] is completed.
 
+The report template _Staff Assigned to Supplementary Permission Group(s)_ can be used to generate a list 
+of staff at your library who have a secondary permission group assigned to their account.  This template 
+is found under Shared Folders -> Templates -> Sitka_templates -> Patrons -> Others.
+
 
 *Individual Permissions*
 
