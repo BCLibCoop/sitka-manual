@@ -35,6 +35,8 @@ To access the course reserves module go to *Administration -> Local Administrati
 Creating Terms
 ~~~~~~~~~~~~~~
 
+https://youtu.be/rd9ZfcvpYQk[*Sitka Snippet Video - Creating Terms (1:06)*]
+
 You may optionally keep track of your institution's terms or semesters.
 
 . Go to *Administration -> Local Administration -> Course Reserves List*.
@@ -78,6 +80,10 @@ registration to the general public.
 Creating Courses
 ~~~~~~~~~~~~~~~~
 
+https://youtu.be/kaHs4rI2d4M[*Sitka Snippet Video - Creating Course Reserve Lists (6:29)*]
+
+https://youtu.be/lAyEYvxmUQc[*Sitka Snippet Video - Creating Courses (0:51)*]
+
 . Go to *Administration -> Local Administration -> Course Reserves List*.
 . The *Course list* tab will open by default.
 . Click *Create Course*.
@@ -104,6 +110,8 @@ image::images/course-reserves/course-reserves-add-course-4.png[scaledwidth="75%"
 Attaching a Course to a Term
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+https://youtu.be/RYGo4zUh-yQ[*Sitka Snippet Video - Attaching Terms to a Course (0:46)*]
+
 . In the course, click on the *Course terms* tab.
 . Click *Attach course to a term*.
 +
@@ -117,6 +125,8 @@ image::images/course-reserves/course-reserves-attach-term-2.png[scaledwidth="75%
 
 Associating Materials With a Course
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+https://youtu.be/CtOzTlVUUII[*Sitka Snippet Video - Associating Materials with a Course (4:05)*]
 
 . In the course, click on the *Course materials* tab.
 . Three types of materials can be associated with a course:
@@ -145,9 +155,29 @@ image::images/course-reserves/course-reserves-associate-item-1.png[scaledwidth="
 +
 image::images/course-reserves/course-reserves-associate-item-2.png[scaledwidth="75%",alt="Associating an item"]
 
+Associating an Electronic Resource from the Catalogue
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Associating a Brief Record
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+. On the *Course materials* tab, click on the *Associate electronic resource from catalog* tab.
+. Enter the record ID for the electronic resource you'd like to add to the course.
+. Enter the relationship the item has with the course.  For example, an item may be
+required reading or be supplemental.
+. Click *Add material*.
++
+image::images/course-reserves/course-reserves-associate-electronic-resource-1.png[scaledwidth="75%",alt="Associating a brief record"]
++
+. The record displays in the list.
++
+image::images/course-reserves/course-reserves-associate-electronic-resource-1.png[scaledwidth="75%",alt="Associating a brief record"]
+
+[NOTE]
+======
+Unlike brief records, detaching this resource from the course or archiving the
+course will not delete the bibliographic record.
+======
+
+Associating an Electronic Resource Using a Brief Record
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
 
 . On the *Course materials* tab, click on the *Associate brief record* tab.
 . Enter the relationship the item has with the course.  For example, an item may be
@@ -170,29 +200,10 @@ will be automatically deleted.
 ======
 
 
-Associating an Electronic Resource
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-. On the *Course materials* tab, click on the *Associate electronic resource from catalog* tab.
-. Enter the record ID for the electronic resource you'd like to add to the course.
-. Enter the relationship the item has with the course.  For example, an item may be
-required reading or be supplemental.
-. Click *Add material*.
-+
-image::images/course-reserves/course-reserves-associate-electronic-resource-1.png[scaledwidth="75%",alt="Associating a brief record"]
-+
-. The record displays in the list.
-+
-image::images/course-reserves/course-reserves-associate-electronic-resource-1.png[scaledwidth="75%",alt="Associating a brief record"]
-
-[NOTE]
-======
-Unlike brief records, detaching this resource from the course or archiving the
-course will not delete the bibliographic record.
-======
-
 Adding a User to a Course
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+https://youtu.be/1aTlaqsLerE[*Sitka Snippet Video - Adding Users to a Course (1:02)*]
 
 . In the course, click on the *Course users* tab.
 . Enter the barcode of the patron you'd like to add.
