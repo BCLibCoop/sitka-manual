@@ -5,8 +5,8 @@ anchor:group-penalty-threshold[Group Penalty Thresholds]
 
 (((location administration, Circulation limit)))
 
-Group Penalty Thresholds block circulation transactions for users who exceed maximum fine limites, check out 
-limits, number of overdue items, and number of lost item. Settings for your library are visible 
+Group Penalty Thresholds block circulation transactions for users who exceed maximum fine limits, check out 
+limits, number of overdue items, and number of lost items. Settings for your library are visible 
 under *Administration -> Local Administration-> Group Penalty Thresholds*. There are four penalties 
 in use now.
 
