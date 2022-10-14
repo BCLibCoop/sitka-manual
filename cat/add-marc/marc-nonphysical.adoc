@@ -1,5 +1,5 @@
 [[cataloguing_nonphysical_resources]]
-Cataloguing Non-physical Resources
+Cataloguing Non-Physical Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Ordinary bibliographic records are only visible in the OPAC when holdings records are attached, but it is 
@@ -25,7 +25,7 @@ OverDrive, Co-op Support creates and updates bibliographic records automatically
 | $u | Required; the URL or link to the resource | http://www.linktoresource.ca | Appears as a link in the OPAC display; the link text is the URI unless subfield $y is specified
 | $y | Recommended; a display label for the link | Click for access | 	Appears as the text of the link instead of the URL defined in $u
 | $z | Optional; a public note providing more information about the resource | library card required | Appears in parentheses to the right of the link
-| $9 | Required; your library code | BBI | 	Not displayed in the OPAC but required for the record to be included in searches scoped to your library
+| $9 | Required; your library code | MPL | 	Not displayed in the OPAC but required for the record to be included in searches scoped to your library
 |===
 . After the 856 tag is added, the record will be displayed as search result in the public catalogue for the 
 for the library specified in the $9. The images below shows a sample 856 tag and the corresponding 
@@ -71,8 +71,8 @@ see http://www.loc.gov/marc/bibliographic/bd856.html.
 | Subfield code | Description | Example | OPAC Display
 | $u | Required; the URL or link to the related resource | http://www.linktoresource.ca | Appears as a link in the OPAC display; the link text is the URI unless subfield $y is specified
 | $y | Recommended; a display label for the link | Click for access | 	Appears as the text of the link instead of the URL defined in $u
-| $3 | Optional; a description of what the related resource is | Cover Art | Appears as text beside the link or display label.
-| $9 | Required; your library code | ZSP-A | 	Not displayed in the OPAC but required for the related resource to display.
+| $3 | Optional; a description of what the related resource is | Related Resource | Appears as text beside the link or display label.
+| $9 | Required; your library code | MPL | 	Not displayed in the OPAC but required for the related resource to display.
 |===
 +
 [NOTE]
