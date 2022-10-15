@@ -22,8 +22,17 @@ image::images/cat/export-marc-1.png[]
 .. Load a _CSV_ file containing records IDs.  If the CSV file contains other information
 specify which column is the record ID by filling it into the _Use Field Number_ field. Note 
 that the field number starts at 0. If the second column in the CSV file is record IDs, the field number is 1.
++
+image::images/cat/export-marc-2.png[]
++
 .. Enter a _Record ID_.
++
+image::images/cat/export-marc-3.png[]
++
 .. Enter a record _Bucket ID_.
++
+image::images/cat/export-marc-4.png[]
++
 . The _Record Type_ should be set to Bibliographic Records.
 . Select a _Record Format_ from the drop down menu.
 . Select a _Record Encoding_ from the drop down menu.
@@ -37,6 +46,9 @@ just your library's holdings.
 ======
 +
 . Click *Export*.
++
+image::images/cat/export-marc-5.png[]
++
 . You will be prompted to save the file.
 
 
