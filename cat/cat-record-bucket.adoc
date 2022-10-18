@@ -13,7 +13,8 @@ Creating Record Buckets
 
 There are two ways to create a record bucket. You can either create a bucket first, without accessing any records, or you can access a record and choose to create the bucket from that view. We will demonstrate both methods here.
 
-*Creating a Record Bucket on Record Buckets* view
+Creating a Record Bucket on Record Buckets
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Select *Cataloging -> Record Buckets* from the menu bar.
 
@@ -38,7 +39,8 @@ image::images/cat/record-bucket-4.png[]
 Only buckets created by the login account are listed. But those created by other people can be retrieved via bucket number, if shared with you. Click *Shared Bucket* to type in the number to retrieve it.
 =====
 
-*Creating a Record Bucket when Adding a Record to a Bucket*
+Creating a Record Bucket when Adding a Record to a Bucket
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can also create a bucket from within a record.
 
@@ -57,11 +59,13 @@ Adding Records to a Record Bucket
 
 You can add records to a bucket in a few places.
 
-*Adding Records to a Bucket on the Catalogue*
+Adding Records to a Bucket on the Catalogue
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Once you retrieve a record on the catalogue, select *Other Actions -> Add to Bucket* to add it to a record bucket.
 
-*Add Records to a Bucket on Record Bucket View*
+Add Records to a Bucket on Record Bucket View
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can run a search, then select records from the result list to add to a bucket on Record Bucket view.
 
@@ -103,7 +107,8 @@ Multiclass Search Help
 |====
 =====
 
-*Adding Imported Records on MARC Batch Import/Export*
+Adding Imported Records on MARC Batch Import/Export
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 MARC records that have already been imported via MARC Batch Import/Export can be added to a bucket.
 
@@ -113,12 +118,27 @@ image::images/cat/record-bucket-11.png[]
 Working with Records in a Record Bucket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Managing Bucket Contents
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+* Show Selected Records in Catalogue
+* Remove Selected Records from Bucket
+* Move Selected Records to Pending Records
+
+Managing Records in a Bucket
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* Delete Selected Records from Catalogue
+* Tranfer Title Holds
+* Merge Selected Records (Refer to xref:_merging_bibliographic_records[])
+* Export Records (Refer to xref:export-marc-from-bucket[])
+
+
 You can apply the following functions to selected records in a bucket.
 
-* *Show Selected Records in Catalogue*
-* *Delete Selected Records from Catalogue*
-* *Merge Selected Records* (Refer to xref:_merging_bibliographic_records[])
-* *Export Records* (Refer to xref:export-marc-from-bucket[])
+
+
+
 
 
 To apply these functions, retrieve the bucket, select titles, then choose the function from the *Actions* list.
