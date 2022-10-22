@@ -3,48 +3,48 @@ Record Buckets
 (((Record Buckets)))
 (((Buckets, Record)))
 
-Record buckets allow you to build a list of titles that you may process in batch. It is also the interface for merging records. Records, even after being deleted, remain in a bucket until they are removed from it.
+Record buckets are containers that can be used to group MARC records.  Once records are in a bucket you
+can perform batch actions on the records including merging, deleting, and exporting the records. Buckets
+can also be shared with Co-op Support for batch editing assistance and troubleshooting. 
 
-We will demonstrate how to create and manage bibliographic record buckets.  It is very important when working with buckets to ensure you are working with the correct type of record for the corresponding bucket. You cannot add copy records to bibliographic record buckets and vice versa.
+Buckets can also be used for matching when importing records via the Batch Import function.
 
 [[create-record-bucket]]
 Creating Record Buckets
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-There are two ways to create a record bucket. You can either create a bucket first, without accessing any records, or you can access a record and choose to create the bucket from that view. We will demonstrate both methods here.
+Bucket can be created from within the Record Bucket interface or from within the staff catalogue.
 
-Creating a Record Bucket on Record Buckets
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-. Select *Cataloging -> Record Buckets* from the menu bar.
-
-. Select *New Bucket* from the *Buckets* dropdown list.
-+
-image::images/cat/record-bucket-1.png[]
-+
-. Type in a name and some description, if needed. Click *Create Bucket*.
-+
-image::images/cat/record-bucket-2.png[]
-+
-. The newly created bucket is the active bucket in Bucket View.  Note that the bucket is numbered, and creating owner identified.
-+
-image::images/cat/record-bucket-3.png[]
-+
-. Click the *Buckets* dropdown list, you will see the bucket on the list. You can edit the bucket's name or description by clicking on *Edit Bucket* on the list.
-+
-image::images/cat/record-bucket-4.png[]
-
-[TIP]
-=====
-Only buckets created by the login account are listed. But those created by other people can be retrieved via bucket number, if shared with you. Click *Shared Bucket* to type in the number to retrieve it.
-=====
-
-Creating a Record Bucket when Adding a Record to a Bucket
+Creating a Record Bucket via the Record Buckets Interface
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can also create a bucket from within a record.
+. Go to *Cataloguing -> Record Buckets*.
 
-. Search for, retrieve, and display any bibliographic record, then choose *Other Actions -> Add to Bucket*.
+. Select *New Bucket* from the *Buckets* drop down menu.
++
+image::images/cat/buckets/record-bucket-1.png[]
++
+. Enter a name and, optionally, a description.
+. Click *Create Bucket*.
++
+image::images/cat/buckets/record-bucket-2.png[]
++
+. The newly created bucket is the active bucket on the _Bucket View_ tab. It is now listed in the 
+*Buckets* drop down menu for the owning user.
++
+image::images/cat/buckets/record-bucket-3.png[]
+
+
+Creating a Record Bucket via the Staff Catalogue
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Search the catalogue for the record you would like to add to a bucket, as described
+in xref:_searching_the_database_for_cataloguing_purposes[].
+. Click on the title link to open the record.
++
+image::images/cat/buckets/record-bucket-4.png[]
++
+. choose *Other Actions -> Add to Bucket*.
 +
 image::images/cat/record-bucket-5.png[]
 +
@@ -52,6 +52,13 @@ image::images/cat/record-bucket-5.png[]
 +
 image::images/cat/record-bucket-6.png[]
 
+Sharing Record Buckets
+~~~~~~~~~~~~~~~~~~~~~~
+
+[TIP]
+=====
+Only buckets created by the login account are listed. But those created by other people can be retrieved via bucket number, if shared with you. Click *Shared Bucket* to type in the number to retrieve it.
+=====
 
 [[add-record-to-bucket]]
 Adding Records to a Record Bucket
@@ -129,6 +136,7 @@ Managing Records in a Bucket
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Delete Selected Records from Catalogue
+** Records remain in a bucket after they are marked as deleted in the database
 * Tranfer Title Holds
 * Merge Selected Records (Refer to xref:_merging_bibliographic_records[])
 * Export Records (Refer to xref:export-marc-from-bucket[])
