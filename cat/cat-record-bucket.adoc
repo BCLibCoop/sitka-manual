@@ -296,8 +296,8 @@ image::images/cat/buckets/record-bucket-manage-3.png[]
 are marked as deleted in the database.
 ** See xref:_deleting_records_via_a_record_bucket[].
 * Tranfer Title Holds
-** This actions allows staff to move title level holds from one record to another.
-** See xref:_transferring_title_holds[].
+** This action should never be used as it will transfer title holds for all libraries. 
+** See xref:_transferring_title_holds[] for information on transferring title holds for your library.
 * Merge Selected Records
 ** This action allows staff to merge multiple records into a single record.
 ** See xref:_merging_bibliographic_records[].
