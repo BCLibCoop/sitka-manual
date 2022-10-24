@@ -4,7 +4,8 @@ Record Buckets
 (((Buckets, Record)))
 
 Record buckets are containers that can be used to group MARC records.  Once records are in a bucket you
-can perform batch actions on the records including merging, deleting, and exporting the records. Buckets
+can perform batch actions on the records including xref:_merging_bibliographic_records[merging], 
+deleting, and xref:_exporting_marc_records_via_a_record_bucket[exporting] the records. Buckets
 can also be shared with Co-op Support for batch editing assistance and troubleshooting. 
 
 Buckets can also be used for matching when importing records via the Batch Import function.
@@ -94,8 +95,6 @@ image::images/cat/buckets/record-bucket-share-4.png[]
 +
 image::images/cat/buckets/record-bucket-share-5.png[]
 
-
-[[add-record-to-bucket]]
 Adding Records to a Record Bucket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -136,7 +135,7 @@ Adding Records to a Record Bucket via a Basket
 
 . Search the catalogue for the records you would like to add to a bucket, as described
 in xref:_searching_the_database_for_cataloguing_purposes[].
-. Select the titles you would like to add the basket.
+. Select the titles you would like to add to the basket.
 +
 image::images/cat/buckets/record-bucket-add-basket-1.png[]
 +
@@ -199,7 +198,7 @@ Record Query Search Help
 | title/ti	| search title
 | subject/su	| search subject
 | series/se	| search series
-| site	| search at specified library, use the library shortcode. ti:dora explorer site:BFSJ
+| site	| search at specified library, use the library shortcode.
 | | *keyword, title, author, subject*, and *series* support additional search subclasses, specified with a \|. For example: title\|proper:gone with the wind
 |====
 
@@ -259,7 +258,8 @@ image::images/cat/buckets/record-bucket-add-2.png[]
 Working with Records in a Record Bucket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Once records have been added to a record bucket there are several functions that can be performed.
+Once records have been xref:_adding_records_to_a_record_bucket[added to a record bucket] there are 
+several functions that can be performed.
 
 Managing Record Bucket Contents
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -279,9 +279,9 @@ image::images/cat/buckets/record-bucket-manage-2.png[]
 ======
 +
 * Remove Selected Records from Bucket
-** This action will remove the records from the bucket; this does not delete the record from the catalogue.
+** This action will remove the records from the bucket; this does not delete the records from the catalogue.
 * Move Selected Records to Pending Records
-** This action will move the slected records to the *Pending Records* tab so they can be added to a different 
+** This action will move the selected records to the *Pending Records* tab so they can be added to a different 
 record bucket. 
 
 Managing Records in a Record Bucket
@@ -303,7 +303,7 @@ are marked as deleted in the database.
 ** See xref:_merging_bibliographic_records[].
 * Export Records
 ** This action allows staff to export the records from a bucket.
-** See xref:_export_marc_records_via_a_record_bucket[].
+** See xref:_exporting_marc_records_via_a_record_bucket[].
 
 [NOTE]
 ======
