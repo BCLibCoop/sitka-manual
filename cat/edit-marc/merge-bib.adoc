@@ -10,7 +10,7 @@ correctly identify matching MARC records can merge those records together.
 Any call number and item records, or holds, associated with the non-lead records will be transferred to 
 the lead record upon merging.
 
-. Add the desired records to a record bucket.  See _adding_records_to_a_record_bucket[].
+. Add the desired records to a record bucket.  See xref:_adding_records_to_a_record_bucket[].
 +
 [NOTE]
 ======
