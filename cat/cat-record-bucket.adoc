@@ -44,21 +44,56 @@ in xref:_searching_the_database_for_cataloguing_purposes[].
 +
 image::images/cat/buckets/record-bucket-4.png[]
 +
-. choose *Other Actions -> Add to Bucket*.
+. Choose *Other Actions -> Add to Bucket*.
 +
-image::images/cat/record-bucket-5.png[]
+image::images/cat/buckets/record-bucket-5.png[]
 +
-. You are prompted to add the record to an existing bucket or to a new one. To add to a new bucket, type in a name in *Name For New Bucket* box, then click *Add to New Bucket*.
+. On the pop-up that appears click the *New bucket* tab.
 +
-image::images/cat/record-bucket-6.png[]
+image::images/cat/buckets/record-bucket-6.png[]
++
+Enter a name for the new bucket and, optionally, a description.  Click *Add to New Bucket*.
++
+image::images/cat/buckets/record-bucket-7.png[]
++
+. The record is added to the record bucket. 
 
 Sharing Record Buckets
 ~~~~~~~~~~~~~~~~~~~~~~
 
-[TIP]
-=====
-Only buckets created by the login account are listed. But those created by other people can be retrieved via bucket number, if shared with you. Click *Shared Bucket* to type in the number to retrieve it.
-=====
+Staff can share their record buckets with other staff at the library, at another branch, or at another 
+library by sharing the bucket ID.
+
+Finding a Record Bucket ID
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Go to *Cataloguing -> Record Buckets*.
+
+. From the *Buckets* drop down menu select the bucket you would like to share.
++
+image::images/cat/buckets/record-bucket-share-1.png[]
++
+. Note the bucket ID and tell it to the staff member you would like to share the bucket with.
++
+image::images/cat/buckets/record-bucket-share-2.png[]
+
+Retrieving a Shared Record Bucket
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Go to *Cataloguing -> Record Buckets*.
+
+. From the *Buckets* drop down menu select *Shared Bucket*.
++
+image::images/cat/buckets/record-bucket-share-3.png[]
++
+. Enter the record bucket ID and click *Load Bucket*.
++
+image::images/cat/buckets/record-bucket-share-4.png[]
++
+. The shared record bucket displays.
++
+image::images/cat/buckets/record-bucket-share-5.png[]
+
 
 [[add-record-to-bucket]]
 Adding Records to a Record Bucket
