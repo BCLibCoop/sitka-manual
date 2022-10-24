@@ -122,7 +122,7 @@ image::images/cat/buckets/record-bucket-add-1.png[]
 +
 ** a new bucket.
 +
-image::images/cat/buckets/record-bucket-6.png[]
+image::images/cat/buckets/record-bucket-7.png[]
 +
 ** a shared bucket.
 +
@@ -131,32 +131,35 @@ image::images/cat/buckets/record-bucket-add-2.png[]
 . Enter the required information and click the appropriate button.
 . The record is added to the record bucket. 
 
-Add Records to a Bucket on Record Bucket View
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Adding Records to a Bucket via Record Query
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can run a search, then select records from the result list to add to a bucket on Record Bucket view.
+. Go to *Cataloguing -> Record Buckets*.
+. Click on the *Record Query* tab.
++
+image::images/cat/buckets/record-bucket-add-query-1.png[]
++
+. From the *Buckets* drop down menu select the existing bucket you'd like to work with, create a new 
+bucket, or retrieve a shared bucket.
++
+image::images/cat/buckets/record-bucket-add-query-2.png[]
++
+. Type in your search term, then hit the *Enter* key to start the search.
++
+image::images/cat/buckets/record-bucket-add-query-3.png[]
++
+. Select the records you would like to add to your bucket and from the *Actions* menu choose
+*Add to Bucket*.
++
+image::images/cat/buckets/record-bucket-add-query-4.png[]
++
+. Continue searching and adding records to your bucket or click on *Bucket View* to go 
+to your bucket.
 
-. Go to Record Bucket by choosing *Cataloguing -> Record Bucket*.
-. Create or select a bucket by using the *Buckets* dropdown list on Bucket View tab now or later.
-. Click *Record Query*
-+
-image::images/cat/record-bucket-7.png[]
-+
-. Type in your search term, then hit *Enter* key to start the search.
-+
-image::images/cat/record-bucket-8.png[]
-+
-. Select records on the result list, then click *Action -> Add to Pending* or *Add to Bucket*, if a bucket has been selected.
-+
-image::images/cat/record-bucket-9.png[]
-+
-. You can continue to search for more records and add them to the Pending tab or the Bucket. Once done, you may go *Bucket View* to create or select a bucket, if not done yet. You can select, then add records, on Pending Records tab, if any, to a bucket.
-+
-image::images/cat/record-bucket-10.png[]
-+
+
 [TIP]
 =====
-Multiclass Search Help
+Record Query Search Help
 [options="headers"]
 |====
 | Search Key | Definition
@@ -165,13 +168,28 @@ Multiclass Search Help
 | title/ti	| search title
 | subject/su	| search subject
 | series/se	| search series
+| site	| search at specified library, use the library shortcode. ti:dora explorer site:BFSJ
+| | *keyword, title, author, subject*, and *series* support additional search subclasses, specified with a \|. For example: title\|proper:gone with the wind
+|====
+
+
+////
+
+These query limiters don't currently work.
+
+|====
 | lang	| limit by language (specify multiple langs with lang:l1 lang:l2 ...)
-| site	| search at specified org unit, corresponds to actor.org_unit.shortname, e.g. ti:dora explorer site:BFSJ
 | sort	| sort type (title, author, pubdate)
 | dir	| sort direction (asc, desc)
 | available	| if set to anything other than "false" or "0", limits to available items
-| | *keyword, title, author, subject*, and *series* support additional search subclasses, specified with a \|. For example: title\|proper:gone with the wind
 |====
+
+////
+
+Examples:
+* subject:penguin site:MPL
+* title:Five little penguins site:MPL
+* ti:Five little penguins site:MPL
 =====
 
 Adding Imported Records on MARC Batch Import/Export
