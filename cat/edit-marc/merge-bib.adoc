@@ -3,28 +3,19 @@ Merging Bibliographic Records
 
 https://youtu.be/Why90G2qizg[*Sitka Training Video - Merging Duplicate Bibliographic Records (5:10)*]
 
-This section will demonstrate merging bibliographic records in the catalogue. A common application for this functionality is to replace brief records with full records to keep one bibliographic record for one title.
+Ideally each discrete bibliographic title in Evergreen should have a single record that all libraries
+attach their holdings to.  Where this is not the case library staff with the cataloguing knowledge to 
+correctly identify matching MARC records can merge those records together.
 
 Any call number and item records, or holds, associated with the non-lead records will be transferred to 
 the lead record upon merging.
 
-. Through a catalogue search identify records to be merged and add them to your basket
-by checking the boxes beside the relevant records in the search results list.
+. Add the desired records to a record bucket.  See _adding_records_to_a_record_bucket[].
 +
-image::images/cat/merge-records-1.png[]
-+
-. From the Basket Actions drop down menu select *Add Basket to Bucket*.
-+
-image::images/cat/merge-records-2.png[]
-+
-. On the pop-up that appears select the *New Bucket* tab.
-+
-. Enter a name for your bucket.  Support recommends using the title of the records you are merging.
-+
-. Click *Add to New Bucket*.
-+
-image::images/cat/merge-records-3.png[]
-+
+[NOTE]
+======
+When creating your bucket Co-op Support recommends using the title of the records you are merging.
+======
 . Retrieve the bucket by selecting *Cataloguing -> Record Buckets* on the menu bar.
 +
 . Click the drop down arrow beside *Buckets*, then select the bucket containing the records to be merged.
@@ -68,7 +59,7 @@ image::images/cat/merge-records-10.png[]
 =====
 While you can edit call numbers and/or items from the merge screen, Co-op Support recommends you focus 
 on bibliographic records here. After the merging is done, you can edit your call numbers and items through the
-Holdings Editor.
+xref:_holdings_editor[Holdings Editor].
 =====
 
 
