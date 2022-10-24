@@ -295,7 +295,7 @@ image::images/cat/buckets/record-bucket-manage-3.png[]
 ** This action deletes the selected records from the catalogue.Records remain in a bucket after they 
 are marked as deleted in the database.
 ** See xref:_deleting_records_via_a_record_bucket[].
-* Tranfer Title Holds
+* Transfer Title Holds
 ** This action should never be used as it will transfer title holds for all libraries. 
 ** See xref:_transferring_title_holds[] for information on transferring title holds for your library.
 * Merge Selected Records
