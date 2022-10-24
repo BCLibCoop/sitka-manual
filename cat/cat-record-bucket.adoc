@@ -52,7 +52,7 @@ image::images/cat/buckets/record-bucket-5.png[]
 +
 image::images/cat/buckets/record-bucket-6.png[]
 +
-Enter a name for the new bucket and, optionally, a description.  Click *Add to New Bucket*.
+. Enter a name for the new bucket and, optionally, a description.  Click *Add to New Bucket*.
 +
 image::images/cat/buckets/record-bucket-7.png[]
 +
@@ -187,6 +187,7 @@ These query limiters don't currently work.
 ////
 
 Examples:
+
 * subject:penguin site:MPL
 * title:Five little penguins site:MPL
 * ti:Five little penguins site:MPL
