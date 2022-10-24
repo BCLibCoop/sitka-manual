@@ -82,3 +82,39 @@ not just your library's holdings.
 image::images/cat/export-marc-bucket-3.png[]
 +
 . You will be prompted to save the file.
+
+Exporting MARC Records via a Basket
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Search the catalogue for the records you would like to export, as described
+in xref:_searching_the_database_for_cataloguing_purposes[].
+. Select the titles you would like to add to the basket.
++
+image::images/cat/buckets/record-bucket-add-basket-1.png[]
++
+. Once all desired titles have been added to the basket choose *Export Records* from the 
+*Basket Actions* drop down menu.
++
+image::images/cat/buckets/export-marc-basket-1.png[]
++
+. The MARC Batch Export interface will open.
++
+image::images/cat/buckets/export-marc-basket-2.png[]
++
+. The _Record Type_ will be set to Bibliographic Records.
+. Select a _Record Format_ from the drop down menu.
+. Select a _Record Encoding_ from the drop down menu.
+. Check the box for _Include holdings in Bibliographic Records_ if you 
+would like holdings information included.
++
+[NOTE]
+======
+Holding records are exported in the 852 field and will include holdings across the Sitka consortium, not 
+just your library's holdings.
+======
++
+. Click *Export*.
++
+image::images/cat/export-marc-5.png[]
++
+. You will be prompted to save the file.
