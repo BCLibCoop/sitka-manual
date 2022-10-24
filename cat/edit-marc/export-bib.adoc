@@ -10,8 +10,8 @@ and others saved in the item record.
 MARC records can be exported from Evergreen in MARC XML, UNIMARC, MARC21/USMARC or Evergreen Record Entry format.
 The exported records can be encoded in either UTF-8 or MARC8.
 
-Export MARC Records via MARC Batch Import/Export
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Exporting MARC Records via MARC Batch Import/Export
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Go to *Cataloguing -> MARC Batch Import/Export*.
 . The interface opens and default to the *Import* tab.  Click the *Export* tab.
@@ -19,17 +19,17 @@ Export MARC Records via MARC Batch Import/Export
 image::images/cat/export-marc-1.png[]
 +
 . Select your record source
-.. Load a _CSV_ file containing records IDs.  If the CSV file contains other information
+* Load a _CSV_ file containing records IDs.  If the CSV file contains other information
 specify which column is the record ID by filling it into the _Use Field Number_ field. Note 
 that the field number starts at 0. If the second column in the CSV file is record IDs, the field number is 1.
 +
 image::images/cat/export-marc-2.png[]
 +
-.. Enter a _Record ID_.
+* Enter a _Record ID_.
 +
 image::images/cat/export-marc-3.png[]
 +
-.. Enter a record _Bucket ID_.
+* Enter a record _Bucket ID_.
 +
 image::images/cat/export-marc-4.png[]
 +
@@ -52,15 +52,20 @@ image::images/cat/export-marc-5.png[]
 . You will be prompted to save the file.
 
 
-
-Export MARC records via a Record Bucket
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Exporting MARC Records via a Record Bucket
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Go to *Cataloguing -> Record Buckets*.
 . Select your bucket from the drop down menu.
++
+image::images/cat/export-marc-bucket-1.png[]
++
 . Remove any records from your bucket that you don't want to export; the entire contents of the bucket will
-be exported.
+be exported. See xref:_managing_bucket_contents[].
 . From the *Actions* menu select *Export Records*.
++
+image::images/cat/export-marc-bucket-2.png[]
++
 . Select a _Record Format_ from the drop down menu.
 . Select a _Record Encoding_ from the drop down menu.
 . Check the box for _Include Items?_ if you 
@@ -68,9 +73,12 @@ would like holdings information included.
 +
 [NOTE]
 ======
-Holding records are exported in the 852 field and will include holdings across the Sitka consortium, not 
-just your library's holdings.
+Holding records are exported in the 852 field and will include holdings across the entire Sitka consortium, 
+not just your library's holdings.
 ======
 +
 . Click *Export*.
++
+image::images/cat/export-marc-bucket-3.png[]
++
 . You will be prompted to save the file.
