@@ -99,12 +99,37 @@ image::images/cat/buckets/record-bucket-share-5.png[]
 Adding Records to a Record Bucket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can add records to a bucket in a few places.
+Records can be added to new, existing, or shared record buckets via the staff client, the
+record buckets interface, or the MARC Batch Import/Export.
 
-Adding Records to a Bucket on the Catalogue
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Adding Records to a Record Bucket via the Staff Catalogue
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Once you retrieve a record on the catalogue, select *Other Actions -> Add to Bucket* to add it to a record bucket.
+. Search the catalogue for the record you would like to add to a bucket, as described
+in xref:_searching_the_database_for_cataloguing_purposes[].
+. Click on the title link to open the record.
++
+image::images/cat/buckets/record-bucket-4.png[]
++
+. Choose *Other Actions -> Add to Bucket*.
++
+image::images/cat/buckets/record-bucket-5.png[]
++
+. On the pop-up that appears records can be added to:
+** an existing bucket.
++
+image::images/cat/buckets/record-bucket-add-1.png[]
++
+** a new bucket.
++
+image::images/cat/buckets/record-bucket-6.png[]
++
+** a shared bucket.
++
+image::images/cat/buckets/record-bucket-add-2.png[]
++
+. Enter the required information and click the appropriate button.
+. The record is added to the record bucket. 
 
 Add Records to a Bucket on Record Bucket View
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
