@@ -131,8 +131,39 @@ image::images/cat/buckets/record-bucket-add-2.png[]
 . Enter the required information and click the appropriate button.
 . The record is added to the record bucket. 
 
-Adding Records to a Bucket via Record Query
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Adding Records to a Record Bucket via a Basket
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Search the catalogue for the records you would like to add to a bucket, as described
+in xref:_searching_the_database_for_cataloguing_purposes[].
+. Select the titles you would like to add the basket.
++
+image::images/cat/buckets/record-bucket-add-basket-1.png[]
++
+. Once all desired titles have been added to the basket choose *Add Basket to Bucket* from the 
+*Basket Actions* drop down menu.
++
+image::images/cat/buckets/record-bucket-add-basket-2.png[]
++
+. On the pop-up that appears records can be added to:
+** an existing bucket.
++
+image::images/cat/buckets/record-bucket-add-1.png[]
++
+** a new bucket.
++
+image::images/cat/buckets/record-bucket-add-3.png[]
++
+** a shared bucket.
++
+image::images/cat/buckets/record-bucket-add-2.png[]
++
+. Enter the required information and click the appropriate button.
+. The record is added to the record bucket. 
+
+
+Adding Records to a Record Bucket via Record Query
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Go to *Cataloguing -> Record Buckets*.
 . Click on the *Record Query* tab.
@@ -193,8 +224,8 @@ Examples:
 * ti:Five little penguins site:MPL
 =====
 
-Adding Records to a Bucket via MARC Batch Import
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Adding Records to a Record Bucket via MARC Batch Import
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 MARC records that have already been imported via MARC Batch Import/Export can be added to a bucket.
 
@@ -230,8 +261,8 @@ Working with Records in a Record Bucket
 
 Once records have been added to a record bucket there are several functions that can be performed.
 
-Managing Bucket Contents
-^^^^^^^^^^^^^^^^^^^^^^^^
+Managing Record Bucket Contents
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Several options on the *Actions* menu allow staff to manage the contents of their bucket.
 
@@ -253,8 +284,8 @@ image::images/cat/buckets/record-bucket-manage-2.png[]
 ** This action will move the slected records to the *Pending Records* tab so they can be added to a different 
 record bucket. 
 
-Managing Records in a Bucket
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Managing Records in a Record Bucket
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Several options on the *Actions* menu allow staff to manage the records in their bucket.
 
