@@ -227,28 +227,51 @@ image::images/cat/buckets/record-bucket-add-2.png[]
 Working with Records in a Record Bucket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Once records have been added to a bucket there are several functions that can be performed.
+
 Managing Bucket Contents
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
+Several options on the *Actions* menu allow staff to manage the contents of their bucket.
+
+image::images/cat/buckets/record-bucket-manage-1.png[]
+
 * Show Selected Records in Catalogue
+** This action will open the selected records in the staff catalogue in new tabs.  If only one record opens
+your browser is blocking pop-ups.
++
+image::images/cat/buckets/record-bucket-manage-2.png[]
++
 * Remove Selected Records from Bucket
+** This action will remove the records from the bucket; this does not delete the record from the catalogue.
 * Move Selected Records to Pending Records
+** This action will move the record to the *Pending Records* tab so it can be added to a different 
+record bucket. 
 
 Managing Records in a Bucket
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Several options on the *Actions* menu allow staff to manage the records in their bucket.
+
+image::images/cat/buckets/record-bucket-manage-3.png[]
+
 * Delete Selected Records from Catalogue
-** Records remain in a bucket after they are marked as deleted in the database
+** This action deletes the selected records from the catalogue.Records remain in a bucket after they 
+are marked as deleted in the database. See xref:_deleting_bibliographic_records[].
 * Tranfer Title Holds
-* Merge Selected Records (Refer to xref:_merging_bibliographic_records[])
-* Export Records (Refer to xref:export-marc-from-bucket[])
+** This actions allows staff to move title level holds from one record to another.  See
+xref:_transferring_title_holds[].
+* Merge Selected Records
+** This action allows staff to merge multiple records into a single record.  See 
+xref:_merging_bibliographic_records[].
+* Export Records
+** This action allows staff to export the records from a bucket.  See 
+xref:_export_marc_records_via_a_record_bucket[].
 
-
-You can apply the following functions to selected records in a bucket.
-
-
-
-
-
-
-To apply these functions, retrieve the bucket, select titles, then choose the function from the *Actions* list.
+[NOTE]
+======
+While the *Batch Edit* button exists in record buckets and will take staff to the MARC Batch Edit interface 
+this feature is currently not used by Sitka and will not allow staff to execute a batch edit.  This is 
+due to our consortial nature and the current limitations of the batch editor. Please contact Co-op Support 
+for assistance with batch editing.
+======
