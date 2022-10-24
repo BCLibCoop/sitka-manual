@@ -95,11 +95,11 @@ image::images/cat/buckets/record-bucket-add-basket-1.png[]
 . Once all desired titles have been added to the basket choose *Export Records* from the 
 *Basket Actions* drop down menu.
 +
-image::images/cat/buckets/export-marc-basket-1.png[]
+image::images/cat/export-marc-basket-1.png[]
 +
 . The MARC Batch Export interface will open.
 +
-image::images/cat/buckets/export-marc-basket-2.png[]
+image::images/cat/export-marc-basket-2.png[]
 +
 . The _Record Type_ will be set to Bibliographic Records.
 . Select a _Record Format_ from the drop down menu.
