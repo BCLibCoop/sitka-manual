@@ -2,7 +2,7 @@ Exporting Bibliographic Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 There are times when you may want to export MARC records from Evergreen. Evergreen allows you to do so 
-via the Record Bucket and the MARC Batch Import/Export interface. You may include the holdings 
+via the MARC Batch Import/Export interface, the Record Bucket, and the staff catalogue basket. You may include the holdings 
 information in the MARC records. Based on Sitka's configuration, the holdings information will be in 
 tag 852, including the item's circulating library, shelving location, barcode, call number, status, 
 and others saved in the item record.

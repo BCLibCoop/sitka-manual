@@ -53,7 +53,7 @@ image::images/cat/delete-marc-2.png[]
 Deleting Records via a Record Bucket
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Records can be deleted in batch from a record bucket.
+Records can be deleted in batch from a xref:_record_buckets[record bucket].
 
 . Go to *Cataloguing -> Record Buckets*.
 . Select the bucket containing the records you would like to delete from the drop down menu.

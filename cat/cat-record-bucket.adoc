@@ -5,7 +5,7 @@ Record Buckets
 
 Record buckets are containers that can be used to group MARC records.  Once records are in a bucket you
 can perform batch actions on the records including xref:_merging_bibliographic_records[merging], 
-deleting, and xref:_exporting_marc_records_via_a_record_bucket[exporting] the records. Buckets
+xref:_deleting_records_via_a_record_bucket[deleting], and xref:_exporting_marc_records_via_a_record_bucket[exporting] the records. Buckets
 can also be shared with Co-op Support for batch editing assistance and troubleshooting. 
 
 Buckets can also be used for matching when importing records via the Batch Import function.
@@ -294,7 +294,7 @@ image::images/cat/buckets/record-bucket-manage-3.png[]
 * Delete Selected Records from Catalogue
 ** This action deletes the selected records from the catalogue.Records remain in a bucket after they 
 are marked as deleted in the database.
-** See xref:_deleting_bibliographic_records[].
+** See xref:_deleting_records_via_a_record_bucket[].
 * Tranfer Title Holds
 ** This actions allows staff to move title level holds from one record to another.
 ** See xref:_transferring_title_holds[].
@@ -309,6 +309,7 @@ are marked as deleted in the database.
 ======
 While the *Batch Edit* button exists in record buckets and will take staff to the MARC Batch Edit interface 
 this feature is currently not used by Sitka and will not allow staff to execute a batch edit.  This is 
-due to our consortial nature and the current limitations of the batch editor. Please contact Co-op Support 
+due to our consortial nature and the current limitations of the batch editor. Please contact 
+https://bc.libraries.coop/support/[Co-op Support] 
 for assistance with batch editing.
 ======
