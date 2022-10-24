@@ -56,7 +56,7 @@ Exporting MARC Records via a Record Bucket
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Go to *Cataloguing -> Record Buckets*.
-. Select your bucket from the drop down menu.
+. Select the bucket containing the records you would like to export from the drop down menu.
 +
 image::images/cat/export-marc-bucket-1.png[]
 +
