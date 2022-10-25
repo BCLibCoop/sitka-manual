@@ -31,7 +31,7 @@ Sitka's Evergreen will automatically delete records when the last item attached 
 Records that are imported or created in Evergreen but never have a holding attached or a scoped 856 added 
 are automatically deleted when they've been in the catalogue for more than 3 months.
 
-Items with holdings attached, physical or non-physical, cannot be deleted.
+Records with holdings attached, physical or non-physical, cannot be deleted.
 
 Deleting Records via the Staff Catalogue
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
