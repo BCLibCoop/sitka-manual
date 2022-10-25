@@ -36,8 +36,8 @@ image::images/cat/buckets/record-bucket-2.png[]
 image::images/cat/buckets/record-bucket-3.png[]
 
 
-Creating a Record Bucket via the Staff Catalogue
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Creating a Record Bucket via the Record Summary
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Search the catalogue for the record you would like to add to a bucket, as described
 in xref:_searching_the_database_for_cataloguing_purposes[].
@@ -101,8 +101,8 @@ Adding Records to a Record Bucket
 Records can be added to new, existing, or shared record buckets via the staff client, the
 record buckets interface, or the MARC Batch Import/Export.
 
-Adding Records to a Record Bucket via the Staff Catalogue
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Adding Records to a Record Bucket via the Record Summary
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Search the catalogue for the record you would like to add to a bucket, as described
 in xref:_searching_the_database_for_cataloguing_purposes[].
