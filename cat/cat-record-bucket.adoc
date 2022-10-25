@@ -307,9 +307,9 @@ are marked as deleted in the database.
 
 [NOTE]
 ======
-While the *Batch Edit* button exists in record buckets and will take staff to the MARC Batch Edit interface 
-this feature is currently not used by Sitka and will not allow staff to execute a batch edit.  This is 
-due to our consortial nature and the current limitations of the batch editor. Please contact 
+The Batch Edit function is not used by Sitka and library staff cannot use it to batch edit MARC records. 
+The Batch Edit button exists in record buckets and will take staff to the MARC Batch Edit 
+interface but permissions will prevent any batch edits. Please contact 
 https://bc.libraries.coop/support/[Co-op Support] 
 for assistance with batch editing.
 ======
