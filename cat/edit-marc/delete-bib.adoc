@@ -31,7 +31,12 @@ Sitka's Evergreen will automatically delete records when the last item attached 
 Records that are imported or created in Evergreen but never have a holding attached or a scoped 856 added 
 are automatically deleted when they've been in the catalogue for more than 3 months.
 
-You can delete a MARC record directly from the *MARC Edit* tab in the bibliographic record.
+Records with holdings attached, physical or non-physical, cannot be deleted.
+
+Deleting Records via the Staff Catalogue
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You can delete a MARC record directly from the *MARC Edit* tab in the bibliographic record.  
 
 . Search the catalogue for a record that you need to delete, as described
 in xref:_searching_the_database_for_cataloguing_purposes[].
@@ -45,4 +50,20 @@ image::images/cat/delete-marc-1.png[]
 +
 image::images/cat/delete-marc-2.png[]
 
-You can also delete bibliographic records from a Record Bucket.
+Deleting Records via a Record Bucket
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Records can be deleted in batch from a xref:_record_buckets[record bucket].
+
+. Go to *Cataloguing -> Record Buckets*.
+. Select the bucket containing the records you would like to delete from the drop down menu.
++
+image::images/cat/delete-marc-bucket-1.png[]
++
+. Select the records you wish to delete and from the the *Actions* menu choose 
+*Delete Selected Records from Catalogue*.
++
+image::images/cat/delete-marc-bucket-2.png[]
++
+. Click *OK/Continue*.
+. The records are deleted.  Records with holdings cannot be deleted and will return an error.
