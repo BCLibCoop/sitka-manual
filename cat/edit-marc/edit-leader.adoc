@@ -23,23 +23,23 @@ the Type or Format box, to describe the format of the resource, textual material
 .. Some fields have spaces as values so you need to backspace your cursor to the very beginning 
 of the box in order to type in a new value.  
 +
-image::images/catnew/marc-leader-1.png[]
+image::images/cat/marc-leader-1.png[]
 +
 . For some fields, right-clicking in the box will show a list of possible values (eg. BLvl, Type, Form Audn, and Lang). 
 Choose from this list to populate the box.
 +
-image::images/catnew/marc-leader-2.png[]
+image::images/cat/marc-leader-2.png[]
 +
 . You can press the *Tab* key or use the mouse to click through to each field, and can delete and add 
 text as required by backspacing or highlighting existing text and over typing. Here the publication 
 date is being edited; catalogue searches filtered by date rely on correct coding in the 008.
 +
-image::images/catnew/marc-leader-3.png[]
+image::images/cat/marc-leader-3.png[]
 +
 . Click *Save Changes*.
 +
-image::images/catnew/marc-leader-4.png[]
+image::images/cat/marc-leader-4.png[]
 +
 . The OPAC icon for textual materials is displayed as in the example below.
 +
-image::images/catnew/marc-leader-5.png[]
+image::images/cat/marc-leader-5.png[]
