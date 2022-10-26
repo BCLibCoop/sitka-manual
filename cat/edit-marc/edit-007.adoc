@@ -15,11 +15,11 @@ possible values for the various components of the MARC 007 field in a more user-
 
 . Right-click in the MARC field column and click *Add 007*.
 +
-image::images/catnew/pcw-1.png[]
+image::images/cat/pcw-1.png[]
 +
 . Click the blue icon to the right of the 007 field.
 +
-image::images/catnew/pcw-2.png[]
+image::images/cat/pcw-2.png[]
 +
 . The *Physical Characteristics Wizard* will open.
 
@@ -41,7 +41,7 @@ drop down menu.
 . Evergreen will display the result of each selection in the preview above. The character of your current 
 position will be in red.
 +
-image::images/catnew/pcw-3.png[]
+image::images/cat/pcw-3.png[]
 +
 . By clicking either the *Previous* or *Next* buttons, the user may step forward and backward, as needed, 
 through the various positions in the 007 field.
@@ -49,10 +49,10 @@ through the various positions in the 007 field.
 . Once the user enters all of the applicable values for the 007 field and is ready to exit the wizard, 
 click *Apply*.
 +
-image::images/catnew/pcw-4.png[]
+image::images/cat/pcw-4.png[]
 +
 . All of the values selected will be stored and displayed within the 007 field of the bibliographic record.
 +
-image::images/catnew/pcw-5.png[]
+image::images/cat/pcw-5.png[]
 +
 . Continue editing the MARC record, as needed. When finished, click *Save Changes*.
