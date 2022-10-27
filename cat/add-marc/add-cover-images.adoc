@@ -3,8 +3,9 @@ Uploading Cover Images
 (((Cover Images)))
 (((Cover Art)))
 
-As of version 3.9 Evergreen has an option in the Record Summary to upload cover images.  This feature is not 
-currently available to Sitka libraries.
+As of version 3.9 Evergreen has an option in the Record Summary to upload cover images.  
+
+Due to capacity limitations this feature is not available to Sitka libraries.
 
 Libraries can host their own images and link to them as a related resource.  See xref:_related_resources[]
 for information on how to code the 856 field for related resources.
