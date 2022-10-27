@@ -13,13 +13,13 @@ multi-branch libraries should instead follow the procedure below.
 
 . After adding the item, click on *View Holds*.
 +
-image::images/catnew/new-item-hold-1.png[]
+image::images/cat/new-item-hold-1.png[]
 +
 . If there are outstanding hold requests, select the hold that is next in line then click  
 the actions button and choose *Find Another Target*. This forces Evergreen to re-target the hold 
 and recognize the newly catalogued item.
 +
-image::images/catnew/new-item-hold-2.png[]
+image::images/cat/new-item-hold-2.png[]
 +
 . Check in the new item to capture it for the selected hold.
 

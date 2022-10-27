@@ -15,3 +15,5 @@ include::add-marc/marc-template.adoc[Using Library Specific MARC Templates]
 include::add-marc/marc-sitka-record.adoc[Sitka's Minimum MARC record]
 
 include::add-marc/marc-nonphysical.adoc[Cataloguing Non-physical Resources]
+
+include::add-marc/add-cover-images.adoc[Uploading Cover Images]
