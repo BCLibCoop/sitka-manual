@@ -6,8 +6,6 @@ include::add-holdings/add-holdings.adoc[Adding Holdings to Bibliographic Records
 
 include::add-holdings/spine-labels.adoc[Printing Spine Labels]
 
-include::add-holdings/add-cover-images.adoc[Uploading Cover Images]
-
 include::add-holdings/new-items-holds.adoc[New Items and Holds]
 
 include::add-holdings/add-eholdings.adoc[Adding Holdings for Electronic Resources]
