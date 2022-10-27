@@ -1,0 +1,15 @@
+Uploading Cover Images
+~~~~~~~~~~~~~~~~~~~~~~
+(((Cover Images)))
+
+As of version 3.9 Evergreen has a option in the Record Summary to upload cover images.  This feature is not 
+currently available to Sitka libraries.
+
+[NOTE]
+======
+Cover images for bibliographic items in Sitka's Evergreen are supplied by Content Cafe and depend 
+on the records having the relevant ISBN (020 field), ISSN (022 field), or UPC (024 field).
+
+Contact https://bc.libraries.coop/support/[Co-op Support] for information on how to report missing 
+cover images for bibliographic records.
+======
