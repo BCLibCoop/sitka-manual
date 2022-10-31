@@ -3,6 +3,119 @@ Folders
 
 link:https://youtu.be/JSAIrijfj2w[*Setting Up Report Folders (2:51)*]
 
+The folders pane is dived into two sections:
+
+* _My Folders_ which contains the folders created with your Evergreen account.
+* _Shared Folders_ which contains folders shared with you by other users.
+
+image::images/report/report-folders-1.png[]
+
+There are three main components used by the reporter which each much be stored in a separate folder:
+
+* _Templates_ which tell Evergreen what fields offer as filters and what columns to display in the results file.
+* _Reports_ which tell Evergreen what values to filter on, how often to run the report, and what file formats
+to output the results in.
+* _Output_ which is the final results file from Evergreen with the information from the database.
+
+In order to work with templates, reports, and output in the reporter you must have at least one
+folder created under each component.  See CREATING FOLDERS
+
+
+Creating Folders
+~~~~~~~~~~~~~~~~
+
+
+[TIP] 
+=====
+Co-op Support recommends using a parallel naming scheme for folders in Templates, Reports, and Output 
+to help keep your reports organized and easier to find.
+=====
+
+To create a folder within _Templates_, _Reports_, or _Output_:
+
+. Click on the folder you would like to create a sub-folder in. You may need to click on the arrows to 
+expand the relevant folder tree.
++
+image::images/report/report-create-folders-1.png[]
++
+. Click *Manage Folder*.
++
+image::images/report/report-create-folders-2.png[]
++
+. From the drop down menu select *Create a new sub-folder* and click *Go*.
++
+image::images/report/report-create-folders-3.png[]
++
+. Enter a name for the folder and select sharing parameters if appropriate. See SHARING LINK.
+. Click *Create Sub Folder*
++
+image::images/report/report-create-folders-4.png[]
++
+. A pop-up will appear confirming the folder can been created. Click *OK*.
+. The folder can now been seen in the appropriate folder tree.
++
+image::images/report/report-create-folders-5.png[]
+
+[NOTE]
+======
+When creating foldes at the top level (directly under _Templates_, _Reports_, or _Output_) Evergreen will 
+open the folder creation screen immediately. 
+
+image::images/report/report-create-folders-6.png[]
+======
+
+
+
+Managing Folders
+~~~~~~~~~~~~~~~~
+
+TIP: Clicking the blue text of a folder name displays the contents of the folder in the right pane. 
+Clicking the arrow in front of a folder name displays its subfolders.
+
+Once a folder has been created, you can change the name, delete it, create a new subfolder, or change the sharing settings. This example demonstrates changing a folder name. The other choices follow similar steps.
+
+. Click on the folder name that you wish to rename.
+. Click *Manage Folder*.
++
+image::images/report/folder-4.png[]
++
+. Select *Change folder name* from the drop down menu and click *Go*.
++
+image::images/report/folder-5.png[]
++
+. Enter the new name and click *Submit*.
++
+image::images/report/folder-6.png[]
++
+. You will get a confirmation box that the Action Succeeded. Click *OK*.
+
+Sharing Folders
+~~~~~~~~~~~~~~~
+
+Folders can be private (accessible to your login only) or shared with other staff at
+your library or other libraries in your federation or lending zone. It is also possible to
+selectively share only certain folders and/or subfolders.
+
+CAUTION: A shared subfolder must be created in a shared folder. The sharing scope of the subfolder should be
+within the sharing scope of the parent folder. For example, a subfolder shared with your federation should only be
+in a parent folder shared with your federation. It should not be in a folder shared with your library only. Though creating
+shared subfolders in unshared folders or a subfolder with the sharing scope exceeding its parent's is not blocked
+by Evergreen, serious consequences will be caused by such folders. You must be cautious when creating shared
+subfolders.
+
+
+The My Folders section contains folders created with your Evergreen
+account. Folders that other users have shared with you appear in the Shared Folders section under the username
+of the sharing account. You can only view the contents or clone the templates in the shared folders, but not make
+any change in the shared folders. The cloned template can only be saved into your own folder.
+
+
+
+
+
+
+////
+
 There are three main components used by the Reports module: Templates, Reports, and Output. Each of these components
 must be stored in a folder. Folders can be private (accessible to your login only) or shared with other staff at
 your library or other libraries in your federation or lending zone. It is also possible to
@@ -70,3 +183,5 @@ image::images/report/folder-5.png[]
 image::images/report/folder-6.png[]
 +
 . You will get a confirmation box that the Action Succeeded. Click *OK*.
+
+////
