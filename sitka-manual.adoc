@@ -85,6 +85,8 @@ include::reports/report-overview.adoc[]
 
 include::reports/report-folder.adoc[]
 
+include::reports/report-clone-template.adoc[]
+
 include::reports/report-shared-template.adoc[]
 
 include::reports/report-generate-report.adoc[]

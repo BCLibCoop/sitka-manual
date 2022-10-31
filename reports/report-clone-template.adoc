@@ -1,0 +1,36 @@
+Cloning Report Templates
+------------------------
+
+CAUTION: Cloning templates created on the old staff client (XUL in ui column) may not work perfectly. You may need to remove, then put back some fields during cloning.
+
+
+link:https://youtu.be/0F0dulXsUKw[*Cloning Reports and Sitka Templates (2:35)*]
+
+The steps below assume you have already created at least one Templates folder.  If you have not done so,
+please see xref:_folders[].
+
+. Access the Reports interface from *Administration* -> *Reports*
+. Under Shared Folders expand the Templates folder and the Sitka_templates subfolder.  To expand the
+folders click on the grey arrow or folder icon.  Do not click on the blue underlined hyperlink.
+. Expand the Circulation (SITKA) folder, then click on Monthly Circulation Stats (the blue text) to list templates in it.
++
+image::images/report/clone-template-1.png[]
++
+. Select the template you wish to clone. In this example, we are cloning the Monthly Circulation
+by Shelving Location template.  From the drop down menu choose *Clone selected template*, then click *Submit*. 
++
+image::images/report/clone-template-2.png[]
++
+TIP: By default Evergreen only displays the first 10 items in any folder. To view all content,
+change the Limit output setting from 10 to All.
++
+. Choose the folder where you want to save the cloned template, then click *Select Folder*. Only template
+folders created with your account will be visible.
++
+image::images/report/clone-template-3.png[]
++
+. The cloned template opens in the template editor. From here you may modify the template by adding,
+removing, or editing fields and filters as described in xref:_creating_templates[]. Template Name
+and Description can also be edited. When satisfied with your changes, click *Save Template*.
+. Click *OK/Continue* in the resulting confirmation window.
+
