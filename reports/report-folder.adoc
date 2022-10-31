@@ -19,7 +19,7 @@ to output the results in.
 * _Output_ which is the final results file from Evergreen with the information from the database.
 
 In order to work with templates, reports, and output in the reporter you must have at least one
-folder created under each component.  See CREATING FOLDERS
+folder created under each component.  See xref:_creating_folders[].
 
 
 Creating Folders
@@ -35,7 +35,7 @@ to help keep your reports organized and easier to find.
 
 To create a folder within _Templates_, _Reports_, or _Output_:
 
-. In the _My Folders_ pane click on the folder you would like to create a sub-folder in. You may 
+. In the _My Folders_ section click on the folder you would like to create a sub-folder in. You may 
 need to click on the arrows to expand the relevant folder tree.
 +
 image::images/report/report-create-folders-1.png[]
@@ -48,7 +48,8 @@ image::images/report/report-create-folders-2.png[]
 +
 image::images/report/report-create-folders-3.png[]
 +
-. Enter a name for the folder and select sharing parameters if appropriate. See SHARING LINK.
+. Enter a name for the folder and select sharing parameters if appropriate. See 
+xref:_sharing_your_folders[] for more information on sharing.
 . Click *Create Sub Folder*
 +
 image::images/report/report-create-folders-4.png[]
@@ -75,14 +76,15 @@ Managing Folders
 
 [TIP]
 =====
-Clicking the blue text of a folder name displays the contents of the folder in the right pane. 
+Clicking the blue text of a folder name displays the contents of the folder in the right pane.
+ 
 Clicking the arrow in front of a folder name displays its sub-folders.
 =====
 
 Once a folder has been created, you can change the name, delete the folder, create a new sub-folder, or 
 change the sharing settings. 
 
-. In the _My Folders_ pane click on the folder name that you wish to manage.
+. In the _My Folders_ section click on the name of the folder that you wish to manage.
 . Click *Manage Folder*.
 +
 image::images/report/report-create-folders-2.png[]
@@ -93,9 +95,6 @@ image::images/report/report-create-folders-2.png[]
 ** xref:_creating_folders[Create a new sub-folder].
 ** xref:_sharing_folders[Share or hide the folder].
 . Click *Go*.
-+
-image::images/report/report-create-folders-3.png[]
-+
 . Follow the prompts for the option you choose.
 
 
@@ -104,9 +103,9 @@ Sharing Folders
 (((Sharing Report Folders)))
 (((Report Folders, Sharing)))
 
-_Template_, _Report_, and _Output_ folders can be private (accessible to the user who created the folders) 
-or shared with other staff at the library or other libraries in your federation or lending zone who have
-reporter permissions. 
+_Template_, _Report_, and _Output_ folders can be private (accessible only to the user who created 
+the folder) or shared with other staff at the library or other libraries in your federation or 
+lending zone who have reporter permissions. 
 
 A folder must be shared with at least your library in order for Co-op Support to be able to view it
 to assist with troubleshooting.
@@ -117,7 +116,7 @@ Sharing Your Folders
 
 Folders can be set as shared when they are created or updated afterwards.
 
-. In the _My Folders_ pane click on the name of the folder that you wish to share.
+. In the _My Folders_ section click on the name of the folder that you wish to share.
 . Click *Manage Folder*.
 +
 image::images/report/report-share-folders-1.png[]
@@ -139,6 +138,9 @@ image::images/report/report-share-folders-4.png[]
 shared with in parentheses. 
 +
 image::images/report/report-share-folders-5.png[]
++
+. If you wish to change the share scope for the folder you must xref:_hiding_your_folders[hide the folder]
+ and then re-share it with the new share scope.
 
 [CAUTION]
 =========
@@ -148,7 +150,7 @@ share scope or a narrower share scope than the parent folder.
 image::images/report/report-share-folders-6.png[]
 
 Sub-folders created within unshared folders or folders that are shared with a wider scope than the 
-parent folder will result in folders not displaying at all.  
+parent folder may result in folders not displaying at all.  
 
 Please be cautious when creating shared subfolders and contact 
 https://bc.libraries.coop/support/[Co-op Support] for assistance if you encounter this issue.
@@ -160,21 +162,43 @@ Hiding Your Folders
 (((Hiding Report Folders)))
 (((Report Folders, Hiding)))
 
+Folders are hidden by default.  Folders that have been shared can be hidden.
 
+. In the _My Folders_ pane click on the name of the folder that you wish to hide.
+. Click *Manage Folder*.
++
+image::images/report/report-hide-folders-1.png[]
++
+. From the drop down menu select *Hide (un-share) this folder* and click *Go*.
++
+image::images/report/report-hide-folders-2.png[]
++
+. A pop-up will appear and ask you to confirm that you wish to hide the folder. Click *OK*.
+. A pop-up will appear confirming the folder has been hidden. Click *OK*.
+. The folder will now show under _My Folders_ without a library code in parentheses.
++
+image::images/report/report-hide-folders-3.png[]
 
-
+[CAUTION]
+=========
+If the folder you wish to hide has shared sub-folders you need to hide the sub-folders first or
+your folders may no longer display at all. 
+=========
+ 
 Viewing Shared Folders
 ++++++++++++++++++++++
 
+Folders that are shared with your library, federation, or lending zone display in the _Shared Folders_
+section.
 
+image::images/report/report-view-shared-folders-1.png[]
 
+The top level of shared folders displays the username of the account that has shared the folder.
 
-The My Folders section contains folders created with your Evergreen
-account. Folders that other users have shared with you appear in the Shared Folders section under the username
-of the sharing account. You can only view the contents or clone the templates in the shared folders, but not make
-any change in the shared folders. The cloned template can only be saved into your own folder.
+While it is most common for users to share template folders, reports and output folders can be shared
+as well.
 
-
+You can only view the contents of the shared folders or clone the templates into your own folders.
 
 
 
