@@ -4,16 +4,19 @@ Using the Reporter
 Reporter workflow goes here
 
 
-Cloning Templates
-~~~~~~~~~~~~~~~~~
+Cloning Report Templates
+~~~~~~~~~~~~~~~~~~~~~~~~
 
-CAUTION: Cloning templates created on the old staff client (XUL in ui column) may not work perfectly. You may need to remove, then put back some fields during cloning.
+CAUTION: Cloning templates created on the old staff client (XUL in ui column) may not work perfectly. You 
+may need to remove, then put back some fields during cloning.
 
 
 link:https://youtu.be/0F0dulXsUKw[*Cloning Reports and Sitka Templates (2:35)*]
 
-The steps below assume you have already created at least one Templates folder.  If you have not done so,
-please see xref:_folders[].
+In order to clone a report template you must have already created at least one template folder.  See
+xref:_creating_folders[].
+
+
 
 . Access the Reports interface from *Administration* -> *Reports*
 . Under Shared Folders expand the Templates folder and the Sitka_templates subfolder.  To expand the

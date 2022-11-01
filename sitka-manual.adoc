@@ -83,6 +83,8 @@ Reports
 =======
 include::reports/report-overview.adoc[]
 
+include::reports/report-accessing-reporter.adoc[]
+
 include::reports/report-folder.adoc[]
 
 include::reports/report-using-reports.adoc[]
