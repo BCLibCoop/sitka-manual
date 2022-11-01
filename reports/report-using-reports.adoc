@@ -1,0 +1,258 @@
+Using the Reporter
+------------------
+
+Reporter workflow goes here
+
+
+Cloning Templates
+~~~~~~~~~~~~~~~~~
+
+CAUTION: Cloning templates created on the old staff client (XUL in ui column) may not work perfectly. You may need to remove, then put back some fields during cloning.
+
+
+link:https://youtu.be/0F0dulXsUKw[*Cloning Reports and Sitka Templates (2:35)*]
+
+The steps below assume you have already created at least one Templates folder.  If you have not done so,
+please see xref:_folders[].
+
+. Access the Reports interface from *Administration* -> *Reports*
+. Under Shared Folders expand the Templates folder and the Sitka_templates subfolder.  To expand the
+folders click on the grey arrow or folder icon.  Do not click on the blue underlined hyperlink.
+. Expand the Circulation (SITKA) folder, then click on Monthly Circulation Stats (the blue text) to list templates in it.
++
+image::images/report/clone-template-1.png[]
++
+. Select the template you wish to clone. In this example, we are cloning the Monthly Circulation
+by Shelving Location template.  From the drop down menu choose *Clone selected template*, then click *Submit*. 
++
+image::images/report/clone-template-2.png[]
++
+TIP: By default Evergreen only displays the first 10 items in any folder. To view all content,
+change the Limit output setting from 10 to All.
++
+. Choose the folder where you want to save the cloned template, then click *Select Folder*. Only template
+folders created with your account will be visible.
++
+image::images/report/clone-template-3.png[]
++
+. The cloned template opens in the template editor. From here you may modify the template by adding,
+removing, or editing fields and filters as described in xref:_creating_templates[]. Template Name
+and Description can also be edited. When satisfied with your changes, click *Save Template*.
+. Click *OK/Continue* in the resulting confirmation window.
+
+
+Running Reports
+~~~~~~~~~~~~~~~
+
+link:https://youtu.be/9N22UxqOQlY[*Running a Report (4:25)*]
+
+Now you are ready to run a report from the template you have created.
+
+. Find the template you just created in the Template folder. In the My Folders section, click the arrow
+next to *Templates* to expand this folder and select *Circulation*.
+. Select the check box in front of *Circulations by Months*. Select *Create a new report from selected
+template* from the drop down menu. Click *Submit*.
++
+image::images/report/run-report-1.png[]
++
+. Complete the first part of report settings.
++
+image::images/report/run-report-2.png[]
++
+.. Template Name, Template Creator, and Template Description are for informational purposes only. They are hard
+coded when the template is created. At the report definition stage it is not possible to change them.
+.. Report Name is required. Reports stored in the same folder must have unique names.
+.. Report Description is optional, but may help distinguish among similar reports.
+.. Report Columns lists the columns that will appear in the output. This is derived from the template and cannot
+be changed during the report definition.
+.. Pivot Label Column and Pivot Data Column are optional. Pivot tables are a different way to view data. If you
+currently use pivot tables in MS Excel it is better to select an Excel output and continue using pivot tables
+in Excel. Please note that Pivot tables are suitable to some result data only.
+.. You must choose a report folder to store this report definition. Only report folders under My Folders are
+available. Click on the desired folder to select it.
+. Select values for the Circulation > Check Out Date/Time. Use the calendar widget to choose or manually enter the
+desired date (always in YYYY-MM or YYYY-MM-DD format).
++
+The Transform for this field is Year + Month, so even if you choose a specific date (2018-09-20) it will
+appear as the corresponding month only (2018-09).
+
+. Select a value for the Checkout/Renewal Library on the Organizational Unit list, then click Add. You may add more than one library. You may use CTRL or SHIFT plus mouse click to select multiple libraries, then click Add, too.
+. Complete the bottom portion of the report definition interface, then click *Save Report*.
+.. Select one or more output formats. In this example the report output will be available as an Excel
+spreadsheet, an HTML table (for display in the staff client or browser), and as a bar chart. Please note
+that charts are suitable to some result data only.
+.. Check the “Calculate grouping subtotals” checkbox to add an unlabeled row or column with the subtotals for each grouping and an unlabeled grand total row or column. Please note group subtotals and grand totals are suitable to some result data only.
+.. If you want the report to be recurring, check the Recurring Report box and select the Recurrence Interval as described in xref:_running_recurring_reports[].  In this example, as this is a report that will only be run once, the Recurring Report
+box is not checked.
+.. Select *Run as soon as possible* for immediate output. It is also possible to set up reports that run
+automatically in the future.
+.. It is optional to fill out an email address where a completion notice can be sent. The email will contain
+a link to a password-protected report output which staff with permission to view report output can access.
+If you have an email address in your account, it will automatically appear in the email notification box.
+However, you can enter a different email address or multiple addresses separated by commas.
+.. Select a folder for the report's output.
+. You will get a confirmation dialogue box that the Action Succeeded. Click OK.
+
+Once saved, reports stay there forever unless you delete them. When a report is deleted all the linked output
+files will be deleted, too.
+
+Report files are viewable and editable (recurring report only). You may view the contents of a report.
+You can generate a new report based on the past report file or re-schedule a recurring report. See xref:edit_reports[] for details.
+
+[TIP]
+=====
+* The required value for filters should be in a format corresponding to the data transform. For example,
+for a call number field transformed to First Continuous Non-space string, you need to put in the call
+number prefix; for a field transformed to Count you need to give an integer. See xref:template_terminology[] for more on Data Transforms.
+* *Action* corresponds to *Operator* used for filter fields. It specifies how the given value will be compared
+with the field value. See xref:template_terminology[] for more on Operators.
+* When creating a report, you may disable an unwanted filter in the template by choosing an appropriate
+value for it. For example, if a template lists items created within a time frame, specify a time frame
+between "1900-01-01" and "today" to cover the whole collection; select all copy statuses on the list to
+bypass the filter on item status.
+* If the calendar widget is not provided for a date filter, key in the date in format yyyy-mm-dd.
+=====
+
+Recurring Reports
++++++++++++++++++
+
+link:https://youtu.be/WS6vRrpqIZY[*Recurring Reports (3:02)*]
+
+Recurring reports are a useful way to save time by scheduling reports that you run on a regular basis, such as 
+monthly circulation and monthly patron registration statistics. When you have set up a report to run on a 
+monthly basis, you may request an email informing you that the report has successfully run. You can click on 
+the link in the email that will take you directly to the report output. You can also access the output through 
+the Reports interface as described in xref:_viewing_report_output[].
+ 
+To set up a monthly recurring report, follow the procedure in xref:_generating_reports_from_templates[], but make the 
+changes described below.
+ 
+. Select the *Recurring Report* check-box and set the *Recurrence Interval* to 1 month.
+. Do *not* select *Run as soon as possible*. Instead, schedule the report to run early on the first day of next month. 
+Enter the date in YYYY-MM-DD format.
++
+image::images/report/recurring-1.png[]
++
+. Ensure there is an email address to receive completion emails. You will receive an email completion notice 
+each month when the output is ready.
+. Select a folder for the report's output.
+. Click *Save Report*.
+. You will get a confirmation dialogue box that the Action Succeeded. Click OK.
+ 
+With the above settings, you will get an email on the first day of each month with a link to the report 
+output. By clicking this link it will open the output in a web browser. It is still possible to login to 
+the staff client and access the output in Output folder.
+
+[TIP] 
+=====
+* Always use relative date for recurring reports. Date is a filter on nearly every template. When setting up 
+a recurring report, always choose *Relative Date*, instead of Real Date for any date filter on the report 
+creating screen. When using relative date the actual date will be calculated when the report runs. Unlike a 
+real date, the actual value of relative date is adjusted according to the run time. For example, if the report 
+runs at 2018-10-10 04:00, a relative date transformed to YYYY-MM of "1 month ago" will be Sept, 2018; while a 
+relative date transformed to YYYY-MM-DD of '1 day ago" will be 2018-10-09. When it runs at 2018-11-10 04:00 
+"1 month ago", it will be Oct, 2018, while "1 day ago" will be 2018-11-10. The date goes by calendar day 
+or month.
++
+If you use Real Date, you will have the same result every time, as the report is always generated based on the same condition.
++ 
+image::images/report/recurring-2.png[]
++
+* To stop a recurring report, you may delete the pending output 
+from Pending area in Output folder. You may also delete the report from Report folder. But deleting the report 
+will delete all the output files generated by it, too.
++
+image::images/report/recurring-3.png[]
++ 
+* Sometimes you may wish to make changes to a recurring 
+report, e.g. the recurrence interval, generation date, email address to receive completion email, output 
+format/folder or even filter values (such as the number of days overdue). You may do it by editing the report. 
+See xref:edit_reports[] for details.
+
+* Report running interval should correspond to the date filter. For example, if the template filters 
+on a date instead of month, a recurring report running with a monthly interval may miss a day or capture 
+an extra day's data. So it works better if the filter can be transformed to month.
+* Schedule your monthly report to run early next month, but not at the end of the current month.
+* Once you have been on Evergreen for a year, you can set up your recurring monthly reports to show comparative 
+data from one year ago. To do this select relative dates of 1 month ago and 13 months ago.
+=====
+ 
+
+
+Viewing Report Output2
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+link:https://youtu.be/SeAiy3jBVGg[*Viewing Report Output (2:08)*]
+
+Once a report is finished, the output is stored in the specified Output folder and will remain there until
+manually deleted. Evergreen sends an email with a link to the output if an email address(s) is supplied
+when the report was set up.
+
+. To view the report output in the staff client, open the reports module from
+*Administration* -> *Reports*.
+. Click on the arrow in front of *Output* to expand the folder. Click on *Circulation* (where you just saved the circulation report output) to display the output files in the right pane.
+. Select the check box in front of *Sept 2018 circ stat*. *View report output* is the default selection in the drop down menu. Click *Submit*.
++
+image::images/report/output-1.png[]
++
+. A new tab will open for the report output. Select either Tabular Output or Excel Output. If Bar Charts was
+selected during report definition the chart will also appear.
++
+image::images/report/output-2.png[]
++
+. Below is what the tabular output looks like. If needed, click *Back to output index* to select another output
+format.
++
+image::images/report/output-3.png[]
++
+. If you want to manipulate, filter or graph this data, Excel output would be more useful. Click on Excel Output, you will be prompted to open or save the the output file.
+
+
+Managing Reports
+~~~~~~~~~~~~~~~~
+
+link:https://youtu.be/1CGqlSApwBs[*Managing Reports (3:02)*]
+
+You may view or edit an existing report to change the values for filters, run-time, email reminder recipient, 
+recurring interval, etc. For example, you may reschedule a recurring report to run on Mondays, 
+instead of Thursdays. With this function, you may also generate a new report by editing and saving the report 
+with a new name. 
+
+You may edit a report from Reports or Output folder.
+ 
+To view or edit a report in Reports folder, go to Reports folder to find the report that you wish to view/edit. 
+Click View or Edit in the Edit column. We choose Edit in this example to change the reminder recipient's email address.
+
+image::images/report/edit-report-1.png[]
+
+The report is loaded on the report creation screen, where you make the required changes. In this example we edit the receipt's email address. 
+
+image::images/report/edit-report-2.png[]
+
+CAUTION: Right now you need to re-select values for filters using In List operator. 
+
+Once done, click *Save Report*. Note that Evergreen 
+will update the pending output only. The existing output will remain as is. You will see a prompt to choose *Apply Changes* to the pending output or *Save as New* to create a new report. 
+
+image::images/report/edit-report-3.png[]
+
+[TIP]
+=====
+It is not possible to modify a completed report. In fact, it is useless to attempt to edit a completed report, because the report has run and the output has been generated already. But you may generate a new report based on the conditions in a completed report. 
+
+To create a new report, you need to enter a new report name or choose different report/output folders. Click *Save As New* at the bottom after finishing 
+the editing. You can choose to create a one time or a recurring report.
+=====
+
+To edit a report in Output folder, go to Output to find the report. Click the report name. The details of the 
+report show up in the line below. Click Edit.
+
+image::images/report/edit-report-4.png[]
+
+TIP: We suggest you edit recurring reports in the Pending Items in Output folder, as only the pending items are to be updated. 
+
+When choosing View a report on the above two screens, the report will be displayed in non-editable mode.
+
+
+
