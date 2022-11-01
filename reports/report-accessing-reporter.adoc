@@ -1,16 +1,22 @@
 Accessing the Reporter
 ----------------------
 
-The Reports interface is accessed from *Administration* -> *Reports*.
+The Reports interface is accessed in Evergreen by going to *Administration* -> *Reports*.
 
-Users must have reportering permissions in order to use the reporter in Evergreen.
+image::images/report/accessing-reports-1.png[]
+
+Users without reporter permissions granted to their staff account will see the message _You do 
+not have sufficient permissions to run reports_.
+
+image::images/report/accessing-reports-2.png[]
 
 Any staff needing access to the reporter must sign and submit the 
 https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/full-reporter-privacy-waiver/[Full 
-Reporter Privacy Waiver].  Once the waiver is completed Co-op Support  available at 
+Reporter Privacy Waiver].  Once the waiver is completed, if the staff account meets the 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[required criteria],
+Co-op Support will grant reporter permissions to the account. 
 
-Only users with reporting permissions (granted by Co-op Support on libraries' request) can access the Reports
-module or view report output.  
-
-
-
+Staff with reporter permissions can use the Sitka report templates _Staff Assigned to Selected Permissions
+Group(s)_ and _Staff Assigned to Supplementary Permission Group(s)_ to check who at their library
+has reporter permissions.  Both report templates are found under _Shared Folders -> Templates -> Sitka_templates
+ -> Patrons -> Other_.
