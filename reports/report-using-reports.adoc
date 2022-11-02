@@ -1,14 +1,24 @@
 Using the Reporter
 ------------------
 
-Reporter workflow goes here
+REPORTER WORKFLOW GOES HERE
 
+* Clone templates from another user or Sitka_templates
+* Run your report
+** Reports can be set to run automatically on a recurring basis
+* View your output
+** Report output can be shared with staff accounts with reporter permissions
 
 Cloning Report Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-CAUTION: Cloning templates created on the old staff client (XUL in ui column) may not work perfectly. You 
+[CAUTION]
+=========
+Cloning templates created on the old staff client (XUL in ui column) may not work perfectly. You 
 may need to remove, then put back some fields during cloning.
+
+IS THIS STILL TRUE?
+=========
 
 
 link:https://youtu.be/0F0dulXsUKw[*Cloning Reports and Sitka Templates (2:35)*]
@@ -16,48 +26,88 @@ link:https://youtu.be/0F0dulXsUKw[*Cloning Reports and Sitka Templates (2:35)*]
 In order to clone a report template you must have already created at least one template folder.  See
 xref:_creating_folders[].
 
+. Go to *Administration* -> *Reports*
+. In the _Shared Folders_ section click on the arrow beside the _Templates_ folder to see the shared
+template folders. Continue to use the arrows to expand the folder tree until you find the folder containing
+the template you would like to clone.
++
+image::images/report/clone-report-template-1.png[]
++
+. Click on the folder name to display the contents.
++
+image::images/report/clone-report-template-2.png[]
++
+. Check the box beside the template you wish to clone.
+. From the drop down menu choose *Clone selected template*.  Click *Submit*. 
++
+image::images/report/clone-report-template-3.png[]
++
+[TIP]
+=====
+By default Evergreen only displays the first 10 items in any folder. To view all content,
+change the _Limit output to_ setting from 10 to All.
+=====
++
+. Click on the name of your folder where you'd like to save the cloned template and then 
+click *Select Folder*. 
++
+image::images/report/clone-report-template-4.png[]
++
+. The template editor will open.  For information on modifying templates see 
+xref:_modifying_report_templates[].
+. Update the template name and/or template description if desired.
+. Click *Save Template*
++
+image::images/report/clone-report-template-5.png[]
++
+. A pop-up will appear confirming that you wish to save the template.  Click *OK/Continue*.
+. The template can now be found in the folder you saved it in.
++
+image::images/report/clone-report-template-6.png[]
 
 
-. Access the Reports interface from *Administration* -> *Reports*
-. Under Shared Folders expand the Templates folder and the Sitka_templates subfolder.  To expand the
-folders click on the grey arrow or folder icon.  Do not click on the blue underlined hyperlink.
-. Expand the Circulation (SITKA) folder, then click on Monthly Circulation Stats (the blue text) to list templates in it.
-+
-image::images/report/clone-template-1.png[]
-+
-. Select the template you wish to clone. In this example, we are cloning the Monthly Circulation
-by Shelving Location template.  From the drop down menu choose *Clone selected template*, then click *Submit*. 
-+
-image::images/report/clone-template-2.png[]
-+
-TIP: By default Evergreen only displays the first 10 items in any folder. To view all content,
-change the Limit output setting from 10 to All.
-+
-. Choose the folder where you want to save the cloned template, then click *Select Folder*. Only template
-folders created with your account will be visible.
-+
-image::images/report/clone-template-3.png[]
-+
-. The cloned template opens in the template editor. From here you may modify the template by adding,
-removing, or editing fields and filters as described in xref:_creating_templates[]. Template Name
-and Description can also be edited. When satisfied with your changes, click *Save Template*.
-. Click *OK/Continue* in the resulting confirmation window.
-
-
-Running Reports
-~~~~~~~~~~~~~~~
+Running a Report
+~~~~~~~~~~~~~~~~
 
 link:https://youtu.be/9N22UxqOQlY[*Running a Report (4:25)*]
 
-Now you are ready to run a report from the template you have created.
+SOMETHING ABOUT REPORT DEFINITION
 
-. Find the template you just created in the Template folder. In the My Folders section, click the arrow
-next to *Templates* to expand this folder and select *Circulation*.
-. Select the check box in front of *Circulations by Months*. Select *Create a new report from selected
-template* from the drop down menu. Click *Submit*.
+. Go to *Administration* -> *Reports*
+. In the _My Folders_ section click on the arrow beside the _Templates_ folder to see your 
+template folders. Continue to use the arrows to expand the folder tree until you find the folder containing
+the template you would like to use for your report.
 +
-image::images/report/run-report-1.png[]
+image::images/report/reports-run-1.png[]
 +
+. Click on the folder name to display the contents.
++
+image::images/report/reports-run-2.png[]
++
+. Check the box beside the template you wish to use.
+. *Create a new report from selected template* will be selected by default.  Click *Submit*. 
++
+image::images/report/reports-run-3.png[]
++
+. Enter a name for your report.
+. Optionally, enter a description for your report.
++
+image::images/report/reports-run-4.png[]
++
+. The report columns that will be on the report output are listed.
+. SOMETHING ABOUT PIVOTS
++
+image::images/report/reports-run-5.png[]
++
+. Choose the Reports folder you would like to save the reports definition in.
++
+image::images/report/reports-run-6.png[]
++
+. Enter values for any filters.
++
+image::images/report/reports-run-7.png[]
++
+. MORE TO COME
 . Complete the first part of report settings.
 +
 image::images/report/run-report-2.png[]
