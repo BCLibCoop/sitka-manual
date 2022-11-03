@@ -93,11 +93,13 @@ image::images/report/reports-run-2.png[]
 image::images/report/reports-run-3.png[]
 +
 . Enter a name for your report.
++
 Optionally, enter a description for your report.
 +
 image::images/report/reports-run-4.png[]
 +
 . The report columns that will be on the report output are listed.
++
 Pivot Label Column and Pivot Data Column are optional. Pivot tables are a different way to view data. If you
 currently use pivot tables in MS Excel it is better to select an Excel output and continue using pivot tables
 in Excel. Please note that Pivot tables are suitable to some result data only.
