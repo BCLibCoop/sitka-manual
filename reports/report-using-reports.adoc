@@ -71,7 +71,10 @@ Running a Report
 
 link:https://youtu.be/9N22UxqOQlY[*Running a Report (4:25)*]
 
-SOMETHING ABOUT REPORT DEFINITION
+Through the reporter you can run one off reports right away as well as set up recurring reports that
+automatically run on the interval you choose.  To run the report you fill out the reports form which
+creates a report definition, which tells Evergreen how to run the report, what information to include,
+and what type of output to provide you with.
 
 . Go to *Administration* -> *Reports*
 . In the _My Folders_ section click on the arrow beside the _Templates_ folder to see your 
@@ -90,12 +93,14 @@ image::images/report/reports-run-2.png[]
 image::images/report/reports-run-3.png[]
 +
 . Enter a name for your report.
-. Optionally, enter a description for your report.
+Optionally, enter a description for your report.
 +
 image::images/report/reports-run-4.png[]
 +
 . The report columns that will be on the report output are listed.
-. SOMETHING ABOUT PIVOTS
+Pivot Label Column and Pivot Data Column are optional. Pivot tables are a different way to view data. If you
+currently use pivot tables in MS Excel it is better to select an Excel output and continue using pivot tables
+in Excel. Please note that Pivot tables are suitable to some result data only.
 +
 image::images/report/reports-run-5.png[]
 +
@@ -107,50 +112,54 @@ image::images/report/reports-run-6.png[]
 +
 image::images/report/reports-run-7.png[]
 +
-. MORE TO COME
-. Complete the first part of report settings.
+. Check the boxes to select the types of output you would like.
+. Check the _Calculate grouping subtotals_ check box to add an unlabeled row or column 
+with the subtotals for each grouping and an unlabeled grand total row or column. Please note group 
+subtotals and grand totals will only be useful with some reports.
 +
-image::images/report/run-report-2.png[]
+image::images/report/reports-run-8.png[]
 +
-.. Template Name, Template Creator, and Template Description are for informational purposes only. They are hard
-coded when the template is created. At the report definition stage it is not possible to change them.
-.. Report Name is required. Reports stored in the same folder must have unique names.
-.. Report Description is optional, but may help distinguish among similar reports.
-.. Report Columns lists the columns that will appear in the output. This is derived from the template and cannot
-be changed during the report definition.
-.. Pivot Label Column and Pivot Data Column are optional. Pivot tables are a different way to view data. If you
-currently use pivot tables in MS Excel it is better to select an Excel output and continue using pivot tables
-in Excel. Please note that Pivot tables are suitable to some result data only.
-.. You must choose a report folder to store this report definition. Only report folders under My Folders are
-available. Click on the desired folder to select it.
-. Select values for the Circulation > Check Out Date/Time. Use the calendar widget to choose or manually enter the
+. Leave the recurring and run time options at as is unless you are running a recurring report.  See
+xref:_recurring_reports[].
++
+image::images/report/reports-run-9.png[]
++
+. Optionally enter an email address to send the report completion notification to.  By default this 
+field will contain the email address saved in your staff account. Additional addresses can be added 
+separated by a comma.
++
+image::images/report/reports-run-10.png[]
++
+[NOTE]
+======
+The email will contain a link to a password-protected report output. 
+Only staff members with permissions to view reports or full access to the reporter will be able to 
+open the report output. Staff who only need to view report
+output must first to fill out the 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/all-staff-reporter-privacy-waiver/[All
+Staff Reporter Privacy Waiver].
+======
++
+. Choose the Ouput folder you would like to save the report output in and then click *Save Report*.
++
+image::images/report/reports-run-11.png[]
++
+. A pop-up appears confirming the report has been saved. Click *OK*.
+. Unless you have set a specific run time the report will run right away.  If your report has not 
+completed after 15 minutes please contact https://bc.libraries.coop/support/[Co-op Support].
+. Once the report is complete you can view your output.  See xref:_viewing_report_output[]. 
+
+Report Filters
+++++++++++++++
+
+Select values for the Circulation > Check Out Date/Time. Use the calendar widget to choose or manually enter the
 desired date (always in YYYY-MM or YYYY-MM-DD format).
 +
 The Transform for this field is Year + Month, so even if you choose a specific date (2018-09-20) it will
 appear as the corresponding month only (2018-09).
 
-. Select a value for the Checkout/Renewal Library on the Organizational Unit list, then click Add. You may add more than one library. You may use CTRL or SHIFT plus mouse click to select multiple libraries, then click Add, too.
-. Complete the bottom portion of the report definition interface, then click *Save Report*.
-.. Select one or more output formats. In this example the report output will be available as an Excel
-spreadsheet, an HTML table (for display in the staff client or browser), and as a bar chart. Please note
-that charts are suitable to some result data only.
-.. Check the “Calculate grouping subtotals” checkbox to add an unlabeled row or column with the subtotals for each grouping and an unlabeled grand total row or column. Please note group subtotals and grand totals are suitable to some result data only.
-.. If you want the report to be recurring, check the Recurring Report box and select the Recurrence Interval as described in xref:_running_recurring_reports[].  In this example, as this is a report that will only be run once, the Recurring Report
-box is not checked.
-.. Select *Run as soon as possible* for immediate output. It is also possible to set up reports that run
-automatically in the future.
-.. It is optional to fill out an email address where a completion notice can be sent. The email will contain
-a link to a password-protected report output which staff with permission to view report output can access.
-If you have an email address in your account, it will automatically appear in the email notification box.
-However, you can enter a different email address or multiple addresses separated by commas.
-.. Select a folder for the report's output.
-. You will get a confirmation dialogue box that the Action Succeeded. Click OK.
-
-Once saved, reports stay there forever unless you delete them. When a report is deleted all the linked output
-files will be deleted, too.
-
-Report files are viewable and editable (recurring report only). You may view the contents of a report.
-You can generate a new report based on the past report file or re-schedule a recurring report. See xref:edit_reports[] for details.
+Select a value for the Checkout/Renewal Library on the Organizational Unit list, 
+then click Add. You may add more than one library. You may use CTRL or SHIFT plus mouse click to select multiple libraries, then click Add, too.
 
 [TIP]
 =====
@@ -264,6 +273,9 @@ image::images/report/output-3.png[]
 
 Managing Reports
 ~~~~~~~~~~~~~~~~
+
+Once saved, reports stay there forever unless you delete them. When a report is deleted all the linked output
+files will be deleted, too.
 
 link:https://youtu.be/1CGqlSApwBs[*Managing Reports (3:02)*]
 
