@@ -61,7 +61,7 @@ image::images/report/report-create-folders-5.png[]
 
 [NOTE]
 ======
-When creating foldes at the top level (directly under _Templates_, _Reports_, or _Output_) Evergreen will 
+When creating folders at the top level (directly under _Templates_, _Reports_, or _Output_) Evergreen will 
 open the folder creation screen immediately. 
 
 image::images/report/report-create-folders-6.png[]
