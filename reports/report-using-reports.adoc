@@ -2,6 +2,7 @@ Using the Reporter
 ------------------
 
 The basic steps to using Evergreen's reporter are:
+
 . Clone a template from another user or Sitka_templates
 . Run the report, also referred to as creating a report definition
 . View your output either through the staff client or via your email
