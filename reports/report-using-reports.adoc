@@ -352,6 +352,8 @@ image::images/report/report-output-1.png[]
 +
 image::images/report/report-output-2.png[]
 +
+. Output will display either under _Pending Items_ or _Completed Items_.  Click on the folder name
+again to refresh if your output hasn't completed yet.
 . Check the box beside the output you would like to view.
 . *View report output* will be selected by default.  Click *Submit*.
 +
@@ -426,13 +428,66 @@ image::images/report/report-output-6.png[]
 Managing Reports Data
 ~~~~~~~~~~~~~~~~~~~~~
 
-Once saved, reports stay there forever unless you delete them. When a report is deleted all the linked output
-files will be deleted, too.
+Once saved report templates, definitions, and output will stay in the Sitka database forever unless 
+deleted. When a template or report definition is deleted all the linked definitions and output
+files are also deleted.
+
+Co-op Support recommends downloading output you need to keep as CSV or Excel output and saving it 
+locally on your computer harddrive or a shared drive.
 
 link:https://youtu.be/1CGqlSApwBs[*Managing Reports (3:02)*]
 
-Maintaining Your Templates
+Maintaining Your Report Templates
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+As Evergreen evolves from version to version sometimes what database table data is stored in changes prompting
+Co-op Staff to update the relevant templates in Sitka_templates.  To ensure Evergreen is gathering the 
+correct data it is important to review the templates you use on a yearly basis and clone new templates 
+from Sitka_templates when older versions of a template are retired.
+
+The _create_time_ field can be used to determine if your version of a template was created before or after
+the current version of the template in Sitka_templates.
+
+image::images/report/report-maintain-templates-1.png[]
+
+If you are modifying existing templates or creating your own templates Co-op Support recommends ensuring
+you delete interim versions of the template created while working on the template.  This makes it easier
+to be sure you are using the correct version of the template.
+
+Deleting a Report Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+[CAUTION]
+=========
+Deleting a template will delete all report definitions and output linked to the template.  Make sure
+any data you need to keep is downloaded and saved locally before deleting.
+=========
+
+. Go to *Administration -> Reports*
+. In the _My Folders_ section click on the arrow beside the _Templates_ folder to see your 
+template folders. Continue to use the arrows to expand the folder tree until you find the folder containing
+the template(s) you would like to delete.
++
+image::images/report/reports-run-1.png[]
++
+. Click on the folder name to display the contents.
++
+image::images/report/reports-run-2.png[]
++
+. Check the box beside the template(s) you wish to delete.
+. From the drop down menu select *Delete selected templates(s)*.  Click *Submit*. 
++
+image::images/report/reports-delete-template-1.png[]
++
+. A pop up will appear warning you that deleting the template will delete your attached reports and
+output. Click *OK*.
+. A pop up appears to confirm the deletion. Click *OK*.
+
+[NOTE]
+======
+If another user has run a report using your template you will not able to delete your template.  This is
+why it is important to clone templates into your own folders before running a report.
+======
 
 Viewing Report Definitions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
