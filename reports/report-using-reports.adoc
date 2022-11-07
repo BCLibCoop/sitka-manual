@@ -164,6 +164,9 @@ ability to select values for certain filters when running a report means a singl
 be used multiple times to generate reports on slightly different data.  For example, the same report 
 template can be used to generate separate lists of items using particular circulation modifiers.
 
+Hardcoded Filters
++++++++++++++++++
+
 Hardcoded filters are set when the report template is created.  These filters cannot be changed when 
 running a report. Common hardcoded filters include:
 
@@ -183,6 +186,9 @@ fines because they have been set to lost.
 |Item -> Is Deleted |Raw Data |Equals |f | Include only un-deleted items.
 |ILS User -> Is Deleted |Raw Data |Equals |f | Include only un-deleted patrons.
 |===
+
+Date Filters
+++++++++++++
 
 Date filters are generally set up to be a specific date, a specific month, or a date range. Date filters
 will often include tips about how the dates should be entered. For instance, in a date range the earlier
@@ -209,6 +215,8 @@ will be able to indicate how many months ago the report should look at.
 
 image::images/report/reports-filters-2.png[]
 
+Library Filters
++++++++++++++++
 
 All report templates used by libraries will include a library filter.  This filter can look at the 
 library specified in a variety of fields in the data including the checkout library, circulation library,
@@ -224,6 +232,9 @@ to their library.
 
 Multi-branch libraries can add specific branches or all of their branches to the list to get a report 
 including data from the select branches.
+
+Other Filters
++++++++++++++
 
 While many filters will require staff to select values from a given list, some filters will require staff to 
 type a value into the filter filter _User Params_ field. In those cases the report will generally indicate
