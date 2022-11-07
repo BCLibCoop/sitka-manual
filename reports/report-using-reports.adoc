@@ -105,7 +105,7 @@ image::images/report/reports-run-4.png[]
 +
 Pivot Label Column and Pivot Data Column are optional. Pivot tables are a different way to view data. If you
 currently use pivot tables in MS Excel it is better to select an Excel output and continue using pivot tables
-in Excel. Please note that Pivot tables are suitable to some result data only.
+in Excel. Please note that Pivot tables are only suitable for some types of result data.
 +
 image::images/report/reports-run-5.png[]
 +
