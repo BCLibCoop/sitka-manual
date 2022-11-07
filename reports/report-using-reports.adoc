@@ -157,7 +157,7 @@ completed after 15 minutes please contact https://bc.libraries.coop/support/[Co-
 . Once the report is complete you can view your output.  See xref:_viewing_report_output[]. 
 
 Report Filters
-++++++++++++++
+^^^^^^^^^^^^^^
 
 The filters in a report template allow library staff to set the parameters on which the report runs. The
 ability to select values for certain filters when running a report means a single report template can 
@@ -238,7 +238,7 @@ for the library, dates, and patron or item data.
 image::images/report/reports-filters-5.png[]
 
 Recurring Reports
-+++++++++++++++++
+^^^^^^^^^^^^^^^^^
 
 link:https://youtu.be/WS6vRrpqIZY[*Recurring Reports (3:02)*]
 
@@ -327,7 +327,7 @@ contact https://bc.libraries.coop/support/[Co-op Support].
 
 
 Viewing Output via the Reporter
-+++++++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Go to *Administration* -> *Reports*.
 . In the _My Folders_ section click on the arrow beside the _Output_ folder to see your output folders. 
@@ -367,7 +367,7 @@ image::images/report/report-output-6.png[]
 
 
 Viewing Output via the Email Link
-+++++++++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . In your email program open the email with the subject _Report finished: Your report name - template used"_.
 . The body of the email will include the run time, the name of the report, the name of the template used 
@@ -411,13 +411,27 @@ The tabular output will display and can be sorted by clicking on a column headin
 image::images/report/report-output-6.png[]
 
 
-Managing Reports
-~~~~~~~~~~~~~~~~
+Managing Reports Data
+~~~~~~~~~~~~~~~~~~~~~
 
 Once saved, reports stay there forever unless you delete them. When a report is deleted all the linked output
 files will be deleted, too.
 
 link:https://youtu.be/1CGqlSApwBs[*Managing Reports (3:02)*]
+
+Maintaining Your Templates
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Viewing Report Definitions
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Editing Report Definitions
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Deleting Report Definitions and Output
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
 
 You may view or edit an existing report to change the values for filters, run-time, email reminder recipient, 
 recurring interval, etc. For example, you may reschedule a recurring report to run on Mondays, 
