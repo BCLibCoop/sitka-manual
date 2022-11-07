@@ -1,13 +1,11 @@
 Using the Reporter
 ------------------
 
-REPORTER WORKFLOW GOES HERE
+The basic steps to using Evergreen's reporter are:
+. Clone a template from another user or Sitka_templates
+. Run the report, also referred to as creating a report definition
+. View your output either through the staff client or via your email
 
-* Clone templates from another user or Sitka_templates
-* Run your report
-** Reports can be set to run automatically on a recurring basis
-* View your output
-** Report output can be shared with staff accounts with reporter permissions
 
 Cloning Report Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -189,9 +187,9 @@ fines because they have been set to lost.
 Date filters are generally set up to be a specific date, a specific month, or a date range. Date filters
 will often include tips about how the dates should be entered. For instance, in a date range the earlier
 date should always be entered in the first date box.
-+
+
 image::images/report/reports-filters-1.png[]
-+
+
 If you'd like to include all possible data for your library in a report that specifies a time range, 
 enter between "1900-01-01" and "today's date".
 
@@ -208,35 +206,35 @@ select relative dates of 1 month ago and 13 months ago.
 
 Use the drop down menu to switch from _Real Date_ to _Relative Date_.  For a report filtering on month, you 
 will be able to indicate how many months ago the report should look at.  
-+
+
 image::images/report/reports-filters-2.png[]
 
 
 All report templates used by libraries will include a library filter.  This filter can look at the 
 library specified in a variety of fields in the data including the checkout library, circulation library,
 owning library, patron's home library, and organizational unit. 
-+
+
 image::images/report/reports-filters-3.png[]
-+
+
 This filter is important as it allows 
 staff to comply with Sitka's data use requirements as per 
 https://ln.sync.com/dl/ca731e4e0/view/doc/7839812630003#bw5v92du-w6q5j6uj-szy6shez-smwueqdv[Appendix J 
 of the Service Management Agreement] and restrict the data in the report output to only data relevant 
 to their library.
-+
+
 Multi-branch libraries can add specific branches or all of their branches to the list to get a report 
 including data from the select branches.
 
 While many filters will require staff to select values from a given list, some filters will require staff to 
 type a value into the filter filter _User Params_ field. In those cases the report will generally indicate
 how the text should be entered so that Evergreen can use the value and generate usable report output.
-+
+
 image::images/report/reports-filters-4.png[]
 
 Some report templates will have just hardcoded filters and a single library filter that requires 
 staff to enter a value while other reports will have multiple filters where staff need to enter values
 for the library, dates, and patron or item data.
-+
+
 image::images/report/reports-filters-5.png[]
 
 Recurring Reports
@@ -256,14 +254,14 @@ Staff Reporter Privacy Waiver].
 
 
 To set up a recurring report, follow the procedure in xref:_running_a_report[] until you reach
-step 12 and then substitute the below steps.
+step 11 and then follow the steps below.
  
 . Check the box for *Recurring Report*.
 . Select your desired _Recurrence Interval_. Reports can run on a daily, weekly, or monthly interval.
 +
 [TIP] 
 =====
-* The recurrence interval should correspond to the date filter. For example, if the template filters 
+The recurrence interval should correspond to the date filter. For example, if the template filters 
 on a date instead of month, a recurring report running with a monthly interval may miss a day or capture 
 an extra day's data. See xref:_report_filters for more information on working with date filters on
 a recurring report.
@@ -354,19 +352,19 @@ the report.  The URL can be shared with other library staff who have reporter pe
 +
 image::images/report/report-output-4.png[]
 +
-If _Bar Charts_ or _Line Charts_ were selected in the output options and the data can be shown in those
-forms the bar or line chart will display.
+If _Bar Charts_ and/or _Line Charts_ were selected in the output options and the data can be shown in those
+forms the bar and/or line chart will display.
 +
 image::images/report/report-output-5.png[]
 +
+. Click on *Excel Output* or *CSV Output* to download the output as a file that can be opened in a 
+spreadsheet progam.  You will be prompted to open or save the the output file.
 . Click on *Tabular Output* to view the output in the browser.
 +
 The tabular output will display and can be sorted by clicking on a column heading.
 +
 image::images/report/report-output-6.png[]
-+
-. Click on *Excel Output* or *CSV Output* to download the output as a file that can be opened in a 
-spreadsheet progam.  You will be prompted to open or save the the output file.
+
 
 Viewing Output via the Email Link
 +++++++++++++++++++++++++++++++++
@@ -399,19 +397,19 @@ the report.  The URL can be shared with other library staff who have reporter pe
 +
 image::images/report/report-output-4.png[]
 +
-If _Bar Charts_ or _Line Charts_ were selected in the output options and the data can be shown in those
-forms the bar or line chart will display.
+If _Bar Charts_ and/or _Line Charts_ were selected in the output options and the data can be shown in those
+forms the bar and/or line chart will display.
 +
 image::images/report/report-output-5.png[]
 +
+. Click on *Excel Output* or *CSV Output* to download the output as a file that can be opened in a 
+spreadsheet progam.  You will be prompted to open or save the the output file.
 . Click on *Tabular Output* to view the output in the browser.
 +
 The tabular output will display and can be sorted by clicking on a column heading.
 +
 image::images/report/report-output-6.png[]
-+
-. Click on *Excel Output* or *CSV Output* to download the output as a file that can be opened in a 
-spreadsheet progam.  You will be prompted to open or save the the output file.
+
 
 Managing Reports
 ~~~~~~~~~~~~~~~~
