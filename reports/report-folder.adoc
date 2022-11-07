@@ -35,6 +35,7 @@ to help keep your reports organized and easier to find.
 
 To create a folder within _Templates_, _Reports_, or _Output_:
 
+. Go to *Administration -> Reports*.
 . In the _My Folders_ section click on the folder you would like to create a sub-folder in. You may 
 need to click on the arrows to expand the relevant folder tree.
 +
@@ -84,6 +85,7 @@ Clicking the arrow in front of a folder name displays its sub-folders.
 Once a folder has been created, you can change the name, delete the folder, create a new sub-folder, or 
 change the sharing settings. 
 
+. Go to *Administration -> Reports*.
 . In the _My Folders_ section click on the name of the folder that you wish to manage.
 . Click *Manage Folder*.
 +
@@ -116,6 +118,7 @@ Sharing Your Folders
 
 Folders can be set as shared when they are created or updated afterwards.
 
+. Go to *Administration -> Reports*.
 . In the _My Folders_ section click on the name of the folder that you wish to share.
 . Click *Manage Folder*.
 +
@@ -164,6 +167,7 @@ Hiding Your Folders
 
 Folders are hidden by default.  Folders that have been shared can be hidden.
 
+. Go to *Administration -> Reports*.
 . In the _My Folders_ pane click on the name of the folder that you wish to hide.
 . Click *Manage Folder*.
 +
