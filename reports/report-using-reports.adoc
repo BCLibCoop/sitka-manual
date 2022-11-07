@@ -425,8 +425,8 @@ The tabular output will display and can be sorted by clicking on a column headin
 image::images/report/report-output-6.png[]
 
 
-Managing Reports Data
-~~~~~~~~~~~~~~~~~~~~~
+Managing Reporter Data
+~~~~~~~~~~~~~~~~~~~~~~
 
 Once saved report templates, definitions, and output will stay in the Sitka database forever unless 
 deleted. When a template or report definition is deleted all the linked definitions and output
@@ -485,15 +485,71 @@ output. Click *OK*.
 
 [NOTE]
 ======
-If another user has run a report using your template you will not able to delete your template.  This is
-why it is important to clone templates into your own folders before running a report.
+If you have shared your template and another user has run a report using your template you will not 
+able to delete your template.  This is why it is important for all users to clone templates into their 
+own folders before running reports.
 ======
 
 Viewing Report Definitions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+You can view the report definitions for the reports you've run.  This can be helpful if you need to check
+what values you entered in for the filters.
+
+. Go to *Administration* -> *Reports*
+. In the _My Folders_ section click on the arrow beside the _Reports_ folder to see your 
+reports folders. Continue to use the arrows to expand the folder tree until you find the folder containing
+the report you would like to view.
++
+image::images/report/reports-view-report-def-1.png[]
++
+. Click on the folder name to display the contents.
++
+image::images/report/reports-view-report-def-2.png[]
++
+. Click the *View* link beside the report definition you would like to view.
++
+image::images/report/reports-view-report-def-3.png[]
++
+. The report definition will display and you can view the information that was entered.  The fields are
+grayed out as they cannot be edited from this screen.
++
+image::images/report/reports-view-report-def-4.png[]
+
+
 Editing Report Definitions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You can edit the report definitions for reports you've run.  This can be helpful if you want to run a 
+new report will a slight change or need to change the parameters of a recurring report.
+
+Generating a New Report
++++++++++++++++++++++++
+
+. Go to *Administration* -> *Reports*
+. In the _My Folders_ section click on the arrow beside the _Reports_ folder to see your 
+reports folders. Continue to use the arrows to expand the folder tree until you find the folder containing
+the report you would like to view.
++
+image::images/report/reports-view-report-def-1.png[]
++
+. Click on the folder name to display the contents.
++
+image::images/report/reports-view-report-def-2.png[]
++
+. Click the *Edit* link beside the report definition you would like to view.
++
+image::images/report/reports-edit-report-def-1.png[]
++
+. The report definition will display and you can edit the values entered as desired.
+. Click *Save As New* to run a new report with the new values.
++
+image::images/report/reports-edit-report-def-2.png[]
+
+
+Updating a Recurring Report
++++++++++++++++++++++++++++
+
 
 Deleting Report Definitions and Output
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
