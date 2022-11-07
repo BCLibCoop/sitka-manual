@@ -313,35 +313,105 @@ Viewing Report Output
 
 link:https://youtu.be/SeAiy3jBVGg[*Viewing Report Output (2:08)*]
 
+Once a report is finished, the output is stored in the specified _Output_ folder and will remain there until
+manually deleted. If an email address was included in the report definition Evergreen will send an
+email containing a link to the password-protected report output.
+ 
+Only staff members with permissions to view reports or full access to the reporter will be able to 
+open the report output in either the staff client or via the email link. Staff who only need to view report
+output must first to fill out the 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/all-staff-reporter-privacy-waiver/[All
+Staff Reporter Privacy Waiver].
+
+Unless you have set a specific run time reports generally take about 5 minutes to complete.  If your 
+report still shows as pending in the your output folder after 15 minutes please 
+contact https://bc.libraries.coop/support/[Co-op Support].
+
+
 Viewing Output via the Reporter
 +++++++++++++++++++++++++++++++
 
-Once a report is finished, the output is stored in the specified Output folder and will remain there until
-manually deleted. Evergreen sends an email with a link to the output if an email address(s) is supplied
-when the report was set up.
-
-. To view the report output in the staff client, open the reports module from
-*Administration* -> *Reports*.
-. Click on the arrow in front of *Output* to expand the folder. Click on *Circulation* (where you just saved the circulation report output) to display the output files in the right pane.
-. Select the check box in front of *Sept 2018 circ stat*. *View report output* is the default selection in the drop down menu. Click *Submit*.
+. Go to *Administration* -> *Reports*.
+. In the _My Folders_ section click on the arrow beside the _Output_ folder to see your output folders. 
+Continue to use the arrows to expand the folder tree until you find the folder containing the 
+output you'd like to view. 
 +
-image::images/report/output-1.png[]
+image::images/report/report-output-1.png[]
 +
-. A new tab will open for the report output. Select either Tabular Output or Excel Output. If Bar Charts was
-selected during report definition the chart will also appear.
+. Click on the folder name to display the contents.
 +
-image::images/report/output-2.png[]
+image::images/report/report-output-2.png[]
 +
-. Below is what the tabular output looks like. If needed, click *Back to output index* to select another output
-format.
+. Check the box beside the output you would like to view.
+. *View report output* will be selected by default.  Click *Submit*.
 +
-image::images/report/output-3.png[]
+image::images/report/report-output-3.png[]
 +
-. If you want to manipulate, filter or graph this data, Excel output would be more useful. Click on Excel Output, you will be prompted to open or save the the output file.
+. The report output will open in a new browser window.
++
+The report name and description will display as well as links to the output options selected when running
+the report.  The URL can be shared with other library staff who have reporter permissions.
++
+image::images/report/report-output-4.png[]
++
+If _Bar Charts_ or _Line Charts_ were selected in the output options and the data can be shown in those
+forms the bar or line chart will display.
++
+image::images/report/report-output-5.png[]
++
+. Click on *Tabular Output* to view the output in the browser.
++
+The tabular output will display and can be sorted by clicking on a column heading.
++
+image::images/report/report-output-6.png[]
++
+. Click on *Excel Output* or *CSV Output* to download the output as a file that can be opened in a 
+spreadsheet progam.  You will be prompted to open or save the the output file.
 
 Viewing Output via the Email Link
 +++++++++++++++++++++++++++++++++
 
+. In your email program open the email with the subject _Report finished: Your report name - template used"_.
+. The body of the email will include the run time, the name of the report, the name of the template used 
+for the report, URL for accessing the report, and in some cases a URL for documentation related to 
+the report template.
++
+Click on the report URL.
++
+image::images/report/report-output-email-1.png[]
++
+. A pop up will appear asking for your Evergreen staff username and password. Enter your credentials
+and click *Sign In*.
++
+image::images/report/report-output-email-2.png[]
++
+[NOTE]
+======
+Opening subsequent report URLs will not prompt for an additional sign in until the browser is closed.
+
+Staff accounts without permissions to use the reporter or view report output will not be able to sign in.
+======
++
+. The report output will open in a new browser window.
++
+The report name and description will display as well as links to the output options selected when running
+the report.  The URL can be shared with other library staff who have reporter permissions.
++
+image::images/report/report-output-4.png[]
++
+If _Bar Charts_ or _Line Charts_ were selected in the output options and the data can be shown in those
+forms the bar or line chart will display.
++
+image::images/report/report-output-5.png[]
++
+. Click on *Tabular Output* to view the output in the browser.
++
+The tabular output will display and can be sorted by clicking on a column heading.
++
+image::images/report/report-output-6.png[]
++
+. Click on *Excel Output* or *CSV Output* to download the output as a file that can be opened in a 
+spreadsheet progam.  You will be prompted to open or save the the output file.
 
 Managing Reports
 ~~~~~~~~~~~~~~~~
