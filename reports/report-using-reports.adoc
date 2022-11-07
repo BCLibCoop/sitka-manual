@@ -12,6 +12,7 @@ REPORTER WORKFLOW GOES HERE
 Cloning Report Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
+////
 [CAUTION]
 =========
 Cloning templates created on the old staff client (XUL in ui column) may not work perfectly. You 
@@ -19,9 +20,13 @@ may need to remove, then put back some fields during cloning.
 
 IS THIS STILL TRUE?
 =========
+////
 
 
 link:https://youtu.be/0F0dulXsUKw[*Cloning Reports and Sitka Templates (2:35)*]
+
+In Evergreen reports are run from templates that be used multiple times.  Library staff can create their
+own templates or clone templates from other users.
 
 In order to clone a report template you must have already created at least one template folder.  See
 xref:_creating_folders[].
@@ -45,7 +50,7 @@ image::images/report/clone-report-template-3.png[]
 [TIP]
 =====
 By default Evergreen only displays the first 10 items in any folder. To view all content,
-change the _Limit output to_ setting from 10 to All.
+change the _Limit output to_ setting from _10_ to _All_.
 =====
 +
 . Click on the name of your folder where you'd like to save the cloned template and then 
@@ -110,19 +115,20 @@ image::images/report/reports-run-5.png[]
 +
 image::images/report/reports-run-6.png[]
 +
-. Enter values for any filters.  For more information on filter value see 
+. Enter values for any filters.  For more information on filter values see 
 xref:_report_filters[].
 +
 image::images/report/reports-run-7.png[]
 +
 . Check the boxes to select the types of output you would like.
-. Check the _Calculate grouping subtotals_ check box to add an unlabeled row or column 
++
+Check the _Calculate grouping subtotals_ check box to add an unlabeled row or column 
 with the subtotals for each grouping and an unlabeled grand total row or column. Please note group 
 subtotals and grand totals will only be useful with some reports.
 +
 image::images/report/reports-run-8.png[]
 +
-. Leave the recurring and run time options at as is unless you are running a recurring report.  See
+. Leave the recurring and run time options as is unless you are running a recurring report.  See
 xref:_recurring_reports[].
 +
 image::images/report/reports-run-9.png[]
@@ -135,7 +141,7 @@ image::images/report/reports-run-10.png[]
 +
 [NOTE]
 ======
-The email will contain a link to a password-protected report output. 
+The email will contain a link to the password-protected report output. 
 Only staff members with permissions to view reports or full access to the reporter will be able to 
 open the report output. Staff who only need to view report
 output must first to fill out the 
@@ -183,30 +189,61 @@ Recurring Reports
 
 link:https://youtu.be/WS6vRrpqIZY[*Recurring Reports (3:02)*]
 
-Recurring reports are a useful way to save time by scheduling reports that you run on a regular basis, such as 
-monthly circulation and monthly patron registration statistics. When you have set up a report to run on a 
-monthly basis, you may request an email informing you that the report has successfully run. You can click on 
-the link in the email that will take you directly to the report output. You can also access the output through 
-the Reports interface as described in xref:_viewing_report_output[].
+Recurring reports are a useful way to save time by scheduling reports that you run on a regular basis to 
+run automatically. Monthly circulation and patron registration statistics are good candidates for recurring
+reports.
+
+Staff with access to the reporter can set up recurring reports to email a link to the password-protected 
+report output to another staff member. Staff who only need to view report
+output must first to fill out the 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/all-staff-reporter-privacy-waiver/[All
+Staff Reporter Privacy Waiver].
+
+
+To set up a recurring report, follow the procedure in xref:_running_a_report[] until you reach
+step 12 and then substitute the below steps.
  
-To set up a monthly recurring report, follow the procedure in xref:_generating_reports_from_templates[], but make the 
-changes described below.
- 
-. Select the *Recurring Report* check-box and set the *Recurrence Interval* to 1 month.
-. Do *not* select *Run as soon as possible*. Instead, schedule the report to run early on the first day of next month. 
-Enter the date in YYYY-MM-DD format.
+. Check the box for *Recurring Report*.
+. Select your desired _Recurrence Interval_. Reports can run on a daily, weekly, or monthly interval.
+. Check the box beside the date and set the date of the first run of the report.
 +
-image::images/report/recurring-1.png[]
+[NOTE]
+======
+Best practice is to always set recurring reports to run in the early hours
+of the morning (1:00am PT to 4:00am PT).
+
+Monthly recurring reports MUST be set to run on the 1st of the next month in order to capture all monthly
+data.
+======
 +
-. Ensure there is an email address to receive completion emails. You will receive an email completion notice 
-each month when the output is ready.
-. Select a folder for the report's output.
-. Click *Save Report*.
-. You will get a confirmation dialogue box that the Action Succeeded. Click OK.
+image::images/report/reports-recurring-1.png[]
++
++
+. Enter an email address to send the report completion notification to.  By default this 
+field will contain the email address saved in your staff account. Additional addresses can be added 
+separated by a comma.
++
+image::images/report/reports-run-10.png[]
++
+[NOTE]
+======
+The email will contain a link to the password-protected report output. 
+Only staff members with permissions to view reports or full access to the reporter will be able to 
+open the report output. Staff who only need to view report
+output must first to fill out the 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/all-staff-reporter-privacy-waiver/[All
+Staff Reporter Privacy Waiver].
+======
++
+. Choose the Ouput folder you would like to save the report output in and then click *Save Report*.
++
+image::images/report/reports-run-11.png[]
++
+. A pop-up appears confirming the report has been saved. Click *OK*.
+. Unless you have set a specific run time the report will run right away.  If your report has not 
+completed after 15 minutes please contact https://bc.libraries.coop/support/[Co-op Support].
+. Once the report is complete you can view your output.  See xref:_viewing_report_output[]. 
  
-With the above settings, you will get an email on the first day of each month with a link to the report 
-output. By clicking this link it will open the output in a web browser. It is still possible to login to 
-the staff client and access the output in Output folder.
 
 [TIP] 
 =====
