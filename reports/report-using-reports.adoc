@@ -162,9 +162,9 @@ Report Filters
 ++++++++++++++
 
 The filters in a report template allow library staff to set the parameters on which the report runs. The
-ability to select values for certain filters means a single report template can be used multiple
-times to generate reports on slightly different data.  For example, the same report template can be 
-used to generate separate lists of items using particular circulation modifiers.
+ability to select values for certain filters when running a report means a single report template can 
+be used multiple times to generate reports on slightly different data.  For example, the same report 
+template can be used to generate separate lists of items using particular circulation modifiers.
 
 Hardcoded filters are set when the report template is created.  These filters cannot be changed when 
 running a report. Common hardcoded filters include:
@@ -186,19 +186,45 @@ fines because they have been set to lost.
 |ILS User -> Is Deleted |Raw Data |Equals |f | Include only un-deleted patrons.
 |===
 
-Date Filters
-Library filters
+Date filters are generally set up to be a specific date, a specific month, or a date range. Date filters
+will often include tips about how the dates should be entered. For instance, in a date range the earlier
+date should always be entered in the first date box.
++
+image::images/report/reports-filters-1.png[]
++
+If you'd like to include all possible data for your library in a report that specifies a time range, 
+enter between "1900-01-01" and "today's date".
+
+When running recurring reports it's very important to use _Relative Dates_ in your filters.  This will
+allow Evergreen to calculate the time period to report on each time it runs the report. A relative date of
+1 month ago will generate a new report each month on the previous month's data; a real date of November
+2022 will generate the same report each month with the data from November 2022.
+
+Use the drop down menu to switch from _Real Date_ to _Relative Date_.  For a report filtering on month, you 
+will be able to indicate how many months ago the report should look at.  
++
+image::images/report/reports-filters-2.png[]
+
+All report templates run by libraries will include a library filter.  This filter can look at the the 
+library specified in a variety of fields in the data including the checkout library, circulation library,
+owning library, patron's home library, and organizational unit. 
++
+image::images/report/reports-filters-3.png[]
++
+This filter is important as it allows 
+staff to comply with Sitka's data requirements as per 
+https://ln.sync.com/dl/ca731e4e0/view/doc/7839812630003#bw5v92du-w6q5j6uj-szy6shez-smwueqdv[Appendix J 
+of the Service Management Agreement]
+and restrict the data in the report output to only data relevant to their library.
 
 
 
-Select values for the Circulation > Check Out Date/Time. Use the calendar widget to choose or manually enter the
-desired date (always in YYYY-MM or YYYY-MM-DD format).
+
 +
 The Transform for this field is Year + Month, so even if you choose a specific date (2018-09-20) it will
 appear as the corresponding month only (2018-09).
 
-Select a value for the Checkout/Renewal Library on the Organizational Unit list, 
-then click Add. You may add more than one library. You may use CTRL or SHIFT plus mouse click to select multiple libraries, then click Add, too.
+
 
 [TIP]
 =====
@@ -208,8 +234,7 @@ number prefix; for a field transformed to Count you need to give an integer. See
 * *Action* corresponds to *Operator* used for filter fields. It specifies how the given value will be compared
 with the field value. See xref:template_terminology[] for more on Operators.
 * When creating a report, you may disable an unwanted filter in the template by choosing an appropriate
-value for it. For example, if a template lists items created within a time frame, specify a time frame
-between "1900-01-01" and "today" to cover the whole collection; select all copy statuses on the list to
+value for it. For example, ; select all copy statuses on the list to
 bypass the filter on item status.
 * If the calendar widget is not provided for a date filter, key in the date in format yyyy-mm-dd.
 =====
@@ -217,12 +242,7 @@ bypass the filter on item status.
 
 * Always use relative date for recurring reports. Date is a filter on nearly every template. When setting up 
 a recurring report, always choose *Relative Date*, instead of Real Date for any date filter on the report 
-creating screen. When using relative date the actual date will be calculated when the report runs. Unlike a 
-real date, the actual value of relative date is adjusted according to the run time. For example, if the report 
-runs at 2018-10-10 04:00, a relative date transformed to YYYY-MM of "1 month ago" will be Sept, 2018; while a 
-relative date transformed to YYYY-MM-DD of '1 day ago" will be 2018-10-09. When it runs at 2018-11-10 04:00 
-"1 month ago", it will be Oct, 2018, while "1 day ago" will be 2018-11-10. The date goes by calendar day 
-or month.
+creating screen. 
 +
 If you use Real Date, you will have the same result every time, as the report is always generated based on the same condition.
 + 
