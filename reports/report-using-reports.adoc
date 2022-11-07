@@ -164,11 +164,31 @@ Report Filters
 The filters in a report template allow library staff to set the parameters on which the report runs. The
 ability to select values for certain filters means a single report template can be used multiple
 times to generate reports on slightly different data.  For example, the same report template can be 
-used to generate separate lists of items using a particular circulation modifier.
+used to generate separate lists of items using particular circulation modifiers.
 
-Hardcoded filters
+Hardcoded filters are set when the report template is created.  These filters cannot be changed when 
+running a report. Common hardcoded filters include:
+
+
+[options="header"]
+|===
+|Column |Transform |Action |User Params |Description 
+|Bibliographic Record -> Record ID |Raw Data |Not in list |-1 | Exclude all records where
+the bibliographic record ID is -1 which is all pre-cat records.
+|Call Number/Volume -> Call Number/Volume ID |Raw Data |Not in list |-1 | Exclude all records where
+the call number ID is -1 which is all pre-cat records.
+|Circulation -> Check In Date/Time |Date |Is NULL| |Include only items that have not been checked in.
+|Circulation -> Circulating Item -> Copy Status -> Name |Raw Data |Equals | name of an item status | Include
+only items that are in the specified item status.
+|Circulation -> Fine Stop Reason |Raw Data |Not in list |LOST | Exclude items that have stopped generating
+fines because they have been set to lost.
+|Item -> Is Deleted |Raw Data |Equals |f | Include only un-deleted items.
+|ILS User -> Is Deleted |Raw Data |Equals |f | Include only un-deleted patrons.
+|===
+
 Date Filters
 Library filters
+
 
 
 Select values for the Circulation > Check Out Date/Time. Use the calendar widget to choose or manually enter the
