@@ -198,58 +198,46 @@ enter between "1900-01-01" and "today's date".
 When running recurring reports it's very important to use _Relative Dates_ in your filters.  This will
 allow Evergreen to calculate the time period to report on each time it runs the report. A relative date of
 1 month ago will generate a new report each month on the previous month's data; a real date of November
-2022 will generate the same report each month with the data from November 2022.
+2022 will generate the same report each month with the data from November 2022.  
+
+[TIP]
+=====
+You can set up recurring monthly reports to show comparative data from one year ago. To do this 
+select relative dates of 1 month ago and 13 months ago.
+=====
 
 Use the drop down menu to switch from _Real Date_ to _Relative Date_.  For a report filtering on month, you 
 will be able to indicate how many months ago the report should look at.  
 +
 image::images/report/reports-filters-2.png[]
 
-All report templates run by libraries will include a library filter.  This filter can look at the the 
+
+All report templates used by libraries will include a library filter.  This filter can look at the 
 library specified in a variety of fields in the data including the checkout library, circulation library,
 owning library, patron's home library, and organizational unit. 
 +
 image::images/report/reports-filters-3.png[]
 +
 This filter is important as it allows 
-staff to comply with Sitka's data requirements as per 
+staff to comply with Sitka's data use requirements as per 
 https://ln.sync.com/dl/ca731e4e0/view/doc/7839812630003#bw5v92du-w6q5j6uj-szy6shez-smwueqdv[Appendix J 
-of the Service Management Agreement]
-and restrict the data in the report output to only data relevant to their library.
-
-
-
-
+of the Service Management Agreement] and restrict the data in the report output to only data relevant 
+to their library.
 +
-The Transform for this field is Year + Month, so even if you choose a specific date (2018-09-20) it will
-appear as the corresponding month only (2018-09).
+Multi-branch libraries can add specific branches or all of their branches to the list to get a report 
+including data from the select branches.
 
-
-
-[TIP]
-=====
-* The required value for filters should be in a format corresponding to the data transform. For example,
-for a call number field transformed to First Continuous Non-space string, you need to put in the call
-number prefix; for a field transformed to Count you need to give an integer. See xref:template_terminology[] for more on Data Transforms.
-* *Action* corresponds to *Operator* used for filter fields. It specifies how the given value will be compared
-with the field value. See xref:template_terminology[] for more on Operators.
-* When creating a report, you may disable an unwanted filter in the template by choosing an appropriate
-value for it. For example, ; select all copy statuses on the list to
-bypass the filter on item status.
-* If the calendar widget is not provided for a date filter, key in the date in format yyyy-mm-dd.
-=====
-
-
-* Always use relative date for recurring reports. Date is a filter on nearly every template. When setting up 
-a recurring report, always choose *Relative Date*, instead of Real Date for any date filter on the report 
-creating screen. 
+While many filters will require staff to select values from a given list, some filters will require staff to 
+type a value into the filter filter _User Params_ field. In those cases the report will generally indicate
+how the text should be entered so that Evergreen can use the value and generate usable report output.
 +
-If you use Real Date, you will have the same result every time, as the report is always generated based on the same condition.
-+ 
-image::images/report/recurring-2.png[]
+image::images/report/reports-filters-4.png[]
+
+Some report templates will have just hardcoded filters and a single library filter that requires 
+staff to enter a value while other reports will have multiple filters where staff need to enter values
+for the library, dates, and patron or item data.
 +
-* Once you have been on Evergreen for a year, you can set up your recurring monthly reports to show 
-comparative data from one year ago. To do this select relative dates of 1 month ago and 13 months ago.
+image::images/report/reports-filters-5.png[]
 
 Recurring Reports
 +++++++++++++++++
