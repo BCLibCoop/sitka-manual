@@ -127,6 +127,12 @@ Here you will find templates to use to gather circulation statistics for particu
 including hourly, done via the staff client, self check machines, and public catalogue (renewals).
 
 .Key templates are:
+* _By Copy Circulating Library : Circ count within time frame_
+* _By Day of Week : Circ Count within Time Frame_
+* _By SelfCheck (Evergreen SelfChek Module): Circ Stats within Time Frame_
+* _By SelfCheck (non-Evergreen SelfCheck Module) : Circ Stats within Time Frame_
+* _Circulation Return Count by Checkin Scan Hour at Selected Workstations_
+* _Count of Circulations and Unique Borrowers by Hour of Day within Time Frame_
 
 Overdue and others
 ++++++++++++++++++
