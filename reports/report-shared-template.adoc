@@ -255,20 +255,101 @@ know and we can remove them for you to help keep the templates in that folder up
 Holds
 ^^^^^
 
+Here you will find templates that will give you counts and lists related to holds.
+
+.Key templates are:
+* _Long-time Unfulfilled Holds (with Eligible Copy Status Info, excl. holds without eligible copy) (clone)_
+* _Monthly Cancelled Holds Count by Cancelation Cause_
+* _Monthly Fulfilled Holds Count_
+* _Monthly Total Holds Placed by Staff and Patrons_
+* _Suspended Holds (holds without expiration date)_
+* _Unfulfilled & Uncancelled ILC Holds Placed within Time Span_
+
 Intra-federation ILL Stats
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Here you will find templates to track interlibrary loans done via Interlibrary Connect within Evergreen.  
+These templates are relavant to libraries participating in BC ILC, Sea to Sky ILC, or Spruce ILC.
+
+.Key templates are:
+* _LIBRARY: Inbound ILC holds count for selected month_
+* _LIBRARY: Outbound ILC holds count for selected month_
 
 Inventory
 ^^^^^^^^^
 
+Here you will find two templates to assist you in running inventory at your library.
+
+* _Inventory - Scanned Items Count by Shelving Location (NEW)_ - this template gives you a count of 
+all items scanned in the specified period, broken down by shelving location.
+* _Inventory - Un-scanned Items_ - this template gives a list of all items not scanned in the specified
+time period, with the option to filter the results based on specific item statuses and shelving locations.
+
 Library Configuration
 ^^^^^^^^^^^^^^^^^^^^^
+
+Here you will find templates that can be used to display information about how circulation and hold
+policies are configured for your library.  Some of the templates duplicate information that can be
+viewed directly in the staff client but is easier to view as report output.
+
+.Key templates are:
+* _Circulation Policies by Checkout Library_
+* _Circulation Policies filtering by copy circ lib_
+* _Hold Policies by Item's Owning Library_
+* _Hold policy by pickup library (ILC participants: please select your federation, too)_
 
 Misc.
 ^^^^^
 
+Here you will find templates that don't fit in any other category.
+
 Patrons
 ^^^^^^^
+
+The _Patrons_ folder contains templates primarily concerned with your patrons.  Templates have
+been divided into the following sub-folders.
+
+Patron Count
+++++++++++++
+
+Here you will find templates that count patrons whose home library is your library.
+
+.Key templates are: 
+* _Active (having circ history) Patron Count by Patron Home Library and Profile_
+* _Active (having circ history) Patron Count by Patron Home Library, Profile and Stat Cat_
+* _Patron Count by Profile Group then by one Stat Cat_
+* _Total Patron Count_
+ 
+
+Patron List
++++++++++++
+
+Here you will find templates that give you lists of patrons that meet the specified criteria.  You can 
+get lists based on shelving locations, item statuses, circulation modifiers, statistical categories,
+ item alerts, barcode prefixes, and more.  Some of the templates filter on more than one item attribute
+ enabling you to get exactly the items you're looking for.
+ 
+.Key templates are:
+* _Patron List by Expiration Date_
+* _Patron List with Full Details by Profile Groups_
+* _Patrons without circulation after a selected date (Inactive patrons)_
+
+Newly Registered/Opted-in Patrons
++++++++++++++++++++++++++++++++++
+
+Here you will find templates that allow to generate a count or a list of patrons who have registered or
+opted-in to your library in a specified time period.
+
+.Key templates are:
+* _Count of New Patrons Registered within a Time Frame by Profile Group then by Stat Cat_
+* _List of f New Patrons Registered within Time Frame_
+* _Monthly Patron Registration_
+* _Opted-in Patron Count within Time Frame_
+
+
+
+Others
+++++++
 
 Serials
 ^^^^^^^
