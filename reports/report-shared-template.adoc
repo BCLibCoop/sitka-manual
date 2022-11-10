@@ -25,6 +25,10 @@ When using Sitka templates it is critical that you first xref:_cloning_a_report_
 
 Reports run directly from Sitka templates cause problems for Co-op Staff when templates need to be updated
 or retired.
+
+If you encounter issues running a report cloned from Sitka templates please contact 
+https://bc.libraries.coop/support/[Co-op Support] with the name of the template and the folder you 
+cloned it from.
 ======
 
 
@@ -52,7 +56,8 @@ Bibliographic Records
 ^^^^^^^^^^^^^^^^^^^^^
 
 Here you will find templates that generate lists of bibliographic records, usually with the record ID
-included in the output.
+included in the output.  In general it is not easy to generate reports based on bibliographic data based
+on the bibliographic record structure; this limits the templates that are available.
 
 .Key templates are:
 * _List of items with selected item_type value in MARC leader_
@@ -76,8 +81,85 @@ with bill balances meeting specified criteria.
 Bookings
 ^^^^^^^^
 
+Here you will find templates to give you information about overdue reservations, reservations starting after
+a particular day, cancelled reservations and more.
+
+.Key templates are:
+* _All Reservations Starting After a Certain Day with Return Time_
+* _List of Reservations Cancelled within Time Span_
+* _Overdue Reservation Within Time Span_
+* _Overdue Reservations (New)_	
+
+The _Bookings_ sub-folder _Monthly Stats_ contains templates for gathering montly statistics on bookings.
+
+.Key templates are:
+* _Total Reservations (Monthly) by Barcode_
+* _Total Reservations (Monthly) by Patron Type_
+* _Total Reservations Cancelled (Monthly)_
+* _Total Reservations Picked Up (Monthly)_
+
 Circulation
 ^^^^^^^^^^^
+
+The _Collections_ folder contains templates primarily concerned with circulations.  Templates have
+been divided into the following sub-folders.
+
+Monthly Circulation Stats
++++++++++++++++++++++++++
+
+Here you will find templates to use for gathering monthly circulation statistics for circulations done via
+the staff client, the public catalogue (renewals), and Evergreen's self check.  
+
+The templates that you clone from this folder can be set up as monthly 
+xref:_recurring_reports[recurring reports] so staff don't need to manually run them every month.
+
+.Key templates are:
+* _By SelfCheck (Evergreen SelfChek Module): Circ Stats within Time Frame (by Month)_
+* _Monthly Circulation by Patron Home Library_
+* _Monthly Circulation by Circulation modifier (New 3.1)_
+* _Monthly Circulation by Shelving Location (New 3.1)_ 
+* _Monthly Pre-Cat Circulation Count_
+
+Circulation within time frame
+++++++++++++++++++++++++++++
+
+Here you will find templates to use to gather circulation statistics for particular periods of time,
+including hourly, done via the staff client, self check machines, and public catalogue (renewals).
+
+.Key templates are:
+
+Overdue and others
+++++++++++++++++++
+
+Here you will find templates that will give lists of items in a particular state of circulation.  Many of
+these templates include patron information in the display fields to assist staff in following up with 
+the applicable patrons.
+
+.Key templates are:
+* _Claimed Returned Items belonging to Selected Libraries (by copy status change date)_
+* _Lost-with-Bills Item List (Owned by Selected Libraries) (x Months ago) (New 3.1)_
+* _Overdue Items Checked out at Other Libraries_ - helps track your items borrowed by another library
+* _Overdues Within Time Span -Phone List for Patrons without Email (based on Checkout Library)_
+* _Overdues Within Time Span - General (Based on Checkout Library)_
+
+In-house use stats
+++++++++++++++++++
+
+Here you will find templates that specifically report on data captured through Evergreen's 
+xref:_in_house_use[In-House Use] interface.
+
+.Key templates are:
+* _Monthly In-house Use by Shelving Location - Regular Items_
+* _Title List with In-house Use Count by Shelving Location - Regular Items_
+
+Circulation of non-catalogued items
++++++++++++++++++++++++++++++++++++
+
+Here are templates for libraries that use xref:_non_catalogued_items[non-catalogued items] in Evergreen.
+
+.Key templates are:
+* _Circulation count of non-catalogued items by item type within time frame (converted from XUL) (clone)_
+* _Monthly Circulation count of non-catalogued items by item type (converted from XUL) (clone)_
 
 Collection
 ^^^^^^^^^^
