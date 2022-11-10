@@ -8,15 +8,15 @@ reporter. The username of the account is Sitka_templates.
 image::images/report/report-sitka-template-1.png[]
 
 Sitka templates are designed to be used by any Sitka library and so will often include more filter options or
-display columns than a particular library needs.  Library staff can modify the templates to customize 
+display columns than a particular library may need.  Library staff can modify the templates to customize 
 them for their library's needs.
 
-We recommend reviewing the shared Sitka templates before creating your own templates or contacting 
-Co-op Support for reports assistance.  Even if the exact template you need doesn't exist, you can 
+We recommend reviewing the shared Sitka templates before contacting Co-op Support for reports assistance or 
+creating your own templates.  Even if the exact template you need doesn't exist, you can 
 usually find an existing one that is close to what you need which can be then be modified.
 
-Library staff can also access custom template created for their library by Co-op Staff through the 
-Sitka_templates folder.
+Library staff can also access xref:_custom_templates[custom templates] created for their library by 
+Co-op Staff through the Sitka_templates folder.
 
 [NOTE]
 ======
@@ -40,7 +40,7 @@ Acquisitions
 ^^^^^^^^^^^^
 
 The _Acquisitions_ folder contains a number of sub-folders which divide the report templates across
-the different parts of the acquisitions module.
+the different parts of the acquisitions module. 
 
 .Key templates are:
 * _Fund Report by Year_ (Funds)
@@ -51,8 +51,27 @@ the different parts of the acquisitions module.
 Bibliographic Records
 ^^^^^^^^^^^^^^^^^^^^^
 
+Here you will find templates that generate lists of bibliographic records, usually with the record ID
+included in the output.
+
+.Key templates are:
+* _List of items with selected item_type value in MARC leader_
+* _Title, bib id and URL list of records with 856$9 = library shortname code (clone)_
+
 Bills Payments
 ^^^^^^^^^^^^^^
+
+Here you will find templates related to billing and payments.  These templates can be used to track
+down balances, get totals of payments made in specific time periods as well as generate lists of patrons 
+with bill balances meeting specified criteria.
+
+.Key templates are:
+* _Open Bills with Negative Balance by Billing Location_
+* _Patrons with bill balance incurred at selected libraries within time frame_
+* _Patrons with bill balance incurred at selected libraries within time frame, balance exceeding a threshold_
+* _Snapshot of total billing balance incurred at selected libraries_
+* _System Adjustment: Lost Item Returned_
+* _Total cash payments on fines incurred on circulations done within time frame on items owned by selected libraries_
 
 Bookings
 ^^^^^^^^
