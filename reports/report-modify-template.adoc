@@ -1,8 +1,6 @@
 Modifying Report Templates
 --------------------------
 
-This page will talk about how to modify existing templates
-
 Once saved, it is not possible to edit a template. To make changes, clone the template and change the clone.
 
 To modify a template, repeat the steps 1-6 in cloning a template. You will see the template open on Template Creating screen. Here you can add/remove/edit fields as when you create a new template.
@@ -26,3 +24,5 @@ You may add fields. See xref:_creating_templates[] for details on operating on f
 
 CAUTION: You can not change the starting source table, but have to follow the links to tables in the Sources
 pane. Changing the starting table will remove all existing fields, meaning building a new template from scratch.
+
+

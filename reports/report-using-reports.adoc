@@ -3,7 +3,8 @@ Using the Reporter
 
 The basic steps to using Evergreen's reporter are:
 
-. Clone a template from another user or Sitka_templates
+. Find the template
+.. Clone it into your folders if it was created by another user
 . Run the report, also referred to as creating a report definition
 . View your output either through the staff client or via your email
 
@@ -24,15 +25,15 @@ IS THIS STILL TRUE?
 
 link:https://youtu.be/0F0dulXsUKw[*Cloning Reports and Sitka Templates (2:35)*]
 
-In Evergreen reports are run from templates that be used multiple times.  Library staff can create their
+In Evergreen reports are run from templates that can be used multiple times.  Library staff can create their
 own templates or clone templates from other users.
 
-In order to clone a report template you must have already created at least one template folder.  See
-xref:_creating_folders[].
+The steps below assume you have already created at least one folder in _Templates_.  If you have not 
+done so, please see xref:_creating_folders[].
 
 . Go to *Administration* -> *Reports*
 . In the _Shared Folders_ section click on the arrow beside the _Templates_ folder to see the shared
-template folders. Continue to use the arrows to expand the folder tree until you find the folder containing
+template folders. Use the arrows to expand the folder tree until you find the folder containing
 the template you would like to clone.
 +
 image::images/report/clone-report-template-1.png[]
@@ -75,14 +76,13 @@ Running a Report
 
 link:https://youtu.be/9N22UxqOQlY[*Running a Report (4:25)*]
 
-Through the reporter you can run one off reports right away as well as set up recurring reports that
-automatically run on the interval you choose.  To run the report you fill out the reports form which
-creates a report definition, which tells Evergreen how to run the report, what information to include,
-and what type of output to provide you with.
+You can run one off reports on demand or schedule recurring reports to run automatically.  To run the 
+report you fill out the reports form which creates a report definition, which tells Evergreen how to run 
+the report, what information to include, and what type of output to provide you with.
 
 . Go to *Administration* -> *Reports*
 . In the _My Folders_ section click on the arrow beside the _Templates_ folder to see your 
-template folders. Continue to use the arrows to expand the folder tree until you find the folder containing
+template folders. Use the arrows to expand the folder tree until you find the folder containing
 the template you would like to use for your report.
 +
 image::images/report/reports-run-1.png[]
@@ -102,7 +102,7 @@ Optionally, enter a description for your report.
 +
 image::images/report/reports-run-4.png[]
 +
-. The report columns that will be on the report output are listed.
+. The display columns included in the output are listed as Report columns.
 +
 Pivot Label Column and Pivot Data Column are optional. Pivot tables are a different way to view data. If you
 currently use pivot tables in MS Excel it is better to select an Excel output and continue using pivot tables
@@ -132,7 +132,7 @@ xref:_recurring_reports[].
 +
 image::images/report/reports-run-9.png[]
 +
-. Optionally enter an email address to send the report completion notification to.  By default this 
+. Optionally, enter an email address to send the report completion notification to.  By default this 
 field will contain the email address saved in your staff account. Additional addresses can be added 
 separated by a comma.
 +
@@ -343,7 +343,7 @@ Viewing Output via the Reporter
 
 . Go to *Administration* -> *Reports*.
 . In the _My Folders_ section click on the arrow beside the _Output_ folder to see your output folders. 
-Continue to use the arrows to expand the folder tree until you find the folder containing the 
+Use the arrows to expand the folder tree until you find the folder containing the 
 output you'd like to view. 
 +
 image::images/report/report-output-1.png[]
@@ -425,10 +425,10 @@ The tabular output will display and can be sorted by clicking on a column headin
 image::images/report/report-output-6.png[]
 
 
-Managing Reporter Data
-~~~~~~~~~~~~~~~~~~~~~~
+Maintaining Reporter Data
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Once saved report templates, definitions, and output will stay in the Sitka database forever unless 
+Saved report templates, definitions, and output will stay in the Sitka database forever unless 
 deleted. When a template or report definition is deleted all the linked definitions and output
 files are also deleted.
 
@@ -440,8 +440,8 @@ link:https://youtu.be/1CGqlSApwBs[*Managing Reports (3:02)*]
 Maintaining Your Report Templates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-As Evergreen evolves from version to version sometimes what database table data is stored in changes prompting
-Co-op Staff to update the relevant templates in Sitka_templates.  To ensure Evergreen is gathering the 
+As Evergreen evolves from version to version the database tables sometimes change prompting Co-op Staff 
+to update the relevant templates in Sitka_templates.  To ensure Evergreen is gathering the 
 correct data it is important to review the templates you use on a yearly basis and clone new templates 
 from Sitka_templates when older versions of a template are retired.
 
