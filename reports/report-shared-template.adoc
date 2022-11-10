@@ -15,6 +15,9 @@ We recommend reviewing the shared Sitka templates before creating your own templ
 Co-op Support for reports assistance.  Even if the exact template you need doesn't exist, you can 
 usually find an existing one that is close to what you need which can be then be modified.
 
+Library staff can also access custom template created for their library by Co-op Staff through the 
+Sitka_templates folder.
+
 [NOTE]
 ======
 When using Sitka templates it is critical that you first xref:_cloning_a_report_template[clone the template]
@@ -28,12 +31,22 @@ or retired.
 What's in Sitka_templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The templates within the Sitka templates have been categorized into folder to make it easier for library staff 
-to find the template they need.
+The templates within the Sitka templates have been categorized into folders and sub-folders 
+to make it easier for library staff to find the templates they need.  The specific contents of the folders 
+change as Co-op Staff add, update, and remove templates as needed.
 
 
 Acquisitions
 ^^^^^^^^^^^^
+
+The _Acquisitions_ folder contains a number of sub-folders which divide the report templates across
+the different parts of the acquisitions module.
+
+Key reports are:
+* _Fund Report by Year_ (Funds)
+* _Line items that have been Invoiced but not Received_ (Line Items)
+* _Line items that have been Received but not Invoiced_ (Line Items)
+* _Orphaned Barcodes (items)_ (Line Items)
 
 Bibliographic Records
 ^^^^^^^^^^^^^^^^^^^^^
@@ -49,6 +62,16 @@ Circulation
 
 Collection
 ^^^^^^^^^^
+
+The _Collections_ folder contains templates primarily concerned with your collection.  Templates have
+been divided into the following sub-folders.
+
+Copy List by Item Attributes
+Copy and Title Count
+Others
+Title List
+
+
 
 Custom Templates
 ^^^^^^^^^^^^^^^^
