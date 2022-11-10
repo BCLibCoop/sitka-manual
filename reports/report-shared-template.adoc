@@ -1,12 +1,172 @@
 Shared Sitka Templates
 ----------------------
 
-Co-op Support has created report templates for commonly needed reports.  These templates are shared with
-all of Sitka can be found in the _Templates_ folder in the _Shared Folders_ section in Evergreen's reporter.
+Co-op Support has created ready-to-use report templates for commonly needed reports.  These templates are 
+shared with all of Sitka and can be found in the _Templates_ folder in the _Shared Folders_ section in Evergreen's 
+reporter. The username of the account is Sitka_templates. 
 
 image::images/report/report-sitka-template-1.png[]
 
+Sitka templates are designed to be used by any Sitka library and so will often include more filter options or
+display columns than a particular library needs.  Library staff can modify the templates to customize 
+them for their library's needs.
 
+We recommend reviewing the shared Sitka templates before creating your own templates or contacting 
+Co-op Support for reports assistance.  Even if the exact template you need doesn't exist, you can 
+usually find an existing one that is close to what you need which can be then be modified.
+
+[NOTE]
+======
+When using Sitka templates it is critical that you first xref:_cloning_a_report_template[clone the template]
+ into your own folders.  
+
+Reports run directly from Sitka templates cause problems for Co-op Staff when templates need to be updated
+or retired.
+======
+
+
+What's in Sitka_templates
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The templates within the Sitka templates have been categorized into folder to make it easier for library staff 
+to find the template they need.
+
+
+Acquisitions
+^^^^^^^^^^^^
+
+Bibliographic Records
+^^^^^^^^^^^^^^^^^^^^^
+
+Bills Payments
+^^^^^^^^^^^^^^
+
+Bookings
+^^^^^^^^
+
+Circulation
+^^^^^^^^^^^
+
+Collection
+^^^^^^^^^^
+
+Custom Templates
+^^^^^^^^^^^^^^^^
+
+Holds
+^^^^^
+
+Intra-federation ILL Stats
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Inventory
+^^^^^^^^^
+
+Library Configuration
+^^^^^^^^^^^^^^^^^^^^^
+
+Misc.
+^^^^^
+
+Patrons
+^^^^^^^
+
+Serials
+^^^^^^^
+ 
+
+From Acquisitions to Serials are the subfolders containing various templates. Templates using
+the same source table are usually grouped together under one subfolder. These templates are created based
+on the anticipation that most libraries may need such reports. 
+
+The following is a guideline of the templates for various kinds of reports. Please note that Co-op support regularly maintains the templates. The list below may not be the latest.
+
+*Overdue reports*. Find overdue reports in Circulation > Overdue and Others folder. There are templates capturing checkouts
+with due date within a selected time frame for all patrons or those without email address (phone list)
+or the due date is before a selected date. You may use these templates to set up your overdue reports
+capturing items which are at a certain number of days overdue.
+
+*Circulation statistics reports*. These templates are in Circulation > Monthly Circulation Stats and Circulation > Circulation within Time Frame folders. Templates in the former folder are designed for monthly recurring reports. The regular circulation
+statistics can be grouped by various criteria: patron's home library, profile and/or stat cat; items'
+owning library and/or shelving location.
+
+Other circulation statistics related templates are:
+
+* non-catalogued circulation count
+* pre-catalogued circulation count
+* pre-catalogued circulation count for items with dummy title prefix of "ILL:" (ILL statistics via pre-catalogued circulation)
+* checkin count
+* in-house use count for non-catalogued items
+* in-house use count for catalogued items
+* in-house use count per title
+
+Other circulation related templates are:
+
+* lost and paid item list
+* lost with outstanding bills item list
+* claimed returned item list
+
+*Reports on collection*. These templates are in Collection folder. You will find templates counting items
+or titles of your whole collection or catalogued within the selected time period (new title/items statistics).
+The numbers are grouped by shelving location and/or circulation modifier. The templates are in Copy and Title Count subfolder.
+
+Another group of templates in Collection folder are item/title lists for items meeting various criteria:
+having selected shelving location(s) and/or circulation modifier(s), copy stat cat, barcode prefix, call
+number prefix or within a call number range; or being catalogued (new title/item list), marked missing,
+lost or deleted within selected time period. These templates are in Copy List by Item Attributes and Title List subfolders.
+
+In this folder, you will also find templates listing pre-catalogued items and items with certain circulation
+history (items with fewer circulation count for weeding report or more circulation count for popular
+title/item report). They are in Others folder.
+
+*Patron reports*. All patron reports are in Patrons folder. You may find templates counting patrons by
+profile group and/or patron stat cat, registered or expired/expiring within a selected time period, or
+with circulation history within a selected time period.
+
+Another group of templates list selected information for patrons meeting some conditions such as: email list
+for all or those patrons having certain stat cat; names and barcode for patrons without circulation history
+within selected time frame; patrons born before a selected date (seniors list); patrons exceeding maximum
+fine limit.
+
+Besides, there is a template that counts patron's OPAC logins and another that summarizes the answers to
+patron survey question(s).
+
+*Reports on bibliographic information*. It is not easy to generate reports based on bibliographic
+information due to the bibliographic record structure. But a simple report that lists the values in a
+selected MARC tag and subfield for the whole collection is possible. And the bibliographic records can be
+limited by a selected value of a MARC tag and subfield. These templates are in Bibliographic Records folder.
+
+*Bills and payments*. You can find the templates listing the details of various kinds of payments made
+in a selected time period, and a template listing bills with negative balance.
+
+*Hold reports*. Holds related reports are in this folder, including reports for holds that have been long
+time outstanding (requested some time ago but not filled yet), cancelled, or have no eligible copies to be
+filled. There are other templates that count the total number of holds placed or fulfilled within a time
+span, and the hold count per title for popular titles.
+
+*Inventory*. The two templates in Inventory folder list items based on whether the item showed up
+(being scanned on shelves or returned) in the library while the inventory was taken. The result of
+the Inventory - un-scanned items are the potential missing items.
+
+*Library setting and policy related reports*. Find them in Library Configuration folder.
+
+*Other folders*. If your library uses the Acquisitions Module, Serials or the Booking Module, you may find related
+templates in the relevant folders.
+
+*Custom Templates folder*. If you open this folder, you will see a subfolder for your library federation
+with sub-subfolders for your library and other libraries within your library federation.
+
+These folders are created when Co-op support creates or customizes templates for individual
+libraries. The templates go to these folders when there are similar templates in the standard folders
+already, or Co-op support does not anticipate wide use of the templates. Co-op support tries to
+limit the number of templates in each standard folder so that staff may find the target template easily.
+
+
+
+
+
+
+////
 CAUTION: Cloning templates created on the old staff client (XUL in ui column) may not work perfectly. You may need to remove, then put back some fields during cloning.
 
 
@@ -117,7 +277,7 @@ already, or Co-op support does not anticipate wide use of the templates. Co-op s
 limit the number of templates in each standard folder so that staff may find the target template easily.
 
 
-////
+
 Clone a template from Sitka_templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -177,7 +337,7 @@ You may add fields. See xref:_creating_templates[] for details on operating on f
 
 CAUTION: You can not change the starting source table, but have to follow the links to tables in the Sources
 pane. Changing the starting table will remove all existing fields, meaning building a new template from scratch.
-////
+
 
 Examples of using Sitka's templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -210,3 +370,4 @@ image::images/report/sitka-example-4.png[]
 . Setting up a report by using template: Weeding - Copies Circulated Fewer Times since a Selected Date in Collection >  Others folder:
 +
 image::images/report/sitka-example-5.png[]
+////
