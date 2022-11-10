@@ -1,0 +1,635 @@
+Using the Reporter
+------------------
+
+The basic steps to using Evergreen's reporter are:
+
+. Find the template
+.. Clone it into your folders if it was created by another user
+. Run the report, also referred to as creating a report definition
+. View your output either through the staff client or via your email
+
+
+Cloning a Report Template
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+////
+[CAUTION]
+=========
+Cloning templates created on the old staff client (XUL in ui column) may not work perfectly. You 
+may need to remove, then put back some fields during cloning.
+
+IS THIS STILL TRUE?
+=========
+////
+
+
+link:https://youtu.be/0F0dulXsUKw[*Cloning Reports and Sitka Templates (2:35)*]
+
+In Evergreen reports are run from templates that can be used multiple times.  Library staff can create their
+own templates or clone templates from other users.
+
+The steps below assume you have already created at least one folder in _Templates_.  If you have not 
+done so, please see xref:_creating_folders[].
+
+. Go to *Administration* -> *Reports*
+. In the _Shared Folders_ section click on the arrow beside the _Templates_ folder to see the shared
+template folders. Use the arrows to expand the folder tree until you find the folder containing
+the template you would like to clone.
++
+image::images/report/clone-report-template-1.png[]
++
+. Click on the folder name to display the contents.
++
+image::images/report/clone-report-template-2.png[]
++
+. Check the box beside the template you wish to clone.
+. From the drop down menu choose *Clone selected template*.  Click *Submit*. 
++
+image::images/report/clone-report-template-3.png[]
++
+[TIP]
+=====
+By default Evergreen only displays the first 10 items in any folder. To view all content,
+change the _Limit output to_ setting from _10_ to _All_.
+=====
++
+. Click on the name of your folder where you'd like to save the cloned template and then 
+click *Select Folder*. 
++
+image::images/report/clone-report-template-4.png[]
++
+. The template editor will open.  For information on modifying templates see 
+xref:_modifying_report_templates[].
+. Update the template name and/or template description if desired.
+. Click *Save Template*
++
+image::images/report/clone-report-template-5.png[]
++
+. A pop-up will appear confirming that you wish to save the template.  Click *OK/Continue*.
+. The template can now be found in the folder you saved it in.
++
+image::images/report/clone-report-template-6.png[]
+
+
+Running a Report
+~~~~~~~~~~~~~~~~
+
+link:https://youtu.be/9N22UxqOQlY[*Running a Report (4:25)*]
+
+You can run one off reports on demand or schedule recurring reports to run automatically.  To run the 
+report you fill out the reports form which creates a report definition, which tells Evergreen how to run 
+the report, what information to include, and what type of output to provide you with.
+
+. Go to *Administration* -> *Reports*
+. In the _My Folders_ section click on the arrow beside the _Templates_ folder to see your 
+template folders. Use the arrows to expand the folder tree until you find the folder containing
+the template you would like to use for your report.
++
+image::images/report/reports-run-1.png[]
++
+. Click on the folder name to display the contents.
++
+image::images/report/reports-run-2.png[]
++
+. Check the box beside the template you wish to use.
+. *Create a new report from selected template* will be selected by default.  Click *Submit*. 
++
+image::images/report/reports-run-3.png[]
++
+. Enter a name for your report.
++
+Optionally, enter a description for your report.
++
+image::images/report/reports-run-4.png[]
++
+. The display columns included in the output are listed as Report columns.
++
+Pivot Label Column and Pivot Data Column are optional. Pivot tables are a different way to view data. If you
+currently use pivot tables in MS Excel it is better to select an Excel output and continue using pivot tables
+in Excel. Please note that Pivot tables are only suitable for some types of result data.
++
+image::images/report/reports-run-5.png[]
++
+. Choose the Reports folder you would like to save the reports definition in.
++
+image::images/report/reports-run-6.png[]
++
+. Enter values for any filters.  For more information on filter values see 
+xref:_report_filters[].
++
+image::images/report/reports-run-7.png[]
++
+. Check the boxes to select the types of output you would like.
++
+Check the _Calculate grouping subtotals_ check box to add an unlabeled row or column 
+with the subtotals for each grouping and an unlabeled grand total row or column. Please note group 
+subtotals and grand totals will only be useful with some reports.
++
+image::images/report/reports-run-8.png[]
++
+. Leave the recurring and run time options as is unless you are running a recurring report.  See
+xref:_recurring_reports[].
++
+image::images/report/reports-run-9.png[]
++
+. Optionally, enter an email address to send the report completion notification to.  By default this 
+field will contain the email address saved in your staff account. Additional addresses can be added 
+separated by a comma.
++
+image::images/report/reports-run-10.png[]
++
+[NOTE]
+======
+The email will contain a link to the password-protected report output. 
+Only staff members with permissions to view reports or full access to the reporter will be able to 
+open the report output. Staff who only need to view report
+output must first to fill out the 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/all-staff-reporter-privacy-waiver/[All
+Staff Reporter Privacy Waiver].
+======
++
+. Choose the Ouput folder you would like to save the report output in and then click *Save Report*.
++
+image::images/report/reports-run-11.png[]
++
+. A pop-up appears confirming the report has been saved. Click *OK*.
+. Unless you have set a specific run time the report will run right away.  If your report has not 
+completed after 15 minutes please contact https://bc.libraries.coop/support/[Co-op Support].
+. Once the report is complete you can view your output.  See xref:_viewing_report_output[]. 
+
+Report Filters
+^^^^^^^^^^^^^^
+
+The filters in a report template allow library staff to set the parameters on which the report runs. The
+ability to select values for certain filters when running a report means a single report template can 
+be used multiple times to generate reports on slightly different data.  For example, the same report 
+template can be used to generate separate lists of items using particular circulation modifiers.
+
+Hardcoded Filters
++++++++++++++++++
+
+Hardcoded filters are set when the report template is created.  These filters cannot be changed when 
+running a report. Common hardcoded filters include:
+
+
+[options="header"]
+|===
+|Column |Transform |Action |User Params |Description 
+|Bibliographic Record -> Record ID |Raw Data |Not in list |-1 | Exclude all records where
+the bibliographic record ID is -1 which is all pre-cat records.
+|Call Number/Volume -> Call Number/Volume ID |Raw Data |Not in list |-1 | Exclude all records where
+the call number ID is -1 which is all pre-cat records.
+|Circulation -> Check In Date/Time |Date |Is NULL| |Include only items that have not been checked in.
+|Circulation -> Circulating Item -> Copy Status -> Name |Raw Data |Equals | name of an item status | Include
+only items that are in the specified item status.
+|Circulation -> Fine Stop Reason |Raw Data |Not in list |LOST | Exclude items that have stopped generating
+fines because they have been set to lost.
+|Item -> Is Deleted |Raw Data |Equals |f | Include only un-deleted items.
+|ILS User -> Is Deleted |Raw Data |Equals |f | Include only un-deleted patrons.
+|===
+
+Date Filters
+++++++++++++
+
+Date filters are generally set up to be a specific date, a specific month, or a date range. Date filters
+will often include tips about how the dates should be entered. For instance, in a date range the earlier
+date should always be entered in the first date box.
+
+image::images/report/reports-filters-1.png[]
+
+If you'd like to include all possible data for your library in a report that specifies a time range, 
+enter between "1900-01-01" and "today's date".
+
+When running recurring reports it's very important to use _Relative Dates_ in your filters.  This will
+allow Evergreen to calculate the time period to report on each time it runs the report. A relative date of
+1 month ago will generate a new report each month on the previous month's data; a real date of November
+2022 will generate the same report each month with the data from November 2022.  
+
+[TIP]
+=====
+You can set up recurring monthly reports to show comparative data from one year ago. To do this 
+select relative dates of 1 month ago and 13 months ago.
+=====
+
+Use the drop down menu to switch from _Real Date_ to _Relative Date_.  For a report filtering on month, you 
+will be able to indicate how many months ago the report should look at.  
+
+image::images/report/reports-filters-2.png[]
+
+Library Filters
++++++++++++++++
+
+All report templates used by libraries will include a library filter.  This filter can look at the 
+library specified in a variety of fields in the data including the checkout library, circulation library,
+owning library, patron's home library, and organizational unit. 
+
+image::images/report/reports-filters-3.png[]
+
+This filter is important as it allows 
+staff to comply with Sitka's data use requirements as per 
+https://ln.sync.com/dl/ca731e4e0/view/doc/7839812630003#bw5v92du-w6q5j6uj-szy6shez-smwueqdv[Appendix J 
+of the Service Management Agreement] and restrict the data in the report output to only data relevant 
+to their library.
+
+Multi-branch libraries can add specific branches or all of their branches to the list to get a report 
+including data from the select branches.
+
+Other Filters
++++++++++++++
+
+While many filters will require staff to select values from a given list, some filters will require staff to 
+type a value into the filter _User Params_ field. In those cases the report will generally indicate
+how the text should be entered so that Evergreen can use the value and generate usable report output.
+
+image::images/report/reports-filters-4.png[]
+
+Some report templates will have just hardcoded filters and a single library filter that requires 
+staff to enter a value while other reports will have multiple filters where staff need to enter values
+for the library, dates, and patron or item data.
+
+image::images/report/reports-filters-5.png[]
+
+Recurring Reports
+^^^^^^^^^^^^^^^^^
+
+link:https://youtu.be/WS6vRrpqIZY[*Recurring Reports (3:02)*]
+
+Recurring reports are a useful way to save time by scheduling reports that you run on a regular basis to 
+run automatically. Monthly circulation and patron registration statistics are good candidates for recurring
+reports.
+
+Staff with access to the reporter can set up recurring reports to email a link to the password-protected 
+report output to another staff member. Staff who only need to view report
+output must first to fill out the 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/all-staff-reporter-privacy-waiver/[All
+Staff Reporter Privacy Waiver].
+
+
+To set up a recurring report, follow the procedure in xref:_running_a_report[] until you reach
+step 11 and then follow the steps below.
+ 
+. Check the box for *Recurring Report*.
+. Select your desired _Recurrence Interval_. Reports can run on a daily, weekly, or monthly interval.
++
+[TIP] 
+=====
+The recurrence interval should correspond to the date filter. For example, if the template filters 
+on a date instead of month, a recurring report running with a monthly interval may miss a day or capture 
+an extra day's data. See xref:_report_filters for more information on working with date filters on
+a recurring report.
+=====
++
+. Check the box beside the date and set the date of the first run of the report.
++
+image::images/report/reports-recurring-1.png[]
++
+[NOTE]
+======
+Best practice is to always set recurring reports to run in the early hours
+of the morning (1:00am PT to 4:00am PT).
+
+Monthly recurring reports MUST be set to run on the 1st of the next month in order to capture all monthly
+data.
+======
++
+. Enter an email address to send the report completion notification to.  By default this 
+field will contain the email address saved in your staff account. Additional addresses can be added 
+separated by a comma.
++
+image::images/report/reports-run-10.png[]
++
+[NOTE]
+======
+The email will contain a link to the password-protected report output. 
+Only staff members with permissions to view reports or full access to the reporter will be able to 
+open the report output. Staff who only need to view report
+output must first to fill out the 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/all-staff-reporter-privacy-waiver/[All
+Staff Reporter Privacy Waiver].
+======
++
+. Choose the Ouput folder you would like to save the report output in and then click *Save Report*.
++
+image::images/report/reports-run-11.png[]
++
+. A pop-up appears confirming the report has been saved. Click *OK*.
+. Unless you have set a specific run time the report will run right away.  If your report has not 
+completed after 15 minutes please contact https://bc.libraries.coop/support/[Co-op Support].
+. Once the report is complete you can view your output.  See xref:_viewing_report_output[]. 
+ 
+Viewing Report Output
+~~~~~~~~~~~~~~~~~~~~~
+
+
+link:https://youtu.be/SeAiy3jBVGg[*Viewing Report Output (2:08)*]
+
+Once a report is finished, the output is stored in the specified _Output_ folder and will remain there until
+manually deleted. If an email address was included in the report definition Evergreen will send an
+email containing a link to the password-protected report output.
+ 
+Only staff members with permissions to view reports or full access to the reporter will be able to 
+open the report output in either the staff client or via the email link. Staff who only need to view report
+output must first to fill out the 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/all-staff-reporter-privacy-waiver/[All
+Staff Reporter Privacy Waiver].
+
+Unless you have set a specific run time reports generally take about 5 minutes to complete.  If your 
+report still shows as pending in the your output folder after 15 minutes please 
+contact https://bc.libraries.coop/support/[Co-op Support].
+
+
+Viewing Output via the Reporter
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Go to *Administration* -> *Reports*.
+. In the _My Folders_ section click on the arrow beside the _Output_ folder to see your output folders. 
+Use the arrows to expand the folder tree until you find the folder containing the 
+output you'd like to view. 
++
+image::images/report/report-output-1.png[]
++
+. Click on the folder name to display the contents.
++
+image::images/report/report-output-2.png[]
++
+. Output will display either under _Pending Items_ or _Completed Items_.  Click on the folder name
+again to refresh if your output hasn't completed yet.
+. Check the box beside the output you would like to view.
+. *View report output* will be selected by default.  Click *Submit*.
++
+image::images/report/report-output-3.png[]
++
+. The report output will open in a new browser window.
++
+The report name and description will display as well as links to the output options selected when running
+the report.  The URL can be shared with other library staff who have reporter permissions.
++
+image::images/report/report-output-4.png[]
++
+If _Bar Charts_ and/or _Line Charts_ were selected in the output options and the data can be shown in those
+forms the bar and/or line chart will display.
++
+image::images/report/report-output-5.png[]
++
+. Click on *Excel Output* or *CSV Output* to download the output as a file that can be opened in a 
+spreadsheet progam.  You will be prompted to open or save the the output file.
+. Click on *Tabular Output* to view the output in the browser.
++
+The tabular output will display and can be sorted by clicking on a column heading.
++
+image::images/report/report-output-6.png[]
+
+
+Viewing Output via the Email Link
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. In your email program open the email with the subject _Report finished: Your report name - template used"_.
+. The body of the email will include the run time, the name of the report, the name of the template used 
+for the report, URL for accessing the report, and in some cases a URL for documentation related to 
+the report template.
++
+Click on the report URL.
++
+image::images/report/report-output-email-1.png[]
++
+. A pop up will appear asking for your Evergreen staff username and password. Enter your credentials
+and click *Sign In*.
++
+image::images/report/report-output-email-2.png[]
++
+[NOTE]
+======
+Opening subsequent report URLs will not prompt for an additional sign in until the browser is closed.
+
+Staff accounts without permissions to use the reporter or view report output will not be able to sign in.
+======
++
+. The report output will open in a new browser window.
++
+The report name and description will display as well as links to the output options selected when running
+the report.  The URL can be shared with other library staff who have reporter permissions.
++
+image::images/report/report-output-4.png[]
++
+If _Bar Charts_ and/or _Line Charts_ were selected in the output options and the data can be shown in those
+forms the bar and/or line chart will display.
++
+image::images/report/report-output-5.png[]
++
+. Click on *Excel Output* or *CSV Output* to download the output as a file that can be opened in a 
+spreadsheet progam.  You will be prompted to open or save the the output file.
+. Click on *Tabular Output* to view the output in the browser.
++
+The tabular output will display and can be sorted by clicking on a column heading.
++
+image::images/report/report-output-6.png[]
+
+
+Maintaining Reporter Data
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Saved report templates, definitions, and output will stay in the Sitka database forever unless 
+deleted. When a template or report definition is deleted all the linked definitions and output
+files are also deleted.
+
+Co-op Support recommends downloading output you need to keep as CSV or Excel output and saving it 
+locally on your computer harddrive or a shared drive.
+
+link:https://youtu.be/1CGqlSApwBs[*Managing Reports (3:02)*]
+
+Maintaining Your Report Templates
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+As Evergreen evolves from version to version the database tables sometimes change prompting Co-op Staff 
+to update the relevant templates in Sitka_templates.  To ensure Evergreen is gathering the 
+correct data it is important to review the templates you use on a yearly basis and clone new templates 
+from Sitka_templates when older versions of a template are retired.
+
+The _create_time_ field can be used to determine if your version of a template was created before or after
+the current version of the template in Sitka_templates.
+
+image::images/report/report-maintain-templates-1.png[]
+
+If you are modifying existing templates or creating your own templates Co-op Support recommends ensuring
+you delete interim versions of the template created while working on the template.  This makes it easier
+to be sure you are using the correct version of the template.
+
+Deleting a Report Template
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+[CAUTION]
+=========
+Deleting a template will delete all report definitions and output linked to the template.  Make sure
+any data you need to keep is downloaded and saved locally before deleting.
+=========
+
+. Go to *Administration -> Reports*
+. In the _My Folders_ section click on the arrow beside the _Templates_ folder to see your 
+template folders. Continue to use the arrows to expand the folder tree until you find the folder containing
+the template(s) you would like to delete.
++
+image::images/report/reports-run-1.png[]
++
+. Click on the folder name to display the contents.
++
+image::images/report/reports-run-2.png[]
++
+. Check the box beside the template(s) you wish to delete.
+. From the drop down menu select *Delete selected templates(s)*.  Click *Submit*. 
++
+image::images/report/reports-delete-template-1.png[]
++
+. A pop up will appear warning you that deleting the template will delete your attached reports and
+output. Click *OK*.
+. A pop up appears to confirm the deletion. Click *OK*.
+
+[NOTE]
+======
+If you have shared your template and another user has run a report using your template you will not 
+able to delete your template.  This is why it is important for all users to clone templates into their 
+own folders before running reports.
+======
+
+Viewing a Report Definition
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You can view the report definitions for the reports you've run.  This can be helpful if you need to check
+what values you entered in for the filters.
+
+. Go to *Administration* -> *Reports*
+. In the _My Folders_ section click on the arrow beside the _Reports_ folder to see your 
+reports folders. Continue to use the arrows to expand the folder tree until you find the folder containing
+the report you would like to view.
++
+image::images/report/reports-view-report-def-1.png[]
++
+. Click on the folder name to display the contents.
++
+image::images/report/reports-view-report-def-2.png[]
++
+. Click the *View* link beside the report definition you would like to view.
++
+image::images/report/reports-view-report-def-3.png[]
++
+. The report definition will display and you can view the information that was entered.  The fields are
+grayed out as they cannot be edited from this screen.
++
+image::images/report/reports-view-report-def-4.png[]
++
+. Report definitions can also be viewed through the applicable output folder by clicking on the report
+output's name and then clicking *View*.
++
+image::images/report/reports-view-report-def-5.png[]
+
+
+Editing a Report Definition
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You can edit the report definitions for reports you've run.  This can be helpful if you want to run a 
+new report with a slight change.
+
+. Go to *Administration* -> *Reports*
+. In the _My Folders_ section click on the arrow beside the _Reports_ folder to see your 
+reports folders. Continue to use the arrows to expand the folder tree until you find the folder containing
+the report you would like to view.
++
+image::images/report/reports-view-report-def-1.png[]
++
+. Click on the folder name to display the contents.
++
+image::images/report/reports-view-report-def-2.png[]
++
+. Click the *Edit* link beside the report definition you would like to edit.
++
+image::images/report/reports-edit-report-def-1.png[]
++
+. The report definition will display and you can edit the values entered as desired. You must give
+the report a new unique name or it will not save.
+. Click *Save As New* to run a new report with the new values.
++
+image::images/report/reports-edit-report-def-2.png[]
++
+. A pop-up appears confirming the report has been saved. Click *OK*.
+
+[CAUTION]
+=========
+Due to existing bugs Co-op Support recommends against editing existing recurring reports.  Instead library
+staff should set up a new recurring report with the new parameters and deleted the old recurring report.
+=========
+
+////
+You can edit a recurring report to change the values saved in the report definition.  This will change
+the output for the next occurance of the report.
+
+. Go to *Administration* -> *Reports*
+. In the _My Folders_ section click on the arrow beside the _Reports_ folder to see your 
+reports folders. Continue to use the arrows to expand the folder tree until you find the folder containing
+the report you would like to view.
++
+image::images/report/reports-view-report-def-1.png[]
++
+. Click on the folder name to display the contents.
+. Recurring reports can be identified by the values in the _recur_ and _recurrence_ columns.
++
+A _t_ in the _recur_ field indicates that a report is recurring.  The value in the _recurrence_ field shows
+the interval the report runs on.
++
+image::images/report/reports-edit-report-def-3.png[]
++
+. Click the *Edit* link beside the report definition you would like to edit.
++
+image::images/report/reports-edit-report-def-4.png[]
++
+. The report definition will display and you can edit the values entered as desired.
+. Click *Save Report* to update the recurring report. 
++
+image::images/report/reports-edit-report-def-5.png[]
++
+. A pop-up appears confirming the report has been saved. Click *OK*.
+
+[CAUTION]
+=========
+There is a bug where relative dates don't display properly when editing a report definition. The drop down
+switches to _Real Date_ and the value is [object Object].
+
+image::images/report/reports-edit-report-def-6.png[]
+=========
+
+TIP: We suggest you edit recurring reports in the Pending Items in Output folder, as only the pending items are to be updated. 
+
+////
+
+Deleting Report Definitions and Output
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Report definitions and output that you no longer need can be deleted from within the appropriate reports or
+output folder. 
+
+[CAUTION]
+=========
+Before deleting ensure that any needed report output has been downloaded and saved locally.  
+
+Reports on patron and circulation statistics can be re-done if needed.  Reports that capture a moment in
+time, such as a count of items in each shelving location, cannot be re-created.
+=========
+
+. In the appropriate _Reports_ or _Output_ folder, check the box for the definition or output you 
+wish to delete.
+. From the drop down menu select *Delete selected report(s)* or *Delete selected output(s)* depending
+on which folder type you are working in.
+. Click *Submit*
++
+image::images/report/reports-delete-report-1.png[]
++
+. A pop up will appear asking you to confirm that you wish to delete your selection.  When deleting 
+report definitions you will also be warned that attached output will also be deleted. Click *OK*.
+. A pop-up appears confirming the report definition or output has been deleted. Click *OK*.
+
+Recurring reports can be stopped by deleting the relevant report definition or the pending output.
+
+image::images/report/reports-delete-report-2.png[]
+
+
+
+
+

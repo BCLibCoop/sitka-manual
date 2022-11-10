@@ -1,0 +1,28 @@
+Modifying Report Templates
+--------------------------
+
+Once saved, it is not possible to edit a template. To make changes, clone the template and change the clone.
+
+To modify a template, repeat the steps 1-6 in cloning a template. You will see the template open on Template Creating screen. Here you can add/remove/edit fields as when you create a new template.
+
+To operate on Displayed fields, click Displayed Fields. You will see all the displayed fields. To remove one, highlight it and click *Actions* >
+*Remove Selected Field*. You may move a field up or down the list, which will affect the sorting of the
+result records. You may also change the column label or the transform of the field by using respective
+functions on the Actions list.
+
+[TIP]
+=====
+* Removing displayed fields usually does not affect the result set. But sometimes it does, esp. when the
+report displays the count of records by each group. Sometimes some fields may contain important information.
+Removing them may cause misunderstanding the results. Usually such fields are explained in the template
+Description. Be cautious when you delete such fields.
+* Be careful with editing filter fields, as usually changing a filter makes a difference in the result set.
+=====
+
+You may add fields. See xref:_creating_templates[] for details on operating on fields.
+
+
+CAUTION: You can not change the starting source table, but have to follow the links to tables in the Sources
+pane. Changing the starting table will remove all existing fields, meaning building a new template from scratch.
+
+

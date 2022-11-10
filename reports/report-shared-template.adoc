@@ -1,7 +1,17 @@
 Shared Sitka Templates
 ----------------------
 
+////
+Co-op Support has created report templates for commonly needed reports.  These templates are shared with
+all of Sitka can be found in the _Templates_ folder in the _Shared Folders_ section in Evergreen's reporter.
+
+image::images/report/report-sitka-template-1.png[]
+////
+
+
 CAUTION: Cloning templates created on the old staff client (XUL in ui column) may not work perfectly. You may need to remove, then put back some fields during cloning.
+
+
 
 Co-op support has created generic templates for commonly requested reports and shared them under
 the Sitka_templates folder. This chapter describes how to make local copies of these templates for
@@ -108,6 +118,8 @@ libraries. The templates go to these folders when there are similar templates in
 already, or Co-op support does not anticipate wide use of the templates. Co-op support tries to
 limit the number of templates in each standard folder so that staff may find the target template easily.
 
+
+////
 Clone a template from Sitka_templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -167,7 +179,7 @@ You may add fields. See xref:_creating_templates[] for details on operating on f
 
 CAUTION: You can not change the starting source table, but have to follow the links to tables in the Sources
 pane. Changing the starting table will remove all existing fields, meaning building a new template from scratch.
-
+////
 
 Examples of using Sitka's templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
