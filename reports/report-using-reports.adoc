@@ -119,6 +119,13 @@ xref:_report_filters[].
 +
 image::images/report/reports-run-7.png[]
 +
+[NOTE]
+======
+Instead of scrolling through the options in the filter lists you can click on one of the visible options
+and then on your keyboard press the letter the option you want starts with.  This will jump you to that
+spot in the list.
+======
++
 . Check the boxes to select the types of output you would like.
 +
 Check the _Calculate grouping subtotals_ check box to add an unlabeled row or column 
