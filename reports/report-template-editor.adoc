@@ -1,23 +1,43 @@
 Report Template Editor
 ----------------------
 
+The report template editor is made up of three section:
+
+. basic information
+. field and filter selector
+. field and filter display
+
+image::images/report/report-template-editor-1.png[]
+
+Basic Information
+~~~~~~~~~~~~~~~~~
+
+Field and Filter Selector
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Core Source
-~~~~~~~~~~~
+^^^^^^^^^^^
+
+Source Path
+^^^^^^^^^^^
+
+Field and Filter Display
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 Display Fields
-~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^
 
 Filters
-~~~~~~~
+^^^^^^^
 
 Data Types
-~~~~~~~~~~
+^^^^^^^^^^
 
 Field Transforms
-~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^
 
 Operators
-~~~~~~~~~
+^^^^^^^^^
 
 Filter Values
-~~~~~~~~~~~~~
+^^^^^^^^^^^^^
