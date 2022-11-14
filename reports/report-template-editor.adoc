@@ -47,20 +47,20 @@ Field and Filter Display
 Display Fields
 ^^^^^^^^^^^^^^
 
-Display fields are the columns of information that will display on your report output.  The _Display
-Fields_ tab is the active tab by default in the _Report Template Editor_.
+Display fields are the columns of information that will display on your report output.  The *Display
+Fields* tab is the active tab by default in the _Report Template Editor_.
 
 [NOTE]
 ======
-The action *Change Column Documentation* on the Display Fields tab can be ignored as it does not
+The action *Change Column Documentation* on the *Display Fields* tab can be ignored as it does not
 apply to display fields.
 ======
 
 
-Reorder Fields
-++++++++++++++
+Reordering  Fields
+++++++++++++++++++
 
-. On the _Display Fields_ tab select the field you would like to re-order.
+. On the *Display Fields* tab select the field you would like to re-order.
 . From the *Actions* menu choose *Move Field Up* or *Move Field Down*.  You can also right-click on the
 field to open the *Actions* menu.
 +
@@ -69,12 +69,12 @@ image::images/report/report-display-fields-1.png[]
 . Repeat until your fields are in the order you desire.
 
 
-Rename a Field
-++++++++++++++
+Renaming a Field
+++++++++++++++++
 
-The dislay fields in a template have a column label which displays as the column header in report output.
+Each dislay field in a template has a column label which displays as the column header in the report output.
 
-. On the _Display Fields_ tab select the field you would like to rename.
+. On the *Display Fields* tab select the field you would like to rename.
 . From the *Actions* menu choose *Change Column Label*. You can also right-click on the
 field to open the *Actions* menu.
 +
@@ -97,23 +97,50 @@ Circulating Library and Owning Library of an item to be different.  In this case
 in the field name which type of library is being presented in the report output data.
 ======
 
-Change a Transform
-++++++++++++++++++
+Changing a Transform
+++++++++++++++++++++
 
 
-Remove a Field
-++++++++++++++
+Removing a Field
+++++++++++++++++
 
+[CAUTION]
+=========
+Removing display fields usually does not affect the result set for the report output but it can, especially
+when the report output displays a count of records (whether item, patron, circulation, hold, or bibliographic).
 
-Removing displayed fields usually does not affect the result set. But sometimes it does, esp.
- when the report displays the count of records by each group. Sometimes some fields may contain 
- important information. Removing them may cause misunderstanding the results. Usually such fields are 
- explained in the template Description. Be cautious when you delete such fields. 
+When removing fields be mindful of whether or not it will still be clear in the report output what your results
+mean. 
+=========
+
+. On the *Display Fields* tab select the field you would like to rename.
+. From the *Actions* menu choose *Remove Field*. You can also right-click on the
+field to open the *Actions* menu.
++
+image::images/report/report-display-fields-4.png[]
++
+. The selected field is removed and no longer shows as a display field.
 
 
 
 Filters
 ^^^^^^^
+
+Changing the Column Documentation
++++++++++++++++++++++++++++++++++
+
+Changing an Operator
+++++++++++++++++++++
+
+Changing a Transform
+++++++++++++++++++++
+
+Updating a Filter Value
++++++++++++++++++++++++
+
+Removing a Field
+++++++++++++++++
+
 
 Data Types
 ^^^^^^^^^^
