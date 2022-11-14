@@ -15,8 +15,8 @@ Basic Information
 The basic information section of the report template editor is where you can update the template name,
 description, and documentation URL.
 
-When cloning an existing template these fields will be auto-populated with the values from the original template
-and (clone) will be added to the end of the template name.
+When cloning an existing template these fields will be auto-populated with the values from the original 
+template and (clone) will be added to the end of the template name.
 
 If you have local online documentation that pertains to a report you can add it in the Documentation URL
 field and it will be included as a link in the report output.
@@ -25,19 +25,92 @@ field and it will be included as a link in the report output.
 Field and Filter Selector
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
+The field and filter selector is where you build your display fields and filters for your template.
 
 Core Source
 ^^^^^^^^^^^
 
+You can not change the starting source table, but have to follow the links to tables in the Sources pane. 
+Changing the starting table will remove all existing fields, meaning building a new template from scratch.
+
+
 Source Path
 ^^^^^^^^^^^
+
+Add Fields
+^^^^^^^^^^
 
 Field and Filter Display
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
+
 Display Fields
 ^^^^^^^^^^^^^^
+
+Display fields are the columns of information that will display on your report output.  The _Display
+Fields_ tab is the active tab by default in the _Report Template Editor_.
+
+[NOTE]
+======
+The action *Change Column Documentation* on the Display Fields tab can be ignored as it does not
+apply to display fields.
+======
+
+
+Reorder Fields
+++++++++++++++
+
+. On the _Display Fields_ tab select the field you would like to re-order.
+. From the *Actions* menu choose *Move Field Up* or *Move Field Down*.  You can also right-click on the
+field to open the *Actions* menu.
++
+image::images/report/report-display-fields-1.png[]
++
+. Repeat until your fields are in the order you desire.
+
+
+Rename a Field
+++++++++++++++
+
+The dislay fields in a template have a column label which displays as the column header in report output.
+
+. On the _Display Fields_ tab select the field you would like to rename.
+. From the *Actions* menu choose *Change Column Label*. You can also right-click on the
+field to open the *Actions* menu.
++
+image::images/report/report-display-fields-2.png[]
++
+. In the pop-up that appears enter the new name for the field and click *OK/Continue*.
++
+image::images/report/report-display-fields-3.png[]
++
+. The new field name displays in the _Column Label_ column and will display as the column header on your report
+output.
+
+[NOTE]
+======
+It is best practice to include qualifiers in the field names for fields like barcode and library so that 
+staff know what data they are looking at in the report output.
+
+For example, for multi-branch libraries and libraries participating in reciprocal borrowing it is not uncommon for the
+Circulating Library and Owning Library of an item to be different.  In this case it is important to specify
+in the field name which type of library is being presented in the report output data.
+======
+
+Change a Transform
+++++++++++++++++++
+
+
+Remove a Field
+++++++++++++++
+
+
+Removing displayed fields usually does not affect the result set. But sometimes it does, esp.
+ when the report displays the count of records by each group. Sometimes some fields may contain 
+ important information. Removing them may cause misunderstanding the results. Usually such fields are 
+ explained in the template Description. Be cautious when you delete such fields. 
+
+
 
 Filters
 ^^^^^^^
