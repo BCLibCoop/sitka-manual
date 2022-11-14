@@ -3,17 +3,29 @@ Report Template Editor
 
 The report template editor is made up of three section:
 
-. basic information
-. field and filter selector
-. field and filter display
+. Basic Information
+. Field and Filter Selector
+. Field and Filter Display
 
 image::images/report/report-template-editor-1.png[]
 
 Basic Information
 ~~~~~~~~~~~~~~~~~
 
+The basic information section of the report template editor is where you can update the template name,
+description, and documentation URL.
+
+When cloning an existing template these fields will be auto-populated with the values from the original template
+and (clone) will be added to the end of the template name.
+
+If you have local online documentation that pertains to a report you can add it in the Documentation URL
+field and it will be included as a link in the report output.
+
+
 Field and Filter Selector
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 
 Core Source
 ^^^^^^^^^^^
