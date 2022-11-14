@@ -1,6 +1,26 @@
 Modifying Report Templates
 --------------------------
 
+Report templates can be modified to change how the output displays or what data is gathered for the output.
+
+Co-op Support recommends running a report from the original template to see what output is generated before
+modifying a template.
+
+. Start by cloning the template you wish to modify.  Follow steps 1 through 7 in 
+xref:_cloning_a_report_template[].
+. The _Report Template Editor_ will open.  See xref:_report_template_editor[] for information on using
+the editor.
+. Make your desired changes.
+. Click *Save Template*.
+. Your new template can now be found in the folder you saved it in.
+. xref:_running_a_report[Run a report} from the new template to see if the desired output is generated.
+. Repeat the above steps until your template works as desired.
+
+
+
+
+
+
 Once saved, it is not possible to edit a template. To make changes, clone the template and change the clone.
 
 To modify a template, repeat the steps 1-6 in cloning a template. You will see the template open on Template Creating screen. Here you can add/remove/edit fields as when you create a new template.
