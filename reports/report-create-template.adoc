@@ -73,13 +73,17 @@ you should follow the links made by the Reports interface to those tables. The r
 put two pieces of isolated information together into one record in the result. When you change a starting
 table all your existing selected fields will be removed.
 +
-. Click on Circulation to retrieve all the fields, which will be displayed in the middle column. The icon in front of each entry(field) indicates the data type of the value in the field. Refer to xref:template_terminology[] for details.
+. Click on Circulation to retrieve all the fields, which will be displayed in the middle column. 
+The icon in front of each entry(field) indicates the data type of the value in the field. 
+Refer to xref:_data_types[] for details.
 +
 image::images/report/template-4.png[]
 +
 . When you select a field in the middle column, the available data transforms of the selected field are
 displayed in the right column. Transforms specify how data should be processed before they are
-displayed/compared. Fields may contain different types of data, indicated by the little icon in front of each field. Different data types may be transformed differently. Refer to xref:template_terminology[] for details of transforms for each data type.
+displayed/compared. Fields may contain different types of data, indicated by the little icon in 
+front of each field. Different data types may be transformed differently. 
+Refer to xref:_field_transforms[] for details of transforms for each data type.
 +
 For our example template, select Circ ID in the middle column, and Count Distinct from the
 right Transform column. We are counting the number of circulation records.
