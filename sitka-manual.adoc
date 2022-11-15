@@ -109,7 +109,9 @@ include::reports/report-template-editor.adoc[]
 
 include::reports/report-eg-table.adoc[]
 
+////
 include::reports/report-db-term.adoc[]
+////
 
 Simple Reports
 ==============
