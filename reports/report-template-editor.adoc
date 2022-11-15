@@ -36,7 +36,8 @@ The field and filter selector is where you build your display fields and filters
 Core Source
 ^^^^^^^^^^^
 
-The top of the left-hand pane of the Field and Filter Selector contains the Core Sources drop down menu.
+The top of the left-hand pane of the Field and Filter Selector section of the Report Template Editor
+contains the Core Sources drop down menu.
 
 image::images/report/report-core-source-1.png[]
 
@@ -70,7 +71,7 @@ in the _Source Path_ pane.
 image::images/report/report-add-display-field-1.png[]
 +
 . The icon beside the field name indicates the xref:_data_types[data type].  If the field you want to 
-use is a Link you need to expand the tree on the left to find it and then click on it.
+use is a Link you need to expand the tree in the _Core Source_ pane to find it and then click on it.
 +
 image::images/report/report-add-display-field-2.png[]
 +
@@ -109,7 +110,7 @@ in the _Source Path_ pane.
 image::images/report/report-add-display-field-1.png[]
 +
 . The icon beside the field name indicates the xref:_data_types[data type].  If the field you want to 
-use is a Link you need to expand the tree on the left to find it and then click on it.
+use is a Link you need to expand the tree in the _Core Source_ pane to find it and then click on it.
 +
 image::images/report/report-add-display-field-2.png[]
 +
@@ -137,7 +138,8 @@ image::images/report/report-add-filter-field-2.png[]
 image::images/report/report-add-filter-field-3.png[]
 +
 . Your filter will now display in the grid.
-
+. If desired, you can hardcode the value of the filter into the template.  
+See xref:_updating_a_filter_value[].
 
 Field and Filter Display
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -239,6 +241,8 @@ image::images/report/report-display-fields-4.png[]
 Filters
 ^^^^^^^
 
+xref:_updating_a_filter_value[*Updating a Filter Value*]
+
 Changing the Column Documentation
 +++++++++++++++++++++++++++++++++
 
@@ -298,6 +302,7 @@ image::images/report/report-filters-transform-2.png[]
 +
 . The new transform will displays in the _Field Transform_ column in the grid.
 
+[_updating_a_filter_value]
 Updating a Filter Value
 +++++++++++++++++++++++
 
@@ -365,19 +370,16 @@ Template Terminology
 Data Types
 ^^^^^^^^^^
 
-The central column of the Database Source Browser lists Field Name and Data Type for the selected database
-table.
-
-
-Data Type is associated with each field. It tells what kind of information is stored in the field. The system
-handles the information differently based on the data type. Each data type has its own characteristics and
-uses:
+Ever field that display in _Source Path_ pane of the Report Template Editor is associated with a data 
+type. This indicates what kind of information is stored in the field and Evergreen will handle the information 
+differently based on the data type. Each data type has its own characteristics and uses.
 
 [options="header"]
 |===
 |Data Type |Description    |Notes
 |Boolean |Contains either "true" or "false".    |Examples in Evergreen: "deleted" in item/patron record, "circulate?" in item record.
-|ID |Unique number assigned by the database to identify a record    |IDs look like numbers, but the id data type is treated specially by the software for determining how tables are linked. Id is a good candidate field for counting records.
+|ID |Unique number assigned by the database to identify a record    |IDs look like numbers, but the ID 
+data type is treated specially by the software for determining how tables are linked. ID is a good candidate field for counting records.
 |Integer |A number like 1, 2, 3.    |Examples in Evergreen: "remaining renewal count" in circulation record, "claimed returned count" in patron record.
 |Interval |Time intervals, such as "2 weeks" and "6 months"    |Examples in Evergreen: "loan duration" and "grace period" in circulation record,
 |Link |It is similar to the id data type. It is the id of a record in another table.    |Examples in Evergreen: "user id" and "item id" in a circulation record. Link outputs a number that is a meaningful reference for the database but not of much use to a human user. You will usually want to drill further down the tree in the Sources pane and select fields from the linked table. However, in some instances you might want to use a link field. For example, to count the number of patrons who borrowed items you could do a count on the "user id" in the circulation record.
@@ -398,11 +400,14 @@ Field Transforms
 Transforms determine how data is processed when it is retrieved from the database. Different data types can
 be transformed differently. Not all transforms are available to a certain data type.
 
+This table lists the commonly used transforms.  Some data types, like timestamp, will have additional 
+transforms available when adding fields or filters to a template.
 
 [options="header"]
 |===
 |Transform |Applicable Data Types |Description | Notes
-|Raw Data |All Data Types |To display the data exactly as it is stored in the database. |
+|Raw Data |All Data Types |To display the data exactly as it is stored in the database. | Most commonly used
+transform 
 |Date |Timestamps |  This transform presents a timestamp as a human-readable date in yyyy-mm-dd format. |For example,
 timestamp 2018-11-25 17:54:26-07 will be displayed as 2018-11-25. 
 |Year + Month |Timestamps | Presents a timestamp as the year and month in yyyy-mm format. |For example, 2018-11-25
@@ -430,9 +435,6 @@ returns the one record with the highest value. For timestamp the highest value m
 the latest date. |For example, if a checkout date is transformed by Max, the returned date is the last checkout
 date.
 |Min |Text, Integer, Money, and Timestamp | It works the same way as Max except that it returns the lowest value. |
-|First Value | | |
-|Last Value | | |
-|First 5 characters (for US ZIP code) |N/A | Not applicable to Sitka's Evergreen |
 |===
 
 Operators
@@ -454,7 +456,11 @@ it is not case-sensitive. |
 |Greater Than | This operator returns TRUE if a field is greater than your parameter. For text fields, the
 string is compared character by character in accordance with the general rule that numerical characters are
 smaller than alphabetical characters and upper case alphabeticals are smaller than lower case alphabeticals |For timestamps "Greater Than" can be thought of as "later than" or "after".
-|Greater than or equal to | |
+|Greater than or equal to |This operator returns TRUE if a field is greater than or equal to your 
+parameter. For text fields, the string is compared character by character in accordance with the general 
+rule that numerical characters are smaller than alphabetical characters and upper case alphabeticals 
+are smaller than lower case alphabeticals |For timestamps "Greater Than or equal to" can be thought of as 
+"later than or equal to" or "after or equal to".
 |Less Than | This operator returns TRUE if a field is less than, lower than, earlier than or smaller than your
 parameter. |
 |In List| It is similar to Equals, except it allows you specify multiple parameters and returns "TRUE" if the
