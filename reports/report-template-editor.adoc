@@ -12,7 +12,7 @@ image::images/report/report-template-editor-1.png[]
 Basic Information
 ~~~~~~~~~~~~~~~~~
 
-The basic information section of the report template editor is where you can update the template name,
+The _Basic Information_ section of the report template editor is where you can add or update the template name,
 description, and documentation URL.
 
 When cloning an existing template these fields will be auto-populated with the values from the original 
@@ -31,14 +31,14 @@ field and it will be included as a link in the report output.
 Display Field and Filter Selector
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The display field and filter selector is where you build your display fields and filters for your template.
+The _Display Field and Filter Selector_ is where you build your display fields and filters for your template.
 
 Core Source
 ^^^^^^^^^^^
 
 Every report template starts with a core source.  This is the database table from which your template is
-built out. The top of the left-hand pane of the Display Field and Filter Selector section of the 
-Report Template Editor contains the Core Sources drop down menu.
+built out. The top of the left-hand pane of the _Display Field and Filter Selector_ section of the 
+_Report Template Editor_ contains the Core Sources drop down menu.
 
 image::images/report/report-core-source-1.png[]
 
@@ -63,8 +63,8 @@ xref:_commonly_used_tables_and_views_in_evergreen_database[].
 Adding a Display Field
 ^^^^^^^^^^^^^^^^^^^^^^
 
-. Ensure the *Display Fields* tab is the active tab in the Field and Filter Display section of the Report
-Template Editor.
+. Ensure the *Display Fields* tab is the active tab in the _Display Field and Filter Tabs_
+ section of the _Report Template Editor_.
 . Click on the top of the tree in the _Core Source_ pane.  A list of available fields will display
 in the _Source Path_ pane.
 +
@@ -102,8 +102,8 @@ image::images/report/report-add-display-field-5.png[]
 Adding a Filter
 ^^^^^^^^^^^^^^^
 
-. Ensure the *Filter* tab is the active tab in the Field and Filter Display section of the Report
-Template Editor.
+. Ensure the *Filter* tab is the active tab in the _Display Field and Filter Tabs_ section of 
+the _Report Template Editor_.
 . Click on the top of the tree in the _Core Source_ pane.  A list of available fields will display
 in the _Source Path_ pane.
 +
@@ -148,13 +148,10 @@ Display Field and Filter Tabs
 Display Fields
 ^^^^^^^^^^^^^^
 
-xref:_reordering_display_fields[Reordering Display Fields]
-+
-xref:_renaming_a_display_field[Renaming a Display Field]
-+
-xref:_changing_a_display_transform[Changing a Transform]
-+
-ref:_removing_a_display_field[Removing a Display Field]
+* xref:_reordering_display_fields[Reordering Display Fields]
+* xref:_renaming_a_display_field[Renaming a Display Field]
+* xref:_changing_a_display_transform[Changing a Transform]
+* xref:_removing_a_display_field[Removing a Display Field]
 
 Display fields are the columns of information that will display on your report output.  The *Display
 Fields* tab is the active tab by default in the _Report Template Editor_.
@@ -505,7 +502,7 @@ Filter Values
 ^^^^^^^^^^^^^
 
 If you enter hardcoded values for filter fields, the data must match exactly how is displays in Evergreen. 
-For example, if the status is _Missing_ in Evergreen you must use _Missing, a value of _missing_ will 
+For example, if the status is _Missing_ in Evergreen you must use _Missing_, a value of _missing_ will 
 not return results.
 
 Multiple filter values can be included separated by commas.
