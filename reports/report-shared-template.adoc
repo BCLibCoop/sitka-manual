@@ -76,7 +76,6 @@ with bill balances meeting specified criteria.
 * _Patrons with bill balance incurred at selected libraries within time frame, balance exceeding a threshold_
 * _Snapshot of total billing balance incurred at selected libraries_
 * _System Adjustment: Lost Item Returned_
-* _Total cash payments on fines incurred on circulations done within time frame on items owned by selected libraries_
 
 Bookings
 ^^^^^^^^
@@ -101,7 +100,7 @@ The _Bookings_ sub-folder _Monthly Stats_ contains templates for gathering montl
 Circulation
 ^^^^^^^^^^^
 
-The _Collections_ folder contains templates primarily concerned with circulations.  Templates have
+The _Circulation_ folder contains templates primarily concerned with circulations.  Templates have
 been divided into the following sub-folders.
 
 Monthly Circulation Stats
@@ -337,12 +336,12 @@ get lists based on shelving locations, item statuses, circulation modifiers, sta
 Newly Registered/Opted-in Patrons
 +++++++++++++++++++++++++++++++++
 
-Here you will find templates that allow to generate a count or a list of patrons who have registered or
+Here you will find templates that allow you to generate a count or a list of patrons who have registered or
 opted-in to your library in a specified time period.
 
 .Key templates are:
 * _Count of New Patrons Registered within a Time Frame by Profile Group then by Stat Cat_
-* _List of f New Patrons Registered within Time Frame_
+* _List of of New Patrons Registered within Time Frame_
 * _Monthly Patron Registration_
 * _Opted-in Patron Count within Time Frame_
 
@@ -354,7 +353,7 @@ Others
 Here you will find templates related to patrons that don't fit in the other categories.
 
 .Key templates are:
-* _	Staff Assigned to Selected Permission Group(s)_
+* _Staff Assigned to Selected Permission Group(s)_
 * _Staff Assigned to Supplementary Permission Group(s)_
 * _User OPAC Login Count by Patron Home Library and Profile within Time Frame_
 
