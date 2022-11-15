@@ -106,6 +106,20 @@ in the field name which type of library is being presented in the report output 
 Changing a Transform
 ++++++++++++++++++++
 
+For information on specific transforms see xref:_field_transforms[].
+
+. On the *Display Fields* tab select the field you would like to change the transform for.
+. From the *Actions* menu choose *Change Transform*. You can also right-click on the
+field to open the *Actions* menu.
++
+image::images/report/report-display-fields-5.png[]
++
+. In the pop-up that appears select the new transform from the list and click *OK/Continue*.
++
+image::images/report/report-display-fields-6.png[]
++
+. The new transform will displays in the _Field Transform_ column in the grid.
+
 
 Removing a Field
 ++++++++++++++++
@@ -179,8 +193,33 @@ Changing a Transform
 
 For information on specific transforms see xref:_field_transforms[].
 
+. On the *Filters* tab select the field you would like to change the transform for.
+. From the *Actions* menu choose *Change Transform*. You can also right-click on the
+field to open the *Actions* menu.
++
+image::images/report/report-filters-transform-1.png[]
++
+. In the pop-up that appears select the new transform from the list and click *OK/Continue*.
++
+image::images/report/report-filters-transform-2.png[]
++
+. The new transform will displays in the _Field Transform_ column in the grid.
+
 Updating a Filter Value
 +++++++++++++++++++++++
+
+Filter values can be hardcoded into a template or left blank to be filled in when the report is run.  Information
+on commonly hardcoded filters can be found in xref:_report_filters[].
+
+Hardcoding a filter is recommend when the value of the filter will not change.  For example, hardcoded filters
+are often used when filtering out deleted items.
+
+Filter values can also be hardcoded into templates to make it easier for staff with less reporter experience to
+run certain reports.  For example, you can set up a report with a Item Status filter with a hardcoded value 
+of _Missing_ so that staff can run a report to get a list of all missing items without having to enter filter 
+information.
+
+
 
 Removing a Filter
 ++++++++++++++++
@@ -211,15 +250,15 @@ uses:
 [options="header"]
 |===
 |Data Type |Description    |Notes
-|Boolean    |Contains either "true" or "false".    |Examples in Evergreen: "deleted" in item/patron record, "circulate?" in item record.
-|ID    |Unique number assigned by the database to identify a record    |IDs look like numbers, but the id data type is treated specially by the software for determining how tables are linked. Id is a good candidate field for counting records.
-|Integer    |A number like 1, 2, 3.    |Examples in Evergreen: "remaining renewal count" in circulation record, "claimed returned count" in patron record.
-|Interval    |Time intervals, such as "2 weeks" and "6 months"    |Examples in Evergreen: "loan duration" and "grace period" in circulation record,
-|Link    |It is similar to the id data type. It is the id of a record in another table.    |Examples in Evergreen: "user id" and "item id" in a circulation record. Link outputs a number that is a meaningful reference for the database but not of much use to a human user. You will usually want to drill further down the tree in the Sources pane and select fields from the linked table. However, in some instances you might want to use a link field. For example, to count the number of patrons who borrowed items you could do a count on the "user id" in the circulation record.
-|Money    |Monetary amount    |Examples in Evergreen: "price" in item record, "billing amount" in billing record.
-|Org_unit    |Organizational unit. It is a number. It acts like link data type.    |In Evergreen, libraries are organizational units. In Sitka context they are organized into a tree structure with consortium, library federations, libraries/library systems and branches for library systems. To filter on a library, make sure you choose the field having org_unit data type. To display a library, it is a better option to drill down to the org unit record to display the "name" of it.
-|Text    |Text field. Usually it takes whatever is typed into the field.    |Examples: "call number label" in call number record, "patron's names".
-|Timestamp    |A very detailed time such as 2018-11-25 17:54:26-07    |Example: checkout time in circulation record, last status date in item record.
+|Boolean |Contains either "true" or "false".    |Examples in Evergreen: "deleted" in item/patron record, "circulate?" in item record.
+|ID |Unique number assigned by the database to identify a record    |IDs look like numbers, but the id data type is treated specially by the software for determining how tables are linked. Id is a good candidate field for counting records.
+|Integer |A number like 1, 2, 3.    |Examples in Evergreen: "remaining renewal count" in circulation record, "claimed returned count" in patron record.
+|Interval |Time intervals, such as "2 weeks" and "6 months"    |Examples in Evergreen: "loan duration" and "grace period" in circulation record,
+|Link |It is similar to the id data type. It is the id of a record in another table.    |Examples in Evergreen: "user id" and "item id" in a circulation record. Link outputs a number that is a meaningful reference for the database but not of much use to a human user. You will usually want to drill further down the tree in the Sources pane and select fields from the linked table. However, in some instances you might want to use a link field. For example, to count the number of patrons who borrowed items you could do a count on the "user id" in the circulation record.
+|Money |Monetary amount    |Examples in Evergreen: "price" in item record, "billing amount" in billing record.
+|Org_unit |Organizational unit. It is a number. It acts like link data type.    |In Evergreen, libraries are organizational units. In Sitka context they are organized into a tree structure with consortium, library federations, libraries/library systems and branches for library systems. To filter on a library, make sure you choose the field having org_unit data type. To display a library, it is a better option to drill down to the org unit record to display the "name" of it.
+|Text |Text field. Usually it takes whatever is typed into the field.    |Examples: "call number label" in call number record, "patron's names".
+|Timestamp |A very detailed time such as 2018-11-25 17:54:26-07    |Example: checkout time in circulation record, last status date in item record.
 |===
 
 Evergreen uses icons to indicate data type on the report interface.
@@ -281,33 +320,32 @@ The available operators are:
 [options="header"]
 |===
 |Operator |Description    |Notes
-|Equals | Compares two operands and returns TRUE if they are exactly the same.
-|Contains Matching Substring | This operator checks if any part of the field matches the given parameter. It is
+|Equals | Compares two operands and returns TRUE if they are exactly the same. |
+|Contains Matching Substring | This operator checks if any part of the field matches the given parameter. |It is
 case-sensitive.
 |Contains Matching Substring (Ignore Case) | This operator is identical to Contains Matching Substring, except
-it is not case-sensitive.
+it is not case-sensitive. |
 |Greater Than | This operator returns TRUE if a field is greater than your parameter. For text fields, the
 string is compared character by character in accordance with the general rule that numerical characters are
-smaller than alphabetical characters and upper case alphabeticals are smaller than lower case alphabeticals; 
-for timestamps "Greater Than" can be thought of as "later than" or "after".
-|Greater than or equal to 
+smaller than alphabetical characters and upper case alphabeticals are smaller than lower case alphabeticals |For timestamps "Greater Than" can be thought of as "later than" or "after".
+|Greater than or equal to | |
 |Less Than | This operator returns TRUE if a field is less than, lower than, earlier than or smaller than your
-parameter.
+parameter. |
 |In List| It is similar to Equals, except it allows you specify multiple parameters and returns "TRUE" if the
-field is equal to any one of the given values.
+field is equal to any one of the given values. |
 |Not In List |  It is the opposite of In List. Multiple parameters can be specified. TRUE will be returned only
-when none of the parameters is matched with the value in the field.
+when none of the parameters is matched with the value in the field. |
 |Between | Two parameters are required by this operator. TRUE is returned when the field value is Greater Than
 or Equal to the smaller given value and Less Than or Equal to the bigger given value. The smaller parameter
-should always comes first when filling in a filter with this operator. For example: between 3 and 5 is
+should always comes first when filling in a filter with this operator. | For example: between 3 and 5 is
 correct. Between 5 and 3 will return FALSE on the Reports interface. For timestamp earlier date always comes
 first.
-|Not Between 
-|Is NULL 
-|Is not NULL 
+|Not Between | |
+|Is NULL | |
+|Is not NULL | | 
 |Is NULL or Blank | Returns TRUE for fields that contain no data or blank string. For most intents and purposes
-this operator should be used when there is no visible value in the field.
-|Is not NULL or Blank 
+this operator should be used when there is no visible value in the field. |
+|Is not NULL or Blank |
 |===
 
 
