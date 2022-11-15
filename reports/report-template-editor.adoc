@@ -148,6 +148,14 @@ Display Field and Filter Tabs
 Display Fields
 ^^^^^^^^^^^^^^
 
+xref:_reordering_display_fields[Reordering Display Fields]
++
+xref:_renaming_a_display_field[Renaming a Display Field]
++
+xref:_changing_a_display_transform[Changing a Transform]
++
+ref:_removing_a_display_field[Removing a Display Field]
+
 Display fields are the columns of information that will display on your report output.  The *Display
 Fields* tab is the active tab by default in the _Report Template Editor_.
 
@@ -157,9 +165,9 @@ The action *Change Column Documentation* on the *Display Fields* tab can be igno
 apply to display fields.
 ======
 
-
-Reordering  Fields
-++++++++++++++++++
+[[_reordering_display_fields]]
+Reordering Display Fields
++++++++++++++++++++++++++
 
 . On the *Display Fields* tab select the field you would like to re-order.
 . From the *Actions* menu choose *Move Field Up* or *Move Field Down*.  You can also right-click on the
@@ -169,9 +177,9 @@ image::images/report/report-display-fields-1.png[]
 +
 . Repeat until your fields are in the order you desire.
 
-
-Renaming a Field
-++++++++++++++++
+[[_renaming_a_display_field]]
+Renaming a Display Field
+++++++++++++++++++++++++
 
 Each dislay field in a template has a column label which displays as the column header in the report output.
 
@@ -198,6 +206,7 @@ Circulating Library and Owning Library of an item to be different.  In this case
 in the field name which type of library is being presented in the report output data.
 ======
 
+[[_changing_a_display_transform]]
 Changing a Transform
 ++++++++++++++++++++
 
@@ -215,9 +224,9 @@ image::images/report/report-display-fields-6.png[]
 +
 . The new transform will displays in the _Field Transform_ column in the grid.
 
-
-Removing a Field
-++++++++++++++++
+[[_removing_a_display_field]]
+Removing a Display Field
+++++++++++++++++++++++++
 
 [CAUTION]
 =========
@@ -241,8 +250,17 @@ image::images/report/report-display-fields-4.png[]
 Filters
 ^^^^^^^
 
-xref:_updating_a_filter_value[*Updating a Filter Value*]
+xref:_changing_the_column_documentation[Changing the Column Documentation]
++
+xref:_changing_an_operator[Changing an Operator]
++
+xref:_changing_a_filter_transform[Changing a Transform]
++
+xref:_updating_a_filter_value[Updating a Filter Value]
++
+xref:_removing_a_filter[Removing a Filter]
 
+[[_changing_the_column_documentation]]
 Changing the Column Documentation
 +++++++++++++++++++++++++++++++++
 
@@ -266,7 +284,7 @@ image::images/report/report-filters-3.png[]
 +
 image::images/report/report-filters-4.png[]
 
-
+[[_changing_an_operator]]
 Changing an Operator
 ++++++++++++++++++++
 
@@ -284,7 +302,7 @@ image::images/report/report-filters-operator-2.png[]
 +
 . The operator will be updated in the grid.
 
-
+[[_changing_a_filter_transform]]
 Changing a Transform
 ++++++++++++++++++++
 
@@ -340,6 +358,7 @@ image::images/report/report-filters-value-2.png[]
 +
 image::images/report/report-filters-value-3.png[]
 
+[[_removing_a_filter]]
 Removing a Filter
 +++++++++++++++++
 
