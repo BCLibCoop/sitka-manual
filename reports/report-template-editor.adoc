@@ -153,6 +153,8 @@ image::images/report/report-filters-4.png[]
 Changing an Operator
 ++++++++++++++++++++
 
+
+
 . On the *Filter* tab select the field you would like change the operator of.
 . From the *Actions* menu choose *Change Operator*. You can also right-click on the
 field to open the *Actions* menu.
@@ -163,9 +165,8 @@ image::images/report/report-filters-operator-1.png[]
 +
 image::images/report/report-filters-operator-2.png[]
 +
-. When running a report the column documentation will display under the filter path. 
-+
-image::images/report/report-filters-4.png[]
+. The operator will be updated in the grid.
+
 
 Changing a Transform
 ++++++++++++++++++++
@@ -193,6 +194,45 @@ Field Transforms
 
 Operators
 ^^^^^^^^^
+
+Operators describe how two pieces of data can be compared to each other. They are used when creating filters
+in a template to determine which records should be included in the result. The record is included when the
+comparison returns "TRUE". The possible ways of comparing data are related to data type and data transforms.
+Below are some commonly used operators.
+
+* *Equals*: Compares two operands and returns TRUE if they are exactly the same.
+* *Contains Matching Substring*: This operator checks if any part of the field matches the given parameter. It is
+case-sensitive.
+* *Contains Matching Substring (Ignore Case)*: This operator is identical to Contains Matching Substring, except
+it is not case-sensitive.
+* *Greater Than*: This operator returns TRUE if a field is greater than your parameter. For text fields, the
+string is compared character by character in accordance with the general rule that numerical characters are
+smaller than alphabetical characters and upper case alphabeticals are smaller than lower case alphabeticals; 
+for timestamps "Greater Than" can be thought of as "later than" or "after".
+* *Greater than or equal to*:
+* *Less Than*: This operator returns TRUE if a field is less than, lower than, earlier than or smaller than your
+parameter.
+* *In List*: It is similar to Equals, except it allows you specify multiple parameters and returns "TRUE" if the
+field is equal to any one of the given values.
+* *Not In List*:  It is the opposite of In List. Multiple parameters can be specified. TRUE will be returned only
+when none of the parameters is matched with the value in the field.
+* *Between*: Two parameters are required by this operator. TRUE is returned when the field value is Greater Than
+or Equal to the smaller given value and Less Than or Equal to the bigger given value. The smaller parameter
+should always comes first when filling in a filter with this operator. For example: between 3 and 5 is
+correct. Between 5 and 3 will return FALSE on the Reports interface. For timestamp earlier date always comes
+first.
+l.
+
+*Is NULL or Blank:*  Returns TRUE for fields that contain no data or blank string. For most intents and purposes
+this operator should be used when there is no visible value in the field.
+
+*Contains Matching Substring:*  This operator checks if any part of the field matches the given parameter. It is
+case-sensitive.
+
+*Contains Matching Substring (Ignore Case):*  This operator is identical to Contains Matching Substring, except
+it is not case-sensitive.
+
+
 
 Filter Values
 ^^^^^^^^^^^^^
