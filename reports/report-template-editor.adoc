@@ -16,9 +16,15 @@ The basic information section of the report template editor is where you can upd
 description, and documentation URL.
 
 When cloning an existing template these fields will be auto-populated with the values from the original 
-template and (clone) will be added to the end of the template name.
+template and (clone) will be added to the end of the template name. You can edit the data in these fields as needed.
 
-If you have local online documentation that pertains to a report you can add it in the Documentation URL
+[NOTE]
+======
+The names of templates in a folder must be unique.  Evergreen will not allow a template using an identical name to
+be saved into the same folder.
+======
+
+If you have local online documentation that pertains to a report you can add it in the _Documentation URL_
 field and it will be included as a link in the report output.
 
 
