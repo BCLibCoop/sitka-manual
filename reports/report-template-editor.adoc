@@ -4,8 +4,8 @@ Report Template Editor
 The report template editor is made up of three section:
 
 . Basic Information
-. Field and Filter Selector
-. Field and Filter Display
+. Display Field and Filter Selector
+. Display Field and Filter Tabs
 
 image::images/report/report-template-editor-1.png[]
 
@@ -24,7 +24,7 @@ The names of templates in a folder must be unique.  Evergreen will not allow a t
 be saved into the same folder.
 ======
 
-If you have local online documentation that pertains to a report you can add it in the _Documentation URL_
+If you have local documentation online that pertains to a report you can add it in the _Documentation URL_
 field and it will be included as a link in the report output.
 
 
@@ -141,8 +141,8 @@ image::images/report/report-add-filter-field-3.png[]
 . If desired, you can hardcode the value of the filter into the template.  
 See xref:_updating_a_filter_value[].
 
-Field and Filter Display
-~~~~~~~~~~~~~~~~~~~~~~~~
+Display Field and Filter Tabs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 Display Fields
@@ -485,12 +485,11 @@ this operator should be used when there is no visible value in the field. |
 Filter Values
 ^^^^^^^^^^^^^
 
-Values for hardcoded filters must be entered exactly matching the data in Evergreen in order for Evergreen to filter on a 
-particular value.
+If you enter hardcoded values for filter fields, the data must match exactly how is displays in Evergreen. 
+For example, if the status is _Missing_ in Evergreen you must use _Missing, a value of _missing_ will 
+not return results.
 
-Values for item statuses, shelving locations, circulation modifiers, patron permission groups, statistical categories, and
-others must be entered identical to how they appear in Evergreen.  For example, if the status is _Missing_ in Evergreen 
-a value of _missing_ will not return results.
+Multiple filter values can be included separated by commas.
 
 If hardcoding a value for a library filter you must use your library's unique Evergreen ID.  Single branch libraries can
 find this by opening their public catalogue and looking at the URL that displays on the initial load.  This URL will contain
