@@ -36,15 +36,103 @@ The field and filter selector is where you build your display fields and filters
 Core Source
 ^^^^^^^^^^^
 
-You can not change the starting source table, but have to follow the links to tables in the Sources pane. 
-Changing the starting table will remove all existing fields, meaning building a new template from scratch.
+The top of the left-hand pane of the Field and Filter Selector contains the Core Sources drop down menu.
+
+image::images/report/report-core-source-1.png[]
+
+Every report template starts with a core source.  This is the database table from which your template is
+built out.  You can link to other database tables to include information contained in those tables but
+not every table links directly.  For example, patrons and items aren't directly linked to each other.
+Information about items out to a patron is held in the circulation table while information about
+items on hold is held in the hold request table.  More information can be found in 
+xref:_commonly_used_tables_and_views_in_evergreen_database[].
+
+When modifying a template NEVER change the core source.  This will scrap your existing template and you
+will have to start again from scratch.
+
+When creating a new template the first thing you need to do is figure out which core source makes
+the most sense for the data you want to see in your report output.
+
+The three most commonly used core sources are Circulation, Item, and ILS User.  Templates for monthly
+circulation statistics and templates for tracking overdue items use the core source Circulation.  Templates
+about the state of your collection use the course source Item.  Templates containing counts or lists 
+of your patrons use the core source ILS User.  More information can be found in 
+xref:_commonly_used_tables_and_views[].
+
+Adding Display Fields
+^^^^^^^^^^^^^^^^^^^^^
+
+. Ensure the *Display Fields* tab is the active tab in the Field and Filter Display section of the Report
+Template Editor.
+. Click on the top of the tree in the _Core Source_ pane.  A list of available fields will display
+in the _Source Path_ pane.
++
+image::images/report/report-add-display-field-1.png[]
++
+. The icon beside the field name indicates the xref:_data_types[data type].  If the field you want to 
+use is a Link you need to expand the tree on the left to find it and then click on it.
++
+image::images/report/report-add-display-field-2.png[]
++
+. Click on the field in the _Source Path_ pane you would like to add as a display field.
++
+For display fields you generally want to pick a Text field over an ID or Org_unit field. For example,
+to add shelving location as a dislay field you will click on *Name* rather than *Location ID*.
++
+image::images/report/report-add-display-field-3.png[]
++
+. In the _Transform_ pane click on the xref:_field_transforms[transform] you would like to use.  The transforms
+available in the list will vary depending on the xref:_data_types[data type] of the selected field.
++
+The transform will determine how Evergreen processes the data when generating the report. Raw data 
+is the most commonly used transform for display fields except when it's a timestamp in which case Date
+is more commonly used.  More information on the available transforms can be found in 
+xref:_field_transforms[].
++
+image::images/report/report-add-display-field-4.png[]
++
+. Your selected options will display in bold in the three panes.  In the *Display Fields* tab click
+*Add Fields*.
++
+image::images/report/report-add-display-field-5.png[]
 
 
-Source Path
-^^^^^^^^^^^
+Adding Filters
+^^^^^^^^^^^^^^
 
-Add Fields
-^^^^^^^^^^
+. Ensure the *Filter* tab is the active tab in the Field and Filter Display section of the Report
+Template Editor.
+. Click on the top of the tree in the _Core Source_ pane.  A list of available fields will display
+in the _Source Path_ pane.
++
+image::images/report/report-add-display-field-1.png[]
++
+. The icon beside the field name indicates the xref:_data_types[data type].  If the field you want to 
+use is a Link you need to expand the tree on the left to find it and then click on it.
++
+image::images/report/report-add-display-field-2.png[]
++
+. Click on the field in the _Source Path_ pane you would like to add as a display field.
++
+For display fields you generally want to pick a Text field over an ID or Org_unit field. For example,
+to add shelving location as a dislay field you will click on *Name* rather than *Location ID*.
++
+image::images/report/report-add-display-field-3.png[]
++
+. In the _Transform_ pane click on the xref:_field_transforms[transform] you would like to use.  The transforms
+available in the list will vary depending on the xref:_data_types[data type] of the selected field.
++
+The transform will determine how Evergreen processes the data when generating the report. Raw data 
+is the most commonly used transform for display fields except when it's a timestamp in which case Date
+is more commonly used.  More information on the available transforms can be found in 
+xref:_field_transforms[].
++
+image::images/report/report-add-display-field-4.png[]
++
+. Your selected options will display in bold in the three panes.  In the *Display Fields* tab click
+*Add Fields*.
++
+image::images/report/report-add-display-field-5.png[]
 
 Field and Filter Display
 ~~~~~~~~~~~~~~~~~~~~~~~~
