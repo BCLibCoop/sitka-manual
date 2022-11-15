@@ -217,20 +217,53 @@ are often used when filtering out deleted items.
 Filter values can also be hardcoded into templates to make it easier for staff with less reporter experience to
 run certain reports.  For example, you can set up a report with a Item Status filter with a hardcoded value 
 of _Missing_ so that staff can run a report to get a list of all missing items without having to enter filter 
-information.
+information.  
+
+Co-op Support recommends balancing the re-usabilty of templates that comes when staff enter filter values at the time of
+running a report versus the ease of use for staff with less experience with the reporter.  For example, when no value is
+entered in the template for a filter on Item Status staff can pick the relevant status from the 26 statuses currently 
+in use in Sitka's Evergreen.  When a value is hardcoded in for item status a new template must be created everytime you wish
+to filter on a different item status.
 
 
+. On the *Filter* tab select the field you would like add, update, or remove the filter value for.
+. From the *Actions* menu choose *Change Filter Value* to add or update the value or choose *Remove Filter Value*
+to remove it. You can also right-click on the field to open the *Actions* menu.
++
+image::images/report/report-filters-value-1.png[]
++
+. When changing a filter value a pop-up will appear where you can add the relevant value. See xref:_filter_values[]
+for details on exactly how different values must be entered.
+. Click *OK/Continue*.
++
+image::images/report/report-filters-value-2.png[]
++
+. The filter value will display in the grid.
++
+image::images/report/report-filters-value-3.png[]
 
 Removing a Filter
-++++++++++++++++
++++++++++++++++++
 
-. On the *Display Fields* tab select the field you would like to rename.
+[CAUTION]
+=========
+Removing a filter WILL affect what results are included in your report output.  Ensure you don't need to filter
+on a particular field before removing it.
+
+All report templates MUST have at least one library filter.  This filter is important as it allows 
+staff to comply with Sitka's data use requirements as per 
+https://ln.sync.com/dl/ca731e4e0/view/doc/7839812630003#bw5v92du-w6q5j6uj-szy6shez-smwueqdv[Appendix J 
+of the Service Management Agreement] and restrict the data in the report output to only data relevant 
+to their library.
+=========
+
+. On the *Filter* tab select the filter field you would like to remove.
 . From the *Actions* menu choose *Remove Field*. You can also right-click on the
 field to open the *Actions* menu.
 +
-image::images/report/report-filters-X.png[]
+image::images/report/report-filters-remove-1.png[]
 +
-. The selected field is removed and no longer shows as a display field.
+. The selected field is removed and no longer shows as a filter field.
 
 
 Template Terminology
@@ -352,3 +385,18 @@ this operator should be used when there is no visible value in the field. |
 
 Filter Values
 ^^^^^^^^^^^^^
+
+Values for hardcoded filters must be entered exactly matching the data in Evergreen in order for Evergreen to filter on a 
+particular value.
+
+Values for item statuses, shelving locations, circulation modifiers, patron permission groups, statistical categories, and
+others must be entered identical to how they appear in Evergreen.  For example, if the status is _Missing_ in Evergreen 
+a value of _missing_ will not return results.
+
+If hardcoding a value for a library filter you must use your library's unique Evergreen ID.  Single branch libraries can
+find this by opening their public catalogue and looking at the URL that displays on the initial load.  This URL will contain
+_physical_loc=X_.  The value of X is your Evergreen ID.  Multi-branch libraries should 
+ https://bc.libraries.coop/support/[contact Co-op Support] as the URL for your public catalogue will only show you the ID for
+ your system, not your branches.
+ 
+ 
