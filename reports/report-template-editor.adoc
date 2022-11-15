@@ -153,7 +153,7 @@ image::images/report/report-filters-4.png[]
 Changing an Operator
 ++++++++++++++++++++
 
-
+For information on specific operator see xref:_operators[].
 
 . On the *Filter* tab select the field you would like change the operator of.
 . From the *Actions* menu choose *Change Operator*. You can also right-click on the
@@ -171,6 +171,8 @@ image::images/report/report-filters-operator-2.png[]
 Changing a Transform
 ++++++++++++++++++++
 
+For information on specific transforms see xref:_field_transforms[].
+
 Updating a Filter Value
 +++++++++++++++++++++++
 
@@ -184,6 +186,8 @@ field to open the *Actions* menu.
 image::images/report/report-filters-X.png[]
 +
 . The selected field is removed and no longer shows as a display field.
+
+
 
 
 Data Types
