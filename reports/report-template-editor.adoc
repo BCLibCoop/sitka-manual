@@ -59,8 +59,8 @@ about the state of your collection use the course source Item.  Templates contai
 of your patrons use the core source ILS User.  More information can be found in 
 xref:_commonly_used_tables_and_views[].
 
-Adding Display Fields
-^^^^^^^^^^^^^^^^^^^^^
+Adding a Display Field
+^^^^^^^^^^^^^^^^^^^^^^
 
 . Ensure the *Display Fields* tab is the active tab in the Field and Filter Display section of the Report
 Template Editor.
@@ -95,10 +95,11 @@ image::images/report/report-add-display-field-4.png[]
 *Add Fields*.
 +
 image::images/report/report-add-display-field-5.png[]
++
+. Your display field will now display in the grid.
 
-
-Adding Filters
-^^^^^^^^^^^^^^
+Adding a Filter
+^^^^^^^^^^^^^^^
 
 . Ensure the *Filter* tab is the active tab in the Field and Filter Display section of the Report
 Template Editor.
@@ -112,27 +113,31 @@ use is a Link you need to expand the tree on the left to find it and then click 
 +
 image::images/report/report-add-display-field-2.png[]
 +
-. Click on the field in the _Source Path_ pane you would like to add as a display field.
+. Click on the field in the _Source Path_ pane you would like to add as a filter.
 +
-For display fields you generally want to pick a Text field over an ID or Org_unit field. For example,
-to add shelving location as a dislay field you will click on *Name* rather than *Location ID*.
+For filters you generally want to pick an ID or Org_unit field over a Text field. For example,
+to add circulating library as a filter you will click on *Circulating Library* which has the tree icon 
+indicating it's an Org_unit.
 +
-image::images/report/report-add-display-field-3.png[]
+image::images/report/report-add-filter-field-1.png[]
 +
 . In the _Transform_ pane click on the xref:_field_transforms[transform] you would like to use.  The transforms
 available in the list will vary depending on the xref:_data_types[data type] of the selected field.
 +
 The transform will determine how Evergreen processes the data when generating the report. Raw data 
-is the most commonly used transform for display fields except when it's a timestamp in which case Date
-is more commonly used.  More information on the available transforms can be found in 
+is the most commonly used transform for filters except when it's a timestamp in which case Date or
+Month + Year is more commonly used.  More information on the available transforms can be found in 
 xref:_field_transforms[].
 +
-image::images/report/report-add-display-field-4.png[]
+image::images/report/report-add-filter-field-2.png[]
 +
-. Your selected options will display in bold in the three panes.  In the *Display Fields* tab click
+. Your selected options will display in bold in the three panes.  In the *Filter* tab click
 *Add Fields*.
 +
-image::images/report/report-add-display-field-5.png[]
+image::images/report/report-add-filter-field-3.png[]
++
+. Your filter will now display in the grid.
+
 
 Field and Filter Display
 ~~~~~~~~~~~~~~~~~~~~~~~~
