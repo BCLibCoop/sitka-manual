@@ -382,7 +382,7 @@ Template Terminology
 Data Types
 ^^^^^^^^^^
 
-Ever field that display in _Source Path_ pane of the Report Template Editor is associated with a data 
+Every field that display in _Source Path_ pane of the Report Template Editor is associated with a data 
 type. This indicates what kind of information is stored in the field and Evergreen will handle the information 
 differently based on the data type. Each data type has its own characteristics and uses.
 
