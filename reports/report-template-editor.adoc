@@ -247,15 +247,11 @@ image::images/report/report-display-fields-4.png[]
 Filters
 ^^^^^^^
 
-xref:_changing_the_column_documentation[Changing the Column Documentation]
-+
-xref:_changing_an_operator[Changing an Operator]
-+
-xref:_changing_a_filter_transform[Changing a Transform]
-+
-xref:_updating_a_filter_value[Updating a Filter Value]
-+
-xref:_removing_a_filter[Removing a Filter]
+* xref:_changing_the_column_documentation[Changing the Column Documentation]
+* xref:_changing_an_operator[Changing an Operator]
+* xref:_changing_a_filter_transform[Changing a Transform]
+* xref:_updating_a_filter_value[Updating a Filter Value]
+* xref:_removing_a_filter[Removing a Filter]
 
 [[_changing_the_column_documentation]]
 Changing the Column Documentation
