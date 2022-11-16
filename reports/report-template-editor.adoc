@@ -1,23 +1,512 @@
 Report Template Editor
 ----------------------
 
+The report template editor is made up of three section:
+
+. Basic Information
+. Display Field and Filter Selector
+. Display Field and Filter Tabs
+
+image::images/report/report-template-editor-1.png[]
+
+Basic Information
+~~~~~~~~~~~~~~~~~
+
+The _Basic Information_ section of the report template editor is where you can add or update the template name,
+description, and documentation URL.
+
+When cloning an existing template these fields will be auto-populated with the values from the original 
+template and (clone) will be added to the end of the template name. You can edit the data in these fields as needed.
+
+[NOTE]
+======
+The names of templates in a folder must be unique.  Evergreen will not allow a template using an identical name to
+be saved into the same folder.
+======
+
+If you have local documentation online that pertains to a report you can add it in the _Documentation URL_
+field and it will be included as a link in the report output.
+
+
+Display Field and Filter Selector
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The _Display Field and Filter Selector_ is where you build your display fields and filters for your template.
+
 Core Source
-~~~~~~~~~~~
+^^^^^^^^^^^
+
+Every report template starts with a core source.  This is the database table from which your template is
+built out. The top of the left-hand pane of the _Display Field and Filter Selector_ section of the 
+_Report Template Editor_ contains the Core Sources drop down menu.
+
+image::images/report/report-core-source-1.png[]
+
+When modifying a template NEVER change the core source.  This will scrap your existing template and you
+will have to start again from scratch.
+
+When creating a new template the first thing you need to do is figure out which core source makes
+the most sense for the data you want to see in your report output.
+
+The three most commonly used core sources are Circulation, Item, and ILS User.  Templates for monthly
+circulation statistics and templates for tracking overdue items use the core source Circulation.  Templates
+about the state of your collection use the course source Item.  Templates containing counts or lists 
+of your patrons use the core source ILS User.  More information can be found in 
+xref:_commonly_used_tables_and_views[].
+
+You can link to other database tables to include information contained in those tables but
+not every table links directly.  For example, patrons and items aren't directly linked to each other.
+Information about items out to a patron is held in the circulation table while information about
+items on hold is held in the hold request table.  More information can be found in 
+xref:_commonly_used_tables_and_views_in_evergreen_database[].
+
+Adding a Display Field
+^^^^^^^^^^^^^^^^^^^^^^
+
+. Ensure the *Display Fields* tab is the active tab in the _Display Field and Filter Tabs_
+ section of the _Report Template Editor_.
+. Click on the top of the tree in the _Core Source_ pane.  A list of available fields will display
+in the _Source Path_ pane.
++
+image::images/report/report-add-display-field-1.png[]
++
+. The icon beside the field name indicates the xref:_data_types[data type].  If the field you want to 
+use is a Link you need to expand the tree in the _Core Source_ pane to find it and then click on it.
++
+image::images/report/report-add-display-field-2.png[]
++
+. Click on the field in the _Source Path_ pane you would like to add as a display field.
++
+For display fields you generally want to pick a Text field over an ID or Org_unit field. For example,
+to add shelving location as a dislay field you will click on *Name* rather than *Location ID*.
++
+image::images/report/report-add-display-field-3.png[]
++
+. In the _Transform_ pane click on the xref:_field_transforms[transform] you would like to use.  The transforms
+available in the list will vary depending on the xref:_data_types[data type] of the selected field.
++
+The transform will determine how Evergreen processes the data when generating the report. Raw data 
+is the most commonly used transform for display fields except when it's a timestamp in which case Date
+is more commonly used.  More information on the available transforms can be found in 
+xref:_field_transforms[].
++
+image::images/report/report-add-display-field-4.png[]
++
+. Your selected options will display in bold in the three panes.  In the *Display Fields* tab click
+*Add Fields*.
++
+image::images/report/report-add-display-field-5.png[]
++
+. Your display field will now display in the grid.
+
+Adding a Filter
+^^^^^^^^^^^^^^^
+
+. Ensure the *Filter* tab is the active tab in the _Display Field and Filter Tabs_ section of 
+the _Report Template Editor_.
+. Click on the top of the tree in the _Core Source_ pane.  A list of available fields will display
+in the _Source Path_ pane.
++
+image::images/report/report-add-display-field-1.png[]
++
+. The icon beside the field name indicates the xref:_data_types[data type].  If the field you want to 
+use is a Link you need to expand the tree in the _Core Source_ pane to find it and then click on it.
++
+image::images/report/report-add-display-field-2.png[]
++
+. Click on the field in the _Source Path_ pane you would like to add as a filter.
++
+For filters you generally want to pick an ID or Org_unit field over a Text field. For example,
+to add circulating library as a filter you will click on *Circulating Library* which has the tree icon 
+indicating it's an Org_unit.
++
+image::images/report/report-add-filter-field-1.png[]
++
+. In the _Transform_ pane click on the xref:_field_transforms[transform] you would like to use.  The transforms
+available in the list will vary depending on the xref:_data_types[data type] of the selected field.
++
+The transform will determine how Evergreen processes the data when generating the report. Raw data 
+is the most commonly used transform for filters except when it's a timestamp in which case Date or
+Month + Year is more commonly used.  More information on the available transforms can be found in 
+xref:_field_transforms[].
++
+image::images/report/report-add-filter-field-2.png[]
++
+. Your selected options will display in bold in the three panes.  In the *Filter* tab click
+*Add Fields*.
++
+image::images/report/report-add-filter-field-3.png[]
++
+. Your filter will now display in the grid.
+. If desired, you can hardcode the value of the filter into the template.  
+See xref:_updating_a_filter_value[].
+
+Display Field and Filter Tabs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 Display Fields
-~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^
+
+* xref:_reordering_display_fields[Reordering Display Fields]
+* xref:_renaming_a_display_field[Renaming a Display Field]
+* xref:_changing_a_display_transform[Changing a Transform]
+* xref:_removing_a_display_field[Removing a Display Field]
+
+Display fields are the columns of information that will display on your report output.  The *Display
+Fields* tab is the active tab by default in the _Report Template Editor_.
+
+[NOTE]
+======
+The action *Change Column Documentation* on the *Display Fields* tab can be ignored as it does not
+apply to display fields.
+======
+
+[[_reordering_display_fields]]
+Reordering Display Fields
++++++++++++++++++++++++++
+
+. On the *Display Fields* tab select the field you would like to re-order.
+. From the *Actions* menu choose *Move Field Up* or *Move Field Down*.  You can also right-click on the
+field to open the *Actions* menu.
++
+image::images/report/report-display-fields-1.png[]
++
+. Repeat until your fields are in the order you desire.
+
+[[_renaming_a_display_field]]
+Renaming a Display Field
+++++++++++++++++++++++++
+
+Each dislay field in a template has a column label which displays as the column header in the report output.
+
+. On the *Display Fields* tab select the field you would like to rename.
+. From the *Actions* menu choose *Change Column Label*. You can also right-click on the
+field to open the *Actions* menu.
++
+image::images/report/report-display-fields-2.png[]
++
+. In the pop-up that appears enter the new name for the field and click *OK/Continue*.
++
+image::images/report/report-display-fields-3.png[]
++
+. The new field name displays in the _Column Label_ column and will display as the column header on your report
+output.
+
+[NOTE]
+======
+It is best practice to include qualifiers in the field names for fields like barcode and library so that 
+staff know what data they are looking at in the report output.
+
+For example, for multi-branch libraries and libraries participating in reciprocal borrowing it is not uncommon for the
+Circulating Library and Owning Library of an item to be different.  In this case it is important to specify
+in the field name which type of library is being presented in the report output data.
+======
+
+[[_changing_a_display_transform]]
+Changing a Transform
+++++++++++++++++++++
+
+For information on specific transforms see xref:_field_transforms[].
+
+. On the *Display Fields* tab select the field you would like to change the transform for.
+. From the *Actions* menu choose *Change Transform*. You can also right-click on the
+field to open the *Actions* menu.
++
+image::images/report/report-display-fields-5.png[]
++
+. In the pop-up that appears select the new transform from the list and click *OK/Continue*.
++
+image::images/report/report-display-fields-6.png[]
++
+. The new transform will displays in the _Field Transform_ column in the grid.
+
+[[_removing_a_display_field]]
+Removing a Display Field
+++++++++++++++++++++++++
+
+[CAUTION]
+=========
+Removing display fields usually does not affect the result set for the report output but it can, especially
+when the report output displays a count of records (whether item, patron, circulation, hold, or bibliographic).
+
+When removing fields be mindful of whether or not it will still be clear in the report output what your results
+mean. 
+=========
+
+. On the *Display Fields* tab select the field you would like to rename.
+. From the *Actions* menu choose *Remove Field*. You can also right-click on the
+field to open the *Actions* menu.
++
+image::images/report/report-display-fields-4.png[]
++
+. The selected field is removed and no longer shows as a display field.
+
+
 
 Filters
-~~~~~~~
+^^^^^^^
+
+* xref:_changing_the_column_documentation[Changing the Column Documentation]
+* xref:_changing_an_operator[Changing an Operator]
+* xref:_changing_a_filter_transform[Changing a Transform]
+* xref:_updating_a_filter_value[Updating a Filter Value]
+* xref:_removing_a_filter[Removing a Filter]
+
+[[_changing_the_column_documentation]]
+Changing the Column Documentation
++++++++++++++++++++++++++++++++++
+
+When running a report the filter can include text which gives information on how to use the particular filter and
+in some cases how to enter the filter value.  In the _Report Template Editor_ this is referred to as column
+documentation or a field hint.
+
+image::images/report/report-filters-1.png[]
+
+. On the *Filter* tab select the field you would like to add column documentation to.
+. From the *Actions* menu choose *Change Column Documentation*. You can also right-click on the
+field to open the *Actions* menu.
++
+image::images/report/report-filters-2.png[]
++
+. In the pop-up that appears add or update the text and click *OK/Continue*.
++
+image::images/report/report-filters-3.png[]
++
+. When running a report the column documentation will display under the filter path. 
++
+image::images/report/report-filters-4.png[]
+
+[[_changing_an_operator]]
+Changing an Operator
+++++++++++++++++++++
+
+For information on specific operator see xref:_operators[].
+
+. On the *Filter* tab select the field you would like change the operator of.
+. From the *Actions* menu choose *Change Operator*. You can also right-click on the
+field to open the *Actions* menu.
++
+image::images/report/report-filters-operator-1.png[]
++
+. In the pop-up that appears select the new operator from the list and click *OK/Continue*.
++
+image::images/report/report-filters-operator-2.png[]
++
+. The operator will be updated in the grid.
+
+[[_changing_a_filter_transform]]
+Changing a Transform
+++++++++++++++++++++
+
+For information on specific transforms see xref:_field_transforms[].
+
+. On the *Filters* tab select the field you would like to change the transform for.
+. From the *Actions* menu choose *Change Transform*. You can also right-click on the
+field to open the *Actions* menu.
++
+image::images/report/report-filters-transform-1.png[]
++
+. In the pop-up that appears select the new transform from the list and click *OK/Continue*.
++
+image::images/report/report-filters-transform-2.png[]
++
+. The new transform will displays in the _Field Transform_ column in the grid.
+
+[[_updating_a_filter_value]]
+Updating a Filter Value
++++++++++++++++++++++++
+
+Filter values can be hardcoded into a template or left blank to be filled in when the report is run.  Information
+on commonly hardcoded filters can be found in xref:_report_filters[].
+
+Hardcoding a filter is recommend when the value of the filter will not change.  For example, hardcoded filters
+are often used when filtering out deleted items.
+
+Filter values can also be hardcoded into templates to make it easier for staff with less reporter experience to
+run certain reports.  For example, you can set up a report with a Item Status filter with a hardcoded value 
+of _Missing_ so that staff can run a report to get a list of all missing items without having to enter filter 
+information.  
+
+Co-op Support recommends balancing the re-usabilty of templates that comes when staff enter filter values at the time of
+running a report versus the ease of use for staff with less experience with the reporter.  For example, when no value is
+entered in the template for a filter on Item Status staff can pick the relevant status from the 26 statuses currently 
+in use in Sitka's Evergreen.  When a value is hardcoded in for item status a new template must be created everytime you wish
+to filter on a different item status.
+
+
+. On the *Filter* tab select the field you would like add, update, or remove the filter value for.
+. From the *Actions* menu choose *Change Filter Value* to add or update the value or choose *Remove Filter Value*
+to remove it. You can also right-click on the field to open the *Actions* menu.
++
+image::images/report/report-filters-value-1.png[]
++
+. When changing a filter value a pop-up will appear where you can add the relevant value. See xref:_filter_values[]
+for details on exactly how different values must be entered.
+. Click *OK/Continue*.
++
+image::images/report/report-filters-value-2.png[]
++
+. The filter value will display in the grid.
++
+image::images/report/report-filters-value-3.png[]
+
+[[_removing_a_filter]]
+Removing a Filter
++++++++++++++++++
+
+[CAUTION]
+=========
+Removing a filter WILL affect what results are included in your report output.  Ensure you don't need to filter
+on a particular field before removing it.
+
+All report templates MUST have at least one library filter.  This filter is important as it allows 
+staff to comply with Sitka's data use requirements as per 
+https://ln.sync.com/dl/ca731e4e0/view/doc/7839812630003#bw5v92du-w6q5j6uj-szy6shez-smwueqdv[Appendix J 
+of the Service Management Agreement] and restrict the data in the report output to only data relevant 
+to their library.
+=========
+
+. On the *Filter* tab select the filter field you would like to remove.
+. From the *Actions* menu choose *Remove Field*. You can also right-click on the
+field to open the *Actions* menu.
++
+image::images/report/report-filters-remove-1.png[]
++
+. The selected field is removed and no longer shows as a filter field.
+
+
+Template Terminology
+~~~~~~~~~~~~~~~~~~~~
 
 Data Types
-~~~~~~~~~~
+^^^^^^^^^^
+
+Ever field that display in _Source Path_ pane of the Report Template Editor is associated with a data 
+type. This indicates what kind of information is stored in the field and Evergreen will handle the information 
+differently based on the data type. Each data type has its own characteristics and uses.
+
+[options="header"]
+|===
+|Data Type |Description    |Notes
+|Boolean |Contains either "true" or "false".    |Examples in Evergreen: "deleted" in item/patron record, "circulate?" in item record.
+|ID |Unique number assigned by the database to identify a record    |IDs look like numbers, but the ID 
+data type is treated specially by the software for determining how tables are linked. ID is a good candidate field for counting records.
+|Integer |A number like 1, 2, 3.    |Examples in Evergreen: "remaining renewal count" in circulation record, "claimed returned count" in patron record.
+|Interval |Time intervals, such as "2 weeks" and "6 months"    |Examples in Evergreen: "loan duration" and "grace period" in circulation record,
+|Link |It is similar to the id data type. It is the id of a record in another table.    |Examples in Evergreen: "user id" and "item id" in a circulation record. Link outputs a number that is a meaningful reference for the database but not of much use to a human user. You will usually want to drill further down the tree in the Sources pane and select fields from the linked table. However, in some instances you might want to use a link field. For example, to count the number of patrons who borrowed items you could do a count on the "user id" in the circulation record.
+|Money |Monetary amount    |Examples in Evergreen: "price" in item record, "billing amount" in billing record.
+|Org_unit |Organizational unit. It is a number. It acts like link data type.    |In Evergreen, libraries are organizational units. In Sitka context they are organized into a tree structure with consortium, library federations, libraries/library systems and branches for library systems. To filter on a library, make sure you choose the field having org_unit data type. To display a library, it is a better option to drill down to the org unit record to display the "name" of it.
+|Text |Text field. Usually it takes whatever is typed into the field.    |Examples: "call number label" in call number record, "patron's names".
+|Timestamp |A very detailed time such as 2018-11-25 17:54:26-07    |Example: checkout time in circulation record, last status date in item record.
+|===
+
+Evergreen uses icons to indicate data type on the report interface.
+
+image::images/report/term-1.png[]
+
 
 Field Transforms
-~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^
+
+Transforms determine how data is processed when it is retrieved from the database. Different data types can
+be transformed differently. Not all transforms are available to a certain data type.
+
+This table lists the commonly used transforms.  Some data types, like timestamp, will have additional 
+transforms available when adding fields or filters to a template.
+
+[options="header"]
+|===
+|Transform |Applicable Data Types |Description | Notes
+|Raw Data |All Data Types |To display the data exactly as it is stored in the database. | Most commonly used
+transform 
+|Date |Timestamps |  This transform presents a timestamp as a human-readable date in yyyy-mm-dd format. |For example,
+timestamp 2018-11-25 17:54:26-07 will be displayed as 2018-11-25. 
+|Year + Month |Timestamps | Presents a timestamp as the year and month in yyyy-mm format. |For example, 2018-11-25
+17:54:26-07 will be displayed as 2018-11. If filtering on a timestamp transformed to Year + Month, all
+days in the calendar month are included. 
+|Upper Case |Text | Transforms text to all upper case. |
+|Lower Case |Text | Transforms text to all lower case. |
+|Substring |Text | This transform can be applied to filters, not display fields. It matches the given value with a
+continuous string of characters in the field. |For example, if a given value is "123" and the match is with a
+call number field, call numbers like "123.34", "ANF 123.34", "JNF 233.123", etc. will be in the result list.
+|First Continuous Non-space string |Text |  The first word (or string of numbers and/or characters until the first
+spacing) in a field is returned by this transform. |For example, this transform will return "E" from text
+"E DOR", "E 123", etc. 
+|Count |Text, Integer, ID, Money, Timestamp, Org_unit |  This transform counts the records found. |Though you can count 
+by any field, very often id field is used. 
+|Count Distinct |Text, Integer, ID, Money, Timestamp, Org_unit | This transform counts the number of records 
+with unique value in the field. If two records
+have the same value in the field, they will be counted once only. |A typical example of using Count Distinct
+is counting the number of active patrons who borrowed items at a library. Each patron can be counted once
+only but he/she may borrow multiple items. Transforming the patron id in circulation record with Count
+Distinct will result in the required number. Since each patron has a unique id, she/her will be counted once
+only. 
+|Max |Text, Integer, Money, and Timestamp | It compares the values in the field of all result records and then 
+returns the one record with the highest value. For timestamp the highest value means
+the latest date. |For example, if a checkout date is transformed by Max, the returned date is the last checkout
+date.
+|Min |Text, Integer, Money, and Timestamp | It works the same way as Max except that it returns the lowest value. |
+|===
 
 Operators
-~~~~~~~~~
+^^^^^^^^^
+
+Operators describe how two pieces of data can be compared to each other. They are used when creating filters
+in a template to determine which records should be included in the result. The record is included when the
+comparison returns "TRUE". The possible ways of comparing data are related to data type and data transforms.
+The available operators are:
+
+[options="header"]
+|===
+|Operator |Description    |Notes
+|Equals | Compares two operands and returns TRUE if they are exactly the same. |
+|Contains Matching Substring | This operator checks if any part of the field matches the given parameter. |It is
+case-sensitive.
+|Contains Matching Substring (Ignore Case) | This operator is identical to Contains Matching Substring, except
+it is not case-sensitive. |
+|Greater Than | This operator returns TRUE if a field is greater than your parameter. For text fields, the
+string is compared character by character in accordance with the general rule that numerical characters are
+smaller than alphabetical characters and upper case alphabeticals are smaller than lower case alphabeticals |For timestamps "Greater Than" can be thought of as "later than" or "after".
+|Greater than or equal to |This operator returns TRUE if a field is greater than or equal to your 
+parameter. For text fields, the string is compared character by character in accordance with the general 
+rule that numerical characters are smaller than alphabetical characters and upper case alphabeticals 
+are smaller than lower case alphabeticals |For timestamps "Greater Than or equal to" can be thought of as 
+"later than or equal to" or "after or equal to".
+|Less Than | This operator returns TRUE if a field is less than, lower than, earlier than or smaller than your
+parameter. |
+|In List| It is similar to Equals, except it allows you specify multiple parameters and returns "TRUE" if the
+field is equal to any one of the given values. |
+|Not In List |  It is the opposite of In List. Multiple parameters can be specified. TRUE will be returned only
+when none of the parameters is matched with the value in the field. |
+|Between | Two parameters are required by this operator. TRUE is returned when the field value is Greater Than
+or Equal to the smaller given value and Less Than or Equal to the bigger given value. The smaller parameter
+should always comes first when filling in a filter with this operator. | For example: between 3 and 5 is
+correct. Between 5 and 3 will return FALSE on the Reports interface. For timestamp earlier date always comes
+first.
+|Not Between | |
+|Is NULL | |
+|Is not NULL | | 
+|Is NULL or Blank | Returns TRUE for fields that contain no data or blank string. For most intents and purposes
+this operator should be used when there is no visible value in the field. |
+|Is not NULL or Blank |
+|===
+
+
 
 Filter Values
-~~~~~~~~~~~~~
+^^^^^^^^^^^^^
+
+If you enter hardcoded values for filter fields, the data must match exactly how is displays in Evergreen. 
+For example, if the status is _Missing_ in Evergreen you must use _Missing_, a value of _missing_ will 
+not return results.
+
+Multiple filter values can be included separated by commas.
+
+If hardcoding a value for a library filter you must use your library's unique Evergreen ID.  Single branch libraries can
+find this by opening their public catalogue and looking at the URL that displays on the initial load.  This URL will contain
+_physical_loc=X_.  The value of X is your Evergreen ID.  Multi-branch libraries should 
+ https://bc.libraries.coop/support/[contact Co-op Support] as the URL for your public catalogue will only show you the ID for
+ your system, not your branches.
+ 
+ 

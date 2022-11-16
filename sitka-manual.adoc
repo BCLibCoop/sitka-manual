@@ -105,13 +105,15 @@ include::reports/report-modify-template.adoc[]
 
 include::reports/report-create-template.adoc[]
 
-////
 include::reports/report-template-editor.adoc[]
-////
+
+include::reports/report-troubleshoot-template.adoc[]
 
 include::reports/report-eg-table.adoc[]
 
+////
 include::reports/report-db-term.adoc[]
+////
 
 Simple Reports
 ==============

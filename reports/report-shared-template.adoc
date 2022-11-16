@@ -1,14 +1,373 @@
 Shared Sitka Templates
 ----------------------
 
-////
-Co-op Support has created report templates for commonly needed reports.  These templates are shared with
-all of Sitka can be found in the _Templates_ folder in the _Shared Folders_ section in Evergreen's reporter.
+Co-op Support has created ready-to-use report templates for commonly needed reports.  These templates are 
+shared with all of Sitka and can be found in the _Templates_ folder in the _Shared Folders_ section in Evergreen's 
+reporter. The username of the account is Sitka_templates. 
 
 image::images/report/report-sitka-template-1.png[]
+
+Sitka templates are designed to be used by any Sitka library and so will often include more filter options or
+display columns than a particular library may need.  Library staff can modify the templates to customize 
+them for their library's needs.
+
+We recommend reviewing the shared Sitka templates before contacting Co-op Support for reports assistance or 
+creating your own templates.  Even if the exact template you need doesn't exist, you can 
+usually find an existing one that is close to what you need which can be then be modified.
+
+Library staff can also access xref:_custom_templates[custom templates] created for their library by 
+Co-op Staff through the Sitka_templates folder.
+
+[NOTE]
+======
+When using Sitka templates it is critical that you first xref:_cloning_a_report_template[clone the template]
+ into your own folders.  
+
+Reports run directly from Sitka templates cause problems for Co-op Staff when templates need to be updated
+or retired.
+
+If you encounter issues running a report cloned from Sitka templates please contact 
+https://bc.libraries.coop/support/[Co-op Support] with the name of the template and the folder you 
+cloned it from.
+======
+
+
+What's in Sitka_templates
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The templates within the Sitka templates have been categorized into folders and sub-folders 
+to make it easier for library staff to find the templates they need.  The specific contents of the folders 
+change as Co-op Staff add, update, and remove templates as needed.
+
+
+Acquisitions
+^^^^^^^^^^^^
+
+The _Acquisitions_ folder contains a number of sub-folders which divide the report templates across
+the different parts of the acquisitions module. 
+
+.Key templates are:
+* _Fund Report by Year_ (Funds)
+* _Line items that have been Invoiced but not Received_ (Line Items)
+* _Line items that have been Received but not Invoiced_ (Line Items)
+* _Orphaned Barcodes (items)_ (Line Items)
+
+Bibliographic Records
+^^^^^^^^^^^^^^^^^^^^^
+
+Here you will find templates that generate lists of bibliographic records, usually with the record ID
+included in the output.  In general it is not easy to generate reports based on bibliographic data based
+on the bibliographic record structure; this limits the templates that are available.
+
+.Key templates are:
+* _List of items with selected item_type value in MARC leader_
+* _Title, bib id and URL list of records with 856$9 = library shortname code (clone)_
+
+Bills Payments
+^^^^^^^^^^^^^^
+
+Here you will find templates related to billing and payments.  These templates can be used to track
+down balances, get totals of payments made in specific time periods as well as generate lists of patrons 
+with bill balances meeting specified criteria.
+
+.Key templates are:
+* _Open Bills with Negative Balance by Billing Location_
+* _Patrons with bill balance incurred at selected libraries within time frame_
+* _Patrons with bill balance incurred at selected libraries within time frame, balance exceeding a threshold_
+* _Snapshot of total billing balance incurred at selected libraries_
+* _System Adjustment: Lost Item Returned_
+
+Bookings
+^^^^^^^^
+
+Here you will find templates to give you information about overdue reservations, reservations starting after
+a particular day, cancelled reservations and more.
+
+.Key templates are:
+* _All Reservations Starting After a Certain Day with Return Time_
+* _List of Reservations Cancelled within Time Span_
+* _Overdue Reservation Within Time Span_
+* _Overdue Reservations (New)_	
+
+The _Bookings_ sub-folder _Monthly Stats_ contains templates for gathering montly statistics on bookings.
+
+.Key templates are:
+* _Total Reservations (Monthly) by Barcode_
+* _Total Reservations (Monthly) by Patron Type_
+* _Total Reservations Cancelled (Monthly)_
+* _Total Reservations Picked Up (Monthly)_
+
+Circulation
+^^^^^^^^^^^
+
+The _Circulation_ folder contains templates primarily concerned with circulations.  Templates have
+been divided into the following sub-folders.
+
+Monthly Circulation Stats
++++++++++++++++++++++++++
+
+Here you will find templates to use for gathering monthly circulation statistics for circulations done via
+the staff client, the public catalogue (renewals), and Evergreen's self check.  
+
+The templates that you clone from this folder can be set up as monthly 
+xref:_recurring_reports[recurring reports] so staff don't need to manually run them every month.
+
+.Key templates are:
+* _By SelfCheck (Evergreen SelfChek Module): Circ Stats within Time Frame (by Month)_
+* _Monthly Circulation by Patron Home Library_
+* _Monthly Circulation by Circulation modifier (New 3.1)_
+* _Monthly Circulation by Shelving Location (New 3.1)_ 
+* _Monthly Pre-Cat Circulation Count_
+
+Circulation within time frame
+++++++++++++++++++++++++++++
+
+Here you will find templates to use to gather circulation statistics for particular periods of time,
+including hourly, done via the staff client, self check machines, and public catalogue (renewals).
+
+.Key templates are:
+* _By Copy Circulating Library : Circ count within time frame_
+* _By Day of Week : Circ Count within Time Frame_
+* _By SelfCheck (Evergreen SelfChek Module): Circ Stats within Time Frame_
+* _By SelfCheck (non-Evergreen SelfCheck Module) : Circ Stats within Time Frame_
+* _Circulation Return Count by Checkin Scan Hour at Selected Workstations_
+* _Count of Circulations and Unique Borrowers by Hour of Day within Time Frame_
+
+Overdue and others
+++++++++++++++++++
+
+Here you will find templates that will give lists of items in a particular state of circulation.  Many of
+these templates include patron information in the display fields to assist staff in following up with 
+the applicable patrons.
+
+.Key templates are:
+* _Claimed Returned Items belonging to Selected Libraries (by copy status change date)_
+* _Lost-with-Bills Item List (Owned by Selected Libraries) (x Months ago) (New 3.1)_
+* _Overdue Items Checked out at Other Libraries_ - helps track your items borrowed by another library
+* _Overdues Within Time Span -Phone List for Patrons without Email (based on Checkout Library)_
+* _Overdues Within Time Span - General (Based on Checkout Library)_
+
+In-house use stats
+++++++++++++++++++
+
+Here you will find templates that specifically report on data captured through Evergreen's 
+xref:_in_house_use[In-House Use] interface.
+
+.Key templates are:
+* _Monthly In-house Use by Shelving Location - Regular Items_
+* _Title List with In-house Use Count by Shelving Location - Regular Items_
+
+Circulation of non-catalogued items
++++++++++++++++++++++++++++++++++++
+
+Here are templates for libraries that use xref:_non_catalogued_items[non-catalogued items] in Evergreen.
+
+.Key templates are:
+* _Circulation count of non-catalogued items by item type within time frame (converted from XUL) (clone)_
+* _Monthly Circulation count of non-catalogued items by item type (converted from XUL) (clone)_
+
+Collection
+^^^^^^^^^^
+
+The _Collections_ folder contains templates primarily concerned with your collection.  Templates have
+been divided into the following sub-folders.
+
+Copy and Title Count
+++++++++++++++++++++
+
+Here you will find templates that count the titles and items in your entire collection or subsets of 
+your collection.  
+
+Because a bibliographic record (title) can have multiple items attached to it you will often see different
+counts between title and item.
+
+.Key templates are:
+* _Count of Electronic Records_
+* _Count of Titles & Copies catalogued Within Selected Month_
+* _Title & Copy Count by Shelving Location_
+* _Title & Item Count by Shelving Location and Circulation Modifier_
+
+Copy List by Item Attributes
+++++++++++++++++++++++++++++
+
+Here you will find templates that give you lists of items that meet the specified criteria.  You can 
+get lists based on shelving locations, item statuses, circulation modifiers, statistical categories,
+ item alerts, barcode prefixes, and more.  Some of the templates filter on more than one item attribute
+ enabling you to get exactly the items you're looking for.
+ 
+.Key templates are:
+* _Circ Modifier : Copies with Selected Circ Modifiers_
+* _Copies with Selected Shelving Location & Status (with total circ and in-house count)_
+* _Newly Catalogued Copies within Selected Month(s)_
+* _Shelving Location : Copies with Selected Shelving Location (clone)_
+* _Shelving Location and Circ Modifier : Copies with Selected Shelving Location and Circ Modifier (clone)_
+* _Status : Copies with Selected Copy Status Set within Time Frame_
+
+Many templates in this sub-folder can assist libraries with data clean up.
+
+.Key templates for this are:
+* _Barcode : Copies with Barcode with Matched Substring_ - used to find items using old barcodes
+* _Circ Modifier : Copies without Circ Modifier_ - used to find items missing a circulation modifier
+* _Price : Copies with Price = $0.00_ - used to find items where the price is set to zero
+* _Price: Copies with Price Unset (NULL)_ - used to find items where the price field is blank
+
+Title List
+++++++++++
+
+Here you will find templates that give you lists of titles (bibliographic records) that meet the 
+specified criteria.  This includes lists of titles catalogued in a specified period, within a certain
+call number range, or with specific values in MARC tags.
+
+.Key templates are:
+* _Titles with Multiple Copies at Selected Shelving Locations_
+* _Titles with Newly Catalogued Items within Selected Month (converted from XUL) (clone)_
+* _Titles with Selected Value in Selected MARC Tags and Subfields (match on exact subject terms)_
+
+Others
+++++++
+
+Here you will find a variety of templates related to your collection that don't fit into the other categories,
+including templates related to deleted items, pre-catalogued items, and weeding.
+
+.Key templates are:
+* _Deleted Items Count by Shelving Location for selected month_
+* _Popular Titles at Selected Shelving Locations within Time Span (excl. pre-cat) (clone)_
+* _Pre-cat item list with current title and author (non-deleted only)_
+* _Value of Collection by Shelving Location by item circ library_
+* _Weeding - Copies Circulated Fewer Times since a Selected Date (excl. Copied added after a Selected Date)_
+* _Weeding -Copies Never Circulated after a Selected Date (clone)_
+
+Custom Templates
+^^^^^^^^^^^^^^^^
+
+As needed Co-op Support will assist libraries in modifiying templates or creating new templates specific to that 
+library's needs and will put these new or modified templates into a custom folder specificially for that 
+library.
+
+When the Custom Templates folder is expanded it will show a folder for your federation which can then
+be expanded further to find the folder specific to your library.
+
+If there are templates in your custom folder that are no longer needed by your library let Co-op Support
+know and we can remove them for you to help keep the templates in that folder up to date.
+
+
+Holds
+^^^^^
+
+Here you will find templates that will give you counts and lists related to holds.
+
+.Key templates are:
+* _Long-time Unfulfilled Holds (with Eligible Copy Status Info, excl. holds without eligible copy) (clone)_
+* _Monthly Cancelled Holds Count by Cancelation Cause_
+* _Monthly Fulfilled Holds Count_
+* _Monthly Total Holds Placed by Staff and Patrons_
+* _Suspended Holds (holds without expiration date)_
+* _Unfulfilled & Uncancelled ILC Holds Placed within Time Span_
+
+Intra-federation ILL Stats
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Here you will find templates to track interlibrary loans done via Interlibrary Connect within Evergreen.  
+These templates are relavant to libraries participating in BC ILC, Sea to Sky ILC, or Spruce ILC.
+
+.Key templates are:
+* _LIBRARY: Inbound ILC holds count for selected month_
+* _LIBRARY: Outbound ILC holds count for selected month_
+
+Inventory
+^^^^^^^^^
+
+Here you will find two templates to assist you in running inventory at your library.
+
+* _Inventory - Scanned Items Count by Shelving Location (NEW)_ - this template gives you a count of 
+all items scanned in the specified period, broken down by shelving location.
+* _Inventory - Un-scanned Items_ - this template gives a list of all items not scanned in the specified
+time period, with the option to filter the results based on specific item statuses and shelving locations.
+
+Library Configuration
+^^^^^^^^^^^^^^^^^^^^^
+
+Here you will find templates that can be used to display information about how circulation and hold
+policies are configured for your library.  Some of the templates duplicate information that can be
+viewed directly in the staff client but is easier to view as report output.
+
+.Key templates are:
+* _Circulation Policies by Checkout Library_
+* _Circulation Policies filtering by copy circ lib_
+* _Hold Policies by Item's Owning Library_
+* _Hold policy by pickup library (ILC participants: please select your federation, too)_
+
+Misc.
+^^^^^
+
+Here you will find templates that don't fit in any other category.
+
+Patrons
+^^^^^^^
+
+The _Patrons_ folder contains templates primarily concerned with your patrons.  Templates have
+been divided into the following sub-folders.
+
+Patron Count
+++++++++++++
+
+Here you will find templates that count patrons whose home library is your library.
+
+.Key templates are: 
+* _Active (having circ history) Patron Count by Patron Home Library and Profile_
+* _Active (having circ history) Patron Count by Patron Home Library, Profile and Stat Cat_
+* _Patron Count by Profile Group then by one Stat Cat_
+* _Total Patron Count_
+ 
+
+Patron List
++++++++++++
+
+Here you will find templates that give you lists of patrons that meet the specified criteria.  You can 
+get lists based on shelving locations, item statuses, circulation modifiers, statistical categories,
+ item alerts, barcode prefixes, and more.  Some of the templates filter on more than one item attribute
+ enabling you to get exactly the items you're looking for.
+ 
+.Key templates are:
+* _Patron List by Expiration Date_
+* _Patron List with Full Details by Profile Groups_
+* _Patrons without circulation after a selected date (Inactive patrons)_
+
+Newly Registered/Opted-in Patrons
++++++++++++++++++++++++++++++++++
+
+Here you will find templates that allow you to generate a count or a list of patrons who have registered or
+opted-in to your library in a specified time period.
+
+.Key templates are:
+* _Count of New Patrons Registered within a Time Frame by Profile Group then by Stat Cat_
+* _List of of New Patrons Registered within Time Frame_
+* _Monthly Patron Registration_
+* _Opted-in Patron Count within Time Frame_
+
+
+
+Others
+++++++
+
+Here you will find templates related to patrons that don't fit in the other categories.
+
+.Key templates are:
+* _Staff Assigned to Selected Permission Group(s)_
+* _Staff Assigned to Supplementary Permission Group(s)_
+* _User OPAC Login Count by Patron Home Library and Profile within Time Frame_
+
+Serials
+^^^^^^^
+
+Here you will find templates related to use of the serials module that will help you report on 
+your collection.  
+
+.Key templates are:
+* _Serials Claiming (New)_
+
+
 ////
-
-
 CAUTION: Cloning templates created on the old staff client (XUL in ui column) may not work perfectly. You may need to remove, then put back some fields during cloning.
 
 
@@ -119,7 +478,7 @@ already, or Co-op support does not anticipate wide use of the templates. Co-op s
 limit the number of templates in each standard folder so that staff may find the target template easily.
 
 
-////
+
 Clone a template from Sitka_templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -179,7 +538,7 @@ You may add fields. See xref:_creating_templates[] for details on operating on f
 
 CAUTION: You can not change the starting source table, but have to follow the links to tables in the Sources
 pane. Changing the starting table will remove all existing fields, meaning building a new template from scratch.
-////
+
 
 Examples of using Sitka's templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -212,3 +571,4 @@ image::images/report/sitka-example-4.png[]
 . Setting up a report by using template: Weeding - Copies Circulated Fewer Times since a Selected Date in Collection >  Others folder:
 +
 image::images/report/sitka-example-5.png[]
+////
