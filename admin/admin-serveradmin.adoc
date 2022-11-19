@@ -76,7 +76,7 @@ This table below describes the item statuses with Sitka's property settings.
 | Lost and Paid	| Item was declared lost by patron or staff and has now been paid for.	| No	| Yes	| Yes	| No | Yes
 | Mending	| Item is being repaired	| Yes	| Yes	| Yes	| No | No 
 | Missing	| Item cannot be found	| No	| Yes	| Yes	| No | Yes
-| On display	| Item is on display and is not in its usual shelving location	| Yes	| Yes	| Yes	| Yes | No 
+| On Display	| Item is on display and is not in its usual shelving location	| Yes	| Yes	| Yes	| Yes | No 
 | On holds shelf	| Item is awaiting pick-up by patron. Item is usually on a "holds shelf" within the library	| Yes	| Yes	| Yes	| No | No 
 | On order	| Item has been ordered but not yet received from a vendor	| Yes	| Yes	| No	| No | No 
 | On reservation shelf	| Used with room/booking module. When an item has been booked/reserved, it is placed in a unique location, ready for pick-up	| No	| Yes	| Yes	| No | No 
