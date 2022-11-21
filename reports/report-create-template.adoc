@@ -29,16 +29,35 @@ the editor.
 . Choose a Core Source. See xref:_core_source[].
 . Add Display Fields. See xref:_adding_a_display_field[].
 . Add Filters. See xref:_adding_a_filter[].
++
+[CAUTION]
+=========
+All report templates MUST have at least one library filter.  This filter is important as it allows 
+staff to comply with Sitka's data use requirements as per 
+https://ln.sync.com/dl/ca731e4e0/view/doc/7839812630003#bw5v92du-w6q5j6uj-szy6shez-smwueqdv[Appendix J 
+of the Service Management Agreement] and restrict the data in the report output to only data relevant 
+to their library.
+=========
++
 . Add hardcoded filter values for any filters that should always use the same value.  See 
 xref:_report_filters[] for a list of filters that are commonly hardcoded.
 . Click *Save Template*.
 . Your new template can now be found in the folder you saved it in.
 . xref:_running_a_report[Run a report] from the new template to see if the desired output is generated.
-. Repeat the above steps until your template works as desired.
-. Contact https://bc.libraries.coop/support/[Co-op Support] if you need assistance with your template.  
-Please review xref:_troubleshooting_report_templates[] before creating a ticket to ensure you include 
-all the information needed for Co-op Support to assist you.
++
+[TIP]
+=====
+If the path for one of your display fields or filters is incorrect you will get an error instead of the 
+expected report output. Sometimes the error text will give you a clue about what isn't working.
 
+image::images/report/report-output-error-1.png[]
+
+You can modify your template and try again or contact https://bc.libraries.coop/support/[Co-op Support] 
+for assistance.  Please review xref:_troubleshooting_report_templates[] before creating a ticket to ensure 
+you include all the information needed for Co-op Support to assist you.
+=====
++
+. Repeat the above steps until your template works as desired.
 
 [NOTE]
 ======
