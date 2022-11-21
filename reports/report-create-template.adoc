@@ -2,11 +2,28 @@ Creating Report Templates
 -------------------------
 
 Report templates can be created from scratch.  Before creating a completely new template Co-op Support 
-recommends checking the Sitka_templates to see if there is a template that can be modified to give
-you the information you need.
+recommends checking the xref:_shared_sitka_templates[Sitka_templates] to see if there is a template that 
+can be modified to give you the information you need.
 
-. In the reporter open the folder you wish to creat the template in.
-. Click *Create a new Template for this folder*.
+Creating a template is complex and requires some understanding of the Evergreen database and how 
+Evergreen handles various records when performing tasks on the staff client. It can be useful to plan 
+out your template before getting started with the reporter.  Think about what type of records you will
+be reporting on (circulation, item, bibliographic, patron, etc.) and what information you want to see
+in your report output.  You also want to think about how you want Evergreen to filter the information
+in the database so that your report output contains only the records you're interested in.
+
+. Go to *Administration -> Reports*. 
+. In the _My Folders_ section click on the arrow beside the _Templates_ folder to see your template folders. 
+Use the arrows to expand the folder tree until you find the folder where you'd like to create
+the new template.
++
+image::images/report/reports-run-1.png[]
++
+. Click on the folder name.
+. In the folder, click *Create a new Template for this folder*.
++
+image::images/report/report-create-template-1.png[]
++
 . The _Report Template Editor_ will open.  See xref:_report_template_editor[] for information on using
 the editor.
 . Choose a Core Source. See xref:_core_source[].
