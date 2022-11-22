@@ -46,7 +46,8 @@ When modifying a template NEVER change the core source.  This will scrap your ex
 will have to start again from scratch.
 
 When creating a new template the first thing you need to do is figure out which core source makes
-the most sense for the data you want to see in your report output.
+the most sense for the data you want to see in your report output. If you need information from 
+other tables you'll follow the links to those tables when adding display fields and filters.
 
 The three most commonly used core sources are Circulation, Item, and ILS User.  Templates for monthly
 circulation statistics and templates for tracking overdue items use the core source Circulation.  Templates
