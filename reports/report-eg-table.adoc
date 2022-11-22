@@ -1,6 +1,9 @@
 The Evergreen Database
 ----------------------
 
+The Evergreen Database and Reports
+The Evergreen Database and Report Templates
+
 When you use Evergreen you are creating and updating records within the Evergreen database.  Evergreen's
 reporter enables you to create reports to extract those records from the database.  Understanding some
 basics about the Evergreen database and how records are created and/or updated when tasks are performed on 
@@ -344,7 +347,7 @@ circulation records without checkin date and the due date past "today". It does 
 last month's circulation statistics, but it makes an overdue report easier.
 * anchor:nullability_commonly_used_tables[Nullability]By default, tables are often joined by inner join on the report interface, which means the result records should be in both linked tables. For example,an item may or may not be circulated, meaning having circulation records or not. An inner join between Circulation table and Item table will not contain those items that do not have circulation history, as there is no record in Circulation table for them. However, sometimes you may want to include all items. You may achieve it by using other join types, which can be defined by the Nullability checkbox beside the Source table list on Template Creation screen.  You may see Default, Child Nullable and Parent Nullable in a dropdown list in front of the table names. None means a inner join; Parent is right outer join, meaning all records in the Parent table (the linked from table) are included; Child is left outer join, meaning all records in the child table (the linked to table) are included.
 =====
- ////
+////
 
 
 
