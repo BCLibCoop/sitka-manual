@@ -167,6 +167,9 @@ Payments: Brick-and-mortar contains all payments made at the circulation desk.
 Payments: Desk: Cash/Check/Credit Card payment.
  
 Payments: Non-drawer Staff: Forgive/Work/Goods/Patron Credit payments.
+
+Nullability
+~~~~~~~~~~~
  
 [TIP] 
 =====
