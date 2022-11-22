@@ -38,6 +38,8 @@ among some commonly used tables which can be a guide for you to find various fie
 
 image::images/report/database-1.png[scaledwidth="75%",alt="Database Diagram"]
 
+image::images/report/reports-evergreen-database-1.png[scaledwidth="75%",alt="Database Diagram"]
+
 [TIP]
 =====
 Some tables do not link directly with each other.  For example, there is not a direct link between the 
