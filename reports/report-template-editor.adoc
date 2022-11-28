@@ -61,6 +61,32 @@ Information about items out to a patron is held in the circulation table while i
 items on hold is held in the hold request table.  More information can be found in 
 xref:_commonly_used_tables_and_views_in_evergreen_database[].
 
+Nullability
+^^^^^^^^^^^
+
+The Nullability check box beside the core source list allows you to have more control over whether or not null values in fields 
+are included in your report output.  It does this by allowing you to manually select the way in which Evergreen is joining
+the database tables when running a report from the template.
+
+
+
+In general this check box should be left un-checked.  You may wish to use nullability if your report output includes null values
+that you don't want included or if your report output doesn't include null values that you do want to see.
+
+
+The Nullability check box beside the core source list is for specifying the join type between linked 
+source tables. In most cases, it should be left unchecked by default. 
+
+Default
+Child Nullable
+Parent Nullable
+None Nullable - has to be in both places
+
+However, if you need to include records without a corresponding record in the linked table, you need to use the Nullability check box to specifiy left or right join. For details refer to the tip Nullability for how to use Nullability check box.
+
+To learn more about nullability see the Evergreen conference presentation https://youtu.be/oDtjpW3Kiz8[*Thanks for Nothing: 
+Nullability Selection in Evergreen Reports (45:00)*].
+
 Adding a Display Field
 ^^^^^^^^^^^^^^^^^^^^^^
 
