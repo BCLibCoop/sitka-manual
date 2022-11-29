@@ -59,7 +59,7 @@ You can link to other database tables to include information contained in those 
 not every table links directly.  For example, patrons and items aren't directly linked to each other.
 Information about items out to a patron is held in the circulation table while information about
 items on hold is held in the hold request table.  More information can be found in 
-xref:_commonly_used_tables_and_views_in_evergreen_database[].
+xref:_the_evergreen_database[].
 
 Nullability
 ^^^^^^^^^^^
@@ -76,15 +76,17 @@ by allowing you to manually select the way in which Evergreen is joining the dat
 a report from the template.  The type of join used will determine what kind of data 
 can display a null value in your report output.
 
-image::images/report/report-nullability-2.png[]
-
-
 When Nullability is checked the following options show for joins between tables:
 
-* Child Nullable = depends on the default join (usually left)
-* Parent Nullable = depends on the default join (usually right)
-* None Nullable = equivalent to inner join - only looking at data that is in both tables
-* Default - defined within Evergreen - See xref:_the_evergreen_database[] for more information.
+* *Default* - defined within Evergreen. See xref:_the_evergreen_database[] for more information.
+* *Child Nullable* = depends on the default join (usually left). Evergreen will include all records in
+the child table (linked to table).
+* *Parent Nullable* = depends on the default join (usually right). Evergreen will include all records in
+the parent table (linked from table).
+* *None Nullable* = equivalent to inner join. Evergreen will only include data that is in both tables
+
+
+image::images/report/report-nullability-2.png[]
 
 [NOTE]
 ======
