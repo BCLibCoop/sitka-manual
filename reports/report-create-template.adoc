@@ -67,7 +67,7 @@ See xref:_deleting_a_report_template[].
 ======
 
 
-
+////
 Once the folders are ready, you can create or clone a template. Templates allow you to run a report more than
 once, without building it anew every time by changing definitions (such as values for the filters) to suit
 current requirements. For example, a template counting patrons with a registration date within a time frame
@@ -252,3 +252,4 @@ choose, instead, to use one of the generic templates created by Co-op support to
 (see xref:_shared_sitka_templates[]). However, knowing how a template is created will help
 you understand the report structure and is recommended as an introduction to editing template fields and
 filters.
+////
