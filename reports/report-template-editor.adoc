@@ -64,25 +64,33 @@ xref:_commonly_used_tables_and_views_in_evergreen_database[].
 Nullability
 ^^^^^^^^^^^
 
-The Nullability check box beside the core source list allows you to have more control over whether or not null values in fields 
-are included in your report output.  It does this by allowing you to manually select the way in which Evergreen is joining
-the database tables when running a report from the template.
+The Nullability check box is beside the core source list. In general this check box should be left 
+un-checked.  
+
+image::images/report/report-nullability-1.png[]
+
+You may wish to use nullability if your report output includes null values that you don't want included or 
+if your report output doesn't include null values that you do want to see.  Nullability allows you to have 
+more control over whether or not null values in fields are included in your report output.  It does this 
+by allowing you to manually select the way in which Evergreen is joining the database tables when running 
+a report from the template.  The type of join used will determine what kind of data 
+can display a null value in your report output.
+
+image::images/report/report-nullability-2.png[]
 
 
+When Nullability is checked the following options show for joins between tables:
 
-In general this check box should be left un-checked.  You may wish to use nullability if your report output includes null values
-that you don't want included or if your report output doesn't include null values that you do want to see.
+* Child Nullable = depends on the default join (usually left)
+* Parent Nullable = depends on the default join (usually right)
+* None Nullable = equivalent to inner join - only looking at data that is in both tables
+* Default - defined within Evergreen - See xref:_the_evergreen_database[] for more information.
 
-
-The Nullability check box beside the core source list is for specifying the join type between linked 
-source tables. In most cases, it should be left unchecked by default. 
-
-Default
-Child Nullable
-Parent Nullable
-None Nullable - has to be in both places
-
-However, if you need to include records without a corresponding record in the linked table, you need to use the Nullability check box to specifiy left or right join. For details refer to the tip Nullability for how to use Nullability check box.
+[NOTE]
+======
+You must use the same nullability selection on all display fields and filters that you add from
+the same table.
+======
 
 To learn more about nullability see the Evergreen conference presentation https://youtu.be/oDtjpW3Kiz8[*Thanks for Nothing: 
 Nullability Selection in Evergreen Reports (45:00)*].

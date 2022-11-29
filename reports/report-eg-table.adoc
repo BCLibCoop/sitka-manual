@@ -54,6 +54,23 @@ ILS User (patron) table and the item table.  Instead these tables link to each o
 such as the circulation table and the hold request table.
 =====
 
+The connections between tables are called joins. Evergreen uses the default join when creating
+report templates which is usually what you need for s template.  When working with data that can
+be null (have no value) you may need to use xref:_nullability[Nullability] which allows you 
+to control the type of join used to link two tables.
+
+To find out what the default join is for a table you can view the 
+https://catalogue.libraries.coop/reports/fm_IDL.xml[fm_IDL.xml] file for Sitka's Evergreen.
+
+. Search for the name of the source.
+. Find the column you're interested in and take note of the vlaue for _Name_.
+. Search the page for the _Name_ and look for it to appear in a <links> section.
+. The reltype indicates the join.
++
+"has_a" = inner join
++
+"has_many" or "might_have" = left outer join
+
 When you create a template you are writing a SQL (standard query language) query that will run on the Evergreen database.
 
 This can be viewed in the report output by selecting *Debugging Info*.
