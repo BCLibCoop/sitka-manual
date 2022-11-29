@@ -29,7 +29,7 @@ access the reporter via the staff client and you will require assistance from Co
 recurring reports run by the library staff account.
 =====
 
-Report templates are used to tell Evergreen what fields are to be displayed in the reports output and
+Report templates are used to tell Evergreen what fields are to be displayed in the report output and
 what conditions to filter on in the database to determine the information to display. These templates 
 allow you to run a report more than once, without building it anew every time.  Co-op Support has
 created xref:_shared_sitka_templates[shared Sitka templates] for commonly needed reports.  These templates
