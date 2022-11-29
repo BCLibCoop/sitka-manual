@@ -100,6 +100,8 @@ Nullability Selection in Evergreen Reports (45:00)*].
 Adding a Display Field
 ^^^^^^^^^^^^^^^^^^^^^^
 
+Display fields are the columns which will display in your report output. 
+
 . Ensure the *Display Fields* tab is the active tab in the _Display Field and Filter Tabs_
  section of the _Report Template Editor_.
 . Click on the top of the tree in the _Core Source_ pane.  A list of available fields will display
@@ -138,6 +140,10 @@ image::images/report/report-add-display-field-5.png[]
 
 Adding a Filter
 ^^^^^^^^^^^^^^^
+
+Filters allow you to set up the criteria so that Evergreen returns the information you are looking for.
+In most cases the value for the filter will be entered when the report is run, rather than included
+in the template.
 
 . Ensure the *Filter* tab is the active tab in the _Display Field and Filter Tabs_ section of 
 the _Report Template Editor_.
