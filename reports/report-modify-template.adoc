@@ -14,6 +14,19 @@ the editor.
 . Click *Save Template*.
 . Your new template can now be found in the folder you saved it in.
 . xref:_running_a_report[Run a report] from the new template to see if the desired output is generated.
++
+[TIP]
+=====
+If the path for one of your display fields or filters is incorrect you will get an error instead of the 
+expected report output. Sometimes the error text will give you a clue about what isn't working.
+
+image::images/report/report-output-error-1.png[]
+
+You can modify your template and try again or contact https://bc.libraries.coop/support/[Co-op Support] 
+for assistance.  Please review xref:_troubleshooting_report_templates[] before creating a ticket to ensure 
+you include all the information needed for Co-op Support to assist you.
+=====
++
 . Repeat the above steps until your template works as desired.
 
 
