@@ -195,6 +195,7 @@ fines because they have been set to lost.
 |ILS User -> Is Deleted |Raw Data |Equals |f | Include only un-deleted patrons.
 |===
 
+[[_report_date_filters]]
 Date Filters
 ++++++++++++
 
@@ -282,7 +283,7 @@ step 11 and then follow the steps below.
 =====
 The recurrence interval should correspond to the date filter. For example, if the template filters 
 on a date instead of month, a recurring report running with a monthly interval may miss a day or capture 
-an extra day's data. See xref:_report_filters for more information on working with date filters on
+an extra day's data. See xref:_report_date_filters[] for more information on working with date filters on
 a recurring report.
 =====
 +
