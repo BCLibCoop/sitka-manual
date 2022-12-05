@@ -53,7 +53,7 @@ The three most commonly used core sources are Circulation, Item, and ILS User.  
 circulation statistics and templates for tracking overdue items use the core source Circulation.  Templates
 about the state of your collection use the course source Item.  Templates containing counts or lists 
 of your patrons use the core source ILS User.  More information can be found in 
-xref:_commonly_used_tables_and_views[].
+xref:_commonly_used_tables[].
 
 You can link to other database tables to include information contained in those tables but
 not every table links directly.  For example, patrons and items aren't directly linked to each other.
@@ -527,12 +527,10 @@ or Equal to the smaller given value and Less Than or Equal to the bigger given v
 should always comes first when filling in a filter with this operator. | For example: between 3 and 5 is
 correct. Between 5 and 3 will return FALSE on the Reports interface. For timestamp earlier date always comes
 first.
-|Not Between | |
-|Is NULL | |
-|Is not NULL | | 
+|Is NULL | Returns TRUE for fields that contain no data.| For example, an overdue report will include a filter
+for Check In Date/Time is NULL as an item is no longer overdue if there is a value for Check In Date/Time.
 |Is NULL or Blank | Returns TRUE for fields that contain no data or blank string. For most intents and purposes
 this operator should be used when there is no visible value in the field. |
-|Is not NULL or Blank |
 |===
 
 
