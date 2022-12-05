@@ -5,11 +5,10 @@ In-House Use
 In-house use can be recorded for catalogued and non-catalogued items. 
 
 The library setting _Record In-House Use: # of uses thresholds for Are You Sure? dialog_ allows you to set a
-threshold at which Evergreen will check that you really want to record that many in-house uses.  This can
-be useful to prevent an accidental scan of a barcode in the _# of Uses_ from inflating in-house statistics.
-
-The library setting _Record In-House Use: Maximum # of uses allowed per entry_ allows you to set a maxiumum
-number of uses that can be resoced at a time.
+threshold at which Evergreen will ask staff to confirm that they really want to record that many in-house uses. 
+The library setting _Record In-House Use: Maximum # of uses allowed per entry_ allows you to set a maximum
+number of uses that Evergreen will allow to be recorded at a time.   These settings can
+be useful in preventing an accidental scan of a barcode in the _# of Uses_ from inflating in-house statistics.
 
 [NOTE]
 ======
