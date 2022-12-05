@@ -120,10 +120,10 @@ This table contains item records. Important fields in this table include:
 * Last Edit Date/Time
 * Price
 
-Pre-catalogued item information including Dummy ISBN, Precat Dummy Title, and Precat Dummy Author 
-is also in this table. When a pre-catalogued item is checked out, an item record is created. If the 
-barcode is already in the table and the item is not marked deleted, the item record will be updated 
-with the new title, author, etc.
+xref:_pre_catalogued_items[Pre-catalogued item] information including Dummy ISBN, Precat Dummy Title, 
+and Precat Dummy Author is also in this table. When a pre-catalogued item is checked out, an item record 
+is created. If the barcode is already in the table and the item is not marked deleted, the item record 
+will be updated with the new title, author, etc.
 
 To find more information about items follow the links to the _Circulation Modifier_ table, the _Copy
 Status_ table, and the _shelving location_ table.
@@ -177,110 +177,142 @@ In-house Use Table
 ++++++++++++++++++
 
 This table contains in-house use records for catalogued items.  These in-house circulations are done via
-the _Record In-House Use_ interface.
+the xref:_catalogued_items[_Record In-House Use_] interface.
 
 For item information follow the link to the _Item_ table.
 
 Non-catalogued Circulation Table
 ++++++++++++++++++++++++++++++++
 
-This table contains non-catalogued circulations. When a non-catalogued checkout is recorded, a record is created in this table. 
-Non-catalogued item category can be found in the linked Non-Cat Item Type table.
+This table contains circulations for xref:_non_catalogued_items[non-catalogued items]. 
+
+For xref:_non_catalogued_type_editor[Non-catalogued item type] information follow the link to 
+the _Non-cat Item Type_ table.
 
 
 Non-catalogued In-house Use Table
 +++++++++++++++++++++++++++++++++
 
-  This table contains the non-catalogued item in-house use records. Follow the link to Item 
-Type to find the non-catalogued item category.
+This table contains in-house use records for non-catalogued items. 
 
+These in-house circulations are done via
+the xref:_non_catalogued_items_2[_Record In-House Use_] interface.
+
+For xref:_non_catalogued_type_editor[Non-catalogued item type] information follow the link to 
+the _Item Type_ table.
+
+Hold Request Table
+++++++++++++++++++
+
+This table contains hold records for holds that are waiting to be filled or waiting to be picked up.
+
+For patron information follow the link to the _Hold User_ table.
+
+For information on who placed to hold follow the link to the _Requesting User_ table.  The requesting
+user will either be the patron or a staff member if they placed the hold for the patron.
+
+For information on the items that can be used to fill a hold follow the link to the _Hold Copy Map_.
+Outside of the reporter this is refered to as the Eligible Copies table.
+
+[TIP]
+======
+Target Object ID is shown as a link but there is no linked table in the Source pane. Depending on the 
+type of hold the value in this field could be a bibliographic record ID, a call number record id or 
+an item record ID.  This is one of the rare cases where you would select a link field to use for your
+display field.
+======
+
+Important date/time fields in this table include:
+
+* Activation Date - the date on which a suspended hold will be activated
+* Capture Date/Time - the time when the hold is captured for the hold shelf or sent into transit
+* Fulfillment Date/Time - the time when the on hold item is checked out
+* Hopeless Date - 
+* Hold Cancel Date/Time - the time when the hold is cancelled
+* Hold Expire Date/Time - this could be the date calculated based on your library's default 
+Hold Expire Interval or a selected date when placing the hold
+* Last Targeting Date/Time - the last time the hold targeting program checked for an item to fill the hold. 
+Usually the time will match the Hold Request Time as the hold targeter will generally check every
+24 hours.  It is usually not useful for reporting, but it can serve as an indicator of whether or not the 
+request time has been edited.
+* Request Date/Time - Usually this is when the hold is placed but it is editable on the staff client. So 
+sometimes this may be the request time chosen by the staff
+* Shelf Expire Time - the date is calculated based on the Shelf Time and your library's Default Hold Shelf 
+Expire Interval
+* Shelf Time - when the item's status is updated to On Hold Shelf
+
+For notification information follow the link to the _Notifications_ table.  This table includes Notification
+Date/Time which indicates when the automatic notification was sent.
 
  
 Copy Transit Table
 ++++++++++++++++++
 
-  When an item is sent in transit, regardless of whether it is going back to its circulating 
-library or going to fill a hold, a copy transit record is created in this table. Follow the link to Transit 
-Copy to find the item information.
+This table contains records of item transits.  Records are created in this table both when an item
+is sent back to its circulating library as well as when it is sent to another library to fill a hold.
+
+For item information follow the link to the _Transited Copy_ table.
  
-Hold Transit
-++++++++++++
+Hold Transit Table
+++++++++++++++++++
 
- When an item is sent in transit to fill a hold, a hold transit record is created in this table 
-and the Copy Transit table. So this table contains a subset of records of the Copy Transit table. You may find 
-hold information following the link to Hold Requiring Transit. Follow the link to Transit Copy to find the 
-item information.
+This table contains records of item transits specifically when the item is transitting to fill a hold. 
+
+For item information follow the link to the _Transited Copy_ table.
+
+For hold information follow the link to the _Hold requiring transit_ table.
+
+Billing Line Item Table
++++++++++++++++++++++++
+
+This table contains all the billing line items such as each day's overdue fines and the manually created 
+bills. 
+
+The records in this table are viewable on the Full Details screen on Bills tab in a patron's account
+in the staff client.
  
-Hold Request
-++++++++++++
-
- When a hold is placed, a hold record is created in this table. You may find the hold receiver's 
-information in Hold User. Requesting User is the person who takes the placing hold action. It can be the hold 
-receiver or a staff member. Generally if the Hold User is different from the Requesting User, this is a 
-staff-placed hold. Hold Copy Map equals Eligible Copies. Copies that can be used to fill the hold are in this 
-table.
-
-[NOTE]
-======
-Target Object ID is shown as a link. But there is no linked table in the Source pane. The value in this 
-field could be a bibliographic record id, a volume record id or a copy record id depending on the hold type.
-======
-
-Timestamps in this table:
-
-* Capture Date/Time - The time when the hold achieves hold shelf or hold-in-transit status.
-* Fulfillment Date/Time - the time when the on-hold item is checked out.
-* Hold Cancel Date/Time - the time when the hold is cancelled.
-* Hold Expire Date/Time - This could be the date calculated based on your library's default Hold Expire Interval 
-or a selected date when placing the hold.
-* Last Targeting Date/Time - The last time the hold targeting program checked for a target copy for the hold. 
-It usually has the same time as the Hold Request Time. It is usually not useful for reporting, But it may 
-serve as an indicator of whether the request time has been edited.
-* Notify Time - when the email notice is sent out.
-* Request Date/Time - Usually this is when the hold is placed. But it is editable on the staff client. So 
-sometimes this may be the request time chosen by the staff.
-* Shelf Expire Time - the date is calculated based on the Shelf Time and your library's Default Hold Shelf 
-Expire Interval.
-* Shelf Time -  when the hold achieves On Hold Shelf status.
-* Thaw Date - the activation date for a suspended hold.
- 
-*Bills and Payments tables and views*
- 
-Billing Line Item
-+++++++++++++++++
-
- This table contains 
-all the billing line items such as each day's overdue fines and the grocery bills created manually. The 
-records in this table are viewable on the Full Details screen on Bills in the staff client.
- 
-Billable Transaction with Billing Location
-++++++++++++++++++++++++++++++++++++++++++
+Billable Transaction with Billing Location Table
+++++++++++++++++++++++++++++++++++++++++++++++++
 
 This table contains the summary records of billings and payments. 
-Most information in these records is displayed on Bills or Bills History screen. The records are updated when 
-either the related billings or payments are updated. Transaction ID is the bill ID. It is also the circulation 
-record ID for circulation bills. Transaction Start Time is the grocery bill creation time or circulation 
-checkout time. Transaction Finish Time is when the bill is resolved.
- 
-Payments
-++++++++
 
- ALL contains all payment records. When a lump sum of payment is made on the staff client, one 
-or more payment records are created depending on the number of bills it resolved or partially resolved. 
-One bill may be resolved by multiple payments.
- 
-Payments: Brick-and-mortar
-++++++++++++++++++++++++++
+Most of information in these records is displayed on the xref:_bills_and_payments[Bills] tab or 
+xref:_viewing_bill_history[Bills History] screen. The records are updated when 
+either the related billings or payments are updated. 
 
- contains all payments made at the circulation desk.
+Important fields in this table include:
+
+* Transaction ID - this is the bill ID and also the circulation record ID for circulation bills
+* Transaction Start Time - this is the check out time for circulation related bills and the creation time
+for manually created bills
+* Transaction Finish Time - this is when the bill is resolved by being paid, refunded, or adjusted to zero
+
+Payments: All Table
++++++++++++++++++++
+
+This table contains ALL payment records. 
+
+When a payment is made in the staff client payment records are created.  This could be one record
+or multiple depending on the number of bills resolved or partially resolved by the payment. 
+
+One bill may be resolved by multiple payments. One payment may resolve multiple bills.
  
-Payments: Desk
-++++++++++++++ Cash/Check/Credit Card payment.
+Payments: Brick-and-mortar Table
+++++++++++++++++++++++++++++++++
+
+This table contains all payments made at the circulation desk through staff.  
+
+
+Payments: Desk Table
+++++++++++++++++++++ 
+
+This table contains payments made using the payment type Cash, Check, Credit Card, or Debit Card.
+
  
 Payments: Non-drawer Staff
 ++++++++++++++++++++++++++
 
- Forgive/Work/Goods/Patron Credit payments.
+This table contains payments made using the payment type Patron Credit, Work, Forgive, or Goods.
 
 
 ////
