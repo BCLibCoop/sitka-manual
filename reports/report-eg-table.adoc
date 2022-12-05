@@ -1,9 +1,6 @@
 The Evergreen Database
 ----------------------
 
-The Evergreen Database and Reports
-The Evergreen Database and Report Templates
-
 When you use Evergreen you are creating and updating records within the Evergreen database.  Evergreen's
 reporter enables you to create reports to extract those records from the database.  Understanding some
 basics about the Evergreen database and how records are created and/or updated when tasks are performed on 
@@ -78,8 +75,8 @@ This can be viewed in the report output by selecting *Debugging Info*.
 image::images/report/reports-evergreen-database-2.png[]
 
  
-Commonly Used Tables and Views
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Commonly Used Tables
+~~~~~~~~~~~~~~~~~~~~
 
 [NOTE]
 ======
@@ -87,49 +84,96 @@ Some tables and fields in the database still use the term _copy_ while the prefe
 throughout the staff client.
 ======
 
+////
 A view is a virtual table which contains records meeting defined requirements. The fields in a view can 
 be from one or more tables. Before you use a view for your report, you need to make sure the view contains 
 the type of records that you want to report on. For example, Overdue Circulation is a view which contains 
 circulation records without checkin date and the due date past "today". It does not work for a report on 
 last month's circulation statistics, but it makes an overdue report easier.
+////
 
-_ILS User_ (aka Patron or User): The table contains patron records. Patron names, phone numbers, email 
-address, and registration date can all be found in this table. Follow the links to the table 
-_Current Library Card_ to find a patron's current barcode, _Circulation_ to find the circulation history, 
-_Home Library_, _Mailing Address_, _Physical Address_, and _Main Profile Group_, etc. to find more 
-information about the patron.
- 
-_Item_ (aka Circulating Item): This table contains item records. Item barcode, creation date, active date, 
-last edited date, last copy status change date, and price are in this table. For related information like 
-call number, circulating library, circ modifier, status, shelving location, etc., you need to follow the 
-links to the respective table to find them. For title information you need to follow the Call Number table to the 
-Bibliographic Record table to find it. Follow the link to the Circulation table to find an item's circulation 
-history.
- 
-Pre-catalogued item information such as dummy ISBN, title and author are also in this table. When a 
-pre-catalogued item is checked out, an item record is created. If the barcode is already in the table and 
-the item is not marked deleted, the item record will be updated with the new title, author, etc.
- 
-_Bibliographic Record_: This table contains title information. To find the basic bibliographic 
-information such as title, author, ISBN, etc., follow the link to Simple Records Extract.
- 
-_Circulation_: This table contains circulation records, including pre-catalogued item circulations. 
-When an item is checked out, a circulation record is created. When an item is renewed, the existing 
-circulation record is closed and another circulation record is created. Below are some important 
-timestamps in this table.
+ILS User Table
+++++++++++++++
+
+This table contains patron/user records. Important fields in this table include:
+
+* Patron names (primary and preferred)
+* Phone numbers
+* Email address
+* Home Library
+* Privilege Expiration Date
+* Record Creation Date/Time
+
+To find more information about patrons follow the links to the _Current Library Card_ table 
+for patron's current barcode, the _Circulation_ table to find the circulation history, and the
+_Mailing Address_, _Physical Address_, and _Main Profile Group_, etc.
+
+Item Table
+++++++++++
+
+This table contains item records. Important fields in this table include:
+
+* Barcode (item)
+* Creation Date/Time
+* Active Date/Time 
+* Copy Status Changed Time
+* Last Edit Date/Time
+* Price
+
+Pre-catalogued item information including Dummy ISBN, Precat Dummy Title, and Precat Dummy Author 
+is also in this table. When a pre-catalogued item is checked out, an item record is created. If the 
+barcode is already in the table and the item is not marked deleted, the item record will be updated 
+with the new title, author, etc.
+
+To find more information about items follow the links to the _Circulation Modifier_ table, the _Copy
+Status_ table, and the _shelving location_ table.
+
+For circulation information follow the link to the _Circulations_ table.
+
+For basic bibliographic information follow the link to the _Call Number/Volume_ table.  From
+here go to the _Bib Record_ table and then click on _Simple Records Extracts_.  Title, Author, ISBN,
+ISSN, Publisher, Publication Year, and Record ID can be found in this table.
+
+Bibliographic Record Table
+++++++++++++++++++++++++++
+
+This table contains title information. In most cases you will want the basic bibliographic information
+which is found within the _Simple Record Extract_ table.  When linking from other tables you usually have
+to link through the _Call Number/Volume_ table to find the _Bib Record_ table.
+
+
+Circulation
++++++++++++
+
+This table contains circulation records, including pre-catalogued item circulations. 
+
+[NOTE]
+======
+When an item is checked out a circulation record is created. When an item is renewed the existing 
+circulation record is closed and another circulation record is created.
+====== 
+
+Important date/time fields in this table include:
  
 * Checkout Date/Time - the time when an item is checked out
-* CheckIn Date/Time - the effective date when the item is treated as checked-in
-* CheckIn Scan Date/Time - the time when the check in action is taken
+* Checkin Date/Time - the effective date when the item is treated as checked in
+* Checkin Scan Date/Time - the time when the check in action is taken
 * Due Date/Time - For all daily loans the due time is 23:59:59 of the day in Pacific Time. Hourly loans have 
 specific time with time zone information.
-* Fine Stops Date/Time - the date when the Maximum Fine limit has been reached, or the item is returned, marked 
-lost or claimed returned. After this date, the fine generator will not create new overdue fines for this 
-circulation.
-* Record Creation Date/Time - the date and time when the circulation record is created. For online checkout it 
-is the same as Checkout Date/Time. For offline checkout, this date is the offline transaction processing date.
+* Fine Stops Date/Time - the date when the Maximum Fine limit has been reached, or the item is returned, 
+marked lost or claimed returned. After this date, the fine generator will not create new overdue 
+fines for this circulation.
+* Record Creation Date/Time - the date and time when the circulation record is created. For online 
+checkout it is the same as Checkout Date/Time. For offline checkout, this date is the offline 
+transaction processing date.
 * Transaction Finish Date/Time - the date when the bills linked to this checkout have been resolved. For a 
 regular checkout without bills this field is filled with the checkin time when the item is returned.
+ 
+For patron information follow the link to the _Patron_ table.
+
+For item information follow the link to the _Circulating Item_ table.
+
+
  
 _Non-catalogued Circulation_: This table contains non-catalogued circulations. When a non-catalogued checkout is recorded, a record is created in this table. 
 Non-catalogued item category can be found in the linked Non-Cat Item Type table.
