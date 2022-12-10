@@ -403,7 +403,7 @@ Removing a Filter
 Removing a filter WILL affect what results are included in your report output.  Ensure you don't need to filter
 on a particular field before removing it.
 
-All report templates MUST have at least one library filter.  This filter is important as it allows 
+All report templates MUST have at least one filter to choose a specific library. This filter is important as it allows 
 staff to comply with Sitka's data use requirements as per 
 https://ln.sync.com/dl/ca731e4e0/view/doc/7839812630003#bw5v92du-w6q5j6uj-szy6shez-smwueqdv[Appendix J 
 of the Service Management Agreement] and restrict the data in the report output to only data relevant 
