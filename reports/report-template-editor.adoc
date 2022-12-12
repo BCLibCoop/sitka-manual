@@ -1,6 +1,15 @@
 Report Template Editor
 ----------------------
 
+(((Modify, Report Templates)))
+(((Report Templates, Modify)))
+(((Create, Report Templates)))
+(((Report Templates, Create)))
+(((Templates, Report)))
+(((Reporter, Templates)))
+(((Reporter, Template Editor)))
+(((Template Editor, Report)))
+
 The report template editor is made up of three section:
 
 . Basic Information
@@ -31,10 +40,22 @@ field and it will be included as a link in the report output.
 Display Field and Filter Selector
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+(((Report Templates, Display Fields)))
+(((Reporter, Display Fields)))
+(((Display Fields, Reports)))
+(((Report Templates, Filter)))
+(((Reporter, Filter)))
+(((Filter, Reports)))
+
+
 The _Display Field and Filter Selector_ is where you build your display fields and filters for your template.
 
 Core Source
 ^^^^^^^^^^^
+
+(((Core Source)))
+(((Reporter, Core Source)))
+(((Report Templates, Core Source)))
 
 Every report template starts with a core source.  This is the database table from which your template is
 built out. The top of the left-hand pane of the _Display Field and Filter Selector_ section of the 
@@ -63,6 +84,10 @@ xref:_the_evergreen_database[].
 
 Nullability
 ^^^^^^^^^^^
+
+(((Nullability)))
+(((Reporter, Nullability)))
+(((Report Templates, Nullability)))
 
 The Nullability check box is beside the core source list. In general this check box should be left 
 un-checked.  
@@ -99,6 +124,10 @@ Nullability Selection in Evergreen Reports (45:00)*].
 
 Adding a Display Field
 ^^^^^^^^^^^^^^^^^^^^^^
+(((Add, Report Display Field)))
+(((Report Templates, Display Fields)))
+(((Reporter, Display Fields)))
+(((Display Fields, Reports)))
 
 Display fields are the columns which will display in your report output. 
 
@@ -140,6 +169,10 @@ image::images/report/report-add-display-field-5.png[]
 
 Adding a Filter
 ^^^^^^^^^^^^^^^
+(((Add, Report Filter)))
+(((Report Templates, Filter)))
+(((Reporter, Filter)))
+(((Filter, Reports)))
 
 Filters allow you to set up the criteria so that Evergreen returns the information you are looking for.
 In most cases the value for the filter will be entered when the report is run, rather than included
@@ -186,7 +219,13 @@ See xref:_updating_a_filter_value[].
 
 Display Field and Filter Tabs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(((Report Templates, Display Fields)))
+(((Reporter, Display Fields)))
+(((Display Fields, Reports)))
 
+(((Report Templates, Filter)))
+(((Reporter, Filter)))
+(((Filter, Reports)))
 
 Display Fields
 ^^^^^^^^^^^^^^
@@ -249,6 +288,10 @@ in the field name which type of library is being presented in the report output 
 [[_changing_a_display_transform]]
 Changing a Transform
 ++++++++++++++++++++
+
+(((Transform)))
+(((Reporter, Transform)))
+(((Report Templates, Transform)))
 
 For information on specific transforms see xref:_field_transforms[].
 
@@ -324,6 +367,10 @@ image::images/report/report-filters-4.png[]
 Changing an Operator
 ++++++++++++++++++++
 
+(((Operator)))
+(((Reporter, Operator)))
+(((Report Templates, Operator)))
+
 For information on specific operator see xref:_operators[].
 
 . On the *Filter* tab select the field you would like change the operator of.
@@ -342,6 +389,10 @@ image::images/report/report-filters-operator-2.png[]
 Changing a Transform
 ++++++++++++++++++++
 
+(((Transform)))
+(((Reporter, Transform)))
+(((Report Templates, Transform)))
+
 For information on specific transforms see xref:_field_transforms[].
 
 . On the *Filters* tab select the field you would like to change the transform for.
@@ -359,6 +410,10 @@ image::images/report/report-filters-transform-2.png[]
 [[_updating_a_filter_value]]
 Updating a Filter Value
 +++++++++++++++++++++++
+
+(((Report Templates, Filter Value)))
+(((Reporter, Filter Value)))
+(((Filter Value, Reports)))
 
 Filter values can be hardcoded into a template or left blank to be filled in when the report is run.  Information
 on commonly hardcoded filters can be found in xref:_report_filters[].
