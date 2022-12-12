@@ -20,6 +20,8 @@ Format Filter Groups and Format Icons are configured at the Sitka level.
 
 * bib_level (BLvl) is Leader position 07
 
+* Date1 is 008 position 07-10
+
 * item_form (Form) is 008 position 23, except when item_type is g, 008
 position 29
 
@@ -35,6 +37,8 @@ Search Filters
 *Audience* - relies on character 22 of the 008 field (for the relevant material configurations).
 
 *Literary Forms* - relies on character 33 of the 008 field (only applicable to books).
+
+Publication Date - relies on characters 07-10 of the 008 field.
 
 *Formats* - currently includes formats not included in our regular format list.  These are marked as 
 _(hidden)_ in the list.
