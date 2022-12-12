@@ -6,12 +6,6 @@ MARC record for search filters and format icons.  These fields need to be accura
 so that the correct format icons display and expected records are included in
 search results.
 
-[NOTE]
-======
-The new catalogue presently includes search filters that are different from those available in the
-traditional catalogue.  Further work is required in the new catalogue to enable it to use our custom filters.
-======
-
 Evergreen looks at the following positions in the leader and control fields:
 
 Format Filter Groups and Format Icons are configured at the Sitka level.
@@ -19,6 +13,8 @@ Format Filter Groups and Format Icons are configured at the Sitka level.
 * item_type (Type) is Leader position 06
 
 * bib_level (BLvl) is Leader position 07
+
+* Date1 is 008 position 07-10
 
 * item_form (Form) is 008 position 23, except when item_type is g, 008
 position 29
@@ -35,6 +31,8 @@ Search Filters
 *Audience* - relies on character 22 of the 008 field (for the relevant material configurations).
 
 *Literary Forms* - relies on character 33 of the 008 field (only applicable to books).
+
+*Publication Date* - relies on characters 07-10 of the 008 field.
 
 *Formats* - currently includes formats not included in our regular format list.  These are marked as 
 _(hidden)_ in the list.
