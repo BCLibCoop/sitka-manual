@@ -6,12 +6,6 @@ MARC record for search filters and format icons.  These fields need to be accura
 so that the correct format icons display and expected records are included in
 search results.
 
-[NOTE]
-======
-The new catalogue presently includes search filters that are different from those available in the
-traditional catalogue.  Further work is required in the new catalogue to enable it to use our custom filters.
-======
-
 Evergreen looks at the following positions in the leader and control fields:
 
 Format Filter Groups and Format Icons are configured at the Sitka level.
