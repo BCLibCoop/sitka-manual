@@ -477,8 +477,16 @@ image::images/report/report-filters-remove-1.png[]
 Template Terminology
 ~~~~~~~~~~~~~~~~~~~~
 
+(((Reporter, Template Terminology)))
+(((Report Templates, Terminology)))
+
 Data Types
 ^^^^^^^^^^
+
+(((Data Types)))
+(((Reporter, Data Types)))
+(((Report Templates, Data Types)))
+
 
 Every field that display in _Source Path_ pane of the Report Template Editor is associated with a data 
 type. This indicates what kind of information is stored in the field and Evergreen will handle the information 
@@ -506,6 +514,10 @@ image::images/report/term-1.png[]
 
 Field Transforms
 ^^^^^^^^^^^^^^^^
+
+(((Transform)))
+(((Reporter, Transform)))
+(((Report Templates, Transform)))
 
 Transforms determine how data is processed when it is retrieved from the database. Different data types can
 be transformed differently. Not all transforms are available to a certain data type.
@@ -550,6 +562,10 @@ date.
 Operators
 ^^^^^^^^^
 
+(((Operator)))
+(((Reporter, Operator)))
+(((Report Templates, Operator)))
+
 Operators describe how two pieces of data can be compared to each other. They are used when creating filters
 in a template to determine which records should be included in the result. The record is included when the
 comparison returns "TRUE". The possible ways of comparing data are related to data type and data transforms.
@@ -592,6 +608,10 @@ this operator should be used when there is no visible value in the field. |
 
 Filter Values
 ^^^^^^^^^^^^^
+
+(((Report Templates, Filter Value)))
+(((Reporter, Filter Value)))
+(((Filter Value, Reports)))
 
 If you enter hardcoded values for filter fields, the data must match exactly how is displays in Evergreen. 
 For example, if the status is _Missing_ in Evergreen you must use _Missing_, a value of _missing_ will 
