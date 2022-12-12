@@ -46,22 +46,61 @@ When modifying a template NEVER change the core source.  This will scrap your ex
 will have to start again from scratch.
 
 When creating a new template the first thing you need to do is figure out which core source makes
-the most sense for the data you want to see in your report output.
+the most sense for the data you want to see in your report output. If you need information from 
+other tables you'll follow the links to those tables when adding display fields and filters.
 
 The three most commonly used core sources are Circulation, Item, and ILS User.  Templates for monthly
 circulation statistics and templates for tracking overdue items use the core source Circulation.  Templates
 about the state of your collection use the course source Item.  Templates containing counts or lists 
 of your patrons use the core source ILS User.  More information can be found in 
-xref:_commonly_used_tables_and_views[].
+xref:_commonly_used_tables[].
 
 You can link to other database tables to include information contained in those tables but
 not every table links directly.  For example, patrons and items aren't directly linked to each other.
 Information about items out to a patron is held in the circulation table while information about
 items on hold is held in the hold request table.  More information can be found in 
-xref:_commonly_used_tables_and_views_in_evergreen_database[].
+xref:_the_evergreen_database[].
+
+Nullability
+^^^^^^^^^^^
+
+The Nullability check box is beside the core source list. In general this check box should be left 
+un-checked.  
+
+image::images/report/report-nullability-1.png[]
+
+You may wish to use nullability if your report output includes null values that you don't want included or 
+if your report output doesn't include null values that you do want to see.  Nullability allows you to have 
+more control over whether or not null values in fields are included in your report output.  It does this 
+by allowing you to manually select the way in which Evergreen is joining the database tables when running 
+a report from the template.  The type of join used will determine what kind of data 
+can display a null value in your report output.
+
+When Nullability is checked the following options show for joins between tables:
+
+* *Default* - defined within Evergreen. See xref:_the_evergreen_database[] for more information.
+* *Child Nullable* = depends on the default join (usually left). Evergreen will include all records in
+the child table (linked to table).
+* *Parent Nullable* = depends on the default join (usually right). Evergreen will include all records in
+the parent table (linked from table).
+* *None Nullable* = equivalent to inner join. Evergreen will only include data that is in both tables
+
+
+image::images/report/report-nullability-2.png[]
+
+[NOTE]
+======
+You must use the same nullability selection on all display fields and filters that you add from
+the same table.
+======
+
+To learn more about nullability see the Evergreen conference presentation https://youtu.be/oDtjpW3Kiz8[*Thanks for Nothing: 
+Nullability Selection in Evergreen Reports (45:00)*].
 
 Adding a Display Field
 ^^^^^^^^^^^^^^^^^^^^^^
+
+Display fields are the columns which will display in your report output. 
 
 . Ensure the *Display Fields* tab is the active tab in the _Display Field and Filter Tabs_
  section of the _Report Template Editor_.
@@ -101,6 +140,10 @@ image::images/report/report-add-display-field-5.png[]
 
 Adding a Filter
 ^^^^^^^^^^^^^^^
+
+Filters allow you to set up the criteria so that Evergreen returns the information you are looking for.
+In most cases the value for the filter will be entered when the report is run, rather than included
+in the template.
 
 . Ensure the *Filter* tab is the active tab in the _Display Field and Filter Tabs_ section of 
 the _Report Template Editor_.
@@ -360,7 +403,7 @@ Removing a Filter
 Removing a filter WILL affect what results are included in your report output.  Ensure you don't need to filter
 on a particular field before removing it.
 
-All report templates MUST have at least one library filter.  This filter is important as it allows 
+All report templates MUST have at least one filter to choose a specific library. This filter is important as it allows 
 staff to comply with Sitka's data use requirements as per 
 https://ln.sync.com/dl/ca731e4e0/view/doc/7839812630003#bw5v92du-w6q5j6uj-szy6shez-smwueqdv[Appendix J 
 of the Service Management Agreement] and restrict the data in the report output to only data relevant 
@@ -382,7 +425,7 @@ Template Terminology
 Data Types
 ^^^^^^^^^^
 
-Ever field that display in _Source Path_ pane of the Report Template Editor is associated with a data 
+Every field that display in _Source Path_ pane of the Report Template Editor is associated with a data 
 type. This indicates what kind of information is stored in the field and Evergreen will handle the information 
 differently based on the data type. Each data type has its own characteristics and uses.
 
@@ -484,12 +527,10 @@ or Equal to the smaller given value and Less Than or Equal to the bigger given v
 should always comes first when filling in a filter with this operator. | For example: between 3 and 5 is
 correct. Between 5 and 3 will return FALSE on the Reports interface. For timestamp earlier date always comes
 first.
-|Not Between | |
-|Is NULL | |
-|Is not NULL | | 
+|Is NULL | Returns TRUE for fields that contain no data.| For example, an overdue report will include a filter
+for Check In Date/Time is NULL as an item is no longer overdue if there is a value for Check In Date/Time.
 |Is NULL or Blank | Returns TRUE for fields that contain no data or blank string. For most intents and purposes
 this operator should be used when there is no visible value in the field. |
-|Is not NULL or Blank |
 |===
 
 

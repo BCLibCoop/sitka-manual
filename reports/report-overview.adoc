@@ -1,5 +1,57 @@
-Reports Overview
+Reporter Overview
 -----------------
+
+It is possible to report on almost every field in 
+every table in the Evergreen database. In accordance with Sitka’s privacy policy and owing to the nature of Sitka’s shared 
+Evergreen database any staff needing access to the reporter must sign and submit the 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/full-reporter-privacy-waiver/[Full 
+Reporter Privacy Waiver].  Once the waiver is completed, if the staff account meets the 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[required criteria],
+Co-op Support will grant reporter permissions to the account. 
+
+There are three main components used by the reporter:
+
+* report template
+* report definition
+* report output
+
+These components are saved in xref:_folders[folders] specific to the library account. Users can 
+xref:_sharing_folders[share their folders] to allow others to clone templates and view report definitions 
+and output but only the owning staff account can manage the contents of their folders.
+
+[TIP]
+=====
+Know which library staff at your library have recurring reports set up and make sure to stop those reports
+when the staff member leaves your library.  
+
+Once a xref:_closing_library_staff_accounts[library staff account is closed] it is no longer possible to 
+access the reporter via the staff client and you will require assistance from Co-op Support to stop any 
+recurring reports run by the library staff account.
+=====
+
+Report templates tell Evergreen what fields are to be displayed in the report output and
+what conditions to filter on in the database. These templates 
+allow you to run a report more than once, without building it anew every time.  Co-op Support has
+created xref:_shared_sitka_templates[shared Sitka templates] for commonly needed reports.  These templates
+can be xref:_cloning_a_report_template[cloned] and used as is or xref:_modifying_report_templates[modified]
+by library staff.  Library staff can also xref:_creating_report_templates[create new report templates]; 
+successfully creating a new template generally requires a solid understanding of Evergreen and 
+the xref:_the_evergreen_database[Evergreen database]. 
+
+When a xref:_running_a_report[report is run] Evergreen looks at the values defined for the filters in the 
+report definition and then goes through the database and gathers the records that meet the conditions 
+into an output file. The output file can be viewed xref:_viewing_output_via_the_reporter[via the reporter 
+within the staff client] or via the xref:_viewing_output_via_the_email_link[link in the report completion 
+email].
+
+Any staff needing to view report output, but not run reports, must sign and submit the 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/all-staff-reporter-privacy-waiver/[All 
+Staff Reporter Privacy Waiver].  Once the waiver is completed, if the staff account meets the 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[required criteria],
+Co-op Support will grant report output viewing permissions to the account. 
+
+
+////
 
 Only users with reporting permissions (granted by Co-op Support on libraries' request) can access the Reports
 module or view report output.  Any staff needing access to the reporter or the ability to view report output 
@@ -51,3 +103,14 @@ This chapter focuses on the movements on the Reports interface while demonstrati
 Evergreen. Once you understand how to navigate around the Reports interface, you can create your own reports
 from scratch or take advantage of Sitka's pre-packaged report templates. Some background information about the Evergreen
 database and database terminology is at the end of this chapter.
+
+
+
+
+Templates allow you to run a report more than once, without building it anew every time by 
+changing definitions (such as values for the filters) to suit current requirements. For example, 
+a template counting patrons with a registration date within a time frame can be used to find out the 
+number of patrons registered within the last month or the last ten days. Another example is a 
+shared template that reports on circulation statistics at a given library. This can be used by 
+other libraries by selecting their own library as the checkout/renewal library when they run the report.
+////

@@ -1,6 +1,73 @@
-Creating Templates
-------------------
+Creating Report Templates
+-------------------------
 
+Report templates can be created from scratch.  Before creating a completely new template Co-op Support 
+recommends checking the xref:_shared_sitka_templates[Sitka_templates] to see if there is a template that 
+can be modified to give you the information you need.
+
+Creating a template is complex and requires some understanding of the Evergreen database and how 
+Evergreen handles various records when performing tasks on the staff client. It can be useful to plan 
+out your template before getting started with the reporter.  Think about what type of records you will
+be reporting on (circulation, item, bibliographic, patron, etc.) and what information you want to see
+in your report output.  You also want to think about how you want Evergreen to filter the information
+in the database so that your report output contains only the records you're interested in.
+
+. Go to *Administration -> Reports*. 
+. In the _My Folders_ section click on the arrow beside the _Templates_ folder to see your template folders. 
+Use the arrows to expand the folder tree until you find the folder where you'd like to create
+the new template.
++
+image::images/report/reports-run-1.png[]
++
+. Click on the folder name.
+. In the folder, click *Create a new Template for this folder*.
++
+image::images/report/report-create-template-1.png[]
++
+. The _Report Template Editor_ will open.  See xref:_report_template_editor[] for information on using
+the editor.
+. Choose a Core Source. See xref:_core_source[].
+. Add Display Fields. See xref:_adding_a_display_field[].
+. Add Filters. See xref:_adding_a_filter[].
++
+[CAUTION]
+=========
+All report templates MUST have at least one library filter.  This filter is important as it allows 
+staff to comply with Sitka's data use requirements as per 
+https://ln.sync.com/dl/ca731e4e0/view/doc/7839812630003#bw5v92du-w6q5j6uj-szy6shez-smwueqdv[Appendix J 
+of the Service Management Agreement] and restrict the data in the report output to only data relevant 
+to their library.
+=========
++
+. Add hardcoded filter values for any filters that should always use the same value.  See 
+xref:_report_filters[] for a list of filters that are commonly hardcoded.
+. Click *Save Template*.
+. Your new template can now be found in the folder you saved it in.
+. xref:_running_a_report[Run a report] from the new template to see if the desired output is generated.
++
+[TIP]
+=====
+If the path for one of your display fields or filters is incorrect you will get an error instead of the 
+expected report output. Sometimes the error text will give you a clue about what isn't working.
+
+image::images/report/report-output-error-1.png[]
+
+You can modify your template and try again or contact https://bc.libraries.coop/support/[Co-op Support] 
+for assistance.  Please review xref:_troubleshooting_report_templates[] before creating a ticket to ensure 
+you include all the information needed for Co-op Support to assist you.
+=====
++
+. Repeat the above steps until your template works as desired.
+
+[NOTE]
+======
+It is not unusual to create multiple versions of a template when working to modify a template.  Once you
+have a template that works as desired Co-op Support recommends deleting the interim versions of the template.
+See xref:_deleting_a_report_template[].
+======
+
+
+////
 Once the folders are ready, you can create or clone a template. Templates allow you to run a report more than
 once, without building it anew every time by changing definitions (such as values for the filters) to suit
 current requirements. For example, a template counting patrons with a registration date within a time frame
@@ -185,3 +252,4 @@ choose, instead, to use one of the generic templates created by Co-op support to
 (see xref:_shared_sitka_templates[]). However, knowing how a template is created will help
 you understand the report structure and is recommended as an introduction to editing template fields and
 filters.
+////

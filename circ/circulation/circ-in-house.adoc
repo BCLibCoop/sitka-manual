@@ -2,19 +2,52 @@ In-House Use
 ~~~~~~~~~~~~
 (((In-house Use)))
 
-In-house use can be recorded for catalogued and non-catalogued items. The statistics for in-house use are separate from regular circulation statistics. The in-house use count of catalogued items is not included in the items' total use count.
+In-house use can be recorded for catalogued and non-catalogued items. 
+
+The library setting _Record In-House Use: # of uses thresholds for Are You Sure? dialog_ allows you to set a
+threshold at which Evergreen will ask staff to confirm that they really want to record that many in-house uses. 
+The library setting _Record In-House Use: Maximum # of uses allowed per entry_ allows you to set a maximum
+number of uses that Evergreen will allow to be recorded at a time.   These settings can
+be useful in preventing an accidental scan of a barcode in the _# of Uses_ from inflating in-house statistics.
+
+[NOTE]
+======
+The statistics for in-house use are separate from regular circulation statistics. The in-house use 
+count of catalogued items is not included in an item's total use count.
+======
+
 
 Catalogued Items
 ^^^^^^^^^^^^^^^^
-. Click *Circulation -> Record In-House Use*.
-. Enter number of uses and scan or enter barcode.
+. Go to *Circulation -> Record In-House Use*.
+. Enter the number of uses if it is more than the default of 1.
+. Scan or enter barcode.
 +
-image:images/circ/inhouse1.png[scaledwidth="75%"]
+image:images/circ/in-house-1.png[scaledwidth="75%"]
++
+. The in-house use will be recorded in the grid.
++
+image:images/circ/in-house-2.png[scaledwidth="75%"]
+
+[TIP]
+=====
+Keep an eye on the _Item Status_ column when recording in-house use.  You may need to take further action
+if you find items with a status other than _Available_ or _Reshelving_.
+=====
+
 
 Non-catalogued Items
 ^^^^^^^^^^^^^^^^^^^^
-. Click on *Circulation -> Record In-House Use*.
-. Enter the number of uses.
-. Click on the drop down arrow in *Barcode* to choose the type of non-catalogued items, and click *Submit*.
+. Go to *Circulation -> Record In-House Use*.
+. Enter the number of uses if it is more than the default of 1.
+. Click on the drop down arrow in *Barcode* to choose the non-catalogued item type.
 +
-image:images/circ/inhouse2.png[scaledwidth="75%"]
+image:images/circ/in-house-3.png[scaledwidth="75%"]
++
+. Click *Submit*.
++
+image:images/circ/in-house-4.png[scaledwidth="75%"]
++
+. The in-house use will be recorded in the grid.
++
+image:images/circ/in-house-5.png[scaledwidth="75%"]

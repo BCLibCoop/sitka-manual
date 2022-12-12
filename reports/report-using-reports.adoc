@@ -195,6 +195,7 @@ fines because they have been set to lost.
 |ILS User -> Is Deleted |Raw Data |Equals |f | Include only un-deleted patrons.
 |===
 
+[[_report_date_filters]]
 Date Filters
 ++++++++++++
 
@@ -261,9 +262,8 @@ Recurring Reports
 
 link:https://youtu.be/WS6vRrpqIZY[*Recurring Reports (3:02)*]
 
-Recurring reports are a useful way to save time by scheduling reports that you run on a regular basis to 
-run automatically. Monthly circulation and patron registration statistics are good candidates for recurring
-reports.
+Save time by scheduling recurring reports to run your regular reports automatically. Monthly circulation 
+and patron registration statistics are good candidates for recurring reports.
 
 Staff with access to the reporter can set up recurring reports to email a link to the password-protected 
 report output to another staff member. Staff who only need to view report
@@ -282,7 +282,7 @@ step 11 and then follow the steps below.
 =====
 The recurrence interval should correspond to the date filter. For example, if the template filters 
 on a date instead of month, a recurring report running with a monthly interval may miss a day or capture 
-an extra day's data. See xref:_report_filters for more information on working with date filters on
+an extra day's data. See xref:_report_date_filters[] for more information on working with date filters on
 a recurring report.
 =====
 +
