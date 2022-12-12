@@ -1,7 +1,7 @@
 Creating Report Templates
 -------------------------
 
-Report templates can be created from scratch.  Before creating a completely new template Co-op Support 
+Before creating a completely new template Co-op Support 
 recommends checking the xref:_shared_sitka_templates[Sitka_templates] to see if there is a template that 
 can be modified to give you the information you need.
 
@@ -9,8 +9,8 @@ Creating a template is complex and requires some understanding of the Evergreen 
 Evergreen handles various records when performing tasks on the staff client. It can be useful to plan 
 out your template before getting started with the reporter.  Think about what type of records you will
 be reporting on (circulation, item, bibliographic, patron, etc.) and what information you want to see
-in your report output.  You also want to think about how you want Evergreen to filter the information
-in the database so that your report output contains only the records you're interested in.
+displayed in your report output.  You also want to think about what filters should be used so the report 
+output contains only the records you're interested in.
 
 . Go to *Administration -> Reports*. 
 . In the _My Folders_ section click on the arrow beside the _Templates_ folder to see your template folders. 
@@ -32,7 +32,7 @@ the editor.
 +
 [CAUTION]
 =========
-All report templates MUST have at least one library filter.  This filter is important as it allows 
+All report templates MUST have at least one filter to choose a specific library.  This filter is important as it allows 
 staff to comply with Sitka's data use requirements as per 
 https://ln.sync.com/dl/ca731e4e0/view/doc/7839812630003#bw5v92du-w6q5j6uj-szy6shez-smwueqdv[Appendix J 
 of the Service Management Agreement] and restrict the data in the report output to only data relevant 
