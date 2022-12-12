@@ -38,7 +38,7 @@ Search Filters
 
 *Literary Forms* - relies on character 33 of the 008 field (only applicable to books).
 
-Publication Date - relies on characters 07-10 of the 008 field.
+*Publication Date* - relies on characters 07-10 of the 008 field.
 
 *Formats* - currently includes formats not included in our regular format list.  These are marked as 
 _(hidden)_ in the list.
