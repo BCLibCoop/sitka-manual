@@ -1,6 +1,8 @@
 Using the Reporter
 ------------------
 
+(((Reporter, Using)))
+
 The basic steps to using Evergreen's reporter are:
 
 . Find the template
@@ -11,6 +13,9 @@ The basic steps to using Evergreen's reporter are:
 
 Cloning a Report Template
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+(((Clone, Report Templates)))
+(((Reporter, Cloning Templates)))
 
 ////
 [CAUTION]
@@ -73,6 +78,9 @@ image::images/report/clone-report-template-6.png[]
 
 Running a Report
 ~~~~~~~~~~~~~~~~
+
+(((Run, Reports)))
+(((Reporter, Run Reports)))
 
 link:https://youtu.be/9N22UxqOQlY[*Running a Report (4:25)*]
 
@@ -166,6 +174,9 @@ completed after 15 minutes please contact https://bc.libraries.coop/support/[Co-
 
 Report Filters
 ^^^^^^^^^^^^^^
+(((Filter, Reports)))
+(((Report Filters)))
+(((Reporter, Report Filters)))
 
 The filters in a report template allow library staff to set the parameters on which the report runs. The
 ability to select values for certain filters when running a report means a single report template can 
@@ -174,6 +185,8 @@ template can be used to generate separate lists of items using particular circul
 
 Hardcoded Filters
 +++++++++++++++++
+
+(((Report Filters, Hardcoded)))
 
 Hardcoded filters are set when the report template is created.  These filters cannot be changed when 
 running a report. Common hardcoded filters include:
@@ -198,6 +211,8 @@ fines because they have been set to lost.
 [[_report_date_filters]]
 Date Filters
 ++++++++++++
+
+(((Report Filters, Date)))
 
 Date filters are generally set up to be a specific date, a specific month, or a date range. Date filters
 will often include tips about how the dates should be entered. For instance, in a date range the earlier
@@ -226,6 +241,8 @@ image::images/report/reports-filters-2.png[]
 
 Library Filters
 +++++++++++++++
+
+(((Report Filters, Library)))
 
 All report templates used by libraries will include a library filter.  This filter can look at the 
 library specified in a variety of fields in the data including the checkout library, circulation library,
@@ -259,6 +276,9 @@ image::images/report/reports-filters-5.png[]
 
 Recurring Reports
 ^^^^^^^^^^^^^^^^^
+
+(((Recurring Reports)))
+(((Reporter, Recurring Reports)))
 
 link:https://youtu.be/WS6vRrpqIZY[*Recurring Reports (3:02)*]
 
@@ -327,6 +347,8 @@ completed after 15 minutes please contact https://bc.libraries.coop/support/[Co-
 Viewing Report Output
 ~~~~~~~~~~~~~~~~~~~~~
 
+(((View, Report Output)))
+(((Reporter, View Report Output)))
 
 link:https://youtu.be/SeAiy3jBVGg[*Viewing Report Output (2:08)*]
 
@@ -347,6 +369,9 @@ contact https://bc.libraries.coop/support/[Co-op Support].
 
 Viewing Output via the Reporter
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+(((View, Report Output via the Reporter)))
+(((Reporter, View Report Output via the Reporter)))
 
 . Go to *Administration* -> *Reports*.
 . In the _My Folders_ section click on the arrow beside the _Output_ folder to see your output folders. 
@@ -389,6 +414,8 @@ image::images/report/report-output-6.png[]
 
 Viewing Output via the Email Link
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(((View, Report Output via the Email Link)))
+(((Reporter, View Report Output via the Email Link)))
 
 . In your email program open the email with the subject _Report finished: Your report name - template used"_.
 . The body of the email will include the run time, the name of the report, the name of the template used 
@@ -435,6 +462,8 @@ image::images/report/report-output-6.png[]
 Maintaining Reporter Data
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
+(((Reporter, Maintaining Data)))
+
 Saved report templates, definitions, and output will stay in the Sitka database forever unless 
 deleted. When a template or report definition is deleted all the linked definitions and output
 files are also deleted.
@@ -446,6 +475,9 @@ link:https://youtu.be/1CGqlSApwBs[*Managing Reports (3:02)*]
 
 Maintaining Your Report Templates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+(((Report Template, Maintain)))
+(((Reporter, Maintaining Report Templates)))
 
 As Evergreen evolves from version to version the database tables sometimes change prompting Co-op Staff 
 to update the relevant templates in Sitka_templates.  To ensure Evergreen is gathering the 
@@ -463,6 +495,9 @@ to be sure you are using the correct version of the template.
 
 Deleting a Report Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+(((Delete, Report Templates)))
+(((Reporter, Delete Report Template)))
 
 [CAUTION]
 =========
@@ -500,6 +535,9 @@ own folders before running reports.
 Viewing a Report Definition
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+(((View, Report Definition)))
+(((Reporter, View Report Definition)))
+
 You can view the report definitions for the reports you've run.  This can be helpful if you need to check
 what values you entered in for the filters.
 
@@ -531,6 +569,9 @@ image::images/report/reports-view-report-def-5.png[]
 
 Editing a Report Definition
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+(((Edit, Report Definition)))
+(((Reporter, Edit Report Definition)))
 
 You can edit the report definitions for reports you've run.  This can be helpful if you want to run a 
 new report with a slight change.
@@ -608,6 +649,11 @@ TIP: We suggest you edit recurring reports in the Pending Items in Output folder
 
 Deleting Report Definitions and Output
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+(((Delete, Report Definition)))
+(((Delete, Report Output)))
+(((Reporter, Delete Report Definition)))
+(((Reporter, Delete Report Output)))
 
 Report definitions and output that you no longer need can be deleted from within the appropriate reports or
 output folder. 

@@ -1,6 +1,14 @@
 The Evergreen Database
 ----------------------
 
+(((Evergreen Database)))
+(((Reporter, Database)))
+(((Report Templates, Database)))
+
+(((Nullability)))
+(((Reporter, Nullability)))
+(((Report Templates, Nullability)))
+
 When you use Evergreen you are creating and updating records within the Evergreen database.  Evergreen's
 reporter enables you to create reports to extract those records from the database.  Understanding some
 basics about the Evergreen database and how records are created and/or updated when tasks are performed on 

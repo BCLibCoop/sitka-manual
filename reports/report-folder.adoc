@@ -1,6 +1,8 @@
 Folders
 -------
 (((Report Folders)))
+(((Folders, Reports)))
+(((Reporter, Folders)))
 
 link:https://youtu.be/JSAIrijfj2w[*Setting Up Report Folders (2:51)*]
 
@@ -24,7 +26,7 @@ folder created under each component.  See xref:_creating_folders[].
 
 Creating Folders
 ~~~~~~~~~~~~~~~~
-(((Creating Report Folders)))
+(((Create, Report Folders)))
 (((Report Folders, Creating)))
 
 [TIP] 
@@ -72,7 +74,7 @@ image::images/report/report-create-folders-6.png[]
 
 Managing Folders
 ~~~~~~~~~~~~~~~~
-(((Managing Report Folders)))
+(((Manage, Report Folders)))
 (((Report Folders, Managing)))
 
 [TIP]
@@ -102,7 +104,7 @@ image::images/report/report-create-folders-2.png[]
 
 Sharing Folders
 ~~~~~~~~~~~~~~~
-(((Sharing Report Folders)))
+(((Share, Report Folders)))
 (((Report Folders, Sharing)))
 
 _Template_, _Report_, and _Output_ folders can be private (accessible only to the user who created 
@@ -162,8 +164,8 @@ https://bc.libraries.coop/support/[Co-op Support] for assistance if you encounte
 
 Hiding Your Folders
 +++++++++++++++++++
-(((Hiding Report Folders)))
-(((Report Folders, Hiding)))
+(((Hide, Report Folders)))
+(((Report Folders, Hide)))
 
 Folders are hidden by default.  Folders that have been shared can be hidden.
 
@@ -191,6 +193,9 @@ your folders may no longer display at all.
  
 Viewing Shared Folders
 ++++++++++++++++++++++
+
+(((View, Shared Report Folders)))
+(((Report Folders, View Shared)))
 
 Folders that are shared with your library, federation, or lending zone display in the _Shared Folders_
 section.

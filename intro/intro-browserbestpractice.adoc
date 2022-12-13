@@ -5,6 +5,10 @@ Best Practices for Using the Browser
 [[browser-defaults]]
 Setting Browser Defaults for Web Client
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+(((Browser, Settings)))
+(((Settings, Browser)))
+
 To ensure that staff can easily get to the web client portal page on login without additional steps, you can set the browser’s home page to default to the web client.
 
 .Setting the Web Client as the Home Page in Chrome
@@ -74,6 +78,9 @@ image::images/intro/browser1.png[]
 Allow Pop-ups
 ^^^^^^^^^^^^^
 
+(((Browser, Pop-ups)))
+(((Pop-ups, Browser)))
+
 Your browser must allow pop-ups from *https://catalogue.libraries.coop* or you will see a small icon or message when a pop-up is triggered.
 
 image::images/intro/popup.png[]
@@ -100,6 +107,9 @@ image:images/intro/popupallow.png[scaledwidth="75%"]
 Allow Cookies
 ^^^^^^^^^^^^^
 
+(((Browser, Cookies)))
+(((Cookies, Browser)))
+
 .Allow Cookies
 . Click *Menu*.
 +
@@ -124,6 +134,9 @@ If you have cookies enabled in your browser, but they are disappearing, check yo
 Turn Off Autofill
 ^^^^^^^^^^^^^^^^^
 
+(((Browser, Autofill)))
+(((Autofill, Browser)))
+
 . Click *Menu*.
 +
 image::images/intro/browser1.png[]
@@ -137,8 +150,16 @@ image::images/intro/autofill.png[]
 Troubleshooting
 ~~~~~~~~~~~~~~~
 
+(((Troubleshooting, Browser)))
+(((Browser, Troubleshooting)))
+(((Internet Browser, Troubleshooting)))
+
+
 Clear Cache
 ^^^^^^^^^^^
+
+(((Browser, Cache)))
+(((Cache, Browser)))
 
 .Clear Cache
 . Click *Menu*.
@@ -156,6 +177,9 @@ image::images/intro/clearcache.png[]
 
 Clear Cookies
 ^^^^^^^^^^^^^
+
+(((Browser, Cookies)))
+(((Cookies, Browser)))
 
 If you log in and see a blank page with the green bar across the top, but nothing else will load, you may need to clear your browser's cache and cookies.
 
@@ -179,6 +203,9 @@ image::images/intro/browser1.png[]
 
 Reset Settings
 ^^^^^^^^^^^^^^
+
+(((Browser, Settings)))
+(((Settings, Browser)))
 
 If you still see a blank page with the green bar across after clearing your cookies the next step is to reset your
 settings for Chrome.
@@ -218,6 +245,12 @@ image::images/intro/browser3.png[]
 Reconnect Hatch
 ^^^^^^^^^^^^^^^
 
+(((Troubleshooting, Hatch)))
+(((Hatch, Troubleshooting)))
+
+(((Browser, Cookies)))
+(((Cookies, Browser)))
+
 If you have Hatch installed, use these directions to reconnect your browser to Hatch after clearing your cache
 or deleting the offline database.
 
@@ -232,6 +265,8 @@ or deleting the offline database.
 
 Retrieve Console Messages
 ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+(((Troubleshooting, Console Messages)))
 
 If you are having problems, please include screenshots and error messages from the console(s).
 

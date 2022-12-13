@@ -1,9 +1,8 @@
 Accessing the Reporter
 ----------------------
 (((Reporter Permissions)))
-(((Report Permissions)))
 (((Permissions, Reporter)))
-(((Permissions, Report)))
+
 
 The Reports interface is accessed in Evergreen by going to *Administration* -> *Reports*.
 
