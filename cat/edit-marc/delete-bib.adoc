@@ -22,8 +22,7 @@ image::images/cat/delete-marc-4.png[]
 Deleting Bibliographic Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 (((MARC Records, Delete)))
-(((Bibliographic Records, Delete)))
-(((Delete, Bibliographic Records)))
+(((Delete)))
 (((Delete, MARC Records)))
 
 Sitka's Evergreen will automatically delete records when the last item attached to the record is deleted.
