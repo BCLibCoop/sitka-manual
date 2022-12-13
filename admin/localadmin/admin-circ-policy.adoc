@@ -2,6 +2,9 @@ Circulation Policies
 ~~~~~~~~~~~~~~~~~~~~
 anchor:circulation-policy[Circulation Policy]
 
+(((Circulation Policies)))
+(((Policies, Circulation)))
+
 Circulation policies define the loan rules when an item is checked out. The policies are 
 applied based on factors including the item’s circulation modifier, shelving location, and 
 the patron’s permission profile.
@@ -20,6 +23,9 @@ out to the patron and if so with what parameters:
 
 Viewing Your Circulation Policies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+(((View, Circulation Policies)))
+(((Circulation Policies, View)))
 
 https://youtu.be/Lt1RN6LTo4c[*Sitka Training Video - Viewing Your Circulation Policies (2:15)*]
 
@@ -157,6 +163,9 @@ when items aren't circulating as expected.
 Troubleshooting Your Circulation Policies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+(((Troubleshooting, Circulation Policies)))
+(((Circulation Policies, Troubleshooting)))
+
 https://youtu.be/bUOQHfFqWNM[*Sitka Training Video - Troubleshooting Your Circulation Policies (3:12)*]
 
 There are three common reasons why items do not circulate as expected:
@@ -196,6 +205,11 @@ to view your current circulation policies.
 
 Changing Your Circulation Policies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+(((Change, Circulation Policies)))
+(((Circulation Policies, Change)))
+(((Update, Circulation Policies)))
+(((Edit, Circulation Policies)))
 
 Only Co-op Support can edit circulation policies. 
 
@@ -239,6 +253,10 @@ continue to follow the policy that was in place at the time of check out until t
 
 Going Fine Free
 +++++++++++++++
+[[_circ_policies_fine_free]]
+
+(((Circulation Policies, Fine Free)))
+(((Fine Free)))
 
 If your library decides to go fine free your circulation policies need to be updated.
 
