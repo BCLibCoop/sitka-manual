@@ -15,8 +15,6 @@ include::holds/hold-capturing.adoc[Capturing Holds]
 
 include::holds/hold-browse-holds-shelf.adoc[Holds Shelf List and Clearing Shelf-Expired Holds]
 
-include::holds/hopeless-holds.adoc[Hopeless Holds]
-
 include::holds/hold-groups.adoc[Hold Groups]
 
 include::holds/hold-hold-filling.adoc[Holds Filling Explained]
