@@ -1,6 +1,8 @@
 Holds
 -----
 
+include::holds/hold-working.adoc[Placing Holds]
+
 include::holds/hold-placing.adoc[Placing Holds]
 
 include::holds/hold-managing.adoc[Managing Holds]
