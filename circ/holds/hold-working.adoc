@@ -1,18 +1,46 @@
 Working with Holds
 ~~~~~~~~~~~~~~~~~~
 
-Basic Workflow
+Basic Hold Workflow
+^^^^^^^^^^^^^^^^^^^
 
-* Place hold
-* capture hold/pull list
-* notify patron
-* hold shelf
-* check out item/cancel hold/clear hold
-* resolve hopeless holds
+. A hold is placed by the patron or by library staff on behalf of the patron
+. Library staff capture the hold.  This can happen when an item on hold is returned and checked in or 
+when staff pull and check in available items listed on the xref:_pull_list_for_hold_requests[pull list].
+. The patron is notified automatically by text or email, or manually by staff
+. The item is placed on the xref:_holds_shelf[hold shelf].
+. The hold is complete when the patron checks out or cancels their hold or when staff cancel or 
+clear the hold.
+
+Is it Holdable?
+^^^^^^^^^^^^^^^
+
+A number of factors determine whether or not a hold can be placed.
+
+* The status of the item
+** Some xref:_item_statuses[item statuses] are not holdable.
+* How the item is catalogued
+** xref:_creating_a_shelving_location[Shelving locations] can be set to Holdable = No.
+** xref:_item_attributes[Items] can be set to Holdable = No.
+* The library's xref:_hold_policies[hold policies] can block holds based on:
+** Patron types
+** Circulation modifiers
+** Owning/Pickup library
+** Age hold protection
+* The library setting _Has Local Copy Block_.
+** When this is set to TRUE holds cannot be placed on available items.
+
+Age Based Hold Protection
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Age based hold protection enables libraries to block holds from being filled for patrons from other 
+libraries or branches until the item has been active for a specified amount of time.  
+
+Age based hold protection can be set up as part of your xref:_hold_policies[hold policies] or can be 
+applied an a per item basis via xref:xref:_item_attributes[item attributes].  Your library can do 
+age based hold protection via hold policies OR via item attribute; you cannot use both at the same time.
+
+Make sure you know if and how your library does age based hold proection.
 
 
-* age hold protection
-* hold policies
-* library settings
-* permissions
 
