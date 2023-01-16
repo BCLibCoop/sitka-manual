@@ -99,24 +99,27 @@ Call Number and Item Level Hold
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . To place a call number or item level hold, retrieve and display the record.
-. In the Item Table click *Call Number Hold* or *Item Hold* in *Holdable?* column.
+. In the _Item Table_ click *Call Number Hold* or *Item Hold* in the *Holdable?* column.
 +
 image:images/circ/callnumberhold1.png[scaledwidth="75%"]
 +
-. Edit patron hold notification fields as required and click *Submit*.
+. Edit the patron hold notification fields as required and click *Submit*.
 
-NOTE: Support recommends only using items holds if it's absolutely necessary to target a particular physical
+[CAUTION]
+=========
+Co-op Support recommends only using items holds if it's absolutely necessary to target a particular physical
 item.  Item holds should never be used when placing holds on items owned by other libraries.
 
-NOTE: Do not use Recall Hold or Force Item Hold
+Do not use Recall Hold or Force Item Hold.
+=========
 
-Placing Holds in Patron Records
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Placing Holds via a Patron Account
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 link:https://youtu.be/CBvMWZMgA24[*Sitka Snippet Video - Placing Holds from the Patron Account (1:03)*]
 
 
-. Click the *Holds* tab in the patron record.
+. Click the *Holds* tab in the patron's account .
 . Click *Place Hold*.
 +
 image:images/circ/patron-place-hold-1.png[scaledwidth="75%"]
