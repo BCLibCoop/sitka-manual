@@ -141,13 +141,13 @@ Holds Status Messages
 
 *HIGH_LEVEL_HOLD_HAS_NO_COPIES* - This indicates that there are no holdable items that can fill the hold.
 
-*ITEM_AGE_PROTECTED* - This indicates that the item is under age-based hold protection set through the Holdings
-Editor and cannot currently fill holds at your library.  If you override and place the hold it will eventually
-be filled when the item is no longer protected.
+*ITEM_AGE_PROTECTED* - This indicates that the item is under age-based hold protection set through the 
+xref:_item_attributes[items attributes] and cannot currently fill holds at your library.  If you 
+override and place the hold it will eventually be filled when the item is no longer protected.
 
 *ITEM_NOT_HOLDABLE* - This indicates that the item is under age-based hold protection set through the Hold
-Policies and cannot currently fill holds at your library.  If you override and place the hold it will eventually
-be filled when the item is no longer protected.
+Policies and cannot currently fill holds at your library.  If you override and place the hold it 
+will eventually be filled when the item is no longer protected.
 
 The following messages indicate that the patron's account has a system or staff generated block on it 
 preventing holds from being placed.  The thresholds for staff generated blocks are determined
