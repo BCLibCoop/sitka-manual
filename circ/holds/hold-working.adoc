@@ -26,9 +26,13 @@ A number of factors determine whether or not a hold can be placed.
 ** Patron types
 ** Circulation modifiers
 ** Owning/Pickup library
-** Age hold protection
+** Age based hold protection
+** Maximum number of holds allowed at a time
 * The library setting _Has Local Copy Block_
 ** When this is set to TRUE holds cannot be placed on available items
+
+Individual patrons can also be blocked from placing holds due to exceeding 
+xref:_group_penalty_thresholds[group penalty thresholds].
 
 Age Based Hold Protection
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -40,7 +44,7 @@ Age based hold protection can be set up as part of your xref:_hold_policies[hold
 applied an a per item basis via xref:xref:_item_attributes[item attributes].  Your library can do 
 age based hold protection via hold policies OR via item attribute; you cannot use both at the same time.
 
-Make sure you know if and how your library does age based hold proection.
+Make sure you know if and how your library does age based hold protection.
 
 
 
