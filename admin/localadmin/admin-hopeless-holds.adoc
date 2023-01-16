@@ -7,7 +7,10 @@ Hopeless Holds
 
 https://youtu.be/Sf6DISXuEu0[*Sitka Snippet Video - Hopeless Holds (1:11)*]
 
-A hold is considered hopeless when there are no copies in Evergreen's "hold_copy_map" for a title,  or, when all copies in the  "hold_copy_map" are in an item status with "hopeless_prone" set to True. In Sitka's Evergreen, these statuses are globally set at Discard/Weed, Damaged, Lost, Lost and Paid, and Missing.
+A hold is considered hopeless when there are no copies in Evergreen's "hold_copy_map" for a title,  
+or, when all copies in the  "hold_copy_map" are in an item status with "hopeless_prone" set to True. 
+In Sitka's Evergreen, these statuses are globally set at Discard/Weed, Damaged, Lost, Lost and Paid, 
+and Missing.
 
 
 Managing Hopeless Holds
@@ -16,13 +19,10 @@ Unfulfillable holds are colloquially known as “hopeless holds.” In previous 
 
 Hopeless Holds Interface
 ^^^^^^^^^^^^^^^^^^^^^^^^
-. Click  *Administration → Local Administration → Hopeless Holds.* All staff with permissions to view and modify holds can access Hopeless Holds.
-+
-image:images/circ/hopelessholds1.png[scaledwidth="75%"]
-
+. Click  *Administration → Local Administration → Hopeless Holds.*
 . A list of holds that are considered unfulfillable is generated. Requests are added to this list based on whether there is a value in the Hopeless Date field. Evergreen's hold targeter assigns this date when it cannot find a potential target for a hold based on the criteria of hopeless.
 +
-image:images/circ/hopelessholds2.png[scaledwidth="75%"]
+image:images/admin/hopeless-holds-1.png[scaledwidth="75%"]
 
 . The list of hold requests can be filtered by hopeless date range and/or pickup library. Pickup library defaults to the workstation library and retrieves results for the selected library and its descendants.
 +
