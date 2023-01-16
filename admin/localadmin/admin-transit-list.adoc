@@ -3,18 +3,21 @@ Transit List
 
 anchor:transit-list[Transit List]
 
-This is where you may list items in transit to your library or from your library to other libraries. You may select a date range when items were sent in transit.
+The transit list tracks items that are in transit between libraries. Libraries should check this list on
+a regular basis for items that have been in transit longer than normal.
 
 . Go to *Administration -> Local Administration -> Transit List*. 
 . Select *Transit To* or *Transit From*. 
-. Specify a date range. 
-. Items were sent in transit during the date range and still have in transit status are listed. 
-
-
+. Specify a date range.
+. Multi-branch libraries must select a specific branch to see the items in transit to or from that branch. 
+. Items were sent in transit during the date range and are still in transit are listed. 
++
 image::images/admin/transit-list-1.png[]
++
+. Libraries should search for items that have been in transit longer than normal.  
 
-
-TIP: If hold information, e.g. Hold ID in the above screenshot, is displayed, it means the item is in transit to fill a hold.
+TIP: If hold information, e.g. Hold ID in the above screenshot, is displayed, 
+it means the item is in transit to fill a hold.
 
 
 
