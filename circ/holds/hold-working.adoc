@@ -18,17 +18,17 @@ Is it Holdable?
 A number of factors determine whether or not a hold can be placed.
 
 * The status of the item
-** Some xref:_item_statuses[item statuses] are not holdable.
+** Some xref:_item_statuses[item statuses] are not holdable
 * How the item is catalogued
-** xref:_creating_a_shelving_location[Shelving locations] can be set to Holdable = No.
-** xref:_item_attributes[Items] can be set to Holdable = No.
+** xref:_creating_a_shelving_location[Shelving locations] can be set to Holdable = NO
+** xref:_item_attributes[Items] can be set to Holdable = NO
 * The library's xref:_hold_policies[hold policies] can block holds based on:
 ** Patron types
 ** Circulation modifiers
 ** Owning/Pickup library
 ** Age hold protection
-* The library setting _Has Local Copy Block_.
-** When this is set to TRUE holds cannot be placed on available items.
+* The library setting _Has Local Copy Block_
+** When this is set to TRUE holds cannot be placed on available items
 
 Age Based Hold Protection
 ^^^^^^^^^^^^^^^^^^^^^^^^^
