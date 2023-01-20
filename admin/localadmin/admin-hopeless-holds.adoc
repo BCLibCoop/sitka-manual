@@ -4,8 +4,12 @@ Hopeless Holds
 (((Holds)))
 (((Holds, Hopeless Holds)))
 
+https://docs.evergreen-ils.org/eg/docs/latest/circulation/basic_holds.html#_identifying_a_hopeless_hold
+
 
 https://youtu.be/Sf6DISXuEu0[*Sitka Snippet Video - Hopeless Holds (1:11)*]
+
+In Evergreen a hopeless hold is a hold that the system cannot fill.  
 
 A hold is considered hopeless when there are no copies in Evergreen's "hold_copy_map" for a title,  
 or, when all copies in the  "hold_copy_map" are in an item status with "hopeless_prone" set to True. 
@@ -15,7 +19,10 @@ and Missing.
 
 Managing Hopeless Holds
 ^^^^^^^^^^^^^^^^^^^^^^^
-Unfulfillable holds are colloquially known as “hopeless holds.” In previous versions of Evergreen, staff relied on reports to generate lists of such holds. In Sitka's Evergreen version 3.7, the new Hopeless Holds interface provides staff with an easy way to retrieve a list of unfulfillable holds, and perform actions on them to move them out of their hopeless condition.
+Unfulfillable holds are colloquially known as “hopeless holds.” In previous versions of Evergreen, 
+staff relied on reports to generate lists of such holds. In Sitka's Evergreen version 3.7, the new 
+Hopeless Holds interface provides staff with an easy way to retrieve a list of unfulfillable holds, 
+and perform actions on them to move them out of their hopeless condition.
 
 Hopeless Holds Interface
 ^^^^^^^^^^^^^^^^^^^^^^^^
