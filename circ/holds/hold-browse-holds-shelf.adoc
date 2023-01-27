@@ -6,25 +6,38 @@ Holds Shelf
 
 link:https://www.youtube.com/watch?v=ZInjm5YdSWU[*Sitka Training Video - Holds Shelf (1:12)*]
 
-Items with *Ready for Pickup* status are on the *Holds Shelf* list. The function of the list is to help you manage items on the holds shelf, such as cancelling expired holds.
 
-Hold shelf expire time is calculated according to your library's hold shelf time expire interval in the Library Settings Editor.
+Items with *Ready for Pickup* status are on the *Holds Shelf* list. The function of the list is to 
+help you manage items on the holds shelf, such as cancelling expired holds.
 
+
+Hold shelf expire time is calculated according to the library setting _Default hold shelf expire interval_.
 
 Holds Shelf List
 ^^^^^^^^^^^^^^^^
 . Select *Circulation -> Holds Shelf*.
-. The *Holds Shelf* list is displayed.
+. The *Holds Shelf* will display.
 . Select a hold, click *Actions*, and make appropriate selection.
 
 Clearable Holds
 ^^^^^^^^^^^^^^^
 
-. Click *Show Clearable Holds* tab to list only expired or cancelled holds.
+There are two types of clearable holds:
+
+* Cancelled Holds - holds that patrons or library staff have cancelled after they were already on the holds
+shelf.
+* Expired Holds - holds have been on the holds shelf passed your library's hold shelf expire interval.
+
+To clear these holds:
+
+. Click the *Show Clearable Holds* button.  Only holds that have been cancelled or are expired will now 
+display.
 +
 image:images/circ/holdsshelf1.png[scaledwidth="75%"]
 +
-. Click *Clear These Holds* tab to cancel the expired holds.
-. Print the list, bring the items down from the hold shelf, and check them in.
-
-TIP: If you cancel a ready-for-pickup hold, you must check in the item to make it available for circulation or to trigger the next hold in line.
+. Click *Clear These Holds*.  This will cancel the expired holds.
+. Pull all the cancelled items from the holds shelf. You can click *Print Full List* to print a list of the 
+holds to pull.  (TEST THIS)
+. Go to *Circulation -> Check In*.
+. Check all the cancelled holds in.  The items will either go into reshelving or generate a hold notification
+if there is another patron on hold.
