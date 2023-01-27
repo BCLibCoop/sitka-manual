@@ -17,7 +17,7 @@ Holds will have one of the following statuses:
 
 [options="header"]
 |===
-|Status|Description|
+|Status |Description
 |Cancelled | The hold has been cancelled.  Staff need to check the item in to return it to circulation or capture
 the next hold.
 |In Transit | The item is in transit to the pickup library from another library.
