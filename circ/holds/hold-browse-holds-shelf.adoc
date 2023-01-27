@@ -6,30 +6,50 @@ Holds Shelf
 
 link:https://www.youtube.com/watch?v=ZInjm5YdSWU[*Sitka Training Video - Holds Shelf (1:12)*]
 
+Items that have been captured for a hold and are waiting to be picked up by the patron will
+display on your Hold Shelf.
 
-Items with *Ready for Pickup* status are on the *Holds Shelf* list. The function of the list is to 
-help you manage items on the holds shelf, such as cancelling expired holds.
-
-
-Hold shelf expire time is calculated according to the library setting _Default hold shelf expire interval_.
-
-Holds Shelf List
-^^^^^^^^^^^^^^^^
 . Select *Circulation -> Holds Shelf*.
 . The holds shelf will display.
 +
 image:images/circ/holds/holds-shelf-1.png[scaledwidth="75%"]
 +
-. Select a hold, click *Actions*, and make appropriate selection.
+. Holds will either have a status of _Ready for Pickup_ or _Cancelled_.
 
-Clearable Holds
-^^^^^^^^^^^^^^^
+Managing Your Holds Shelf
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The following actions can be performed on holds:
+
+* Retrieve Patron
+* Edit Hold Dates
+* Suspend
+* Mark Item Damaged
+* Mark Item Discard/Weed
+* Mark Item Missing
+* Find Another Target
+* Cancel Hold
+* Uncancel Hold
+
+
+Items will remain on your hold shelf until they are picked up by the patron or cleared by library staff.
+
+
+
+Clearing Holds
+^^^^^^^^^^^^^^
 
 There are two types of clearable holds:
 
 * _Cancelled Holds_ - holds that patrons or library staff have cancelled after they were already on the holds
 shelf.
 * _Expired Holds_ - holds have been on the holds shelf past your library's hold shelf expire interval.
+
+[NOTE]
+======
+Evergreen calculates a hold's expire time based on the value entered for the library setting 
+_Default hold shelf expire interval_.
+======
 
 To clear these holds:
 
