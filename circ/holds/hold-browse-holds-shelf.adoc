@@ -16,7 +16,7 @@ Hold shelf expire time is calculated according to the library setting _Default h
 Holds Shelf List
 ^^^^^^^^^^^^^^^^
 . Select *Circulation -> Holds Shelf*.
-. The *Holds Shelf* will display.
+. The holds shelf will display.
 +
 image:images/circ/holds/holds-shelf-1.png[scaledwidth="75%"]
 +
@@ -27,20 +27,32 @@ Clearable Holds
 
 There are two types of clearable holds:
 
-* Cancelled Holds - holds that patrons or library staff have cancelled after they were already on the holds
+* _Cancelled Holds_ - holds that patrons or library staff have cancelled after they were already on the holds
 shelf.
-* Expired Holds - holds have been on the holds shelf passed your library's hold shelf expire interval.
+* _Expired Holds_ - holds have been on the holds shelf past your library's hold shelf expire interval.
 
 To clear these holds:
 
-. Click the *Show Clearable Holds* button.  Only holds that have been cancelled or are expired will now 
-display.
+. On the holds shelf, click the *Show Clearable Holds* button.
 +
 image:images/circ/holds/clear-holds-shelf-1.png[scaledwidth="75%"]
 +
+. Only holds that have been cancelled or are expired will now display.
 . Click *Clear These Holds*.  This will cancel the expired holds.
-. Click *Print Full List* if you want a list of the cancelled holds for pulling them from the holds shelf.
++
+image:images/circ/holds/clear-holds-shelf-2.png[scaledwidth="75%"]
++
+. The *Post-Clear* column will indicate what will happen when the item is checked in.
++
+image:images/circ/holds/clear-holds-shelf-3.png[scaledwidth="75%"]
++
 . Pull all the cancelled items from the holds shelf. 
 . Go to *Circulation -> Check In*.
 . Check all the cancelled holds in.  The items will either go into reshelving or generate a hold notification
 if there is another patron on hold.
+
+[TIP]
+=====
+The *Print Full List* button will give you a list of the holds that needs to been
+pulled from the holds shelf for check in.
+=====
