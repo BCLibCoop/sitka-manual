@@ -17,6 +17,9 @@ Holds Shelf List
 ^^^^^^^^^^^^^^^^
 . Select *Circulation -> Holds Shelf*.
 . The *Holds Shelf* will display.
++
+image:images/circ/holds/holds-shelf-1.png[scaledwidth="75%"]
++
 . Select a hold, click *Actions*, and make appropriate selection.
 
 Clearable Holds
@@ -33,11 +36,11 @@ To clear these holds:
 . Click the *Show Clearable Holds* button.  Only holds that have been cancelled or are expired will now 
 display.
 +
-image:images/circ/holdsshelf1.png[scaledwidth="75%"]
+image:images/circ/holds/clear-holds-shelf-1.png[scaledwidth="75%"]
 +
 . Click *Clear These Holds*.  This will cancel the expired holds.
-. Pull all the cancelled items from the holds shelf. You can click *Print Full List* to print a list of the 
-holds to pull.  (TEST THIS)
+. Click *Print Full List* if you want a list of the cancelled holds for pulling them from the holds shelf.
+. Pull all the cancelled items from the holds shelf. 
 . Go to *Circulation -> Check In*.
 . Check all the cancelled holds in.  The items will either go into reshelving or generate a hold notification
 if there is another patron on hold.
