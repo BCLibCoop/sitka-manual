@@ -14,26 +14,33 @@ display on your Hold Shelf.
 +
 image:images/circ/holds/holds-shelf-1.png[scaledwidth="75%"]
 +
-. Holds will either have a status of _Ready for Pickup_ or _Cancelled_.
+. Holds on the hold shelf will either have a status of _Ready for Pickup_ or _Cancelled_ or _Wrong Shelf_.
 
+Items will remain on your hold shelf until they are picked up by the patron or cleared by library staff.
+
+See xref:_managing_holds[] for more information.
+
+////
 Managing Your Holds Shelf
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The following actions can be performed on holds:
 
 * Retrieve Patron
-* Edit Hold Dates
-* Suspend
-* Mark Item Damaged
-* Mark Item Discard/Weed
-* Mark Item Missing
+* Edit Pickup Library - item status will update to Wrong Shelf
+* Edit Notification Settings - does this affect additional notices????
+* Edit Hold Dates - change the hold dates
+* Activate - no effect
+* Suspend - no effect
+* Set Top of Queue - no effect
+* Un-Set Top of Queue - no effect
+* Mark Item Damaged - doesn't do anything
+* Mark Item Discard/Weed - sets item to discard weed, hold goes back to waiting for item/capture
+* Mark Item Missing - sets item to missing, hold goes back to waiting for item/capture
 * Find Another Target
-* Cancel Hold
-* Uncancel Hold
-
-
-Items will remain on your hold shelf until they are picked up by the patron or cleared by library staff.
-
+* Cancel Hold - cancels the hold and sends notice if enables
+* Uncancel Hold - item must be checked back in to go back to the holds shelf
+////
 
 
 Clearing Holds
@@ -66,9 +73,9 @@ image:images/circ/holds/clear-holds-shelf-2.png[scaledwidth="75%"]
 +
 image:images/circ/holds/clear-holds-shelf-3.png[scaledwidth="75%"]
 +
-. Pull all the cancelled items from the holds shelf. 
+. Pull all the cleared items from the holds shelf. 
 . Go to *Circulation -> Check In*.
-. Check all the cancelled holds in.  The items will either go into reshelving or generate a hold notification
+. Check in all the items.  The items will either go into reshelving or generate a hold notification
 if there is another patron on hold.
 
 [TIP]
