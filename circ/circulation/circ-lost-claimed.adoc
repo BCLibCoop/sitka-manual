@@ -119,9 +119,9 @@ Checking in a damaged item does not affect any bills that were generated when th
 Discard/Weed
 ^^^^^^^^^^^^
 
-If an item is slated to be removed from the collection it can be marked as discard/weed at check in
-or via the Item Status interface.  Libraries may wish to use the _Discard/Weed_ status when items to be
-discarded need to be reviewed before being deleted.
+If an item is slated to be removed from the collection it can be marked as discard/weed at check in, 
+via the Item Status interface, or from the Holds Shelf.  Libraries may wish to use the _Discard/Weed_ 
+status when items to be discarded need to be reviewed before being deleted.
 
 . On the appropriate interface select the item and click *Actions -> Mark as Discard/Weed*.
 +
@@ -141,8 +141,8 @@ and work with the items.  See xref:cat-copy-bucket[] for information on using it
 Missing
 ^^^^^^^
 
-If an item cannot be located it can be marked as missing via the Item Status interface or from within a 
-patron's account.
+If an item cannot be located it can be marked as missing via the Item Status interface, from within a 
+patron's account, or from the Holds Shelf.
 
 . On the appropriate interface select the item and click *Actions -> Mark Missing*
 +
