@@ -14,9 +14,10 @@ display on your Hold Shelf.
 +
 image:images/circ/holds/holds-shelf-1.png[scaledwidth="75%"]
 +
-. Holds on the hold shelf will either have a status of _Ready for Pickup_ or _Cancelled_ or _Wrong Shelf_.
+. Holds on the hold shelf will have a xref:_hold_statuses[hold status]
+ of _Ready for Pickup_ or _Cancelled_ or _Wrong Shelf_.
 
-Items will remain on your hold shelf until they are picked up by the patron or cleared by library staff.
+Items remain on your hold shelf until they are checked out to the patron or cleared by library staff.
 
 See xref:_managing_holds[] for more information.
 
