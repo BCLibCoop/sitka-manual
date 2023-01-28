@@ -20,36 +20,32 @@ will print automatically without displaying a slip pop up within Evergreen.
 Capturing Holds
 ^^^^^^^^^^^^^^^
 
-. When a hold is captured at check in staff will see a hold slip pop up or the hold slip will automatically
-print depending on whether or not auto-printing is enabled.
-. The method being used to notify the patron will display on the hold slip and is included on
-the printed slip by default.
+. When a hold is captured at check in staff a hold slip pop up will appear, unless 
+auto-printing is enabled.
+. Staff can click *Print* or *Do Not Print* depending on their needs.
++
+image:images/circ/holds-capture-4.png[]
++
+. The item is checked in and the item status is updated to _On Holds Shelf_.
+. The patron will be notified automatically by Evergreen or by library staff depending on the method
+chosen for notification when the hold was placed. The chosen method will display on the hold slip and 
+is included on the printed slip by default.
 +
 image:images/circ/holds-capture-1.png[]
 +
-Libraries can customize their hold slips to limit the amount of patron personal information that is 
-printed.
-+
-. If the patron chose to be notified by email or SMS text message Evergreen will automatically 
-xref: _hold_ready_for_pickup[send the notification] after the notification processing delay has passed.
-+
-If the patron chose to be notified by phone library staff need to call the patron.
-+
-. Once the patron has been notified the item should go on the library's hold shelf.
+[CAUTION]
+=========
+Do NOT check out the item to the patron until after the notification processing delay has
+past or Evergreen will NOT send the automatic notification.  For information on hold notification
+processing delays see xref:_hold_ready_for_pickup[].
+=========
+. The item is placed on the library's xref:_holds_shelf[hold shelf].
 
-
-Go to *Circulation → Check In*.
-
-. Scan or enter the barcode and click *Submit*.
-. The item is checked in and the hold is captured.
-. If auto-printing is enabled, the hold transit slip or hold slip will automatically print. Otherwise, a 
-hold transit or hold slip pop up will appear.
-.. For holds, the pop up will indicate what method is being used to contact the patron.  This information
-is also available on the printed slip by default.
-+
-image:images/circ/holds-capture-1.png[]
-+
-
+[NOTE]
+======
+Libraries with self pickup hold shelfs can customize the hold slip to limit the amount of patron 
+personal information that is printed.
+======
 
 
 Capturing Hold Transits
@@ -70,17 +66,6 @@ image:images/circ/holds/holds-capture-3.png[]
 +
 . 
 . Put the item on your hold shelf or ship it to the hold's pick up library.
-
-
-[CAUTION]
-=========
-Hold notifications have processing delays.  The email notification delay can be customized by the library. The
-SMS text message delay is set globally at 30 minutes and cannot be customized.
-
-If a hold is checked out to the patron during the processing delay the notification will not be sent as 
-Evergreen no longer considers it to be relevant.
-=========
-
 
 [NOTE]
 ======
