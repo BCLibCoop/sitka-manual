@@ -9,38 +9,34 @@ https://docs.evergreen-ils.org/eg/docs/latest/circulation/basic_holds.html#_iden
 
 https://youtu.be/Sf6DISXuEu0[*Sitka Snippet Video - Hopeless Holds (1:11)*]
 
-In Evergreen a hopeless hold is a hold that the system cannot fill.  
+Unfillable holds are known in Evergreen as Hopeless Holds.  A hold will become hopeless when all of the 
+items that would potentially fill the hold are in a hopeless prone item status or all potential items have 
+been deleted from the database.
 
-A hold is considered hopeless when there are no copies in Evergreen's "hold_copy_map" for a title,  
-or, when all copies in the  "hold_copy_map" are in an item status with "hopeless_prone" set to True. 
-In Sitka's Evergreen, these statuses are globally set at Discard/Weed, Damaged, Lost, Lost and Paid, 
-and Missing.
+The hopeless prone item statuses in Sitka's Evergreen are _Discard/Weed_, _Damaged_, _Lost_, _Lost and Paid_, 
+and _Missing_.  This is set globally and cannot be altered for individual libraries.
 
+Libraries should review and resolve hopeless holds on a regular basis.
 
-Managing Hopeless Holds
-^^^^^^^^^^^^^^^^^^^^^^^
-Unfulfillable holds are colloquially known as “hopeless holds.” In previous versions of Evergreen, 
-staff relied on reports to generate lists of such holds. In Sitka's Evergreen version 3.7, the new 
-Hopeless Holds interface provides staff with an easy way to retrieve a list of unfulfillable holds, 
-and perform actions on them to move them out of their hopeless condition.
-
-Hopeless Holds Interface
-^^^^^^^^^^^^^^^^^^^^^^^^
 . Click  *Administration → Local Administration → Hopeless Holds.*
-. A list of holds that are considered unfulfillable is generated. Requests are added to this list based on whether there is a value in the Hopeless Date field. Evergreen's hold targeter assigns this date when it cannot find a potential target for a hold based on the criteria of hopeless.
+. A list of holds that are considered unfulfillable is generated. 
 +
 image:images/admin/hopeless-holds-1.png[scaledwidth="75%"]
-
-. The list of hold requests can be filtered by hopeless date range and/or pickup library. Pickup library defaults to the workstation library and retrieves results for the selected library and its descendants.
 +
-image:images/circ/hopelessholds3.png[scaledwidth="75%"]
+. From the *Actions* menu select:
+.. *xref:_cancelling_holds[Cancel Hold]* to cancel the patron's hold.
+.. *xref:_transferring_title_holds[Transfer to Marked Title]* to move the hold to a record with holdable items.
+.. *xref:add_holdings[Add Holdings]* to add a new item to the record.  This can be temporary on order item 
+while your library waits for a replacement to arrive.
+.. *xref:_place_order[View/Place Orders]* to add a line item to a selection list or purchase order.  This will only work for 
+libraries using the acquisitions module.
 
-. All columns in the grid can be sorted by clicking the column header.
+[CAUTION]
+=========
+If you participate in reciprocal borrowing, make sure you have _Requesting Library_ as a column.
 
-. Additional columns are available through the column picker, including the standard column options associated with Holds.
-+
-image:images/circ/hopelessholds4.png[scaledwidth="75%"]
-
-. Click one or more hold requests from the list, and use the *Actions* menu to perform a variety of tasks. All actions activate new tabs for each selected record. Example actions are  *Cancel Hold*, *Modify Hold(s)*, *Find Another Target*, *Show Hold Details*, and so on.
-+
-image:images/circ/hopelessholds5.png[scaledwidth="75%"]
+If you are cancelling the hold and requesting library is not your library this means it is an 
+Interlibrary Connect hold and your library had the last item that could have filled the hold.  In 
+this case you need to contact the patron or their home library to let them know the 
+Interlibrary Connect hold will not be filled.
+=========
