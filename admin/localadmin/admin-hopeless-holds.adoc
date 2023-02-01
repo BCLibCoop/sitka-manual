@@ -4,13 +4,10 @@ Hopeless Holds
 (((Holds)))
 (((Holds, Hopeless Holds)))
 
-https://docs.evergreen-ils.org/eg/docs/latest/circulation/basic_holds.html#_identifying_a_hopeless_hold
-
-
 https://youtu.be/Sf6DISXuEu0[*Sitka Snippet Video - Hopeless Holds (1:11)*]
 
 Unfillable holds are known in Evergreen as Hopeless Holds.  A hold will become hopeless when all of the 
-items that would potentially fill the hold are in a hopeless prone item status or all potential items have 
+items that could potentially fill the hold are in a hopeless prone item status or all potential items have 
 been deleted from the database.
 
 The hopeless prone item statuses in Sitka's Evergreen are _Discard/Weed_, _Damaged_, _Lost_, _Lost and Paid_, 
@@ -35,8 +32,8 @@ libraries using the acquisitions module.
 =========
 If you participate in reciprocal borrowing, make sure you have _Requesting Library_ as a column.
 
-If you are cancelling the hold and requesting library is not your library this means it is an 
-Interlibrary Connect hold and your library had the last item that could have filled the hold.  In 
-this case you need to contact the patron or their home library to let them know the 
-Interlibrary Connect hold will not be filled.
+If you are cancelling the hold and the requesting library is not your library this means it is an 
+Interlibrary Connect hold that the patron chose to pick up at your library.  Your library had the last 
+item that could have filled the hold so in this case you need to contact the patron or their home library 
+to let them know the Interlibrary Connect hold will not be filled.
 =========
