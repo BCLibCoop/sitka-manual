@@ -3,51 +3,65 @@ Managing Holds
 (((Holds, Holds Management)))
 (((Holds, Holds Edit)))
 
-
-
 Staff can edit holds in patrons' records or in title records. Patrons can edit their holds in their account on your public catalogue.
 
 Holds can be cancelled at any time by staff or patrons. Before holds are captured, staff or patrons can suspend a hold without losing the hold queue position, can activate suspended holds, and can change notification method, phone number, pick-up location, and expiration date.  Once a hold is captured, staff can change the pickup location and extend the hold shelf time if required.
 
-Viewing Holds
-^^^^^^^^^^^^^
+Modifying Holds
+^^^^^^^^^^^^^^^
 
-Via the Patron Account
-++++++++++++++++++++++
+Suspend, Activate, and Edit Hold Dates
+++++++++++++++++++++++++++++++++++++++
+. To suspend or activate a hold, click *Actions* and make your choice.
+. To edit dates, click *Edit Hold Dates*.
++
+image:images/circ/manageholds3.png[scaledwidth="75%"]
++
+. Use calendar widgets or enter dates for required action and click *Submit*.
 
-Via the Staff Catalogue
-+++++++++++++++++++++++
+[TIP]
+=====
+Suspended holds will not be filled but their hold position is kept. If there is no 
+activation date, suspended holds remain inactive until staff or patrons activate 
+them manually.
 
-Via the Holds Shelf
+Suspended holds with activation dates will be automatically activated after hours 
+on the activation date, regardless of the time displayed in the Activation Date field. For example, a 
+suspended hold with an activation date of January 10th will be active for January 11th. 
+=====
+
+Edit Holds Notification Settings
+++++++++++++++++++++++++++++++++
+. Select hold in patron record and click *Actions -> Edit Notification Settings*.
+. Edit as required and click *Submit*.
++
+image:images/circ/manageholds4.png[scaledwidth="75%"]
+
+
+Edit Pickup Library
 +++++++++++++++++++
+. Select hold in patron record and click *Actions -> Edit Pickup Library*
+. Click the dropdown list of all libraries, choose the new pickup location, and click *Submit*.
+
+
+TIP: For libraries sharing resources with other libraries, Co-op Support strongly recommends you do not edit pickup location. Best practice is to cancel the hold and place another hold with new pickup location. There may be eligible copies at the new location, but the hold targeter will not find them if you just change the pickup library. Editing the pickup location in the existing hold will not force Evergreen to re-target the eligible copies.
+
+Edit Hold Queue Position
+++++++++++++++++++++++++
+
+. Click *Actions -> Set Top of Queue* to move the selected hold to the top of the hold queue.
++
+image:images/circ/manageholds5.png[scaledwidth="75%"]
++
+. Click *Un-Set Top of Queue* to remove a hold from the top of the queue.
+
+TIP: If an item has already been assigned to the hold on top of the queue,  you need to suspend the old top hold, *Find Another Target* for the new top hold, then activate the old top hold.
+
+TIP: You can also edit hold position by clicking *Edit Hold Dates -> Hold Request Date*. For most libraries, holds are filled based on request time sequence. Changing request time will change the holds fulfillment sequence.
 
 Cancelling Holds
 ^^^^^^^^^^^^^^^^
 
-Suspending Holds
-^^^^^^^^^^^^^^^^
-
-Activating Holds
-^^^^^^^^^^^^^^^^
-
-Editing Holds
-^^^^^^^^^^^^^
-
-
-
-
-Managing Holds in Patron Records
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-. Click *Holds* tab in patron record.
-. Select the hold record and click *Actions*.
-+
-image:images/circ/manageholds1.png[scaledwidth="75%"]
-+
-. Manage the hold by choosing an action on the list. Use the arrow to scroll through choices.
-
-Cancelling Holds
-^^^^^^^^^^^^^^^^
 . Select *Cancel Hold* from the *Actions* menu.
 . Choose the appropriate cancel reason from the drop down menu.  Applicable cancel reasons are _Patron via phone_,
 _Patron in person_, and _Staff forced_.  The other listed cancel reasons apply to automated cancellations.
@@ -68,58 +82,19 @@ anything entered into the _Notes_ field when cancelling a hold appears as the Ca
 sent to the patron.
 =========
 
-Suspend, Activate, and Edit Hold Dates
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-. To suspend or activate a hold, click *Actions* and make your choice.
-. To edit dates, click *Edit Hold Dates*.
-+
-image:images/circ/manageholds3.png[scaledwidth="75%"]
-+
-. Use calendar widgets or enter dates for required action and click *Submit*.
-
-[TIP]
-=====
-Suspended holds will not be filled but their hold position is kept. If there is no 
-activation date, suspended holds remain inactive until staff or patrons activate 
-them manually.
-
-Suspended holds with activation dates will be automatically activated after hours 
-on the activation date, regardless of the time displayed in the Activation Date field. For example, a 
-suspended hold with an activation date of January 10th will be active for January 11th. 
-=====
-
-Edit Holds Notification Settings
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-. Select hold in patron record and click *Actions -> Edit Notification Settings*.
-. Edit as required and click *Submit*.
-+
-image:images/circ/manageholds4.png[scaledwidth="75%"]
-
-
-Edit Pickup Library
-^^^^^^^^^^^^^^^^^^^
-. Select hold in patron record and click *Actions -> Edit Pickup Library*
-. Click the dropdown list of all libraries, choose the new pickup location, and click *Submit*.
-
-
-TIP: For libraries sharing resources with other libraries, Co-op Support strongly recommends you do not edit pickup location. Best practice is to cancel the hold and place another hold with new pickup location. There may be eligible copies at the new location, but the hold targeter will not find them if you just change the pickup library. Editing the pickup location in the existing hold will not force Evergreen to re-target the eligible copies.
-
-Edit Hold Queue Position
+Transferring Title Holds
 ^^^^^^^^^^^^^^^^^^^^^^^^
-. Click *Actions -> Set Top of Queue* to move the selected hold to the top of the hold queue.
-+
-image:images/circ/manageholds5.png[scaledwidth="75%"]
-+
-. Click *Un-Set Top of Queue* to remove a hold from the top of the queue.
 
-TIP: If an item has already been assigned to the hold on top of the queue,  you need to suspend the old top hold, *Find Another Target* for the new top hold, then activate the old top hold.
+Marking Items
+^^^^^^^^^^^^^
 
-TIP: You can also edit hold position by clicking *Edit Hold Dates -> Hold Request Date*. For most libraries, holds are filled based on request time sequence. Changing request time will change the holds fulfillment sequence.
+Re-Targetting Holds
+^^^^^^^^^^^^^^^^^^^
 
-Cancelled Holds
-^^^^^^^^^^^^^^^
-. Click *Recently Canceled Holds* tab on patron's *Holds* screen.
-. Select a hold and click *Actions -> Uncancel Hold* if needed.
+
+
+
+
 
 View Hold Details
 ^^^^^^^^^^^^^^^^^
@@ -129,9 +104,4 @@ View Hold Details
 TIP: Notes can be printed on the hold slip if the *Print on Slip?* checkbox is selected.
 
 
-Managing Holds in Title Records
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Retrieve and display the title record in the catalogue.
-. Click *View Holds* tab.
-. Select the hold and click *Actions* and follow steps as described above.
