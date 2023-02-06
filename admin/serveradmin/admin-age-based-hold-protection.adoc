@@ -34,7 +34,7 @@ owning branch for 1 year from the item's active date.
 |===
 
 The age based hold protection rules will remain an attribute on the item record after the protection period
-has passed unless manually removed by library staff via the Holdings Editor.
+has passed unless manually removed by library staff via the xref:_holdings_editor[Holdings Editor].
 
 To see a list of items with the age based hold protection item attribute applied use the report template 
 _Age Based Hold Protection: Items with Age Based Hold Protection_ found under
