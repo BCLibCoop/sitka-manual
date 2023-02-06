@@ -1,0 +1,55 @@
+Viewing Holds
+~~~~~~~~~~~~~
+
+Via the Patron Account
+^^^^^^^^^^^^^^^^^^^^^^
+
+Library staff can view a patron's current holds and recently cancelled holds from within the patron's 
+account.
+
+. Open the patron's account.
+. Select the *Holds* tab.
+. By default *Open Hold Requests* display.
++
+image:images/circ/holds/viewing-holds-1.png[scaledwidth="75%"]
++
+. From here library staff can use the *Actions* menu to:
+.. Modify a hold.
+.. Cancel a hold.
+.. Find another target for the hold.
+.. Transfer the hold to another title.
+.. Mark the current item as _Damaged_, _Discard/Weed_, or _Missing_.
+
+
+Via the Staff Catalogue
+^^^^^^^^^^^^^^^^^^^^^^^
+
+Library staff can view the current holds on a particular title by looking at the bibliographic record
+in the staff catalogue.
+
+. Open the bibliographic record for the title.
+. Select the *View Holds* tab.
+. Any holds placed on the particular title, or any volumes or item attached to it, will display.
++
+image:images/circ/holds/viewing-holds-2.png[scaledwidth="75%"]
++
+. From here library staff can use the *Actions* menu to:
+.. Modify a hold.
+.. Cancel a hold.
+.. Find another target for the hold.
+.. Transfer the hold to another title.
+.. Mark the current item as _Damaged_, _Discard/Weed_, or _Missing_.
+
+
+Via the Public Catalogue
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Patrons can view and manage their own holds through _My Account_ in the public catalogue.  
+See xref:_items_on_hold[] for more information.
+
+
+Via the Holds Shelf
+^^^^^^^^^^^^^^^^^^^
+
+Items that have been captured for a hold can be viewed on the Holds Shelf.  See 
+xref:_holds_shelf[] for more information.

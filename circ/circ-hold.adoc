@@ -7,6 +7,8 @@ include::holds/hold-placing.adoc[Placing Holds]
 
 include::holds/hold-groups.adoc[Hold Groups]
 
+include::holds/hold-viewing.adoc[Viewing Holds]
+
 include::holds/hold-managing.adoc[Managing Holds]
 
 include::holds/hold-pull-list.adoc[Pull List for Hold Requests]
