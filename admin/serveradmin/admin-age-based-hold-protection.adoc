@@ -9,7 +9,7 @@ xref:xref:_item_attributes[item attributes].
 
 [options="header"]
 |===
-|Item Age |Rule Name |Description|
+|Item Age |Rule Name |Description
 |1 month |1_month_among_multi_branch | Block holds from being filled where the pickup library is not the
 owning library/system for 1 month from the item's active date.
 |3 months |3_month_among_multi_branch | Block holds from being filled where the pickup library is not the
