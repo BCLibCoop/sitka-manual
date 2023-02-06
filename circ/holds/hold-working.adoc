@@ -41,8 +41,14 @@ Age based hold protection enables libraries to block holds from being filled for
 libraries or branches until the item has been active for a specified amount of time.  
 
 Age based hold protection can be set up as part of your xref:_hold_policies[hold policies] or can be 
-applied an a per item basis via xref:xref:_item_attributes[item attributes].  Your library can do 
-age based hold protection via hold policies OR via item attribute; you cannot use both at the same time.
+applied an a per item basis via xref:xref:_item_attributes[item attributes].  Protection via hold policies
+will apply to holds on all items or holds using specified circulation modifiers.  Protection via item
+attributes is applied by cataloguers on an item by item basis.
+
+Single branch libraries can use age based hold protection via hold policies OR via item attribute; you 
+should not use both at the same time.  Multi-branch libraries can use a combination of age based hold 
+protection through hold policies AND item attributes to control hold filling between their branches and 
+other libraries.
 
 Make sure you know if and how your library does age based hold protection.
 
