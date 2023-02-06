@@ -11,19 +11,7 @@ list for hold requests.  Staff can print the list, pull the items from the shelf
 in to capture the holds.  Co-op Support recommends checking the pull list at once day; libraries with a 
 high volume of holds may find it beneficial to check the list multiple times a day.
 
-[NOTE]
-======
-The _Pickup Library_ column will show which library the item is going to to fill the hold.  Libraries
-participating in Interlibrary Connect can use this column to distinguish between local and ILC holds
-and may choose not to pull ILC holds on a day their Interlibrary Loan staff member is away.
-
-image:images/circ/hold-pull-list-1.png[scaledwidth="75%"]
-
-Evergreen will re-target ILC holds to another library after 24 hours if the item hasn't
-been captured for a hold, unless there is no other item in the ILC zone that can fill the hold.
-======
-
-. Retrieve the *Pull List for Hold Requests* by going to *Circulation → Pull List for Hold Requests*.
+. Go to *Circulation → Pull List for Hold Requests*.
 . The pull list displays. By default the items on the list are grouped first by shelving location, 
 then by call number. 
 +
@@ -38,10 +26,23 @@ your shelves.  See xref:_shelving_location_order[].
 +
 image:images/circ/hold-pull-list-2.png[scaledwidth="75%"]
 +
-. Pull the items from your shelves and check them in to xref:_capturing_holds[capture the holds].
+. Pull the items from your shelves and check them in to 
+xref:_capturing_holds_and_hold_transits[capture the holds].
 . Items that cannot be found should have their status set to _Missing_ via the Actions menu.
 +
 image:images/circ/hold-pull-list-3.png[scaledwidth="75%"]
+
+[NOTE]
+======
+The _Pickup Library_ column will show which library the item is going to to fill the hold.  Libraries
+participating in Interlibrary Connect can use this column to distinguish between local and ILC holds
+and may choose not to pull ILC holds on a day their Interlibrary Loan staff member is away.
+
+image:images/circ/hold-pull-list-1.png[scaledwidth="75%"]
+
+Evergreen will re-target ILC holds to another library after 24 hours if the item hasn't
+been captured for a hold, unless there is no other item in the ILC zone that can fill the hold.
+======
 
 
 Print or Export Pull List for Hold Requests
