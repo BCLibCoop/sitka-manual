@@ -10,29 +10,7 @@ Staff can edit holds in patrons' records or in title records. Patrons can edit t
 Holds can be cancelled at any time by staff or patrons. Before holds are captured, staff or patrons can suspend a hold without losing the hold queue position, can activate suspended holds, and can change notification method, phone number, pick-up location, and expiration date.  Once a hold is captured, staff can change the pickup location and extend the hold shelf time if required.
 
 
-Hold Statuses
-^^^^^^^^^^^^^
 
-Holds will have one of the following statuses:
-
-[options="header"]
-|===
-|Status |Description
-|Cancelled | The hold has been cancelled.  Staff need to check the item in to return it to circulation or capture
-the next hold.
-|In Transit | The item is in transit to the pickup library from another library.
-|Ready for Pickup | The item is on the holds shelf and ready for pick up.  The status of the item will show
-as _On Holds Shelf_.
-|Reserved/Pending | The hold has been captured and has not been put on the holds shelf. The status will be 
-automatically changed to _Ready for Pickup_ once the delay period specified in library setting  
-_Hold Shelf Status Delay_.
-|Waiting for Capture | An available item has been assigned to the hold but it hasn't been captured
-for the hold yet.  The item will display on the 
-xref:_pull_list_for_hold_requests[_Pull List for Hold Requests_]. 
-|Waiting for Item | All holdable item are currently checked out or otherwise not available.
-|Wrong Shelf | The pickup library for the hold has changed.  Staff need to check the item in to send it
-into transit to the new pickup library.
-|===
 
 
 Managing Holds in Patron Records
