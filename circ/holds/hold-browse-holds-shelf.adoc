@@ -9,7 +9,7 @@ link:https://www.youtube.com/watch?v=ZInjm5YdSWU[*Sitka Training Video - Holds S
 Items that have been captured for a hold and are waiting to be picked up by the patron will
 display on your Hold Shelf.
 
-. Select *Circulation -> Holds Shelf*.
+. Go to *Circulation -> Holds Shelf*.
 . The holds shelf will display.
 +
 image:images/circ/holds/holds-shelf-1.png[scaledwidth="75%"]
@@ -83,4 +83,6 @@ if there is another patron on hold.
 =====
 The *Print Full List* button will give you a list of the holds that needs to been
 pulled from the holds shelf for check in.
+
+image:images/circ/holds/clear-holds-shelf-4.png[scaledwidth="75%"]
 =====
