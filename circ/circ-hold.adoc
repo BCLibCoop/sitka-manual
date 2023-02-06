@@ -15,9 +15,11 @@ include::holds/hold-pull-list.adoc[Pull List for Hold Requests]
 
 include::holds/hold-hold-filling.adoc[Holds Filling Explained]
 
+////
 include::holds/hold-transfer.adoc[Transferring Title Holds]
 
 include::holds/hold-retarget.adoc[Find Another Target for Holds]
+////
 
 include::holds/hold-capturing.adoc[Capturing Holds]
 

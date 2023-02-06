@@ -85,12 +85,52 @@ sent to the patron.
 Transferring Title Holds
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
+(((Holds Transfer)))
+(((Holds, Transfer Holds)))
+
+Holds on one title can be transferred to another title with the hold request time preserved.
+
+. Retrieve the bibliographic record you would like the holds to be transferred to.
+. Click *Actions → Mark for → Title Hold Transfer*.
++
+image:images/circ/transferhold2.png[scaledwidth="75%"]
++
+. Retrieve the bibliographic record that currently has the hold(s) attached to it.
+. Click the *View Holds* tab.
+. Select the hold you want to transfer and click *Actions  → Transfer to Marked Title*.
++
+image:images/circ/transferhold1.png[scaledwidth="75%"]
++
+. Click *OK/Continue*.
+
+
 Marking Items
 ^^^^^^^^^^^^^
+
+When a hold has an item assigned to it the item can be marked as _Damaged_, _Discard/Weed_, or 
+_Missing_ via the *Actions* menu.
+
+For more information on marking items with these statuses see xref:_mark_items[].
+
+
 
 Re-Targetting Holds
 ^^^^^^^^^^^^^^^^^^^
 
+(((Re-Target Holds)))
+(((Holds, Re-Target Holds)))
+
+Newly created items, or items whose status was just changed from a non-holdable to a holdable status, may not trigger holds on regular check-in because these copies are not yet identified as hold targets. The holds targeter will eventually target such holds overnight, or you can re-target them immediately. Re-targeting a hold means Evergreen searches for an available copy for the hold right away, and puts it on the *Holds Pull List* if found. If there is no available copy, the hold's status will be set to *Wait for copy*.
+
+You can re-target local holds at check-in by use of *Checkin Modifiers*, or you can manually re-target holds from title, patron, or hold record as follows.
+
+
+. Select the hold from any hold management screen and click *Actions -> Find Another Target*.
++
+image:images/circ/retarget1.png[scaledwidth="75%"]
+
+
+TIP:  Co-op Support recommends multi-branch libraries use *Find Another Target*, as described above, in order to re-target all holds in the system. For single branch libraries, Co-op Support recommends the check-in modifiers *Retarget Local Holds* and *Retarget All Statuses* be enabled. These check-in modifiers are sticky.
 
 
 
