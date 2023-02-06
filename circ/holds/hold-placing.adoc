@@ -9,7 +9,7 @@ link:https://youtu.be/wb6Tp8sFmoA[*Sitka Snippet Video - Patron Search in Place 
 
 link:https://youtu.be/iXIOfR16QLg[*Sitka Snippet Video - Suspend a Hold While Placing the Hold (1:10)*]
 
-Holds can be placed by staff in the web client,  and by patrons on your public catalogue.
+Holds can be placed by staff in the staff catalogue and by patrons on your public catalogue.
 
 Hold Levels
 ^^^^^^^^^^^
@@ -33,8 +33,8 @@ Call number record
 column on the record summary screen.	| Staff	| Item barcode
 |===
 
-Title Level Hold
-^^^^^^^^^^^^^^^^
+Placing Title Level Holds
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 link:https://youtu.be/NkV8pIU2R34[*Sitka Snippet Video - Placing Title Level Holds (2:05)*]
 
@@ -51,8 +51,8 @@ image:images/circ/placehold2.png[scaledwidth="75%"]
 +
 image:images/circ/placehold3.png[scaledwidth="75%"]
 
-Meta-record Level Hold
-^^^^^^^^^^^^^^^^^^^^^^
+Placing Meta-record Level Holds
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can request acceptable formats and languages of a title at time of hold placement, or you can group formats at time of search. Records are grouped by title, author, and format. Format information is from the MARC record leader and fixed fields.
 
@@ -95,8 +95,8 @@ TIP: The icons indicate the available formats at the search location. The number
 
 TIP: After a meta-record hold is placed, if a new MARC record is added and it meets the grouping criteria, items under this new record will be targeted.
 
-Call Number and Item Level Hold
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Placing Call Number and Item Level Holds
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . To place a call number or item level hold, retrieve and display the record.
 . In the _Item Table_ click *Call Number Hold* or *Item Hold* in the *Holdable?* column.
@@ -130,6 +130,29 @@ image:images/circ/patron-place-hold-1.png[scaledwidth="75%"]
 patron's account.
 +
 image:images/circ/patron-place-hold-2.png[scaledwidth="75%"]
+
+Placing Holds For a Hold Group
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Holds can be placed from the Hold Groups interface.
+
+.From the Hold Groups Interface
+. *Circulation* -> *Hold Groups*.
+. From the Hold Groups tab, double-click a Hold Group. The Hold Group will open in the Current Users tab.
+. Go to the Hold Events tab.
+. Click on *New Hold Group Event*.
+. Enter the Record ID number for the bibliographic record on which you wish to place the hold.
+. Use the checkbox to override all hold-blocking conditions possible if desired.
+. Click *Create Event*.
+
+////
+.From Searching the Catalog
+. Search the catalog to identify the record on which you wish to place a hold
+. Click *Place Hold* from the results or detailed record. The Hold Placement page appears.
+. Use the radio button to choose Place hold for patron Hold Group and use the drop down to choose the Hold Group from the list.
+.. Please note that most additional hold options (e.g., choosing the pickup library or notification preferences) are disabled for holds placed by Hold Group. Pickup location and notification preferences adhere to the defaults for the respective patrons. Patrons can edit their notification preferences and pickup locations from My Account on the public catalog after the hold is placed. Holds may be suspended and an activate date added if desired.
+.Click *Submit*.
+////
 
 
 Holds Status Messages
