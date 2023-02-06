@@ -8,6 +8,8 @@ Local System Administrators to edit library contact information, hours of operat
 There is some view-only information that is useful under Server Administration, in particular the list
 of Item Statuses.
 
+include::serveradmin/admin-age-based-hold-protection.adoc[]
+
 include::serveradmin/admin-call-number.adoc[]
 
 
