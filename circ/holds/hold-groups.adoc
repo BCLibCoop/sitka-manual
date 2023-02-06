@@ -1,5 +1,5 @@
-Hold Groups
-~~~~~~~~~~~
+Managing Hold Groups
+~~~~~~~~~~~~~~~~~~~~
 (((Holds, Hold Groups)))
 
 https://youtu.be/WpbGpyJX9Dg[*Sitka Snippet Video - Hold Groups (2:45)*]
@@ -83,28 +83,7 @@ image:images/circ/holdgroups-patronsearch.png[scaledwidth="75%",alt="Patron Sear
 . Choose the Hold Group to which you want to add the patron(s).
 . A message displays on the bottom right corner of the screen to confirm whether the patrons were added successfully to the Hold Group.
 
-Place Holds For a Hold Group
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Holds can be placed from the Hold Groups interface.
-
-.From the Hold Groups Interface
-. *Circulation* -> *Hold Groups*.
-. From the Hold Groups tab, double-click a Hold Group. The Hold Group will open in the Current Users tab.
-. Go to the Hold Events tab.
-. Click on *New Hold Group Event*.
-. Enter the Record ID number for the bibliographic record on which you wish to place the hold.
-. Use the checkbox to override all hold-blocking conditions possible if desired.
-. Click *Create Event*.
-
-////
-.From Searching the Catalog
-. Search the catalog to identify the record on which you wish to place a hold
-. Click *Place Hold* from the results or detailed record. The Hold Placement page appears.
-. Use the radio button to choose Place hold for patron Hold Group and use the drop down to choose the Hold Group from the list.
-.. Please note that most additional hold options (e.g., choosing the pickup library or notification preferences) are disabled for holds placed by Hold Group. Pickup location and notification preferences adhere to the defaults for the respective patrons. Patrons can edit their notification preferences and pickup locations from My Account on the public catalog after the hold is placed. Holds may be suspended and an activate date added if desired.
-.Click *Submit*.
-////
 
 NOTE: There is pending development to allow for holds to be placed for hold groups by searching the catalogue.
 
