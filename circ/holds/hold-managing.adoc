@@ -9,6 +9,29 @@ Staff can edit holds in patrons' records or in title records. Patrons can edit t
 
 Holds can be cancelled at any time by staff or patrons. Before holds are captured, staff or patrons can suspend a hold without losing the hold queue position, can activate suspended holds, and can change notification method, phone number, pick-up location, and expiration date.  Once a hold is captured, staff can change the pickup location and extend the hold shelf time if required.
 
+Viewing Holds
+^^^^^^^^^^^^^
+
+Via the Patron Account
+++++++++++++++++++++++
+
+Via the Staff Catalogue
++++++++++++++++++++++++
+
+Via the Holds Shelf
++++++++++++++++++++
+
+Cancelling Holds
+^^^^^^^^^^^^^^^^
+
+Suspending Holds
+^^^^^^^^^^^^^^^^
+
+Activating Holds
+^^^^^^^^^^^^^^^^
+
+Editing Holds
+^^^^^^^^^^^^^
 
 
 
