@@ -134,16 +134,42 @@ image:images/circ/patron-place-hold-2.png[scaledwidth="75%"]
 Placing Holds For a Hold Group
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Holds can be placed from the Hold Groups interface.
+Holds can be placed for an entire hold group at once:
 
-.From the Hold Groups Interface
-. *Circulation* -> *Hold Groups*.
-. From the Hold Groups tab, double-click a Hold Group. The Hold Group will open in the Current Users tab.
-. Go to the Hold Events tab.
+. In the staff catalogue find the bibliographic record for the title you would like to place the group
+hold on.
+. Copy or record the _Database ID_ for the record.
++
+image:images/circ/holds/hold-group-place-hold-1.png[scaledwidth="75%"]
++
+. Go to *Circulation* -> *Hold Groups*.
+. From the *Hold Groups* tab, double-click the hold group you wish to open.
++
+image:images/circ/holds/hold-group-place-hold-2.png[scaledwidth="75%"]
++
+. The group will be opened on the *Current Users* tab. Click on the *Hold Events* tab.
++
+image:images/circ/holds/hold-group-place-hold-3.png[scaledwidth="75%"]
++
 . Click on *New Hold Group Event*.
++
+image:images/circ/holds/hold-group-place-hold-4.png[scaledwidth="75%"]
++
 . Enter the Record ID number for the bibliographic record on which you wish to place the hold.
 . Use the checkbox to override all hold-blocking conditions possible if desired.
 . Click *Create Event*.
++
+image:images/circ/holds/hold-group-place-hold-5.png[scaledwidth="75%"]
++
+. Holds are placed for all members of the groups.
++
+image:images/circ/holds/hold-group-place-hold-6.png[scaledwidth="75%"]
+
+[[NOTE]]
+========
+When the library setting _Randomize group hold order_ is set to TRUE Evergreen will randomize the patrons 
+in the group when the holds are placed so the same patron isn't always first in line.
+========
 
 ////
 .From Searching the Catalog
