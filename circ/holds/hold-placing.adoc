@@ -165,11 +165,11 @@ image:images/circ/holds/hold-group-place-hold-5.png[scaledwidth="75%"]
 +
 image:images/circ/holds/hold-group-place-hold-6.png[scaledwidth="75%"]
 
-[[NOTE]]
-========
+[NOTE]
+======
 When the library setting _Randomize group hold order_ is set to TRUE Evergreen will randomize the patrons 
 in the group when the holds are placed so the same patron isn't always first in line.
-========
+======
 
 ////
 .From Searching the Catalog
