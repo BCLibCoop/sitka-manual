@@ -4,10 +4,19 @@ Managing Hold Groups
 
 https://youtu.be/WpbGpyJX9Dg[*Sitka Snippet Video - Hold Groups (2:45)*]
 
-The Hold Groups feature allows library staff to create lists of patrons that can then be used to place multiple title-level holds on the same bibliographic record. This is useful for book clubs, new or on-order items, and/or high demand items.
+The Hold Groups feature allows library staff to create lists of patrons that can then be used 
+to place multiple title-level holds on the same bibliographic record. This is useful for book clubs, 
+new or on-order items, and/or high demand items.
 
-Create a Hold Group
-^^^^^^^^^^^^^^^^^^^
+[TIP]
+=====
+Libraries may wish to set up a mechanism by which patrons can subscribe to be added to a hold group.  For
+ example, a library may set up a form on their website with a list of authors to select from that is 
+ sent to library staff so they can add the patron to the selected author hold groups.
+=====
+
+Creating a Hold Group
+^^^^^^^^^^^^^^^^^^^^^
 
 .Create a New Hold Group
 . *Circulation* -> *Hold Groups*.
@@ -31,8 +40,8 @@ NOTE: Hold Groups are visible only to the staff member who created them but can 
 . Click the Hold Groups button and choose Edit Hold Group.
 . The Edit Bucket pop-up will open. You can edit the name, description, owning library, or visibility.
 
-Add Users to a Hold Group
-^^^^^^^^^^^^^^^^^^^^^^^^^
+Adding Users to a Hold Group
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Patrons can be added to a Hold Group by barcode, by searching for a patron with an integrated patron search on the Add Users tab, or by a normal patron search. Staff must have PLACE_HOLD permissions to add patrons to a Hold Group at least at the same organizational unit depth (library) as the patron they are trying to add. For example, a staff member with branch level permissions for Branch A could only add patrons to Hold Groups owned by Branch A. If they needed to add patrons to Branch B or Branch C too, they would need system or consortial-level permissions.
 
@@ -87,8 +96,8 @@ image:images/circ/holdgroups-patronsearch.png[scaledwidth="75%",alt="Patron Sear
 
 NOTE: There is pending development to allow for holds to be placed for hold groups by searching the catalogue.
 
-Cancel Holds For a Hold Group
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Cancelling Holds For a Hold Group
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Holds can be cancelled from the Hold Events tab by selecting the hold and using the Actions menu and choosing Cancel Hold Group Event.
 
@@ -112,11 +121,3 @@ Hold Groups can be deleted on the Current Users tab. Deleting a Hold Group does 
 . Click the Hold Groups drop down and choose *Delete Hold Group*.
 +
 image:images/circ/holdgroups-delete.png[scaledwidth="75%",alt="Delete Hold Group"]
-
-
-Administrative Features of Hold Groups
-++++++++++++++++++++++++++++++++++++++
-
-A new library setting allows for hold placement times to be randomized among list members for fair distribution.
-
-New action triggers allow for Evergreen to generate email or SMS notifications to patrons when a new hold is placed through Hold Groups.
