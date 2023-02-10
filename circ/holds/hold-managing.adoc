@@ -11,10 +11,15 @@ Modifying Holds
 ^^^^^^^^^^^^^^^
 
 xref:_modify_holds_quality[Set Desired Item Condition/Quality]
++
 xref:_modify_holds_pickup_library[Edit Pickup Library]
++
 xref:_modify_holds_notification_settings[Edit Notification Settings]
++
 xref:_modify_holds_dates[Edit Hold Dates]
++
 xref:_modify_holds_suspend_activate[Suspend and Activate]
++
 xref:_modify_holds_queue[Top of Queue]
 
 Holds can be modified from the xref:_via_the_staff_catalogue[_View Holds_] tab in the bibliographic record 
@@ -31,9 +36,13 @@ Set Desired Item Condition/Quality
 ++++++++++++++++++++++++++++++++++
 [[_modify_holds_quality]]
 
+Co-op Support does not recommend the use of Item Quality/Condition.
+
 Edit Pickup Library
 +++++++++++++++++++
 [[_modify_holds_pickup_library]]
+
+
 
 . Select hold in patron record and click *Actions -> Edit Pickup Library*
 . Click the dropdown list of all libraries, choose the new pickup location, and click *Submit*.
