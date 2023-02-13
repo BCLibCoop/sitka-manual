@@ -287,7 +287,7 @@ Re-Targetting Holds
 
 Newly created items, or items whose status was just changed from a non-holdable to a holdable status, 
 may not trigger holds on regular check in.  This is because Evergreen automatically updates the table of 
-items eligible to fill a particular hold every 24 hours.  Library staff can re-target holds which forces
+items eligible to fill a particular hold every 24 hours.  Library staff can retarget holds which forces
 Evergreen to update the table of eligible items right away.  
 
 You can re-target local holds in two ways:
@@ -296,25 +296,62 @@ You can re-target local holds in two ways:
 and _Retarget All Statuses_.
 * by manually re-targetting the hold from staff catalogue or patron account.
 
+[TIP]
+=====
+Co-op Support recommends multi-branch libraries manually re-target holds through the staff catalogue
+or paton account in order to retarget all holds in the system. For single branch libraries, Co-op Support 
+recommends using the retarget related checkin modifiers at check in.
+
 . On the _View Holds_ tab in the staff catalogue or on the _Holds_ tab in the patron's account, select 
-the hold you wish to re-target and go to *Actions -> Find Another Target*.
-. Select the hold from any hold management screen and click *Actions -> Find Another Target*.
+the hold you wish to retarget and go to *Actions -> Find Another Target*.
 +
-image:images/circ/retarget1.png[scaledwidth="75%"]
+image:images/circ/holds/retarget-hold-1.png[scaledwidth="75%"]
++
+. Click *Retarget*.
+. The hold is retargeted.  If there is an item available to fill the hold it will be assigned to the hold
+with the hold status of _Waiting for Capture_.  
+. Check in the item to capture the hold.
 
 
-TIP:  Co-op Support recommends multi-branch libraries use *Find Another Target*, as described above, in order to re-target all holds in the system. For single branch libraries, Co-op Support recommends the check-in modifiers *Retarget Local Holds* and *Retarget All Statuses* be enabled. These check-in modifiers are sticky.
-
-
-
-
-
-View Hold Details
+Hold Details View
 ^^^^^^^^^^^^^^^^^
-. Select the hold and click *Detail View*. Useful information about the hold is displayed.
-. Click *New Note* or *Staff Notifications* to add information as required.
 
-TIP: Notes can be printed on the hold slip if the *Print on Slip?* checkbox is selected.
+Additional information about a hold can be seen in the hold details view.
+
+On the _Holds_ tab in the patron's account or on the _Holds Shelf_ select the hold you wish to view and 
+click the *Detail View* button.
+
+image:images/circ/holds/hold-details-view-1.png[scaledwidth="75%"]
+
+On the _View Holds_ tab in the staff catalogue select 
+the hold you wish to view and go to *Actions -> Show Hold Details*.
+
+image:images/circ/holds/hold-details-view-2.png[scaledwidth="75%"]
+
+Useful information about the hold displays.
+
+image:images/circ/holds/hold-details-view-3.png[scaledwidth="75%"]
+
+Notes and Staff Notifications can be added to the hold record.
+
+. On the _Notes_ tab click *New Note*.
+. Enter the relevant information.
+** Notes that have _Patron Visible_ checked will appear in the patron's account in the public catalogue.
+** Notes that have _Print on Slip_ checked will print on the hold slip.
++
+image:images/circ/holds/hold-details-view-4.png[scaledwidth="75%"]
++
+. Click *Create Note*.
+. The note will display.
+
+. On the _Staff Notifications_ tab click *Add Record of Notification*.
+. Enter the information about the notification and click *Create*.
++
+image:images/circ/holds/hold-details-view-5.png[scaledwidth="75%"]
++
+. The record of notification will display.
+
+
 
 
 
