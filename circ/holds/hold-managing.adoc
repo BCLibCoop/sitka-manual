@@ -10,17 +10,12 @@ Holds can be cancelled at any time by staff or patrons. Before holds are capture
 Modifying Holds
 ^^^^^^^^^^^^^^^
 
-xref:_modify_holds_quality[Set Desired Item Condition/Quality]
-+
-xref:_modify_holds_pickup_library[Edit Pickup Library]
-+
-xref:_modify_holds_notification_settings[Edit Notification Settings]
-+
-xref:_modify_holds_dates[Edit Hold Dates]
-+
-xref:_modify_holds_suspend_activate[Suspend and Activate]
-+
-xref:_modify_holds_queue[Top of Queue]
+* xref:_modify_holds_quality[Set Desired Item Condition/Quality]
+* xref:_modify_holds_pickup_library[Edit Pickup Library]
+* xref:_modify_holds_notification_settings[Edit Notification Settings]
+* xref:_modify_holds_dates[Edit Hold Dates]
+* xref:_modify_holds_suspend_activate[Suspend and Activate]
+* xref:_modify_holds_queue[Top of Queue]
 
 Holds can be modified from the xref:_via_the_staff_catalogue[_View Holds_] tab in the bibliographic record 
 by selecting a hold and going to *Actions -> Modify Hold(s)*.
@@ -42,13 +37,29 @@ Edit Pickup Library
 +++++++++++++++++++
 [[_modify_holds_pickup_library]]
 
+. On the _View Holds_ tab in the staff catalogue, go to *Actions -> Modify Hold(s)*.
+. In the pop-up that appears, click the drop down for _Pickup Library_.
++
+image:images/circ/holds/modify-holds-pickup-library-1.png[scaledwidth="75%"]
++
 
+
+
+[TIP]
+=====
+Generally staff should not change the pickup library for items already on the holds shelf.  
+=====
+
+. Best practice is to cancel the hold and place another hold with new pickup location. There may 
+be eligible copies at the new location, but the hold targeter will not find 
+them if you just change the pickup library. Editing the pickup location in the existing 
+hold will not force Evergreen to re-target the eligible copies.
 
 . Select hold in patron record and click *Actions -> Edit Pickup Library*
 . Click the dropdown list of all libraries, choose the new pickup location, and click *Submit*.
 
 
-TIP: For libraries sharing resources with other libraries, Co-op Support strongly recommends you do not edit pickup location. Best practice is to cancel the hold and place another hold with new pickup location. There may be eligible copies at the new location, but the hold targeter will not find them if you just change the pickup library. Editing the pickup location in the existing hold will not force Evergreen to re-target the eligible copies.
+TIP: 
 
 Edit Notification Settings
 ++++++++++++++++++++++++++
