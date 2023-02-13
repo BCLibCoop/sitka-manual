@@ -212,6 +212,8 @@ currently on top of the queue you need to do the following.
 Cancelling Holds
 ^^^^^^^^^^^^^^^^
 
+Holds can be cancelled individually by library staff and patrons 
+
 . On the _View Holds_ tab in the staff catalogue or on the _Holds_ tab in the patron's account, select 
 the hold you wish to cancel and go to *Actions -> Cancel Hold*.
 . Choose the appropriate cancel reason from the drop down menu: _Patron via phone_, _Patron in person_,
@@ -239,6 +241,31 @@ captured to fill the next hold.
 ======
 Patrons can cancel their own holds via xref:_items_on_hold[My Account].
 ======
+
+Cancelling Holds for a Hold Group
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Library staff can also cancel a set of holds placed for a particular hold group.
+
+. Go to *Circulation* -> *Hold Groups*.
+. From the *Hold Groups* tab, double-click the hold group you wish to open.
++
+image:images/circ/holds/hold-group-place-hold-2.png[scaledwidth="75%"]
++
+. The group will be opened on the *Current Users* tab. Click on the *Hold Events* tab.
++
+image:images/circ/holds/hold-group-place-hold-3.png[scaledwidth="75%"]
++
+. Select the set of holds you wish to cancel.
+. Click *Actions* -> *Cancel hold group event*.
++
+image:images/circ/holds/hold-group-cancel-hold-1.png[scaledwidth="75%"]
++
+. Click *OK/Continue*
+. All holds in the set are cancelled.
+. If an item was captured for one of the holds and on holds shelf, check it in.  The item will go into _Reshelving_ or be
+captured to fill the next hold.
+
 
 Transferring Title Holds
 ^^^^^^^^^^^^^^^^^^^^^^^^
