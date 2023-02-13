@@ -91,11 +91,14 @@ image:images/circ/holds/modify-holds-notification-settings-3.png[scaledwidth="75
 +
 . Click *Submit*.
 
+[NOTE]
+======
+Patrons can edit their own notification settings via xref:_items_on_hold[My Account].
+======
 
 Edit Hold Dates
 +++++++++++++++
 [[_modify_holds_dates]]
-
 
 . On the _View Holds_ tab in the staff catalogue, select the hold to edit and go to 
 *Actions -> Modify Hold(s)*.
@@ -105,7 +108,8 @@ image:images/circ/holds/modify-holds-hold-dates-1.png[scaledwidth="75%"]
 +
 ** Activate Date: The date on which a suspended hold will be activated.
 ** Expire Date: The date on which the hold will expire in Evergreen if it is never filled.
-** Request Date: The date on which the hold was placed.
+** Request Date: The date on which the hold was placed.  Holds are generally filled in the order they were
+placed so editing the request date can change the order of the queue.
 ** Shelf Expire Date: The date on which the hold will expire from the holds shelf, based on the value in the
 library setting _Default hold shelf expire interval_.
 . Click *Apply*.
@@ -124,38 +128,77 @@ image:images/circ/holds/modify-holds-hold-dates-3.png[scaledwidth="75%"]
 +
 ** Activate Date: The date on which a suspended hold will be activated.
 ** Expire Date: The date on which the hold will expire in Evergreen if it is never filled.
-** Request Date: The date on which the hold was placed.
+** Request Date: The date on which the hold was placed. Holds are generally filled in the order they were
+placed so editing the request date can change the order of the queue.
 ** Shelf Expire Date: The date on which the hold will expire from the holds shelf, based on the value in the
 library setting _Default hold shelf expire interval_.
 . Click *Submit*.
 
+[NOTE]
+======
+Patrons can edit the Request Date and Activate Date via xref:_items_on_hold[My Account].
+======
 
 Suspend and Activate
 ++++++++++++++++++++
 [[_modify_holds_suspend_activate]]
 
-. To suspend or activate a hold, click *Actions* and make your choice.
-. To edit dates, click *Edit Hold Dates*.
+. On the _View Holds_ tab in the staff catalogue, select the hold to edit and go to 
+*Actions -> Modify Hold(s)*.
+. In the pop-up that appears, check or un-check the box for _Hold is Suspended_ to
+suspend or activate the hold.
 +
-image:images/circ/manageholds3.png[scaledwidth="75%"]
+image:images/circ/holds/modify-holds-suspend-activate-1.png[scaledwidth="75%"]
 +
-. Use calendar widgets or enter dates for required action and click *Submit*.
+. When suspending a hold you can add an _Activate Date_ so that the hold will automtically be activated 
+after hours on the activation date; 
+otherwise, staff or the patron will need to manually activate the hold.
+. Click *Apply*.
 
-[TIP]
-=====
-Suspended holds will not be filled but their hold position is kept. If there is no 
-activation date, suspended holds remain inactive until staff or patrons activate 
-them manually.
+OR
 
-Suspended holds with activation dates will be automatically activated after hours 
-on the activation date, regardless of the time displayed in the Activation Date field. For example, a 
-suspended hold with an activation date of January 10th will be active for January 11th. 
-=====
+. On the _Holds_ tab in the patron's account, select the hold to edit and go to 
+*Actions -> Suspend* or *Actions -> Activate*.
+. Click *OK/Continue* on the pop-up that appears
++
+image:images/circ/holds/modify-holds-suspend-activate-2.png[scaledwidth="75%"]
++
+. The hold will be suspended or activated.
+. For suspended holds you can go to *Actions -> Edit Hold Dates* to add an activation date so the hold 
+will automtically be activated after hours 
+on the activation date; otherwise, staff or the patron will need to manually activate the hold.
+
+[NOTE]
+======
+Patrons can suspend and activate their holds via xref:_items_on_hold[My Account].
+======
 
 
 Top of Queue
 ++++++++++++
 [[_modify_holds_queue]]
+
+. On the _View Holds_ tab in the staff catalogue, select the hold to edit and go to 
+*Actions -> Modify Hold(s)*.
+. In the pop-up that appears, check the box for _Top of Queue_.
++
+image:images/circ/holds/modify-holds-top-of-queue-1.png[scaledwidth="75%"]
++
+. Click *Apply*.
+. The hold will now have the queue position of 1.  If a 
+
+OR
+
+. On the _Holds_ tab in the patron's account, select the hold to edit and go to 
+*Actions -> Suspend* or *Actions -> Activate*.
+. Click *OK/Continue* on the pop-up that appears
++
+image:images/circ/holds/modify-holds-suspend-activate-2.png[scaledwidth="75%"]
++
+. The hold will be suspended or activated.
+. For suspended holds you can go to *Actions -> Edit Hold Dates* to add an activation date so the hold 
+will automtically be activated after hours 
+on the activation date; otherwise, staff or the patron will need to manually activate the hold.
 
 . Click *Actions -> Set Top of Queue* to move the selected hold to the top of the hold queue.
 +
@@ -163,9 +206,10 @@ image:images/circ/manageholds5.png[scaledwidth="75%"]
 +
 . Click *Un-Set Top of Queue* to remove a hold from the top of the queue.
 
-TIP: If an item has already been assigned to the hold on top of the queue,  you need to suspend the old top hold, *Find Another Target* for the new top hold, then activate the old top hold.
+TIP: If an item has already been assigned to the hold on top of the queue,  you need to suspend 
+the old top hold, *Find Another Target* for the new top hold, then activate the old top hold.
 
-TIP: You can also edit hold position by clicking *Edit Hold Dates -> Hold Request Date*. For most libraries, holds are filled based on request time sequence. Changing request time will change the holds fulfillment sequence.
+
 
 Cancelling Holds
 ^^^^^^^^^^^^^^^^
@@ -189,6 +233,12 @@ If your library has has the xref:_holds_cancelled_by_staff[Holds Cancelled by St
 anything entered into the _Notes_ field when cancelling a hold appears as the Cancel Cause in the email
 sent to the patron.
 =========
+
+
+[NOTE]
+======
+Patrons can cancel their own holds via xref:_items_on_hold[My Account].
+======
 
 Transferring Title Holds
 ^^^^^^^^^^^^^^^^^^^^^^^^
