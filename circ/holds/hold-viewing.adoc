@@ -14,11 +14,12 @@ account.
 image:images/circ/holds/viewing-holds-1.png[scaledwidth="75%"]
 +
 . From here library staff can use the *Actions* menu to:
-.. Modify a hold.
-.. Cancel a hold.
-.. Find another target for the hold.
-.. Transfer the hold to another title.
-.. Mark the current item as _Damaged_, _Discard/Weed_, or _Missing_.
+.. xref:_modifying_holds[Modify a hold].
+.. xref:_cancelling_holds[Cancel a hold].
+.. xref:_retargetting_holds[Find another target for the hold].
+.. xref:_transferring_title_holds[Transfer the hold to another title].
+.. Mark the current item as xref:_damaged[_Damaged_], xref:_discard_weed[_Discard/Weed_],
+ or xref:_missing[_Missing_].
 
 
 Via the Staff Catalogue
@@ -34,11 +35,12 @@ in the staff catalogue.
 image:images/circ/holds/viewing-holds-2.png[scaledwidth="75%"]
 +
 . From here library staff can use the *Actions* menu to:
-.. Modify a hold.
-.. Cancel a hold.
-.. Find another target for the hold.
-.. Transfer the hold to another title.
-.. Mark the current item as _Damaged_, _Discard/Weed_, or _Missing_.
+.. xref:_modifying_holds[Modify a hold].
+.. xref:_cancelling_holds[Cancel a hold].
+.. xref:_retargetting_holds[Find another target for the hold].
+.. xref:_transferring_title_holds[Transfer the hold to another title].
+.. Mark the current item as xref:_damaged[_Damaged_], xref:_discard_weed[_Discard/Weed_],
+ or xref:_missing[_Missing_].
 
 
 Via the Public Catalogue
