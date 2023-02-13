@@ -14,10 +14,12 @@ the library's materials can be used to fill holds to be picked up at other libra
 When a hold is initiated Evergreen checks the following to determine if the hold can be placed and if it
 will be filled:
 
+* xref:_group_penalty_thresholds[Group Penalty Thresholds]
 * Item's xref:_item_statuses[Status]
 * Holdable flag for the item's xref:_shelving_location_editor[Shelving Location]
 * xref:_item_attributes[Holdable flag for the item]
 * xref:_age_based_hold_protection[Age based hold protection for the item]
+* Relevant library setting such as _Has Local Copy Block_ and _Block hold request if hold recipient privileges have expired_
 * Hold Policies
 ** xref:_age_based_hold_protection[Age based hold protection] within the hold policies.
 
