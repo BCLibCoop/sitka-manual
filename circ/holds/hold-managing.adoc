@@ -3,9 +3,9 @@ Managing Holds
 (((Holds, Holds Management)))
 (((Holds, Holds Edit)))
 
-Staff can edit holds in patrons' records or in title records. Patrons can edit their holds in their account on your public catalogue.
-
-Holds can be cancelled at any time by staff or patrons. Before holds are captured, staff or patrons can suspend a hold without losing the hold queue position, can activate suspended holds, and can change notification method, phone number, pick-up location, and expiration date.  Once a hold is captured, staff can change the pickup location and extend the hold shelf time if required.
+Libray staff can manage holds through the staff catalogue, the patron account, and in some cases, the
+holds shelf. Patrons can manage some aspects of their holds via xref:_items_on_hold[My Account] in the
+public catalogue.
 
 Modifying Holds
 ^^^^^^^^^^^^^^^
