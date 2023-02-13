@@ -43,14 +43,14 @@ patrons can only place meta-record, title level, and call number level holds.
 [options="header"]
 |===
 |Hold level |	Abbreviation |	When to use	How to use|	Who can use |Hold tied to
-|Meta-record| M	|Patron wants first available copy of multiple titles of the same/different format.	Click on place hold to the right of the record. From holds confirmation screen, click Advanced hold options and select other applicable formats. |Patron or staff |	Holdings attached to multiple MARC (title) records sharing the same title and author of selected format(s)(book, video, audiobook, etc.)
-|Title	| T	| Patron wants first available copy of a title.	Staff or patron click on place hold to the right 
+|xref:_placing_meta_record_level_holds[Meta-record]| M	|Patron wants first available copy of multiple titles of the same/different format.	Click on place hold to the right of the record. From holds confirmation screen, click Advanced hold options and select other applicable formats. |Patron or staff |	Holdings attached to multiple MARC (title) records sharing the same title and author of selected format(s)(book, video, audiobook, etc.)
+|xref:_placing_title_level_holds[Title]	| T	| Patron wants first available copy of a title.	Staff or patron click on place hold to the right 
 of a record on search result list or record summary screen. *Libraries participating in Interlibrary Connect 
 should use title level holds for ILC holds.* | Patron or staff | Holdings attached to a single MARC (title) record
-|Call Number	| V	| Patron wants the first available copy of a specific call number of a title. Staff 
+|xref:_placing_call_number_and_item_level_holds[Call Number]	| V	| Patron wants the first available copy of a specific call number of a title. Staff 
 click *Call Number Hold* in *Holdable?* column on the record summary screen.	| Patron or staff | 
 Call number record
-|Item	| C | Patron or staff want a specific copy of a title.  Staff click *Item hold* in *Holdable?* 
+|xref:_placing_call_number_and_item_level_holds[Item]	| C | Patron or staff want a specific copy of a title.  Staff click *Item hold* in *Holdable?* 
 column on the record summary screen.	| Staff	| Item barcode
 |===
 
