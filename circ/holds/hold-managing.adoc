@@ -22,7 +22,7 @@ by selecting a hold and going to *Actions -> Modify Hold(s)*.
 
 image:images/circ/holds/modify-holds-1.png[scaledwidth="75%"]
 
-Holds can be modified from the xref:_via_the_patron_account[_Holds Tab_] in the patron's account by 
+Holds can be modified from the xref:_via_the_patron_account[_Holds_] tab in the patron's account by 
 selecting a hold and going to the *Actions* menu and choosing the desired action.
 
 image:images/circ/holds/modify-holds-2.png[scaledwidth="75%"]
@@ -31,48 +31,103 @@ Set Desired Item Condition/Quality
 ++++++++++++++++++++++++++++++++++
 [[_modify_holds_quality]]
 
-Co-op Support does not recommend the use of Item Quality/Condition.
+Co-op Support does not recommend the use of Item Quality/Condition.  To prevent issues with filling holds
+libraries should leave the quality for all holds and items as _Good_.
 
 Edit Pickup Library
 +++++++++++++++++++
 [[_modify_holds_pickup_library]]
 
-. On the _View Holds_ tab in the staff catalogue, go to *Actions -> Modify Hold(s)*.
+. On the _View Holds_ tab in the staff catalogue, select the hold to edit and go to 
+*Actions -> Modify Hold(s)*.
 . In the pop-up that appears, click the drop down for _Pickup Library_.
 +
 image:images/circ/holds/modify-holds-pickup-library-1.png[scaledwidth="75%"]
 +
+. Select a valid pickup library: a library within your system or your interlibrary connect zone.
+. Click *Apply*.
+. If the item is already captured for a hold the hold status will be updated to _Wrong Shelf_ and needs
+to be checked in so it can transit to its new pickup library.
 
+OR
 
-
-[TIP]
-=====
-Generally staff should not change the pickup library for items already on the holds shelf.  
-=====
-
-. Best practice is to cancel the hold and place another hold with new pickup location. There may 
-be eligible copies at the new location, but the hold targeter will not find 
-them if you just change the pickup library. Editing the pickup location in the existing 
-hold will not force Evergreen to re-target the eligible copies.
-
-. Select hold in patron record and click *Actions -> Edit Pickup Library*
-. Click the dropdown list of all libraries, choose the new pickup location, and click *Submit*.
-
-
-TIP: 
+. On the _Holds_ tab in the patron's account, select the hold to edit and go to 
+*Actions -> Edit Pickup Library*.
+. In the pop-up that appears, click the drop down for _Pickup Library_.
++
+image:images/circ/holds/modify-holds-pickup-library-2.png[scaledwidth="75%"]
++
+. Select a valid pickup library: a library within your system or your interlibrary connect zone.
+. Click *Submit*.
+. If the item is already captured for a hold the hold status will be updated to _Wrong Shelf_ and needs
+to be checked in so it can transit to its new pickup library.
 
 Edit Notification Settings
 ++++++++++++++++++++++++++
 [[_modify_holds_notification_settings]]
 
-. Select hold in patron record and click *Actions -> Edit Notification Settings*.
-. Edit as required and click *Submit*.
+. On the _View Holds_ tab in the staff catalogue, select the hold to edit and go to 
+*Actions -> Modify Hold(s)*.
+. In the pop-up that appears, add and/or remove information from the notification fields to 
+change how the patron will be notified.
 +
-image:images/circ/manageholds4.png[scaledwidth="75%"]
+image:images/circ/holds/modify-holds-notification-settings-1.png[scaledwidth="75%"]
++
+. Click *Apply*.
+
+OR
+
+. On the _Holds_ tab in the patron's account, select the hold to edit and go to 
+*Actions -> Edit Notification Settings*.
+. Initially all fields in the pop-up will be blank and un-selected.
++
+image:images/circ/holds/modify-holds-notification-settings-2.png[scaledwidth="75%"]
++
+. Check the box(es) beside the notification methods you wish to edit.
+.. To remove a method of notification check the box and leave the field blank.
+.. To add or edit a method of notification check the box and fill in the relevant information.
++
+image:images/circ/holds/modify-holds-notification-settings-3.png[scaledwidth="75%"]
++
+. Click *Submit*.
+
 
 Edit Hold Dates
 +++++++++++++++
 [[_modify_holds_dates]]
+
+
+. On the _View Holds_ tab in the staff catalogue, select the hold to edit and go to 
+*Actions -> Modify Hold(s)*.
+. In the pop-up that appears, edit the hold dates you wish to change.
++
+image:images/circ/holds/modify-holds-hold-dates-1.png[scaledwidth="75%"]
++
+** Activate Date: The date on which a suspended hold will be activated.
+** Expire Date: The date on which the hold will expire in Evergreen if it is never filled.
+** Request Date: The date on which the hold was placed.
+** Shelf Expire Date: The date on which the hold will expire from the holds shelf, based on the value in the
+library setting _Default hold shelf expire interval_.
+. Click *Apply*.
+
+OR
+
+. On the _Holds_ tab in the patron's account, select the hold to edit and go to 
+*Actions -> Edit Hold Dates*.
+. Initially all fields in the pop-up will display today's date and be un-selected.
++
+image:images/circ/holds/modify-holds-hold-dates-2.png[scaledwidth="75%"]
++
+. Check the box(es) beside the hold date(s) you wish to edit and enter the new date(s).
++
+image:images/circ/holds/modify-holds-hold-dates-3.png[scaledwidth="75%"]
++
+** Activate Date: The date on which a suspended hold will be activated.
+** Expire Date: The date on which the hold will expire in Evergreen if it is never filled.
+** Request Date: The date on which the hold was placed.
+** Shelf Expire Date: The date on which the hold will expire from the holds shelf, based on the value in the
+library setting _Default hold shelf expire interval_.
+. Click *Submit*.
 
 
 Suspend and Activate
