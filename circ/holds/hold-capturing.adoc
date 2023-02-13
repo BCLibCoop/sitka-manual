@@ -20,12 +20,9 @@ will print automatically without displaying a slip pop up within Evergreen.
 Capturing Holds
 ^^^^^^^^^^^^^^^
 
-. When a hold is captured at check in staff a hold slip pop up will appear, unless 
+. When a hold is captured at check in a hold slip pop-up will appear, unless 
 auto-printing is enabled.
 . Staff can click *Print* or *Do Not Print* depending on their needs.
-+
-image:images/circ/holds-capture-4.png[]
-+
 . The item is checked in and the item status is updated to _On Holds Shelf_.
 . The patron will be notified automatically by Evergreen or by library staff depending on the method
 chosen for notification when the hold was placed. The chosen method will display on the hold slip and 
@@ -45,33 +42,30 @@ processing delays see xref:_hold_ready_for_pickup[].
 ======
 Libraries with self pickup hold shelfs can customize the hold slip to limit the amount of patron 
 personal information that is printed.
+
+A patron's contact information on the hold slip may differ from what is in their patron account.  Patrons have 
+the option to enter different notification information when placing a hold.  Evergreen will use the 
+information saved in the hold record when notifiying patrons.
 ======
 
 
 Capturing Hold Transits
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-. When a hold transit is captured at check in staff will see a hold transit slip pop up or 
-the hold transit slip will automatically print depending on whether or not auto-printing is enabled.
-
-.. For hold transits, the pop up will indicate what location the item needs to be sent to. This 
+. When a hold transit is captured at check in a hold transit slip pop-up will appear, unless 
+auto-printing is enabled.
+. The pop up will indicate what location the item needs to be sent to. This 
 information is also available on the printed slip by default.
 +
 image:images/circ/holds-capture-2.png[]
 +
-
-
+. The _Route To_ column on the Check In screen will also show the library code of the library 
+the item is to be sent to.
 +
 image:images/circ/holds/holds-capture-3.png[]
 +
-. 
-. Put the item on your hold shelf or ship it to the hold's pick up library.
+. The item is shipped it to the destination library.
+. When the destination library checks the item they will capture the hold.
 
-[NOTE]
-======
-A patron's contact information on the hold slip may differ from what is in their patron account.  Patrons have 
-the option to enter different notification information when placing a hold.  Evergreen will use the 
-information saved in the hold record when notifiying patrons.
-======
 
 
