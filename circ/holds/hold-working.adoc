@@ -71,6 +71,7 @@ as _On Holds Shelf_.
 |Reserved/Pending | The hold has been captured and has not been put on the holds shelf. The status will be 
 automatically changed to _Ready for Pickup_ once the delay period specified in library setting  
 _Hold Shelf Status Delay_.
+|Suspended | The hold is suspended and will not be filled until it is automatically or manually activated.
 |Waiting for Capture | An available item has been assigned to the hold but it hasn't been captured
 for the hold yet.  The item will display on the 
 xref:_pull_list_for_hold_requests[_Pull List for Hold Requests_]. 
