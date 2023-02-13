@@ -4,8 +4,8 @@ Managing Hold Groups
 
 https://youtu.be/WpbGpyJX9Dg[*Sitka Snippet Video - Hold Groups (2:45)*]
 
-The Hold Groups feature allows library staff to create lists of patrons that can then be used 
-to place multiple title-level holds on the same bibliographic record. This is useful for book clubs, 
+Hold groups allow library staff to create lists of patrons that can then be used 
+to place multiple title level holds on the same bibliographic record. This is useful for book clubs, 
 new or on-order items, and/or high demand items.
 
 [TIP]
@@ -18,106 +18,126 @@ Libraries may wish to set up a mechanism by which patrons can subscribe to be ad
 Creating a Hold Group
 ^^^^^^^^^^^^^^^^^^^^^
 
-.Create a New Hold Group
-. *Circulation* -> *Hold Groups*.
-. On the Hold Group tab, click New Hold Group.
+. Go to *Circulation* -> *Hold Groups*.
+. On the Hold Group tab, click *New Hold Group*.
 +
-image:images/circ/holdgroups.png[scaledwidth="75%",alt="Create a New Hold Group"]
+image:images/circ/holds/hold-group-create-1.png[scaledwidth="75%"]
 +
-. Enter a name for the Hold Group.
-. Enter a description for the Hold Group (optional).
+. Enter a name for the hold group.
+. Enter a description (optional).
 . Choose the owning library from the drop down (defaults to the workstation library).
-. If you want the Hold Group to be visible to the patrons on the list, check the Visible to Patrons? checkbox.
+. If you want the hold group to be visible to the patrons on the list, check the _Visible to Patrons?_ checkbox.
 . Click *Create Bucket*.
 +
-image:images/circ/holdgroups1.png[scaledwidth="75%",alt="Create Bucket"]
+image:images/circ/holds/hold-group-create-2.png[scaledwidth="75%"]
 
-NOTE: Hold Groups are visible only to the staff member who created them but can be shared through Bucket ID.
 
-.Edit An Existing Hold Group
-. *Circulation* -> *Hold Groups*.
-. On the Hold Groups tab, double-click the Hold Group you wish to modify. This will open the Hold Group in the Current Users tab.
-. Click the Hold Groups button and choose Edit Hold Group.
-. The Edit Bucket pop-up will open. You can edit the name, description, owning library, or visibility.
+Editing A Hold Group
+^^^^^^^^^^^^^^^^^^^^
+. Go to *Circulation* -> *Hold Groups*.
+. From the *Hold Groups* tab, double-click the hold group you wish to open.
++
+image:images/circ/holds/hold-group-place-hold-2.png[scaledwidth="75%"]
++
+. The group will be opened on the *Current Users* tab. Click on the *Hold Groups* button.
+. From the drop down select *Edit Hold Group*.
++
+image:images/circ/holds/hold-group-edit-1.png[scaledwidth="75%"]
++
+. In the pop-up that appears you can edit the name, description, owning library, or visibility.
+. Click *Apply Changes*.
+. The hold group is updated with your changes.
+
+Sharing a Hold Group
+^^^^^^^^^^^^^^^^^^^^
+
+By default, hold groups are only visible to the staff member who created them but they can be shared.
+
+. Go to *Circulation* -> *Hold Groups*.
+. Go to the _Current Users_ tab.
+. Click on the *Hold Groups* button.
+. From the drop down select *Shared Hold Group*.
++
+image:images/circ/holds/hold-group-share-1.png[scaledwidth="75%"]
++
+. Enter the hold group ID and click *Load Bucket*.
++
+image:images/circ/holds/hold-group-share-2.png[scaledwidth="75%"]
++
+. The shared bucket will display.
+
+[TIP]
+=====
+The hold group ID can be found beside the hold group name.
+
+image:images/circ/holds/hold-group-share-3.png[scaledwidth="75%"]
+=====
+
 
 Adding Users to a Hold Group
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Patrons can be added to a Hold Group by barcode, by searching for a patron with an integrated patron search on the Add Users tab, or by a normal patron search. Staff must have PLACE_HOLD permissions to add patrons to a Hold Group at least at the same organizational unit depth (library) as the patron they are trying to add. For example, a staff member with branch level permissions for Branch A could only add patrons to Hold Groups owned by Branch A. If they needed to add patrons to Branch B or Branch C too, they would need system or consortial-level permissions.
+Patrons can be added to a hold group through the Hold Group interface by barcode or search.  Patrons can 
+also be added to a hold group via the main patron search.
 
-.Add Users By Barcode
-. *Circulation* -> *Hold Groups*.
-. Double-click the name of the Hold Group you wish to add patrons to.
-. Go to the Add Users tab.
-+
-image:images/circ/holdgroups-adduser.png[scaledwidth="75%",alt="Hold Group Add Users tab"]
-+
-. Scan or enter the patron barcode into the Scan Barcode field.
-.. Added patrons appear in a list under the Add All To Hold Group button. Users in this list are considered pending and have not yet been added to the Hold Group. Note that the parenthetical number for Add Users increases to display the number of pending users.
-.. Continue adding barcodes as needed.
-. From the list, select one or more users with the checkboxes at the beginning of each row or select all users with the checkbox at the list.
-. Click *Actions* -> *Add to Hold Group*.
-+
-image:images/circ/holdgroups-adduser-2.png[scaledwidth="75%",alt="Actions Add to Hold Group"]
-+
-. The users will now appear on the Current Users tab as part of the Hold Group.
 
-.Add Users With Integrated Patron Search
-. *Circulation* -> *Hold Groups*.
-. Double-click the name of the Hold Group you wish to add patrons to.
-. Go to the Add Users tab.
-. Click *Search for Patron*. A patron search pop-up opens.
-.. The search is scoped to the workstation of the logged in staff member, but can be expanded by using the additional search fields.
-. Enter search criteria into the appropriate fields.
-.. The pop-up defaults to the basic patron search. Additional search fields are available by clicking the down-arrow button to the right of the Search button. This option is sticky.
-. Click *Search* or hit the Enter key. Results appear in the bottom portion of the pop-up window.
-. Click anywhere on a row in the results list to select that patron.
-. Click *Select*. The patron is added to the list of pending users. Users on this list have not yet been added to the Hold Group. Note that the parenthetical number for Add Users increases to display the number of pending users.
-Continue adding patrons as needed.
-. From the list, select one or more users with the checkboxes at the beginning of each row or select all users with the checkbox at the list.
-. Click *Actions* -> *Add to Hold Group*.
-. The users will now appear on the Current Users tab as part of the Hold Group.
+. Go to *Circulation* -> *Hold Groups*.
+. From the *Hold Groups* tab, double-click the hold group you wish to open.
++
+image:images/circ/holds/hold-group-place-hold-2.png[scaledwidth="75%"]
++
+. The group will be opened on the *Current Users* tab. Click on the _Add Users_ tab.
+. Enter the patron barcode into the _Scan Barcode_ field or click *Search for Patron*.
++
+image:images/circ/holds/hold-group-add-user-1.png[scaledwidth="75%"]
++
+. Added patrons will be listed in the grid. Continue adding patrons as needed.
+. Select the patrons you would like to add to the group and Click *Actions* -> *Add to Hold Group* or use the 
+*Add All To Hold Group* to add all patrons at once.
++
+image:images/circ/hold-group-add-user-2.png[scaledwidth="75%",alt="Actions Add to Hold Group"]
++
+. The patrons will now appear on the _Current Users_ tab as part of the hold group.
 
-NOTE: You can add some or all of the users in the pending users list to different Hold Groups without entering barcodes or searching again. Simply go to the Hold Groups tab and double-click another Hold Group from the list. Return to the Add Users tab and select the users you wish to add to the new Hold Group, and use the Actions menu to add them to the Hold Group.
+[NOTE]
+======
+You can add some or all of the patrons in the add users list to different hold groups. 
 
-.From Patron Search
-. *Search* -> *Search for Patrons*.
+. Go to the _Hold Groups_ tab and double-click to select another hold group from the list.
+. Return to the _Add Users_ tab and select the patrons you wish to add to the new hold group.
+. Use the actions menu to add them to the newly select hold group.
+======
+
+
+. Go to *Search* -> *Search for Patrons*.
 . Enter your search criteria.
-. Use the checkboxes on each patron search result to select one or more patrons.
+. Use the checkboxes to select one or more patrons.
 . Click *Add to Bucket*.
+. Choose the hold group to which you want to add the patron(s). Only hold groups created by the 
+logged in staff member display.
 +
-image:images/circ/holdgroups-patronsearch.png[scaledwidth="75%",alt="Patron Search Add to Hold Groups Bucket"]
+image:images/circ/holds/hold-group-add-user-3.png[scaledwidth="75%"]
 +
-.. A list of Hold Groups, as well as other patron buckets, are visible. (Only those Hold Groups created by the logged in user are visible.)
-. Choose the Hold Group to which you want to add the patron(s).
-. A message displays on the bottom right corner of the screen to confirm whether the patrons were added successfully to the Hold Group.
-
-
-
-NOTE: There is pending development to allow for holds to be placed for hold groups by searching the catalogue.
-
-Cancelling Holds For a Hold Group
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Holds can be cancelled from the Hold Events tab by selecting the hold and using the Actions menu and choosing Cancel Hold Group Event.
-
-.Cancel Holds For a Hold Group
-. *Circulation* -> *Hold Groups*.
-. From the Hold Events tab, select the holds you wish to cancel.
-. Click *Actions* -> *Cancel hold group event*.
-+
-image:images/circ/holdgroups-cancel.png[scaledwidth="75%",alt="Cancel Holds For a Hold Group"]
-+
-. Click *OK/Continue*
+. A message displays on the bottom right corner of the screen to confirm whether or not
+the patrons were added successfully to the hold group.
 
 Deleting a Hold Group
 ^^^^^^^^^^^^^^^^^^^^^
 
-Hold Groups can be deleted on the Current Users tab. Deleting a Hold Group does not cancel any holds placed through the Hold Group.
-
-.Deleting a Hold Group
-. *Circulation* -> *Hold Groups*.
-. From the Hold Group tab, double-click the Hold Group you wish to delete. This will open the Hold Group in the Current Users tab.
-. Click the Hold Groups drop down and choose *Delete Hold Group*.
+. Go to *Circulation* -> *Hold Groups*.
+. From the *Hold Groups* tab, double-click the hold group you wish to open.
 +
-image:images/circ/holdgroups-delete.png[scaledwidth="75%",alt="Delete Hold Group"]
+image:images/circ/holds/hold-group-place-hold-2.png[scaledwidth="75%"]
++
+. The group will be opened on the *Current Users* tab. Click on the *Hold Groups* button.
+. From the drop down select *Delete Hold Group*.
++
+image:images/circ/holds/hold-group-delete-1.png[scaledwidth="75%"]
++
+. Click *Delete Bucket*.
+. The hold group is deleted and will no longer show in the list.
+
+[NOTE]
+======
+Deleting a hold group does not cancel any holds placed through the hold group.
+======
