@@ -185,55 +185,55 @@ Top of Queue
 image:images/circ/holds/modify-holds-top-of-queue-1.png[scaledwidth="75%"]
 +
 . Click *Apply*.
-. The hold will now have the queue position of 1.  If a 
+. The hold will now have the queue position of 1.
 
 OR
 
 . On the _Holds_ tab in the patron's account, select the hold to edit and go to 
-*Actions -> Suspend* or *Actions -> Activate*.
+*Actions -> Set Top of Queue* or *Actions -> Un-Set Top of Queue*.
 . Click *OK/Continue* on the pop-up that appears
 +
-image:images/circ/holds/modify-holds-suspend-activate-2.png[scaledwidth="75%"]
+image:images/circ/holds/modify-holds-top-of-queue-2.png[scaledwidth="75%"]
 +
-. The hold will be suspended or activated.
-. For suspended holds you can go to *Actions -> Edit Hold Dates* to add an activation date so the hold 
-will automtically be activated after hours 
-on the activation date; otherwise, staff or the patron will need to manually activate the hold.
+. The hold will be set or un-set to the top of the queue.
 
-. Click *Actions -> Set Top of Queue* to move the selected hold to the top of the hold queue.
-+
-image:images/circ/manageholds5.png[scaledwidth="75%"]
-+
-. Click *Un-Set Top of Queue* to remove a hold from the top of the queue.
+[NOTE]
+======
+If you want to move a hold to the top of the queue and an item has already been assigned to the hold 
+currently on top of the queue you need to do the following.
 
-TIP: If an item has already been assigned to the hold on top of the queue,  you need to suspend 
-the old top hold, *Find Another Target* for the new top hold, then activate the old top hold.
-
+. Set the new hold to the top of the queue.
+. Suspend the original top hold.
+. Find another target for the new hold at the top of the queue.
+. Activate the original top hold.
+======
 
 
 Cancelling Holds
 ^^^^^^^^^^^^^^^^
 
-. Select *Cancel Hold* from the *Actions* menu.
-. Choose the appropriate cancel reason from the drop down menu.  Applicable cancel reasons are _Patron via phone_,
-_Patron in person_, and _Staff forced_.  The other listed cancel reasons apply to automated cancellations.
+. On the _View Holds_ tab in the staff catalogue or on the _Holds_ tab in the patron's account, select 
+the hold you wish to cancel and go to *Actions -> Cancel Hold*.
+. Choose the appropriate cancel reason from the drop down menu: _Patron via phone_, _Patron in person_,
+or _Staff forced_.  The other listed cancel reasons apply to automated cancellations.
 +
 image:images/circ/manageholds2.png[scaledwidth="75%"]
 +
-. Enter a note if applicable and click *Cancel Hold*.
+. Enter a note if applicable.
 +
-image:images/circ/manageholds2b.png[scaledwidth="75%"]
-+
-. If the item was on holds shelf, check it in to capture the next hold or set the item to Reshelving.
-
-
 [CAUTION]
 =========
-If your library has has the xref:_holds_cancelled_by_staff[Holds Cancelled by Staff] notification enabled
+If your library has the xref:_holds_cancelled_by_staff[Holds Cancelled by Staff] notification enabled
 anything entered into the _Notes_ field when cancelling a hold appears as the Cancel Cause in the email
 sent to the patron.
 =========
-
++
+. Click *Cancel Hold*.
++
+image:images/circ/manageholds2b.png[scaledwidth="75%"]
++
+. If the item was on holds shelf, check it in.  The item will go into _Reshelving_ or be
+captured to fill the next hold.
 
 [NOTE]
 ======
@@ -248,18 +248,25 @@ Transferring Title Holds
 
 Holds on one title can be transferred to another title with the hold request time preserved.
 
-. Retrieve the bibliographic record you would like the holds to be transferred to.
-. Click *Actions → Mark for → Title Hold Transfer*.
+. In the staff catalogue, retrieve the bibliographic record you would like the holds to be transferred 
+to.
+. Click *Mark for → Title Hold Transfer*.
 +
-image:images/circ/transferhold2.png[scaledwidth="75%"]
+image:images/circ/holds/transfer-title-hold-1.png[scaledwidth="75%"]
++
+. The bibliographic record ID of the marked record will now display beside the *Title Hold Transfer* menu
+option.
++
+image:images/circ/holds/transfer-title-hold-2.png[scaledwidth="75%"]
 +
 . Retrieve the bibliographic record that currently has the hold(s) attached to it.
-. Click the *View Holds* tab.
-. Select the hold you want to transfer and click *Actions  → Transfer to Marked Title*.
+. Go to the _View Holds_ tab.
+. Select the hold you wish to transfer and click *Actions  → Transfer to Marked Title*.
 +
-image:images/circ/transferhold1.png[scaledwidth="75%"]
+image:images/circ/holds/transfer-title-hold-3.png[scaledwidth="75%"]
 +
-. Click *OK/Continue*.
+. Click *Transfer*.
+. The title hold is moved to the marked bibliographic record.
 
 
 Marking Items
@@ -270,19 +277,27 @@ _Missing_ via the *Actions* menu.
 
 For more information on marking items with these statuses see xref:_mark_items[].
 
-
-
 Re-Targetting Holds
 ^^^^^^^^^^^^^^^^^^^
 
 (((Re-Target Holds)))
 (((Holds, Re-Target Holds)))
 
-Newly created items, or items whose status was just changed from a non-holdable to a holdable status, may not trigger holds on regular check-in because these copies are not yet identified as hold targets. The holds targeter will eventually target such holds overnight, or you can re-target them immediately. Re-targeting a hold means Evergreen searches for an available copy for the hold right away, and puts it on the *Holds Pull List* if found. If there is no available copy, the hold's status will be set to *Wait for copy*.
-
-You can re-target local holds at check-in by use of *Checkin Modifiers*, or you can manually re-target holds from title, patron, or hold record as follows.
 
 
+Newly created items, or items whose status was just changed from a non-holdable to a holdable status, 
+may not trigger holds on regular check in.  This is because Evergreen automatically updates the table of 
+items eligible to fill a particular hold every 24 hours.  Library staff can re-target holds which forces
+Evergreen to update the table of eligible items right away.  
+
+You can re-target local holds in two ways:
+
+* on the check in screen, using the xref:_check_in_modifiers[checkin modifiers] _Retarget Local Holds_ 
+and _Retarget All Statuses_.
+* by manually re-targetting the hold from staff catalogue or patron account.
+
+. On the _View Holds_ tab in the staff catalogue or on the _Holds_ tab in the patron's account, select 
+the hold you wish to re-target and go to *Actions -> Find Another Target*.
 . Select the hold from any hold management screen and click *Actions -> Find Another Target*.
 +
 image:images/circ/retarget1.png[scaledwidth="75%"]
