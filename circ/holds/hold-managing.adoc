@@ -301,6 +301,7 @@ and _Retarget All Statuses_.
 Co-op Support recommends multi-branch libraries manually re-target holds through the staff catalogue
 or paton account in order to retarget all holds in the system. For single branch libraries, Co-op Support 
 recommends using the retarget related checkin modifiers at check in.
+=====
 
 . On the _View Holds_ tab in the staff catalogue or on the _Holds_ tab in the patron's account, select 
 the hold you wish to retarget and go to *Actions -> Find Another Target*.
@@ -350,8 +351,3 @@ image:images/circ/holds/hold-details-view-4.png[scaledwidth="75%"]
 image:images/circ/holds/hold-details-view-5.png[scaledwidth="75%"]
 +
 . The record of notification will display.
-
-
-
-
-
