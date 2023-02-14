@@ -14,6 +14,8 @@ include::localadmin/admin-group-penalty.adoc[]
 
 include::localadmin/admin-hold-policy.adoc[]
 
+include::localadmin/admin-hopeless-holds.adoc[]
+
 include::localadmin/admin-item.adoc[]
 
 include::localadmin/admin-lse.adoc[]

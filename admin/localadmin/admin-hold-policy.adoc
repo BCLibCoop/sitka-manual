@@ -8,23 +8,24 @@ Hold Policies
 
 anchor:hold-policy[Hold Policy]
 
-The hold policy for each library or library system defines who can place how many holds on what types
-of materials. It also defines whether the library's materials can be used to fill holds picked up at other
-libraries.
+Hold policies defines who can place how many holds on what types of materials. They also defines whether 
+the library's materials can be used to fill holds to be picked up at other libraries.
 
-Hold policies are usually defined by a combination of the Requestor Permission Group
-(eg. Public Library Users, Public Library Staff etc.), item attributes like circulation modifier (
-eg. book, juvenile-collection etc.), and library (user home, item's owning and circulating library)
-with additional parameters of maximum holds and whether a hold can be placed at all. Transit Range
-defines where the library's materials can go to fill holds.
+When a hold is initiated Evergreen checks the following to determine if the hold can be placed and if it
+will be filled:
 
-[NOTE]
-====
-All changes to your hold policies are made by Co-op Support Staff.
+* xref:_group_penalty_thresholds[Group Penalty Thresholds]
+* Item's xref:_item_statuses[Status]
+* Holdable flag for the item's xref:_shelving_location_editor[Shelving Location]
+* xref:_item_attributes[Holdable flag for the item]
+* xref:_age_based_hold_protection[Age based hold protection for the item]
+* Relevant library setting such as _Has Local Copy Block_ and _Block hold request if hold recipient privileges have expired_
+* Hold Policies
+** xref:_age_based_hold_protection[Age based hold protection] within the hold policies.
 
-To request changes to your hold policies submit a ticket to https://bc.libraries.coop/support/[Support].
-We recommend submitting your request at least one week before you'd like the change go into effect.
-====
+
+Viewing Your Hold Policies
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To view your current hold policies run a report (reporter permissions required) or
 view your policies in Evergreen (Local System Administrator permissions required).
@@ -50,14 +51,25 @@ Click *Filter* under *Owning Library*. In the popped up window, select *Is (or i
 *Apply filter* to display policies based on the owning library.
 ====
 
-////
-** Select an individual hold policy for viewing by double-clicking on the desired row.
+Changing Your Hold Policies
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In the below example, all Sitka public library patrons, including all profiles under Public Library Patron,
-are able to place holds on BPE library's items of any circulation modifier and pick up these items at BPE library.
-The hold limit is 9999, meaning no limit.
+All changes to your hold policies are made by Co-op Support Staff.
 
-image::images/admin/hold-policy-2.png[]
+Submit a ticket to https://bc.libraries.coop/support/[Co-op Support] to request changes to your 
+hold policies. We recommend submitting your request at least one week before you'd like 
+the change to go into effect.
 
-** Clicking *Save* will have no effect as only Support can make changes to hold policies.
-////
+In your request please include the specific changes you need made.  
+
+When requesting a new hold policy you must include:
+
+* Circulation modifier or item age
+* What patron group(s) the policy applies to
+* The maximum number of holds (if applicable)
+* Whether or not interlibrary connect holds can be placed (for libraries participating in 
+reciprocal borrowing)
+
+
+
+

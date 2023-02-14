@@ -1,49 +1,71 @@
-Capturing Holds
-~~~~~~~~~~~~~~~
+Capturing Holds and Hold Transits
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 (((Holds)))
 (((Holds, Capture Holds)))
 
 link:https://youtu.be/KiUAjFFqvsU[*Sitka Training Video - Capturing Holds (2:29)*]
 
-Holds are captured when a checked-out item is checked-in, or an item on the *Holds Pull List* is retrieved 
-and captured. When a hold is captured, the hold slip will be printed, unless disabled, 
-and if the patron has chosen to be notified by email or SMS text message the notification will 
-automatically be sent out.
+Items are captured for holds at check in either opportunistically when an item is returned by a patron
+or deliberately when items on the _Pull List for Hold Requests_ are pulled and checked in.  
 
-[CAUTION]
-=========
-Hold notifications have processing delays.  The email notification delay can be customized by the library. The
-SMS text message delay is set globally at 30 minutes and cannot be customized.
-
-If a hold is checked out to the patron during the processing delay the notification will not be sent as 
-Evergreen no longer considers it to be relevant.
-=========
-
-
-. Select *Circulation → Capture Holds* or *Circulation → Check In*.
-. Scan or enter the barcode and click *Submit*.
-. A hold or hold transit slip pop up will appear, unless auto-printing is enabled.
-.. For hold slips the pop up will indicate what method is being used to contact the patron.  This information
-is also available on the printed slip.
-+
-image:images/circ/holds-capture-1.png[]
-+
-.. For hold transit slips the pop up will indicate what library the item needs to be sent to.This information
-is also available on the printed slip.
-+
-image:images/circ/holds-capture-2.png[]
-+
-. The hold or hold transit slip is automatically printed on the *Hold Capture* screen by default. On 
-the *Check In* screen you can select *Checkin Modifiers → Auto-Print Hold and Transit Slips* to print hold 
-slips automatically.
-
+Multi-branch libraries and libraries participating in reciprocal borrowing will see both holds and 
+hold transits captured at check in.
 
 [NOTE]
 ======
-A patron's contact information on a hold slip may differ from what is in their patron account.  Patrons have 
-the option to enter different notification information when placing a hold.  Evergreen will use the information
-saved in the hold record when notifiying patrons.
+When the Checkin Modifer _Auto-Print Hold and Transit Slips_ is enabled hold and hold transit slips
+will print automatically without displaying a slip pop up within Evergreen.
 ======
+
+Capturing Holds
+^^^^^^^^^^^^^^^
+
+. When a hold is captured at check in a hold slip pop-up will appear, unless 
+auto-printing is enabled.
+. Staff can click *Print* or *Do Not Print* depending on their needs.
+. The item is checked in and the item status is updated to _On Holds Shelf_.
+. The patron will be notified automatically by Evergreen or by library staff depending on the method
+chosen for notification when the hold was placed. The chosen method will display on the hold slip and 
+is included on the printed slip by default.
++
+image:images/circ/holds-capture-1.png[]
++
+[CAUTION]
+=========
+Do NOT check out the item to the patron until after the notification processing delay has
+past or Evergreen will NOT send the automatic notification.  For information on hold notification
+processing delays see xref:_hold_ready_for_pickup[].
+=========
+. The item is placed on the library's xref:_holds_shelf[hold shelf].
+
+[NOTE]
+======
+Libraries with self pickup hold shelfs can customize the hold slip to limit the amount of patron 
+personal information that is printed.
+
+A patron's contact information on the hold slip may differ from what is in their patron account.  Patrons have 
+the option to enter different notification information when placing a hold.  Evergreen will use the 
+information saved in the hold record when notifiying patrons.
+======
+
+
+Capturing Hold Transits
+^^^^^^^^^^^^^^^^^^^^^^^
+
+. When a hold transit is captured at check in a hold transit slip pop-up will appear, unless 
+auto-printing is enabled.
+. The pop up will indicate what location the item needs to be sent to. This 
+information is also available on the printed slip by default.
++
+image:images/circ/holds-capture-2.png[]
++
+. The _Route To_ column on the Check In screen will also show the library code of the library 
+the item is to be sent to.
++
+image:images/circ/holds/holds-capture-3.png[]
++
+. The item is shipped it to the destination library.
+. When the destination library checks the item they will capture the hold.
 
 
 

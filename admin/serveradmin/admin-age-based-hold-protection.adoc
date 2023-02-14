@@ -1,0 +1,42 @@
+Age Hold Protect Rules
+~~~~~~~~~~~~~~~~~~~~~~
+(((Age Based Hold Protection)))
+
+Age based hold protection enables libraries to block holds from being filled for patrons from other 
+libraries or branches until the item has been active for a specified amount of time.
+
+The following age based hold protection rules can be used when applying age based hold protection
+xref:xref:_item_attributes[item attributes].
+
+[options="header"]
+|===
+|Item Age |Rule Name |Description
+|1 month |1_month_among_multi_branch | Block holds from being filled where the pickup library is not the
+owning library/system for 1 month from the item's active date.
+|3 months |3_month_among_multi_branch | Block holds from being filled where the pickup library is not the
+owning library/system for 3 month from the item's active date.
+|6 months |6_month_among_multi_branch | Block holds from being filled where the pickup library is not the
+owning library/system for 6 month from the item's active date.
+|9 months |9_month_among_multi_branch | Block holds from being filled where the pickup library is not the
+owning library/system for 9 month from the item's active date.
+|1 year |12_month_among_multi_branch | Block holds from being filled where the pickup library is not the
+owning library/system for 1 year from the item's active date.
+|1 month |1_month_within_single_branch | Block holds from being filled where the pickup library is not the
+owning branch for 1 month from the item's active date.
+|3 months |3_month_within_single_branch | Block holds from being filled where the pickup library is not the
+owning branch for 3 month from the item's active date.
+|6 months |6_month_within_single_branch | Block holds from being filled where the pickup library is not the
+owning branch for 6 month from the item's active date.
+|9 months |9_month_within_single_branch | Block holds from being filled where the pickup library is not the
+owning branch for 9 month from the item's active date.
+|1 year |12_month_within_single_branch | Block holds from being filled where the pickup library is not the
+owning branch for 1 year from the item's active date.
+|===
+
+The age based hold protection rules will remain an attribute on the item record after the protection period
+has passed unless manually removed by library staff via the xref:_holdings_editor[Holdings Editor].
+
+To see a list of items with the age based hold protection item attribute applied use the report template 
+_Age Based Hold Protection: Items with Age Based Hold Protection_ found under
+in the reporter under _Shared Folders -> Templates -> Sitka_templates -> Collection -> Copy List by Item
+Attributes_.

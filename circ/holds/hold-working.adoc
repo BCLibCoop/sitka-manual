@@ -1,0 +1,104 @@
+Working with Holds
+~~~~~~~~~~~~~~~~~~
+
+Basic Hold Workflow
+^^^^^^^^^^^^^^^^^^^
+
+. xref:place-holds[A hold is placed] by the patron or by library staff on behalf of the patron
+. Library staff xref:_capturing_holds_and_hold_transits[capture the hold].  This can happen when an item on hold is returned and checked in or 
+when staff pull and check in available items listed on the xref:_pull_list_for_hold_requests[pull list].
+. The patron is xref:_hold_notifications[notified automatically by text or email], or manually by staff
+. The item is placed on the xref:_holds_shelf[hold shelf].
+. The hold is complete when the patron checks out or xref:_cancelling_holds[cancels their hold] or 
+when staff cancel or xref:_clearing_holds[clear the hold].
+. Staff regularily check their xref:_hopeless_holds[hopeless holds list] to resolve unfillable holds.
+
+Is it Holdable?
+^^^^^^^^^^^^^^^
+
+A number of factors determine whether or not a hold can be placed.
+
+* The status of the item
+** Some xref:_item_statuses[item statuses] are not holdable
+* How the item is catalogued
+** xref:_creating_a_shelving_location[Shelving locations] can be set to Holdable = NO
+** xref:_item_attributes[Items] can be set to Holdable = NO
+* The library's xref:_hold_policies[hold policies] can block holds based on:
+** Patron types
+** Circulation modifiers
+** Owning/Pickup library
+** Age based hold protection
+** Maximum number of holds allowed at a time
+* The library setting _Has Local Copy Block_
+** When this is set to TRUE holds cannot be placed on available items
+
+Individual patrons can also be blocked from placing holds due to exceeding 
+xref:_group_penalty_thresholds[group penalty thresholds].
+
+Hold Levels
+^^^^^^^^^^^
+
+Evergreen has four different holds levels. Library staff can place holds at all four levels, while 
+patrons can only place meta-record, title level, and call number level holds.
+
+[options="header"]
+|===
+|Hold level |	Abbreviation |	When to use	How to use|	Who can use |Hold tied to
+|xref:_placing_meta_record_level_holds[Meta-record]| M	|Patron wants first available copy of multiple titles of the same/different format.	Click on place hold to the right of the record. From holds confirmation screen, click Advanced hold options and select other applicable formats. |Patron or staff |	Holdings attached to multiple MARC (title) records sharing the same title and author of selected format(s)(book, video, audiobook, etc.)
+|xref:_placing_title_level_holds[Title]	| T	| Patron wants first available copy of a title.	Staff or patron click on place hold to the right 
+of a record on search result list or record summary screen. *Libraries participating in Interlibrary Connect 
+should use title level holds for ILC holds.* | Patron or staff | Holdings attached to a single MARC (title) record
+|xref:_placing_call_number_and_item_level_holds[Call Number]	| V	| Patron wants the first available copy of a specific call number of a title. Staff 
+click *Call Number Hold* in *Holdable?* column on the record summary screen.	| Patron or staff | 
+Call number record
+|xref:_placing_call_number_and_item_level_holds[Item]	| C | Patron or staff want a specific copy of a title.  Staff click *Item hold* in *Holdable?* 
+column on the record summary screen.	| Staff	| Item barcode
+|===
+
+
+Hold Statuses
+^^^^^^^^^^^^^
+
+Holds will have one of the following statuses:
+
+[options="header"]
+|===
+|Status |Description
+|Cancelled | The hold has been cancelled.  Staff need to check the item in to return it to circulation or capture
+the next hold.
+|In Transit | The item is in transit to the pickup library from another library.
+|Ready for Pickup | The item is on the holds shelf and ready for pick up.  The status of the item will show
+as _On Holds Shelf_.
+|Reserved/Pending | The hold has been captured and has not been put on the holds shelf. The status will be 
+automatically changed to _Ready for Pickup_ once the delay period specified in library setting  
+_Hold Shelf Status Delay_.
+|Suspended | The hold is suspended and will not be filled until it is automatically or manually activated.
+|Waiting for Capture | An available item has been assigned to the hold but it hasn't been captured
+for the hold yet.  The item will display on the 
+xref:_pull_list_for_hold_requests[_Pull List for Hold Requests_]. 
+|Waiting for Item | All holdable item are currently checked out or otherwise not available.
+|Wrong Shelf | The pickup library for the hold has changed.  Staff need to check the item in to send it
+into transit to the new pickup library.
+|===
+
+Age Based Hold Protection
+^^^^^^^^^^^^^^^^^^^^^^^^^
+(((Age Based Hold Protection)))
+
+Age based hold protection enables libraries to block holds from being filled for patrons from other 
+libraries or branches until the item has been active for a specified amount of time.  
+
+Age based hold protection can be set up as part of your xref:_hold_policies[hold policies] or can be 
+applied on a per item basis via xref:_item_attributes[item attributes].  Protection via hold policies
+will apply to holds on all items or holds using specified circulation modifiers.  Protection via item
+attributes is applied by cataloguers on an item by item basis.
+
+Single branch libraries can use age based hold protection via hold policies OR via item attribute; you 
+should not use both at the same time.  Multi-branch libraries can use a combination of age based hold 
+protection through hold policies AND item attributes to control hold filling between their branches and 
+other libraries.
+
+Make sure you know if and how your library does age based hold protection.
+
+
+

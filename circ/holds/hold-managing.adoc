@@ -3,124 +3,378 @@ Managing Holds
 (((Holds, Holds Management)))
 (((Holds, Holds Edit)))
 
-Staff can edit holds in patrons' records or in title records. Patrons can edit their holds in their account on your public catalogue.
+Libray staff can manage holds through the staff catalogue, the patron account, and in some cases, the
+holds shelf. Patrons can manage some aspects of their holds via xref:_items_on_hold[My Account] in the
+public catalogue.
 
-Holds can be cancelled at any time by staff or patrons. Before holds are captured, staff or patrons can suspend a hold without losing the hold queue position, can activate suspended holds, and can change notification method, phone number, pick-up location, and expiration date.  Once a hold is captured, staff can change the pickup location and extend the hold shelf time if required.
+Modifying Holds
+^^^^^^^^^^^^^^^
 
+* xref:_modify_holds_quality[Set Desired Item Condition/Quality]
+* xref:_modify_holds_pickup_library[Edit Pickup Library]
+* xref:_modify_holds_notification_settings[Edit Notification Settings]
+* xref:_modify_holds_dates[Edit Hold Dates]
+* xref:_modify_holds_suspend_activate[Suspend and Activate]
+* xref:_modify_holds_queue[Top of Queue]
 
-Hold Statuses
-^^^^^^^^^^^^^
+Holds can be modified from the xref:_via_the_staff_catalogue[_View Holds_] tab in the bibliographic record 
+by selecting a hold and going to *Actions -> Modify Hold(s)*.
 
-There are five types of status a hold may have: *Waiting for Copy*, *Waiting for Capture*, *In Transit*, *Ready for Pickup*, and the optional *Reserved/Pending*. If your library chooses to delay hold shelf status, then a hold may have the status of *Reserved/Pending*.
+image:images/circ/holds/modify-holds-1.png[scaledwidth="75%"]
 
-* Waiting-for-copy: all holdable copies are checked out or not available.
+Holds can be modified from the xref:_via_the_patron_account[_Holds_] tab in the patron's account by 
+selecting a hold and going to the *Actions* menu and choosing the desired action.
 
-* Waiting-for-capture: an available copy is assigned to the hold. The item is on the *Holds Pull List*, waiting for staff to search the shelf and capture the hold.
+image:images/circ/holds/modify-holds-2.png[scaledwidth="75%"]
 
-* In Transit: hold is captured at a non-pickup library and on the way to the pick-up location.
+Set Desired Item Condition/Quality
+++++++++++++++++++++++++++++++++++
+[[_modify_holds_quality]]
 
-* Ready for Pickup: hold is captured and on the *Holds Shelf* for patron to pick up. In the catalogue, this status displays as *On Holds Shelf*.
+Co-op Support does not recommend the use of Item Quality/Condition.  To prevent issues with filling holds
+libraries should leave the quality for all holds and items as _Good_.
 
-* Reserved/Pending: hold is captured, item is in process, and yet to be put on the *Holds Shelf*. The status will be automatically changed to *Ready for Pickup* once the delay period specified in Library Settings Editor expires.
+Edit Pickup Library
++++++++++++++++++++
+[[_modify_holds_pickup_library]]
 
-
-
-Managing Holds in Patron Records
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-. Click *Holds* tab in patron record.
-. Select the hold record and click *Actions*.
+. On the _View Holds_ tab in the staff catalogue, select the hold to edit and go to 
+*Actions -> Modify Hold(s)*.
+. In the pop-up that appears, click the drop down for _Pickup Library_.
 +
-image:images/circ/manageholds1.png[scaledwidth="75%"]
+image:images/circ/holds/modify-holds-pickup-library-1.png[scaledwidth="75%"]
 +
-. Manage the hold by choosing an action on the list. Use the arrow to scroll through choices.
+. Select a valid pickup library: a library within your system or your interlibrary connect zone.
+. Click *Apply*.
+. If the item is already captured for a hold the hold status will be updated to _Wrong Shelf_.
+The item needs to be checked in so it can transit to its new pickup library.
+
+OR
+
+. On the _Holds_ tab in the patron's account, select the hold to edit and go to 
+*Actions -> Edit Pickup Library*.
+. In the pop-up that appears, click the drop down for _Pickup Library_.
++
+image:images/circ/holds/modify-holds-pickup-library-2.png[scaledwidth="75%"]
++
+. Select a valid pickup library: a library within your system or your interlibrary connect zone.
+. Click *Submit*.
+. If the item is already captured for a hold the hold status will be updated to _Wrong Shelf_ .
+The item needs to be checked in so it can transit to its new pickup library.
+
+Edit Notification Settings
+++++++++++++++++++++++++++
+[[_modify_holds_notification_settings]]
+
+. On the _View Holds_ tab in the staff catalogue, select the hold to edit and go to 
+*Actions -> Modify Hold(s)*.
+. In the pop-up that appears, add and/or remove information from the notification fields to 
+change how the patron will be notified.
++
+image:images/circ/holds/modify-holds-notification-settings-1.png[scaledwidth="75%"]
++
+. Click *Apply*.
+
+OR
+
+. On the _Holds_ tab in the patron's account, select the hold to edit and go to 
+*Actions -> Edit Notification Settings*.
+. Initially all fields in the pop-up will be blank and un-selected.
++
+image:images/circ/holds/modify-holds-notification-settings-2.png[scaledwidth="75%"]
++
+. Check the box(es) beside the notification methods you wish to edit.
+.. To remove a method of notification check the box and leave the field blank.
+.. To add or edit a method of notification check the box and fill in the relevant information.
++
+image:images/circ/holds/modify-holds-notification-settings-3.png[scaledwidth="75%"]
++
+. Click *Submit*.
+
+[NOTE]
+======
+Patrons can edit their own notification settings via xref:_items_on_hold[My Account].
+======
+
+Edit Hold Dates
++++++++++++++++
+[[_modify_holds_dates]]
+
+. On the _View Holds_ tab in the staff catalogue, select the hold to edit and go to 
+*Actions -> Modify Hold(s)*.
+. In the pop-up that appears, edit the hold dates you wish to change.
++
+image:images/circ/holds/modify-holds-hold-dates-1.png[scaledwidth="75%"]
++
+** Activate Date: The date on which a suspended hold will be activated.
+** Expire Date: The date on which the hold will expire in Evergreen if it is never filled.
+** Request Date: The date on which the hold was placed.  Holds are generally filled in the order they were
+placed so editing the request date can change the order of the queue.
+** Shelf Expire Date: The date on which the hold will expire from the holds shelf, based on the value in the
+library setting _Default hold shelf expire interval_.
+. Click *Apply*.
+
+OR
+
+. On the _Holds_ tab in the patron's account, select the hold to edit and go to 
+*Actions -> Edit Hold Dates*.
+. Initially all fields in the pop-up will display today's date and be un-selected.
++
+image:images/circ/holds/modify-holds-hold-dates-2.png[scaledwidth="75%"]
++
+. Check the box(es) beside the hold date(s) you wish to edit and enter the new date(s).
++
+image:images/circ/holds/modify-holds-hold-dates-3.png[scaledwidth="75%"]
++
+** Activate Date: The date on which a suspended hold will be activated.
+** Expire Date: The date on which the hold will expire in Evergreen if it is never filled.
+** Request Date: The date on which the hold was placed. Holds are generally filled in the order they were
+placed so editing the request date can change the order of the queue.
+** Shelf Expire Date: The date on which the hold will expire from the holds shelf, based on the value in the
+library setting _Default hold shelf expire interval_.
+. Click *Submit*.
+
+[NOTE]
+======
+Patrons can edit the Request Date and Activate Date via xref:_items_on_hold[My Account].
+======
+
+Suspend and Activate
+++++++++++++++++++++
+[[_modify_holds_suspend_activate]]
+
+. On the _View Holds_ tab in the staff catalogue, select the hold to edit and go to 
+*Actions -> Modify Hold(s)*.
+. In the pop-up that appears, check or un-check the box for _Hold is Suspended_ to
+suspend or activate the hold.
++
+image:images/circ/holds/modify-holds-suspend-activate-1.png[scaledwidth="75%"]
++
+. When suspending a hold you can add an _Activate Date_ so that the hold will automtically be activated 
+after hours on the activation date; 
+otherwise, staff or the patron will need to manually activate the hold.
+. Click *Apply*.
+
+OR
+
+. On the _Holds_ tab in the patron's account, select the hold to edit and go to 
+*Actions -> Suspend* or *Actions -> Activate*.
+. Click *OK/Continue* on the pop-up that appears
++
+image:images/circ/holds/modify-holds-suspend-activate-2.png[scaledwidth="75%"]
++
+. The hold will be suspended or activated.
+. For suspended holds you can go to *Actions -> Edit Hold Dates* to add an activation date so the hold 
+will automtically be activated after hours 
+on the activation date; otherwise, staff or the patron will need to manually activate the hold.
+
+[NOTE]
+======
+Patrons can suspend and activate their holds via xref:_items_on_hold[My Account].
+======
+
+
+Top of Queue
+++++++++++++
+[[_modify_holds_queue]]
+
+. On the _View Holds_ tab in the staff catalogue, select the hold to edit and go to 
+*Actions -> Modify Hold(s)*.
+. In the pop-up that appears, check the box for _Top of Queue_.
++
+image:images/circ/holds/modify-holds-top-of-queue-1.png[scaledwidth="75%"]
++
+. Click *Apply*.
+. The hold will now have the queue position of 1.
+
+OR
+
+. On the _Holds_ tab in the patron's account, select the hold to edit and go to 
+*Actions -> Set Top of Queue* or *Actions -> Un-Set Top of Queue*.
+. Click *OK/Continue* on the pop-up that appears
++
+image:images/circ/holds/modify-holds-top-of-queue-2.png[scaledwidth="75%"]
++
+. The hold will be set or un-set to the top of the queue.
+
+[NOTE]
+======
+If you want to move a hold to the top of the queue and an item has already been assigned to the hold 
+currently on top of the queue you need to do the following.
+
+. Set the new hold to the top of the queue.
+. Suspend the original top hold.
+. Find another target for the new hold at the top of the queue.
+. Activate the original top hold.
+======
+
 
 Cancelling Holds
 ^^^^^^^^^^^^^^^^
-. Select *Cancel Hold* from the *Actions* menu.
-. Choose the appropriate cancel reason from the drop down menu.  Applicable cancel reasons are _Patron via phone_,
-_Patron in person_, and _Staff forced_.  The other listed cancel reasons apply to automated cancellations.
+
+Holds can be cancelled individually by library staff and patrons 
+
+. On the _View Holds_ tab in the staff catalogue or on the _Holds_ tab in the patron's account, select 
+the hold you wish to cancel and go to *Actions -> Cancel Hold*.
+. Choose the appropriate cancel reason from the drop down menu: _Patron via phone_, _Patron in person_,
+or _Staff forced_.  The other listed cancel reasons apply to automated cancellations.
 +
 image:images/circ/manageholds2.png[scaledwidth="75%"]
 +
-. Enter a note if applicable and click *Cancel Hold*.
+. Enter a note if applicable.
 +
-image:images/circ/manageholds2b.png[scaledwidth="75%"]
-+
-. If the item was on holds shelf, check it in to capture the next hold or set the item to Reshelving.
-
-
 [CAUTION]
 =========
-If your library has has the xref:_holds_cancelled_by_staff[Holds Cancelled by Staff] notification enabled
+If your library has the xref:_holds_cancelled_by_staff[Holds Cancelled by Staff] notification enabled
 anything entered into the _Notes_ field when cancelling a hold appears as the Cancel Cause in the email
 sent to the patron.
 =========
++
+. Click *Cancel Hold*.
++
+image:images/circ/manageholds2b.png[scaledwidth="75%"]
++
+. If the item was on holds shelf, check it in.  The item will go into _Reshelving_ or be
+captured to fill the next hold.
 
-Suspend, Activate, and Edit Hold Dates
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-. To suspend or activate a hold, click *Actions* and make your choice.
-. To edit dates, click *Edit Hold Dates*.
+[NOTE]
+======
+Patrons can cancel their own holds via xref:_items_on_hold[My Account].
+======
+
+Cancelling Holds for a Hold Group
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Library staff can also cancel a set of holds placed for a particular hold group.
+
+. Go to *Circulation* -> *Hold Groups*.
+. From the *Hold Groups* tab, double-click the hold group you wish to open.
 +
-image:images/circ/manageholds3.png[scaledwidth="75%"]
+image:images/circ/holds/hold-group-place-hold-2.png[scaledwidth="75%"]
 +
-. Use calendar widgets or enter dates for required action and click *Submit*.
+. The group will be opened on the *Current Users* tab. Click on the *Hold Events* tab.
++
+image:images/circ/holds/hold-group-place-hold-3.png[scaledwidth="75%"]
++
+. Select the set of holds you wish to cancel.
+. Click *Actions* -> *Cancel hold group event*.
++
+image:images/circ/holds/hold-group-cancel-hold-1.png[scaledwidth="75%"]
++
+. Click *OK/Continue*
+. All holds in the set are cancelled.
+. If an item was captured for one of the holds and on holds shelf, check it in.  The item will go into _Reshelving_ or be
+captured to fill the next hold.
+
+
+Transferring Title Holds
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+(((Holds Transfer)))
+(((Holds, Transfer Holds)))
+
+Holds on one title can be transferred to another title with the hold request time preserved.
+
+. In the staff catalogue, retrieve the bibliographic record you would like the holds to be transferred 
+to.
+. Click *Mark for → Title Hold Transfer*.
++
+image:images/circ/holds/transfer-title-hold-1.png[scaledwidth="75%"]
++
+. The bibliographic record ID of the marked record will now display beside the *Title Hold Transfer* menu
+option.
++
+image:images/circ/holds/transfer-title-hold-2.png[scaledwidth="75%"]
++
+. Retrieve the bibliographic record that currently has the hold(s) attached to it.
+. Go to the _View Holds_ tab.
+. Select the hold you wish to transfer and click *Actions  → Transfer to Marked Title*.
++
+image:images/circ/holds/transfer-title-hold-3.png[scaledwidth="75%"]
++
+. Click *Transfer*.
+. The title hold is moved to the marked bibliographic record.
+
+
+Marking Items
+^^^^^^^^^^^^^
+
+When a hold has an item assigned to it the item can be marked as _Damaged_, _Discard/Weed_, or 
+_Missing_ via the *Actions* menu.
+
+For more information on marking items with these statuses see xref:_mark_items[].
+
+Retargetting Holds
+^^^^^^^^^^^^^^^^^^
+
+(((Re-Target Holds)))
+(((Holds, Re-Target Holds)))
+
+
+
+Newly created items, or items whose status was just changed from a non-holdable to a holdable status, 
+may not trigger holds on regular check in.  This is because Evergreen automatically updates the table of 
+items eligible to fill a particular hold every 24 hours.  Library staff can retarget holds which forces
+Evergreen to update the table of eligible items right away.  
+
+You can re-target local holds in two ways:
+
+* on the check in screen, using the xref:_check_in_modifiers[checkin modifiers] _Retarget Local Holds_ 
+and _Retarget All Statuses_.
+* by manually re-targetting the hold from staff catalogue or patron account.
 
 [TIP]
 =====
-Suspended holds will not be filled but their hold position is kept. If there is no 
-activation date, suspended holds remain inactive until staff or patrons activate 
-them manually.
-
-Suspended holds with activation dates will be automatically activated after hours 
-on the activation date, regardless of the time displayed in the Activation Date field. For example, a 
-suspended hold with an activation date of January 10th will be active for January 11th. 
+Co-op Support recommends multi-branch libraries manually re-target holds through the staff catalogue
+or paton account in order to retarget all holds in the system. For single branch libraries, Co-op Support 
+recommends using the retarget related checkin modifiers at check in.
 =====
 
-Edit Holds Notification Settings
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-. Select hold in patron record and click *Actions -> Edit Notification Settings*.
-. Edit as required and click *Submit*.
+. On the _View Holds_ tab in the staff catalogue or on the _Holds_ tab in the patron's account, select 
+the hold you wish to retarget and go to *Actions -> Find Another Target*.
 +
-image:images/circ/manageholds4.png[scaledwidth="75%"]
-
-
-Edit Pickup Library
-^^^^^^^^^^^^^^^^^^^
-. Select hold in patron record and click *Actions -> Edit Pickup Library*
-. Click the dropdown list of all libraries, choose the new pickup location, and click *Submit*.
-
-
-TIP: For libraries sharing resources with other libraries, Co-op Support strongly recommends you do not edit pickup location. Best practice is to cancel the hold and place another hold with new pickup location. There may be eligible copies at the new location, but the hold targeter will not find them if you just change the pickup library. Editing the pickup location in the existing hold will not force Evergreen to re-target the eligible copies.
-
-Edit Hold Queue Position
-^^^^^^^^^^^^^^^^^^^^^^^^
-. Click *Actions -> Set Top of Queue* to move the selected hold to the top of the hold queue.
+image:images/circ/holds/retarget-hold-1.png[scaledwidth="75%"]
 +
-image:images/circ/manageholds5.png[scaledwidth="75%"]
-+
-. Click *Un-Set Top of Queue* to remove a hold from the top of the queue.
+. Click *Retarget*.
+. The hold is retargeted.  If there is an item available to fill the hold it will be assigned to the hold
+with the hold status of _Waiting for Capture_.  
+. Check in the item to capture the hold.
 
-TIP: If an item has already been assigned to the hold on top of the queue,  you need to suspend the old top hold, *Find Another Target* for the new top hold, then activate the old top hold.
 
-TIP: You can also edit hold position by clicking *Edit Hold Dates -> Hold Request Date*. For most libraries, holds are filled based on request time sequence. Changing request time will change the holds fulfillment sequence.
-
-Cancelled Holds
-^^^^^^^^^^^^^^^
-. Click *Recently Canceled Holds* tab on patron's *Holds* screen.
-. Select a hold and click *Actions -> Uncancel Hold* if needed.
-
-View Hold Details
+Hold Details View
 ^^^^^^^^^^^^^^^^^
-. Select the hold and click *Detail View*. Useful information about the hold is displayed.
-. Click *New Note* or *Staff Notifications* to add information as required.
 
-TIP: Notes can be printed on the hold slip if the *Print on Slip?* checkbox is selected.
+Additional information about a hold can be seen in the hold details view.
 
+On the _Holds_ tab in the patron's account or on the _Holds Shelf_ select the hold you wish to view and 
+click the *Detail View* button.
 
-Managing Holds in Title Records
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+image:images/circ/holds/hold-details-view-1.png[scaledwidth="75%"]
 
-. Retrieve and display the title record in the catalogue.
-. Click *View Holds* tab.
-. Select the hold and click *Actions* and follow steps as described above.
+On the _View Holds_ tab in the staff catalogue select 
+the hold you wish to view and go to *Actions -> Show Hold Details*.
+
+image:images/circ/holds/hold-details-view-2.png[scaledwidth="75%"]
+
+Useful information about the hold displays.
+
+image:images/circ/holds/hold-details-view-3.png[scaledwidth="75%"]
+
+Notes and Staff Notifications can be added to the hold record.
+
+. On the _Notes_ tab click *New Note*.
+. Enter the relevant information.
+** Notes that have _Patron Visible_ checked will appear in the patron's account in the public catalogue.
+** Notes that have _Print on Slip_ checked will print on the hold slip.
++
+image:images/circ/holds/hold-details-view-4.png[scaledwidth="75%"]
++
+. Click *Create Note*.
+. The note will display.
+
+. On the _Staff Notifications_ tab click *Add Record of Notification*.
+. Enter the information about the notification and click *Create*.
++
+image:images/circ/holds/hold-details-view-5.png[scaledwidth="75%"]
++
+. The record of notification will display.

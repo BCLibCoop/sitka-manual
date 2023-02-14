@@ -1,30 +1,88 @@
-Holds Shelf List and Clearing Shelf-Expired Holds
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Holds Shelf
+~~~~~~~~~~~
 (((Holds Shelf List)))
 (((Browse Holds Shelf)))
 (((Clear Shelf-Expired Holds)))
 
 link:https://www.youtube.com/watch?v=ZInjm5YdSWU[*Sitka Training Video - Holds Shelf (1:12)*]
 
-Items with *Ready for Pickup* status are on the *Holds Shelf* list. The function of the list is to help you manage items on the holds shelf, such as cancelling expired holds.
+Items that have been captured for a hold and are waiting to be picked up by the patron will
+display on your Hold Shelf.
 
-Hold shelf expire time is calculated according to your library's hold shelf time expire interval in the Library Settings Editor.
-
-
-Holds Shelf List
-^^^^^^^^^^^^^^^^
-. Select *Circulation -> Holds Shelf*.
-. The *Holds Shelf* list is displayed.
-. Select a hold, click *Actions*, and make appropriate selection.
-
-Clearable Holds
-^^^^^^^^^^^^^^^
-
-. Click *Show Clearable Holds* tab to list only expired or cancelled holds.
+. Go to *Circulation -> Holds Shelf*.
+. The holds shelf will display.
 +
-image:images/circ/holdsshelf1.png[scaledwidth="75%"]
+image:images/circ/holds/holds-shelf-1.png[scaledwidth="75%"]
 +
-. Click *Clear These Holds* tab to cancel the expired holds.
-. Print the list, bring the items down from the hold shelf, and check them in.
+. Holds on the hold shelf will have a xref:_hold_statuses[hold status]
+ of _Ready for Pickup_ or _Cancelled_ or _Wrong Shelf_.
 
-TIP: If you cancel a ready-for-pickup hold, you must check in the item to make it available for circulation or to trigger the next hold in line.
+Items remain on your hold shelf until they are checked out to the patron or cleared by library staff.
+
+See xref:_managing_holds[] for more information.
+
+////
+Managing Your Holds Shelf
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The following actions can be performed on holds:
+
+* Retrieve Patron
+* Edit Pickup Library - item status will update to Wrong Shelf
+* Edit Notification Settings - does this affect additional notices????
+* Edit Hold Dates - change the hold dates
+* Activate - no effect
+* Suspend - no effect
+* Set Top of Queue - no effect
+* Un-Set Top of Queue - no effect
+* Mark Item Damaged - doesn't do anything
+* Mark Item Discard/Weed - sets item to discard weed, hold goes back to waiting for item/capture
+* Mark Item Missing - sets item to missing, hold goes back to waiting for item/capture
+* Find Another Target
+* Cancel Hold - cancels the hold and sends notice if enables
+* Uncancel Hold - item must be checked back in to go back to the holds shelf
+////
+
+
+Clearing Holds
+^^^^^^^^^^^^^^
+
+There are two types of clearable holds:
+
+* _Cancelled Holds_ - holds that patrons or library staff have cancelled after they were already on the holds
+shelf.
+* _Expired Holds_ - holds have been on the holds shelf past your library's hold shelf expire interval.
+
+[NOTE]
+======
+Evergreen calculates a hold's expire time based on the value entered for the library setting 
+_Default hold shelf expire interval_.
+======
+
+To clear these holds:
+
+. On the holds shelf, click the *Show Clearable Holds* button.
++
+image:images/circ/holds/clear-holds-shelf-1.png[scaledwidth="75%"]
++
+. Only holds that have been cancelled or are expired will now display.
+. Click *Clear These Holds*.  This will cancel the expired holds.
++
+image:images/circ/holds/clear-holds-shelf-2.png[scaledwidth="75%"]
++
+. The *Post-Clear* column will indicate what will happen when the item is checked in.
++
+image:images/circ/holds/clear-holds-shelf-3.png[scaledwidth="75%"]
++
+. Pull all the cleared items from the holds shelf. 
+. Go to *Circulation -> Check In*.
+. Check in all the items.  The items will either go into reshelving or generate a hold notification
+if there is another patron on hold.
+
+[TIP]
+=====
+The *Print Full List* button will give you a list of the holds that needs to been
+pulled from the holds shelf for check in.
+
+image:images/circ/holds/clear-holds-shelf-4.png[scaledwidth="75%"]
+=====
