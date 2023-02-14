@@ -26,7 +26,7 @@ image:images/admin/hopeless-holds-1.png[scaledwidth="75%"]
 .. *xref:_transferring_title_holds[Transfer to Marked Title]* to move the hold to a record with holdable items.
 .. *xref:add_holdings[Add Holdings]* to add a new item to the record.  This can be temporary on order item 
 while your library waits for a replacement to arrive.
-.. *xref:_place_order[View/Place Orders]* to add a line item to a selection list or purchase order.  This will only work for 
+.. *http://docs.libraries.coop/acquisitions/_add_line_items.html#_place_orderView/Place Orders]* to add a line item to a selection list or purchase order.  This will only work for 
 libraries using the acquisitions module.
 
 [CAUTION]

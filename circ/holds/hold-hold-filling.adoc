@@ -2,7 +2,7 @@ Holds Filling Explained
 ~~~~~~~~~~~~~~~~~~~~~~~
 (((Holds Filling)))
 
-When library staff or patrons intiate a hold through the staff or public catalogue, Evergreen checks all 
+When library staff or patrons initiate a hold through the staff or public catalogue, Evergreen checks all 
 related library settings, hold policies, and holdings under the title, to decide whether or not
 the hold can be placed.
 

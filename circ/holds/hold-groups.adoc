@@ -95,7 +95,7 @@ image:images/circ/holds/hold-group-add-user-1.png[scaledwidth="75%"]
 . Select the patrons you would like to add to the group and Click *Actions* -> *Add to Hold Group* or use the 
 *Add All To Hold Group* to add all patrons at once.
 +
-image:images/circ/hold-group-add-user-2.png[scaledwidth="75%",alt="Actions Add to Hold Group"]
+image:images/circ/holds/hold-group-add-user-2.png[scaledwidth="75%"]
 +
 . The patrons will now appear on the _Current Users_ tab as part of the hold group.
 

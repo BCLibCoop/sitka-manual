@@ -46,8 +46,8 @@ image:images/circ/holds/modify-holds-pickup-library-1.png[scaledwidth="75%"]
 +
 . Select a valid pickup library: a library within your system or your interlibrary connect zone.
 . Click *Apply*.
-. If the item is already captured for a hold the hold status will be updated to _Wrong Shelf_ and needs
-to be checked in so it can transit to its new pickup library.
+. If the item is already captured for a hold the hold status will be updated to _Wrong Shelf_.
+The item needs to be checked in so it can transit to its new pickup library.
 
 OR
 
@@ -59,8 +59,8 @@ image:images/circ/holds/modify-holds-pickup-library-2.png[scaledwidth="75%"]
 +
 . Select a valid pickup library: a library within your system or your interlibrary connect zone.
 . Click *Submit*.
-. If the item is already captured for a hold the hold status will be updated to _Wrong Shelf_ and needs
-to be checked in so it can transit to its new pickup library.
+. If the item is already captured for a hold the hold status will be updated to _Wrong Shelf_ .
+The item needs to be checked in so it can transit to its new pickup library.
 
 Edit Notification Settings
 ++++++++++++++++++++++++++
