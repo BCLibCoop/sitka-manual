@@ -38,9 +38,9 @@ checks for eligible items once a day at approximately the time the hold was init
 The time is recorded in the hold request record in a field called *Previous Check Time*, which is 
 viewable when viewing holds.  If a potential target is found, it will be added to the hold target table. 
 
-While checking for eligible items to add to the table Evergreen is also retargetting the hold.  It does
+While checking for eligible items to add to the table Evergreen is also retargeting the hold.  It does
 this by removing the current target, checking the table, and picking another target, which may or may not
-be the originally targetted item.  
+be the originally targeted item.  
 
 When an item is checked in, Evergreen quickly goes through the eligible item table to see if the item
 can fill a hold and captures it if it can.
@@ -48,16 +48,16 @@ can fill a hold and captures it if it can.
 When an eligible item has the status of _Available_ or _Reshelving_ Evergreen will add it to the 
 library's pull list for hold requests. Though there may be multiple eligible items available, only 
 one item may be put on the pull list at a time. If a different item is checked in first Evergreen will
-opportunistically capture the hold and the item will disappear from the pull list.  Items will also disapear
+opportunistically capture the hold and the item will disappear from the pull list.  Items will also disappear
 from the pull list as Evergreen retargets holds daily and assigns new hold targets.
 
 When there are multiple eligible items available, Evergreen will first choose the pickup 
 library's copy, if available. Otherwise it will randomly pick up an item at another library, 
 unless the pickup library imposes special rules prioritizing a preferred hold target source.
 
-Newly catalogued items and items coming out of a non-holable status (such as _Lost_) are not automatically
+Newly catalogued items and items coming out of a non-holdable status (such as _Lost_) are not automatically
 added to the eligible item table.  These items will be added when Evergreen does its daily check but 
-libraries may prefer to force an earlier update of the table.  This is done by retargetting the hold.
+libraries may prefer to force an earlier update of the table.  This is done by retargeting the hold.
 
 
 Holds Queue and Filling Sequence
@@ -66,7 +66,7 @@ Holds Queue and Filling Sequence
 Holds are queued based on request time unless manually changed by library staff. 
 
 Separate holds queues are formed based on the potential target item range. For example, there is a 
-hold queue for item level holds and another for title level holds. If a hold is targetting your library's
+hold queue for item level holds and another for title level holds. If a hold is targeting your library's
 item for pick up at your library then other libraries' holds are not counted in the queue of holds.
 
 Item level holds have a simple queue, which includes all holds targeting the item. 
@@ -87,5 +87,5 @@ depth 2 holds.
 
 To view holds with a selection depth of 3 for your library simply filter the holds by pickup library, where the pickup
 library is your library. The queue is arranged based on request time.  As you view the queue you may notice
-that some queue number are missing.  This means there hold with a selection depth of 2 that is filling that
+that some queue numbers are missing.  This means there hold with a selection depth of 2 that is filling that
 hold queue position.  

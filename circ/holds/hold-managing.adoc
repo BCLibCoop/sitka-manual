@@ -3,7 +3,7 @@ Managing Holds
 (((Holds, Holds Management)))
 (((Holds, Holds Edit)))
 
-Libray staff can manage holds through the staff catalogue, the patron account, and in some cases, the
+Library staff can manage holds through the staff catalogue, the patron account, and in some cases, the
 holds shelf. Patrons can manage some aspects of their holds via xref:_items_on_hold[My Account] in the
 public catalogue.
 
@@ -150,7 +150,7 @@ suspend or activate the hold.
 +
 image:images/circ/holds/modify-holds-suspend-activate-1.png[scaledwidth="75%"]
 +
-. When suspending a hold you can add an _Activate Date_ so that the hold will automtically be activated 
+. When suspending a hold you can add an _Activate Date_ so that the hold will automatically be activated 
 after hours on the activation date; 
 otherwise, staff or the patron will need to manually activate the hold.
 . Click *Apply*.
@@ -165,7 +165,7 @@ image:images/circ/holds/modify-holds-suspend-activate-2.png[scaledwidth="75%"]
 +
 . The hold will be suspended or activated.
 . For suspended holds you can go to *Actions -> Edit Hold Dates* to add an activation date so the hold 
-will automtically be activated after hours 
+will automatically be activated after hours 
 on the activation date; otherwise, staff or the patron will need to manually activate the hold.
 
 [NOTE]
@@ -317,16 +317,16 @@ may not trigger holds on regular check in.  This is because Evergreen automatica
 items eligible to fill a particular hold every 24 hours.  Library staff can retarget holds which forces
 Evergreen to update the table of eligible items right away.  
 
-You can re-target local holds in two ways:
+You can retarget local holds in two ways:
 
 * on the check in screen, using the xref:_check_in_modifiers[checkin modifiers] _Retarget Local Holds_ 
 and _Retarget All Statuses_.
-* by manually re-targetting the hold from staff catalogue or patron account.
+* by manually retargetting the hold from staff catalogue or patron account.
 
 [TIP]
 =====
-Co-op Support recommends multi-branch libraries manually re-target holds through the staff catalogue
-or paton account in order to retarget all holds in the system. For single branch libraries, Co-op Support 
+Co-op Support recommends multi-branch libraries manually retarget holds through the staff catalogue
+or patron account in order to retarget all holds in the system. For single branch libraries, Co-op Support 
 recommends using the retarget related checkin modifiers at check in.
 =====
 
