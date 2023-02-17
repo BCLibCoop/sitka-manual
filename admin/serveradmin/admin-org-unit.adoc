@@ -84,7 +84,7 @@ Evergreen uses different addresses for different functions.
 =========
 The value in the _State_ (Province) field on the _Mailing Address_ subtab MUST be set to BC for BC libraries, MB for Manitoba 
 libraries, and ON for Ontario libraries.  This field is used to generate the URL in email notifications
-to take patrons to My Account in your public catalogue>  If the province is not entered correctly
+to take patrons to My Account in your public catalogue. If the province is not entered correctly
 the links sent to your patrons in your email notifications will not work.
 
 image::images/admin/org-unit-5.png[scaledwidth="75%",alt="Library Addresses"]
