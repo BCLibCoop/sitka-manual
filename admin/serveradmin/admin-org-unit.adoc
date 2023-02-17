@@ -1,7 +1,7 @@
 Organizational Units
 ~~~~~~~~~~~~~~~~~~~~
 
-Anyone with access to the staff client may view these settings, but only a staff with 
+Anyone with access to the staff client may view these settings, but only staff with 
 a local system administrator account can make changes for their library.
 
 . Go to *Administration -> Server Administration -> Organizational Units*.
@@ -21,7 +21,7 @@ Local system administrators can add or update the library's main contact informa
 _Main Settings_ tab for their library.  Multi-branch libraries can enter information at the system level
 and/or the branch level.
 
-. Enter or update the information in the _Phone Number_ and/or _Email Address_ fields
+. Enter or update the information in the _Phone Number_ and/or _Email Address_ fields.
 +
 image::images/admin/org-unit-2.png[scaledwidth="75%",alt="Library Main Settings"]
 +
@@ -41,11 +41,11 @@ the xref:closed-date-editor[].
 
 . Enter the open and closed times you would like.  Click *Closed* for any days where you are closed for
 the entire day.
+. Click *Apply Changes*. 
 +
 image::images/admin/org-unit-3.png[scaledwidth="75%",alt="Library Hours of Operation"]
 +
-. Click *Apply Changes*. 
-. Evergreen will use this information in when calculating due dates, overdue fines, and whether or not
+. Evergreen will use this information when calculating due dates, overdue fines, and whether or not
 to target an item for a hold.  This information will also display in your public catalogue.
 
 [NOTE]
@@ -69,9 +69,7 @@ Library Addresses
 Local system administrators can add or update the library's addresses on the _Addresses_ tab. Multi-branch 
 libraries should enter information at the branch level.
 
-Evergreen Addresses set in Organizational Units appear in patron 
-
-. Enter or update the information on applicable subtab on the _Addresses_ tab.
+. Enter or update the information on the applicable subtabs on the _Addresses_ tab.
 . Ensure _Is Valid?_ is checked for all valid addresses.
 . Click *Save*.
 +
@@ -80,13 +78,14 @@ image::images/admin/org-unit-4.png[scaledwidth="75%",alt="Library Addresses"]
 . Repeat for additional subtabs.
 . Evergreen will use this information on hold slips, hold transit slips, in notifications sent to patrons,
 and in your public catalogue.  Libraries should ensure information is entered for all four address types as
-Evergreen uses different addresses in some places.
+Evergreen uses different addresses for different functions.
 
 [CAUTION]
 =========
 The value in the _State_ (Province) field on the _Mailing Address_ subtab MUST be set to BC for BC libraries, MB for Manitoba 
-libraries, and ON for Ontario libraries.  This fiels is used to generate the URLs to My Account link 
-in email notices and the links will not be generated properly if the province is not entered correctly.
+libraries, and ON for Ontario libraries.  This field is used to generate the URL in email notifications
+to take patrons to My Account in your public catalogue>  If the province is not entered correctly
+the links sent to your patrons in your email notifications will not work.
 
 image::images/admin/org-unit-5.png[scaledwidth="75%",alt="Library Addresses"]
 
