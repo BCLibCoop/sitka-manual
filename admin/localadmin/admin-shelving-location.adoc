@@ -69,7 +69,7 @@ location name doesn't match between Evergreen and the $l in the templates your M
 Deleting a Shelving Location
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Shelving location containing non-deleted items cannot be deleted in Evergreen.  Co-op Support recommends 
+Shelving locations containing non-deleted items cannot be deleted in Evergreen.  Co-op Support recommends 
 running a report using the Sitka report template 
 _Shelving Location : Copies with Selected Shelving Location_ to check for non-deleted item 
 before attempting to delete a shelving location.
