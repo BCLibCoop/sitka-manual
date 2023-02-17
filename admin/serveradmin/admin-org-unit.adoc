@@ -45,8 +45,8 @@ the entire day.
 +
 image::images/admin/org-unit-3.png[scaledwidth="75%",alt="Library Hours of Operation"]
 +
-. Evergreen will use this information when calculating due dates, overdue fines, and whether or not
-to target an item for a hold.  This information will also display in your public catalogue.
+. Evergreen will use this information when calculating due dates, overdue fines, and for hold targeting.
+  This information will also display in your public catalogue.
 
 [NOTE]
 ======
