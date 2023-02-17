@@ -29,12 +29,13 @@ while your library waits for a replacement to arrive.
 .. *http://docs.libraries.coop/acquisitions/_add_line_items.html#_place_order[View/Place Orders]* to add a line item to a selection list or purchase order.  This will only work for 
 libraries using the acquisitions module.
 
-[CAUTION]
-=========
-If you are a BC public library, make sure you have _Requesting Library_ as a column.
+[NOTE]
+======
+The Hopeless Holds interface displays holds where your library is the pickup library.  Multi-branch libraries
+may wish to adjust the scope to see their whole system.
 
-If you are cancelling the hold and the requesting library is not your library this means a BC One Card 
-patron has chosen to pick up their hold up at your library.  Your library had the last 
-item that could have filled the hold so in this case you need to contact the patron or their home library 
-to let them know the hold will not be filled.
-=========
+Libraries participating in interlibrary connect may see holds on your
+hopeless holds list for titles you've never had in your collection.  These are interlibrary connect
+holds that can no longer be filled by any other library in your zone.  Libraries can decide whether to
+purchase the title, try to fill the hold via your external provincial ILL system , or simply cancel the hold.
+======
