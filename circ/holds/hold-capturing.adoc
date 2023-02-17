@@ -45,7 +45,7 @@ personal information that is printed.
 
 A patron's contact information on the hold slip may differ from what is in their patron account.  Patrons have 
 the option to enter different notification information when placing a hold.  Evergreen will use the 
-information saved in the hold record when notifiying patrons.
+information saved in the hold record when notifying patrons.
 ======
 
 

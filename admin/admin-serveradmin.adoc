@@ -2,7 +2,7 @@ Server Administration
 ---------------------
 
 Most options under the Server Administration menu are global Sitka settings that cannot be changed locally.
-The exception inlcudes the call number prefix/suffix, and the  Organizational Units submenu, which allows
+The exception includes the call number prefix/suffix, and the  Organizational Units submenu, which allows
 Local System Administrators to edit library contact information, hours of operation, and addresses.
 
 There is some view-only information that is useful under Server Administration, in particular the list
