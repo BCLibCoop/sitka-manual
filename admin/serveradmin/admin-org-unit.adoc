@@ -1,71 +1,97 @@
 Organizational Units
 ~~~~~~~~~~~~~~~~~~~~
 
-Anyone with access to the staff client may view these settings, but only a Local System Administrator login 
-can edit some parts.
+Anyone with access to the staff client may view these settings, but only a staff with 
+a local system administrator account can make changes for their library.
+
+. Go to *Administration -> Server Administration -> Organizational Units*.
+. Find your library in the tree on the left side of the screen.  You may need to expand the arrows.
+. Click on your library name to open the settings for your library. Multi-branch library systems will see an entry for each branch.
++
+image::images/admin/org-unit-1.png[scaledwidth="75%",alt="Library Main Settings"]
++
+. Click on the relevant tab to update your xref:_library_main_settings[main settings], 
+xref:operation-hour[hours of operation], and xref:_library_addresses[addresses].
+
 
 Library Main Settings
 ^^^^^^^^^^^^^^^^^^^^^^
 
-. Go to *Administration -> Server Administration -> Organizational Units*.
-. Find your library from the tree on the left side of the page and click it to open settings. Multi-branch library systems will see an entry for each branch.
+Local system administrators can add or update the library's main contact information on the 
+_Main Settings_ tab for their library.  Multi-branch libraries can enter information at the system level
+and/or the branch level.
+
+. Enter or update the information in the _Phone Number_ and/or _Email Address_ fields
 +
-image::images/admin/org-unit-1.png[scaledwidth="75%",alt="Library Main Settings"]
+image::images/admin/org-unit-2.png[scaledwidth="75%",alt="Library Main Settings"]
 +
-. The *Main Settings* tab opens displaying settings for your library. Only Main Email Address and Main Phone Number should be edited, please leave all other settings at their default values.
-. Click *Save* to record changes.
+. Click *Save*.
+. Evergreen will use this information in notifications that go out to patrons as well as in your public 
+catalogue.
 
 [[operation-hour]]
 Library Hours of Operation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Local System Administrators can use the Organizational Units interface to set the library's hours 
-of operation. These are regular weekly hours; holiday and other closures are recorded in 
+Local system administrators can add or update the library's hours of operation on the _Hours of Operation_
+tab. Multi-branch libraries should enter information at the branch level.
+
+These are the library's regular weekly hours; holidays and other closures are recorded in 
 the xref:closed-date-editor[].
 
+. Enter the open and closed times you would like.  Click *Closed* for any days where you are closed for
+the entire day.
++
+image::images/admin/org-unit-3.png[scaledwidth="75%",alt="Library Hours of Operation"]
++
+. Click *Apply Changes*. 
+. Evergreen will use this information in when calculating due dates, overdue fines, and whether or not
+to target an item for a hold.  This information will also display in your public catalogue.
+
 [NOTE]
-=====
-Hours of operation and closed dates affect due dates, overdue fines and holds targeting.
+======
+Hours of operation and xref:closed-date-editor[closed dates] affect due dates, overdue fines, and hold 
+targeting.
 
 * Due dates: Due dates that would fall on closed days are automatically pushed forward to the next open day.
 
-* Overdue fines: Overdue fines are not charged on days when the library is closed.
+* Overdue fines: Overdue fines are not charged on days when the library is closed unless the library
+setting _Charge fines on overdue circulations when closed_ is set to TRUE.
 
-* Hold Targeting: By default items at a closed library are not targeted for holds. This means that available items that patrons have placed holds on will not appear on the Holds Pull List until the next open day. If you wish items to be targeted when the library is closed to the public, perhaps staff are still working and would like to pull items for holds, you can use the library settings *Target copies for a hold even if copy's circ lib is closed* and *Target copies for a hold even if copy's circ lib is closed IF the circ lib is the hold's pickup lib* to override the default behaviour.
-=====
-
-. To review or edit your library's hours of operation, open the Organizational Units interface. Click the 
-*Hours of Operation* tab. 
-. Review your library's weekly hours, edit if necessary. 
-.. To set a day as closed, click the corresponding *Closed* button.  Closed days (Sunday in the example below) 
-have open and close times of 12:00 AM to 12:00 AM. 
-. Click *Save* to record any changes
-
-image::images/admin/org-unit-2.png[scaledwidth="75%",alt="Library Hours of Operation"]
+* Hold Targeting: Items at a closed library will not be targeted for holds unless the library setting
+_Target copies for a hold even if copy's circ lib is closed_ or _Target copies for a hold even if 
+copy's circ lib is closed IF the circ lib is the hold's pickup lib_ is set to TRUE.  
+======
 
 Library Addresses
 ^^^^^^^^^^^^^^^^^
 
-Addresses set in Organizational Units appear in patron email notifications, hold slips, and transit slips. 
-Local System Adminstrators should ensure that the Mailing, Holds, Physical, and ILL addresses 
-are set correctly.
+Local system administrators can add or update the library's addresses on the _Addresses_ tab. Multi-branch 
+libraries should enter information at the branch level.
 
-. Open the Organizational Units interface. Click the *Addresses* tab.
+Evergreen Addresses set in Organizational Units appear in patron 
 
-. There are four address tabs: Mailing, Holds, Physical, and ILL. Co-op support recommends setting all four. 
-* The Holds Address appears on hold transit slips when items are sent to fulfill holds at another branch. 
-* The Mailing address is used in notices.
+. Enter or update the information on applicable subtab on the _Addresses_ tab.
+. Ensure _Is Valid?_ is checked for all valid addresses.
+. Click *Save*.
 +
-image::images/admin/org-unit-2.png[scaledwidth="75%",alt="Library Addresses"]
+image::images/admin/org-unit-4.png[scaledwidth="75%",alt="Library Addresses"]
 +
-. Click *Save* to record changes for each tab.
+. Repeat for additional subtabs.
+. Evergreen will use this information on hold slips, hold transit slips, in notifications sent to patrons,
+and in your public catalogue.  Libraries should ensure information is entered for all four address types as
+Evergreen uses different addresses in some places.
 
-CAUTION: The value in *State* (Province) field in Mailing address is used to generate the 
-URLs to My Account link in email notices. To ensure correct URLs, please always use BC for BC libraries, MB for Manitoba 
-libraries, and ON for Ontario libraries.
+[CAUTION]
+=========
+The value in the _State_ (Province) field on the _Mailing Address_ subtab MUST be set to BC for BC libraries, MB for Manitoba 
+libraries, and ON for Ontario libraries.  This fiels is used to generate the URLs to My Account link 
+in email notices and the links will not be generated properly if the province is not entered correctly.
 
-[NOTE]
-=====
-The Valid checkbox is an optional setting that does not affect current Evergreen functions, 
-but the Co-op Support recommends checking it for all correct addresses.
-=====
+image::images/admin/org-unit-5.png[scaledwidth="75%",alt="Library Addresses"]
+
+=========
+
+
+
+
