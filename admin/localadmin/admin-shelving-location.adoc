@@ -69,11 +69,10 @@ location name doesn't match between Evergreen and the $l in the templates your M
 Deleting a Shelving Location
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-When deleting shelving locations it is important to make sure all non-deleted items have been moved to 
-another shelving location first; items in deleted shelving locations still display in the 
-public catalogue and will partially display in the staff catalogue.  Co-op Support recommends 
+Shelving location containing non-deleted items cannot be deleted in Evergreen.  Co-op Support recommends 
 running a report using the Sitka report template 
-_Shelving Location : Copies with Selected Shelving Location_ before deleting a shelving location.
+_Shelving Location : Copies with Selected Shelving Location_ to check for non-deleted item 
+before attempting to delete a shelving location.
 
 . Select the shelving location you wish to delete.
 . From the *Actions* menu selected *Delete Selected*.
@@ -91,8 +90,6 @@ Because deleted shelving locations also display in the reporter Co-op Support re
 deleted shelving locations to start with Z.  Deleted shelving locations
 will then sort alphabetically to the bottom of the list and it is very evident when running reports 
 that filter on shelving location which shelving locations in the list are deleted.
-
-
 ======
 
 
