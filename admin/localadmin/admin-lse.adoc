@@ -487,7 +487,10 @@ is now set in the xref:_holdings_editor_preferences[Holdings Editor Preferences]
 
 |Default estimated wait|When predicting the amount of time a patron will be waiting for a hold to be fulfilled, this is the default estimated length of time to assume an item will be checked out.|Duration|Not in use | Sitka
 
-|Default hold shelf expire interval|Hold Shelf Expiry Time is calculated and inserted into hold record based on this interval when capturing a hold.|Duration| | LSA
+|Default hold shelf expire interval|Hold Shelf Expiry Time is calculated and inserted into hold record based
+ on this interval when capturing a hold.|Duration| If there is no value for this setting holds will not
+ have a Hold Shelf Expiry Time and so will not
+expire. | LSA
 
 |Expire alert interval|Time before a hold expires at which to send an email notifying the patron|Duration|Not in use | Sitka
 |Expire interval|Amount of time until an unfulfilled hold expires|Duration| | LSA

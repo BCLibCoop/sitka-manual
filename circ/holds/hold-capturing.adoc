@@ -33,7 +33,7 @@ image:images/circ/holds-capture-1.png[]
 [CAUTION]
 =========
 Do NOT check out the item to the patron until after the notification processing delay has
-past or Evergreen will NOT send the automatic notification.  For information on hold notification
+passed or Evergreen will NOT send the automatic notification.  For information on hold notification
 processing delays see xref:_hold_ready_for_pickup[].
 =========
 . The item is placed on the library's xref:_holds_shelf[hold shelf].
