@@ -3,9 +3,8 @@ Sitka's Patron Deletion Tool
 ----------------------------
 
 The patron deletion tool developed by the Sitka team allows local system administrators to delete 
-inactive cards and patron accounts while retaining statistics. This is done outside of patron accounts, 
-and a small batch of barcodes/accounts can be deleted at once. The table below describes a few scenarios 
-where this tool may be used.
+inactive cards and patron accounts while retaining statistics. This done through the 
+Patron Deletion Tool.
 
 Staff can only delete cards and accounts for patrons whose home library is their library 
 or one of their branches. The home library may need to be updated.
@@ -18,6 +17,17 @@ or one of their branches. The home library may need to be updated.
 | An active patron has more than one account	| Merge the accounts. Choose the card number that you 
 want to keep as the lead record. See xref:_merging_patron_accounts[Merging Patron Accounts].
 |====
+
+[CAUTION]
+=========
+Evergreen checks against all patrons (un-deleted and deleted) to determine whether a 
+username is available to be used.
+
+If the patron has not changed the username it will match their barcode.
+
+If there is any possibility that the username or barcode will be needed in the future staff 
+should prefix the username on the current account with DELETED.
+=========
 
 Accessing the Patron Deletion Tool
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -109,3 +119,12 @@ image:images/admin/patron-delete-3.png[]
 Deleted patron accounts remain in the Evergreen database for reporting purposes but are no longer accessible 
 from the staff client.
 ======
+
+Undeleting Patron Accounts
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Patron account CANNOT be deleted through the Evergreen staff client.  Library staff
+should always double check to ensure they are deleting the correct accounts.
+
+Please contact Co-op Support if an account has been accidentally deleted.  You MUST 
+include the account username.
