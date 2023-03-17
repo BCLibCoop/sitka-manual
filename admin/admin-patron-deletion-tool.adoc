@@ -2,12 +2,12 @@
 Sitka's Patron Deletion Tool
 ----------------------------
 
-The patron deletion tool developed by the Sitka team allows local system administrators to delete 
-inactive cards and patron accounts while retaining statistics. This done through the 
-Patron Deletion Tool.
+The Patron Deletion Tool developed by the Sitka team allows local system administrators to delete 
+inactive cards and patron accounts while retaining statistics. 
 
 Staff can only delete cards and accounts for patrons whose home library is their library 
-or one of their branches. The home library may need to be updated.
+or one of their branches. In some cases staff nat need to update a patron's home library
+in order for an account to be deleted.
 
 [option="header"]
 |====
@@ -26,7 +26,7 @@ username is available to be used.
 If the patron has not changed the username it will match their barcode.
 
 If there is any possibility that the username or barcode will be needed in the future staff 
-should prefix the username on the current account with DELETED.
+should prefix the username on the current account with DELETED before deleting the account.
 =========
 
 Accessing the Patron Deletion Tool
@@ -95,13 +95,6 @@ The deletion tool will flag any accounts with the following:
 * Unpaid bills - bills are voided if the account is deleted
 * Open circulations - account cannot be deleted until open circulations are resolved by staff
 * Active holds - account cannot be deleted until holds are cancelled by staff
-
-
-Evergreen will not allow accounts with open circulation or active holds to be deleted.  Staff
-must resolve those through the account first.
-
-Evergreen will delete accounts with unpaid bills
-.  Accounts with unpaid bills are flagged but may still be deleted; 
 ======
 +
 . Confirm which patron accounts you'd like to delete and click 
@@ -123,8 +116,8 @@ from the staff client.
 Undeleting Patron Accounts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Patron account CANNOT be deleted through the Evergreen staff client.  Library staff
+Patron accounts CANNOT be undeleted through the Evergreen staff client.  Library staff
 should always double check to ensure they are deleting the correct accounts.
 
-Please contact Co-op Support if an account has been accidentally deleted.  You MUST 
-include the account username.
+Please contact https://bc.libraries.coop/support/[Co-op Support] if an account has been 
+accidentally deleted.  You must include the account username in your ticket.
