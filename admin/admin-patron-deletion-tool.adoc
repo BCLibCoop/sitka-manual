@@ -6,7 +6,7 @@ The Patron Deletion Tool developed by the Sitka team allows local system adminis
 inactive cards and patron accounts while retaining statistics. 
 
 Staff can only delete cards and accounts for patrons whose home library is their library 
-or one of their branches. In some cases staff nat need to update a patron's home library
+or one of their branches. In some cases staff may need to update a patron's home library
 in order for an account to be deleted.
 
 [option="header"]
