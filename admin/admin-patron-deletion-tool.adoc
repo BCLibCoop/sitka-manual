@@ -7,7 +7,8 @@ inactive cards and patron accounts while retaining statistics. This is done outs
 and a small batch of barcodes/accounts can be deleted at once. The table below describes a few scenarios 
 where this tool may be used.
 
-Staff can only delete cards and accounts for patrons whose home library is their library or one of their branches. The home library may need to be updated.
+Staff can only delete cards and accounts for patrons whose home library is their library 
+or one of their branches. The home library may need to be updated.
 
 [option="header"]
 |====
@@ -75,7 +76,25 @@ Deleting Patron Accounts
 +
 image:images/admin/patron-delete-1.png[]
 +
-. The confirmation page will appear.  Confirm which patron accounts you'd like to delete and click 
+. The confirmation page will appear.
++
+[NOTE]
+======
+The deletion tool will flag any accounts with the following:
+
+* Unpaid bills - bills are voided if the account is deleted
+* Open circulations - account cannot be deleted until open circulations are resolved by staff
+* Active holds - account cannot be deleted until holds are cancelled by staff
+
+
+Evergreen will not allow accounts with open circulation or active holds to be deleted.  Staff
+must resolve those through the account first.
+
+Evergreen will delete accounts with unpaid bills
+.  Accounts with unpaid bills are flagged but may still be deleted; 
+======
++
+. Confirm which patron accounts you'd like to delete and click 
 *Delete Checked Patrons*.
 +
 image:images/admin/patron-delete-2.png[]
@@ -84,14 +103,9 @@ image:images/admin/patron-delete-2.png[]
 +
 image:images/admin/patron-delete-3.png[]
 
+
 [NOTE]
 ======
 Deleted patron accounts remain in the Evergreen database for reporting purposes but are no longer accessible 
-from the staff client. The deletion tool checks the following before deleting any account:
-
-*Open circulations*.  Accounts with items checked out cannot be deleted
-
-*Active holds*.  Accounts with active holds cannot be deleted
-
-*Bills*.  Accounts with unpaid bills are flagged but may still be deleted; if deleted the bills are voided
+from the staff client.
 ======
