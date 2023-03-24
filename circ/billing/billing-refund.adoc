@@ -32,7 +32,7 @@ image:images/circ/billing-refund-3.png[scaledwidth="75%"]
 +
 . Enter 1 in the *Payment Received* box.  (There is currently a bug preventing the "Apply Payment" button 
 from being used without a positive number in this box.  The $1.00 payment won't actually be applied.)
-. Click Apply Payment.
+. Click *Apply Payment*.
 +
 image:images/circ/billing-refund-4.png[scaledwidth="75%"]
 +

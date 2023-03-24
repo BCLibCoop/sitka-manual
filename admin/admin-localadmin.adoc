@@ -4,6 +4,8 @@ include::localadmin/admin-local-overview.adoc[]
 
 include::localadmin/admin-age-overdue-to-lost.adoc[]
 
+include::localadmin/admin-carousels.adoc[]
+
 include::localadmin/admin-cash-report.adoc[]
 
 include::localadmin/admin-circ-policy.adoc[]

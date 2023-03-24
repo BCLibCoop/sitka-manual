@@ -1,0 +1,25 @@
+Report Definition Examples
+--------------------------
+
+Monthly Circulation Stats
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Monthly Circulation by Shelving Location (New 3.1)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Set up as a monthly recurring report.
+
+image::images/report/appendix/monthly-circ-by-shelving-location.png[]
+
+
+. Enter a name that doesn't include a specific date as this report will run every month.
+. Choose *Relative Date* and add *1 Month(s) ago*.
+. Add your library.
+. Check the box for Recurring Report.
+.. Set the *Recurrence Interval* to 1 Month(s).
+.. Check the box beside the date and set the date to the first of the next month.  Set the
+time to between 1:00am PT and 4:00am PT.
+
+Monthly Circulation by Circulation modifier (New 3.1)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
