@@ -107,7 +107,7 @@ and format the print.
 ... The setting _Item Print Label - Inline CSS_ allows you to add CSS into the template to further adjust 
 where your text displays on your labels.  For example, this centers the text and adds padding to the 
 top of the label. 
-
++
 [source,css]
 ----
 .spine {text-align:center; padding-top: 20px;}
@@ -119,7 +119,7 @@ image::images/cat/spine-label-9.png[]
 
 [TIP]
 =====
-You may also need to configure your Chrome printing settings to remove the default margin.
+You may also need to configure your Chrome printing settings to set the margins to _None_.
 
 image::images/cat/print-item-labels-chrome-1.png[]
 =====
