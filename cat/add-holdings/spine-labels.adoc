@@ -112,13 +112,21 @@ top of the label.
 ----
 .spine {text-align:center; padding-top: 20px;}
 ----
-
++
 image::images/cat/spine-label-9.png[]
-
++
 . *Label Template* includes the script used to do the printing job. The top portion is the explanation. The lower portion is the code for printing. Changes in Settings will be reflected in the code. You do not edit the code directly.
 
+[TIP]
+=====
+You may also need to configure your Chrome printing settings to remove the default margin.
 
-*Label Printing Template*
+image::images/cat/print-item-labels-chrome-1.png[]
+=====
+
+
+Label Printing Template
++++++++++++++++++++++++
 
 You can save your adjustments on label printing settings to a label printing template. For example, if you usually print spine labels only, but sometimes print both spine and  pocket label, you can create two templates: one for spine label only, the other for both labels. When printing the labels, you just need to choose the appropriate template from the list, then click *Apply*.
 
