@@ -2,7 +2,11 @@
 Maintaining Bibliographic Records
 ---------------------------------
 
-The appropriate title information displayed on the OPAC relies on correct MARC coding. For example,
+The searchability of the staff and public catalogues relies on information being entered
+and coded correctly in the MARC records. 
+
+
+For example,
 format icons for text, moving pictures, and sound, rely on  MARC coding in the leader, 007, and 008 tags,
 as do OPAC search filters, such as publication date, item type, or target audience. Bibliographic record
 matching and de-duplicating also relies on correct MARC coding and consistency in use of, and contents in,
@@ -16,9 +20,15 @@ the position of the tags, indicators, and spacing required to preserve the recor
 
 include::edit-marc/edit-marc.adoc[Editing MARC Records]
 
+
+include::edit-marc/edit-leader-control-fields.adoc[Editing the Leader and Control Fields]
+
+////
 include::edit-marc/edit-leader.adoc[Editing MARC Record Leader and Fixed Fields]
 
 include::edit-marc/edit-007.adoc[MARC 007 Field Physical Characteristics Wizard]
+////
+
 
 include::edit-marc/search-filter.adoc[Search Filters and Format Icons]
 
