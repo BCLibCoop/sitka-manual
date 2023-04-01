@@ -18,42 +18,39 @@ Format Filter Groups and Format Icons are configured at the Sitka level.
 Search Filters
 ^^^^^^^^^^^^^^
 
-*Languages* - relies on characters 35-37 of the 008 field.
-*Audience* - relies on character 22 of the 008 field (for the relevant material configurations).
-*Literary Forms* - relies on character 33 of the 008 field (only applicable to books).
-*Shelving Location* - will display a list of the search library's shelving locations
-*Publication Date* - relies on characters 07-10 of the 008 field.
-*Formats* - relies on the characters shows in the table below.
-
-The format filter is used by the catalogue to allow staff and patrons to limit their search by material
-format. The following table shows the fixed fields associated with each format filter value.
-
+* *Languages* - relies on characters 35-37 of the 008 field.
+* *Audience* - relies on character 22 of the 008 field (for the relevant material configurations).
+* *Literary Forms* - relies on character 33 of the 008 field (only applicable to books).
+* *Shelving Location* - will display a list of the search library's shelving locations
+* *Publication Date* - relies on characters 07-10 of the 008 field.
+* *Formats* - relies on the characters shows in the table below.
 
 [options="header"]
 |===
-| Label | Fixed Fields
+| Search Filter Label | Leader and Control Field Values
 | All Audiobooks | Type = i
-| All Books |Type = a or t AND bib_level(a,c,d,m) but NOT Form = a, b, c, or f)
+| All Books |Type = a or t *AND* Bib Level = a, c, d, or m *but NOT* Form = a, b, c, or f
 | All Electronic Resources | Form = o or s
 | All Videos | Type = g
-| Audiobooks (electronic) | Type = i AND Form = o or s
-| Audiobooks (physical) | Type = i AND sr_formt(l,f)
-| Books (electronic) | Type = a or t AND bib_level(a,c,d,m) AND Form = o, q, or s
-| Books (large print) |Type = a or t AND bib_level(a,c,d,m) AND Form = d
-| Books (physical) | Type = a or t AND bib_level(a,c,d,m) and NOT Form = a, b, c, f, o, q, or s
-| Braille | Type = a AND Form = f
+| Audiobooks (electronic) | Type = i *AND* Form = o or s
+| Audiobooks (physical) | Type = i *AND* Speed = l or f
+| Books (electronic) | Type = a or t *AND* Bib Level = a, c, d, or m *AND* Form = o, q, or s
+| Books (large print) | Type = a or t *AND* Bib Level = a, c, d, or m *AND* Form = d
+| Books (physical) | Type = a or t *AND* Bib Level = a, c, d, or m *but NOT* Form = 
+a, b, c, f, o, q, or s
+| Braille | Type = a *AND* Form = f
 | Kits and Mixed Materials | Type = o, p, or k
 | Maps | Type = e or f
 | Music (CD, cassette) | Type = j
 | Music Scores | Type = c or d
 | Pictures | Type = k
-| Preloaded Audio | Type = i AND Form = q
-| Serials and Magazines | bib_level(b,s)
-| Serials and Magazines (electronic) | bib_level(s) AND Form = q, o, or s
+| Preloaded Audio | Type = i *AND* Form = q
+| Serials and Magazines | Bib Level = b or s
+| Serials and Magazines (electronic) | Bib Level = s *AND* Form = q, o, or s
 | Software and Video Games | Type = m
-| Toys, Puzzles and Equipment | item_type(r)
-| Videos (electronic) | Type = g AND item_form (o,q,s)
-| Videos (physical) | Type = g AND NOT item_form (o,q,s)
+| Toys, Puzzles and Equipment | Type = r
+| Videos (electronic) | Type = g *AND* Form = o, q, or s
+| Videos (physical) | Type = g *but NOT* Form = o, q, or s
 |===
 
 Format Icons
@@ -64,34 +61,36 @@ shows the fixed fields associated with each format icon.
 
 [options="header"]
 |===
-| Label | Fixed Fields
-| Video (shown if format, eg. vhs, dvd, is unknown) | item_type(g) and NOT vr_format(v,s,b)
-| E-video | item_type(g) and item_form(o, s, q)
-| DVD | vr_format(v)
-| VHS | vr_format(b)
-| Blu-ray | vr_format(s)
-| Audiobook (shown if format, eg. cassette, disc, is unknown) | item_type(i) and NOT item_form(o,q,s) and NOT sr_format(a,b,c,d,e,l,f)
-| E-audiobook | item_type(i) and item_form(o,s)
-| CD Audiobook | item_type(i) and sr_format(f)
-| Cassette audiobook | item_type(i) and sr_format(l)
-| Phonograph audiobook | item_type(i) and sr_format(a,b,c,d,e)
-| Book | item_type(a,t) AND bib_level(a,c,d,m) and NOT item_form (a,b,c,d,f,o,q,r,s)
-| E-Book | item_type(a,t) AND bib_level(a,c,d,m) AND item_form (o,q,s)
-| Large print book | item_type(a,t) AND bib_level(a,c,d,m) AND item_form(d)
-| Braille | item_type(a) AND item_form(f)
-| Kit or mixed material | item_type(o,p)
-| Map | item_type(e,f)
-| Music (shown if format, eg. cassette, disc, is unknown) | item_type(j) and NOT sr_format(a,b,c,d,e,f,l)
-| Phonograph music | item_type(j) AND sr_format(a,b,c,d,e)
-| CD music | item_type(j) AND sr_format(f)
-| Cassette music | item_type(j) AND sr_format(l)
-| Music score | item_type(c,d)
-| Preloaded Audio | item_type(i) AND item_form(q)
-| Picture | item_type(k)
-| Serial or magazine | bib_level(b,s) and NOT item_form (o, s, q)
-| E-Serial or magazine | bib_level(b,s) AND item_form (o, s, q)
-| Software or video game | item_type(m)
-| Online | bib_level(i) AND item_form (o, s, q)
-| Toys, puzzles or equipment | item_type(r)
-| Microform | item_form(a,b,c)
+| Format Icon Label | Leader and Control Field Values
+| Video (shown if format, eg. vhs, dvd, is unknown) | Type = g *but NOT* Video Format = v, s, or b
+| E-video | Type = g *AND* Form = o, s, or q
+| DVD | Video Format = v
+| VHS | Video Format = b
+| Blu-ray | Video Format = s
+| Audiobook (shown if format, eg. cassette, disc, is unknown) | Type = i *but NOT* 
+Form = o, q, or s *and NOT* Speed = a, b, c, d, e, l, or f
+| E-audiobook | Type = i *AND* Form = o or s
+| CD Audiobook | Type = i *AND* Speed = f
+| Cassette audiobook | Type = i *AND* Speed = l
+| Phonograph audiobook | Type = i *AND* Speed = a, b, c, d, or e
+| Book | Type = a or t *AND* Bib Level = a, c, d, or m *but NOT* Form = a, b, c, d, f, o, q, r, or s
+| E-Book | Type = a or t *AND* Bib Level = a, c, d, or m *AND* Form = o, q, or s
+| Large print book | Type = a or t *AND* Bib Level = a, c, d, or m *AND* Form = d
+| Braille | Type = a *AND* Form = f
+| Kit or mixed material | Type = o or p
+| Map | Type = e or f
+| Music (shown if format, eg. cassette, disc, is unknown) | Type = j *but NOT* Speed = 
+a, b, c, d, e, f, or l
+| Phonograph music | Type = j *AND* Speed = a, b, c, d, or e
+| CD music | Type = j *AND* Speed = f
+| Cassette music | Type = j *AND* Speed = l
+| Music score | Type = c or d
+| Preloaded Audio | Type = i *AND* Form = q
+| Picture | Type = k
+| Serial or magazine | Bib Level = b or s *but NOT* Form = o, s, or q
+| E-Serial or magazine | Bib Level = b or s *AND* Form = o, s, or q
+| Software or video game | Type = m
+| Online | Bib Level = i *AND* Form = o, s, or q
+| Toys, puzzles or equipment | Type = r
+| Microform | Form = a, b, or c
 |===
