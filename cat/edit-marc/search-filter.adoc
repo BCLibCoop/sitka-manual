@@ -7,7 +7,8 @@ so that the correct format icons display and expected records are included in
 search results.  See xref:_editing_the_leader_and_control_fields[] for instructions on 
 editing these fields.
 
-Format Filter Groups and Format Icons are configured at the Sitka level.
+The terminology used in the Search Filter and Format Icon tables to indicate characters
+of the leader and control fields are:
 
 * *Type* is Leader position 06 - Type of record
 * *Bib Level* is Leader position 07 - Bibliographic level
@@ -23,7 +24,7 @@ Search Filters
 * *Literary Forms* - relies on character 33 of the 008 field (only applicable to books).
 * *Shelving Location* - will display a list of the search library's shelving locations
 * *Publication Date* - relies on characters 07-10 of the 008 field.
-* *Formats* - relies on the characters shows in the table below.
+* *Formats* - relies on the leader and control field values shown in the table below.
 
 [options="header"]
 |===
@@ -56,8 +57,8 @@ a, b, c, f, o, q, or s
 Format Icons
 ^^^^^^^^^^^^
 
-The format icons show in the search results and record display in the catalogue. The following table
-shows the fixed fields associated with each format icon.
+The format icons show in the search results and record display in the catalogue. The following 
+table shows the leader and control field values associated with each format icon.
 
 [options="header"]
 |===
