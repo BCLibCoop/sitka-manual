@@ -1,7 +1,14 @@
 Editing MARC Records
 ~~~~~~~~~~~~~~~~~~~~
 
-. To edit a MARC record, retrieve it on the catalogue. Once record is displayed on Record Details screen, click *MARC Edit*.
+. Search the catalogue for the record you wish to edit, as described
+in xref:_searching_the_database_for_cataloguing_purposes[].
+
+. Click on the title link to open the record.
++
+image::images/cat/viewing-search-results-3.png[section of the search result with the title link circled]
++
+. Click on the *MARC Edit* tab.
 +
 image::images/cat/marc-edit-1.png[]
 +

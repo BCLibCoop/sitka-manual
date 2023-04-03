@@ -3,7 +3,7 @@ Search Filters and Format Icons
 
 Evergreen utilizes the coded information entered into the leader and control fields in the
 MARC record for search filters and format icons.  These fields need to be accurately coded
-so that the correct format icons display and expected records are included in
+so the correct format icons display and the expected records are included in
 search results.  See xref:_editing_the_leader_and_control_fields[] for instructions on 
 editing these fields.
 
