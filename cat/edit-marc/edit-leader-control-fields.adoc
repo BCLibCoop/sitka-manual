@@ -1,14 +1,16 @@
 Editing the Leader and Control Fields 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Leader and control fields (006, 007, and 008) can be edited directly via the 
-xref:_flat_text_editor[Flat Text Editor].  Cataloguers need to ensure that they count 
-the characters in the fields and add values in the correct position in the fields.
-
 The Leader and control fields (006, 007, and 008) can be edited via the Enhanced MARC Editor.
 The Enhanced MARC Editor Grid includes boxes to enter values for characters of the Leader
 and 008 field.  The Enhanced MARC Editor also includes the Physical Characteristics Wizard
 which is used to create a 007 field.
+
+The Leader and control fields (006, 007, and 008) can also be edited directly via the 
+xref:_flat_text_editor[Flat Text Editor].  When using the Flat Text Editor, cataloguers need 
+to ensure that they count the characters in the fields and add the values in the correct 
+positions.
+
 
 Please refer to the https://www.loc.gov/marc/bibliographic/[MARC21 Format for Bibliographic Data]
 for information about the characters and values for the 
@@ -25,8 +27,23 @@ specifications for Sitka's Evergreen in xref:_search_filters_and_format_icons[].
 
 Enhanced MARC Editor Grid
 ^^^^^^^^^^^^^^^^^^^^^^^^^
-. Retrieve and display the record in MARC Edit.
-. Click into any box displayed in the fixed field editor. In this example we are editing the first position, 
+
+Specific characters of the Leader and 008 field can be updated using the Enhanced MARC Editor
+Grid.  This enables cataloguers to easily update specific values without having to count
+out the field characters.
+
+. Search the catalogue for the record you wish to edit, as described
+in xref:_searching_the_database_for_cataloguing_purposes[].
+
+. Click on the title link to open the record.
++
+image::images/cat/viewing-search-results-3.png[section of the search result with the title link circled]
++
+. Click on the *MARC Edit* tab.
++
+image::images/cat/marc-edit-1.png[]
+
+. Click into any box displayed in the Enhanced MARC Editor Grid. In this example we are editing the first position, 
 the Type or Format box, to describe the format of the resource, textual material, by use of an "a".
 .. Some fields have spaces as values so you need to backspace your cursor to the very beginning 
 of the box in order to type in a new value.  
@@ -40,7 +57,7 @@ image::images/cat/marc-leader-2.png[]
 +
 . You can press the *Tab* key or use the mouse to click through to each field, and can delete and add 
 text as required by backspacing or highlighting existing text and over typing. Here the publication 
-date is being edited; catalogue searches filtered by date rely on correct coding in the 008.
+date is being edited.
 +
 image::images/cat/marc-leader-3.png[]
 +
@@ -48,9 +65,7 @@ image::images/cat/marc-leader-3.png[]
 +
 image::images/cat/marc-leader-4.png[]
 +
-. The OPAC icon for textual materials is displayed as in the example below.
-+
-image::images/cat/marc-leader-5.png[]
+. The MARC record, specifically the Leader and 008, are updated.
 
 
 Physical Characteristics Wizard
