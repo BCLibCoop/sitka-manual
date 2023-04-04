@@ -18,12 +18,15 @@ of the leader and 008 field on a built-in form called the MARC Editor. It also p
 which allows you to easily add or remove tags, and/or edit the fields. You need to pay close attention to
 the position of the tags, indicators, and spacing required to preserve the record structure.
 
-include::edit-marc/edit-marc.adoc[Editing MARC Records]
+include::edit-marc/edit-marc-enhanced.adoc[]
 
+include::edit-marc/edit-marc-flat-text.adoc[]
+
+////
+include::edit-marc/edit-marc.adoc[Editing MARC Records]
 
 include::edit-marc/edit-leader-control-fields.adoc[Editing the Leader and Control Fields]
 
-////
 include::edit-marc/edit-leader.adoc[Editing MARC Record Leader and Fixed Fields]
 
 include::edit-marc/edit-007.adoc[MARC 007 Field Physical Characteristics Wizard]
