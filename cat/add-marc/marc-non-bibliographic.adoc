@@ -1,2 +1,24 @@
 Cataloguing Non-Bibliographic Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Some libraries include non-bibliographic items in their collection.  Records created for 
+these items aren't required to follow the same standards as records for bibliiographic 
+items.
+
+[NOTE]
+======
+Libraries should create their own records for non-bibliographic records rather than adding their
+holdings to an existing record.
+======
+
+. Go to *Cataloguing -> Create New MARC Record*.
+. From the MARC template drop down select the template *sitka_object*.
++
+image::images/cat/marc/add-non-bib-record-1.png[]
++
+. The MARC Editor will open and show the most common coding and fields for an object.
+. Use the flat text editor or the enhanced MARC editor to add the information relevant to your
+item.
+. Click *Save*.
+. The record will open in the catalogue.
+. 
