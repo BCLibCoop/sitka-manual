@@ -10,7 +10,7 @@ when creating, editing, or deleting bibliographic records.  Cataloguers can use 
 or both when working with records.
 
 Both editors are available when editing existing MARC records, importing MARC records via
-Z39.50, and creating new MARC records.
+Z39.50, merging MARC records, and creating new MARC records.
 
 Before creating or editing bibliographic records in Sitka's Evergreen cataloguers must be 
 familiar with 
