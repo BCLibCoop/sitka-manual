@@ -5,7 +5,19 @@ Maintaining Bibliographic Records
 The searchability of the staff and public catalogues relies on information being entered
 and coded correctly in the MARC records. 
 
+Evergreen has both the Enhanced MARC Editor and the Flat Text Editor which can be used for
+when creating, editing, or deleting bibliographic records.  Cataloguers can use either editor
+or both when working with records.
 
+Both editors are available when editing existing MARC records, importing MARC records via
+Z39.50, and creating new MARC records.
+
+Before creating or editing bibliographic records in Sitka's Evergreen cataloguers must be 
+familiar with 
+http://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka's Cataloguing Policy].
+
+
+////
 For example,
 format icons for text, moving pictures, and sound, rely on  MARC coding in the leader, 007, and 008 tags,
 as do OPAC search filters, such as publication date, item type, or target audience. Bibliographic record
@@ -17,6 +29,7 @@ Evergreen allows you to edit MARC tags, sub-fields, and indicators, as well as a
 of the leader and 008 field on a built-in form called the MARC Editor. It also provides a text based editor,
 which allows you to easily add or remove tags, and/or edit the fields. You need to pay close attention to
 the position of the tags, indicators, and spacing required to preserve the record structure.
+////
 
 include::edit-marc/edit-marc-enhanced.adoc[]
 
