@@ -1,10 +1,10 @@
-Adding Holdings for Non-physical Resources
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Adding Holdings for Electronic Resources
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-There are two ways to catalogue non-physical resources in Evergreen. 
+There are two ways to catalogue electronic resources in Evergreen. 
 
 Our recommended process is to use specially coded MARC records as described 
-in xref:cataloguing_nonphysical_resources[]. 
+in xref:_cataloguing_electronic_resources[]. 
 
 Alternatively you may add placeholder holdings to a MARC record.
 
