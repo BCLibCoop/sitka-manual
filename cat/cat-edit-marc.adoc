@@ -5,12 +5,9 @@ Maintaining Bibliographic Records
 The searchability of the staff and public catalogues relies on information being entered
 and coded correctly in the MARC records. 
 
-Evergreen has both the Enhanced MARC Editor and the Flat Text Editor which can be used for
-when creating, editing, or deleting bibliographic records.  Cataloguers can use either editor
-or both when working with records.
-
-Both editors are available when editing existing MARC records, importing MARC records via
-Z39.50, merging MARC records, and creating new MARC records.
+Evergreen has both the Enhanced MARC Editor and the Flat Text Editor which can be used 
+when creating, importing, merging, editing, and deleting bibliographic records.  Cataloguers 
+can use either editor or both when working with records.
 
 Before creating or editing bibliographic records in Sitka's Evergreen cataloguers must be 
 familiar with 
