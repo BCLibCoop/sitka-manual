@@ -3,6 +3,11 @@ Flat Text Editor
 
 The Flat Text Editor is used when creating or editing MARC records.
 
+Catalougers should be cautious when using the Flat Text Editor as it makes it very easy to
+make significant changes to multiple fields. 
+
+
+
 
 The Leader and control fields (006, 007, and 008) can also be edited directly via the 
 xref:_flat_text_editor[Flat Text Editor].  When using the Flat Text Editor, cataloguers need 
