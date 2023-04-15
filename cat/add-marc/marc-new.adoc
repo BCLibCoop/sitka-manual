@@ -2,7 +2,8 @@ Creating New Bibliographic Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When cataloguing bibliographic resources it's important to follow 
-http://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka cataloguing policy] to avoid creating
+http://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka cataloguing policy] to avoid 
+creating
 duplicate records in the Sitka database. Original cataloguing should be done in Evergreen only 
 if there is no record available in the Sitka catalogue, via Z39.50, or from your vendor.
 
