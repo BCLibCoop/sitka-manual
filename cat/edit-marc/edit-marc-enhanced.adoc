@@ -1,14 +1,22 @@
 Enhanced MARC Editor
 ~~~~~~~~~~~~~~~~~~~~
 
-The Enhanced MARC Editor is used when working with MARC records.
+The Enhanced MARC Editor is used when working with MARC records.  Information from the
+https://www.loc.gov/marc/bibliographic/[MARC21 Format for Bibliographic Data] has been built
+into the enhanced editor to assist cataloguers; however, cataloguers should refer to MARC21 
+for more information as needed.
 
-It has four parts:
+The Enhanced MARC Editor can be divided into five parts:
 
-* Leader and 008 Field Grid
-* MARC Record
-* xref:_physical_characteristics_wizard[Physical Characteristics Wizard]
-* Authorities Linker - not currently used by Sitka
+. xref:_leader_and_008_field_grid[Leader and 008 Field Grid]
+. Help and Additional Options
+. xref:_marc_record[MARC Record]
+. xref:_physical_characteristics_wizard[Physical Characteristics Wizard] - only present when
+the record includes an 007 field
+. xref:_authorities_linker[Authorities Linker] - not currently used by Sitka
+
+image::images/cat/marc/marc-enhanced-editor-1.png[]
+
 
 ////
 The Leader and control fields (006, 007, and 008) can be edited via the Enhanced MARC Editor.
@@ -50,8 +58,8 @@ image::images/cat/marc-edit-2.png[]
 Leader and 008 Field Grid
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Specific characters of the Leader and 008 field can be updated using the Enhanced MARC Editor
-Grid.  This enables cataloguers to easily update specific values without having to count
+Specific characters of the Leader and 008 field can be updated using the Leader and 008 
+Field Grid.  This enables cataloguers to easily update specific values without having to count
 out the field characters.
 
 [TIP]
@@ -94,6 +102,9 @@ image::images/cat/marc-leader-3.png[]
 image::images/cat/marc-leader-4.png[]
 +
 . The MARC record, specifically the Leader and 008, are updated.
+
+Help and Additional Options
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 MARC Record
