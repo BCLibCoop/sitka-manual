@@ -9,7 +9,7 @@ for more information as needed.
 The Enhanced MARC Editor can be divided into five parts:
 
 . xref:_leader_and_008_field_grid[Leader and 008 Field Grid]
-. Help and Additional Options
+. xref:_help_and_additional_options[Help and Additional Options]
 . xref:_marc_record[MARC Record]
 . xref:_physical_characteristics_wizard[Physical Characteristics Wizard] - only present when
 the record includes an 007 field
@@ -62,6 +62,18 @@ Specific characters of the Leader and 008 field can be updated using the Leader 
 Field Grid.  This enables cataloguers to easily update specific values without having to count
 out the field characters.
 
+image::images/cat/marc/leader-008-field-grid-1.png[Screenshot showing the grid for a 
+projected medium record]
+
+* Values can be edited directly in the grid fields.
+* Right-clicking in most fields will display a list of the possible values as per MARC21
+* Changing the values of certain field, such as Type and BLvl, changes the type of
+material that is being described. In some cases this means that the meaning of the characters
+ of the 008 changes.  The grid will change to display the fields relevant to the material.
+** There is currently a bug where the grid doesn't automatically update.  If you change
+the value of the Type and/or BLvl fields you must save the MARC record and reload it in a 
+new tab to see the updated grid.
+
 [TIP]
 =====
 The search filters and format icons in the public catalogue rely on 
@@ -81,7 +93,6 @@ image::images/cat/viewing-search-results-3.png[section of the search result with
 +
 image::images/cat/marc-edit-1.png[]
 
-////
 
 . Click into any box displayed in the Enhanced MARC Editor Grid.
 .. Some fields have spaces as values so you need to backspace your cursor to the very beginning 
@@ -106,30 +117,35 @@ image::images/cat/marc-leader-4.png[]
 +
 . The MARC record, specifically the Leader and 008, are updated.
 
+////
+
 Help and Additional Options
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* The *Undo* and *Redo* buttons can be used to undo and redo changes that haven't been saved yet.
-+
-image::images/cat/marc-edit-enhanced-3.png[]
-+
-* Clicking the *Help* button will display the available keyboard shortcuts.
-+
-image::images/cat/marc-edit-enhanced-2.png[]
+image::images/cat/marc/help-additional-options-1.png[Screenshot showing four buttons - Help,
+Validate, Undo, Redo, and one check box - Stack Subfields]
+
+* When the *Help* button is clicked, a list of keyboard shortcuts that can be used to edit
+the MARC record display.
+* The *Validate* button is a function of authorities which are not currently used in Sitka's 
+Evergreen.
+* The *Undo* and *Redo* buttons can be used to undo and redo changes that haven't 
+been saved yet.  The number of changes that can be undone or redone will display on the
+buttons.
+* When the *Stack Subfields* checkbox is checked, the subfields in the MARC record display
+stacked vertically on separate lines from the field numbers, instead of each field displaying
+with all subfields horizontally
+ 
 
 MARC Record
 ^^^^^^^^^^^
 
-* The grid at the top of the Enhanced MARC Editor can be used to edit characters for the Leader and 008 
-fields. Right-clicking in a field will display a list of the possible values for that character.
-+
-image::images/cat/marc-edit-enhanced-1.png[]
-+
-* Right-clicking in the MARC tag field will list potential fields and provide options for adding and 
+* Right-clicking in the MARC tag field will provide options for adding and 
 removing fields.
 +
 image::images/cat/marc-edit-enhanced-4.png[]
 +
+* Right-clicking in the MARC tag field will list potential fields that can be added.
 * To edit indicators, click or tab into the required field, and right click to view correct indicators 
 and enter appropriate data.
 +
