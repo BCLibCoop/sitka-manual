@@ -1,24 +1,30 @@
 Flat Text Editor
 ~~~~~~~~~~~~~~~~
 
-The Flat Text Editor is used when creating or editing MARC records.
+The Flat Text Editor is used when working with MARC records. 
 
-Catalougers should be cautious when using the Flat Text Editor as it makes it very easy to
-make significant changes to multiple fields. 
+[CAUTION]
+=========
+Cataloguers should be cautious when using the Flat Text Editor and always double check
+any changes before saving.  It is very easy to make significant changes to multiple fields
+while using the Flat Text Editor. 
+=========
 
 
+The text of the MARC record can be edited directly in the Flat Text Editor.
 
+image::images/cat/marc-edit-flat-text-1.png[]
 
-The Leader and control fields (006, 007, and 008) can also be edited directly via the 
-xref:_flat_text_editor[Flat Text Editor].  When using the Flat Text Editor, cataloguers need 
-to ensure that they count the characters in the fields and add the values in the correct 
-positions.
-
-Please refer to the https://www.loc.gov/marc/bibliographic/[MARC21 Format for Bibliographic Data]
-for information about the characters and values for the 
-https://www.loc.gov/marc/bibliographic/bdleader.html[Leader] and 
-https://www.loc.gov/marc/bibliographic/bd00x.html[control fields]. 
-
+* An equals sign "=" indicates the start of a MARC field
+* The leader and control fields contain the 3-digit MARC tag followed by the field values.
+** A backslash "\" is used in the leader and control fields for characters where 
+no value is specified.
+** Cataloguers need to ensure that they count the characters in the fields and 
+add the values in the correct positions.  
+* All other MARC fields contain the 3-digit MARC tag, followed by the indicators, and then
+the appropriate subfield
+* If there is no value for an indicator a backslash "\" is used to fill the space.
+* A dollar sign "$" is used for the subfield delimiter
 
 [TIP]
 =====
@@ -27,41 +33,6 @@ accurate coding in the Leader, 007 and 008 fields. Please see the format filter 
 specifications for Sitka's Evergreen in xref:_search_filters_and_format_icons[].
 =====
 
-
-. Search the catalogue for the record you wish to edit, as described
-in xref:_searching_the_database_for_cataloguing_purposes[].
-
-. Click on the title link to open the record.
-+
-image::images/cat/viewing-search-results-3.png[section of the search result with the title link circled]
-+
-. Click on the *MARC Edit* tab.
-+
-image::images/cat/marc-edit-1.png[]
-+
-[TIP]
-=====
-You can set the displayed view as the default by clicking *Set Default View*. Individual records will be loaded 
-in this view when selected/retrieved.
-=====
-+
-. The MARC record is displayed. You can use either the _Enhanced MARC Editor_ or the _Flat Text Editor_ to 
-edit the record.
-+
-image::images/cat/marc-edit-2.png[]
-
-Flat Text Editor
-^^^^^^^^^^^^^^^^
-
-The text of the MARC record can be edited directly in the Flat Text Editor.
-
-image::images/cat/marc-edit-flat-text-1.png[]
-
-* The fields, indicators, and values are in fixed positions in the Flat Text Editor.
-* Each MARC field begins with a = followed by the 3 digit tag for the field.
-* If there is no value for an indicator "\" is used to fill the space.
-* The "\" is also used in the control fields (Leader, 006, 007, and 008) for characters where 
-no value is specified.
 
 
 
