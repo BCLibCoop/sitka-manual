@@ -69,6 +69,7 @@ accurate coding in the Leader, 007 and 008 fields. Please see the format filter 
 specifications for Sitka's Evergreen in xref:_search_filters_and_format_icons[].
 =====
 
+////
 . Search the catalogue for the record you wish to edit, as described
 in xref:_searching_the_database_for_cataloguing_purposes[].
 
@@ -79,6 +80,8 @@ image::images/cat/viewing-search-results-3.png[section of the search result with
 . Click on the *MARC Edit* tab.
 +
 image::images/cat/marc-edit-1.png[]
+
+////
 
 . Click into any box displayed in the Enhanced MARC Editor Grid.
 .. Some fields have spaces as values so you need to backspace your cursor to the very beginning 
@@ -106,6 +109,13 @@ image::images/cat/marc-leader-4.png[]
 Help and Additional Options
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+* The *Undo* and *Redo* buttons can be used to undo and redo changes that haven't been saved yet.
++
+image::images/cat/marc-edit-enhanced-3.png[]
++
+* Clicking the *Help* button will display the available keyboard shortcuts.
++
+image::images/cat/marc-edit-enhanced-2.png[]
 
 MARC Record
 ^^^^^^^^^^^
@@ -114,14 +124,6 @@ MARC Record
 fields. Right-clicking in a field will display a list of the possible values for that character.
 +
 image::images/cat/marc-edit-enhanced-1.png[]
-+
-* The *Undo* and *Redo* buttons can be used to undo and redo changes that haven't been saved yet.
-+
-image::images/cat/marc-edit-enhanced-3.png[]
-+
-* Clicking the *Help* button will display the available keyboard shortcuts.
-+
-image::images/cat/marc-edit-enhanced-2.png[]
 +
 * Right-clicking in the MARC tag field will list potential fields and provide options for adding and 
 removing fields.
