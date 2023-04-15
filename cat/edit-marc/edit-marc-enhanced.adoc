@@ -28,7 +28,7 @@ image::images/cat/marc/leader-008-field-grid-1.png[alt="Screenshot showing the g
 projected medium record"]
 
 * Values can be edited directly in the grid boxes.
-* Right-clicking in most boxes will display a list of the possible values as per MARC21
+* Right-clicking in most boxes will display a list of the possible values as per MARC21.
 * Changing the values of certain boxes, such as Type and BLvl, changes the type of
 material that is being described. In some cases this means that the meaning of the characters
  of the 008 changes.  The grid will change to display the fields relevant to the material.
@@ -59,7 +59,7 @@ been saved yet.  The number of changes that can be undone or redone will display
 buttons.
 * When the *Stack Subfields* checkbox is checked, the subfields in the MARC record display
 stacked vertically on separate lines from the field numbers, instead of each field displaying
-with all subfields horizontally
+with all subfields horizontally.
  
 
 MARC Record
@@ -74,11 +74,13 @@ removing fields.  This includes adding 006, 007, and 008 control fields.
 +
 image::images/cat/marc/enhanced-marc-record-1.png[]
 +
-* Right-clicking in the MARC tag boxes will list potential fields that can be added.
+* Right-clicking in the MARC tag boxes will list potential fields that can be added.  This
+is a partial list; cataloguers should refer to 
+https://www.loc.gov/marc/bibliographic/[MARC21] for a comprehensive list.
 +
 image::images/cat/marc/enhanced-marc-record-2.png[]
 +
-* Right-clicking in the first and second indicators boxes will list the possible values
+* Right-clicking in the first or second indicator boxes will list the possible values
 for the indicator as per MARC21.
 +
 image::images/cat/marc/enhanced-marc-record-3.png[]
@@ -103,7 +105,7 @@ accurate coding in the Leader, 007 and 008 fields. Please see the format filter 
 specifications for Sitka's Evergreen in xref:_search_filters_and_format_icons[].
 =====
 
-As the cataloguer navigates through the wizard, each position will display its corresponding label that describes 
+As a cataloguer navigates through the wizard, each position will display its corresponding label that describes 
 the significance of that position. Each position contains a selection of drop down choices that list the 
 possible values for that particular position. When the cataloguer makes a selection from the drop down options, 
 the value for that position will also change.
