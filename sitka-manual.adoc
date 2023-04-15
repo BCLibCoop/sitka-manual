@@ -59,7 +59,9 @@ include::cat/cat-edit-holdings.adoc[Maintainting Holdings]
 
 include::cat/cat-item-bucket.adoc[Item Buckets]
 
-include::cat/cat-add-marc.adoc[Adding Bibliographic Records]
+include::cat/cat-add-marc.adoc[Adding Individual Records]
+
+include::cat/cat-add-marc-batch.adoc[Batch Loading Bibliographic Records]
 
 include::cat/cat-edit-marc.adoc[Maintaining MARC Records]
 
