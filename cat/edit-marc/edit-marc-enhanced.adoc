@@ -17,44 +17,6 @@ the record includes an 007 field
 
 image::images/cat/marc/marc-enhanced-editor-1.png[]
 
-
-////
-The Leader and control fields (006, 007, and 008) can be edited via the Enhanced MARC Editor.
-The Enhanced MARC Editor Grid includes boxes to enter values for characters of the Leader
-and 008 field.  The Enhanced MARC Editor also includes the Physical Characteristics Wizard
-which is used to edit and create 007 fields.
-
-Please refer to the https://www.loc.gov/marc/bibliographic/[MARC21 Format for Bibliographic Data]
-for information about the characters and values for the 
-https://www.loc.gov/marc/bibliographic/bdleader.html[Leader] and 
-https://www.loc.gov/marc/bibliographic/bd00x.html[control fields]. 
-
-
-Accessing the MARC Editor
-
-. Search the catalogue for the record you wish to edit, as described
-in xref:_searching_the_database_for_cataloguing_purposes[].
-
-. Click on the title link to open the record.
-+
-image::images/cat/viewing-search-results-3.png[section of the search result with the title link circled]
-+
-. Click on the *MARC Edit* tab.
-+
-image::images/cat/marc-edit-1.png[]
-+
-[TIP]
-=====
-You can set the displayed view as the default by clicking *Set Default View*. Individual records will be loaded 
-in this view when selected/retrieved.
-=====
-+
-. The MARC record is displayed. You can use either the _Enhanced MARC Editor_ or the _Flat Text Editor_ to 
-edit the record.
-+
-image::images/cat/marc-edit-2.png[]
-////
-
 Leader and 008 Field Grid
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -62,8 +24,8 @@ Specific characters of the Leader and 008 field can be updated using the Leader 
 Field Grid.  This enables cataloguers to easily update specific values without having to count
 out the field characters.
 
-image::images/cat/marc/leader-008-field-grid-1.png[Screenshot showing the grid for a 
-projected medium record]
+image::images/cat/marc/leader-008-field-grid-1.png[alt="Screenshot showing the grid for a 
+projected medium record"]
 
 * Values can be edited directly in the grid boxes.
 * Right-clicking in most boxes will display a list of the possible values as per MARC21
@@ -81,49 +43,12 @@ accurate coding in the Leader, 007 and 008 fields. Please see the format filter 
 specifications for Sitka's Evergreen in xref:_search_filters_and_format_icons[].
 =====
 
-////
-. Search the catalogue for the record you wish to edit, as described
-in xref:_searching_the_database_for_cataloguing_purposes[].
-
-. Click on the title link to open the record.
-+
-image::images/cat/viewing-search-results-3.png[section of the search result with the title link circled]
-+
-. Click on the *MARC Edit* tab.
-+
-image::images/cat/marc-edit-1.png[]
-
-
-. Click into any box displayed in the Enhanced MARC Editor Grid.
-.. Some fields have spaces as values so you need to backspace your cursor to the very beginning 
-of the box in order to type in a new value.  
-+
-image::images/cat/marc-leader-1.png[]
-+
-. For some fields, right-clicking in the box will show a list of possible values (eg. BLvl, Type, Form Audn, and Lang). 
-Choose from this list to populate the box.
-+
-image::images/cat/marc-leader-2.png[]
-+
-. You can press the *Tab* key or use the mouse to click through to each field, and can delete and add 
-text as required by backspacing or highlighting existing text and over typing. Here the publication 
-date is being edited.
-+
-image::images/cat/marc-leader-3.png[]
-+
-. Click *Save Changes*.
-+
-image::images/cat/marc-leader-4.png[]
-+
-. The MARC record, specifically the Leader and 008, are updated.
-
-////
 
 Help and Additional Options
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-image::images/cat/marc/help-additional-options-1.png[Screenshot showing four buttons - Help,
-Validate, Undo, Redo, and one check box - Stack Subfields]
+image::images/cat/marc/help-additional-options-1.png[alt="Screenshot showing four buttons
+ - Help, Validate, Undo, Redo, and one check box - Stack Subfields"]
 
 * When the *Help* button is clicked, a list of keyboard shortcuts that can be used to edit
 the MARC record display.
