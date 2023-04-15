@@ -9,7 +9,8 @@ Evergreen has both the xref:_enhanced_marc_editor[Enhanced MARC Editor] and the
 xref:_flat_text_editor[Flat Text Editor] which can be used 
 when xref:_creating_new_bibliographic_records[creating], 
 xref:_importing_bibliographic_records_via_z39_50_interface[importing], 
-xref:_merging_bibliographic_records[merging], editing, and 
+xref:_merging_bibliographic_records[merging], 
+xref:_editing_marc_records[editing], and 
 xref:_deleting_bibliographic_records[deleting] bibliographic records.  Cataloguers 
 can use either editor or both when working with records.
 
@@ -32,12 +33,13 @@ which allows you to easily add or remove tags, and/or edit the fields. You need 
 the position of the tags, indicators, and spacing required to preserve the record structure.
 ////
 
+include::edit-marc/edit-marc.adoc[Editing MARC Records]
+
 include::edit-marc/edit-marc-enhanced.adoc[]
 
 include::edit-marc/edit-marc-flat-text.adoc[]
 
 ////
-include::edit-marc/edit-marc.adoc[Editing MARC Records]
 
 include::edit-marc/edit-leader-control-fields.adoc[Editing the Leader and Control Fields]
 
