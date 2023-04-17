@@ -2,46 +2,46 @@ Character Codes for Leader and 008 Field Grid
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |========
-|Code | Field and Character | Name
-|AccM |
-|Audn |
-|Biog |
-|BLvl |
-|Comp |
-|Conf |
-|Cont |
-|CrTp |
-|Ctrl |
-|Ctry |
-|Date1 |
-|Date2 |
-|Desc |
-|Dtst |
-|ELvl |
+|Code | Field and Character(s) | Name
+|AccM | 008 24-29 | Accompanying Matter **
+|Audn | 008 22 | Target Audience
+|Biog | 008 34 | Biography
+|BLvl | Leader 07 | Bibliographic Level
+|Comp | 008 18-19 | Form of Composition **
+|Conf | 008 29 | Conference Publication
+|Cont | 008 24-27 | Nature of Contents
+|CrTp | 008 25 | Type of Cartographic Material **
+|Ctrl | Leader 08 | Type of Control
+|Ctry | 008 15-17 | Place of Publication, Production or Execution
+|Date1 | 008 07-10 | Date 1
+|Date2 | 008 11-14 | Date 2
+|Desc | Leader 18 | Descriptive Cataloguing Form
+|Dtst | 008 06 | Type of Date/Publication Status
+|ELvl | Leader 17 | Encoding Level
 |EntW |
-|Fest |
-|File |
-|Fmus |
-|Form |
-|Freq |
-|Gpub |
-|Ills |
-|Indx | 
-|Lang |
-|LitF |
-|LTxt |
-|MRec |
-|Orig |
-|Part |
-|Proj |
-|Regl |
-|Relf |
-|SpFm |
-|Srce |
+|Fest | 008 30 | Festschrift
+|File | 008 26 | Type of Computer File **
+|Fmus | 008 20 | Format of Music **
+|Form | 008 23 or 29 | Form of Item
+|Freq | 008 18 | Frequency **
+|Gpub | 008 28 | Government Publication
+|Ills | 008 18-21 | Illustrations
+|Indx | 008 31 | Index
+|Lang | 008 33-37 | Language
+|LitF | 008 33 | Literary Form
+|LTxt | 008 30-31 | Literary Text for Sound Recordings **
+|MRec | 008 38 | Modified Record
+|Orig | 008 33 | Original Alphabet or Scriot if Rutke
+|Part | 008 21 | Music Parts **
+|Proj | 008 22-23 | Projection
+|Regl | 008 18 | Regularity **
+|Relf | 008 18-21 | Relief
+|SpFm | 008 33-34 | Special Format Characteristics **
+|Srce | 008 39 | Cataloging Source
 |SrTP |
-|Tech |
-|Time |
-|TMat |
-|TrAr |
-|Type |
+|Tech | 008 34 | Technique **
+|Time | 008 19-20 | Running Time for Motion Pictures and Videorecordings **
+|TMat | 008 33 | Type of Visual Material **
+|TrAr | 008 33 | Transposition and Arrangement
+|Type | Leader 06 | Type of Record
 |========
