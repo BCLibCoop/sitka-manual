@@ -5,6 +5,12 @@ Some libraries include non-bibliographic items in their collection.  Records cre
 these items aren't required to follow the same standards as records for bibliiographic 
 items.
 
+[NOTE]
+======
+Libraries should create their own records for non-bibliographic records rather than adding their
+holdings to an existing record.
+======
+
 Co-op Support recommends that records for non-bibliographic resources include the following
 fields:
 
@@ -18,17 +24,16 @@ fields:
 including number of pages and dimensions.
 |https://www.loc.gov/marc/bibliographic/bd5xx.html[5XX] | Note Fields | $a | Contains additional 
 information about the resource.
-|https://www.loc.gov/marc/bibliographic/bd856.html[856] | Electronic Location and Access | 
+|https://www.loc.gov/marc/bibliographic/bd6xx.html[6XX] | Subject Access Fields |
+$a | A variety of subject fields are available which contain subject
+terms to describe what the title is about. See xref:_local_subject_headings[] for information
+on using local subject headings in Sitka's Evergreen.
+|https://www.loc.gov/marc/bibliographic/bd856.html[856] | Electronic Location and Access | $u,
+$9 |
 Contains information for accessing resources related to a physical resource that 
 are available electronically.  See 
 xref:_related_resources[] for information on how to code this field for a related resource.
 |========
-
-[NOTE]
-======
-Libraries should create their own records for non-bibliographic records rather than adding their
-holdings to an existing record.
-======
 
 . Go to *Cataloguing -> Create New MARC Record*.
 . From the MARC template drop down select the template *sitka_object*.
@@ -36,6 +41,9 @@ holdings to an existing record.
 image::images/cat/marc/add-non-bib-record-1.png[]
 +
 . The MARC Editor will open and show the most common coding and fields for an object.
++
+image::images/cat/marc/add-non-bib-record-2.png[]
++
 . Use the xref:_enhanced_marc_editor[Enhanced MARC Editor] or the 
 xref:_flat_text_editor[Flat Text Editor] to add the information relevant to your item.
 . Click *Save*.
