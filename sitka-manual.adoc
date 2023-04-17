@@ -192,13 +192,15 @@ image::images/ccbysa.png["CC-BY-SA",link="http://creativecommons.org/licenses/by
 This work is licensed under a
 link:http://creativecommons.org/licenses/by-sa/3.0/[Creative
 Commons Attribution-ShareAlike 3.0 Unported License].
-////
+
 
 [appendix]
 Character Codes for Leader and 008 Field Grid 
 =============================================
 
 include::cat/edit-marc/edit-leader-008-appendix.adoc[]
+
+////
 
 [appendix]
 Report Definition Examples

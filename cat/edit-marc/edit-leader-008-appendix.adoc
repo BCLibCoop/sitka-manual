@@ -1,8 +1,15 @@
 Character Codes for Leader and 008 Field Grid 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+This table lists the codes used in Evergreen's Leader and 008 Field Grid for the characters
+of the 
+https://www.loc.gov/marc/bibliographic/bdleader.html[Leader] and 
+https://www.loc.gov/marc/bibliographic/bd008.html[008].  Please refer to  
+https://www.loc.gov/marc/bibliographic/[MARC21 Format for Bibliographic Data] for 
+more information on particular characters.
+
 |========
-|Code | Field and Character(s) | Name
+|Evergreen Code | Field and Character(s) | Name
 |AccM | 008 24-29 | Accompanying Matter
 |Alph | 008 33 | Original Alphabet or Script of Title
 |Audn | 008 22 | Target Audience
