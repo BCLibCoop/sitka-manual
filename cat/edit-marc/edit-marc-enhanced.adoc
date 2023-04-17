@@ -24,11 +24,12 @@ Specific characters of the Leader and 008 field can be updated using the Leader 
 Field Grid.  This enables cataloguers to easily update specific values without having to count
 out the field characters.
 
-image::images/cat/marc/leader-008-field-grid-1.png[alt="Screenshot showing the grid for a 
-projected medium record"]
+image::images/cat/marc/leader-008-field-grid-1.png[]
 
 * Values can be edited directly in the grid boxes.
 * Right-clicking in most boxes will display a list of the possible values as per MARC21.
+* A table giving the names and character positions for the abbreviations used by Evergreen
+can be found in xref:_character_codes_for_leader_and_008_field_grid[].
 * Changing the values of certain boxes, such as Type and BLvl, changes the type of
 material that is being described. In some cases this means that the meaning of the characters
  of the 008 changes.  The grid will change to display the fields relevant to the material.
@@ -47,8 +48,7 @@ specifications for Sitka's Evergreen in xref:_search_filters_and_format_icons[].
 Help and Additional Options
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-image::images/cat/marc/help-additional-options-1.png[alt="Screenshot showing four buttons
- - Help, Validate, Undo, Redo, and one check box - Stack Subfields"]
+image::images/cat/marc/help-additional-options-1.png[]
 
 * When the *Help* button is clicked, a list of keyboard shortcuts that can be used to edit
 the MARC record display.
