@@ -28,7 +28,9 @@ You can set the displayed view as the default by clicking *Set Default View*. In
 in this view when selected/retrieved.
 =====
 +
-. The MARC record is displayed. You can use either the _Enhanced MARC Editor_ or the _Flat Text Editor_ to 
+. The MARC record is displayed. You can use either the 
+xref:_enhanced_marc_editor[Enhanced MARC Editor] or the 
+xref:_flat_text_editor[Flat Text Editor] to 
 edit the record.
 +
 image::images/cat/marc-edit-2.png[]
