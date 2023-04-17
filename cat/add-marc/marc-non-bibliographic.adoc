@@ -5,6 +5,25 @@ Some libraries include non-bibliographic items in their collection.  Records cre
 these items aren't required to follow the same standards as records for bibliiographic 
 items.
 
+Co-op Support recommends that records for non-bibliographic resources include the following
+fields:
+
+|========
+|MARC Field | Name | Required Subfields | Material Type | Description
+|https://www.loc.gov/marc/bibliographic/bdleader.html[Leader] | Leader | N/A | Contains information required for Evergreen to process the record.
+|https://www.loc.gov/marc/bibliographic/bd008.html[008] | Fixed-Length Data Elements | N/A  | Contains coding used by Evergreen for search filters and format icons. 
+|https://www.loc.gov/marc/bibliographic/bd245.html[245] | Title Statement | $a | Contains the title and author.
+|https://www.loc.gov/marc/bibliographic/bd300.html[300] | Physical Description | $a, $c 
+($c not required for e-records) | Contains the physical description of the item 
+including number of pages and dimensions.
+|https://www.loc.gov/marc/bibliographic/bd5xx.html[5XX] | Note Fields | $a | Contains additional 
+information about the resource.
+|https://www.loc.gov/marc/bibliographic/bd856.html[856] | Electronic Location and Access | 
+Contains information for accessing resources related to a physical resource that 
+are available electronically.  See 
+xref:_related_resources[] for information on how to code this field for a related resource.
+|========
+
 [NOTE]
 ======
 Libraries should create their own records for non-bibliographic records rather than adding their
@@ -17,8 +36,8 @@ holdings to an existing record.
 image::images/cat/marc/add-non-bib-record-1.png[]
 +
 . The MARC Editor will open and show the most common coding and fields for an object.
-. Use the flat text editor or the enhanced MARC editor to add the information relevant to your
-item.
+. Use the xref:_enhanced_marc_editor[Enhanced MARC Editor] or the 
+xref:_flat_text_editor[Flat Text Editor] to add the information relevant to your item.
 . Click *Save*.
 . The record will open in the catalogue.
-. 
+. xref:add_holdings[Add your holdings] to the record.
