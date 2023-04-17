@@ -1,9 +1,15 @@
 Adding Individual Records
 -------------------------
 
-When there is no matching MARC record for your item, you may import one from the Z39.50 
-sources or the files supplied by your vendors. Or you may create a new MARC 
-record if you can not find one from other sources.
+When there is no matching MARC record for your item in the Sitka catalogue, cataloguers can
+import a record via Z39.50 or create a new record.
+
+[NOTE]
+======
+Before importing or creating new MARC records in the Sitka catalogue, cataloguers should
+always xref:_searching_the_database_for_cataloguing_purposes[search the catalogue] first to
+check for existing matches. 
+======
 
 include::add-marc/marc-z39.adoc[Importing Bibliographic Records via Z39.50 Interface]
 
