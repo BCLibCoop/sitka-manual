@@ -15,7 +15,7 @@ Co-op Support recommends that records for non-bibliographic resources include th
 fields:
 
 |========
-|MARC Field | Name | Required Subfields | Material Type | Description
+|MARC Field | Name | Required Subfields | Description
 |https://www.loc.gov/marc/bibliographic/bdleader.html[Leader] | Leader | N/A | Contains information required for Evergreen to process the record.
 |https://www.loc.gov/marc/bibliographic/bd008.html[008] | Fixed-Length Data Elements | N/A  | Contains coding used by Evergreen for search filters and format icons. 
 |https://www.loc.gov/marc/bibliographic/bd245.html[245] | Title Statement | $a | Contains the title and author.
@@ -30,8 +30,7 @@ terms to describe what the title is about. See xref:_local_subject_headings[] fo
 on using local subject headings in Sitka's Evergreen.
 |https://www.loc.gov/marc/bibliographic/bd856.html[856] | Electronic Location and Access | $u,
 $9 |
-Contains information for accessing resources related to a physical resource that 
-are available electronically.  See 
+Can be used to include a link to custom cover art for a non-bibliographic item.  See 
 xref:_related_resources[] for information on how to code this field for a related resource.
 |========
 
