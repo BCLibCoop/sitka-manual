@@ -20,14 +20,13 @@ fields:
 |https://www.loc.gov/marc/bibliographic/bd008.html[008] | Fixed-Length Data Elements | N/A  | Contains coding used by Evergreen for search filters and format icons. 
 |https://www.loc.gov/marc/bibliographic/bd245.html[245] | Title Statement | $a | Contains the title and author.
 |https://www.loc.gov/marc/bibliographic/bd300.html[300] | Physical Description | $a, $c 
-($c not required for e-records) | Contains the physical description of the item 
+ | Contains the physical description of the item 
 including number of pages and dimensions.
 |https://www.loc.gov/marc/bibliographic/bd5xx.html[5XX] | Note Fields | $a | Contains additional 
 information about the resource.
 |https://www.loc.gov/marc/bibliographic/bd6xx.html[6XX] | Subject Access Fields |
 $a | A variety of subject fields are available which contain subject
-terms to describe what the title is about. See xref:_local_subject_headings[] for information
-on using local subject headings in Sitka's Evergreen.
+terms to describe what the title is about. 
 |https://www.loc.gov/marc/bibliographic/bd856.html[856] | Electronic Location and Access | $u,
 $9 |
 Can be used to include a link to custom cover art for a non-bibliographic item.  See 
