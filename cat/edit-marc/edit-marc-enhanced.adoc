@@ -2,8 +2,10 @@ Enhanced MARC Editor
 ~~~~~~~~~~~~~~~~~~~~
 
 The Enhanced MARC Editor is used when working with MARC records.  Information from the
-https://www.loc.gov/marc/bibliographic/[MARC21 Format for Bibliographic Data] has been built
-into the enhanced editor to assist cataloguers; however, cataloguers should refer to MARC21 
+https://www.loc.gov/marc/bibliographic/[MARC 21 Format for Bibliographic Data] has been built
+into the enhanced editor to assist cataloguers; however, cataloguers should refer 
+to https://www.loc.gov/marc/[MARC 21 Format for Bibliographic Data]/
+https://www.marc21.ca/M21/BIB/B001-Sommaire.html[Normes MARC 21] 
 for more information as needed.
 
 The Enhanced MARC Editor can be divided into five parts:
@@ -76,12 +78,13 @@ image::images/cat/marc/enhanced-marc-record-1.png[]
 +
 * Right-clicking in the MARC tag boxes will list potential fields that can be added.  This
 is a partial list; cataloguers should refer to 
-https://www.loc.gov/marc/bibliographic/[MARC21] for a comprehensive list.
+https://www.loc.gov/marc/[MARC 21 Format for Bibliographic Data]/
+https://www.marc21.ca/M21/BIB/B001-Sommaire.html[Normes MARC 21] for a comprehensive list.
 +
 image::images/cat/marc/enhanced-marc-record-2.png[]
 +
 * Right-clicking in the first or second indicator boxes will list the possible values
-for the indicator as per MARC21.
+for the indicator as per MARC 21.
 +
 image::images/cat/marc/enhanced-marc-record-3.png[]
 +
@@ -108,7 +111,9 @@ specifications for Sitka's Evergreen in xref:_search_filters_and_format_icons[].
 As a cataloguer navigates through the wizard, each position will display its corresponding label that describes 
 the significance of that position. Each position contains a selection of drop down choices that list the 
 possible values for that particular position. When the cataloguer makes a selection from the drop down options, 
-the value for that position will also change.
+the value for that position will also change.  Cataloguers should refer to 
+https://www.loc.gov/marc/[MARC 21 Format for Bibliographic Data]/
+https://www.marc21.ca/M21/BIB/B001-Sommaire.html[Normes MARC 21] for more information as needed.
 
 ////
 . Search the catalogue for the record you wish to edit, as described
