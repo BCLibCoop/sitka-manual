@@ -20,3 +20,5 @@ include::edit-holdings/replace-barcode.adoc[Replacing a Barcode]
 include::edit-holdings/transfer-holdings.adoc[Transferring Holdings]
 
 include::edit-holdings/delete-holdings.adoc[Deleting Holdings]
+
+include::edit-holdings/delete-electronic-holdings.adoc[]

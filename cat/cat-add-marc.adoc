@@ -1,19 +1,26 @@
-Adding Bibliographic Records
------------------------------
+Adding Individual Records
+-------------------------
 
-When there is no matching MARC record for your item, you may import one from the Z39.50 sources or the files supplied by your vendors. Or you may create a new MARC record if you can not find one from other sources.
+When there is no matching MARC record for your item in the Sitka catalogue, cataloguers can
+import a record via Z39.50 or create a new record.
 
+[NOTE]
+======
+Before importing or creating new MARC records in the Sitka catalogue, cataloguers should
+always xref:_searching_the_database_for_cataloguing_purposes[search the catalogue] first to
+check for existing matches. 
+======
 
 include::add-marc/marc-z39.adoc[Importing Bibliographic Records via Z39.50 Interface]
 
-include::add-marc/marc-vandelay.adoc[Batch Importing Bibliographic Records]
+include::add-marc/marc-new.adoc[]
 
-include::add-marc/marc-new.adoc[Creating New Bibliographic Records]
+include::add-marc/marc-non-bibliographic.adoc[]
 
-include::add-marc/marc-template.adoc[Using Library Specific MARC Templates]
+include::add-marc/marc-electronic.adoc[]
 
 include::add-marc/marc-sitka-record.adoc[Sitka's Minimum MARC record]
 
-include::add-marc/marc-nonphysical.adoc[Cataloguing Non-physical Resources]
+include::add-marc/marc-template.adoc[Using Library Specific MARC Templates]
 
 include::add-marc/add-cover-images.adoc[Uploading Cover Images]

@@ -1,11 +1,11 @@
-[[cataloguing_nonphysical_resources]]
-Cataloguing Non-Physical Resources
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating New Records for Electronic Resources
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Ordinary bibliographic records are only visible in the OPAC when holdings records are attached, but it is 
-also possible to catalogue non-physical resources such as websites, online journals, or downloadable 
-audiobooks, etc. by adding an 856 tag with subfield $9. The steps below describe how to catalogue a 
-non-physical resource so it appears in OPAC searches.
+Ordinary bibliographic records are only visible in the public catalogue when holdings records are attached, 
+but it is 
+also possible to catalogue electronic resources such as websites, online journals, or downloadable 
+audiobooks, etc. by adding an 856 tag with subfield $9. The steps below describe how to catalogue an 
+electronic resource so it appears in OPAC searches.
 
 [NOTE]
 =====
@@ -45,7 +45,7 @@ Evergreen creates an invisible call number for each 856 tag with subfield 9 with
 subfield 9 as the owning library. This call number, like a copy record, is used for scoping the 
 seach result to a selected library.
 
-To remove a non-physical record from your library's collection, you need to delete your library's 856 tag. 
+To remove an electronic record from your library's collection, you need to delete your library's 856 tag. 
 If your library's 856 tag is the only one, you may delete the MARC record. See Deleting MARC records 
 for more information.
 =====

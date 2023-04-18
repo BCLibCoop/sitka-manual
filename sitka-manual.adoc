@@ -59,7 +59,9 @@ include::cat/cat-edit-holdings.adoc[Maintainting Holdings]
 
 include::cat/cat-item-bucket.adoc[Item Buckets]
 
-include::cat/cat-add-marc.adoc[Adding Bibliographic Records]
+include::cat/cat-add-marc.adoc[Adding Individual Records]
+
+include::cat/cat-add-marc-batch.adoc[Batch Loading Bibliographic Records]
 
 include::cat/cat-edit-marc.adoc[Maintaining MARC Records]
 
@@ -190,7 +192,16 @@ image::images/ccbysa.png["CC-BY-SA",link="http://creativecommons.org/licenses/by
 This work is licensed under a
 link:http://creativecommons.org/licenses/by-sa/3.0/[Creative
 Commons Attribution-ShareAlike 3.0 Unported License].
+
+
+[appendix]
+Character Codes for Leader and 008 Field Grid 
+=============================================
+
+include::cat/edit-marc/edit-leader-008-appendix.adoc[]
+
 ////
+
 [appendix]
 Report Definition Examples
 ==========================

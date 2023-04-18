@@ -1,7 +1,24 @@
 Editing MARC Records
 ~~~~~~~~~~~~~~~~~~~~
 
-. To edit a MARC record, retrieve it on the catalogue. Once record is displayed on Record Details screen, click *MARC Edit*.
+////
+[NOTE]
+======
+When editing MARC Records cataloguers MUST following Sitka's Cataloguing Policy for 
+editing MARC records.
+
+THIS NOTE TO BE INCLUDED ONCE NEW POLICY LIVE
+======
+////
+
+. Search the catalogue for the record you wish to edit, as described
+in xref:_searching_the_database_for_cataloguing_purposes[].
+
+. Click on the title link to open the record.
++
+image::images/cat/viewing-search-results-3.png[section of the search result with the title link circled]
++
+. Click on the *MARC Edit* tab.
 +
 image::images/cat/marc-edit-1.png[]
 +
@@ -11,10 +28,14 @@ You can set the displayed view as the default by clicking *Set Default View*. In
 in this view when selected/retrieved.
 =====
 +
-. The MARC record is displayed. You can use either the _Enhanced MARC Editor_ or the _Flat Text Editor_ to 
+. The MARC record is displayed. You can use either the 
+xref:_enhanced_marc_editor[Enhanced MARC Editor] or the 
+xref:_flat_text_editor[Flat Text Editor] to 
 edit the record.
 +
 image::images/cat/marc-edit-2.png[]
+
+////
 
 Enhanced MARC Editor
 ^^^^^^^^^^^^^^^^^^^^
@@ -59,6 +80,8 @@ image::images/cat/marc-edit-flat-text-1.png[]
 * If there is no value for an indicator "\" is used to fill the space.
 * The "\" is also used in the control fields (Leader, 006, 007, and 008) for characters where 
 no value is specified.
+
+////
 
 
 

@@ -1,0 +1,12 @@
+Deleting Holdings for Electronic Resources
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+. Search the catalogue for the record with the electronic resource that you want to delete, 
+as described in xref:_searching_the_database_for_cataloguing_purposes[].
+. Click on the *MARC Edit* tab.
+. Using the xref:_enhanced_marc_editor[Enhanced MARC Editor] or the 
+xref:_flat_text_editor[Flat Text Editor] find the 856 field with the subfield
+9 containing your library code.
+. Delete the 856 field with the subfield 9 containing your library code.
+. Click *Save Changes*.
+. The record will no longer appear in searches in your public catalogue.

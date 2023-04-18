@@ -1,45 +1,47 @@
-Creating New Bibliographic Records
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating New Records for Bibliographic Resources
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When cataloguing bibliographic resources it's important to follow 
-http://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka cataloguing policy] to avoid creating
-duplicate records in the Sitka database. Original cataloguing should be done in Evergreen only 
+http://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka cataloguing policy] to avoid 
+creating
+duplicate records in the Sitka catalogue. Original cataloguing should be done in Evergreen only 
 if there is no record available in the Sitka catalogue, via Z39.50, or from your vendor.
 
 Sitka's Evergreen has global MARC templates for commonly catalogued types of resources with the most frequently 
 used fields and subfields included. Libraries can also use a workaround to set 
 up xref:_using_library_specific_marc_templates[library specific templates].
 
-
-For information about working with MARC records see xref:edit-marc[].
-
-. To access the global MARC templates, go to *Cataloguing -> Create New Marc Record*.
-. The MARC Template screen opens. Click into the drop down menu field to see the available templates. 
-Note you can select one and set it as the default template for your workstation here.
+. Go to *Cataloguing -> Create New Marc Record*.
+. The MARC Template screen opens. Click into the drop down menu to see the available templates. 
 +
 image::images/cat/new-marc-2.png[]
++
+[NOTE]
+======
+Once you select a template you can click *Set Workstation Default* to set it as your default
+template.
+======
 +
 . Select the appropriate template and click *Load*.
 +
 image::images/cat/new-marc-3.png[]
 +
 . A blank MARC record will load with the fields and subfields most commonly used for the 
-resource type. The Leader and 008 will be coded for the specified type of resource; this coding affect the
-format icon and search filters.
+resource type. The Leader and 008 will be coded for the specified type of resource; this coding 
+affects the 
+xref:_search_filters_and_format_icons[format icon and search filters].
 +
 image::images/cat/new-marc-4.png[]
 +
-. Complete the MARC record as per
- http://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka cataloguing policy]. You can add and 
- delete fields and subfields as required.
-. Check the box for Add Item if you wish to use the fast item add feature.  You must have 
-xref:allow-popups[pop-ups allowed] for this feature to work.
-+
-image::images/cat/new-marc-5.png[]
-+
+. Following
+ http://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka cataloguing policy], complete 
+ the MARC record using the xref:_enhanced_marc_editor[Enhanced MARC Editor] or the 
+xref:_flat_text_editor[Flat Text Editor]. 
 . Click *Save*.
 . The record is created and will open up in your tab in the current default view.
+. xref:add_holdings[Add your holdings] to the record.
 
+////
 [NOTE]
 ======
 If you used *Add Item* the Holdings Editor will have opened in a new tab.
@@ -47,3 +49,11 @@ If you used *Add Item* the Holdings Editor will have opened in a new tab.
 If you did not use *Add Item*, you may now attach holdings as described 
 in xref:_adding_holdings_to_bibliographic_records[].
 ======
+
+
+. Check the box for Add Item if you wish to use the fast item add feature.  You must have 
+xref:allow-popups[pop-ups allowed] for this feature to work.
++
+image::images/cat/new-marc-5.png[]
++
+////
