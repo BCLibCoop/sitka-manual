@@ -291,11 +291,11 @@ all items scanned in the specified period, broken down by shelving location.
 * _Inventory - Un-scanned Items_ - this template gives a list of all items not scanned in the specified
 time period, with the option to filter the results based on specific item statuses and shelving locations.
 
-Library Configuration
-^^^^^^^^^^^^^^^^^^^^^
+Local Administration
+^^^^^^^^^^^^^^^^^^^^
 
-Here you will find templates that can be used to display information about how circulation and hold
-policies are configured for your library.  Some of the templates duplicate information that can be
+Here you will find templates that can be used to display information about to aid library staff when working with local 
+administration functions.  Some of the templates duplicate information that can be
 viewed directly in the staff client but is easier to view as report output.
 
 .Key templates are:
@@ -303,6 +303,7 @@ viewed directly in the staff client but is easier to view as report output.
 * _Circulation Policies filtering by copy circ lib_
 * _Hold Policies by Item's Owning Library_
 * _Hold policy by pickup library (ILC participants: please select your federation, too)_
+* _Reports Run In Specified Time Period By Specified Library_
 
 Misc.
 ^^^^^
