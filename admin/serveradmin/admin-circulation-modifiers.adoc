@@ -98,7 +98,7 @@ or policy reasons, see also _unique-collection_
 | tablet | Other | False | Intended for electronic tablets
 | textbook | Book | False | Intended for textbooks
 | toy | Other | False | Intended for toys
-| unqiue-collection | Other | False | Intended for a collection of items that need a unique modifier for statistical 
+| unique-collection | Other | False | Intended for a collection of items that need a unique modifier for statistical 
 or policy reasons, see also _special-collection_
 | vertical-file | Other | False | Intended for vertical files
 | video | Video Tape | True | Intended for VHS
