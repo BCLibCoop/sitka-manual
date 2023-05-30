@@ -230,7 +230,7 @@ When requesting a new circulation policy you must include:
 * Recurring fine - if you don't charge fines please specify zero
 * Maximum fine amount - if you don't charge fines please specify zero
 
-If additional paramters are needed such as item specific limits, grace period overrides, or hard due dates 
+If additional parameters are needed such as item specific limits, grace period overrides, or hard due dates 
 please include that information.
 
 If the policy should have different parameters for different patron groups or based on the patron's home library

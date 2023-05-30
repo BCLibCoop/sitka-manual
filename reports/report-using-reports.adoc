@@ -404,7 +404,7 @@ forms the bar and/or line chart will display.
 image::images/report/report-output-5.png[]
 +
 . Click on *Excel Output* or *CSV Output* to download the output as a file that can be opened in a 
-spreadsheet progam.  You will be prompted to open or save the the output file.
+spreadsheet program.  You will be prompted to open or save the the output file.
 . Click on *Tabular Output* to view the output in the browser.
 +
 The tabular output will display and can be sorted by clicking on a column heading.
@@ -464,8 +464,8 @@ Maintaining Reporter Data
 
 (((Reporter, Maintaining Data)))
 
-Saved report templates, definitions, and output will stay in the Sitka database forever unless 
-deleted. When a template or report definition is deleted all the linked definitions and output
+Saved report templates will stay in the Sitka database forever unless deleted by the template owner.  Report definitions and output are deleted on a yearly basis by Co-op Support.
+  When a template or report definition is deleted all the linked definitions and output
 files are also deleted.
 
 Co-op Support recommends downloading output you need to keep as CSV or Excel output and saving it 
@@ -492,6 +492,17 @@ image::images/report/report-maintain-templates-1.png[]
 If you are modifying existing templates or creating your own templates Co-op Support recommends ensuring
 you delete interim versions of the template created while working on the template.  This makes it easier
 to be sure you are using the correct version of the template.
+
+[TIP]
+=====
+Library staff should periodically run a report using the template _Reports Run In Specified Time Period By Specified Library_ to see what reports are being run at their library. 
+This template can be found under Shared Folders -> Templates -> Sitka_templates -> Local Administration.
+ 
+Recurring reports running directly off of Sitka templates or using accounts of former staff members should be stopped and new recurring reports set up properly.  
+https://bc.libraries.coop/support/[Submit a ticket] to request assistance with stopping recurring reports for former staff members.
+=====
+
+
 
 Deleting a Report Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
