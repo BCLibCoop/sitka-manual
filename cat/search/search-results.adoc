@@ -2,8 +2,8 @@ Viewing Search Results for Cataloguing Purposes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When you retrieve results it's important to look at the results to decide 
-which is the best match for your item.  Refer to 
-http://docs.libraries.coop/policy/_cataloguing_procedures.html#_characteristics_of_a_best_marc_record_in_the_sitka_database[Characteristics of a "Best" MARC Record in the Sitka Database].
+which is the best match for your item.  Refer to the section
+http://docs.libraries.coop/policy/_the_cataloguing_workflow.html#_is_it_a_match[Is it a Match?] in Sitka's Evergreen Policy & Best Practices Manual.
 
 . The results for your search will display.
 .. Brief bibliographic details display for each search result.
@@ -27,8 +27,9 @@ will taken directly into the record, bypassing the search results screen.
 =====
 +
 . Use the **MARC View** or **MARC Edit** tab to look at the MARC record to confirm that it matches with your 
-item.  Refer to the http://docs.libraries.coop/policy/_cataloguing_procedures.html[Cataloguing Procedures] section
-of the Policy Manual for information on how to determine a match.
+item.  Refer to the section
+http://docs.libraries.coop/policy/_the_cataloguing_workflow.html#_is_it_a_match[Is it a Match?] 
+in Sitka's Evergreen Policy & Best Practices Manual for information on how to determine a match.
 +
 image::images/cat/viewing-search-results-4.png[Record Details with MARC View]
 +

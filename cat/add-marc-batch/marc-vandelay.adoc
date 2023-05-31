@@ -3,7 +3,11 @@ Batch Importing Bibliographic Records
 
 https://youtu.be/2ZtDXTqaXcE[*Sitka Training Video - Uploading MARC Records via MARC Batch Import (3:49)*]
 
-If the title records you need are not already in the Evergreen database, it is possible to upload vendor-supplied MARC files into Evergreen. Each file may contain one or more MARC records. During the uploading process, Evergreen matches each record in the file with existing records in Evergreen based on pre-defined match points called *Record Match Sets*. Records without matches may be imported directly into the catalogue. Records with matches must be examined by cataloguers. Due to the nature of Sitka's shared database, Co-op Support strongly advises against allowing Evergreen to select a merge target, and cautions you to adhere to instructions for selecting a match as outlined in this chapter.
+If the title records you need are not already in the Evergreen database, it is possible to upload vendor-supplied MARC files into EverLibrargreen. Each file may contain one or more MARC records. During the uploading process, Evergreen matches each record in the file with existing records in Evergreen based on pre-defined match points called *Record Match Sets*. Records without matches may be imported directly into the catalogue. Records with matches must be examined by cataloguers. Due to the nature of Sitka's shared database, Co-op Support strongly advises against allowing Evergreen to select a merge target, and cautions you to adhere to instructions for selecting a match as outlined in this chapter.
+
+Cataloguers should follow the policy for batch loading records which can be found in the section  
+http://docs.libraries.coop/policy/_batch_loading_bibliographic_records.html[Batch Loading Bibliographic Records] in Sitka's
+Evergreen Policy & Best Practices Manual.
 
 Importing records involves two steps: 1. all records in the file are first uploaded to the server and kept outside the catalogue as a queue; 2. cataloguers view the records in the queue to import them into the Evergreen catalogue. Cataloguers can view both the incoming and existing matching records to decide which one to use by selecting an appropriate merge profile. You may merge the records with either the incoming or existing record as the lead, while keeping some MARC tags in both records. Overlay/Merge Profile decides how two records are merged.
 

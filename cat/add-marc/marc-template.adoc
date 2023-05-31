@@ -55,9 +55,18 @@ image::images/cat/marc-template-4.png[]
 +
 image::images/cat/marc-template-5.png[]
 +
-. Complete the MARC record as per
- http://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka cataloguing policy]. You can add and 
+. Complete the MARC record. You can add and 
  delete fields and subfields as required.
++
+[Note]
+======
+For bibliographic items the MARC record must meet the 
+http://docs.libraries.coop/policy/_the_bibliographic_record.html#_sitka_8217_s_minimum_marc_record[minimum requirements] set in Sitka's cataloguing policy
+and a http://docs.libraries.coop/policy/_the_bibliographic_record.html#_a_good_marc_record[good MARC record] will exceed the mimimum requirements.
+
+For non-bibliographic items the MARC record should follow the recommendations in xref:_creating_new_records_for_non_bibliographic_resources[].
+======
++
 . Click *Go to imported record*.
 . You may now attach holdings as described in xref:_adding_holdings_to_bibliographic_records[].
 
@@ -90,8 +99,17 @@ Using the Template
 +
 image::images/cat/marc-template-6.png[]
 +
-. Complete the MARC record as per
- http://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka cataloguing policy]. You can add and 
+. Complete the MARC record. You can add and 
  delete fields and subfields as required.
++
+[Note]
+======
+For bibliographic items the MARC record must meet the 
+http://docs.libraries.coop/policy/_the_bibliographic_record.html#_sitka_8217_s_minimum_marc_record[minimum requirements] set in Sitka's cataloguing policy
+and a http://docs.libraries.coop/policy/_the_bibliographic_record.html#_a_good_marc_record[good MARC record] will exceed the mimimum requirements.
+
+For non-bibliographic items the MARC record should follow the recommendations in xref:_creating_new_records_for_non_bibliographic_resources[].
+======
++
 . Click *Save*.
 . You may now attach holdings as described in xref:_adding_holdings_to_bibliographic_records[].

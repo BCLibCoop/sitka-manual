@@ -10,8 +10,9 @@ electronic resource so it appears in OPAC searches.
 [NOTE]
 =====
 These instructions are for adding individual records. To upload a batch of records 
-(e.g. from an e-book subscription), please contact Co-op Support. For libraries that subscribe to 
-OverDrive, Co-op Support creates and updates bibliographic records automatically.
+(e.g. from an e-book subscription), please contact Co-op Support.  Information related to batch loading e-records can be found in the section  
+http://docs.libraries.coop/policy/_batch_loading_bibliographic_records.html[Batch Loading Bibliographic Records] in Sitka's
+Evergreen Policy & Best Practices Manual.
 =====
 
 . Locate, import, or create a bibliographic record as described in the preceding chapters.

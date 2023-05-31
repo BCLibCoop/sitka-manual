@@ -4,7 +4,7 @@ Adding Holdings to Bibliographic Records
 [CAUTION]
 =========
 
-* Make sure your browser allows Evergreen to open pop-ups or the Holdings Editor will not appear.
+Make sure your browser allows Evergreen to open pop-ups or the Holdings Editor will not appear.
   See xref:_browser_configuration[].
 
 =========
@@ -24,8 +24,8 @@ link:https://youtu.be/xD7ATa62KSo[*Sitka Training Video - Adding Holdings (2:05)
 . Search the catalogue for a record that matches the item in hand, as described
 in xref:_searching_the_database_for_cataloguing_purposes[].
 .. If you do not find a match,
-refer to the http://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka Cataloguing Policy] for
-recommendations on required procedures.
+refer to the section http://docs.libraries.coop/policy/_the_cataloguing_workflow.html[The Cataloguing Workflow] in Sitka's Evergreen Policy & Best Practices Manual for
+next steps.
 . Click on the title link to open the record.
 +
 image::images/cat/viewing-search-results-3.png[section of the search result with the title link circled]
@@ -67,8 +67,8 @@ Items that need different item attributes should be created separately.
 . Search the catalogue for a record that matches the item in hand, as described
 in xref:_searching_the_database_for_cataloguing_purposes[].
 .. If you do not find a match,
-refer to the http://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka Cataloguing Policy] for
-recommendations on required procedures.
+refer to the section http://docs.libraries.coop/policy/_the_cataloguing_workflow.html[The Cataloguing Workflow] in Sitka's Evergreen Policy & Best Practices Manual for
+next steps.
 . Click on the title link to open the record.
 +
 image::images/cat/viewing-search-results-3.png[section of the search result with the title link circled]
@@ -118,8 +118,8 @@ Adding Items to an Existing Call Number
 . Search the catalogue for a record that matches the item in hand, as described
 in xref:_searching_the_database_for_cataloguing_purposes[].
 .. If you do not find a match,
-refer to the http://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka Cataloguing Policy] for
-recommendations on required procedures.
+refer to the section http://docs.libraries.coop/policy/_the_cataloguing_workflow.html[The Cataloguing Workflow] in Sitka's Evergreen Policy & Best Practices Manual for
+next steps.
 . Click on the title link to open the record.
 +
 image::images/cat/viewing-search-results-3.png[section of the search result with the title link circled]
