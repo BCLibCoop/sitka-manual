@@ -8,7 +8,8 @@ items.
 [NOTE]
 ======
 Libraries should create their own records for non-bibliographic records rather than adding their
-holdings to an existing record.
+holdings to an existing record as per Sitka's cataloguing policy for 
+http://docs.libraries.coop/policy/_cataloguing_standards.html#_non_bibliographic_records[non-bibliographic records].
 ======
 
 Co-op Support recommends that records for non-bibliographic resources include the following
