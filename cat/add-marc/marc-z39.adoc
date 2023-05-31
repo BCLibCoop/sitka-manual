@@ -109,7 +109,7 @@ There are times when it is necessary to overlay an existing MARC record in Everg
 MARC record from a Z39.50 target. Overlaying a MARC record replaces an existing MARC record and leaves
 all holdings, and corresponding holds, active circulations, bills, and fines intact. As overlay affects all
 libraries sharing a MARC record it is critical that this procedure be done judiciously and correctly.
-Please refer to link:http://docs.libraries.coop/policy/_cataloguing_procedures.html[Sitka's cataloguing policy] for more information.
+Please refer to http://docs.libraries.coop/policy/_editing_bibliographic_records.html[Sitka's cataloguing policy] for more information.
 
 
 Marking a Record for Overlay
@@ -173,7 +173,7 @@ are bringing in.
 image:images/cat/z3950-overlay-6.png[]
 +
 Make any needed edits to the record following
-link:http://docs.libraries.coop/policy/_cataloguing_procedures.html[Sitka's cataloguing policy]
+http://docs.libraries.coop/policy/_editing_bibliographic_records.html[Sitka's cataloguing policy]
 and click *Save*.
 +
 image:images/cat/z3950-overlay-7.png[]
