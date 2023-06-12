@@ -59,6 +59,16 @@ Newly catalogued items and items coming out of a non-holdable status (such as _L
 added to the eligible item table.  These items will be added when Evergreen does its daily check but 
 libraries may prefer to force an earlier update of the table.  This is done by retargeting the hold.
 
+[NOTE]
+======
+Item can be a potential target to fill a hold and still not be able to fill the hold.
+
+For example, if an item is holdable, in a holdable shelving location, and have a holdable 
+item status it is a potential target.  However, if the library is using age based hold
+protection the item cannot fill the hold until the age based hold protection period is
+finished.
+======
+
 
 Holds Queue and Filling Sequence
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
