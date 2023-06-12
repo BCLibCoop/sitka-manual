@@ -63,10 +63,10 @@ libraries may prefer to force an earlier update of the table.  This is done by r
 ======
 An item can be a potential target to fill a hold and still not be able to fill the hold.
 
-For example, if an item is holdable, in a holdable shelving location, and have a holdable 
-item status it is a potential target.  However, if the library is using age based hold
-protection the item cannot fill the hold until the age based hold protection period is
-finished.
+For example, if an item is holdable, in a holdable shelving location, and has a holdable 
+item status it is a potential target.  However, if the library that owns it is using 
+age based hold protection the item cannot a hold at another library until the age based 
+hold protection period is finished.
 ======
 
 
