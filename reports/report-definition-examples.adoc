@@ -28,8 +28,6 @@ Circulation Stats._
 
 Recommended Recurrence Interval: **Monthly**
 
-image::images/report/appendix/monthly-circ-by-circ-mod.png[]
-
 . Enter a name that doesn't include a specific date as this report will run every month.
 . Choose *Relative Date* and add *1 Month(s) ago*.
 . Add your library or your branch(es).
@@ -37,6 +35,8 @@ image::images/report/appendix/monthly-circ-by-circ-mod.png[]
 .. Set the *Recurrence Interval* to 1 Month(s).
 .. Check the box beside the date and set the date to the first of the next month.
 .. Set the time to between 1:00am PT and 4:00am PT.
+
+image::images/report/appendix/monthly-circ-by-circ-mod.png[]
 
 LIBRARY: Outbound ILC holds count for selected month
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -46,8 +46,6 @@ Intra-federation ILL stats._
 
 Recommended Recurrence Interval: **Monthly**
 
-image::images/report/appendix/library-outbound-ilc-holds-count-monthly.png[]
-
 . Enter a name that doesn't include a specific date as this report will run every month.
 . Add your library.
 . Choose *Relative Date* and add *1 Month(s) ago*.
@@ -55,6 +53,8 @@ image::images/report/appendix/library-outbound-ilc-holds-count-monthly.png[]
 .. Set the *Recurrence Interval* to 1 Month(s).
 .. Check the box beside the date and set the date to the first of the next month.
 .. Set the time to between 1:00am PT and 4:00am PT.
+
+image::images/report/appendix/library-outbound-ilc-holds-count-monthly.png[]
 
 LIBRARY: Inbound ILC holds count for selected month
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -64,8 +64,6 @@ _Found under Shared Folders -> Templates -> Sitka_templates ->
 
 Recommended Recurrence Interval: **Monthly**
 
-image::images/report/appendix/library-inbound-ilc-holds-count-monthly.png[]
-
 . Enter a name that doesn't include a specific date as this report will run every month.
 . Add your library.
 . Choose *Relative Date* and add *1 Month(s) ago*.
@@ -73,6 +71,8 @@ image::images/report/appendix/library-inbound-ilc-holds-count-monthly.png[]
 .. Set the *Recurrence Interval* to 1 Month(s).
 .. Check the box beside the date and set the date to the first of the next month.
 .. Set the time to between 1:00am PT and 4:00am PT.
+
+image::images/report/appendix/library-inbound-ilc-holds-count-monthly.png[]
 
 Collection Management
 ~~~~~~~~~~~~~~~~~~~~~
@@ -85,8 +85,6 @@ _Found under Shared Folders -> Templates -> Sitka_templates -> Circulation -> Ov
  
 Recommended Recurrence Interval: **Weekly** 
  
-image::images/report/appendix/overdues-within-time-span-general.png[]
-
 . Enter a name that doesn't include a specific date as this report will run every month.
 . Choose *Relative Date*.
 .. Enter the time period you would like to report on. The earliest date (bigger number)
@@ -99,6 +97,8 @@ image::images/report/appendix/overdues-within-time-span-general.png[]
 to run.  The report will run on the same day of the week every week; the example report 
 will run every Wednesday.
 .. Set the time to between 1:00am PT and 4:00am PT.
+
+image::images/report/appendix/overdues-within-time-span-general.png[]
 
 Title & Item Count by Shelving Location and Circulation Modifier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -129,7 +129,7 @@ over the course of performing inventory.
 . Enter the date on which you started doing inventory.
 . Ensure the box is checked for **Run as soon as possible**.
 
-image::images/report/appendix/inventory-scanned-count-by-location.png
+image::images/report/appendix/inventory-scanned-count-by-location.png[]
 
 Inventory - Un-scanned Items
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -157,6 +157,8 @@ Weeding - Copies Circulated Fewer Times in recent year(s) (excl. Copied added af
 
 _Found under Shared Folders -> Templates -> Sitka_templates ->
  Collection -> Others._
+
+Recommended Recurrence Interval: **None, run as needed**
  
 image::images/report/appendix/
  
@@ -166,6 +168,8 @@ Weeding - Copies Circulated Fewer Times since a Selected Date (excl. Copied adde
 _Found under Shared Folders -> Templates -> Sitka_templates ->
  Collection -> Others._
 
+Recommended Recurrence Interval: **None, run as needed**
+
 image::images/report/appendix/
  
 Weeding -Copies Never Circulated after a Selected Date (clone)
@@ -174,6 +178,8 @@ Weeding -Copies Never Circulated after a Selected Date (clone)
 _Found under Shared Folders -> Templates -> Sitka_templates ->
  Collection -> Others._
 
+Recommended Recurrence Interval: **None, run as needed**
+
 image::images/report/appendix/
  
 Weeding: Copies Never Circulated after a Date (with Last In-house Use Date) (clone)
@@ -181,6 +187,8 @@ Weeding: Copies Never Circulated after a Date (with Last In-house Use Date) (clo
   
 _Found under Shared Folders -> Templates -> Sitka_templates ->
  Collection -> Others._
+ 
+Recommended Recurrence Interval: **None, run as needed**
 
 image::images/report/appendix/
 
@@ -194,8 +202,6 @@ _Found under Shared Folders -> Templates -> Sitka_templates ->
  Collection -> Others._
  
 Recommended Recurrence Interval: **None, run as needed**
- 
-image::images/report/appendix/popular-titles-shelving-location.png[]
 
 . Enter a name. You may wish to include the period for which you are counting circulations.
 . Add your library.
@@ -207,19 +213,18 @@ circulated more times than your threshold.  If nothing is included in your outpu
 the threshold.
 . Ensure the box is checked for **Run as soon as possible**.
 
+image::images/report/appendix/popular-titles-shelving-location.png[]
+
 Patron Managament
 ~~~~~~~~~~~~~~~~~
 
 Total Patron Count by Patron Profiles
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-_Found under **Shared Folders -> Templates -> Sitka_templates ->
- Patrons -> Patron Count**._
+_Found under Shared Folders -> Templates -> Sitka_templates ->
+ Patrons -> Patron Count._
  
 Recommended Recurrence Interval: **None, run as needed**
- 
-image::images/report/appendix/patron-count.png[]
- 
  
  . Enter a name that includes a specific date as this report will show a snapshot of
 your patrons at the moment the report is run.
@@ -227,3 +232,5 @@ your patrons at the moment the report is run.
 . Enter a date for patron expiration.  To count all patrons enter 1900-01-01 as the date.
 To only count unexpired patrons enter today's date.
 . Ensure the box is checked for **Run as soon as possible**.
+
+image::images/report/appendix/patron-count.png[]
