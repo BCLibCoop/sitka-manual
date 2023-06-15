@@ -152,6 +152,8 @@ _Found under Shared Folders -> Templates -> Sitka_templates ->
 
 image::images/report/appendix/inventory-un-scanned.png[]
 
+////
+
 Weeding - Copies Circulated Fewer Times in recent year(s) (excl. Copied added after a Selected Date) (clone)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -161,6 +163,9 @@ _Found under Shared Folders -> Templates -> Sitka_templates ->
 Recommended Recurrence Interval: **None, run as needed**
  
 image::images/report/appendix/
+
+////
+
  
 Weeding - Copies Circulated Fewer Times since a Selected Date (excl. Copied added after a Selected Date)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -170,7 +175,18 @@ _Found under Shared Folders -> Templates -> Sitka_templates ->
 
 Recommended Recurrence Interval: **None, run as needed**
 
-image::images/report/appendix/
+. Enter a name. You may wish to include the period for which you are counting circulations.
+. Add your library.
+. Add the date after which new items should be excluded. If you don't want to include items 
+catalogued in the current calendar year enter January 1st of the current year.
+. Add the shelving location(s) in which items should be included.
+. Add a date after which to count circulations.  Circulations before this date will not be
+used to calculate whether an item meets the threshold entered in the next filter. 
+. Enter a threshold.  Items that have circulated fewer times after the date selected in the 
+filter above than the number entered will be included in your report output.
+. Ensure the box is checked for **Run as soon as possible** (not shown in the screenshot)
+
+image::images/report/appendix/weeding-copies-circ-fewer-times-since-date.png[]
  
 Weeding -Copies Never Circulated after a Selected Date (clone)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
