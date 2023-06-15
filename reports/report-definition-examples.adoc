@@ -7,8 +7,8 @@ Monthly Circulation Stats
 Monthly Circulation by Shelving Location (New 3.1)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Found under Shared Folders -> Templates -> Sitka_templates -> Circulation -> Monthly
-Circulation Stats.
+Found under **Shared Folders -> Templates -> Sitka_templates -> Circulation -> Monthly
+Circulation Stats**.
 
 Set up as a monthly recurring report.
 
@@ -20,8 +20,8 @@ image::images/report/appendix/monthly-circ-by-shelving-location.png[]
 . Add your library or your branch(es).
 . Check the box for Recurring Report.
 .. Set the *Recurrence Interval* to 1 Month(s).
-.. Check the box beside the date and set the date to the first of the next month.  Set the
-time to between 1:00am PT and 4:00am PT.
+.. Check the box beside the date and set the date to the first of the next month.
+.. Set the time to between 1:00am PT and 4:00am PT.
 
 Monthly Circulation by Circulation modifier (New 3.1)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -32,12 +32,12 @@ Overdues
 Overdues Within Time Span - General (Based on Checkout Library)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Found under Shared Folders -> Templates -> Sitka_templates -> Circulation -> Overdue
- and others.
+Found under **Shared Folders -> Templates -> Sitka_templates -> Circulation -> Overdue
+ and others**.
  
 Works well as a weekly recurring report. 
  
- image::images/report/appendix/overdues-within-time-span-general.png[]
+image::images/report/appendix/overdues-within-time-span-general.png[]
 
 . Enter a name that doesn't include a specific date as this report will run every month.
 . Choose *Relative Date*.
@@ -58,7 +58,7 @@ ILC Stats
 LIBRARY: Outbound ILC holds count for selected month
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Found under Shared Folders -> Templates -> Sitka_templates -> Intra-federation ILL stats.
+Found under **Shared Folders -> Templates -> Sitka_templates -> Intra-federation ILL stats**.
 
 Set up as a monthly recurring report.
 
@@ -69,13 +69,13 @@ image::images/report/appendix/library-outbound-ilc-holds-count-monthly.png[]
 . Choose *Relative Date* and add *1 Month(s) ago*.
 . Check the box for Recurring Report.
 .. Set the *Recurrence Interval* to 1 Month(s).
-.. Check the box beside the date and set the date to the first of the next month.  Set the
-time to between 1:00am PT and 4:00am PT.
+.. Check the box beside the date and set the date to the first of the next month.
+.. Set the time to between 1:00am PT and 4:00am PT.
 
 LIBRARY: Inbound ILC holds count for selected month
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Found under Shared Folders -> Templates -> Sitka_templates -> Intra-federation ILL stats.
+Found under **Shared Folders -> Templates -> Sitka_templates -> Intra-federation ILL stats**.
 
 Set up as a monthly recurring report.
 
@@ -86,5 +86,5 @@ image::images/report/appendix/library-inbound-ilc-holds-count-monthly.png[]
 . Choose *Relative Date* and add *1 Month(s) ago*.
 . Check the box for Recurring Report.
 .. Set the *Recurrence Interval* to 1 Month(s).
-.. Check the box beside the date and set the date to the first of the next month.  Set the
-time to between 1:00am PT and 4:00am PT.
+.. Check the box beside the date and set the date to the first of the next month.
+.. Set the time to between 1:00am PT and 4:00am PT.
