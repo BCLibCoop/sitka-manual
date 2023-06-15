@@ -5,10 +5,10 @@ Circulation Related Statistics
 Monthly Circulation by Shelving Location (New 3.1)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-_Found under **Shared Folders -> Templates -> Sitka_templates -> Circulation -> Monthly
-Circulation Stats**._
+_Found under Shared Folders -> Templates -> Sitka_templates -> Circulation -> Monthly
+Circulation Stats._
 
-Recommended Recurrence Interval: Monthly
+Recommended Recurrence Interval: **Monthly**
 
 image::images/report/appendix/monthly-circ-by-shelving-location.png[]
 
@@ -24,12 +24,12 @@ image::images/report/appendix/monthly-circ-by-shelving-location.png[]
 Monthly Circulation by Circulation modifier (New 3.1)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-_Found under **Shared Folders -> Templates -> Sitka_templates -> Circulation -> Monthly
-Circulation Stats**._
+_Found under Shared Folders -> Templates -> Sitka_templates -> Circulation -> Monthly
+Circulation Stats._
 
-Recommended Recurrence Interval: Monthly
+Recommended Recurrence Interval: **Monthly**
 
-
+image::images/report/appendix/monthly-circ-by-circ-mod.png[]
 
 . Enter a name that doesn't include a specific date as this report will run every month.
 . Choose *Relative Date* and add *1 Month(s) ago*.
@@ -42,10 +42,10 @@ Recommended Recurrence Interval: Monthly
 LIBRARY: Outbound ILC holds count for selected month
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-_Found under **Shared Folders -> Templates -> Sitka_templates -> 
-Intra-federation ILL stats**._
+_Found under Shared Folders -> Templates -> Sitka_templates -> 
+Intra-federation ILL stats._
 
-Recommended Recurrence Interval: Monthly
+Recommended Recurrence Interval: **Monthly**
 
 image::images/report/appendix/library-outbound-ilc-holds-count-monthly.png[]
 
@@ -60,10 +60,10 @@ image::images/report/appendix/library-outbound-ilc-holds-count-monthly.png[]
 LIBRARY: Inbound ILC holds count for selected month
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-_Found under **Shared Folders -> Templates -> Sitka_templates ->
- Intra-federation ILL stats**._
+_Found under Shared Folders -> Templates -> Sitka_templates ->
+ Intra-federation ILL stats._
 
-Recommended Recurrence Interval: Monthly
+Recommended Recurrence Interval: **Monthly**
 
 image::images/report/appendix/library-inbound-ilc-holds-count-monthly.png[]
 
@@ -81,10 +81,10 @@ Collection Management
 Overdues Within Time Span - General (Based on Checkout Library)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-_Found under **Shared Folders -> Templates -> Sitka_templates -> Circulation -> Overdue
- and others**._
+_Found under Shared Folders -> Templates -> Sitka_templates -> Circulation -> Overdue
+ and others._
  
-Recommended Recurrence Interval: Weekly 
+Recommended Recurrence Interval: **Weekly** 
  
 image::images/report/appendix/overdues-within-time-span-general.png[]
 
@@ -109,11 +109,12 @@ _Found under **Shared Folders -> Templates -> Sitka_templates ->
 
 Recommended Recurrence Interval: None, run as needed
 
-image::images/report/appendix/library-inbound-ilc-holds-count-monthly.png[]
+image::images/report/appendix/title-item-count-location-circ-mod.png[]
 
 . Enter a name that includes a specific date as this report will show a snapshot of
 your collection at the moment the report is run.
 . Add your library.
+. Ensure the box is checked for **Run as soon as possible**.
 
 
 
