@@ -108,18 +108,28 @@ _Found under Shared Folders -> Templates -> Sitka_templates ->
 
 Recommended Recurrence Interval: **None, run as needed**
 
-image::images/report/appendix/title-item-count-location-circ-mod.png[]
-
 . Enter a name that includes a specific date as this report will show a snapshot of
 your collection at the moment the report is run.
 . Add your library.
 . Ensure the box is checked for **Run as soon as possible**.
+
+image::images/report/appendix/title-item-count-location-circ-mod.png[]
 
 Inventory - Scanned Items Count by Shelving Location (NEW)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 _Found under Shared Folders -> Templates -> Sitka_templates ->
  Inventory._
+ 
+Recommended Recurrence Interval: **None, run as needed**
+ 
+. Enter a descriptive name that includes the date on which you ran the report.  You will likely run this report several times
+over the course of performing inventory.
+. Select your library.
+. Enter the date on which you started doing inventory.
+. Ensure the box is checked for **Run as soon as possible**.
+
+image::images/report/appendix/inventory-scanned-count-by-location.png
 
 Inventory - Un-scanned Items
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -127,6 +137,20 @@ Inventory - Un-scanned Items
 _Found under Shared Folders -> Templates -> Sitka_templates ->
  Inventory._
 
+Recommended Recurrence Interval: **None, run as needed**
+
+. Enter a descriptive name.
+. Select your library.
+. Add the on-shelf status for your library such as _Available_ and _Reshelving_.  With this report you are looking for items
+in these statuses that should have been on the shelf and scanned for inventory but were not.
+. Add the shelving location(s) you want included in your report.
+. Enter the date on which you started doing inventory.
+. Ensure the box is checked for **Run as soon as possible**.
+
+_Found under Shared Folders -> Templates -> Sitka_templates ->
+ Inventory._
+
+image::images/report/appendix/inventory-un-scanned.png[]
 
 Weeding - Copies Circulated Fewer Times in recent year(s) (excl. Copied added after a Selected Date) (clone)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -134,23 +158,31 @@ Weeding - Copies Circulated Fewer Times in recent year(s) (excl. Copied added af
 _Found under Shared Folders -> Templates -> Sitka_templates ->
  Collection -> Others._
  
+image::images/report/appendix/
+ 
 Weeding - Copies Circulated Fewer Times since a Selected Date (excl. Copied added after a Selected Date)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  
 _Found under Shared Folders -> Templates -> Sitka_templates ->
  Collection -> Others._
+
+image::images/report/appendix/
  
 Weeding -Copies Never Circulated after a Selected Date (clone)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  
 _Found under Shared Folders -> Templates -> Sitka_templates ->
  Collection -> Others._
+
+image::images/report/appendix/
  
 Weeding: Copies Never Circulated after a Date (with Last In-house Use Date) (clone)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   
 _Found under Shared Folders -> Templates -> Sitka_templates ->
  Collection -> Others._
+
+image::images/report/appendix/
 
 Collection Promotion
 ~~~~~~~~~~~~~~~~~~~~
