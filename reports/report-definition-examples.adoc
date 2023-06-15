@@ -175,7 +175,7 @@ _Found under Shared Folders -> Templates -> Sitka_templates ->
 
 Recommended Recurrence Interval: **None, run as needed**
 
-. Enter a name. You may wish to include the period for which you are counting circulations.
+. Enter a descriptive name.
 . Add your library.
 . Add the date after which new items should be excluded. If you don't want to include items 
 catalogued in the current calendar year enter January 1st of the current year.
@@ -185,6 +185,13 @@ used to calculate whether an item meets the threshold entered in the next filter
 . Enter a threshold.  Items that have circulated fewer times after the date selected in the 
 filter above than the number entered will be included in your report output.
 . Ensure the box is checked for **Run as soon as possible** (not shown in the screenshot)
+
+[NOTE]
+======
+For this example, the items that will be included in the report output are items catalogued 
+before January 1st 2023 (Active Date/Time), that have the shelving location Adult Fiction,
+and have circulated less 3 times since January 1st 2021.
+======
 
 image::images/report/appendix/weeding-copies-circ-fewer-times-since-date.png[]
  
@@ -196,8 +203,26 @@ _Found under Shared Folders -> Templates -> Sitka_templates ->
 
 Recommended Recurrence Interval: **None, run as needed**
 
-image::images/report/appendix/
- 
+. Enter a descriptive name.
+. Add the date after which new items should be excluded. If you don't want to include items 
+catalogued in the current calendar year enter January 1st of the current year.
+. Add your library.
+. Add the shelving location(s) in which items should be included.
+. Add a date for last checkout.  Items that have not been checked out since this date
+will be included in your output.
+. Ensure the box is checked for **Run as soon as possible** 
+
+[NOTE]
+======
+For this example, the items that will be included in the report output are items catalogued 
+before January 1st 2023 (Active Date/Time), have the shelving location Adult Fiction,
+ and that have not circulated since June 1st 2022 (Last Circulation Date).
+======
+
+image::images/report/appendix/weeding-never-circ-since-date.png[]
+
+
+//// 
 Weeding: Copies Never Circulated after a Date (with Last In-house Use Date) (clone)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   
@@ -206,7 +231,26 @@ _Found under Shared Folders -> Templates -> Sitka_templates ->
  
 Recommended Recurrence Interval: **None, run as needed**
 
+WHY DOES THIS TEMPLATE HAVE A STATUS FILTER?
+
+. Enter a descriptive name.
+. Add the date after which new items should be excluded. If you don't want to include items 
+catalogued in the current calendar year enter January 1st of the current year.
+. Add your library.
+. Add the shelving location(s) in which items should be included.
+. Add a date for last checkout.  Items that have not been checked out since this date
+will be included in your output.
+. Ensure the box is checked for **Run as soon as possible** 
+
+[NOTE]
+======
+For this example, the items that will be included in the report output are items catalogued 
+before January 1st 2023 (Active Date/Time), have the shelving location Adult Fiction,
+ and that have not circulated since June 1st 2022 (Last Circulation Date).
+======
+
 image::images/report/appendix/
+////
 
 Collection Promotion
 ~~~~~~~~~~~~~~~~~~~~
@@ -233,6 +277,24 @@ image::images/report/appendix/popular-titles-shelving-location.png[]
 
 Patron Managament
 ~~~~~~~~~~~~~~~~~
+
+Monthly Patron Registration
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+_Found under Shared Folders -> Templates -> Sitka_templates ->
+ Patrons -> Newly Registered/Opted-in Patrons._
+ 
+Recommended Recurrence Interval: **Monthly**
+ 
+. Enter a name that doesn't include a specific date as this report will run every month.
+. Add your library.
+. Choose *Relative Date* and add *1 Month(s) ago*.
+. Check the box for Recurring Report.
+.. Set the *Recurrence Interval* to 1 Month(s).
+.. Check the box beside the date and set the date to the first of the next month.
+.. Set the time to between 1:00am PT and 4:00am PT.
+
+image::images/report/appendix/monthly-patrons-registration.png[]
 
 Total Patron Count by Patron Profiles
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
