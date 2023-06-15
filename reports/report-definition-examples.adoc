@@ -35,8 +35,22 @@ Overdues Within Time Span - General (Based on Checkout Library)
 Found under Shared Folders -> Templates -> Sitka_templates -> Circulation -> Overdue
  and others.
  
+Works well as a weekly recurring report. 
+ 
  image::images/report/appendix/overdues-within-time-span-general.png[]
 
+. Enter a name that doesn't include a specific date as this report will run every month.
+. Choose *Relative Date*.
+.. Enter the time period you would like to report on. The earliest date (bigger number)
+ goes first.
+.. If running as a weekly report it can be handy to use increments of 7.
+. Add your library.
+. Check the box for Recurring Report.
+.. Set the *Recurrence Interval* to 1 week(s).
+.. Check the box beside the date and set the date to the first time you want the report
+to run.  The report will run on the same day of the week every week; the example report 
+will run every Wednesday.
+.. Set the time to between 1:00am PT and 4:00am PT.
 
 ILC Stats
 ~~~~~~~~~
