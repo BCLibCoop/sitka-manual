@@ -190,7 +190,7 @@ filter above than the number entered will be included in your report output.
 ======
 For this example, the items that will be included in the report output are items catalogued 
 before January 1st 2023 (Active Date/Time), that have the shelving location Adult Fiction,
-and have circulated less 3 times since January 1st 2021.
+and have circulated fewer than 3 times since January 1st 2021.
 ======
 
 image::images/report/appendix/weeding-copies-circ-fewer-times-since-date.png[]
