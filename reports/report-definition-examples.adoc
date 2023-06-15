@@ -107,7 +107,7 @@ Title & Item Count by Shelving Location and Circulation Modifier
 _Found under **Shared Folders -> Templates -> Sitka_templates ->
  Collection -> Item and Title Count**._
 
-Recommended Recurrence Interval: None, run as needed
+Recommended Recurrence Interval: **None, run as needed**
 
 image::images/report/appendix/title-item-count-location-circ-mod.png[]
 
@@ -129,7 +129,20 @@ Popular Titles at Selected Shelving Locations within Specified Time Span
 
 _Found under **Shared Folders -> Templates -> Sitka_templates ->
  Collection -> Others**._
+ 
+Recommended Recurrence Interval: **None, run as needed**
+ 
+image::images/report/appendix/popular-titles-shelving-location.png[]
 
+. Enter a name. You may wish to include the period for which you are counting circulations.
+. Add your library.
+. Enter the time period you would like to report on. The earliest date goes first.
+. Pick the shelving location(s) to be included.  Your output will only include items in the
+selected shelving location(s).
+. Enter a number for the circulation threshold. Your output will only include items that have
+circulated more times than your threshold.  If nothing is included in your output try lowering
+the threshold.
+. Ensure the box is checked for **Run as soon as possible**.
 
 Patron Managament
 ~~~~~~~~~~~~~~~~~
@@ -140,6 +153,14 @@ Total Patron Count by Patron Profiles
 _Found under **Shared Folders -> Templates -> Sitka_templates ->
  Patrons -> Patron Count**._
  
+Recommended Recurrence Interval: **None, run as needed**
+ 
+image::images/report/appendix/patron-count.png[]
+ 
+ 
  . Enter a name that includes a specific date as this report will show a snapshot of
 your patrons at the moment the report is run.
 . Add your library.
+. Enter a date for patron expiration.  To count all patrons enter 1900-01-01 as the date.
+To only count unexpired patrons enter today's date.
+. Ensure the box is checked for **Run as soon as possible**.
