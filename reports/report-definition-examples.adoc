@@ -103,8 +103,8 @@ will run every Wednesday.
 Title & Item Count by Shelving Location and Circulation Modifier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-_Found under **Shared Folders -> Templates -> Sitka_templates ->
- Collection -> Item and Title Count**._
+_Found under Shared Folders -> Templates -> Sitka_templates ->
+ Collection -> Item and Title Count._
 
 Recommended Recurrence Interval: **None, run as needed**
 
@@ -115,10 +115,42 @@ your collection at the moment the report is run.
 . Add your library.
 . Ensure the box is checked for **Run as soon as possible**.
 
+Inventory - Scanned Items Count by Shelving Location (NEW)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+_Found under Shared Folders -> Templates -> Sitka_templates ->
+ Inventory._
+
+Inventory - Un-scanned Items
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+_Found under Shared Folders -> Templates -> Sitka_templates ->
+ Inventory._
 
 
-Weeding Reports to go here
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+Weeding - Copies Circulated Fewer Times in recent year(s) (excl. Copied added after a Selected Date) (clone)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+_Found under Shared Folders -> Templates -> Sitka_templates ->
+ Collection -> Others._
+ 
+Weeding - Copies Circulated Fewer Times since a Selected Date (excl. Copied added after a Selected Date)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+_Found under Shared Folders -> Templates -> Sitka_templates ->
+ Collection -> Others._
+ 
+Weeding -Copies Never Circulated after a Selected Date (clone)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+_Found under Shared Folders -> Templates -> Sitka_templates ->
+ Collection -> Others._
+ 
+Weeding: Copies Never Circulated after a Date (with Last In-house Use Date) (clone)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  
+_Found under Shared Folders -> Templates -> Sitka_templates ->
+ Collection -> Others._
 
 Collection Promotion
 ~~~~~~~~~~~~~~~~~~~~
@@ -126,8 +158,8 @@ Collection Promotion
 Popular Titles at Selected Shelving Locations within Specified Time Span
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-_Found under **Shared Folders -> Templates -> Sitka_templates ->
- Collection -> Others**._
+_Found under Shared Folders -> Templates -> Sitka_templates ->
+ Collection -> Others._
  
 Recommended Recurrence Interval: **None, run as needed**
  
