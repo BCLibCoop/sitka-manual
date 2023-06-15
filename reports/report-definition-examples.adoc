@@ -7,6 +7,9 @@ Monthly Circulation Stats
 Monthly Circulation by Shelving Location (New 3.1)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Found under Shared Folders -> Templates -> Sitka_templates -> Circulation -> Monthly
+Circulation Stats.
+
 Set up as a monthly recurring report.
 
 image::images/report/appendix/monthly-circ-by-shelving-location.png[]
@@ -23,11 +26,25 @@ time to between 1:00am PT and 4:00am PT.
 Monthly Circulation by Circulation modifier (New 3.1)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Overdues
+~~~~~~~~
+
+Overdues Within Time Span - General (Based on Checkout Library)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Found under Shared Folders -> Templates -> Sitka_templates -> Circulation -> Overdue
+ and others.
+ 
+ image::images/report/appendix/overdues-within-time-span-general.png[]
+
+
 ILC Stats
 ~~~~~~~~~
 
 LIBRARY: Outbound ILC holds count for selected month
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Found under Shared Folders -> Templates -> Sitka_templates -> Intra-federation ILL stats.
 
 Set up as a monthly recurring report.
 
@@ -43,6 +60,8 @@ time to between 1:00am PT and 4:00am PT.
 
 LIBRARY: Inbound ILC holds count for selected month
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Found under Shared Folders -> Templates -> Sitka_templates -> Intra-federation ILL stats.
 
 Set up as a monthly recurring report.
 
