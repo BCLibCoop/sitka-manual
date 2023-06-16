@@ -122,10 +122,8 @@ xref:_recurring_reports[recurring reports] so staff don't need to manually run t
 .Key templates are:
 * _By SelfCheck (Evergreen SelfChek Module): Circ Stats within Time Frame (by Month)_
 * _Monthly Circulation by Patron Home Library_
-* _xref:_monthly_circulation_by_circulation_modifier_new_3_1
-[Monthly Circulation by Circulation modifier (New 3.1)]_
-* _xref:_monthly_circulation_by_shelving_location_new_3_1
-[Monthly Circulation by Shelving Location (New 3.1)]_ 
+* _xref:_monthly_circulation_by_circulation_modifier_new_3_1[Monthly Circulation by Circulation modifier (New 3.1)]_
+* _xref:_monthly_circulation_by_shelving_location_new_3_1[Monthly Circulation by Shelving Location (New 3.1)]_ 
 * _Monthly Pre-Cat Circulation Count_
 
 Circulation within time frame
@@ -154,8 +152,7 @@ the applicable patrons.
 * _Lost-with-Bills Item List (Owned by Selected Libraries) (x Months ago) (New 3.1)_
 * _Overdue Items Checked out at Other Libraries_ - helps track your items borrowed by another library
 * _Overdues Within Time Span -Phone List for Patrons without Email (based on Checkout Library)_
-* _xref:_overdues_within_time_span_general_based_on_checkout_library
-[Overdues Within Time Span - General (Based on Checkout Library)]_
+* _xref:_overdues_within_time_span_general_based_on_checkout_library[Overdues Within Time Span - General (Based on Checkout Library)]_
 
 In-house use stats
 ++++++++++++++++++
@@ -195,8 +192,7 @@ counts between title and item.
 * _Count of Electronic Records_
 * _Count of Titles & Copies catalogued Within Selected Month_
 * _Title & Item Count by Shelving Location_
-* _xref:_title_amp_item_count_by_shelving_location_and_circulation_modifier
-[Title & Item Count by Shelving Location and Circulation Modifier]_
+* _xref:_title_amp_item_count_by_shelving_location_and_circulation_modifier[Title & Item Count by Shelving Location and Circulation Modifier]_
 
 Copy List by Item Attributes
 ++++++++++++++++++++++++++++
@@ -242,14 +238,11 @@ including templates related to deleted items, pre-catalogued items, and weeding.
 
 .Key templates are:
 * _Deleted Items Count by Shelving Location for selected month_
-* _xref:_popular_titles_at_selected_shelving_locations_within_specified_time_span
-[Popular Titles at Selected Shelving Locations within Specified Time Span]_
+* _xref:_popular_titles_at_selected_shelving_locations_within_specified_time_span[Popular Titles at Selected Shelving Locations within Specified Time Span]_
 * _Pre-cat item list with current title and author (non-deleted only)_
 * _Value of Collection by Shelving Location by item circ library_
-* _xref:_weeding_copies_circulated_fewer_times_since_a_selected_date_excl_copied_added_after_a_selected_date
-[Weeding - Copies Circulated Fewer Times since a Selected Date (excl. Copied added after a Selected Date)]_
-* _xref:_weeding_copies_never_circulated_after_a_selected_date_clone
-[Weeding -Copies Never Circulated after a Selected Date (clone)]_
+* _xref:_weeding_copies_circulated_fewer_times_since_a_selected_date_excl_copied_added_after_a_selected_date[Weeding - Copies Circulated Fewer Times since a Selected Date (excl. Copied added after a Selected Date)]_
+* _xref:_weeding_copies_never_circulated_after_a_selected_date_clone[Weeding -Copies Never Circulated after a Selected Date (clone)]_
 
 Custom Templates
 ^^^^^^^^^^^^^^^^
@@ -285,18 +278,15 @@ Here you will find templates to track interlibrary loans done via Interlibrary C
 These templates are relavant to libraries participating in BC ILC, Sea to Sky ILC, or Spruce ILC.
 
 .Key templates are:
-* _xref:_library_inbound_ilc_holds_count_for_selected_month
-[LIBRARY: Inbound ILC holds count for selected month]_
-* _xref:_library_outbound_ilc_holds_count_for_selected_month
-[LIBRARY: Outbound ILC holds count for selected month]_
+* _xref:_library_inbound_ilc_holds_count_for_selected_month[LIBRARY: Inbound ILC holds count for selected month]_
+* _xref:_library_outbound_ilc_holds_count_for_selected_month[LIBRARY: Outbound ILC holds count for selected month]_
 
 Inventory
 ^^^^^^^^^
 
 Here you will find two templates to assist you in running inventory at your library.
 
-* _xref:_inventory_scanned_items_count_by_shelving_location_new
-[Inventory - Scanned Items Count by Shelving Location (NEW)]_ - this template gives you a count
+* _xref:_inventory_scanned_items_count_by_shelving_location_new[Inventory - Scanned Items Count by Shelving Location (NEW)]_ - this template gives you a count
  of all items scanned in the specified period, broken down by shelving location.
 * _xref:_inventory_un_scanned_items[Inventory - Un-scanned Items]_ - this template gives a 
 list of all items not scanned in the specified time period, with the option to filter the 
