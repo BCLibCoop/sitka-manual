@@ -187,8 +187,8 @@ catalogued in the current calendar year enter January 1st of the current year.
 . Add the shelving location(s) in which items should be included.
 . Add a date after which to count circulations.  Circulations before this date will not be
 used to calculate whether an item meets the threshold entered in the next filter. 
-. Enter a threshold.  Items that have circulated fewer times after the date selected in the 
-filter above than the number entered will be included in your report output.
+. Enter a threshold.  Items that have circulated fewer times than the threshold, after the date selected 
+for Checkout Date/Time, will be included in your report output.
 . Ensure the box is checked for *Run as soon as possible* (not shown in the screenshot)
 
 [NOTE]
