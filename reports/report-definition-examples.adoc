@@ -29,7 +29,8 @@ Circulation Stats._
 
 Recommended Recurrence Interval: *Monthly*
 
-. Enter a name that doesn't include a specific date as this report will run every month.
+. Enter a name that doesn't include a specific date as this report will run every month. For example, "Monthly Circulation by 
+Circ Modifier", not "January Circulation by Circ Modifier".
 . Choose *Relative Date* and add *1 Month(s) ago*.
 . Add your library or your branch(es).
 . Check the box for Recurring Report.
@@ -47,7 +48,8 @@ Intra-federation ILL stats._
 
 Recommended Recurrence Interval: *Monthly*
 
-. Enter a name that doesn't include a specific date as this report will run every month.
+. Enter a name that doesn't include a specific date as this report will run every month. For example, "Monthly Outbound ILC",
+ not "January Outbound ILC".
 . Add your library.
 . Choose *Relative Date* and add *1 Month(s) ago*.
 . Check the box for Recurring Report.
@@ -65,7 +67,8 @@ _Found under Shared Folders -> Templates -> Sitka_templates ->
 
 Recommended Recurrence Interval: *Monthly*
 
-. Enter a name that doesn't include a specific date as this report will run every month.
+. Enter a name that doesn't include a specific date as this report will run every month. For example, "Monthly Inbound ILC",
+ not "January Inbound ILC".
 . Add your library.
 . Choose *Relative Date* and add *1 Month(s) ago*.
 . Check the box for Recurring Report.
@@ -86,7 +89,8 @@ _Found under Shared Folders -> Templates -> Sitka_templates -> Circulation -> Ov
  
 Recommended Recurrence Interval: *Weekly*
  
-. Enter a name that doesn't include a specific date as this report will run every week.
+. Enter a name that doesn't include a specific date as this report will run every week. For example, "Items 7 to 21 Days Overdue"
+, not "Overdues for January 9th to 23rd".
 . Choose *Relative Date*.
 .. Enter the time period you would like to report on. The earliest date (bigger number)
  goes first.
@@ -287,7 +291,8 @@ _Found under Shared Folders -> Templates -> Sitka_templates ->
  
 Recommended Recurrence Interval: *Monthly*
  
-. Enter a name that doesn't include a specific date as this report will run every month.
+. Enter a name that doesn't include a specific date as this report will run every month. For example, "Monthly Count of Patron
+Registrations", not "January Patron Registrations".
 . Add your library.
 . Choose *Relative Date* and add *1 Month(s) ago*.
 . Check the box for Recurring Report.
