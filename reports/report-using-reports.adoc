@@ -88,6 +88,12 @@ You can run one off reports on demand or schedule recurring reports to run autom
 report you fill out the reports form which creates a report definition, which tells Evergreen how to run 
 the report, what information to include, and what type of output to provide you with.
 
+[TIP]
+=====
+Examples of how to fill in the report definition for commonly used report templates can be
+found in xref:_report_definition_examples[].
+===== 
+
 . Go to *Administration* -> *Reports*
 . In the _My Folders_ section click on the arrow beside the _Templates_ folder to see your 
 template folders. Use the arrows to expand the folder tree until you find the folder containing
