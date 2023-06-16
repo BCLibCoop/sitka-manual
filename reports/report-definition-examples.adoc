@@ -92,7 +92,7 @@ Recommended Recurrence Interval: *Weekly*
 .. If running as a weekly report it can be handy to use increments of 7.
 . Add your library or your branch(es).
 . Check the box for Recurring Report.
-.. Set the *Recurrence Interval* to *1 week(s)*.
+.. Set the *Recurrence Interval* to *1 Week(s)*.
 .. Check the box beside the date and set the date to the first time you want the report
 to run.  The report will run on the same day of the week every week; the example report 
 will run every Wednesday.
@@ -141,7 +141,7 @@ Recommended Recurrence Interval: *None, run as needed*
 
 . Enter a descriptive name.
 . Select your library.
-. Add the on-shelf status for your library such as _Available_ and _Reshelving_.  With this report you are looking for items
+. Add the on-shelf statuses for your library such as _Available_ and _Reshelving_.  With this report you are looking for items
 in these statuses that should have been on the shelf and scanned for inventory but were not.
 . Add the shelving location(s) you want included in your report.
 . Enter the date on which you started doing inventory.
@@ -160,7 +160,7 @@ Weeding - Copies Circulated Fewer Times in recent year(s) (excl. Copied added af
 _Found under Shared Folders -> Templates -> Sitka_templates ->
  Collection -> Others._
 
-Recommended Recurrence Interval: **None, run as needed**
+Recommended Recurrence Interval: *None, run as needed*
  
 image::images/report/appendix/
 
@@ -173,7 +173,7 @@ Weeding - Copies Circulated Fewer Times since a Selected Date (excl. Copied adde
 _Found under Shared Folders -> Templates -> Sitka_templates ->
  Collection -> Others._
 
-Recommended Recurrence Interval: *None, run as needed**
+Recommended Recurrence Interval: *None, run as needed*
 
 . Enter a descriptive name.
 . Add your library.
@@ -215,8 +215,8 @@ will be included in your output.
 [NOTE]
 ======
 For this example, the items that will be included in the report output are items catalogued 
-before January 1st 2023 (Active Date/Time), have the shelving location Adult Fiction,
- and that have not circulated since June 1st 2022 (Last Circulation Date).
+before January 1st 2023 (Active Date/Time), that have the shelving location Adult Fiction,
+ and have not circulated since June 1st 2022 (Last Circulation Date).
 ======
 
 image::images/report/appendix/weeding-never-circ-since-date.png[]
