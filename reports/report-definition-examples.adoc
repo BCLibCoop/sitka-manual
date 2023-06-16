@@ -10,7 +10,8 @@ Circulation Stats._
 
 Recommended Recurrence Interval: *Monthly*
 
-. Enter a name that doesn't include a specific date as this report will run every month.
+. Enter a name that doesn't include a specific date as this report will run every month. For example, "Monthly Circulation by 
+Shelving Location", not "January Circulation by Shelving Location".
 . Choose *Relative Date* and add *1 Month(s) ago*.
 . Add your library or your branch(es).
 . Check the box for Recurring Report.
