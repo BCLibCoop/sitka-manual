@@ -200,14 +200,12 @@ Character Codes for Leader and 008 Field Grid
 
 include::cat/edit-marc/edit-leader-008-appendix.adoc[]
 
-////
-
 [appendix]
 Report Definition Examples
 ==========================
 
 include::reports/report-definition-examples.adoc[]
-////
+
 
 [index]
 Index
