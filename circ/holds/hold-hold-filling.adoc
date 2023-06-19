@@ -36,7 +36,8 @@ In the first 24 hours after a hold is placed, Evergreen looks for potential item
 the eligible item table approximately every about 15 minutes.  After the first 24 hours, Evergreen 
 checks for eligible items once a day at approximately the time the hold was initially placed. 
 The time is recorded in the hold request record in a field called *Previous Check Time*, which is 
-viewable when viewing holds.  If a potential target is found, it will be added to the hold target table. 
+viewable when viewing holds.  If a potential target is found, it will be added to the hold target table. Items that are age 
+hold protected will not be used to fill holds at other libraries.
 
 While checking for eligible items to add to the table Evergreen is also retargeting the hold.  It does
 this by removing the current target, checking the table, and picking another target, which may or may not
@@ -58,16 +59,6 @@ unless the pickup library imposes special rules prioritizing a preferred hold ta
 Newly catalogued items and items coming out of a non-holdable status (such as _Lost_) are not automatically
 added to the eligible item table.  These items will be added when Evergreen does its daily check but 
 libraries may prefer to force an earlier update of the table.  This is done by retargeting the hold.
-
-[NOTE]
-======
-An item can be a potential target to fill a hold and still not be able to fill the hold.
-
-For example, if an item is holdable, in a holdable shelving location, and has a holdable 
-item status it is a potential target.  However, if the library that owns it is using 
-age based hold protection the item cannot fill a hold at another library until the age based 
-hold protection period is finished.
-======
 
 
 Holds Queue and Filling Sequence
