@@ -1,6 +1,42 @@
 Batch Loading Bibliographic Records
 -----------------------------------
 
+
+https://youtu.be/2ZtDXTqaXcE[*Sitka Training Video - Uploading MARC Records via MARC Batch Import (3:49)*]
+
+If the title records you need are not already in the Evergreen database, it is possible to upload vendor-supplied MARC files into EverLibrargreen. Each file may contain one or more MARC records. During the uploading process, Evergreen matches each record in the file with existing records in Evergreen based on pre-defined match points called *Record Match Sets*. Records without matches may be imported directly into the catalogue. Records with matches must be examined by cataloguers. Due to the nature of Sitka's shared database, Co-op Support strongly advises against allowing Evergreen to select a merge target, and cautions you to adhere to instructions for selecting a match as outlined in this chapter.
+
+Cataloguers should follow the policy for batch loading records which can be found in the section  
+http://docs.libraries.coop/policy/_batch_loading_bibliographic_records.html[Batch Loading Bibliographic Records] in Sitka's
+Evergreen Policy & Best Practices Manual.
+
+Importing records involves two steps: 1. all records in the file are first uploaded to the server and kept outside the catalogue as a queue; 2. cataloguers view the records in the queue to import them into the Evergreen catalogue. Cataloguers can view both the incoming and existing matching records to decide which one to use by selecting an appropriate merge profile. You may merge the records with either the incoming or existing record as the lead, while keeping some MARC tags in both records. Overlay/Merge Profile decides how two records are merged.
+
+Holding records can be created if the incoming MARC records contain holding information in a pre-defined format. Contact Co-op Support about the acceptable format if you want to load holding records.
+
+All records in a queue can be exported to a CSV file or printed in non-MARC format (emailing is not available yet). All records imported from a single queue can be added to a Record Bucket.
+
+[TIP]
+=====
+There are some settings, namely Record Display Attributes, Record Match Sets, Merge/Overlay Profiles and Import Item Attributes on this screen that are reserved for Sitka server administration. You should not attempt to edit them as they affect all bibliographic records.
+
+*Record Display Attributes* sets what fields will display on Inspect Queue screen, once a file of records has been loaded. Important descriptive MARC tags and control numbers are selected to display.
+
+*Record Match Sets* are profiles set up by Sitka to allow for different match points to be used when loading records. The default profile is SitkaMatch. It matches on the 901c (record id),  020a (ISBN), 022a (ISSN), or 035a (System Control Number). It is used in the majority of record loads. The other profiles are only used to load special records. Please contact Co-op Support for which profile to use if your records require a set of different match points to load.
+
+*Merge/Overlay Profiles* control how the incoming and existing MARC records are merged. Two profiles have been created for all Sitka libraries to use: Merge Using INCOMING Record and Merge Using EXISTING Record.
+
+* Merge Using INCOMING Record: all tags in the INCOMING record will be brought into the final record. Tags:
+050, 055, 590, 595, 690, 852 and 856 in the ORIGINAL record will be preserved in the final record. The rest will be removed.
+* Merge Using EXISTING Record: all tags in the ORIGINAL record will be kept. Tags: 050, 055, 590, 595, 690,
+852 and 856 in the INCOMING record will be brought into the final record. The rest will be removed upon merge.
++
+These profiles ensure local data in these six fields in a merged MARC record is never overwritten, and holding records (in tag 852) can be loaded to either the existing MARC record or with the incoming record.
+
+*Holdings Import Profiles* are profiles set up by Sitka to allow importing of item records with vendor supplied MARC records. The vendor will need to send item level information in a local MARC tag and subfields (eg. 9xx or 852), and this information can be mapped into item records when the bibliographic records are loaded. Please contact Co-op Support if you are interested in loading item records with your bibliographic records.
+=====
+
+
 include::add-marc-batch/marc-import-brief-MARC-file.adoc[Importing Brief MARC Record Files]
 
 include::add-marc-batch/marc-import-full-MARC-file.adoc[Importing Full MARC Record Files]
