@@ -1,6 +1,7 @@
 Batch Loading Bibliographic Records
 -----------------------------------
 
+////
 
 https://youtu.be/2ZtDXTqaXcE[*Sitka Training Video - Uploading MARC Records via MARC Batch Import (3:49)*]
 
@@ -43,7 +44,7 @@ include::add-marc-batch/marc-import-full-MARC-file.adoc[Importing Full MARC Reco
 
 include::add-marc-batch/marc-manage-queue.adoc[Managing Import Queues]
 
-
+////
 
 include::add-marc-batch/marc-vandelay.adoc[Batch Importing Bibliographic Records]
 
