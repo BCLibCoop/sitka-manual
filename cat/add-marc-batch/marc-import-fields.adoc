@@ -12,20 +12,27 @@ image:images/cat/marc/marc-importer-1.png[]
 | Field | Description | Required | Note
 | Apply/Create Form Templates | Templates can be set up for different vendors or types of
 records. | No | See xref:_import_templates[] for instruction on setting up templates.
-| Record Type | | Yes | Defaults to _Bibliographic Records_
-| Select or Create Queue | Indicates the type of records being imported. | Yes | Currently only
-bibliographic records are imported.
+| Record Type | Indicates the type of records being imported. | Yes | Defaults to 
+_Bibliographic Records_ which are the only type of records currently imported here.
+| Select or Create Queue |This groups your record into a queue so you can work with them. 
+| Yes | Queues are linked to the match sets and holdings import profile. You cannot change 
+a record match set or holdings import profile once it has been set for a queue.
 | Record Match Set | This tells Evergreen what to look for to determine if an incoming 
 record matches an existing record. | Yes | Cataloguers should always use _SitkaMatch_ unless
 otherwise instructed by Co-op Support.  It matches on the 901c 
 (record id),  020a (ISBN), 022a (ISSN), or 035a (System Control Number). 
-| Holdings Import Profile | This is used why the MARC records include holdings information
-for Evergreen to create items with. | No | Please contact Co-op Support 
-| Merge Profile | | No |
+| Holdings Import Profile | This is used when the MARC records include holdings information
+for Evergreen to create items with. | No | Please contact 
+https://bc.libraries.coop/support/[Co-op Support] if your vendor provides
+holdings information in your MARC records.
+| Merge Profile | This tells Evergreen which record to use as the lead record and what fields
+to preserve from the non-lead record. | No | See 
+http://docs.libraries.coop/policy/_batch_loading_bibliographic_records.html#_library_specific_batch_loading[Sitka's 
+Library Specific Batch Loading policy] for information on which profile to select.
 | Insufficient Quality Fall-Through Profile | | No | Not used by Sitka
 | Best/Single Match Minimum Quality Ration | | No | Not used by Sitka
-| Optional Session Name | | No |
-| Remove MARC Field Groups | | No |
+| Optional Session Name | NEED INFO | No |
+| Remove MARC Field Groups | | No | Not used by Sitka
 | Select a Record Source | | Yes |
 | Limit Matches to Bucket | | No |
 | Import Non-Matching Records | | No |
@@ -35,7 +42,8 @@ for Evergreen to create items with. | No | Please contact Co-op Support
 | Auto-overlay In-process Acquisitions Items | | No |
 | Auto-overlay On-order Cataloging Items | | No |
 | Use Org Unit Matching in Copy to Determine Best Match | | No |
-| File to Upload | | Yes |
+| File to Upload | This is where you select your file of MARC records. | Yes | Co-op Support
+recommends loading no more than XXXX MARC records in a single file.
 |===
 
 
