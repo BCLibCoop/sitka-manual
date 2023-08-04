@@ -9,19 +9,33 @@ image:images/cat/marc/marc-importer-1.png[]
 
 [options="header"]
 |===
-| Attribute | Description | Required | Note
-| Templates
-| Record Type
-| Queue
-| Record Match Set
-| Holdings Import Profile
-| Merge Profile
-| Insufficient Quality Fall-Through Profile
-| Best/Single Match Minimum Quality Ration
-| Session Name
-| Remove MARC Field Groups
-| Record Source
-| Limit Matches to Bucket
+| Field | Description | Required | Note
+| Apply/Create Form Templates | Templates can be set up for different vendors or types of
+records. | No | See xref:_import_templates[] for instruction on setting up templates.
+| Record Type | | Yes | Defaults to _Bibliographic Records_
+| Select or Create Queue | Indicates the type of records being imported. | Yes | Currently only
+bibliographic records are imported.
+| Record Match Set | This tells Evergreen what to look for to determine if an incoming 
+record matches an existing record. | Yes | Cataloguers should always use _SitkaMatch_ unless
+otherwise instructed by Co-op Support.  It matches on the 901c 
+(record id),  020a (ISBN), 022a (ISSN), or 035a (System Control Number). 
+| Holdings Import Profile | This is used why the MARC records include holdings information
+for Evergreen to create items with. | No | Please contact Co-op Support 
+| Merge Profile | | No |
+| Insufficient Quality Fall-Through Profile | | No | Not used by Sitka
+| Best/Single Match Minimum Quality Ration | | No | Not used by Sitka
+| Optional Session Name | | No |
+| Remove MARC Field Groups | | No |
+| Select a Record Source | | Yes |
+| Limit Matches to Bucket | | No |
+| Import Non-Matching Records | | No |
+| Merge On Exact Match (901c) | | No |
+| Merge On Single Match | | No |
+| Merge On Best Match | | No |
+| Auto-overlay In-process Acquisitions Items | | No |
+| Auto-overlay On-order Cataloging Items | | No |
+| Use Org Unit Matching in Copy to Determine Best Match | | No |
+| File to Upload | | Yes |
 |===
 
 
@@ -29,9 +43,7 @@ Record Match Sets
 ^^^^^^^^^^^^^^^^^
 
 are profiles set up by Sitka to allow for different match points to be used when 
-loading records. The default profile is SitkaMatch. It matches on the 901c 
-(record id),  020a (ISBN), 022a (ISSN), or 035a (System Control Number). 
-It is used in the majority of record loads. The other profiles are only used 
+loading records. The default profile is SitkaMatch.  The other profiles are only used 
 to load special records. Please contact Co-op Support for which profile to
 use if your records require a set of different match points to load.
 
