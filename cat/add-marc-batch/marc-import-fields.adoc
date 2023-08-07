@@ -16,7 +16,8 @@ records. | No | See xref:_import_templates[] for instruction on setting up templ
 _Bibliographic Records_ which are the only type of records currently imported here.
 | Select or Create Queue |This groups your record into a queue so you can work with them. 
 | Yes | Queues are linked to the match sets and holdings import profile. You cannot change 
-a record match set or holdings import profile once it has been set for a queue.
+a record match set or holdings import profile once it has been set for a queue. Do not use 
+ "/" or "\" (slash or backslash) in your queue name.
 | Record Match Set | This tells Evergreen what to look for to determine if an incoming 
 record matches an existing record. | Yes | Cataloguers should always use _SitkaMatch_ unless
 otherwise instructed by Co-op Support.  It matches on the 901c 
