@@ -32,9 +32,13 @@ image:images/cat/marc/marc-import-files-2.png[]
 Uploading MARC Record Files With Holdings Included
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Contact https://bc.libraries.coop/support/[Co-op Support] if this is your first
-time loading records from this vendor with holdings information included. A holdings
-profile will need to be set up for you for the vendor.
+Some vendors can include holdings information in the MARC records which Evergreen
+can use to create new items or update attributes for existing items.  This 
+information is generally found in a 9XX or 852 field.  
+
+Contact https://bc.libraries.coop/support/[Co-op Support] before loading records 
+from a new vendor who supplies holding information as a _Holdings
+Import Profile_ will need to be set up. 
 
 . Go to *Cataloguing-> MARC Batch Import/Export*.
 . The _MARC Batch Import/Export_ interface will open with the _Import_ tab selected.
