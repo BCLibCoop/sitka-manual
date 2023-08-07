@@ -34,15 +34,27 @@ Library Specific Batch Loading policy] for information on which profile to selec
 | Best/Single Match Minimum Quality Ration | | No | Not used by Sitka
 | Optional Session Name | NEED INFO | No |
 | Remove MARC Field Groups | | No | Not used by Sitka
-| Select a Record Source | | Yes |
-| Limit Matches to Bucket | | No |
-| Import Non-Matching Records | | No |
-| Merge On Exact Match (901c) | | No |
-| Merge On Single Match | | No |
-| Merge On Best Match | | No |
-| Auto-overlay In-process Acquisitions Items | | No |
-| Auto-overlay On-order Cataloging Items | | No |
-| Use Org Unit Matching in Copy to Determine Best Match | | No |
+| Select a Record Source | This is the vendor your records have come from. | Yes |
+Only commonly used vendors are on the list. Use _Other_ or _Other E-records_ 
+if your vendor is not in the list.
+| Limit Matches to Bucket | Evergreen will only match the records
+against the specified record bucket. | No |
+| Import Non-Matching Records | When checked Evergreen will import records that
+do not match any existing records in the database. | No |
+| Merge On Exact Match (901c) | When checked Evergreen will merge records that have
+the same value for 901 $c. | No | The 901 $c is a record's database ID.
+| Merge On Single Match | When checked Evergreen will merge records if they
+match with only one record in the database. | No |
+| Merge On Best Match | When checked Evergreen will merge records with what it
+determines is the best match. | No |
+| Auto-overlay In-process Acquisitions Items | When checked, Evergreen will update
+the holdings information of acqusitions items with the status of In Process for 
+matching records. | No | 
+| Auto-overlay On-order Cataloging Items | When checked, Evergreen will update
+the holdings information of items with the status of on order that have not been
+created through the acquisitions module for matching records. | No |
+| Use Org Unit Matching in Copy to Determine Best Match | When checked, Evergreen
+will prefer records where the importing library already has holdings. | No |
 | File to Upload | This is where you select your file of MARC records. | Yes | Co-op Support
 recommends loading no more than 500 MARC records in a single file as the importing process
 can time out. If you have a file with more than 5000 records, please break it into multiple
@@ -78,12 +90,7 @@ overwritten, and holding records (in tag 852) can be loaded to either the existi
 Holdings Import Profiles
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-are profiles set up by Sitka to allow importing of item records with vendor 
-supplied MARC records. The vendor will need to send item level information 
-in a local MARC tag and subfields (eg. 9xx or 852), and this information can 
-be mapped into item records when the bibliographic records are loaded. Please 
-contact Co-op Support if you are interested in loading item records with your
- bibliographic records.
+
 
 
 [TIP]
