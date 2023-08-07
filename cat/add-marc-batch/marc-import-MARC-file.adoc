@@ -13,7 +13,8 @@ image:images/cat/marc/marc-importer-1.png[]
 .. Record Type: Leave as _Bibliographic Records_.
 .. Select or Create a Queue: Enter a queue name.
 .. Record Match Set: Select _SitkaMatch_.
-.. Holdings Import Profile: If applicable select the appropriate profile.
+.. Holdings Import Profile: If your file includes holdings information see
+xref:_uploading_marc_record_files[].
 .. Merge Profile: Do not select a merge profile at this stage.
 .. Select a Record Source: Choose the appropriate source for your records.
 .. Import Non-Matching Records: Check the box.
