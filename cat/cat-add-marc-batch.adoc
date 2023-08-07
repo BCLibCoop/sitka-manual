@@ -38,7 +38,7 @@ include::add-marc-batch/marc-import-fields.adoc[MARC Importer]
 
 include::add-marc-batch/marc-import-templates.adoc[Import Templates]
 
-include::add-marc-batch/marc-import-brief-MARC-file.adoc[Importing Brief MARC Record Files]
+include::add-marc-batch/marc-import-MARC-file.adoc[Importing MARC Record Files]
 
 include::add-marc-batch/marc-import-full-MARC-file.adoc[Importing Full MARC Record Files]
 

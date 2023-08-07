@@ -1,13 +1,24 @@
-Importing Brief MARC Record Files
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Importing MARC Record Files
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-. Go to *Cataloguing-> MARC Batch Import/Export*
-. The MARC Batch Import interface opens.
+. Go to *Cataloguing-> MARC Batch Import/Export*.
+. The _MARC Batch Import/Export_ interface will open with the _Import_ tab selected.
 +
+image:images/cat/marc/marc-importer-1.png[]
++
+. Fill in the following fields in the MARC File Upload form.
+.. Record Type: Leave as _Bibliographic Records_.
+.. Select or Create a Queue: Enter a queue name.
+.. Record Match Set: Select _SitkaMatch_.
+.. Holdings Import Profile: If applicable select the appropriate profile.
+.. Select a Record Source: Choose the appropriate source for your records.
+.. Import Non-Matching Records: Check the box.
+. Click *Choose File* and select your MARC file.
+. Click *Upload*.
 
-+
-image:images/cat/vandelay-2.png[]
-+
+
+
+
 [TIP]
 =====
 The top row allows you to apply/manage your import/upload templates. To create a template, select values for those fields you wish to set up, type in a name in *Apply or Create a Template* box, then click *Save as New Template*. To apply a template, click in the box to choose from the dropdown list. You may mark a template as default so that it will appear selected next time you load the MARC File Upload screen.

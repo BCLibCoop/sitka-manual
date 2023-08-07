@@ -43,7 +43,9 @@ Library Specific Batch Loading policy] for information on which profile to selec
 | Auto-overlay On-order Cataloging Items | | No |
 | Use Org Unit Matching in Copy to Determine Best Match | | No |
 | File to Upload | This is where you select your file of MARC records. | Yes | Co-op Support
-recommends loading no more than XXXX MARC records in a single file.
+recommends loading no more than 500 MARC records in a single file as the importing process
+can time out. If you have a file with more than 5000 records, please break it into multiple
+files.
 |===
 
 
