@@ -62,6 +62,11 @@ image:images/cat/marc/marc-import-files-2.png[]
 Uploading MARC Record Files For E-resources
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+You MUST contact https://bc.libraries.coop/support/[Co-op Support] before
+loading a file of e-resource from a new vendor.  See 
+http://docs.libraries.coop/policy/_batch_loading_bibliographic_records.html#_library_specific_batch_loading[Sitka's 
+Cataloguing Policy for Library Specific Batch Loading].
+
 . Go to *Cataloguing-> MARC Batch Import/Export*.
 . The _MARC Batch Import/Export_ interface will open with the _Import_ tab selected.
 +
@@ -70,8 +75,7 @@ image:images/cat/marc/marc-importer-1.png[]
 . Fill in the following fields in the MARC File Upload form.
 .. Record Type: Leave as _Bibliographic Records_.
 .. Select or Create a Queue: Enter a queue name.
-.. Record Match Set: Select _SitkaMatch_.
-.. Holdings Import Profile: If applicable select the appropriate profile.
+.. Record Match Set: Co-op Support will instruct you on which match set to choose.
 .. Merge Profile: Do not select a merge profile at this stage.
 .. Select a Record Source: Choose the appropriate source for your records.
 .. Import Non-Matching Records: Check the box.
