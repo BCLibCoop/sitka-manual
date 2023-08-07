@@ -1,14 +1,53 @@
 Managing Import Queues
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Queues are viewable to the login account only. They will remain on the server until they are deleted. You can delete a queue after importing is finished, or you can keep it and delete it later.
+Queues are only viewable to account that created the queue. They will remain on the server until 
+they are deleted. You can delete a queue after importing is finished, 
+or you can keep it and delete it later.
 
-To view a queue, go to *Cataloguing -> MARC Batch Import/Export*. The default screen is Import Records. Click *Inspect Queue* tab to manage and view existing queues used in MARC Batch Import.
+[TIP]
+=====
+Please ensure you include screenshots when submitting tickets related to queues to 
+https://bc.libraries.coop/support/[Co-op Support].  Co-op Support cannot view 
+your queues in the staff client.
+=====
 
-Under Inspect Queue you can click on an existing queue to view and import records that have already been queued for importing or simply view records that have already been imported.
+Viewing Import Queues
+^^^^^^^^^^^^^^^^^^^^^
 
-To delete queues, select the checkbox in front of the queue name and click *Delete Selected* on the action list.
+. Go to *Cataloguing -> MARC Batch Import/Export*.
+. The _MARC Batch Import/Export_ interface will open with the _Import_ tab selected.
+. Click on the *Inspect Queue* tab.
++
+image:images/cat/marc/marc-import-view-queue-1.png[]
++
+. Double click on the line for the queue you would like to open.
++
+SCREENSHOT GOES HERE
++
+. The queue will display.
 
-image::images/cat/vandelay-9.png[]
+
+Working With Import Queues
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Under Inspect Queue you can click on an existing queue to view and import 
+records that have already been queued for importing or simply view records 
+that have already been imported.
+
+Deleting Import Queues
+^^^^^^^^^^^^^^^^^^^^^^
+
+. Go to *Cataloguing -> MARC Batch Import/Export*.
+. The _MARC Batch Import/Export_ interface will open with the _Import_ tab selected.
+. Click on the *Inspect Queue* tab.
++
+image:images/cat/marc/marc-import-view-queue-1.png[]
++
+. Select the queue you would like to delete and then choose *Delete Selected*
+from the Actions menu.
++
+image:images/cat/marc/marc-import-delete-queue-1.png[]
+
 
 
