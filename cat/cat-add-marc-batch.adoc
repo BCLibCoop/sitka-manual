@@ -40,7 +40,7 @@ include::add-marc-batch/marc-import-templates.adoc[Import Templates]
 
 include::add-marc-batch/marc-upload-MARC-file.adoc[Uploading MARC Record Files]
 
-include::add-marc-batch/marc-import-MARC-records[Importing MARC Records]
+include::add-marc-batch/marc-import-MARC-records.adoc[Importing MARC Records]
 
 include::add-marc-batch/marc-manage-queue.adoc[Managing Import Queues]
 
