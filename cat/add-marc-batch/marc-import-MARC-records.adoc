@@ -1,0 +1,19 @@
+Importing MARC Records
+~~~~~~~~~~~~~~~~~~~~~~
+
+Once a MARC record file has been uploaded the records need to be imported into
+the catalogue.
+
+Importing Non-Matching Records
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Records that do not match any existing records in the catalogue are automatically
+imported when the MARC file is uploaded if the check box 
+_Import Non-Matching Records_ has been checked. 
+
+image:images/cat/marc/marc-import-non-match-records-1.png[]
+
+
+
+Importing Matching Records
+^^^^^^^^^^^^^^^^^^^^^^^^^^

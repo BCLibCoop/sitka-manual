@@ -28,7 +28,7 @@ image:images/cat/marc/marc-import-files-1.png[]
 +
 image:images/cat/marc/marc-import-files-2.png[]
 +
-. See xref:_managing_import_queues[].
+. See xref:_importing_marc_records[].
 
 Uploading MARC Record Files With Holdings Included
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -64,7 +64,7 @@ image:images/cat/marc/marc-import-files-1.png[]
 +
 image:images/cat/marc/marc-import-files-2.png[]
 +
-. See xref:_managing_import_queues[].
+. See xref:_importing_marc_records[].
 
 Uploading MARC Record Files For E-resources
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -96,7 +96,7 @@ image:images/cat/marc/marc-import-files-1.png[]
 +
 image:images/cat/marc/marc-import-files-2.png[]
 +
-. See xref:_managing_import_queues[].
+. See xref:_importing_marc_records[].
 
 
 
