@@ -32,7 +32,8 @@ http://docs.libraries.coop/policy/_batch_loading_bibliographic_records.html#_lib
 Library Specific Batch Loading policy] for information on which profile to select.
 | Insufficient Quality Fall-Through Profile | | No | Not used by Sitka
 | Best/Single Match Minimum Quality Ration | | No | Not used by Sitka
-| Optional Session Name | NEED INFO | No |
+| Optional Session Name | You may type in a session name in *Optional Session Name* box if you import records. It 
+will help you identify your import session when checking the status on Recent Imports. | No |
 | Remove MARC Field Groups | | No | Not used by Sitka
 | Select a Record Source | This is the vendor your records have come from. | Yes |
 Only commonly used vendors are on the list. Use _Other_ or _Other E-records_ 
@@ -57,46 +58,14 @@ created through the acquisitions module for matching records. | No |
 will prefer records where the importing library already has holdings. | No |
 | File to Upload | This is where you select your file of MARC records. | Yes | Co-op Support
 recommends loading no more than 500 MARC records in a single file as the importing process
-can time out. If you have a file with more than 5000 records, please break it into multiple
+can time out. If you have a file with more than 500 records, please break it into multiple
 files.
 |===
 
 
-Record Match Sets
-^^^^^^^^^^^^^^^^^
-
-are profiles set up by Sitka to allow for different match points to be used when 
-loading records. The default profile is SitkaMatch.  The other profiles are only used 
-to load special records. Please contact Co-op Support for which profile to
-use if your records require a set of different match points to load.
-
-
-Merge Profiles
-^^^^^^^^^^^^^^
-
-control how the incoming and existing MARC records are merged. Two profiles have 
-been created for all Sitka libraries to use: Merge Using INCOMING Record and 
-Merge Using EXISTING Record.
-
-* Merge Using INCOMING Record: all tags in the INCOMING record will be brought into the final record. Tags:
-050, 055, 590, 595, 690, 852 and 856 in the ORIGINAL record will be preserved in the final record. The rest will be removed.
-* Merge Using EXISTING Record: all tags in the ORIGINAL record will be kept. Tags: 050, 055, 590, 595, 690,
-852 and 856 in the INCOMING record will be brought into the final record. The rest will be removed upon merge.
-+
-These profiles ensure local data in these six fields in a merged MARC record is never 
-overwritten, and holding records (in tag 852) can be loaded to either the existing
- MARC record or with the incoming record.
-
-Holdings Import Profiles
-^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 
 
-[TIP]
-=====
-There are some settings, namely Record Display Attributes, Record Match Sets, 
-Merge/Overlay Profiles and Import Item Attributes on this screen that are
- reserved for Sitka server administration. You should not attempt to 
- edit them as they affect all bibliographic records.
-=====
+
+

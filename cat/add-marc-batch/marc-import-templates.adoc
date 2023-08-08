@@ -3,3 +3,12 @@ Import Templates
 
 . Go to *Cataloguing-> MARC Batch Import/Export*
 . On the _Import_ tab fill in the appropriate fields.
+
+[TIP]
+=====
+The top row allows you to apply/manage your import/upload templates. To create a template, 
+select values for those fields you wish to set up, type in a name in 
+*Apply or Create a Template* box, then click *Save as New Template*. To apply a template, 
+click in the box to choose from the dropdown list. You may mark a template as default 
+so that it will appear selected next time you load the MARC File Upload screen.
+=====
