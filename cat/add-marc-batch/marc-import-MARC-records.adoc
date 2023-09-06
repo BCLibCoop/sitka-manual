@@ -9,6 +9,12 @@ As part of the upload Evergreen uses parameters from the chosen record match set
 whether or not the records in the file match with records already in the catalogue. Different
 actions need to be taken based on whether or not a record has a match.
 
+The *Queue Summary* shows the total number of MARC records in the queue, and items 
+contained in these records, if any, how many of them have been imported, and 
+how many of them encountered an error when Evergreen attempted to import them.
+
+The *Queue Actions* lists the actions you can take from this screen.
+
 Importing Non-Matching Records
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -22,6 +28,28 @@ image:images/cat/marc/marc-import-non-match-records-1.png[]
 
 Importing Matching Records
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Get to the queue (better instruction needed)
+. Click on the value in the Matches column for a record.
+. On the Record Matches tab click on the Record ID to view the match(es). You may wish
+to set your staff catalogue default tab to View MARC.
+. Click the browser back button to return to your queue.
+. Click on the Queued Record MARC tab.  Confirm the existing match from the catalogue is a match
+for your incoming record.
+. If there are multiple matches select the line of the one you want to match with. 
+. If the existing match is a false match do not select it. 
+. Click *Return to Queue*.
+. Repeat for all records in the queue.
+. An asterisk will appear in the Matches column beside each record for which a match
+has been selected.
+. Click *Import Selected Records* or *Import All Records*.
+. You are back on MARC File Upload screen. 
+. Choose your import options, you must click the arrows to enable the drop 
+down menus and make your choices. 
+. Choose your Merge Profile - MORE DETAILS HERE
+. Click *Import*.
+
+
 
 If you want to import records from MARC files already uploaded, go to *Cataloguing -> MARC Batch Export/Import*, then click *Inspect Queue*. Double click the queue that you wish to examine and import records from. The Queue Summary screen will open.
 
@@ -172,6 +200,8 @@ overwritten, and holding records (in tag 852) can be loaded to either the existi
  
 Importing Records with False Matches
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+
+Use the Export Non-Imported Records option
 
 are profiles set up by Sitka to allow for different match points to be used when 
 loading records. The default profile is SitkaMatch.  The other profiles are only used 
