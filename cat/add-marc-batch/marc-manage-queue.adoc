@@ -31,9 +31,13 @@ SCREENSHOT GOES HERE
 Working With Import Queues
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Under Inspect Queue you can click on an existing queue to view and import 
-records that have already been queued for importing or simply view records 
-that have already been imported.
+Within a queue you can:
+
+* view and import records that have been queued for importing
+* view records that have already been imported
+* view items that have been imported
+* copy the contents of the queue to a record bucket
+* export a file of non-imported records
 
 Deleting Import Queues
 ^^^^^^^^^^^^^^^^^^^^^^
