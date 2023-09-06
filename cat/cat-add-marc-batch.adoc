@@ -4,6 +4,26 @@ Batch Loading Bibliographic Records
 https://youtu.be/2ZtDXTqaXcE[*Sitka Training Video - Uploading MARC Records via MARC Batch 
 Import (3:49)*]
 
+Libraries can load MARC record files supplied by vendors into Evergreen.  What is included in the file can vary from
+vendor to vendor and depend on the stage of the cataloguing process. 
+
+* Brief Records With No Holdings Information
+* Brief Records With Holdings Information To Create Items
+* Full Records With No Holdings Information
+* Full Records With Holdings Information To Create Items
+* Full Records With Holdings Information To Update Existing Items
+* Full Records For Electronic Resources With 856 Fields
+
+Cataloguers should always follow the policy for batch loading records which can be found in the section  
+http://docs.libraries.coop/policy/_batch_loading_bibliographic_records.html[Batch Loading 
+Bibliographic Records] in Sitka's Evergreen Policy & Best Practices Manual.
+
+Importing records involves two steps: 1. all records in the file are first uploaded to 
+the server and kept outside the catalogue as a queue; 2. cataloguers view the records in 
+the queue to import them into the Evergreen catalogue.
+
+////
+
 If the title records you need are not already in the Evergreen database, it is possible to 
 upload vendor-supplied MARC files into EverLibrargreen. Each file may contain one or more MARC 
 records. During the uploading process, Evergreen matches each record in the file with existing 
@@ -33,6 +53,8 @@ to load holding records.
 All records in a queue can be exported to a CSV file or printed in non-MARC format (
 emailing is not available yet). All records imported from a single queue can be added 
 to a Record Bucket.
+////
+
 
 include::add-marc-batch/marc-import-fields.adoc[MARC Importer]
 
