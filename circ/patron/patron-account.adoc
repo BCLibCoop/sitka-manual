@@ -19,8 +19,8 @@ alerts, blocks, or owe fines.
 ** Evergreen will use the patron's preferred name and
 fall back to the primary name if there is no preferred name.
 * Any alerts and/or blocks will appear under the patron's name.
-* Last Activity - Last time a circulation was done on the account or the account was accessed for
-3rd party authentication.
+* Last Activity - Last time the patron accessed their account via My Account or the 
+account was accessed for 3rd party authentication.
 * Last Updated - Last time the account was updated via the *Edit* tab.
 * Create Date - Date on which the account was originally created.
 * Expire Date - Date on which the account will expire.  This can be updated via the *Edit* tab.
