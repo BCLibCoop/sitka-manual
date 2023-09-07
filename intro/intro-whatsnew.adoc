@@ -27,12 +27,15 @@ Cataloguing
 Staff Catalogue
 ~~~~~~~~~~~~~~~
 
-
+* Email Title details from staff catalogue now works.
 
 [[new-features-public-catalogue]]
 Public Catalogue
 ~~~~~~~~~~~~~~~~
 
+* Email Title details from OPAC now works.
+
+* New Hours of Operation Note field. When patrons click on a library's hours of operations on your OPAC, this new note field displays any split hours or service related notes.
 
 
 [[new-features-course-reserves]]
@@ -51,4 +54,5 @@ Patron Notifications
 Administration
 ~~~~~~~~~~~~~~
 
+* New Hours of Operation Note field. You can now add a note to display split hours or other service information to your open hours on the OPAC.  
 
