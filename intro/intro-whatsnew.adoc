@@ -35,7 +35,7 @@ Public Catalogue
 
 * Email Title details from OPAC now works.
 
-* xref:_organizational_units.html#operation-hour[New Hours of Operation Note] field. When patrons click on your library's hours of operations on the OPAC, this new note field displays any split hours or service related notes.
+* xref:_organizational_units[New Hours of Operation Note] field. When patrons click on your library's hours of operations on the OPAC, this new note field displays any split hours or service related notes.
 
 
 
@@ -55,5 +55,5 @@ Patron Notifications
 Administration
 ~~~~~~~~~~~~~~
 
-* xref:_organizational_units.html#operation-hour[New Hours of Operation Note] field. You can now add a note to display split hours or other service information to your open hours display on the OPAC.  
+* xref:_organizational_units[New Hours of Operation Note] field. You can now add a note to display split hours or other service information to your open hours display on the OPAC.  
 
