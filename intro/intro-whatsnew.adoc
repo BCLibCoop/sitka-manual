@@ -15,7 +15,7 @@ Staff Client
 Circulation
 ~~~~~~~~~~~
 
-
+The Item Status list view now includes an optional column for Total Circulations. The column must be xref:_column_configuration[enabled and saved.]
 
 [[new-features-cataloguing]]
 Cataloguing
@@ -28,6 +28,8 @@ Staff Catalogue
 ~~~~~~~~~~~~~~~
 
 * Email Title details from staff catalogue now works.
+
+* Links in the staff catalogue Record Summary area now open in a new tab
 
 [[new-features-public-catalogue]]
 Public Catalogue
@@ -43,6 +45,7 @@ Public Catalogue
 Course Reserves
 ~~~~~~~~~~~~~~~
 
+* xref:_course_reserves[Courses can be un-archived.] Course reserves staff can now un-archive a course that was previously archived, either from its course page, or from the course list.
 
 
 [[new-features-patron-notifications]]
