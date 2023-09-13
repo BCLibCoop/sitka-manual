@@ -15,13 +15,21 @@ Staff Client
 Circulation
 ~~~~~~~~~~~
 
-The Item Status list view now includes an optional column for Total Circulations. The column must be xref:_column_configuration[enabled and saved.]
+* The Item Status list view now includes an optional column for Total Circulations. The column must be xref:_column_configuration[enabled and saved.]
+
+* Optionally allow patrons to renew after hitting fine maximum.
+This release adds a new library setting, circ.permit_renew_when_exceeds_fines. If enabled, xref:_library_settings_editor[renewals are permitted.]
+
+* Renewal Due Date Extended to Cover Lost Time. When an item is renewed before it’s due date, libraries now have the option to extend the renewal’s due date to include any time lost from the early renewal. For example, a 14 day checkout renewed after 12 days will result in a due date of 16 days hence. Contact Co-op Support if you are interested in this feature.
+
 
 [[new-features-cataloguing]]
 Cataloguing
 ~~~~~~~~~~~
 
+* New Staff View in staff catalogue. Adds a Staff View tab to the record details page in the staff catalogue. In addition to showing various fields from the title record, it also shows a count of hold requests and a break-down of available items versus total items, and it shows a breakdown of similar records by formats and language editions.
 
+*  Record Notes now merge when title records are merged. A notation is added to each note that they were originally from another record, xref:_merging_bibliographic_records[and a note is added that the merge was performed.]
 
 [[new-features-staff-catalogue]]
 Staff Catalogue
@@ -31,6 +39,10 @@ Staff Catalogue
 
 * Links in the staff catalogue Record Summary area now open in a new tab
 
+* New Did You Mean search suggestions for mis-spelled searches.  This feature provides suggestions for single word, single class searches(keyword, title, etc.),  and multiple words, single-class searches(keyword, title, etc.). 
+
+
+
 [[new-features-public-catalogue]]
 Public Catalogue
 ~~~~~~~~~~~~~~~~
@@ -38,6 +50,10 @@ Public Catalogue
 * Email Title details from OPAC now works.
 
 * xref:_organizational_units[New Hours of Operation Note] field. When patrons click on your library's hours of operations on the OPAC, this new note field displays any split hours or service related notes.
+
+* OPAC-visible statisitical categories are now visible in the OPAC. This release restores this functionality.
+
+* New Did You Mean search suggestions for mis-spelled searches.  This feature provides suggestions for single word, single class searches(keyword, title, etc.), and multiple words, single-class searches (keyword, title, etc.). 
 
 
 
