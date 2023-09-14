@@ -9,27 +9,40 @@ New Features in Evergreen Version 3.11
 Staff Client
 ~~~~~~~~~~~~
 
+* New visible password option on staff login screen.
+
+* xref:_library_settings_editor[Library Settings Editor] now in new Angular interface.
+
+* xref:_statistical_category_editor[New Statistical Category Editor] has separate interfaces for patron and item statistical categories.
+
+
 
 
 [[new-features-circulation]]
 Circulation
 ~~~~~~~~~~~
 
+* xref:_capturing_hold_transits[Transit Slip] now includes address without having to refresh screen.
+
 * The Item Status list view now includes an optional column for Total Circulations. The column must be xref:_column_configuration[enabled and saved.]
 
 * Optionally allow patrons to renew after hitting fine maximum.
-This release adds a new library setting, circ.permit_renew_when_exceeds_fines. If enabled, xref:_library_settings_editor[renewals are permitted.]
+This release fixes the library setting, circ.permit_renew_when_exceeds_fines. If enabled, xref:_library_settings_editor[renewals are permitted.]
 
-* Renewal Due Date Extended to Cover Lost Time. When an item is renewed before it’s due date, libraries now have the option to extend the renewal’s due date to include any time lost from the early renewal. For example, a 14 day checkout renewed after 12 days will result in a due date of 16 days hence. Contact Co-op Support if you are interested in this feature.
+* Renewal Due Date Extended to Cover Lost Time. When an item is renewed before it’s due date, libraries now have the option to extend the renewal’s due date to include any time lost from the early renewal. For example, a 14 day checkout renewed after 12 days will result in a due date of 16 days hence. xref:_changing_your_circulation_policies[Contact Co-op Support] if you are interested in this feature.
+
+
 
 
 [[new-features-cataloguing]]
 Cataloguing
 ~~~~~~~~~~~
 
-* New Staff View in staff catalogue. Adds a Staff View tab to the record details page in the staff catalogue. In addition to showing various fields from the title record, it also shows a count of hold requests and a break-down of available items versus total items, and it shows a breakdown of similar records by formats and language editions.
+* New Staff View in staff catalogue. Adds a Staff View tab to the record details page in the staff catalogue. In addition to showing various fields from the title record, it also shows a count of hold requests and a break-down of available items versus total items, and it shows a breakdown of similar records by format and language editions.
 
-*  Record Notes now merge when title records are merged. A notation is added to each note that they were originally from another record, xref:_merging_bibliographic_records[and a note is added that the merge was performed.]
+* xref:_item_notes[Item Notes] can now be edited.
+
+* xref:_sharing_holdings_template[Import and Export of templates] now works in Holdings Editor.
 
 [[new-features-staff-catalogue]]
 Staff Catalogue
@@ -41,7 +54,7 @@ Staff Catalogue
 
 * New Did You Mean search suggestions for mis-spelled searches.  This feature provides suggestions for single word, single class searches(keyword, title, etc.),  and multiple words, single-class searches(keyword, title, etc.). 
 
-
+* Title records without holdings are now high-lighted in search results.
 
 [[new-features-public-catalogue]]
 Public Catalogue
@@ -55,7 +68,7 @@ Public Catalogue
 
 * New Did You Mean search suggestions for mis-spelled searches.  This feature provides suggestions for single word, single class searches(keyword, title, etc.), and multiple words, single-class searches (keyword, title, etc.). 
 
-
+* Patron login on My Account now includes a button to reveal the password input.
 
 [[new-features-course-reserves]]
 Course Reserves
@@ -76,3 +89,8 @@ Administration
 
 * xref:_organizational_units[New Hours of Operation Note] field. You can now add a note to display split hours or other service information to your open hours display on the OPAC.  
 
+* xref:_library_settings_editor[Library Settings Editor] now in new Angular interface.
+
+* xref:_statistical_category_editor[New Statistical Category Editor] has separate interfaces for patron and item statistical categories.
+
+* Renewal Due Date Extended to Cover Lost Time. When an item is renewed before it’s due date, libraries now have the option to extend the renewal’s due date to include any time lost from the early renewal. For example, a 14 day checkout renewed after 12 days will result in a due date of 16 days hence. xref:_changing_your_circulation_policies[Contact Co-op Support] if you are interested in this feature.
