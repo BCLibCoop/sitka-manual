@@ -4,7 +4,7 @@ Statistical Categories Editor: Items and Patrons
 anchor:stat-cat[Statistical Category Editor]
 
 This is where you configure your statistical categories (Stat Cats).  
-Stat cats allow your library  to set up locally defined statistical categories for items or patrons. These statistical categories can then be applied when adding patrons or cataloguing items, to generate reports on usage. Each stat cat has specific values attached, and you add them once you have created the stat cat itself, as described below.
+Stat cats allow your library  to set up locally defined statistical categories for items or patrons. These statistical categories can then be applied when adding patrons or cataloguing items, to generate reports on usage. Each stat cat has specific values attached, and you add them once you have created the stat cat.
 
 As of Evergreen 3.11, the Statistical Categories Editor is split into two interfaces, one for items and one for patrons.
 
