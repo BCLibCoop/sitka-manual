@@ -1,6 +1,8 @@
 Organizational Units
 ~~~~~~~~~~~~~~~~~~~~
 
+https://youtu.be/md-i__hHac4[*Sitka Training Video - Configuring Your Library Information (3:03)*]
+
 Anyone with access to the staff client may view these settings, but only staff with 
 a local system administrator account can make changes for their library.
 
@@ -17,6 +19,9 @@ xref:operation-hour[hours of operation], and xref:_library_addresses[addresses].
 Library Main Settings
 ^^^^^^^^^^^^^^^^^^^^^^
 
+https://youtu.be/QtzrhpveHMw[*Sitka Snippet Video - Adding or Updating 
+Your Library's Contact Information (1:53)*]
+
 Local system administrators can add or update the library's main contact information on the 
 _Main Settings_ tab for their library.  Multi-branch libraries can enter information at the system level
 and/or the branch level.
@@ -32,6 +37,8 @@ catalogue.
 [[operation-hour]]
 Library Hours of Operation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+https://youtu.be/bfGeH0_uTUs[*Sitka Snippet Video - Setting or Updating Your Library’s Hours of Operation (1:44)*]
 
 Local system administrators can add or update the library's hours of operation on the _Hours of Operation_
 tab. Multi-branch libraries should enter information at the branch level.
@@ -65,6 +72,9 @@ copy's circ lib is closed IF the circ lib is the hold's pickup lib_ is set to TR
 
 Library Addresses
 ^^^^^^^^^^^^^^^^^
+
+https://youtu.be/QtzrhpveHMw[*Sitka Snippet Video - Adding or Updating 
+Your Library's Contact Information (1:53)*]
 
 Local system administrators can add or update the library's addresses on the _Addresses_ tab. Multi-branch 
 libraries should enter information at the branch level.
