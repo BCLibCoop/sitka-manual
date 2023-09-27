@@ -18,28 +18,46 @@ Registering a Staff Workstation
 (((Workstation Registration)))
 (((Registering, Workstation)))
 
-link:https://youtu.be/-3HbQQdH9FQ[*Sitka Snippet Video - Register Workstation (1:36)*]
+https://youtu.be/GsZj_3YBVRM[*Sitka Snippet Video - Register Workstation (2:06)*]
 
-Before logging into Evergreen for the first time, you must register a workstation from your browser.
+Every computer used with Sitka's Evergreen for staff functions must have at least
+one registered workstation.
+
+Staff will be prompted to register a workstation if:
+
+* this is the first time the computer/browser has been used with Sitka's Evergreen
+* they are logging into a different server, such as Co-op Support's 
+https://bc.libraries.coop/support/sitka/training-server/[training server] 
+* the cookies for the browser have been cleared.
+
 
 [NOTE]
 ======
-Local system administrator permissions are required to register a new workstation.
+Only local system administrator staff accounts can register workstations.
 ======
 
 . Navigate to the web client log in page. The URL to log into the staff client is *https://catalogue.libraries.coop/eg/staff/*
 . Enter a local system administrator username and password.
 . Click *Sign In*
 +
-image::images/intro/getstarted2.png[]
+image::images/intro/register-workstation-1.png[]
 +
-. When you login for the first time on a new computer or a new server you will be prompted to register your workstation.
+. You will be prompted to register a workstation.
 . Choose your library short code from the drop down menu.
 +
 image::images/intro/getstarted3.png[]
 +
 . Enter a unique workstation name.
-.. It is important to remember your workstation name.  Your workstation settings and preferences are stored on Sitka's Evergreen server with your workstation name.  If you rename your workstation you will lose your stored settings and preferences.
++
+[TIP]
+=====
+Your workstation settings and 
+preferences are stored on Sitka's Evergreen server with your workstation name.
+
+If you are re-registering a workstation you should use the original workstation's name or  
+you will lose your stored workstation settings and preferences.
+=====
++
 .  Click *Register*.
 +
 image::images/intro/getstarted4.png[]
@@ -51,7 +69,7 @@ image::images/intro/getstarted5.png[]
 +
 . Your newly registered workstation should be selected by default on the login page.
 +
-image::images/intro/getstarted6.png[]
+image::images/intro/register-workstation-5.png[]
 +
 . You can now use any library staff account to log into Evergreen.
 
@@ -66,11 +84,19 @@ Logging into Evergreen
 +
 image::images/intro/login.png[]
 
-[NOTE]
-======
-Ensure you are using your username and not your barcode.  Your barcode cannot be used to log into the
+[TIP]
+=====
+
+If you cannot login try the following:
+
+* Double check that you are using your username and not your barcode.  Your barcode cannot be used to log into the
 staff client unless your barcode is also use for your username.
-======
+* Use the visibility toggle to see your password and confirm it is correct
+* Have your local system administrator check that your account has not expired
+* Have your local system administrator check that your account has a working location
+
+
+=====
 
 Logging Out of Evergreen
 ^^^^^^^^^^^^^^^^^^^^^^^^
