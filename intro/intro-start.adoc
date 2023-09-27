@@ -25,9 +25,9 @@ one registered workstation.
 
 Staff will be prompted to register a workstation if:
 
-* this is the first time the computer/browser has been used with Sitka's Evergreen
+* this is the first time the computer/browser has been used with Sitka's Evergreen.
 * they are logging into a different server, such as Co-op Support's 
-https://bc.libraries.coop/support/sitka/training-server/[training server] 
+https://bc.libraries.coop/support/sitka/training-server/[training server].
 * the cookies for the browser have been cleared.
 
 
@@ -90,10 +90,10 @@ image::images/intro/login.png[]
 If you cannot login try the following:
 
 * Double check that you are using your username and not your barcode.  Your barcode cannot be used to log into the
-staff client unless your barcode is also use for your username.
-* Use the visibility toggle to see your password and confirm it is correct
-* Have your local system administrator check that your account has not expired
-* Have your local system administrator check that your account has a working location
+staff client unless your username is your barcode.
+* Use the visibility toggle to see your password and confirm it is correct.
+* Have your local system administrator check that your account has not expired.
+* Have your local system administrator check that your account has a working location.
 
 
 =====
