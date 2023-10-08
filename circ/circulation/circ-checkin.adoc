@@ -11,7 +11,7 @@ Regular Check In
 ^^^^^^^^^^^^^^^^
 
 . Go to *Circulation -> Check In*.
-. Scan or enter item barcode.
+. Scan or enter the item barcode(s).
 +
 image:images/circ/check-in-1.png[scaledwidth="75%"]
 +
@@ -19,9 +19,9 @@ image:images/circ/check-in-1.png[scaledwidth="75%"]
 each check in until you close or refresh the browser tab.
 
 
-Backdated Check In
-^^^^^^^^^^^^^^^^^^
-(((Backdated Check In)))
+Backdating Check In
+^^^^^^^^^^^^^^^^^^^
+(((Backdate Check In)))
 (((Check In, Backdate)))
 
 Library staff can adjust the effective date to check items in as if they were 
@@ -34,12 +34,27 @@ You must change the effective date before checking the items in.
 
 . Go to *Circulation -> Check In*.
 . Use the calendar widget or enter a date in the _Effective Date_ field.
-
-. Check the box *Use effective date until logout* to make the backdate effective until logout.
-. Scan barcodes.
-. Edit *Effective Date* when backdated check in is complete.
 +
-image:images/circ/checkin2.png[scaledwidth="75%"]
+image:images/circ/check-in-backdate-1.png[scaledwidth="75%"]
++
+. The check in screen will update to show that backdating is enabled and the date
+to which items will be backdated.
++
+image:images/circ/check-in-backdate-2.png[scaledwidth="75%"]
++
+. If desired, check the box *Use effective date until logout* to make 
+the backdate effective until you log out of the staff client.
++
+image:images/circ/check-in-backdate-3.png[scaledwidth="75%"]
++
+. Scan or enter the item barcode(s).
+. The items will be backdated to the selected date.
++
+image:images/circ/check-in-backdate-4.png[scaledwidth="75%"]
++
+. To switch back to regular check in, edit _Effective Date_ to the current date 
+or log out of the staff client.
+
 
 Backdate Post-Check In
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -65,7 +80,7 @@ Click the *Checkin Modifiers* drop down arrow. These options may be selected sin
 * Manual Floating Active. Works in conjunction with floating groups, if configured for your library by Co-op Support.
 * Update Inventory adds a date and time stamp, and workstation name, to item records as they are checked in, facilitating inventory processes.
 
-
+////
 Exceptions at Check In
 ^^^^^^^^^^^^^^^^^^^^^^
 
@@ -82,3 +97,9 @@ Staff can click *OK/Continue* after reading the alert to proceed with check in.
 Temporary alerts will have a *Clear* button which can be used to clear the alert 
 when it is no longer needed.
 
+NEED TO ADD:
+links
+Checkin alert (from shelving location)
+Hold Capture Requires Verification (from shelving location)
+
+////
