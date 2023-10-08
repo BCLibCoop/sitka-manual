@@ -216,8 +216,7 @@ Holds can be cancelled individually by library staff and patrons
 
 . On the _View Holds_ tab in the staff catalogue or on the _Holds_ tab in the patron's account, select 
 the hold you wish to cancel and go to *Actions -> Cancel Hold*.
-. Choose the appropriate cancel reason from the drop down menu: _Patron via phone_, _Patron in person_,
-or _Staff forced_.  The other listed cancel reasons apply to automated cancellations.
+. Choose the appropriate cancel reason from the drop down menu.
 +
 image:images/circ/manageholds2.png[scaledwidth="75%"]
 +
