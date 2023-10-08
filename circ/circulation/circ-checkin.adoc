@@ -10,21 +10,32 @@ link:https://youtu.be/f0AlWg9mTn0[*Sitka Training Video - Check In (3:44)*]
 Regular Check In
 ^^^^^^^^^^^^^^^^
 
-. Click *Check In Items*.
-. Scan barcodes.
+. Go to *Circulation -> Check In*.
+. Scan or enter item barcode.
 +
-image:images/circ/checkin1.png[scaledwidth="75%"]
+image:images/circ/check-in-1.png[scaledwidth="75%"]
++
+. The item will be listed under _Items Checked In_.  This list will grow with
+each check in until you close or refresh the browser tab.
+
 
 Backdated Check In
 ^^^^^^^^^^^^^^^^^^
 (((Backdated Check In)))
 (((Check In, Backdate)))
 
-This is useful for clearing a book drop.
+Library staff can adjust the effective date to check items in as if they were 
+returned on a different day.
 
-. Click the calendar widget and set date, or edit date in *Effective Date* field.
-.. The new effective date is now displayed in the header.
-.. Check the box *Use effective date until logout* to make the backdate effective until logout.
+[NOTE]
+======
+You must change the effective date before checking the items in.
+======
+
+. Go to *Circulation -> Check In*.
+. Use the calendar widget or enter a date in the _Effective Date_ field.
+
+. Check the box *Use effective date until logout* to make the backdate effective until logout.
 . Scan barcodes.
 . Edit *Effective Date* when backdated check in is complete.
 +
@@ -54,7 +65,7 @@ Click the *Checkin Modifiers* drop down arrow. These options may be selected sin
 * Manual Floating Active. Works in conjunction with floating groups, if configured for your library by Co-op Support.
 * Update Inventory adds a date and time stamp, and workstation name, to item records as they are checked in, facilitating inventory processes.
 
-////
+
 Exceptions at Check In
 ^^^^^^^^^^^^^^^^^^^^^^
 
@@ -68,5 +79,6 @@ image:images/circ/check-in-exceptions-1.png[scaledwidth="75%"]
 
 Staff can click *OK/Continue* after reading the alert to proceed with check in.
 
-Temporary alerts will have a *Clear* button which can be used to clear the alert when it is no longer needed.
-////
+Temporary alerts will have a *Clear* button which can be used to clear the alert 
+when it is no longer needed.
+
