@@ -16,6 +16,9 @@ Three types of items can be circulated in Evergreen:
 * Pre-catalogued - items that haven't been catalogued yet or have been borrowed via interlibrary loan
 * Non-catalogued items - items that won't be catalogued but that the library wants to track statistics for
 
+Catalogued Items
+^^^^^^^^^^^^^^^^
+
 .To check out an item:
 . xref:_retrieving_patron_accounts[Retrieve the patron's account].
 . On the _Check Out_ tab, scan or enter item barcode.
@@ -111,6 +114,13 @@ image:images/circ/check-out-exceptions-1.png[scaledwidth="75%"]
 +
 . The item will appear below in the grid. The due date will be determined by your 
 xref:_circulation_policies[circulation policies].
+
+[NOTE]
+======
+Not all staff accounts can perform overrides.  Please see 
+xref:_staff_account_permission_groups[] for a general outline of the different staff account
+permission groups.
+======
 
 Open Circulation
 ++++++++++++++++
