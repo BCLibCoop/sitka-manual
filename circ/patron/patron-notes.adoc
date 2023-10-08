@@ -109,6 +109,8 @@ To delete or archive a note:
 +
 image:images/circ/patron-note-8.png[]
 +
+. A pop up will appear asking you to confirm your action. 
+. Click *OK/Continue*.
 . If archived, the note will now display in the archived section.  By default archived notes from the 
 last year display.  Use the date selectors to adjust this period as needed.
 +
@@ -119,3 +121,16 @@ image:images/circ/patron-note-9.png[]
 Patron visible notes cannot be deleted after the patron has viewed the note. Instead, these notes
 must be archived to remove them from the active notes section.
 ======
+
+To unarchive a note:
+
+. In the patron's account click on the *Notes* tab.
+. In the _Archived Notes_ section, select the note you would like to unarchive.
+. From the *Actions* menu select *Unarchive Note*.
++
+image:images/circ/patron-note-10.png[]
++
+. A pop up will appear asking you to confirm your action.
+. Click *OK/Continue*.
+. Your note will now display in the top *Notes* section. Any blocks or penalties associated
+with the note are reapplied to the patron's account.  
