@@ -78,6 +78,15 @@ link:https://youtu.be/HPh3qi921Bw[*Sitka Snippet Video - Sharing Holdings Templa
 Templates are saved on the Evergreen server, but only viewable by the staff account that created them.  
 To share templates with other staff account you need to export the templates and have
  staff import them into their accounts.
+  
+[TIP]
+=====
+When exporting, Evergreen will export all templates as one file.  Co-op Support recommends you set up all
+templates needed by your cataloguers on one account before exporting the file.
+
+When importing holdings templates, existing templates will be kept and new ones added. Templates sharing 
+the same name will be overlaid by the new templates.
+=====
 
 Via the Holdings Editor
 +++++++++++++++++++++++
@@ -118,15 +127,3 @@ image::images/cat/holdings/item-template-editor-2.png[]
 . The templates will be imported.
 . Log out of Evergreen and back in and then the templates will appear in the template drop down menu in the Holdings Editor.
  
-
-
-
-
-[TIP]
-=====
-When exporting, Evergreen will export all templates as one file.  Co-op Support recommends you set up all
-templates needed by your cataloguers on one account before exporting the file.
-
-When importing holdings templates, existing templates will be kept and new ones added. Templates sharing 
-the same name will be overlaid by the new templates.
-=====
