@@ -26,10 +26,13 @@ Circulation
 
 * The Item Status list view now includes an optional column for Total Circulations. The column must be xref:_column_configuration[enabled and saved.]
 
-* Optionally allow patrons to renew after hitting fine maximum.
-This release fixes the library setting, circ.permit_renew_when_exceeds_fines. If enabled, xref:_library_settings_editor[renewals are permitted.]
+* Libraries can allow patrons to renew their items after they've hit the
+maximum for fines by setting the xref:_library_settings_editor[library setting] _Permit renewals when patron exceeds max 
+fine threshold_ to TRUE. 
 
 * Renewal Due Date Extended to Cover Lost Time. When an item is renewed before it’s due date, libraries now have the option to extend the renewal’s due date to include any time lost from the early renewal. For example, a 14 day checkout renewed after 12 days will result in a due date of 16 days hence. xref:_changing_your_circulation_policies[Contact Co-op Support] if you are interested in this feature.
+
+* xref:_staff_generated_notes[Patron notes] can now be unarchived.
 
 
 
@@ -54,7 +57,7 @@ Staff Catalogue
 
 * New Did You Mean search suggestions for mis-spelled searches.  This feature provides suggestions for single word, single class searches(keyword, title, etc.),  and multiple words, single-class searches(keyword, title, etc.). 
 
-* Title records without holdings are now high-lighted in search results.
+* Title records without holdings are now highlighted in search results.
 
 [[new-features-public-catalogue]]
 Public Catalogue
