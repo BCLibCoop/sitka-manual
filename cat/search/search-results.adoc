@@ -8,6 +8,7 @@ http://docs.libraries.coop/policy/_the_cataloguing_workflow.html#_is_it_a_match[
 . The results for your search will display.
 .. Brief bibliographic details display for each search result.
 .. Regardless of the search library, holdings counts for your preferred library will display.
+.. Evergreen will highlight the holdings count where there are no physical copies.
 +
 image::images/cat/viewing-search-results-1.png[two search results]
 +
