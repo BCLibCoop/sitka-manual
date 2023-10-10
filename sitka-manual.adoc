@@ -53,6 +53,8 @@ Cataloguing
 ===========
 include::cat/cat-search.adoc[Searching the Database for Cataloguing Purposes]
 
+include::cat/cat-holdings-editor.adoc[The Holdings Editor]
+
 include::cat/cat-add-holdings.adoc[Adding Holdings]
 
 include::cat/cat-edit-holdings.adoc[Maintainting Holdings]
