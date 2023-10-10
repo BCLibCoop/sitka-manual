@@ -69,11 +69,17 @@ Item Alerts
 ^^^^^^^^^^^
 
 Item alerts pop up on the screen when the item is checked in and/or checked out to alert staff that something
-further needs to be done with or known about the item.
+further needs to be done with or known about the item.  
 
 [NOTE]
 ======
-It is not currently possible to edit an item alert.  You must remove the existing alert and add a new alert.
+You can also view, edit, and delete item alerts from _Item Status_ by clicking on the *Manage* button.  A count
+beside the button indicates how many alerts are on the item.  This button opens the older version of 
+the alerts pop-up.
+
+*Manage* is greyed out if the item does not have an alert.
+
+image::images/cat/item-alert-5.png[scaledwidth="75%",alt="Item Alerts"]
 ======
 
 Adding an Item Alert
@@ -99,12 +105,18 @@ image::images/cat/item-alert-3.png[scaledwidth="75%",alt="Item Alerts"]
 +
 . The alert will appear at check out and/or check in depending on the alert type choosen.
 
-////
 Editing an Item Alert
 +++++++++++++++++++++
 
-NOT CURRENTLY POSSIBLE TO EDIT AN ALERT
+[NOTE]
+======
+There is currently a bug preventing item alerts from being edited through the Holdings Editor. The Item Status interface
+can be used when an alert needs to be edited.
+======
 
+////
+
+LP 2012971 - ITEM ALERTS CURRENTLY CANT BE EDITED VIA HOLDINGS EDITOR
 
 . In the item attributes section of the Holdings Editor, click *Item Alerts*.
 +
@@ -135,16 +147,6 @@ image::images/cat/item-alert-6.png[scaledwidth="75%",alt="Item Alerts"]
 +
 . The alert is deleted and will no longer appear at check out and/or check in.
 
-[NOTE]
-======
-You can also view, edit, and delete item alerts from _Item Status_ by clicking on the *Manage* button.  A count
-beside the button indicates how many alerts are on the item.  This button opens the older version of 
-the alerts pop-up.
-
-*Manage* is greyed out if the item does not have an alert.
-
-image::images/cat/item-alert-5.png[scaledwidth="75%",alt="Item Alerts"]
-======
 
 Item Notes
 ^^^^^^^^^^
@@ -219,6 +221,8 @@ image::images/cat/item-note-6.png[scaledwidth="75%",alt="Item Notes"]
 Item Tags
 ^^^^^^^^^
 
+ITEM TAGS ARE NOT CURRENTLY USED BY SITKA
+
 The item tag option is hidden by default in the Holdings Editor as item tags are not currently used by Sitka.
 
 A item tag adds searchable information to item records. Staff and patrons search the copy tag by choosing *Digital Bookplate* on the catalogue.
@@ -252,10 +256,20 @@ Item Statistical Category Values
 
 Item Statistical Categories, also referred to as item stat cats, can be used to capture item 
 information the library needs that isn't otherwise captured in the item record.  This 
-information can be used in reporting.
+information can be used in reporting and OPAC visible stat cats will display in your public catalogue.
 
 For information on creating and editing item statistical categories 
 see xref:_statistical_categories_editor_items[].
+
+[TIP]
+=====
+
+Statistical categories can be set as required.  When required the statistical category is highlighted in 
+orange and the item cannot be saved until a value is entered. 
+
+image::images/cat/item-stat-cat-3.png[scaledwidth="75%",alt="Item Statistical Category"]
+=====
+
 
 The _Stat Cat Filter_ enables you to specify the organizational level at which statistical categories display.
 For example, if you have federation wide stat cats as well as library specific ones you can set the filter
@@ -268,12 +282,15 @@ Applying an Item Statistical Category Value
 
 . In the item attributes section of the Holdings Editor, click on the statistical category you would 
 like to enter a value for.
+. From the drop down menu select the value you would like to apply to the item.
+. Click *Apply*.
 +
 image::images/cat/item-stat-cat-2.png[scaledwidth="75%",alt="Item Statistical Category"]
 +
-. From the drop down menu select the value you would like to apply to the item.
-. Click *Apply*.
-
+. The attribute field will turn green to indicate it's been updated.
++
+image::images/cat/item-stat-cat-3.png[scaledwidth="75%",alt="Item Statistical Category"]
++
 . Click *Apply All, Save & Exit*.
 
 Clearing an Item Statistical Category Value
@@ -282,18 +299,14 @@ Clearing an Item Statistical Category Value
 . In the item attributes section of the Holdings Editor, click on the statistical 
 category you would 
 like to clear the value for.
-+
-image::images/cat/item-stat-cat-2.png[scaledwidth="75%",alt="Item Statistical Category"]
-+
 . Click *Clear*.
++
+image::images/cat/item-stat-cat-clear-1.png[scaledwidth="75%",alt="Item Statistical Category"]
++
+. The attribute field will turn green to indicate it's been updated and the value will be _unset_.
++
+image::images/cat/item-stat-cat-clear-2.png[scaledwidth="75%",alt="Item Statistical Category"]
++
 . Click *Apply All, Save & Exit*.
 
 
-[TIP]
-=====
-
-Statistical categories can be set as required.  When required the statistical category is highlighted in 
-orange and the item cannot be saved until a value is entered. 
-
-image::images/cat/item-stat-cat-3.png[scaledwidth="75%",alt="Item Statistical Category"]
-=====
