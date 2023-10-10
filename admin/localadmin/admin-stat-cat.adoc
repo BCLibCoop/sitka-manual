@@ -8,10 +8,10 @@ Stat cats allow your library  to set up locally defined statistical categories f
 
 As of Evergreen 3.11, the Statistical Categories Editor is split into two interfaces, one for items and one for patrons.
 
-Statistical Categories Editor: Items
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Statistical Categories Editor - Items
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-. Select *Administration -> Local Administration-> Statistical Categories Editor - Item*.
+. Go to *Administration -> Local Administration-> Statistical Categories Editor - Item*.
 
 . Click *New Statistical Category Editor - Item* to open the editor.
 
@@ -33,12 +33,12 @@ Statistical Categories Editor: Items
 
 
 
-Statistical Categories Editor: Patrons
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Statistical Categories Editor - Patrons
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 *Patron stat cats*: Below are some examples of patron stat cats.  Patron stat cats can be used to keep track of information like the high school a patron attends, or other required information. You would see these in the lower part of the registration/edit patron screen.
 
-. Select *Administration -> Local Administration-> Statistical Categories Editor - Patron*.
+. Go to *Administration -> Local Administration-> Statistical Categories Editor - Patron*.
 
 . Click *New Statistical Category Editor- Patron* to open the editor.
 
