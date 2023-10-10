@@ -167,7 +167,23 @@ image::images/cat/item-note-4.png[scaledwidth="75%",alt="Item Notes"]
 Editing an Item Note
 ++++++++++++++++++++
 
-
+. In the item attributes section of the Holdings Editor, click *Item Notes*.
++
+image::images/cat/item-note-1.png[scaledwidth="75%",alt="Item Notes"]
++
+. Click *Edit* beside the note you would like to edit.
++ 
+image::images/cat/item-note-edit-1.png[scaledwidth="75%",alt="Item Notes"]
++
+. Make your edits and click *Save*.
++ 
+image::images/cat/item-note-edit-2.png[scaledwidth="75%",alt="Item Notes"]
++
+. Click *Apply Changes*.
++
+image::images/cat/item-note-edit-3.png[scaledwidth="75%",alt="Item Notes"]
++
+. Back in the holdings editor, click *Apply All, Save & Exit*.
 
 
 Deleting an Item Note
@@ -187,13 +203,6 @@ image::images/cat/item-note-6.png[scaledwidth="75%",alt="Item Notes"]
 +
 . Back in the holdings editor, click *Apply All, Save & Exit*.
 . The note is now removed from the item.
-
-
-[NOTE]
-=====
-Currently notes cannot be edited.
-=====
-
 
 ////
 Item Tags
@@ -230,10 +239,12 @@ Item tags can be removed via the same process.
 Item Statistical Category Values
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Item Statistical Categories, also referred to as item stat cats, can be used to capture item information 
-the library needs that isn't otherwise captured in the item record.  This information can be used in reporting.
+Item Statistical Categories, also referred to as item stat cats, can be used to capture item 
+information the library needs that isn't otherwise captured in the item record.  This 
+information can be used in reporting.
 
-For information on creating and editing statistical categories see xref:stat-cat[].
+For information on creating and editing item statistical categories 
+see xref:_statistical_categories_editor_items[].
 
 The _Stat Cat Filter_ enables you to specify the organizational level at which statistical categories display.
 For example, if you have federation wide stat cats as well as library specific ones you can set the filter
@@ -241,7 +252,9 @@ to your federation or your library to change what stat cats display.
 
 image::images/cat/item-stat-cat-1.png[scaledwidth="75%",alt="Item Statistical Category"]
 
-.To apply a statistical category value:
+Applying an Item Statistical Category Value
++++++++++++++++++++++++++++++++++++++++++++
+
 . In the item attributes section of the Holdings Editor, click on the statistical category you would 
 like to enter a value for.
 +
@@ -249,10 +262,14 @@ image::images/cat/item-stat-cat-2.png[scaledwidth="75%",alt="Item Statistical Ca
 +
 . From the drop down menu select the value you would like to apply to the item.
 . Click *Apply*.
+
 . Click *Apply All, Save & Exit*.
 
-.To clear a statistical category value:
-. In the item attributes section of the Holdings Editor, click on the statistical category you would 
+Clearing an Item Statistical Category Value
++++++++++++++++++++++++++++++++++++++++++++
+
+. In the item attributes section of the Holdings Editor, click on the statistical 
+category you would 
 like to clear the value for.
 +
 image::images/cat/item-stat-cat-2.png[scaledwidth="75%",alt="Item Statistical Category"]
