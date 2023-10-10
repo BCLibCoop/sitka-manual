@@ -14,7 +14,7 @@ link:https://youtu.be/7WBAJ1Unz_M[*Sitka Training Video - Holdings Editor (14:13
 
 The Holdings Editor is used to create or edit call number and item records. 
 
-The Holdings Editor can be accessed:
+It can be accessed:
 
 * from within a bibliographic record by clicking on the *Add Holdings* button.
 * from within a bibliographic record by going to *Holdings View* and selecting the appropriate option from
@@ -36,8 +36,8 @@ image::images/cat/the-holdings-editor-1.png[]
 
 [NOTE]
 ======
-The Holdings Editor can display the Holdings Details and Item Attributes as separate tabs or be can unified the
-two into a single tab as shown above.  This is done via the setting _Unified Holdings and Item Attributes Display_ on the 
+The Holdings Editor can display the Holdings Details and Item Attributes as separate tabs or the
+two can be unified into a single tab as shown above.  This is done via the setting _Unified Holdings and Item Attributes Display_ on the 
 xref:_holdings_editor_preferences[Preferences] tab. 
 ======
 

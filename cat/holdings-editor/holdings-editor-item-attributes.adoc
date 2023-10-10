@@ -41,10 +41,10 @@ billed amount from acquisitions module.  It can also be entered manually by libr
 holdable shelving location, but holds should not be allowed on this particular item. If shelving 
 location's _Holdable?_ is set to "NO", this field will have no effect. The "NO" value in this field 
 overrides the  shelving location's _Holdable?_ is "YES" field.
-| Item Alert | Used for information that should been seen when an item is checked in or out 
+| xref:_item_alerts_2[Item Alert] | Used for information that should been seen when an item is checked in or out 
 (e.g. Damage or number of pieces to check for). | CAUTION: some 3rd party self check machines 
 cannot display item alerts. 
-| Item Note | Used for information specific to the item. | Notes set as public will display in the public catalogue.
+| xref:_item_notes[Item Note] | Used for information specific to the item. | Notes set as public will display in the public catalogue.
 | Item Tags |  | Not currently used in Sitka's Evergreen. This attribute is hidden by default.
 | Loan Duration | Indicates whether an item uses the Short, Normal, or Long loan duration attached to its circulation modifier or shelving location set up in the circulation policy. | Each circulation modifier/shelving location may have three loan durations, corresponding to these three values. Use 'Normal' if only one loan period is used. Please contact Co-op Support if you need multiple loan durations for one circulation modifier/shelving location.
 | OPAC Visible? | Indicates whether the item is visible in the public catalogue | Leave it as 'YES', unless 
@@ -54,8 +54,12 @@ hide the item, even if _OPAC Visible?_ is "YES" for the shelving location.
 | Price | Replacement price of the item. |  Evergreen uses this price when billing patrons for lost items.
 | Quality | Indicates the quality of the item | Not currently used in Sitka's Evergreen. This attribute is hidden by default.
 | Reference? | Indicates whether the item is reference or not. | This flag can be used for setting up circulation policies or for statistical purposes.
-| Shelving Location | The location where the item can be found. | Shelving locations belonging to the working location and the organizations on a higher hierarchal level (library system, federation, or Sitka) are displayed in the dropdown list. Multi-branch libraries may create system level shelving locations for all branches to share.
-| Statistical Categories | Item statistical categories created by your library or federation. | Use the dropdown list to choose which organization's entries to display.
+| Shelving Location | The location where the item can be found. | Shelving locations belonging 
+to the working location and the organizations on a higher hierarchal level (library system, 
+federation, or Sitka) are displayed in the dropdown list. Multi-branch libraries 
+may create system level shelving locations for all branches to share. To edit existing shelving
+locations or create new ones see xref:_shelving_location_editor[].
+| xref:_item_statistical_category_values[Statistical Categories] | Item statistical categories created by your library or federation. | Use the dropdown list to choose which organization's entries to display.
 | Status | Current status of the item | By default a new item record is assigned a status of In Process. Some 
 status cannot be selected from the drop down menu as an action, such as checking out the item, is required to 
 set the item to that status.
@@ -67,14 +71,17 @@ Item Alerts
 Item alerts pop up on the screen when the item is checked in and/or checked out to alert staff that something
 further needs to be done with or known about the item.
 
-.To add an item alert:
+Adding an Item Alert
+++++++++++++++++++++
+
 . In the item attributes section of the Holdings Editor, click *Item Alerts*.
 +
 image::images/cat/item-alert-1.png[scaledwidth="75%",alt="Item Alerts"]
 +
 . Choose a type from the dropdown list.
 . Type in the message.
-. Check the box for *Temporary?* if the alert is only needed to resolve a particular issue.
+. If desired, check the box for *Temporary?*. This can be useful if the alert is only needed 
+to resolve a particular issue.
 . Click *Add New*. The alert will display as a pending new alert.
 +
 image::images/cat/item-alert-2.png[scaledwidth="75%",alt="Item Alerts"]
@@ -87,7 +94,9 @@ image::images/cat/item-alert-3.png[scaledwidth="75%",alt="Item Alerts"]
 +
 . The alert will appear at check out and/or check in depending on the alert type choosen.
 
-.To edit an item alert:
+Editing an Item Alert
++++++++++++++++++++++
+
 . In the item attributes section of the Holdings Editor, click *Item Alerts*.
 +
 image::images/cat/item-alert-1.png[scaledwidth="75%",alt="Item Alerts"]
@@ -100,7 +109,9 @@ image::images/cat/item-alert-4.png[scaledwidth="75%",alt="Item Alerts"]
 +
 . The updated alert will appear at check out and/or check in depending on the alert type choosen.
 
-.To delete an item alert:
+Deleting an Item Alert
+++++++++++++++++++++++
+
 . In the item attributes section of the Holdings Editor, click *Item Alerts*.
 +
 image::images/cat/item-alert-1.png[scaledwidth="75%",alt="Item Alerts"]
