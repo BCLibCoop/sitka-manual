@@ -60,3 +60,192 @@ hide the item, even if _OPAC Visible?_ is "YES" for the shelving location.
 status cannot be selected from the drop down menu as an action, such as checking out the item, is required to 
 set the item to that status.
 |===
+
+Item Alerts
+^^^^^^^^^^^
+
+Item alerts pop up on the screen when the item is checked in and/or checked out to alert staff that something
+further needs to be done with or known about the item.
+
+.To add an item alert:
+. In the item attributes section of the Holdings Editor, click *Item Alerts*.
++
+image::images/cat/item-alert-1.png[scaledwidth="75%",alt="Item Alerts"]
++
+. Choose a type from the dropdown list.
+. Type in the message.
+. Check the box for *Temporary?* if the alert is only needed to resolve a particular issue.
+. Click *Add New*. The alert will display as a pending new alert.
++
+image::images/cat/item-alert-2.png[scaledwidth="75%",alt="Item Alerts"]
++
+. Click *Apply Changes*.
++
+image::images/cat/item-alert-3.png[scaledwidth="75%",alt="Item Alerts"]
++
+. Back in the holdings editor, click *Apply All, Save & Exit*.
++
+. The alert will appear at check out and/or check in depending on the alert type choosen.
+
+.To edit an item alert:
+. In the item attributes section of the Holdings Editor, click *Item Alerts*.
++
+image::images/cat/item-alert-1.png[scaledwidth="75%",alt="Item Alerts"]
++
+. Make the the necessary changed and click *Apply Changes*
++
+image::images/cat/item-alert-4.png[scaledwidth="75%",alt="Item Alerts"]
++
+. Back in the holdings editor, click *Apply All, Save & Exit*.
++
+. The updated alert will appear at check out and/or check in depending on the alert type choosen.
+
+.To delete an item alert:
+. In the item attributes section of the Holdings Editor, click *Item Alerts*.
++
+image::images/cat/item-alert-1.png[scaledwidth="75%",alt="Item Alerts"]
++
+. Check the box for *Clear?* beside the alert you'd like to delete and click *Apply Changes*
++
+image::images/cat/item-alert-6.png[scaledwidth="75%",alt="Item Alerts"]
++
+. Back in the holdings editor, click *Apply All, Save & Exit*.
++
+. The alert is deleted and will no longer appear at check out and/or check in.
+
+[NOTE]
+======
+You can also view, edit, and delete item alerts from _Item Status_ by clicking on the *Manage* button.  A count
+beside the button indicates how many alerts are on the item.  This button opens the older version of 
+the alerts pop-up.
+
+*Manage* is greyed out if the item does not have an alert.
+
+image::images/cat/item-alert-5.png[scaledwidth="75%",alt="Item Alerts"]
+======
+
+Item Notes
+^^^^^^^^^^
+
+Notes can be added to item records. Notes will not show up when items are retrieved, but they can be made 
+public and displayed in the public catalogue.
+
+.To add an item note:
+. In the item attributes section of the Holdings Editor, click *Item Notes*.
++
+image::images/cat/item-note-1.png[scaledwidth="75%",alt="Item Notes"]
++
+. Enter a title for your note.
+. Enter the content of your note.
+. Check the box for *Public Note* if the note should display in the public catalogue.
+. Click *Add Note*.
++
+image::images/cat/item-note-2.png[scaledwidth="75%",alt="Item Notes"]
++
+. Click *Apply Changes*.
++
+image::images/cat/item-note-3.png[scaledwidth="75%",alt="Item Notes"]
++
+. Back in the holdings editor, click *Apply All, Save & Exit*.
+. The note is now applied to the item and will display in the public catalogue if set to be public.
++
+image::images/cat/item-note-4.png[scaledwidth="75%",alt="Item Notes"]
+
+
+.To delete an item note:
+. In the item attributes section of the Holdings Editor, click *Item Notes*.
++
+image::images/cat/item-note-1.png[scaledwidth="75%",alt="Item Notes"]
++
+. Click *Remove* beside the note you would like to remove.
++
+image::images/cat/item-note-5.png[scaledwidth="75%",alt="Item Notes"]
++
+. Click *Apply Changes*.
++
+image::images/cat/item-note-6.png[scaledwidth="75%",alt="Item Notes"]
++
+. Back in the holdings editor, click *Apply All, Save & Exit*.
+. The note is now removed from the item.
+
+
+[NOTE]
+=====
+Currently notes cannot be edited.
+=====
+
+
+////
+Item Tags
+^^^^^^^^^
+
+The item tag option is hidden by default in the Holdings Editor as item tags are not currently used by Sitka.
+
+A item tag adds searchable information to item records. Staff and patrons search the copy tag by choosing *Digital Bookplate* on the catalogue.
+
+image::images/cat/copy-alert-7.png[]
+
+Tags are added via *Item Tags* on the item editor. Libraries may pre-create their own tags. Refer to xref:_copy_tag[]
+
+. To add a item tag, go to the Item Editor.
+. Click *Item Tags*.
+. Type a letter in the *Tag* box to display the tags, and choose one.
+. Click *Add Tag*, then *OK*.
+. Click *Save & Exit* on item editor.
++
+image::images/cat/copy-alert-6.png[]
+
+OPAC visible item tag is displayed on the catalogue.
+
+image::images/cat/copy-alert-7a.png[]
+
+Item tags can be removed via the same process.
+
+. Click *Remove* beside the selected tag.
+. Click *OK* to close the pop-up window.
+. Click *Save & Exit* on item editor.
+
+////
+
+Item Statistical Category Values
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Item Statistical Categories, also referred to as item stat cats, can be used to capture item information 
+the library needs that isn't otherwise captured in the item record.  This information can be used in reporting.
+
+For information on creating and editing statistical categories see xref:stat-cat[].
+
+The _Stat Cat Filter_ enables you to specify the organizational level at which statistical categories display.
+For example, if you have federation wide stat cats as well as library specific ones you can set the filter
+to your federation or your library to change what stat cats display.
+
+image::images/cat/item-stat-cat-1.png[scaledwidth="75%",alt="Item Statistical Category"]
+
+.To apply a statistical category value:
+. In the item attributes section of the Holdings Editor, click on the statistical category you would 
+like to enter a value for.
++
+image::images/cat/item-stat-cat-2.png[scaledwidth="75%",alt="Item Statistical Category"]
++
+. From the drop down menu select the value you would like to apply to the item.
+. Click *Apply*.
+. Click *Apply All, Save & Exit*.
+
+.To clear a statistical category value:
+. In the item attributes section of the Holdings Editor, click on the statistical category you would 
+like to clear the value for.
++
+image::images/cat/item-stat-cat-2.png[scaledwidth="75%",alt="Item Statistical Category"]
++
+. Click *Clear*.
+. Click *Apply All, Save & Exit*.
+
+
+[TIP]
+=====
+
+Statistical categories can be set as required.  When required the statistical category is highlighted in 
+orange and the item cannot be saved until a value is entered. 
+
+image::images/cat/item-stat-cat-3.png[scaledwidth="75%",alt="Item Statistical Category"]
+=====
