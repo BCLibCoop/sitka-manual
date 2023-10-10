@@ -141,7 +141,9 @@ Item Notes
 Notes can be added to item records. Notes will not show up when items are retrieved, but they can be made 
 public and displayed in the public catalogue.
 
-.To add an item note:
+Adding an Item Note
++++++++++++++++++++
+
 . In the item attributes section of the Holdings Editor, click *Item Notes*.
 +
 image::images/cat/item-note-1.png[scaledwidth="75%",alt="Item Notes"]
@@ -162,8 +164,15 @@ image::images/cat/item-note-3.png[scaledwidth="75%",alt="Item Notes"]
 +
 image::images/cat/item-note-4.png[scaledwidth="75%",alt="Item Notes"]
 
+Editing an Item Note
+++++++++++++++++++++
 
-.To delete an item note:
+
+
+
+Deleting an Item Note
++++++++++++++++++++++
+
 . In the item attributes section of the Holdings Editor, click *Item Notes*.
 +
 image::images/cat/item-note-1.png[scaledwidth="75%",alt="Item Notes"]
