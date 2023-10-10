@@ -3,11 +3,11 @@ The Holdings Editor
 
 include::holdings-editor/holdings-editor.adoc[Holdings Editor]
 
-include::holdings-editor/holdings-editor-defaults.adoc[Holdings Editor Defaults]
-
 include::holdings-editor/holdings-editor-details.adoc[Holding Details]
 
 include::holdings-editor/holdings-editor-item-attributes.adoc[Item Attributes]
+
+include::holdings-editor/holdings-editor-defaults.adoc[Holdings Editor Preferences]
 
 include::holdings-editor/holdings-template.adoc[Holdings Templates]
 
