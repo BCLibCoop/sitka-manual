@@ -71,6 +71,11 @@ Item Alerts
 Item alerts pop up on the screen when the item is checked in and/or checked out to alert staff that something
 further needs to be done with or known about the item.
 
+[NOTE]
+======
+It is not currently possible to edit an item alert.  You must remove the existing alert and add a new alert.
+======
+
 Adding an Item Alert
 ++++++++++++++++++++
 
@@ -94,8 +99,12 @@ image::images/cat/item-alert-3.png[scaledwidth="75%",alt="Item Alerts"]
 +
 . The alert will appear at check out and/or check in depending on the alert type choosen.
 
+////
 Editing an Item Alert
 +++++++++++++++++++++
+
+NOT CURRENTLY POSSIBLE TO EDIT AN ALERT
+
 
 . In the item attributes section of the Holdings Editor, click *Item Alerts*.
 +
@@ -108,6 +117,8 @@ image::images/cat/item-alert-4.png[scaledwidth="75%",alt="Item Alerts"]
 . Back in the holdings editor, click *Apply All, Save & Exit*.
 +
 . The updated alert will appear at check out and/or check in depending on the alert type choosen.
+
+////
 
 Deleting an Item Alert
 ++++++++++++++++++++++
