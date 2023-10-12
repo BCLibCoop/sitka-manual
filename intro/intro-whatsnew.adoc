@@ -55,8 +55,6 @@ Staff Catalogue
 
 * Links in the staff catalogue Record Summary area now open in a new tab
 
-* New Did You Mean search suggestions for mis-spelled searches.  This feature provides suggestions for single word, single class searches(keyword, title, etc.),  and multiple words, single-class searches(keyword, title, etc.). 
-
 * Title records without holdings are now highlighted in search results.
 
 [[new-features-public-catalogue]]
@@ -68,8 +66,6 @@ Public Catalogue
 * xref:_organizational_units[New Hours of Operation Note] field. When patrons click on your library's hours of operations on the OPAC, this new note field displays any split hours or service related notes.
 
 * OPAC-visible statisitical categories are now visible in the OPAC. This release restores this functionality.
-
-* New Did You Mean search suggestions for mis-spelled searches.  This feature provides suggestions for single word, single class searches(keyword, title, etc.), and multiple words, single-class searches (keyword, title, etc.). 
 
 * Patron login on My Account now includes a button to reveal the password input.
 
