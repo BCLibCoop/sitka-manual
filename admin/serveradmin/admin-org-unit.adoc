@@ -48,6 +48,8 @@ the xref:closed-date-editor[].
 
 . Enter the open and closed times you would like.  Click *Closed* for any days where you are closed for
 the entire day.
+. To enter service information notes that display publicly, click *Edit Note Field?* to open Note fields.
+. Click into each field to input notes. This text will display with your open hours on the OPAC and in the staff catalogue.
 . Click *Apply Changes*. 
 +
 image::images/admin/org-unit-3.png[scaledwidth="75%",alt="Library Hours of Operation"]
