@@ -83,14 +83,14 @@ Logging into Evergreen
 . Verify that the correct workstation is selected and click *Sign In*.
 +
 image::images/intro/login.png[]
+. If your staff user name account lacks a working location, Evergreen blocks the login and prompts for a xref:_working_locations[Working Location].
 
 [TIP]
 =====
 
 If you cannot login try the following:
 
-* Double check that you are using your username and not your barcode.  Your barcode cannot be used to log into the
-staff client unless your username is your barcode.
+* Double check that you are using your username and not your barcode.  Your barcode cannot be used to log into the staff client unless your username is your barcode.
 * Use the visibility toggle to see your password and confirm it is correct.
 * Have your local system administrator check that your account has not expired.
 * Have your local system administrator check that your account has a working location.
