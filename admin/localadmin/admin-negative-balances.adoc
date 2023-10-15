@@ -1,6 +1,18 @@
 Patrons with Negative Balances
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Evergreen generates a list of all patrons with a negative balance. Negative balances are
+generally created when a paid bill is voided either by staff or the system.
 
+. Go to *Administration -> Local Administration -> Patrons with Negative Balances*.
+. The list will load and display.  The patrons' names, barcodes, and the balance owed will
+display.
++
+image::images/admin/patrons-negative-balances-1.png[]
++
+. Click on a barcode to open the patron's account in a new tab.
+. Negative balances can be resolved by xref:_refunding_payments[refunding payments],
+xref:_adjusting_the_bill_balance_to_zero[adjusting the balance of the bill to zero], or
+by xref:_adding_a_charge_to_an_existing_bill[adding a bill entry to the negative line item]. 
 
 
