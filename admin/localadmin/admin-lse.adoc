@@ -179,9 +179,11 @@ is deleted.|True/False| TRUE | Sitka |
 
 |Holdings Editor Default Values and Visibility | | Text | | Sitka |
 
-| ItemPrint Label - Call Number Wrap Filter Height | Set the default height (in number of lines) to use for call number wrapping in the left print label.  | Text |  | LSA
+| ItemPrint Label - Call Number Wrap Filter Height | Set the default height (in number of lines) to use for call number wrapping in the left print label.  
+| Text |  | LSA |
 
-| ItemPrint Label - Call Number Wrap Filter Width | set the default width (in number of characters) to use for call number wrapping in the left print label. | Text  |  | LSA
+| ItemPrint Label - Call Number Wrap Filter Width | set the default width (in number of characters) to use for call number wrapping in the left print label. 
+| Text  |  | LSA |
 
 | Item Print Label - Height for Pocket Label | Set the default height for the item 
 print Pocket Label. Please include a unit of measurement that is valid CSS. For 
@@ -400,7 +402,7 @@ public catalogue and allows users to search and browse course lists. | True/Fals
 |True/False| FALSE | LSA |
 
 |Patron Merge Barcode Delete|Delete barcode(s) of subordinate user(s) in a patron merge
-|True/False| FALSE | LSA
+|True/False| FALSE | LSA |
 
 |Patron Merge Deactivate Card|Mark barcode(s) of subordinate user(s) in a patron merge 
 as inactive.|True/False| TRUE | LSA |
