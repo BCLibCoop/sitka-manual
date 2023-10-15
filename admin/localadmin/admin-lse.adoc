@@ -7,11 +7,12 @@ anchor:library-settings-editor[Library Settings Editor]
 Local system administrators can use library settings to customize some of
 Evergreen's behavior for their library or library system. 
 
-Library setting are set in one of three ways:
+Library setting are set in one of four ways:
 
 * No value by default and library staff can set a value if desired.
 * Value is the Sitka default and can be changed by library staff if desired.
 * Value is set for all of Sitka by Co-op Support and cannot be changed by library staff.
+* Library setting is obsolete or for functionality not used by Sitka.
 
 The tables in xref:_settings_overview[] describe the available settings and indicate who 
 can edit each library settings.
@@ -21,18 +22,28 @@ Editing Library Settings
 
 . Go to *Administration -> Local Administration -> Library Settings Editor*.
 . There are over 400 library settings so the editor will take a moment to load them.
-. Find the setting you wish to edit by browsing the list or filtering usind search terms.
+. Find the setting you wish to edit by browsing the list or filtering using search terms. The
+filter searches both the name and description for the settings.
 . Enter your search term in the filter box and click *Filter*.
++
+image::images/admin/library-settings-1.png[]
++
 . Click the *Edit* button beside the setting you would like to change.
++
+image::images/admin/library-settings-2.png[]
++
 . In the pop-up that appears read the description to learn about the setting and 
 in some cases the options for the setting.
 +
 [NOTE]
 ======
-Different settings require different data formats.  See xref:_library_setting_data_types[]
+Different settings require different data formats for their values.  See xref:_library_setting_data_types[]
 for more information.
 ======
 . Make your change and click *Update Setting*.
++
+image::images/admin/library-settings-3.png[]
++
 . If you no longer want any value entered for the setting click *Delete Setting*.
 
 
@@ -538,7 +549,8 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 |===
 |Setting|Description|Data type|Notes |Edited by
 
-|Allow credit card payments|If enabled, patrons will be able to pay fines accrued at this location via credit card.|True/False| Not in use |
+|Allow credit card payments|If enabled, patrons will be able to pay fines accrued at 
+this location via credit card.|True/False| Not in use |
 
 |Charge item price when marked damaged|If true Evergreen bills item price to the last patron who checked out the damaged item. Staff receive an alert with patron information and must confirm the billing.| True/False| | LSA
 
