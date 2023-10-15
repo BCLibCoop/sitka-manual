@@ -4,7 +4,7 @@ Refunding Payments
 
 If a paid bill is voided, either by staff or by the system, it may result in a negative balance on the patron's
 account.  To close negative bills, you can xref:_adjusting_the_bill_balance_to_zero[adjust the balance to 
-zero], xref:_add_charge_to_existing_bill[add a bill entry to the negative line item], 
+zero], xref:_adding_a_charge_to_an_existing_bill[add a bill entry to the negative line item], 
 or refund the balance amount.
 
 On occasion staff may need to manually void a payment in order to trigger the refund.  See 
@@ -13,7 +13,10 @@ xref:_voiding_a_paid_bill[].
 [NOTE]
 ======
 The most common scenario resulting in a negative balance is a lost item that has been paid for being 
-returned within the library's refund interval.  See LINK for information on lost settings.
+returned within the library's refund interval.  
+////
+See LINK for information on lost settings.
+////
 ======
 
 . In the patron's account click on the *Bills* tab.
