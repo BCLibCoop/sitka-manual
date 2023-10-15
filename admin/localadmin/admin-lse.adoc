@@ -124,11 +124,16 @@ Settings in the Library Settings Editor] in the Acquisitions Manual.
 .Booking
 [options="header"]
 |===
-|Setting|Description|Data type|Notes|Edited by
+|Setting|Description|Data type|Default|Edited by|Notes
 
-|Booking Allow Email Notify|Permit email notification when a reservation is ready for pick-up.|True/false| | LSA
+|Booking Allow Email Notify|Permit email notification when a reservation is ready 
+for pick-up.|True/false| | LSA |
 
-|Elbow room|Elbow room specifies how far in the future you must make a reservation on an item if that item will have to transit to reach its pick-up location. It secondarily defines how soon a reservation on a given item must start before the check-in process will opportunistically capture it for the reservation shelf.|Duration|  |LSA
+|Elbow room|Elbow room specifies how far in the future you must make a reservation 
+on an item if that item will have to transit to reach its pick-up location. It 
+secondarily defines how soon a reservation on a given item must start before the 
+check-in process will opportunistically capture it for the reservation 
+shelf.|Duration|  |LSA |
 |===
 
 ((("Cataloging", "Library Settings Editor")))
