@@ -252,67 +252,158 @@ and thus still within it" automatically.|True/False| | LSA | Useful when librari
 |Bib source for brief records created in the course materials module | The course reserves module will use 
 this bib source for any new brief bibliographic records created by the module. | Text | Course materials module | Sitka |
 
-|Block hold request if hold recipient privileges have expired| |True/False| | LSA
+|Block hold request if hold recipient privileges have expired| |True/False| | LSA |
 
-|Cap max fine at item price|This prevents the system from charging more than the item price in overdue fines|True/False| | LSA
-|Charge fines on overdue circulations when closed|When set to True, fines will be charged during scheduled closings and normal weekly closed days.|True/False| | LSA
-|Checkout fills related hold|When a patron checks out an item and they have no holds that directly target the item, the system will attempt to find a hold for the patron that could be fulfilled by the checked out item and fulfills it. On the Staff Client you may notice that when a patron checks out an item under a title on which he/she has a hold, the hold will be treated as filled though the item has not been assigned to the patron's hold.|True/false| | LSA
+|Cap max fine at item price|This prevents the system from charging more than the item price 
+in overdue fines|True/False| | LSA |
 
-|Checkout fills related hold on valid copy only|When filling related holds on checkout only match on items that are valid for opportunistic capture for the hold. Without this set a Title or Volume hold could match when the item is not holdable. With this set only holdable items will match.|True/False| | LSA
+|Charge fines on overdue circulations when closed|When set to True, fines will be 
+charged during scheduled closings and normal weekly closed days.|True/False| | LSA |
 
-|Checkout auto renew age|When an item has been checked out for at least this amount of time, an attempt to check out the item to the patron that it is already checked out to will simply renew the circulation. If the checkout attempt is done within this time frame, Evergreen will prompt for choosing Renewing or Check-in then Checkout the item.|Duration| | LSA
+|Checkout auto renew age|When an item has been checked out for at least this amount 
+of time, an attempt to check out the item to the patron that it is already checked 
+out to will simply renew the circulation. If the checkout attempt is done within 
+this time frame, Evergreen will prompt for choosing Renewing or Check-in then 
+Checkout the item.|Duration| | LSA |
 
-| Clear hold when other patron checks out item | Default to cancel the hold when patron A checks out item on hold for patron B | True/False | | LSA
+|Checkout fills related hold|When a patron checks out an item and they have no holds 
+that directly target the item, the system will attempt to find a hold for the patron 
+that could be fulfilled by the checked out item and fulfills it. On the Staff Client 
+you may notice that when a patron checks out an item under a title on which he/she 
+has a hold, the hold will be treated as filled though the item has not been assigned to 
+the patron's hold.|True/false| | LSA |
 
-|Display copy alert for in-house-use|Setting to true for an organization will cause an alert to appear with the copy's alert message, if it has one, when recording in-house-use for the copy.|True/False| | LSA
+|Checkout fills related hold on valid copy only|When filling related holds on checkout 
+only match on items that are valid for opportunistic capture for the hold. Without 
+this set a Title or Volume hold could match when the item is not holdable. With this 
+set only holdable items will match.|True/False| | LSA |
 
-|Display copy location check in alert for in-house-use|Setting to true for an organization will cause an alert to display a message indicating that the item needs to be routed to its location if the location has check in alert set to true.|True/False| | LSA
+| Clear hold when other patron checks out item | Default to cancel the hold 
+when patron A checks out item on hold for patron B | True/False | | LSA |
 
-|Do not change fines/fees on zero-balance LOST transaction|When an item has been marked lost and all fines/fees have been completely paid on the transaction, do not void or reinstate any fines/fees EVEN IF "Void lost item billing when returned" and/or "Void processing fee on lost item return" are enabled|True/False| |LSA
+| Disable patron modification of curbside appointments in public catalog | When set to 
+TRUE, patrons cannot use the My Account interface to select curbside pickup times | True/False |
+??? |
 
-|Do not include outstanding Claims Returned circulations in lump sum tallies in Patron Display.|In the Patron Display interface, the number of total active circulations for a given patron is presented in the Summary sidebar and underneath the Items Out navigation button. This setting will prevent Claims Returned circulations from counting toward these tallies.|True/False| | LSA
+|Display copy alert for in-house-use|Setting to true for an organization will 
+cause an alert to appear with the copy's alert message, if it has 
+one, when recording in-house-use for the copy.|True/False| TRUE | LSA |
 
-| Exclude Courtesy Notices from Patrons Items Out Notices Count | | True/False | | LSA
+|Display copy location check in alert for in-house-use|Setting to 
+true for an organization will cause an alert to display a message indicating
+ that the item needs to be routed to its location if the location has check 
+ in alert set to true.|True/False| FALSE | LSA |
 
-| Forgive fines when checking out a long-overdue item and copy alert is suppressed? | | | Not in use |
+|Do not change fines/fees on zero-balance LOST transaction|When an item has been 
+marked lost and all fines/fees have been completely paid on the transaction, 
+do not void or reinstate any fines/fees EVEN IF "Void lost item billing when returned" 
+and/or "Void processing fee on lost item return" are enabled|True/False| FALSE |LSA |
 
-| Forgive fines when checking out a lost item and copy alert is suppressed? | Controls whether fines are automatically forgiven when checking out an item that has been marked as lost, and the corresponding copy alert has been suppressed. | True/False | | LSA
+|Do not include outstanding Claims Returned circulations 
+in lump sum tallies in Patron Display.|In the Patron Display interface, 
+the number of total active circulations for a given patron is presented in the 
+Summary sidebar and underneath the Items Out navigation button. This 
+setting will prevent Claims Returned circulations from counting toward these 
+tallies.|True/False| | LSA |
 
-|Hold shelf status delay|The purpose is to provide an interval of time after an item goes into the on-holds-shelf status before it appears to patrons that it is actually on the holds shelf. This gives staff time to process the item before it shows as ready-for-pick-up.|Duration| | LSA
+|Enable curbside pickup functionality at library. | When set to TRUE, enable staff 
+and public interfaces to schedule curbside pickup of holds that become available 
+for pickup. | True/False | FALSE | Sitka |
 
-|Include Lost circulations in lump sum tallies in Patron Display.|In the Patron Display interface, the number of total active circulations for a given patron is presented in the Summary sidebar and underneath the Items Out navigation button. This setting will include Lost circulations as counting toward these tallies.|True/False| | LSA
+| Exclude Courtesy Notices from Patrons Items Out Notices Count | | True/False | | LSA |
 
-|Invalid patron address penalty|When set, if a patron address is set to invalid, a penalty is applied.|True/False| | LSA
+| Forgive fines when checking out a long-overdue item and copy alert is suppressed? |
+Controls whether fines are automatically forgiven when checking out an item that has 
+been marked as long-overdue, and the corresponding copy alert has been suppressed.
+| | | | NOT USED BY SITKA
 
-|Item status for missing pieces|This is the Item Status to use for items that have been marked or scanned as having Missing Pieces. In the absence of this setting, the Damaged status is used.|Selection list| | LSA
+| Forgive fines when checking out a lost item and copy alert is suppressed? | Controls 
+whether fines are automatically forgiven when checking out an item that 
+has been marked as lost, and the corresponding copy alert has been suppressed. 
+| True/False | | LSA |
 
-|Load patron from Checkout|When scanning barcodes into Checkout auto-detect if a new patron barcode is scanned and auto-load the new patron.|True/False|Not in use |
+|Hold shelf status delay|The purpose is to provide an interval of time after an item 
+goes into the on-holds-shelf status before it appears to 
+patrons that it is actually on the holds shelf. This gives staff 
+time to process the item before it shows as ready-for-pick-up.|Duration| | LSA |
 
-|Long-Overdue Check-In Interval Uses Last Activity Date|Use the long-overdue last-activity date instead of the due_date to determine whether the item has been checked out too long to perform long-overdue check-in processing. If set, the system will first check the last payment time, followed by the last billing time, followed by the due date. See also "Long-Overdue Max Return Interval"|True/False|Not in use |
+|Include Lost circulations in lump sum tallies in Patron Display.|In the 
+Patron Display interface, the number of total active circulations for a given 
+patron is presented in the Summary sidebar and underneath the Items Out 
+navigation button. This setting will include Lost circulations as 
+counting toward these tallies.|True/False| | LSA |
 
-|Long-Overdue Items Usable on Checkin|Long-overdue items are usable on checkin instead of going "home" first|True/False| Not in use |
+|Invalid patron address penalty|When set, if a patron address is 
+set to invalid, a penalty is applied.|True/False| | LSA |
 
-|Long-Overdue Max Return Interval|Long-overdue check-in processing (voiding fees, re-instating overdues, etc.) will not take place for items that have been overdue for (or have last activity older than) this amount of time|Duration| Not in use |
+|Item status for missing pieces|This is the Item Status to use for items 
+that have been marked or scanned as having Missing Pieces. In the absence 
+of this setting, the Damaged status is used.|Selection list| Damaged | LSA |
 
-|Lost check-in generates new overdues|Enabling this setting causes retroactive creation of not-yet-existing overdue fines on lost item check-in, up to the point of check-in time (or max fines is reached). This is different than "restore overdue on lost", because it only creates new overdue fines. Use both settings together to get the full complement of overdue fines for a lost item|True/False| | LSA
+|Load patron from Checkout|When scanning barcodes into Checkout auto-detect if a new 
+patron barcode is scanned and auto-load the new patron.|True/False| | | NOT USED BY SITKA
 
-|Lost items usable on checkin|Lost items are usable on checkin instead of going 'home' first|True/false|  | LSA
-|Max patron claims returned count|When this count is exceeded, a staff override is required to mark the item as claims returned.|Number| | LSA
-|Maximum visible age of User Trigger Events in Staff Interfaces|If this is unset, staff can view User Trigger Events regardless of age. When this is set to an interval, it represents the age of the oldest possible User Trigger Event that can be viewed.|Duration| Not working | LSA
+|Long-Overdue Check-In Interval Uses Last Activity Date|Use the long-overdue 
+last-activity date instead of the due_date to determine whether the item has been checked 
+out too long to perform long-overdue check-in processing. If set, the system
+ will first check the last payment time, followed by the last billing time, followed 
+ by the due date. See also "Long-Overdue Max Return Interval"|True/False| | | NOT USED BY SITKA
 
-|Minimum transit checkin interval|In-Transit items checked in this close to the transit start time will be prevented from checking in|Duration| | LSA
-|Number of Retrievable Recent Patrons | Number of most recently accessed patrons that can be re-retrieved in the staff client. A value of 0 or less disables the feature. Defaults to 1. | Number | | LSA
-|Opt Org Unit into the Course Materials Module | Enables the course reserves module in the public catalogue
-and allows users to search and browse course lists. | True/False | | LSA
+|Long-Overdue Items Usable on Checkin|Long-overdue items are usable on checkin 
+instead of going "home" first|True/False| | | NOT USED BY SITKA
 
-|Patron merge address delete|Delete address(es) of subordinate user(s) in a patron merge.|True/False| | LSA
-|Patron merge barcode delete|Delete barcode(s) of subordinate user(s) in a patron merge|True/False| | LSA
-|Patron merge deactivate card|Mark barcode(s) of subordinate user(s) in a patron merge as inactive.|True/False| | LSA
-|Patron Registration: Cloned patrons get address copy|If True, in the Patron editor, addresses are copied from the cloned user. If False, addresses are linked from the cloned user which can only be edited from the cloned user record.|True/False| | LSA
+|Long-Overdue Max Return Interval|Long-overdue check-in processing (voiding fees, 
+re-instating overdues, etc.) will not take place for items that have been overdue for 
+(or have last activity older than) this amount of time|Duration| | | NOT USED BY SITKA
 
-|Patron search diacritic insensitive | Match patron last, first, and middle names irrespective of usage of diacritical marks or spaces. | True/False | Default: True |Sitka
+|Lost check-in generates new overdues|Enabling this setting causes retroactive creation 
+of not-yet-existing overdue fines on lost item check-in, up to the point of check-in time 
+(or max fines is reached). This is different than "restore overdue on lost", because it 
+only creates new overdue fines. Use both settings together to get the full complement 
+of overdue fines for a lost item|True/False| | LSA |
 
-|Printing: custom JavaScript file|Full URL path to a JavaScript File to be loaded when printing. Should implement a print_custom function for DOM manipulation. Can change the value of the do_print variable to false to cancel printing.|Text| Not in use |
+|Lost items usable on checkin|Lost items are usable on checkin instead of going 'home' 
+first|True/false|  | LSA |
+
+|Max patron claims returned count|When this count is exceeded, a staff override is required 
+to mark the item as claims returned.|Number| | LSA |
+
+| Maximum number of patrons that may select a particular curbside pickup time | | | | | 
+
+|Maximum visible age of User Trigger Events in Staff Interfaces|If this is unset, staff 
+can view User Trigger Events regardless of age. When this is set to an interval, it represents 
+the age of the oldest possible User Trigger Event that can be viewed.|Duration|  
+| LSA |Not working
+
+|Minimum transit checkin interval|In-Transit items checked in this close to the transit start 
+time will be prevented from checking in|Duration| | LSA |
+
+|Number of Retrievable Recent Patrons | Number of most recently accessed patrons that can 
+be re-retrieved in the staff client. A value of 0 or less disables the feature. 
+Defaults to 1. | Number | | LSA |
+
+|Opt Org Unit into the Course Materials Module | Enables the course reserves module in the 
+public catalogue and allows users to search and browse course lists. | True/False | | LSA |
+
+|Patron Merge Address Delete|Delete address(es) of subordinate user(s) in a patron merge.
+|True/False| FALSE | LSA |
+
+|Patron Merge Barcode Delete|Delete barcode(s) of subordinate user(s) in a patron merge
+|True/False| FALSE | LSA
+
+|Patron Merge Deactivate Card|Mark barcode(s) of subordinate user(s) in a patron merge 
+as inactive.|True/False| TRUE | LSA |
+
+|Patron Registration: Cloned patrons get address copy|If True, in the Patron editor, 
+addresses are copied from the cloned user. If False, addresses are linked from 
+the cloned user which can only be edited from the cloned user record.|True/False| | LSA |
+
+|Patron search diacritic insensitive | Match patron last, first, and middle names 
+irrespective of usage of diacritical marks or spaces. | True/False | TRUE |Sitka |
+
+|Printing: custom JavaScript file|Full URL path to a JavaScript File to be loaded 
+when printing. Should implement a print_custom function for DOM manipulation. Can 
+change the value of the do_print variable to false to cancel printing.|Text| | | NOT USED BY SITKA
 
 |Require matching email address for password reset requests||True/False| | LSA
 |Restore Overdues on Long-Overdue Item Return||True/False| | LSA
