@@ -116,11 +116,10 @@ See
 http://docs.libraries.coop/acquisitions/_acquisitions_settings_in_the_library_settings_editor.html[Acquisitions 
 Settings in the Library Settings Editor] in the Acquisitions Manual.
 
-[[_library_settings_booking]]
 
 ((("Booking", "Library Settings Editor")))
 
-[[lse-booking]]
+[[_library_settings_booking]]
 .Booking
 [options="header"]
 |===
@@ -133,7 +132,7 @@ for pick-up.|True/false| | LSA |
 on an item if that item will have to transit to reach its pick-up location. It 
 secondarily defines how soon a reservation on a given item must start before the 
 check-in process will opportunistically capture it for the reservation 
-shelf.|Duration|  |LSA |
+shelf.|Duration| 7 days |LSA |
 |===
 
 ((("Cataloging", "Library Settings Editor")))
