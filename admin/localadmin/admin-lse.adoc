@@ -82,31 +82,32 @@ marks are never required when updating settings in the staff client.
 |Text|Free text
 |===
 
-xref:_library_settings_acquisitions[]
-xref:_library_settings_booking[]
-xref:_library_settings_cataloging[]
-xref:_library_settings_circulation[]
-xref:_library_settings_credit_card_processing[]
-xref:_library_settings_ebook_api_integration[]
-xref:_library_settings_finances[]
-xref:_library_settings_global[]
-xref:_library_settings_gui[]
-xref:_library_settings_holds[]
-xref:_library_settings_library[]
-xref:_library_settings_offline[]
-xref:_library_settings_opac[]
-xref:_library_settings_program[]
-xref:_library_settings_recalls[]
-xref:_library_settings_receipt_template[]
-xref:_library_settings_security[]
-xref:_library_settings_self_check[]
-xref:_library_settings_serials[]
-xref:_library_settings_sms_text_messaging[]
-xref:_library_settings_url_verify[]
-xref:_library_settings_vandelay[]
-xref:_library_settings_uncategorized[]
+* xref:_library_settings_acquisitions[]
+* xref:_library_settings_booking[]
+* xref:_library_settings_cataloging[]
+* xref:_library_settings_circulation[]
+* xref:_library_settings_credit_card_processing[]
+* xref:_library_settings_ebook_api_integration[]
+* xref:_library_settings_finances[]
+* xref:_library_settings_global[]
+* xref:_library_settings_gui[]
+* xref:_library_settings_holds[]
+* xref:_library_settings_library[]
+* xref:_library_settings_offline[]
+* xref:_library_settings_opac[]
+* xref:_library_settings_program[]
+* xref:_library_settings_recalls[]
+* xref:_library_settings_receipt_template[]
+* xref:_library_settings_security[]
+* xref:_library_settings_self_check[]
+* xref:_library_settings_serials[]
+* xref:_library_settings_sms_text_messaging[]
+* xref:_library_settings_url_verify[]
+* xref:_library_settings_vandelay[]
+* xref:_library_settings_uncategorized[]
 
-*Acquisitions*
+Acquisitions
+++++++++++++
 
 ((("Acquisitions", "Library Settings Editor")))
 
@@ -141,63 +142,85 @@ shelf.|Duration| 7 days |LSA |
 .Cataloging
 [options="header"]
 |===
-|Setting|Description|Data type|Notes|Edited by
+|Setting|Description|Data type|Default|Edited by|Notes
 
 |Default Classification Scheme|Defines the default classification scheme for new call 
 numbers: 1 = Generic; 2 = Dewey; 3 = LC|Number| This library setting is obsolete. Default classification 
 scheme is now set in the xref:_holdings_editor_preferences[Holdings Editor Preferences]. |
 
-|Default copy status (fast add)|Default status when a copy is created using the "Fast Item Add" interface.|Selection list|Default: In process | LSA
+|Default copy status (fast add)|Default status when a copy is created using the 
+_Fast Item Add_ interface.|Selection list|In process | LSA |
 
-|Default copy status (normal)|Default status when a copy is created using the normal volume/copy creator interface.|Selection list| | LSA
+|Default copy status (normal)|Default status when a copy is created using 
+the normal volume/copy creator interface.|Selection list| In process | LSA |
 
-|Default Merge Profile (Z39.50 and Record Buckets)|Default merge profile to use during Z39.50 imports and record bucket merges|Selection list| | Sitka
+|Default Merge Profile (Z39.50 and Record Buckets)|Default merge profile 
+to use during Z39.50 imports and record bucket merges|Selection list| Keep Local Fields
+| Sitka |
 
 |Defines the control number identifier used in 003 and 035 fields||Text|  | Sitka
 
-|Delete bib if all copies are deleted via Acquisitions line item cancellation.||True/False|Default: TRUE | Sitka
+|Delete bib if all copies are deleted via Acquisitions line item cancellation.|
+|True/False| TRUE | Sitka |
 
-|Delete volume with last copy|Automatically delete a volume when the last linked copy is deleted.|True/False|Default: TRUE | Sitka
+|Delete volume with last copy|Automatically delete a volume when the last linked copy 
+is deleted.|True/False| TRUE | Sitka |
+
+|Holdings Editor Default Values and Visibility | | Text | | Sitka |
 
 | ItemPrint Label - Call Number Wrap Filter Height | Set the default height (in number of lines) to use for call number wrapping in the left print label.  | Text |  | LSA
 
 | ItemPrint Label - Call Number Wrap Filter Width | set the default width (in number of characters) to use for call number wrapping in the left print label. | Text  |  | LSA
 
-| ItemPrint Label - Height for Left Label | Set the default height for the leftmost item print label. Please include a unit of measurement that is valid CSS. For example, "1in" or "2.5cm" | Text |  | LSA
+| Item Print Label - Height for Pocket Label | Set the default height for the item 
+print Pocket Label. Please include a unit of measurement that is valid CSS. For 
+example, "1in" or "2.5cm" | Text | | | |
 
-| ItemPrint Label - Height for Right Label | Set the default height for the rightmost item print label. Please include a unit of measurement that is valid CSS. For example, "1in" or "2.5cm" | Text |  | LSA
+| Item Print Label - Height for Spine Label | Set the default height for the item print 
+Spine Label. Please include a unit of measurement that is valid CSS. For example, "1in" or "2.5cm" | Text | | LSA| 
 
-| ItemPrint Label - Inline CSS | inject arbitrary CSS into the item print label template. For example, ".printlabel { text-transform: uppercase; }"  | Text |  | LSA
+| Item Print Label - Inline CSS | This setting allows you to inject arbitrary CSS into the item print label template. For example, ".printlabel { text-transform: uppercase; }"
+ | Text | | LSA | 
 
-| ItemPrint Label - Left Margin for Left Label | Set the default left margin for the leftmost item print Label. Please include a unit of measurement that is valid CSS. For example, "1in" or "2.5cm" | Text |  | LSA
+| Item Print Label - Left Margin for Pocket Label | Set the default left margin for the item print Pocket Label (or in other words, the desired space between the two labels). 
+Please include a unit of measurement that is valid CSS. For example, "1in" or "2.5cm" | Text | | LSA | 
 
-| ItemPrint Label - Left Margin for Right Label | Set the default left margin for the rightmost item print label (or in other words, the desired space between the two labels). Please include a unit of measurement that is valid CSS. For example, "1in" or "2.5cm" |Text  |  | LSA
+| Item Print Label - Left Margin for Spine Label | Set the default left margin for the item print Spine Label. Please include a unit of measurement that is valid CSS. 
+For example, "1in" or "2.5cm" | Text | | LSA | 
 
-| ItemPrint Label - Width for Left Label | Set the default width for the leftmost item print label. Please include a unit of measurement that is valid CSS. For example, "1in" or "2.5cm" | Text |  | LSA
+| Item Print Label - Width for Pocket Label | Set the default width for the item print Pocket Label. Please include a unit of measurement that is valid CSS. 
+For example, "1in" or "2.5cm" | Text | | LSA | 
 
-| ItemPrint Label - Width for Right Label | Set the default width for the rightmost item print label. Please include a unit of measurement that is valid CSS. For example, "1in" or "2.5cm"  |Text  |  | LSA
+| Item Print Label - Width for Spine Label | Set the default width for the item print Spine Label. Please include a unit of measurement that is valid CSS. 
+For example, "1in" or "2.5cm" | Text | | LSA | 
 
-| ItemPrint Label Font Family |Set the preferred font family for item print labels. You can specify a list of CSS fonts, separated by commas, in order of preference; the system will use the first font it finds with a matching name. For example, "Arial, Helvetica, serif"  |  Text |  | LSA
+| Item Print Label Font Family |Set the preferred font family for item print labels. You can specify a list of CSS fonts, separated by commas, in order of preference; 
+the system will use the first font it finds with a matching name. For example, "Arial, Helvetica, serif"  | Text | | LSA |
 
-| ItemPrint Label Font Size | Set the default font size for item print labels. Please include a unit of measurement that is valid CSS. For example, "12pt" or "16px" or "1em" |Text  |  | LSA
+| Item Print Label Font Size | Set the default font size for item print labels. Please include a unit of measurement that is valid CSS. For example, "12pt" or "16px" or "1em" 
+| Text | | LSA |
 
-| ItemPrint Label Font Weight | Set the default font weight for item print labels. Please use the CSS specification for values for font-weight. For example, "normal", "bold", "bolder", or "lighter" |Text  |  |  LSA
+| Item Print Label Font Weight | Set the default font weight for item print labels. Please use the CSS specification for values for font-weight. For example, "normal", "bold", 
+"bolder", or "lighter" | Text | | LSA |
 
-|Maximum Parallel Z39.50 Batch Searches|The maximum number of Z39.50 searches that can be in-flight at any given time when performing batch Z39.50 searches|Number| | Sitka
+|Maximum Parallel Z39.50 Batch Searches|The maximum number of Z39.50 searches that can be in-flight at any given time when performing batch Z39.50 searches|Number| | Sitka |
 
-|Maximum Z39.50 Batch Search Results|The maximum number of search results to retrieve and queue for each record + Z39 source during batch Z39.50 searches|Number| | Sitka
+|Maximum Z39.50 Batch Search Results|The maximum number of search results to retrieve and queue for each record + Z39 source during batch Z39.50 searches|Number| | Sitka |
 
-|Spine and pocket label font family|Set the preferred font family for spine and pocket labels. You can specify a list of fonts, separated by commas, in order of preference; the system will use the first font it finds with a matching name. For example, "Arial, Helvetica, serif".|Text| | LSA
+|Require call number labels in Copy Editor | Define whether Copy Editor requires Call Number labels | True/False | TRUE | ??? |
 
-|Spine and pocket label font size|Set the default font size for spine and pocket labels|Number| | LSA
+|Spine and pocket label font family|Set the preferred font family for spine and pocket labels. You can specify a list of fonts, separated by commas, in 
+order of preference; the system will use the first font it finds with a matching name. For example, "Arial, Helvetica, serif".|Text| monospace | LSA |
 
-|Spine and pocket label font weight|Set the preferred font weight for spine and pocket labels. You can specify "normal", "bold", "bolder", or "lighter".|Text| | LSA
+|Spine and pocket label font size|Set the default font size for spine and pocket labels|Number| 10 | LSA |
 
-|Spine label left margin|Set the left margin for spine labels in number of characters.|Number| | LSA
+|Spine and pocket label font weight|Set the preferred font weight for spine and pocket labels. You can specify "normal", "bold", "bolder", or "lighter".|Text| normal | LSA |
 
-|Spine label line width|Set the default line width for spine labels in number of characters. This specifies the boundary at which lines must be wrapped.|Number| | LSA
+|Spine label left margin|Set the left margin for spine labels in number of characters.|Number| 0 | LSA |
 
-|Spine label maximum lines|Set the default maximum number of lines for spine labels.|Number| | LSA
+|Spine label line width|Set the default line width for spine labels in number of characters. This specifies the boundary at which lines must be wrapped.|Number| 8 | LSA
+
+|Spine label maximum lines|Set the default maximum number of lines for spine labels.|Number| 9 | LSA
 |===
 
 ((("Circulation", "Library Settings Editor")))
