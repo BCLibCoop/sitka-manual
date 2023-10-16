@@ -1097,7 +1097,7 @@ Sitka| NOT USED BY SITKA
 |Enable Shibboleth SSO for the OPAC | | True/False| | Sitka |
 
 |Evergreen SSO matchpoint| Evergreen-side field to match a patron against for Shibboleth 
-SSO. Default is usrname. Other reasonable values would be barcode or email.| Text | Sitka |
+SSO. Default is usrname. Other reasonable values would be barcode or email.| Text |  |Sitka |
 
 |Geographic Location Service to use for Addresses|Specifies which geographic location 
 service to use for converting address input to geographic coordinates. |Selection List| | Sitka |
