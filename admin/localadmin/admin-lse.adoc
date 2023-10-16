@@ -187,7 +187,7 @@ is deleted.|True/False| TRUE | Sitka |
 
 | Item Print Label - Height for Pocket Label | Set the default height for the item 
 print Pocket Label. Please include a unit of measurement that is valid CSS. For 
-example, "1in" or "2.5cm" | Text | | | |
+example, "1in" or "2.5cm" | Text | | | 
 
 | Item Print Label - Height for Spine Label | Set the default height for the item print 
 Spine Label. Please include a unit of measurement that is valid CSS. For example, "1in" or "2.5cm" | Text | | LSA| 
@@ -549,61 +549,111 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 .Finances
 [options="header"]
 |===
-|Setting|Description|Data type|Notes |Edited by
+|Setting|Description|Data type|Default | Edited by | Notes
 
 |Allow credit card payments|If enabled, patrons will be able to pay fines accrued at 
-this location via credit card.|True/False| Not in use |
+this location via credit card.|True/False| | | NOT USED BY SITKA 
 
-|Charge item price when marked damaged|If true Evergreen bills item price to the last patron who checked out the damaged item. Staff receive an alert with patron information and must confirm the billing.| True/False| | LSA
+|Charge item price when marked damaged|If true Evergreen bills item price to the last patron 
+who checked out the damaged item. Staff receive an alert with patron information and must 
+confirm the billing.| True/False| FALSE | LSA |
 
-|Charge lost on zero|If set to True, default item price will be charged when an item is marked lost even though the price in item record is 0.00 (same as no price). If False, only processing fee, if used, will be charged.|True/False| | LSA
+|Charge lost on zero|If set to True, default item price will be charged when an item is marked 
+lost even though the price in item record is 0.00 (same as no price). If False, only 
+processing fee, if used, will be charged.|True/False| | LSA |
 
-|Charge processing fee for damaged items|Optional processing fee billed to last patron who checked out the damaged item. Staff receive an alert with patron information and must confirm the billing.|Number(Currency)| Disabled when set to 0 | LSA
+|Charge processing fee for damaged items|Optional processing fee billed to last patron who 
+checked out the damaged item. Staff receive an alert with patron information and must confirm 
+the billing.|Number(Currency)| | LSA | Disabled when set to 0
 
-|Default item price|Replacement charge for lost items if price is unset in the Copy Editor. Does not apply if item price is set to $0|Number(Currency)| | LSA
+|Default item price|Replacement charge for lost items if price is unset in the Copy Editor. 
+Does not apply if item price is set to $0|Number(Currency)| | LSA |
 
-|Disable Patron Credit|Do not allow patrons to accrue credit or pay fines/fees with accrued credit|True/False| | LSA
+|Disable Patron Credit|Do not allow patrons to accrue credit or pay fines/fees with accrued 
+credit|True/False| | LSA |
 
-|Leave transaction open when long overdue balance equals zero|Leave transaction open when long-overdue balance equals zero. This leaves the lost copy on the patron record when it is paid|True/False| Not in use |
+|Leave transaction open when long overdue balance equals zero|Leave transaction open when 
+long-overdue balance equals zero. This leaves the lost copy on the patron record when it 
+is paid|True/False| | | NOT USED BY SITKA 
 
-|Leave transaction open when lost balance equals zero|Leave transaction open when lost balance equals zero. This leaves the lost copy on the patron record when it is paid|True/False|Default: False | Sitka
+|Leave transaction open when lost balance equals zero|Leave transaction open when lost 
+balance equals zero. This leaves the lost copy on the patron record when it is 
+paid|True/False| FALSE | Sitka |
 
-|Long-Overdue Materials Processing Fee|The amount charged in addition to item price when an item is marked Long-Overdue|Number (Currency)|Not in use |
+|Long-Overdue Materials Processing Fee|The amount charged in addition to item price when 
+an item is marked Long-Overdue|Number (Currency)| | | NOT USED BY SITKA
 
-|Lost materials processing fee|The amount charged in addition to item price when an item is marked lost.| Number(Currency)| |LSA
+|Lost materials processing fee|The amount charged in addition to item price when an 
+item is marked lost.| Number(Currency)| |LSA |
 
-|Maximum Item Price|When charging for lost items, limit the charge to this as a maximum.|Number(Currency) | |LSA
+|Maximum Item Price|When charging for lost items, limit the charge to this as a 
+maximum.|Number(Currency) | |LSA |
 
-|Minimum Item Price|When charging for lost items, charge this amount as a minimum.|Number(Currency) | | LSA
+|Minimum Item Price|When charging for lost items, charge this amount as a 
+minimum.|Number(Currency) | | LSA |
 
-|Negative Balance Interval (DEFAULT)|Amount of time after which no negative balances (refunds) are allowed on circulation bills. The "Prohibit negative balance on bills" setting must also be set to "true".|Duration| If the settings for Lost and Overdues are the same, you may use this setting and the "Prohibit Negative Balance on Bills (DEFAULT)" setting, and igore the separate settings for Lost and Overdues. | LSA
+|Negative Balance Interval (DEFAULT)|Amount of time after which no negative balances 
+(refunds) are allowed on circulation bills. The "Prohibit negative balance on bills" 
+setting must also be set to "true".|Duration| | LSA | If the settings for Lost and Overdues are 
+the same, you may use this setting and the "Prohibit Negative Balance on Bills (DEFAULT)" 
+setting, and igore the separate settings for Lost and Overdues.
 
-|Negative Balance Interval for Lost|Amount of time after which no negative balances (refunds) are allowed on bills for lost/long overdue materials. The "Prohibit negative balance on bills for lost materials" setting must also be set to "true".|Duration| | LSA
+|Negative Balance Interval for Lost|Amount of time after which no negative balances 
+(refunds) are allowed on bills for lost/long overdue materials. The "Prohibit 
+negative balance on bills for lost materials" setting must also be set to "true".
+|Duration| | LSA |
 
-|Negative Balance Interval for Overdues|Amount of time after which no negative balances (refunds) are allowed on bills for overdue materials. The "Prohibit negative balance on bills for overdue materials" setting must also be set to "true".|Duration| |LSA
+|Negative Balance Interval for Overdues|Amount of time after which no negative balances 
+(refunds) are allowed on bills for overdue materials. The "Prohibit negative balance on 
+bills for overdue materials" setting must also be set to "true".|Duration| |LSA |
 
-|Prohibit negative balance on bills (Default)|Default setting to prevent negative balances (refunds) on circulation related bills. Set to "true" to prohibit negative balances at all times or, when used in conjunction with an interval setting, to prohibit negative balances after a set period of time.|True/False| | LSA
+|Prohibit negative balance on bills (Default)|Default setting to prevent negative balances 
+(refunds) on circulation related bills. Set to "true" to prohibit negative balances at 
+all times or, when used in conjunction with an interval setting, to prohibit negative 
+balances after a set period of time.|True/False| | LSA |
 
-|Prohibit negative balance on bills for lost materials|Prevent negative balances (refunds) on bills for lost/long overdue materials. Set to "true" to prohibit negative balances at all times or, when used in conjunction with an interval setting, to prohibit negative balances after an interval of time.|True/False| | LSA
+|Prohibit negative balance on bills for lost materials|Prevent negative balances (refunds) 
+on bills for lost/long overdue materials. Set to "true" to prohibit negative balances 
+at all times or, when used in conjunction with an interval setting, to prohibit negative 
+balances after an interval of time.|True/False| | LSA |
 
-|Prohibit negative balance on bills for overdue materials|Prevent negative balances (refunds) on bills for lost/long overdue materials. Set to "true" to prohibit negative balances at all times or, when used in conjunction with an interval setting, to prohibit negative balances after an interval of time.|True/False| | LSA
+|Prohibit negative balance on bills for overdue materials|Prevent negative balances 
+(refunds) on bills for lost/long overdue materials. Set to "true" to prohibit negative 
+balances at all times or, when used in conjunction with an interval setting, to prohibit 
+negative balances after an interval of time.|True/False| | LSA |
 
-|Void Overdue Fines When Items are Marked Long-Overdue|If true overdue fines are voided when an item is marked Long-Overdue|True/False|Not in use |
+|Void Overdue Fines When Items are Marked Long-Overdue|If true overdue fines are voided 
+when an item is marked Long-Overdue|True/False| | | NOT USED BY SITKA
 
-|Void overdue fines when items are marked lost|If true overdue fines are voided when an item is marked lost|True/False| | LSA
+|Void overdue fines when items are marked lost|If true overdue fines are voided when 
+an item is marked lost|True/False| TRUE | LSA |
 |===
 
 [[_library_settings_global]]
 .Global
 [options="header"]
 |===
-|Setting|Description|Data type|Notes | Edited by
-|Allow multiple username changes|If enabled (and Lock Usernames is not set) patrons will be allowed to change their username when it does not look like a barcode. Otherwise username changing in the OPAC will only be allowed when the patron's username looks like a barcode.|True/False|Default True | Sitka
-|Global default locale||Number|Default: Canada | Sitka
-|Lock Usernames|If enabled username changing via the OPAC will be disabled.|True/False|Default: False| Sitka
-|Password format|Defines acceptable format for OPAC account passwords|Regular expression|Default requires that passwords "be at least 7 characters in length,contain at least one letter (a-z/A-Z), and contain at least one number. | Sitka
-|Patron barcode format|Defines acceptable format for patron barcodes|Regular expression| | Sitka
-|Patron username format|Regular expression defining the patron username format, used for patron registration and self-service username changing only|Regular expression| | Sitka
+|Setting|Description|Data type|Default | Edited by | Notes
+
+|Allow multiple username changes|If enabled (and Lock Usernames is not set) patrons 
+will be allowed to change their username when it does not look like a barcode. 
+Otherwise username changing in the OPAC will only be allowed when the patron's username 
+looks like a barcode.|True/False| TRUE | Sitka |
+
+|Global default locale||Text| Canada | Sitka |
+
+|Lock Usernames|If enabled username changing via the OPAC will be disabled.|True/False|FALSE| 
+Sitka |
+
+|Password format|Defines acceptable format for OPAC account passwords|Regular expression| | 
+Sitka | Default requires that passwords "be at least 7 characters in length,contain at least one 
+letter (a-z/A-Z), and contain at least one number.
+
+|Patron barcode format|Defines acceptable format for patron barcodes|Regular expression| | 
+Sitka |
+
+|Patron username format|Regular expression defining the patron username format, used for 
+patron registration and self-service username changing only|Regular expression| | Sitka |
 |===
 
 
@@ -612,59 +662,109 @@ this location via credit card.|True/False| Not in use |
 
 [options="header"]
 |===
-|Setting|Description|Data type|Notes | Edited by
-|Alert on empty bib records|Alert staff when the last copy for a record is being deleted.|True/False| | LSA
-|Button bar|If TRUE, the staff client button bar appears by default on all workstations registered to your library; staff can override this setting at each login.|True/False|Not in use anymore |
-|Cap results in Patron Search at this number.|The maximum number of results returned per search. If 100 is set up here, any search will return 100 records at most.|Number| | LSA
+|Setting|Description|Data type|Default | Edited by | Notes
 
-|Default Country for New Addresses in Patron Editor|This is the default Country for new addresses in the patron editor.|Text| | LSA
+|Alert on empty bib records|Alert staff when the last copy for a record is being 
+deleted.|True/False| FALSE | LSA |
 
-|Default hotkeyset|Default Hotkeyset for clients (filename without the .keyset). Examples: Default, Minimal, and None|Text|Not in use anymore|LSA
+|Button bar|If TRUE, the staff client button bar appears by default on all workstations 
+registered to your library; staff can override this setting at each login.|True/False| |
+ | Setting is obsolete
 
-|Default ident type for patron registration|This is the default Ident Type for new users in the patron editor.|Selection list| Default: Other | LSA
+|Cap results in Patron Search at this number.|The maximum number of results returned 
+per search. If 100 is set up here, any search will return 100 records at most.|Number| | LSA |
 
-|Default showing suggested patron registration fields|Instead of All fields, show just suggested fields in patron registration by default.|True/False| | LSA
+|Default Country for New Addresses in Patron Editor|This is the default Country for 
+new addresses in the patron editor.|Text| Canada | LSA |
 
-|Disable the ability to save list column configurations locally.|GUI: Disable the ability to save list column configurations locally. If set, columns may still be manipulated, however, the changes do not persist. Also, existing local configurations are ignored if this setting is true.|True/False| | LSA
+|Default hotkeyset|Default Hotkeyset for clients (filename without the .keyset). Examples: 
+Default, Minimal, and None|Text| | | Setting is obsolete
 
-|Example dob field on patron registration | The example for validation on the dob field in patron registration.| Text | | LSA
-|Example for Day_phone field on patron registration|The example on validation on the Day_phone field in patron registration.|Text| | LSA
+|Default ident type for patron registration|This is the default Ident Type for new users in 
+the patron editor.|Selection list| Other | LSA |
 
-|Example for Email field on patron registration|The example on validation on the Email field in patron  registration.|Text| | LSA
-|Example for Evening-phone on patron registration|The example on validation on the Evening-phone field in patron registration.|Text| | LSA
+|Default showing suggested patron registration fields|Instead of All fields, show just 
+suggested fields in patron registration by default.|True/False| | LSA |
 
-|Example for Other-phone on patron registration|The example on validation on the Other-phone field in patron registration.|Text| | LSA
+|Deprecated: Format Dates with this pattern. | | | | | Setting is Obsolete
 
-|Example for phone fields on patron registration|The example on validation on phone fields in patron registration. Applies to all phone fields without their own setting.|Text| | LSA
+|Deprecated: Format Times with this pattern.| | | | | Setting is Obsolete
 
-|Example for Postal Code field on patron registration|The example on validation on the Postal Code field in patron registration.|Text| | LSA
+|Disable the ability to save list column configurations locally.|GUI: Disable the ability to 
+save list column configurations locally. If set, columns may still be manipulated, however, 
+the changes do not persist. Also, existing local configurations are ignored if this setting 
+is true.|True/False| | LSA |
 
-|Format Date+Time with this pattern| |Text|Default: yyyy-MM-dd HH:mm | Sitka
+|Display Links to Deprecated Acquisitions Interfaces | | True/False | | ??? |
 
-|Format Dates with this pattern | | Text | Default: yyyy-MM-dd | Sitka
+|Enable Angular Circulation Menu | | True/False | FALSE | Sitka |
 
-|GUI: Hide these fields within the Item Attribute Editor.|Sets which fields in the Item Attribute Editor 
-to hide in the staff client.|Text| This library setting is obsolete. Item attributes can now be  
-hidden via the xref:_holdings_editor_preferences[Holdings Editor Preferences]. |
+|Example dob field on patron registration | The example for validation on the dob field in 
+patron registration.| Text | | LSA |
 
-|Horizontal layout for Volume/Copy Creator/Editor.|The main entry point for this interface is in Holdings Maintenance, Actions for Selected Rows, Edit Item Attributes / Call Numbers / Replace Barcodes. This setting changes the top and bottom panes (if FALSE) for that interface into left and right panes (if TRUE).|True/False|Not in use anymore | LSA
+|Example for Day_phone field on patron registration|The example on validation on the Day_phone 
+field in patron registration.|Text| | LSA |
 
+|Example for Email field on patron registration|The example on validation on the Email 
+field in patron  registration.|Text| | LSA |
 
-|Idle timeout|If you want staff client windows to be minimized after a certain amount of system idle time, set this to the number of seconds of idle time that you want to allow before minimizing (requires staff client restart).|Number| | LSA
+|Example for Evening-phone on patron registration|The example on validation on the 
+Evening-phone field in patron registration.|Text| | LSA |
 
-|Items Out Claims Returned display setting|Value is a numeric code, describing which list the circulation should appear while checked out and whether the circulation should continue to appear in the special list, when checked in with outstanding fines. 1 = regular list, special list. 2 = special list, special list. 5 = regular list, do not display. 6 = special list, do not display.|Number| | LSA
+|Example for Other-phone on patron registration|The example on validation on the 
+Other-phone field in patron registration.|Text| | LSA |
 
-|Items Out Long-Overdue display setting| |Number|Not in use| LSA
+|Example for phone fields on patron registration|The example on validation on phone 
+fields in patron registration. Applies to all phone fields without their own setting.|Text| 
+| LSA |
 
-|Items Out Lost display setting|Value is a numeric code, describing which list the circulation should appear while checked out and whether the circulation should continue to appear in the special list, when checked in with outstanding fines. 1 = regular list, special list. 2 = special list, special list. 5 = regular list, do not display. 6 = special list, do not display.|Number| | LSA
+|Example for Postal Code field on patron registration|The example on validation on the 
+Postal Code field in patron registration.|Text| | LSA |
 
-|Max user activity entries to retrieve (staff client)|Sets the maximum number of recent user activity entries to retrieve for display in the staff client.|Number| | LSA
+|Format Date+Time with this pattern| |Text|Default: yyyy-MM-dd HH:mm | Sitka |
 
-| Maximum payment amount allow | The payment amount in the Patron Bills interface may not exceed the value of this setting. | Number | Default: 1000 |LSA
+|Format Dates with this pattern | | Text | Default: yyyy-MM-dd | Sitka |
 
-|Maximum previous checkouts displayed| The maximum number of previous circulations the staff client will display when investigating item details|Number| | LSA
+|GUI: Enable Traditional Staff Catalog | | True/False | FALSE | Sitka | Sitka no longer uses
+the old staff catalogue
 
-|Patron circulation summary is horizontal||True/False|Not in use anymore | LSA
+|GUI: Hide these fields within the Item Attribute Editor.|Sets which fields in the Item 
+Attribute Editor to hide in the staff client.|Text| | | This library setting is obsolete. Item attributes can now be  
+hidden via the xref:_holdings_editor_preferences[Holdings Editor Preferences].
+
+|Horizontal layout for Volume/Copy Creator/Editor.|The main entry point for this interface 
+is in Holdings Maintenance, Actions for Selected Rows, Edit Item Attributes / Call Numbers 
+/ Replace Barcodes. This setting changes the top and bottom panes (if FALSE) for that 
+interface into left and right panes (if TRUE).|True/False| | | Setting is obsolete
+
+|Idle timeout|If you want staff client windows to be minimized after a certain amount 
+of system idle time, set this to the number of seconds of idle time that you want 
+to allow before minimizing (requires staff client restart).|Number| | LSA |
+
+|Items Out Claims Returned display setting|Value is a numeric code, describing which 
+list the circulation should appear while checked out and whether the circulation should 
+continue to appear in the special list, when checked in with outstanding fines. 
+1 = regular list, special list. 2 = special list, special list. 5 = regular list, 
+do not display. 6 = special list, do not display.|Number| 2 | LSA | 
+
+|Items Out Long-Overdue display setting| |Number| | LSA | NOT USED BY SITKA
+
+|Items Out Lost display setting|Value is a numeric code, describing which list the 
+circulation should appear while checked out and whether the circulation should c
+ontinue to appear in the special list, when checked in with outstanding fines. 
+1 = regular list, special list. 2 = special list, special list. 5 = regular list, 
+do not display. 6 = special list, do not display.|Number| 2 | LSA |
+
+|Max user activity entries to retrieve (staff client)|Sets the maximum number of recent 
+user activity entries to retrieve for display in the staff client.|Number| | LSA |
+
+| Maximum payment amount allow | The payment amount in the Patron Bills interface 
+may not exceed the value of this setting. | Number | 1000 |LSA |
+
+|Maximum previous checkouts displayed| The maximum number of previous circulations 
+the staff client will display when investigating item details|Number| 4 | LSA |
+
+|Patron circulation summary is horizontal||True/False| | LSA | Setting is obsolete
 
 |Payment amount threshold for Are You Sure? dialog |In the Patron Bills interface, a payment attempt will warn if the amount exceeds the value of this setting. | Number	| Default: 1000 | LSA
 
