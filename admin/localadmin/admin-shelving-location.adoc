@@ -3,24 +3,37 @@ Shelving Location Editor
 
 anchor:shelving-location-editor[Shelving Location Editor]
 
+Library staff can create and manage shelving locations for their library or library system.
+
+[CAUTION]
+=========
+If your library uses the acquisitions module and loads vendor records you MUST let your vendors
+know about any changes you make to shelving location names that are used in their templates.  
+
+The value for Name in the shelving locations editor and the value in the $l of the vendor 
+MARC record template MUST match or your MARC records will not load.
+=========
 
 Go to *Administration-> Local Administration-> Shelving Locations Editor.*
 
-To view the shelving locations at your library enter your library code into the Library filter.
-Multi-branch libraries can enter the system and then check the box to display the descendants.
+Multi-branch libraries can use the library filter to adjust the scope of the shelving
+locations that display.
 
-image::images/admin/library-filter-1.png[Library Filter]
+image::images/admin/shelving-location-editor-1.png[]
+
+Deleted shelving locations are filtered out by default.
 
 [NOTE]
 ======
-In order for a library's shelving locations to be translated in the public catalogue the library must 
-first provide Co-op Support with a list of the library's shelving locations with the translations so the
-translations can be entered into Evergreen.
+Libraries can provide Co-op Support with a list of their shelving locations translated
+into French.  Co-op Support will then load the translations into Evergreen so that 
+the shelving location names display in French whenever a patron views the public catalogue
+in French.
 ======
 
 Creating a Shelving Location
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
+. Go to *Administration-> Local Administration-> Shelving Locations Editor.*
 . Click *New Shelving Location*.
 . Enter the relevant information for your shelving location and click *Save*.
 +
@@ -37,7 +50,7 @@ image::images/admin/shelving-location-1.png[scaledwidth="75%",alt="Create Shelvi
 ======
 Text in the Label prefix and Label suffix fields will automatically be added to
 spine labels printed for items in the selected shelving location. It does not affect
-OPAC or staff client display.
+public catalogue or staff client display.
 ======
 
 [TIP]
@@ -51,45 +64,44 @@ holdable or visible on OPAC when all three factors are set to YES.
 
 Editing a Shelving Location
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
+. Go to *Administration-> Local Administration-> Shelving Locations Editor.*
 . Select the shelving location you'd like to edit..
 . Click the actions button and select *Edit Selected*.
-. Make your changes and click *Save*.
 +
 image::images/admin/shelving-location-2.png[scaledwidth="75%",alt="Edit Shelving Location"]
++
+. Make your changes and click *Save*.
 
-[CAUTION]
-=========
-If your library uses the acquisitions module and loads vendor records make sure you let your vendors
-know about any changes you make to shelving location names that are used in their templates.  If the shelving
-location name doesn't match between Evergreen and the $l in the templates your MARC records will not load.
-=========
 
 
 Deleting a Shelving Location
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Shelving locations containing non-deleted items cannot be deleted in Evergreen.  Co-op Support recommends 
-running a report using the Sitka report template 
-_Shelving Location : Copies with Selected Shelving Location_ to check for non-deleted item 
-before attempting to delete a shelving location.
+Shelving locations that are no longer needed can only be deleted if they contain no 
+un-deleted items.  
 
+Before attempting to delete a shelving location Co-op Support recommends running a report using 
+the Sitka template _Shelving Location : Item with Selected Shelving Location_ to 
+check for any un-deleted items.
+
+. Go to *Administration-> Local Administration-> Shelving Locations Editor.*
 . Select the shelving location you wish to delete.
 . From the *Actions* menu selected *Delete Selected*.
 +
 image::images/admin/shelving-location-3.png[scaledwidth="75%",alt="Delete Shelving Location"]
 +
-. The shelving location will still display in the list but _Is Deleted?_ will have a value of _Yes_.
+. _Is Deleted?_ will have a value of _Yes_ for the shelving location and it will be filtered
+out of the list by default.
 
 [NOTE]
 ======
-In the Shelving Locations Editor you can use the filter to display only shelving locations where
-_Is Deleted?_ is _No_.
+Deleted shelving locations are filtered out of the grid by default. You can adjust the 
+filter to see deleted shelving locations as needed.
 
 Because deleted shelving locations also display in the reporter Co-op Support recommends renaming 
 deleted shelving locations to start with Z.  Deleted shelving locations
-will then sort alphabetically to the bottom of the list and it is very evident when running reports 
-that filter on shelving location which shelving locations in the list are deleted.
+will then sort alphabetically to the bottom of the list and it is very evident when running 
+reports that filter on shelving location which shelving locations in the list are deleted.
 ======
 
 
