@@ -1,3 +1,4 @@
+////
 Statistical Categories Editor: Items and Patrons
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -7,21 +8,38 @@ This is where you configure your statistical categories (Stat Cats).
 Stat cats allow your library  to set up locally defined statistical categories for items or patrons. These statistical categories can then be applied when adding patrons or cataloguing items, to generate reports on usage. Each stat cat has specific values attached, and you add them once you have created the stat cat.
 
 As of Evergreen 3.11, the Statistical Categories Editor is split into two interfaces, one for items and one for patrons.
-
+////
 Statistical Categories Editor - Items
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Statistical categories, often referred to as stat cats, allow your library to capture information
+about your items that is not included in the standard fields in the item record.
+
+Item statistical categories can be used in reporting and OPAC visible stat cats display in
+your public catalogue.
+
+
+
+Creating Statistical Categories
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[[_creating_item_statistical_categories]]
+
 . Go to *Administration -> Local Administration-> Statistical Categories Editor - Item*.
+. Click *New Statistical Category Editor - Item*.
++
+image::images/admin/stat-cat-item-1.png[]
++
+. Enter the relevant information for you statistical category and click *Save*.
++
+* *OPAC Visibility*: If selected, the stat cat and its value are displayed in Item Details on the OPAC.
+* *Required*: If selected, the stat cat becomes mandatory when cataloguing a new item.
+* *Archive with Circs*: If selected, the stat cat and its value are kept in aged circulation records.
++
+image::images/admin/stat-cat-item-2.png[]
 
-. Click *New Statistical Category Editor - Item* to open the editor.
-
-. Enter the name of the stat cat. Select the respective check boxes for each option as required, and click *Save*.
-
-*OPAC Visibility*: If selected, the stat cat and its value are displayed in Item Details on the OPAC.
-
-*Required*: If selected, the stat cat becomes mandatory when cataloguing a new item.
-
-*Archive with Circs*: If selected, the stat cat and its value are kept in aged circulation records.
+Adding Statistical Category Entries
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[[_adding_item_statistical_category_entries]]
 
 . To add stat cat values, click *Entries* in the line of the stat cat.  
 
@@ -31,10 +49,28 @@ Statistical Categories Editor - Items
 
 *Item stat cats*: The image shows some examples of item stat cats. You would see these when editing items in the Volume Copy Editor. 
 
+Editing Statistical Categories
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[[_editing_item_statistical_categories]]
+
+Deleting Statistical Categories
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[[_deleting_item_statistical_categories]]
 
 
 Statistical Categories Editor - Patrons
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Statistical categories, often referred to as stat cats, allow your library to capture information
+about your patrons that is not included in the standard fields in the patron record.
+
+Patron statistical categories can be used in reporting and can be set to display in the 
+patron summary in the patron account.
+
+Creating Statistical Categories
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[[_creating_patron_statistical_categories]]
+
 
 *Patron stat cats*: Below are some examples of patron stat cats.  Patron stat cats can be used to keep track of information like the high school a patron attends, or other required information. You would see these in the lower part of the registration/edit patron screen.
 
@@ -42,13 +78,19 @@ Statistical Categories Editor - Patrons
 
 . Click *New Statistical Category Editor- Patron* to open the editor.
 
-. Enter the name of the stat cat. Select the respective check boxes for each option as required, and click *Save*.
+. Enter the relevant information for you statistical category and click *Save*.
+
 
 There are two more options when creating a patron stat cat:
 
 *Allow Free Text* allows staff to type in a value when on patron registration/edit screen, not just select from defined entries.
 
 *Show in Summary* displays the stat cat on the patron summary screen.
+
+Adding Statistical Category Entries
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[[_adding_patron_statistical_category_entries]]
+
 
 . To add stat cat values, click *Entries* in the line of the stat cat.  
 
@@ -59,4 +101,10 @@ There are two more options when creating a patron stat cat:
 This is what the patron stat cat looks like on the patron registration screen.
 
 
+Editing Statistical Categories
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[[_editing_patron_statistical_categories]]
 
+Deleting Statistical Categories
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[[_deleting_patron_statistical_categories]]
