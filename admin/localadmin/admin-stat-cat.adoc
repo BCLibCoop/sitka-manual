@@ -163,6 +163,37 @@ Editing Statistical Categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 [[_editing_patron_statistical_categories]]
 
+. Go to *Administration -> Local Administration-> Statistical Categories Editor - Patron*.
+. Select the statistical category you would like to edit.
+. From the *Actions* menu choose *Edit Selected*.
++
+image::images/admin/stat-cat-item-6.png[]
++
+. Make your changes and click *Save*.
+. Your changes will be reflected in the grid.
+
+
 Deleting Statistical Categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 [[_deleting_patron_statistical_categories]]
+
+[Caution]
+=========
+Once a statistical category is deleted it cannot be un-deleted by either library staff or
+Co-op Support.  
+
+Deleting a statistical category also removes the associated values from any patrons using them.
+=========
+
+. Go to *Administration -> Local Administration-> Statistical Categories Editor - Patron*.
+. Select the statistical category you would like to delete.
+. From the *Actions* menu choose *Delete Selected*.
++
+image::images/admin/stat-cat-item-7.png[]
++
+. A pop-up will appear asking you to confirm that you wish to deleted the statistical category.
+. If you truly wish to delete the statistical category click *Confirm*.
++
+image::images/admin/stat-cat-item-8.png[]
++
+. Your statistical category is deleted and no longer displays in the grid.  
