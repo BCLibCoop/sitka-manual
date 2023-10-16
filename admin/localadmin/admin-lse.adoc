@@ -246,9 +246,11 @@ order of preference; the system will use the first font it finds with a matching
 
 |Spine label left margin|Set the left margin for spine labels in number of characters.|Number| 0 | LSA |
 
-|Spine label line width|Set the default line width for spine labels in number of characters. This specifies the boundary at which lines must be wrapped.|Number| 8 | LSA
+|Spine label line width|Set the default line width for spine labels in number of characters. 
+This specifies the boundary at which lines must be wrapped.|Number| 8 | LSA |
 
-|Spine label maximum lines|Set the default maximum number of lines for spine labels.|Number| 9 | LSA
+|Spine label maximum lines|Set the default maximum number of lines for spine labels.
+|Number| 9 | LSA |
 |===
 
 ((("Circulation", "Library Settings Editor")))
@@ -1023,7 +1025,7 @@ the org unit|Text | | LSA |
 
 |Telephony: Arbitrary line(s) to include in each notice callfile|This overrides lines 
 from opensrf.xml. Line(s) must be valid for your target server and platform 
-(e.g. Asterisk 1.4).|Text| Not in use | Sitka |
+(e.g. Asterisk 1.4).|Text| | Sitka | NOT USED BY SITKA
 
 | Use external "library information URL" in copy table, if available | If set to true, 
 the library name in the copy details section will link to the URL associated with the 
@@ -1151,11 +1153,16 @@ rather than the system level, though the same email can be used for each branch.
 [options="header"]
 |===
 |Setting|Description|Data type|Notes| Edited by
-|Content of alert_text include|Text/HTML/Macros to be inserted into receipt templates in place of %INCLUDE(alert_text)%|Text| Not in use anymore |
-|Content of event_text include|Text/HTML/Macros to be inserted into receipt templates in place of %INCLUDE(event_text)%|Text|Not in use anymore |
-|Content of footer_text include|Text/HTML/Macros to be inserted into receipt templates in place of %INCLUDE(footer_text)%|Text|Not in use anymore |
-|Content of header_text include|Text/HTML/Macros to be inserted into receipt templates in place of %INCLUDE(header_text)%|Text|Not in use anymore |
-|Content of notice_text include|Text/HTML/Macros to be inserted into receipt templates in place of %INCLUDE(notice_text)%|Text|Not in use anymore |
+|Content of alert_text include|Text/HTML/Macros to be inserted into receipt templates 
+in place of %INCLUDE(alert_text)%|Text| Not in use anymore |
+|Content of event_text include|Text/HTML/Macros to be inserted into receipt templates 
+in place of %INCLUDE(event_text)%|Text|Not in use anymore |
+|Content of footer_text include|Text/HTML/Macros to be inserted into receipt templates 
+in place of %INCLUDE(footer_text)%|Text|Not in use anymore |
+|Content of header_text include|Text/HTML/Macros to be inserted into receipt templates 
+in place of %INCLUDE(header_text)%|Text|Not in use anymore |
+|Content of notice_text include|Text/HTML/Macros to be inserted into receipt templates 
+in place of %INCLUDE(notice_text)%|Text|Not in use anymore |
 
 |Disable auth requirement for texting call numbers.|Disable authentication requirement for sending call number information via SMS from the OPAC.|True/False| | LSA
 
@@ -1238,7 +1245,13 @@ usernames in addition to barcode. For this setting to work, a barcode format mus
 .Serials
 [options="header"]
 |===
-|Setting|Description|Data type|Notes | Edited by
+|Setting|Description|Data type|Default | Edited by | Notes
+| Default display grouping for serials distributions presented in the OPAC. | Default 
+display grouping for serials distributions presented in the OPAC. This can be "enum" 
+or "chron". | Text | enum| ??? |
+|Previous Issuance Copy Location | When a serial issuance is received, copies (units) 
+of the previous issuance will be automatically moved into the configured shelving location |
+Selection List | | ??? |
 |===
 
 [[_library_settings_sms_text_messaging]]
@@ -1261,7 +1274,7 @@ usernames in addition to barcode. For this setting to work, a barcode format mus
 .URL Verify
 [options="header"]
 |===
-|Setting|Description|Data type|Notes | Edited by
+|Setting|Description|Data type|Default | Edited by | Notes
 |===
 
 
@@ -1269,7 +1282,7 @@ usernames in addition to barcode. For this setting to work, a barcode format mus
 .Vandelay
 [options="header"]
 |===
-|Setting|Description|Data type|Notes | Edited by
+|Setting|Description|Data type|Default | Edited by | Notes
 |Default Record Match Set|Sets the Default Record Match set |Selection List|Populated by the Vandelay Record Match Sets  |  LSA
 |Vandelay Default Barcode Prefix|Apply this prefix to any auto-generated item barcode|Text| | LSA
 |Vandelay Default Call Number Prefix|Apply this prefix to any auto-generated item call numbers.|Text| | LSA
