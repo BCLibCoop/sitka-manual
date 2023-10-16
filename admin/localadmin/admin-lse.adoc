@@ -1291,7 +1291,7 @@ in place of %INCLUDE(notice_text)%|Text|| Sitka |Setting is obsolete
 .Security
 [options="header"]
 |===
-|Setting|Description|Data type|Notes | Edited by
+|Setting|Description|Data type|Default | Edited by | Notes
 |Default level of patrons' internet access|Enter numbers 1 (Filtered), 
 2 (Unfiltered), or 3 (No Access)|Selection List| Unfiltered |LSA |
 
@@ -1337,10 +1337,10 @@ staff client prompts for login and password.|Number| |LSA |
 |===
 
 [[_library_settings_self_check]]
-.Self Check and Others
+.Self Check
 [options="header"]
 |===
-|Setting|Description|Data type|Notes | Edited by
+|Setting|Description|Data type|Default | Edited by | Notes
 
 |Allow Fine printing | If true, there will be a print option on the fine list screen.
 |True/False	||LSA |
@@ -1455,7 +1455,7 @@ no item call number is present|True/False| | LSA | These are pulled from the MAR
 .Un-categorized
 [options="header"]
 |===
-|Setting|Description|Data type|Notes | Edited by
+|Setting|Description|Data type|Default | Edited by | Notes
 
 | circ.renew.check_penalty | | Number | | Sitka |
 
