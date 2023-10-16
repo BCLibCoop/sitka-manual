@@ -75,6 +75,16 @@ Each table describes the available settings in the group and shows which can be 
 by library staff, what the default value is if applicable, and which settings are
 set globally for the consortium by Co-op Support. 
 
+[NOTE]
+======
+Some library settings apply to old features that have been replaced or features 
+that are not currently used by the Sitka consortium.  
+
+These library settings have been marked as not in use by Sitka or as obsolete so library staff
+know they can be ignored in the editor.
+======
+
+
 Data Types
 ++++++++++
 [[_library_setting_data_types]]
