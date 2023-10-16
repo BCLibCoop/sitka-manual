@@ -17,6 +17,11 @@ Library setting are set in one of four ways:
 The tables in xref:_settings_overview[] describe the available settings and indicate who 
 can edit each library settings.
 
+All libraries MUST have a value set for the library setting 
+_Sending email address for patron notices_.  This ensure that any bounces or responses to
+automatic emails such as courtesy, hold, and overdue email notices go to the applicable
+library.
+
 Editing Library Settings
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -776,55 +781,97 @@ the staff client will display when investigating item details|Number| 4 | LSA |
 
 |Patron circulation summary is horizontal||True/False| | LSA | Setting is obsolete
 
-|Payment amount threshold for Are You Sure? dialog |In the Patron Bills interface, a payment attempt will warn if the amount exceeds the value of this setting. | Number	| Default: 1000 | LSA
+|Payment amount threshold for Are You Sure? dialog |In the Patron Bills interface, a 
+payment attempt will warn if the amount exceeds the value of this setting. | Number	| 
+1000 | LSA |
 
-|Record in-house use: # of uses threshold for Are You Sure? dialog.|In the Record In-House Use interface, a submission attempt will warn if the # of uses field exceeds the value of this setting.|Number| | LSA
+|Record in-house use: # of uses threshold for Are You Sure? dialog.|In the Record In-House 
+Use interface, a submission attempt will warn if the # of uses field exceeds the value 
+of this setting.|Number| | LSA |
 
-|Record In-House Use: Maximum # of uses allowed per entry.|The # of uses entry in the Record In-House Use interface may not exceed the value of this setting.|Number| | LSA
+|Record In-House Use: Maximum # of uses allowed per entry.|The # of uses entry in the 
+Record In-House Use interface may not exceed the value of this setting.|Number| | LSA |
 
-|Regex for barcodes on patron registration|The Regular Expression for validation on barcodes in patron registration.|Regular Expression| | LSA
+|Regex for barcodes on patron registration|The Regular Expression for validation on barcodes 
+in patron registration.|Regular Expression| | LSA |
 
-|Regex for Day_phone field on patron registration| The Regular Expression for validation on the Day_phone field in patron registration. Note: The first capture group will be used for the "last 4 digits of phone number" as patron password feature, if enabled. Ex: "[2-9]\d{2}-\d{3}-(\d{4})( x\d+)?" will ignore the extension on a NANP number.|Regular expression| | LSA
+|Regex for Day_phone field on patron registration| The Regular Expression for validation 
+on the Day_phone field in patron registration. Note: The first capture group will be used 
+for the "last 4 digits of phone number" as patron password feature, if enabled. 
+Ex: "[2-9]\d{2}-\d{3}-(\d{4})( x\d+)?" will ignore the extension on a NANP number.
+|Regular expression| | LSA |
 
-|Regex for Email field on patron registration|The Regular Expression on validation on the Email field in patron registration.|Regular expression| | LSA
+|Regex for Email field on patron registration|The Regular Expression on validation on the 
+Email field in patron registration.|Regular expression| | LSA |
 
-|Regex for Evening-phone on patron registration|The Regular Expression on validation on the Evening-phone field in patron registration.|Regular expression| | LSA
+|Regex for Evening-phone on patron registration|The Regular Expression on validation on 
+the Evening-phone field in patron registration.|Regular expression| | LSA |
 
-|Regex for Other-phone on patron registration|The Regular Expression on validation on the Other-phone field in patron registration.|Regular expression| | LSA
+|Regex for Other-phone on patron registration|The Regular Expression on validation on the 
+Other-phone field in patron registration.|Regular expression| | LSA |
 
-|Regex for phone fields on patron registration|The Regular Expression on validation on phone fields in patron registration. Applies to all phone fields without their own setting.|Regular expression| | LSA
+|Regex for phone fields on patron registration|The Regular Expression on validation on 
+phone fields in patron registration. Applies to all phone fields without their own 
+setting.|Regular expression| | LSA |
 
-|Regex for Postal Code field on patron registration|The Regular Expression on validation on the Postal Code field in patron registration.|Regular expression| | LSA
+|Regex for Postal Code field on patron registration|The Regular Expression on validation 
+on the Postal Code field in patron registration.|Regular expression| | LSA |
 
-|Require at least one address for Patron Registration|Enforces a requirement for having at least one address for a patron during registration. If set to False, you need to delete the empty address before saving the record. If set to True, deletion is not allowed.|True/False| | LSA
+|Require at least one address for Patron Registration|Enforces a requirement for having 
+at least one address for a patron during registration. If set to False, you need to delete 
+the empty address before saving the record. If set to True, deletion is not allowed.
+|True/False| | LSA |
 
-|Require XXXXX field on patron registration|The XXXXX field will be required on the patron registration screen.|True/False|XXXXX can be Country, State, Day-phone, Evening-phone, Other-phone, DOB, Email, or Prefix. | LSA
+|Require XXXXX field on patron registration|The XXXXX field will be required on the patron 
+registration screen.|True/False| | LSA | For more information on using these settings see
+xref:_customizing_the_display_fields[].
 
-|Require staff initials for entry/edit of patron standing penalties and messages.|Appends staff initials and edit date into patron standing penalties and messages.|True/False| | LSA
+|Require ident_value field on patron registration | The ident_value field will be required 
+on the patron registration screen. |True/False | | LSA |
 
-|Require staff initials for entry/edit of patron notes.|Appends staff initials and edit date into patron note content.|True/False| | LSA
+|Require Photo URL field on patron registration | | True/False | | ??? |
 
-|Require staff initials for entry/edit of copy notes.|Appends staff initials and edit date into copy note content.|True/False| | LSA
+|Require staff initials for entry/edit of copy notes.|Appends staff initials and edit 
+date into copy note content.|True/False| TRUE | LSA |
 
-|Show billing tab first when bills are present|If true accounts for patrons with bills will open to the billing tab instead of check out|True/false|Not in use anymore |LSA
+|Require staff initials for entry/edit of patron standing penalties and notes.
+|Require staff initials for entry/edit of patron standing penalties and notes..|True/False| 
+TRUE | LSA |
 
-|Show XXXXX field on patron registration|The XXXXX field will be shown on the patron registration screen. Showing a field makes it appear with required fields even when not required. If the field is required this setting is ignored.|True/False| | LSA
+|Show billing tab first when bills are present|If true accounts for patrons with bills 
+will open to the billing tab instead of check out|True/false| |LSA | Setting is obsolete
 
-|Suggest XXXXX field on patron registration|The XXXXX field will be suggested on the patron registration screen. Suggesting a field makes it appear when suggested fields are shown. If the field is shown or required this setting is ignored.|True/False| | LSA
+|Show XXXXX field on patron registration|The XXXXX field will be shown on the patron 
+registration screen. Showing a field makes it appear with required fields even when 
+not required. If the field is required this setting is ignored.|True/False| | LSA | For 
+more information on using these settings see xref:_customizing_the_display_fields[].
 
-|Toggle off the patron summary sidebar after first view.|When true, the patron summary sidebar will collapse after a new patron sub-interface is selected.|True/False| Not in use anymore |
+| Staff Catalog Search Filters| | Text | | Sitka |
 
-|URL for remote directory containing list column settings.| |Text| Not in use |
+|Suggest XXXXX field on patron registration|The XXXXX field will be suggested on the 
+patron registration screen. Suggesting a field makes it appear when suggested fields 
+are shown. If the field is shown or required this setting is ignored.|True/False| | LSA 
+| For more information on using these settings see xref:_customizing_the_display_fields[].
 
-|Uncheck bills by default in the patron billing interface|Uncheck bills by default in the patron billing interface, and focus on the Uncheck All button instead of the Payment Received field.|True/False| | LSA
+|Toggle off the patron summary sidebar after first view.|When true, the patron summary 
+sidebar will collapse after a new patron sub-interface is selected.|True/False| 
+ | | Setting is obsolete
+
+|Uncheck bills by default in the patron billing interface|Uncheck bills by default 
+in the patron billing interface, and focus on the Uncheck All button instead of the 
+Payment Received field.|True/False| | LSA |
 
 |Unified Volume/Item Creator/Editor|If True, combines the Volume/Copy Creator and Item Attribute Editor 
-in some instances.|True/False| This library setting is obsolete. The unified editor is  
-is now set in the xref:_holdings_editor_preferences[Holdings Editor Preferences]. |
+in some instances.|True/False| | | This library setting is obsolete. The unified editor is  
+is now set in the xref:_holdings_editor_preferences[Holdings Editor Preferences].
 
-|Work Log: maximum actions logged|Maximum entries for "Most Recent Staff Actions" section of the Work Log interface.|Number| | LSA
+|URL for remote directory containing list column settings.| |Text| | | NOT USED BY SITKA
 
-|Work Log: maximum patrons logged|Maximum entries for "Most Recently Affected Patrons..." section of the Work Log interface.|Number| | LSA
+|Work Log: maximum actions logged|Maximum entries for "Most Recent Staff Actions" section 
+of the Work Log interface.|Number| | LSA |
+
+|Work Log: maximum patrons logged|Maximum entries for "Most Recently Affected Patrons..." 
+section of the Work Log interface.|Number| | LSA |
 |===
 
 
@@ -834,57 +881,105 @@ is now set in the xref:_holdings_editor_preferences[Holdings Editor Preferences]
 |===
 |Setting|Description|Data type|Notes | Edited by
 
-|Behind desk pickup supported|If a branch supports both a public holds shelf and behind-the-desk pickups, set this value to true. This gives the patron the option to enable behind-the-desk pickups for their holds by selecting Hold is behind Circ Desk flag in patron record.|True/False| | LSA
+|Behind desk pickup supported|If a branch supports both a public holds shelf and 
+behind-the-desk pickups, set this value to true. This gives the patron the option 
+to enable behind-the-desk pickups for their holds by selecting Hold is behind Circ 
+Desk flag in patron record.|True/False| | LSA |
 
-|Best-hold selection sort order|Defines the sort order of holds when selecting a hold to fill using a given copy at capture time|Selection list| | Sitka
-|Block renewal of items needed for holds|When an item could fulfill a hold, do not allow the current patron to renew|True/False| | Sitka
+|Best-hold selection sort order|Defines the sort order of holds when selecting a 
+hold to fill using a given copy at capture time|Selection list| Traditional | Sitka |
 
-|Cancelled holds display age|Show all cancelled holds that were cancelled within this amount of time|Duration| | LSA
-|Cancelled holds display count|How many cancelled holds to show in patron holds interfaces|Number| | LSA
+|Block renewal of items needed for holds|When an item could fulfill a hold, do not allow 
+the current patron to renew|True/False| | Sitka |
 
-|Clear shelf copy status|Any copies that have not been put into reshelving, in-transit, or on-holds-shelf (for a new hold) during the clear shelf process will be put into this status. This is basically a purgatory status for copies waiting to be pulled from the shelf and processed by hand|Selection list| | Sitka
+|Cancelled holds display age|Show all cancelled holds that were cancelled within this 
+amount of time|Duration| | LSA |
 
-|Default estimated wait|When predicting the amount of time a patron will be waiting for a hold to be fulfilled, this is the default estimated length of time to assume an item will be checked out.|Duration|Not in use | Sitka
+|Cancelled holds display count|How many cancelled holds to show in patron holds 
+interfaces|Number| | LSA |
 
-|Default hold shelf expire interval|Hold Shelf Expiry Time is calculated and inserted into hold record based
- on this interval when capturing a hold.|Duration| If there is no value for this setting holds will not
- have a Hold Shelf Expiry Time and so will not
-expire. | LSA
+|Clear shelf copy status|Any copies that have not been put into reshelving, in-transit,
+or on-holds-shelf (for a new hold) during the clear shelf process will be put into 
+this status. This is basically a purgatory status for copies waiting to be pulled 
+from the shelf and processed by hand|Selection list| | Sitka |
 
-|Expire alert interval|Time before a hold expires at which to send an email notifying the patron|Duration|Not in use | Sitka
-|Expire interval|Amount of time until an unfulfilled hold expires|Duration| | LSA
+|Default estimated wait|When predicting the amount of time a patron will be waiting 
+for a hold to be fulfilled, this is the default estimated length of time to assume 
+an item will be checked out.|Duration| | Sitka | NOT USED BY SITKA
 
-|FIFO|Force holds to a more strict First-In, First-Out capture. Default is SAVE-GAS, which gives priority to holds with pickup location the same as checkin library.|True/False| Default: False| Sitka
-|Hard boundary||Number| | Sitka
-|Hard stalling interval||Duration| | Sitka
+|Default hold shelf expire interval|Hold Shelf Expiry Time is calculated and inserted 
+into hold record based on this interval when capturing a hold.|Duration| | LSA |If there is 
+no value for this setting holds will not have a Hold Shelf Expiry Time and so will not
+expire.
 
-|Has local copy alert|If there is an available copy at the requesting library that could fulfill a hold during hold placement time, alert the patron.|True/False| | LSA
-|Has local copy block|If there is an available copy at the requesting library that could fulfill a hold during hold placement time, do not allow the hold to be placed.|True/False| | LSA
+|Expire alert interval|Time before a hold expires at which to send an email notifying 
+the patron|Duration| 7 days | Sitka |
 
-|Max foreign-circulation time|Time a copy can spend circulating away from its circ lib before returning there to fill a hold|Duration| |Sitka
+|Expire interval|Amount of time until an unfulfilled hold expires|Duration| 180 days | LSA |
 
-|Maximum number of duplicate holds allowed | Maximum number of duplicate title or metarecord holds allowed per patron | Number | | LSA
+|FIFO|Force holds to a more strict First-In, First-Out capture. Default is SAVE-GAS, 
+which gives priority to holds with pickup location the same as checkin library.|True/False| 
+Default: False| Sitka |
 
-|Maximum library target attempts|When this value is set and greater than 0, the system will only attempt to find a copy at each possible branch the configured number of times|Number| | Sitka
+|Hard boundary||Number| | Sitka |
 
-|Minimum estimated wait|When predicting the amount of time a patron will be waiting for a hold to be fulfilled, this is the minimum estimated length of time to assume an item will be checked out.|Duration | Not in use | Sitka
+|Hard stalling interval||Duration| | Sitka |
 
-|Org unit target weight|Org Units can be organized into hold target groups based on a weight. Potential copies from org units with the same weight are chosen at random.|Number| |Sitka
-|Pickup Library Hard stalling interval | When set for the pickup library, this specifies that no items with a calculated proximity greater than 0 from the pickup library can be directly targeted for this time period if there are local available copies. Example "3 days". | Duration| | Sitka
-|Pickup Library Soft stalling interval | When set for the pickup library, this specifies that for holds with a request time age smaller than this interval only items scanned at the pickup library can be opportunistically captured. Example "5 days". This setting takes precedence over "Soft stalling interval" (circ.hold_stalling.soft) when the interval is in force. | Duration| | Sitka
+|Has local copy alert|If there is an available copy at the requesting library that could 
+fulfill a hold during hold placement time, alert the patron.|True/False| | LSA |
 
-|Randomize group hold order|When placing a batch group hold, randomize the order of the patrons receiving the holds so they are not always in the same order.|True/False|Default: True|LSA
+|Has local copy block|If there is an available copy at the requesting library that 
+could fulfill a hold during hold placement time, do not allow the hold to be placed.
+|True/False| | LSA |
 
-|Reset request time on un-cancel|When a hold is uncancelled, reset the request time to push it to the end of the queue|True/False| |LSA
+|Max foreign-circulation time|Time a copy can spend circulating away from its circ lib 
+before returning there to fill a hold|Duration| 6 months |Sitka |
 
-|Skip for hold targeting|When true, don't target any copies at this org unit for holds|True/False| | Sitka
+|Maximum library target attempts|When this value is set and greater than 0, the system 
+will only attempt to find a copy at each possible branch the configured number of 
+times|Number| | Sitka |
 
-|Soft boundary|Holds will not be filled by copies outside this boundary if there are holdable copies within it.|Number | | Sitka
+|Maximum number of duplicate holds allowed | Maximum number of duplicate title or 
+metarecord holds allowed per patron | Number | | LSA |
 
-|Soft stalling interval|For this amount of time, holds will not be opportunistically captured at non-pickup branches.|Duration| | Sitka
+|Minimum estimated wait|When predicting the amount of time a patron will be waiting 
+for a hold to be fulfilled, this is the minimum estimated length of time to assume 
+an item will be checked out.|Duration | | Sitka |NOT USED BY SITKA
 
-|Use Active Date for age protection|When calculating age protection rules use the Active date instead of the Creation Date.|True/False|Default: True | Sitka
-|Use weight-based hold targeting|Use library weight based hold targeting|True/False| | Sitka
+|Org unit target weight|Org Units can be organized into hold target groups based on a 
+weight. Potential copies from org units with the same weight are chosen at random.|Number| 
+|Sitka |
+
+|Pickup Library Hard stalling interval | When set for the pickup library, this specifies 
+that no items with a calculated proximity greater than 0 from the pickup library can 
+be directly targeted for this time period if there are local available copies. Example 
+"3 days". | Duration| | Sitka |
+
+|Pickup Library Soft stalling interval | When set for the pickup library, this specifies 
+that for holds with a request time age smaller than this interval only items scanned 
+at the pickup library can be opportunistically captured. Example "5 days". This setting 
+takes precedence over "Soft stalling interval" (circ.hold_stalling.soft) when the interval 
+is in force. | Duration| | Sitka |
+
+|Randomize group hold order|When placing a batch group hold, randomize the order of the 
+patrons receiving the holds so they are not always in the same order.|True/False| TRUE |LSA |
+
+|Reset request time on un-cancel|When a hold is uncancelled, reset the request time to push 
+it to the end of the queue|True/False| |LSA |
+
+|Skip for hold targeting|When true, don't target any copies at this org unit 
+for holds|True/False| | Sitka |
+
+|Soft boundary|Holds will not be filled by copies outside this boundary if there are 
+holdable copies within it.|Number | | Sitka |
+
+|Soft stalling interval|For this amount of time, holds will not be opportunistically 
+captured at non-pickup branches.|Duration| | Sitka |
+
+|Use Active Date for age protection|When calculating age protection rules use the 
+Active date instead of the Creation Date.|True/False|TRUE| Sitka |
+
+|Use weight-based hold targeting|Use library weight based hold targeting|True/False| | Sitka |
 |===
 
 
