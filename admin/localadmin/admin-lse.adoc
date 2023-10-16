@@ -122,7 +122,6 @@ marks are never required when updating settings in the staff client.
 * xref:_library_settings_offline[]
 * xref:_library_settings_opac[]
 * xref:_library_settings_program[]
-* xref:_library_settings_recalls[]
 * xref:_library_settings_receipt_template[]
 * xref:_library_settings_security[]
 * xref:_library_settings_self_check[]
@@ -1271,13 +1270,6 @@ rather than the system level, though the same email can be used for each branch.
 | All libraries MUST have a value entered for this setting.
 |===
 
-[[_library_settings_recalls]]
-.Recalls
-[options="header"]
-|===
-|Setting|Description|Data type|Notes | Edited by
-|===
-
 [[_library_settings_receipt_template]]
 .Receipt Templates
 [options="header"]
@@ -1465,20 +1457,54 @@ no item call number is present|True/False| | LSA | These are pulled from the MAR
 |===
 |Setting|Description|Data type|Notes | Edited by
 
-| Claim Return: Mark copy as missing| |	 	True/False | Default: False | Sitka
-| Disallow circulation of items when they are on booking reserve and that reserve overlaps with the checkout period	| When true, items on booking reserve during the proposed checkout period will not be allowed to circulate unless overridden with the COPY_RESERVED.override permission.	| True/False	|| LSA
+| circ.renew.check_penalty | | Number | | Sitka |
 
-| Limit Due Date by Patron Expiry |	If True automatically adjusts item due date to match patron card expiry date if expiry date sooner than due date. If False item due date applied. |	True/False| | LSA
-| Recalls: An array of fine amount, fine interval, and maximum fine. |	An array of fine amount, fine interval, and maximum fine. For example, to specify a new fine rule of $5.00 per day, with a maximum fine of $50.00, use: [5.00,"1 day",50.00]	| Text		| Brackets are required in the text. | LSA
+| Claim Return: Mark copy as missing| |	True/False | FALSE | Sitka |
 
-| Recalls: Circulation duration that triggers a recall.	| A hold placed on an item with a circulation duration longer than this will trigger a recall. For example, "14 days" or "3 weeks". | 	Duration | |	LSA
+| Disallow circulation of items when they are on booking reserve and 
+that reserve overlaps with the checkout period	| When true, items on 
+booking reserve during the proposed checkout period will not be allowed 
+to circulate unless overridden with the COPY_RESERVED.override permission.	
+| True/False || LSA |
 
-| Recalls: Truncated loan period.	| When a recall is triggered, this defines the adjusted loan period for the item. For example, "4 days" or "1 week". |	Duration	| |LSA
-| Use in-database circ policy |	Admin setting |	True/False	| |Sitka
-| Use in-database holds policy | Admin setting |	True/False | |	Sitka
-| Use legacy hardcoded receipts/slips	| | 	True/False |	| LSA
-| circ.renew.check_penalty	 | |	True/False	| |Sitka
-| global.credit.allow	 | | 	True/False	| Not in use |Sitka
-| org.opt_out_email_predue	| | 	True/False | Not in use |	Sitka
-| ui.network.progress_meter	| Switch off/on a bar indicating network in progress	| True/False	| Not in use anymore|LSA
+|global.credit.allow| | True/False |  | Sitka | NOT USED BY SITKA
+
+|GUI: Juvenile account requires parent/guardian | Require a value for the parent/guardian 
+field in the patron editor for patrons marked as juvenile | True/False | | LSA |
+
+|GUI: Show guardian field on patron registration | The guardian field will be shown on 
+the patron registration screen. Showing a field makes it appear with required fields even 
+when not required. If the field is required this setting is ignored. | True/False | | LSA |
+
+|GUI: Suggest guardian field on patron registration | The guardian field will be 
+suggested on the patron registration screen. Suggesting a field makes it appear when 
+suggested fields are shown. If the field is shown or required this setting is 
+ignored. | True/False | | LSA |
+
+| Limit Due Date by Patron Expiry |	If True automatically adjusts item due date to 
+match patron card expiry date if expiry date sooner than due date. If False 
+item due date applied. |	True/False| | LSA |
+
+|org.opt_out_email_predue | | True/False| | Sitka | NOT USED BY SITKA
+
+| Recalls: An array of fine amount, fine interval, and maximum fine. |	An array of 
+fine amount, fine interval, and maximum fine. For example, to specify a new fine 
+rule of $5.00 per day, with a maximum fine of $50.00, use: [5.00,"1 day",50.00]	
+| Text|  | LSA |Brackets are required in the text.
+
+| Recalls: Circulation duration that triggers a recall.	| A hold placed on an item 
+with a circulation duration longer than this will trigger a recall. For example, 
+"14 days" or "3 weeks". | 	Duration | |	LSA |
+
+| Recalls: Truncated loan period.	| When a recall is triggered, this defines the 
+adjusted loan period for the item. For example, "4 days" or "1 week". |	Duration	| |LSA |
+
+|ui.network.progress_meter	| Switch off/on a bar indicating network in progress	| 
+True/False	| |LSA |Setting is obsolete
+
+| Use in-database circ policy |	Admin setting |	True/False	| TRUE |Sitka |
+
+| Use in-database holds policy | Admin setting |True/False | TRUE |	Sitka |
+
+| Use legacy hardcoded receipts/slips	| | 	True/False | FALSE	| LSA |
 |===
