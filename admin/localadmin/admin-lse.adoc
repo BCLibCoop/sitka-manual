@@ -1060,57 +1060,187 @@ status rollover will trigger this.|True/False| | LSA |
 .OPAC
 [options="header"]
 |===
-|Setting|Description|Data type|Notes | Edited by
+|Setting|Description|Data type|Default | Edited by | Notes
 
-|Allow Patron Self-Registration|Allow patrons to self-register, creating pending user accounts|True/False| | Sitka
-|Allow pending addresses|If true patrons can edit their addresses in the OPAC. Changes must be approved by staff|True/False| | LSA
-|Allow record emailing without login|Instead of forcing a patron to log in in order to email the details of a record, just challenge them with a simple catpcha.|True/False| | LSA
-|Auto-Override Permitted Hold Blocks (Patrons)|This will allow patrons with the permission "HOLD_ITEM_CHECKED_OUT.override" to automatically override permitted holds.|True/False|When a patron places a hold in the OPAC that fails, and the patron has the permission to override the failed hold, this automatically overrides the failed hold rather than requiring the patron to manually override the hold.  Default: False |  Sitka
+|Allow both Shibboleth and native OPAC authentication | When Shibboleth SSO is enabled, also allow native Evergreen 
+authentication | True/False | | Sitka |
 
-|Custom CSS for the OPAC | This can be populated with CSS that will load in the OPAC after the stylesheets and allow for custom CSS without editing server side templates. | Text | | Sitka
+|Allow Patron Self-Registration|Allow patrons to self-register, creating pending user 
+accounts|True/False| | Sitka |
 
-| Enable Digital Bookplate Search | If enabled, adds a "Digital Bookplate" option to the query type selectors in the public catalog for search on copy tags. | True/False | | Sitka
+|Allow pending addresses|If true patrons can edit their addresses in the OPAC. Changes 
+must be approved by staff|True/False| FALSE | LSA |
 
-| Ignore the Global luri_as_copy flag for this OU |	Admin setting on e-records scoping	| True/False | | Sitka
+|Allow record emailing without login|Instead of forcing a patron to log in in order to 
+email the details of a record, just challenge them with a simple catpcha.|True/False| | LSA |
 
-|Jump to details on 1 hit (OPAC)|When a search yields only 1 result, jump directly to the record details page. This setting only affects the public OPAC|True/False| | LSA
+|Auto-Override Permitted Hold Blocks (Patrons)|This will allow patrons with the 
+permission "HOLD_ITEM_CHECKED_OUT.override" to automatically override permitted 
+holds.|True/False| FALSE |  Sitka |When a patron places a hold in the OPAC that fails, and the patron 
+has the permission to override the failed hold, this automatically overrides the failed 
+hold rather than requiring the patron to manually override the hold.
 
+|Custom CSS for the OPAC | This can be populated with CSS that will load in the OPAC 
+after the stylesheets and allow for custom CSS without editing server side templates. 
+| Text | | Sitka |
 
-|Jump to details on 1 hit (staff client)|When a search yields only 1 result, jump directly to the record details page. This setting only affects the PAC within the staff client|True/False| | LSA
+|Custom jQuery for the OPAC| | Text| | Sitka|
 
-|Limit the depth of xxxxxx	| Admin setting on e-record link display | Number | | Sitka
+| Enable Digital Bookplate Search | If enabled, adds a "Digital Bookplate" option to the 
+query type selectors in the public catalog for search on copy tags. | True/False | FALSE 
+| Sitka | This feature is not currently used in Sitka.
 
-|Limit the number of URIs on the results page | Admin setting on e-record link display | Number | | Sitka
+|Enable Holdings Sort by Geographic Proximity | When set to TRUE, will cause the record 
+details page to display the controls for sorting holdings by geographic proximity. This 
+also depends on the global flag opac.use_geolocation being enabled.| True/False| | 
+Sitka| NOT USED BY SITKA
 
-|OPAC login message | HTML blob to be rendered in an interstitial page upon OPAC login | Text	|  | LSA
+|Enable Shibboleth SSO for the OPAC | | True/False| | Sitka |
 
-|OPAC: Number of staff client saved searches to display on left side of results and record details pages|If unset, the OPAC (only when wrapped in the staff client!) will default to showing you your ten most recent searches on the left side of the results and record details pages. If you actually don't want to see this feature at all, set this value to zero at the top of your organizational tree.|Number| | LSA
+|Evergreen SSO matchpoint| Evergreen-side field to match a patron against for Shibboleth 
+SSO. Default is usrname. Other reasonable values would be barcode or email.| Text | Sitka |
 
+|Geographic Location Service to use for Addresses|Specifies which geographic location 
+service to use for converting address input to geographic coordinates. |Selection List| | Sitka |
 
-|OPAC: Org Unit is not a hold pickup library|If set, this org unit will not be offered to the patron as an option for a hold pickup location. This setting has no affect on searching or hold targeting.|True/False| | Sitka
+|Ignore the Global luri_as_copy flag for this OU |	Admin setting on e-records scoping	
+|True/False | | Sitka |
 
-|Open Reviews & More in a new tab | Allows the Reviews & More links in the search results to be opened in a new tab | True/False | | Sitka
+|Jump to details on 1 hit (public)|When a search yields only 1 result, jump directly to the 
+record details page. This setting only affects the public OPAC|True/False| | LSA |
 
-|Org unit hiding depth|This will hide certain org units in the public OPAC if the Original Location (url param "ol") for the OPAC inherits this setting. This setting specifies an org unit depth, that together with the OPAC Original Location determines which section of the Org Hierarchy should be visible in the OPAC. For example, a stock Evergreen installation will have a 3-tier hierarchy (Consortium/System/Branch), where System has a depth of 1 and Branch has a depth of 2. If this setting contains a depth of 1 in such an installation, then every library in the System in which the Original Location belongs will be visible, and everything else will be hidden. A depth of 0 will effectively make every org visible. The embedded OPAC in the staff client ignores this setting.|Number| | Sitka
+|Jump to details on 1 hit (staff client)|When a search yields only 1 result, jump 
+directly to the record details page. This setting only affects the PAC within the 
+staff client|True/False| | LSA |
 
-|Paging shortcut links for OPAC Browse|The characters in this string, in order, will be used as shortcut links for quick paging in the OPAC browse interface. Any sequence surrounded by asterisks will be taken as a whole label, not split into individual labels at the character level, but only the first character will serve as the basis of the search.|Regular expression | | Sitka
+|Limit the depth of xxxxxx	| Admin setting on e-record link display | Number | | Sitka |
 
-|Patron Self-Reg. Display Timeout|Number of seconds to wait before reloading the patron self-registration interface to clear sensitive data|Duration| | Sitka
+|Limit the number of URIs on the results page | Admin setting on e-record link 
+display | Number | 6 | Sitka |
 
-|Patron Self-Reg. Expire Interval|If set, this is the amount of time a pending user account will be allowed to sit in the database. After this time, the pending user information will be purged|Duration| | Sitka
+| Log out of the Shibboleth IdP | When logging out of Evergreen, also force a logout 
+of the IdP behind Shibboleth | True/False | | Sitka |
 
-|Payment history age limit|The OPAC should not display payments by patrons that are older than any interval defined here.|Duration|Not in use|
+|Matomo Site ID |The Site ID for your Evergreen catalog. You can find the Site ID in the 
+tracking code you got from Matomo. | Text | | Sitka |
 
-| Permit renewals when patron exceeds max fine threshold | Permit renewals even when the patron exceeds the maximum fine threshold |True/False | |LSA
+|Matomo URL|The URL for your the Matomo software. Be sure to include the trailing slash, 
+e.g. https://my-evergreen.matomo.cloud/| Text | | Sitka |
 
-| Specify how items are ordered	| This value specifies how items are ordered in search results and record views within the org unit. To sort from newest to oldest by active date use 'desc'. To sort from oldest to newest by active date use 'asc'. To sort by call number use 'call'.|Text | | LSA
+|Maximum file size for uploaded cover image files (at time of upload, prior to rescaling). |
+The number of bytes to allow for a cover image upload. If unset, defaults to 
+10737418240 (roughly 10GB). | Number | | Sitka |
 
-|Tag Circulated Items in Results|When a user is both logged in and has opted in to circulation history tracking, turning on this setting will cause previous (or currently) circulated items to be highlighted in search results|True/False|Default: True | LSA
+|Maximum number of spelling suggestions that may be offered | If set to -1, provide 
+"best" suggestion if mispelled; if set higher than 0, the maximum suggestions that 
+can be provided; if set to 0, disable suggestions. | Number | | Sitka | NOT USED BY SITKA
 
-|Use fully compressed serial holdings|Show fully compressed serial holdings for all libraries at and below the current context unit|True/False| | Sitka
+|Maximum search result count at which spelling suggestions may be offered|If a search 
+results in this number or fewer results, and there are correctable spelling mistakes, 
+a suggested search may be provided. | Number | | Sitka | NOT USED BY SITKA
 
-|Uses phone as default pin | | True/False | When set to True the password hint is "If this is your first time logging in use the last 4 digits of your phone number or contact your library for assistance." | LSA
-|Warn patrons when adding to a temporary book list|Present a warning dialogue when a patron adds a book to the temporary book list.|True/False| | Sitka
+|Minimum required uses of a spelling suggestions that may be offered|The number of 
+bibliographic records (more or less) that a spelling suggestion must appear in 
+to be considered before offering it to a user. Defaults to 1 (must appear in the bib data).
+| Number | | Sitka | NOT USED BY SITKA
+
+|OPAC login message | HTML blob to be rendered in an interstitial page upon OPAC 
+login | Text|  | LSA |
+
+|OPAC: Number of staff client saved searches to display on left side of results and 
+record details pages|If unset, the OPAC (only when wrapped in the staff client!) will 
+default to showing you your ten most recent searches on the left side of the results 
+and record details pages. If you actually don't want to see this feature at all, set 
+this value to zero at the top of your organizational tree.|Number| | LSA |
+
+|OPAC: Org Unit is not a hold pickup library|If set, this org unit will not be offered 
+to the patron as an option for a hold pickup location. This setting has no affect on 
+searching or hold targeting.|True/False| | Sitka |
+
+|Open Reviews & More in a new tab | Allows the Reviews & More links in the search results 
+to be opened in a new tab | True/False | TRUE | Sitka |
+
+|Org unit hiding depth|This will hide certain org units in the public OPAC if the 
+Original Location (url param "ol") for the OPAC inherits this setting. This setting 
+specifies an org unit depth, that together with the OPAC Original Location determines 
+which section of the Org Hierarchy should be visible in the OPAC. For example, a 
+stock Evergreen installation will have a 3-tier hierarchy (Consortium/System/Branch), 
+where System has a depth of 1 and Branch has a depth of 2. If this setting contains a 
+depth of 1 in such an installation, then every library in the System in which the 
+Original Location belongs will be visible, and everything else will be hidden. 
+A depth of 0 will effectively make every org visible. The embedded OPAC in the staff 
+client ignores this setting.|Number| | Sitka |
+
+|Paging shortcut links for OPAC Browse|The characters in this string, in order, will 
+be used as shortcut links for quick paging in the OPAC browse interface. Any sequence 
+surrounded by asterisks will be taken as a whole label, not split into individual 
+labels at the character level, but only the first character will serve as the basis 
+of the search.|Regular expression | | Sitka |
+
+|Patron Self-Reg. Display Timeout|Number of seconds to wait before reloading the patron 
+self-registration interface to clear sensitive data|Duration| | Sitka |
+
+|Patron Self-Reg. Expire Interval|If set, this is the amount of time a pending user 
+account will be allowed to sit in the database. After this time, the pending user 
+information will be purged|Duration| | Sitka |
+
+|Payment history age limit|The OPAC should not display payments by patrons that are 
+older than any interval defined here.|Duration| | Sitka | NOT USED BY SITKA
+
+| Permit renewals when patron exceeds max fine threshold | Permit renewals even when 
+the patron exceeds the maximum fine threshold |True/False | FALSE |LSA |
+
+|g_trgm score weighting in OPAC spelling suggestions.|Soundex, pg_trgm, and keyboard 
+distance similarity measures can be combined to form a secondary ordering parameter 
+for spelling suggestions. This controls the relative weight of the scaled pg_trgm component. 
+Defaults to 0 for "off".| Number | | Sitka | NOT USED BY SITKA
+
+|Shibboleth SSO Entity ID | Which configured Entity ID to use for SSO when there is more 
+than one available to Shibboleth | Text | | Sitka |
+
+|Shibboleth SSO matchpoint | Shibboleth-side field to match a patron against for 
+Shibboleth SSO. Default is uid; use eppn for Active Directory | Text | | Sitka |
+
+|Show Geographic Proximity in Miles |When set to TRUE, will cause the record details page 
+to show distances for geographic proximity in miles instead of kilometers. | True/False | | Sitka 
+| NOT USED BY SITKA
+
+|Show Owning Lib in Items Out |If enabled, the Owning Lib will be shown in the Items Out 
+display. This may assist in requesting additional renewals | True/False | | ???? |
+
+|Soundex score weighting in OPAC spelling suggestions. |Soundex, trgm, and keyboard 
+distance similarity measures can be combined to form a secondary ordering parameter 
+for spelling suggestions. This controls the relative weight of the scaled soundex 
+component. Defaults to 0 for "off".| Number | | Sitka | NOT USED BY SITKA
+
+| Specify how items are ordered	| This value specifies how items are ordered in search 
+results and record views within the org unit. To sort from newest to oldest by active 
+date use 'desc'. To sort from oldest to newest by active date use 'asc'. To sort by 
+call number use 'call'.|Text | call | LSA |
+
+|Tag Circulated Items in Results|When a user is both logged in and has opted in to 
+circulation history tracking, turning on this setting will cause previous (or currently) 
+circulated items to be highlighted in search results|True/False|TRUE | LSA |
+
+|Text for OPAC site specific banners| Add a top banner message to your OPAC for 
+announcements such as holiday closures. Set as blank to clear the banner.| Text| | 
+Sitka|NOT USED BY SITKA
+ 
+|Text for the Sitka OPAC Banner (for Sitka Staff)|Add a Sitka wide OPAC banner messge, 
+alond with any site banners that may be specified.| Text | | Sitka |
+
+|The styles for the OPAC site specific banners|Specify the css for your OPAC top banner.|
+Text| | Sitka |
+
+|Use fully compressed serial holdings|Show fully compressed serial holdings for all 
+libraries at and below the current context unit|True/False| FALSE | Sitka|
+
+|Uses phone as default pin | | True/False | FALSE | LSA |When set to True the password hint is 
+"If this is your first time logging in use the last 4 digits of your phone number 
+or contact your library for assistance."
+
+|Warn patrons when adding to a temporary book list|Present a warning dialogue when 
+a patron adds a book to the temporary book list.|True/False| TRUE | Sitka |
 |===
 
 [[_library_settings_program]]
