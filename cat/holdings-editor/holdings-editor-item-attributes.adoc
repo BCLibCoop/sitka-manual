@@ -259,7 +259,7 @@ information the library needs that isn't otherwise captured in the item record. 
 information can be used in reporting and OPAC visible stat cats will display in your public catalogue.
 
 For information on creating and editing item statistical categories 
-see xref:_statistical_categories_editor_items[].
+see xref:_statistical_categories_item_editor[].
 
 [TIP]
 =====
