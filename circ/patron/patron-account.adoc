@@ -28,7 +28,10 @@ account was accessed for 3rd party authentication.
 * If a library used Homeroom or Student ID as _Primary Identification_ it will display in the ID1 field.
 * The patron's primary name displays in the Legal Name field in the summary.
 * The patron's email address is a Mail To link.
-* Any addresses associated with the patron display and can be easily copied to the clipboard or printed.
+* Any addresses associated with the patron display and can be easily copied to the clipboard 
+or printed.
+* Patron statistical category values will display if the checkbox for _User Summary_ has 
+been checked for that particular statistical category.
 
 The patron summary can be hidden using the arrows beside the patron's name.  This choice is sticky and
 will stay on collapsed or expanded view until changed.
