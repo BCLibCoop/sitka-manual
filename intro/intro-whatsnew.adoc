@@ -13,7 +13,7 @@ Staff Client
 
 * xref:_library_settings_editor[Library Settings Editor] now in new Angular interface.
 
-* New Statistical Category Editor has separate interfaces for xref:_statistical_categories_editor_items[item statistical categories] and xref:_statistical_categories_editor_patrons[patron statistical categories].
+* New Statistical Category Editor has separate interfaces for xref:_statistical_categories_item_editor[item statistical categories] and xref:_statistical_categories_patron_editor[patron statistical categories].
 
 
 
@@ -90,7 +90,7 @@ Administration
 
 * xref:_library_settings_editor[Library Settings Editor] now in new Angular interface.
 
-* New Statistical Category Editor has separate interfaces for xref:_statistical_categories_editor_items[item statistical categories] and xref:_statistical_categories_editor_patrons[patron statistical categories].
+* New Statistical Category Editor has separate interfaces for xref:_statistical_categories_item_editor[item statistical categories] and xref:_statistical_categories_patron_editor[patron statistical categories].
 
 
 * Renewal Due Date Extended to Cover Lost Time. When an item is renewed before it’s due date, libraries now have the option to extend the renewal’s due date to include any time lost from the early renewal. For example, a 14 day checkout renewed after 12 days will result in a due date of 16 days hence. xref:_changing_your_circulation_policies[Contact Co-op Support] if you are interested in this feature.
