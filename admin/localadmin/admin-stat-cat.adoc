@@ -9,8 +9,8 @@ Stat cats allow your library  to set up locally defined statistical categories f
 
 As of Evergreen 3.11, the Statistical Categories Editor is split into two interfaces, one for items and one for patrons.
 ////
-Statistical Categories Editor - Items
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Statistical Categories - Item Editor
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Statistical categories, often referred to as stat cats, allow your library to capture information
 about your items that is not included in the standard fields in the item record.  Statistical
@@ -27,8 +27,8 @@ Creating Statistical Categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 [[_creating_item_statistical_categories]]
 
-. Go to *Administration -> Local Administration-> Statistical Categories Editor - Item*.
-. Click *New Statistical Category Editor - Item*.
+. Go to *Administration -> Local Administration-> Statistical Categories - Item Editor*.
+. Click *New Statistical Category - Item*.
 +
 image::images/admin/stat-cat-item-1.png[]
 +
@@ -49,7 +49,7 @@ Adding Statistical Category Entries
 Each statistical category can have multiple values that library staff can choose from when 
 adding or editing an item.
 
-. Go to *Administration -> Local Administration-> Statistical Categories Editor - Item*.
+. Go to *Administration -> Local Administration-> Statistical Categories - Item Editor*.
 . Click *Entries* for the stat cat you would like to add values to.  
 +
 image::images/admin/stat-cat-item-3.png[]
@@ -75,7 +75,7 @@ Editing Statistical Categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 [[_editing_item_statistical_categories]]
 
-. Go to *Administration -> Local Administration-> Statistical Categories Editor - Item*.
+. Go to *Administration -> Local Administration-> Statistical Categories - Item Editor*.
 . Select the statistical category you would like to edit.
 . From the *Actions* menu choose *Edit Selected*.
 +
@@ -97,7 +97,7 @@ Co-op Support.
 Deleting a statistical category also removes the associated values from any items using them.
 =========
 
-. Go to *Administration -> Local Administration-> Statistical Categories Editor - Item*.
+. Go to *Administration -> Local Administration-> Statistical Categories - Item Editor*.
 . Select the statistical category you would like to delete.
 . From the *Actions* menu choose *Delete Selected*.
 +
@@ -111,8 +111,8 @@ image::images/admin/stat-cat-item-8.png[]
 . Your statistical category is deleted and no longer displays in the grid.  
 
 
-Statistical Categories Editor - Patrons
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Statistical Categories - Patron Editor
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Statistical categories, often referred to as stat cats, allow your library to capture information
 about your patrons that is not included in the standard fields in the patron record. Statistical
@@ -126,7 +126,7 @@ Creating Statistical Categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 [[_creating_patron_statistical_categories]]
 
-. Go to *Administration -> Local Administration-> Statistical Categories Editor - Patron*.
+. Go to *Administration -> Local Administration-> Statistical Categories - Patron Editor*.
 . Click *New Statistical Category Editor- Patron* to open the editor.
 +
 image::images/admin/stat-cat-patron-1.png[]
@@ -152,7 +152,7 @@ Adding Statistical Category Entries
 Each statistical category can have multiple values that library staff can choose from when 
 registering or editing a patron.
 
-. Go to *Administration -> Local Administration-> Statistical Categories Editor - Patron*.
+. Go to *Administration -> Local Administration-> Statistical Categories - Patron Editor*.
 . Click *Entries* for the stat cat you would like to add values to.  
 +
 image::images/admin/stat-cat-patron-3.png[]
@@ -179,7 +179,7 @@ Editing Statistical Categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 [[_editing_patron_statistical_categories]]
 
-. Go to *Administration -> Local Administration-> Statistical Categories Editor - Patron*.
+. Go to *Administration -> Local Administration-> Statistical Categories - Patron Editor*.
 . Select the statistical category you would like to edit.
 . From the *Actions* menu choose *Edit Selected*.
 +
@@ -201,7 +201,7 @@ Co-op Support.
 Deleting a statistical category also removes the associated values from any patrons using them.
 =========
 
-. Go to *Administration -> Local Administration-> Statistical Categories Editor - Patron*.
+. Go to *Administration -> Local Administration-> Statistical Categories - Patron Editor*.
 . Select the statistical category you would like to delete.
 . From the *Actions* menu choose *Delete Selected*.
 +
