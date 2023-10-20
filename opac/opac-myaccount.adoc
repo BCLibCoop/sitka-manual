@@ -27,14 +27,19 @@ option to change your username on the _Account Preferences_ screen.
 +
 .. You should have been given a password when you received your library card.
 +
-.. If you do not have or cannot recall your password please contact your local library to have the password
+.. If you do not have or cannot recall your password please contact your local library to have 
+the password
 reset or use the xref:_resetting_your_password.[*Forgot Your Password?*] link.
+.. You can use the password visibility button to see what you have entered for your password.
++
+image::images/opac/opac-account-visibility-1.png[scaledwidth="75%",alt="My Account"]
 +
 . Click *Log in*.
-
++
 image::images/opac/opac-account-2.png[scaledwidth="75%",alt="My Account"]
 
-NOTE: All patron and staff accounts in Evergreen can access _My Account_ through the public catalogue.
+NOTE: All patron and staff accounts in Evergreen can access _My Account_ through the public 
+catalogue.
 
 Resetting Your Password
 ~~~~~~~~~~~~~~~~~~~~~~~
