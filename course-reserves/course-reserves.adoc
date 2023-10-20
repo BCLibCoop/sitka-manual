@@ -227,5 +227,73 @@ library setting _Allow users to browse Courses by Instructor_ to TRUE.
 Archiving a Course
 ~~~~~~~~~~~~~~~~~~
 
+When a course is finished for the term it can be archived. Archiving a course gives
+you the option to use it again in the future and means a record of the course is kept.
+
+[CAUTION]
+=========
+When a course is archived all associated materials and students are removed.  
+
+There is no confirmation to ask if you are sure you wish to archive the course
+so make sure you truly wish to archive your selected course before choosing the option.
+=========
+
+. Go to *Administration -> Local Administration -> Course Reserves List*.
+. Select the course you wish to archive and from the *Actions* menu choose
+*Archive Selected*.
++
+image::images/course-reserves/course-reserves-archive-1.png[]
++
+. The course now displays as archived.  All materials and students have been removed from 
+the course.
+
+[NOTE]
+======
+You can also archive a course using the *Archive Course* button found within a course.
+
+image::images/course-reserves/course-reserves-archive-2.png[]
+======
+
 Un-Archiving a Course
 ~~~~~~~~~~~~~~~~~~~~~
+
+Archived courses can be un-archived and used again.
+
+. Go to *Administration -> Local Administration -> Course Reserves List*.
+. Select the course you wish to archive and from the *Actions* menu choose
+*Reopen Selected*.
++
+image::images/course-reserves/course-reserves-un-archive-1.png[]
++
+. The course is no longer archived.  Materials and students that were previously 
+associated with the course are not restored.
+
+[NOTE]
+======
+You can also un-archive a course using the *Unarchive Course* button found within a course.
+
+image::images/course-reserves/course-reserves-un-archive-2.png[]
+======
+
+Deleting a Course
+^^^^^^^^^^^^^^^^^
+
+You can delete a course if it is no longer needed and you don't want to keep a record
+of it by archiving it.
+
+[CAUTION]
+=========
+When a course is deleted it cannot be restored.
+
+There is no confirmation to ask if you are sure you wish to delete the course
+so make sure you truly wish to archive your selected course before choosing the option.
+=========
+
+. Go to *Administration -> Local Administration -> Course Reserves List*.
+. Select the course you wish to archive and from the *Actions* menu choose
+*Delete Selected*.
++
+image::images/course-reserves/course-reserves-delete-1.png[]
++
+. The message _Deletion of Course was sucessful_ displays in the bottom right corner.
+. The course is deleted and no longer displays in the grid.  
