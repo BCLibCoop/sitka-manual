@@ -18,7 +18,7 @@ The tables in xref:_settings_overview[] describe the available settings and indi
 can edit each library settings.
 
 All libraries MUST have a value set for the library setting 
-_Sending email address for patron notices_.  This ensure that any bounces or responses to
+_Sending email address for patron notices_.  This ensures that any bounces or responses to
 automatic emails such as courtesy, hold, and overdue email notices go to the applicable
 library.
 
@@ -201,7 +201,7 @@ is deleted.|True/False| TRUE | Sitka |
 
 | Item Print Label - Height for Pocket Label | Set the default height for the item 
 print Pocket Label. Please include a unit of measurement that is valid CSS. For 
-example, "1in" or "2.5cm" | Text | | | 
+example, "1in" or "2.5cm" | Text | |LSA | 
 
 | Item Print Label - Height for Spine Label | Set the default height for the item print 
 Spine Label. Please include a unit of measurement that is valid CSS. For example, "1in" or "2.5cm" | Text | | LSA| 

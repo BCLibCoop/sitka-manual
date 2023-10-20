@@ -8,7 +8,7 @@ Hold Policies
 
 anchor:hold-policy[Hold Policy]
 
-Hold policies defines who can place how many holds on what types of materials. They also defines whether 
+Hold policies define who can place how many holds on what types of materials. They also define whether 
 the library's materials can be used to fill holds to be picked up at other libraries.
 
 When a hold is initiated Evergreen checks the following to determine if the hold can be placed and if it
@@ -30,9 +30,9 @@ Viewing Your Hold Policies
 To view your current hold policies run a report (reporter permissions required) or
 view your policies in Evergreen (Local System Administrator permissions required).
 
-* In the reporter go to *Shared Folders -> Templates -> Sitka_templates -> Library Configuration*
+* In the reporter go to *Shared Folders -> Templates -> Sitka_templates -> Local Administration*
 +
-** Multiple report templates for hold policies are available here.
+** Multiple report templates for hold policies are available in the Local Administration folder.
 +
 * In Evergreen select *Administration -> Local Administration -> Hold Policies*.
 +
