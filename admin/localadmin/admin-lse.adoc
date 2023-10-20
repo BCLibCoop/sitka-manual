@@ -234,7 +234,7 @@ the system will use the first font it finds with a matching name. For example, "
 
 |Maximum Z39.50 Batch Search Results|The maximum number of search results to retrieve and queue for each record + Z39 source during batch Z39.50 searches|Number| | Sitka |
 
-|Require call number labels in Copy Editor | Define whether Copy Editor requires Call Number labels | True/False | TRUE | ??? |
+|Require call number labels in Copy Editor | Define whether Copy Editor requires Call Number labels | True/False | TRUE | Sitka|
 
 |Spine and pocket label font family|Set the preferred font family for spine and pocket labels. You can specify a list of fonts, separated by commas, in 
 order of preference; the system will use the first font it finds with a matching name. For example, "Arial, Helvetica, serif".|Text| monospace | LSA |
@@ -263,7 +263,7 @@ This specifies the boundary at which lines must be wrapped.|Number| 8 | LSA |
 |Allow others to use patron account (privacy waiver) | Add a note to a user account indicating that specified people are allowed to place holds, pick up holds, check out items, 
 or view borrowing history for that user account | True/False | TRUE | LSA |
 
-|Allow renewal request if renewal recipient privileges have expired | If enabled, users within the org unit who are expired may still renew items. | True/False | | ??? |
+|Allow renewal request if renewal recipient privileges have expired | If enabled, users within the org unit who are expired may still renew items. | True/False | | Sitka |
 
 |Allow users to browse Courses by Instructor | If enabled, users can browse courses by instructor name in the 
 public catalogue. | True/False | | LSA |
@@ -312,7 +312,7 @@ when patron A checks out item on hold for patron B | True/False | | LSA |
 
 | Disable patron modification of curbside appointments in public catalog | When set to 
 TRUE, patrons cannot use the My Account interface to select curbside pickup times | True/False |
-| ??? |
+| Sitka |
 
 |Display copy alert for in-house-use|Setting to true for an organization will 
 cause an alert to appear with the copy's alert message, if it has 
@@ -711,7 +711,7 @@ save list column configurations locally. If set, columns may still be manipulate
 the changes do not persist. Also, existing local configurations are ignored if this setting 
 is true.|True/False| | LSA |
 
-|Display Links to Deprecated Acquisitions Interfaces | | True/False | | ??? |
+|Display Links to Deprecated Acquisitions Interfaces | | True/False | | Sitka |
 
 |Enable Angular Circulation Menu | | True/False | FALSE | Sitka |
 
@@ -830,7 +830,7 @@ xref:_customizing_the_display_fields[].
 |Require ident_value field on patron registration | The ident_value field will be required 
 on the patron registration screen. |True/False | | LSA |
 
-|Require Photo URL field on patron registration | | True/False | | ??? |
+|Require Photo URL field on patron registration | | True/False | | Sitka |
 
 |Require staff initials for entry/edit of copy notes.|Appends staff initials and edit 
 date into copy note content.|True/False| TRUE | LSA |
@@ -1205,7 +1205,7 @@ to show distances for geographic proximity in miles instead of kilometers. | Tru
 | NOT USED BY SITKA
 
 |Show Owning Lib in Items Out |If enabled, the Owning Lib will be shown in the Items Out 
-display. This may assist in requesting additional renewals | True/False | | ???? |
+display. This may assist in requesting additional renewals | True/False | | Sitka |
 
 |Soundex score weighting in OPAC spelling suggestions. |Soundex, trgm, and keyboard 
 distance similarity measures can be combined to form a secondary ordering parameter 
@@ -1311,7 +1311,7 @@ display as unless the field label is clicked.|True/False| | LSA |
 
 |Offline: Patron usernames allowed|During offline circulations, allow patrons to identify 
 themselves with usernames in addition to barcode. For this setting to work, a barcode 
-format must also be defined|True/False| | ??? |
+format must also be defined|True/False| | Sitka |
 
 |OPAC Inactivity Timeout (in seconds)|Number of seconds of inactivity before OPAC 
 accounts are automatically logged out.|Number| | LSA |
@@ -1380,10 +1380,10 @@ the transaction.|Text| | LSA |
 |Setting|Description|Data type|Default | Edited by | Notes
 | Default display grouping for serials distributions presented in the OPAC. | Default 
 display grouping for serials distributions presented in the OPAC. This can be "enum" 
-or "chron". | Text | enum| ??? |
+or "chron". | Text | enum| LSA|
 |Previous Issuance Copy Location | When a serial issuance is received, copies (units) 
 of the previous issuance will be automatically moved into the configured shelving location |
-Selection List | | ??? |
+Selection List | | Sitka |
 |===
 
 [[_library_settings_sms_text_messaging]]
