@@ -297,3 +297,9 @@ image::images/course-reserves/course-reserves-delete-1.png[]
 +
 . The message _Deletion of Course was sucessful_ displays in the bottom right corner.
 . The course is deleted and no longer displays in the grid.  
+
+[NOTE]
+======
+Courses with course users attached cannot be deleted.  Users can be removed from the
+course through the Course Users tab.
+======
