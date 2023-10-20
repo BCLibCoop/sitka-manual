@@ -1383,7 +1383,7 @@ display grouping for serials distributions presented in the OPAC. This can be "e
 or "chron". | Text | enum| LSA|
 |Previous Issuance Copy Location | When a serial issuance is received, copies (units) 
 of the previous issuance will be automatically moved into the configured shelving location |
-Selection List | | Sitka |
+Selection List | |LSA |
 |===
 
 [[_library_settings_sms_text_messaging]]
