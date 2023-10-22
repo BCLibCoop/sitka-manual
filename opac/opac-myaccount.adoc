@@ -149,9 +149,9 @@ fields.
 
 Click the *Change* button next to the information you'd like to update.
 
-////
-To test that your email address works, click *Send Test Email*. An automated message will be sent. If you do not receive it, first check your spam folder and contact your library for further assistance.
-////
+To test that your email address works, click *Send Test Email*. An automated message will be sent. If you do not receive it, first 
+check your spam folder and then contact your library for further assistance.
+
 
 image::images/opac/opac-account-6.png[scaledwidth="75%",alt="My Account"]
 
@@ -178,9 +178,9 @@ Notification Preferences
 _Notification Preferences_ is where you set your preferences for holds notification. You can choose
 to be contacted by email, phone, or text message.
 
-////
+
 Click *Send Test Text Message* to test your SMS/Text number.
-////
+
 
 To opt-out of receiving courtesy and overdue email notices use the _Receive Overdue and Courtesy Emails_
 setting.  Un-checking this box means your library will not send you any emails for items coming due or
