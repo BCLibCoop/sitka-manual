@@ -8,7 +8,7 @@ of data entry required.
 
 . Go to *Cataloguing-> MARC Batch Import/Export*
 . On the _Import_ tab fill in the appropriate fields. See 
-xref:_marc_importers[] for information on specific fields.
+xref:_marc_importer[] for information on specific fields.
 . In the _Apply/Create Form Template_ field enter a name for your template.
 . Click *Save as New Template*.
 +
