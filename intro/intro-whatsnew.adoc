@@ -51,7 +51,9 @@ Cataloguing
 Staff Catalogue
 ~~~~~~~~~~~~~~~
 
+////
 * Email Title details from staff catalogue now works.
+////
 
 * Links in the staff catalogue Record Summary area now open in a new tab
 
@@ -61,13 +63,13 @@ Staff Catalogue
 Public Catalogue
 ~~~~~~~~~~~~~~~~
 
-* Email Title details from OPAC now works.
+* xref:_email_from_the_baskets[Email Title details] from the public catalogue now works.
 
 * xref:_organizational_units[New Hours of Operation Note] field. When patrons click on your library's hours of operations on the OPAC, this new note field displays any split hours or service related notes.
 
-* OPAC-visible statisitical categories are now visible in the OPAC. This release restores this functionality.
+* xref:_view_a_title_record[OPAC-visible statisitical categories] are now visible in the public catalogue.
 
-* Patron login on My Account now includes a button to reveal the password input.
+* xref:_logging_into_my_account[Patron login on My Account] now includes a button to reveal the password input.
 
 [[new-features-course-reserves]]
 Course Reserves
