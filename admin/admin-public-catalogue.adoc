@@ -49,6 +49,22 @@ like Interlibrary Connect, have three option for how their public catalogue scop
 . All libraries in your zone display in the search list and your library is the default
 . All libraries in your zone display in the search list and the top organization in the zone is the default
 
+Request a Library Card
+^^^^^^^^^^^^^^^^^^^^^^
+[[_request_a_library_card_custom]]
+
+Libraries which allow patrons to self register using the xref:_request_a_library_card[Request a Library Card] functionality
+can add custom text between the form fields and the *Submit Registration* button.  This can be used to include information about why the library is collecting
+the information required in the form and what the library will do with that information.
+
+Libraries can also customize the text that appears after a patron clicks the *Submit Registration* to advise the patron
+of what will happen next.
+
+To custom text for the request a library card functionality
+please send the text to display to xref:https://bc.libraries.coop/support/[Co-op Support] and specify if it is for the
+bottom of the form or for the registration confirmation page.
+
+
 My Account Login
 ^^^^^^^^^^^^^^^^
 

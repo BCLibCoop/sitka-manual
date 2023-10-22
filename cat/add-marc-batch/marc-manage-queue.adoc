@@ -1,0 +1,57 @@
+Managing Import Queues
+~~~~~~~~~~~~~~~~~~~~~~
+
+Queues are only viewable to account that created the queue. They will remain on the server until 
+they are deleted. You can delete a queue after importing is finished, 
+or you can keep it and delete it later.
+
+[TIP]
+=====
+Please ensure you include screenshots when submitting tickets related to queues to 
+https://bc.libraries.coop/support/[Co-op Support].  Co-op Support cannot view 
+your queues in the staff client.
+=====
+
+Viewing Import Queues
+^^^^^^^^^^^^^^^^^^^^^
+
+. Go to *Cataloguing -> MARC Batch Import/Export*.
+. The _MARC Batch Import/Export_ interface will open with the _Import_ tab selected.
+. Click on the *Inspect Queue* tab.
++
+image:images/cat/marc/marc-import-view-queue-1.png[]
++
+. Double click on the line for the queue you would like to open.
++
+image:images/cat/marc/marc-import-view-queue-2.png[]
++
+. The queue will display.
+
+
+Working With Import Queues
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Within a queue you can:
+
+* view and import records that have been queued for importing
+* view records that have already been imported
+* view items that have been imported
+* copy the contents of the queue to a record bucket
+* export a file of non-imported records
+
+Deleting Import Queues
+^^^^^^^^^^^^^^^^^^^^^^
+
+. Go to *Cataloguing -> MARC Batch Import/Export*.
+. The _MARC Batch Import/Export_ interface will open with the _Import_ tab selected.
+. Click on the *Inspect Queue* tab.
++
+image:images/cat/marc/marc-import-view-queue-1.png[]
++
+. Select the queue you would like to delete and then choose *Delete Selected*
+from the Actions menu.
++
+image:images/cat/marc/marc-import-delete-queue-1.png[]
+
+
+

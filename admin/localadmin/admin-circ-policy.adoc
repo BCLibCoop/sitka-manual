@@ -30,9 +30,9 @@ Viewing Your Circulation Policies
 https://youtu.be/Lt1RN6LTo4c[*Sitka Training Video - Viewing Your Circulation Policies (2:15)*]
 
 
-To easiest way to view your current circulation policies is to run a report (reporter permissions required).
+The easiest way to view your current circulation policies is to run a report (reporter permissions required).
 
-. In the reporter go to *Shared Folders -> Templates -> Sitka_templates -> Library Configuration*
+. In the reporter go to *Shared Folders -> Templates -> Sitka_templates -> Local Administration*
 . Clone the template _Circulation Policies by Checkout Library_ into your folders and run the report for
 your library.
 

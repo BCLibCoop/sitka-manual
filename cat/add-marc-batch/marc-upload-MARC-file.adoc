@@ -1,0 +1,108 @@
+Uploading MARC Record Files
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Uploading Basic MARC Record Files
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Go to *Cataloguing-> MARC Batch Import/Export*.
+. The _MARC Batch Import/Export_ interface will open with the _Import_ tab selected.
++
+image:images/cat/marc/marc-importer-1.png[]
++
+. Fill in the following fields in the MARC File Upload form.
+.. Record Type: Leave as _Bibliographic Records_.
+.. Select or Create a Queue: Enter a queue name.
+.. Record Match Set: Select _SitkaMatch_.
+.. Holdings Import Profile: If your file includes holdings information see
+xref:_uploading_marc_record_files_with_holdings_included[].
+.. Merge Profile: Do not select a merge profile at this stage.
+.. Select a Record Source: Choose the appropriate source for your records.
+.. Import Non-Matching Records: Check the box.
+. Click *Choose File* and select your MARC file.
+. Click *Upload*.
++
+image:images/cat/marc/marc-import-files-1.png[]
++
+. The progress of the upload will display.  Depending on the size of the file,
+ it may take a while for the file to upload. If you did not choose 
+ to import non-matching records, Import Progress will stay at 0%. 
+. Once the upload is complete click *Go to Queue*.
++
+image:images/cat/marc/marc-import-files-2.png[]
++
+. See xref:_importing_marc_records[].
+
+Uploading MARC Record Files With Holdings Included
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Some vendors can include holdings information in the MARC records which Evergreen
+can use to create new items or update attributes for existing items.  This 
+information is generally found in a 9XX or 852 field.  
+
+Contact https://bc.libraries.coop/support/[Co-op Support] before loading records 
+from a new vendor who supplies holding information as a _Holdings
+Import Profile_ will need to be set up. 
+
+[CAUTION]
+=========
+You need to contact Co-op Support for holding information format 
+before asking your vendors to include it in the MARC records. Holdings may not 
+be loaded if the format does not match Sitka's holding profile.
+=========
+
+. Go to *Cataloguing-> MARC Batch Import/Export*.
+. The _MARC Batch Import/Export_ interface will open with the _Import_ tab selected.
++
+image:images/cat/marc/marc-importer-1.png[]
++
+. Fill in the following fields in the MARC File Upload form.
+.. Record Type: Leave as _Bibliographic Records_.
+.. Select or Create a Queue: Enter a queue name.
+.. Record Match Set: Select _SitkaMatch_.
+.. Holdings Import Profile: Select the appropriate profile. 
+.. Merge Profile: Do not select a merge profile at this stage.
+.. Select a Record Source: Choose the appropriate source for your records.
+.. Import Non-Matching Records: Check the box.
+. Click *Choose File* and select your MARC file.
+. Click *Upload*.
++
+image:images/cat/marc/marc-import-files-1.png[]
++
+. The progress of the upload will display.
+. Once the upload is complete click *Go to Queue*.
++
+image:images/cat/marc/marc-import-files-2.png[]
++
+. See xref:_importing_marc_records[].
+
+Uploading MARC Record Files For E-resources
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You MUST contact https://bc.libraries.coop/support/[Co-op Support] before
+loading a file of e-resource from a new vendor.  See 
+http://docs.libraries.coop/policy/_batch_loading_bibliographic_records.html#_library_specific_batch_loading[Sitka's 
+Cataloguing Policy for Library Specific Batch Loading].
+
+. Go to *Cataloguing-> MARC Batch Import/Export*.
+. The _MARC Batch Import/Export_ interface will open with the _Import_ tab selected.
++
+image:images/cat/marc/marc-importer-1.png[]
++
+. Fill in the following fields in the MARC File Upload form.
+.. Record Type: Leave as _Bibliographic Records_.
+.. Select or Create a Queue: Enter a queue name.
+.. Record Match Set: Co-op Support will instruct you on which match set to choose.
+.. Merge Profile: Do not select a merge profile at this stage.
+.. Select a Record Source: Choose the appropriate source for your records.
+.. Import Non-Matching Records: Check the box.
+. Click *Choose File* and select your MARC file.
+. Click *Upload*.
++
+image:images/cat/marc/marc-import-files-1.png[]
++
+. The progress of the upload will display.
+. Once the upload is complete click *Go to Queue*.
++
+image:images/cat/marc/marc-import-files-2.png[]
++
+. See xref:_importing_marc_records[].

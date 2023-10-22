@@ -1,0 +1,312 @@
+Item Attributes
+~~~~~~~~~~~~~~~
+
+link:https://youtu.be/GukWXd7oUl4[*Sitka Snippet Video - Item Attributes (5:35)*]
+
+The Item Attributes section contains information specific to your library's items.  You can customize which
+attributes display in the xref:_item_attribute_settings[Item Attribute Settings].
+
+image::images/cat/item-attributes-1.png[]
+
+The table below provides detailed descriptions of the item attribues.
+
+[options="header"]
+|===
+| Attribute | Description | Note
+| Age-based Hold Protection | Allows libraries to restrict holds to be picked up at a range of libraries | 
+Sitka provides two sets of rules: x_month_within_single_branch and x_month_among_multi_branch. 
+The former allows holds to be picked up at the item's circulating library only for x months, 
+while the latter at libraries sharing the same parent with the circulating library, e.g. 
+all branches of a library system or all single-branch libraries within a federation. 
+In general, use the former if you are a single_branch library and want to restrict holds 
+to your own library, or if you are a branch of a multi-branch library system and want to 
+keep the holds at your own branch. Use the latter if you are a multi-branch library system 
+and allow items to fill holds picked up at all your branches, but not to go out of your system.
+| Circulate? |Indicates whether the item can circulate or not | Leave it as "YES", unless the item is in a 
+circulating shelving location but should not itself circulate. If the shelving location's _Circulate?_ 
+attribute is "NO", this field will have no effect. The "NO" value in this field overrides the 
+shelving location's _Circulate?_  "YES" value.
+| Circulation as Type |  Circulation policy may be controlled by the media type in MARC records. When media 
+type is used, this field can be used to override the MARC media type for individual items. It can also be 
+used for statistical purposes. | Not currently used in Sitka's Evergreen. This attribute is hidden by default.
+| Circulation Library | Library currently circulating the item |
+| Circulation Modifier | An identifier used for applying circulation policies or for statistical purposes |A shared list of Sitka circulation modifiers displays in the dropdown list for all libraries. Each library selects circulation modifiers to use, and defines its own circulation policy for each modifier.
+| Cost | The actual amount of money paid for the item | This is automatically filled with the 
+billed amount from acquisitions module.  It can also be entered manually by libraries not using acquisitions.
+| Deposit? | Indicates whether the checking out item requires a deposit or not |
+| Deposit Amount | Amount required as a deposit for the item | When the item is checked out a bill for this amount is automatically created in the patron account.
+| Fine Level | Indicates whether an item uses the Low, Normal, or High fine level attached to its circulation modifier or shelving location set up in the circulation policy. | Each circulation modifier/shelving location may have three fine levels, corresponding to these three values. Use 'Normal' if only one fine level is used. Please contact Co-op Support if you need multiple fine levels for one circulation modifier/shelving location.
+| Floating | Indicates whether an item  belongs to a floating group | This functionality must be configured by Co-op Support. If Co-op Support has not configured floating groups for you, leave the field blank.
+| Holdable? | Indicates whether the item is holdable or not | Leave it as "YES", unless the item is in a 
+holdable shelving location, but holds should not be allowed on this particular item. If shelving 
+location's _Holdable?_ is set to "NO", this field will have no effect. The "NO" value in this field 
+overrides the  shelving location's _Holdable?_ is "YES" field.
+| xref:_item_alerts_2[Item Alert] | Used for information that should been seen when an item is checked in or out 
+(e.g. Damage or number of pieces to check for). | CAUTION: some 3rd party self check machines 
+cannot display item alerts. 
+| xref:_item_notes[Item Note] | Used for information specific to the item. | Notes set as public will display in the public catalogue.
+| Item Tags |  | Not currently used in Sitka's Evergreen. This attribute is hidden by default.
+| Loan Duration | Indicates whether an item uses the Short, Normal, or Long loan duration attached to its circulation modifier or shelving location set up in the circulation policy. | Each circulation modifier/shelving location may have three loan durations, corresponding to these three values. Use 'Normal' if only one loan period is used. Please contact Co-op Support if you need multiple loan durations for one circulation modifier/shelving location.
+| OPAC Visible? | Indicates whether the item is visible in the public catalogue | Leave it as 'YES', unless 
+the item is in an OPAC visible shelving location, but should not be displayed on OPAC. If _OPAC Visible?_ 
+is "NO" for the shelving location, this field will have no effect. The "NO" value in this field will 
+hide the item, even if _OPAC Visible?_ is "YES" for the shelving location.
+| Price | Replacement price of the item. |  Evergreen uses this price when billing patrons for lost items.
+| Quality | Indicates the quality of the item | Not currently used in Sitka's Evergreen. This attribute is hidden by default.
+| Reference? | Indicates whether the item is reference or not. | This flag can be used for setting up circulation policies or for statistical purposes.
+| Shelving Location | The location where the item can be found. | Shelving locations belonging 
+to the working location and the organizations on a higher hierarchal level (library system, 
+federation, or Sitka) are displayed in the dropdown list. Multi-branch libraries 
+may create system level shelving locations for all branches to share. To edit existing shelving
+locations or create new ones see xref:_shelving_location_editor[].
+| xref:_item_statistical_category_values[Statistical Categories] | Item statistical categories created by your library or federation. | Use the dropdown list to choose which organization's entries to display.
+| Status | Current status of the item | By default a new item record is assigned a status of In Process. Some 
+status cannot be selected from the drop down menu as an action, such as checking out the item, is required to 
+set the item to that status.
+|===
+
+Item Alerts
+^^^^^^^^^^^
+
+Item alerts pop up on the screen when the item is checked in and/or checked out to alert staff that something
+further needs to be done with or known about the item.  
+
+[NOTE]
+======
+You can also view, edit, and delete item alerts from _Item Status_ by clicking on the *Manage* button.  A count
+beside the button indicates how many alerts are on the item.  This button opens the older version of 
+the alerts pop-up.
+
+*Manage* is greyed out if the item does not have an alert.
+
+image::images/cat/item-alert-5.png[scaledwidth="75%",alt="Item Alerts"]
+======
+
+Adding an Item Alert
+++++++++++++++++++++
+
+. In the item attributes section of the Holdings Editor, click *Item Alerts*.
++
+image::images/cat/item-alert-1.png[scaledwidth="75%",alt="Item Alerts"]
++
+. Choose a type from the dropdown list.
+. Type in the message.
+. If desired, check the box for *Temporary?*. This can be useful if the alert is only needed 
+to resolve a particular issue.
+. Click *Add New*. The alert will display as a pending new alert.
++
+image::images/cat/item-alert-2.png[scaledwidth="75%",alt="Item Alerts"]
++
+. Click *Apply Changes*.
++
+image::images/cat/item-alert-3.png[scaledwidth="75%",alt="Item Alerts"]
++
+. Back in the holdings editor, click *Apply All, Save & Exit*.
++
+. The alert will appear at check out and/or check in depending on the alert type choosen.
+
+Editing an Item Alert
++++++++++++++++++++++
+
+[NOTE]
+======
+There is currently a bug preventing item alerts from being edited through the Holdings Editor. The Item Status interface
+can be used when an alert needs to be edited.
+======
+
+////
+
+LP 2012971 - ITEM ALERTS CURRENTLY CANT BE EDITED VIA HOLDINGS EDITOR
+
+. In the item attributes section of the Holdings Editor, click *Item Alerts*.
++
+image::images/cat/item-alert-1.png[scaledwidth="75%",alt="Item Alerts"]
++
+. Make the the necessary changed and click *Apply Changes*
++
+image::images/cat/item-alert-4.png[scaledwidth="75%",alt="Item Alerts"]
++
+. Back in the holdings editor, click *Apply All, Save & Exit*.
++
+. The updated alert will appear at check out and/or check in depending on the alert type choosen.
+
+////
+
+Deleting an Item Alert
+++++++++++++++++++++++
+
+. In the item attributes section of the Holdings Editor, click *Item Alerts*.
++
+image::images/cat/item-alert-1.png[scaledwidth="75%",alt="Item Alerts"]
++
+. Check the box for *Clear?* beside the alert you'd like to delete and click *Apply Changes*
++
+image::images/cat/item-alert-6.png[scaledwidth="75%",alt="Item Alerts"]
++
+. Back in the holdings editor, click *Apply All, Save & Exit*.
++
+. The alert is deleted and will no longer appear at check out and/or check in.
+
+
+Item Notes
+^^^^^^^^^^
+
+Notes can be added to item records. Notes will not show up when items are retrieved, but they can be made 
+public and displayed in the public catalogue.
+
+Adding an Item Note
++++++++++++++++++++
+
+. In the item attributes section of the Holdings Editor, click *Item Notes*.
++
+image::images/cat/item-note-1.png[scaledwidth="75%",alt="Item Notes"]
++
+. Enter a title for your note.
+. Enter the content of your note.
+. Check the box for *Public Note* if the note should display in the public catalogue.
+. Click *Add Note*.
++
+image::images/cat/item-note-2.png[scaledwidth="75%",alt="Item Notes"]
++
+. Click *Apply Changes*.
++
+image::images/cat/item-note-3.png[scaledwidth="75%",alt="Item Notes"]
++
+. Back in the holdings editor, click *Apply All, Save & Exit*.
+. The note is now applied to the item and will display in the public catalogue if set to be public.
++
+image::images/cat/item-note-4.png[scaledwidth="75%",alt="Item Notes"]
+
+Editing an Item Note
+++++++++++++++++++++
+
+. In the item attributes section of the Holdings Editor, click *Item Notes*.
++
+image::images/cat/item-note-1.png[scaledwidth="75%",alt="Item Notes"]
++
+. Click *Edit* beside the note you would like to edit.
++ 
+image::images/cat/item-note-edit-1.png[scaledwidth="75%",alt="Item Notes"]
++
+. Make your edits and click *Save*.
++ 
+image::images/cat/item-note-edit-2.png[scaledwidth="75%",alt="Item Notes"]
++
+. Click *Apply Changes*.
++
+image::images/cat/item-note-edit-3.png[scaledwidth="75%",alt="Item Notes"]
++
+. Back in the holdings editor, click *Apply All, Save & Exit*.
+
+
+Deleting an Item Note
++++++++++++++++++++++
+
+. In the item attributes section of the Holdings Editor, click *Item Notes*.
++
+image::images/cat/item-note-1.png[scaledwidth="75%",alt="Item Notes"]
++
+. Click *Remove* beside the note you would like to remove.
++
+image::images/cat/item-note-5.png[scaledwidth="75%",alt="Item Notes"]
++
+. Click *Apply Changes*.
++
+image::images/cat/item-note-6.png[scaledwidth="75%",alt="Item Notes"]
++
+. Back in the holdings editor, click *Apply All, Save & Exit*.
+. The note is now removed from the item.
+
+////
+Item Tags
+^^^^^^^^^
+
+ITEM TAGS ARE NOT CURRENTLY USED BY SITKA
+
+The item tag option is hidden by default in the Holdings Editor as item tags are not currently used by Sitka.
+
+A item tag adds searchable information to item records. Staff and patrons search the copy tag by choosing *Digital Bookplate* on the catalogue.
+
+image::images/cat/copy-alert-7.png[]
+
+Tags are added via *Item Tags* on the item editor. Libraries may pre-create their own tags. Refer to xref:_copy_tag[]
+
+. To add a item tag, go to the Item Editor.
+. Click *Item Tags*.
+. Type a letter in the *Tag* box to display the tags, and choose one.
+. Click *Add Tag*, then *OK*.
+. Click *Save & Exit* on item editor.
++
+image::images/cat/copy-alert-6.png[]
+
+OPAC visible item tag is displayed on the catalogue.
+
+image::images/cat/copy-alert-7a.png[]
+
+Item tags can be removed via the same process.
+
+. Click *Remove* beside the selected tag.
+. Click *OK* to close the pop-up window.
+. Click *Save & Exit* on item editor.
+
+////
+
+Item Statistical Category Values
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Item Statistical Categories, also referred to as item stat cats, can be used to capture item 
+information the library needs that isn't otherwise captured in the item record.  This 
+information can be used in reporting and OPAC visible stat cats will display in your public catalogue.
+
+For information on creating and editing item statistical categories 
+see xref:_statistical_categories_item_editor[].
+
+[TIP]
+=====
+
+Statistical categories can be set as required.  When required the statistical category is highlighted in 
+orange and the item cannot be saved until a value is entered. 
+
+image::images/cat/item-stat-cat-3.png[scaledwidth="75%",alt="Item Statistical Category"]
+=====
+
+
+The _Stat Cat Filter_ enables you to specify the organizational level at which statistical categories display.
+For example, if you have federation wide stat cats as well as library specific ones you can set the filter
+to your federation or your library to change what stat cats display.
+
+image::images/cat/item-stat-cat-1.png[scaledwidth="75%",alt="Item Statistical Category"]
+
+Applying an Item Statistical Category Value
++++++++++++++++++++++++++++++++++++++++++++
+
+. In the item attributes section of the Holdings Editor, click on the statistical category you would 
+like to enter a value for.
+. From the drop down menu select the value you would like to apply to the item.
+. Click *Apply*.
++
+image::images/cat/item-stat-cat-2.png[scaledwidth="75%",alt="Item Statistical Category"]
++
+. The attribute field will turn green to indicate it's been updated.
++
+image::images/cat/item-stat-cat-3.png[scaledwidth="75%",alt="Item Statistical Category"]
++
+. Click *Apply All, Save & Exit*.
+
+Clearing an Item Statistical Category Value
++++++++++++++++++++++++++++++++++++++++++++
+
+. In the item attributes section of the Holdings Editor, click on the statistical 
+category you would 
+like to clear the value for.
+. Click *Clear*.
++
+image::images/cat/item-stat-cat-clear-1.png[scaledwidth="75%",alt="Item Statistical Category"]
++
+. The attribute field will turn green to indicate it's been updated and the value will be _unset_.
++
+image::images/cat/item-stat-cat-clear-2.png[scaledwidth="75%",alt="Item Statistical Category"]
++
+. Click *Apply All, Save & Exit*.
+
+

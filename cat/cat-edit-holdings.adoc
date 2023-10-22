@@ -1,6 +1,7 @@
 Maintaining Holdings
 --------------------
 
+////
 include::edit-holdings/holdings-editor.adoc[Holdings Editor]
 
 include::edit-holdings/holdings-editor-defaults.adoc[Holdings Editor Defaults]
@@ -9,7 +10,7 @@ include::edit-holdings/holdings-template.adoc[Holdings Templates]
 
 include::edit-holdings/item-alert-note-tag-stat-cat.adoc[Item Alert, Note, Tag and Stat Cat]
 
-////
+
 include::edit-holdings/edit-holdings.adoc[Editing Holdings]
 ////
 

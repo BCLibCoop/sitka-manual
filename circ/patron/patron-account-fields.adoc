@@ -159,7 +159,7 @@ image:images/circ/patron-fields-3.png[]
 Patron statistical categories are used to further group patrons by categories not otherwise captured
 in the patron account fields. Whether statistical
 categories are required or not depends on how they are set up.  For information on setting up patron
-statistical categories see xref:_statistical_category_editor[].
+statistical categories see xref:/_statistical_categories_patron_editor[].
 
 
 Customizing the Display Fields

@@ -1,0 +1,34 @@
+Holdings Details
+~~~~~~~~~~~~~~~~
+
+link:https://youtu.be/X0ackVtJlpM[*Sitka Snippet Video - Holdings Details (3:02)*]
+
+The Holdings Details section of the Holdings Editor contains information related to your library's
+call numbers. 
+
+image::images/cat/holdings-details-1.png[]
+
+[options="header"]
+|===
+| Attribute | Description | Required | Note
+| Owning Library | The library that owns the item. | Yes | For multi-branch libraries this will be a particular 
+branch.  Use the plus icon to add additional rows. Use the pen icon to edit the owning library.
+| Classification | The classification scheme used by the call number | Yes | The classification scheme affects
+how call numbers are sorted in the Shelf Browse.
+| Prefix | Configured prefixes can be selected from the drop down menu. | No | See xref:_prefix_and_suffix[] for 
+more information. Libraries that don't use this field can hide it in the 
+xref:_holdings_preferences[Holdings Preferences].
+| Call Number Label | The call number you would like to assign to your item. | Yes | Evergreen will pre-populate this field
+with the value in the 082 $a or 050 $a, if there is a value in the field, depending on which classification 
+scheme is the default.  Use the plus icon to add additional rows.
+| Suffix | Configured suffixes can be selected from the drop down menu. | No |See xref:_prefix_and_suffix[] for 
+more information. Libraries that don't use this field can hide it in the 
+xref:_holdings_preferences[Holdings Preferences].
+| Barcode | The barcode for the item. | Yes |
+| Item # | The item number assigned to the item by library staff to keep track of how many copies
+of an item the library has. | No | The item number does not display on the spine label or in the public 
+catalogue. Libraries that don't use this field can hide it in the 
+xref:_holdings_preferences[Holdings Preferences].
+| Part | The use of parts is not currently supported in Sitka's Evergreen. | No | Libraries should hide 
+this field in the xref:_holdings_preferences[Holdings Preferences].
+|===

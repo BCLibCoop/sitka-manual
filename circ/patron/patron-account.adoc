@@ -19,8 +19,8 @@ alerts, blocks, or owe fines.
 ** Evergreen will use the patron's preferred name and
 fall back to the primary name if there is no preferred name.
 * Any alerts and/or blocks will appear under the patron's name.
-* Last Activity - Last time a circulation was done on the account or the account was accessed for
-3rd party authentication.
+* Last Activity - Last time the patron accessed their account via My Account or the 
+account was accessed for 3rd party authentication.
 * Last Updated - Last time the account was updated via the *Edit* tab.
 * Create Date - Date on which the account was originally created.
 * Expire Date - Date on which the account will expire.  This can be updated via the *Edit* tab.
@@ -28,7 +28,10 @@ fall back to the primary name if there is no preferred name.
 * If a library used Homeroom or Student ID as _Primary Identification_ it will display in the ID1 field.
 * The patron's primary name displays in the Legal Name field in the summary.
 * The patron's email address is a Mail To link.
-* Any addresses associated with the patron display and can be easily copied to the clipboard or printed.
+* Any addresses associated with the patron display and can be easily copied to the clipboard 
+or printed.
+* Patron statistical category values will display if the checkbox for _User Summary_ has 
+been checked for that particular statistical category.
 
 The patron summary can be hidden using the arrows beside the patron's name.  This choice is sticky and
 will stay on collapsed or expanded view until changed.
@@ -141,11 +144,10 @@ Other Menu
 Additional options for the patron account can be found in the *Other* drop down menu.
 
 |===
+|Refresh Penalties| Evergreen will re-calculate patron penalties.
 |Display Alerts | Evergreen will display the initial alert/blocks page.
 |Triggered Events/Notifications | Check to see if emails and/or SMS messages have been generated for patrons.
 See xref:_checking_for_notifications[].
-|Message Center | Obsolete interface. This functionality can be found in the
-xref:_patron_notes[*Notes*] tab.
 |Statistical Categories | View information about any patron statistical categories assigned to the patron.
 For more information on statistical categories see xref:_statistical_category_editor[].
 |Hold Groups | View any hold groups the patron is part of. For more information on hold groups

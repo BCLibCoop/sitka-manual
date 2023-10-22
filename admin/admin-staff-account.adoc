@@ -89,8 +89,7 @@ After creating the account you need to assign a working location:
 
 image::images/admin/staff-account-3.png[]
 
-CAUTION: Staff accounts without a working location can not register/edit patron accounts, or access some 
-cataloguing functions.
+CAUTION: Staff accounts without a working location can not sign into the Evergreen staff client as of version 3.11. 
 
 Editing Library Staff Accounts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

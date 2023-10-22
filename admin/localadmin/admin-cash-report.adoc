@@ -3,16 +3,38 @@ Cash Reports
 
 anchor:cash-report[Cash Reports]
 
-. Go to *Administration -> Cash Reports*.
-+
-. Select the start date and the end date that you wish to run a cash report for.  You can either enter the date in the YYYY-MM-DD format, or click on the calendar icon to use the calendar widget.  
-. Select your library from the drop down menu.  Click *Submit*.
-. The output will show cash, check, and credit card payments.  It will also show amounts for credits, forgiven payments, work payments and goods payments (e.g. food for fines initiatives, replacement copy for lost item, etc.).  The output will look something like this:
+Evergreen generates a basic cash reports libraries can use to track the payments made. 
+
+Libraries can also create customized payment reports through the xref:_reports[Reporter]. 
+Sitka templates related to billing can be found in the xref:_bills_payments[Bills Payments]
+folder under Sitka_templates.
+
+. Go to *Administration -> Local Administration -> Cash Reports*.
+. By default the cash report for the current day will display.
+. As needed, adjust the start date and the end date to see cash reports for a particular
+period. 
+. Multi-branch libraries can change the library and click Submit to see reports for different branches.
+. The report is divided into two section.
+.. The _Desk Payments_ tab includes payments that have been made by cash, cheque, credit card,
+and debit card.
 +
 image::images/admin/cash-report-1.png[]
++
+.. The _Staff User Payments_ tab includes payments that have been made by patron credit, forgiving
+bills, work, and goods.
++
+image::images/admin/cash-report-2.png[]
 
-TIP: By clicking on the hyperlinked column headers (i.e. workstation, cash_payment, check_payment, etc.) it is possible to sort the columns to order the payments from smallest to largest, or largest to smallest, or to group the workstation names.  
+[NOTE]
+======
+There is a bug on the _Staff User Payments_ tab where a column displays for Debit Payment.  Staff
+should use the xref:_column_configuration[column picker] to remove the column.
+======
 
-NOTE: Customized payment reports can be created from the reports interface. Several shared templates are available under Sitka_templates -> Bills_Payments folder. For instructions 
-on using shared templates see xref:_shared_sitka_templates[].
+
+
+
+
+
+
 

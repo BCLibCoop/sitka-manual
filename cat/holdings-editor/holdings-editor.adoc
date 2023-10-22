@@ -14,7 +14,7 @@ link:https://youtu.be/7WBAJ1Unz_M[*Sitka Training Video - Holdings Editor (14:13
 
 The Holdings Editor is used to create or edit call number and item records. 
 
-The Holdings Editor can be accessed:
+It can be accessed:
 
 * from within a bibliographic record by clicking on the *Add Holdings* button.
 * from within a bibliographic record by going to *Holdings View* and selecting the appropriate option from
@@ -25,6 +25,24 @@ the *Actions* menu.
 * by scanning an item into *Item Status* and selecting the appropriate option from
 the *Actions* menu.
 
+The Holdings Editor has three parts:
+
+* xref:_holdings_details[Holdings Details]
+* xref:_item_attributes[Item Attributes]
+* xref:_holdings_editor_preferences[Preferences]
+
+
+image::images/cat/the-holdings-editor-1.png[]
+
+[NOTE]
+======
+The Holdings Editor can display the Holdings Details and Item Attributes as separate tabs or the
+two can be unified into a single tab as shown above.  This is done via the setting _Unified Holdings and Item Attributes Display_ on the 
+xref:_holdings_editor_preferences[Preferences] tab. 
+======
+
+
+////
 Holdings Details
 ^^^^^^^^^^^^^^^^
 
@@ -122,3 +140,4 @@ hide the item, even if _OPAC Visible?_ is "YES" for the shelving location.
 status cannot be selected from the drop down menu as an action, such as checking out the item, is required to 
 set the item to that status.
 |===
+////

@@ -1,0 +1,23 @@
+Import Templates
+~~~~~~~~~~~~~~~~
+
+Import templates allow you to set up templates with pre-selected values for the MARC Batch
+Importer and save them for your workstation.  Templates help to ensure the 
+correct fields are entered for different providers while reducing the amount 
+of data entry required.
+
+. Go to *Cataloguing-> MARC Batch Import/Export*
+. On the _Import_ tab fill in the appropriate fields. See 
+xref:_marc_importer[] for information on specific fields.
+. In the _Apply/Create Form Template_ field enter a name for your template.
+. Click *Save as New Template*.
++
+image:images/cat/marc/import-templates-1.png[]
++
+. Repeat as needed to create additional templates.
+. You can set your most commonly used templateas your default by selecting the template 
+and clicking *Mark Template as Default*.
++
+image:images/cat/marc/import-templates-2.png[]
+
+
