@@ -29,13 +29,25 @@ image:images/cat/marc/marc-import-non-match-records-1.png[]
 Importing Matching Records
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Get to the queue (better instruction needed)
-. Click on the value in the Matches column for a record.
-. On the Record Matches tab click on the Record ID to view the match(es). You may wish
+. Go to your queue either by clicking the *Go to Queue* button appears when the upload is
+complete or by following the instructions in xref:_viewing_import_queues[].
+. The Matches column will indicate how many records have been found in the catalogue
+which match the records in the file.
++
+image:images/cat/marc/marc-import-matching-records-1.png[]
++
+. Click on the value in the Matches column for the first record with matches.
+. On the Record Matches tab click on the Record ID(s) to view the match(es). You may wish
 to set your staff catalogue default tab to View MARC.
++
+image:images/cat/marc/marc-import-matching-records-2.png[]
++
 . Click the browser back button to return to your queue.
-. Click on the Queued Record MARC tab.  Confirm the existing match from the catalogue is a match
-for your incoming record.
+. Click on the Queued Record MARC tab.  Confirm the existing match(es) from the catalogue 
+is a match for your incoming record.
++
+image:images/cat/marc/marc-import-matching-records-3.png[]
++
 . If there are multiple matches select the line of the one you want to match with. 
 . If the existing match is a false match do not select it. 
 . Click *Return to Queue*.
@@ -198,6 +210,8 @@ These profiles ensure local data in these six fields in a merged MARC record is 
 overwritten, and holding records (in tag 852) can be loaded to either the existing
  MARC record or with the incoming record.
  
+ 
+//// 
 Importing Records with False Matches
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
 
@@ -212,3 +226,4 @@ use if your records require a set of different match points to load.
 =========
 The NoMatch profile matches records on tag 901$c only, and should only be used after a false match is detected using SitkaMatch as described below. Sitka cataloguing policy strives to avoid record duplication so Sitka policy requires batch imports use SitkaMatch first.
 =========
+////
