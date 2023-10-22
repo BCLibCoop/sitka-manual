@@ -48,21 +48,44 @@ is a match for your incoming record.
 +
 image:images/cat/marc/marc-import-matching-records-3.png[]
 +
-. If there are multiple matches select the line of the one you want to match with. 
+. Back on the Record Matches tab, if there are multiple matches select 
+the line of the one you want to match with. 
++
+image:images/cat/marc/marc-import-matching-records-4.png[]
++
 . If the existing match is a false match do not select it. 
 . Click *Return to Queue*.
+. The list of records will indicate that a match has been selected.
++
+image:images/cat/marc/marc-import-matching-records-5.png[]
++
 . Repeat for all records in the queue.
-. An asterisk will appear in the Matches column beside each record for which a match
-has been selected.
 . Click *Import Selected Records* or *Import All Records*.
++
+image:images/cat/marc/marc-import-matching-records-6.png[]
++
 . You are back on MARC File Upload screen. 
 . Choose your import options, you must click the arrows to enable the drop 
 down menus and make your choices. 
-. Choose your Merge Profile - MORE DETAILS HERE
+. Choose your Merge Profile. 
+.. If the catalogue match is a true match and already a full record you do not need to import the new record unless it contains local information
+or holding information.  In this case use the merge profile *Merge Using EXISTING Record*.
+.. If the catalogue match is a tru match and a brief record you should import the new record using the merge profile 
+*Merge Using INCOMING Record*.
+.. If different records in your file need to use different merge profiles you will need to load them separate using the 
+*Import Selected Records* option.
 . Click *Import*.
+. Your records are imported into the catalogue.
+. Click *Go To Queue*.
+. The queue list will show you which records have been imported.
++
+image:images/cat/marc/marc-import-matching-records-7.png[]
++
+. If holdings are included in your MARC file they have been created.  Otherwise, you can
+now xref:_adding_holdings_to_bibliographic_records[add holdings] to your records.
 
 
-
+////
 If you want to import records from MARC files already uploaded, go to *Cataloguing -> MARC Batch Export/Import*, then click *Inspect Queue*. Double click the queue that you wish to examine and import records from. The Queue Summary screen will open.
 
 image::images/cat/vandelay-2b.png[]
@@ -210,8 +233,7 @@ These profiles ensure local data in these six fields in a merged MARC record is 
 overwritten, and holding records (in tag 852) can be loaded to either the existing
  MARC record or with the incoming record.
  
- 
-//// 
+
 Importing Records with False Matches
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
 
