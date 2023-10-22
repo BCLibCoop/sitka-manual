@@ -18,9 +18,12 @@ Cataloguers should always follow the policy for batch loading records which can 
 http://docs.libraries.coop/policy/_batch_loading_bibliographic_records.html[Batch Loading 
 Bibliographic Records] in Sitka's Evergreen Policy & Best Practices Manual.
 
-Importing records involves two steps: 1. all records in the file are first uploaded to 
-the server and kept outside the catalogue as a queue; 2. cataloguers view the records in 
-the queue to import them into the Evergreen catalogue.
+Importing records involves two steps:
+
+. All records in the file are first xref:_uploading_marc_record_files[uploaded to the server]
+ and kept outside the catalogue as a queue.
+. Cataloguers view the records in the queue and then 
+xref:_importing_marc_records[import them into the Evergreen catalogue].
 
 ////
 
