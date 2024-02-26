@@ -1,14 +1,3 @@
-////
-Statistical Categories Editor: Items and Patrons
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-anchor:stat-cat[Statistical Category Editor]
-
-This is where you configure your statistical categories (Stat Cats).  
-Stat cats allow your library  to set up locally defined statistical categories for items or patrons. These statistical categories can then be applied when adding patrons or cataloguing items, to generate reports on usage. Each stat cat has specific values attached, and you add them once you have created the stat cat.
-
-As of Evergreen 3.11, the Statistical Categories Editor is split into two interfaces, one for items and one for patrons.
-////
 Statistical Categories - Item Editor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -89,6 +78,9 @@ Deleting Statistical Categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 [[_deleting_item_statistical_categories]]
 
+Statistical categories can only be deleted if the entries associated with it haven't been applied to any items.
+
+////
 [CAUTION]
 =========
 Once a statistical category is deleted it cannot be un-deleted by either library staff or
@@ -96,6 +88,7 @@ Co-op Support.
 
 Deleting a statistical category also removes the associated values from any items using them.
 =========
+////
 
 . Go to *Administration -> Local Administration-> Statistical Categories - Item Editor*.
 . Select the statistical category you would like to delete.
@@ -108,7 +101,9 @@ image::images/admin/stat-cat-item-7.png[]
 +
 image::images/admin/stat-cat-item-8.png[]
 +
-. Your statistical category is deleted and no longer displays in the grid.  
+. Your statistical category is deleted and no longer displays in the grid.
+. If entries have already been applied to items you will see the message _Delete of Statistical Category - Item failed 
+or was not allowed_. Please contact https://bc.libraries.coop/support/[Co-op Support] for assistance.  
 
 
 Statistical Categories - Patron Editor
@@ -133,6 +128,7 @@ image::images/admin/stat-cat-patron-1.png[]
 +
 . Enter the relevant information for your statistical category and click *Save*.
 +
+* *Name*: The name will be visible to library staff and can be visible to patrons.  
 * *Required*: If checked, a value must be selected for the stat cat when cataloguing a new item.
 * *OPAC Visible*: If checked, the stat cat name and the selected value are displayed in 
 the item table when looking at a record in the public catalogue.
@@ -193,6 +189,9 @@ Deleting Statistical Categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 [[_deleting_patron_statistical_categories]]
 
+Statistical categories can only be deleted if the entries associated with it haven't been applied to any patrons.
+
+////
 [CAUTION]
 =========
 Once a statistical category is deleted it cannot be un-deleted by either library staff or
@@ -200,6 +199,7 @@ Co-op Support.
 
 Deleting a statistical category also removes the associated values from any patrons using them.
 =========
+////
 
 . Go to *Administration -> Local Administration-> Statistical Categories - Patron Editor*.
 . Select the statistical category you would like to delete.
@@ -213,3 +213,5 @@ image::images/admin/stat-cat-patron-7.png[]
 image::images/admin/stat-cat-patron-8.png[]
 +
 . Your statistical category is deleted and no longer displays in the grid.  
+. If entries have already been applied to patrons you will see the message _Delete of Statistical Category - Patron failed 
+or was not allowed_. Please contact https://bc.libraries.coop/support/[Co-op Support] for assistance.
