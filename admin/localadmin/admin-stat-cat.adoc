@@ -12,9 +12,9 @@ your public catalogue.
 See xref:_item_statistical_category_values[] for information on applying statistical categories
 to items.
 
+[[_creating_item_statistical_categories]]
 Creating Statistical Categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-[[_creating_item_statistical_categories]]
 
 . Go to *Administration -> Local Administration-> Statistical Categories - Item Editor*.
 . Click *New Statistical Category - Item*.
@@ -31,9 +31,9 @@ circulation records.
 +
 image::images/admin/stat-cat-item-2.png[]
 
+[[_adding_item_statistical_category_entries]]
 Adding Statistical Category Entries
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-[[_adding_item_statistical_category_entries]]
 
 Each statistical category can have multiple values that library staff can choose from when 
 adding or editing an item.
@@ -60,9 +60,9 @@ Statistical category entries cannot be edited or deleted in the staff client.  P
 https://bc.libraries.coop/support/[Co-op Support] for assistance.
 ======
 
+[[_editing_item_statistical_categories]]
 Editing Statistical Categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-[[_editing_item_statistical_categories]]
 
 . Go to *Administration -> Local Administration-> Statistical Categories - Item Editor*.
 . Select the statistical category you would like to edit.
@@ -74,9 +74,9 @@ image::images/admin/stat-cat-item-6.png[]
 . Your changes will be reflected in the grid.
 
 
+[[_deleting_item_statistical_categories]]
 Deleting Statistical Categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-[[_deleting_item_statistical_categories]]
 
 Statistical categories can only be deleted if the entries associated with it haven't been applied to any items.
 
@@ -117,9 +117,10 @@ appropriate permissions.
 Patron statistical categories can be used in reporting and can be set to display to library
 staff in the patron summary in the patron account.
 
+[[_creating_patron_statistical_categories]]
 Creating Statistical Categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-[[_creating_patron_statistical_categories]]
+
 
 . Go to *Administration -> Local Administration-> Statistical Categories - Patron Editor*.
 . Click *New Statistical Category Editor- Patron* to open the editor.
@@ -141,9 +142,9 @@ circulation records.
 +
 image::images/admin/stat-cat-patron-2.png[]
 
+[[_adding_patron_statistical_category_entries]]
 Adding Statistical Category Entries
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-[[_adding_patron_statistical_category_entries]]
 
 Each statistical category can have multiple values that library staff can choose from when 
 registering or editing a patron.
@@ -170,10 +171,9 @@ Statistical category entries cannot be edited or deleted in the staff client.  P
 https://bc.libraries.coop/support/[Co-op Support] for assistance.
 ======
 
-
+[[_editing_patron_statistical_categories]]
 Editing Statistical Categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-[[_editing_patron_statistical_categories]]
 
 . Go to *Administration -> Local Administration-> Statistical Categories - Patron Editor*.
 . Select the statistical category you would like to edit.
@@ -184,10 +184,9 @@ image::images/admin/stat-cat-patron-6.png[]
 . Make your changes and click *Save*.
 . Your changes will be reflected in the grid.
 
-
+[[_deleting_patron_statistical_categories]]
 Deleting Statistical Categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-[[_deleting_patron_statistical_categories]]
 
 Statistical categories can only be deleted if the entries associated with it haven't been applied to any patrons.
 
