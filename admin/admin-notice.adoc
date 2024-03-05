@@ -3,8 +3,13 @@ Patron Notifications
 --------------------
 
 Libraries can opt in to a number of automated patron notifications.  These notifications are set up by 
-Co-op Support.  If you are unsure what notifications your library has set up, please contact 
-https://bc.libraries.coop/support/[Co-op Support].
+Co-op Support. If you are unsure what notifications your library has set up, please contact 
+https://bc.libraries.coop/support/[Co-op Support]. 
+
+////
+Local system administrators can view but not edit the action trigger templates used by their 
+library xref:action-triggers[Action Triggers]. 
+//// 
 
 Notifications are sent in three ways, depending on the notification:
 
