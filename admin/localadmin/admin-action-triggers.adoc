@@ -19,20 +19,20 @@ Local system administrators can view action trigger templates, but making change
 
 . Go to *Administration -> Local Administration -> Notifications / Action Triggers*.
 +
-image::images/admin/action-trigger-view-1.png[]
+image::images/admin/action-trigger-view-1.png[scaledwidth="75%",alt="View notification templates"]
 +
 . By default no templates will display, to view the templates for your library use the *Owning Library* filter.
 +
-image::images/admin/action-trigger-view-2.png[]
+image::images/admin/action-trigger-view-2.png[scaledwidth="75%",alt="View notification templates"]
 +
 . Select the template you'd like to view.
 . Click the *Actions* button and select *Edit Event Definition*.
 +
-image::images/admin/action-trigger-view-3.png[]
+image::images/admin/action-trigger-view-3.png[scaledwidth="75%",alt="View notification templates"]
 +
 . Scroll down to view the information in the *Template* section.
 +
-image::images/admin/action-trigger-view-4.png[]
+image::images/admin/action-trigger-view-4.png[scaledwidth="75%",alt="View notification templates"]
 
 
 
