@@ -12,20 +12,29 @@ Action Trigger templates are used in various system processes
 
 Some templates are set at the Sitka level and cannot be customized.  Most templates are customizable per library.
 
-Local system administrators can view action trigger templates, but making changes and clicking save will have no effect.
-
 Submit a ticket to https://bc.libraries.coop/support/[Co-op Support] to request changes to your action trigger templates.
 We recommend submitting your request at least one week before you'd like the change to go into effect.
 
+Local system administrators can view action trigger templates, but making changes and clicking save will have no effect.
+
 . Go to *Administration -> Local Administration -> Notifications / Action Triggers*.
-. By default no templates will display to view the templates for your library use the *Owning Library* filter.
++
+image::images/admin/action-trigger-view-1.png[]
++
+. By default no templates will display, to view the templates for your library use the *Owning Library* filter.
++
+image::images/admin/action-trigger-view-2.png[]
++
 . Select the template you'd like to view.
 . Click the *Actions* button and select *Edit Event Definition*.
++
+image::images/admin/action-trigger-view-3.png[]
++
+. Scroll down to view the information in the *Template* section.
++
+image::images/admin/action-trigger-view-4.png[]
++
 
 
 
-* Template
-* Hook
-* Processing Delay
-* Reactor
 
