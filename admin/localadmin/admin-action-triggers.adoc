@@ -3,12 +3,10 @@ Notifications / Action Triggers
 
 anchor:action-triggers[Action Triggers]
 
-Action Trigger templates are used in various system processes
-
 .Action Triggers are used for
+* Patron Email Notifications
 * Some Print functions
 * Automatically set overdue items to Lost
-* Patron Email Notifications
 
 Some templates are set at the Sitka level and cannot be customized.  Most templates are customizable per library.
 
