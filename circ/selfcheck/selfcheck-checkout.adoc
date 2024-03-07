@@ -1,11 +1,17 @@
 Basic Check Out
 ~~~~~~~~~~~~~~~
 
-.  Scan a library card.
+.  Scan a library card and then, if required, enter the password.
 +
 image:images/circ/self_check_check_out_1.png[scaledwidth="75%"]
 +
-. If required, enter password.
+[NOTE]
+======
+For BC public libraries, patrons from other libraries must be opted in by staff
+at your library before they can use the self check. See 
+xref:_retrieving_an_account_via_barcode[] for information on opting in patrons.
+======
++
 . Scan the item barcodes. Items are listed with a check out confirmation message.
 +
 image:images/circ/self_check_check_out_2.png[scaledwidth="75%"]
