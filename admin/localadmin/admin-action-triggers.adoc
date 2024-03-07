@@ -3,29 +3,36 @@ Notifications / Action Triggers
 
 anchor:action-triggers[Action Triggers]
 
-Action Trigger templates are used in various system processes
-
 .Action Triggers are used for
+* Patron Email Notifications
 * Some Print functions
 * Automatically set overdue items to Lost
-* Patron Email Notifications
 
 Some templates are set at the Sitka level and cannot be customized.  Most templates are customizable per library.
-
-Local system administrators can view action trigger templates, but making changes and clicking save will have no effect.
 
 Submit a ticket to https://bc.libraries.coop/support/[Co-op Support] to request changes to your action trigger templates.
 We recommend submitting your request at least one week before you'd like the change to go into effect.
 
+Local system administrators can view action trigger templates, but making changes and clicking save will have no effect.
+
 . Go to *Administration -> Local Administration -> Notifications / Action Triggers*.
-. By default no templates will display to view the templates for your library use the *Owning Library* filter.
++
+image::images/admin/action-trigger-view-1.png[scaledwidth="75%",alt="View notification templates"]
++
+. By default no templates will display, to view the templates for your library use the *Owning Library* filter.
++
+image::images/admin/action-trigger-view-2.png[scaledwidth="75%",alt="View notification templates"]
++
 . Select the template you'd like to view.
 . Click the *Actions* button and select *Edit Event Definition*.
++
+image::images/admin/action-trigger-view-3.png[scaledwidth="75%",alt="View notification templates"]
++
+. Scroll down to view the information in the *Template* section.
++
+image::images/admin/action-trigger-view-4.png[scaledwidth="75%",alt="View notification templates"]
 
 
 
-* Template
-* Hook
-* Processing Delay
-* Reactor
+
 

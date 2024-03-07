@@ -1,5 +1,6 @@
 Local Administration
 --------------------
+
 include::localadmin/admin-local-overview.adoc[]
 
 include::localadmin/admin-age-overdue-to-lost.adoc[]
@@ -24,9 +25,7 @@ include::localadmin/admin-lse.adoc[]
 
 include::localadmin/admin-non-catalogued-type.adoc[]
 
-////
 include::localadmin/admin-action-triggers.adoc[]
-////
 
 include::localadmin/admin-negative-balances.adoc[]
 
