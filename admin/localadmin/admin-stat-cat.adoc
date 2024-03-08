@@ -1,6 +1,8 @@
 Statistical Categories - Item Editor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+https://youtu.be/j2nfmckCFv0[*Sitka Training Video - Item Statistical Categories (5:42)*]
+
 Statistical categories, often referred to as stat cats, allow your library to capture information
 about your items that is not included in the standard fields in the item record.  Statistical
 categories can be created at the branch, system, or federation level by staff with the 
@@ -15,6 +17,8 @@ to items.
 [[_creating_item_statistical_categories]]
 Creating Statistical Categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+https://youtu.be/M1-_Cp4lN4I[*Sitka Snippet Video - Creating Item Statistical Categories (1:39)*]
 
 . Go to *Administration -> Local Administration-> Statistical Categories - Item Editor*.
 . Click *New Statistical Category - Item*.
@@ -34,6 +38,8 @@ image::images/admin/stat-cat-item-2.png[]
 [[_adding_item_statistical_category_entries]]
 Adding Statistical Category Entries
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+https://youtu.be/b3uE4zUB6sQ[*Sitka Snippet Video - Addine Item Statistical Category Entries (0:55)*]
 
 Each statistical category can have multiple values that library staff can choose from when 
 adding or editing an item.
@@ -64,6 +70,8 @@ https://bc.libraries.coop/support/[Co-op Support] for assistance.
 Editing Statistical Categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+https://youtu.be/WqABms3yMEA[*Sitka Snippet Video - Editing Item Statistical Categories (0:59)*]
+
 . Go to *Administration -> Local Administration-> Statistical Categories - Item Editor*.
 . Select the statistical category you would like to edit.
 . From the *Actions* menu choose *Edit Selected*.
@@ -77,6 +85,8 @@ image::images/admin/stat-cat-item-6.png[]
 [[_deleting_item_statistical_categories]]
 Deleting Statistical Categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+https://youtu.be/T_hhcbbcs4k[*Sitka Snippet Video - Deleting Item Statistical Categories (1:05)*]
 
 Statistical categories can only be deleted if the entries associated with it haven't been applied to any items.
 
