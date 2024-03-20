@@ -4,14 +4,14 @@ Notifications / Action Triggers
 anchor:action-triggers[Action Triggers]
 
 .Action Triggers are used for
-* Patron Email Notifications
+* Patron Email and SMS Notifications
 * Some Print functions
 * Automatically set overdue items to Lost
 
 Some templates are set at the Sitka level and cannot be customized.  Most templates are customizable per library.
 
-Submit a ticket to https://bc.libraries.coop/support/[Co-op Support] to request changes to your action trigger templates.
-We recommend submitting your request at least one week before you'd like the change to go into effect.
+Viewing Your Notifications / Action Triggers
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Local system administrators can view action trigger templates, but making changes and clicking save will have no effect.
 
@@ -31,6 +31,31 @@ image::images/admin/action-trigger-view-3.png[scaledwidth="75%",alt="View notifi
 . Scroll down to view the information in the *Template* section.
 +
 image::images/admin/action-trigger-view-4.png[scaledwidth="75%",alt="View notification templates"]
+
+Changing Your Notifications / Action Triggers
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Only Co-op Support can edit notifications / action triggers. 
+
+Local system administrators can view notifications / action triggers within Evergreen, but 
+making changes and clicking save will have no effect.
+
+Submit a ticket to https://bc.libraries.coop/support/[Co-op Support] to request changes to your notifications / action triggers.
+We recommend submitting your request at least one week before you'd like the change to go into effect.
+
+In your request please include the specific changes you need made.  
+
+When requesting a change to a notification / action trigger you must include:
+
+* The name of the notification / action trigger.
+** This is found in the _Name_ column.
+* The specific wording you would like changed.
+** The most efficient way to provide this is to copy the relevant template
+into your support request, make your desired changes, and then submit the request to Co-op Support.
+* If applicable, your desired processing delay.
+** For example, _Hold Ready for Pick Up_ email notifications have a default processing delay of 30 minutes which 
+can be customized per library. 
+
 
 
 
