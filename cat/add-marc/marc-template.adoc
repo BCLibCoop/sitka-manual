@@ -35,7 +35,7 @@ image::images/cat/marc-template-3.png[]
 ======
 For your fake items Co-op Support recommends:
 
-* Set up a shelving location that is OPAC invisible, not holdable, and not circulatable. 
+* xref:_creating_a_shelving_location[Set up a shelving location] that is OPAC invisible, not holdable, and not circulatable. 
 * Use the Status _Cataloging_.
 * Use real barcodes from your range or use the format LIBRARYCODEtemplateNUMBER to ensure there is no conflict
 with other barcodes in the Sitka.
