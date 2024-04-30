@@ -120,6 +120,24 @@ your collection at the moment the report is run.
 
 image::images/report/appendix/title-item-count-location-circ-mod.png[]
 
+Circ Modifier: Copies with Selected Circ Modifiers
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+_Found under Shared Folders -> Templates -> Sitka_templates ->
+ Collection -> Item List by Item Attribues._
+
+Recommended Recurrence Interval: *None, run as needed*
+
+. Enter a name that reflects what circulation modifiers you are
+reporting on.
+. Add your library or your branch(es).
+. Add the circulation modifier(s) for which you would like a list of items
+using the modifier(s).
+. Ensure the box is checked for *Run as soon as possible*.
+
+
+image::images/report/appendix/selected-circ-modifier.png[]
+
 Inventory - Scanned Items Count by Shelving Location (NEW)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
