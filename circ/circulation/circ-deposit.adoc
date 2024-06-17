@@ -25,9 +25,11 @@ image:images/circ/deposit/deposit-checkout-1.png[scaledwidth="75%"]
 +
 . The item is checked out to the patron.
 . Click on the _Bills_ tab.  A bill has been added in the amount of the deposit.
-. Have the patron xref:_making_payments[pay the deposit] the same as any other bill.
 +
 image:images/circ/deposit/deposit-checkout-2.png[scaledwidth="75%"]
++
+. Have the patron xref:_making_payments[pay the deposit] the same as any other bill.
+
 
 Checking In An Item With a Deposit
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
