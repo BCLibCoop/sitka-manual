@@ -36,9 +36,15 @@ Checking In An Item With a Deposit
 . Scan or enter the item barcode(s).
 . A pop-up will appear indicating that a deposit was paid for the item.
 . Click *Force Action*.
++
+image:images/circ/deposit/deposit-checkin-1.png[scaledwidth="75%"]
++
 . The item will be checked in and the screen will indicate the amount of the deposit (if 
 the library setting _Void item deposit fee on checkin_ is set to _TRUE_.
-. Click on the patron's barcode to open their acount.
+. Click on the patron's barcode in the Fine Tally message to open their acount.
++
+image:images/circ/deposit/deposit-checkin-2.png[scaledwidth="75%"]
++
 . Click on the _Bills_ tab.
 . In the summary section of the *Bills* tab you will see the amount you are refunding reflected in the 
 _Refunds Available_ and _Pending Payment_ fields.
