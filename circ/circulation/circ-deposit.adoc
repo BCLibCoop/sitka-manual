@@ -13,7 +13,7 @@ See xref:_item_attributes[] for more information.
 For libraries that refund the deposit when the item is returned the library setting 
 _Void item deposit fee on checkin_ should be set to _TRUE_.
 
-Checking Out An Item With a Deposit
+Checking Out an Item With a Deposit
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . xref:_retrieving_patron_accounts[Retrieve the patron's account].
@@ -31,7 +31,7 @@ image:images/circ/deposit/deposit-checkout-2.png[scaledwidth="75%"]
 . Have the patron xref:_making_payments[pay the deposit] the same as any other bill.
 
 
-Checking In An Item With a Deposit
+Checking In an Item With a Deposit
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Go to *Circulation -> Check In*.
