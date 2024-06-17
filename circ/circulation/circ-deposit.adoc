@@ -6,7 +6,7 @@ Libraries may have some items that require a deposit in order for a patron to bo
 materials like special books that are hard to replace or items in a library of things collection
 that are expensive to replace.
 
-Items that require a deposit will have the _Is Deposit Required_ item attribute set to _TRUE_ and
+Items that require a deposit will have the _Is Deposit Required_ item attribute set to _Yes_ and
 have an amount entered for the _Deposit Amount_ item attribute. 
 See xref:_item_attributes[] for more information.
 
@@ -41,7 +41,7 @@ image:images/circ/deposit/deposit-checkin-1.png[scaledwidth="75%"]
 +
 . The item will be checked in and the screen will indicate the amount of the deposit (if 
 the library setting _Void item deposit fee on checkin_ is set to _TRUE_.
-. Click on the patron's barcode in the Fine Tally message to open their acount.
+. Click on the patron's barcode in the Fine Tally message to open their in a new tab acount.
 +
 image:images/circ/deposit/deposit-checkin-2.png[scaledwidth="75%"]
 +
@@ -49,13 +49,13 @@ image:images/circ/deposit/deposit-checkin-2.png[scaledwidth="75%"]
 . In the summary section of the *Bills* tab you will see the amount you are refunding reflected in the 
 _Refunds Available_ and _Pending Payment_ fields.
 +
-image:images/circ/billing-refund-3.png[scaledwidth="75%"]
+image:images/circ/deposit/deposit-checkin-3.png[scaledwidth="75%"]
 +
 . Enter 1 in the *Payment Received* box.  (There is currently a bug preventing the "Apply Payment" button 
 from being used without a positive number in this box.  The $1.00 payment won't actually be applied.)
 . Click *Apply Payment*.
 +
-image:images/circ/billing-refund-4.png[scaledwidth="75%"]
+image:images/circ/deposit/deposit-checkin-4.png[scaledwidth="75%"]
 +
 . The payment has been refunded and you can return the money to the patron.
 . A record of the refund is available in the patron's bill xref:_viewing_bill_history[history] in the full details 
