@@ -17,6 +17,8 @@ include::circulation/circ-autorenewal.adoc[Autorenewal]
 
 include::circulation/circ-lost-claimed.adoc[Marking Items]
 
+include::circulation/circ-deposit.adoc[Items with Deposits]
+
 include::circulation/circ-in-house.adoc[In-House Use]
 
 include::circulation/circ-item-status.adoc[Item Status]
