@@ -8,10 +8,10 @@ that are expensive to replace.
 
 Items that require a deposit will have the _Is Deposit Required_ item attribute set to _TRUE_ and
 have an amount entered for the _Deposit Amount_ item attribute. 
-See xref:_item_attributes[] for more information on item attributes.
+See xref:_item_attributes[] for more information.
 
-For libraries that refund the deposit the library setting _Void item deposit fee on checkin_ 
-should be set to _TRUE_.
+For libraries that refund the deposit when the item is returned the library setting 
+_Void item deposit fee on checkin_ should be set to _TRUE_.
 
 Checking Out An Item With a Deposit
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -20,9 +20,14 @@ Checking Out An Item With a Deposit
 . On the _Check Out_ tab, scan or enter item barcode.
 . A pop-up will appear indicating that a deposit is required.
 . Click *Force Action*.
++
+image:images/circ/deposit/deposit-checkout-1.png[scaledwidth="75%"]
++
 . The item is checked out to the patron.
 . Click on the _Bills_ tab.  A bill has been added in the amount of the deposit.
-. Have the patron xref:_making_payments[pay the deposit].
+. Have the patron xref:_making_payments[pay the deposit] the same as any other bill.
++
+image:images/circ/deposit/deposit-checkout-2.png[scaledwidth="75%"]
 
 Checking In An Item With a Deposit
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
