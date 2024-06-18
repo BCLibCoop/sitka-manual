@@ -102,6 +102,7 @@ An item can be blocked from circulation for the following reasons:
 * Item is in a non-circulating xref:_item_statuses[status]
 * Item is in a non-circulating xref:_shelving_location_editor[shelving location]
 * Item has been set to xref:_item_attributes[Circulate = No in the item record]
+* Item has been set to xref:_items_with_deposits[Is Deposit Required = Yes in the item record]
 * The library's xref:_circulation_policies[circulation policies] block the patron from borrowing the item
 * Item is on the holds shelf for another patron
 

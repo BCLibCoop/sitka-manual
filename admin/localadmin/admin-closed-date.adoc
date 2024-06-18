@@ -44,6 +44,9 @@ Emergency Closing
 
 https://www.youtube.com/watch?v=PI1Va39O7rY&t[Sitka Snippet Video - Emergency Closures (1:37)]
 
+If your library needs to close unexpectedly it is important to enter the closure as an emergency
+closure to alert patrons and reduce staff workload.
+
 When an emergency closing is processed due dates are adjusted to fall on the day they would have
 had the closing been in place at the time of check out; hourly loans have their due date adjusted to the
 end of the day following the closing.  Depending on a library's settings any fines acrrued
@@ -52,14 +55,17 @@ the change in due date.
 
 NOTE: The notification email is a global email and cannot be customized for individual libraries.
 
-To enter an emergency closing:
+The section http://docs.libraries.coop/policy/_temporary_library_closures.html[Temporary Library Closures]
+contains additional recommendations from Co-op Support for libraries having to close unexpectedly.
+
+Adding an Emergency Closing
++++++++++++++++++++++++++++
 
 . Go to *Administration -> Local Administration -> Closed Date Editor*.
 . Click *Add Closing*
 . Fill out the top section of the form as you would for a regular closed date.
 . Check the box for _Emergency_.
-. Check the box for _Process immediately_ if you are ready to have the system process
-the closing
+. Check the box for _Process immediately_.
 +
 image::images/admin/closed-date-3.png[scaledwidth="75%",alt="Emergency Closure"]
 +
@@ -67,3 +73,23 @@ image::images/admin/closed-date-3.png[scaledwidth="75%",alt="Emergency Closure"]
 . A summary of what has been processed during the emergency closing will display.
 +
 image::images/admin/closed-date-4.png[scaledwidth="75%",alt="Emergency Closure"]
+
+
+Editing an Emergency Closure
+++++++++++++++++++++++++++++
+
+If your emergency closure needs to be extended past the original end date you must add a
+new emergency closing in order to move your due dates ahead again.  In this circumstance 
+do not edit the existing closure.
+
+If your library re-opens earlier than expected you need to edit the End date for your closure 
+to be the last day you were actually closed on.  This is important as otherwise Evergreen still
+thinks the library is closed and some functions, like hold targetting, may not behave as expected.
+
+. Go to *Administration -> Local Administration -> Closed Date Editor*.
+. Select the applicable closure and from the *Actions* menu choose *Edit Closing*.
+. Edit the _End_ date to be the final day you were closed.
++
+image::images/admin/closed-date-5.png[scaledwidth="75%",alt="Screenshot highlighting the end date field"]
++
+. Click *OK*.

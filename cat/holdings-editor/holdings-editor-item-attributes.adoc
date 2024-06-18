@@ -33,8 +33,10 @@ used for statistical purposes. | Not currently used in Sitka's Evergreen. This a
 | Circulation Modifier | An identifier used for applying circulation policies or for statistical purposes |A shared list of Sitka circulation modifiers displays in the dropdown list for all libraries. Each library selects circulation modifiers to use, and defines its own circulation policy for each modifier.
 | Cost | The actual amount of money paid for the item | This is automatically filled with the 
 billed amount from acquisitions module.  It can also be entered manually by libraries not using acquisitions.
-| Deposit? | Indicates whether the checking out item requires a deposit or not |
-| Deposit Amount | Amount required as a deposit for the item | When the item is checked out a bill for this amount is automatically created in the patron account.
+| Deposit? | Indicates whether checking out the item requires a deposit or not | 
+| Deposit Amount | Amount required as a deposit for the item | When the item is checked out a bill 
+for this amount is automatically created in the patron account. For instructions on circulating 
+items with deposits see xref:_items_with_deposits[].
 | Fine Level | Indicates whether an item uses the Low, Normal, or High fine level attached to its circulation modifier or shelving location set up in the circulation policy. | Each circulation modifier/shelving location may have three fine levels, corresponding to these three values. Use 'Normal' if only one fine level is used. Please contact Co-op Support if you need multiple fine levels for one circulation modifier/shelving location.
 | Floating | Indicates whether an item  belongs to a floating group | This functionality must be configured by Co-op Support. If Co-op Support has not configured floating groups for you, leave the field blank.
 | Holdable? | Indicates whether the item is holdable or not | Leave it as "YES", unless the item is in a 
