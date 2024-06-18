@@ -33,7 +33,7 @@ used for statistical purposes. | Not currently used in Sitka's Evergreen. This a
 | Circulation Modifier | An identifier used for applying circulation policies or for statistical purposes |A shared list of Sitka circulation modifiers displays in the dropdown list for all libraries. Each library selects circulation modifiers to use, and defines its own circulation policy for each modifier.
 | Cost | The actual amount of money paid for the item | This is automatically filled with the 
 billed amount from acquisitions module.  It can also be entered manually by libraries not using acquisitions.
-| Deposit? | Indicates whether checking out item requires a deposit or not | 
+| Deposit? | Indicates whether checking out the item requires a deposit or not | 
 | Deposit Amount | Amount required as a deposit for the item | When the item is checked out a bill 
 for this amount is automatically created in the patron account. For instructions on circulating 
 items with deposits see xref:_items_with_deposits[].
