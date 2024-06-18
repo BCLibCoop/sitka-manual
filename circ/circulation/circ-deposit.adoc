@@ -2,7 +2,7 @@ Items with Deposits
 ~~~~~~~~~~~~~~~~~~~
 (((deposits)))
 
-Libraries may have some items that require a deposit in order for a patron to borrow.  This may be
+Libraries may have some items that require a deposit.  This may be
 materials like special books that are hard to replace or items in a library of things collection
 that are expensive to replace.
 
@@ -43,7 +43,7 @@ image:images/circ/deposit/deposit-checkin-1.png[scaledwidth="75%"]
 +
 . The item will be checked in and the screen will indicate the amount of the deposit (if 
 the library setting _Void item deposit fee on checkin_ is set to _TRUE_.
-. Click on the patron's barcode in the Fine Tally message to open their in a new tab acount.
+. Click on the patron's barcode in the _Fine Tally_ message to open their in a new tab acount.
 +
 image:images/circ/deposit/deposit-checkin-2.png[scaledwidth="75%"]
 +
