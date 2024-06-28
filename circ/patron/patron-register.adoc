@@ -6,11 +6,16 @@ Registering New Patrons
 (((Main (Profile) Permission Group)))
 (((Statistical Categories)))
 
+https://youtu.be/H82-rj6ADwk[*Sitka Training Video - Registering a Patron (3:35)*]
+
 Before registering a new patron, best practice is to check for an existing account in Sitka's Evergreen.
 
 Public libraries with reciprocal borrowing agreements, such as BC One Card, should ask the patron if they
 have a library card at another public library and then
 xref:_retrieving_an_account_via_barcode[retrieve the account via barcode].
+
+https://youtu.be/qT_mjayYzmY[*Sitka Training Video - Registering a Patron for Libraries Participating 
+in BC OneCard (5:12)*]
 
 As the registration form is completed Evergreen will alert you if the name, phone number, email, or address
 you are entering matches that of another patron belonging to or opted in at your library.  The alert text
