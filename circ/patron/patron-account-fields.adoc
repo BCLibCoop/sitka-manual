@@ -1,9 +1,11 @@
 Patron Account Fields
 ~~~~~~~~~~~~~~~~~~~~~
 
+https://youtu.be/OcKD-DI34YI[*Sitka Training Video - Patron Account Fields (17:09)*]
+
 The patron account is made up of required and optional fields, some of which are filled out based on
 local library policy and some of which are determined by global Sitka policy. Some fields can be edited by
-patrons via _My Account_.
+patrons via _My Account_ in your public catalogue.
 
 *Identification*
 
@@ -14,23 +16,28 @@ libraries may use a different format for older cards or if student numbers are u
 non-14 digit codabar barcodes with xref:_barcode_completion[barcode completion] make sure the correct prefix, often your library code,
 is included.
 |OPAC/Staff Client User Name | Yes | By default the username will match the barcode.  Patrons can 
-xref:_personal_information[update their username] via My Account.
+xref:_personal_information[update their username] via _My Account_.
 |Password | Yes | Saved passwords are not visible to library or Co-op Staff. Patrons can 
 xref:_resetting_your_password[reset their password] via the public catalogue.  
 https://youtu.be/CaYCHhWBoOE[*Sitka Snippet Video - Changing an Existing Password (1:07)*]
 |Primary Name | Yes | A first and last name must be entered for all patrons.  Prefix, suffix, and middle name
 are optional and can be used as needed.
 |Preferred Name | No | These field can be used if the patron goes by a name different from their primary name.
-The preferred name is used instead of the primary for notifications and displays in My Account.  
+The preferred name is used instead of the primary for notifications and displays in _My Account_.  
 |Name Keywords | No | Additional keywords that can be used to group accounts for searching purposes.
 |OPAC/Staff Client Holds Alias | No | The alias can be used if a patron doesn't want items on the hold shelf appearing
 under their real name.
 |Date of Birth | Can be set as required by libraries | Date of birth of the patron.
-|Juvenile Check Box | No | Can be used to tag accounts as juvenile for policy and reporting purposes.
-  Generally the PL Juvenile permission group is used instead.
+|Juvenile Check Box | No | Can be used to tag accounts as juvenile for policy and reporting purposes. 
+When a date of birth is entered Evergreen checks the value for the library setting 
+_Juvenile Age Threshold_ and automatically checks the box if the patron’s age falls 
+below the threshold.  However, Evergreen does not automatically un-check the box 
+when the patron’s age is above the threshold and library staff must manually un-check the box.  
+  Generally the PL Juvenile permission group is used instead of this flag.
 |Parent/Guardian | No | Can be used to include the parent or guardian's name for juvenile patrons.
-|Primary Identification Type | Yes | Co-op Support recommends using the value of _Other_ unless you have a
-legitimate use case for collecting data for one of the other values.  
+|Primary Identification Type | Yes | A value of _Other_ has been set as a Sitka default for this field.
+Co-op Support recommends using the value of _Other_ unless 
+you have a legitimate use case for collecting data for one of the other values.  
 |Primary Identification | Can be set as required by libraries | This field is used to collect identification information about the patron. 
 Generally this is used by academic libraries for data such as student number or homeroom.
 |Secondary Identification Type | No | Co-op Support recommends using the value of _Other_ unless you have a
@@ -41,7 +48,10 @@ Generally this is used by academic libraries for data such as student number or 
 does not store the photos. Additional permissions are required to use this field. Please contact 
 https://bc.libraries.coop/support/[Co-op Support] for more information.
 |Patron Preferred Language | No | Patrons can set English or French as their preferred language to receive email
-notifications in that language.  Patrons can xref:_personal_information[update their preference] via My Account.
+notifications in that language.  Patrons can xref:_personal_information[update their preference] via 
+_My Account_.
+To set up notifications in French libraries must provide https://bc.libraries.coop/support/[Co-op Support] with French translations 
+for their notifications.
 |===
 
 *Contact Details*
@@ -50,10 +60,10 @@ notifications in that language.  Patrons can xref:_personal_information[update t
 |Field | Required? | Description  
 |Email Address | Can be set as required by libraries | The email address the patron would like to be 
 contacted at.  Multiple adresses can be separated by a comma followed by a space. Patrons can 
-xref:_personal_information[edit their email] via My Account unless the option has been disabled for your library.
+xref:_personal_information[edit their email] via _My Account_ unless the option has been disabled for your library.
 |Email checkout receipts by default? Check Box | N/A | Unchecked by default, this setting enables patrons to
 automatically be sent email check out receipts. Patrons can 
-xref:_notification_preferences[update this check box] via My Account.
+xref:_notification_preferences[update this check box] via _My Account_.
 |Daytime Phone | Can be set as required by libraries | Primary phone number for the patron.
 |Evening Phone | Can be set as required by libraries | Phone number to be used in the evenings.
 |Other Phone |Can be set as required by libraries | Additional phone number for the patron. 
@@ -63,15 +73,16 @@ xref:_notification_preferences[update this check box] via My Account.
 
 |===
 |Field | Required? | Description  
-|Home Library | Yes | For public libraries home library should always be set to the library whose tax base
-the patron falls into.  For academic and special libraries the home library should be the library or applicable
-branch.
+|Home Library | Yes | For public libraries home library should always be set to the library 
+whose tax base the patron falls into or the library at which the patron paid for library 
+service as a non-resident. For academic and special libraries the home library should be the 
+library or applicable branch.
 |Main (Profile) Permission Group | Yes | The profile groups are set globally by library type.  All groups 
 have a three year expiry period with the exception of PL New User which is 3 months. Individual libraries 
 can choose which profiles to use and how to configure your chosen profiles to suit local policy.  Profiles 
 are used by Evergreen to determine how items circulate so it's important to know which profile are used at 
 your library and for which patrons. Contact https://bc.libraries.coop/support/[Co-op Support] to have 
-this list customized to display only the profiles you use at your library.
+this list customized to display only the profiles used at your library.
 |Privilege Expiration Date | Yes | By default the date will be three years in the future for all profile
 groups, except PL New User which has an interval of 3 months.  Library staff can manually adjust the date
 to conform to local policy.
@@ -85,9 +96,9 @@ extreme situations, especially if they belong to a library that participates in 
 |Is Group Lead Account Check Box | N/A | This check box is left unchecked by default. This feature isn't used
 by Sitka.
 |Claims-returned Count | No | Evergreen will update the value in this field if the patron has items marked
-claimed returned.  Staff can manually update this value.
+claimed returned.  Local system administrators can manually update this value.
 |Claims Never Checked Out Count | No | Evergreen will update the value in this field if the patron has 
-items marked claimed never checked out.  Staff can manually update this value.
+items marked claimed never checked out.  Local system administrators can manually update this value.
 |===
 
 *User Settings*
@@ -96,28 +107,29 @@ items marked claimed never checked out.  Staff can manually update this value.
 |Field | Required? | Description  
 |Default Hold Notification Phone Number | Required if Phone checked for Hold Notices | This is the phone number used for hold 
 notifications via phone.  If blank Evergreen will use the value in Daytime Phone.  Patrons
-can xref:_notification_preference[update this] via My Account.
+can xref:_notification_preference[update this] via _My Account_.
 |Default Hold Pickup Location | No | The location at which the patron would like to pickup their holds. Patrons
-can xref:_search_and_history_preferences[update this] via My Account.
+can xref:_search_and_history_preferences[update this] via _My Account_.
 |Collections: Exempt | No | Not currently used by Sitka
 |Holds Notices Check Boxes | No, but highly recommend at least one option selected | The selected options will
 be checked by default when the patron places a hold.  Patrons and staff can uncheck options in the process
-of placing a hold. Patrons can also xref:_notification_preference[update their defaults] via My Account.
-|Default SMS/Text Number | Required if SMS checked for Hold Notices | The number at which the patron would 
-like to receive hold and courtesy text messages if enabled for your library. Patrons
-can xref:_notification_preferences[update this] via My Account.
+of placing a hold. Patrons can also xref:_notification_preference[update their defaults] via 
+_My Account_.  
+|Default SMS/Text Number | Required if SMS checked for Hold Notices | The number at which the 
+patron would like to receive hold and courtesy text messages if enabled for your library. Patrons
+can xref:_notification_preferences[update this] via _My Account_.
 |Default SMS Carrier | Required if a value is entered in _Default SMS/Text Number_ | To receive text messages 
 patrons must specify who their carrier is.  Some carriers may not be listed as not all carriers provide 
 the information required to allow Evergreen to send them text messages.  Patrons
-can xref:_notification_preferences[update this] via My Account.
+can xref:_notification_preferences[update this] via _My Account_.
 |Receive Overdue and Courtesy Emails | N/A | Checked by default, this setting enables patrons to
 automatically be sent courtesy and overdue notices. Patrons can 
-xref:_notification_preferences[update this check box] via My Account.  If patrons 
+xref:_notification_preferences[update this check box] via _My Account_.  If patrons 
 opt out they will no longer receive courtey or overdue emails but will still receive hold notifications, depending
 the option chosen when the hold is place, and paper overdue notices for libraries that use paper overdues.
 |Allow others to use my account | No | This allows patrons to indicate other people who can place holds, pick up
 holds, check out items, and/or view their borrowing history.  Patrons can 
-xref:_search_and_history_preferences[update who can use their account] via My Account. This feature is 
+xref:_search_and_history_preferences[update who can use their account] via _My Account_. This feature is 
 enabled for all libraries by default but can be disabled by setting the library 
 setting _Allow others to use patron account (privacy waiver)_ to False.
 |===
@@ -134,20 +146,21 @@ be saved if an address is not included.
 |Street (1) | Yes | Street address details are entered here.
 |Street (2) | No | Optional field for additional street address details.
 |City | Yes | This will be autofilled when postal code is entered.
-|County | No | This field can be used if there is a applicable county for the address.
+|County | No | This field can be used if there is an applicable county for the address.
 |State | Yes | The provincial or territorial abbreviation must be used.  
-|Country | Yes | Canada is entered by default.  This can be manually updated if entering addresses from another
-country.
-|Valid Address? | N/As | Checked by default, this check box indicates that the address is valid. This can
-be used in conjuntion with the library setting _Invalid patron address penalty_.
+|Country | Yes | Canada is entered by default.  This can be manually updated if entering an address
+ from another country.
+|Valid Address? | N/As | Checked by default, this check box indicates that the address is valid
+for the patron. This can be used in conjuntion with the library setting _Invalid patron address penalty_.
 |Within City Limits? | N/A | Unchecked by default, this check box indicates that the address is within the city limits.
-This can be used in reporting.
+This can be used in reporting; however, libraries may choose to use 
+patron statistical categories to track service areas instead.
 |===
 
-Multiple addresses can be included if the patron has more than one address that should be entered in their
-account.
+Multiple addresses can be included if the patron has more than one address that should 
+be entered in their account. Click the *New Address* button to add an additional address.
 
-Libraries can allow their patrons to edit their address via My Account by setting the library setting
+Libraries can allow their patrons to edit their address via _My Account_ by setting the library setting
 _Allow pending addresses_ to True.  Editing an address creates a pending address in the patron's account
 that must be approved by library staff.
 
