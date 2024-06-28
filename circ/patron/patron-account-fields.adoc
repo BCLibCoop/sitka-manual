@@ -29,7 +29,7 @@ The preferred name is used instead of the primary for notifications and displays
 under their real name.
 |Date of Birth | Can be set as required by libraries | Date of birth of the patron.
 |Juvenile Check Box | No | Can be used to tag accounts as juvenile for policy and reporting purposes. 
-When a date of birth is entered Evergreen checked the value for the library setting 
+When a date of birth is entered Evergreen checks the value for the library setting 
 _Juvenile Age Threshold_ and automatically checks the box if the patron’s age falls 
 below the threshold.  However, Evergreen does not automatically un-check the box 
 when the patron’s age is above the threshold and library staff must manually un-check the box.  
