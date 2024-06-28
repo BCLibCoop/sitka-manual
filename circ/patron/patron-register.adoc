@@ -54,7 +54,7 @@ and open a new record with some shared details such as phone number and optional
 +
 [CAUTION]
 =========
-It is important to know for your library whether Evergreen is linking the accounts through 
+When using *Save & Clone* it is important to know whether Evergreen is linking the accounts through 
 the address or merely creating a copy of the address.  Local system administrators can 
 control this with the library setting _Patron Registration: Cloned patrons get address copy_.
 =========
