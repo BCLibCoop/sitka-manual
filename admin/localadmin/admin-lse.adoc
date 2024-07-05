@@ -1128,7 +1128,7 @@ e.g. https://my-evergreen.matomo.cloud/| Text | | Sitka |
 
 |Maximum file size for uploaded cover image files (at time of upload, prior to rescaling). |
 The number of bytes to allow for a cover image upload. If unset, defaults to 
-10737418240 (roughly 10GB). | Number | | Sitka |
+10737418240 (roughly 10GB). | Number | 10000000 (10MB) | Sitka | 
 
 |Maximum number of spelling suggestions that may be offered | If set to -1, provide 
 "best" suggestion if mispelled; if set higher than 0, the maximum suggestions that 
