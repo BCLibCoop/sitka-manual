@@ -21,12 +21,20 @@ Please contact https://bc.libraries.coop/support/[Co-op Support] if you need Con
 
 Library staff with appropriate permissions can upload a cover image for a specific bibliographic 
 record.  This should be used for adding images to non-bibliographic records or to records for 
-highly specialized bibliographic items.  Missing images for bibliographic records should be
-reported to Content Cafe.  Libraries can contact Content Cafe directly to report missing cover images for bibliographic records.  
-Please contact https://bc.libraries.coop/support/[Co-op Support] if you need Content Cafe's email.
+highly specialized bibliographic items.  
 
-For access to the Cover Image Uploader please contact Co-op Support and include the barcodes for 
-the staff accounts that need access. 
+[NOTE]
+======
+Cover images for bibliographic items in Sitka's Evergreen are supplied by Content Cafe and depend 
+on the records having the relevant ISBN (020 field), ISSN (022 field), or UPC (024 field).
+
+Missing images for bibliographic records should be
+reported to Content Cafe. Libraries can contact Content Cafe directly to report missing cover images for bibliographic records.  
+Please contact https://bc.libraries.coop/support/[Co-op Support] if you need Content Cafe's email.
+======
+
+For access to the Cover Image Uploader please contact https://bc.libraries.coop/support/[Co-op Support]
+ and include the barcodes for the staff accounts that need access. 
 
 Acceptable file types are jpg, png, xpm, xbm, gif, and bmp. All uploaded images are converted 
 to PNG at the time of upload and scaled to small, medium, and large for various uses within the 
@@ -135,5 +143,10 @@ include the following:
 * File size larger than configured limit. Check your library setting or try a smaller file.
 * Error parsing the image. Is it a common image filetype?
 * Error uploading or processing file.
+
++
+image::images/cat/cover-image-uploader/cover-image-uploader-error-1.png[screenshot showing the cover 
+image uploader displaying an error with the text Not authorized. Check your permissions.]
++
 
 
