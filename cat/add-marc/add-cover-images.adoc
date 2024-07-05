@@ -18,3 +18,51 @@ on the records having the relevant ISBN (020 field), ISSN (022 field), or UPC (0
 Libraries can contact Content Cafe directly to report missing cover images for bibliographic records.  
 Please contact https://bc.libraries.coop/support/[Co-op Support] if you need Content Cafe's email.
 ======
+
+This feature allows a staff user with appropriate permissions to upload a cover image for a specific bibliographic record.
+
+For access to the Cover Image Uploader please contact Co-op Support and include the barcodes for the staff accounts that need access. 
+
+Acceptable file types are jpg, png, xpm, xbm, gif, and bmp. All uploaded images are converted to PNG at the time of upload and scaled to small, medium, and large for various uses within the public catalogue and staff client.
+
+The scaling algorithm will size images to fit the dimension of each bounding box, while preserving aspect ratio. This means that the largest dimension of any image will be scaled to match the bounding box. 
+
+* Small = 55px wide x 91px high
+* Medium = 120 px wide x 200 px high
+* Large = 475px wide x 787 px high
+
+Images associated with a bib record will display in the following locations:
+
+* In the staff catalogue search results list on the left side of the title
+* In the staff catalogue bib record details page on the upper left side of the page
+* In the public catalogue search results list on the left side of the title
+* In the public catalogue record details search page to the left of the title.
+
+Uploading a Cover Image
+^^^^^^^^^^^^^^^^^^^^^^^
+
+. Create a new record OR search the staff catalogue for the existing record you would like to add 
+an image to and click on the title link to open the record. 
+. From the Other Actions menu select Upload Cover Image.
+. Click Choose File in the pop-up that appears.
+. Find the file on your computer or shared drive and select it.
+. Click Upload Cover Image.
+. The image is uploaded.  The image doesn’t currently display immediately on the tab you have 
+open but you will see it if you search for the record in the staff catalogue or public catalogue.
+
+You can use the same process to replace a cover image if an incorrect one is loaded or a newer image is needed. The image may not appear to update this is because modern browsers can be very sticky with their cache.  If you need to see the new cover image immediately, we recommend checking in a different browser.
+
+If there is an error uploading your file, you will be shown error text in the pop-up. Error messages 
+include the following:
+
+* Not authenticated. Expired login?
+* Not authorized. Check your permissions.
+* Not found. Bib record deleted?
+* Invalid global compression value. Talk to your system administrator.
+* Do not know where to upload files. Talk to your system administrator.
+* Can not save uploaded file. Talk to your system administrator.
+* File size larger than configured limit. Check your library setting or try a smaller file.
+* Error parsing the image. Is it a common image filetype?
+* Error uploading or processing file.
+
+
