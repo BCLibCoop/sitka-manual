@@ -83,7 +83,7 @@ open.  You will see it if you do a new search for the record in the staff catalo
 +
 image::images/cat/uploader/cover-image-uploader-4.png[screenshot showing cover art
 displaying in the search results of the public catalogue]
-+
+
 
 *Staff Catalogue - Search Results*
 +
@@ -121,7 +121,7 @@ record in your public catalogue using a different browser.
 +
 image::images/cat/uploader/cover-image-uploader-8.png[screenshot showing cover art
 displaying in the search results of the public catalogue]
-+
+
 
 *Staff Catalogue - Search Results*
 +
@@ -144,8 +144,8 @@ include the following:
 * Error parsing the image. Is it a common image filetype?
 * Error uploading or processing file.
 
-+
+
 image::images/cat/uploader/cover-image-uploader-error-1.png[]
-+
+
 
 
