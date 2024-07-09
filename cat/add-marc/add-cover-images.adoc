@@ -62,18 +62,18 @@ Uploading a Cover Image
 an image to and click on the title link to open the record. 
 . From the Other Actions menu select Upload Cover Image.
 +
-image::images/cat/cover-image-uploader/cover-image-uploader-1.png[1 of 3 screenshots in a series 
+image::images/cat/uploader/cover-image-uploader-1.png[1 of 3 screenshots in a series 
 showing the steps described]
 +
 . Click Choose File in the pop-up that appears.
 +
-image::images/cat/cover-image-uploader/cover-image-uploader-2.png[1 of 3 screenshots in a series 
+image::images/cat/uploader/cover-image-uploader-2.png[1 of 3 screenshots in a series 
 showing the steps described]
 +
 . Find the file on your computer or shared drive and select it.
 . Click Upload Cover Image.
 +
-image::images/cat/cover-image-uploader/cover-image-uploader-3.png[1 of 3 screenshots in a series 
+image::images/cat/uploader/cover-image-uploader-3.png[1 of 3 screenshots in a series 
 showing the steps described]
 +
 . The image is uploaded.  The image doesn’t currently display immediately on the tab you have 
@@ -81,13 +81,13 @@ open.  You will see it if you do a new search for the record in the staff catalo
 
 *Public Catalogue - Search Results*
 +
-image::images/cat/cover-image-uploader/cover-image-uploader-4.png[screenshot showing cover art
+image::images/cat/uploader/cover-image-uploader-4.png[screenshot showing cover art
 displaying in the search results of the public catalogue]
 +
 
 *Staff Catalogue - Search Results*
 +
-image::images/cat/cover-image-uploader/cover-image-uploader-5.png[screenshot showing cover art
+image::images/cat/uploader/cover-image-uploader-5.png[screenshot showing cover art
 displaying in the search results of the staff catalogue]
 
 Replacing a Cover Image
@@ -99,18 +99,18 @@ Libraries should ensure that they are only updating images on records unique to 
  and click on the title link to open the record. 
 . From the Other Actions menu select Upload Cover Image.
 +
-image::images/cat/cover-image-uploader/cover-image-uploader-6.png[1 of 3 screenshots in a series 
+image::images/cat/uploader/cover-image-uploader-6.png[1 of 3 screenshots in a series 
 showing the steps described]
 +
 . Click Choose File in the pop-up that appears.
 +
-image::images/cat/cover-image-uploader/cover-image-uploader-2.png[1 of 3 screenshots in a series 
+image::images/cat/uploader/cover-image-uploader-2.png[1 of 3 screenshots in a series 
 showing the steps described]
 +
 . Find the file on your computer or shared drive and select it.
 . Click Upload Cover Image.
 +
-image::images/cat/cover-image-uploader/cover-image-uploader-7.png[1 of 3 screenshots in a series 
+image::images/cat/uploader/cover-image-uploader-7.png[1 of 3 screenshots in a series 
 showing the steps described]
 +
 . The image is uploaded.  The new image doesn’t currently display immediately on the tab you have 
@@ -119,13 +119,13 @@ record in your public catalogue using a different browser.
 
 *Public Catalogue - Search Results*
 +
-image::images/cat/cover-image-uploader/cover-image-uploader-8.png[screenshot showing cover art
+image::images/cat/uploader/cover-image-uploader-8.png[screenshot showing cover art
 displaying in the search results of the public catalogue]
 +
 
 *Staff Catalogue - Search Results*
 +
-image::images/cat/cover-image-uploader/cover-image-uploader-5.png[screenshot showing cover art
+image::images/cat/uploader/cover-image-uploader-5.png[screenshot showing cover art
 displaying in the search results of the staff catalogue]
 
 Errors When Uploading
@@ -145,7 +145,7 @@ include the following:
 * Error uploading or processing file.
 
 +
-image::images/cat/cover-image-uploader/cover-image-uploader-error-1.png[screenshot showing the cover 
+image::images/cat/uploader/cover-image-uploader-error-1.png[screenshot showing the cover 
 image uploader displaying an error with the text Not authorized. Check your permissions.]
 +
 
