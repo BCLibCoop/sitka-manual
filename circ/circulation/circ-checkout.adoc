@@ -131,7 +131,7 @@ with items that got missed at check in.  Staff have three options to
 resolve the open circulation:
 
 * Click *Normal Checkin then Checkout* - this checks the item in and then out to the new patron
-* Check the box for *Forgive Fines and then click *Normal Checkin then Checkout* - this checks the item in, 
+* Check the box for *Forgive Fines* and then click *Normal Checkin then Checkout* - this checks the item in, 
 forgives any existing fines, and then checks the item out to the new patron
 * Click *Cancel* - this cancels the check out and allows staff to manually resolve the open circulation
 
