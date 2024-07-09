@@ -62,33 +62,28 @@ Uploading a Cover Image
 an image to and click on the title link to open the record. 
 . From the Other Actions menu select Upload Cover Image.
 +
-image::images/cat/uploader/cover-image-uploader-1.png[alt text="1 of 3 screenshots in a series 
-showing the steps described"]
+image::images/cat/uploader/cover-image-uploader-1.png[]
 +
 . Click Choose File in the pop-up that appears.
 +
-image::images/cat/uploader/cover-image-uploader-2.png[alttext="2 of 3 screenshots in a series 
-showing the steps described"]
+image::images/cat/uploader/cover-image-uploader-2.png[]
 +
 . Find the file on your computer or shared drive and select it.
 . Click Upload Cover Image.
 +
-image::images/cat/uploader/cover-image-uploader-3.png[3 of 3 screenshots in a series 
-showing the steps described]
+image::images/cat/uploader/cover-image-uploader-3.png[]
 +
 . The image is uploaded.  The image doesn’t currently display immediately on the tab you have 
 open.  You will see it if you do a new search for the record in the staff catalogue or public catalogue.
 
 *Public Catalogue - Search Results*
 +
-image::images/cat/uploader/cover-image-uploader-4.png[screenshot showing cover art
-displaying in the search results of the public catalogue]
+image::images/cat/uploader/cover-image-uploader-4.png[]
 
 
 *Staff Catalogue - Search Results*
 +
-image::images/cat/uploader/cover-image-uploader-5.png[screenshot showing cover art
-displaying in the search results of the staff catalogue]
+image::images/cat/uploader/cover-image-uploader-5.png[]
 
 Replacing a Cover Image
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -99,19 +94,16 @@ Libraries should ensure that they are only updating images on records unique to 
  and click on the title link to open the record. 
 . From the Other Actions menu select Upload Cover Image.
 +
-image::images/cat/uploader/cover-image-uploader-6.png[1 of 3 screenshots in a series 
-showing the steps described]
+image::images/cat/uploader/cover-image-uploader-6.png[]
 +
 . Click Choose File in the pop-up that appears.
 +
-image::images/cat/uploader/cover-image-uploader-2.png[1 of 3 screenshots in a series 
-showing the steps described]
+image::images/cat/uploader/cover-image-uploader-2.png[]
 +
 . Find the file on your computer or shared drive and select it.
 . Click Upload Cover Image.
 +
-image::images/cat/uploader/cover-image-uploader-7.png[1 of 3 screenshots in a series 
-showing the steps described]
+image::images/cat/uploader/cover-image-uploader-7.png[]
 +
 . The image is uploaded.  The new image doesn’t currently display immediately on the tab you have 
 open due to browser caching.  To see the new image you can clear your cache or open the 
@@ -119,14 +111,12 @@ record in your public catalogue using a different browser.
 
 *Public Catalogue - Search Results*
 +
-image::images/cat/uploader/cover-image-uploader-8.png[screenshot showing cover art
-displaying in the search results of the public catalogue]
+image::images/cat/uploader/cover-image-uploader-8.png[]
 
 
 *Staff Catalogue - Search Results*
 +
-image::images/cat/uploader/cover-image-uploader-5.png[screenshot showing cover art
-displaying in the search results of the staff catalogue]
+image::images/cat/uploader/cover-image-uploader-5.png[]
 
 Errors When Uploading
 ^^^^^^^^^^^^^^^^^^^^^
