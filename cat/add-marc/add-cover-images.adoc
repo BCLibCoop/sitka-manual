@@ -58,18 +58,19 @@ Images associated with a bib record will display in the following locations:
 Uploading a Cover Image
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-. Create a new record OR search the staff catalogue for the existing record you would like to add 
-an image to and click on the title link to open the record. 
-. From the Other Actions menu select Upload Cover Image.
+. xref:_creating_new_records_for_non_bibliographic_resources[Create a new record] OR 
+xref:_searching_the_database_for_cataloguing_purposes[search the staff catalogue] for the existing
+ record you would like to add an image to and click on the title link to open the record. 
+. From the *Other Actions* menu select *Upload Cover Image*.
 +
 image::images/cat/uploader/cover-image-uploader-1.png[]
 +
-. Click Choose File in the pop-up that appears.
+. Click *Choose File* in the pop-up that appears.
 +
 image::images/cat/uploader/cover-image-uploader-2.png[]
 +
 . Find the file on your computer or shared drive and select it.
-. Click Upload Cover Image.
+. Click *Upload Cover Image*.
 +
 image::images/cat/uploader/cover-image-uploader-3.png[]
 +
@@ -90,18 +91,18 @@ Replacing a Cover Image
 
 Libraries should ensure that they are only updating images on records unique to them.
 
-. Search the staff catalogue for the existing record you would like to update the image on
- and click on the title link to open the record. 
-. From the Other Actions menu select Upload Cover Image.
+. xref:_searching_the_database_for_cataloguing_purposes[Search the staff catalogue] for the existing
+ record you would like to update the image on and click on the title link to open the record. 
+. From the *Other Actions* menu select *Upload Cover Image*.
 +
 image::images/cat/uploader/cover-image-uploader-6.png[]
 +
-. Click Choose File in the pop-up that appears.
+. Click *Choose File* in the pop-up that appears.
 +
 image::images/cat/uploader/cover-image-uploader-2.png[]
 +
 . Find the file on your computer or shared drive and select it.
-. Click Upload Cover Image.
+. Click *Upload Cover Image*.
 +
 image::images/cat/uploader/cover-image-uploader-7.png[]
 +
@@ -130,8 +131,4 @@ include the following:
 * Error parsing the image. Is it a common image filetype?
 * Error uploading or processing file.
 
-
 image::images/cat/uploader/cover-image-uploader-error-1.png[]
-
-
-
