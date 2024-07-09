@@ -106,17 +106,13 @@ image::images/cat/uploader/cover-image-uploader-2.png[]
 image::images/cat/uploader/cover-image-uploader-7.png[]
 +
 . The image is uploaded.  The new image doesn’t currently display immediately on the tab you have 
-open due to browser caching.  To see the new image you can clear your cache or open the 
-record in your public catalogue using a different browser.
+open due to browser caching.  To see the new image you can xref:_clear_cache[clear your cache] or 
+open the record in your public catalogue using a different browser.
 
 *Public Catalogue - Search Results*
 +
 image::images/cat/uploader/cover-image-uploader-8.png[]
 
-
-*Staff Catalogue - Search Results*
-+
-image::images/cat/uploader/cover-image-uploader-5.png[]
 
 Errors When Uploading
 ^^^^^^^^^^^^^^^^^^^^^
