@@ -62,18 +62,18 @@ Uploading a Cover Image
 an image to and click on the title link to open the record. 
 . From the Other Actions menu select Upload Cover Image.
 +
-image::images/cat/uploader/cover-image-uploader-1.png[1 of 3 screenshots in a series 
-showing the steps described]
+image::images/cat/uploader/cover-image-uploader-1.png[alt text="1 of 3 screenshots in a series 
+showing the steps described"]
 +
 . Click Choose File in the pop-up that appears.
 +
-image::images/cat/uploader/cover-image-uploader-2.png[1 of 3 screenshots in a series 
-showing the steps described]
+image::images/cat/uploader/cover-image-uploader-2.png[alttext="2 of 3 screenshots in a series 
+showing the steps described"]
 +
 . Find the file on your computer or shared drive and select it.
 . Click Upload Cover Image.
 +
-image::images/cat/uploader/cover-image-uploader-3.png[1 of 3 screenshots in a series 
+image::images/cat/uploader/cover-image-uploader-3.png[3 of 3 screenshots in a series 
 showing the steps described]
 +
 . The image is uploaded.  The image doesn’t currently display immediately on the tab you have 
@@ -145,8 +145,7 @@ include the following:
 * Error uploading or processing file.
 
 +
-image::images/cat/uploader/cover-image-uploader-error-1.png[screenshot showing the cover 
-image uploader displaying an error with the text Not authorized. Check your permissions.]
+image::images/cat/uploader/cover-image-uploader-error-1.png[]
 +
 
 
