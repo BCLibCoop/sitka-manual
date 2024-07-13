@@ -8,7 +8,10 @@ anchor:action-triggers[Action Triggers]
 * Some Print functions
 * Automatically set overdue items to Lost
 
-Some templates are set at the Sitka level and cannot be customized.  Most templates are customizable per library.
+Some templates are set at the Sitka level and cannot be customized.  Most templates are 
+customizable per library.
+
+See xref:_patron_notifications[] for details on what notices can be set up for your library.
 
 Viewing Your Notifications / Action Triggers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
