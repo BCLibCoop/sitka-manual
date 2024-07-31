@@ -5,9 +5,22 @@ When Will An Item Go In Transit?
 
 link:https://youtu.be/U3p2Ogif6xk[*Sitka Training Video - Transits (2:41)*]
 
-Evergreen’s *In Transit* feature is used to keep track of items transferring among branches within a library system or between separate Sitka libraries. It makes it easy for libraries to provide services such as allowing patrons to return items at any branch or Sitka library, or place holds on items belonging to another branch or library. Sitka services such as BC _ILC and SPRUCE ILL are possible because of Evergreen's *In Transit* functionality.
+Evergreen’s *In Transit* feature is used to keep track of items transferring among branches 
+within a library system or between separate Sitka libraries. It makes it easy for 
+libraries to provide services such as allowing patrons to return items at any branch or 
+Sitka library, or place holds on items belonging to another branch or library. Sitka services 
+such as BC _ILC and SPRUCE ILL are possible because of Evergreen's *In Transit* functionality.
 
-. When an item is checked in at a non-owning branch or library, the status is changed to *In Transit* and a *Transit Slip* can be printed. Items in transit are sent to the destination branch or library according to your library’s policy and workflow.
-. When you capture a hold with a pick-up library other than your branch or library, the item’s status is changed to *In Transit*. Holds in transit are sent to the destination branch or library according to your library’s policy and workflow.
+ Libraries should check the xref:_transit_list[Transit List] on a regular basis for items that 
+ have been in transit longer than normal or have been put into transit by misscans.
 
-TIP: If you capture holds on the *Capture Holds* screen, a *Transit/Hold* slip is printed automatically by default. If you capture holds on the *Check In* screen, you can choose to print slips automatically by selecting *Checkin Modifiers -> Auto-Print Hold and Transit Slips*.
+. When an item is checked in at a non-owning branch or library, the status is changed to 
+*In Transit* and a *Transit Slip* can be printed. Items in transit are sent to the destination 
+branch or library according to your library’s policy and workflow.
+. When you capture a hold with a pick-up library other than your branch or library, the item’s 
+status is changed to *In Transit*. Holds in transit are sent to the destination branch or library 
+according to your library’s policy and workflow.
+
+TIP: If you capture holds on the *Capture Holds* screen, a *Transit/Hold* slip is printed 
+automatically by default. If you capture holds on the *Check In* screen, you can choose to 
+print slips automatically by selecting *Checkin Modifiers -> Auto-Print Hold and Transit Slips*.
