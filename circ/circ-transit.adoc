@@ -7,6 +7,6 @@ include::transit/transit-receive.adoc[How to Receive In Transit Items]
 
 include::transit/transit-details.adoc[Transit Details]
 
-include::transit/transit-list.adoc[Transit List]
+include::localadmin/admin-transit-list.adoc[]
 
 include::transit/transit-abort.adoc[Aborting Transits]
