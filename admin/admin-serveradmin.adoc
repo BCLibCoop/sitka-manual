@@ -38,7 +38,7 @@ new dates.
 
 . Go to *Administration -> Server Administration -> Hard Due Date Changes*.
 . Existing hard due dates will display for the current working location with the current ceiling 
-date visible. Multi-branch libraries should use the library selector to display their 
+date visible. Multi-branch libraries should use the library selector to display hard due dates for their 
 system and descendants.
 +
 image::images/admin/hard-due-date-1.png[scaledwidth="75%"]
