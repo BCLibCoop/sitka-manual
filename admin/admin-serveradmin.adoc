@@ -28,9 +28,35 @@ Hard Due Date
 ~~~~~~~~~~~~~
 
 Academic libraries may wish to use hard due dates to truncate due dates at the end of a semester or 
-allow particular material to go out for an entire semester.
+allow particular material to go out for an entire semester.  
 
-If you wish to use hard due dates please contact https://bc.libraries.coop/support/[Co-op Support] 
+Viewing Your Hard Due Dates
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Local system administrators can view hard due dates for your library but cannot update or add
+new dates. 
+
+. Go to *Administration -> Server Administration -> Hard Due Date Changes*.
+. Existing hard due dates will display for the current working location with the current ceiling 
+date visible. Multi-branch libraries should use the library selector to display hard due dates for their 
+system and descendants.
++
+image::images/admin/hard-due-date-1.png[scaledwidth="75%"]
++
+. To see past and upcoming dates for a specific hard due date click *Values* on the applicable line.
++
+image::images/admin/hard-due-date-2.png[scaledwidth="75%"]
++
+. The dates will display.
++
+image::images/admin/hard-due-date-3.png[scaledwidth="75%"]
+
+
+Changing Your Hard Due Dates
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you wish to update or add hard due dates please 
+contact https://bc.libraries.coop/support/[Co-op Support] 
 with the following:
 
 * Date or dates for the hard due date
@@ -47,8 +73,8 @@ entire semester.
 =====
 Send your new hard due dates to Support on a regular basis to ensure your circulation works as expected.
 
-For instance, you may wish to send the dates for your fall, winter, and summer terms to Support every August
-so that your dates can be entered for the entire year.
+For instance, you may wish to send the dates for your fall, winter, and summer terms to Support every
+ August so that your dates can be entered for the entire year.
 =====
 
 Item Statuses
