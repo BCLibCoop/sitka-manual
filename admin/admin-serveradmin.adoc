@@ -34,24 +34,22 @@ Viewing Your Hard Due Dates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Local system administrators can view hard due dates for your library but cannot update or add
-new dates. Multi-branch libraries should use the library selector to display their system and descendants.
+new dates. 
 
 . Go to *Administration -> Server Administration -> Hard Due Date Changes*.
 . Existing hard due dates will display for the current working location with the current ceiling 
-date visible.
+date visible. Multi-branch libraries should use the library selector to display their 
+system and descendants.
 +
-image::images/admin/hard-due-date-1.png[scaledwidth="75%",alt="1 of 3 screenshots in a series showing
-the steps described"]
+image::images/admin/hard-due-date-1.png[scaledwidth="75%"]
 +
 . To see past and upcoming dates for a specific hard due date click *Values* on the applicable line.
 +
-image::images/admin/hard-due-date-2.png[scaledwidth="75%",alt="2 of 3 screenshots in a series showing
-the steps described"]
+image::images/admin/hard-due-date-2.png[scaledwidth="75%"]
 +
 . The dates will display.
 +
-image::images/admin/hard-due-date-3.png[scaledwidth="75%",alt="3 of 3 screenshots in a series showing
-the steps described"]
+image::images/admin/hard-due-date-3.png[scaledwidth="75%"]
 
 
 Changing Your Hard Due Dates
