@@ -470,7 +470,8 @@ Maintaining Reporter Data
 
 (((Reporter, Maintaining Data)))
 
-Saved report templates will stay in the Sitka database forever unless deleted by the template owner.  Report definitions and output are deleted on a yearly basis by Co-op Support.
+Saved report templates will stay in the Sitka database forever unless deleted by the template owner.  
+Report definitions and output more than 3 years old are deleted annually by Co-op Support.
   When a template or report definition is deleted all the linked definitions and output
 files are also deleted.
 
