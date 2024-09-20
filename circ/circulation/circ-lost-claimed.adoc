@@ -130,12 +130,13 @@ image:images/circ/mark-discard-1.png[]
 . A pop-up appears where staff can confirm that they wish to mark the item by clicking *OK/Continue*.
 . The item is set to _Discard/Weed_.
 
-A discarded item is resolved when it is checked in to return it to circulation or deleted from Evergreen.
+A discarded item is resolved when it is checked in to return it to circulation or deleted 
+from Evergreen.
 
 [NOTE]
 ======
 Staff may wish to put discarded items into item buckets to make it easier for subsequent staff to view
-and work with the items.  See xref:cat-copy-bucket[] for information on using item buckets. 
+and work with the items.  See xref:_item_buckets[] for information on using item buckets. 
 ======
 
 Missing
