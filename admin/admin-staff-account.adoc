@@ -144,13 +144,10 @@ Staff passwords can be reset:
 *Forgot Your Password?* link in the *My Account* login screen on your public catalogue. You must have an email 
 address recorded in your staff account for these to methods to work.
 ** https://youtu.be/iJo5ajf-XAA[*Sitka Snippet Video - Resetting a Forgotten Password (2:54)*]
-+
-[NOTE]
-======
-The password reset link is disabled for libraries using single sign-on.  Please contact 
+** The password reset link is disabled for libraries using single sign-on.  If your library uses
+single sign-on please contact 
 https://bc.libraries.coop/support/[Co-op Support] for the password reset URL for your library.
-======
-+
+
 * through your account in the staff client by your local system administrator.
 ** Local system administrators can assign a new password to staff that are not 
 also local system administrators.
