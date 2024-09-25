@@ -10,8 +10,11 @@ Evergreen’s staff functions.
 . Staff accounts have working locations which tell Evergreen which libraries or branches 
 an account can be used at.
 
-NOTE: When a library staff account expires the staff member is not able to log into the 
+[NOTE]
+======
+When a library staff account expires the staff member is not able to log into the 
 Evergreen staff client until their account has been renewed. 
+======
 
 There are three kinds of library staff accounts:
 
@@ -26,8 +29,11 @@ that run from the reporter.  The new user MUST complete a
  https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[reporter privacy waiver] to comply 
  with Sitka’s privacy policy.
  
-NOTE: Libraries are encouraged to use Staff Specific Accounts for all accounts that need access to the 
+[NOTE]
+======
+Libraries are encouraged to use Staff Specific Accounts for all accounts that need access to the 
 reporter in Evergreen to avoid the need to re-set up recurring reports.
+======
 
 *Staff/Personal Accounts*
 
@@ -37,8 +43,11 @@ and last name.
 * Account can be granted permissions to use the reporter and/or view report output.
 * Account CANNOT be transferred to a new staff member as it is linked to personal borrowing data.
 
-NOTE: Support recommends using Staff Specific Accounts instead of Staff/Personal Accounts. It is easier 
+[NOTE]
+======
+Support recommends using Staff Specific Accounts instead of Staff/Personal Accounts. It is easier 
 for libraries to manage accounts when staff and personal accounts are kept separate.
+======
 
 *Generic Staff Accounts*
 
@@ -61,9 +70,12 @@ only they know.
 * For an account to be a staff account it needs to have a Main (Profile) Permission Group with library 
 staff permissions.  Choose the appropriate permission group for the access the staff member needs.  
 
-NOTE: The Local System Administrator permission group can only be assigned by Support.  Libraries may create 
+[NOTE]
+======
+The Local System Administrator permission group can only be assigned by Support.  Libraries may create 
 an account using any permission group and then submit a request to Support to have the account updated to 
 local system administrator. Please include the account's barcode in the request.
+======
 
 The table in 
 http://docs.libraries.coop/sitka/_staff_account_permission_groups.html[Staff Account Permission Groups]
@@ -89,7 +101,10 @@ After creating the account you need to assign a working location:
 
 image::images/admin/staff-account-3.png[]
 
-CAUTION: Staff accounts without a working location can not sign into the Evergreen staff client as of version 3.11. 
+[CAUTION]
+=========
+Staff accounts without a working location can not sign into the Evergreen staff client. 
+=========
 
 Editing Library Staff Accounts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -101,7 +116,10 @@ into *My Account* in the public catalogue.  They can use the *Forgot your Passwo
 login screen as well, as long as their staff account contains a valid email address. Updating your 
 staff account in the public catalogue is the same as updating it in the staff client.
 
-NOTE: Some libraries have disabled editing of email addresses through My Account.
+[NOTE]
+======
+Some libraries have disabled editing of email addresses through My Account.
+======
 
 Local System Administrators can edit staff accounts in the staff client, with the exception of any LSA staff 
 accounts.  For edits to Local System Administrator accounts, other than username, password, or 
@@ -113,22 +131,33 @@ Resetting Staff Account Password
 
 https://youtu.be/YoB-JG6Y9Sk[*Sitka Training Video - Managing Passwords(4:02)*]
 
-Staff passwords can be reset as follows:
 
-. Log into *My Account* and using the the _Change_ link found on the *Personal Information* tab of 
+Staff passwords can be reset:
+
+* through My Account in your public catalogue.
+** Log into *My Account* and using the the _Change_ link found on the *Personal Information* tab of 
 *Account Preferences*.
-link:https://youtu.be/LprDPIhqN1I[*Sitka Snippet Video - Changing an Existing Password (1:20)*]
+** https://youtu.be/LprDPIhqN1I[*Sitka Snippet Video - Changing an Existing Password (1:20)*]
 
-. Use the *Send Password Reset Link* button on the *Edit* tab in the patron account in the staff client OR the 
+* through the password reset link in your public catalogue.
+** Use the *Send Password Reset Link* button on the *Edit* tab in the patron account in the staff client OR the 
 *Forgot Your Password?* link in the *My Account* login screen on your public catalogue. You must have an email 
-address recorded in your staff account for these to methods to work.  
-link:https://youtu.be/iJo5ajf-XAA[*Sitka Snippet Video - Resetting a Forgotten Password (2:54)*]
+address recorded in your staff account for these to methods to work.
+** https://youtu.be/iJo5ajf-XAA[*Sitka Snippet Video - Resetting a Forgotten Password (2:54)*]
++
+[NOTE]
+======
+The password reset link is disabled for libraries using single sign-on.  Please contact 
+https://bc.libraries.coop/support/[Co-op Support] for the password reset URL for your library.
+======
++
+* through your account in the staff client by your local system administrator.
+** Local system administrators can assign a new password to staff that are not 
+also local system administrators.
 
-. Have a staff member with higher permissions than you, such as Local System Administrator, assign a new 
-password to your account in the staff client.
-
-. Send in a request to Support to have a temporary password assigned and then use 
-the _Change_ link in *My Account*.
+* through a request to https://bc.libraries.coop/support/[Co-op Support].
+** If you are unable to reset your password using one of the other methods, send in a request to 
+Support to have a temporary password assigned and then use the _Change_ link in *My Account*.
 
 
 Staff Account Permission Groups
@@ -165,9 +194,12 @@ for a particular account, go to *Administration -> User Permission Editor* in th
 | Create serials subscriptions	 |	 |  |  | * | * | *
 |===
 
-NOTE: Only users with reporting permissions  
+[NOTE]
+======
+Only users with reporting permissions  
 can access the Reports interface or view report output. To request reporting 
 permissions staff must sign and submit a https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[Reporter Privacy Waiver].
+======
 
 Granting Additional Permissions to Staff Accounts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -278,6 +310,9 @@ folders, same as you would clone a report from the Sitka Templates folder.
 . Any recurring reports running from the old account need to be cancelled by going into the Reports folder 
 for each report and deleting the report. 
 
-CAUTION: Deleting reports also deletes any output attached to the report so make sure to download any needed 
+[CAUTION]
+=========
+Deleting reports also deletes any output attached to the report so make sure to download any needed 
 report output as Excel or CSV files and save them to your computer or network drive.
+=========
 
