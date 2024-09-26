@@ -140,21 +140,28 @@ Staff passwords can be reset:
 ** https://youtu.be/LprDPIhqN1I[*Sitka Snippet Video - Changing an Existing Password (1:20)*]
 
 * through the password reset link in your public catalogue.
-** Use the *Send Password Reset Link* button on the *Edit* tab in the patron account in the staff client OR the 
-*Forgot Your Password?* link in the *My Account* login screen on your public catalogue. You must have an email 
+** Use the *Forgot Your Password?* link in the *My Account* login screen on your public catalogue. You must have an email 
 address recorded in your staff account for these to methods to work.
 ** https://youtu.be/iJo5ajf-XAA[*Sitka Snippet Video - Resetting a Forgotten Password (2:54)*]
-** The password reset link is disabled for libraries using single sign-on.  If your library uses
-single sign-on please contact 
-https://bc.libraries.coop/support/[Co-op Support] for the password reset URL for your library.
 
 * through your account in the staff client by your local system administrator.
-** Local system administrators can assign a new password to staff that are not 
-also local system administrators.
+** Local system administrators can use the *Send Password Reset Link* button on the *Edit* tab in the patron account in the staff client OR assign a new password to 
+staff that are not also local system administrators.
 
 * through a request to https://bc.libraries.coop/support/[Co-op Support].
 ** If you are unable to reset your password using one of the other methods, send in a request to 
 Support to have a temporary password assigned and then use the _Change_ link in *My Account*.
+
+[NOTE]
+======
+Resetting a password by email is disabled for libraries using single sign-on.  If your library uses
+single sign-on you will not be able to use the *Forgot Your Password?* link in your public catalogue or the *Send Password Reset Link* button
+in the staff client.
+
+Please contact 
+https://bc.libraries.coop/support/[Co-op Support] for the password reset URL for your library.
+======
+
 
 
 Staff Account Permission Groups
