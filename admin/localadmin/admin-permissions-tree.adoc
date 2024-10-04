@@ -3,3 +3,61 @@ Permission Tree Display Entries
 
 The permission tree display entries allow the list of patron (profile) permission groups
 to be customized per library.
+
+Viewing Your Permission Tree
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Local system administrators can view action trigger templates, but making changes and clicking save will have no effect.
+
+. Go to *Administration -> Local Administration -> Notifications / Action Triggers*.
++
+image::images/admin/action-trigger-view-1.png[scaledwidth="75%",alt="View notification templates"]
++
+. By default no templates will display, to view the templates for your library use the *Owning Library* filter.
++
+image::images/admin/action-trigger-view-2.png[scaledwidth="75%",alt="View notification templates"]
++
+. Select the template you'd like to view.
+. Click the *Actions* button and select *Edit Event Definition*.
++
+image::images/admin/action-trigger-view-3.png[scaledwidth="75%",alt="View notification templates"]
++
+. Scroll down to view the information in the *Template* section.
++
+image::images/admin/action-trigger-view-4.png[scaledwidth="75%",alt="View notification templates"]
+
+Changing Your Permission Tree
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Only Co-op Support can edit notifications / action triggers. 
+
+Local system administrators can view notifications / action triggers within Evergreen, but 
+making changes and clicking save will have no effect.
+
+Submit a ticket to https://bc.libraries.coop/support/[Co-op Support] to request changes to your notifications / action triggers.
+We recommend submitting your request at least one week before you'd like the change to go into effect.
+
+In your request please include the specific changes you need made.  
+
+When requesting a change to a notification / action trigger you must include:
+
+Available Main (Profile) Permission Groups
+++++++++++++++++++++++++++++++++++++++++++
+
+*Government Library Users
+* GL Constituency borrower
+* GL Departmental Library
+* GL Departmental Staff
+* GL Interlibrary loan - Canada
+* GL Interlibrary loan - Manitoba
+* GL Legislative Assembly staff
+* GL Member of the Legislative Assembly
+* GL Temporary Borrower
+* GL Circ+Copy Edit
+* GL Circ + Full Cat
+* GL Local System Administrator
+
+*K12 Users
+* K12 Library Staff
+
+
