@@ -138,6 +138,22 @@ using the modifier(s).
 
 image::images/report/appendix/selected-circ-modifier.png[]
 
+Circ Modifier: Copies without Circ Modifier
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+_Found under Shared Folders -> Templates -> Sitka_templates ->
+ Collection -> Item List by Item Attribues._
+
+Recommended Recurrence Interval: *None, run as needed*
+
+. Enter a name.  You may wish to include a date.
+. Add your library or your branch(es).
+. Ensure the box is checked for *Run as soon as possible*.
+
+
+image::images/report/appendix/without-circ-modifier.png[]
+
+
 Inventory - Scanned Items Count by Shelving Location (NEW)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
