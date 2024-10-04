@@ -14,13 +14,17 @@ cannot make changes.
 . The permission group tree for your library will display. Multi-branch libraries will need to change the library selector to your
 system.
 +
-image::images/admin/permission-tree-display-entries-1.png[scaledwidth="75%",alt="The permission group tree entries interface
-showing a list of display entries for Maple Public Library"]
+image::images/admin/permission-tree-display-entries-1.png[]
 +
 . If you don't have a custom permission group tree set up the screen will be blank.
 +
-image::images/admin/permission-tree-display-entries-2.png[scaledwidth="75%",alt="The permission group tree entries interface
-showing no display entries for Oak Public Library"]
+image::images/admin/permission-tree-display-entries-2.png[]
++
+. Once set up the custom permission tree will display in the _Main (Profile) Permission Group_ drop down in the patron registration
+and patron edit interfaces. The full list continues to display in the patron search interface.
++
+image::images/admin/permission-tree-display-entries-3.png[]
+
 
 
 Changing Your Permission Tree
