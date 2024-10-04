@@ -7,44 +7,36 @@ to be customized per library.
 Viewing Your Permission Tree
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Local system administrators can view action trigger templates, but making changes and clicking save will have no effect.
+Local system administrators can view the custom permission tree for your library but 
+cannot make changes.
 
-. Go to *Administration -> Local Administration -> Notifications / Action Triggers*.
+. Go to *Administration -> Local Administration -> Permissions Tree Display Entries*.
+. The permission group tree for your library will display. Multi-branch libraries will need to change the library selector to your
+system.
 +
-image::images/admin/action-trigger-view-1.png[scaledwidth="75%",alt="View notification templates"]
+image::images/admin/permission-tree-display-entries-1.png[scaledwidth="75%",alt="The permission group tree entries interface
+showing a list of display entries for Maple Public Library."]
 +
-. By default no templates will display, to view the templates for your library use the *Owning Library* filter.
+. If you don't have a custom permission group tree set up the screen will be blank.
 +
-image::images/admin/action-trigger-view-2.png[scaledwidth="75%",alt="View notification templates"]
-+
-. Select the template you'd like to view.
-. Click the *Actions* button and select *Edit Event Definition*.
-+
-image::images/admin/action-trigger-view-3.png[scaledwidth="75%",alt="View notification templates"]
-+
-. Scroll down to view the information in the *Template* section.
-+
-image::images/admin/action-trigger-view-4.png[scaledwidth="75%",alt="View notification templates"]
+image::images/admin/permission-tree-display-entries-2.png[scaledwidth="75%",alt="The permission group tree entries interface
+showing no display entries for Oak Public Library."]
+
 
 Changing Your Permission Tree
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Only Co-op Support can edit notifications / action triggers. 
+Only Co-op Support can edit permission trees.
 
-Local system administrators can view notifications / action triggers within Evergreen, but 
-making changes and clicking save will have no effect.
+Submit a ticket to https://bc.libraries.coop/support/[Co-op Support] to request changes to permission tree or to ask for 
+one to be set up.
 
-Submit a ticket to https://bc.libraries.coop/support/[Co-op Support] to request changes to your notifications / action triggers.
-We recommend submitting your request at least one week before you'd like the change to go into effect.
-
-In your request please include the specific changes you need made.  
-
-When requesting a change to a notification / action trigger you must include:
+In your request please include the which permission groups you would like added and the order you would like them to be in.
 
 Available Main (Profile) Permission Groups
 ++++++++++++++++++++++++++++++++++++++++++
 
-*Government Library Users
+.Government Library Users
 * GL Constituency borrower
 * GL Departmental Library
 * GL Departmental Staff
@@ -57,7 +49,83 @@ Available Main (Profile) Permission Groups
 * GL Circ + Full Cat
 * GL Local System Administrator
 
-*K12 Users
+.K12 Users
+* K12 Community Borrower
+* K12 School Staff
+* K12 Student
+* K12 Elementary
+* K12 Middle
+* K12 Secondary
 * K12 Library Staff
+* K12 Clerk
+* K12 Basic Circ
+* K12 Basic Circ + Copy
+* K12 Circ + Copy
+* K12 Circ + Full Cat
+* K12 School Library Admin
 
+.Post-secondary Users
+* Alumni
+* Community Borrowers
+* Institution Staff
+* Administrators
+* Faculty
+* Sessional Faculty
+* Support Staff
+* Post-Sec ILL
+* Post-Sec Print Disabled
+* Reciprocal Borrowers
+* Students
+* Continuing Studies
+* Distance Students
+* Grad Students
+* Post-Sec Custom
+* Undergrad Students
+* Post-Sec Student Assistant
+* Post-Sec General Staff
+* Post-Sec Circulator
+* Post-sec Circ + Copy Edit
+* Post-Sec Circ + Full Cat
+* Post-Sec Cataloger
+* Post-Sec Local System Administrator
 
+.Public Library Users
+* PL Adult
+* PL BC OneCard
+* PL Custom
+* PL Extended Loans
+* PL Federation
+* PL Home Services
+* PL ILL
+* PL Juvenile
+* PL New User
+* PL No-fines
+* PL Non Resident - Adult
+* PL Non Resident - Juvenile
+* PL Print Disabled
+* PL Restricted Access
+* PL Teen
+* PL Temporary
+* PL General Staff
+* PL Circulator
+* PL Circ +Copy Edit
+* PL Circ +Full Cat
+* PL Cataloguer
+* PL Federation System Administrator
+* PL Local System Administrator
+
+.Special Library Users 
+* SL Custom
+* SL Extended Loan
+* SL ILL
+* SL Institution Staff
+* SL Patron
+* SL Print Disabled
+* SL Student
+* SL Temporary
+* SL General Staff
+* SL Circulator
+* SL Circ + Copy Edit
+* SL Circ + Full Cat
+* SL Cataloguer
+* SL Local System Administrator
