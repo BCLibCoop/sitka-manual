@@ -2,43 +2,24 @@
 Circulation Related Statistics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Monthly Circulation by Shelving Location (New 3.1)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+LIBRARY: Inbound ILC holds count for selected month
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-_Found under Shared Folders -> Templates -> Sitka_templates -> Circulation -> Monthly
-Circulation Stats._
+_Found under Shared Folders -> Templates -> Sitka_templates ->
+ Intra-federation ILL stats._
 
 Recommended Recurrence Interval: *Monthly*
 
-. Enter a name that doesn't include a specific date as this report will run every month. For example, "Monthly Circulation by 
-Shelving Location", not "January Circulation by Shelving Location".
+. Enter a name that doesn't include a specific date as this report will run every month. For example, "Monthly Inbound ILC",
+ not "January Inbound ILC".
+. Add your library.
 . Choose *Relative Date* and add *1 Month(s) ago*.
-. Add your library or your branch(es).
 . Check the box for Recurring Report.
 .. Set the *Recurrence Interval* to 1 Month(s).
 .. Check the box beside the date and set the date to the first of the next month.
 .. Set the time to between 1:00am PT and 4:00am PT.
 
-image::images/report/appendix/monthly-circ-by-shelving-location.png[]
-
-Monthly Circulation by Circulation modifier (New 3.1)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-_Found under Shared Folders -> Templates -> Sitka_templates -> Circulation -> Monthly
-Circulation Stats._
-
-Recommended Recurrence Interval: *Monthly*
-
-. Enter a name that doesn't include a specific date as this report will run every month. For example, "Monthly Circulation by 
-Circ Modifier", not "January Circulation by Circ Modifier".
-. Choose *Relative Date* and add *1 Month(s) ago*.
-. Add your library or your branch(es).
-. Check the box for Recurring Report.
-.. Set the *Recurrence Interval* to 1 Month(s).
-.. Check the box beside the date and set the date to the first of the next month.
-.. Set the time to between 1:00am PT and 4:00am PT.
-
-image::images/report/appendix/monthly-circ-by-circ-mod.png[]
+image::images/report/appendix/library-inbound-ilc-holds-count-monthly.png[]
 
 LIBRARY: Outbound ILC holds count for selected month
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -59,66 +40,47 @@ Recommended Recurrence Interval: *Monthly*
 
 image::images/report/appendix/library-outbound-ilc-holds-count-monthly.png[]
 
-LIBRARY: Inbound ILC holds count for selected month
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-_Found under Shared Folders -> Templates -> Sitka_templates ->
- Intra-federation ILL stats._
+Monthly Circulation by Circulation modifier (New 3.1)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+_Found under Shared Folders -> Templates -> Sitka_templates -> Circulation -> Monthly
+Circulation Stats._
 
 Recommended Recurrence Interval: *Monthly*
 
-. Enter a name that doesn't include a specific date as this report will run every month. For example, "Monthly Inbound ILC",
- not "January Inbound ILC".
-. Add your library.
+. Enter a name that doesn't include a specific date as this report will run every month. For example, "Monthly Circulation by 
+Circ Modifier", not "January Circulation by Circ Modifier".
 . Choose *Relative Date* and add *1 Month(s) ago*.
+. Add your library or your branch(es).
 . Check the box for Recurring Report.
 .. Set the *Recurrence Interval* to 1 Month(s).
 .. Check the box beside the date and set the date to the first of the next month.
 .. Set the time to between 1:00am PT and 4:00am PT.
 
-image::images/report/appendix/library-inbound-ilc-holds-count-monthly.png[]
+image::images/report/appendix/monthly-circ-by-circ-mod.png[]
+
+Monthly Circulation by Shelving Location (New 3.1)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+_Found under Shared Folders -> Templates -> Sitka_templates -> Circulation -> Monthly
+Circulation Stats._
+
+Recommended Recurrence Interval: *Monthly*
+
+. Enter a name that doesn't include a specific date as this report will run every month. For example, "Monthly Circulation by 
+Shelving Location", not "January Circulation by Shelving Location".
+. Choose *Relative Date* and add *1 Month(s) ago*.
+. Add your library or your branch(es).
+. Check the box for Recurring Report.
+.. Set the *Recurrence Interval* to 1 Month(s).
+.. Check the box beside the date and set the date to the first of the next month.
+.. Set the time to between 1:00am PT and 4:00am PT.
+
+image::images/report/appendix/monthly-circ-by-shelving-location.png[]
 
 Collection Management
 ~~~~~~~~~~~~~~~~~~~~~
-
-Overdues Within Time Span - General (Based on Checkout Library)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-_Found under Shared Folders -> Templates -> Sitka_templates -> Circulation -> Overdue
- and others._
- 
-Recommended Recurrence Interval: *Weekly*
- 
-. Enter a name that doesn't include a specific date as this report will run every week. For example, "Items 7 to 21 Days Overdue"
-, not "Overdues for January 9th to 23rd".
-. Choose *Relative Date*.
-.. Enter the time period you would like to report on. The earliest date (bigger number)
- goes first.
-.. If running as a weekly report it can be handy to use increments of 7.
-. Add your library or your branch(es).
-. Check the box for Recurring Report.
-.. Set the *Recurrence Interval* to *1 Week(s)*.
-.. Check the box beside the date and set the date to the first time you want the report
-to run.  The report will run on the same day of the week every week; the example report 
-will run every Wednesday.
-.. Set the time to between 1:00am PT and 4:00am PT.
-
-image::images/report/appendix/overdues-within-time-span-general.png[]
-
-Title & Item Count by Shelving Location and Circulation Modifier
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-_Found under Shared Folders -> Templates -> Sitka_templates ->
- Collection -> Item and Title Count._
-
-Recommended Recurrence Interval: *None, run as needed*
-
-. Enter a name that includes a specific date as this report will show a snapshot of
-your collection at the moment the report is run.
-. Add your library or your branch(es).
-. Ensure the box is checked for *Run as soon as possible*.
-
-image::images/report/appendix/title-item-count-location-circ-mod.png[]
 
 Circ Modifier: Copies with Selected Circ Modifiers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -190,6 +152,45 @@ _Found under Shared Folders -> Templates -> Sitka_templates ->
  Inventory._
 
 image::images/report/appendix/inventory-un-scanned.png[]
+
+Overdues Within Time Span - General (Based on Checkout Library)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+_Found under Shared Folders -> Templates -> Sitka_templates -> Circulation -> Overdue
+ and others._
+ 
+Recommended Recurrence Interval: *Weekly*
+ 
+. Enter a name that doesn't include a specific date as this report will run every week. For example, "Items 7 to 21 Days Overdue"
+, not "Overdues for January 9th to 23rd".
+. Choose *Relative Date*.
+.. Enter the time period you would like to report on. The earliest date (bigger number)
+ goes first.
+.. If running as a weekly report it can be handy to use increments of 7.
+. Add your library or your branch(es).
+. Check the box for Recurring Report.
+.. Set the *Recurrence Interval* to *1 Week(s)*.
+.. Check the box beside the date and set the date to the first time you want the report
+to run.  The report will run on the same day of the week every week; the example report 
+will run every Wednesday.
+.. Set the time to between 1:00am PT and 4:00am PT.
+
+image::images/report/appendix/overdues-within-time-span-general.png[]
+
+Title & Item Count by Shelving Location and Circulation Modifier
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+_Found under Shared Folders -> Templates -> Sitka_templates ->
+ Collection -> Item and Title Count._
+
+Recommended Recurrence Interval: *None, run as needed*
+
+. Enter a name that includes a specific date as this report will show a snapshot of
+your collection at the moment the report is run.
+. Add your library or your branch(es).
+. Ensure the box is checked for *Run as soon as possible*.
+
+image::images/report/appendix/title-item-count-location-circ-mod.png[]
 
 ////
 
