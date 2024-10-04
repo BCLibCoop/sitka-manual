@@ -15,12 +15,12 @@ cannot make changes.
 system.
 +
 image::images/admin/permission-tree-display-entries-1.png[scaledwidth="75%",alt="The permission group tree entries interface
-showing a list of display entries for Maple Public Library."]
+showing a list of display entries for Maple Public Library"]
 +
 . If you don't have a custom permission group tree set up the screen will be blank.
 +
 image::images/admin/permission-tree-display-entries-2.png[scaledwidth="75%",alt="The permission group tree entries interface
-showing no display entries for Oak Public Library."]
+showing no display entries for Oak Public Library"]
 
 
 Changing Your Permission Tree
