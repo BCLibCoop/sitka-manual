@@ -183,9 +183,9 @@ _Found under Shared Folders -> Templates -> Sitka_templates ->
  Collection -> Item List by Item Attribues._
 
 Recommended Recurrence Interval: *Monthly*
- 
+
 . Enter a name that doesn't include a specific date as this report will run every month. For example, "Items Currently Damaged, Lost
-or Missing", not "January Lost Items".
+or Missing", not "January Damaged, Lost, or Missing Items".
 . Choose *Relative Date*.
 . Add your library or your branch(es).
 . Select the status(es) you would like included in the report output.
