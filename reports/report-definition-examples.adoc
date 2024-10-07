@@ -177,6 +177,44 @@ will run every Wednesday.
 
 image::images/report/appendix/overdues-within-time-span-general.png[]
 
+Shelving Location and Circ Modifier: Items with Selected Shelving Location and Circ Modifier
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+_Found under Shared Folders -> Templates -> Sitka_templates ->
+ Collection -> Item List by Item Attribues._
+
+Recommended Recurrence Interval: *None, run as needed*
+
+. Enter a name that reflects what shelving location and circulation modifier you are
+reporting on.
+. Add the shelving location for which you would like a list of items
+using the location.
+. Add the circulation modifier for which you would like a list of items
+using the modifier.
+. Add your library or your branch(es).
+. Ensure the box is checked for *Run as soon as possible*.
+
+
+image::images/report/appendix/shelving-location-and circ-modifier-item-list.png[]
+
+Shelving Location: Items with Selected Shelving Location
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+_Found under Shared Folders -> Templates -> Sitka_templates ->
+ Collection -> Item List by Item Attribues._
+
+Recommended Recurrence Interval: *None, run as needed*
+
+. Enter a name that reflects what shelving location(s) you are
+reporting on.
+. Add the shelving location(s) for which you would like a list of items
+using the location.
+. Add your library or your branch(es).
+. Ensure the box is checked for *Run as soon as possible*.
+
+
+image::images/report/appendix/shelving-location-item-list.png[]
+
 Status: All Items with Selected Item Status
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 _Found under Shared Folders -> Templates -> Sitka_templates ->
