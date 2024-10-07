@@ -177,6 +177,26 @@ will run every Wednesday.
 
 image::images/report/appendix/overdues-within-time-span-general.png[]
 
+Status: All Items with Selected Item Status
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_Found under Shared Folders -> Templates -> Sitka_templates ->
+ Collection -> Item List by Item Attribues._
+
+Recommended Recurrence Interval: *Monthly*
+ 
+. Enter a name that doesn't include a specific date as this report will run every month. For example, "Items Currently Damaged, Lost
+or Missing", not "January Lost Items".
+. Choose *Relative Date*.
+. Add your library or your branch(es).
+. Select the status(es) you would like included in the report output.
+.. You can run the report separately for each status you want to report on or have multiple statuses on the same report.
+. Check the box for Recurring Report.
+.. Set the *Recurrence Interval* to *1 Month(s)*.
+.. Check the box beside the date and set the date to the first of the next month.
+.. Set the time to between 1:00am PT and 4:00am PT.
+
+image::images/report/appendix/status-all-items-with-selected status.png[]
+
 Title & Item Count by Shelving Location and Circulation Modifier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
