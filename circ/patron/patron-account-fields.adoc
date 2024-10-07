@@ -81,8 +81,8 @@ library or applicable branch.
 have a three year expiry period with the exception of PL New User which is 3 months. Individual libraries 
 can choose which profiles to use and how to configure your chosen profiles to suit local policy.  Profiles 
 are used by Evergreen to determine how items circulate so it's important to know which profile are used at 
-your library and for which patrons. Contact https://bc.libraries.coop/support/[Co-op Support] to have 
-this list customized to display only the profiles used at your library.
+your library and for which patrons. See xref:_permission_tree_display_entries[] for information on viewing 
+and customizing the list that displays.
 |Privilege Expiration Date | Yes | By default the date will be three years in the future for all profile
 groups, except PL New User which has an interval of 3 months.  Library staff can manually adjust the date
 to conform to local policy.
