@@ -373,3 +373,46 @@ To only count unexpired patrons enter today's date.
 . Ensure the box is checked for *Run as soon as possible*.
 
 image::images/report/appendix/patron-count.png[]
+
+Local Administration
+~~~~~~~~~~~~~~~~~~~~
+
+Reports Run In Specified Time Period By Specified Library
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+_Found under Shared Folders -> Templates -> Sitka_templates ->
+ Local Administration._
+ 
+Recommended Recurrence Interval: *None, run as needed*
+ 
+. Enter a name that includes a specific date as this report will show all reports run within your specified time period.
+. Enter the time period you would like to report on. The earliest date goes first.
+. Add your library.
+. Ensure the box is checked for *Run as soon as possible*.
+
+image::images/report/appendix/reports-run-in-time-period.png[]
+
+[NOTE]
+======
+Any reports run in the specified time period that have been deleted will not be included in the report output.
+======
+
+Staff Assigned to Supplementary Permission Group(s)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+_Found under Shared Folders -> Templates -> Sitka_templates -> Patrons -> 
+ Others._
+ 
+Recommended Recurrence Interval: *None, run as needed*
+ 
+ . Enter a name that includes a specific date as this report will show a snapshot of
+your staff at the moment the report is run.
+. Add your library.
+. Ensure the box is checked for *Run as soon as possible*.
+
+image::images/report/appendix/staff-assigned-secondary-perms.png[]
+
+[NOTE]
+======
+Library staff with multiple supplementary permission groups assigned will display multiple times on the report.
+======
