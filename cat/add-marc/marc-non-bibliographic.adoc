@@ -28,10 +28,6 @@ information about the resource.
 |https://www.loc.gov/marc/bibliographic/bd6xx.html[6XX] | Subject Access Fields |
 $a | A variety of subject fields are available which contain subject
 terms to describe what the title is about. 
-|https://www.loc.gov/marc/bibliographic/bd856.html[856] | Electronic Location and Access | $u,
-$9 |
-Can be used to include a link to custom cover art for a non-bibliographic item.  See 
-xref:_related_resources[] for information on how to code this field for a related resource.
 |========
 
 . Go to *Cataloguing -> Create New MARC Record*.
@@ -47,4 +43,5 @@ image::images/cat/marc/add-non-bib-record-2.png[]
 xref:_flat_text_editor[Flat Text Editor] to add the information relevant to your item.
 . Click *Save*.
 . The record will open in the catalogue.
+. If applicable, xref:_uploading_a_cover_image[upload a custom cover image]. 
 . xref:add_holdings[Add your holdings] to the record.
