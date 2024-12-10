@@ -1,11 +1,15 @@
 Creating New Records for Electronic Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Ordinary bibliographic records are only visible in the public catalogue when holdings records are attached, 
-but it is 
-also possible to catalogue electronic resources such as websites, online journals, or downloadable 
-audiobooks, etc. by adding an 856 tag with subfield $9. The steps below describe how to catalogue an 
-electronic resource so it appears in OPAC searches.
+Bibliographic records can be used to include electronic resources in the catalogue.
+Electronic resources include e-books, e-audiobooks, e-magazines, e-videos, 
+websites, online journals, etc.
+
+Bibliographic records for electronic resources in Evergreen use the 856 field for 
+their holdings.  Records for electronic resources will only dispay in your public
+catalogue if the 856 field has been formatted correctly and includes a $9 with
+your library code or the code for an ancestor of your library.
+
 
 [NOTE]
 =====
@@ -15,10 +19,26 @@ http://docs.libraries.coop/policy/_batch_loading_bibliographic_records.html[Batc
 Evergreen Policy & Best Practices Manual.
 =====
 
-. Locate, import, or create a bibliographic record as described in the preceding chapters.
-. Click the title link to go to record details. Click *MARC Edit*.
-. Add an 856 tag to the MARC record. Place the cursor in the desired location and press CTRL+Enter to add an empty row. Enter the tag number (856). You must set the first indicator to 4, and the second indicator to 0 or 1. The indicators cannot be left blank. For information about indicators see http://www.loc.gov/marc/bibliographic/bd856.html.
-. Add applicable subfields from the table below.
+. Search the catalogue for a record that matches the electronic resource, as described
+in xref:_searching_the_database_for_cataloguing_purposes[]. If a matching record 
+is not found 
+xref:_importing_bibliographic_records_via_z39_50_interface[import a record via 
+Z39.50] or xref:_creating_new_records_for_bibliographic_resources[create a new 
+MARC record].
+.. A record for a physical edition of the resource is NOT a match.
+. Click the title link to open the record.
++
+image::images/cat/marc/add-electronic-marc-1.png[]
++
+. Click *MARC Edit*.
++
+image::images/cat/marc/add-electronic-marc-2.png[]
++
+. Add an 856 tag to the MARC record using the Enhanced MARC Editor
+or the Flat Text Editor.
+.. You must set the first indicator to 4 and the second indicator 
+to 0 or 1. The indicators cannot be left blank.
+.. Add applicable subfields from the table below.
 +
 [options="header"]
 |===
@@ -28,13 +48,20 @@ Evergreen Policy & Best Practices Manual.
 | $z | Optional; a public note providing more information about the resource | library card required | Appears in parentheses to the right of the link
 | $9 | Required; your library code | MPL | 	Not displayed in the OPAC but required for the record to be included in searches scoped to your library
 |===
++
+[NOTE]
+======
+Refer to 
+https://www.loc.gov/marc/bibliographic/bd856.html[MARC 21 Format for Bibliographic Data
+856 - Electronic Location and Access] for more information.
+======
++
 . After the 856 tag is added, the record will be displayed as search result in the public catalogue for the 
 for the library specified in the $9. The images below shows a sample 856 tag and the corresponding 
 public catalogue display. 
 +
-image::images/cat/marc-nonphysical-1.png[]
-+
-image::images/cat/marc-nonphysical-2.png[]
+image::images/cat/marc/add-electronic-marc-3.png[]
+
 
 [TIP]
 =====
