@@ -49,6 +49,8 @@ to 0 or 1. The indicators cannot be left blank.
 | $9 | Required; your library code | MPL | 	Not displayed in the OPAC but required for the record to be included in searches scoped to your library
 |===
 +
+image::images/cat/marc/add-electronic-marc-3.png[]
++
 [NOTE]
 ======
 Refer to 
@@ -56,12 +58,10 @@ https://www.loc.gov/marc/bibliographic/bd856.html[MARC 21 Format for Bibliograph
 856 - Electronic Location and Access] for more information.
 ======
 +
-. After the 856 tag is added, the record will be displayed as search result in the public catalogue for the 
-for the library specified in the $9. The images below shows a sample 856 tag and the corresponding 
-public catalogue display. 
+. Once the 856 tag is added the record will be displayed as search 
+result in the public catalogue for the library specified in the $9. 
 +
-image::images/cat/marc/add-electronic-marc-3.png[]
-
+image::images/cat/marc/add-electronic-marc-4.png[]
 
 [TIP]
 =====
@@ -73,18 +73,35 @@ Evergreen creates an invisible call number for each 856 tag with subfield 9 with
 subfield 9 as the owning library. This call number, like a copy record, is used for scoping the 
 seach result to a selected library.
 
-To remove an electronic record from your library's collection, you need to delete your library's 856 tag. 
-If your library's 856 tag is the only one, you may delete the MARC record. See Deleting MARC records 
-for more information.
+To remove an electronic record from your library's collection, you need to delete 
+the 856 field with a $9 with your library code.  See xref:_deleting_holdings_for_electronic_resources[].
 =====
 
 Related Resources
 ^^^^^^^^^^^^^^^^^
 
-Related resources can be resources such as table of contents or custom cover art.  These can be linked 
+Records for electronic resource can include additional links to related resources such
+as table of contents and finding aids.  These are 
+
+These can be linked 
 to the main resource using a 856 tag.
 
 To link a related resource:
+
+. Search the catalogue for a record that matches the electronic resource, as described
+in xref:_searching_the_database_for_cataloguing_purposes[]. If a matching record 
+is not found 
+xref:_importing_bibliographic_records_via_z39_50_interface[import a record via 
+Z39.50] or xref:_creating_new_records_for_bibliographic_resources[create a new 
+MARC record].
+.. A record for a physical edition of the resource is NOT a match.
+. Click the title link to open the record.
++
+image::images/cat/marc/add-electronic-marc-1.png[]
++
+. Click *MARC Edit*.
++
+image::images/cat/marc/add-electronic-marc-2.png[]
 
 . Locate, import, or create a bibliographic record as described in the preceding chapters.
 . Click the title link to go to record details. Click *MARC Edit*.
