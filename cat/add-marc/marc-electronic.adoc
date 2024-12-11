@@ -34,7 +34,7 @@ image::images/cat/marc/add-electronic-marc-1.png[]
 +
 image::images/cat/marc/add-electronic-marc-2.png[]
 +
-. Add an 856 tag to the MARC record using the Enhanced MARC Editor
+. Add an 856 field to the MARC record using the Enhanced MARC Editor
 or the Flat Text Editor.
 .. You must set the first indicator to 4 and the second indicator 
 to 0 or 1. The indicators cannot be left blank.
@@ -58,15 +58,18 @@ https://www.loc.gov/marc/bibliographic/bd856.html[MARC 21 Format for Bibliograph
 856 - Electronic Location and Access] for more information.
 ======
 +
-. Once the 856 tag is added the record will be displayed as search 
+. Once the 856 field is added the record will be displayed as search 
 result in the public catalogue for the library specified in the $9. 
 +
 image::images/cat/marc/add-electronic-marc-4.png[]
++
+. If desired, a custom image can be uploaded for the record.  See 
+xref:_uploading_cover_images[].
 
 [TIP]
 =====
 A separate 856 tag should be added for each library that catalogues the resource. Multi-branch 
-libraries may add a single 856 tag using the code for the library system (e.g. SCRL, BCREK) if 
+libraries may add a single 856 field using the code for the library system (e.g. SCRL, BCREK) if 
 all branches are allowed to access the resource.
 
 Evergreen creates an invisible call number for each 856 tag with subfield 9 with the code in 
@@ -80,14 +83,11 @@ the 856 field with a $9 with your library code.  See xref:_deleting_holdings_for
 Related Resources
 ^^^^^^^^^^^^^^^^^
 
-Records for electronic resource can include additional links to related resources such
-as table of contents and finding aids.  These are 
+MARC records for bibliographic (physical and electronic) and non-bibliographic titles 
+can include additional links to related resources such as table of contents and 
+finding aids.  
 
-These can be linked 
-to the main resource using a 856 tag.
-
-To link a related resource:
-
+.To add a link for a related resource:
 . Search the catalogue for a record that matches the electronic resource, as described
 in xref:_searching_the_database_for_cataloguing_purposes[]. If a matching record 
 is not found 
@@ -102,14 +102,11 @@ image::images/cat/marc/add-electronic-marc-1.png[]
 . Click *MARC Edit*.
 +
 image::images/cat/marc/add-electronic-marc-2.png[]
-
-. Locate, import, or create a bibliographic record as described in the preceding chapters.
-. Click the title link to go to record details. Click *MARC Edit*.
-. Add an 856 tag to the MARC record. Place the cursor in the desired location and press 
-CTRL+Enter to add an empty row. Enter the tag number (856). You must set the first indicator to 4, 
-and the second indicator to 2. The indicators cannot be left blank. For information about indicators 
-see http://www.loc.gov/marc/bibliographic/bd856.html.
-. Add applicable subfields from the table below.
+. Add an 856 field to the MARC record using the Enhanced MARC Editor
+or the Flat Text Editor.
+.. You must set the first indicator to 4 and the second indicator 
+to 2. The indicators cannot be left blank.
+.. Add applicable subfields from the table below.
 +
 [options="header"]
 |===
@@ -120,15 +117,14 @@ see http://www.loc.gov/marc/bibliographic/bd856.html.
 | $9 | Required; your library code | MPL | 	Not displayed in the OPAC but required for the related resource to display.
 |===
 +
-[NOTE]
-======
-If an 856 tag has both a $3 and a $z neither will display in the public catalogue.  We recommend always using $y
+[CAUTION]
+=========
+If an 856 field has both a $3 and a $z neither will display in the public catalogue.  We recommend always using $y
 instead of $z.
-======
-
-
-. After the 856 tag is added, the link will display when the record is viewed in your public catalogue. The 
-image below shows a sample 856 tag and the corresponding public catalogue display. 
+=========
++ 
+. After the 856 field is added, the link will display when the record is viewed 
+in your public catalogue. 
 +
 image::images/cat/marc-related-resource-1.png[]
 +
