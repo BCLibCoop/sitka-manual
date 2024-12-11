@@ -1,0 +1,44 @@
+Adding Related Resources to MARC Records
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+MARC records for bibliographic (physical and electronic) and non-bibliographic titles 
+can include additional links to related resources such as table of contents, excerpts,
+ and finding aids.  
+
+.To add a link for a related resource:
+. Search for the record you would like to add a related resource to as described
+in xref:_searching_the_database_for_cataloguing_purposes[]. 
+. Click the title link to open the record.
++
+image::images/cat/marc/add-related-resource-1.png[]
++
+. Click *MARC Edit*.
++
+image::images/cat/marc/add-related-resource-2.png[]
+. Add an 856 field to the MARC record using the Enhanced MARC Editor
+or the Flat Text Editor.
+.. You must set the first indicator to 4 and the second indicator 
+to 2. The indicators cannot be left blank.
+.. Add applicable subfields from the table below.
++
+[options="header"]
+|===
+| Subfield code | Description | Example | OPAC Display
+| $u | Required; the URL or link to the related resource | http://www.linktoresource.ca | Appears as a link in the OPAC display; the link text is the URI unless subfield $y is specified
+| $y | Recommended; a display label for the link | Click for access | 	Appears as the text of the link instead of the URL defined in $u
+| $3 | Optional; a description of what the related resource is | Related Resource | Appears as text beside the link or display label.
+| $9 | Required; your library code | MPL | 	Not displayed in the OPAC but required for the related resource to display.
+|===
++
+image::images/cat/marc/add-related-resource-3.png[]
++
+[CAUTION]
+=========
+If an 856 field has both a $3 and a $z neither will display in the public catalogue.  We recommend always using $y
+instead of $z.
+=========
++ 
+. After the 856 field is added, the link will display when the record is viewed 
+in your public catalogue. 
++
+image::images/cat/marc/add-related-resource-4.png[]
