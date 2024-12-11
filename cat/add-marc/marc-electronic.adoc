@@ -69,12 +69,12 @@ xref:_uploading_cover_images[].
 
 [TIP]
 =====
-A separate 856 tag should be added for each library that catalogues the resource. Multi-branch 
-libraries may add a single 856 field using the code for the library system (e.g. SCRL, BCREK) if 
+A separate 856 field should be added for each library that catalogues the resource. Multi-branch 
+libraries may add a single 856 field using the code for their library system if 
 all branches are allowed to access the resource.
 
-Evergreen creates an invisible call number for each 856 tag with subfield 9 with the code in 
-subfield 9 as the owning library. This call number, like a copy record, is used for scoping the 
+Evergreen creates an invisible call number for each 856 field with $9 with the code in 
+$9 as the owning library. This call number, like an item record, is used for scoping the 
 seach result to a selected library.
 
 To remove an electronic record from your library's collection, you need to delete 
