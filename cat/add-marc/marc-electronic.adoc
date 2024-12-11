@@ -63,7 +63,8 @@ result in the public catalogue for the library specified in the $9.
 +
 image::images/cat/marc/add-electronic-marc-4.png[]
 +
-. If desired, a custom image can be uploaded for the record.  See 
+. If desired, a custom image can be uploaded for bibliographic records for highly 
+specialized titles.  See 
 xref:_uploading_cover_images[].
 
 [TIP]
@@ -84,7 +85,7 @@ Related Resources
 ^^^^^^^^^^^^^^^^^
 
 MARC records for bibliographic (physical and electronic) and non-bibliographic titles 
-can include additional links to related resources such as table of contents and 
+can include additional links to related resources such as table of contents, excerpts, and 
 finding aids.  
 
 .To add a link for a related resource:
@@ -97,11 +98,11 @@ MARC record].
 .. A record for a physical edition of the resource is NOT a match.
 . Click the title link to open the record.
 +
-image::images/cat/marc/add-electronic-marc-1.png[]
+image::images/cat/marc/add-related-resource-1.png[]
 +
 . Click *MARC Edit*.
 +
-image::images/cat/marc/add-electronic-marc-2.png[]
+image::images/cat/marc/add-related-resource-2.png[]
 . Add an 856 field to the MARC record using the Enhanced MARC Editor
 or the Flat Text Editor.
 .. You must set the first indicator to 4 and the second indicator 
@@ -117,6 +118,8 @@ to 2. The indicators cannot be left blank.
 | $9 | Required; your library code | MPL | 	Not displayed in the OPAC but required for the related resource to display.
 |===
 +
+image::images/cat/marc/add-related-resource-3.png[]
++
 [CAUTION]
 =========
 If an 856 field has both a $3 and a $z neither will display in the public catalogue.  We recommend always using $y
@@ -126,8 +129,4 @@ instead of $z.
 . After the 856 field is added, the link will display when the record is viewed 
 in your public catalogue. 
 +
-image::images/cat/marc-related-resource-1.png[]
-+
-image::images/cat/marc-related-resource-2.png[]
-
-
+image::images/cat/marc/add-related-resource-4.png[]
