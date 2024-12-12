@@ -1,11 +1,15 @@
 Creating New Records for Electronic Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Ordinary bibliographic records are only visible in the public catalogue when holdings records are attached, 
-but it is 
-also possible to catalogue electronic resources such as websites, online journals, or downloadable 
-audiobooks, etc. by adding an 856 tag with subfield $9. The steps below describe how to catalogue an 
-electronic resource so it appears in OPAC searches.
+Bibliographic records can be used to include electronic resources in the catalogue.
+Electronic resources include e-books, e-audiobooks, e-magazines, e-videos, 
+websites, online journals, etc.
+
+Bibliographic records for electronic resources in Evergreen use the 856 field for 
+their holdings.  Records for electronic resources will only dispay in your public
+catalogue if the 856 field has been formatted correctly and includes a $9 with
+your library code or the code for an ancestor of your library.
+
 
 [NOTE]
 =====
@@ -15,10 +19,26 @@ http://docs.libraries.coop/policy/_batch_loading_bibliographic_records.html[Batc
 Evergreen Policy & Best Practices Manual.
 =====
 
-. Locate, import, or create a bibliographic record as described in the preceding chapters.
-. Click the title link to go to record details. Click *MARC Edit*.
-. Add an 856 tag to the MARC record. Place the cursor in the desired location and press CTRL+Enter to add an empty row. Enter the tag number (856). You must set the first indicator to 4, and the second indicator to 0 or 1. The indicators cannot be left blank. For information about indicators see http://www.loc.gov/marc/bibliographic/bd856.html.
-. Add applicable subfields from the table below.
+. Search the catalogue for a record that matches the electronic resource, as described
+in xref:_searching_the_database_for_cataloguing_purposes[]. If a matching record 
+is not found 
+xref:_importing_bibliographic_records_via_z39_50_interface[import a record via 
+Z39.50] or xref:_creating_new_records_for_bibliographic_resources[create a new 
+MARC record].
+.. A record for a physical edition of the resource is NOT a match.
+. Click the title link to open the record.
++
+image::images/cat/marc/add-electronic-marc-1.png[]
++
+. Click *MARC Edit*.
++
+image::images/cat/marc/add-electronic-marc-2.png[]
++
+. Add an 856 field to the MARC record using the Enhanced MARC Editor
+or the Flat Text Editor.
+.. You must set the first indicator to 4 and the second indicator 
+to 0 or 1. The indicators cannot be left blank.
+.. Add applicable subfields from the table below.
 +
 [options="header"]
 |===
@@ -28,66 +48,35 @@ Evergreen Policy & Best Practices Manual.
 | $z | Optional; a public note providing more information about the resource | library card required | Appears in parentheses to the right of the link
 | $9 | Required; your library code | MPL | 	Not displayed in the OPAC but required for the record to be included in searches scoped to your library
 |===
-. After the 856 tag is added, the record will be displayed as search result in the public catalogue for the 
-for the library specified in the $9. The images below shows a sample 856 tag and the corresponding 
-public catalogue display. 
 +
-image::images/cat/marc-nonphysical-1.png[]
-+
-image::images/cat/marc-nonphysical-2.png[]
-
-[TIP]
-=====
-A separate 856 tag should be added for each library that catalogues the resource. Multi-branch 
-libraries may add a single 856 tag using the code for the library system (e.g. SCRL, BCREK) if 
-all branches are allowed to access the resource.
-
-Evergreen creates an invisible call number for each 856 tag with subfield 9 with the code in 
-subfield 9 as the owning library. This call number, like a copy record, is used for scoping the 
-seach result to a selected library.
-
-To remove an electronic record from your library's collection, you need to delete your library's 856 tag. 
-If your library's 856 tag is the only one, you may delete the MARC record. See Deleting MARC records 
-for more information.
-=====
-
-Related Resources
-^^^^^^^^^^^^^^^^^
-
-Related resources can be resources such as table of contents or custom cover art.  These can be linked 
-to the main resource using a 856 tag.
-
-To link a related resource:
-
-. Locate, import, or create a bibliographic record as described in the preceding chapters.
-. Click the title link to go to record details. Click *MARC Edit*.
-. Add an 856 tag to the MARC record. Place the cursor in the desired location and press 
-CTRL+Enter to add an empty row. Enter the tag number (856). You must set the first indicator to 4, 
-and the second indicator to 2. The indicators cannot be left blank. For information about indicators 
-see http://www.loc.gov/marc/bibliographic/bd856.html.
-. Add applicable subfields from the table below.
-+
-[options="header"]
-|===
-| Subfield code | Description | Example | OPAC Display
-| $u | Required; the URL or link to the related resource | http://www.linktoresource.ca | Appears as a link in the OPAC display; the link text is the URI unless subfield $y is specified
-| $y | Recommended; a display label for the link | Click for access | 	Appears as the text of the link instead of the URL defined in $u
-| $3 | Optional; a description of what the related resource is | Related Resource | Appears as text beside the link or display label.
-| $9 | Required; your library code | MPL | 	Not displayed in the OPAC but required for the related resource to display.
-|===
+image::images/cat/marc/add-electronic-marc-3.png[]
 +
 [NOTE]
 ======
-If an 856 tag has both a $3 and a $z neither will display in the public catalogue.  We recommend always using $y
-instead of $z.
+Refer to 
+https://www.loc.gov/marc/bibliographic/bd856.html[MARC 21 Format for Bibliographic Data
+856 - Electronic Location and Access] for more information.
 ======
-
-
-. After the 856 tag is added, the link will display when the record is viewed in your public catalogue. The 
-image below shows a sample 856 tag and the corresponding public catalogue display. 
 +
-image::images/cat/marc-related-resource-1.png[]
+. Once the 856 field is added the record will be displayed as search 
+result in the public catalogue for the library specified in the $9. 
 +
-image::images/cat/marc-related-resource-2.png[]
+image::images/cat/marc/add-electronic-marc-4.png[]
++
+. If desired, a custom image can be uploaded for bibliographic records for highly 
+specialized titles.  See 
+xref:_uploading_cover_images[].
 
+[TIP]
+=====
+A separate 856 field should be added for each library that catalogues the resource. Multi-branch 
+libraries may add a single 856 field using the code for their library system if 
+all branches are allowed to access the resource.
 
+Evergreen creates an invisible call number for each 856 field with $9 with the code in 
+$9 as the owning library. This call number, like an item record, is used for scoping the 
+seach result to a selected library.
+
+To remove an electronic record from your library's collection, you need to delete 
+the 856 field with a $9 with your library code.  See xref:_deleting_holdings_for_electronic_resources[].
+=====
