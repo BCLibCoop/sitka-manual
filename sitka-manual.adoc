@@ -53,7 +53,7 @@ Staff Catalogue
 ===============
 include::cat-staff/access-catalogue.adoc[Accessing the Staff Catalogue]
 
-include::cat-staff/search-templates.adoc[Search Templates]
+include::cat-staff/cat-staff-configure.adoc[Configuring the Staff Catalogue]
 
 include::cat-staff/searching-catalogue.adoc[Searching the Staff Catalogue]
 
