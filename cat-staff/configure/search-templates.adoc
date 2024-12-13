@@ -1,5 +1,5 @@
 Search Templates
-----------------
+~~~~~~~~~~~~~~~~
 
 Search templates all you to save search options and inputs for future use.
 
@@ -11,8 +11,8 @@ To access the Search Templates menu, select _Search Templates_ below the Library
 
 image::search_templates/search_templates.png[The Search Templates menu is hihglighted below the Library Selector, as described above.]
 
-Creating a Template
-~~~~~~~~~~~~~~~~~~~
+Creating a Search Template
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To create a search template, first make all desired selections. You may make selections in the following fields: Format, Catalog Field, Matching, Sort Results, and Publication Year. 
 
@@ -33,8 +33,8 @@ TIP: Use a unique name that describes the search settings.
 
 image::search_templates/save_template.png[Save Template dialog box with the following text: Books by Title or Auth after 2000]
 
-Using a Template
-~~~~~~~~~~~~~~~~
+Using a Search Template
+^^^^^^^^^^^^^^^^^^^^^^^
 
 To use a saved template, select _Search Templates_ located below the Library Selector in the top-right corner. A dropdown menu opens.
 
@@ -44,8 +44,8 @@ The current template, if any, appears in bold.
 
 image::search_templates/using_a_template.png[The Search Templates dropdown menu, which contains three options, then a list of saved templates after a gray dividing line. The list of saved templates is highlighted. The first three options are: Save Template, Delete Selected, and Delete All Templates.]
 
-Deleting a Template
-~~~~~~~~~~~~~~~~~~~
+Deleting a Search Template
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To delete search templates, select _Search Templates_ located below the Library Selector in the top-right corner. 
 
