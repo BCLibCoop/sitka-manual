@@ -1,0 +1,34 @@
+Search Preferences
+~~~~~~~~~~~~~~~~~~
+
+https://youtu.be/wl2oSwF0Zx4[*Sitka Snippet Video - Search Preferences (1:48)*]
+
+Catalogue searching related preferences can be set directly in the staff catalogue.
+
+.To set your preferences:
+. In the staff catalogue click on *Search Preferences*.
++
+image::images/cat/search-preferences-1.png[Catalog Preference Button]
++
+. Set the values you would like for your preferences.
++
+image::images/cat/search-preferences-2.png[Catalog Preference Options]
++
+.. *Default Search Library* This determines what library is searched from the advanced search screen 
+and portal page by default. You can override this setting when you are actually searching by selecting a 
+different library. One recommendation is to set the search library to the highest point you would 
+normally want to search.
+.. *Preferred Library* This is used to show copies and electronic resource URIs regardless of the library 
+searched. One recommendation is to set this to your home library so that local copies show up first 
+in search results.
+.. *Default Search Pane*  You can change which search pane is loaded by default when 
+opening a new catalogue window.  Choose from Keyword Search, Numeric Search, MARC Search, Browse, and Shelf Browse.
+.. *Search Results Per Page* You can enter the number of search results that display per page.  
+We recommend keeping this number under 200. 
+.. *Exclude Electronic Resources* Checking this adds the checkbox to the main search form.
+
+[NOTE]
+======
+The preference set in the staff client override any preferences for the logged in account that 
+have been set in the public catalogue via xref:_search_and_history_preferences[My Account].
+======

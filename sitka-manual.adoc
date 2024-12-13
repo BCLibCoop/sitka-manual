@@ -49,6 +49,21 @@ include::circ/circ-selfcheck.adoc[]
 
 include::circ/circ-offline.adoc[]
 
+Staff Catalogue
+===============
+include::cat-staff/access-catalogue.adoc[Accessing the Staff Catalogue]
+
+include::cat-staff/search-templates.adoc[Search Templates]
+
+include::cat-staff/searching-catalogue.adoc[Searching the Staff Catalogue]
+
+include::cat-staff/search-results.adoc[Search Results]
+
+include::cat-staff/bibliographic-records.adoc[Bibliographic Records]
+
+include::cat-staff/basket.adoc[Baskets]
+
+
 Cataloguing
 ===========
 include::cat/cat-search.adoc[Searching the Database for Cataloguing Purposes]
