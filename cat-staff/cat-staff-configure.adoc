@@ -1,7 +1,7 @@
 Configuring the Staff Catalogue
 -------------------------------
 
-include::cat-staff/configure/catalogue-preferences.adoc[Catalogue Preferences]
+include::configure/catalogue-preferences.adoc[Catalogue Preferences]
 
-include::cat-staff/configure/search-templates.adoc[Search Templates]
+include::configure/search-templates.adoc[Search Templates]
 
