@@ -51,7 +51,6 @@ include::circ/circ-offline.adoc[]
 
 Staff Catalogue
 ===============
-include::cat-staff/access-catalogue.adoc[Accessing the Staff Catalogue]
 
 include::cat-staff/cat-staff-configure.adoc[Configuring the Staff Catalogue]
 
