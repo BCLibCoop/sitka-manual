@@ -33,6 +33,8 @@ We recommend keeping this number under 200.
 
 [NOTE]
 ======
+These preferences are saved at the workstation level and will apply to any user who logs into the workstation.
+
 The preference set in the staff client override any preferences for the logged in account that 
 have been set in the public catalogue via xref:_search_and_history_preferences[My Account].
 ======

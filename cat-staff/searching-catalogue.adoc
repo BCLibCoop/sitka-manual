@@ -1,20 +1,6 @@
 Searching the Catalogue
 -----------------------
 
-
-Setting Up Your Search
-~~~~~~~~~~~~~~~~~~~~~~
-
-Before you begin searching, you can set up your search by modifying search preferences or selecting the library you wish to search. 
-
-Search preferences only need to be set one time, then they will be saved to the workstation. However, you should always make sure you are searching the correct library.
-
-[[search_preferences]]
-Search Preferences
-^^^^^^^^^^^^^^^^^^
-
-NOTE: These settings are saved at the workstation level. That is, changing these settings on one workstation will not impact other workstations, but will impact other users of the same workstation.
-
 To view and modify all search preferences from the Staff Catalog page, select *Search Preferences*, which is located to the right of the search form below the location selector. The Search Preferences page opens in the Staff Catalog.
 
 TIP: Some search preferences may also be accessed through the Menu Bar by selecting *Administration* -> *Workstation*.
