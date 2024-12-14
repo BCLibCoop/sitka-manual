@@ -19,10 +19,21 @@ Circulation
 Cataloguing
 ~~~~~~~~~~~
 
+* New Enhanced MARC Editor
+* Option to print from MARC View
 
 [[_new_features_staff_catalogue]]
 Staff Catalogue
 ~~~~~~~~~~~~~~~
+
+* Ability to Hide/Show Facets
+* Facet fix to show More
+* New Search Preferences
+* Record Bucket integration - in facets and search results
+* Library/Shelving Location Group search
+* Removal of Edit link for accounts without permissions to edit item
+* Return of Quick Receive 
+* Return of Clear Added Content Cache
 
 
 [[_new_features_public_catalogue]]
@@ -34,7 +45,6 @@ Public Catalogue
 [[_new_features_course_reserves]]
 Course Reserves
 ~~~~~~~~~~~~~~~
-
 
 [[_new_features_administration]]
 Administration
