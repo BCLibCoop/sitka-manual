@@ -24,11 +24,11 @@ policy.
 [option="header"]
 |===
 | Name | SIP2 Media Type | Magnetic Media | Description 
-| alternate-format | Other | False | Intended for items for print disabled patrons like DAISY readers
+| alternate-format | Other | False | Intended for items for print disabled patrons, such as DAISY readers
 | archives | Other | False | Intended for archival materials
 | audiobook-cassette | Other | True | Intended for audiobooks on cassette
 | audiobook-cd | Other | True | Intended for audiobooks on cd
-| best-seller | Book | False | Intended for collections of best sellers that need a unique modifier to identify
+| best-seller | Book | False | Intended for collections of best sellers which need a unique modifier to identify
 the items for hold or circulation policies
 | binder | Other | False | Intended for loose-leaf binders
 | book | Book | False | Intended for books
@@ -48,8 +48,8 @@ used by academic libraries with course reserves
 | compact-disc | CD/CDROM | False | Intended for CDs, usually music
 | course-reserve | Other | False | Intended for items that will be reserved for specific courses
 | dvd | CD/CDROM| False | Intended for dvds
-| dvd-feature | Other | False | Intended for feature dvds when a secondary modifier is need to distinguish the items
-from those using dvd for hold or circulation policies
+| dvd-feature | Other | False | Intended for feature dvds, when a secondary modifier is needed to distinguish the items
+from those using dvd, for hold or circulation policies
 | dvd-rom | Other | False | Intended for dvd-roms
 | e-reader | Book | False | Intended for physical e-readers
 | equipment | Other | False | Intended for any type of equipment the library circulates, may be used in 
@@ -86,7 +86,7 @@ conjunction with _equipment_ if multiple hold or circulation policies are needed
 statistical or policy reasons
 | pattern | Other | False | Intended for patterns, such as for knitting, crocheting, or sewing 
 | periodical | Magazine | False | Intended for periodicals, often used by academic libraries
-| playaway | Other | False | Intended for playways
+| playaway | Other | False | Intended for playaways
 | puzzle | Other | False | Intended for jigsaw puzzles
 | quick-video-game | Other | False | Intended for video games with a shorter than normal loan period
 | quickread | Other | False | Intended for books or audiobooks with a shorter than normal loan period
