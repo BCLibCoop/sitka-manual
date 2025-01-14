@@ -35,15 +35,15 @@ the items for hold or circulation policies
 | book-and-disk | Book with diskette | False | Intended for books that come with a floppy-disc
 | bookclub | Other | False | Intended for book club sets
 | box | Other | False | Intended for anything that comes in a box or makes sense to use this generic modifier
-| cassette-and-book | Book with audio tape | True | Intended for books with come with a cassette inside
-| cassette-and-book-in-bag | Book with audio tape | True | Intended for titles are presented both as a book and 
+| cassette-and-book | Book with audio tape | True | Intended for books which come with a cassette inside
+| cassette-and-book-in-bag | Book with audio tape | True | Intended for titles that are presented both as a book and 
 cassette and circulate in a bag 
 | cassettes | Audio Tape | True | Intended for cassettes, usually music
-| cd-and-book | Book with CD | False | Intended for for books with come with a CD inside
-| cd-and-book-in-bag | Book with CD | False | Intended for titles are presented both as a book and 
+| cd-and-book | Book with CD | False | Intended for books which come with a CD inside
+| cd-and-book-in-bag | Book with CD | False | Intended for titles that are presented both as a book and 
 CD and circulate in a bag 
 | cd-rom | CD/CDROM | False | Intended for cd-roms
-| circ-reserve | Other | False | A number of modifier start with _circ-reserve_.  These are intended to be
+| circ-reserve | Other | False | A number of modifiers start with _circ-reserve_.  These are intended to be
 used by academic libraries with course reserves
 | compact-disc | CD/CDROM | False | Intended for CDs, usually music
 | course-reserve | Other | False | Intended for items that will be reserved for specific courses
@@ -51,7 +51,7 @@ used by academic libraries with course reserves
 | dvd-feature | Other | False | Intended for feature dvds when a secondary modifier is need to distinguish the items
 from those using dvd for hold or circulation policies
 | dvd-rom | Other | False | Intended for dvd-roms
-| e-reader | Book | False | Intended for intended for physical e-readers
+| e-reader | Book | False | Intended for physical e-readers
 | equipment | Other | False | Intended for any type of equipment the library circulates, may be used in 
 conjunction with _library-equipment_ if multiple hold or circulation policies are needed
 | film | Other | False | Intended for items that are physical film
