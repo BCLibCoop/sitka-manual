@@ -24,8 +24,8 @@ account was accessed for 3rd party authentication.
 * Last Updated - Last time the account was updated via the *Edit* tab.
 * Create Date - Date on which the account was originally created.
 * Expire Date - Date on which the account will expire.  This can be updated via the *Edit* tab.
-* Sitka does not use Long Overdue
-* If a library used Homeroom or Student ID as _Primary Identification_ it will display in the ID1 field.
+* Sitka does not use Long Overdue.
+* If a library uses Homeroom or Student ID as _Primary Identification_ it will display in the ID1 field.
 * The patron's primary name displays in the Legal Name field in the summary.
 * The patron's email address is a Mail To link.
 * Any addresses associated with the patron display and can be easily copied to the clipboard 
