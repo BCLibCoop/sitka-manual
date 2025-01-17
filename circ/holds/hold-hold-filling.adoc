@@ -33,7 +33,7 @@ When a hold is placed Evergreen creates an eligible item table which includes al
 potentially fill the hold. This table is not viewable within the staff client.
 
 In the first 24 hours after a hold is placed, Evergreen looks for potential items to add to 
-the eligible item table approximately every about 15 minutes.  After the first 24 hours, Evergreen 
+the eligible item table approximately every 15 minutes.  After the first 24 hours, Evergreen 
 checks for eligible items once a day at approximately the time the hold was initially placed. 
 The time is recorded in the hold request record in a field called *Previous Check Time*, which is 
 viewable when viewing holds.  If a potential target is found, it will be added to the hold target table. Items that are age 
