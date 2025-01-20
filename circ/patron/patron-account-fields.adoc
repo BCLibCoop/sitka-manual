@@ -110,7 +110,7 @@ notifications via phone.  If blank Evergreen will use the value in Daytime Phone
 can xref:_notification_preference[update this] via _My Account_.
 |Default Hold Pickup Location | No | The location at which the patron would like to pickup their holds. Patrons
 can xref:_search_and_history_preferences[update this] via _My Account_.
-|Collections: Exempt | No | Not currently used by Sitka
+|Collections: Exempt | No | Not currently used by Sitka.
 |Holds Notices Check Boxes | No, but highly recommend at least one option selected | The selected options will
 be checked by default when the patron places a hold.  Patrons and staff can uncheck options in the process
 of placing a hold. Patrons can also xref:_notification_preference[update their defaults] via 
