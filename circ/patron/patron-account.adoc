@@ -115,8 +115,10 @@ Recently Canceled Holds
 +++++++++++++++++++++++
 
 This tab shows holds that have been cancelled.  Holds can be cancelled by the patron, by staff, or by
-Evergreen.  The _Cancel Cause_ column will indicate why the hold was cancelled and from that staff can determine
-whether the cancellation was done by the patron, staff, or Evergreen.
+Evergreen.  The _Cancelation Cause_ column will indicate why the hold was cancelled and from that staff can determine
+whether the cancellation was done by the patron, staff, or Evergreen. The _Hold Canceling Staff_ column will display 
+the username of the user who cancelled the hold.  The _Hold Canceling Workstation_ column will display the workstation
+used when a hold is cancelled by a staff member.
 
 image:images/circ/holds-tab-2.png[]
 
