@@ -115,12 +115,14 @@ Recently Canceled Holds
 +++++++++++++++++++++++
 
 This tab shows holds that have been cancelled.  Holds can be cancelled by the patron, by staff, or by
-Evergreen.  The _Cancelation Cause_ column will indicate why the hold was cancelled and from that staff can determine
+Evergreen.
+
+image:images/circ/holds-tab-2.png[]
+
+The _Cancelation Cause_ column will indicate why the hold was cancelled and from that staff can determine
 whether the cancellation was done by the patron, staff, or Evergreen. The _Hold Canceling Staff_ column will display 
 the username of the user who cancelled the hold.  The _Hold Canceling Workstation_ column will display the workstation
 used when a hold is cancelled by a staff member.
-
-image:images/circ/holds-tab-2.png[]
 
 See xref:_cancelling_holds[] for information on how holds are cancelled.
 
@@ -151,7 +153,7 @@ Additional options for the patron account can be found in the *Other* drop down 
 |Triggered Events/Notifications | Check to see if emails and/or SMS messages have been generated for patrons.
 See xref:_checking_for_notifications[].
 |Statistical Categories | View information about any patron statistical categories assigned to the patron.
-For more information on statistical categories see xref:_statistical_category_editor[].
+For more information on statistical categories see xref:_statistical_categories_patron_editor[].
 |Hold Groups | View any hold groups the patron is part of. For more information on hold groups
  see xref:_hold_groups[].
 |Surveys | View the patron's responses to surveys. For more information on surveys
