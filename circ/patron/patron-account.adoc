@@ -14,7 +14,7 @@ The patron summary pulls together pertinent information about the patron so it c
 
 Some things of note in the patron summary.
 
-* The patron's name displays at the top of the summary. The patron's name will be in red if they have
+* The patron's name displays at the top of the summary. The patron's name will be in red and highlighted if they have
 alerts, blocks, or owe fines.
 ** Evergreen will use the patron's preferred name and
 fall back to the primary name if there is no preferred name.
