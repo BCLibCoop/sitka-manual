@@ -33,7 +33,7 @@ up at a particular library or branch.  This filter is sticky and will remain for
 +
 image:images/circ/hold-pull-list-2.png[scaledwidth="75%"]
 +
-.The _Shelving Locations_ filter can be used to show items at a particular shelving location or 
+. The _Shelving Locations_ filter can be used to show items at a particular shelving location or 
 a selection of shelving locations. This filter is sticky and will remain for the workstation until cleared.
 +
 image:images/circ/hold-pull-list-3.png[scaledwidth="75%"]
@@ -42,7 +42,7 @@ image:images/circ/hold-pull-list-3.png[scaledwidth="75%"]
 printing and downloading options.
 . Pull the items from your shelves and check them in to 
 xref:_capturing_holds_and_hold_transits[capture the holds].
-. Items that cannot be found should have their status set to _Missing_ via the Actions menu.
+. Items that cannot be found should have their status set to _Missing_ via the *Actions* menu.
 +
 image:images/circ/hold-pull-list-4.png[scaledwidth="75%"]
 
@@ -57,7 +57,7 @@ Print Full List
 
 The *Print Full List* button will open a print dialogue and allow you to print the list.  The columns 
 that print will depend on the library’s print template for the Hold Pull List. See 
-xref:https://asciidoc.libraries.coop/sitka-manual-master/html/_print_templates.html[] for information
+xref:_print_templates[] for information
 on print templates.
 
 image:images/circ/print-hold-pull-list-1.png[scaledwidth="75%"]
