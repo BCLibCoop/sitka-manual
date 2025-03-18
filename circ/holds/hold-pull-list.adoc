@@ -29,12 +29,12 @@ your shelves.  For information on re-ordering your shelving locations see xref:_
 image:images/circ/hold-pull-list-1.png[scaledwidth="75%"]
 +
 . The _Pickup Library_ filter can be used to filter the pull list to show items to be picked 
-up at a particular library or branch.
+up at a particular library or branch.  This filter is sticky and will remain for the workstation until cleared.
 +
 image:images/circ/hold-pull-list-2.png[scaledwidth="75%"]
 +
 .The _Shelving Locations_ filter can be used to show items at a particular shelving location or 
-a selection of shelving locations.
+a selection of shelving locations. This filter is sticky and will remain for the workstation until cleared.
 +
 image:images/circ/hold-pull-list-3.png[scaledwidth="75%"]
 +
