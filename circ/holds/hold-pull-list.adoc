@@ -4,12 +4,14 @@ Pull List for Hold Requests
 (((Holds, Holds Pull List)))
 
 
-link:https://youtu.be/CYmk2mwgI5E[*Sitka Training Video - Pull List for Hold Requests (2:59)*]
+link:https://youtu.be/DiOY9Mkauss[*Sitka Training Video - Pull List for Hold Requests (4:26)*]
 
 Items that are available on your shelf and have been requested to fill a hold will appear on the pull 
 list for hold requests.  Staff can print the list, pull the items from the shelf, and then check them
 in to capture the holds.  Co-op Support recommends checking the pull list at once day; libraries with a 
 high volume of holds may find it beneficial to check the list multiple times a day.
+
+
 
 . Go to *Circulation → Pull List for Hold Requests*.
 . The pull list displays. By default the items on the list are grouped first by shelving location, 
@@ -18,20 +20,47 @@ then by call number.
 [TIP]
 =====
 The order the shelving locations display in can be adjusted to better reflect the physical arrangement of
-your shelves.  See xref:_shelving_location_order[].
+your shelves.  For information on re-ordering your shelving locations see xref:_shelving_location_order[].
 =====
 +
 . Multi-branch libraries can use the library selector to look at the pull lists for any of their branches.
-. Click *Print Full List*.
++
+image:images/circ/hold-pull-list-1.png[scaledwidth="75%"]
++
+. The _Pickup Library_ filter can be used to filter the pull list to show items to be picked 
+up at a particular library or branch.
 +
 image:images/circ/hold-pull-list-2.png[scaledwidth="75%"]
 +
+.The _Shelving Locations_ filter can be used to show items at a particular shelving location or 
+a selection of shelving locations.
++
+image:images/circ/hold-pull-list-3.png[scaledwidth="75%"]
++
+. Print the pull list. See LINK for printing and downloading options.
 . Pull the items from your shelves and check them in to 
 xref:_capturing_holds_and_hold_transits[capture the holds].
 . Items that cannot be found should have their status set to _Missing_ via the Actions menu.
 +
-image:images/circ/hold-pull-list-3.png[scaledwidth="75%"]
+image:images/circ/hold-pull-list-4.png[scaledwidth="75%"]
 
+
+
+
+Printing and Downloading the Pull List for Hold Requests
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The default pull list print through the *Print Full List* button includes only columns for Hold Type, Title, 
+Author, Shelving Location, Call Number, and Item Barcode.
+
+* To print exactly what is displayed on the screen, click 
+*Show Grid Options (Gear Icon) → Print Full Grid*.
+* To export the visible columns to a CSV file, click *Show Grid Options (Gear Icon) → Download Full CSV*.
++
+image:images/circ/hold-pull-list-4.png[scaledwidth="75%"]
+
+Interlibrary Connect and the Pull List for Hold Requests
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 [NOTE]
 ======
 The _Pickup Library_ column will show which library the item is going to to fill the hold.  Libraries
@@ -43,16 +72,3 @@ image:images/circ/hold-pull-list-1.png[scaledwidth="75%"]
 Evergreen will re-target ILC holds to another library after 24 hours if the item hasn't
 been captured for a hold, unless there is no other item in the ILC zone that can fill the hold.
 ======
-
-
-Print or Export Pull List for Hold Requests
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-The default pull list print through the *Print Full List* button includes only columns for Hold Type, Title, 
-Author, Shelving Location, Call Number, and Item Barcode.
-
-* To print exactly what is displayed on the screen, click 
-*Show Grid Options (Gear Icon) → Print Full Grid*.
-* To export the visible columns to a CSV file, click *Show Grid Options (Gear Icon) → Download Full CSV*.
-+
-image:images/circ/hold-pull-list-4.png[scaledwidth="75%"]
