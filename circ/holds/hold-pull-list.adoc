@@ -91,16 +91,16 @@ image:images/circ/download-hold-pull-list-1.png[scaledwidth="75%"]
 Interlibrary Connect and the Pull List for Hold Requests
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Libraries participating in Interlibrary Connect should ensure they always have the _Pickup Library_ 
+column visible in the grid to easily distinguish between local and ILC holds.
 
+In the event of a short closure of ILC, the _Pickup Library_ filter can be used so that only local holds
+are visible and appear on printed lists.
 
-[NOTE]
-======
-The _Pickup Library_ column will show which library the item is going to to fill the hold.  Libraries
-participating in Interlibrary Connect can use this column to distinguish between local and ILC holds
-and may choose not to pull ILC holds on a day their Interlibrary Loan staff member is away.
+If an item on the pull list is not captured for an ILC hold within 24 hours, Evergreen will re-target 
+the ILC hold to another library, unless there is no other item in the ILC zone that can fill the hold.
 
-image:images/circ/hold-pull-list-1.png[scaledwidth="75%"]
-
-Evergreen will re-target ILC holds to another library after 24 hours if the item hasn't
-been captured for a hold, unless there is no other item in the ILC zone that can fill the hold.
-======
+If an item cannot be found it is especially important for ILC libraries to set that item to _Missing_ so
+that Evergreen knows it cannot be used to fill the hold.  If the item is the only item in the ILC zone
+that could fill the hold, once the item is set to _Missing_ the hold will be moved to the pickup library's
+xref:_hopeless_holds[hopeless holds] list and the pickup library can then resolve the hold.
