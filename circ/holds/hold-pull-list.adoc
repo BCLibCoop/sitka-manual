@@ -37,30 +37,62 @@ a selection of shelving locations.
 +
 image:images/circ/hold-pull-list-3.png[scaledwidth="75%"]
 +
-. Print the pull list. See LINK for printing and downloading options.
+. Print the pull list. See xref:_printing_and_downloading_the_pull_list_for_hold_requests[] for 
+printing and downloading options.
 . Pull the items from your shelves and check them in to 
 xref:_capturing_holds_and_hold_transits[capture the holds].
 . Items that cannot be found should have their status set to _Missing_ via the Actions menu.
 +
 image:images/circ/hold-pull-list-4.png[scaledwidth="75%"]
 
-
-
-
 Printing and Downloading the Pull List for Hold Requests
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The default pull list print through the *Print Full List* button includes only columns for Hold Type, Title, 
-Author, Shelving Location, Call Number, and Item Barcode.
+There are three ways to print the pull list for hold requests and one way to download it.  In all
+cases the list will only include the items the items currently displaying on the screen.
 
-* To print exactly what is displayed on the screen, click 
-*Show Grid Options (Gear Icon) → Print Full Grid*.
-* To export the visible columns to a CSV file, click *Show Grid Options (Gear Icon) → Download Full CSV*.
-+
-image:images/circ/hold-pull-list-4.png[scaledwidth="75%"]
+Print Full List
++++++++++++++++
+
+The *Print Full List* button will open a print dialogue and allow you to print the list.  The columns 
+that print will depend on the library’s print template for the Hold Pull List. See 
+xref:https://asciidoc.libraries.coop/sitka-manual-master/html/_print_templates.html[] for information
+on print templates.
+
+image:images/circ/print-hold-pull-list-1.png[scaledwidth="75%"]
+
+
+Print Full Grid
++++++++++++++++
+
+The *Print Full Grid* option available on the *Grid Options* menu (Gear Icon) will open a print dialogue and 
+allow you to print the list which will include all the columns currently visible on the screen. 
+
+image:images/circ/print-hold-pull-list-2.png[scaledwidth="75%"]
+
+Print Selected Rows
++++++++++++++++++++
+
+The *Print Selected Rows* option available on the *Grid Options* menu (Gear Icon) will open a print dialogue and 
+allow you to print the selected rows as a list which will include all the columns currently visible 
+on the screen. 
+
+image:images/circ/print-hold-pull-list-3.png[scaledwidth="75%"]
+
+Download Full CSV
++++++++++++++++++
+
+The *Download Full CSV* option available on the *Grid Options* menu (Gear Icon) will download a CSV file 
+which will include all the columns currently visible on the screen. 
+
+image:images/circ/download-hold-pull-list-1.png[scaledwidth="75%"]
+
 
 Interlibrary Connect and the Pull List for Hold Requests
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
 [NOTE]
 ======
 The _Pickup Library_ column will show which library the item is going to to fill the hold.  Libraries
