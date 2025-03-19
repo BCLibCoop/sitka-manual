@@ -101,7 +101,7 @@ are visible and appear on printed lists.
 If an item on the pull list is not captured for an ILC hold within 24 hours, Evergreen will re-target 
 the ILC hold to another library, unless there is no other item in the ILC zone that can fill the hold.
 
-If an item cannot be found it is especially important for ILC libraries to set that item to _Missing_ so
+If an item cannot be found, it is especially important for ILC libraries to set that item to _Missing_ so
 that Evergreen knows it cannot be used to fill the hold.  If the item is the only item in the ILC zone
 that could fill the hold, once the item is set to _Missing_ the hold will be moved to the pickup library's
 xref:_hopeless_holds[hopeless holds] list and the pickup library can then resolve the hold.
