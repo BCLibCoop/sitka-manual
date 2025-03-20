@@ -2,7 +2,7 @@ Public Catalogue Customizations
 -------------------------------
 
 Certain things in your public catalogue can be customized for you by Sitka staff.  Making these changes 
-takes time so please ensure you xref:https://bc.libraries.coop/support/[contact Co-op Support] with your 
+takes time, so please ensure you xref:https://bc.libraries.coop/support/[contact Co-op Support] with your 
 requested changes at least one week before you want the changes live.
 
 Appearance
@@ -29,10 +29,10 @@ Please provide the colours you want in their hex codes. If you like a colour use
 public catalogue let us know and we can pull the hex code from their site.
 
 By default there are two links in the header - _Library Home_ and _My Account_.  Additional links can
-be added to point to other resources and pages the library wishes to include.  To have a link added
+be added to point to other resources and pages the library wishes to include.  To have a link added,
 please send both the link and the text to display to xref:https://bc.libraries.coop/support/[Co-op Support].
 
-By default the public catalogue displays just the date for due dates.  Libraries that have hourly loans
+By default, the public catalogue displays just the date for due dates.  Libraries that have hourly loans
 can choose to have the due date time included; the due date time will display for all check outs, not
 just hourly loans.
 
