@@ -5,14 +5,16 @@ https://youtu.be/wl2oSwF0Zx4[*Sitka Snippet Video - Search Preferences (1:48)*]
 
 Catalogue searching related preferences can be set directly in the staff catalogue.
 
-.To set your preferences:
+Setting Your Preferences
+^^^^^^^^^^^^^^^^^^^^^^^^
+
 . In the staff catalogue click on *Search Preferences*.
 +
-image::images/cat/search-preferences-1.png[Catalog Preference Button]
+image::images/staffcat/search-preferences-1.png[Catalog Preference Button]
 +
 . Set the values you would like for your preferences.
 +
-image::images/cat/search-preferences-2.png[Catalog Preference Options]
+image::images/staffcat/search-preferences-2.png[Catalog Preference Options]
 +
 .. *Default Search Library* This determines what library is searched from the advanced search screen 
 and portal page by default. You can override this setting when you are actually searching by selecting a 
@@ -32,3 +34,10 @@ We recommend keeping this number under 200.
 The preference set in the staff client override any preferences for the logged in account that 
 have been set in the public catalogue via xref:_search_and_history_preferences[My Account].
 ======
+
+Course Reserves Preference
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Libraries with the course reserves mpdule turned on will see an additional search preference.
+
+image::images/staffcat/search-preferences-3.png[Catalog Preference Course Reserves]
