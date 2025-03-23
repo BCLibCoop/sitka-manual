@@ -15,14 +15,14 @@ Search Panes
 ^^^^^^^^^^^^
 
 There are five search panes available in the search form - xref:_keyword_search_staff[Keyword Search],
-Numeric Search, MARC Search, Browse, and Shelf Browse.  These enable staff to search the catalogue
+xref:_numeric_search_staff[Numeric Search], xref:_marc_search_staff[MARC Search], 
+xref:_browse_search_staff[Browse], and xref:_shelf_browse_staff[Shelf Browse].  
+These enable staff to search the catalogue
 in a variety of ways.
 
-
-
-[[library_selector]]
+[[_library_selector]]
 Library Selector (Search Library)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The _Library Selector_ is located in the top-right corner of the search form on the Staff Catalog page. This selector allows you to change your search library to the consortium, system, branch, or other organization of your choice.
 
@@ -40,6 +40,12 @@ You may also enter the short name of the library you wish to search directly int
 
 Your library selection will stay until you leave the Staff Catalog page. Then, it will reset to the workstation's default search library.
 
+Additional Options
+^^^^^^^^^^^^^^^^^^
+
+Also in the search form are buttons for resetting the search form, accessing the 
+xref:_search_templates[Search Templates], accessing the xref:_search_preferences[Search Preferences], 
+and working with baskets.
 
 
 [[_keyword_search_staff]]
