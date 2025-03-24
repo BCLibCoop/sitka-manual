@@ -6,8 +6,9 @@ The staff catalogue enables staff to search for holdings in their collection and
 Search Form
 ~~~~~~~~~~~
 
-The entire panel at the top of the staff catalogue is the search form. It is made up of five 
-search panes, the library selector, and additional options.
+The entire panel at the top of the staff catalogue is the search form. It is made up of 
+xref:_search_panes[five search panes], xref:_library_selector[the library selector], and 
+xref:_additional_options[additional options].
 
 image::images/staffcat/search/catalogue-search-1.png[Catalogue Search Form]
 
@@ -61,15 +62,12 @@ Keyword Search
 The Keyword Search pane lets you search the catalogue with one or more search terms. You may 
 also apply a variety of filters and sort the results. 
 
-. Enter your search criteria. 
-. Click *Search*.
+. In the Keyword Search pane, enter your search criteria. 
+. Click *Search*. NEED FILTER FIX FOR SCREENSHOT
++
+image::images/staffcat/search/keyword-search-1.png[Keyword Search pane]
++
 . Your results are displayed.
-
-To start a search with the default settings, enter your search terms in the _Search Terms_ text box located near the center of the search form. 
-
-Then, select _Search_, located in the top-right corner. Your search results appear below the search form.
-
-image::searching_the_catalog/keyword_search.png[The Keyword Search pane with the Search Terms text box and Search button highlighted, as described above.]
 
 Search Options
 ^^^^^^^^^^^^^^
