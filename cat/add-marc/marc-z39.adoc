@@ -41,7 +41,7 @@ selected. When you select multiple targets to search, an active box may apply to
 ======
 +
 . Hit *Enter* on your keyboard or click *Submit* (found on the left side of the screen).
-. Search results are displayed in the lower pane. You can use the *Hide Form* to button hide the top pane 
+. Search results are displayed in the lower pane. You can use the *Hide form* to button hide the top pane 
 or simply scroll down to your results.
 +
 image::images/cat/z3950/z3950-search-3.png[]
@@ -77,7 +77,7 @@ image::images/cat/z3950/z3950-import-1.png[]
 +
 image::images/cat/z3950/z3950-import-2.png[]
 +
-. Select the record you have determined in the best match to your item and click *Edit then Import*.
+. Select the record you have determined is the best match to your item and click *Edit then Import*.
 +
 image::images/cat/z3950/z3950-import-3.png[]
 +
@@ -97,7 +97,7 @@ The fields 906, 923, 925, 936, 948, 955, 959, and 963 are stripped from imported
 +
 image::images/cat/z3950/z3950-import-4.png[]
 +
-. The record is imported. On the pop-up that appears click *Go to Record*.
+. The record is imported. On the pop-up that appears click *Go to record*.
 . The record will open in a new tab.  You can now add your holding to the record.
 See xref:_adding_holdings[],
 
@@ -145,18 +145,13 @@ image:images/cat/z3950/z3950-overlay-3.png[]
 image:images/cat/z3950/z3950-overlay-4.png[]
 
 
-[CAUTION]
-=========
-The overlay target will remain even after you log out of Evergreen. After you re-log in, the target is
-still in effect.
-=========
-
-
 Overlaying Using Z39.50
 +++++++++++++++++++++++
 
 . Search for your record via Z39.50. See xref:_searching_via_z39_50[].
 . Select the record you would like to overlay over the existing record and click *Overlay*.
++
+image:images/cat/z3950/z3950-overlay-5.png[]
 +
 [CAUTION]
 =========
@@ -165,13 +160,17 @@ replacing, but still describe the same title. Any changes you make when overlayi
 Sitka libraries with holdings attached to the record.
 =========
 +
-image:images/cat/z3950/z3950-overlay-5.png[]
-+
-. The overlay interface opens in a pop up. You must choose _Keep Local Fields_ as your merge profile. This will
+. The overlay interface opens in a pop up. Choose _Keep Local Fields_ as your merge profile. This will
  copy any 050, 055, 092, 590, 595, 690, 852, and 856 fields from the existing record into the new one you
 are bringing in.
 +
 image:images/cat/z3950/z3950-overlay-6.png[]
++
+[CAUTION]
+=========
+You must choose *Keep Local Fields* as the merge profile. You may encounter an error if you choose 
+another.
+=========
 +
 . Click *Edit Z39.50 Record*.
 +
@@ -186,7 +185,7 @@ image:images/cat/z3950/z3950-overlay-8.png[]
 [NOTE]
 ======
 As the record already exists in the Sitka database and has holdings for other libraries only make edits
-that conform with Sitka's cataloguing policy. Co-op Support does recommend removing any fields that contain
+that conform with Sitka's cataloguing policy. Co-op Support recommends removing any fields that contain
 local data related to items held by the service the record comes from.  In general this information will
 be found in the 852 fields and 9xx fields.
 
@@ -199,8 +198,3 @@ image:images/cat/z3950/z3950-overlay-9.png[]
 +
 . The record is imported and overlaid over the existing record which opens in a new tab.
 
-
-[CAUTION]
-=========
-You must select *Keep Local Fields* as the merge profile. You may encounter an error if you choose another.
-=========
