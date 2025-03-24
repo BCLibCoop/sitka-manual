@@ -128,11 +128,11 @@ following through the entire process to completion before moving on to another r
 . Retrieve the record in the catalogue.
 . On record details screen, click *Mark for -> Overlay target*.
 +
-image:images/cat/z3950-overlay-1.png[]
+image:images/cat/z3950/z3950-overlay-1.png[]
 +
 . Confirmation appears at the right bottom corner of the screen.
 +
-image:images/cat/z3950-overlay-2.png[]
+image:images/cat/z3950/z3950-overlay-2.png[]
 
 .To mark a record for overlay via the Z39.50 interface.
 . In the Z29.50 interface xref:_searching_via_z39_50[search for your title].
