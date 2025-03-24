@@ -18,7 +18,7 @@ Searching via Z39.50
 +
 . Select the Z39.50 services that you would like to search from the list.
 +
-image::images/cat/z3950-search-1.png[]
+image::images/cat/z3950/z3950-search-1.png[]
 +
 [TIP]
 =====
@@ -31,7 +31,7 @@ your searching as needed.
 +
 . Fill in your search term(s). 
 +
-image::images/cat/z3950-search-2.png[]
+image::images/cat/z3950/z3950-search-2.png[]
 +
 [NOTE]
 ======
@@ -44,18 +44,18 @@ selected. When you select multiple targets to search, an active box may apply to
 . Search results are displayed in the lower pane. You can hide the top pane to bring up the result list
 or simply scroll down to it.
 +
-image::images/cat/z3950-search-3.png[]
+image::images/cat/z3950/z3950-search-3.png[]
 +
 . Information about each retrieved record appears on a separate summary line.
  The _Source_ column indicates
 where the record was found.
 +
-image::images/cat/z3950-search-4.png[]
+image::images/cat/z3950/z3950-search-4.png[]
 +
 . If "Local Catalog" is listed in the _Sourcxe_ column, the record is already in Sitka's database.
 Select the record and click *Show in Catalog*.
 +
-image::images/cat/z3950-search-5.png[]
+image::images/cat/z3950/z3950-search-5.png[]
 +
 . If the record in the catalogue matches your item xref:_adding_holdings[add your holding], otherwise
 xref:import_from_z3950[import a new record via Z39.50].
@@ -71,15 +71,15 @@ https://youtu.be/y4poV6GWlk8[*Sitka Snippet Video - Importing Bibliographic Reco
 . To import a record, view the MARC records for the retruned search results by selecting each record in turn
 and clicking *View MARC*.
 +
-image::images/cat/z3950-import-1.png[]
+image::images/cat/z3950/z3950-import-1.png[]
 +
 . The MARC record is displayed in a pop-up window. Click *Close* to go back to the results list.
 +
-image::images/cat/z3950-import-2.png[]
+image::images/cat/z3950/z3950-import-2.png[]
 +
 . Select the record you have determined in the best match to your item and click *Edit then Import*.
 +
-image::images/cat/z3950-import-3.png[]
+image::images/cat/z3950/z3950-import-3.png[]
 +
 . Make any needed edits to the record.
 +
@@ -95,7 +95,7 @@ The fields 906, 923, 925, 936, 948, 955, 959, and 963 are stripped from imported
 +
 . Click *Save Changes* and then click *Import Record*.
 +
-image::images/cat/z3950-import-4.png[]
+image::images/cat/z3950/z3950-import-4.png[]
 +
 . The record is imported. On the pop-up that appears click *Go to Record*.
 . The record will open in a new tab.  You can now add your holding to the record.
@@ -138,11 +138,11 @@ image:images/cat/z3950-overlay-2.png[]
 . In the Z29.50 interface xref:_searching_via_z39_50[search for your title].
 . Select the result for _native-evergreen-catalog_ and click *Mark Local Results As Overlay Target*.
 +
-image:images/cat/z3950-overlay-3.png[]
+image:images/cat/z3950/z3950-overlay-3.png[]
 +
 . The record ID of the record to be overlaid will display on the right.
 +
-image:images/cat/z3950-overlay-4.png[]
+image:images/cat/z3950/z3950-overlay-4.png[]
 
 
 [CAUTION]
@@ -165,14 +165,14 @@ replacing, but still describe the same title. Any changes you make when overlayi
 Sitka libraries with holdings attached to the record.
 =========
 +
-image:images/cat/z3950-overlay-5.png[]
+image:images/cat/z3950/z3950-overlay-5.png[]
 +
 . The overlay interface opens in a pop up. The default merge profile is _Keep Local Fields_; this will
  copy any 050, 055, 092, 590, 595, 690, 852, and 856 fields from the existing record into the new one you
 are bringing in.
 . Click *Edit Z39.50 Record*.
 +
-image:images/cat/z3950-overlay-6.png[]
+image:images/cat/z3950/z3950-overlay-6.png[]
 +
 Make any needed edits to the record following
 http://docs.libraries.coop/policy/_editing_bibliographic_records.html[Sitka's cataloguing policy]
@@ -192,7 +192,7 @@ The fields 906, 923, 925, 936, 948, 955, 959, and 963 are stripped from imported
 +
 . Click *Overlay*.
 +
-image:images/cat/z3950-overlay-8.png[]
+image:images/cat/z3950/z3950-overlay-8.png[]
 +
 . The record is imported and overlaid over the existing record which opens in a new tab.
 
