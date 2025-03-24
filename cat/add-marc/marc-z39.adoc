@@ -46,13 +46,14 @@ or simply scroll down to it.
 +
 image::images/cat/z3950-search-3.png[]
 +
-. Information about each retrieved record appears on a separate summary line. The _Service_ column indicates
+. Information about each retrieved record appears on a separate summary line.
+ The _Source_ column indicates
 where the record was found.
 +
 image::images/cat/z3950-search-4.png[]
 +
-. If "native-evergreen-catalog" is listed in the _Service_ column, the record is already in Sitka's database.
-Select the record and click *Show in Catalogue*.
+. If "Local Catalog" is listed in the _Sourcxe_ column, the record is already in Sitka's database.
+Select the record and click *Show in Catalog*.
 +
 image::images/cat/z3950-search-5.png[]
 +
@@ -92,7 +93,7 @@ fields and 9xx fields.
 The fields 906, 923, 925, 936, 948, 955, 959, and 963 are stripped from imported records by default.
 ======
 +
-. Click *Import*.
+. Click *Save Changes* and then click *Import Record*.
 +
 image::images/cat/z3950-import-4.png[]
 +
