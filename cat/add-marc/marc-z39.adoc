@@ -29,7 +29,7 @@ Co-op Support recommends setting 3 to 5 sources as your defaults and then adding
 your searching as needed.
 =====
 +
-. Fill in your search term(s) and click *Search*.
+. Fill in your search term(s). 
 +
 image::images/cat/z3950-search-2.png[]
 +
@@ -40,6 +40,7 @@ different search types. For instance, Keyword and Subject will only be active if
 selected. When you select multiple targets to search, an active box may apply to only one target.
 ======
 +
+. Hit *Enter* on your keyboard or click *Submit* (found on the left side of the screen).
 . Search results are displayed in the lower pane. You can hide the top pane to bring up the result list
 or simply scroll down to it.
 +
@@ -71,7 +72,7 @@ and clicking *View MARC*.
 +
 image::images/cat/z3950-import-1.png[]
 +
-. The MARC record is displayed in a pop-up window. Click *Cancel* to go back to the results list.
+. The MARC record is displayed in a pop-up window. Click *Close* to go back to the results list.
 +
 image::images/cat/z3950-import-2.png[]
 +
