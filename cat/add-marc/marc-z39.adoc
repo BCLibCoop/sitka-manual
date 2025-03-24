@@ -41,8 +41,8 @@ selected. When you select multiple targets to search, an active box may apply to
 ======
 +
 . Hit *Enter* on your keyboard or click *Submit* (found on the left side of the screen).
-. Search results are displayed in the lower pane. You can hide the top pane to bring up the result list
-or simply scroll down to it.
+. Search results are displayed in the lower pane. You can use the *Hide Form* to button hide the top pane 
+or simply scroll down to your results.
 +
 image::images/cat/z3950/z3950-search-3.png[]
 +
@@ -52,7 +52,7 @@ where the record was found.
 +
 image::images/cat/z3950/z3950-search-4.png[]
 +
-. If "Local Catalog" is listed in the _Sourcxe_ column, the record is already in Sitka's database.
+. If "Local Catalog" is listed in the _Source_ column, the record is already in Sitka's database.
 Select the record and click *Show in Catalog*.
 +
 image::images/cat/z3950/z3950-search-5.png[]
