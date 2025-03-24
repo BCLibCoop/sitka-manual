@@ -85,6 +85,8 @@ include::cat/cat-record-bucket.adoc[Record Buckets]
 
 Public Catalogue
 ================
+include::opac/opac-library-info.adoc[]
+
 include::opac/opac-search.adoc[]
 
 include::opac/opac-holds.adoc[]
