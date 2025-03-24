@@ -126,17 +126,17 @@ following through the entire process to completion before moving on to another r
 
 .To mark a record for overlay via the catalogue:
 . Retrieve the record in the catalogue.
-. On record details screen, click *Mark for -> Overlay target*.
+. On record details screen, click *Mark for -> Overlay Target*.
 +
-image:images/cat/z3950/z3950-overlay-1.png[]
+image:images/cat/z3950/z3950-overlay-2.png[]
 +
 . Confirmation appears at the right bottom corner of the screen.
 +
-image:images/cat/z3950/z3950-overlay-2.png[]
+image:images/cat/z3950/z3950-overlay-1.png[]
 
 .To mark a record for overlay via the Z39.50 interface.
-. In the Z29.50 interface xref:_searching_via_z39_50[search for your title].
-. Select the result for _native-evergreen-catalog_ and click *Mark Local Results As Overlay Target*.
+. In the Z39.50 interface xref:_searching_via_z39_50[search for your title].
+. Select the result for _Local Catalog_ and click *Mark for Overlay*.
 +
 image:images/cat/z3950/z3950-overlay-3.png[]
 +
@@ -167,18 +167,21 @@ Sitka libraries with holdings attached to the record.
 +
 image:images/cat/z3950/z3950-overlay-5.png[]
 +
-. The overlay interface opens in a pop up. The default merge profile is _Keep Local Fields_; this will
+. The overlay interface opens in a pop up. You must choose _Keep Local Fields_ as your merge profile. This will
  copy any 050, 055, 092, 590, 595, 690, 852, and 856 fields from the existing record into the new one you
 are bringing in.
-. Click *Edit Z39.50 Record*.
 +
 image:images/cat/z3950/z3950-overlay-6.png[]
 +
-Make any needed edits to the record following
-http://docs.libraries.coop/policy/_editing_bibliographic_records.html[Sitka's cataloguing policy]
-and click *Save*.
+. Click *Edit Z39.50 Record*.
 +
-image:images/cat/z3950-overlay-7.png[]
+image:images/cat/z3950/z3950-overlay-7.png[]
++
+. Make any needed edits to the record following
+http://docs.libraries.coop/policy/_editing_bibliographic_records.html[Sitka's cataloguing policy]
+and click *Save Changes*.
++
+image:images/cat/z3950/z3950-overlay-8.png[]
 +
 [NOTE]
 ======
@@ -190,9 +193,9 @@ be found in the 852 fields and 9xx fields.
 The fields 906, 923, 925, 936, 948, 955, 959, and 963 are stripped from imported records by default.
 ======
 +
-. Click *Overlay*.
+. Click *Merge and Overlay*.
 +
-image:images/cat/z3950/z3950-overlay-8.png[]
+image:images/cat/z3950/z3950-overlay-9.png[]
 +
 . The record is imported and overlaid over the existing record which opens in a new tab.
 
