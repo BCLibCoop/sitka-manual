@@ -6,8 +6,8 @@ The staff catalogue enables staff to search for holdings in their collection and
 Search Form
 ~~~~~~~~~~~
 
-The entire panel at the top of the Staff Catalogue page is the search form. It is made up of five 
-search panes, a library selector, and additional options.
+The entire panel at the top of the staff catalogue is the search form. It is made up of five 
+search panes, the library selector, and additional options.
 
 image::images/staffcat/search/catalogue-search-1.png[Catalogue Search Form]
 
@@ -21,24 +21,30 @@ These enable staff to search the catalogue
 in a variety of ways.
 
 [[_library_selector]]
-Library Selector (Search Library)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Library Selector
+^^^^^^^^^^^^^^^^
 
-The _Library Selector_ is located in the top-right corner of the search form on the Staff Catalog page. This selector allows you to change your search library to the consortium, system, branch, or other organization of your choice.
+The library selector allows you to change your search library to the consortium, system, branch, or 
+other organization of your choice.
 
-image::searching_the_catalog/library_selector.png[The Staff Catalog page with the Library Selector highlighted.]
+The default search library for your workstation can be set in the 
+xref:_search_preferences[Search Preferences]. 
 
-TIP: The default search library for your workstation can be set in xref:staff_catalog:searching_the_catalog.adoc#search_preferences[Search Preferences]. 
+To change your search library, select the text box to the left of the _Search_ button and make 
+your selection from the dropdown menu.
 
-To change your search library, select the text box to the left of the _Search_ button and make your selection from the dropdown menu. Then, select _Search_ to begin your search.
+You may also enter the short name of the library you wish to search directly 
+into the text box and then select it from the shortened list that displays.
 
-TIP: The _Library Selector_ dropdown menu is organized alphabetically in each of the following levels: Consortium, System, Branch, and Sub-library (such as bookmobiles and special collections).
+Your library selection will stay until you leave the staff catalogue on that tab. When you open
+the staff catalogue in a new tab it will reset to the workstation's default search library.
 
-image::searching_the_catalog/library_selector_menu.png[The Library Selector dropdown menu with BR2 highlighted.]
-
-You may also enter the short name of the library you wish to search directly into the text box. For example, to select Branch 2 from the menu pictured above, you may simply enter "BR2" into the text box.
-
-Your library selection will stay until you leave the Staff Catalog page. Then, it will reset to the workstation's default search library.
+[TIP]
+=====
+The workstation setting _Include Full Library Names in Library Search?_ controls whether the display
+in the library selector is the libraryname and short code or just the short code.  See 
+xref:_include_full_library_names_in_library_selector[] for information on this setting.
+=====
 
 Additional Options
 ^^^^^^^^^^^^^^^^^^
@@ -52,7 +58,12 @@ and working with baskets.
 Keyword Search
 ~~~~~~~~~~~~~~
 
-The Keyword Search pane lets you search the catalog with one or more search terms. You may also apply a variety of filters and sort the results. 
+The Keyword Search pane lets you search the catalogue with one or more search terms. You may 
+also apply a variety of filters and sort the results. 
+
+. Enter your search criteria. 
+. Click *Search*.
+. Your results are displayed.
 
 To start a search with the default settings, enter your search terms in the _Search Terms_ text box located near the center of the search form. 
 
