@@ -3,7 +3,8 @@ Library Information
 -------------------
 
 Evergreen generates a page in the public catalogue which pulls together information about your library
-and branches for your patrons. What information displays depends on what you have entered into Evergreen.
+and branches for your patrons. What information displays depends on whether or not
+you have entered the applicable information into Evergreen.
 
 The page is accessed by clicking on the library or branch name in the _Location_ column of your search
 results.  
@@ -21,7 +22,7 @@ it using the library setting _Library information URL (such as "http://example.c
 
 image:images/opac/library-info/opac-library-info-3.png[]
 
-See xref:_editing_library_settings[] for information on udpating library settings.
+See xref:_editing_library_settings[] for information on updating library settings.
 
 
 Opening Hours
