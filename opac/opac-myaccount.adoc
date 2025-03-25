@@ -149,7 +149,7 @@ image::images/opac/opac-eresource-1.png[scaledwidth="75%",alt="My Account"]
 Account Preferences
 ~~~~~~~~~~~~~~~~~~~
 
-Click *Preferences* to access your preferences.
+Click *Preferences* to access your preferences. The options will display below.
 
 image::images/opac/opac-account-preferences-1.png[scaledwidth="75%",alt="My Account"]
 
@@ -158,7 +158,7 @@ Personal Information
 (((Update Password, My Account)))
 (((Send Test Email, My Account)))
 
-You can change your username, password, email address, and preferred language in _Personal Information_.
+You can change your username, preferred name, password, email address, and preferred language in _Personal Information_.
 Libraries using single sign-on or other 3rd party password services may restrict editing of some of these
 fields.
 
@@ -220,6 +220,8 @@ preferred search location if your library is a multi-branch system or part of a 
 
 You can also set your preferred pick up location if your library is a multi branch system or part of a
 larger borrowing zone.
+
+You can choose whether or not to have search terms highlighted in your search results.
 
 Check Out and Hold history can be enabled on this screen.  The check out and holds history is not retroactive;
 it takes effect once you choose to retain your history.
