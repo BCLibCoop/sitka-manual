@@ -99,21 +99,36 @@ public catalogue.
 
 . In the footer of the public catalogue, click on the *Request Library Card* link.
 +
-image:images/opac/patron_self_registration-2.png[Patron Self-Registration form]
+image:images/opac/patron_self_registration-1.png[Patron Self-Registration form]
 +
 . Fill out the form to request a library card and click *Submit Registration*.
-. Patrons will see a confirmation message: “Registration successful!  Please see library staff to
++
+image:images/opac/patron_self_registration-2.png[Patron Self-Registration form]
++
+.
+. The form is validated and any errors are flagged.
++
+image:images/opac/patron_self_registration-3.png[Patron Self-Registration form]
++
+. Once the form has been filled out and submitted patrons will see a confirmation 
+message: “Registration successful!  Please see library staff to
 complete your registration.”  This message is customizable per library.
 +
-image:images/opac/patron_self_registration.png[Patron Self-Registration form]
+image:images/opac/patron_self_registration-4.png[Patron Self-Registration form]
 +
-. A pending patron will be created in Evergreen.  See xref:_managing_pending_patrons[].
+. A pending patron is created in Evergreen.  See xref:_managing_pending_patrons[].
+
 
 [NOTE]
 ======
-The patron self-registration form shares settings with the staff client registration form.
-See xref:_customizing_the_display_fields[] for information on customizing which fields display and which fields
-are required.
+The patron self-registration form shares most settings with the staff client registration form.
+
+Unqiue to the self-registration form are the settings _Hide Username field in Patron Self-Reg._ and
+_Patron Self-Reg. Date of Birth Order_.  Local system administrators can set values for these settings.
+
+For the settings shared with the staff client registration form see 
+xref:_customizing_the_display_fields[] for information on customizing which fields display 
+and which fields are required.
 ======
 
 
