@@ -39,33 +39,26 @@ To create a folder within _Templates_, _Reports_, or _Output_:
 
 . Go to *Administration -> Reports*.
 . In the _My Folders_ section click on the folder you would like to create a sub-folder in. You may 
-need to click on the arrows to expand the relevant folder tree.
+need to click on the caret(s) to expand the relevant folder tree.
 +
 image::images/report/report-create-folders-1.png[]
 +
-. Click *Manage Folder*.
+. Select the button *Add Subfolder*.
 +
 image::images/report/report-create-folders-2.png[]
 +
-. From the drop down menu select *Create a new sub-folder* and click *Go*.
-+
-image::images/report/report-create-folders-3.png[]
-+
-. Enter a name for the folder and select sharing parameters if appropriate. See 
-xref:_sharing_your_folders[] for more information on sharing.
-. Click *Create Sub Folder*
+. Enter a name for the folder.
+. Select the *Confirm* button.
 +
 image::images/report/report-create-folders-4.png[]
 +
-. A pop-up will appear confirming the folder can been created. Click *OK*.
 . The folder can now been seen in the appropriate folder tree.
 +
 image::images/report/report-create-folders-5.png[]
 
 [NOTE]
 ======
-When creating folders at the top level (directly under _Templates_, _Reports_, or _Output_) Evergreen will 
-open the folder creation screen immediately. 
+When creating folders at the top level (directly under _Templates_, _Reports_, or _Output_) Evergreen will only display a button to add a top-level folder.
 
 image::images/report/report-create-folders-6.png[]
 ======
@@ -79,9 +72,9 @@ Managing Folders
 
 [TIP]
 =====
-Clicking the blue text of a folder name displays the contents of the folder in the right pane.
+Clicking the folder name displays the contents of the folder in the right pane.
  
-Clicking the arrow in front of a folder name displays its sub-folders.
+Clicking the caret in front of a folder name displays its sub-folders.
 =====
 
 Once a folder has been created, you can change the name, delete the folder, create a new sub-folder, or 
@@ -89,16 +82,14 @@ change the sharing settings.
 
 . Go to *Administration -> Reports*.
 . In the _My Folders_ section click on the name of the folder that you wish to manage.
-. Click *Manage Folder*.
-+
-image::images/report/report-create-folders-2.png[]
-+
-. Select the relevant option from the drop down menu. You can:
-** Re-name the folder.
-** Delete the folder.
+. Use the buttons at the top of the righthand pane to perform actions.
+. You can:
+** Remove filters
+** Create a new template
+** Rename the folder.
 ** xref:_creating_folders[Create a new sub-folder].
 ** xref:_sharing_folders[Share or hide the folder].
-. Click *Go*.
+** Delete the folder.
 . Follow the prompts for the option you choose.
 
 
@@ -122,23 +113,18 @@ Folders can be set as shared when they are created or updated afterwards.
 
 . Go to *Administration -> Reports*.
 . In the _My Folders_ section click on the name of the folder that you wish to share.
-. Click *Manage Folder*.
+. Click the *Share Folder* button.
 +
 image::images/report/report-share-folders-1.png[]
-+
-. From the drop down menu select *Share this folder* and click *Go*.
-+
-image::images/report/report-share-folders-2.png[]
 +
 . Select the level at which you would like to share your folder.
 +
 image::images/report/report-share-folders-3.png[]
 +
-. Click *Share this folder*.
+. Click *Save*.
 +
 image::images/report/report-share-folders-4.png[]
 +
-. A pop-up will appear confirming the folder has been shared. Click *OK*.
 . The folder will now show under _My Folders_ with the library code of the organizational unit it is 
 shared with in parentheses. 
 +
@@ -171,16 +157,10 @@ Folders are hidden by default.  Folders that have been shared can be hidden.
 
 . Go to *Administration -> Reports*.
 . In the _My Folders_ pane click on the name of the folder that you wish to hide.
-. Click *Manage Folder*.
+. Click the *Unshare Folder* button.
 +
 image::images/report/report-hide-folders-1.png[]
 +
-. From the drop down menu select *Hide (un-share) this folder* and click *Go*.
-+
-image::images/report/report-hide-folders-2.png[]
-+
-. A pop-up will appear and ask you to confirm that you wish to hide the folder. Click *OK*.
-. A pop-up will appear confirming the folder has been hidden. Click *OK*.
 . The folder will now show under _My Folders_ without a library code in parentheses.
 +
 image::images/report/report-hide-folders-3.png[]
@@ -212,74 +192,3 @@ You can only view the contents of the shared folders or clone the templates into
 
 
 
-////
-
-There are three main components used by the Reports module: Templates, Reports, and Output. Each of these components
-must be stored in a folder. Folders can be private (accessible to your login only) or shared with other staff at
-your library or other libraries in your federation or lending zone. It is also possible to
-selectively share only certain folders and/or subfolders.
-
-CAUTION: A shared subfolder must be created in a shared folder. The sharing scope of the subfolder should be
-within the sharing scope of the parent folder. For example, a subfolder shared with your federation should only be
-in a parent folder shared with your federation. It should not be in a folder shared with your library only. Though creating
-shared subfolders in unshared folders or a subfolder with the sharing scope exceeding its parent's is not blocked
-by Evergreen, serious consequences will be caused by such folders. You must be cautious when creating shared
-subfolders.
-
-There are two parts in the folders pane. The My Folders section contains folders created with your Evergreen
-account. Folders that other users have shared with you appear in the Shared Folders section under the username
-of the sharing account. You can only view the contents or clone the templates in the shared folders, but not make
-any change in the shared folders. The cloned template can only be saved into your own folder.
-
-Creating Folders
-~~~~~~~~~~~~~~~~
-
-Whether you are creating a report from scratch or working from a shared template you must first create at least one folder.
-
-The steps for creating folders are similar for each reporting function. It is easier to create folders for templates, reports, and output all at once at the beginning, though it is possible to do it before each step. This example demonstrates creating a folder for a template.
-
-. Click on *Templates* in the *My Folders* section.
-+
-image::images/report/folder-1.png[]
-+
-. Name the folder. Select *Share* or *Do not share* from the drop down menu.
-. If you want to share your folder, select whom you want to share this folder with from the 
-drop down menu.
-+
-image::images/report/folder-2.png[]
-+
-. Click *Create Sub Folder*, and then *OK* on the confirmation prompt.
-. Next, create a folder for the report definition to be saved to. Click on *Reports*.
-. Repeat steps 2-4 to create a Reports folder also called Circulation.
-. Finally, you need to create a folder for the report's output to be saved in. Click on *Output*.
-. Repeat steps 2-4 to create an Output folder named Circulation.
-
-TIP: Using a parallel naming scheme for folders in Templates, Reports, and Output helps keep your reports organized and easier to find.
-
-The folders you have just created, will now be visible by clicking the arrows in *My Folders*. Bracketed after the folder name, is the name of with whom the folder is shared. For example, Circulation (ZSP-B) is shared with the New Coopville Library. If it is not a shared folder, there will be nothing after the folder name. You may create as many folders and sub-folders as you like.
-
-image::images/report/folder-3.png[]
-
-TIP: Clicking the blue text of a folder name displays the contents of the folder in the right pane. Clicking the arrow in front of a folder name displays its subfolders.
-
-Managing Folders
-~~~~~~~~~~~~~~~~
-
-Once a folder has been created, you can change the name, delete it, create a new subfolder, or change the sharing settings. This example demonstrates changing a folder name. The other choices follow similar steps.
-
-. Click on the folder name that you wish to rename.
-. Click *Manage Folder*.
-+
-image::images/report/folder-4.png[]
-+
-. Select *Change folder name* from the drop down menu and click *Go*.
-+
-image::images/report/folder-5.png[]
-+
-. Enter the new name and click *Submit*.
-+
-image::images/report/folder-6.png[]
-+
-. You will get a confirmation box that the Action Succeeded. Click *OK*.
-
-////
