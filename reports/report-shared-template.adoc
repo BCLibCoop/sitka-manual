@@ -122,8 +122,8 @@ xref:_recurring_reports[recurring reports] so staff don't need to manually run t
 .Key templates are:
 * _By SelfCheck (Evergreen SelfChek Module): Circ Stats within Time Frame (by Month)_
 * _Monthly Circulation by Patron Home Library_
-* _xref:_monthly_circulation_by_circulation_modifier_new_3_1[Monthly Circulation by Circulation modifier (New 3.1)]_
-* _xref:_monthly_circulation_by_shelving_location_new_3_1[Monthly Circulation by Shelving Location (New 3.1)]_ 
+* _xref:_monthly_circulation_by_circulation_modifier_new_3_1[Monthly Circulation by Circulation modifier]_
+* _xref:_monthly_circulation_by_shelving_location_new_3_1[Monthly Circulation by Shelving Location]_ 
 * _Monthly Pre-Cat Circulation Count_
 
 Circulation within time frame
@@ -149,7 +149,7 @@ the applicable patrons.
 
 .Key templates are:
 * _Claimed Returned Items belonging to Selected Libraries (by copy status change date)_
-* _Lost-with-Bills Item List (Owned by Selected Libraries) (x Months ago) (New 3.1)_
+* _Lost-with-Bills Item List (Owned by Selected Libraries) (x Months ago)_
 * _Overdue Items Checked out at Other Libraries_ - helps track your items borrowed by another library
 * _Overdues Within Time Span -Phone List for Patrons without Email (based on Checkout Library)_
 * _xref:_overdues_within_time_span_general_based_on_checkout_library[Overdues Within Time Span - General (Based on Checkout Library)]_
