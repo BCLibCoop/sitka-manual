@@ -122,8 +122,9 @@ image:images/opac/patron_self_registration-4.png[Patron Self-Registration form]
 ======
 The patron self-registration form shares most settings with the staff client registration form.
 
-Unqiue to the self-registration form are the settings _Hide Username field in Patron Self-Reg._ and
-_Patron Self-Reg. Date of Birth Order_.  Local system administrators can set values for these settings.
+Unique to the self-registration form are the library settings _Hide Username field in Patron Self-Reg._ and
+_Patron Self-Reg. Date of Birth Order_.  Local system administrators can set values for these 
+in the xref:_library_settings_editor[Library Settings Editor].
 
 For the settings shared with the staff client registration form see 
 xref:_customizing_the_display_fields[] for information on customizing which fields display 
