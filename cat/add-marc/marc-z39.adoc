@@ -61,7 +61,7 @@ image::images/cat/z3950/z3950-search-5.png[]
 xref:import_from_z3950[import a new record via Z39.50].
 
 
-[[import_from_z3950]]
+[[_import_from_z3950]]
 Importing Bibliographic Records via Z39.50
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -104,6 +104,15 @@ See xref:_adding_holdings[],
 
 Overlaying Records via Z39.50 Interface
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Due to a bug, overlaying a record via Z39.50 is not currently available.  Instead the new record should be
+xref:_import_from_z3950[imported via Z39.50] and then merged with the existing record.  See 
+zref:_merging_bibliographic_records for instructions on merging records.
+
+
+////
+
+NOTE: THIS SECTION IS CURRENTLY COMMENTED OUT AS THE FUNCTION HAS BEEN BROKEN BY https://bugs.launchpad.net/evergreen/+bug/2085833
 
 https://youtu.be/eMfyQTkmx6g[*Sitka Snippet Video - Overlaying Bibliographic Records via Z39.50 (4:02)*]
 
@@ -198,3 +207,4 @@ image:images/cat/z3950/z3950-overlay-9.png[]
 +
 . The record is imported and overlaid over the existing record which opens in a new tab.
 
+////
