@@ -68,7 +68,7 @@ Importing Bibliographic Records via Z39.50
 https://youtu.be/y4poV6GWlk8[*Sitka Snippet Video - Importing Bibliographic Records via Z39.50 (2:54)*]
 
 . Search for your record via Z39.50. See xref:_searching_via_z39_50[].
-. To import a record, view the MARC records for the retruned search results by selecting each record in turn
+. To import a record, view the MARC records for the returned search results by selecting each record in turn
 and clicking *View MARC*.
 +
 image::images/cat/z3950/z3950-import-1.png[]
