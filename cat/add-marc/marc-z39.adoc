@@ -107,7 +107,7 @@ Overlaying Records via Z39.50 Interface
 
 Due to a bug, overlaying a record via Z39.50 is not currently available.  Instead the new record should be
 xref:_import_from_z3950[imported via Z39.50] and then merged with the existing record.  See 
-xref:_merging_bibliographic_records for instructions on merging records.
+xref:_merging_bibliographic_records[] for instructions on merging records.
 
 
 ////
