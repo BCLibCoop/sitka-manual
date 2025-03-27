@@ -18,39 +18,40 @@ When creating your bucket Co-op Support recommends using the title of the record
 ======
 . Retrieve the bucket by selecting *Cataloguing -> Record Buckets* on the menu bar.
 +
-. Click the drop down arrow beside *Buckets*, then select the bucket containing the records to be merged.
+. From the list of your buckets click on the name of the bucket containing the records
+you are merging.
 +
-image::images/cat/merge-records-4.png[]
+image::images/cat/marc/merge-records-1.png[]
 +
 . Select the records you wish to merge. Click *Actions -> Merge Selected Records*.
 +
-image::images/cat/merge-records-5.png[]
+image::images/cat/marc/merge-records-2.png[]
 +
 . The merge screen opens in a pop-up window. 
 .. The record summary is listed above. You may shorten it by 
 clicking the double arrows. 
 .. Clicking *Toggle Holdings Display* will display the holdings information below each MARC record.  
 +
-image::images/cat/merge-records-6.png[]
+image::images/cat/marc/merge-records-3.png[]
 +
 . If after comparing the MARC records you determine that any of them are not a match for merging click 
 *Remove from consideration*. The record will no longer be included in the merge.
 +
-image::images/cat/merge-records-8.png[]
+image::images/cat/marc/merge-records-4.png[]
 +
 . Leave the merge profile as "Keep Local Fields".  Any 050, 055, 092, 590, 595, 690, 852, and 856 fields 
 from non-lead records will be moved to the lead record.
 +
-image::images/cat/merge-records-7.png[]
+image::images/cat/marc/merge-records-5.png[]
 +
 . From the remaining records determine which is the best record and click *Use as lead record*.
 +
-image::images/cat/merge-records-9.png[]
+image::images/cat/marc/merge-records-6.png[]
 +
 . Edit buttons will appear for the lead record. You can edit the record if edits are necessary.  Any edits need to 
 follow Sitka http://docs.libraries.coop/policy/_cataloguing_policy.html[Cataloguing Policy].
 +
-image::images/cat/merge-records-10.png[]
+image::images/cat/marc/merge-records-7.png[]
 +
 . Click *Merge*. The lead record will open in the catalogue in a new tab. 
 
