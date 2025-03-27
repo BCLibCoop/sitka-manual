@@ -95,14 +95,16 @@ a particular day, cancelled reservations and more.
 * _List of Reservations Cancelled within Time Span_
 * _Overdue Reservation Within Time Span_
 * _Overdue Reservations (New)_	
+* _Total Reservations Picked Up (Monthly)_
 
+////
 The _Bookings_ sub-folder _Monthly Stats_ contains templates for gathering montly statistics on bookings.
 
 .Key templates are:
 * _Total Reservations (Monthly) by Barcode_
 * _Total Reservations (Monthly) by Patron Type_
 * _Total Reservations Cancelled (Monthly)_
-* _Total Reservations Picked Up (Monthly)_
+////
 
 Circulation
 ^^^^^^^^^^^

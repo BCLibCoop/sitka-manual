@@ -8,8 +8,8 @@ The Reports interface is accessed in Evergreen by going to *Administration* -> *
 
 image::images/report/accessing-reports-1.png[]
 
-Users without reporter permissions granted to their staff account will see the message _You do 
-not have sufficient permissions to run reports_.
+Users without reporter permissions granted to their staff account will see the message _Sorry, you do 
+not have permission to access this_.
 
 image::images/report/accessing-reports-2.png[]
 
