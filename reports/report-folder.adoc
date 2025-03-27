@@ -50,17 +50,17 @@ image::images/report/report-create-folders-2.png[]
 . Enter a name for the folder.
 . Select the *Confirm* button.
 +
-image::images/report/report-create-folders-4.png[]
+image::images/report/report-create-folders-3.png[]
 +
 . The folder can now been seen in the appropriate folder tree.
 +
-image::images/report/report-create-folders-5.png[]
+image::images/report/report-create-folders-4.png[]
 
 [NOTE]
 ======
 When creating folders at the top level (directly under _Templates_, _Reports_, or _Output_) Evergreen will only display a button to add a top-level folder.
 
-image::images/report/report-create-folders-6.png[]
+image::images/report/report-create-folders-5.png[]
 ======
 
 
@@ -83,6 +83,9 @@ change the sharing settings.
 . Go to *Administration -> Reports*.
 . In the _My Folders_ section click on the name of the folder that you wish to manage.
 . Use the buttons at the top of the righthand pane to perform actions.
++
+image::images/report/report-manage-folders-1.png[]
++
 . You can:
 ** Remove filters
 ** Create a new template
