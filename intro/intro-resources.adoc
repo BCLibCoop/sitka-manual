@@ -1,11 +1,6 @@
 Sitka and Evergreen Resources
 -----------------------------
 
-*Sitka Policy*
-
-* http://docs.libraries.coop/policy/[Sitka's Evergreen Policy & Best Practices Manual] contains policy and best-practice documents 
-supporting Sitka's consortial installation of the Evergreen ILS.
-
 *Websites*
 
 * The BC Libraries Cooperative website (https://bc.libraries.coop/support/sitka/) provides information about 
@@ -15,6 +10,30 @@ and Sitka policy and governance documents.
 * See the Evergreen site (http://evergreen-ils.org/) for information about Evergreen for all audiences, 
 not specific to Sitka. Includes links to the Evergreen blog, the software development roadmap, 
 and general documentation.
+
+*Additional Sitka Resources*
+
+* http://docs.libraries.coop/policy/[Sitka's Evergreen Policy & Best Practices Manual] contains policy and best-practice documents 
+supporting Sitka's consortial installation of the Evergreen integrated library system (ILS).
+* https://docs.libraries.coop/acquisitions/[Sitka's Evergreen Acquisitions Documentation] contains 
+documentation on how to use the Acquisitions module in Sitka's Evergreen. The Acquisitions module 
+is an add-on service with additional costs. 
+* https://help.libraries.coop/catalogue/[Library Catalogue Help] is patron facing documenation on how
+to use the public catalogue.  The _Help_ link in the footer of the public catalogue links to this
+documentation.
+* https://help.libraries.coop/getting-started/[Getting Started] is a site intended for new staff at Sitka
+libraries.  It highlights basic functions in the different module in Evergreen and includes practice
+exercises.
+* https://help.libraries.coop/welcome/[Welcome to the BC Libraries Cooperative] is a site intended for 
+new administrators at Sitka libraries.  It highlights information relevant to administrators including 
+how to manage staff accounts, patron notifications, your public catalogue, and annual statistics. It also
+gives an overview of Interlibrary Connect and integrating Evergreen with 3rd party products.
+* https://www.youtube.com/channel/UCiMYBCQG4QJVT-B3Ruk0Ncg[BC Libraries Cooperative YouTube Channel] 
+includes short snippet and longer training videos on how to use the features and functions of Sitka's
+Evergreen.  It also includes recordings of the continuing training webinars.
+* https://bc.libraries.coop/support/sitka/training-server/[Sitka's Training Server] is available to all
+Sitka libraries and can be used for training new staff and exploring features your library doesn't 
+currently use.
 
 *Listservs*
 
@@ -30,8 +49,11 @@ Any library specific questions that include patron information should be directe
 
 * Evergreen Mailing Lists http://evergreen-ils.org/communicate/mailing-lists/
 ** Multiple lists for discussions of Evergreen inclding general, acquisitions, cataloguing, and circulation.
+
+////
 ** Messages sent to the General, Developer, and DIG Evergreen lists are searchable 
 at http://georgialibraries.markmail.org/search/
+////
 
 *Sitka Community Documentation*
 
