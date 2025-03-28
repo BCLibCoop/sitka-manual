@@ -38,18 +38,29 @@ image::images/intro/function-bar-2.png[]
 Grid Options
 ~~~~~~~~~~~~
 
-The *Grid Options* menu can be accessed from the _Function Bar_ by clicking on the 
-gear symbol.
+The *Grid Options* menu can be accessed from the xref:_function_bar[Function Bar] by clicking 
+on the gear symbol.
 
 image::images/intro/grid-options-1.png[]
 
+[NOTE]
+======
 Some options in the menu and the resulting screens will differ depending on the 
 version of the xref:_function_bar[function bar].
+======
 
 
 Columns
 ^^^^^^^
 (((Column Configuration)))
+
+Display Columns
++++++++++++++++
+
+Library staff can customize what columns display and how they display in the grid 
+for interfaces in the staff client using the *Manage Columns* option in the _Grid Options_. 
+
+
 
 . You can select the desired display columns from the dropdown list or,
 . Click *Manage columns* for more options.
@@ -62,14 +73,20 @@ Columns
 +
 image::images/intro/grid-options-2.png[]
 +
-. Click *Manage Column Widths*.
-.. Click *Expand* or *Shrink* to adjust column sizes.
+
 +
 image::images/intro/columnconfig3.png[]
 +
-. Click *Save Grid Settings*.
-+
-image::images/intro/columnconfig4.png[]
+
+Column Width
+++++++++++++
+
+The width of columns can be adjusted for the grids.  The method to do so depends on the 
+version of the function bar.
+
+. Click *Manage Column Widths*.
+.. Click *Expand* or *Shrink* to adjust column sizes.
+
 
 Manage Actions Menu
 ^^^^^^^^^^^^^^^^^^^
@@ -95,7 +112,9 @@ image::images/intro/columnconfig4.png[]
 Save Grid Settings
 ^^^^^^^^^^^^^^^^^^
 
-
+. Click *Save Grid Settings*.
++
+image::images/intro/columnconfig4.png[]
 
 
 Downloading and Printing
