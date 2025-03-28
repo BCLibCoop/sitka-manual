@@ -155,13 +155,11 @@ Colour Mode Setting
 The Evergreen staff client can be used in light mode or dark mode.
 
 By default Evergreen will use the colour mode setting from your operating system; however,
-you can manually select a mode from the Colour Mode menu.
+you can manually switch from _Auto_ to _Light_ or _Dark_ using the *Colour Mode* menu.
 
 image::images/intro/colour-mode-1.png[]
 
 image::images/intro/colour-mode-2.png[]
-
-
 
 
 Function Bar
