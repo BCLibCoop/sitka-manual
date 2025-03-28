@@ -1,15 +1,16 @@
 Getting Started
 ---------------
 
-Accessing the Evergreen Staff Client
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Accessing the Evergreen Staff Client for Sitka Libraries
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 * Sitka's Evergreen web client is only supported in Chrome. You must use Chrome to login to Evergreen.
 
 * The web client is responsive to device and to screen size, and can look different on different devices.
 
 * The URL to log into the staff client is *https://catalogue.libraries.coop/eg/staff/*
 
-image::images/intro/getstarted1.png[]
+image::images/intro/accessing-evergreen-1.png[]
 
 
 
@@ -45,7 +46,7 @@ image::images/intro/register-workstation-1.png[]
 . You will be prompted to register a workstation.
 . Choose your library short code from the drop down menu.
 +
-image::images/intro/getstarted3.png[]
+image::images/intro/register-workstation-2.png[]
 +
 . Enter a unique workstation name.
 +
@@ -60,12 +61,12 @@ you will lose your stored workstation settings and preferences.
 +
 .  Click *Register*.
 +
-image::images/intro/getstarted4.png[]
+image::images/intro/register-workstation-3.png[]
 +
 . The new workstation is listed in the *Workstations Registered With This Browser* menu.
 . Click *Use Now* to return to the login page.
 +
-image::images/intro/getstarted5.png[]
+image::images/intro/register-workstation-4.png[]
 +
 . Your newly registered workstation should be selected by default on the login page.
 +
@@ -82,16 +83,20 @@ Logging into Evergreen
 . Enter your username and password.
 . Verify that the correct workstation is selected and click *Sign In*.
 +
-image::images/intro/login.png[]
-. If your staff user name account lacks a working location, Evergreen blocks the login and prompts for a xref:_working_locations[Working Location].
+image::images/intro/login-1.png[]
++
+. If your staff user name account lacks a working location, Evergreen blocks the login and prompts 
+for a xref:_working_locations[Working Location].
++
+image::images/intro/login-2.png[]
 
 [TIP]
 =====
 
-If you cannot login try the following:
+If your account has a working location and you cannot login try the following:
 
-* Double check that you are using your username and not your barcode.  Your barcode cannot be used to log into the staff client unless your username is your barcode.
 * Use the visibility toggle to see your password and confirm it is correct.
+* Double check that you are using your username and not your barcode.  Your barcode cannot be used to log into the staff client unless your username is your barcode.
 * Have your local system administrator check that your account has not expired.
 * Have your local system administrator check that your account has a working location.
 
@@ -104,7 +109,7 @@ Logging Out of Evergreen
 . Click the menu button in the upper right-hand corner.
 . Select *Log Out* from the drop down menu.
 +
-image::images/intro/logout.png[]
+image::images/intro/logout-1.png[]
 +
 .  You will be prompted to confirm you wish to log out.  Click *Confirm* to complete your log out.
 
@@ -121,7 +126,7 @@ Change Operator
 . Click the menu button in the upper right-hand corner.
 . Select *Change Operator* fom the drop down menu.
 +
-image::images/intro/changeop1.png[]
+image::images/intro/change-operator-1.png[]
 +
 . Enter the username and password for the staff account you would like to switch to.
 . Choose a login type from the drop down menu.
@@ -129,7 +134,7 @@ image::images/intro/changeop1.png[]
 .. _Staff_ - The new operator will remain until the user selects *Restore Operator* from the *Menu*.
 .. _Persistent_ - The new operator will replace the original operator.
 +
-image::images/intro/changeop2.png[]
+image::images/intro/change-operator-2.png[]
 +
 . Click *OK/Continue*
 
