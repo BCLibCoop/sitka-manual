@@ -149,6 +149,21 @@ image::images/intro/change-operator-2.png[]
 Configuring Your Workstation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Colour Mode Setting
+^^^^^^^^^^^^^^^^^^^
+
+The Evergreen staff client can be used in light mode or dark mode.
+
+By default Evergreen will use the colour mode setting from your operating system; however,
+you can manually select a mode from the Colour Mode menu.
+
+image::images/intro/colour-mode-1.png[]
+
+image::images/intro/colour-mode-2.png[]
+
+
+
+
 Function Bar
 ^^^^^^^^^^^^
 (((Function Bar)))
@@ -183,7 +198,7 @@ by Last Name, then by First Name.
 . Click on the dropdown arrow or the settings symbol on the function bar to open the column picker.
 .. Some options in the menu and the resulting screens will differ depending on the version of the function bar.
 +
-image::images/intro/columnconfig1.png[]
+image::images/intro/column-configuration-1.png[]
 +
 . You can select the desired display columns from the dropdown list or,
 . Click *Manage columns* for more options.
@@ -194,7 +209,7 @@ image::images/intro/columnconfig1.png[]
 .. Use *Sort Priority* to prioritize how sorting should work. (A negative number will sort the column in reverse order.)
 ... This option only appears in certain cases.
 +
-image::images/intro/columnconfig2.png[]
+image::images/intro/column-configuration-2.png[]
 +
 . Click *Manage Column Widths*.
 .. Click *Expand* or *Shrink* to adjust column sizes.
