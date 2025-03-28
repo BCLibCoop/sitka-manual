@@ -328,6 +328,13 @@ Patrons
 The _Patrons_ folder contains templates primarily concerned with your patrons.  Templates have
 been divided into the following sub-folders.
 
+Library Staff
++++++++++++++
+
+Here you will find templates related to library staff accounts.
+.Key templates are:
+* _Staff Assigned to Supplementary Permission Group(s)_
+
 Patron Count
 ++++++++++++
 
@@ -365,8 +372,6 @@ opted-in to your library in a specified time period.
 * _xref:_monthly_patron_registration[Monthly Patron Registration]_
 * _Opted-in Patron Count within Time Frame_
 
-
-
 Others
 ++++++
 
@@ -376,6 +381,9 @@ Here you will find templates related to patrons that don't fit in the other cate
 * _Staff Assigned to Selected Permission Group(s)_
 * _Staff Assigned to Supplementary Permission Group(s)_
 * _User OPAC Login Count by Patron Home Library and Profile within Time Frame_
+
+
+////
 
 Serials
 ^^^^^^^
@@ -387,7 +395,7 @@ your collection.
 * _Serials Claiming (New)_
 
 
-////
+
 CAUTION: Cloning templates created on the old staff client (XUL in ui column) may not work perfectly. You may need to remove, then put back some fields during cloning.
 
 
