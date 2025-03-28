@@ -51,12 +51,6 @@ Columns
 ^^^^^^^
 (((Column Configuration)))
 
-.To customize your columns:
-. Click on the dropdown arrow or the settings symbol on the function bar to open the column picker.
-.. Some options in the menu and the resulting screens will differ depending on the version of the function bar.
-+
-image::images/intro/column-configuration-1.png[]
-+
 . You can select the desired display columns from the dropdown list or,
 . Click *Manage columns* for more options.
 .. Click *Visible* to make a column visible or hidden [T/F].
@@ -66,7 +60,7 @@ image::images/intro/column-configuration-1.png[]
 .. Use *Sort Priority* to prioritize how sorting should work. (A negative number will sort the column in reverse order.)
 ... This option only appears in certain cases.
 +
-image::images/intro/column-configuration-2.png[]
+image::images/intro/grid-options-2.png[]
 +
 . Click *Manage Column Widths*.
 .. Click *Expand* or *Shrink* to adjust column sizes.
