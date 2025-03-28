@@ -32,44 +32,66 @@ The steps below assume you have already created at least one folder in _Template
 done so, please see xref:_creating_folders[].
 
 . Go to *Administration* -> *Reports*
-. In the _Shared Folders_ section click on the arrow beside the _Templates_ folder to see the shared
-template folders. Use the arrows to expand the folder tree until you find the folder containing
+. In the _Shared Folders_ section click on the caret beside the _Templates_ folder to see the shared
+template folders. Use the carets to expand the folder tree until you find the folder containing
 the template you would like to clone.
 +
 image::images/report/clone-report-template-1.png[]
 +
-. Click on the folder name to display the contents.
+. Select the folder name to display the contents.
 +
 image::images/report/clone-report-template-2.png[]
 +
-. Check the box beside the template you wish to clone.
-. From the drop down menu choose *Clone selected template*.  Click *Submit*. 
-+
-image::images/report/clone-report-template-3.png[]
-+
 [TIP]
 =====
-By default Evergreen only displays the first 10 items in any folder. To view all content,
-change the _Limit output to_ setting from _10_ to _All_.
+By default, Evergreen only displays the first 10 items in any folder. To view all content, change the Rows grid setting from 10 to a higher number. Be aware that using 100 may cause performance issues.
 =====
 +
-. Click on the name of your folder where you'd like to save the cloned template and then 
-click *Select Folder*. 
+. Check the box beside the template you wish to clone.
+. Right click or use the *Actions* menu to choose *Clone Template*. 
 +
-image::images/report/clone-report-template-4.png[]
+image::images/report/clone-report-template-3.png[]
 +
 . The template editor will open.  For information on modifying templates see 
 xref:_modifying_report_templates[].
 . Update the template name and/or template description if desired.
-. Click *Save Template*
+. Select the name of your folder where you'd like to save the cloned template. 
++
+image::images/report/clone-report-template-4.png[]
++
+. Select *Save*.
 +
 image::images/report/clone-report-template-5.png[]
 +
-. A pop-up will appear confirming that you wish to save the template.  Click *OK/Continue*.
+. A pop-up will appear confirming that the _Template Saved Successfully_.
 . The template can now be found in the folder you saved it in.
 +
 image::images/report/clone-report-template-6.png[]
 
+Searching for Templates
+~~~~~~~~~~~~~~~~~~~~~~~
+(((Search, Report Templates)))
+(((Reporter, Searching for Templates)))
+
+If you do not know the home folder for a template you desire, or if you want to explore templates shared by other accounts, you can use the reporter search function.
+
+. Go to *Administration* -> *Reports*
+. Select the *Search& tab located above _My Folders_.
++
+image::images/report/search-report-template-1.png[]
++
+. Enter a search term in the field *Search Templates for String*.
+. Scope your search to _Name_, _Description_, or _All Fields_.
+. Limit your search to a particular folder using the carets beside the folder tree to locate your targeted folder, or leave the search at the _All Folders_ level.
++
+image::images/report/search-report-template-2.png[]
++
+. Select your desired template and right click or use your Actions menu to select Clone Template.
+. The template editor will open. For information on modifying templates, see the section on Modifying Templates.
+. Update the template name and/or template description if desired.
+. Select the name of your folder where you'd like to save the cloned template. 
+. Select *Save*. Once a template is saved it is not possible to edit the template. To make changes, clone a template and change the clone.
+. The template can now be found in the folder you saved it in.
 
 Running a Report
 ~~~~~~~~~~~~~~~~
