@@ -17,16 +17,11 @@ Cloning a Report Template
 (((Clone, Report Templates)))
 (((Reporter, Cloning Templates)))
 
-////
 [CAUTION]
 =========
-Cloning templates created on the old staff client (XUL in ui column) may not work perfectly. You 
+Cloning templates created in previous verions of Evergreen may not work perfectly. You 
 may need to remove, then put back some fields during cloning.
-
-IS THIS STILL TRUE?
 =========
-////
-
 
 link:https://youtu.be/0F0dulXsUKw[*Cloning Reports and Sitka Templates (2:35)*]
 

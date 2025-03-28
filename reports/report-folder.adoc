@@ -138,7 +138,7 @@ image::images/report/report-share-folders-3.png[]
 A shared sub-folder must be created in a shared folder.  The shared sub-folder must have the same
 share scope or a narrower share scope than the parent folder.
 
-image::images/report/report-share-folders-6.png[]
+image::images/report/report-share-folders-4.png[]
 
 Sub-folders created within unshared folders or folders that are shared with a wider scope than the 
 parent folder may result in folders not displaying at all.  
@@ -163,7 +163,7 @@ image::images/report/report-hide-folders-1.png[]
 +
 . The folder will now show under _My Folders_ without a library code in parentheses.
 +
-image::images/report/report-hide-folders-3.png[]
+image::images/report/report-hide-folders-2.png[]
 
 [CAUTION]
 =========
