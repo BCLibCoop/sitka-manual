@@ -74,6 +74,13 @@ image::images/intro/register-workstation-5.png[]
 +
 . You can now use any library staff account to log into Evergreen.
 
+[NOTE]
+======
+Library administrators at multi-branch libraries may wish to register multiple workstations 
+for certain computers/browsers.  See xref:_registered_workstations[] for information on
+how this can be done.
+======
+
 
 
 Logging into Evergreen
@@ -85,7 +92,7 @@ Logging into Evergreen
 +
 image::images/intro/login-1.png[]
 +
-. If your staff user name account lacks a working location, Evergreen blocks the login and prompts 
+. If your staff account lacks a working location, Evergreen blocks the login and prompts 
 for a working location.  See xref:_working_locations[] for information on how local system administrators
 can assign a working location.
 +
