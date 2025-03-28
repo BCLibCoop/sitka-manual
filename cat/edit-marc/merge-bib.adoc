@@ -3,9 +3,14 @@ Merging Bibliographic Records
 
 https://youtu.be/Why90G2qizg[*Sitka Training Video - Merging Duplicate Bibliographic Records (5:10)*]
 
-Each discrete bibliographic title in Evergreen should have a single record that all libraries attach 
-their holdings to. When this is not the case library staff with the cataloguing knowledge to correctly 
-identify matching MARC records can merge duplicate records together.
+Each discrete bibliographic title in Evergreen should have a single record that all libraries 
+attach their holdings to. When a title has multiple records library staff with 
+sufficient cataloguing knowledge can merge duplicate records together as per 
+https://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka's Cataloguing Policy] for 
+https://docs.libraries.coop/policy/_editing_bibliographic_records.html#_existing_records[Editing
+ Bibliographic Records].
+
+
 
 Any call number and item records, or holds, associated with the non-lead records will be transferred to 
 the lead record upon merging.
