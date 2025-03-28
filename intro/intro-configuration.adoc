@@ -34,8 +34,12 @@ image::images/intro/function-bar-2.png[]
 . Show Grid Options menu
 . Text wrap
 
-Column Configuration
-~~~~~~~~~~~~~~~~~~~~
+Grid Options
+~~~~~~~~~~~~
+
+Columns
+^^^^^^^
+
 (((Column Configuration)))
 
 From many screens and lists, you can click on the column picker drop-down menu to change which columns
@@ -71,7 +75,7 @@ image::images/intro/columnconfig3.png[]
 image::images/intro/columnconfig4.png[]
 
 Manage Actions Menu
-~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^
 (((Manage Actions Menu)))
 (((Actions Menu)))
 
@@ -90,6 +94,49 @@ image:images/intro/columnconfig6.png[scaledwidth="75%"]
 . Select *Save Grid Settings*.
 +
 image::images/intro/columnconfig4.png[]
+
+Downloading and Printing
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+There are three ways to print the information in the grid and one way to download it.  In all
+cases the list will only include the items currently displaying on the screen.
+
+Print Full List
++++++++++++++++
+
+The *Print Full List* button will open a print dialogue and allow you to print the list.  The columns 
+that print will depend on the library’s print template for the Hold Pull List. See 
+xref:_print_templates[] for information
+on print templates.
+
+image:images/circ/print-hold-pull-list-1.png[scaledwidth="75%"]
+
+
+Print Full Grid
++++++++++++++++
+
+The *Print Full Grid* option available on the *Grid Options* menu (Gear Icon) will open a print dialogue and 
+allow you to print the list which will include all the columns currently visible on the screen. 
+
+image:images/circ/print-hold-pull-list-2.png[scaledwidth="75%"]
+
+Print Selected Rows
++++++++++++++++++++
+
+The *Print Selected Rows* option available on the *Grid Options* menu (Gear Icon) will open a print dialogue and 
+allow you to print the selected rows as a list which will include all the columns currently visible 
+on the screen. 
+
+image:images/circ/print-hold-pull-list-3.png[scaledwidth="75%"]
+
+Download Full CSV
++++++++++++++++++
+
+The *Download Full CSV* option available on the *Grid Options* menu (Gear Icon) will download a CSV file 
+which will include all the columns currently visible on the screen. 
+
+image:images/circ/download-hold-pull-list-1.png[scaledwidth="75%"]
+
 
 Library Selector
 ~~~~~~~~~~~~~~~~
