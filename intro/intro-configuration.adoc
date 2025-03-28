@@ -21,7 +21,8 @@ Function Bar
 The function bar can be found throughout Evergreen and enables you to page through pages,
 adjust the number of rows displaying, access the Actions menu, and manage your columns and Actions menus.
 
-The function bar comes in two styles with similar functionality.
+The function bar currently comes in two styles with similar functionality.  Eventually all
+interfaces in the staff client will use the second function bar pictured below.
 
 image::images/intro/function-bar-1.png[]
 
@@ -37,16 +38,18 @@ image::images/intro/function-bar-2.png[]
 Grid Options
 ~~~~~~~~~~~~
 
+The *Grid Options* menu can be accessed from the _Function Bar_ by clicking on the 
+gear symbol.
+
+image::images/intro/grid-options-1.png[]
+
+Some options in the menu and the resulting screens will differ depending on the 
+version of the xref:_function_bar[function bar].
+
+
 Columns
 ^^^^^^^
-
 (((Column Configuration)))
-
-From many screens and lists, you can click on the column picker drop-down menu to change which columns
-are displayed. Various search results tables may not default to the most useful columns. For instance,
-the patron search results page may be easier to use if you change the columns to Card, Last Name,
-First Name, Middle Name, and Primary Identification, and you may wish to have the results sort
-by Last Name, then by First Name.
 
 .To customize your columns:
 . Click on the dropdown arrow or the settings symbol on the function bar to open the column picker.
@@ -95,22 +98,17 @@ image:images/intro/columnconfig6.png[scaledwidth="75%"]
 +
 image::images/intro/columnconfig4.png[]
 
+Save Grid Settings
+^^^^^^^^^^^^^^^^^^
+
+
+
+
 Downloading and Printing
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-There are three ways to print the information in the grid and one way to download it.  In all
+There are two ways to print the information in the grid and one way to download it.  In all
 cases the list will only include the items currently displaying on the screen.
-
-Print Full List
-+++++++++++++++
-
-The *Print Full List* button will open a print dialogue and allow you to print the list.  The columns 
-that print will depend on the library’s print template for the Hold Pull List. See 
-xref:_print_templates[] for information
-on print templates.
-
-image:images/circ/print-hold-pull-list-1.png[scaledwidth="75%"]
-
 
 Print Full Grid
 +++++++++++++++
