@@ -112,26 +112,23 @@ to assist with troubleshooting.
 Sharing Your Folders
 ++++++++++++++++++++
 
-Folders can be set as shared when they are created or updated afterwards.
+Folders can be shared at any time after they are created.
 
 . Go to *Administration -> Reports*.
 . In the _My Folders_ section click on the name of the folder that you wish to share.
-. Click the *Share Folder* button.
+. Select the *Share Folder* button.
 +
 image::images/report/report-share-folders-1.png[]
 +
-. Select the level at which you would like to share your folder.
-+
-image::images/report/report-share-folders-3.png[]
-+
+. Select the level at which you would like to share your folder. Please choose your library, do not choose SITKA.
 . Click *Save*.
 +
-image::images/report/report-share-folders-4.png[]
+image::images/report/report-share-folders-2.png[]
 +
 . The folder will now show under _My Folders_ with the library code of the organizational unit it is 
 shared with in parentheses. 
 +
-image::images/report/report-share-folders-5.png[]
+image::images/report/report-share-folders-3.png[]
 +
 . If you wish to change the share scope for the folder you must xref:_hiding_your_folders[hide the folder]
  and then re-share it with the new share scope.
@@ -156,11 +153,11 @@ Hiding Your Folders
 (((Hide, Report Folders)))
 (((Report Folders, Hide)))
 
-Folders are hidden by default.  Folders that have been shared can be hidden.
+Folders are hidden (unshared) by default.  Folders that have been shared can be hidden (unshared).
 
 . Go to *Administration -> Reports*.
 . In the _My Folders_ pane click on the name of the folder that you wish to hide.
-. Click the *Unshare Folder* button.
+. Select the *Unshare Folder* button.
 +
 image::images/report/report-hide-folders-1.png[]
 +
@@ -190,8 +187,7 @@ The top level of shared folders displays the username of the account that has sh
 While it is most common for users to share template folders, reports and output folders can be shared
 as well.
 
-You can only view the contents of the shared folders or clone the templates into your own folders.
-
+You can only view the contents of the shared folders or clone the templates into your own folders. 
 
 
 
