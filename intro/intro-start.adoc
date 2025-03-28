@@ -86,7 +86,8 @@ Logging into Evergreen
 image::images/intro/login-1.png[]
 +
 . If your staff user name account lacks a working location, Evergreen blocks the login and prompts 
-for a xref:_working_locations[Working Location].
+for a working location.  See xref:_working_locations[] for information on how local system administrators
+can assign a working location.
 +
 image::images/intro/login-2.png[]
 
