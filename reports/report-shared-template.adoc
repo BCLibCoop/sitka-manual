@@ -93,8 +93,7 @@ a particular day, cancelled reservations and more.
 .Key templates are:
 * _All Reservations Starting After a Certain Day with Return Time_
 * _List of Reservations Cancelled within Time Span_
-* _Overdue Reservation Within Time Span_
-* _Overdue Reservations (New)_	
+* _Overdue Reservations_	
 * _Total Reservations Picked Up (Monthly)_
 
 ////
@@ -142,19 +141,29 @@ including hourly, done via the staff client, self check machines, and public cat
 * _Circulation Return Count by Checkin Scan Hour at Selected Workstations_
 * _Count of Circulations and Unique Borrowers by Hour of Day within Time Frame_
 
-Overdue and others
-++++++++++++++++++
+Lost
+++++
+
+Here you will find templates that will give lists of items that have been marked Lost.
+
+.Key templates are:
+* _Lost-with-Bills Item List including patron email_
+* _Lost-with-Bills Item List (Owned by Selected Libraries) (x Months ago)_
+
+Overdues
+++++++++
 
 Here you will find templates that will give lists of items in a particular state of circulation.  Many of
 these templates include patron information in the display fields to assist staff in following up with 
 the applicable patrons.
 
 .Key templates are:
+* _Overdue Items List_
 * _Claimed Returned Items belonging to Selected Libraries (by copy status change date)_
-* _Lost-with-Bills Item List (Owned by Selected Libraries) (x Months ago)_
 * _Overdue Items Checked out at Other Libraries_ - helps track your items borrowed by another library
 * _Overdues Within Time Span -Phone List for Patrons without Email (based on Checkout Library)_
 * _xref:_overdues_within_time_span_general_based_on_checkout_library[Overdues Within Time Span - General (Based on Checkout Library)]_
+
 
 In-house use stats
 ++++++++++++++++++

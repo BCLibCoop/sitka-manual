@@ -11,7 +11,7 @@ The folders pane in the reporter is divided into two sections:
 * _My Folders_ which contains the folders created with your Evergreen account.
 * _Shared Folders_ which contains folders shared with you by other users.
 
-image::images/report/report-folders-1.png[]
+image::images/report/report-folder-1.png[]
 
 There are three main components used by the reporter which each much be stored in a separate folder:
 
@@ -41,26 +41,26 @@ To create a folder within _Templates_, _Reports_, or _Output_:
 . In the _My Folders_ section click on the folder you would like to create a sub-folder in. You may 
 need to click on the caret(s) to expand the relevant folder tree.
 +
-image::images/report/report-create-folders-1.png[]
+image::images/report/report-create-folder-1.png[]
 +
 . Select the button *Add Subfolder*.
 +
-image::images/report/report-create-folders-2.png[]
+image::images/report/report-create-folder-2.png[]
 +
 . Enter a name for the folder.
 . Select the *Confirm* button.
 +
-image::images/report/report-create-folders-3.png[]
+image::images/report/report-create-folder-3.png[]
 +
 . The folder can now been seen in the appropriate folder tree.
 +
-image::images/report/report-create-folders-4.png[]
+image::images/report/report-create-folder-4.png[]
 
 [NOTE]
 ======
 When creating folders at the top level (directly under _Templates_, _Reports_, or _Output_) Evergreen will only display a button to add a top-level folder.
 
-image::images/report/report-create-folders-5.png[]
+image::images/report/report-create-folder-5.png[]
 ======
 
 

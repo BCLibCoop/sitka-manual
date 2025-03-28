@@ -6,12 +6,12 @@ Accessing the Reporter
 
 The Reports interface is accessed in Evergreen by going to *Administration* -> *Reports*.
 
-image::images/report/accessing-reports-1.png[]
+image::images/report/accessing-report-1.png[]
 
 Users without reporter permissions granted to their staff account will see the message _Sorry, you do 
 not have permission to access this_.
 
-image::images/report/accessing-reports-2.png[]
+image::images/report/accessing-report-2.png[]
 
 Any staff needing access to the reporter must sign and submit the 
 https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/full-reporter-privacy-waiver/[Full 
