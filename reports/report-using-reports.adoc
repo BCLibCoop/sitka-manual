@@ -238,7 +238,7 @@ enter between "1900-01-01" and "today's date".
 When running recurring reports it's very important to use _Relative Dates_ in your filters.  This will
 allow Evergreen to calculate the time period to report on each time it runs the report. A relative date of
 1 month ago will generate a new report each month on the previous month's data; a real date of November
-2022 will generate the same report each month with the data from November 2022.  
+2024 will generate the same report each month with the data from November 2024.  
 
 [TIP]
 =====
@@ -246,8 +246,7 @@ You can set up recurring monthly reports to show comparative data from one year 
 select relative dates of 1 month ago and 13 months ago.
 =====
 
-Use the drop down menu to switch from _Real Date_ to _Relative Date_.  For a report filtering on month, you 
-will be able to indicate how many months ago the report should look at.  
+Use the _Relative time value_ checkbox under _Filter value_ to switch from a specific real date to a relative date. For a report filtering on month, you will be able to indicate how many months ago the report should look at.  
 
 image::images/report/reports-filters-2.png[]
 
@@ -275,7 +274,7 @@ Other Filters
 +++++++++++++
 
 While many filters will require staff to select values from a given list, some filters will require staff to 
-type a value into the filter _User Params_ field. In those cases the report will generally indicate
+type a value into the _Filter value_ field. In those cases the report will generally indicate
 how the text should be entered so that Evergreen can use the value and generate usable report output.
 
 image::images/report/reports-filters-4.png[]
@@ -284,7 +283,6 @@ Some report templates will have just hardcoded filters and a single library filt
 staff to enter a value while other reports will have multiple filters where staff need to enter values
 for the library, dates, and patron or item data.
 
-image::images/report/reports-filters-5.png[]
 
 Recurring Reports
 ^^^^^^^^^^^^^^^^^
@@ -658,16 +656,6 @@ image::images/report/reports-edit-report-def-4.png[]
 image::images/report/reports-edit-report-def-5.png[]
 +
 . A pop-up appears confirming the report has been saved. Click *OK*.
-
-[CAUTION]
-=========
-There is a bug where relative dates don't display properly when editing a report definition. The drop down
-switches to _Real Date_ and the value is [object Object].
-
-image::images/report/reports-edit-report-def-6.png[]
-=========
-
-TIP: We suggest you edit recurring reports in the Pending Items in Output folder, as only the pending items are to be updated. 
 
 ////
 
