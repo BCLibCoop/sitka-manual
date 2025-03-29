@@ -86,7 +86,7 @@ image::images/report/search-report-template-1.png[]
 +
 image::images/report/search-report-template-2.png[]
 +
-. Select your desired template and right click or use your Actions menu to select Clone Template.
+. Select your desired template and right click or use the *Actions* menu to select *Clone Template*.
 . The template editor will open. For information on modifying templates, see the section on Modifying Templates.
 . Update the template name and/or template description if desired.
 . Select the name of your folder where you'd like to save the cloned template. 
@@ -112,69 +112,54 @@ found in xref:_report_definition_examples[].
 ===== 
 
 . Go to *Administration* -> *Reports*
-. In the _My Folders_ section click on the arrow beside the _Templates_ folder to see your 
-template folders. Use the arrows to expand the folder tree until you find the folder containing
+. In the _My Folders_ section select the caret beside the _Templates_ folder to see your 
+template folders. Use the carets to expand the folder tree until you find the folder containing
 the template you would like to use for your report.
+. Select a folder name to display the contents.
 +
 image::images/report/reports-run-1.png[]
 +
-. Click on the folder name to display the contents.
+. Double click on the desired template name or check the box beside the template you wish to use and then right click or use the *Actions* menu to select _New Report_.
+. Enter a name for your report. Report names must be unique, or the report cannot be saved.
++
+[TIP]
+=====
+A best practice for naming reports is to use the same name as the template you used. This makes it easy to track outputs and reports back to the template used. If multiple reports are made from the same template, the format of 'template name' - 'report characteristic' can make those reports easy to track.
+=====
+. Optionally, enter a description for your report.
 +
 image::images/report/reports-run-2.png[]
 +
-. Check the box beside the template you wish to use.
-. *Create a new report from selected template* will be selected by default.  Click *Submit*. 
+. The display columns selected in the template are listed on the Columns tab. You can navigate between tabs by clicking on the tabs or by using the Previous and Next buttons at the bottom of the screen.
 +
 image::images/report/reports-run-3.png[]
 +
-. Enter a name for your report.
-+
-Optionally, enter a description for your report.
+. On the Filters tab, enter values for any filters. For more information on filter values see xref:_report_filters[].
 +
 image::images/report/reports-run-4.png[]
 +
-. The display columns included in the output are listed as Report columns.
+[NOTE]
+=====
+Instead of scrolling through the options in the filter lists, you can place your cursor in the filter value box and then on your keyboard start typing the first few letters that the option you want starts with. This will limit your list to just those options that match what you have typed.
+=====
 +
-Pivot Label Column and Pivot Data Column are optional. Pivot tables are a different way to view data. If you
-currently use pivot tables in MS Excel it is better to select an Excel output and continue using pivot tables
-in Excel. Please note that Pivot tables are only suitable for some types of result data.
+. On the Layout and Scheduling tab you can make a number of choices about the final output.
 +
 image::images/report/reports-run-5.png[]
 +
-. Choose the Reports folder you would like to save the reports definition in.
-+
-image::images/report/reports-run-6.png[]
-+
-. Enter values for any filters.  For more information on filter values see 
-xref:_report_filters[].
-+
-image::images/report/reports-run-7.png[]
-+
-[NOTE]
-======
-Instead of scrolling through the options in the filter lists you can click on one of the visible options
-and then on your keyboard press the letter the option you want starts with.  This will jump you to that
-spot in the list.
-======
-+
-. Check the boxes to select the types of output you would like.
-+
-Check the _Calculate grouping subtotals_ check box to add an unlabeled row or column 
-with the subtotals for each grouping and an unlabeled grand total row or column. Please note group 
-subtotals and grand totals will only be useful with some reports.
-+
-image::images/report/reports-run-8.png[]
-+
+.. *Pivot Label Column* and *Pivot Data Column* are optional. Pivot tables are a different way to view data. If you currently use pivot tables to manipulate report data in Microsoft Excel, it is better to select an Excel output and continue using pivot tables in Excel. Note that pivot tables are only suitable for some types of result data.
+.. Select the checkboxes to _Choose your output format(s)_. Multiple options may be selected.
+... Select the _Calculate grouping subtotals_ checkbox to add an unlabeled row or column with the subtotals for each grouping and an unlabeled grand total row or column. Note, group subtotals and grand totals will only be useful with some reports.
+... _Excel output_ will create a file to export the data to Excel.
+... _CSV Output_ will create a data file in comma-separated values format. This is the file format required to do a batch load on the Item Status screen.
+... _HTML Output_ creates a simple table view of the data that is viewable in your browser environment. HTML Output is sometimes referred to as tabular output.
+... _Bar Chart_ will create a very simple bar chart of your data. Note, bar charts will only be useful with some reports.
+... _Line Chart_ will create a very simple line chart of your data. Note, line charts will only be useful with some reports.
 . Leave the recurring and run time options as is unless you are running a recurring report.  See
 xref:_recurring_reports[].
-+
-image::images/report/reports-run-9.png[]
-+
 . Optionally, enter an email address to send the report completion notification to.  By default this 
 field will contain the email address saved in your staff account. Additional addresses can be added 
 separated by a comma.
-+
-image::images/report/reports-run-10.png[]
 +
 [NOTE]
 ======
@@ -186,11 +171,15 @@ https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/all-staff-report
 Staff Reporter Privacy Waiver].
 ======
 +
-. Choose the Ouput folder you would like to save the report output in and then click *Save Report*.
+. On the right side of the screen, Choose the _Report Folder_ and _Output Folder_ you would like to save the report and output in.
 +
-image::images/report/reports-run-11.png[]
+image::images/report/reports-run-6.png[]
 +
-. A pop-up appears confirming the report has been saved. Click *OK*.
+. Select *Save and schedule report*.
++
+image::images/report/reports-run-7.png[]
++
+. A confirmation will appear in the lower right of the screen indicating that the report has successfully saved.
 . Unless you have set a specific run time the report will run right away.  If your report has not 
 completed after 15 minutes please contact https://bc.libraries.coop/support/[Co-op Support].
 . Once the report is complete you can view your output.  See xref:_viewing_report_output[]. 
