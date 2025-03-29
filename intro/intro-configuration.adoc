@@ -60,6 +60,8 @@ Display Columns
 Library staff can customize what columns display and how they display in the grid 
 for interfaces in the staff client using the *Manage Columns* option in the _Grid Options_. 
 
+Available configuration options are:
+
 
 
 . You can select the desired display columns from the dropdown list or,
@@ -71,7 +73,7 @@ for interfaces in the staff client using the *Manage Columns* option in the _Gri
 .. Use *Sort Priority* to prioritize how sorting should work. (A negative number will sort the column in reverse order.)
 ... This option only appears in certain cases.
 +
-image::images/intro/grid-options-2.png[]
+image::images/intro/grid-display-columns-1.png[]
 
 
 Column Width
@@ -80,8 +82,17 @@ Column Width
 The width of columns can be adjusted for the grids.  The method to do so depends on the 
 version of the function bar.
 
-. Click *Manage Column Widths*.
-.. Click *Expand* or *Shrink* to adjust column sizes.
+In newer interfaces you can use your cursor to drag the edges of the columns to expand or
+shrink them. You can also set a width, measured in characters, by selecting *Manage Columns*
+from the *Grid Options* menu. You can then enter a value in the _Width (Characters)_ field
+for the applicable column.
+
+image::images/intro/grid-column-width-1.png[]
+
+In older interfaces you can select *Manage Column Widths* from the *Grid Options* menu and
+then click *Expand* or *Shrink* to adjust the column sizes.
+
+image::images/intro/grid-column-width-2.png[]
 
 
 Manage Actions Menu
