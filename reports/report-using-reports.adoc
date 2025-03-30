@@ -303,9 +303,9 @@ Staff Reporter Privacy Waiver].
 
 
 To set up a recurring report, follow the procedure in xref:_running_a_report[] until you reach
-step 11 and then follow the steps below.
+the _Recurrence_ and _Scheduling_ sections and then follow the steps below.
  
-. Check the box for *Recurring Report*.
+. Select the box for *Recurring Report*.
 . Select your desired _Recurrence Interval_. Reports can run on a daily, weekly, or monthly interval.
 +
 [TIP] 
@@ -316,7 +316,7 @@ an extra day's data. See xref:_report_date_filters[] for more information on wor
 a recurring report.
 =====
 +
-. Check the box beside the date and set the date of the first run of the report.
+. Select _Schedule Report for Later_ and set the date and time of the first run of the report.
 +
 image::images/report/reports-recurring-1.png[]
 +
@@ -333,7 +333,7 @@ data.
 field will contain the email address saved in your staff account. Additional addresses can be added 
 separated by a comma.
 +
-image::images/report/reports-run-10.png[]
+image::images/report/reports-recurring-2.png[]
 +
 [NOTE]
 ======
@@ -345,11 +345,11 @@ https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/all-staff-report
 Staff Reporter Privacy Waiver].
 ======
 +
-. Choose the Ouput folder you would like to save the report output in and then click *Save Report*.
+. On the right side of the screen, Choose the _Report Folder_ and _Output Folder_ you would like to save the report and output in and then select *Save and Schedule Report*.
 +
 image::images/report/reports-run-11.png[]
 +
-. A pop-up appears confirming the report has been saved. Click *OK*.
+. A confirmation will appear in the lower right corner of the screen with _Report Saved Successfully_.
 . Unless you have set a specific run time the report will run right away.  If your report has not 
 completed after 15 minutes please contact https://bc.libraries.coop/support/[Co-op Support].
 . Once the report is complete you can view your output.  See xref:_viewing_report_output[]. 
@@ -362,8 +362,7 @@ Viewing Report Output
 
 link:https://youtu.be/SeAiy3jBVGg[*Viewing Report Output (2:08)*]
 
-Once a report is finished, the output is stored in the specified _Output_ folder and will remain there until
-manually deleted. If an email address was included in the report definition Evergreen will send an
+Once a report is finished, the output is stored in the specified _Output_ folder and will remain there until deleted. Co-op Support automatically deletes report output after one year. If an email address was included in the report definition Evergreen will send an
 email containing a link to the password-protected report output.
  
 Only staff members with permissions to view reports or full access to the reporter will be able to 
@@ -384,20 +383,15 @@ Viewing Output via the Reporter
 (((Reporter, View Report Output via the Reporter)))
 
 . Go to *Administration* -> *Reports*.
-. In the _My Folders_ section click on the arrow beside the _Output_ folder to see your output folders. 
-Use the arrows to expand the folder tree until you find the folder containing the 
+. In the _My Folders_ section select the caret beside the _Output_ folder to see your output folders. 
+Use the carets to expand the folder tree until you find the folder containing the 
 output you'd like to view. 
-+
-image::images/report/report-output-1.png[]
-+
-. Click on the folder name to display the contents.
+. Select the folder name to display the contents.
 +
 image::images/report/report-output-2.png[]
 +
-. Output will display either under _Pending Items_ or _Completed Items_.  Click on the folder name
-again to refresh if your output hasn't completed yet.
-. Check the box beside the output you would like to view.
-. *View report output* will be selected by default.  Click *Submit*.
+. Output will display either under _Pending_ or _Complete_.  Use the *Refresh Grids* button at the top of the screen or the *Refresh* button under each section if your output hasn’t completed yet.
+. Double click on the line for the output you would like to view or check the box beside the completed output you would like to view and right click or use the *Actions* menu to _View Output_.
 +
 image::images/report/report-output-3.png[]
 +
@@ -413,14 +407,20 @@ forms the bar and/or line chart will display.
 +
 image::images/report/report-output-5.png[]
 +
-. Click on *Excel Output* or *CSV Output* to download the output as a file that can be opened in a 
+. Select *Excel Output* or *CSV Output* to download the output as a file that can be opened in a 
 spreadsheet program.  You will be prompted to open or save the the output file.
-. Click on *Tabular Output* to view the output in the browser.
+. Select *Tabular Output* to view the output in the browser.
 +
 The tabular output will display and can be sorted by clicking on a column heading.
 +
 image::images/report/report-output-6.png[]
-
++
+[NOTE]
+======
+On the Outputs folder view of completed outputs, the buttons under the Output column will allow you to interact with the various files and views without first having to use the View Output option to open a new tab.
+======
++
+image::images/report/report-output-1.png[]
 
 Viewing Output via the Email Link
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -460,9 +460,9 @@ forms the bar and/or line chart will display.
 +
 image::images/report/report-output-5.png[]
 +
-. Click on *Excel Output* or *CSV Output* to download the output as a file that can be opened in a 
+. Select *Excel Output* or *CSV Output* to download the output as a file that can be opened in a 
 spreadsheet progam.  You will be prompted to open or save the the output file.
-. Click on *Tabular Output* to view the output in the browser.
+. Select *Tabular Output* to view the output in the browser.
 +
 The tabular output will display and can be sorted by clicking on a column heading.
 +
