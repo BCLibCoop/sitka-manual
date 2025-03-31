@@ -212,7 +212,7 @@ the bibliographic record ID is -1 which is all pre-cat records.
 |Call Number/Volume -> Call Number/Volume ID |Raw Data |Not in list |-1 | Exclude all records where
 the call number ID is -1 which is all pre-cat records.
 |Circulation -> Check In Date/Time |Date |Is NULL| |Include only items that have not been checked in.
-|Circulation -> Circulating Item -> Copy Status -> Name |Raw Data |Equals | name of an item status | Include
+|Circulation -> Circulating Item -> Item Status -> Name |Raw Data |Equals | name of an item status | Include
 only items that are in the specified item status.
 |Circulation -> Fine Stop Reason |Raw Data |Not in list |LOST | Exclude items that have stopped generating
 fines because they have been set to lost.
