@@ -113,16 +113,6 @@ include::reports/report-using-reports.adoc[]
 
 include::reports/report-shared-template.adoc[]
 
-////
-include::reports/report-generate-report.adoc[]
-
-include::reports/report-view-output.adoc[]
-
-include::reports/report-recurring-report.adoc[]
-
-include::reports/report-edit-recurring-report.adoc[]
-////
-
 include::reports/report-modify-template.adoc[]
 
 include::reports/report-create-template.adoc[]
