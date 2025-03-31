@@ -50,7 +50,7 @@ version of the xref:_function_bar[function bar].
 =====
 When saved, grid options are saved for the particular workstation. If you need
 to xref:_registering_a_staff_workstation[re-register your workstation] you should use 
-the original workstation's name or you will need to reset all your grid settings across
+the original workstation's name or you will need to re-set all your grid settings across
  the staff client.
 =====
 
@@ -123,7 +123,7 @@ Save Grid Settings
 ^^^^^^^^^^^^^^^^^^
 
 Changes made to a grid through the grid options are temporary and the display of the 
-grid will revert to its previous settings the next time it is viewed unless the grid 
+grid will revert to its previous settings the next time it's viewed unless the grid 
 settings are saved.
 
 . Click on the *Show Grid Options (gear icon)* menu.
@@ -194,7 +194,7 @@ Some interfaces include filters that enable staff to filter the available rows i
 
 image::images/intro/filters-1.png[]
 
-Depending on the data in the field the filters will either allow you to filter on yes/no/any
+Depending on the data in the field the filters will either allow you to filter on Any/Yes/No
  or the text values.
 
 image::images/intro/filters-2.png[]
@@ -202,9 +202,10 @@ image::images/intro/filters-2.png[]
 
 image::images/intro/filters-3.png[]
 
-When a column is filtered it will display with a blue Filter that can be edited to change the value of the filter.
-Filters can be removed individually per column by clearing the filter or all filters can be removed at once
-using the *Remove Filters* button.
+When a column is filtered it will display with an edit icon. Clicking on that icon 
+enables you to change the value of the filter. Filters can be removed individually per 
+column by clearing the filter or all filters can be removed at once using the 
+*Remove Filters* button.
 
 image::images/intro/filters-4.png[]
 
