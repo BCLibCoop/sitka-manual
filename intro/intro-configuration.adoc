@@ -43,11 +43,16 @@ on the gear symbol.
 
 image::images/intro/grid-options-1.png[]
 
-[NOTE]
-======
 Some options in the menu and the resulting screens will differ depending on the 
 version of the xref:_function_bar[function bar].
-======
+
+[TIP]
+=====
+When saved, grid options are saved for the particular workstation. If you need
+to xref:_registering_a_staff_workstation[re-register your workstation] you should use 
+the original workstation's name or you will need to re-set all your grid settings across
+ the staff client.
+=====
 
 
 Columns
@@ -62,17 +67,14 @@ for interfaces in the staff client using the *Manage Columns* option in the _Gri
 
 Available configuration options are:
 
+* *Visible*: Whether a column is visible or hidden.
+* *Align*: Whether the contents of the column aligns left, center, or right.  By default, text
+aligns left and numbers align right.
+* *Width (Characters)*: What the width of a column is.
+* *Sort Priority*: What order the data is sorted by default when displayed in the grid.
+* *Move*: What order the columns display in.  Columns can also be manually dragged and dropped
+ when viewing the grid.
 
-
-. You can select the desired display columns from the dropdown list or,
-. Click *Manage columns* for more options.
-.. Click *Visible* to make a column visible or hidden [T/F].
-.. Click *Sort Visible Columns to Top*.
-.. Click *Move Up* or *Move Down* to change column position.
-.. Click *First Visible* or *Last Visible* to move the selected column to the top or bottom of the list.
-.. Use *Sort Priority* to prioritize how sorting should work. (A negative number will sort the column in reverse order.)
-... This option only appears in certain cases.
-+
 image::images/intro/grid-display-columns-1.png[]
 
 
@@ -100,28 +102,34 @@ Manage Actions Menu
 (((Manage Actions Menu)))
 (((Actions Menu)))
 
-On one version of the Function Bar, found on some screens, you can choose *Manage Actions Menu*  to change which actions are displayed and available. The action choices vary from screen to screen.
+
+The newer xref:_function_bar[function bar] includes the *Manage Actions Menu* option.
 
 . Click on the *Show Grid Options (gear icon)* menu.
 . Select *Manage Actions Menu*.
 +
-image:images/intro/columnconfig5.png[scaledwidth="75%"]
+image:images/intro/grid-manage-action-menu-1.png[scaledwidth="75%"]
 +
 . Make required changes and click *Close*.
 +
-image:images/intro/columnconfig6.png[scaledwidth="75%"]
+image:images/intro/grid-manage-action-menu-2.png[scaledwidth="75%"]
 +
 . Click on the *Show Grid Options (gear icon)* menu again.
 . Select *Save Grid Settings*.
 +
-image::images/intro/columnconfig4.png[]
+image::images/intro/grid-manage-action-menu-3.png[]
 
 Save Grid Settings
 ^^^^^^^^^^^^^^^^^^
 
+Changes made to a grid through the grid options are temporary and the display of the 
+grid will revert to its previous settings the next time it's viewed unless the grid 
+settings are saved.
+
+. Click on the *Show Grid Options (gear icon)* menu.
 . Click *Save Grid Settings*.
 +
-image::images/intro/columnconfig4.png[]
+image::images/intro/grid-manage-action-menu-3.png[]
 
 
 Downloading and Printing
@@ -162,7 +170,7 @@ Library Selector
 
 Some interfaces include a library selector that enables staff to set the scope for the interface.
 
-There are currently several styles of the library selector.
+There are currently several styles of the library selector.  
 
 The library selector in newer interfaces shows the full names of the library if 
 xref:_include_full_library_names_in_library_selector[full names are enabled].
@@ -182,22 +190,35 @@ Filters
 ~~~~~~~
 (((Filters)))
 
-Some interfaces include filters that enable staff to filter the available rows.
+Some interfaces include filters that enable staff to filter the available rows in the grid.
 
 image::images/intro/filters-1.png[]
 
-Depending on the data in the field the filters will either allow you to filter on true/false or the text values.
+Depending on the data in the field the filters will either allow you to filter on Any/Yes/No
+ or the text values.
 
 image::images/intro/filters-2.png[]
 
 
 image::images/intro/filters-3.png[]
 
-When a column is filtered it will display with a blue Filter that can be edited to change the value of the filter.
-Filters can be removed individually per column by clearing the filter or all filters can be removed at once
-using the *Remove Filters* button.
+When a column is filtered it will display with an edit icon. Clicking on that icon 
+enables you to change the value of the filter. Filters can be removed individually per 
+column by clearing the filter or all filters can be removed at once using the 
+*Remove Filters* button.
 
 image::images/intro/filters-4.png[]
+
+[NOTE]
+======
+
+Some interfaces, such as the xref:_shelving_location_editor[Shelving Location Editor],
+have default filters applied.  The Shelving Location Editor has the filter for 
+_Is Deleted_ set to _No_ so that deleted shelving locations do not display by default.
+
+image::images/intro/filters-5.png[]
+
+======
 
 Workstation Administration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
