@@ -170,7 +170,7 @@ Library Selector
 
 Some interfaces include a library selector that enables staff to set the scope for the interface.
 
-There are currently several styles of the library selector.
+There are currently several styles of the library selector.  
 
 The library selector in newer interfaces shows the full names of the library if 
 xref:_include_full_library_names_in_library_selector[full names are enabled].
@@ -190,11 +190,12 @@ Filters
 ~~~~~~~
 (((Filters)))
 
-Some interfaces include filters that enable staff to filter the available rows.
+Some interfaces include filters that enable staff to filter the available rows in the grid.
 
 image::images/intro/filters-1.png[]
 
-Depending on the data in the field the filters will either allow you to filter on true/false or the text values.
+Depending on the data in the field the filters will either allow you to filter on yes/no/any
+ or the text values.
 
 image::images/intro/filters-2.png[]
 
@@ -206,6 +207,17 @@ Filters can be removed individually per column by clearing the filter or all fil
 using the *Remove Filters* button.
 
 image::images/intro/filters-4.png[]
+
+[NOTE]
+======
+
+Some interfaces, such as the xref:_shelving_location_editor[Shelving Location Editor],
+have default filters applied.  The Shelving Location Editor has the filter for 
+_Is Deleted_ set to _No_ so that deleted shelving locations do not display by default.
+
+image::images/intro/filters-5.png[]
+
+======
 
 Workstation Administration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
