@@ -18,19 +18,22 @@ displayed in your report output.  You also want to think about what filters shou
 output contains only the records you're interested in.
 
 . Go to *Administration -> Reports*. 
-. In the _My Folders_ section click on the arrow beside the _Templates_ folder to see your template folders. 
-Use the arrows to expand the folder tree until you find the folder where you'd like to create
+. In the _My Folders_ section select the caret beside the _Templates_ folder to see your template folders. 
+Use the carets to expand the folder tree until you find the folder where you'd like to create
 the new template.
+. Select the folder name.
 +
 image::images/report/reports-run-1.png[]
 +
-. Click on the folder name.
-. In the folder, click *Create a new Template for this folder*.
+. In the folder, select *New Template*.
 +
 image::images/report/report-create-template-1.png[]
 +
 . The _Report Template Editor_ will open.  See xref:_report_template_editor[] for information on using
 the editor.
++
+image::images/report/report-create-template-2.png[]
++
 . Choose a Core Source. See xref:_core_source[].
 . Add Display Fields. See xref:_adding_a_display_field[].
 . Add Filters. See xref:_adding_a_filter[].
@@ -46,7 +49,7 @@ to their library.
 +
 . Add hardcoded filter values for any filters that should always use the same value.  See 
 xref:_report_filters[] for a list of filters that are commonly hardcoded.
-. Click *Save Template*.
+. Click *Save*.
 . Your new template can now be found in the folder you saved it in.
 . xref:_running_a_report[Run a report] from the new template to see if the desired output is generated.
 +
