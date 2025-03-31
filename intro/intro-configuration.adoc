@@ -202,7 +202,7 @@ image::images/intro/filters-2.png[]
 
 image::images/intro/filters-3.png[]
 
-When a column is filtered it will display with an edit icon. Clicking on that icon 
+When a column is filtered it will display with a pencil icon. Clicking on that icon 
 enables you to change the value of the filter. Filters can be removed individually per 
 column by clearing the filter or all filters can be removed at once using the 
 *Remove Filters* button.
