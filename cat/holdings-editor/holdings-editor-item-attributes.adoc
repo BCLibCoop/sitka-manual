@@ -155,42 +155,42 @@ Adding an Item Note
 
 . In the item attributes section of the Holdings Editor, click *Item Notes*.
 +
-image::images/cat/item-note-1.png[scaledwidth="75%",alt="Item Notes"]
+image::images/cat/holdings/item-note-1.png[scaledwidth="75%",alt="Item Notes"]
 +
 . Enter a title for your note.
 . Enter the content of your note.
 . Check the box for *Public Note* if the note should display in the public catalogue.
 . Click *Add Note*.
 +
-image::images/cat/item-note-2.png[scaledwidth="75%",alt="Item Notes"]
+image::images/cat/holdings/item-note-2.png[scaledwidth="75%",alt="Item Notes"]
 +
 . Click *Apply Changes*.
 +
-image::images/cat/item-note-3.png[scaledwidth="75%",alt="Item Notes"]
+image::images/cat/holdings/item-note-3.png[scaledwidth="75%",alt="Item Notes"]
 +
 . Back in the holdings editor, click *Apply All, Save & Exit*.
 . The note is now applied to the item and will display in the public catalogue if set to be public.
 +
-image::images/cat/item-note-4.png[scaledwidth="75%",alt="Item Notes"]
+image::images/cat/holdings/item-note-4.png[scaledwidth="75%",alt="Item Notes"]
 
 Editing an Item Note
 ++++++++++++++++++++
 
 . In the item attributes section of the Holdings Editor, click *Item Notes*.
 +
-image::images/cat/item-note-1.png[scaledwidth="75%",alt="Item Notes"]
+image::images/cat/holdings/item-note-1.png[scaledwidth="75%",alt="Item Notes"]
 +
 . Click *Edit* beside the note you would like to edit.
 + 
-image::images/cat/item-note-edit-1.png[scaledwidth="75%",alt="Item Notes"]
+image::images/cat/holdings/item-note-edit-1.png[scaledwidth="75%",alt="Item Notes"]
 +
 . Make your edits and click *Save*.
 + 
-image::images/cat/item-note-edit-2.png[scaledwidth="75%",alt="Item Notes"]
+image::images/cat/holdings/item-note-edit-2.png[scaledwidth="75%",alt="Item Notes"]
 +
 . Click *Apply Changes*.
 +
-image::images/cat/item-note-edit-3.png[scaledwidth="75%",alt="Item Notes"]
+image::images/cat/holdings/item-note-edit-3.png[scaledwidth="75%",alt="Item Notes"]
 +
 . Back in the holdings editor, click *Apply All, Save & Exit*.
 
@@ -200,15 +200,15 @@ Deleting an Item Note
 
 . In the item attributes section of the Holdings Editor, click *Item Notes*.
 +
-image::images/cat/item-note-1.png[scaledwidth="75%",alt="Item Notes"]
+image::images/cat/holdings/item-note-1.png[scaledwidth="75%",alt="Item Notes"]
 +
 . Click *Remove* beside the note you would like to remove.
 +
-image::images/cat/item-note-5.png[scaledwidth="75%",alt="Item Notes"]
+image::images/cat/holdings/item-note-5.png[scaledwidth="75%",alt="Item Notes"]
 +
 . Click *Apply Changes*.
 +
-image::images/cat/item-note-6.png[scaledwidth="75%",alt="Item Notes"]
+image::images/cat/holdings/item-note-6.png[scaledwidth="75%",alt="Item Notes"]
 +
 . Back in the holdings editor, click *Apply All, Save & Exit*.
 . The note is now removed from the item.
@@ -265,7 +265,7 @@ see xref:_statistical_categories_item_editor[].
 Statistical categories can be set as required.  When required the statistical category is highlighted in 
 orange and the item cannot be saved until a value is entered. 
 
-image::images/cat/item-stat-cat-3.png[scaledwidth="75%",alt="Item Statistical Category"]
+image::images/cat/holdings/item-stat-cat-1.png[scaledwidth="75%",alt="Item Statistical Category"]
 =====
 
 
@@ -273,7 +273,7 @@ The _Stat Cat Filter_ enables you to specify the organizational level at which s
 For example, if you have federation wide stat cats as well as library specific ones you can set the filter
 to your federation or your library to change what stat cats display.
 
-image::images/cat/item-stat-cat-1.png[scaledwidth="75%",alt="Item Statistical Category"]
+image::images/cat/holdings/item-stat-cat-2.png[scaledwidth="75%",alt="Item Statistical Category"]
 
 Applying an Item Statistical Category Value
 +++++++++++++++++++++++++++++++++++++++++++
@@ -283,11 +283,11 @@ like to enter a value for.
 . From the drop down menu select the value you would like to apply to the item.
 . Click *Apply*.
 +
-image::images/cat/item-stat-cat-2.png[scaledwidth="75%",alt="Item Statistical Category"]
+image::images/cat/holdings/item-stat-cat-3.png[scaledwidth="75%",alt="Item Statistical Category"]
 +
 . The attribute field will turn green to indicate it's been updated.
 +
-image::images/cat/item-stat-cat-3.png[scaledwidth="75%",alt="Item Statistical Category"]
+image::images/cat/holdings/item-stat-cat-4.png[scaledwidth="75%",alt="Item Statistical Category"]
 +
 . Click *Apply All, Save & Exit*.
 
@@ -299,11 +299,11 @@ category you would
 like to clear the value for.
 . Click *Clear*.
 +
-image::images/cat/item-stat-cat-clear-1.png[scaledwidth="75%",alt="Item Statistical Category"]
+image::images/cat/holdings/item-stat-cat-clear-1.png[scaledwidth="75%",alt="Item Statistical Category"]
 +
 . The attribute field will turn green to indicate it's been updated and the value will be _unset_.
 +
-image::images/cat/item-stat-cat-clear-2.png[scaledwidth="75%",alt="Item Statistical Category"]
+image::images/cat/holdings/item-stat-cat-clear-2.png[scaledwidth="75%",alt="Item Statistical Category"]
 +
 . Click *Apply All, Save & Exit*.
 
