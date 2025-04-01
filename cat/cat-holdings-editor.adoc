@@ -10,7 +10,3 @@ include::holdings-editor/holdings-editor-item-attributes.adoc[Item Attributes]
 include::holdings-editor/holdings-editor-defaults.adoc[Holdings Editor Preferences]
 
 include::holdings-editor/holdings-template.adoc[Holdings Templates]
-
-////
-include::holdings-editor/item-alert-note-tag-stat-cat.adoc[Item Alert, Note, Tag and Stat Cat]
-////
