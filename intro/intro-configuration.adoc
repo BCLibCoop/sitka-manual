@@ -222,7 +222,7 @@ image::images/intro/filters-5.png[]
 
 Workstation Administration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
-[[getting-started-workstation-administration]]
+[[_configuring_workstation_administration]]
 
 Workstation specific information can be set by going to *Administration -> Workstation*.
 
@@ -234,8 +234,8 @@ Here staff can:
 * xref:_stored_preferences[view and remove stored preferences]
 * xref:_print_service_hatch[view information about Hatch]
 * xref:_tests[run latency tests]
-* xref:_disable_sounds[disable and test sounds for the staff client]
-* xref:_library_selector_shows_combined_names[set the library selector to include the full name of libraries]
+* xref:_sounds[disable and test sounds for the staff client]
+* xref:_include_full_library_names_in_library_selector[set the library selector to include the full name of libraries]
 
 Staff should not use the search preferences settings found in Workstation Administration.  Instead,
 search preferences should be set from within the staff catalogue.  See xref:_search_preferences[].
