@@ -26,7 +26,8 @@ image::images/cat/holdings/holdings-template-2.png[]
 +
 [NOTE]
 ======
-Values entered for _Prefix_ and/or _Suffix_ in the Holdings Details section will be saved as part of the template.
+Values entered for _Prefix_ and/or _Suffix_ in the xref:_holdings_details[Holdings Details] section will be 
+saved as part of the template.
 ======
 +
 . Type in a name for the template and click *Save Template*.
@@ -91,7 +92,7 @@ Via the Holdings Editor
 +++++++++++++++++++++++
 [_sharing_holdings_templates_via_the_holdings_editor]
 
-. In the Holdings Editor click *Export Templates*.
+. In the Holdings Editor click *Export All Templates*.
 +
 image::images/cat/holdings/holdings-template-6.png[]
 +
