@@ -598,6 +598,13 @@ image::images/report/reports-edit-report-def-1.png[]
 ======
 The button options, Save and Save and Schedule Report, have slightly different functions. Save just saves the edited/updated report definition but Save and Schedule creates a new run of the report as well. With Save and Schedule, the existing future run will be removed and a new one will be created in its place, with the new scheduling and output options that are selected.
 ======
++
+[TIP]
+=====
+You may view or edit an existing report to change the values for filters, run-time, report completion email notification recipient, 
+recurring interval, etc. For example, you may reschedule a recurring report to run on Mondays, 
+instead of Thursdays. 
+=====
 
 Moving Report Definitions and Output
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
