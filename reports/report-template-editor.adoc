@@ -166,44 +166,38 @@ Filters allow you to set up the criteria so that Evergreen returns the informati
 In most cases the value for the filter will be entered when the report is run, rather than included
 in the template.
 
-. Ensure the *Filter* tab is the active tab in the _Display Field and Filter Tabs_ section of 
+. Select the *Filters* tab as the active tab in the *Display Field, Filters and Report Layout* section of 
 the _Report Template Editor_.
-. Click on the top of the tree in the _Core Source_ pane.  A list of available fields will display
-in the _Source Path_ pane.
-+
-image::images/report/report-add-display-field-1.png[]
-+
-. The icon beside the field name indicates the xref:_data_types[data type].  If the field you want to 
-use is a Link you need to expand the tree in the _Core Source_ pane to find it and then click on it.
-+
-image::images/report/report-add-display-field-2.png[]
-+
-. Click on the field in the _Source Path_ pane you would like to add as a filter.
-+
-For filters you generally want to pick an ID or Org_unit field over a Text field. For example,
-to add circulating library as a filter you will click on *Circulating Library* which has the tree icon 
-indicating it's an Org_unit.
+. Select the top of the tree in the _Source_ pane.  A list of available fields will be displayed under _All Fields_ pane.
 +
 image::images/report/report-add-filter-field-1.png[]
 +
-. In the _Transform_ pane click on the xref:_field_transforms[transform] you would like to use.  The transforms
+. The word in parentheses beside the field name indicates the xref:_data_types[data type].  If the field you want to 
+use is a Link you need to expand the tree in the _Source_ pane to find it and then select it.
+. Select the field in the _All Fields_ pane you would like to add as a filter.
++
+[NOTE]
+======
+For filters you generally want to pick an ID or Org_unit field over a Text field. For example,
+to add circulating library as a filter you will select *Circulating Library* which is labeled an Org_unit.
+======
++
+image::images/report/report-add-filter-field-2.png[]
++
+. In the _Filter Fields and Values_  area select the xref:_field_transforms[transform] you would like to use.  The transforms
 available in the list will vary depending on the xref:_data_types[data type] of the selected field.
 +
+[NOTE]
+======
 The transform will determine how Evergreen processes the data when generating the report. Raw data 
 is the most commonly used transform for filters except when it's a timestamp in which case Date or
 Month + Year is more commonly used.  More information on the available transforms can be found in 
 xref:_field_transforms[].
+======
 +
-image::images/report/report-add-filter-field-2.png[]
-+
-. Your selected options will display in bold in the three panes.  In the *Filter* tab click
-*Add Fields*.
-+
-image::images/report/report-add-filter-field-3.png[]
-+
-. Your filter will now display in the grid.
 . If desired, you can hardcode the value of the filter into the template.  
 See xref:_updating_a_filter_value[].
+. Select the Operator. See xref:_operators[].
 
 Display Field and Filter Tabs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
