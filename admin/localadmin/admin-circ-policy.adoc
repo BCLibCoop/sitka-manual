@@ -29,29 +29,27 @@ Viewing Your Circulation Policies
 
 https://youtu.be/Lt1RN6LTo4c[*Sitka Training Video - Viewing Your Circulation Policies (2:15)*]
 
-Circulation policies can be viewed in two ways.
+Local system administrators  view their library's circulation policies within Evergreen.
 
-Staff with reporter permissions can run a report.
+. Go to *Administration ->  Local Administration -> Circulation Policies*.
+. The library selector will be scoped to your workstation's location.  Multi-branch libraries will
+need to select their system in order to see their policies.
+. View all your policies at once or xref:_filters[filter] to see specific policies. 
++
+image::images/admin/circ-policy-view-1.png[]
++
+[TIP]
+=====
+There are many fields for circulation policies that are not used by Sitka.  Co-op Support recommends 
+using the columns that are displayed in the screenshot above as a guide when adjusting 
+the columns that display. See xref:_columns[] for information on managing the columns.
+=====
+
+Library staff with reporter permissions can run a report to view their library's circulation policies.
 
 . In the reporter go to *Shared Folders -> Templates -> Sitka_templates -> Local Administration*
 . Clone the template _Circulation Policies by Checkout Library_ into your folders and run the report for
 your library.
-
-
-Local system administrators can also view their policies within Evergreen.
-
-* Go to *Administration ->  Local Administration -> Circulation Policies*.
-** The library selector will be scoped to your workstation's location.  Multi-branch libraries will
-need to select their system in order to see their policies.
-+
-image::images/admin/circ-policy-view-1.png[]
-
-[TIP]
-=====
-There are many fields for circulation policies that are not used by Sitka.  Co-op Support recommends 
-using the columns that display in the circulation policy reports as a guide when adjusting 
-the columns that display. See xref:_columns[] for information on managing the columns.
-=====
 
 
 Understanding Your Circulation Policies
@@ -100,8 +98,9 @@ from another library compared to the items the library owns.  As well, libraries
 may have items that can only be checked out by patrons who live in the library's service area so need policies
 to block check outs by patrons visiting from other areas. 
 
-The image below shows two policies.  The first policy blocks patrons with a home library that falls within the 
-Green Land Consortium from borrowing items that use the circulation modifier _game_ at Maple Public Library.
+The image below shows two policies.  The first policy blocks patrons with a home library that falls 
+within the Green Land Consortium from borrowing items that use the circulation modifier 
+_special-collection_ at Maple Public Library.
 The second policy allows patrons of Maple Public Library to borrow those items.
 
 image::images/admin/circ-policy-understand-3.png[]
