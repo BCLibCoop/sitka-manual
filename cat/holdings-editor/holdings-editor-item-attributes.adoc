@@ -6,7 +6,7 @@ link:https://youtu.be/GukWXd7oUl4[*Sitka Snippet Video - Item Attributes (5:35)*
 The Item Attributes section contains information specific to your library's items.  You can customize which
 attributes display in the xref:_item_attribute_settings[Item Attribute Settings].
 
-image::images/cat/item-attributes-1.png[]
+image::images/cat/holdings/item-attributes-1.png[]
 
 The table below provides detailed descriptions of the item attribues.
 
@@ -81,7 +81,7 @@ the alerts pop-up.
 
 *Manage* is greyed out if the item does not have an alert.
 
-image::images/cat/item-alert-5.png[scaledwidth="75%",alt="Item Alerts"]
+image::images/cat/holdings/item-alert-5.png[scaledwidth="75%",alt="Item Alerts"]
 ======
 
 Adding an Item Alert
@@ -89,7 +89,7 @@ Adding an Item Alert
 
 . In the item attributes section of the Holdings Editor, click *Item Alerts*.
 +
-image::images/cat/item-alert-1.png[scaledwidth="75%",alt="Item Alerts"]
+image::images/cat/holdings/item-alert-1.png[scaledwidth="75%",alt="Item Alerts"]
 +
 . Choose a type from the dropdown list.
 . Type in the message.
@@ -97,11 +97,11 @@ image::images/cat/item-alert-1.png[scaledwidth="75%",alt="Item Alerts"]
 to resolve a particular issue.
 . Click *Add New*. The alert will display as a pending new alert.
 +
-image::images/cat/item-alert-2.png[scaledwidth="75%",alt="Item Alerts"]
+image::images/cat/holdings/item-alert-2.png[scaledwidth="75%",alt="Item Alerts"]
 +
 . Click *Apply Changes*.
 +
-image::images/cat/item-alert-3.png[scaledwidth="75%",alt="Item Alerts"]
+image::images/cat/holdings/item-alert-3.png[scaledwidth="75%",alt="Item Alerts"]
 +
 . Back in the holdings editor, click *Apply All, Save & Exit*.
 +
@@ -110,40 +110,34 @@ image::images/cat/item-alert-3.png[scaledwidth="75%",alt="Item Alerts"]
 Editing an Item Alert
 +++++++++++++++++++++
 
-[NOTE]
-======
-There is currently a bug preventing item alerts from being edited through the Holdings Editor. The Item Status interface
-can be used when an alert needs to be edited.
-======
-
 ////
-
 LP 2012971 - ITEM ALERTS CURRENTLY CANT BE EDITED VIA HOLDINGS EDITOR
+////
 
 . In the item attributes section of the Holdings Editor, click *Item Alerts*.
 +
-image::images/cat/item-alert-1.png[scaledwidth="75%",alt="Item Alerts"]
+image::images/cat/holdings/item-alert-1.png[scaledwidth="75%",alt="Item Alerts"]
 +
 . Make the the necessary changed and click *Apply Changes*
 +
-image::images/cat/item-alert-4.png[scaledwidth="75%",alt="Item Alerts"]
+image::images/cat/holdings/item-alert-4.png[scaledwidth="75%",alt="Item Alerts"]
 +
 . Back in the holdings editor, click *Apply All, Save & Exit*.
 +
 . The updated alert will appear at check out and/or check in depending on the alert type choosen.
 
-////
+
 
 Deleting an Item Alert
 ++++++++++++++++++++++
 
 . In the item attributes section of the Holdings Editor, click *Item Alerts*.
 +
-image::images/cat/item-alert-1.png[scaledwidth="75%",alt="Item Alerts"]
+image::images/cat/holdings/item-alert-1.png[scaledwidth="75%",alt="Item Alerts"]
 +
 . Check the box for *Clear?* beside the alert you'd like to delete and click *Apply Changes*
 +
-image::images/cat/item-alert-6.png[scaledwidth="75%",alt="Item Alerts"]
+image::images/cat/holdings/item-alert-6.png[scaledwidth="75%",alt="Item Alerts"]
 +
 . Back in the holdings editor, click *Apply All, Save & Exit*.
 +
