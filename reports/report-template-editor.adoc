@@ -289,15 +289,9 @@ When removing fields be mindful of whether or not it will still be clear in the 
 mean. 
 =========
 
-. On the *Display Fields* tab select the field you would like to rename.
-. From the *Actions* menu choose *Remove Field*. You can also right-click on the
-field to open the *Actions* menu.
+On the *Display Fields* you can remove a field by clicking the minus button on the left of this area. You can also remove a field by unchecking it from the options under the All Fields header.
 +
-image::images/report/report-display-fields-4.png[]
-+
-. The selected field is removed and no longer shows as a display field.
-
-
+image::images/report/report-remove-display-fields-1.png[]
 
 Filters
 ^^^^^^^
