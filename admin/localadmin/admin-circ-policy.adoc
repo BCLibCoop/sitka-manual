@@ -29,19 +29,17 @@ Viewing Your Circulation Policies
 
 https://youtu.be/Lt1RN6LTo4c[*Sitka Training Video - Viewing Your Circulation Policies (2:15)*]
 
-Circulation policies can be viewed in two ways.
-
-Staff with reporter permissions can run a report.
+Library staff with reporter permissions can run a report to view their library's circulation policies.
 
 . In the reporter go to *Shared Folders -> Templates -> Sitka_templates -> Local Administration*
 . Clone the template _Circulation Policies by Checkout Library_ into your folders and run the report for
 your library.
 
 
-Local system administrators can also view their policies within Evergreen.
+Local system administrators  view their library's circulation policies within Evergreen.
 
-* Go to *Administration ->  Local Administration -> Circulation Policies*.
-** The library selector will be scoped to your workstation's location.  Multi-branch libraries will
+. Go to *Administration ->  Local Administration -> Circulation Policies*.
+.. The library selector will be scoped to your workstation's location.  Multi-branch libraries will
 need to select their system in order to see their policies.
 +
 image::images/admin/circ-policy-view-1.png[]
