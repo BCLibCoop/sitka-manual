@@ -31,7 +31,7 @@ hide this option as the checkdigit function is not currently functional.
 | Hide Item Number | Check this box if your library doesn't use item numbers.
 | Hide Item Part | This box should be checked to
 hide this option as parts are not currently used in Sitka.
-| Unified Holdings and Item Attributes Display | Check this box if you'd like the holdings and item attributes
+| Unified Holdings, Item Attributes Display, and Item Templates | Check this box if you'd like the holdings and item attributes
 to display as a single tab.
 |===
 
@@ -59,6 +59,9 @@ the box for _Change Circ Lib When Owning Lib Changes_.
 Set the level at which you'd like to filter statistical categories in _Default Stat Cat Library Filter_.  
 Libraries that share statistical categories across a federation or system may wish to choose the 
 federation or system as their default filter.
+
+Set a default Item Alert Type to be used when adding item alerts in _Default Item Alert Type_.  Start typing in the 
+field to have the available options appear. 
 
 image::images/cat/holdings/holdings-editor-preferences-3.png[]
 
