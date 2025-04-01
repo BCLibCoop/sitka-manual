@@ -1,4 +1,3 @@
-[[edit-marc]]
 Maintaining Bibliographic Records
 ---------------------------------
 
@@ -17,8 +16,6 @@ can use either editor or both when working with records.
 Before working with bibliographic records in Sitka's Evergreen cataloguers must be 
 familiar with 
 http://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka's Cataloguing Policy].
-
-
 
 include::edit-marc/edit-marc.adoc[Editing MARC Records]
 
