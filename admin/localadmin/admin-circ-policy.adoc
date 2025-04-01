@@ -34,15 +34,14 @@ Local system administrators  view their library's circulation policies within Ev
 . Go to *Administration ->  Local Administration -> Circulation Policies*.
 . The library selector will be scoped to your workstation's location.  Multi-branch libraries will
 need to select their system in order to see their policies.
+. View all your policies at once or xref:_filters[filter] to see specific policies. 
 +
 image::images/admin/circ-policy-view-1.png[]
 +
-. View all your policies at once or xref:_filters[filter] to see specific policies. 
-
 [TIP]
 =====
 There are many fields for circulation policies that are not used by Sitka.  Co-op Support recommends 
-using the columns that are displayed in this screenshot above as a guide when adjusting 
+using the columns that are displayed in the screenshot above as a guide when adjusting 
 the columns that display. See xref:_columns[] for information on managing the columns.
 =====
 
