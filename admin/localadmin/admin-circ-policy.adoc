@@ -85,7 +85,7 @@ check out.  In Sitka, most circulation policies are based off the item's circula
 circulation policies can be based off shelving location additional set up is required to enable this for a library.
 
 Some libraries apply different policies to different patron profiles.  Libraries that do this will see
-separate default policies for the different patron groups.  Generally policies are set for the 
+separate default policies for the different patron groups.  Generally, policies are set for the 
 patron group at the top of the permission tree and then additional policies are added for more specific patron
 groups as needed.  For example, most public libraries have policies set for _Public Library Users_ which apply
 to all patron groups unless there's a policy for a more specific group such as _PL Extended Loans_. 
