@@ -31,8 +31,8 @@ and/or the branch level.
 image::images/admin/org-unit-2.png[scaledwidth="75%",alt="Library Main Settings"]
 +
 . Click *Save*.
-. Evergreen will use this information in notifications that go out to patrons as well as in your public 
-catalogue.
+. Evergreen will use this information in notifications that go out to patrons as well as display it on the 
+xref:_public_catalogue_library_info[Library Information] page in your public catalogue.
 
 
 Library Hours of Operation
@@ -48,14 +48,15 @@ the xref:closed-date-editor[].
 
 . Enter the open and closed times you would like.  Click *Closed* for any days where you are closed for
 the entire day.
-. To enter service information notes that display publicly, click *Edit Note Field?* to open Note fields.
-. Click into each field to input notes. This text will display with your open hours on the OPAC and in the staff catalogue.
+. Add any needed notes to he appropriate days of the week. This text will display with your open hours in the 
+public catalogue.
 . Click *Apply Changes*. 
 +
 image::images/admin/org-unit-3.png[scaledwidth="75%",alt="Library Hours of Operation"]
 +
 . Evergreen will use this information when calculating due dates, overdue fines, and for hold targeting.
-  This information will also display in your public catalogue.
+  This information will also display on the 
+xref:_public_catalogue_library_info[Library Information] page in your public catalogue.
 
 [NOTE]
 ======
@@ -82,19 +83,20 @@ Local system administrators can add or update the library's addresses on the _Ad
 libraries should enter information at the branch level.
 
 . Enter or update the information on the applicable subtabs on the _Addresses_ tab.
-. Ensure _Is Valid?_ is checked for all valid addresses.
+. Ensure _Is Valid?_ is set to _Yes_ for all valid addresses.
 . Click *Save*.
 +
 image::images/admin/org-unit-4.png[scaledwidth="75%",alt="Library Addresses"]
 +
-. Repeat for additional subtabs.
+. Repeat for the additional addresses on the other tabs.
 . Evergreen will use this information on hold slips, hold transit slips, in notifications sent to patrons,
-and in your public catalogue.  Libraries should ensure information is entered for all four address types as
-Evergreen uses different addresses for different functions.
+and on the xref:_public_catalogue_library_info[Library Information] page in your public catalogue.  Libraries 
+should ensure information is entered for all four address types as Evergreen uses different addresses for 
+different functions.
 
 [CAUTION]
 =========
-The value in the _State_ (Province) field on the _Mailing Address_ subtab MUST be set to BC for BC libraries, MB for Manitoba 
+The value in the _State_ (Province/Territory) field on the _Mailing Address_ subtab MUST be set to BC for BC libraries, MB for Manitoba 
 libraries, and ON for Ontario libraries.  This field is used to generate the URL in email notifications
 to take patrons to My Account in your public catalogue. If the province is not entered correctly
 the links sent to your patrons in your email notifications will not work.
