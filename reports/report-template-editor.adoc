@@ -13,24 +13,25 @@ Report Template Editor
 The report template editor is made up of three section:
 
 . Basic Information
-. Display Field and Filter Selector
-. Display Field and Filter Tabs
+. Display field and filter options and selections.
+.. *Source*
+.. Available fields from selected *Source*.
+.. Fields selected for inclusion in template and modifying information
+. *Display Fields*, *Filters*, and *Report Layout* tabs
 
 image::images/report/report-template-editor-1.png[]
 
 Basic Information
 ~~~~~~~~~~~~~~~~~
 
-The _Basic Information_ section of the report template editor is where you can add or update the template name,
-description, and documentation URL.
+The _Basic Information_ section of the report template editor is where you can add or update the *Template Name*, *Template Description*, and *Documentation URL*.
 
 When cloning an existing template these fields will be auto-populated with the values from the original 
 template and (clone) will be added to the end of the template name. You can edit the data in these fields as needed.
 
 [NOTE]
 ======
-The names of templates in a folder must be unique.  Evergreen will not allow a template using an identical name to
-be saved into the same folder.
+The names of templates in a folder must be unique.  Evergreen will not allow a template using an identical name to be saved into the same folder.
 ======
 
 If you have local documentation online that pertains to a report you can add it in the _Documentation URL_
@@ -48,32 +49,28 @@ Display Field and Filter Selector
 (((Filter, Reports)))
 
 
-The _Display Field and Filter Selector_ is where you build your display fields and filters for your template.
+The *Display Field* and *Filters* selection area is where you build and modify the template columns, data filters, and report layout.
 
-Core Source
-^^^^^^^^^^^
+Report Source
+^^^^^^^^^^^^^
 
-(((Core Source)))
-(((Reporter, Core Source)))
-(((Report Templates, Core Source)))
+(((Source)))
+(((Reporter, Source)))
+(((Report Templates, Source)))
 
-Every report template starts with a core source.  This is the database table from which your template is
-built out. The top of the left-hand pane of the _Display Field and Filter Selector_ section of the 
-_Report Template Editor_ contains the Core Sources drop down menu.
+Every report template starts with a *Source*.  This is the database table from which your template is
+built out. The drop-down menu displays as _Select Source_ when a new template is first created. Selecting a *Source* will cause the rest of the display field and filter selections area to populate.
 
-image::images/report/report-core-source-1.png[]
+image::images/report/report-source-1.png[]
 
 When modifying a template NEVER change the core source.  This will scrap your existing template and you
 will have to start again from scratch.
 
 When creating a new template the first thing you need to do is figure out which core source makes
 the most sense for the data you want to see in your report output. If you need information from 
-other tables you'll follow the links to those tables when adding display fields and filters.
+other tables you'll follow the links to those tables when adding display fields and filters. *Sources* are divided in the drop-down menu into _Core sources_ and _Other sources_. Most standard statistics reports will be created with _Core Sources_ as these represent the primary database tables. The _Other sources_ are less frequently used tables or specially created data views.
 
-The three most commonly used core sources are Circulation, Item, and ILS User.  Templates for monthly
-circulation statistics and templates for tracking overdue items use the core source Circulation.  Templates
-about the state of your collection use the course source Item.  Templates containing counts or lists 
-of your patrons use the core source ILS User.  More information can be found in 
+The three most commonly used _Core sources_ are _Circulation_, _Item_, and _ILS User_.  Templates for monthly circulation statistics and templates for tracking overdue items use the core source Circulation.  Templates about the state of your collection use the course source Item.  Templates containing counts or lists of your patrons use the core source ILS User.  More information can be found in 
 xref:_commonly_used_tables[].
 
 You can link to other database tables to include information contained in those tables but
@@ -82,6 +79,7 @@ Information about items out to a patron is held in the circulation table while i
 items on hold is held in the hold request table.  More information can be found in 
 xref:_the_evergreen_database[].
 
+////
 Nullability
 ^^^^^^^^^^^
 
@@ -89,14 +87,9 @@ Nullability
 (((Reporter, Nullability)))
 (((Report Templates, Nullability)))
 
-The Nullability check box is beside the core source list. In general this check box should be left 
-un-checked.  
+You may wish to use nullability if your report output includes null values that you don't want included. A _NULL_ value in a field means that there is no value in that field. 
 
-image::images/report/report-nullability-1.png[]
-
-You may wish to use nullability if your report output includes null values that you don't want included or 
-if your report output doesn't include null values that you do want to see.  Nullability allows you to have 
-more control over whether or not null values in fields are included in your report output.  It does this 
+Nullability allows you to have more control over whether or not null values in fields are included in your report output.  It does this 
 by allowing you to manually select the way in which Evergreen is joining the database tables when running 
 a report from the template.  The type of join used will determine what kind of data 
 can display a null value in your report output.
@@ -121,6 +114,7 @@ the same table.
 
 To learn more about nullability see the Evergreen conference presentation https://youtu.be/oDtjpW3Kiz8[*Thanks for Nothing: 
 Nullability Selection in Evergreen Reports (45:00)*].
+////
 
 Adding a Display Field
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -129,43 +123,37 @@ Adding a Display Field
 (((Reporter, Display Fields)))
 (((Display Fields, Reports)))
 
-Display fields are the columns which will display in your report output. 
+Display fields are the columns which will display in your report output. The *Display Fields* tab is the active tab by default in the Report Template Editor.
 
-. Ensure the *Display Fields* tab is the active tab in the _Display Field and Filter Tabs_
+. Ensure the *Display Fields* tab is the active tab in the *Display Field, Filters and Report Layout*
  section of the _Report Template Editor_.
-. Click on the top of the tree in the _Core Source_ pane.  A list of available fields will display
-in the _Source Path_ pane.
+. Select the top of the tree in the _Source_ pane.  A list of available fields be displayed in the _All Fields_ pane to the right under the *Display Fields* tab.
 +
 image::images/report/report-add-display-field-1.png[]
 +
-. The icon beside the field name indicates the xref:_data_types[data type].  If the field you want to 
-use is a Link you need to expand the tree in the _Core Source_ pane to find it and then click on it.
+. The word in parentheses beside the field name indicates the xref:_data_types[data type].  If the field you want to 
+use is a Link you need to expand the tree in the _Source_ pane to find it and then click on it.
 +
 image::images/report/report-add-display-field-2.png[]
 +
-. Click on the field in the _Source Path_ pane you would like to add as a display field.
+. Select the field in the _Source Path_ pane you would like to add as a display field.
 +
+[NOTE]
+======
 For display fields you generally want to pick a Text field over an ID or Org_unit field. For example,
-to add shelving location as a dislay field you will click on *Name* rather than *Location ID*.
+to add Call Number as a dislay field you will select on *Call Number Label* rather than *Call Number/Volume ID*.
+======
 +
 image::images/report/report-add-display-field-3.png[]
 +
-. In the _Transform_ pane click on the xref:_field_transforms[transform] you would like to use.  The transforms
+. In the _Field Display Order_ pane select on the xref:_field_transforms[transform] you would like to use.  The transforms
 available in the list will vary depending on the xref:_data_types[data type] of the selected field.
-+
-The transform will determine how Evergreen processes the data when generating the report. Raw data 
-is the most commonly used transform for display fields except when it's a timestamp in which case Date
+.. The transform will determine how Evergreen processes the data when generating the report. Raw data 
+is the most commonly used transform for display fields except when it's a timestamp in which case _Date_
 is more commonly used.  More information on the available transforms can be found in 
 xref:_field_transforms[].
 +
 image::images/report/report-add-display-field-4.png[]
-+
-. Your selected options will display in bold in the three panes.  In the *Display Fields* tab click
-*Add Fields*.
-+
-image::images/report/report-add-display-field-5.png[]
-+
-. Your display field will now display in the grid.
 
 Adding a Filter
 ^^^^^^^^^^^^^^^
@@ -248,13 +236,11 @@ apply to display fields.
 Reordering Display Fields
 +++++++++++++++++++++++++
 
-. On the *Display Fields* tab select the field you would like to re-order.
-. From the *Actions* menu choose *Move Field Up* or *Move Field Down*.  You can also right-click on the
-field to open the *Actions* menu.
+. You can use the arrows on the right to move fields up and down the list. The list order top to bottom here on the _Display Fields_ tab will determine the order of column display from left to right. Sorting is controlled separately, in the *Report Layout* tab.
 +
-image::images/report/report-display-fields-1.png[]
+image::images/report/report-reorder-display-field-1.png[]
 +
-. Repeat until your fields are in the order you desire.
+Repeat until your fields are in the order you desire.
 
 [[_renaming_a_display_field]]
 Renaming a Display Field
@@ -262,18 +248,9 @@ Renaming a Display Field
 
 Each dislay field in a template has a column label which displays as the column header in the report output.
 
-. On the *Display Fields* tab select the field you would like to rename.
-. From the *Actions* menu choose *Change Column Label*. You can also right-click on the
-field to open the *Actions* menu.
+On the *Display Fields* tab you can adjust the display name of any field by clicking in the *Name* box and typing in a new name. The original field name will show below the *Name* box along with the path you took to field the field starting at your source.
 +
-image::images/report/report-display-fields-2.png[]
-+
-. In the pop-up that appears enter the new name for the field and click *OK/Continue*.
-+
-image::images/report/report-display-fields-3.png[]
-+
-. The new field name displays in the _Column Label_ column and will display as the column header on your report
-output.
+image::images/report/report-display-name-1.png[]
 
 [NOTE]
 ======
@@ -295,17 +272,9 @@ Changing a Transform
 
 For information on specific transforms see xref:_field_transforms[].
 
-. On the *Display Fields* tab select the field you would like to change the transform for.
-. From the *Actions* menu choose *Change Transform*. You can also right-click on the
-field to open the *Actions* menu.
+On the *Display Fields* you can adjust the way data will display in your output by using the Transform dropdown on each selected field. Transform options will vary depending on the fields you have selected, and in some cases will default to a specific recommended transform value (e.g., fields that total payments will default to a transform of “Sum”).
 +
-image::images/report/report-display-fields-5.png[]
-+
-. In the pop-up that appears select the new transform from the list and click *OK/Continue*.
-+
-image::images/report/report-display-fields-6.png[]
-+
-. The new transform will displays in the _Field Transform_ column in the grid.
+image::images/report/report-display-transform-1.png[]
 
 [[_removing_a_display_field]]
 Removing a Display Field
