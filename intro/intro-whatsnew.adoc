@@ -9,10 +9,17 @@ New Features in Evergreen Version 3.14
 Staff Client
 ~~~~~~~~~~~~
 
+* xref:_colour_mode_setting[New Colour Mode Setting] that enables users to use light or dark mode.
+* Changes to xref:_grid_options[grid display and functionality] in multiple interfaces.
+* Option to xref:_print_selected_rows[*Print Selected Rows*] available in interfaces with 
+the newer xref:_function_bar[function bar].
+
 
 [[_new_features_circulation]]
 Circulation
 ~~~~~~~~~~~
+
+* Updated xref:_pull_list_for_hold_requests[Pull List for Hold Requests] with new filters.
 
 
 [[_new_features_cataloguing]]
@@ -45,6 +52,11 @@ Public Catalogue
 [[_new_features_course_reserves]]
 Course Reserves
 ~~~~~~~~~~~~~~~
+
+[[_new_features_reporter]]
+Reporter
+~~~~~~~~
+
 
 [[_new_features_administration]]
 Administration
