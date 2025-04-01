@@ -29,8 +29,9 @@ Viewing Your Circulation Policies
 
 https://youtu.be/Lt1RN6LTo4c[*Sitka Training Video - Viewing Your Circulation Policies (2:15)*]
 
+Circulation policies can be viewed in two ways.
 
-The easiest way to view your current circulation policies is to run a report (reporter permissions required).
+Staff with reporter permissions can run a report.
 
 . In the reporter go to *Shared Folders -> Templates -> Sitka_templates -> Local Administration*
 . Clone the template _Circulation Policies by Checkout Library_ into your folders and run the report for
@@ -40,14 +41,17 @@ your library.
 Local system administrators can also view their policies within Evergreen.
 
 * Go to *Administration ->  Local Administration -> Circulation Policies*.
-** By default, your library is selected in the box after *Context Org Unit* (i.e. Checkout Library). 
-The initial display will show circulation policies at both your library and the federation level. 
+** The library selector will be scoped to your workstation's location.  Multi-branch libraries will
+need to select their system in order to see their policies.
++
+image::images/admin/circ-policy-view-1.png[]
 
-[NOTE]
-======
-Only 15 policies display per page in Evergreen so if you want to see all your policies at once running a report is the 
-better option.
-======
+[TIP]
+=====
+There are many fields for circulation policies that are not used by Sitka.  Co-op Support recommends 
+using the columns that display in the circulation policy reports as a guide when adjusting 
+the columns that display. See xref:_columns[] for information on managing the columns.
+=====
 
 
 Understanding Your Circulation Policies
