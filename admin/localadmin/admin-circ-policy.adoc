@@ -39,7 +39,7 @@ your library.
 Local system administrators  view their library's circulation policies within Evergreen.
 
 . Go to *Administration ->  Local Administration -> Circulation Policies*.
-.. The library selector will be scoped to your workstation's location.  Multi-branch libraries will
+. The library selector will be scoped to your workstation's location.  Multi-branch libraries will
 need to select their system in order to see their policies.
 +
 image::images/admin/circ-policy-view-1.png[]
