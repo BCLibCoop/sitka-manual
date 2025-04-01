@@ -5,7 +5,7 @@ link:https://youtu.be/0rsBnVfVLck[*Sitka Snippet Video - Holdings Editor Prefere
 
 In the Holdings Editor click on the *Preferences* tab to change settings for the Holdings Editor.
 
-image::images/cat/holdings-editor-defaults-1.png[]
+image::images/cat/holdings/holdings-editor-preferences-1.png[]
 
 Holdings Preferences
 ^^^^^^^^^^^^^^^^^^^^
@@ -13,7 +13,7 @@ Holdings Preferences
 
 Select the checkboxes or use the drop down menus to set the settings you'd like.
 
-image::images/cat/holdings-editor-defaults-2.png[]
+image::images/cat/holdings/holdings-editor-preferencess-2.png[]
 
 Holdings Display Preferences
 ++++++++++++++++++++++++++++
@@ -60,14 +60,14 @@ Set the level at which you'd like to filter statistical categories in _Default S
 Libraries that share statistical categories across a federation or system may wish to choose the 
 federation or system as their default filter.
 
-image::images/cat/holdings-editor-defaults-3.png[]
+image::images/cat/holdings/holdings-editor-preferences-3.png[]
 
 Hide Item Attributes
 ++++++++++++++++++++
 
 Select the checkboxes beside those fields that you don't want displaying as available item attribues.
 
-image::images/cat/holdings-editor-defaults-4.png[]
+image::images/cat/holdings/holdings-editor-preferences-4.png[]
 
 The following item attributes are not used by Sitka's Evergreen and are selected by default:
 
