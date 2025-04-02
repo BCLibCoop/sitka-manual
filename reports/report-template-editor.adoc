@@ -246,7 +246,7 @@ Each dislay field in a template has a column label which displays as the column 
 On the *Display Fields* tab you can adjust the display name of any field by clicking in the *Name* box and typing in a new name. The original field name will show below the *Name* box along with the path you took to field the field starting at your source.
 +
 image::images/report/report-display-name-1.png[]
-
++
 [NOTE]
 ======
 It is best practice to include qualifiers in the field names for fields like barcode and library so that 
@@ -270,6 +270,7 @@ For information on specific transforms see xref:_field_transforms[].
 On the *Display Fields* you can adjust the way data will display in your output by using the Transform dropdown on each selected field. Transform options will vary depending on the fields you have selected, and in some cases will default to a specific recommended transform value (e.g., fields that total payments will default to a transform of “Sum”).
 +
 image::images/report/report-display-transform-1.png[]
++
 
 [[_removing_a_display_field]]
 Removing a Display Field
@@ -287,6 +288,7 @@ mean.
 On the *Display Fields* you can remove a field by clicking the minus button on the left of this area. You can also remove a field by unchecking it from the options under the All Fields header.
 +
 image::images/report/report-remove-display-fields-1.png[]
++
 
 Filters
 ^^^^^^^
