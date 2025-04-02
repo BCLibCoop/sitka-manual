@@ -9,12 +9,12 @@ Deleted records can be undeleted if you know the record TCN or ID.
 
 . Retrieve the record by its database ID.
 +
-image::images/cat/delete-marc-3.png[]
+image::images/cat/marc/delete-marc-3.png[]
 +
 . Click on the *MARC Edit* tab.
 . Click *Undelete Record*.
 +
-image::images/cat/delete-marc-4.png[]
+image::images/cat/marc/delete-marc-4.png[]
 +
 . A pop up will appear.  Click *Confirm*.
 . The record is undeleted and holdings or scoped 856 fields can now be added.
@@ -45,12 +45,12 @@ in xref:_searching_the_database_for_cataloguing_purposes[].
 . Click on the *MARC Edit* tab.
 . Click *Delete Record*.
 +
-image::images/cat/delete-marc-1.png[]
+image::images/cat/marc/delete-marc-1.png[]
 +
 . A pop up will appear.  Click *Confirm*.
 . Record is now deleted and only retrievable by a TCN (title control number) or record ID search.
 +
-image::images/cat/delete-marc-2.png[]
+image::images/cat/marc/delete-marc-2.png[]
 
 Deleting Records via a Record Bucket
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
