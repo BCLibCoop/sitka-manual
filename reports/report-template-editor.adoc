@@ -235,7 +235,7 @@ Reordering Display Fields
 +
 image::images/report/report-reorder-display-field-1.png[]
 +
-Repeat until your fields are in the order you desire.
+. Repeat until your fields are in the order you desire.
 
 [[_renaming_a_display_field]]
 Renaming a Display Field
@@ -243,7 +243,7 @@ Renaming a Display Field
 
 Each dislay field in a template has a column label which displays as the column header in the report output.
 
-On the *Display Fields* tab you can adjust the display name of any field by clicking in the *Name* box and typing in a new name. The original field name will show below the *Name* box along with the path you took to field the field starting at your source.
+. On the *Display Fields* tab you can adjust the display name of any field by clicking in the *Name* box and typing in a new name. The original field name will show below the *Name* box along with the path you took to field the field starting at your source.
 +
 image::images/report/report-display-name-1.png[]
 +
@@ -267,7 +267,7 @@ Changing a Transform
 
 For information on specific transforms see xref:_field_transforms[].
 
-On the *Display Fields* you can adjust the way data will display in your output by using the Transform dropdown on each selected field. Transform options will vary depending on the fields you have selected, and in some cases will default to a specific recommended transform value (e.g., fields that total payments will default to a transform of “Sum”).
+. On the *Display Fields* you can adjust the way data will display in your output by using the Transform dropdown on each selected field. Transform options will vary depending on the fields you have selected, and in some cases will default to a specific recommended transform value (e.g., fields that total payments will default to a transform of “Sum”).
 +
 image::images/report/report-display-transform-1.png[]
 +
@@ -285,7 +285,7 @@ When removing fields be mindful of whether or not it will still be clear in the 
 mean. 
 =========
 
-On the *Display Fields* you can remove a field by clicking the minus button on the left of this area. You can also remove a field by unchecking it from the options under the All Fields header.
+. On the *Display Fields* you can remove a field by clicking the minus button on the left of this area. You can also remove a field by unchecking it from the options under the All Fields header.
 +
 image::images/report/report-remove-display-fields-1.png[]
 +
