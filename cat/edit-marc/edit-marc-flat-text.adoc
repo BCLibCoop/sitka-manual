@@ -13,7 +13,7 @@ while using the Flat Text Editor.
 
 The text of the MARC record can be edited directly in the Flat Text Editor.
 
-image::images/cat/marc-edit-flat-text-1.png[]
+image::images/cat/marc/marc-edit-flat-text-1.png[]
 
 * An equals sign "=" indicates the start of a MARC field
 * The leader and control fields contain the 3-digit MARC tag followed by the field values.
