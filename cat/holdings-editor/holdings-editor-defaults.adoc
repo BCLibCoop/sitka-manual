@@ -3,7 +3,7 @@ Holdings Editor Preferences
 
 link:https://youtu.be/0rsBnVfVLck[*Sitka Snippet Video - Holdings Editor Preferences (2:16)*]
 
-In the Holdings Editor click on the *Preferences* tab to change settings for the Holdings Editor.
+In the Holdings Editor, click on the *Preferences* tab to change settings for the Holdings Editor.
 
 image::images/cat/holdings/holdings-editor-preferences-1.png[]
 
@@ -53,7 +53,7 @@ Item Attribute Settings
 Item Attribute Behavior
 +++++++++++++++++++++++
 
-If you would like the circulation library for an item to updated when the owning library is changed check
+If you would like the circulation library for an item to updated when the owning library is changed, check
 the box for _Change Circ Lib When Owning Lib Changes_.
 
 Set the level at which you'd like to filter statistical categories in _Default Stat Cat Library Filter_.  
@@ -68,7 +68,7 @@ image::images/cat/holdings/holdings-editor-preferences-3.png[]
 Hide Item Attributes
 ++++++++++++++++++++
 
-Select the checkboxes beside those fields that you don't want displaying as available item attribues.
+Select the checkboxes beside those fields that you don't want displaying as available item attributes.
 
 image::images/cat/holdings/holdings-editor-preferences-4.png[]
 
