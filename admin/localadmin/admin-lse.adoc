@@ -1225,7 +1225,7 @@ circulated items to be highlighted in search results|True/False|TRUE | LSA |
 announcements such as holiday closures. Set as blank to clear the banner.| Text| | 
 Sitka|NOT USED BY SITKA
  
-|Text for the Sitka OPAC Banner (for Sitka Staff)|Add a Sitka wide OPAC banner messge, 
+|Text for the Sitka OPAC Banner (for Sitka Staff)|Add a Sitka wide OPAC banner message, 
 alond with any site banners that may be specified.| Text | | Sitka |
 
 |The styles for the OPAC site specific banners|Specify the css for your OPAC top banner.|
