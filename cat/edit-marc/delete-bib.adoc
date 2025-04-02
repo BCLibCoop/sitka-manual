@@ -58,14 +58,24 @@ Deleting Records via a Record Bucket
 Records can be deleted in batch from a xref:_record_buckets[record bucket].
 
 . Go to *Cataloguing -> Record Buckets*.
-. Select the bucket containing the records you would like to delete from the drop down menu.
+. Click the name of the containing the records you would like to delete.
 +
-image::images/cat/delete-marc-bucket-1.png[]
+image::images/cat/marc/delete-marc-bucket-1.png[]
 +
 . Select the records you wish to delete and from the the *Actions* menu choose 
-*Delete Selected Records from Catalogue*.
+*Delete Selected Records from Catalog*.
 +
-image::images/cat/delete-marc-bucket-2.png[]
+image::images/cat/marc/delete-marc-bucket-2.png[]
 +
-. Click *OK/Continue*.
-. The records are deleted.  Records with holdings cannot be deleted and will return an error.
+. A pop-up will appear asking you to confirm the deletion.  Click *Delete*.
++
+image::images/cat/marc/delete-marc-bucket-3.png[]
++
+. The records are deleted.
+
+[NOTE]
+======
+Records with holdings cannot be deleted and will return an error.
+
+image::images/cat/marc/delete-marc-bucket-4.png[]
+======
