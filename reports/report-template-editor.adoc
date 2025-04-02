@@ -270,7 +270,7 @@ For information on specific transforms see xref:_field_transforms[].
 . On the *Display Fields* you can adjust the way data will display in your output by using the Transform dropdown on each selected field. Transform options will vary depending on the fields you have selected, and in some cases will default to a specific recommended transform value (e.g., fields that total payments will default to a transform of “Sum”).
 +
 image::images/report/report-display-transform-1.png[]
-+
+
 
 [[_removing_a_display_field]]
 Removing a Display Field
@@ -288,7 +288,7 @@ mean.
 . On the *Display Fields* you can remove a field by clicking the minus button on the left of this area. You can also remove a field by unchecking it from the options under the All Fields header.
 +
 image::images/report/report-remove-display-fields-1.png[]
-+
+
 
 Filters
 ^^^^^^^
@@ -310,16 +310,15 @@ documentation or a field hint.
 image::images/report/report-filters-1.png[]
 
 . On the *Filter* tab select the field you would like to add column documentation to.
-. From the *Actions* menu choose *Change Column Documentation*. You can also right-click on the
-field to open the *Actions* menu.
+. Select the *Supply Hint* box.
 +
 image::images/report/report-filters-2.png[]
 +
-. In the pop-up that appears add or update the text and click *OK/Continue*.
+. Enter the hint text in the newly displayed field.
 +
 image::images/report/report-filters-3.png[]
 +
-. When running a report the column documentation will display under the filter path. 
+. When running a report the hint will display under the filter path. 
 +
 image::images/report/report-filters-4.png[]
 
@@ -334,16 +333,10 @@ Changing an Operator
 For information on specific operator see xref:_operators[].
 
 . On the *Filter* tab select the field you would like change the operator of.
-. From the *Actions* menu choose *Change Operator*. You can also right-click on the
-field to open the *Actions* menu.
+. Use the Operator drop-down on the field to select the new operator from the list.
 +
 image::images/report/report-filters-operator-1.png[]
-+
-. In the pop-up that appears select the new operator from the list and click *OK/Continue*.
-+
-image::images/report/report-filters-operator-2.png[]
-+
-. The operator will be updated in the grid.
+
 
 [[_changing_a_filter_transform]]
 Changing a Transform
