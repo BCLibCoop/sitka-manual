@@ -1,4 +1,3 @@
-[[edit-marc]]
 Maintaining Bibliographic Records
 ---------------------------------
 
@@ -18,36 +17,11 @@ Before working with bibliographic records in Sitka's Evergreen cataloguers must 
 familiar with 
 http://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka's Cataloguing Policy].
 
-
-////
-For example,
-format icons for text, moving pictures, and sound, rely on  MARC coding in the leader, 007, and 008 tags,
-as do OPAC search filters, such as publication date, item type, or target audience. Bibliographic record
-matching and de-duplicating also relies on correct MARC coding and consistency in use of, and contents in,
-particular MARC tags. The ability to edit and manage MARC records is very important to maintaining database
-integrity.
-
-Evergreen allows you to edit MARC tags, sub-fields, and indicators, as well as an easy entry box to edit parts
-of the leader and 008 field on a built-in form called the MARC Editor. It also provides a text based editor,
-which allows you to easily add or remove tags, and/or edit the fields. You need to pay close attention to
-the position of the tags, indicators, and spacing required to preserve the record structure.
-////
-
 include::edit-marc/edit-marc.adoc[Editing MARC Records]
 
 include::edit-marc/edit-marc-enhanced.adoc[]
 
 include::edit-marc/edit-marc-flat-text.adoc[]
-
-////
-
-include::edit-marc/edit-leader-control-fields.adoc[Editing the Leader and Control Fields]
-
-include::edit-marc/edit-leader.adoc[Editing MARC Record Leader and Fixed Fields]
-
-include::edit-marc/edit-007.adoc[MARC 007 Field Physical Characteristics Wizard]
-////
-
 
 include::edit-marc/search-filter.adoc[Search Filters and Format Icons]
 
