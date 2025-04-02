@@ -17,7 +17,7 @@ Evergreen also records the range of libraries' items that may be used to fill th
 This is recorded in the hold request record in a field called *Selection Depth*, which is viewable 
 when viewing holds in either the patron's account or the title record.
 
-The value in for *Selection Depth* will either be 2 or 3. 3 means the hold will be filled by items
+The value for *Selection Depth* will either be 2 or 3. 3 means the hold will be filled by items
 belonging to the owning library or system.  2 means the hold can be filled by any holdable item within 
 the library's reciprocal borrowing zone.
 
