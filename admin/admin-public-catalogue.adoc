@@ -26,7 +26,7 @@ There can be separate colours for:
 * the facets (to the left of the search results)
 
 Please provide the colours you want in their hex codes. If you like a colour used on another Sitka library's
-public catalogue let us know and we can pull the hex code from their site.
+public catalogue, let us know and we can pull the hex code from their site.
 
 By default there are two links in the header - _Library Home_ and _My Account_.  Additional links can
 be added to point to other resources and pages the library wishes to include.  To have a link added,
@@ -100,5 +100,5 @@ patrons by phone.
 The password strength message can be customized if your library requires different criteria than Evergreen's
 default.
 
-
+The ability for a patron to change their preferred name can be disabled for academic libraries that send send patron files to Co-op Support for loading.
 
