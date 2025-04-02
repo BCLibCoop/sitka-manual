@@ -3,14 +3,14 @@ Items with Deposits
 (((deposits)))
 
 Libraries may have some items that require a deposit.  This may be
-materials like special books that are hard to replace or items in a library of things collection
+materials like special books that are hard to replace, or items in a Library of Things collection
 that are expensive to replace.
 
 Items that require a deposit will have the _Is Deposit Required_ item attribute set to _Yes_ and
 have an amount entered for the _Deposit Amount_ item attribute. 
 See xref:_item_attributes[] for more information.
 
-For libraries that refund the deposit when the item is returned the library setting 
+For libraries that refund the deposit when the item is returned, the library setting 
 _Void item deposit fee on checkin_ should be set to _TRUE_.
 
 Checking Out an Item With a Deposit
