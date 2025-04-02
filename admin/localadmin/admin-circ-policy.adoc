@@ -9,7 +9,7 @@ Circulation policies define the loan rules when an item is checked out. The poli
 applied based on factors including the item’s circulation modifier, shelving location, and 
 the patron’s permission profile.
 
-When an item is scanned for check out Evergreen checks the following to determine if the item can be checked 
+When an item is scanned for check out, Evergreen checks the following to determine if the item can be checked 
 out to the patron and if so with what parameters:
 
 * xref:_group_penalty_thresholds[Group Penalty Thresholds] for the check out library
@@ -29,7 +29,7 @@ Viewing Your Circulation Policies
 
 https://youtu.be/Lt1RN6LTo4c[*Sitka Training Video - Viewing Your Circulation Policies (2:15)*]
 
-Local system administrators  view their library's circulation policies within Evergreen.
+Local system administrators can view their library's circulation policies within Evergreen.
 
 . Go to *Administration ->  Local Administration -> Circulation Policies*.
 . The library selector will be scoped to your workstation's location.  Multi-branch libraries will
@@ -71,14 +71,14 @@ _(Circulation Policy Filters)_
 * Reference
 * Item Age
 
-The filters are weighted differently in the system.  For most libraries the system looks at the patron group,
+The filters are weighted differently in the system.  For most libraries, the system looks at the patron group,
 then at the libraries involved, then the circulation modifier, then the shelving location, 
 then whether or not the item is reference, and then the age of the item. 
 
 image::images/admin/circ-policy-understand-1.png[]
 
 All libraries have at least one default circulation policy.  The default policy has no circulation 
-modifier or shelving location specified and so applies to all check outs unless there is a more specific 
+modifier or shelving location specified, and so applies to all check outs unless there is a more specific 
 policy that applies to a check out.  More specific policies will look at the item's circulation 
 modifier, shelving location, reference flag, and item age individually or in combination to determine if policy should be used for the 
 check out.  In Sitka, most circulation policies are based off the item's circulation modifier.  While
@@ -181,7 +181,7 @@ idea to regularly review your circulation policies using the report and request 
 is incorrect or missing.
 
 
-To check the item attribues: 
+To check the item attributes: 
 
 . Enter the item barcode into xref:_item_status[_Item Status_] and click on *Detail View*.
 +
