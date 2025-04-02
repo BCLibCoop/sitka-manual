@@ -18,7 +18,7 @@ Checking Out an Item With a Deposit
 
 . xref:_retrieving_patron_accounts[Retrieve the patron's account].
 . On the _Check Out_ tab, scan or enter item barcode.
-. A pop-up will appear indicating that a deposit is required.
+. A pop-up will appear indicating that a deposit is required and the amount owed.
 . Click *Force Action*.
 +
 image:images/circ/deposit/deposit-checkout-1.png[scaledwidth="75%"]
