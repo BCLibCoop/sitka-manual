@@ -1,8 +1,10 @@
 Adding Records to a Record Bucket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Records can be added to new, existing, or shared record buckets via the staff client, the
-record buckets interface, or the MARC Batch Import/Export.
+Records can be added to new, existing, or shared record buckets via multiple functions 
+in the staff catalogue and the MARC Batch Import/Export.  
+
+
 
 Adding Records to a Record Bucket via the Record Summary
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -63,7 +65,7 @@ image::images/cat/buckets/record-bucket-add-2.png[]
 . Enter the required information and click the appropriate button.
 . The record is added to the record bucket. 
 
-
+////
 Adding Records to a Record Bucket via Record Query
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -104,9 +106,6 @@ Record Query Search Help
 | site	| search at specified library, use the library shortcode.
 | | *keyword, title, author, subject*, and *series* support additional search subclasses, specified with a \|. For example: title\|proper:gone with the wind
 |====
-
-
-////
 
 These query limiters don't currently work.
 
