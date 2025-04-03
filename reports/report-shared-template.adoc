@@ -96,14 +96,6 @@ a particular day, cancelled reservations and more.
 * _Overdue Reservations_	
 * _Total Reservations Picked Up (Monthly)_
 
-////
-The _Bookings_ sub-folder _Monthly Stats_ contains templates for gathering montly statistics on bookings.
-
-.Key templates are:
-* _Total Reservations (Monthly) by Barcode_
-* _Total Reservations (Monthly) by Patron Type_
-* _Total Reservations Cancelled (Monthly)_
-////
 
 Circulation
 ^^^^^^^^^^^
@@ -172,8 +164,8 @@ Here you will find templates that specifically report on data captured through E
 xref:_in_house_use[In-House Use] interface.
 
 .Key templates are:
-* _Monthly In-house Use by Shelving Location - Regular Items_
-* _Title List with In-house Use Count by Shelving Location - Regular Items_
+* _Monthly In-house Use by Shelving Location_
+* _Title List with In-house Use Count by Shelving Location_
 
 Circulation of non-catalogued items
 +++++++++++++++++++++++++++++++++++
@@ -181,8 +173,8 @@ Circulation of non-catalogued items
 Here are templates for libraries that use xref:_non_catalogued_items[non-catalogued items] in Evergreen.
 
 .Key templates are:
-* _Circulation count of non-catalogued items by item type within time frame (converted from XUL) (clone)_
-* _Monthly Circulation count of non-catalogued items by item type (converted from XUL) (clone)_
+* _Circulation count of non-catalogued items by item type within time frame_
+* _Monthly Circulation count of non-catalogued items by item type_
 
 Collection
 ^^^^^^^^^^
@@ -205,7 +197,7 @@ counts between title and item.
 * _Title & Item Count by Shelving Location_
 * _xref:_title_amp_item_count_by_shelving_location_and_circulation_modifier[Title & Item Count by Shelving Location and Circulation Modifier]_
 
-Copy List by Item Attributes
+Item List by Item Attributes
 ++++++++++++++++++++++++++++
 
 Here you will find templates that give you lists of items that meet the specified criteria.  You can 
@@ -214,20 +206,20 @@ get lists based on shelving locations, item statuses, circulation modifiers, sta
  enabling you to get exactly the items you're looking for.
  
 .Key templates are:
-* _Circ Modifier : Copies with Selected Circ Modifiers_
-* _Copies with Selected Shelving Location & Status (with total circ and in-house count)_
-* _Newly Catalogued Copies within Selected Month(s)_
-* _Shelving Location : Copies with Selected Shelving Location (clone)_
-* _Shelving Location and Circ Modifier : Copies with Selected Shelving Location and Circ Modifier (clone)_
-* _Status : Copies with Selected Copy Status Set within Time Frame_
+* _Circ Modifier : Items with Selected Circ Modifiers_
+* _Items with Selected Shelving Location & Status (with total circ and in-house count)_
+* _Newly Catalogued Items within Selected Month(s)_
+* _Shelving Location : Items with Selected Shelving Location_
+* _Shelving Location and Circ Modifier : Items with Selected Shelving Location and Circ Modifier_
+* _Status : Items with Selected Copy Status Set within Time Frame_
 
 Many templates in this sub-folder can assist libraries with data clean up.
 
 .Key templates for this are:
-* _Barcode : Copies with Barcode with Matched Substring_ - used to find items using old barcodes
-* _Circ Modifier : Copies without Circ Modifier_ - used to find items missing a circulation modifier
-* _Price : Copies with Price = $0.00_ - used to find items where the price is set to zero
-* _Price: Copies with Price Unset (NULL)_ - used to find items where the price field is blank
+* _Barcode : Items with Barcode with Matched Substring_ - used to find items using old barcodes
+* _Circ Modifier : Items without Circ Modifier_ - used to find items missing a circulation modifier
+* _Price : Items with Price = $0.00_ - used to find items where the price is set to zero
+* _Price: Items with Price Unset (NULL)_ - used to find items where the price field is blank
 
 Title List
 ++++++++++
@@ -238,7 +230,7 @@ call number range, or with specific values in MARC tags.
 
 .Key templates are:
 * _Titles with Multiple Copies at Selected Shelving Locations_
-* _Titles with Newly Catalogued Items within Selected Month (converted from XUL) (clone)_
+* _Titles with Newly Catalogued Items within Selected Month_
 * _Titles with Selected Value in Selected MARC Tags and Subfields (match on exact subject terms)_
 
 Others
@@ -252,8 +244,8 @@ including templates related to deleted items, pre-catalogued items, and weeding.
 * _xref:_popular_titles_at_selected_shelving_locations_within_specified_time_span[Popular Titles at Selected Shelving Locations within Specified Time Span]_
 * _Pre-cat item list with current title and author (non-deleted only)_
 * _Value of Collection by Shelving Location by item circ library_
-* _xref:_weeding_copies_circulated_fewer_times_since_a_selected_date_excl_copied_added_after_a_selected_date[Weeding - Copies Circulated Fewer Times since a Selected Date (excl. Copied added after a Selected Date)]_
-* _xref:_weeding_copies_never_circulated_after_a_selected_date_clone[Weeding -Copies Never Circulated after a Selected Date (clone)]_
+* _xref:_weeding_items_circulated_fewer_times_since_a_selected_date_excl_copied_added_after_a_selected_date[Weeding - Items Circulated Fewer Times since a Selected Date (excl. Items added after a Selected Date)]_
+* _xref:_weeding_items_never_circulated_after_a_selected_date[Weeding - Items Never Circulated after a Selected Date]_
 
 Custom Templates
 ^^^^^^^^^^^^^^^^
@@ -275,7 +267,7 @@ Holds
 Here you will find templates that will give you counts and lists related to holds.
 
 .Key templates are:
-* _Long-time Unfulfilled Holds (with Eligible Copy Status Info, excl. holds without eligible copy) (clone)_
+* _Long-time Unfulfilled Holds (with Eligible Copy Status Info, excl. holds without eligible copy)_
 * _Monthly Cancelled Holds Count by Cancelation Cause_
 * _Monthly Fulfilled Holds Count_
 * _Monthly Total Holds Placed by Staff and Patrons_
