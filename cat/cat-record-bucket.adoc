@@ -21,19 +21,18 @@ Creating a Record Bucket via the Record Buckets Interface
 
 . Go to *Cataloguing -> Record Buckets*.
 
-. Select *New Bucket* from the *Buckets* drop down menu.
+. Click *New Bucket*.
 +
-image::images/cat/buckets/record-bucket-1.png[]
+image::images/cat/buckets/record-bucket-create-1.png[]
 +
 . Enter a name and, optionally, a description.
-. Click *Create Bucket*.
+. Click *Create New Bucket*.
 +
-image::images/cat/buckets/record-bucket-2.png[]
+image::images/cat/buckets/record-bucket-create-2.png[]
 +
-. The newly created bucket is the active bucket on the _Bucket View_ tab. It is now listed in the 
-*Buckets* drop down menu for the owning user.
+. The newly created bucket appears in the grid.
 +
-image::images/cat/buckets/record-bucket-3.png[]
+image::images/cat/buckets/record-bucket-create-3.png[]
 
 
 Creating a Record Bucket via the Record Summary
@@ -43,21 +42,21 @@ Creating a Record Bucket via the Record Summary
 in xref:_searching_the_database_for_cataloguing_purposes[].
 . Click on the title link to open the record.
 +
-image::images/cat/buckets/record-bucket-4.png[]
+image::images/cat/buckets/record-bucket-create-4.png[]
 +
 . Choose *Other Actions -> Add to Bucket*.
 +
-image::images/cat/buckets/record-bucket-5.png[]
+image::images/cat/buckets/record-bucket-create-5.png[]
 +
 . On the pop-up that appears click the *New bucket* tab.
 +
-image::images/cat/buckets/record-bucket-6.png[]
+image::images/cat/buckets/record-bucket-create-6.png[]
 +
 . Enter a name for the new bucket and, optionally, a description.  Click *Add to New Bucket*.
 +
-image::images/cat/buckets/record-bucket-7.png[]
+image::images/cat/buckets/record-bucket-create-7.png[]
 +
-. The record is added to the record bucket. 
+. The record bucket is created and the record is added to the bucket. 
 
 Sharing Record Buckets
 ~~~~~~~~~~~~~~~~~~~~~~
