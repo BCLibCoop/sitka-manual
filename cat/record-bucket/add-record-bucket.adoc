@@ -1,13 +1,23 @@
 Adding Records to a Record Bucket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Records can be added to new, existing, or shared record buckets via multiple functions 
-in the staff catalogue and the MARC Batch Import/Export.  
+Records can be added to new, existing, or shared record buckets via the staff catalogue,
+the item status interface, the MARC Batch Import/Export, and uploading report output.
+
+Adding Records to a Record Bucket via the Staff Catalogue
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Search Results
+++++++++++++++
+
+Record Summary
+++++++++++++++
+
+Staff Catalogue Basket
+++++++++++++++++++++++
 
 
 
-Adding Records to a Record Bucket via the Record Summary
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Search the catalogue for the record you would like to add to a bucket, as described
 in xref:_searching_the_database_for_cataloguing_purposes[].
@@ -48,6 +58,37 @@ image::images/cat/buckets/record-bucket-add-basket-1.png[]
 *Basket Actions* drop down menu.
 +
 image::images/cat/buckets/record-bucket-add-basket-2.png[]
++
+. On the pop-up that appears records can be added to:
+** an existing bucket.
++
+image::images/cat/buckets/record-bucket-add-1.png[]
++
+** a new bucket.
++
+image::images/cat/buckets/record-bucket-add-3.png[]
++
+** a shared bucket.
++
+image::images/cat/buckets/record-bucket-add-2.png[]
++
+. Enter the required information and click the appropriate button.
+. The record is added to the record bucket. 
+
+Adding Records to a Record Bucket via MARC Batch Import
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+MARC records that have already been imported via MARC Batch Import/Export can be added to a bucket.
+
+. Go to *Cataloguing -> MARC Batch Import/Export*.
+. Click on the *Inspect Queue* tab.
+. Double-click on the queue you'd like to open.
++
+image::images/cat/buckets/record-bucket-add-import-1.png[]
++
+. Click *Copy Queue to Bucket*.
++
+image::images/cat/buckets/record-bucket-add-import-2.png[]
 +
 . On the pop-up that appears records can be added to:
 ** an existing bucket.
@@ -116,8 +157,6 @@ These query limiters don't currently work.
 | available	| if set to anything other than "false" or "0", limits to available items
 |====
 
-////
-
 Examples:
 
 * subject:penguin site:MPL
@@ -125,33 +164,4 @@ Examples:
 * ti:Five little penguins site:MPL
 =====
 
-Adding Records to a Record Bucket via MARC Batch Import
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-MARC records that have already been imported via MARC Batch Import/Export can be added to a bucket.
-
-. Go to *Cataloguing -> MARC Batch Import/Export*.
-. Click on the *Inspect Queue* tab.
-. Double-click on the queue you'd like to open.
-+
-image::images/cat/buckets/record-bucket-add-import-1.png[]
-+
-. Click *Copy Queue to Bucket*.
-+
-image::images/cat/buckets/record-bucket-add-import-2.png[]
-+
-. On the pop-up that appears records can be added to:
-** an existing bucket.
-+
-image::images/cat/buckets/record-bucket-add-1.png[]
-+
-** a new bucket.
-+
-image::images/cat/buckets/record-bucket-add-3.png[]
-+
-** a shared bucket.
-+
-image::images/cat/buckets/record-bucket-add-2.png[]
-+
-. Enter the required information and click the appropriate button.
-. The record is added to the record bucket. 
+////
