@@ -15,6 +15,9 @@ image::images/cat/buckets/record-bucket-create-2.png[]
 . The newly created bucket appears in the grid.
 +
 image::images/cat/buckets/record-bucket-create-3.png[]
++
+. Add additional records to the bucket if needed, as described in 
+xref:_adding_records_to_a_record_bucket[]. 
 
 
 Creating a Record Bucket via the Record Summary
@@ -38,4 +41,6 @@ image::images/cat/buckets/record-bucket-create-6.png[]
 +
 image::images/cat/buckets/record-bucket-create-7.png[]
 +
-. The record bucket is created and the record is added to the bucket. 
+. The record bucket is created and the record is added to the bucket.
+. Add additional records to the bucket if needed, as described in 
+xref:_adding_records_to_a_record_bucket[]. 
