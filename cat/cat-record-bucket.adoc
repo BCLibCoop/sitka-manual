@@ -10,6 +10,16 @@ can also be shared with Co-op Support for batch editing assistance and troublesh
 
 Buckets can also be used for matching when importing records via the Batch Import function.
 
+include::record-bucket/create-record-bucket.adoc[Creating Record Buckets]
+
+include::record-bucket/add-record-bucket.adoc[Adding Records to a Record Buckets]
+
+include::record-bucket/share-record-bucket.adoc[Sharing Record Buckets]
+
+include::record-bucket/work-record-bucket.adoc[Working with Records in a Record Buckets]
+
+////
+
 [[create-record-bucket]]
 Creating Record Buckets
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -312,3 +322,5 @@ interface but permissions will prevent any batch edits. Please contact
 https://bc.libraries.coop/support/[Co-op Support] 
 for assistance with batch editing.
 ======
+
+////
