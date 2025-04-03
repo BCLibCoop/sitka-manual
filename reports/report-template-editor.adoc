@@ -318,24 +318,7 @@ image::images/report/report-filters-2.png[]
 +
 image::images/report/report-filters-3.png[]
 +
-. When running a report the hint will display under the filter path. 
-+
-image::images/report/report-filters-4.png[]
-
-[[_changing_an_operator]]
-Changing an Operator
-++++++++++++++++++++
-
-(((Operator)))
-(((Reporter, Operator)))
-(((Report Templates, Operator)))
-
-For information on specific operator see xref:_operators[].
-
-. On the *Filter* tab select the field you would like change the operator of.
-. Use the Operator drop-down on the field to select the new operator from the list.
-+
-image::images/report/report-filters-operator-1.png[]
+. When running a report the hint will display above the filter path. 
 
 
 [[_changing_a_filter_transform]]
@@ -348,17 +331,28 @@ Changing a Transform
 
 For information on specific transforms see xref:_field_transforms[].
 
-. On the *Filters* tab select the field you would like to change the transform for.
-. From the *Actions* menu choose *Change Transform*. You can also right-click on the
-field to open the *Actions* menu.
+. On the *Filters* tab locate the field you would like to change the transform for.
+. Use the *Transform* drop-down on the field to select the transform you would like to use. The transforms available in the list will vary depending on the data type of the selected field.
 +
 image::images/report/report-filters-transform-1.png[]
+
+[[_changing_an_operator]]
+Changing an Operator
+++++++++++++++++++++
+
+(((Operator)))
+(((Reporter, Operator)))
+(((Report Templates, Operator)))
+
+For information on specific operator see xref:_operators[].
+
+. On the *Filter* tab locate the field you would like change the operator of.
+. Use the Operator drop-down on the field to select the new operator from the list.
 +
-. In the pop-up that appears select the new transform from the list and click *OK/Continue*.
-+
-image::images/report/report-filters-transform-2.png[]
-+
-. The new transform will displays in the _Field Transform_ column in the grid.
+image::images/report/report-filters-operator-1.png[]
+
+
+
 
 [[_updating_a_filter_value]]
 Updating a Filter Value
@@ -386,21 +380,14 @@ in use in Sitka's Evergreen.  When a value is hardcoded in for item status a new
 to filter on a different item status.
 
 
-. On the *Filter* tab select the field you would like add, update, or remove the filter value for.
-. From the *Actions* menu choose *Change Filter Value* to add or update the value or choose *Remove Filter Value*
-to remove it. You can also right-click on the field to open the *Actions* menu.
+. On the *Filter* tab, locate the field you would like add, update, or remove the filter value for.
+. To add a value,
+.. Select the *Supply Filter Value* checkbox beneath the field’s *Transform* field. A new set of options for *Filter value* will be displayed under the *Operator* field. The particular filter mechanism will vary depending on your selected *Transform* and *Operator*. See Filter Values for details on exactly how different values must be entered.
+. To edit a preexisting value, overwrite the current *Filter Value* with your desired value.
+. To remove an existing hardcoded value, deselect the *Supply Filter Value* checkbox. Filter values will instead need to be added at the report definition level.
 +
 image::images/report/report-filters-value-1.png[]
-+
-. When changing a filter value a pop-up will appear where you can add the relevant value. See xref:_filter_values[]
-for details on exactly how different values must be entered.
-. Click *OK/Continue*.
-+
-image::images/report/report-filters-value-2.png[]
-+
-. The filter value will display in the grid.
-+
-image::images/report/report-filters-value-3.png[]
+
 
 [[_removing_a_filter]]
 Removing a Filter
@@ -419,12 +406,22 @@ to their library.
 =========
 
 . On the *Filter* tab select the filter field you would like to remove.
-. From the *Actions* menu choose *Remove Field*. You can also right-click on the
-field to open the *Actions* menu.
+. You can remove a field by clicking the *minus* button on the left of this area. You can also remove a field by unchecking it from the options under the All Fields header..
 +
 image::images/report/report-filters-remove-1.png[]
 +
 . The selected field is removed and no longer shows as a filter field.
+
+Template Report Layout
+^^^^^^^^^^^^^^^^^^^^^^
+Select the *Report Layout* tab to adjust the organization of the data on your final output. 
+. On the left side, under Field Display Order, you can rename columns, adjust transforms, and reorder your columns in this tab in the same way you can in the Field Display tab.
+. On the right side, under _Field Sort Order_, you can independently set sort orders on each column as well as determine which column should sort first, second, third, etc. The sorting is independent of the column display order.
++
+image::images/report/report-template-layout-1.png[]
++
+In the example above, the first three columns to display will be Shelving Location, Owning Library, and then Circulating Library, but the report will sort first by Count of Circulations, then Checkout Month, and then by Shelving Location.
+
 
 
 Template Terminology
@@ -441,9 +438,9 @@ Data Types
 (((Report Templates, Data Types)))
 
 
-Every field that display in _Source Path_ pane of the Report Template Editor is associated with a data 
+Every field that display in _display field and filter options_ area of the Report Template Editor is associated with a data 
 type. This indicates what kind of information is stored in the field and Evergreen will handle the information 
-differently based on the data type. Each data type has its own characteristics and uses.
+differently based on the data type. Each data type has its own characteristics and uses. The type of data will be listed next to the field name in parentheses.
 
 [options="header"]
 |===
@@ -570,12 +567,6 @@ If you enter hardcoded values for filter fields, the data must match exactly how
 For example, if the status is _Missing_ in Evergreen you must use _Missing_, a value of _missing_ will 
 not return results.
 
-Multiple filter values can be included separated by commas.
-
-If hardcoding a value for a library filter you must use your library's unique Evergreen ID.  Single branch libraries can
-find this by opening their public catalogue and looking at the URL that displays on the initial load.  This URL will contain
-_physical_loc=X_.  The value of X is your Evergreen ID.  Multi-branch libraries should 
- https://bc.libraries.coop/support/[contact Co-op Support] as the URL for your public catalogue will only show you the ID for
- your system, not your branches.
+If hardcoding a value for a library filter you must use your library's unique Evergreen ID.  Local System Administrators can find this ID by going to Administration -> Server Administration -> Organizational Units.
  
  
