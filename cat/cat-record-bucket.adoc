@@ -10,6 +10,16 @@ can also be shared with Co-op Support for batch editing assistance and troublesh
 
 Buckets can also be used for matching when importing records via the Batch Import function.
 
+include::record-bucket/create-record-bucket.adoc[Creating Record Buckets]
+
+include::record-bucket/add-record-bucket.adoc[Adding Records to a Record Buckets]
+
+include::record-bucket/share-record-bucket.adoc[Sharing Record Buckets]
+
+include::record-bucket/work-record-bucket.adoc[Working with Records in a Record Buckets]
+
+////
+
 [[create-record-bucket]]
 Creating Record Buckets
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -21,19 +31,18 @@ Creating a Record Bucket via the Record Buckets Interface
 
 . Go to *Cataloguing -> Record Buckets*.
 
-. Select *New Bucket* from the *Buckets* drop down menu.
+. Click *New Bucket*.
 +
-image::images/cat/buckets/record-bucket-1.png[]
+image::images/cat/buckets/record-bucket-create-1.png[]
 +
 . Enter a name and, optionally, a description.
-. Click *Create Bucket*.
+. Click *Create New Bucket*.
 +
-image::images/cat/buckets/record-bucket-2.png[]
+image::images/cat/buckets/record-bucket-create-2.png[]
 +
-. The newly created bucket is the active bucket on the _Bucket View_ tab. It is now listed in the 
-*Buckets* drop down menu for the owning user.
+. The newly created bucket appears in the grid.
 +
-image::images/cat/buckets/record-bucket-3.png[]
+image::images/cat/buckets/record-bucket-create-3.png[]
 
 
 Creating a Record Bucket via the Record Summary
@@ -43,21 +52,21 @@ Creating a Record Bucket via the Record Summary
 in xref:_searching_the_database_for_cataloguing_purposes[].
 . Click on the title link to open the record.
 +
-image::images/cat/buckets/record-bucket-4.png[]
+image::images/cat/buckets/record-bucket-create-4.png[]
 +
 . Choose *Other Actions -> Add to Bucket*.
 +
-image::images/cat/buckets/record-bucket-5.png[]
+image::images/cat/buckets/record-bucket-create-5.png[]
 +
 . On the pop-up that appears click the *New bucket* tab.
 +
-image::images/cat/buckets/record-bucket-6.png[]
+image::images/cat/buckets/record-bucket-create-6.png[]
 +
 . Enter a name for the new bucket and, optionally, a description.  Click *Add to New Bucket*.
 +
-image::images/cat/buckets/record-bucket-7.png[]
+image::images/cat/buckets/record-bucket-create-7.png[]
 +
-. The record is added to the record bucket. 
+. The record bucket is created and the record is added to the bucket. 
 
 Sharing Record Buckets
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -313,3 +322,5 @@ interface but permissions will prevent any batch edits. Please contact
 https://bc.libraries.coop/support/[Co-op Support] 
 for assistance with batch editing.
 ======
+
+////

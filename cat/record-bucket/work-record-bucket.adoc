@@ -1,0 +1,58 @@
+Working with Records in a Record Bucket
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Once records have been xref:_adding_records_to_a_record_bucket[added to a record bucket] there are 
+several functions that can be performed.
+
+Managing Record Bucket Contents
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Several options on the *Actions* menu allow staff to manage the contents of their bucket.
+
+image::images/cat/buckets/record-bucket-manage-1.png[]
+
+* Show Selected Records in Catalogue
+** This action will open the selected records in the staff catalogue in new tabs.
++
+[NOTE]
+======
+If only one record opens your browser is blocking pop-ups.
+
+image::images/cat/buckets/record-bucket-manage-2.png[]
+======
++
+* Remove Selected Records from Bucket
+** This action will remove the records from the bucket; this does not delete the records from the catalogue.
+* Move Selected Records to Pending Records
+** This action will move the selected records to the *Pending Records* tab so they can be added to a different 
+record bucket. 
+
+Managing Records in a Record Bucket
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Several options on the *Actions* menu allow staff to manage the records in their bucket.
+
+image::images/cat/buckets/record-bucket-manage-3.png[]
+
+* Delete Selected Records from Catalogue
+** This action deletes the selected records from the catalogue.Records remain in a bucket after they 
+are marked as deleted in the database.
+** See xref:_deleting_records_via_a_record_bucket[].
+* Transfer Title Holds
+** This action should never be used as it will transfer title holds for all libraries. 
+** See xref:_transferring_title_holds[] for information on transferring title holds for your library.
+* Merge Selected Records
+** This action allows staff to merge multiple records into a single record.
+** See xref:_merging_bibliographic_records[].
+* Export Records
+** This action allows staff to export the records from a bucket.
+** See xref:_exporting_marc_records_via_a_record_bucket[].
+
+[NOTE]
+======
+The Batch Edit function is not used by Sitka and library staff cannot use it to batch edit MARC records. 
+The Batch Edit button exists in record buckets and will take staff to the MARC Batch Edit 
+interface but permissions will prevent any batch edits. Please contact 
+https://bc.libraries.coop/support/[Co-op Support] 
+for assistance with batch editing.
+======
