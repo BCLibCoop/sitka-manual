@@ -420,7 +420,7 @@ Select the *Report Layout* tab to adjust the organization of the data on your fi
 +
 image::images/report/report-template-layout-1.png[]
 +
-In the example above, the first three columns to display will be Shelving Location, Owning Library, and then Circulating Library, but the report will sort first by Count of Circulations, then Checkout Month, and then by Shelving Location.
+. In the example above, the first three columns to display will be Shelving Location, Owning Library, and then Circulating Library, but the report will sort first by Count of Circulations, then Checkout Month, and then by Shelving Location.
 
 
 
