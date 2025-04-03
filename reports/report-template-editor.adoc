@@ -457,11 +457,6 @@ data type is treated specially by the software for determining how tables are li
 |Timestamp |A very detailed time such as 2018-11-25 17:54:26-07    |Example: checkout time in circulation record, last status date in item record.
 |===
 
-Evergreen uses icons to indicate data type on the report interface.
-
-image::images/report/term-1.png[]
-
-
 Field Transforms
 ^^^^^^^^^^^^^^^^
 
