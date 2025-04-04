@@ -29,15 +29,13 @@ out the field characters.
 image::images/cat/marc/leader-008-field-grid-1.png[]
 
 * Values can be edited directly in the grid boxes.
-* Right-clicking in most boxes will display a list of the possible values as per MARC21.
+* Left-clicking in most boxes will display a list of the possible values as per 
+https://www.loc.gov/marc/bibliographic/[MARC21].
 * A table giving the names and character positions for the abbreviations used by Evergreen
 can be found in xref:_character_codes_for_leader_and_008_field_grid[].
 * Changing the values of certain boxes, such as Type and BLvl, changes the type of
 material that is being described. In some cases this means that the meaning of the characters
  of the 008 changes.  The grid will change to display the fields relevant to the material.
-** There is currently a bug where the grid doesn't automatically update.  If you change
-the value of the Type and/or BLvl fields you must save the MARC record and reload it in a 
-new tab to see the updated grid.
 
 [TIP]
 =====
@@ -52,16 +50,20 @@ Help and Additional Options
 
 image::images/cat/marc/help-additional-options-1.png[]
 
-* When the *Help* button is clicked, a list of keyboard shortcuts that can be used to edit
-the MARC record display.
-* The *Validate* button is a function of authorities which are not currently used in Sitka's 
-Evergreen.
+* The *Add* button allows you to add a row at the end of your record and to replace the 
+006, 007, and 008 fields.
 * The *Undo* and *Redo* buttons can be used to undo and redo changes that haven't 
 been saved yet.  The number of changes that can be undone or redone will display on the
 buttons.
 * When the *Stack Subfields* checkbox is checked, the subfields in the MARC record display
 stacked vertically on separate lines from the field numbers, instead of each field displaying
 with all subfields horizontally.
+* The *Validate* button is a function of authorities which are not currently used in Sitka's 
+Evergreen.
+* When the *Help* button is clicked, a list of keyboard shortcuts that can be used to edit
+the MARC record display.
+
+
  
 
 MARC Record
