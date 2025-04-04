@@ -60,6 +60,12 @@ Course Reserves
 Reporter
 ~~~~~~~~
 
+* All existing Reporter interfaces, except for the actual report output, have been reimplemented using Angular to match the rest of the staff client.
+* To ensure templates work in the updated reporter we will be replacing the shared templates. All templates in the Sitka templates folder will be new. Core templates will be available on April 7th and additional templates will be added in the weeks following.
+* Field display order and output sort order are now separated, and can be controlled independently.
+* Nullability has been simplified, presenting the template creator with a choice between INNER join (linked required on both tables) and LEFT join (only the “parent” table is required to have a contributing row).
+* Can see the list of Reports that make use of a Template, and the list of Outputs that are generated from a Report
+
 
 [[_new_features_administration]]
 Administration
