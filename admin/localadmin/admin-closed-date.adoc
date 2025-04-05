@@ -5,7 +5,9 @@ anchor:closed-date-editor[Closed Dates Editor]
 
 https://www.youtube.com/watch?v=Jy1d62vfZaE[Sitka Snippet Video - Setting Closed Dates (2:18)]
 
-These dates are in addition to your regular weekly closed days (see xref:operation-hour[]).   Both regular closed days and those entered in the Closed Dates Editor affect due dates, fines, and targeting for holds.
+These dates are in addition to your regular weekly closed days 
+(see xref:_library_hours_of_operation[]).   Both regular closed days and those entered 
+in the Closed Dates Editor affect due dates, fines, and targeting for holds.
 
 NOTE: The due date for daily loans will fall on a day marked partially closed.
 
@@ -32,10 +34,14 @@ of my libraries_ to apply the closing to all branches.
 . Depending on the closing type enter the required dates and time.
 +
 . Enter the reason for the closing.
-+
 . Click *OK*.
 +
 image::images/admin/closed-date-2.png[scaledwidth="75%",alt="Closed Dates Editor"]
++
+. The closed date displays in the grid and will also display in the 
+xref:_upcoming_closures[Upcoming Closures] section of the 
+xref:_public_catalogue_library_info[Library Information] page in your public catalogue.
+
 
 NOTE: The closed period is your local time.
 
