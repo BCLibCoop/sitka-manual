@@ -41,8 +41,20 @@ There are a number of actions that can be performed on buckets available from th
 
 image::images/cat/buckets/record-bucket-actions-1.png[]
 
+* xref:_bucket_action_favourite[Add to Favorites/Remove from Favorites]
+* xref:_bucket_action_edit[]
+* xref:_bucket_action_delete[]
+* xref:_bucket_action_share[]
+* xref:_bucket_action_transfer_owner[]
+* xref:_bucket_action_export[]
+* xref:_bucket_action_upload[]
+* xref:_bucket_action_carousel[]
+* xref:_bucket_action_marc_batch[]
+
 Add to Favorites/Remove from Favorites
 ++++++++++++++++++++++++++++++++++++++
+[[_bucket_action_favourite]]
+
 
 These actions allow to add and remove the selected bucket(s) to/from your Favorites list. 
 Favorited buckets will populate 
@@ -51,18 +63,21 @@ your Favorites view in the buckets interface, as well as in the staff catalogue 
 
 Edit Buckets
 ++++++++++++
+[[_bucket_action_edit]]
 
 This actions allows you to edit the bucket details, including name, description, and whether or not 
 the bucket is public.
 
 Delete Bucket(s)
 ++++++++++++++++
+[[_bucket_action_delete]]
 
 This action allows you to delete the selected bucket(s).  A pop-up will ask you to confirm 
 the deletion. You can only delete buckets that you own or for which you have editing permissions.
 
 Share Buckets
 +++++++++++++
+[[_bucket_action_share]]
 
 This action allows you to share the bucket with other users.
 
@@ -73,6 +88,7 @@ be editable by those with bucket editing privileges at that location
 
 Transfering Bucket Ownership
 ++++++++++++++++++++++++++++
+[[_bucket_action_transfer_owner]]
 
 This action allows you to transfer a bucket to another user.
 
@@ -99,18 +115,21 @@ doesn’t directly own the bucket.
 
 Export Records
 ++++++++++++++
+[[_bucket_action_export]]
 
 This action allows staff to export all of the records in the selected buckets. See 
 xref:_exporting_marc_records_via_a_record_bucket[].
 
 Upload Records
 ++++++++++++++
+[[_bucket_action_upload]]
 
 This action allows staff to upload or copy/paste 
 bibliographic IDs to the selected bucket. See LINK TO GO HERE
 
 Creating Carousels
 ++++++++++++++++++
+[[_bucket_action_carousel]]
 
 Sitka does not currently use the Carousels feature in the Evergreen public catalogue.
 
@@ -122,6 +141,7 @@ of the https://help.libraries.coop/libpress/[LibPress manual].
 
 MARC Batch Edit
 +++++++++++++++
+[[_bucket_action_marc_batch]]
 
 The MARC Batch Edit function is not used by Sitka and library staff cannot use it to batch edit 
 MARC records. The MARC Batch Edit action will take staff to the MARC Batch Edit interface but 
