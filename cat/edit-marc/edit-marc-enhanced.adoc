@@ -114,34 +114,22 @@ Rows can be copied by hovering over the row and clicking on the double square ic
 
 image::images/cat/marc/enhanced-marc-record-6.png[]
 
-
-
-
-Fields in the MARC Record can be edited by clicking into the boxes you wish to edit and
-making your changes.  A number of options are available by right-clicking into boxes
-which will aid cataloguers in entering correct MARC coding.
-
-* Right-clicking in the MARC tag boxes will provide options for adding and 
-removing fields.  This includes adding 006, 007, and 008 control fields.
-+
-image::images/cat/marc/enhanced-marc-record-1.png[]
-+
-* Right-clicking in the MARC tag boxes will list potential fields that can be added.  This
-is a partial list; cataloguers should refer to 
+Clicking into the MARC tag field will list potential tags that can be used for the 
+field. This is a partial list; cataloguers should refer to 
 https://www.loc.gov/marc/[MARC 21 Format for Bibliographic Data]/
 https://www.marc21.ca/M21/BIB/B001-Sommaire.html[Normes MARC 21] for a comprehensive list.
-+
-image::images/cat/marc/enhanced-marc-record-2.png[]
-+
-* Right-clicking in the first or second indicator boxes will list the possible values
+
+image::images/cat/marc/enhanced-marc-record-7.png[]
+
+Clicking in the first or second indicator boxes will list the possible values
 for the indicator as per MARC 21.
-+
-image::images/cat/marc/enhanced-marc-record-3.png[]
-+
-* Right-clicking in a subfield box will list the possible subfield values for the particular 
+
+image::images/cat/marc/enhanced-marc-record-8.png[]
+
+Clicking in a subfield box will list the possible subfield values for the particular 
 field as per MARC 21.
-+
-image::images/cat/marc/enhanced-marc-record-4.png[]
+
+image::images/cat/marc/enhanced-marc-record-9.png[]
 
 
 Physical Characteristics Wizard
