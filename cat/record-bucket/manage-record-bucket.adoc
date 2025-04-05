@@ -41,25 +41,30 @@ There are a number of actions that can be performed on buckets available from th
 
 image::images/cat/buckets/record-bucket-actions-1.png[]
 
-Favourites
-++++++++++
+Add to Favorites/Remove from Favorites
+++++++++++++++++++++++++++++++++++++++
 
-*Add to Favorites* - adds the selected bucket to your Favorites list. Favorited buckets will populate your Favorites view in the buckets interface, as well as in the staff catalog buckets tab.
-*Remove from Favorites* - removes the selected bucket from your Favorites list.
+These actions allow to add and remove the selected bucket(s) to/from your Favorites list. 
+Favorited buckets will populate 
+your Favorites view in the buckets interface, as well as in the staff catalogue buckets tab.
 
 
-Editing Buckets
-+++++++++++++++
+Edit Buckets
+++++++++++++
 
-*Edit Bucket* - allows you to edit bucket details like name, description, and whether or not the bucket is public
+This actions allows you to edit the bucket details, including name, description, and whether or not 
+the bucket is public.
 
-Deleting Buckets
+Delete Bucket(s)
 ++++++++++++++++
 
-*Delete Bucket(s)* - prompts you to confirm deletion of one or several buckets. You can only delete buckets that you own, or for which you have editing permissions.
+This action allows you to delete the selected bucket(s).  A pop-up will ask you to confirm 
+the deletion. You can only delete buckets that you own or for which you have editing permissions.
 
-Sharing Buckets
-+++++++++++++++
+Share Buckets
++++++++++++++
+
+This action allows you to share the bucket with other users.
 
 *Share Bucket* - this opens a modal which will allow you to share the bucket with specific 
 users and/or organizational units. You can separately add users with view-only permissions
@@ -69,22 +74,40 @@ be editable by those with bucket editing privileges at that location
 Transfering Bucket Ownership
 ++++++++++++++++++++++++++++
 
-*Transfer Bucket Ownership* - this opens a modal which will prompt you to enter a barcode, or 
-search for a user, to transfer bucket ownership. Depending on your permissions, once you 
-transfer a bucket you may lose editing or viewing privileges for that bucket. Administrators 
-can transfer buckets for other users, even if the administrator doesn’t directly own the bucket.
+This action allows you to transfer a bucket to another user.
 
-Exporting Records
-+++++++++++++++++
+. In the pop-up that appears click *Search for user* to find the account you wish to transfer 
+the bucket ownership to.
++
+image::images/cat/buckets/record-bucket-actions-2.png[]
++
+. Use the search form to search for and select the desired library staff account.  Click *Select*.
++
+image::images/cat/buckets/record-bucket-actions-3.png[]
++
+. The pop-up will now indicate who the buckets are to be transferred to.  Click *COnfirm transfer*.
++
+image::images/cat/buckets/record-bucket-actions-4.png[]
++
+. The buckets are transferred and the transfer results are displayed. Click *OK*. 
++
+image::images/cat/buckets/record-bucket-actions-5.png[]
 
-*Export Records* - This action allows staff to export all of the records in the selected 
-buckets. See xref:_exporting_marc_records_via_a_record_bucket[].
+Depending on your permissions, once you transfer a bucket you may lose editing or viewing privileges 
+for that bucket. Administrators can transfer buckets for other users, even if the administrator 
+doesn’t directly own the bucket.
+
+Export Records
+++++++++++++++
+
+This action allows staff to export all of the records in the selected buckets. See 
+xref:_exporting_marc_records_via_a_record_bucket[].
 
 Upload Records
 ++++++++++++++
 
-*Upload Records* - this opens a modal which will allow you to either upload or copy/paste 
-bibliographic IDs or TCNs to the selected bucket. This is described in detail below in
+This action allows staff to upload or copy/paste 
+bibliographic IDs to the selected bucket. See LINK TO GO HERE
 
 Creating Carousels
 ++++++++++++++++++
@@ -104,39 +127,3 @@ The MARC Batch Edit function is not used by Sitka and library staff cannot use i
 MARC records. The MARC Batch Edit action will take staff to the MARC Batch Edit interface but 
 permissions will prevent any batch edits. Please contact Co-op Support for assistance 
 with batch editing.
-
-
-
-
-Staff can share their record buckets with other staff at the library, at another branch, or at another 
-library by sharing the bucket ID.
-
-Finding a Record Bucket ID
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-. Go to *Cataloguing -> Record Buckets*.
-
-. From the *Buckets* drop down menu select the bucket you would like to share.
-+
-image::images/cat/buckets/record-bucket-share-1.png[]
-+
-. Note the bucket ID and tell it to the staff member you would like to share the bucket with.
-+
-image::images/cat/buckets/record-bucket-share-2.png[]
-
-Retrieving a Shared Record Bucket
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-. Go to *Cataloguing -> Record Buckets*.
-
-. From the *Buckets* drop down menu select *Shared Bucket*.
-+
-image::images/cat/buckets/record-bucket-share-3.png[]
-+
-. Enter the record bucket ID and click *Load Bucket*.
-+
-image::images/cat/buckets/record-bucket-share-4.png[]
-+
-. The shared record bucket displays.
-+
-image::images/cat/buckets/record-bucket-share-5.png[]
