@@ -42,14 +42,14 @@ There are a number of actions that can be performed on buckets available from th
 image::images/cat/buckets/record-bucket-actions-1.png[]
 
 * xref:_bucket_action_favourite[Add to Favorites/Remove from Favorites]
-* xref:_bucket_action_edit[]
-* xref:_bucket_action_delete[]
-* xref:_bucket_action_share[]
-* xref:_bucket_action_transfer_owner[]
-* xref:_bucket_action_export[]
-* xref:_bucket_action_upload[]
-* xref:_bucket_action_carousel[]
-* xref:_bucket_action_marc_batch[]
+* xref:_bucket_action_edit[Edit Buckets]
+* xref:_bucket_action_delete[Delete Bucket(s)]
+* xref:_bucket_action_share[Share Buckets]
+* xref:_bucket_action_transfer_owner[Transfering Bucket Ownership]
+* xref:_bucket_action_export[Export Records]
+* xref:_bucket_action_upload[Upload Records]
+* xref:_bucket_action_carousel[Creating Carousels]
+* xref:_bucket_action_marc_batch[MARC Batch Edit]
 
 Add to Favorites/Remove from Favorites
 ++++++++++++++++++++++++++++++++++++++
@@ -79,7 +79,10 @@ Share Buckets
 +++++++++++++
 [[_bucket_action_share]]
 
-This action allows you to share the bucket with other users.
+This action allows you to share the bucket with specific library staff or all library staff at a 
+particular library.
+
+. In the pop-up that appears choose 
 
 *Share Bucket* - this opens a modal which will allow you to share the bucket with specific 
 users and/or organizational units. You can separately add users with view-only permissions
