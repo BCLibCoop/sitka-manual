@@ -79,15 +79,44 @@ Share Buckets
 +++++++++++++
 [[_bucket_action_share]]
 
-This action allows you to share the bucket with specific library staff or all library staff at a 
-particular library.
+This action allows you to share the bucket with specific library staff account, allowing them to view-only
+or edit the bucket and its contents.  You can also share the bucket with all library staff at a 
+particular library which allows them to view and edit the bucket and its contents. 
 
-. In the pop-up that appears choose 
+When the action is selected the pop-up that appears has three tabs: _Users with View Permissions_, Users with
+Edit Permissions_, and _Libraries_. 
++
+image::images/cat/buckets/record-bucket-share-1.png[]
 
-*Share Bucket* - this opens a modal which will allow you to share the bucket with specific 
-users and/or organizational units. You can separately add users with view-only permissions
-and users with view and edit permissions. All buckets shared with an organizational unit will 
-be editable by those with bucket editing privileges at that location
+. To grant view or edit permissions to a specific library staff account select the appropriate tab and 
+click *Add Users*.
++
+image::images/cat/buckets/record-bucket-share-2.png[]
++
+. Use the search form to search for and select the desired library staff account.  Click *Select*.
++
+image::images/cat/buckets/record-bucket-actions-3.png[]
++
+. The chosen user now displays in the grid. Click *Update Bucket Sharing*.
++
+image::images/cat/buckets/record-bucket-share-3.png[]
++
+. The bucket is shared and the record bucket grid updates to indicate the sharing.
++
+image::images/cat/buckets/record-bucket-share-4.png[]
+
+. To grant view and edit permissions to all library staff at a particular library select the 
+_Libraries_ tab.
+. In the organizational tree find the library you would like to share the bucket with and 
+check the appropriate box.
+. Click *Update Bucket Sharing*.
++
+image::images/cat/buckets/record-bucket-share-5.png[]
++
+. The bucket is shared and the record bucket grid updates to indicate the sharing.
++
+image::images/cat/buckets/record-bucket-share-4.png[]
+
 
 Transfering Bucket Ownership
 ++++++++++++++++++++++++++++
