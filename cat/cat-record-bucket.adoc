@@ -6,9 +6,7 @@ Record Buckets
 Record buckets are containers that can be used to group MARC records.  Once records are in a bucket you
 can perform batch actions on the records including xref:_merging_bibliographic_records[merging], 
 xref:_deleting_records_via_a_record_bucket[deleting], and xref:_exporting_marc_records_via_a_record_bucket[exporting] the records. Buckets
-can also be shared with Co-op Support for batch editing assistance and troubleshooting. 
-
-Buckets can also be used for matching when importing records via the Batch Import function.
+can also be shared with Co-op Support for batch editing assistance and troubleshooting. Buckets can also be used for matching when importing records via the Batch Import function.
 
 include::record-bucket/manage-record-bucket.adoc[Managing Record Buckets]
 

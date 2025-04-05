@@ -1,6 +1,9 @@
 Managing Record Buckets
 ~~~~~~~~~~~~~~~~~~~~~~~
 
+Viewing Record Buckets
+^^^^^^^^^^^^^^^^^^^^^^ 
+
 Beneath the header are shortcuts to display different sets of buckets:
 
 * _My buckets_ shows all buckets that you created or that you own directly.
@@ -12,20 +15,31 @@ library, for which you have permission to edit.
 * _Visible to me_ shows buckets that have either been directly shared with you or 
 shared with your library, for which you have permission to view.
 
-Favourites
-^^^^^^^^^^
+image::images/cat/buckets/record-bucket-manage-bucket-1.png[]
 
-Editing Buckets
-^^^^^^^^^^^^^^^
-
-Deleting Buckets
+Bucket ID Search
 ^^^^^^^^^^^^^^^^
 
+Catalogue Search 
+^^^^^^^^^^^^^^^^
+
+Record Bucket Actions
+^^^^^^^^^^^^^^^^^^^^^
+
+Favourites
+++++++++++
+
+Editing Buckets
++++++++++++++++
+
+Deleting Buckets
+++++++++++++++++
+
 Sharing Buckets
-^^^^^^^^^^^^^^^
++++++++++++++++
 
 Transfering Bucket Ownership
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+++++++++++++++++++++++++++++
 
 Transfer Bucket Ownership - this opens a modal which will prompt you to enter a barcode, or 
 search for a user, to transfer bucket ownership. Depending on your permissions, once you 
@@ -33,7 +47,7 @@ transfer a bucket you may lose editing or viewing privileges for that bucket. Ad
 can transfer buckets for other users, even if the administrator doesn’t directly own the bucket.
 
 Creating Carousels
-^^^^^^^^^^^^^^^^^^
+++++++++++++++++++
 
 Sitka does not currently use the Carousels feature in the Evergreen public catalogue.
 
@@ -42,12 +56,12 @@ https://help.libraries.coop/libpress/highlights/sitka-carousels/[Sitka Carousels
 of the https://help.libraries.coop/libpress/[LibPress manual].
 
 Exporting Records
-^^^^^^^^^^^^^^^^^
++++++++++++++++++
 
 This action allows staff to export all of the records in the selected buckets. See xref:_exporting_marc_records_via_a_record_bucket[].
 
 MARC Batch Edit
-^^^^^^^^^^^^^^^
++++++++++++++++
 
 The MARC Batch Edit function is not used by Sitka and library staff cannot use it to batch edit 
 MARC records. The MARC Batch Edit action will take staff to the MARC Batch Edit interface but 
