@@ -20,31 +20,71 @@ image::images/cat/buckets/record-bucket-manage-bucket-1.png[]
 Bucket ID Search
 ^^^^^^^^^^^^^^^^
 
+Buckets can be searched for and retrieved if you know the bucket ID.
+
+image::images/cat/buckets/record-bucket-manage-bucket-2.png[]
+
 Catalogue Search 
 ^^^^^^^^^^^^^^^^
+
+While there is a catalogue search available from within the Record Bucket interface it is 
+recommended that staff go to *Cataloguing -> Search Catalogue* as there are more options available 
+for filtering and limiting your search by starting in the staff catalogue.
+
+image::images/cat/buckets/record-bucket-manage-bucket-3.png[]
 
 Record Bucket Actions
 ^^^^^^^^^^^^^^^^^^^^^
 
+There are a number of actions that can be performed on buckets available from the 
+*Actions* menu.
+
+image::images/cat/buckets/record-bucket-actions-1.png[]
+
 Favourites
 ++++++++++
+
+*Add to Favorites* - adds the selected bucket to your Favorites list. Favorited buckets will populate your Favorites view in the buckets interface, as well as in the staff catalog buckets tab.
+*Remove from Favorites* - removes the selected bucket from your Favorites list.
+
 
 Editing Buckets
 +++++++++++++++
 
+*Edit Bucket* - allows you to edit bucket details like name, description, and whether or not the bucket is public
+
 Deleting Buckets
 ++++++++++++++++
+
+*Delete Bucket(s)* - prompts you to confirm deletion of one or several buckets. You can only delete buckets that you own, or for which you have editing permissions.
 
 Sharing Buckets
 +++++++++++++++
 
+*Share Bucket* - this opens a modal which will allow you to share the bucket with specific 
+users and/or organizational units. You can separately add users with view-only permissions
+and users with view and edit permissions. All buckets shared with an organizational unit will 
+be editable by those with bucket editing privileges at that location
+
 Transfering Bucket Ownership
 ++++++++++++++++++++++++++++
 
-Transfer Bucket Ownership - this opens a modal which will prompt you to enter a barcode, or 
+*Transfer Bucket Ownership* - this opens a modal which will prompt you to enter a barcode, or 
 search for a user, to transfer bucket ownership. Depending on your permissions, once you 
 transfer a bucket you may lose editing or viewing privileges for that bucket. Administrators 
 can transfer buckets for other users, even if the administrator doesn’t directly own the bucket.
+
+Exporting Records
++++++++++++++++++
+
+*Export Records* - This action allows staff to export all of the records in the selected 
+buckets. See xref:_exporting_marc_records_via_a_record_bucket[].
+
+Upload Records
+++++++++++++++
+
+*Upload Records* - this opens a modal which will allow you to either upload or copy/paste 
+bibliographic IDs or TCNs to the selected bucket. This is described in detail below in
 
 Creating Carousels
 ++++++++++++++++++
@@ -55,10 +95,7 @@ Libraries using LibPress can find information on using carousels in the
 https://help.libraries.coop/libpress/highlights/sitka-carousels/[Sitka Carousels] section
 of the https://help.libraries.coop/libpress/[LibPress manual].
 
-Exporting Records
-+++++++++++++++++
 
-This action allows staff to export all of the records in the selected buckets. See xref:_exporting_marc_records_via_a_record_bucket[].
 
 MARC Batch Edit
 +++++++++++++++
