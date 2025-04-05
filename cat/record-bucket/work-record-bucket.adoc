@@ -20,6 +20,8 @@ Managing Record Bucket Contents
 
 Several options on the *Actions* menu allow staff to manage the contents of their bucket.
 
+image::images/cat/buckets/record-bucket-manage-1.png[]
+
 * Add Selected Records to a Different Bucket
 ** This action will open the selected records in the staff catalogue in new tabs.
 * Move Selected Records to a Different Bucket
@@ -28,15 +30,12 @@ record bucket.
 * Remove Selected Recoords from Bucket
 ** This action will remove the records from the bucket; this does not delete the records from the catalogue.
 
-image::images/cat/buckets/record-bucket-manage-1.png[]
-
-
 Managing Records in a Record Bucket
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Several options on the *Actions* menu allow staff to manage the records in their bucket.
 
-image::images/cat/buckets/record-bucket-manage-3.png[]
+image::images/cat/buckets/record-bucket-manage-2.png[]
 
 * Delete Selected Records from Catalog
 ** This action deletes the selected records from the catalogue. Records remain in a 
