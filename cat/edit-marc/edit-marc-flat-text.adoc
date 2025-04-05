@@ -3,6 +3,12 @@ Flat Text Editor
 
 The Flat Text Editor is used when working with MARC records. 
 
+[NOTE]
+======
+When working with MARC Records cataloguers must follow Sitka's Cataloguing Policy for 
+http://docs.libraries.coop/policy/_editing_bibliographic_records.html[editing MARC records].
+======
+
 [CAUTION]
 =========
 Cataloguers should be cautious when using the Flat Text Editor and always double check
