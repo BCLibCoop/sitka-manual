@@ -1,0 +1,92 @@
+Managing Record Buckets
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Beneath the header are shortcuts to display different sets of buckets:
+
+* _My buckets_ shows all buckets that you created or that you own directly.
+* _Favorites_ shows the buckets that you have marked as a favourite.
+* _Recent_ shows buckets that you have recently viewed.
+* _Shared with others_ shows buckets that you have shared with other staff users or libraries.
+* _Shared with me_ shows buckets that have either been directly shared with you or shared with your 
+library, for which you have permission to edit.
+* _Visible to me_ shows buckets that have either been directly shared with you or 
+shared with your library, for which you have permission to view.
+
+Favourites
+^^^^^^^^^^
+
+Editing Buckets
+^^^^^^^^^^^^^^^
+
+Deleting Buckets
+^^^^^^^^^^^^^^^^
+
+Sharing Buckets
+^^^^^^^^^^^^^^^
+
+Transfering Bucket Ownership
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Transfer Bucket Ownership - this opens a modal which will prompt you to enter a barcode, or 
+search for a user, to transfer bucket ownership. Depending on your permissions, once you 
+transfer a bucket you may lose editing or viewing privileges for that bucket. Administrators 
+can transfer buckets for other users, even if the administrator doesn’t directly own the bucket.
+
+Creating Carousels
+^^^^^^^^^^^^^^^^^^
+
+Sitka does not currently use the Carousels feature in the Evergreen public catalogue.
+
+Libraries using LibPress can find information on using carousels in the 
+https://help.libraries.coop/libpress/highlights/sitka-carousels/[Sitka Carousels] section
+of the https://help.libraries.coop/libpress/[LibPress manual].
+
+Exporting Records
+^^^^^^^^^^^^^^^^^
+
+This action allows staff to export all of the records in the selected buckets.
+** See xref:_exporting_marc_records_via_a_record_bucket[].
+
+MARC Batch Edit
+^^^^^^^^^^^^^^^
+
+The MARC Batch Edit function is not used by Sitka and library staff cannot use it to batch edit 
+MARC records. The MARC Batch Edit action will take staff to the MARC Batch Edit interface but 
+permissions will prevent any batch edits. Please contact Co-op Support for assistance 
+with batch editing.
+
+
+
+
+Staff can share their record buckets with other staff at the library, at another branch, or at another 
+library by sharing the bucket ID.
+
+Finding a Record Bucket ID
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Go to *Cataloguing -> Record Buckets*.
+
+. From the *Buckets* drop down menu select the bucket you would like to share.
++
+image::images/cat/buckets/record-bucket-share-1.png[]
++
+. Note the bucket ID and tell it to the staff member you would like to share the bucket with.
++
+image::images/cat/buckets/record-bucket-share-2.png[]
+
+Retrieving a Shared Record Bucket
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Go to *Cataloguing -> Record Buckets*.
+
+. From the *Buckets* drop down menu select *Shared Bucket*.
++
+image::images/cat/buckets/record-bucket-share-3.png[]
++
+. Enter the record bucket ID and click *Load Bucket*.
++
+image::images/cat/buckets/record-bucket-share-4.png[]
++
+. The shared record bucket displays.
++
+image::images/cat/buckets/record-bucket-share-5.png[]
