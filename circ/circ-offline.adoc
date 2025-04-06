@@ -3,6 +3,12 @@ Offline Circulation
 
 Evergreen's Offline Circulation Module is designed to log transactions during network outage, then offline transactions are uploaded and processed once network operations are restored.
 
+[NOTE]
+=============
+The Offline Circulation module will not work while our servers are down. Please plan to use alternative methods for circulation tracking if your library is open during the annual software upgrade.
+=============
+
+
 ////
 [CAUTION]
 =============

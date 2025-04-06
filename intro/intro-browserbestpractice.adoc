@@ -117,14 +117,15 @@ image::images/intro/browser1.png[]
 +
 . Click *Settings*.
 . Select *Privacy and security* from the left hand side.
-. Click *Cookies and other site data*.
+. Click *Third-Party cookies*.
 . Under _General Settings_ make sure  _Block third-party cookies in Incognito_ is selected.
-. _Clear cookies and site data when you close all windows_ should be off.
-. Under _See all cookies and site data_ click *Add* beside _Sites that can always use cookies_.
-. Site: https://catalogue.libraries.coop
-. Click *Add*.
+. Click *Add* beside _Sites allowed to use third-party cookies_.
 +
-image:images/intro/cookies.png[scaledwidth="75%"]
+image:images/intro/cookies-1.png[scaledwidth="75%"]
++
+. Enter catalogue.libraries.coop and click *Add*.
++
+image:images/intro/cookies-2.png[scaledwidth="75%"]
 
 Security Software and Cookies
 +++++++++++++++++++++++++++++
@@ -142,7 +143,8 @@ Turn Off Autofill
 image::images/intro/browser1.png[]
 +
 . Click *Settings*.
-. Under Autofill click *Addresses and more*.
+. Select *Autofill and passwords* from the left hand side.
+. Click *Addresses and more*.
 . Turn off *Save and fill addresses*.
 +
 image::images/intro/autofill.png[]
@@ -153,6 +155,47 @@ Troubleshooting
 (((Troubleshooting, Browser)))
 (((Browser, Troubleshooting)))
 (((Internet Browser, Troubleshooting)))
+
+
+Retrieve Console Messages
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+(((Troubleshooting, Console Messages)))
+
+If you are encountering issues in Evergreen please check the 
+browser console and send any error messages that appear to 
+xref:https://bc.libraries.coop/support/[Co-op Support].
+
+.Chrome Console Messages:
+. Click *Menu*.
++
+image::images/intro/browser1.png[]
++
+. Select *More Tools*.
+. Select *Developer Tools*. (This will open a pane on the right-side of your browser.)
+. Select the _Console_ tab if it is not opened by default.
+. Change the _Default levels_ dropdown to be sure that Verbose is checked.
+. Either take a screenshot or copy and paste the text that appears in the 
+console when you see the errors occurring. Be sure to include any 
+of the errors that display in red.
+
+.Hatch Extension Console Messages:
+. In Chrome, click *Menu*.
+. Select *More tools*.
+. Select *Extensions*.
+. Check the box at the top of the screen that says _Developer Mode_.
+. Scroll down to Hatch Native Messenger.
+. Click on the link that says *background* page. (This will open a new window.)
+. Select the _Console_ tab.
+. Change the _Default levels_ dropdown to be sure that Verbose is checked.
+. Either take a screenshot or copy and paste the text that appears in the console 
+when you see the errors occurring. Be sure to include any of the errors that 
+display in red.
+
+[NOTE]
+======
+Please read xref:_guidelines_for_support_requests[] before submitting your ticket.
+======
 
 
 Clear Cache
@@ -166,12 +209,11 @@ Clear Cache
 +
 image::images/intro/browser1.png[]
 +
-. Click *More tools*.
-. Click *Clear browsing data*.
-. Set Time Range
-.. *All time*
-. Check the box next to _Cached images and files_ (other boxes can be left unchecked).
-. Click *Clear Data*.
+. Click *Settings*.
+. Select *Delete browsing data*.
+. Set Time Range to _All time_.
+. Check the box next to _Cached images and files_ .
+. Click *Delete data*.
 +
 image::images/intro/clearcache.png[]
 
@@ -183,23 +225,34 @@ Clear Cookies
 
 If you log in and see a blank page with the green bar across the top, but nothing else will load, you may need to clear your browser's cache and cookies.
 
-////
-CAUTION: Before you clear cookies, be aware that clearing cookies will cause you to lose your registered workstations and local settings if they are still stored on the browser. As of Evergreen 3.3 these settings are stored on the Sitka server, and they have to be moved from browser to server manually. Clearing cookies, and subsequently reconfiguring local settings in Evergreen, will manually save settings to the Sitka server by default, and then clearing browser cookies will no longer be a concern for local settings. It is important to remember your workstation name.  Your workstation settings and preferences are stored on Sitka's Evergreen server with your workstation name.  If you rename your workstation you will lose your stored settings and preferences.
-////
+[CAUTION]
+=========
+Clearing the cookies will clear all workstations registered to the browser; 
+this clears all workstation settings.
+
+Co-op Support recommends writing down your workstation name before clearing cookies
+so that you can register with the same workstation name which will preserve 
+your workstation settings.
+=========
+
 
 .Clear Cookies
 . Click *Menu*.
 +
 image::images/intro/browser1.png[]
 +
-. Click *More tools*.
-. Click *Clear browsing data*.
-. Check the box next to _Cookies and other site data_.
-. Check the box next to _Cached images and files_.
-. Set Time Range
-.. *All time* (recommended)
-. Click *Clear Data*.
+. Click *Settings*.
+. Select *Delete browsing data*.
+. Set Time Range to _All time_.
+. Check the boxes next to _Cookies and other site data_ and 
+_Cached images and files_ .
+. Click *Delete data*.
++
+image::images/intro/clear-cookies-1.png[]
++
 . Return to https://catalogue.libraries.coop/eg/staff
+. You will need to register a workstation.  See 
+xref:_registering_a_staff_workstation[].
 
 Reset Settings
 ^^^^^^^^^^^^^^
@@ -216,7 +269,7 @@ settings for Chrome.
 image::images/intro/browser1.png[]
 +
 . Click *Settings*.
-. Click *Reset and clean up*.
+. Click *Reset Settings* from the left hand side.
 . Click *Restore settings to their original defaults*.
 . Click *Reset settings*.
 . Return to https://catalogue.libraries.coop/eg/staff
@@ -263,33 +316,3 @@ or deleting the offline database.
 . You will be returned to the workstation registration screen again - click *Use Now* to log in again.
 . Your local settings should now be restored.
 
-Retrieve Console Messages
-^^^^^^^^^^^^^^^^^^^^^^^^^
-
-(((Troubleshooting, Console Messages)))
-
-If you are having problems, please include screenshots and error messages from the console(s).
-
-.Chrome Console Messages:
-. Click *Menu*.
-+
-image::images/intro/browser1.png[]
-+
-. Select More Tools.
-. Select Developer Tools. (This will open a pane on the right-side of your browser.)
-. Select the Console tab.
-. Change the "Default" dropdown to be sure that Verbose is checked.
-. Either take a screenshot or copy and paste the text that appears in the console when you see the errors occurring. Be sure to include any of the errors that display in red.
-
-.Hatch Extension Console Messages:
-. In Chrome, click *Menu*.
-. Select More tools.
-. Select Extensions.
-. Check the box at the top of the screen that says Developer Mode.
-. Scroll down to Hatch Native Messenger.
-. Click on the link that says "background" page. (This will open a new window.)
-. Select the Console tab.
-. Change the "Default" dropdown to be sure that Verbose is checked.
-. Either take a screenshot or copy and paste the text that appears in the console when you see the errors occurring. Be sure to include any of the errors that display in red.
-
-NOTE: Please read xref:support-guidelines[] before submitting your ticket.

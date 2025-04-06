@@ -8,12 +8,6 @@ anchor:holdings-template[Holdings Template]
 Holdings templates allow you to set up templates with pre-selected values for item attributes
 and help to ensure consistency in cataloguing of items.
 
-////
-Call number attributes are not included in the template editor by default but can be added through the
-xref:_holdings_editor_preferences[Holdings Details Defaults].
-////
-  
-
 Creating Holdings Templates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -24,15 +18,21 @@ OR
 Open the Holdings Editor through any bibliographic record and go to the *Holdings* tab if you are using 
 the unified editor or the *Item Attributes* tab if you are not.
 +
-image::images/cat/item-template-1.png[]
+image::images/cat/holdings/holdings-template-1.png[]
 +
 . Enter the values for the item attributes needed for your template.
 +
-image::images/cat/item-template-2.png[]
+image::images/cat/holdings/holdings-template-2.png[]
 +
-. Type in a name for the template and click *Save*.
+[NOTE]
+======
+Values entered for _Prefix_ and/or _Suffix_ in the xref:_holdings_details[Holdings Details] section will be 
+saved as part of the template.
+======
 +
-image::images/cat/item-template-3.png[]
+. Type in a name for the template and click *Save Template*.
++
+image::images/cat/holdings/holdings-template-3.png[]
 +
 . The template is saved.
 
@@ -46,13 +46,13 @@ OR
 Open the Holdings Editor through any bibliographic record and go to the *Holdings* tab if you are using 
 the unified editor or the *Item Attributes* tab if you are not.
 +
-image::images/cat/item-template-1.png[]
+image::images/cat/holdings/holdings-template-1.png[]
 +
 . Select the template you would like to delete from the drop down menu.
 +
 . Click *Delete Template*.
 +
-image::images/cat/holdings/item-template-delete-1.png[]
+image::images/cat/holdings/holdings-template-delete-1.png[]
 +
 . Your template has been deleted and will no longer appear in the list.
 
@@ -61,13 +61,13 @@ Using Holdings Templates
 
 . In the Holdings Editor click on the template drop down menu.
 +
-. Select the template from the list and click *Apply*.
+. Select the template from the list and click *Apply Template*.
 +
-image::images/cat/item-template-4.png[]
+image::images/cat/holdings/holdings-template-4.png[]
 +
 . The applicable attributes will be updated with the values from the template and highlighted in green.
 +
-image::images/cat/item-template-5.png[]
+image::images/cat/holdings/holdings-template-5.png[]
 
 
 Sharing Holdings Template
@@ -92,19 +92,20 @@ Via the Holdings Editor
 +++++++++++++++++++++++
 [_sharing_holdings_templates_via_the_holdings_editor]
 
-. In the Holdings Editor click *Export*.
+. In the Holdings Editor click *Export All Templates*.
 +
-image::images/cat/item-template-6.png[]
+image::images/cat/holdings/holdings-template-6.png[]
 +
 . You are prompted to specify where on your computer you would like to save the file. Click *Save* once done.
 +
-. You can share the file with staff via email or a shared network drive or
-have them log into Evergreen on computer the file has been saved to.
-. In the Holdings Editor click *Import*.
+. You can share the file with staff via email, via a shared network drive, or
+have them log into Evergreen on the computer the file has been saved to.
+. In the Holdings Editor click *Import Templates*.
 +
-image::images/cat/item-template-7.png[]
+image::images/cat/holdings/holdings-template-7.png[]
 +
 . Follow the prompts to locate the templates file to be loaded. Click *Open*.
+. The templates will be imported.
 
 Via Local Administration
 ++++++++++++++++++++++++
@@ -113,15 +114,15 @@ Via Local Administration
 . In Evergreen go to *Administration -> Local Administration -> Holdings Template Editor*.
 . In the Holdings Template Editor click *Export*.
 +
-image::images/cat/holdings/item-template-editor-1.png[]
+image::images/cat/holdings/holdings-template-editor-1.png[]
 +
 . You are prompted to specify where on your computer you would like to save the file. Click *Save* once done.
 +
-. You can share the file with staff via email or a shared network drive or
-have them log into Evergreen on computer the file has been saved to.
+. You can share the file with staff via email, via a shared network drive, or
+have them log into Evergreen on the computer the file has been saved to.
 . In the Holdings Editor click *Import*.
 +
-image::images/cat/holdings/item-template-editor-2.png[]
+image::images/cat/holdings/holdings-template-editor-2.png[]
 +
 . Follow the prompts to locate the templates file to be loaded. Click *Open*.
 . The templates will be imported.

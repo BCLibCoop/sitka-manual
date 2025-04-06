@@ -3,9 +3,14 @@ Merging Bibliographic Records
 
 https://youtu.be/Why90G2qizg[*Sitka Training Video - Merging Duplicate Bibliographic Records (5:10)*]
 
-Each discrete bibliographic title in Evergreen should have a single record that all libraries attach 
-their holdings to. When this is not the case library staff with the cataloguing knowledge to correctly 
-identify matching MARC records can merge duplicate records together.
+Each discrete bibliographic title in Evergreen should have a single record that all libraries 
+attach their holdings to. When a title has multiple records library staff with 
+sufficient cataloguing knowledge can merge duplicate records together as per 
+https://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka's Cataloguing Policy] for 
+https://docs.libraries.coop/policy/_editing_bibliographic_records.html#_existing_records[Editing
+ Bibliographic Records].
+
+
 
 Any call number and item records, or holds, associated with the non-lead records will be transferred to 
 the lead record upon merging.
@@ -18,41 +23,48 @@ When creating your bucket Co-op Support recommends using the title of the record
 ======
 . Retrieve the bucket by selecting *Cataloguing -> Record Buckets* on the menu bar.
 +
-. Click the drop down arrow beside *Buckets*, then select the bucket containing the records to be merged.
+. From the list of your buckets click on the name of the bucket containing the records
+you are merging.
 +
-image::images/cat/merge-records-4.png[]
+image::images/cat/marc/merge-records-1.png[]
 +
 . Select the records you wish to merge. Click *Actions -> Merge Selected Records*.
 +
-image::images/cat/merge-records-5.png[]
+image::images/cat/marc/merge-records-2.png[]
 +
 . The merge screen opens in a pop-up window. 
 .. The record summary is listed above. You may shorten it by 
 clicking the double arrows. 
 .. Clicking *Toggle Holdings Display* will display the holdings information below each MARC record.  
 +
-image::images/cat/merge-records-6.png[]
+image::images/cat/marc/merge-records-3.png[]
 +
 . If after comparing the MARC records you determine that any of them are not a match for merging click 
 *Remove from consideration*. The record will no longer be included in the merge.
 +
-image::images/cat/merge-records-8.png[]
+image::images/cat/marc/merge-records-4.png[]
 +
 . Leave the merge profile as "Keep Local Fields".  Any 050, 055, 092, 590, 595, 690, 852, and 856 fields 
 from non-lead records will be moved to the lead record.
 +
-image::images/cat/merge-records-7.png[]
+image::images/cat/marc/merge-records-5.png[]
 +
 . From the remaining records determine which is the best record and click *Use as lead record*.
 +
-image::images/cat/merge-records-9.png[]
+image::images/cat/marc/merge-records-6.png[]
 +
-. Edit buttons will appear for the lead record. You can edit the record if edits are necessary.  Any edits need to 
-follow Sitka http://docs.libraries.coop/policy/_cataloguing_policy.html[Cataloguing Policy].
+. Edit buttons will appear for the lead record. You can edit the record if edits are necessary. 
+Any edits need to follow 
+https://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka's Cataloguing Policy] for 
+https://docs.libraries.coop/policy/_editing_bibliographic_records.html#_existing_records[Editing
+ Bibliographic Records].
 +
-image::images/cat/merge-records-10.png[]
+image::images/cat/marc/merge-records-7.png[]
 +
 . Click *Merge*. The lead record will open in the catalogue in a new tab. 
+. A record of the merge is recorded on the _Record Notes_ tab.
++
+image::images/cat/marc/merge-records-8.png[]
 
 
 [NOTE]

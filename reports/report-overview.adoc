@@ -23,7 +23,14 @@ These components are saved in xref:_folders[folders] specific to the library acc
 xref:_sharing_folders[share their folders] to allow others to clone templates and view report definitions 
 and output but only the owning staff account can manage the contents of their folders.
 
+[NOTE]
+======
+
+The following videos demonstrate running Reports in Evergreen. The presentation features the older version of the Reporter interface; the reporter was updated in 2025. The videos will still be helpful in understanding how to run reports.
+
 link:https://youtu.be/9dLAn27T0qU[*Sitka Continuing Training Webinar - Reports for Beginners: Fun With Sitka Templates (42:16)*]
+
+======
 
 [TIP]
 =====
@@ -55,68 +62,3 @@ https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/all-staff-report
 Staff Reporter Privacy Waiver].  Once the waiver is completed, if the staff account meets the 
 https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[required criteria],
 Co-op Support will grant report output viewing permissions to the account. 
-
-
-////
-
-Only users with reporting permissions (granted by Co-op Support on libraries' request) can access the Reports
-module or view report output.  Any staff needing access to the reporter or the ability to view report output 
-must sign and submit a Reporter Privacy Agreement, available at https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/
-
-The Reports interface is accessed from *Administration* -> *Reports*.
-
-
-Reports are owned by the account used to create them, though the owner can allow other people to view 
-and copy templates by sharing template folders with other staff in the library or other libraries in the 
-federation or lending zone.
-
-Evergreen has very powerful reporting functionalities. It is possible to report on almost every field in every
-table in the database. Connections between tables are pre-made on the Reports screen. Some views are also
-provided to group together records meeting certain conditions. For details refer to xref:_commonly_used_tables_and_views_in_evergreen_database[].
-
-
-The ultimate goal of reporting is finding the records in the database which meet the requirements. Sometimes
-the result records are processed to some extent before they are included in the output, such as counting and
-displaying the count of the records found instead of showing the records themselves. The requirements include
-two parts: the conditions used to extract the records and the information to be displayed in the result file.
-
-
-Evergreen is designed to achieve this goal by creating a template first. The template specifies the fields
-to be displayed in the result file (*Displayed Fields*) and the fields, on which conditions can be applied (*Filter
-Fields*). For example, in an overdue template, Due Date in the circulation record should be a filter field so
-that a date can be given in order for the reporting program to compare and decide whether a checkout is overdue;
-while patron's names may be displayed fields so that staff may know who has the overdue item. In short, a
-template simply contains a list of displayed fields and a list of filter fields. The template can be used
-for multiple times. For example, the afore-mentioned overdue template can be used to run a report to capture
-circulation records with Due Date before 2018-01-01. It can also be used to capture circulations with Due
-Date before 2018-02-15.
-
-Once a template is ready, the next step is assigning values to the filter fields, for example, giving 2018-01-01
-to the Due Date field. This process is commonly known as defining a report, or running a report or setting up
-a report. The process also schedules the report's run-time and frequency (one time only or on regular basis),
-selects the result file format(s) and designates output file receivers, if preferred. The information provided
-during this step is saved in a file called "Report" on Evergreen. This file contains the template information
-and the value for each filter. 
-
-When a report starts to run, the program goes through the database and gathers the records that meet the
-conditions into a file in the selected format(s). This is the Output file that contains the result records.
-
-The three types of files created during the above procedure need to be kept separately in different folders
-on the Reports interface. Before doing anything, you must create at least one Template, Report, and Output folder
-as described in xref:_folders[].
-
-This chapter focuses on the movements on the Reports interface while demonstrating how to create reports in
-Evergreen. Once you understand how to navigate around the Reports interface, you can create your own reports
-from scratch or take advantage of Sitka's pre-packaged report templates. Some background information about the Evergreen
-database and database terminology is at the end of this chapter.
-
-
-
-
-Templates allow you to run a report more than once, without building it anew every time by 
-changing definitions (such as values for the filters) to suit current requirements. For example, 
-a template counting patrons with a registration date within a time frame can be used to find out the 
-number of patrons registered within the last month or the last ten days. Another example is a 
-shared template that reports on circulation statistics at a given library. This can be used by 
-other libraries by selecting their own library as the checkout/renewal library when they run the report.
-////

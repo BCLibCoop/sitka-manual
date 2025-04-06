@@ -8,6 +8,12 @@ to https://www.loc.gov/marc/[MARC 21 Format for Bibliographic Data]/
 https://www.marc21.ca/M21/BIB/B001-Sommaire.html[Normes MARC 21] 
 for more information as needed.
 
+[NOTE]
+======
+When working with MARC Records cataloguers must follow Sitka's Cataloguing Policy for 
+http://docs.libraries.coop/policy/_editing_bibliographic_records.html[editing MARC records].
+======
+
 The Enhanced MARC Editor can be divided into five parts:
 
 . xref:_leader_and_008_field_grid[Leader and 008 Field Grid]
@@ -29,15 +35,13 @@ out the field characters.
 image::images/cat/marc/leader-008-field-grid-1.png[]
 
 * Values can be edited directly in the grid boxes.
-* Right-clicking in most boxes will display a list of the possible values as per MARC21.
+* Left-clicking in most boxes will display a list of the possible values as per 
+https://www.loc.gov/marc/bibliographic/[MARC21].
 * A table giving the names and character positions for the abbreviations used by Evergreen
 can be found in xref:_character_codes_for_leader_and_008_field_grid[].
 * Changing the values of certain boxes, such as Type and BLvl, changes the type of
 material that is being described. In some cases this means that the meaning of the characters
  of the 008 changes.  The grid will change to display the fields relevant to the material.
-** There is currently a bug where the grid doesn't automatically update.  If you change
-the value of the Type and/or BLvl fields you must save the MARC record and reload it in a 
-new tab to see the updated grid.
 
 [TIP]
 =====
@@ -52,46 +56,80 @@ Help and Additional Options
 
 image::images/cat/marc/help-additional-options-1.png[]
 
-* When the *Help* button is clicked, a list of keyboard shortcuts that can be used to edit
-the MARC record display.
-* The *Validate* button is a function of authorities which are not currently used in Sitka's 
-Evergreen.
+* The *Add* button allows you to add a row at the end of your record and to replace the 
+006, 007, and 008 fields.
 * The *Undo* and *Redo* buttons can be used to undo and redo changes that haven't 
 been saved yet.  The number of changes that can be undone or redone will display on the
 buttons.
 * When the *Stack Subfields* checkbox is checked, the subfields in the MARC record display
 stacked vertically on separate lines from the field numbers, instead of each field displaying
 with all subfields horizontally.
+* The *Validate* button is a function of authorities which are not currently used in Sitka's 
+Evergreen.
+* When the *Help* button is clicked, a list of keyboard shortcuts that can be used to edit
+the MARC record display. As well, MARC references will display for fields 1XX through
+8XX in the main body of the MARC record.
+
+
  
 
 MARC Record
 ^^^^^^^^^^^
+Rows can be added to the MARC record in a number of ways:
 
-Fields in the MARC Record can be edited by clicking into the boxes you wish to edit and
-making your changes.  A number of options are available by right-clicking into boxes
-which will aid cataloguers in entering correct MARC coding.
-
-* Right-clicking in the MARC tag boxes will provide options for adding and 
-removing fields.  This includes adding 006, 007, and 008 control fields.
+* Using the keyboard shortcut *CTRL+Enter* when clicked into a subfield. This will add a
+row after the one you are working in.
+* Clicking *Add -> Add Row* in the _Help and Additional Options_ section.  This will add
+a row at the end of the MARC record.
+* When hovering over the row, clicking on the plus sign.  This will add a row after
+the row you are hovering over.
 +
 image::images/cat/marc/enhanced-marc-record-1.png[]
-+
-* Right-clicking in the MARC tag boxes will list potential fields that can be added.  This
-is a partial list; cataloguers should refer to 
-https://www.loc.gov/marc/[MARC 21 Format for Bibliographic Data]/
-https://www.marc21.ca/M21/BIB/B001-Sommaire.html[Normes MARC 21] for a comprehensive list.
+
+Rows can be deleted from the MARC record in a couple of ways:
+
+* Using the keyboard shortcut *CTRL+Delete* when clicked into a subfield. This will 
+remove the entire row.
+* When hovering over the row, clicking on the X.  This will remove the row you 
+are hovering over.
 +
 image::images/cat/marc/enhanced-marc-record-2.png[]
-+
-* Right-clicking in the first or second indicator boxes will list the possible values
-for the indicator as per MARC 21.
-+
+
+Subfields can be added to the row by hovering over the row and clicking on the 
+label with plus sign icon.  The subfield is added to the end of the row.
+
 image::images/cat/marc/enhanced-marc-record-3.png[]
-+
-* Right-clicking in a subfield box will list the possible subfield values for the particular 
-field as per MARC 21.
-+
+
+Subfields can be removed from the row by clicking on the X associated with the subfield.
+
 image::images/cat/marc/enhanced-marc-record-4.png[]
+
+Rows can be moved by hovering over the row and clicking on the four arrow icon.  Once the 
+icon is clicked the row can be dragged and dropped or the up and down keys on your 
+keyboard can be used to move the row.
+
+image::images/cat/marc/enhanced-marc-record-5.png[]
+
+Rows can be copied by hovering over the row and clicking on the double square icon.
+
+image::images/cat/marc/enhanced-marc-record-6.png[]
+
+Clicking into the MARC tag field will list potential tags that can be used for the 
+field. This is a partial list; cataloguers should refer to 
+https://www.loc.gov/marc/[MARC 21 Format for Bibliographic Data]/
+https://www.marc21.ca/M21/BIB/B001-Sommaire.html[Normes MARC 21] for a comprehensive list.
+
+image::images/cat/marc/enhanced-marc-record-7.png[]
+
+Clicking in the first or second indicator boxes will list the possible values
+for the indicator as per MARC 21.
+
+image::images/cat/marc/enhanced-marc-record-8.png[]
+
+Clicking in a subfield box will list the possible subfield values for the particular 
+field as per MARC 21.
+
+image::images/cat/marc/enhanced-marc-record-9.png[]
 
 
 Physical Characteristics Wizard
@@ -132,7 +170,7 @@ image::images/cat/marc-edit-1.png[]
 . In the Enhanced MARC Edtor, click the blue icon to the right of the 007 field. See 
 xref:_marc_record[] if the record doesn't already have a 007 field.
 +
-image::images/cat/physical-characteristics-wizard-1.png[]
+image::images/cat/marc/physical-characteristics-wizard-1.png[]
 +
 . The *Physical Characteristics Wizard* will open.
 +
@@ -161,7 +199,7 @@ image::images/cat/pcw-4.png[]
 +
 . All of the values selected will be stored and displayed within the 007 field of the bibliographic record.
 +
-image::images/cat/pcw-5.png[]
+image::images/cat/marc/physical-characteristics-wizard-5.png[]
 +
 . Continue editing the MARC record, as needed. When finished, click *Save Changes*.
 

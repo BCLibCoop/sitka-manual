@@ -41,8 +41,8 @@ Recommended Recurrence Interval: *Monthly*
 image::images/report/appendix/library-outbound-ilc-holds-count-monthly.png[]
 
 
-Monthly Circulation by Circulation modifier (New 3.1)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Monthly Circulation by Circulation modifier
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 _Found under Shared Folders -> Templates -> Sitka_templates -> Circulation -> Monthly
 Circulation Stats._
@@ -60,8 +60,8 @@ Circ Modifier", not "January Circulation by Circ Modifier".
 
 image::images/report/appendix/monthly-circ-by-circ-mod.png[]
 
-Monthly Circulation by Shelving Location (New 3.1)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Monthly Circulation by Shelving Location
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 _Found under Shared Folders -> Templates -> Sitka_templates -> Circulation -> Monthly
 Circulation Stats._
@@ -116,8 +116,8 @@ Recommended Recurrence Interval: *None, run as needed*
 image::images/report/appendix/without-circ-modifier.png[]
 
 
-Inventory - Scanned Items Count by Shelving Location (NEW)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Inventory - Scanned Items Count by Shelving Location
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 _Found under Shared Folders -> Templates -> Sitka_templates ->
  Inventory._

@@ -4,7 +4,7 @@ Editing MARC Records
 
 [NOTE]
 ======
-When editing MARC Records cataloguers must follow Sitka's Cataloguing Policy for 
+When editing MARC records cataloguers must follow Sitka's Cataloguing Policy for 
 http://docs.libraries.coop/policy/_editing_bibliographic_records.html[editing MARC records].
 ======
 
@@ -18,7 +18,7 @@ image::images/cat/viewing-search-results-3.png[section of the search result with
 +
 . Click on the *MARC Edit* tab.
 +
-image::images/cat/marc-edit-1.png[]
+image::images/cat/marc/marc-edit-1.png[]
 +
 [TIP]
 =====
@@ -31,55 +31,8 @@ xref:_enhanced_marc_editor[Enhanced MARC Editor] or the
 xref:_flat_text_editor[Flat Text Editor] to 
 edit the record.
 +
-image::images/cat/marc-edit-2.png[]
+image::images/cat/marc/marc-edit-2.png[]
 
-////
-
-Enhanced MARC Editor
-^^^^^^^^^^^^^^^^^^^^
-
-* The grid at the top of the Enhanced MARC Editor can be used to edit characters for the Leader and 008 
-fields. Right-clicking in a field will display a list of the possible values for that character.
-+
-image::images/cat/marc-edit-enhanced-1.png[]
-+
-* The *Undo* and *Redo* buttons can be used to undo and redo changes that haven't been saved yet.
-+
-image::images/cat/marc-edit-enhanced-3.png[]
-+
-* Clicking the *Help* button will display the available keyboard shortcuts.
-+
-image::images/cat/marc-edit-enhanced-2.png[]
-+
-* Right-clicking in the MARC tag field will list potential fields and provide options for adding and 
-removing fields.
-+
-image::images/cat/marc-edit-enhanced-4.png[]
-+
-* To edit indicators, click or tab into the required field, and right click to view correct indicators 
-and enter appropriate data.
-+
-image::images/cat/marc-edit-enhanced-5.png[]
-+
-* Right-clicking in a subfield will display the possible subfield values for the particular field.
-+
-image::images/cat/marc-edit-enhanced-6.png[]
-
-
-Flat Text Editor
-^^^^^^^^^^^^^^^^
-
-The text of the MARC record can be edited directly in the Flat Text Editor.
-
-image::images/cat/marc-edit-flat-text-1.png[]
-
-* The fields, indicators, and values are in fixed positions in the Flat Text Editor.
-* Each MARC field begins with a = followed by the 3 digit tag for the field.
-* If there is no value for an indicator "\" is used to fill the space.
-* The "\" is also used in the control fields (Leader, 006, 007, and 008) for characters where 
-no value is specified.
-
-////
 
 
 

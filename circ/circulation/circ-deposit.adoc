@@ -3,14 +3,14 @@ Items with Deposits
 (((deposits)))
 
 Libraries may have some items that require a deposit.  This may be
-materials like special books that are hard to replace or items in a library of things collection
+materials like special books that are hard to replace, or items in a Library of Things collection
 that are expensive to replace.
 
 Items that require a deposit will have the _Is Deposit Required_ item attribute set to _Yes_ and
 have an amount entered for the _Deposit Amount_ item attribute. 
 See xref:_item_attributes[] for more information.
 
-For libraries that refund the deposit when the item is returned the library setting 
+For libraries that refund the deposit when the item is returned, the library setting 
 _Void item deposit fee on checkin_ should be set to _TRUE_.
 
 Checking Out an Item With a Deposit
@@ -18,7 +18,7 @@ Checking Out an Item With a Deposit
 
 . xref:_retrieving_patron_accounts[Retrieve the patron's account].
 . On the _Check Out_ tab, scan or enter item barcode.
-. A pop-up will appear indicating that a deposit is required.
+. A pop-up will appear indicating that a deposit is required and the amount owed.
 . Click *Force Action*.
 +
 image:images/circ/deposit/deposit-checkout-1.png[scaledwidth="75%"]
@@ -43,7 +43,7 @@ image:images/circ/deposit/deposit-checkin-1.png[scaledwidth="75%"]
 +
 . The item will be checked in and the screen will indicate the amount of the deposit (if 
 the library setting _Void item deposit fee on checkin_ is set to _TRUE_.
-. Click on the patron's barcode in the _Fine Tally_ message to open their in a new tab acount.
+. Click on the patron's barcode in the _Fine Tally_ message to open their account in a new tab.
 +
 image:images/circ/deposit/deposit-checkin-2.png[scaledwidth="75%"]
 +

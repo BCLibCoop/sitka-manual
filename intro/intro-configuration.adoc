@@ -1,0 +1,241 @@
+Configuring Your Workstation
+----------------------------
+
+Colour Mode Setting
+~~~~~~~~~~~~~~~~~~~
+
+The Evergreen staff client can be used in light mode or dark mode.
+
+By default, Evergreen will use the colour mode setting from your operating system. However,
+you can manually switch from _Auto_ to _Light_ or _Dark_ using the *Colour Mode* menu.
+
+image::images/intro/colour-mode-1.png[]
+
+image::images/intro/colour-mode-2.png[]
+
+
+Function Bar
+~~~~~~~~~~~~
+(((Function Bar)))
+
+The function bar can be found throughout Evergreen and enables you to page through pages,
+adjust the number of rows displaying, access the Actions menu, and manage your columns and Actions menus.
+
+The function bar currently comes in two styles with similar functionality.  Eventually all
+interfaces in the staff client will use the second function bar pictured below.
+
+image::images/intro/function-bar-1.png[]
+
+image::images/intro/function-bar-2.png[]
+
+. Page through pages
+. Actions Menu
+. Adjust number of rows
+. Jump to page
+. Show Grid Options menu
+. Text wrap
+
+Grid Options
+~~~~~~~~~~~~
+
+The *Grid Options* menu can be accessed from the xref:_function_bar[Function Bar] by clicking 
+on the gear symbol.
+
+image::images/intro/grid-options-1.png[]
+
+Some options in the menu and the resulting screens will differ depending on the 
+version of the xref:_function_bar[function bar].
+
+[TIP]
+=====
+When saved, grid options are saved for the particular workstation. If you need
+to xref:_registering_a_staff_workstation[re-register your workstation] you should use 
+the original workstation's name or you will need to re-set all your grid settings across
+ the staff client.
+=====
+
+
+Columns
+^^^^^^^
+(((Column Configuration)))
+
+Display Columns
++++++++++++++++
+
+Library staff can customize what columns display, and how they display, in the grid 
+for interfaces in the staff client using the *Manage Columns* option in the _Grid Options_. 
+
+Available configuration options are:
+
+* *Visible*: Whether a column is visible or hidden.
+* *Align*: Whether the contents of the column aligns left, centre, or right.  By default, text
+aligns left and numbers align right.
+* *Width (Characters)*: What the width of a column is.
+* *Sort Priority*: What order the data is sorted by default when displayed in the grid.
+* *Move*: What order the columns display in.  Columns can also be manually dragged and dropped
+ when viewing the grid.
+
+image::images/intro/grid-display-columns-1.png[]
+
+
+Column Width
+++++++++++++
+
+The width of columns can be adjusted for the grids.  The method to do so depends on the 
+version of the function bar.
+
+In newer interfaces, you can use your cursor to drag the edges of the columns to expand or
+shrink them. You can also set a width, measured in characters, by selecting *Manage Columns*
+from the *Grid Options* menu. You can then enter a value in the _Width (Characters)_ field
+for the applicable column.
+
+image::images/intro/grid-column-width-1.png[]
+
+In older interfaces, you can select *Manage Column Widths* from the *Grid Options* menu and
+then click *Expand* or *Shrink* to adjust the column sizes.
+
+image::images/intro/grid-column-width-2.png[]
+
+
+Manage Actions Menu
+^^^^^^^^^^^^^^^^^^^
+(((Manage Actions Menu)))
+(((Actions Menu)))
+
+
+The newer xref:_function_bar[function bar] includes the *Manage Actions Menu* option.
+
+. Click on the *Show Grid Options (gear icon)* menu.
+. Select *Manage Actions Menu*.
++
+image:images/intro/grid-manage-action-menu-1.png[scaledwidth="75%"]
++
+. Make required changes and click *Close*.
++
+image:images/intro/grid-manage-action-menu-2.png[scaledwidth="75%"]
++
+. Click on the *Show Grid Options (gear icon)* menu again.
+. Select *Save Grid Settings*.
++
+image::images/intro/grid-manage-action-menu-3.png[]
+
+Save Grid Settings
+^^^^^^^^^^^^^^^^^^
+
+Changes made to a grid through the grid options are temporary and the display of the 
+grid will revert to its previous settings the next time it's viewed unless the grid 
+settings are saved.
+
+. Click on the *Show Grid Options (gear icon)* menu.
+. Click *Save Grid Settings*.
++
+image::images/intro/grid-manage-action-menu-3.png[]
+
+
+Downloading and Printing
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+There are two ways to print the information in the grid and one way to download it.  In all
+cases, the list will only include the items currently displaying on the screen.
+
+Print Full Grid
++++++++++++++++
+
+The *Print Full Grid* option available on the *Grid Options* menu (Gear Icon) will open a print dialogue and 
+allow you to print the list which will include all the columns currently visible on the screen. 
+
+image:images/circ/print-hold-pull-list-2.png[scaledwidth="75%"]
+
+Print Selected Rows
++++++++++++++++++++
+
+The *Print Selected Rows* option available on the *Grid Options* menu (Gear Icon) will open a print dialogue and 
+allow you to print the selected rows as a list which will include all the columns currently visible 
+on the screen. 
+
+image:images/circ/print-hold-pull-list-3.png[scaledwidth="75%"]
+
+Download Full CSV
++++++++++++++++++
+
+The *Download Full CSV* option available on the *Grid Options* menu (Gear Icon) will download a CSV file 
+which will include all the columns currently visible on the screen. 
+
+image:images/circ/download-hold-pull-list-1.png[scaledwidth="75%"]
+
+
+Library Selector
+~~~~~~~~~~~~~~~~
+(((Library Selector)))
+
+Some interfaces include a library selector that enables staff to set the scope for the interface.
+
+There are currently several styles of the library selector.  
+
+The library selector in newer interfaces shows the full names of the library if 
+xref:_include_full_library_names_in_library_selector[full names are enabled].
+
+Where applicable, *Ancestor* and *Descendants* checkboxes are included.  Multi-branch libraries can set
+the library to their system and then check the *Descendants* checkbox to include all of their branches.
+
+image::images/intro/library-selector-1.png[]
+
+The library selector in older interfaces only shows the library shortcode.  This older style
+of library selector will be phased out as future updates to Evergreen replace the older interfaces.
+
+image::images/intro/library-selector-2.png[]
+
+
+Filters
+~~~~~~~
+(((Filters)))
+
+Some interfaces include filters that enable staff to filter the available rows in the grid.
+
+image::images/intro/filters-1.png[]
+
+Depending on the data in the field the filters will either allow you to filter on Any/Yes/No
+ or the text values.
+
+image::images/intro/filters-2.png[]
+
+
+image::images/intro/filters-3.png[]
+
+When a column is filtered, it will display with a pencil icon. Clicking on that icon 
+enables you to change the value of the filter. Filters can be removed individually per 
+column by clearing the filter, or, all filters can be removed at once using the 
+*Remove Filters* button.
+
+image::images/intro/filters-4.png[]
+
+[NOTE]
+======
+
+Some interfaces, such as the xref:_shelving_location_editor[Shelving Location Editor],
+have default filters applied.  The Shelving Location Editor has the filter for 
+_Is Deleted_ set to _No_ so that deleted shelving locations do not display by default.
+
+image::images/intro/filters-5.png[]
+
+======
+
+Workstation Administration
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+[[_configuring_workstation_administration]]
+
+Workstation specific information can be set by going to *Administration -> Workstation*.
+
+Here staff can:
+
+* xref:_registered_workstations[register additional workstations]
+* xref:_printer_settings[configure printer settings]
+* xref:_print_templates[customize receipt printer templates]
+* xref:_stored_preferences[view and remove stored preferences]
+* xref:_print_service_hatch[view information about Hatch]
+* xref:_tests[run latency tests]
+* xref:_sounds[disable and test sounds for the staff client]
+* xref:_include_full_library_names_in_library_selector[set the library selector to include the full name of libraries]
+
+Staff should not use the search preferences settings found in Workstation Administration.  Instead,
+search preferences should be set from within the staff catalogue.  See xref:_search_preferences[].

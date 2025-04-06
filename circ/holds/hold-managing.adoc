@@ -159,7 +159,7 @@ OR
 
 . On the _Holds_ tab in the patron's account, select the hold to edit and go to 
 *Actions -> Suspend* or *Actions -> Activate*.
-. Click *OK/Continue* on the pop-up that appears
+. Click *OK/Continue* on the pop-up that appears.
 +
 image:images/circ/holds/modify-holds-suspend-activate-2.png[scaledwidth="75%"]
 +
@@ -212,7 +212,7 @@ currently on top of the queue you need to do the following.
 Cancelling Holds
 ^^^^^^^^^^^^^^^^
 
-Holds can be cancelled individually by library staff and patrons 
+Holds can be cancelled individually by library staff and patrons. 
 
 . On the _View Holds_ tab in the staff catalogue or on the _Holds_ tab in the patron's account, select 
 the hold you wish to cancel and go to *Actions -> Cancel Hold*.
@@ -260,7 +260,7 @@ image:images/circ/holds/hold-group-place-hold-3.png[scaledwidth="75%"]
 +
 image:images/circ/holds/hold-group-cancel-hold-1.png[scaledwidth="75%"]
 +
-. Click *OK/Continue*
+. Click *OK/Continue*.
 . All holds in the set are cancelled.
 . If an item was captured for one of the holds and on holds shelf, check it in.  The item will go into _Reshelving_ or be
 captured to fill the next hold.

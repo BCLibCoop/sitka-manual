@@ -1,0 +1,85 @@
+[[_public_catalogue_library_info]]
+Library Information
+-------------------
+
+Evergreen generates a page in the public catalogue which pulls together information about your library
+and branches for your patrons. What information displays depends on whether or not
+you have entered the applicable information into the Evergreen staff client.
+
+The page is accessed by clicking on the library or branch name in the _Location_ column of your search
+results.  
+
+image:images/opac/library-info/opac-library-info-1.png[]
+
+Multi-branch libraries will have pages for their system and each branch.
+
+https://bc.libraries.coop/support/[Co-op Support] can also add it as a link on your public catalogue. 
+Libraries can choose what link text is used. 
+
+image:images/opac/library-info/opac-library-info-2.png[]
+
+If you would like a link to your library's website on the library information page, you can add
+it using the library setting _Library information URL (such as "http://example.com/about.html")_.
+
+image:images/opac/library-info/opac-library-info-3.png[]
+
+See xref:_editing_library_settings[] for information on updating library settings.
+
+
+Opening Hours
+~~~~~~~~~~~~~
+
+The hours of operation for your library or branch will display based on what has been entered
+for the organizational unit.
+
+image:images/opac/library-info/opac-opening-hours-1.png[]
+
+See xref:_library_hours_of_operation[] for information on updating
+your hours of operation.
+
+
+Upcoming Closures
+~~~~~~~~~~~~~~~~~
+
+Irregular closures of the libray will display based on what has been entered in the Closed Dates Editor.
+The next 10 upcoming closures will be shown.
+
+image:images/opac/library-info/opac-upcoming-closures-1.png[]
+
+See xref:_closed_dates_editor[] for information on adding closed dates.
+
+Contact Information
+~~~~~~~~~~~~~~~~~~~
+
+The email address and phone number will display based on what has been entered in the main 
+library settings.
+
+image:images/opac/library-info/opac-contact-information-1.png[]
+
+See xref:_library_main_settings[] for information on adding and updating the email
+address and phone number.
+
+Multi-branch libraries can enter this information at the branch level to have different contact information
+for different branches.
+
+Mailing Address
+~~~~~~~~~~~~~~~
+
+The address will display based on what has been entered as the mailing address for the library or branch.
+
+image:images/opac/library-info/opac-mailing-address-1.png[]
+
+See xref:_library_addresses[] for information on adding and updating the addresses for the 
+library or branch.
+
+Multi-branch libraries can enter this information at the branch level to have different 
+addresses for different branches.
+
+
+Branch Relationship
+~~~~~~~~~~~~~~~~~~~
+
+The branch relationship shows a link to the organization above in the organizational unit tree. This
+is most relevant for multi-branch libraries as patrons can navigate up to the system level.
+
+image:images/opac/library-info/opac-branch-relationship-1.png[]

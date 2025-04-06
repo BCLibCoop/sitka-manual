@@ -32,112 +32,12 @@ The Holdings Editor has three parts:
 * xref:_holdings_editor_preferences[Preferences]
 
 
-image::images/cat/the-holdings-editor-1.png[]
+image::images/cat/holdings/the-holdings-editor-1.png[]
 
 [NOTE]
 ======
 The Holdings Editor can display the Holdings Details and Item Attributes as separate tabs or the
-two can be unified into a single tab as shown above.  This is done via the setting _Unified Holdings and Item Attributes Display_ on the 
+two can be unified into a single tab as shown above.  This is done via the setting _Unified Holdings,
+Item Attributes Display, and Item Templates_ on the 
 xref:_holdings_editor_preferences[Preferences] tab. 
 ======
-
-
-////
-Holdings Details
-^^^^^^^^^^^^^^^^
-
-link:https://youtu.be/X0ackVtJlpM[*Sitka Snippet Video - Holdings Details (3:02)*]
-
-The Holdings Details section of the Holdings Editor contains information related to your library's
-call numbers. 
-
-image::images/cat/holdings-details-1.png[]
-
-[options="header"]
-|===
-| Attribute | Description | Required | Note
-| Owning Library | The library that owns the item. | Yes | For multi-branch libraries this will be a particular 
-branch.  Use the plus icon to add additional rows. Use the pen icon to edit the owning library.
-| Classification | The classification scheme used by the call number | Yes | The classification scheme affects
-how call numbers are sorted in the Shelf Browse.
-| Prefix | Configured prefixes can be selected from the drop down menu. | No | See xref:_prefix_and_suffix[] for 
-more information. Libraries that don't use this field can hide it in the 
-xref:_holdings_preferences[Holdings Preferences].
-| Call Number Label | The call number you would like to assign to your item. | Yes | Evergreen will pre-populate this field
-with the value in the 082 $a or 050 $a, if there is a value in the field, depending on which classification 
-scheme is the default.  Use the plus icon to add additional rows.
-| Suffix | Configured suffixes can be selected from the drop down menu. | No |See xref:_prefix_and_suffix[] for 
-more information. Libraries that don't use this field can hide it in the 
-xref:_holdings_preferences[Holdings Preferences].
-| Barcode | The barcode for the item. | Yes |
-| Item # | The item number assigned to the item by library staff to keep track of how many copies
-of an item the library has. | No | The item number does not display on the spine label or in the public 
-catalogue. Libraries that don't use this field can hide it in the 
-xref:_holdings_preferences[Holdings Preferences].
-| Part | The use of parts is not currently supported in Sitka's Evergreen. | No | Libraries should hide 
-this field in the xref:_holdings_preferences[Holdings Preferences].
-|===
-
-Item Attributes
-^^^^^^^^^^^^^^^
-
-link:https://youtu.be/GukWXd7oUl4[*Sitka Snippet Video - Item Attributes (5:35)*]
-
-The Item Attributes section contains information specific to your library's items.  You can customize which
-attributes display in the xref:_item_attribute_settings[Item Attribute Settings].
-
-image::images/cat/item-attributes-1.png[]
-
-The table below provides detailed descriptions of the item attribues.
-
-[options="header"]
-|===
-| Attribute | Description | Note
-| Age-based Hold Protection | Allows libraries to restrict holds to be picked up at a range of libraries | 
-Sitka provides two sets of rules: x_month_within_single_branch and x_month_among_multi_branch. 
-The former allows holds to be picked up at the item's circulating library only for x months, 
-while the latter at libraries sharing the same parent with the circulating library, e.g. 
-all branches of a library system or all single-branch libraries within a federation. 
-In general, use the former if you are a single_branch library and want to restrict holds 
-to your own library, or if you are a branch of a multi-branch library system and want to 
-keep the holds at your own branch. Use the latter if you are a multi-branch library system 
-and allow items to fill holds picked up at all your branches, but not to go out of your system.
-| Circulate? |Indicates whether the item can circulate or not | Leave it as "YES", unless the item is in a 
-circulating shelving location but should not itself circulate. If the shelving location's _Circulate?_ 
-attribute is "NO", this field will have no effect. The "NO" value in this field overrides the 
-shelving location's _Circulate?_  "YES" value.
-| Circulation as Type |  Circulation policy may be controlled by the media type in MARC records. When media 
-type is used, this field can be used to override the MARC media type for individual items. It can also be 
-used for statistical purposes. | Not currently used in Sitka's Evergreen. This attribute is hidden by default.
-| Circulation Library | Library currently circulating the item |
-| Circulation Modifier | An identifier used for applying circulation policies or for statistical purposes |A shared list of Sitka circulation modifiers displays in the dropdown list for all libraries. Each library selects circulation modifiers to use, and defines its own circulation policy for each modifier.
-| Cost | The actual amount of money paid for the item | This is automatically filled with the 
-billed amount from acquisitions module.  It can also be entered manually by libraries not using acquisitions.
-| Deposit? | Indicates whether the checking out item requires a deposit or not |
-| Deposit Amount | Amount required as a deposit for the item | When the item is checked out a bill for this amount is automatically created in the patron account.
-| Fine Level | Indicates whether an item uses the Low, Normal, or High fine level attached to its circulation modifier or shelving location set up in the circulation policy. | Each circulation modifier/shelving location may have three fine levels, corresponding to these three values. Use 'Normal' if only one fine level is used. Please contact Co-op Support if you need multiple fine levels for one circulation modifier/shelving location.
-| Floating | Indicates whether an item  belongs to a floating group | This functionality must be configured by Co-op Support. If Co-op Support has not configured floating groups for you, leave the field blank.
-| Holdable? | Indicates whether the item is holdable or not | Leave it as "YES", unless the item is in a 
-holdable shelving location, but holds should not be allowed on this particular item. If shelving 
-location's _Holdable?_ is set to "NO", this field will have no effect. The "NO" value in this field 
-overrides the  shelving location's _Holdable?_ is "YES" field.
-| Item Alert | Used for information that should been seen when an item is checked in or out 
-(e.g. Damage or number of pieces to check for). | CAUTION: some 3rd party self check machines 
-cannot display item alerts. 
-| Item Note | Used for information specific to the item. | Notes set as public will display in the public catalogue.
-| Item Tags |  | Not currently used in Sitka's Evergreen. This attribute is hidden by default.
-| Loan Duration | Indicates whether an item uses the Short, Normal, or Long loan duration attached to its circulation modifier or shelving location set up in the circulation policy. | Each circulation modifier/shelving location may have three loan durations, corresponding to these three values. Use 'Normal' if only one loan period is used. Please contact Co-op Support if you need multiple loan durations for one circulation modifier/shelving location.
-| OPAC Visible? | Indicates whether the item is visible in the public catalogue | Leave it as 'YES', unless 
-the item is in an OPAC visible shelving location, but should not be displayed on OPAC. If _OPAC Visible?_ 
-is "NO" for the shelving location, this field will have no effect. The "NO" value in this field will 
-hide the item, even if _OPAC Visible?_ is "YES" for the shelving location.
-| Price | Replacement price of the item. |  Evergreen uses this price when billing patrons for lost items.
-| Quality | Indicates the quality of the item | Not currently used in Sitka's Evergreen. This attribute is hidden by default.
-| Reference? | Indicates whether the item is reference or not. | This flag can be used for setting up circulation policies or for statistical purposes.
-| Shelving Location | The location where the item can be found. | Shelving locations belonging to the working location and the organizations on a higher hierarchal level (library system, federation, or Sitka) are displayed in the dropdown list. Multi-branch libraries may create system level shelving locations for all branches to share.
-| Statistical Categories | Item statistical categories created by your library or federation. | Use the dropdown list to choose which organization's entries to display.
-| Status | Current status of the item | By default a new item record is assigned a status of In Process. Some 
-status cannot be selected from the drop down menu as an action, such as checking out the item, is required to 
-set the item to that status.
-|===
-////

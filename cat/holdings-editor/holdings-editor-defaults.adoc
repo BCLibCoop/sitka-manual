@@ -3,9 +3,9 @@ Holdings Editor Preferences
 
 link:https://youtu.be/0rsBnVfVLck[*Sitka Snippet Video - Holdings Editor Preferences (2:16)*]
 
-In the Holdings Editor click on the *Preferences* tab to change settings for the Holdings Editor.
+In the Holdings Editor, click on the *Preferences* tab to change settings for the Holdings Editor.
 
-image::images/cat/holdings-editor-defaults-1.png[]
+image::images/cat/holdings/holdings-editor-preferences-1.png[]
 
 Holdings Preferences
 ^^^^^^^^^^^^^^^^^^^^
@@ -13,7 +13,7 @@ Holdings Preferences
 
 Select the checkboxes or use the drop down menus to set the settings you'd like.
 
-image::images/cat/holdings-editor-defaults-2.png[]
+image::images/cat/holdings/holdings-editor-preferencess-2.png[]
 
 Holdings Display Preferences
 ++++++++++++++++++++++++++++
@@ -31,7 +31,7 @@ hide this option as the checkdigit function is not currently functional.
 | Hide Item Number | Check this box if your library doesn't use item numbers.
 | Hide Item Part | This box should be checked to
 hide this option as parts are not currently used in Sitka.
-| Unified Holdings and Item Attributes Display | Check this box if you'd like the holdings and item attributes
+| Unified Holdings, Item Attributes Display, and Item Templates | Check this box if you'd like the holdings and item attributes
 to display as a single tab.
 |===
 
@@ -50,24 +50,27 @@ _Default Classification Scheme_.  Using this setting you can specify Generic, De
 Item Attribute Settings
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-Item Attribute Behavior
+Item Attribute Behaviour
 +++++++++++++++++++++++
 
-If you would like the circulation library for an item to updated when the owning library is changed check
+If you would like the circulation library for an item to updated when the owning library is changed, check
 the box for _Change Circ Lib When Owning Lib Changes_.
 
 Set the level at which you'd like to filter statistical categories in _Default Stat Cat Library Filter_.  
 Libraries that share statistical categories across a federation or system may wish to choose the 
 federation or system as their default filter.
 
-image::images/cat/holdings-editor-defaults-3.png[]
+Set a default Item Alert Type to be used when adding item alerts in _Default Item Alert Type_.  Start typing in the 
+field to have the available options appear. 
+
+image::images/cat/holdings/holdings-editor-preferences-3.png[]
 
 Hide Item Attributes
 ++++++++++++++++++++
 
-Select the checkboxes beside those fields that you don't want displaying as available item attribues.
+Select the checkboxes beside those fields that you don't want displaying as available item attributes.
 
-image::images/cat/holdings-editor-defaults-4.png[]
+image::images/cat/holdings/holdings-editor-preferences-4.png[]
 
 The following item attributes are not used by Sitka's Evergreen and are selected by default:
 

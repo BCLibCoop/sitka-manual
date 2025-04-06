@@ -1,0 +1,52 @@
+Working with Records in a Record Bucket
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Once records have been xref:_adding_records_to_a_record_bucket[added to a record bucket] there are 
+several functions that can be performed.
+
+Viewing Record Bucket Contents
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+In addition to viewing records within a bucket, records in a bucket can be listed as 
+search results or opened in a new tab.
+
+Select the records you wish to view and click *Show in Catalog Results* or 
+*Open Selected in New Tabs*.
+
+image::images/cat/buckets/record-bucket-view-1.png[]
+
+Managing Record Bucket Contents
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Several options on the *Actions* menu allow staff to manage the contents of their bucket.
+
+image::images/cat/buckets/record-bucket-manage-1.png[]
+
+* Add Selected Records to a Different Bucket
+** This action will open the selected records in the staff catalogue in new tabs.
+* Move Selected Records to a Different Bucket
+** This action will move the selected records to the *Pending Records* tab so they can be added to a different 
+record bucket.
+* Remove Selected Recoords from Bucket
+** This action will remove the records from the bucket; this does not delete the records from the catalogue.
+
+Managing Records in a Record Bucket
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Several options on the *Actions* menu allow staff to manage the records in their bucket.
+
+image::images/cat/buckets/record-bucket-manage-2.png[]
+
+* Delete Selected Records from Catalog
+** This action deletes the selected records from the catalogue. Records remain in a 
+bucket after they are marked as deleted in the database.
+** See xref:_deleting_records_via_a_record_bucket[].
+* Export Selected Records
+** This action allows staff to export the records from a bucket.
+** See xref:_exporting_marc_records_via_a_record_bucket[].
+* Merge Selected Records
+** This action allows staff to merge multiple records into a single record.
+** See xref:_merging_bibliographic_records[].
+* Transfer Title Holds
+** This action should never be used as it will transfer title holds for all libraries. 
+** See xref:_transferring_title_holds[] for information on transferring title holds for your library.

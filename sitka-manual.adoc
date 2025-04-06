@@ -3,11 +3,11 @@ Sitka's Evergreen Documentation
 :doctype: book
 
 
-*Evergreen 3.11*
+*Evergreen 3.14*
 
-Copyright (symbol) 2023 BC Libraries Cooperative
+Copyright (symbol) 2025 BC Libraries Cooperative
 
-Last Updated October 23, 2023
+Last Updated April 7, 2025
 
 :toc:
 :toclevels: 3
@@ -21,15 +21,17 @@ Last Updated October 23, 2023
 
 Introduction
 ============
-include::intro/intro-whatsnew.adoc[New Features in Evergreen Version 3.11]
+include::intro/intro-whatsnew.adoc[New Features in Evergreen Version 3.14]
 
-include::intro/intro-revisions.adoc[Revisions to Version 3.11 and Attributions to Contributors]
+include::intro/intro-revisions.adoc[Revisions to Version 3.14 and Attributions to Contributors]
 
 include::intro/intro-resources.adoc[Sitka and Evergreen Resources]
 
 include::intro/intro-support.adoc[Sitka's Evergreen Support]
 
 include::intro/intro-start.adoc[Getting Started]
+
+include::intro/intro-configuration.adoc[Configuring Your Workstation]
 
 include::intro/intro-browserbestpractice.adoc[Best Practice for Using the Browser]
 
@@ -48,6 +50,22 @@ include::circ/circ-transit.adoc[]
 include::circ/circ-selfcheck.adoc[]
 
 include::circ/circ-offline.adoc[]
+
+Staff Catalogue
+===============
+
+include::cat-staff/cat-staff-configure.adoc[Configuring the Staff Catalogue]
+
+////
+include::cat-staff/searching-catalogue.adoc[Searching the Staff Catalogue]
+
+include::cat-staff/search-results.adoc[Search Results]
+
+include::cat-staff/bibliographic-records.adoc[Bibliographic Records]
+
+include::cat-staff/basket.adoc[Baskets]
+////
+
 
 Cataloguing
 ===========
@@ -71,6 +89,8 @@ include::cat/cat-record-bucket.adoc[Record Buckets]
 
 Public Catalogue
 ================
+include::opac/opac-library-info.adoc[]
+
 include::opac/opac-search.adoc[]
 
 include::opac/opac-holds.adoc[]
@@ -94,16 +114,6 @@ include::reports/report-folder.adoc[]
 include::reports/report-using-reports.adoc[]
 
 include::reports/report-shared-template.adoc[]
-
-////
-include::reports/report-generate-report.adoc[]
-
-include::reports/report-view-output.adoc[]
-
-include::reports/report-recurring-report.adoc[]
-
-include::reports/report-edit-recurring-report.adoc[]
-////
 
 include::reports/report-modify-template.adoc[]
 

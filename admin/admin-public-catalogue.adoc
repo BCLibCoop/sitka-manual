@@ -2,7 +2,7 @@ Public Catalogue Customizations
 -------------------------------
 
 Certain things in your public catalogue can be customized for you by Sitka staff.  Making these changes 
-takes time so please ensure you xref:https://bc.libraries.coop/support/[contact Co-op Support] with your 
+takes time, so please ensure you https://bc.libraries.coop/support/[contact Co-op Support] with your 
 requested changes at least one week before you want the changes live.
 
 Appearance
@@ -10,7 +10,7 @@ Appearance
 
 Each library can customize the Evergreen public catalogue with their logo and colours. 
 
-The logo should be sent to xref:[Co-op Support] as a .png file.
+The logo should be sent to https://bc.libraries.coop/support/[contact Co-op Support] as a .png file.
 
 [NOTE]
 ======
@@ -26,13 +26,13 @@ There can be separate colours for:
 * the facets (to the left of the search results)
 
 Please provide the colours you want in their hex codes. If you like a colour used on another Sitka library's
-public catalogue let us know and we can pull the hex code from their site.
+public catalogue, let us know and we can pull the hex code from their site.
 
 By default there are two links in the header - _Library Home_ and _My Account_.  Additional links can
-be added to point to other resources and pages the library wishes to include.  To have a link added
-please send both the link and the text to display to xref:https://bc.libraries.coop/support/[Co-op Support].
+be added to point to other resources and pages the library wishes to include.  To have a link added,
+please send both the link and the text to display to https://bc.libraries.coop/support/[Co-op Support].
 
-By default the public catalogue displays just the date for due dates.  Libraries that have hourly loans
+By default, the public catalogue displays just the date for due dates.  Libraries that have hourly loans
 can choose to have the due date time included; the due date time will display for all check outs, not
 just hourly loans.
 
@@ -61,7 +61,7 @@ Libraries can also customize the text that appears after a patron clicks the *Su
 of what will happen next.
 
 To custom text for the request a library card functionality
-please send the text to display to xref:https://bc.libraries.coop/support/[Co-op Support] and specify if it is for the
+please send the text to display to https://bc.libraries.coop/support/[Co-op Support] and specify if it is for the
 bottom of the form or for the registration confirmation page.
 
 
@@ -97,8 +97,7 @@ similar products.
 The ability for a patron to select hold notification by phone can be disabled for libraries that never contact
 patrons by phone.
 
+The ability for a patron to change their preferred name can be disabled for academic libraries that send patron files to Co-op Support for loading.
+
 The password strength message can be customized if your library requires different criteria than Evergreen's
 default.
-
-
-

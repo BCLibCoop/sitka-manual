@@ -22,7 +22,7 @@ Create a User Bucket
 
 To add users to a bucket via the Patron Search screen:
 
-. Go to *Search->Search for Patrons*.
+. Go to *Search -> Search for Patrons*.
 . Enter your search and select the users you want to add to the user bucket by checking the box next to each user row.  You can also hold down the CTRL or SHIFT on your keyboard and select multiple users.
 . Click *Add to Bucket* and select an existing bucket from the drop down menu or click *New Bucket* to create a new user bucket.
 .. If creating a new user bucket, a dialog box called _Create Bucket_ will appear where you can enter a bucket _Name_ and _Description_ and indicate if the bucket is _Staff Shareable?_.  Click *Create Bucket*.
@@ -30,17 +30,17 @@ To add users to a bucket via the Patron Search screen:
 
 To add users to a bucket by scanning user barcodes in the User Bucket interface:
 
-. Go to *Circulation->User Buckets* and select the *Pending Users* tab at the top of the screen.
+. Go to *Circulation -> User Buckets* and select the *Pending Users* tab at the top of the screen.
 . Click on *Buckets* and select an existing bucket from the drop down menu or click *New Bucket* to create a new user bucket.
 .. If creating a new user bucket, a dialog box called _Create Bucket_ will appear where you can enter a bucket _Name_ and _Description_ and indicate if the bucket is _Staff Shareable?_.  Click *Create Bucket*.
 .. After selecting or creating a bucket, the Name, Description, number of items, and creation date of the bucket will appear above the _Scan Card_ field.
 . Scan in the barcodes of the users that you want to add to the selected bucket into the _Scan Card_ field.  Each user account will be added to the Pending Users tab.  Hit ENTER on your keyboard after manually typing in a barcode to add it to the list of Pending Users.
 . Select the user accounts that you want to add to the bucket by checking the box next to each user row or by using the CTRL or SHIFT key on your keyboard to select multiple users.
-. Go to *Actions->Add To Bucket* or right-click on a selected user account to view the _Actions_ menu and select *Add To Bucket*.  The user accounts will move to the Bucket View tab and are now in the selected User Bucket.
+. Go to *Actions -> Add To Bucket* or right-click on a selected user account to view the _Actions_ menu and select *Add To Bucket*.  The user accounts will move to the Bucket View tab and are now in the selected User Bucket.
 
 To add users to a bucket by uploading a file of user barcodes:
 
-. Go to *Circulation->User Buckets* and select the *Pending Users* tab at the top of the screen.
+. Go to *Circulation -> User Buckets* and select the *Pending Users* tab at the top of the screen.
 . Click on *Buckets* and select an existing bucket from the drop down menu or click *New Bucket* to create a new user bucket.
 .. If creating a new user bucket, a dialog box called _Create Bucket_ will appear where you can enter a bucket _Name_ and _Description_ and indicate if the bucket is _Staff Shareable?_.  Click *Create Bucket*.
 .. After selecting or creating a bucket, the Name, Description, number of items, and creation date of the bucket will appear above the Scan Card field.
@@ -48,7 +48,7 @@ To add users to a bucket by uploading a file of user barcodes:
 .. The file that is uploaded must be a .txt file that contains a single barcode per row.
 . The user accounts will automatically appear in the list of Pending Users.
 . Select the user accounts that you want to add to the bucket by checking the box next to each user row or by using the CTRL or SHIFT key on your keyboard to select multiple users.
-. Go to *Actions->Add To Bucket* or right-click on a selected user account to view the _Actions_ menu and select *Add To Bucket*.  The user accounts will move to the *Bucket View* tab and are now in the selected User Bucket.
+. Go to *Actions -> Add To Bucket* or right-click on a selected user account to view the _Actions_ menu and select *Add To Bucket*.  The user accounts will move to the *Bucket View* tab and are now in the selected User Bucket.
 
 [[batch-edit-user]]
 Batch Edit All Users
@@ -56,7 +56,7 @@ Batch Edit All Users
 
 To batch edit all users in a user bucket:
 
-. Go to *Circulation->User Buckets* and select the *Bucket View* tab.
+. Go to *Circulation -> User Buckets* and select the *Bucket View* tab.
 . Click *Buckets* and select the bucket you want to modify from the list of existing buckets.
 .. After selecting a bucket, the Name, Description, number of items, and creation date of the bucket will appear at the top of the screen.
 . Verify the list of users in the bucket and click *Batch edit all users*. A dialogue box will appear where you can select the batch modifications to be made to the user accounts.
@@ -83,7 +83,7 @@ Batch Modify Statistical Categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .Batch modify statistical categories for all users in a bucket:
-. Go to *Circulation->User Buckets* and select the *Bucket View* tab.
+. Go to *Circulation -> User Buckets* and select the *Bucket View* tab.
 
 . Click *Buckets* and select the bucket you want to modify from the list of existing buckets.
 .. After selecting a bucket, the Name, Description, number of items, and creation date of the bucket will appear at the top of the screen.
@@ -107,7 +107,7 @@ To delete users refer to xref:delete-patron-card[]
 View Batch Changes
 ^^^^^^^^^^^^^^^^^^
 
-. The batch changes that have been made to User Buckets can be viewed by going to *Circulation->User Buckets* and selecting the *Bucket View* tab.
+. The batch changes that have been made to User Buckets can be viewed by going to *Circulation -> User Buckets* and selecting the *Bucket View* tab.
 . Click *Buckets* to select an existing bucket.
 . Click *View batch changes*.  A dialogue box will appear that lists the _Name_, date _Completed_, and date _Rolled back_ of any batch changes made to the bucket.  There is also an option to _Delete_ a batch change.  This will remove this batch change from the list of actions that can be rolled back.  It will not delete or reverse the batch change.
 . Click *OK* to close the dialog box.
@@ -116,7 +116,7 @@ View Batch Changes
 Roll Back Batch Changes
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-. Batch Changes and Batch Deletions can be rolled back or reversed by going to *Circulation* -> *User Buckets* and selecting the *Bucket View* tab.
+. Batch Changes and Batch Deletions can be rolled back or reversed by going to *Circulation -> User Buckets* and selecting the *Bucket View* tab.
 . Click *Buckets* to select an existing bucket.
 . Click *Roll back batch edit*.  A dialog box will appear that contains a drop down menu that lists all batch edits that can be rolled back.  Select the batch edit to roll back and click *Roll Back Changes*.  The batch change will be reversed and the roll back is recorded under _View batch changes_.
 
@@ -128,7 +128,7 @@ Sharing Buckets
 
 If a User Bucket has been made Staff Shareable, it can be retrieved via bucket ID by another staff account.  The ID for each bucket can be found at the end of the URL for the bucket.  For example, in the screenshot below, the bucket ID is 32.
 
-. To retrieve a shared bucket click *Circulation->User Buckets* and click the *Bucket View* tab.
+. To retrieve a shared bucket click *Circulation -> User Buckets* and click the *Bucket View* tab.
 . Click *Buckets* and select *Shared Bucket*.
 . A dialogue box will appear.  Enter the ID of the bucket you wish to retrieve and click *Load Bucket*.
 . The shared bucket will load in the *Bucket View* tab.

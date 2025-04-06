@@ -45,9 +45,9 @@ Exceptions at Renewal
 
 An item can be blocked from renewing for the following reasons:
 
-* Patron has a xref:_patron_notes[system generated or staff generated block] on their account
-* The item has no more renewals allowed as per the library's xref:_circulation_policies[circulation policies]
-* The item is needed to fill a hold
+* Patron has a xref:_patron_notes[system generated or staff generated block] on their account.
+* The item has no more renewals allowed as per the library's xref:_circulation_policies[circulation policies].
+* The item is needed to fill a hold.
 
 .To override an exception when renewing:
 . Check or un-check the box for *Automatically override for subsequent items* as applicable to the check out.

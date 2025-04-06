@@ -1,0 +1,242 @@
+Searching the Catalogue
+-----------------------
+
+The staff catalogue enables staff to search for holdings in their collection and the entire consortium.
+
+Search Form
+~~~~~~~~~~~
+
+The entire panel at the top of the staff catalogue is the search form. It is made up of 
+xref:_search_panes[five search panes], xref:_library_selector[the library selector], and 
+xref:_additional_options[additional options].
+
+image::images/staffcat/search/catalogue-search-1.png[Catalogue Search Form]
+
+Search Panes
+^^^^^^^^^^^^
+
+There are five search panes available in the search form - xref:_keyword_search_staff[Keyword Search],
+xref:_numeric_search_staff[Numeric Search], xref:_marc_search_staff[MARC Search], 
+xref:_browse_search_staff[Browse], and xref:_shelf_browse_staff[Shelf Browse].  
+These enable staff to search the catalogue
+in a variety of ways.
+
+[[_library_selector]]
+Library Selector
+^^^^^^^^^^^^^^^^
+
+The library selector allows you to change your search library to the consortium, system, branch, or 
+other organization of your choice.
+
+The default search library for your workstation can be set in the 
+xref:_search_preferences[Search Preferences]. 
+
+To change your search library, select the text box to the left of the _Search_ button and make 
+your selection from the dropdown menu.
+
+You may also enter the short name of the library you wish to search directly 
+into the text box and then select it from the shortened list that displays.
+
+Your library selection will stay until you leave the staff catalogue on that tab. When you open
+the staff catalogue in a new tab it will reset to the workstation's default search library.
+
+[TIP]
+=====
+The workstation setting _Include Full Library Names in Library Search?_ controls whether the display
+in the library selector is the libraryname and short code or just the short code.  See 
+xref:_include_full_library_names_in_library_selector[] for information on this setting.
+=====
+
+Additional Options
+^^^^^^^^^^^^^^^^^^
+
+Also in the search form are buttons for resetting the search form, accessing the 
+xref:_search_templates[Search Templates], accessing the xref:_search_preferences[Search Preferences], 
+and working with baskets.
+
+
+[[_keyword_search_staff]]
+Keyword Search
+~~~~~~~~~~~~~~
+
+The Keyword Search pane lets you search the catalogue with one or more search terms. You may 
+also apply a variety of filters and sort the results. 
+
+. In the Keyword Search pane, enter your search criteria. 
+. Click *Search*. NEED FILTER FIX FOR SCREENSHOT
++
+image::images/staffcat/search/keyword-search-1.png[Keyword Search pane]
++
+. Your results are displayed.
+
+Search Options
+^^^^^^^^^^^^^^
+
+There are three options to limit your keyword search: _Format_, _Catalog Field_, and _Matching_.
+
+image::searching_the_catalog/search_options.png[The Format, Catalog Field, and Matching search options, which appear in this order to the left of the Search Terms text box.]
+
+_Format_: Make a selection from the _Format_ dropdown menu to specify what type of item you are seeking. Some options for format include: All Books, All Music, All Videos, Braille, DVD, Large Print Book, and Microform.
+
+_Catalog Field_: Make a selection from the _Catalog Field_ dropdown menu to specify which bibliographic fields you wish to search. You may select Keyword, Title, Journal Title, Author, Subject, or Series.
+
+_Matching_: Make a selection from the _Matching_ menu to specify how strictly the search should treat your search terms. You may choose from the following options:
+
+* _Contains_: The search will look for items that contain your search terms, regardless of how the terms appear in the record.
++
+.Example
+**** 
+Conducting a search for a title that contains “dog walk” could return _Dog Walk_, _Walk Your Dog_, and _Dog-Walking Business_.
+****
++
+* _Does not contain_: The search will look for items that do not contain your search terms.
++
+* _Contains phrase_: The search will look for items that contain your search terms successively in exact order.
++
+.Example
+****
+Conducting a search for a title that contains the phrase “dog walk” could return _Dog Walk_, but it _would not_ return _Walk Your Dog_ or _Dog-Walking Business_.
+****
++
+* _Matches exactly_: The search will look for items that contain only your search terms in exact order. This option is not available when _Keyword_ is selected in the _Catalog Field_ search option.
++
+* _Starts with_: The search will look for items that begin with your search terms, regardless of how the terms appear in the record.
+
+NOTE: Keyword searches will look through all relevant fields in the bibliographic record, even if they are not displayed in the search results. For example, searching by title also searches the alternate title field, which is not displayed in search results.
+
+Additional Search Rows
+^^^^^^^^^^^^^^^^^^^^^^
+
+To add an additional search row, select the _plus sign_ (+) to the right of the Search Terms text box. A new search row appears below the first. 
+
+The new search row will search the same format as that selected on the first search row. 
+
+Additional search rows are joined to preceding search rows with the Boolean operators _And_ or _Or_, which may be selected in the _Join with_ menu to the left of the additional search row.
+
+image::searching_the_catalog/additional_search_rows.png[Staff Catalog page showing two search rows with the plus sign symbol and the Join with menu highlighted.]
+
+To delete a search row, select the _minus sign_ (-) to the right of the row you wish to delete.
+
+.Example
+****
+Suppose you have a patron who wants a new J.R.R. Tolkien book but has has already read _The Hobbit_. You could run the search in the image below. 
+
+image::searching_the_catalog/two_row_search_example.png[A search with two rows with the following selections, in order: Format - All Formats, Catalog Field - Author, Matching - Contains, Search Terms - tolkien, Join with - And, Catalog Field - Title, Matching - Does not contain, Search Terms - hobbit.]
+****
+
+Filters
+^^^^^^^
+
+Filters let you refine your search beyond the options available in the search row. 
+
+Access the filters by selecting the three stacked dots to the right of the search row. The filters appear at the bottom of the search form.
+
+image::searching_the_catalog/search_filters.png[Keyword Search pane with the filters button highlighted, showing the nine filtering tools at the bottom of the pane, listed below.]
+
+The options available in each filter depend on the library selected in the xref:staff_catalog:searching_the_catalog.adoc#library_selector[Library Selector]. The available filters are: _Item Type_, _Form_, _Language_, _Audience_, _Video Format_, _Bibliographic Level_, _Literary Form_, and _Shelving Location_.
+
+To add a filter, select the desired term from the list in the filter. The selected term will be highlighted and the filter will be applied when you run the search. Use the scroll bar in each filter to view more options.
+
+TIP: Hold CTRL (Windows) or CMD (Mac) to make multiple selections in a single filter.
+
+To remove a filter, select the first term in the filter's list that begins with _All_ and is followed by the name of the filter. For example, to remove the _Form_ filter, select _All Item Forms_.
+
+To remove all filters, select the _Reset_ button in the top-right corner of the search form.
+
+To filter by publication year, first select an option from the dropdown menu to the right of "Publication Year is" at the bottom of the search form. You may select _Is_, _Before_, _After_, or _Between_. If you select _Between_, an additional text box will appear to the right of the existing text box.
+
+Then, enter the publication year or years in the text box or text boxes to the right of the dropdown menu.
+
+IMPORTANT: Filters will not be applied until you select _Search_. If you make any changes to filters after beginning a search, you must select _Search_ again to apply your changes.
+
+Sorting
+^^^^^^^
+
+Search results can be sorted by relevance, title (A to Z or Z to A), author (A to Z or Z to A), publication date (newest to oldest or oldest to newest), or popularity (most to least popular or popularity adjusted relevance). By default, searches are sorted by relevance.
+
+To change the sorting method before your search, select an option from the _Sort Results_ dropdown menu located below the search row. 
+
+To change the sorting method of a search you have already started, select an option from the _Sort Results_ dropdown menu, then select _Search_ in the top-right corner to apply your selection.
+
+image::searching_the_catalog/sort_results.png[The Sort Results menu is expanded to show the options, as described above, in the order described above.]
+
+Search Checkboxes
+^^^^^^^^^^^^^^^^^
+
+Three checkboxes appear on the Keyword Search pane by default. If the _Exclude Electronic Resources_ checkbox is selected on the workstation's xref:staff_catalog:searching_the_catalog.adoc#search_preferences[Search Preferences], the _Exclude Electronic Resources_ checkbox will also appear.
+
+Depending on the size of your browser window, these checkboxes appear to the right of or below the _Sort Results_ dropdown menu, at the bottom of the search form.
+
+The checkboxes appear in the order listed below. The described behavior applies when the box is checked (selected).
+
+image::searching_the_catalog/search_checkboxes.png[Keyword Search pane with the search boxes highlighted, as described below.]
+
+IMPORTANT: If you check or uncheck a checkbox after beginning your search, you must select _Search_ again to apply your changes.
+
+_Limit to Available_: Results will be limited to items with a status of Available or Reshelving.
+
+_Group Formats/Editions_: Results of the same title with different formats or editions will be combined into a single result. 
+
+_Results from All Libraries_: Results may come from any library in the highest level of your catalog, usually a consortium or system. Checking this box overrides any conflicting workstation xref:staff_catalog:searching_the_catalog.adoc#search_preferences[Search Preferences] and any selection in the xref:staff_catalog:searching_the_catalog.adoc#library_selector[Library Selector].
+
+_Exclude Electonic Resources_: Results will not include any electronic format, such as e-books. If this checkbox is not visible, check the _Exclude Electronic Resources_ checkbox on the xref:staff_catalog:searching_the_catalog.adoc#search_preferences[Search Preferences] page.
+
+[[_numeric_search_staff]]
+Numeric Search
+~~~~~~~~~~~~~~
+
+The Numeric Search pane allows you to search numerical fields in bibliographic records. You may search the following fields: _ISBN_, _UPC_, _ISSN_, _LCCN_, _TCN_, and _Item Barcode_.
+
+NOTE: An item may have multiple barcodes on it. _Item Barcode_ refers to the barcode created by your library. It is the barcode you scan to check an item in or out.
+
+First, select the _Query Type_ from the dropdown menu. Then, enter the numeric value of the search in the _Value_ text box. 
+
+Begin the search by selecting the _Search_ button in the top-right corner. Search results appear below the search form.
+
+image::searching_the_catalog/numeric_search.png[Numeric Search pane with arrows indicating the Numeric Search pane selected, the Query Type dropdown menu, the Value text box, and the Search button, as described above.]
+
+[[_marc_search_staff]]
+MARC Search
+~~~~~~~~~~~
+
+The MARC Search pane allows you to search fields and subfields in MARC records.
+
+Enter the three-digit tag you wish to search in the _Tag_ text box. If desired, enter the subfield you wish to search in the _Subfield_ text box. 
+
+Then, enter the value for which you are searching in the _Value_ text box. Begin the search by selecting the _Search_ button in the top-right corner. Search results appear below the search form.
+
+You can only search one tag or subfield per row. To add additional rows, select the _plus sign_ (+) to the right of the search row. To remove rows, select the _minus sign_ (-) to the rigt of the search row.
+
+image::searching_the_catalog/marc_search.png[MARC Search pane with arrows indicating the MARC Search pane selected, the Tag, Subfield, and Value text boxes, and the Search button, as described above.]
+
+[[_browse_search_staff]]
+Browse
+~~~~~~
+
+The Browse pane allows you to view bibliographic headings that fall around your search term alphabetically. Each result links to catalog records that contain the indicated bibliographic information. (To browse by call number, see xref:staff_catalog:searching_the_catalog.adoc#shelf_browse[Shelf Browse].)
+
+To use the Browse pane, select the headings you would like to search by making a selection from the _Browse for_ dropdown menu. You may search by title, author, subject, or series. 
+
+Then, enter your search term in the _Starting with_ text box and select _Search_ to begin your search. Results appear below the search form.
+
+You may select _Next_ or _Back_, which appear above and below the results, to view more results.
+
+TIP: Enter the surname first when searching by author in the Browse pane.
+
+image::searching_the_catalog/browse_search.png[Browse search pane with arrows indicating the Browse for dropdown menu and Starting with text box, as described above. The search reads: Browse for Author starting with Steinbeck. The result of the search is an alphabetical list of ten author headings with Steinbeck in the middle.]
+
+[[_shelf_browse_staff]]
+Shelf Browse
+~~~~~~~~~~~~
+
+The Shelf Browse pane allows you to browse by call number. It will return results that fall around your search term alphabetically or numerically. Each result links to catalog records. (To browse by bibliographic headings, see xref:staff_catalog:searching_the_catalog.adoc#browse_search[Browse].)
+
+In libraries where call numbers include part information, such as volume number, you can use this pane to browse volumes in a series.
+
+To use the Shelf Browse pane, enter a call number in the _Browse Call Numbers starting with_ text box, then select _Search_. Results appear below the search form. 
+
+You may select _Next_ or _Back_, which appear above and below the results, to view more results.
+
+TIP: Shelf Browse is best used at the smallest appropriate level, usually the branch level, due to possible variations in call number practices. 
+
+image::searching_the_catalog/shelf_browse_search.png[Shelf Browse search pane with an arrow indicating the Browse Call Numbers starting with text box, as described above. The search term is FIC 213. The Search Library is set to BR1. The result of the search is an alphabetical list of fifteen call numbers with FIC 213 in the middle. The results are laid out in a tile format with three columns and five rows.]

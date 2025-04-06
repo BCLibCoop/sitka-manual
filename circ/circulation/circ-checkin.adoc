@@ -69,16 +69,16 @@ Check In Modifiers
 ^^^^^^^^^^^^^^^^^^
 Click the *Checkin Modifiers* drop down arrow. These options may be selected singly or simultaneously. The selected option is displayed in the header area.
 
-* Ignore Pre-cat Items: no prompt when checking in a pre-cat item. Item will be routed to Cataloguing with Cataloguing status.
-* Suppress Holds and Transit: item will not be used to fill holds or sent in transit. Item has Reshelving status.
-* Amnesty Mode/Forgive Fines: overdue fines will be voided or not created.
-* Auto-Print Hold and Transit Slips: slips will be automatically printed without prompt for confirmation.
-* Clear Holds Shelf. Checking in hold-shelf-expired items will clear the items from the holds shelf (holds to be cancelled).
-* Retarget Local Holds. This makes Evergreen's hold targeter find the items immediately, and is useful for checking in newly holdable items.
-* Retarget All Statuses. Checks for a local hold to retarget, regardless of the status of the item being checked in. This modifier must be used in conjunction with the Retarget Local Holds modifier.
-* Capture Local Holds as Transits. Local holds will be given an in transit status instead of on holds shelf. The intent is to stop the system from sending holds notifications before the item is ready to be placed on the holds shelf and item will have a status of in-transit until checked in again.
-* Manual Floating Active. Works in conjunction with floating groups, if configured for your library by Co-op Support.
-* Update Inventory adds a date and time stamp, and workstation name, to item records as they are checked in, facilitating inventory processes.
+* Ignore Pre-cat Items: No prompt when checking in a pre-cat item. Item will be routed to Cataloguing with _Cataloguing_ status.
+* Suppress Holds and Transit: Item will not be used to fill holds or sent in transit. Item has _Reshelving_ status.
+* Amnesty Mode/Forgive Fines: Overdue fines will be voided or not created.
+* Auto-Print Hold and Transit Slips: Slips will be automatically printed without prompt for confirmation.
+* Clear Holds Shelf: Checking in hold-shelf-expired items will clear the items from the holds shelf (holds to be cancelled).
+* Retarget Local Holds: Makes Evergreen's hold targeter find the items immediately, and is useful for checking in newly holdable items.
+* Retarget All Statuses: Checks for a local hold to retarget, regardless of the status of the item being checked in. This modifier must be used in conjunction with the Retarget Local Holds modifier.
+* Capture Local Holds as Transits: Local holds will be given an _In transit_ status instead of _On holds shelf_. The intent is to stop the system from sending holds notifications before the item is ready to be placed on the holds shelf, and item will have a status of _In transit_ until checked in again.
+* Manual Floating Active: Works in conjunction with floating groups (if configured for your library by Co-op Support).
+* Update Inventory: Adds a date and time stamp, as well as workstation name, to item records as they are checked in, to facilitate inventory processes.
 
 ////
 Exceptions at Check In

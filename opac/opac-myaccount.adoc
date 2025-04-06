@@ -99,21 +99,36 @@ public catalogue.
 
 . In the footer of the public catalogue, click on the *Request Library Card* link.
 +
-image:images/opac/patron_self_registration-2.png[Patron Self-Registration form]
+image:images/opac/patron_self_registration-1.png[Patron Self-Registration form]
 +
 . Fill out the form to request a library card and click *Submit Registration*.
-. Patrons will see a confirmation message: “Registration successful!  Please see library staff to
++
+image:images/opac/patron_self_registration-2.png[Patron Self-Registration form]
++
+. The form is validated and any errors are flagged.
++
+image:images/opac/patron_self_registration-3.png[Patron Self-Registration form]
++
+. Once the form has been filled out and submitted, patrons will see a confirmation 
+message: “Registration successful!  Please see library staff to
 complete your registration.”  This message is customizable per library.
 +
-image:images/opac/patron_self_registration.png[Patron Self-Registration form]
+image:images/opac/patron_self_registration-4.png[Patron Self-Registration form]
 +
-. A pending patron will be created in Evergreen.  See xref:_managing_pending_patrons[].
+. A pending patron is created in Evergreen.  See xref:_managing_pending_patrons[].
+
 
 [NOTE]
 ======
-The patron self-registration form shares settings with the staff client registration form.
-See xref:_customizing_the_display_fields[] for information on customizing which fields display and which fields
-are required.
+The patron self-registration form shares most settings with the staff client registration form.
+
+Unique to the self-registration form are the library settings _Hide Username field in Patron Self-Reg._ and
+_Patron Self-Reg. Date of Birth Order_.  Local system administrators can set values for these 
+in the xref:_library_settings_editor[Library Settings Editor].
+
+For the settings shared with the staff client registration form see 
+xref:_customizing_the_display_fields[] for information on customizing which fields display 
+and which fields are required.
 ======
 
 
@@ -134,7 +149,7 @@ image::images/opac/opac-eresource-1.png[scaledwidth="75%",alt="My Account"]
 Account Preferences
 ~~~~~~~~~~~~~~~~~~~
 
-Click *Preferences* to access your preferences.
+Click *Preferences* to access your preferences. The options will display below.
 
 image::images/opac/opac-account-preferences-1.png[scaledwidth="75%",alt="My Account"]
 
@@ -143,7 +158,7 @@ Personal Information
 (((Update Password, My Account)))
 (((Send Test Email, My Account)))
 
-You can change your username, password, email address, and preferred language in _Personal Information_.
+You can change your username, preferred name, password, email address, and preferred language in _Personal Information_.
 Libraries using single sign-on or other 3rd party password services may restrict editing of some of these
 fields.
 
@@ -206,6 +221,8 @@ preferred search location if your library is a multi-branch system or part of a 
 You can also set your preferred pick up location if your library is a multi branch system or part of a
 larger borrowing zone.
 
+You can choose whether or not to have search terms highlighted in your search results.
+
 Check Out and Hold history can be enabled on this screen.  The check out and holds history is not retroactive;
 it takes effect once you choose to retain your history.
 
@@ -237,7 +254,7 @@ appropriate button.
 
 image::images/opac/opac-account-messages-2.png[scaledwidth="75%",alt="My Account Messages"]
 
-Unread messages display in bold.  Click on the *Read* button or the subject to read the message.
+Unread messages display in bold.  Click on the subject to read the message.
 
 image::images/opac/opac-account-messages-3.png[scaledwidth="75%",alt="My Account Messages"]
 
@@ -254,7 +271,7 @@ Items Checked Out
 Current Items Checked Out
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In _My Account_ click *Items Checked Out -> Current Items Checked out* to display all of the items you
+In _My Account_ click *Items Checked Out -> Items Checked Out* to display all of the items you
 currently have checked out.
 
 image::images/opac/opac-account-checked-out-1.png[scaledwidth="75%",alt="My Account Checked Out"]

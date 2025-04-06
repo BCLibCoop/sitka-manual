@@ -6,12 +6,12 @@ anchor:action-triggers[Action Triggers]
 https://youtu.be/mvEA4Axnjec[*Sitka Training Video - Viewing and Understanding 
 Action Triggers/Notifications(6:44)*]
 
-.Action Triggers are used for
+.Action Triggers are used for:
 * Patron Email and SMS Notifications
 * Some Print functions
-* Automatically set overdue items to Lost
+* Automatically setting overdue items to Lost
 
-Some templates are set at the Sitka level and cannot be customized.  Most templates are 
+Some templates are set at the Sitka level and cannot be customized. Most templates are 
 customizable per library.
 
 See xref:_patron_notifications[] for details on what notices can be set up for your library.
@@ -49,7 +49,7 @@ making changes and clicking save will have no effect.
 Submit a ticket to https://bc.libraries.coop/support/[Co-op Support] to request changes to your notifications / action triggers.
 We recommend submitting your request at least one week before you'd like the change to go into effect.
 
-In your request please include the specific changes you need made.  
+In your request please include the specific changes you need made.
 
 When requesting a change to a notification / action trigger you must include:
 

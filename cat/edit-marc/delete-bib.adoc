@@ -9,12 +9,12 @@ Deleted records can be undeleted if you know the record TCN or ID.
 
 . Retrieve the record by its database ID.
 +
-image::images/cat/delete-marc-3.png[]
+image::images/cat/marc/delete-marc-3.png[]
 +
 . Click on the *MARC Edit* tab.
 . Click *Undelete Record*.
 +
-image::images/cat/delete-marc-4.png[]
+image::images/cat/marc/delete-marc-4.png[]
 +
 . A pop up will appear.  Click *Confirm*.
 . The record is undeleted and holdings or scoped 856 fields can now be added.
@@ -26,7 +26,7 @@ Deleting Bibliographic Records
 (((Delete, Bibliographic Records)))
 (((Delete, MARC Records)))
 
-Sitka's Evergreen will automatically delete records when the last item attached to the record 
+Evergreen will automatically delete records when the last item attached to the record 
 is deleted.
 
 Records that are imported or created in Evergreen but never have a holding attached or a 
@@ -45,12 +45,12 @@ in xref:_searching_the_database_for_cataloguing_purposes[].
 . Click on the *MARC Edit* tab.
 . Click *Delete Record*.
 +
-image::images/cat/delete-marc-1.png[]
+image::images/cat/marc/delete-marc-1.png[]
 +
 . A pop up will appear.  Click *Confirm*.
 . Record is now deleted and only retrievable by a TCN (title control number) or record ID search.
 +
-image::images/cat/delete-marc-2.png[]
+image::images/cat/marc/delete-marc-2.png[]
 
 Deleting Records via a Record Bucket
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -58,14 +58,24 @@ Deleting Records via a Record Bucket
 Records can be deleted in batch from a xref:_record_buckets[record bucket].
 
 . Go to *Cataloguing -> Record Buckets*.
-. Select the bucket containing the records you would like to delete from the drop down menu.
+. Click the name of the bucket containing the records you would like to delete.
 +
-image::images/cat/delete-marc-bucket-1.png[]
+image::images/cat/marc/delete-marc-bucket-1.png[]
 +
 . Select the records you wish to delete and from the the *Actions* menu choose 
-*Delete Selected Records from Catalogue*.
+*Delete Selected Records from Catalog*.
 +
-image::images/cat/delete-marc-bucket-2.png[]
+image::images/cat/marc/delete-marc-bucket-2.png[]
 +
-. Click *OK/Continue*.
-. The records are deleted.  Records with holdings cannot be deleted and will return an error.
+. A pop-up will appear asking you to confirm the deletion.  Click *Delete*.
++
+image::images/cat/marc/delete-marc-bucket-3.png[]
++
+. The records are deleted.
+
+[NOTE]
+======
+Records with holdings cannot be deleted and will return an error.
+
+image::images/cat/marc/delete-marc-bucket-4.png[]
+======

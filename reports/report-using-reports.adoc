@@ -17,16 +17,11 @@ Cloning a Report Template
 (((Clone, Report Templates)))
 (((Reporter, Cloning Templates)))
 
-////
 [CAUTION]
 =========
-Cloning templates created on the old staff client (XUL in ui column) may not work perfectly. You 
+Cloning templates created in previous verions of Evergreen may not work perfectly. You 
 may need to remove, then put back some fields during cloning.
-
-IS THIS STILL TRUE?
 =========
-////
-
 
 link:https://youtu.be/0F0dulXsUKw[*Cloning Reports and Sitka Templates (2:35)*]
 
@@ -37,44 +32,66 @@ The steps below assume you have already created at least one folder in _Template
 done so, please see xref:_creating_folders[].
 
 . Go to *Administration* -> *Reports*
-. In the _Shared Folders_ section click on the arrow beside the _Templates_ folder to see the shared
-template folders. Use the arrows to expand the folder tree until you find the folder containing
+. In the _Shared Folders_ section click on the caret beside the _Templates_ folder to see the shared
+template folders. Use the carets to expand the folder tree until you find the folder containing
 the template you would like to clone.
 +
 image::images/report/clone-report-template-1.png[]
 +
-. Click on the folder name to display the contents.
+. Select the folder name to display the contents.
 +
 image::images/report/clone-report-template-2.png[]
 +
-. Check the box beside the template you wish to clone.
-. From the drop down menu choose *Clone selected template*.  Click *Submit*. 
-+
-image::images/report/clone-report-template-3.png[]
-+
 [TIP]
 =====
-By default Evergreen only displays the first 10 items in any folder. To view all content,
-change the _Limit output to_ setting from _10_ to _All_.
+By default, Evergreen only displays the first 10 items in any folder. To view all content, change the Rows grid setting from 10 to a higher number. Be aware that using 100 may cause performance issues.
 =====
 +
-. Click on the name of your folder where you'd like to save the cloned template and then 
-click *Select Folder*. 
+. Check the box beside the template you wish to clone.
+. Right click or use the *Actions* menu to choose *Clone Template*. 
 +
-image::images/report/clone-report-template-4.png[]
+image::images/report/clone-report-template-3.png[]
 +
 . The template editor will open.  For information on modifying templates see 
 xref:_modifying_report_templates[].
 . Update the template name and/or template description if desired.
-. Click *Save Template*
+. Select the name of your folder where you'd like to save the cloned template. 
++
+image::images/report/clone-report-template-4.png[]
++
+. Select *Save*.
 +
 image::images/report/clone-report-template-5.png[]
 +
-. A pop-up will appear confirming that you wish to save the template.  Click *OK/Continue*.
+. A pop-up will appear confirming that the _Template Saved Successfully_.
 . The template can now be found in the folder you saved it in.
 +
 image::images/report/clone-report-template-6.png[]
 
+Searching for Templates
+^^^^^^^^^^^^^^^^^^^^^^^
+(((Search, Report Templates)))
+(((Reporter, Searching for Templates)))
+
+If you do not know the home folder for a template you desire, or if you want to explore templates shared by other accounts, you can use the reporter search function.
+
+. Go to *Administration* -> *Reports*
+. Select the *Search& tab located above _My Folders_.
++
+image::images/report/search-report-template-1.png[]
++
+. Enter a search term in the field *Search Templates for String*.
+. Scope your search to _Name_, _Description_, or _All Fields_.
+. Limit your search to a particular folder using the carets beside the folder tree to locate your targeted folder, or leave the search at the _All Folders_ level.
++
+image::images/report/search-report-template-2.png[]
++
+. Select your desired template and right click or use the *Actions* menu to select *Clone Template*.
+. The template editor will open. For information on modifying templates, see the section on Modifying Templates.
+. Update the template name and/or template description if desired.
+. Select the name of your folder where you'd like to save the cloned template. 
+. Select *Save*. Once a template is saved it is not possible to edit the template. To make changes, clone a template and change the clone.
+. The template can now be found in the folder you saved it in.
 
 Running a Report
 ~~~~~~~~~~~~~~~~
@@ -95,69 +112,54 @@ found in xref:_report_definition_examples[].
 ===== 
 
 . Go to *Administration* -> *Reports*
-. In the _My Folders_ section click on the arrow beside the _Templates_ folder to see your 
-template folders. Use the arrows to expand the folder tree until you find the folder containing
+. In the _My Folders_ section select the caret beside the _Templates_ folder to see your 
+template folders. Use the carets to expand the folder tree until you find the folder containing
 the template you would like to use for your report.
+. Select a folder name to display the contents.
 +
 image::images/report/reports-run-1.png[]
 +
-. Click on the folder name to display the contents.
+. Double click on the desired template name or check the box beside the template you wish to use and then right click or use the *Actions* menu to select _New Report_.
+. Enter a name for your report. Report names must be unique, or the report cannot be saved.
++
+[TIP]
+=====
+A best practice for naming reports is to use the same name as the template you used. This makes it easy to track outputs and reports back to the template used. If multiple reports are made from the same template, the format of 'template name' - 'report characteristic' can make those reports easy to track.
+=====
+. Optionally, enter a description for your report.
 +
 image::images/report/reports-run-2.png[]
 +
-. Check the box beside the template you wish to use.
-. *Create a new report from selected template* will be selected by default.  Click *Submit*. 
+. The display columns selected in the template are listed on the Columns tab. You can navigate between tabs by clicking on the tabs or by using the Previous and Next buttons at the bottom of the screen.
 +
 image::images/report/reports-run-3.png[]
 +
-. Enter a name for your report.
-+
-Optionally, enter a description for your report.
+. On the Filters tab, enter values for any filters. For more information on filter values see xref:_report_filters[].
 +
 image::images/report/reports-run-4.png[]
 +
-. The display columns included in the output are listed as Report columns.
+[NOTE]
+=====
+Instead of scrolling through the options in the filter lists, you can place your cursor in the filter value box and then on your keyboard start typing the first few letters that the option you want starts with. This will limit your list to just those options that match what you have typed.
+=====
 +
-Pivot Label Column and Pivot Data Column are optional. Pivot tables are a different way to view data. If you
-currently use pivot tables in MS Excel it is better to select an Excel output and continue using pivot tables
-in Excel. Please note that Pivot tables are only suitable for some types of result data.
+. On the Layout and Scheduling tab you can make a number of choices about the final output.
 +
 image::images/report/reports-run-5.png[]
 +
-. Choose the Reports folder you would like to save the reports definition in.
-+
-image::images/report/reports-run-6.png[]
-+
-. Enter values for any filters.  For more information on filter values see 
-xref:_report_filters[].
-+
-image::images/report/reports-run-7.png[]
-+
-[NOTE]
-======
-Instead of scrolling through the options in the filter lists you can click on one of the visible options
-and then on your keyboard press the letter the option you want starts with.  This will jump you to that
-spot in the list.
-======
-+
-. Check the boxes to select the types of output you would like.
-+
-Check the _Calculate grouping subtotals_ check box to add an unlabeled row or column 
-with the subtotals for each grouping and an unlabeled grand total row or column. Please note group 
-subtotals and grand totals will only be useful with some reports.
-+
-image::images/report/reports-run-8.png[]
-+
+.. *Pivot Label Column* and *Pivot Data Column* are optional. Pivot tables are a different way to view data. If you currently use pivot tables to manipulate report data in Microsoft Excel, it is better to select an Excel output and continue using pivot tables in Excel. Note that pivot tables are only suitable for some types of result data.
+.. Select the checkboxes to _Choose your output format(s)_. Multiple options may be selected.
+... Select the _Calculate grouping subtotals_ checkbox to add an unlabeled row or column with the subtotals for each grouping and an unlabeled grand total row or column. Note, group subtotals and grand totals will only be useful with some reports.
+... _Excel output_ will create a file to export the data to Excel.
+... _CSV Output_ will create a data file in comma-separated values format. This is the file format required to do a batch load on the Item Status screen.
+... _HTML Output_ creates a simple table view of the data that is viewable in your browser environment. HTML Output is sometimes referred to as tabular output.
+... _Bar Chart_ will create a very simple bar chart of your data. Note, bar charts will only be useful with some reports.
+... _Line Chart_ will create a very simple line chart of your data. Note, line charts will only be useful with some reports.
 . Leave the recurring and run time options as is unless you are running a recurring report.  See
 xref:_recurring_reports[].
-+
-image::images/report/reports-run-9.png[]
-+
 . Optionally, enter an email address to send the report completion notification to.  By default this 
 field will contain the email address saved in your staff account. Additional addresses can be added 
 separated by a comma.
-+
-image::images/report/reports-run-10.png[]
 +
 [NOTE]
 ======
@@ -169,11 +171,15 @@ https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/all-staff-report
 Staff Reporter Privacy Waiver].
 ======
 +
-. Choose the Ouput folder you would like to save the report output in and then click *Save Report*.
+. On the right side of the screen, Choose the _Report Folder_ and _Output Folder_ you would like to save the report and output in.
 +
-image::images/report/reports-run-11.png[]
+image::images/report/reports-run-6.png[]
 +
-. A pop-up appears confirming the report has been saved. Click *OK*.
+. Select *Save and schedule report*.
++
+image::images/report/reports-run-7.png[]
++
+. A confirmation will appear in the lower right of the screen indicating that the report has successfully saved.
 . Unless you have set a specific run time the report will run right away.  If your report has not 
 completed after 15 minutes please contact https://bc.libraries.coop/support/[Co-op Support].
 . Once the report is complete you can view your output.  See xref:_viewing_report_output[]. 
@@ -206,7 +212,7 @@ the bibliographic record ID is -1 which is all pre-cat records.
 |Call Number/Volume -> Call Number/Volume ID |Raw Data |Not in list |-1 | Exclude all records where
 the call number ID is -1 which is all pre-cat records.
 |Circulation -> Check In Date/Time |Date |Is NULL| |Include only items that have not been checked in.
-|Circulation -> Circulating Item -> Copy Status -> Name |Raw Data |Equals | name of an item status | Include
+|Circulation -> Circulating Item -> Item Status -> Name |Raw Data |Equals | name of an item status | Include
 only items that are in the specified item status.
 |Circulation -> Fine Stop Reason |Raw Data |Not in list |LOST | Exclude items that have stopped generating
 fines because they have been set to lost.
@@ -232,7 +238,7 @@ enter between "1900-01-01" and "today's date".
 When running recurring reports it's very important to use _Relative Dates_ in your filters.  This will
 allow Evergreen to calculate the time period to report on each time it runs the report. A relative date of
 1 month ago will generate a new report each month on the previous month's data; a real date of November
-2022 will generate the same report each month with the data from November 2022.  
+2024 will generate the same report each month with the data from November 2024.  
 
 [TIP]
 =====
@@ -240,8 +246,7 @@ You can set up recurring monthly reports to show comparative data from one year 
 select relative dates of 1 month ago and 13 months ago.
 =====
 
-Use the drop down menu to switch from _Real Date_ to _Relative Date_.  For a report filtering on month, you 
-will be able to indicate how many months ago the report should look at.  
+Use the _Relative time value_ checkbox under _Filter value_ to switch from a specific real date to a relative date. For a report filtering on month, you will be able to indicate how many months ago the report should look at.  
 
 image::images/report/reports-filters-2.png[]
 
@@ -257,9 +262,7 @@ owning library, patron's home library, and organizational unit.
 image::images/report/reports-filters-3.png[]
 
 This filter is important as it allows 
-staff to comply with Sitka's data use requirements as per 
-https://ln.sync.com/dl/ca731e4e0/view/doc/7839812630003#bw5v92du-w6q5j6uj-szy6shez-smwueqdv[Appendix J 
-of the Service Management Agreement] and restrict the data in the report output to only data relevant 
+staff to comply with Sitka's data use requirements as per https://librariescoop.sharepoint.com/:b:/s/Board/EbkI4ll_0ydEifawYC3l9ScBVAh3SqcfkrMUbBHWzzm-Bg?e=5wD8Q5[Appendix J of the Service Management Agreement] and restrict the data in the report output to only data relevant 
 to their library.
 
 Multi-branch libraries can add specific branches or all of their branches to the list to get a report 
@@ -269,7 +272,7 @@ Other Filters
 +++++++++++++
 
 While many filters will require staff to select values from a given list, some filters will require staff to 
-type a value into the filter _User Params_ field. In those cases the report will generally indicate
+type a value into the _Filter value_ field. In those cases the report will generally indicate
 how the text should be entered so that Evergreen can use the value and generate usable report output.
 
 image::images/report/reports-filters-4.png[]
@@ -278,7 +281,6 @@ Some report templates will have just hardcoded filters and a single library filt
 staff to enter a value while other reports will have multiple filters where staff need to enter values
 for the library, dates, and patron or item data.
 
-image::images/report/reports-filters-5.png[]
 
 Recurring Reports
 ^^^^^^^^^^^^^^^^^
@@ -299,9 +301,9 @@ Staff Reporter Privacy Waiver].
 
 
 To set up a recurring report, follow the procedure in xref:_running_a_report[] until you reach
-step 11 and then follow the steps below.
+the _Recurrence_ and _Scheduling_ sections and then follow the steps below.
  
-. Check the box for *Recurring Report*.
+. Select the box for *Recurring Report*.
 . Select your desired _Recurrence Interval_. Reports can run on a daily, weekly, or monthly interval.
 +
 [TIP] 
@@ -312,7 +314,7 @@ an extra day's data. See xref:_report_date_filters[] for more information on wor
 a recurring report.
 =====
 +
-. Check the box beside the date and set the date of the first run of the report.
+. Select _Schedule Report for Later_ and set the date and time of the first run of the report.
 +
 image::images/report/reports-recurring-1.png[]
 +
@@ -329,7 +331,7 @@ data.
 field will contain the email address saved in your staff account. Additional addresses can be added 
 separated by a comma.
 +
-image::images/report/reports-run-10.png[]
+image::images/report/reports-recurring-2.png[]
 +
 [NOTE]
 ======
@@ -341,11 +343,11 @@ https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/all-staff-report
 Staff Reporter Privacy Waiver].
 ======
 +
-. Choose the Ouput folder you would like to save the report output in and then click *Save Report*.
+. On the right side of the screen, Choose the _Report Folder_ and _Output Folder_ you would like to save the report and output in and then select *Save and Schedule Report*.
 +
-image::images/report/reports-run-11.png[]
+image::images/report/reports-recurring-3.png[]
 +
-. A pop-up appears confirming the report has been saved. Click *OK*.
+. A confirmation will appear in the lower right corner of the screen with _Report Saved Successfully_.
 . Unless you have set a specific run time the report will run right away.  If your report has not 
 completed after 15 minutes please contact https://bc.libraries.coop/support/[Co-op Support].
 . Once the report is complete you can view your output.  See xref:_viewing_report_output[]. 
@@ -358,8 +360,7 @@ Viewing Report Output
 
 link:https://youtu.be/SeAiy3jBVGg[*Viewing Report Output (2:08)*]
 
-Once a report is finished, the output is stored in the specified _Output_ folder and will remain there until
-manually deleted. If an email address was included in the report definition Evergreen will send an
+Once a report is finished, the output is stored in the specified _Output_ folder and will remain there until deleted. Co-op Support automatically deletes report output after one year. If an email address was included in the report definition Evergreen will send an
 email containing a link to the password-protected report output.
  
 Only staff members with permissions to view reports or full access to the reporter will be able to 
@@ -380,20 +381,15 @@ Viewing Output via the Reporter
 (((Reporter, View Report Output via the Reporter)))
 
 . Go to *Administration* -> *Reports*.
-. In the _My Folders_ section click on the arrow beside the _Output_ folder to see your output folders. 
-Use the arrows to expand the folder tree until you find the folder containing the 
+. In the _My Folders_ section select the caret beside the _Output_ folder to see your output folders. 
+Use the carets to expand the folder tree until you find the folder containing the 
 output you'd like to view. 
-+
-image::images/report/report-output-1.png[]
-+
-. Click on the folder name to display the contents.
+. Select the folder name to display the contents.
 +
 image::images/report/report-output-2.png[]
 +
-. Output will display either under _Pending Items_ or _Completed Items_.  Click on the folder name
-again to refresh if your output hasn't completed yet.
-. Check the box beside the output you would like to view.
-. *View report output* will be selected by default.  Click *Submit*.
+. Output will display either under _Pending_ or _Complete_.  Use the *Refresh Grids* button at the top of the screen or the *Refresh* button under each section if your output hasn’t completed yet.
+. Double click on the line for the output you would like to view or check the box beside the completed output you would like to view and right click or use the *Actions* menu to _View Output_.
 +
 image::images/report/report-output-3.png[]
 +
@@ -409,14 +405,20 @@ forms the bar and/or line chart will display.
 +
 image::images/report/report-output-5.png[]
 +
-. Click on *Excel Output* or *CSV Output* to download the output as a file that can be opened in a 
+. Select *Excel Output* or *CSV Output* to download the output as a file that can be opened in a 
 spreadsheet program.  You will be prompted to open or save the the output file.
-. Click on *Tabular Output* to view the output in the browser.
+. Select *Tabular Output* to view the output in the browser.
 +
 The tabular output will display and can be sorted by clicking on a column heading.
 +
 image::images/report/report-output-6.png[]
-
++
+[NOTE]
+======
+On the Outputs folder view of completed outputs, the buttons under the Output column will allow you to interact with the various files and views without first having to use the View Output option to open a new tab.
+======
++
+image::images/report/report-output-1.png[]
 
 Viewing Output via the Email Link
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -456,9 +458,9 @@ forms the bar and/or line chart will display.
 +
 image::images/report/report-output-5.png[]
 +
-. Click on *Excel Output* or *CSV Output* to download the output as a file that can be opened in a 
+. Select *Excel Output* or *CSV Output* to download the output as a file that can be opened in a 
 spreadsheet progam.  You will be prompted to open or save the the output file.
-. Click on *Tabular Output* to view the output in the browser.
+. Select *Tabular Output* to view the output in the browser.
 +
 The tabular output will display and can be sorted by clicking on a column heading.
 +
@@ -524,24 +526,20 @@ any data you need to keep is downloaded and saved locally before deleting.
 =========
 
 . Go to *Administration -> Reports*
-. In the _My Folders_ section click on the arrow beside the _Templates_ folder to see your 
-template folders. Continue to use the arrows to expand the folder tree until you find the folder containing
+. In the _My Folders_ section select the caret beside the _Templates_ folder to see your 
+template folders. Continue to use the carets to expand the folder tree until you find the folder containing
 the template(s) you would like to delete.
+. Select the folder name to display the contents.
 +
 image::images/report/reports-run-1.png[]
 +
-. Click on the folder name to display the contents.
-+
-image::images/report/reports-run-2.png[]
-+
-. Check the box beside the template(s) you wish to delete.
-. From the drop down menu select *Delete selected templates(s)*.  Click *Submit*. 
+. Select the box beside the template(s) you wish to delete.
+. Right click on the selected line or use the Actions menu and select *Delete Selected*. 
 +
 image::images/report/reports-delete-template-1.png[]
 +
-. A pop up will appear warning you that deleting the template will delete your attached reports and
-output. Click *OK*.
-. A pop up appears to confirm the deletion. Click *OK*.
+. A pop-up will appear warning you that deleting the template will delete your attached reports and output. Select *Confirm*.
+. A confirmation will be displayed in the lower right corner of the screen.
 
 [NOTE]
 ======
@@ -560,29 +558,18 @@ You can view the report definitions for the reports you've run.  This can be hel
 what values you entered in for the filters.
 
 . Go to *Administration* -> *Reports*
-. In the _My Folders_ section click on the arrow beside the _Reports_ folder to see your 
-reports folders. Continue to use the arrows to expand the folder tree until you find the folder containing
+. In the _My Folders_ section select the caret beside the _Reports_ folder to see your 
+reports folders. Continue to use the carets to expand the folder tree until you find the folder containing
 the report you would like to view.
+. Select the folder name to display the contents.
+. Right click on the selected line or use the Actions menu and select *View Report*.
 +
 image::images/report/reports-view-report-def-1.png[]
-+
-. Click on the folder name to display the contents.
-+
-image::images/report/reports-view-report-def-2.png[]
-+
-. Click the *View* link beside the report definition you would like to view.
-+
-image::images/report/reports-view-report-def-3.png[]
 +
 . The report definition will display and you can view the information that was entered.  The fields are
 grayed out as they cannot be edited from this screen.
 +
-image::images/report/reports-view-report-def-4.png[]
-+
-. Report definitions can also be viewed through the applicable output folder by clicking on the report
-output's name and then clicking *View*.
-+
-image::images/report/reports-view-report-def-5.png[]
+image::images/report/reports-view-report-def-2.png[]
 
 
 Editing a Report Definition
@@ -591,79 +578,46 @@ Editing a Report Definition
 (((Edit, Report Definition)))
 (((Reporter, Edit Report Definition)))
 
-You can edit the report definitions for reports you've run.  This can be helpful if you want to run a 
-new report with a slight change.
+You can edit the report definitions for reports you’ve run; this will change the report definition for any future scheduled runs. To make a new, additional, version of the report, you should run a new report. This functionality was previously done with a Save as New button in the old reporter.
 
 . Go to *Administration* -> *Reports*
-. In the _My Folders_ section click on the arrow beside the _Reports_ folder to see your 
-reports folders. Continue to use the arrows to expand the folder tree until you find the folder containing
+. In the _My Folders_ section select the caret beside the _Reports_ folder to see your 
+reports folders. Continue to use the carets to expand the folder tree until you find the folder containing
 the report you would like to view.
-+
-image::images/report/reports-view-report-def-1.png[]
-+
-. Click on the folder name to display the contents.
-+
-image::images/report/reports-view-report-def-2.png[]
-+
-. Click the *Edit* link beside the report definition you would like to edit.
+. Select the folder name to display the contents.
+. Select the line for the report you wish to modify. Right click or use the Actions menu to select *Edit Report*.
 +
 image::images/report/reports-edit-report-def-1.png[]
 +
-. The report definition will display and you can edit the values entered as desired. You must give
-the report a new unique name or it will not save.
-. Click *Save As New* to run a new report with the new values.
+. The report definition will display and you can edit the values entered as desired. 
+. Once edits are complete, select *Save* or *Save and Schedule Report*.
 +
-image::images/report/reports-edit-report-def-2.png[]
+[NOTE]
+======
+The button options, Save and Save and Schedule Report, have slightly different functions. Save just saves the edited/updated report definition but Save and Schedule creates a new run of the report as well. With Save and Schedule, the existing future run will be removed and a new one will be created in its place, with the new scheduling and output options that are selected.
+======
 +
-. A pop-up appears confirming the report has been saved. Click *OK*.
+[TIP]
+=====
+You may view or edit an existing report to change the values for filters, run-time, report completion email notification recipient, 
+recurring interval, etc. For example, you may reschedule a recurring report to run on Mondays, 
+instead of Thursdays. 
+=====
 
-[CAUTION]
-=========
-Due to existing bugs Co-op Support recommends against editing existing recurring reports.  Instead library
-staff should set up a new recurring report with the new parameters and deleted the old recurring report.
-=========
+Moving Report Definitions and Output
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-////
-You can edit a recurring report to change the values saved in the report definition.  This will change
-the output for the next occurance of the report.
+Templates, report definitions, and report outputs can all be moved between the folders you have created under My Folders.
 
 . Go to *Administration* -> *Reports*
-. In the _My Folders_ section click on the arrow beside the _Reports_ folder to see your 
-reports folders. Continue to use the arrows to expand the folder tree until you find the folder containing
-the report you would like to view.
+. In the _My Folders_ section use the carets to expand the folder tree until you find the folder containing the _Template_, _Report_ or _Output_ you would like to move.
+. Select the folder name to display the contents.
+. Select the line you wish to move. Right click or use the *Actions* menu to select *Move Selected*.
+. A popup will open and show the current folder as well as the folder tree so that you can select the destination folder.
 +
-image::images/report/reports-view-report-def-1.png[]
+image::images/report/reports-move-report-output-1.png[]
 +
-. Click on the folder name to display the contents.
-. Recurring reports can be identified by the values in the _recur_ and _recurrence_ columns.
-+
-A _t_ in the _recur_ field indicates that a report is recurring.  The value in the _recurrence_ field shows
-the interval the report runs on.
-+
-image::images/report/reports-edit-report-def-3.png[]
-+
-. Click the *Edit* link beside the report definition you would like to edit.
-+
-image::images/report/reports-edit-report-def-4.png[]
-+
-. The report definition will display and you can edit the values entered as desired.
-. Click *Save Report* to update the recurring report. 
-+
-image::images/report/reports-edit-report-def-5.png[]
-+
-. A pop-up appears confirming the report has been saved. Click *OK*.
-
-[CAUTION]
-=========
-There is a bug where relative dates don't display properly when editing a report definition. The drop down
-switches to _Real Date_ and the value is [object Object].
-
-image::images/report/reports-edit-report-def-6.png[]
-=========
-
-TIP: We suggest you edit recurring reports in the Pending Items in Output folder, as only the pending items are to be updated. 
-
-////
+. Select *Save*. A confirmation of the move will be displayed in the lower right corner of the screen.
 
 Deleting Report Definitions and Output
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

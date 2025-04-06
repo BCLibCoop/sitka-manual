@@ -30,7 +30,7 @@ non-lead card are transferred to the lead account and the non-lead card is marke
 =====
 If you scan an inactive card on the Check Out screen, Evergreen will retrieve the account 
 and show the message _Patron
-account retrieved with an INACTIVE card._,
+account retrieved with an INACTIVE card._
 
 Co-op Support recommends manually deleting inactive cards using the 
 xref:_deleting_inactive_cards[Patron Deletion Tool] or automatically deleting inactive cards by setting 

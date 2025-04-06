@@ -189,7 +189,7 @@ to generate a list of all patrons with overdue items in the timeframe you specif
 
 Both of these report template can be found under *Shared Folders -> Sitka_templates -> Circulation -> 
 Overdue and others*.  These reports can be run as a one off or set up as a 
-xref:_running_recurring_reports[recurring report] which emails
+xref:_recurring_reports[recurring report] which emails
 the report to the specified staff email.
 
 Overdue Mark Lost Notification
@@ -230,8 +230,10 @@ and cannot be customized.
 Autorenew Notification
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Libraries that allow Evergreen to xref:_autorenewals[autorenew their items] can also have Evergreen 
-send an email notification to inform patrons whether or not their item(s) were successfully auto renewed.
+Libraries that allow Evergreen to auto renew their items through their 
+xref:_circulation_policies[circulation policies]
+can also have Evergreen send an email notification to inform patrons whether 
+or not their item(s) were successfully auto renewed.
 
 To customize the wording of the notification or set up the autorenew process please contact 
 https://bc.libraries.coop/support/[Co-op Support].
@@ -295,14 +297,14 @@ the notification.
 Shelf Expired Holds Cancellation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-An email notification can be sent to patrons when holds are xref:_clearable_holds[cleared from the hold shelf]
+An email notification can be sent to patrons when holds are xref:_clearing_holds[cleared from the hold shelf]
  because they were not picked up and have now expired.  
 
 
 Hold Group Hold Placed for Patron
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Libraries using xref:_place_holds_for_a_hold_group[Hold Groups] can enable this email notification so that 
+Libraries using xref:_managing_hold_groups[Hold Groups] can enable this email notification so that 
 their patrons receive an email when a new hold is placed for them through a hold group.
 
 

@@ -18,7 +18,7 @@ Searching via Z39.50
 +
 . Select the Z39.50 services that you would like to search from the list.
 +
-image::images/cat/z3950-search-1.png[]
+image::images/cat/z3950/z3950-search-1.png[]
 +
 [TIP]
 =====
@@ -29,9 +29,9 @@ Co-op Support recommends setting 3 to 5 sources as your defaults and then adding
 your searching as needed.
 =====
 +
-. Fill in your search term(s) and click *Search*.
+. Fill in your search term(s). 
 +
-image::images/cat/z3950-search-2.png[]
+image::images/cat/z3950/z3950-search-2.png[]
 +
 [NOTE]
 ======
@@ -40,44 +40,46 @@ different search types. For instance, Keyword and Subject will only be active if
 selected. When you select multiple targets to search, an active box may apply to only one target.
 ======
 +
-. Search results are displayed in the lower pane. You can hide the top pane to bring up the result list
-or simply scroll down to it.
+. Hit *Enter* on your keyboard or click *Submit* (found on the left side of the screen).
+. Search results are displayed in the lower pane. You can use the *Hide form* to button hide the top pane 
+or simply scroll down to your results.
 +
-image::images/cat/z3950-search-3.png[]
+image::images/cat/z3950/z3950-search-3.png[]
 +
-. Information about each retrieved record appears on a separate summary line. The _Service_ column indicates
+. Information about each retrieved record appears on a separate summary line.
+ The _Source_ column indicates
 where the record was found.
 +
-image::images/cat/z3950-search-4.png[]
+image::images/cat/z3950/z3950-search-4.png[]
 +
-. If "native-evergreen-catalog" is listed in the _Service_ column, the record is already in Sitka's database.
-Select the record and click *Show in Catalogue*.
+. If "Local Catalog" is listed in the _Source_ column, the record is already in Sitka's database.
+Select the record and click *Show in Catalog*.
 +
-image::images/cat/z3950-search-5.png[]
+image::images/cat/z3950/z3950-search-5.png[]
 +
 . If the record in the catalogue matches your item xref:_adding_holdings[add your holding], otherwise
 xref:import_from_z3950[import a new record via Z39.50].
 
 
-[[import_from_z3950]]
+[[_import_from_z3950]]
 Importing Bibliographic Records via Z39.50
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 https://youtu.be/y4poV6GWlk8[*Sitka Snippet Video - Importing Bibliographic Records via Z39.50 (2:54)*]
 
 . Search for your record via Z39.50. See xref:_searching_via_z39_50[].
-. To import a record, view the MARC records for the retruned search results by selecting each record in turn
+. To import a record, view the MARC records for the returned search results by selecting each record in turn
 and clicking *View MARC*.
 +
-image::images/cat/z3950-import-1.png[]
+image::images/cat/z3950/z3950-import-1.png[]
 +
-. The MARC record is displayed in a pop-up window. Click *Cancel* to go back to the results list.
+. The MARC record is displayed in a pop-up window. Click *Close* to go back to the results list.
 +
-image::images/cat/z3950-import-2.png[]
+image::images/cat/z3950/z3950-import-2.png[]
 +
-. Select the record you have determined in the best match to your item and click *Edit then Import*.
+. Select the record you have determined is the best match to your item and click *Edit then Import*.
 +
-image::images/cat/z3950-import-3.png[]
+image::images/cat/z3950/z3950-import-3.png[]
 +
 . Make any needed edits to the record.
 +
@@ -91,17 +93,26 @@ fields and 9xx fields.
 The fields 906, 923, 925, 936, 948, 955, 959, and 963 are stripped from imported records by default.
 ======
 +
-. Click *Import*.
+. Click *Save Changes* and then click *Import Record*.
 +
-image::images/cat/z3950-import-4.png[]
+image::images/cat/z3950/z3950-import-4.png[]
 +
-. The record is imported. On the pop-up that appears click *Go to Record*.
+. The record is imported. On the pop-up that appears click *Go to record*.
 . The record will open in a new tab.  You can now add your holding to the record.
 See xref:_adding_holdings[],
 
 
 Overlaying Records via Z39.50 Interface
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Due to a bug, overlaying a record via Z39.50 is not currently available.  Instead the new record should be
+xref:_import_from_z3950[imported via Z39.50] and then merged with the existing record.  See 
+xref:_merging_bibliographic_records[] for instructions on merging records.
+
+
+////
+
+NOTE: THIS SECTION IS CURRENTLY COMMENTED OUT AS THE FUNCTION HAS BEEN BROKEN BY https://bugs.launchpad.net/evergreen/+bug/2085833
 
 https://youtu.be/eMfyQTkmx6g[*Sitka Snippet Video - Overlaying Bibliographic Records via Z39.50 (4:02)*]
 
@@ -124,30 +135,23 @@ following through the entire process to completion before moving on to another r
 
 .To mark a record for overlay via the catalogue:
 . Retrieve the record in the catalogue.
-. On record details screen, click *Mark for -> Overlay target*.
+. On record details screen, click *Mark for -> Overlay Target*.
 +
-image:images/cat/z3950-overlay-1.png[]
+image:images/cat/z3950/z3950-overlay-2.png[]
 +
 . Confirmation appears at the right bottom corner of the screen.
 +
-image:images/cat/z3950-overlay-2.png[]
+image:images/cat/z3950/z3950-overlay-1.png[]
 
 .To mark a record for overlay via the Z39.50 interface.
-. In the Z29.50 interface xref:_searching_via_z39_50[search for your title].
-. Select the result for _native-evergreen-catalog_ and click *Mark Local Results As Overlay Target*.
+. In the Z39.50 interface xref:_searching_via_z39_50[search for your title].
+. Select the result for _Local Catalog_ and click *Mark for Overlay*.
 +
-image:images/cat/z3950-overlay-3.png[]
+image:images/cat/z3950/z3950-overlay-3.png[]
 +
 . The record ID of the record to be overlaid will display on the right.
 +
-image:images/cat/z3950-overlay-4.png[]
-
-
-[CAUTION]
-=========
-The overlay target will remain even after you log out of Evergreen. After you re-log in, the target is
-still in effect.
-=========
+image:images/cat/z3950/z3950-overlay-4.png[]
 
 
 Overlaying Using Z39.50
@@ -156,6 +160,8 @@ Overlaying Using Z39.50
 . Search for your record via Z39.50. See xref:_searching_via_z39_50[].
 . Select the record you would like to overlay over the existing record and click *Overlay*.
 +
+image:images/cat/z3950/z3950-overlay-5.png[]
++
 [CAUTION]
 =========
 The record you overlay over the existing record should be a fuller and better record than the one it's
@@ -163,39 +169,42 @@ replacing, but still describe the same title. Any changes you make when overlayi
 Sitka libraries with holdings attached to the record.
 =========
 +
-image:images/cat/z3950-overlay-5.png[]
-+
-. The overlay interface opens in a pop up. The default merge profile is _Keep Local Fields_; this will
+. The overlay interface opens in a pop up. Choose _Keep Local Fields_ as your merge profile. This will
  copy any 050, 055, 092, 590, 595, 690, 852, and 856 fields from the existing record into the new one you
 are bringing in.
++
+image:images/cat/z3950/z3950-overlay-6.png[]
++
+[CAUTION]
+=========
+You must choose *Keep Local Fields* as the merge profile. You may encounter an error if you choose 
+another.
+=========
++
 . Click *Edit Z39.50 Record*.
 +
-image:images/cat/z3950-overlay-6.png[]
+image:images/cat/z3950/z3950-overlay-7.png[]
 +
-Make any needed edits to the record following
+. Make any needed edits to the record following
 http://docs.libraries.coop/policy/_editing_bibliographic_records.html[Sitka's cataloguing policy]
-and click *Save*.
+and click *Save Changes*.
 +
-image:images/cat/z3950-overlay-7.png[]
+image:images/cat/z3950/z3950-overlay-8.png[]
 +
 [NOTE]
 ======
 As the record already exists in the Sitka database and has holdings for other libraries only make edits
-that conform with Sitka's cataloguing policy. Co-op Support does recommend removing any fields that contain
+that conform with Sitka's cataloguing policy. Co-op Support recommends removing any fields that contain
 local data related to items held by the service the record comes from.  In general this information will
 be found in the 852 fields and 9xx fields.
 
 The fields 906, 923, 925, 936, 948, 955, 959, and 963 are stripped from imported records by default.
 ======
 +
-. Click *Overlay*.
+. Click *Merge and Overlay*.
 +
-image:images/cat/z3950-overlay-8.png[]
+image:images/cat/z3950/z3950-overlay-9.png[]
 +
 . The record is imported and overlaid over the existing record which opens in a new tab.
 
-
-[CAUTION]
-=========
-You must select *Keep Local Fields* as the merge profile. You may encounter an error if you choose another.
-=========
+////

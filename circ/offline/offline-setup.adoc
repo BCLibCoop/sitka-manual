@@ -55,7 +55,7 @@ Browser print options - no additional setup required.
 Print using Hatch
 +++++++++++++++++
 
-xref:download-hatch-ref[] must be installed and enabled on your workstation
+xref:download-hatch-ref[] must be installed and enabled on your workstation.
 
 . Click *Administration* -> *Workstation* -> *Printer Settings*.
 . Click *Offline* -> Select Printer -> Click *Apply Changes*

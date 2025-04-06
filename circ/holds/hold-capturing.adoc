@@ -64,8 +64,8 @@ the item is to be sent to.
 +
 image:images/circ/holds/holds-capture-3.png[]
 +
-. The item is shipped it to the destination library.
-. When the destination library checks the item they will capture the hold.
+. The item is shipped to the destination library.
+. When the destination library checks in the item, they will capture the hold.
 
 
 

@@ -1,97 +1,98 @@
-New Features in Evergreen Version 3.11
+New Features in Evergreen Version 3.14
 --------------------------------------
 (((New Features)))
 
 
-https://www.youtube.com/playlist?list=PLdwlgwBNnH4oSaT0d1i-1OiDWqS_HYT0u[*New Features in Sitka's Evergreen 3.11 Playlist*] 
+https://www.youtube.com/playlist?list=PLdwlgwBNnH4rFfk9EDGlinMWtpn0gpGPy[*New Features in Sitka's Evergreen 3.14 Playlist*] 
 
-[[new-features-staff-client]]
+[[_new_features_staff_client]]
 Staff Client
 ~~~~~~~~~~~~
 
-* New visible password option on staff login screen.
-
-* xref:_library_settings_editor[Library Settings Editor] now in new Angular interface.
-
-* New Statistical Category Editor has separate interfaces for xref:_statistical_categories_item_editor[item statistical categories] and xref:_statistical_categories_patron_editor[patron statistical categories].
-
-
+* xref:_colour_mode_setting[New Colour Mode Setting] that enables users to use light or dark mode.
+* xref:_keyboard_navigation[Keyboard shortcuts] now display in the main menus.
+* Changes to xref:_grid_options[grid display and functionality] in multiple interfaces.
+* Option to xref:_print_selected_rows[*Print Selected Rows*] available in interfaces with 
+the newer xref:_function_bar[function bar].
 
 
-[[new-features-circulation]]
+[[_new_features_circulation]]
 Circulation
 ~~~~~~~~~~~
 
-* xref:_capturing_hold_transits[Transit Slip] now includes address without having to refresh screen.
-
-* The Item Status list view now includes an optional column for Total Circulations. The column must be xref:_column_configuration[enabled and saved.]
-
-* Libraries can allow patrons to renew their items after they've hit the
-maximum for fines by setting the xref:_library_settings_editor[library setting] _Permit renewals when patron exceeds max 
-fine threshold_ to TRUE. 
-
-* Renewal Due Date Extended to Cover Lost Time. When an item is renewed before it’s due date, libraries now have the option to extend the renewal’s due date to include any time lost from the early renewal. For example, a 14 day checkout renewed after 12 days will result in a due date of 16 days hence. xref:_changing_your_circulation_policies[Contact Co-op Support] if you are interested in this feature.
-
-* xref:_staff_generated_notes[Patron notes] can now be unarchived.
+* Updated xref:_pull_list_for_hold_requests[Pull List for Hold Requests] with new filters.
+* Improved functionality for circulating xref:_items_with_deposits[items with deposits].
 
 
-
-
-[[new-features-cataloguing]]
+[[_new_features_cataloguing]]
 Cataloguing
 ~~~~~~~~~~~
 
-* New Staff View in staff catalogue. Adds a Staff View tab to the record details page in the staff catalogue. In addition to showing various fields from the title record, it also shows a count of hold requests and a break-down of available items versus total items, and it shows a breakdown of similar records by format and language editions.
+* Redesigned and updated interface for the xref:_enhanced_marc_editor[Enhanced MARC Editor].
+* Redesigned and updated interface for 
+xref:_importing_bibliographic_records_via_z39_50_interface[Importing via Z39.50].
+* Redesigned and updated interface for xref:_record_buckets[Record Buckets].
+* The MARC Importer now include a xref:_marc_importer[background import option].
 
-* xref:_item_notes[Item Notes] can now be edited.
+////
+* Option to print from MARC View
 
-* xref:_sharing_holdings_template[Import and Export of templates] now works in Holdings Editor.
+////
 
-[[new-features-staff-catalogue]]
+[[_new_features_staff_catalogue]]
 Staff Catalogue
 ~~~~~~~~~~~~~~~
 
+* A new option to Hide/Show facets.
+* Facet once again have the option to show More.
+* New options for xref:_search_preferences[Search Preferences]
+* Record Buckets have been integrated further into the search results display.
+* Staff without permission to edit items will no longer see the Edit link in the Item Table.
+* The Quick Receive option for serials has been restored.
+* The Clear Added Content Cache option for records has been restored.
+* In the record details, the Patron View button will now open to your public catalogue. This can
+be customized for libraries using a discovery layer.
+
 ////
-* Email Title details from staff catalogue now works.
+* Library/Shelving Location Group search
 ////
 
-* Links in the staff catalogue Record Summary area now open in a new tab
 
-* Title records without holdings are now highlighted in search results.
-
-[[new-features-public-catalogue]]
+[[_new_features_public_catalogue]]
 Public Catalogue
 ~~~~~~~~~~~~~~~~
 
-* xref:_email_from_the_baskets[Email Title details] from the public catalogue now works.
+* The xref:_public_catalogue_library_info[Library Information] page now displays your upcoming
+closures entered in the xref:_closed_dates_editor[Closed Dates Editor].
+* The xref:_request_a_library_card[patron self registration form] now includes validation
+and has new library settings to control the display of two of the fields in the form.
+* Patrons are now able to update their xref:_personal_information[preferred name] through My Account. 
 
-* xref:_organizational_units[New Hours of Operation Note] field. When patrons click on your library's hours of operations on the OPAC, this new note field displays any split hours or service related notes.
 
-* xref:_view_a_title_record[OPAC-visible statisitical categories] are now visible in the public catalogue.
-
-* xref:_logging_into_my_account[Patron login on My Account] now includes a button to reveal the password input.
-
-[[new-features-course-reserves]]
+[[_new_features_course_reserves]]
 Course Reserves
 ~~~~~~~~~~~~~~~
 
-* xref:_course_reserves[Courses can be un-archived.] Course reserves staff can now un-archive a course that was previously archived, either from its course page, or from the course list.
+* A new course reserves specific filter available in both the staff catalogue and public 
+catalogue. This allows staff and patrons to search for items attached or not attached to a course 
+list. The appearance of this in the staff catalogue is controlled by a 
+xref:_course_reserves_preference[search preference].
 
-////
-[[new-features-patron-notifications]]
-Patron Notifications
-~~~~~~~~~~~~~~~~~~~~
-////
+[[_new_features_reporter]]
+Reporter
+~~~~~~~~
 
-[[new-features-administration]]
-Administration
-~~~~~~~~~~~~~~
+* All existing Reporter interfaces, except for the actual report output, have been reimplemented 
+using Angular to match the rest of the staff client.
+* To ensure templates work in the updated reporter we will be replacing the shared templates. 
+All templates in the Sitka templates folder will be new. Core templates will be available on 
+April 7th and additional templates will be added in the weeks following.
+* Field display order and output sort order are now separated, and can be controlled independently.
+* Nullability has been simplified, presenting the template creator with a choice between INNER 
+join (linked required on both tables) and LEFT join (only the “parent” table is required to 
+have a contributing row).
+* Can see the list of Reports that make use of a Template, and the list of Outputs that are 
+generated from a Report
 
-* xref:_organizational_units[New Hours of Operation Note] field. You can now add a note to display split hours or other service information to your open hours display on the OPAC.  
-
-* xref:_library_settings_editor[Library Settings Editor] now in new Angular interface.
-
-* New Statistical Category Editor has separate interfaces for xref:_statistical_categories_item_editor[item statistical categories] and xref:_statistical_categories_patron_editor[patron statistical categories].
 
 
-* Renewal Due Date Extended to Cover Lost Time. When an item is renewed before it’s due date, libraries now have the option to extend the renewal’s due date to include any time lost from the early renewal. For example, a 14 day checkout renewed after 12 days will result in a due date of 16 days hence. xref:_changing_your_circulation_policies[Contact Co-op Support] if you are interested in this feature.

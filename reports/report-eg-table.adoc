@@ -86,20 +86,6 @@ image::images/report/reports-evergreen-database-2.png[]
 Commonly Used Tables
 ~~~~~~~~~~~~~~~~~~~~
 
-[NOTE]
-======
-Some tables and fields in the database still use the term _copy_ while the preferred term _item_ is used
-throughout the staff client.
-======
-
-////
-A view is a virtual table which contains records meeting defined requirements. The fields in a view can 
-be from one or more tables. Before you use a view for your report, you need to make sure the view contains 
-the type of records that you want to report on. For example, Overdue Circulation is a view which contains 
-circulation records without checkin date and the due date past "today". It does not work for a report on 
-last month's circulation statistics, but it makes an overdue report easier.
-////
-
 ILS User Table
 ++++++++++++++
 
@@ -124,7 +110,7 @@ This table contains item records. Important fields in this table include:
 * Barcode (item)
 * Creation Date/Time
 * Active Date/Time 
-* Copy Status Changed Time
+* Item Status Changed Time
 * Last Edit Date/Time
 * Price
 
@@ -133,7 +119,7 @@ and Precat Dummy Author is also in this table. When a pre-catalogued item is che
 is created. If the barcode is already in the table and the item is not marked deleted, the item record 
 will be updated with the new title, author, etc.
 
-To find more information about items follow the links to the _Circulation Modifier_ table, the _Copy
+To find more information about items follow the links to the _Circulation Modifier_ table, the _Item
 Status_ table, and the _shelving location_ table.
 
 For circulation information follow the link to the _Circulations_ table.
@@ -219,7 +205,7 @@ For patron information follow the link to the _Hold User_ table.
 For information on who placed to hold follow the link to the _Requesting User_ table.  The requesting
 user will either be the patron or a staff member if they placed the hold for the patron.
 
-For information on the items that can be used to fill a hold follow the link to the _Hold Copy Map_.
+For information on the items that can be used to fill a hold follow the link to the _Hold Item Map_.
 Outside of the reporter this is refered to as the Eligible Copies table.
 
 [TIP]
@@ -253,20 +239,20 @@ For notification information follow the link to the _Notifications_ table.  This
 Date/Time which indicates when the automatic notification was sent.
 
  
-Copy Transit Table
+Item Transit Table
 ++++++++++++++++++
 
 This table contains records of item transits.  Records are created in this table both when an item
 is sent back to its circulating library as well as when it is sent to another library to fill a hold.
 
-For item information follow the link to the _Transited Copy_ table.
+For item information follow the link to the _Transited Item_ table.
  
 Hold Transit Table
 ++++++++++++++++++
 
 This table contains records of item transits specifically when the item is transitting to fill a hold. 
 
-For item information follow the link to the _Transited Copy_ table.
+For item information follow the link to the _Transited Item_ table.
 
 For hold information follow the link to the _Hold requiring transit_ table.
 
@@ -364,8 +350,8 @@ registration date can all be found in this table. Follow the links to the table 
 a patron's current barcode, Circulation to find the circulation history, Home Library, Mailing Address, 
 Physical Address, and Main Profile Group, etc. to find more information about the patron.
  
-*Item* (aka Circulating Item): contains copy records. Item's barcode, creation date, active date, last edited 
-date, last copy status change date and price are in this table. For related information like call number, 
+*Item* (aka Circulating Item): contains item records. Item's barcode, creation date, active date, last edited 
+date, last item status change date and price are in this table. For related information like call number, 
 circulating library, circ modifier, status, shelving location, etc., you need to follow the links to the 
 respective table to find them. For title information you need to follow the Call Number table to the 
 Bibliographic Record table to find it. Follow the link to the Circulation table to find an item's circulation 
@@ -409,23 +395,23 @@ Non-catalogued item category can be found in the linked Non-Cat Item Type table.
 *Non-catalogued In-house Use:*  Contains the non-catalogued item in-house use records. Follow the link to Item 
 Type to find the non-catalogued item category.
  
-*Copy Transit:*  When a copy is sent in transit, regardless of whether it is going back to its circulating 
-library or going to fill a hold, a copy transit record is created in this table. Follow the link to Transit 
-Copy to find the item information.
+*Item Transit:*  When an item is sent in transit, regardless of whether it is going back to its circulating 
+library or going to fill a hold, an item transit record is created in this table. Follow the link to Transit 
+Item to find the item information.
  
-*Hold Transit:* When a copy is sent in transit to fill a hold, a hold transit record is created in this table 
-and the Copy Transit table. So this table contains a subset of records of the Copy Transit table. You may find 
-hold information following the link to Hold Requiring Transit. Follow the link to Transit Copy to find the 
+*Hold Transit:* When an item is sent in transit to fill a hold, a hold transit record is created in this table 
+and the Item Transit table. So this table contains a subset of records of the Item Transit table. You may find 
+hold information following the link to Hold Requiring Transit. Follow the link to Transit Item to find the 
 item information.
  
 *Hold Request:* When a hold is placed, a hold record is created in this table. You may find the hold receiver's 
 information in Hold User. Requesting User is the person who takes the placing hold action. It can be the hold 
 receiver or a staff member. Generally if the Hold User is different from the Requesting User, this is a 
-staff-placed hold. Hold Copy Map equals Eligible Copies. Copies that can be used to fill the hold are in this 
+staff-placed hold. Hold Item Map equals Eligible Copies. Copies that can be used to fill the hold are in this 
 table.
  
 NOTE: Target Object ID is shown as a link. But there is no linked table in the Source pane. The value in this 
-field could be a bibliographic record id, a volume record id or a copy record id depending on the hold type.
+field could be a bibliographic record id, a volume record id or an item record id depending on the hold type.
  
 Timestamps in this table:
  
@@ -438,7 +424,7 @@ Hold Cancel Date/Time: the time when the hold is cancelled.
 Hold Expire Date/Time: This could be the date calculated based on your library's default Hold Expire Interval 
 or a selected date when placing the hold.
  
-Last Targeting Date/Time: The last time the hold targeting program checked for a target copy for the hold. 
+Last Targeting Date/Time: The last time the hold targeting program checked for a target item for the hold. 
 It usually has the same time as the Hold Request Time. It is usually not useful for reporting, But it may 
 serve as an indicator of whether the request time has been edited.
  
