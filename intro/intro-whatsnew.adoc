@@ -28,12 +28,13 @@ Circulation
 Cataloguing
 ~~~~~~~~~~~
 
-* Redesigned and updated interface for the xref:_enhanced_marc_editor[Enhanced MARC Editor]
-* Redesigned and updated interface for xref:_importing_bibliographic_records_via_z39_50_interface[Importing via Z39.50}
-* Redesigned and updated interface for xref:_record_buckets[Record Buckets]
+* Redesigned and updated interface for the xref:_enhanced_marc_editor[Enhanced MARC Editor].
+* Redesigned and updated interface for 
+xref:_importing_bibliographic_records_via_z39_50_interface[Importing via Z39.50].
+* Redesigned and updated interface for xref:_record_buckets[Record Buckets].
+* The MARC Importer now include a xref:_marc_importer[background import option].
 
 ////
-* Background Imports
 * Option to print from MARC View
 
 ////
@@ -42,13 +43,15 @@ Cataloguing
 Staff Catalogue
 ~~~~~~~~~~~~~~~
 
-* Ability to Hide/Show Facets
-* Facet fix to show More
+* A new option to Hide/Show facets.
+* Facet once again have the option to show More.
 * New options for xref:_search_preferences[Search Preferences]
-* Record Bucket integration - in facets and search results
-* Removal of Edit link for accounts without permissions to edit item
-* Return of Quick Receive 
-* Return of Clear Added Content Cache
+* Record Buckets have been integrated further into the search results display.
+* Staff without permission to edit items will no longer see the Edit link in the Item Table.
+* The Quick Receive option for serials has been restored.
+* The Clear Added Content Cache option for records has been restored.
+* In the record details, the Patron View button will now open to your public catalogue. This can
+be customized for libraries using a discovery layer.
 
 ////
 * Library/Shelving Location Group search
@@ -70,15 +73,26 @@ and has new library settings to control the display of two of the fields in the 
 Course Reserves
 ~~~~~~~~~~~~~~~
 
+* A new course reserves specific filter available in both the staff catalogue and public 
+catalogue. This allows staff and patrons to search for items attached or not attached to a course 
+list. The appearance of this in the staff catalogue is controlled by a 
+xref:_course_reserves_preference[search preference].
+
 [[_new_features_reporter]]
 Reporter
 ~~~~~~~~
 
-* All existing Reporter interfaces, except for the actual report output, have been reimplemented using Angular to match the rest of the staff client.
-* To ensure templates work in the updated reporter we will be replacing the shared templates. All templates in the Sitka templates folder will be new. Core templates will be available on April 7th and additional templates will be added in the weeks following.
+* All existing Reporter interfaces, except for the actual report output, have been reimplemented 
+using Angular to match the rest of the staff client.
+* To ensure templates work in the updated reporter we will be replacing the shared templates. 
+All templates in the Sitka templates folder will be new. Core templates will be available on 
+April 7th and additional templates will be added in the weeks following.
 * Field display order and output sort order are now separated, and can be controlled independently.
-* Nullability has been simplified, presenting the template creator with a choice between INNER join (linked required on both tables) and LEFT join (only the “parent” table is required to have a contributing row).
-* Can see the list of Reports that make use of a Template, and the list of Outputs that are generated from a Report
+* Nullability has been simplified, presenting the template creator with a choice between INNER 
+join (linked required on both tables) and LEFT join (only the “parent” table is required to 
+have a contributing row).
+* Can see the list of Reports that make use of a Template, and the list of Outputs that are 
+generated from a Report
 
 
 
