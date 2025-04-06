@@ -12,7 +12,69 @@ Accessing the Evergreen Staff Client for Sitka Libraries
 
 image::images/intro/accessing-evergreen-1.png[]
 
+Logging into Evergreen
+^^^^^^^^^^^^^^^^^^^^^^
 
+. The URL to log into the staff client is *https://catalogue.libraries.coop/eg/staff/*
+. Enter your username and password.
+. Verify that the correct workstation is selected and click *Sign In*. If there is no workstation 
+registered you will need to register a workstation.  See xref:_registering_a_staff_workstation[].
++
+image::images/intro/login-1.png[]
++
+. If your staff account lacks a working location, Evergreen blocks the login and prompts 
+for a working location.  See xref:_working_locations[] for information on how local system administrators
+can assign a working location.
++
+image::images/intro/login-2.png[]
+
+[TIP]
+=====
+
+If your account has a working location and you cannot login try the following:
+
+* Use the visibility toggle to see your password and confirm it is correct.
+* Double check that you are using your username and not your barcode.  Your barcode cannot be used to log into the staff client unless your username is your barcode.
+* Have your local system administrator check that your account has not expired.
+* Have your local system administrator check that your account has a working location.
+
+
+=====
+
+Logging Out of Evergreen
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Click the menu button in the upper right-hand corner.
+. Select *Log Out* from the drop down menu.
++
+image::images/intro/logout-1.png[]
++
+.  You will be prompted to confirm you wish to log out.  Click *Confirm* to complete your log out.
+
+[CAUTION]
+=========
+Closing all browser windows will automatically log you out of the web client. If you only close the
+tab where the web client is loaded, you will remain logged in.
+=========
+
+Change Operator
+^^^^^^^^^^^^^^^
+(((Change Operator)))
+
+. Click the menu button in the upper right-hand corner.
+. Select *Change Operator* from the drop down menu.
++
+image::images/intro/change-operator-1.png[]
++
+. Enter the username and password for the staff account you would like to switch to.
+. Choose a login type from the drop down menu.
+.. _Temporary_ - The new operator will be automatically logged out after a set period of time.
+.. _Staff_ - The new operator will remain until the user selects *Restore Operator* from the *Menu*.
+.. _Persistent_ - The new operator will replace the original operator.
++
+image::images/intro/change-operator-2.png[]
++
+. Click *OK/Continue*
 
 Registering a Staff Workstation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -81,70 +143,6 @@ for certain computers/browsers.  See xref:_registered_workstations[] for informa
 how this can be done.
 ======
 
-
-
-Logging into Evergreen
-^^^^^^^^^^^^^^^^^^^^^^
-
-. The URL to log into the staff client is *https://catalogue.libraries.coop/eg/staff/*
-. Enter your username and password.
-. Verify that the correct workstation is selected and click *Sign In*.
-+
-image::images/intro/login-1.png[]
-+
-. If your staff account lacks a working location, Evergreen blocks the login and prompts 
-for a working location.  See xref:_working_locations[] for information on how local system administrators
-can assign a working location.
-+
-image::images/intro/login-2.png[]
-
-[TIP]
-=====
-
-If your account has a working location and you cannot login try the following:
-
-* Use the visibility toggle to see your password and confirm it is correct.
-* Double check that you are using your username and not your barcode.  Your barcode cannot be used to log into the staff client unless your username is your barcode.
-* Have your local system administrator check that your account has not expired.
-* Have your local system administrator check that your account has a working location.
-
-
-=====
-
-Logging Out of Evergreen
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-. Click the menu button in the upper right-hand corner.
-. Select *Log Out* from the drop down menu.
-+
-image::images/intro/logout-1.png[]
-+
-.  You will be prompted to confirm you wish to log out.  Click *Confirm* to complete your log out.
-
-[CAUTION]
-=========
-Closing all browser windows will automatically log you out of the web client. If you only close the
-tab where the web client is loaded, you will remain logged in.
-=========
-
-Change Operator
-^^^^^^^^^^^^^^^
-(((Change Operator)))
-
-. Click the menu button in the upper right-hand corner.
-. Select *Change Operator* from the drop down menu.
-+
-image::images/intro/change-operator-1.png[]
-+
-. Enter the username and password for the staff account you would like to switch to.
-. Choose a login type from the drop down menu.
-.. _Temporary_ - The new operator will be automatically logged out after a set period of time.
-.. _Staff_ - The new operator will remain until the user selects *Restore Operator* from the *Menu*.
-.. _Persistent_ - The new operator will replace the original operator.
-+
-image::images/intro/change-operator-2.png[]
-+
-. Click *OK/Continue*
 
 Keyboard Navigation
 ~~~~~~~~~~~~~~~~~~~
