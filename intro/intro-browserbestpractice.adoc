@@ -117,14 +117,15 @@ image::images/intro/browser1.png[]
 +
 . Click *Settings*.
 . Select *Privacy and security* from the left hand side.
-. Click *Cookies and other site data*.
+. Click *Third-Party cookies*.
 . Under _General Settings_ make sure  _Block third-party cookies in Incognito_ is selected.
-. _Clear cookies and site data when you close all windows_ should be off.
-. Under _See all cookies and site data_ click *Add* beside _Sites that can always use cookies_.
-. Site: https://catalogue.libraries.coop
-. Click *Add*.
+. Click *Add* beside _Sites allowed to use third-party cookies_.
 +
-image:images/intro/cookies.png[scaledwidth="75%"]
+image:images/intro/cookies-1.png[scaledwidth="75%"]
++
+. Enter catalogue.libraries.coop and click *Add*.
++
+image:images/intro/cookies-2.png[scaledwidth="75%"]
 
 Security Software and Cookies
 +++++++++++++++++++++++++++++
@@ -142,7 +143,8 @@ Turn Off Autofill
 image::images/intro/browser1.png[]
 +
 . Click *Settings*.
-. Under Autofill click *Addresses and more*.
+. Select *Autofill and passwords* from the left hand side.
+. Click *Addresses and more*.
 . Turn off *Save and fill addresses*.
 +
 image::images/intro/autofill.png[]
@@ -167,11 +169,11 @@ Clear Cache
 image::images/intro/browser1.png[]
 +
 . Click *More tools*.
-. Click *Clear browsing data*.
-. Set Time Range
-.. *All time*
-. Check the box next to _Cached images and files_ (other boxes can be left unchecked).
-. Click *Clear Data*.
+. Click *History -> History*.
+. Select *Delete browsing data* from the left hand side.
+. Set Time Range to _All time_.
+. Check the box next to _Cached images and files_ .
+. Click *Delete data*.
 +
 image::images/intro/clearcache.png[]
 
@@ -183,9 +185,16 @@ Clear Cookies
 
 If you log in and see a blank page with the green bar across the top, but nothing else will load, you may need to clear your browser's cache and cookies.
 
-////
-CAUTION: Before you clear cookies, be aware that clearing cookies will cause you to lose your registered workstations and local settings if they are still stored on the browser. As of Evergreen 3.3 these settings are stored on the Sitka server, and they have to be moved from browser to server manually. Clearing cookies, and subsequently reconfiguring local settings in Evergreen, will manually save settings to the Sitka server by default, and then clearing browser cookies will no longer be a concern for local settings. It is important to remember your workstation name.  Your workstation settings and preferences are stored on Sitka's Evergreen server with your workstation name.  If you rename your workstation you will lose your stored settings and preferences.
-////
+[CAUTION]
+=========
+Clearing the cookies will clear all workstations registered to the browser; 
+this clears all workstation settings.
+
+Co-op Support recommends writing down your workstation name before clearing cookies
+so that you can register with the same workstation name which will preserve 
+your workstation settings.
+=========
+
 
 .Clear Cookies
 . Click *Menu*.
@@ -200,6 +209,8 @@ image::images/intro/browser1.png[]
 .. *All time* (recommended)
 . Click *Clear Data*.
 . Return to https://catalogue.libraries.coop/eg/staff
+. You will need to register a workstation.  See 
+xref: _registering_a_staff_workstation[].
 
 Reset Settings
 ^^^^^^^^^^^^^^
