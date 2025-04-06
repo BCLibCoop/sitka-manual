@@ -41,19 +41,19 @@ There are a number of actions that can be performed on buckets available from th
 
 image::images/cat/buckets/record-bucket-actions-1.png[]
 
-* xref:_bucket_action_favourite[Add to Favorites/Remove from Favorites]
-* xref:_bucket_action_edit[Edit Buckets]
-* xref:_bucket_action_delete[Delete Bucket(s)]
-* xref:_bucket_action_share[Share Buckets]
-* xref:_bucket_action_transfer_owner[Transfering Bucket Ownership]
-* xref:_bucket_action_export[Export Records]
-* xref:_bucket_action_upload[Upload Records]
-* xref:_bucket_action_carousel[Creating Carousels]
-* xref:_bucket_action_marc_batch[MARC Batch Edit]
+* xref:_record_bucket_action_favourite[Add to Favorites/Remove from Favorites]
+* xref:_record_bucket_action_edit[Edit Buckets]
+* xref:_record_bucket_action_delete[Delete Bucket(s)]
+* xref:_record_bucket_action_share[Share Buckets]
+* xref:_record_bucket_action_transfer_owner[Transfering Bucket Ownership]
+* xref:_record_bucket_action_export[Export Records]
+* xref:_record_bucket_action_upload[Upload Records]
+* xref:_record_bucket_action_carousel[Creating Carousels]
+* xref:_record_bucket_action_marc_batch[MARC Batch Edit]
 
 Add to Favorites/Remove from Favorites
 ++++++++++++++++++++++++++++++++++++++
-[[_bucket_action_favourite]]
+[[_record_bucket_action_favourite]]
 
 
 These actions allow to add and remove the selected bucket(s) to/from your Favorites list. 
@@ -63,25 +63,31 @@ your Favorites view in the buckets interface, as well as in the staff catalogue 
 
 Edit Buckets
 ++++++++++++
-[[_bucket_action_edit]]
+[[_record_bucket_action_edit]]
 
 This actions allows you to edit the bucket details, including name, description, and whether or not 
 the bucket is public.
 
+This action can also be accessed by clicking on the pencil icon in the record bucket grid.
+
 Delete Bucket(s)
 ++++++++++++++++
-[[_bucket_action_delete]]
+[[_record_bucket_action_delete]]
 
 This action allows you to delete the selected bucket(s).  A pop-up will ask you to confirm 
 the deletion. You can only delete buckets that you own or for which you have editing permissions.
 
+This action can also be accessed by clicking on the X icon in the record bucket grid.
+
 Share Buckets
 +++++++++++++
-[[_bucket_action_share]]
+[[_record_bucket_action_share]]
 
 This action allows you to share the bucket with specific library staff account, allowing them to view-only
 or edit the bucket and its contents.  You can also share the bucket with all library staff at a 
 particular library which allows them to view and edit the bucket and its contents. 
+
+This action can also be accessed by clicking on the person icon in the record bucket grid.
 
 When the action is selected the pop-up that appears has three tabs: _Users with View Permissions_, Users with
 Edit Permissions_, and _Libraries_. 
@@ -120,7 +126,7 @@ image::images/cat/buckets/record-bucket-share-4.png[]
 
 Transfering Bucket Ownership
 ++++++++++++++++++++++++++++
-[[_bucket_action_transfer_owner]]
+[[_record_bucket_action_transfer_owner]]
 
 This action allows you to transfer a bucket to another user.
 
@@ -147,21 +153,21 @@ doesn’t directly own the bucket.
 
 Export Records
 ++++++++++++++
-[[_bucket_action_export]]
+[[_record_bucket_action_export]]
 
 This action allows staff to export all of the records in the selected buckets. See 
 xref:_exporting_marc_records_via_a_record_bucket[].
 
 Upload Records
 ++++++++++++++
-[[_bucket_action_upload]]
+[[_record_bucket_action_upload]]
 
 This action allows staff to upload or copy/paste 
 bibliographic IDs to the selected bucket. See LINK TO GO HERE
 
 Creating Carousels
 ++++++++++++++++++
-[[_bucket_action_carousel]]
+[[_record_bucket_action_carousel]]
 
 Sitka does not currently use the Carousels feature in the Evergreen public catalogue.
 
@@ -173,7 +179,7 @@ of the https://help.libraries.coop/libpress/[LibPress manual].
 
 MARC Batch Edit
 +++++++++++++++
-[[_bucket_action_marc_batch]]
+[[_record_bucket_action_marc_batch]]
 
 The MARC Batch Edit function is not used by Sitka and library staff cannot use it to batch edit 
 MARC records. The MARC Batch Edit action will take staff to the MARC Batch Edit interface but 
