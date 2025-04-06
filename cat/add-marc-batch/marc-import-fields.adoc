@@ -2,10 +2,13 @@ MARC Importer
 ~~~~~~~~~~~~~
 
 . Go to *Cataloguing-> MARC Batch Import/Export*.
-. The _MARC Batch Import/Export_ interface will open with the _Import_ tab selected.
+. The _MARC Batch Import/Export_ interface will open with the _Import for Cataloging_ tab selected.
 +
 image:images/cat/marc/marc-importer-1.png[]
 +
+
+MARC File Upload
+^^^^^^^^^^^^^^^^
 
 [options="header"]
 |===
@@ -14,10 +17,6 @@ image:images/cat/marc/marc-importer-1.png[]
 records. | No | See xref:_import_templates[] for instruction on setting up templates.
 | Record Type | Indicates the type of records being imported. | Yes | Defaults to 
 _Bibliographic Records_ which are the only type of records currently imported here.
-| Select or Create Queue |This groups your record into a queue so you can work with them. 
-| Yes | Queues are linked to the match sets and holdings import profile. You cannot change 
-a record match set or holdings import profile once it has been set for a queue. Do not use 
- "/" or "\" (slash or backslash) in your queue name.
 | Record Match Set | This tells Evergreen what to look for to determine if an incoming 
 record matches an existing record. | Yes | Cataloguers should always use _SitkaMatch_ unless
 otherwise instructed by Co-op Support.  It matches on the 901c 
@@ -56,10 +55,20 @@ the holdings information of items with the status of on order that have not been
 created through the acquisitions module for matching records. | No |
 | Use Org Unit Matching in Copy to Determine Best Match | When checked, Evergreen
 will prefer records where the importing library already has holdings. | No |
+|===
+
+[options="header"]
+|===
+| Select or Create Queue |This groups your record into a queue so you can work with them. 
+| Yes | Queues are linked to the match sets and holdings import profile. You cannot change 
+a record match set or holdings import profile once it has been set for a queue. Do not use 
+ "/" or "\" (slash or backslash) in your queue name.
 | File to Upload | This is where you select your file of MARC records. | Yes | Co-op Support
 recommends loading no more than 500 MARC records in a single file as the importing process
 can time out. If you have a file with more than 500 records, please break it into multiple
 files.
+| Request background import |
+| Background Import Notification Email |
 |===
 
 
