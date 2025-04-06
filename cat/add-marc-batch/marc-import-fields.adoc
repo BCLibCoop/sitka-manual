@@ -72,7 +72,8 @@ recommends loading no more than 500 MARC records in a single file as the importi
 can time out. If you have a file with more than 500 records, please break it into multiple
 files.
 | Request background import | When checked Evergreen will process the import in the
-background and then notify you by email when it is complete. | No 
+background and then notify you by email when it is complete. | No | The background import 
+process runs every 30 minutes. 
 | Background Import Notification Email | The email address entered here will be 
 sent an email when the background import is complete. | No
 |===
