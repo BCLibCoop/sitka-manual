@@ -152,7 +152,6 @@ Keyboard Navigation
 
 Staff can use the following navigation bar functions to navigate Evergreen. 
 
-
 . Use the *Tab* key to move between the top-level menu items.
 
 . Press *Enter*, *Space*, or the down arrow on a top-level item to open its submenu. Pressing *Esc* will close it.
@@ -182,8 +181,16 @@ Staff can also use the following keyboard shortcuts to navigate Evergreen.
 |*SHIFT+F3* | Retrieve Bib Record by TCN
 |*SHIFT+F8* | Retrieve Last Bib Record
 |*CTRL+F2* | Renew Items
+|*CTRL+F3* | Create New MARC Record
 |===
 
+The keyboard shortcut list can be access from the menu in the upper right-hand corner.
+
+image::images/intro/keyboard-navigation-1.png[]
+
+The shortcuts also display in the menus beside the associated options.
+
+image::images/intro/keyboard-navigation-2.png[]
 
 [[download-hatch]]
 Downloading and Installing Hatch
