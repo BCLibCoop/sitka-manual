@@ -157,6 +157,47 @@ Troubleshooting
 (((Internet Browser, Troubleshooting)))
 
 
+Retrieve Console Messages
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+(((Troubleshooting, Console Messages)))
+
+If you are having encountering issues in Evergreen please check the 
+browser console and send any error messages that appear to 
+xref:https://bc.libraries.coop/support/[Co-op Support].
+
+.Chrome Console Messages:
+. Click *Menu*.
++
+image::images/intro/browser1.png[]
++
+. Select *More Tools*.
+. Select *Developer Tools*. (This will open a pane on the right-side of your browser.)
+. Select the _Console_ tab if it is not opened by default.
+. Change the _Default levels_ dropdown to be sure that Verbose is checked.
+. Either take a screenshot or copy and paste the text that appears in the 
+console when you see the errors occurring. Be sure to include any 
+of the errors that display in red.
+
+.Hatch Extension Console Messages:
+. In Chrome, click *Menu*.
+. Select *More tools*.
+. Select *Extensions*.
+. Check the box at the top of the screen that says _Developer Mode_.
+. Scroll down to Hatch Native Messenger.
+. Click on the link that says *background* page. (This will open a new window.)
+. Select the _Console_ tab.
+. Change the _Default levels_ dropdown to be sure that Verbose is checked.
+. Either take a screenshot or copy and paste the text that appears in the console 
+when you see the errors occurring. Be sure to include any of the errors that 
+display in red.
+
+[NOTE]
+======
+Please read xref:support-guidelines[] before submitting your ticket.
+======
+
+
 Clear Cache
 ^^^^^^^^^^^
 
@@ -168,9 +209,8 @@ Clear Cache
 +
 image::images/intro/browser1.png[]
 +
-. Click *More tools*.
-. Click *History -> History*.
-. Select *Delete browsing data* from the left hand side.
+. Click *Settings*.
+. Select *Delete browsing data*.
 . Set Time Range to _All time_.
 . Check the box next to _Cached images and files_ .
 . Click *Delete data*.
@@ -201,13 +241,15 @@ your workstation settings.
 +
 image::images/intro/browser1.png[]
 +
-. Click *More tools*.
-. Click *Clear browsing data*.
-. Check the box next to _Cookies and other site data_.
-. Check the box next to _Cached images and files_.
-. Set Time Range
-.. *All time* (recommended)
-. Click *Clear Data*.
+. Click *Settings*.
+. Select *Delete browsing data*.
+. Set Time Range to _All time_.
+. Check the boxes next to _Cookies and other site data_ and 
+_Cached images and files_ .
+. Click *Delete data*.
++
+image::images/intro/clear-cookies-1.png[]
++
 . Return to https://catalogue.libraries.coop/eg/staff
 . You will need to register a workstation.  See 
 xref: _registering_a_staff_workstation[].
@@ -227,7 +269,7 @@ settings for Chrome.
 image::images/intro/browser1.png[]
 +
 . Click *Settings*.
-. Click *Reset and clean up*.
+. Click *Reset Settings* from the left hand side.
 . Click *Restore settings to their original defaults*.
 . Click *Reset settings*.
 . Return to https://catalogue.libraries.coop/eg/staff
@@ -274,33 +316,3 @@ or deleting the offline database.
 . You will be returned to the workstation registration screen again - click *Use Now* to log in again.
 . Your local settings should now be restored.
 
-Retrieve Console Messages
-^^^^^^^^^^^^^^^^^^^^^^^^^
-
-(((Troubleshooting, Console Messages)))
-
-If you are having problems, please include screenshots and error messages from the console(s).
-
-.Chrome Console Messages:
-. Click *Menu*.
-+
-image::images/intro/browser1.png[]
-+
-. Select More Tools.
-. Select Developer Tools. (This will open a pane on the right-side of your browser.)
-. Select the Console tab.
-. Change the "Default" dropdown to be sure that Verbose is checked.
-. Either take a screenshot or copy and paste the text that appears in the console when you see the errors occurring. Be sure to include any of the errors that display in red.
-
-.Hatch Extension Console Messages:
-. In Chrome, click *Menu*.
-. Select More tools.
-. Select Extensions.
-. Check the box at the top of the screen that says Developer Mode.
-. Scroll down to Hatch Native Messenger.
-. Click on the link that says "background" page. (This will open a new window.)
-. Select the Console tab.
-. Change the "Default" dropdown to be sure that Verbose is checked.
-. Either take a screenshot or copy and paste the text that appears in the console when you see the errors occurring. Be sure to include any of the errors that display in red.
-
-NOTE: Please read xref:support-guidelines[] before submitting your ticket.
