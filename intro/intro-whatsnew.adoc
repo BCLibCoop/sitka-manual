@@ -29,7 +29,7 @@ Cataloguing
 ~~~~~~~~~~~
 
 * Redesigned and updated interface for the xref:_enhanced_marc_editor[Enhanced MARC Editor]
-* Redesigned and updated interface forxref:_importing_bibliographic_records_via_z39_50_interface[Importing via Z39.50}
+* Redesigned and updated interface for xref:_importing_bibliographic_records_via_z39_50_interface[Importing via Z39.50}
 * Redesigned and updated interface for xref:_record_buckets[Record Buckets]
 
 ////
@@ -46,10 +46,13 @@ Staff Catalogue
 * Facet fix to show More
 * New options for xref:_search_preferences[Search Preferences]
 * Record Bucket integration - in facets and search results
-* Library/Shelving Location Group search
 * Removal of Edit link for accounts without permissions to edit item
 * Return of Quick Receive 
 * Return of Clear Added Content Cache
+
+////
+* Library/Shelving Location Group search
+////
 
 
 [[_new_features_public_catalogue]]
