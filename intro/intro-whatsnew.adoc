@@ -10,6 +10,7 @@ Staff Client
 ~~~~~~~~~~~~
 
 * xref:_colour_mode_setting[New Colour Mode Setting] that enables users to use light or dark mode.
+* xref:_keyboard_navigation[Keyboard shortcuts] now display in the main menus.
 * Changes to xref:_grid_options[grid display and functionality] in multiple interfaces.
 * Option to xref:_print_selected_rows[*Print Selected Rows*] available in interfaces with 
 the newer xref:_function_bar[function bar].
@@ -20,14 +21,22 @@ Circulation
 ~~~~~~~~~~~
 
 * Updated xref:_pull_list_for_hold_requests[Pull List for Hold Requests] with new filters.
+* Improved functionality for circulating xref:_items_with_deposits[items with deposits].
 
 
 [[_new_features_cataloguing]]
 Cataloguing
 ~~~~~~~~~~~
 
-* New Enhanced MARC Editor
+* Redesigned and updated interface for the xref:_enhanced_marc_editor[Enhanced MARC Editor]
+* Redesigned and updated interface forxref:_importing_bibliographic_records_via_z39_50_interface[Importing via Z39.50}
+* Redesigned and updated interface for xref:_record_buckets[Record Buckets]
+
+////
+* Background Imports
 * Option to print from MARC View
+
+////
 
 [[_new_features_staff_catalogue]]
 Staff Catalogue
@@ -35,7 +44,7 @@ Staff Catalogue
 
 * Ability to Hide/Show Facets
 * Facet fix to show More
-* New Search Preferences
+* New options for xref:_search_preferences[Search Preferences]
 * Record Bucket integration - in facets and search results
 * Library/Shelving Location Group search
 * Removal of Edit link for accounts without permissions to edit item
@@ -49,7 +58,9 @@ Public Catalogue
 
 * The xref:_public_catalogue_library_info[Library Information] page now displays your upcoming
 closures entered in the xref:_closed_dates_editor[Closed Dates Editor].
-
+* The xref:_request_a_library_card[patron self registration form] now includes validation
+and has new library settings to control the display of two of the fields in the form.
+* Patrons are now able to update their xref:_personal_information[preferred name] through My Account. 
 
 
 [[_new_features_course_reserves]]
