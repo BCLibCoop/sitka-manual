@@ -119,8 +119,36 @@ image::images/cat/buckets/record-bucket-add-summary-4.png[]
 Adding Records to a Record Bucket via Item Status
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+. Scan the items whose records you wish to add to a bucket into the _Item Status_ interface.
+. Select the items and from the *Actions* menu choose *Add to Record Bucket*.
++
+image::images/cat/buckets/record-bucket-add-item-status-1.png[]
++
+. On the pop-up that appears the records can be added to an existing bucket or new bucket. Make
+your choice and select the appropriate button.
++
+image::images/cat/buckets/record-bucket-add-item-status-2.png[]
++
+. The records are added to the record bucket. 
+
 Adding Records to a Record Bucket via Upload Records
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Create your bucket. See xref: _creating_record_buckets[].
+. Select your bucket and choose *Upload Records* from the *Actions* menu or from within the record
+bucket click on the *Upload* button.
+. On the pop-up that appears choose your file and indicate which column includes the bibliographic/record
+IDs.  Alernatively you can paste bibliographic/record IDs into the text box.
+. Click *Import Bib IDs*.
++
+image::images/cat/buckets/record-bucket-add-upload-records-1.png[]
++
+. The records are uploaded into the bucket and a confirmation appears.  Click *OK*.
+
+////
+Adding Records to a Record Bucket via Running a Report
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+////
 
 Adding Records to a Record Bucket via MARC Batch Import
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
