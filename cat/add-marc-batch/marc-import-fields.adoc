@@ -5,7 +5,7 @@ MARC Importer
 . The _MARC Batch Import/Export_ interface will open with the _Import for Cataloging_ tab selected.
 +
 image:images/cat/marc/marc-importer-1.png[]
-+
+
 
 MARC File Upload
 ^^^^^^^^^^^^^^^^
@@ -56,6 +56,9 @@ created through the acquisitions module for matching records. | No |
 | Use Org Unit Matching in Copy to Determine Best Match | When checked, Evergreen
 will prefer records where the importing library already has holdings. | No |
 |===
+
+This Upload
+^^^^^^^^^^^
 
 [options="header"]
 |===
