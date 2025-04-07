@@ -89,7 +89,7 @@ particular library which allows them to view and edit the bucket and its content
 
 This action can also be accessed by clicking on the person icon in the record bucket grid.
 
-When the action is selected the pop-up that appears has three tabs: _Users with View Permissions_, Users with
+When the action is selected the pop-up that appears has three tabs: _Users with View Permissions_, _Users with
 Edit Permissions_, and _Libraries_. 
 +
 image::images/cat/buckets/record-bucket-share-1.png[]
