@@ -108,6 +108,8 @@ lending zone who have reporter permissions.
 A folder must be shared with at least your library in order for Co-op Support to be able to view it
 to assist with troubleshooting.
 
+Shared output must be stored in a shared folder. Multibranches should share folders at the system level.
+
 Folders can be shared at any time after they are created.
 
 . Go to *Administration -> Reports*.
@@ -179,9 +181,6 @@ section.
 image::images/report/report-view-shared-folders-1.png[]
 
 The top level of shared folders displays the username of the account that has shared the folder.
-
-While it is most common for users to share template folders, reports and output folders can be shared
-as well.
 
 You can only view the contents of the shared folders or clone the templates into your own folders. 
 

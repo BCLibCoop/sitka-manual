@@ -441,6 +441,8 @@ image::images/report/report-output-email-2.png[]
 +
 [NOTE]
 ======
+Shared output must be stored in a shared output folder.
+
 Opening subsequent report URLs will not prompt for an additional sign in until the browser is closed.
 
 Staff accounts without permissions to use the reporter or view report output will not be able to sign in.
