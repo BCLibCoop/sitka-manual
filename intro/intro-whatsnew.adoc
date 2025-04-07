@@ -93,6 +93,7 @@ join (linked required on both tables) and LEFT join (only the “parent” table
 have a contributing row).
 * Can see the list of Reports that make use of a Template, and the list of Outputs that are 
 generated from a Report
+* Security improvement - restricted access to report output.  Staff with reporter permissions are only able to view reports they have run, folders they own & folders that are shared with them.  This means that any reporter output you wish to share with other staff must be stored in shared output folders.  This is the case even if staff have the “View Output” permission and get the email link sent to them.  
 
 
 

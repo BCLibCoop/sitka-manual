@@ -1,7 +1,7 @@
 Working with Records in a Record Bucket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Once records have been xref:_adding_records_to_a_record_bucket[added to a record bucket] there are 
+Once records have been xref:_adding_records_to_a_record_bucket[added to a record bucket], there are 
 several functions that can be performed.
 
 Viewing Record Bucket Contents
@@ -27,7 +27,7 @@ image::images/cat/buckets/record-bucket-manage-1.png[]
 * Move Selected Records to a Different Bucket
 ** This action will move the selected records to the *Pending Records* tab so they can be added to a different 
 record bucket.
-* Remove Selected Recoords from Bucket
+* Remove Selected Records from Bucket
 ** This action will remove the records from the bucket; this does not delete the records from the catalogue.
 
 Managing Records in a Record Bucket

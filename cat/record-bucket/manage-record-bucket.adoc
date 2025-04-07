@@ -89,9 +89,9 @@ particular library which allows them to view and edit the bucket and its content
 
 This action can also be accessed by clicking on the person icon in the record bucket grid.
 
-When the action is selected the pop-up that appears has three tabs: _Users with View Permissions_, Users with
+When the action is selected the pop-up that appears has three tabs: _Users with View Permissions_, _Users with
 Edit Permissions_, and _Libraries_. 
-+
+
 image::images/cat/buckets/record-bucket-share-1.png[]
 
 . To grant view or edit permissions to a specific library staff account select the appropriate tab and 
@@ -124,7 +124,7 @@ image::images/cat/buckets/record-bucket-share-5.png[]
 image::images/cat/buckets/record-bucket-share-4.png[]
 
 
-Transfering Bucket Ownership
+Transferring Bucket Ownership
 ++++++++++++++++++++++++++++
 [[_record_bucket_action_transfer_owner]]
 
@@ -139,7 +139,7 @@ image::images/cat/buckets/record-bucket-actions-2.png[]
 +
 image::images/cat/buckets/record-bucket-actions-3.png[]
 +
-. The pop-up will now indicate who the buckets are to be transferred to.  Click *COnfirm transfer*.
+. The pop-up will now indicate who the buckets are to be transferred to.  Click *Confirm transfer*.
 +
 image::images/cat/buckets/record-bucket-actions-4.png[]
 +

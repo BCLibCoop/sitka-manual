@@ -134,11 +134,11 @@ image::images/cat/buckets/record-bucket-add-item-status-2.png[]
 Adding Records to a Record Bucket via Upload Records
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Create your bucket. See xref: _creating_record_buckets[].
+. Create your bucket. See xref:_creating_record_buckets[].
 . Select your bucket and choose *Upload Records* from the *Actions* menu or from within the record
 bucket click on the *Upload* button.
 . On the pop-up that appears choose your file and indicate which column includes the bibliographic/record
-IDs.  Alernatively you can paste bibliographic/record IDs into the text box.
+IDs.  Alternatively, you can paste bibliographic/record IDs into the text box.
 . Click *Import Bib IDs*.
 +
 image::images/cat/buckets/record-bucket-add-upload-records-1.png[]
