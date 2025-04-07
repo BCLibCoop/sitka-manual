@@ -163,9 +163,9 @@ separated by a comma.
 +
 [NOTE]
 ======
-The email will contain a link to the password-protected report output. 
+Any report output you wish to share with other staff must be stored in a shared output folder.  This is the case even if staff have the “View Output” permission and get the email link sent to them. The email will contain a link to the password-protected report output.  
 Only staff members with permissions to view reports or full access to the reporter will be able to 
-open the report output. Staff who only need to view report
+open the report output and only if the output folder is shared. Staff who only need to view report
 output must first to fill out the 
 https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/all-staff-reporter-privacy-waiver/[All
 Staff Reporter Privacy Waiver].
@@ -294,10 +294,10 @@ Save time by scheduling recurring reports to run your regular reports automatica
 and patron registration statistics are good candidates for recurring reports.
 
 Staff with access to the reporter can set up recurring reports to email a link to the password-protected 
-report output to another staff member. Staff who only need to view report
+report output to another staff member. If you have recurring reports set up to be sent to other staff at your library, please make sure the output folder is shared with your library. (Multibranch libraries should share at the System level.)Staff who only need to view report
 output must first to fill out the 
 https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/all-staff-reporter-privacy-waiver/[All
-Staff Reporter Privacy Waiver].
+Staff Reporter Privacy Waiver]. 
 
 
 To set up a recurring report, follow the procedure in xref:_running_a_report[] until you reach
@@ -365,7 +365,7 @@ email containing a link to the password-protected report output.
  
 Only staff members with permissions to view reports or full access to the reporter will be able to 
 open the report output in either the staff client or via the email link. Staff who only need to view report
-output must first to fill out the 
+output must first fill out the 
 https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/all-staff-reporter-privacy-waiver/[All
 Staff Reporter Privacy Waiver].
 
