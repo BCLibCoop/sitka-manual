@@ -210,7 +210,7 @@ Record Query Search Help
 |====
 
 
-////
+
 
 These query limiters don't currently work.
 
@@ -221,7 +221,7 @@ These query limiters don't currently work.
 | available	| if set to anything other than "false" or "0", limits to available items
 |====
 
-////
+
 
 Examples:
 
