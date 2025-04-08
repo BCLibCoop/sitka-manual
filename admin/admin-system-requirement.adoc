@@ -22,25 +22,36 @@ Most of the bandwidth usage in a library is not from Evergreen, but from other u
 
 *Staff Terminals*
 
-Staff terminals connect to the central database using the Evergreen web client, currently supported by BC Libraries Cooperative in Chrome only .
+Staff terminals connect to the central server using the Evergreen web client, currently supported 
+by BC Libraries Cooperative in the Chrome browser only .
 
-* Windows 10, 8, 7, or Vista operating system. Win 10 users may need to manage Win 10 privacy settings based on best practice in Windows community or on advice of your IT department or vendor.
-
-* Mac OS X operating system.
-* Linux operating system.
+* Operating System
+** Windows 10 or 11.  Users may need to manage privacy settings based on best practice in Windows community 
+or on advice of your IT department or vendor.
+** Mac OS X 13.7 or higher.
+** Linux
+* Chrome - updated to the newest available version.  Libraries should not run Chrome versions 122 or lower.
 * a reliable high speed internet connection
 * 512Mb of RAM
 
+[NOTE]
+======
+The Evergreen staff client will not display properly on computers running older unsupported operating systems 
+and using older unsupported versions of Chrome.
+
+We strongly recommend that libraries ensure their staff computers are always running a supported operating system.
+======
+
 *OPAC Terminals*
 
-There is no stand-alone OPAC client for Evergreen. Patrons search the catalogue using a web browser. Each OPAC terminal will require at minimum:
+There is no stand-alone public catalogue client for Evergreen. Patrons search the catalogue 
+using a web browser. Each public catalogue terminal will require at minimum:
 
 * a reliable high speed internet connection
-* a web browser, e.g. Firefox, Chrome or Internet Explorer
+* a web browser, e.g. Firefox, Chrome or Edge
 
-NOTE: The OPAC will not work in Internet Explorer on computers running Windows XP. Co-op Support recommends you update your operating system or use Firefox or Chrome.
 
-To limit your OPAC terminals to catalogue searches local configuration will be required. Please see Managing Internet OPAC Stations for more information.
+To limit your OPAC terminals to catalogue searches local configuration will be required. 
 
 *Barcode Scanners*
 
@@ -48,6 +59,5 @@ Evergreen will work with virtually any barcode scanner - if it worked with your 
 
 *Printers*
 
-Evergreen can use most desktop or roll printers configured for your terminal to print receipts, check-out slips, holds lists, spine labels, etc. 
-
-NOTE: Evergreen might not print correctly to receipt printers using the Windows XP Generic/Text Only printer driver. Please use a printer-specific driver instead.
+Evergreen can use most desktop or roll printers configured for your terminal to print receipts, 
+check-out slips, holds lists, spine labels, etc. 
