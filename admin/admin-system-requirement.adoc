@@ -20,9 +20,11 @@ Evergreen will work down to a 3Mbps connection, but the performance will get pro
 
 Most of the bandwidth usage in a library is not from Evergreen, but from other usage of the internet by both staff and patrons. When staff workstations share an ISP connection with public workstations libraries ideally should have at least 1.5-2x more down/upstream capacity than what is recommended in the table above.
 
-*Staff Terminals*
+*Evergreen Staff Client*
 
-Staff terminals connect to the central server using the Evergreen web client through the Chrome web browser.
+The Evergreen staff client is accessed using the Chrome web browser and connects to the central server.
+
+Computers used for accessing the Evergreen staff client require the following:
 
 * Operating System
 ** Windows 10 or 11.  Users may need to manage privacy settings based on best practice in Windows community 
@@ -35,7 +37,7 @@ Evergreen by Co-op Support.
 ** Firefox - updated to the newest available version. Firefox is not officially suppported by Co-op Support 
 but can be used temporarily if needed.
 * a reliable high speed internet connection
-* 512Mb of RAM
+* at least 512Mb of RAM
 
 [NOTE]
 ======
@@ -48,7 +50,9 @@ We strongly recommend that libraries ensure their staff computers are running a 
 *OPAC Terminals*
 
 There is no stand-alone public catalogue client for Evergreen. Patrons search the catalogue 
-using a web browser. Each public catalogue terminal will require at minimum:
+using a web browser. 
+
+Computers used for accessing the public catalogue at minimum require the following:
 
 * a reliable high speed internet connection
 * a web browser, e.g. Firefox, Chrome or Edge
