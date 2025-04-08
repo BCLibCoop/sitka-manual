@@ -22,15 +22,18 @@ Most of the bandwidth usage in a library is not from Evergreen, but from other u
 
 *Staff Terminals*
 
-Staff terminals connect to the central server using the Evergreen web client, currently supported 
-by BC Libraries Cooperative in the Chrome browser only .
+Staff terminals connect to the central server using the Evergreen web client through the Chrome web browser.
 
 * Operating System
 ** Windows 10 or 11.  Users may need to manage privacy settings based on best practice in Windows community 
 or on advice of your IT department or vendor.
 ** Mac OS X 13.7 or higher.
 ** Linux
-* Chrome - updated to the newest available version.  Libraries should not run Chrome versions 122 or lower.
+* Internet Browser
+** Chrome - updated to the newest available version.  Chrome is the web browser officially supported for 
+Evergreen by Co-op Support.
+** Firefox - updated to the newest available version. Firefox is not officially suppported by Co-op Support 
+but can be used temporarily if needed.
 * a reliable high speed internet connection
 * 512Mb of RAM
 
@@ -39,7 +42,7 @@ or on advice of your IT department or vendor.
 The Evergreen staff client will not display properly on computers running older unsupported operating systems 
 and using older unsupported versions of Chrome.
 
-We strongly recommend that libraries ensure their staff computers are always running a supported operating system.
+We strongly recommend that libraries ensure their staff computers are running a supported operating system.
 ======
 
 *OPAC Terminals*
