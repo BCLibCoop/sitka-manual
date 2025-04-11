@@ -441,7 +441,7 @@ image::images/report/report-output-email-2.png[]
 +
 [NOTE]
 ======
-Any report output you wish to access via the email link must be stored in a shared output folder. You will not be able to log in to the report link if the output is not shared.
+Any report output you wish to access via the email link must be stored in a shared output folder. Even if staff have reporter permissions, the output must be stored in a shared folder in order to be accessed via the email link.
 
 Opening subsequent report URLs will not prompt for an additional sign in until the browser is closed.
 
