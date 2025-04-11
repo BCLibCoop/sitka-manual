@@ -438,11 +438,10 @@ image::images/report/report-output-email-1.png[]
 and click *Sign In*.
 +
 image::images/report/report-output-email-2.png[]
-image::images/report/report-output-email-2.png[]
 +
 [NOTE]
 ======
-Any report output you wish to share with other staff must be stored in shared output folders.
+Any report output you wish to access via the email link must be stored in a shared output folder. Even if staff have reporter permissions, the output must be stored in a shared folder in order to be accessed via the email link.
 
 Opening subsequent report URLs will not prompt for an additional sign in until the browser is closed.
 
@@ -450,24 +449,15 @@ Staff accounts without permissions to use the reporter or view report output wil
 ======
 +
 . The report output will open in a new browser window.
-+
-The report name and description will display as well as links to the output options selected when running
-the report.  The URL can be shared with other library staff who have reporter permissions.
-+
-image::images/report/report-output-4.png[]
-+
-If _Bar Charts_ and/or _Line Charts_ were selected in the output options and the data can be shown in those
+. The report name and description will display as well as links to the output options selected when running
+the report.  
+. If _Bar Charts_ and/or _Line Charts_ were selected in the output options and the data can be shown in those
 forms the bar and/or line chart will display.
-+
-image::images/report/report-output-5.png[]
-+
 . Select *Excel Output* or *CSV Output* to download the output as a file that can be opened in a 
 spreadsheet progam.  You will be prompted to open or save the the output file.
 . Select *Tabular Output* to view the output in the browser.
-+
-The tabular output will display and can be sorted by clicking on a column heading.
-+
-image::images/report/report-output-6.png[]
+.The tabular output will display and can be sorted by clicking on a column heading.
+
 
 
 Maintaining Reporter Data
