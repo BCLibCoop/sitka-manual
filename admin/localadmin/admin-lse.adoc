@@ -312,28 +312,28 @@ set only holdable items will match.|True/False| | LSA |
 when patron A checks out item on hold for patron B | True/False | | LSA |
 
 |Custom PATRON_EXCEEDS_CHECKOUT_COUNT penalty | Specifies a non-default standing 
-penalty to apply to patrons that exceed the checkout count threshold for their group. | Selection list | LSA | |
+penalty to apply to patrons that exceed the checkout count threshold for their group. | Selection list | |LSA |
 
 |Custom PATRON_EXCEEDS_COLLECTIONS_WARNING penalty | Specifies a non-default standing 
-penalty to apply to patrons that exceed the collections fine warning threshold for their group. | Selection list | LSA | |
+penalty to apply to patrons that exceed the collections fine warning threshold for their group. | Selection list | |LSA |
 
 |Custom PATRON_EXCEEDS_FINES penalty | Specifies a non-default standing penalty 
-to apply to patrons that exceed the max-fine threshold for their group. | Selection list | LSA | |
+to apply to patrons that exceed the max-fine threshold for their group. | Selection list | |LSA  |
 
 |Custom PATRON_EXCEEDS_LONGOVERDUE_COUNT penalty | Specifies a non-default standing 
-penalty to apply to patrons that exceed the long-overdue item count threshold for their group. | Selection list | LSA | |
+penalty to apply to patrons that exceed the long-overdue item count threshold for their group. | Selection list | |LSA  |
 
 |Custom PATRON_EXCEEDS_LOST_COUNT penalty | Specifies a non-default standing penalty 
-to apply to patrons that exceed the lost item count threshold for their group. | Selection list | LSA | |
+to apply to patrons that exceed the lost item count threshold for their group. | Selection list |  |LSA |
 
 |Custom PATRON_EXCEEDS_OVERDUE_COUNT penalty | Specifies a non-default standing 
-penalty to apply to patrons that exceed the overdue count threshold for their group. | Selection list | LSA | |
+penalty to apply to patrons that exceed the overdue count threshold for their group. | Selection list | |LSA |
 
 |Custom PATRON_IN_COLLECTIONS penalty | Specifies a non-default standing penalty 
 that may have been applied to patrons that have been placed into collections and 
 that should be automatically removed if they have paid down their balance below 
 the threshold for their group. Use of this feature will likely require configuration 
-and coordination with an external collection agency. | Selection list | LSA | |
+and coordination with an external collection agency. | Selection list | |LSA |
 
 | Disable patron modification of curbside appointments in public catalog | When set to 
 TRUE, patrons cannot use the My Account interface to select curbside pickup times | True/False |
@@ -369,7 +369,7 @@ for pickup. | True/False | FALSE | Sitka |
 | Forgive fines when checking out a long-overdue item and copy alert is suppressed? |
 Controls whether fines are automatically forgiven when checking out an item that has 
 been marked as long-overdue, and the corresponding copy alert has been suppressed.
-| | | | NOT USED BY SITKA
+| | | | This feature is not used by Sitka.
 
 | Forgive fines when checking out a lost item and copy alert is suppressed? | Controls 
 whether fines are automatically forgiven when checking out an item that 
@@ -935,7 +935,7 @@ section of the Work Log interface.|Number| | LSA |
 |===
 |Setting|Description|Data type|Default | Edited by | Notes
 
-|Allow adjacent copies to capture when Soft Stalling |True/False | |Sitka |
+|Allow adjacent copies to capture when Soft Stalling| |True/False | |Sitka |
 
 |Behind desk pickup supported|If a branch supports both a public holds shelf and 
 behind-the-desk pickups, set this value to true. This gives the patron the option 
@@ -1345,13 +1345,13 @@ in place of %INCLUDE(notice_text)%|Text|| Sitka |Setting is obsolete
 
 |Maximum concurrently active self-serve password reset requests|Prevent the 
 creation of new self-serve password reset requests until the number of active 
-requests drops back below this number.|Number| | Sitka |NOT USED BY SITKA
+requests drops back below this number.|Number| | Sitka |This feature is not used by Sitka.
 
 |Maximum concurrently active self-serve password reset requests per user|When a 
 user has more than this number of concurrently active self-serve password reset 
 requests for their account, prevent the user from creating any new self-serve 
 password reset requests until the number of active requests for the user drops 
-back below this number.|Number| | Sitka |NOT USED BY SITKA
+back below this number.|Number| | Sitka |This feature is not used by Sitka.
 
 |Obscure the Date of Birth field|When true, the Date of Birth column in patron lists 
 will default to Not Visible, and in the Patron Summary sidebar the value will 
