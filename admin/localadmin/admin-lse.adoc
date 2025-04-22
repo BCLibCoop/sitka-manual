@@ -801,8 +801,8 @@ do not display. 6 = special list, do not display.|Number| 2 | LSA |
 |Items Out Long-Overdue display setting| |Number| | LSA | This feature is not used by Sitka.
 
 |Items Out Lost display setting|Value is a numeric code, describing which list the 
-circulation should appear while checked out and whether the circulation should c
-ontinue to appear in the special list, when checked in with outstanding fines. 
+circulation should appear while checked out and whether the circulation should 
+continue to appear in the special list, when checked in with outstanding fines. 
 1 = regular list, special list. 2 = special list, special list. 5 = regular list, 
 do not display. 6 = special list, do not display.|Number| 2 | LSA |
 
@@ -1059,7 +1059,7 @@ for items with "Reshelving" status for over 24 hours.
 claims-never-checked-out, mark the copy as missing|True/False| TRUE | LSA |
 
 |Claim return copy status|Claims returned copies are put into this status. 
-Default is to leave the copy in the Checked Out status|Selection list| Claimes Returned | Sitka |
+Default is to leave the copy in the Checked Out status|Selection list| Claims Returned | Sitka |
 
 |Courier code|Courier Code for the library. Available in transit slip 
 templates as the %courier_code% macro.|Text| | | This feature is not used by Sitka.
@@ -1132,7 +1132,7 @@ accounts|True/False| | Sitka |
 must be approved by staff|True/False| FALSE | LSA |
 
 |Allow record emailing without login|Instead of forcing a patron to log in in order to 
-email the details of a record, just challenge them with a simple catpcha.|True/False| | LSA |
+email the details of a record, just challenge them with a simple captcha.|True/False| | LSA |
 
 |Auto-Override Permitted Hold Blocks (Patrons)|This will allow patrons with the 
 permission "HOLD_ITEM_CHECKED_OUT.override" to automatically override permitted 
@@ -1247,7 +1247,7 @@ than one available to Shibboleth | Text | | Sitka |
 |Shibboleth SSO matchpoint | Shibboleth-side field to match a patron against for 
 Shibboleth SSO. Default is uid; use eppn for Active Directory | Text | | Sitka |
 
-|Show Geographic Proximity in Miles |When set to TRUE, will cause the record details page to show distances for geographic proximity in miles instead of kilometers. |True/False | | LSA| This feature is not used by Sitka.
+|Show Geographic Proximity in Miles |When set to TRUE, will cause the record details page to show distances for geographic proximity in miles instead of kilometres. |True/False | | LSA| This feature is not used by Sitka.
 
 |Show Owning Lib in Items Out |If enabled, the Owning Lib will be shown in the Items Out 
 display. This may assist in requesting additional renewals | True/False | | Sitka |
