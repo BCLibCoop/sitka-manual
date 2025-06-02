@@ -23,7 +23,7 @@ Cloning templates created in previous verions of Evergreen may not work perfectl
 may need to remove, then put back some fields during cloning.
 =========
 
-link:https://youtu.be/0F0dulXsUKw[*Cloning Reports and Sitka Templates (2:35)*]
+https://youtu.be/QThSGXcaZP8[*Sitka Training Video - Cloning Shared Templates and Sitka Templates (3:32)*]
 
 In Evergreen reports are run from templates that can be used multiple times.  Library staff can create their
 own templates or clone templates from other users.
@@ -99,7 +99,7 @@ Running a Report
 (((Run, Reports)))
 (((Reporter, Run Reports)))
 
-link:https://youtu.be/9N22UxqOQlY[*Running a Report (4:25)*]
+https://youtu.be/QUaSHyI2CWw[*Sitka Training Video - Running a Report (5:07)*]
 
 You can run one off reports on demand or schedule recurring reports to run automatically.  To run the 
 report you fill out the reports form which creates a report definition, which tells Evergreen how to run 
@@ -288,7 +288,7 @@ Recurring Reports
 (((Recurring Reports)))
 (((Reporter, Recurring Reports)))
 
-link:https://youtu.be/WS6vRrpqIZY[*Recurring Reports (3:02)*]
+https://youtu.be/9A_IUX6bg9o[*Sitka Training Video - Recurring Reports (3:47)*]
 
 Save time by scheduling recurring reports to run your regular reports automatically. Monthly circulation 
 and patron registration statistics are good candidates for recurring reports.
@@ -473,7 +473,7 @@ files are also deleted.
 Co-op Support recommends downloading output you need to keep as CSV or Excel output and saving it 
 locally on your computer harddrive or a shared drive.
 
-link:https://youtu.be/1CGqlSApwBs[*Managing Reports (3:02)*]
+https://www.youtube.com/playlist?list=PLdwlgwBNnH4qhcFztHmgdU4p9nBxCK0tL[*Playlist - Maintaining Reporter Data*]
 
 Maintaining Your Report Templates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -569,6 +569,11 @@ image::images/report/reports-view-report-def-2.png[]
 
 Editing a Report Definition
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+https://youtu.be/kJyS6VWs-sQ[*Sitka Snippet Video - Editing Report Definitions: One-off Reports (2:09)*]
++
+https://youtu.be/kEhsqoIQBd4[*Sitka Snippet Video - Editing Report Definitions: Recurring Reports (2:34)*]
+
 
 (((Edit, Report Definition)))
 (((Reporter, Edit Report Definition)))
