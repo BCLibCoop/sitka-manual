@@ -224,8 +224,7 @@ For example, "1in" or "2.5cm" | Text | | LSA |
 | Item Print Label Font Family |Set the preferred font family for item print labels. You can specify a list of CSS fonts, separated by commas, in order of preference; 
 the system will use the first font it finds with a matching name. For example, "Arial, Helvetica, serif"  | Text | | LSA |
 
-| Item Print Label Font Size | Set the default font size for item print labels. Please include a unit of measurement that is valid CSS. For example, "12pt" or "16px" or "1em" 
-| Text | | LSA |
+| Item Print Label Font Size | Set the default font size for item print labels. Please include a unit of measurement that is valid CSS. For example, "12pt" or "16px" or "1em" | Text | | LSA |
 
 | Item Print Label Font Weight | Set the default font weight for item print labels. Please use the CSS specification for values for font-weight. For example, "normal", "bold", 
 "bolder", or "lighter" | Text | | LSA |
@@ -233,6 +232,8 @@ the system will use the first font it finds with a matching name. For example, "
 |Maximum Parallel Z39.50 Batch Searches|The maximum number of Z39.50 searches that can be in-flight at any given time when performing batch Z39.50 searches|Number| | Sitka |
 
 |Maximum Z39.50 Batch Search Results|The maximum number of search results to retrieve and queue for each record + Z39 source during batch Z39.50 searches|Number| | Sitka |
+
+| Patron view discovery layer URL | URL for displaying an item in the "patron view" discovery layer with a placeholder for the bib record ID: {eg_record_id}. For example: https://example.com/Record/{eg_record_id} | Text | | Sitka | Set by Sitka. If you would like it changed, please submit a support ticket.
 
 |Require call number labels in Copy Editor | Define whether Copy Editor requires Call Number labels | True/False | TRUE | Sitka|
 
@@ -310,6 +311,30 @@ set only holdable items will match.|True/False| | LSA |
 | Clear hold when other patron checks out item | Default to cancel the hold 
 when patron A checks out item on hold for patron B | True/False | | LSA |
 
+|Custom PATRON_EXCEEDS_CHECKOUT_COUNT penalty | Specifies a non-default standing 
+penalty to apply to patrons that exceed the checkout count threshold for their group. | Selection list | |LSA |
+
+|Custom PATRON_EXCEEDS_COLLECTIONS_WARNING penalty | Specifies a non-default standing 
+penalty to apply to patrons that exceed the collections fine warning threshold for their group. | Selection list | |LSA |
+
+|Custom PATRON_EXCEEDS_FINES penalty | Specifies a non-default standing penalty 
+to apply to patrons that exceed the max-fine threshold for their group. | Selection list | |LSA  |
+
+|Custom PATRON_EXCEEDS_LONGOVERDUE_COUNT penalty | Specifies a non-default standing 
+penalty to apply to patrons that exceed the long-overdue item count threshold for their group. | Selection list | |LSA  |
+
+|Custom PATRON_EXCEEDS_LOST_COUNT penalty | Specifies a non-default standing penalty 
+to apply to patrons that exceed the lost item count threshold for their group. | Selection list |  |LSA |
+
+|Custom PATRON_EXCEEDS_OVERDUE_COUNT penalty | Specifies a non-default standing 
+penalty to apply to patrons that exceed the overdue count threshold for their group. | Selection list | |LSA |
+
+|Custom PATRON_IN_COLLECTIONS penalty | Specifies a non-default standing penalty 
+that may have been applied to patrons that have been placed into collections and 
+that should be automatically removed if they have paid down their balance below 
+the threshold for their group. Use of this feature will likely require configuration 
+and coordination with an external collection agency. | Selection list | |LSA |
+
 | Disable patron modification of curbside appointments in public catalog | When set to 
 TRUE, patrons cannot use the My Account interface to select curbside pickup times | True/False |
 | Sitka |
@@ -344,7 +369,7 @@ for pickup. | True/False | FALSE | Sitka |
 | Forgive fines when checking out a long-overdue item and copy alert is suppressed? |
 Controls whether fines are automatically forgiven when checking out an item that has 
 been marked as long-overdue, and the corresponding copy alert has been suppressed.
-| | | | NOT USED BY SITKA
+| | | | This feature is not used by Sitka.
 
 | Forgive fines when checking out a lost item and copy alert is suppressed? | Controls 
 whether fines are automatically forgiven when checking out an item that 
@@ -370,20 +395,20 @@ that have been marked or scanned as having Missing Pieces. In the absence
 of this setting, the Damaged status is used.|Selection list| Damaged | LSA |
 
 |Load patron from Checkout|When scanning barcodes into Checkout auto-detect if a new 
-patron barcode is scanned and auto-load the new patron.|True/False| | | NOT USED BY SITKA
+patron barcode is scanned and auto-load the new patron.|True/False| | | This feature is not used by Sitka.
 
 |Long-Overdue Check-In Interval Uses Last Activity Date|Use the long-overdue 
 last-activity date instead of the due_date to determine whether the item has been checked 
 out too long to perform long-overdue check-in processing. If set, the system
  will first check the last payment time, followed by the last billing time, followed 
- by the due date. See also "Long-Overdue Max Return Interval"|True/False| | | NOT USED BY SITKA
+ by the due date. See also "Long-Overdue Max Return Interval"|True/False| | | This feature is not used by Sitka.
 
 |Long-Overdue Items Usable on Checkin|Long-overdue items are usable on checkin 
-instead of going "home" first|True/False| | | NOT USED BY SITKA
+instead of going "home" first|True/False| | | This feature is not used by Sitka.
 
 |Long-Overdue Max Return Interval|Long-overdue check-in processing (voiding fees, 
 re-instating overdues, etc.) will not take place for items that have been overdue for 
-(or have last activity older than) this amount of time|Duration| | | NOT USED BY SITKA
+(or have last activity older than) this amount of time|Duration| | | This feature is not used by Sitka.
 
 |Lost check-in generates new overdues|Enabling this setting causes retroactive creation 
 of not-yet-existing overdue fines on lost item check-in, up to the point of check-in time 
@@ -432,16 +457,16 @@ irrespective of usage of diacritical marks or spaces. | True/False | TRUE |Sitka
 
 |Printing: custom JavaScript file|Full URL path to a JavaScript File to be loaded 
 when printing. Should implement a print_custom function for DOM manipulation. Can 
-change the value of the do_print variable to false to cancel printing.|Text| | | NOT USED BY SITKA
+change the value of the do_print variable to false to cancel printing.|Text| | | This feature is not used by Sitka.
 
 |Require matching email address for password reset requests||True/False| | LSA |
 
 | Require Monographic Part when Present | Normally the selection of a monographic part 
 during hold placement is optional if there is at least one copy on the bib without a 
 monographic part. A true value for this setting will require part selection even 
-under this condition. | True/False| | | NOT USED BY SITKA
+under this condition. | True/False| | | This feature is not used by Sitka.
 
-|Restore Overdues on Long-Overdue Item Return||True/False| | LSA | NOT USED BY SITKA
+|Restore Overdues on Long-Overdue Item Return||True/False| | LSA | This feature is not used by Sitka.
 
 |Restore overdues on lost item return|If true when a lost item is checked in overdue fines 
 are charged (up to the maximum fines amount)|True/False| | LSA |
@@ -452,12 +477,12 @@ to scope the search for duplicate patrons.|Number| 0 |Sitka |
 
 |Suppress hold transits group|To create a group of libraries to suppress Hold Transits 
 among them. All libraries in the group should use the same unique value. Leave it empty 
-if transits should not be suppressed.|Text| | Sitka | NOT USED BY SITKA
+if transits should not be suppressed.|Text| | Sitka | This feature is not used by Sitka.
 
 |Suppress non-hold transits group|To create a group of libraries to suppress 
 Non-Hold Transits among them. All libraries in the group should use the same unique 
 value. Leave it empty if Non-Hold Transits should not be suppressed.
-|Text| | Sitka | NOT USED BY SITKA
+|Text| | Sitka | This feature is not used by Sitka.
 
 |Suppress popup-dialogs during check-in.|When set to True, no pop-up window 
 for exceptions on check-in. But the accompanying sound will be played.|True/False| | LSA |
@@ -478,13 +503,13 @@ to target copies for holds at closed circulating libraries when the circulating 
 of the item and the pickup library of the hold are the same. Set the value to False, or 
 leave it unset, if you do not want to enable this feature.
 
-|Time interval between curbside appointments | | Duration | 15 minutes | Sitka |
+|Time interval between curbside appointments | | Duration | 15 minutes | Sitka | This feature is not used by Sitka.
 
 |Truncate fines to max fine amount||True/False|TRUE | Sitka |
 
 | Use calculated proximity for age-protection check | When checking whether a copy is 
 viable for a hold based on transit distance, use calculated proximity with adjustments 
-rather than baseline Org Unit proximity. | True/False | | Sitka | NOT USED BY SITKA 
+rather than baseline Org Unit proximity. | True/False | | Sitka | This feature is not used by Sitka.
 
 |Use Item Price or Cost as Backup Item Value| Expects "price" or "cost", but defaults 
 to neither. This refers to the corresponding field on the item record and is used 
@@ -502,13 +527,13 @@ billing is paid|True/False| TRUE | Sitka |
 |Void item deposit fee on checkin| If a deposit was charged when checking out an item, 
 void it when the item is returned | True/False| FALSE | LSA |
 
-|Void Long-Overdue Item Billing When Returned||True/False| | LSA |NOT USED BY SITKA
+|Void Long-Overdue Item Billing When Returned||True/False| | LSA |This feature is not used by Sitka.
 
-|Void Processing Fee on Long-Overdue Item Return||True/False| | LSA |NOT USED BY SITKA
+|Void Processing Fee on Long-Overdue Item Return||True/False| | LSA |This feature is not used by Sitka.
 
-|Void longoverdue item billing when claims returned||True/False| | LSA |NOT USED BY SITKA
+|Void longoverdue item billing when claims returned||True/False| | LSA |This feature is not used by Sitka.
 
-|Void long overdue item processing fee when claims returned||True/False|  | LSA |NOT USED BY SITKA
+|Void long overdue item processing fee when claims returned||True/False|  | LSA |This feature is not used by Sitka.
 
 |Void lost item billing when claims returned||True/False| FALSE | LSA |
 
@@ -568,7 +593,7 @@ NOTE: Long Overdue status is not in use on Sitka Evergreen. All settings related
 |Setting|Description|Data type|Default | Edited by | Notes
 
 |Allow credit card payments|If enabled, patrons will be able to pay fines accrued at 
-this location via credit card.|True/False| | | NOT USED BY SITKA 
+this location via credit card.|True/False| | | This feature is not used by Sitka. 
 
 |Charge item price when marked damaged|If true Evergreen bills item price to the last patron 
 who checked out the damaged item. Staff receive an alert with patron information and must 
@@ -590,14 +615,14 @@ credit|True/False| | LSA |
 
 |Leave transaction open when long overdue balance equals zero|Leave transaction open when 
 long-overdue balance equals zero. This leaves the lost copy on the patron record when it 
-is paid|True/False| | | NOT USED BY SITKA 
+is paid|True/False| | | This feature is not used by Sitka. 
 
 |Leave transaction open when lost balance equals zero|Leave transaction open when lost 
 balance equals zero. This leaves the lost copy on the patron record when it is 
 paid|True/False| FALSE | Sitka |
 
 |Long-Overdue Materials Processing Fee|The amount charged in addition to item price when 
-an item is marked Long-Overdue|Number (Currency)| | | NOT USED BY SITKA
+an item is marked Long-Overdue|Number (Currency)| | | This feature is not used by Sitka.
 
 |Lost materials processing fee|The amount charged in addition to item price when an 
 item is marked lost.| Number(Currency)| |LSA |
@@ -639,7 +664,7 @@ balances at all times or, when used in conjunction with an interval setting, to 
 negative balances after an interval of time.|True/False| | LSA |
 
 |Void Overdue Fines When Items are Marked Long-Overdue|If true overdue fines are voided 
-when an item is marked Long-Overdue|True/False| | | NOT USED BY SITKA
+when an item is marked Long-Overdue|True/False| | | This feature is not used by Sitka.
 
 |Void overdue fines when items are marked lost|If true overdue fines are voided when 
 an item is marked lost|True/False| TRUE | LSA |
@@ -680,6 +705,10 @@ patron registration and self-service username changing only|Regular expression| 
 |===
 |Setting|Description|Data type|Default | Edited by | Notes
 
+|ACQ: Which import tab(s) display in general Import/Export? | Valid values are: "cat" for 
+Import for Cataloging, "acq" for Import for Acquisitions, "both" or unset to display both.
+ | Text |Cat | Sitka | Set to default Cat at Sitka level but can be edited by LSA.
+
 |Alert on empty bib records|Alert staff when the last copy for a record is being 
 deleted.|True/False| FALSE | LSA |
 
@@ -719,6 +748,12 @@ is true.|True/False| | LSA |
 patron registration.| Text | | LSA |
 
 |Example for Day_phone field on patron registration|The example on validation on the Day_phone 
+field in patron registration.|Text| | LSA |
+
+|Example for default_phone field on patron registration|The example on validation on the default_phone 
+field in patron registration.|Text| | LSA |
+
+|Example for default_sms_notify field on patron registration|The example on validation on the default_sms_notify 
 field in patron registration.|Text| | LSA |
 
 |Example for Email field on patron registration|The example on validation on the Email 
@@ -763,11 +798,11 @@ continue to appear in the special list, when checked in with outstanding fines.
 1 = regular list, special list. 2 = special list, special list. 5 = regular list, 
 do not display. 6 = special list, do not display.|Number| 2 | LSA | 
 
-|Items Out Long-Overdue display setting| |Number| | LSA | NOT USED BY SITKA
+|Items Out Long-Overdue display setting| |Number| | LSA | This feature is not used by Sitka.
 
 |Items Out Lost display setting|Value is a numeric code, describing which list the 
-circulation should appear while checked out and whether the circulation should c
-ontinue to appear in the special list, when checked in with outstanding fines. 
+circulation should appear while checked out and whether the circulation should 
+continue to appear in the special list, when checked in with outstanding fines. 
 1 = regular list, special list. 2 = special list, special list. 5 = regular list, 
 do not display. 6 = special list, do not display.|Number| 2 | LSA |
 
@@ -801,6 +836,12 @@ on the Day_phone field in patron registration. Note: The first capture group wil
 for the "last 4 digits of phone number" as patron password feature, if enabled. 
 Ex: "[2-9]\d{2}-\d{3}-(\d{4})( x\d+)?" will ignore the extension on a NANP number.
 |Regular expression| | LSA |
+
+|Regex for default_phone field on patron registration | The Regular Expression for validation
+ on the default_phone field in patron registration. |Regular expression | |LSA|
+
+|Regex for default_sms_notify field on patron registration| The Regular Expression for 
+validation on the default_sms_notify field in patron registration. | Regular expression | |LSA |
 
 |Regex for Email field on patron registration|The Regular Expression on validation on the 
 Email field in patron registration.|Regular expression| | LSA |
@@ -849,6 +890,18 @@ more information on using these settings see xref:_customizing_the_display_field
 
 | Staff Catalog Search Filters| | Text | | Sitka |
 
+|Staff Client added content: NoveList Select API version | API version used to provide
+ NoveList Select added content in the Staff Client |Text | |Sitka |
+
+|Staff Client added content: NoveList Select key/password |Key/password used to provide
+ NoveList Select added content in the Staff Client |Text | | Sitka|
+
+|Staff Client added content: NoveList Select profile/user | Profile/user used to provide
+ NoveList Select added content in the Staff Client |Text | | Sitka|
+
+|Staff Client toast alert duration (seconds) | The number of seconds a toast alert should
+ remain visible if not manually dismissed. Default is 10. | Text | | Sitka|
+
 |Suggest XXXXX field on patron registration|The XXXXX field will be suggested on the 
 patron registration screen. Suggesting a field makes it appear when suggested fields 
 are shown. If the field is shown or required this setting is ignored.|True/False| | LSA 
@@ -866,7 +919,7 @@ Payment Received field.|True/False| | LSA |
 in some instances.|True/False| | | This library setting is obsolete. The unified editor is  
 is now set in the xref:_holdings_editor_preferences[Holdings Editor Preferences].
 
-|URL for remote directory containing list column settings.| |Text| | | NOT USED BY SITKA
+|URL for remote directory containing list column settings.| |Text| | | This feature is not used by Sitka.
 
 |Work Log: maximum actions logged|Maximum entries for "Most Recent Staff Actions" section 
 of the Work Log interface.|Number| | LSA |
@@ -881,6 +934,8 @@ section of the Work Log interface.|Number| | LSA |
 [options="header"]
 |===
 |Setting|Description|Data type|Default | Edited by | Notes
+
+|Allow adjacent copies to capture when Soft Stalling| |True/False | |Sitka |
 
 |Behind desk pickup supported|If a branch supports both a public holds shelf and 
 behind-the-desk pickups, set this value to true. This gives the patron the option 
@@ -906,7 +961,7 @@ from the shelf and processed by hand|Selection list| | Sitka |
 
 |Default estimated wait|When predicting the amount of time a patron will be waiting 
 for a hold to be fulfilled, this is the default estimated length of time to assume 
-an item will be checked out.|Duration| | Sitka | NOT USED BY SITKA
+an item will be checked out.|Duration| | Sitka | This feature is not used by Sitka.
 
 |Default hold shelf expire interval|Hold Shelf Expiry Time is calculated and inserted 
 into hold record based on this interval when capturing a hold.|Duration| | LSA |If there is 
@@ -933,6 +988,9 @@ fulfill a hold during hold placement time, alert the patron.|True/False| | LSA |
 could fulfill a hold during hold placement time, do not allow the hold to be placed.
 |True/False| | LSA |
 
+|Hold reset reason entry deletion interval |Hold reset reason entries will be removed 
+if older than this interval. Default 1 year if no value provided. |Duration| |LSA |
+
 |Max foreign-circulation time|Time a copy can spend circulating away from its circ lib 
 before returning there to fill a hold|Duration| 6 months |Sitka |
 
@@ -945,7 +1003,7 @@ metarecord holds allowed per patron | Number | | LSA |
 
 |Minimum estimated wait|When predicting the amount of time a patron will be waiting 
 for a hold to be fulfilled, this is the minimum estimated length of time to assume 
-an item will be checked out.|Duration | | Sitka |NOT USED BY SITKA
+an item will be checked out.|Duration | | Sitka |This feature is not used by Sitka.
 
 |Org unit target weight|Org Units can be organized into hold target groups based on a 
 weight. Potential copies from org units with the same weight are chosen at random.|Number| 
@@ -967,6 +1025,9 @@ patrons receiving the holds so they are not always in the same order.|True/False
 
 |Reset request time on un-cancel|When a hold is uncancelled, reset the request time to push 
 it to the end of the queue|True/False| |LSA |
+
+|Retarget previous targets interval |Hold targeter will create proximity adjustments for 
+previously targeted copies within this time interval (in days).|Number | |LSA |This feature is not used by Sitka.
 
 |Skip for hold targeting|When true, don't target any copies at this org unit 
 for holds|True/False| | Sitka |
@@ -998,10 +1059,10 @@ for items with "Reshelving" status for over 24 hours.
 claims-never-checked-out, mark the copy as missing|True/False| TRUE | LSA |
 
 |Claim return copy status|Claims returned copies are put into this status. 
-Default is to leave the copy in the Checked Out status|Selection list| Claimes Returned | Sitka |
+Default is to leave the copy in the Checked Out status|Selection list| Claims Returned | Sitka |
 
 |Courier code|Courier Code for the library. Available in transit slip 
-templates as the %courier_code% macro.|Text| | | NOT USED BY SITKA
+templates as the %courier_code% macro.|Text| | | This feature is not used by Sitka.
 
 |Juvenile age threshold|Upper cut-off age for patrons to be considered juvenile, 
 calculated from date of birth in patron accounts|Duration  (years)| 18 years | LSA |
@@ -1024,7 +1085,7 @@ the org unit|Text | | LSA |
 
 |Telephony: Arbitrary line(s) to include in each notice callfile|This overrides lines 
 from opensrf.xml. Line(s) must be valid for your target server and platform 
-(e.g. Asterisk 1.4).|Text| | Sitka | NOT USED BY SITKA
+(e.g. Asterisk 1.4).|Text| | Sitka | This feature is not used by Sitka.
 
 | Use external "library information URL" in copy table, if available | If set to true, 
 the library name in the copy details section will link to the URL associated with the 
@@ -1071,7 +1132,7 @@ accounts|True/False| | Sitka |
 must be approved by staff|True/False| FALSE | LSA |
 
 |Allow record emailing without login|Instead of forcing a patron to log in in order to 
-email the details of a record, just challenge them with a simple catpcha.|True/False| | LSA |
+email the details of a record, just challenge them with a simple captcha.|True/False| | LSA |
 
 |Auto-Override Permitted Hold Blocks (Patrons)|This will allow patrons with the 
 permission "HOLD_ITEM_CHECKED_OUT.override" to automatically override permitted 
@@ -1092,7 +1153,7 @@ query type selectors in the public catalog for search on copy tags. | True/False
 |Enable Holdings Sort by Geographic Proximity | When set to TRUE, will cause the record 
 details page to display the controls for sorting holdings by geographic proximity. This 
 also depends on the global flag opac.use_geolocation being enabled.| True/False| | 
-Sitka| NOT USED BY SITKA
+Sitka| This feature is not used by Sitka.
 
 |Enable Shibboleth SSO for the OPAC | | True/False| | Sitka |
 
@@ -1130,19 +1191,6 @@ e.g. https://my-evergreen.matomo.cloud/| Text | | Sitka |
 The number of bytes to allow for a cover image upload. If unset, defaults to 
 10737418240 (roughly 10GB). | Number | 10000000 (10MB) | Sitka | 
 
-|Maximum number of spelling suggestions that may be offered | If set to -1, provide 
-"best" suggestion if mispelled; if set higher than 0, the maximum suggestions that 
-can be provided; if set to 0, disable suggestions. | Number | | Sitka | NOT USED BY SITKA
-
-|Maximum search result count at which spelling suggestions may be offered|If a search 
-results in this number or fewer results, and there are correctable spelling mistakes, 
-a suggested search may be provided. | Number | | Sitka | NOT USED BY SITKA
-
-|Minimum required uses of a spelling suggestions that may be offered|The number of 
-bibliographic records (more or less) that a spelling suggestion must appear in 
-to be considered before offering it to a user. Defaults to 1 (must appear in the bib data).
-| Number | | Sitka | NOT USED BY SITKA
-
 |OPAC login message | HTML blob to be rendered in an interstitial page upon OPAC 
 login | Text|  | LSA |
 
@@ -1176,6 +1224,10 @@ surrounded by asterisks will be taken as a whole label, not split into individua
 labels at the character level, but only the first character will serve as the basis 
 of the search.|Regular expression | | Sitka |
 
+|Patron Self-Reg. Date of Birth Order |The order in which to present the Month, Day, 
+and Year elements for the Date of Birth field in Patron Self-Registration. Use the 
+letter M for Month, D for Day, and Y for Year. Examples: MDY, DMY, YMD |Text | |LSA |
+
 |Patron Self-Reg. Display Timeout|Number of seconds to wait before reloading the patron 
 self-registration interface to clear sensitive data|Duration| | Sitka |
 
@@ -1184,15 +1236,10 @@ account will be allowed to sit in the database. After this time, the pending use
 information will be purged|Duration| | Sitka |
 
 |Payment history age limit|The OPAC should not display payments by patrons that are 
-older than any interval defined here.|Duration| | Sitka | NOT USED BY SITKA
+older than any interval defined here.|Duration| | Sitka | This feature is not used by Sitka.
 
 | Permit renewals when patron exceeds max fine threshold | Permit renewals even when 
 the patron exceeds the maximum fine threshold |True/False | FALSE |LSA |
-
-|g_trgm score weighting in OPAC spelling suggestions.|Soundex, pg_trgm, and keyboard 
-distance similarity measures can be combined to form a secondary ordering parameter 
-for spelling suggestions. This controls the relative weight of the scaled pg_trgm component. 
-Defaults to 0 for "off".| Number | | Sitka | NOT USED BY SITKA
 
 |Shibboleth SSO Entity ID | Which configured Entity ID to use for SSO when there is more 
 than one available to Shibboleth | Text | | Sitka |
@@ -1200,9 +1247,7 @@ than one available to Shibboleth | Text | | Sitka |
 |Shibboleth SSO matchpoint | Shibboleth-side field to match a patron against for 
 Shibboleth SSO. Default is uid; use eppn for Active Directory | Text | | Sitka |
 
-|Show Geographic Proximity in Miles |When set to TRUE, will cause the record details page 
-to show distances for geographic proximity in miles instead of kilometers. | True/False | | Sitka 
-| NOT USED BY SITKA
+|Show Geographic Proximity in Miles |When set to TRUE, will cause the record details page to show distances for geographic proximity in miles instead of kilometres. |True/False | | LSA| This feature is not used by Sitka.
 
 |Show Owning Lib in Items Out |If enabled, the Owning Lib will be shown in the Items Out 
 display. This may assist in requesting additional renewals | True/False | | Sitka |
@@ -1210,7 +1255,7 @@ display. This may assist in requesting additional renewals | True/False | | Sitk
 |Soundex score weighting in OPAC spelling suggestions. |Soundex, trgm, and keyboard 
 distance similarity measures can be combined to form a secondary ordering parameter 
 for spelling suggestions. This controls the relative weight of the scaled soundex 
-component. Defaults to 0 for "off".| Number | | Sitka | NOT USED BY SITKA
+component. Defaults to 0 for "off".| Number | | Sitka | This feature is not used by Sitka.
 
 | Specify how items are ordered	| This value specifies how items are ordered in search 
 results and record views within the org unit. To sort from newest to oldest by active 
@@ -1223,13 +1268,16 @@ circulated items to be highlighted in search results|True/False|TRUE | LSA |
 
 |Text for OPAC site specific banners| Add a top banner message to your OPAC for 
 announcements such as holiday closures. Set as blank to clear the banner.| Text| | 
-Sitka|NOT USED BY SITKA
+Sitka|This feature is not used by Sitka.
  
 |Text for the Sitka OPAC Banner (for Sitka Staff)|Add a Sitka wide OPAC banner message, 
 alond with any site banners that may be specified.| Text | | Sitka |
 
 |The styles for the OPAC site specific banners|Specify the css for your OPAC top banner.|
 Text| | Sitka |
+
+|URL Override for NoveList Select added content javascript |URL Override for NoveList 
+Select added content javascript | Text | | Sitka |
 
 |Use fully compressed serial holdings|Show fully compressed serial holdings for all 
 libraries at and below the current context unit|True/False| FALSE | Sitka|
@@ -1297,13 +1345,13 @@ in place of %INCLUDE(notice_text)%|Text|| Sitka |Setting is obsolete
 
 |Maximum concurrently active self-serve password reset requests|Prevent the 
 creation of new self-serve password reset requests until the number of active 
-requests drops back below this number.|Number| | Sitka |NOT USED BY SITKA
+requests drops back below this number.|Number| | Sitka |This feature is not used by Sitka.
 
 |Maximum concurrently active self-serve password reset requests per user|When a 
 user has more than this number of concurrently active self-serve password reset 
 requests for their account, prevent the user from creating any new self-serve 
 password reset requests until the number of active requests for the user drops 
-back below this number.|Number| | Sitka |NOT USED BY SITKA
+back below this number.|Number| | Sitka |This feature is not used by Sitka.
 
 |Obscure the Date of Birth field|When true, the Date of Birth column in patron lists 
 will default to Not Visible, and in the Patron Summary sidebar the value will 
@@ -1325,6 +1373,9 @@ is the password for new accounts (password must still be changed at first OPAC l
 |True/False| FALSE | LSA |
 
 |Persistent login duration|How long a persistent login lasts, e.g. '2 weeks'|Duration| |Sitka |
+
+|Security: MFA recheck interval |How long before MFA verification is required again, 
+when MFA is required for a user. |Duration | | Sitka| This feature is not used by Sitka.
 
 |Restrict patron opt-in to home library and related orgs at specified depth | Admin 
 setting | Number | |Sitka |
@@ -1467,7 +1518,7 @@ booking reserve during the proposed checkout period will not be allowed
 to circulate unless overridden with the COPY_RESERVED.override permission.	
 | True/False || LSA |
 
-|global.credit.allow| | True/False |  | Sitka | NOT USED BY SITKA
+|global.credit.allow| | True/False |  | Sitka | This feature is not used by Sitka.
 
 |GUI: Juvenile account requires parent/guardian | Require a value for the parent/guardian 
 field in the patron editor for patrons marked as juvenile | True/False | | LSA |
@@ -1485,7 +1536,7 @@ ignored. | True/False | | LSA |
 match patron card expiry date if expiry date sooner than due date. If False 
 item due date applied. |	True/False| | LSA |
 
-|org.opt_out_email_predue | | True/False| | Sitka | NOT USED BY SITKA
+|org.opt_out_email_predue | | True/False| | Sitka | This feature is not used by Sitka.
 
 | Recalls: An array of fine amount, fine interval, and maximum fine. |	An array of 
 fine amount, fine interval, and maximum fine. For example, to specify a new fine 

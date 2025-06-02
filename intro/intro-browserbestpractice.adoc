@@ -1,8 +1,8 @@
-[[configure-browser]]
+[[_configure_browser]]
 Best Practices for Using the Browser
 ------------------------------------
 
-[[browser-defaults]]
+[[_browser_defaults]]
 Setting Browser Defaults for Web Client
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -27,7 +27,7 @@ image::images/intro/homepage1.png[]
 +
 image::images/intro/homepage2.png[]
 
-[[bookmarks-profiles]]
+[[_bookmarks_profiles]]
 Bookmarks and Shortcuts
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -40,7 +40,7 @@ The web client allows you to bookmark the pages that you use the most, and to us
 
 link:https://goo.gl/MCa42e[Google Chrome Help - Create, view & edit bookmarks]
 
-[[tab-buttons-keyboard-shortcuts]]
+[[_tab_buttons_keyboard_shortcuts]]
 Tab Buttons and Keyboard Shortcuts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 As the staff client is loaded in a web browser, library staff can use browser-based tab controls and keyboard shortcuts to help with navigation. Below are some tips for browser navigation that can be used in Chrome on Windows PCs.
@@ -74,7 +74,7 @@ image::images/intro/browser1.png[]
 . Click *About Google Chrome*.
 . You should see a message saying _Google Chrome is up to date._
 
-[[allow-popups]]
+[[_allow_popups]]
 Allow Pop-ups
 ^^^^^^^^^^^^^
 
