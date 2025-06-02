@@ -416,8 +416,10 @@ Template Report Layout
 ^^^^^^^^^^^^^^^^^^^^^^
 Select the *Report Layout* tab to adjust the organization of the data on your final output.
  
-. On the left side, under Field Display Order, you can rename columns, adjust transforms, and reorder your columns in this tab in the same way you can in the Field Display tab.
-. On the right side, under _Field Sort Order_, you can independently set sort orders on each column as well as determine which column should sort first, second, third, etc. The sorting is independent of the column display order.
+. On the left side, under _Field Display Order_, you can rename columns, adjust transforms, and reorder your columns 
+in this tab in the same way you can in the _Field Display_ tab.
+. On the right side, under _Field Sort Order_, you can independently set sort orders on each column as well 
+as determine which column should sort first, second, third, etc. The sorting is independent of the column display order.
 +
 image::images/report/report-template-layout-1.png[]
 
