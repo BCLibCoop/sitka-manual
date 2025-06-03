@@ -241,6 +241,8 @@ image::images/report/report-reorder-display-field-1.png[]
 Renaming a Display Field
 ++++++++++++++++++++++++
 
+https://youtu.be/BYgEe8Lx_AU[Sitka Snippet Video - Report Template Editor: Renaming Display Fields (2:36)*]
+
 Each dislay field in a template has a column label which displays as the column header in the report output.
 
 . On the *Display Fields* tab you can adjust the display name of any field by clicking in the *Name* box and typing in a new name. The original field name will show below the *Name* box along with the path you took to field the field starting at your source.
@@ -275,6 +277,8 @@ image::images/report/report-display-transform-1.png[]
 [[_removing_a_display_field]]
 Removing a Display Field
 ++++++++++++++++++++++++
+
+https://youtu.be/Jf5fdddYL8c[*Sitka Snippet Video - Report Template Editor: Removing Display Fields (2:39)*]
 
 [CAUTION]
 =========
