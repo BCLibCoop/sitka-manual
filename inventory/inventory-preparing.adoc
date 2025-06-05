@@ -1,0 +1,30 @@
+Preparing for Inventory
+-----------------------
+
+The following procedure was developed by Co-op Support based on the current functionality available
+in Sitka's Evergreen,  and the experience of inventory projects done by libraries in the Sitka consortium and
+the Evergreen community.
+
+Inventory in Evergreen involves staff checking in all items in a specific area, using the Checkin Modifier Update Inventory, or, scanning or uploading barcodes to the Item Status screen, and batch editing the Update Inventory date. Staff can then run a report to list all the items that were not scanned, and look for them.
+
+When items are inventoried,  the date, time, and workstation is recorded in
+the Update Inventory  field of the item record. This field is used by the inventory reports to determine which items have been inventoried and which have not.
+
+The first step to running inventory is to choose the section of your library you will inventory. We recommend
+that you inventory a shelving location or particular call number range. There are several report templates
+you can use to aid you in preparing for your inventory.
+
+* Sitka_templates -> Collection -> Item and Title Count -> Title & 
+Item Count by Shelving Location & Circulation Modifier
++
+* Sitka_templates -> Collection -> Item List by Item Attributes -> 
+Call Number : Items with Call Numbers within a Range
++
+* Sitka_templates -> Collection -> Item List by Item Attributes -> Shelving Location : 
+Items with Selected Shelving Location
+
+[TIP]
+=====
+Once inventory starts, any item found in an incorrect location should be checked in before it is shelved
+in the correct location.
+=====
