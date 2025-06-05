@@ -1,9 +1,60 @@
 Preparing for Inventory
 -----------------------
 
-The following procedure was developed by Co-op Support based on the current functionality available
-in Sitka's Evergreen,  and the experience of inventory projects done by libraries in the Sitka consortium and
+[NOTE]
+======
+The following guidelines have been developed by Co-op Support based on the current functionality available
+in Sitka's Evergreen and the experience of inventory projects done by libraries in the Sitka consortium and
 the Evergreen community.
+======
+
+Co-op Support recommends libraries consider the following when getting ready to run inventory.
+
+Choosing What to Inventory
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The first step to running inventory is to choose what you will inventory.  You may wish to inventory the entire
+library collection or just plan on running inventory on specific collections.
+
+If you plan to inventory the entire library collection Co-op Support recommends breaking it into sections, based
+on shelving location and/or call number range.
+
+There are several report templates you can use to aid you in preparing for your inventory.
+
+* Sitka_templates -> Collection -> Item and Title Count -> Title & 
+Item Count by Shelving Location & Circulation Modifier
++
+** This template will give a report showing the make up of your entire collection by shelving location & circulation
+modifier.  The report can be helpful in determining which sections of the collection you would like to inventory when.
++
+* Sitka_templates -> Collection -> Item List by Item Attributes -> Shelving Location : 
+Items with Selected Shelving Location
++
+** This template will give a report that lists all items in a particular shelving location. This can be helpful
+to show what should be on the shelf.
++
+* Sitka_templates -> Collection -> Item List by Item Attributes -> 
+Call Number : Items with Call Numbers within a Range
++
+** This template will give a report that lists all items in your sepecified call number range.  This can be helpful to 
+break up large shelving locations, like Fiction and Non-Fiction, into smaller pieces.
+
+
+Choosing How to Inventory
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Inventory involves scanning every item in your library or specified collection into Sitka's Evergreen.  This can 
+be acomplished in a few ways:
+
+
+
+
+
+Choosing When the Inventory
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Libraries should consider how often they 
+
 
 Inventory in Evergreen involves staff checking in all items in a specific area, using the Checkin Modifier Update Inventory, or, scanning or uploading barcodes to the Item Status screen, and batch editing the Update Inventory date. Staff can then run a report to list all the items that were not scanned, and look for them.
 
