@@ -351,8 +351,8 @@ get lists based on shelving locations, item statuses, circulation modifiers, sta
  
 .Key templates are:
 * _Patron List by Expiration Date_
-* _Patron List with Full Details by Profile Groups_
-* _Patrons without circulation after a selected date (Inactive patrons)_
+* _Patron List with Full Details Filtered by Patron Profiles_
+* _Patrons without circulation after selected date (Inactive patrons)_
 
 Newly Registered/Opted-in Patrons
 +++++++++++++++++++++++++++++++++
