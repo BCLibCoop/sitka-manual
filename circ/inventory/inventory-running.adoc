@@ -4,8 +4,8 @@ Inventorying Your Collection
 Initial Set Up
 ^^^^^^^^^^^^^^
 
-. Record the date you start inventory on.
-. Go to **Circulation -> Check In**.
+. Record the date you start inventory on.  You will need this when running reports later in the process.
+. In Evergreen, go to **Circulation -> Check In**.
 . From the _Checkin Modifiers_ drop down select **Update Inventory**.
 . Repeat these steps on all computers where check ins may be done.
 
@@ -33,6 +33,54 @@ the date you started inventory on for the filter when running the report.
 will likely see items from other shelving locations that have been updated through your regular check in process.
 . Repeat all the steps for every shelving location/section of your collection that you wish to inventory.
 
+Workflow - Check In
+^^^^^^^^^^^^^^^^^^^
+
+. Go to **Circulation -> Check In**.
+. Ensure the checkin modifier **Update Inventory** is active.
+. Scan in your items.
+. Repeat until you have scanned and updated all items in your desired section of your collection.
+. Run a report using the Sitka Template _Inventory - Un-scanned Items_.  You will need the date you started 
+inventory on and the shelving location(s) you did for the filters when running the report.
+. Take the list of un-scanned items the report produces and check the shelves to see if any were missed.
+. Scan in any missed items and update their inventory date.
+. Set the remaining items on the list to have a status of _Missing_.  This can be done in batch through
+the Items Status screen.
+. Run a report using the Sitka Template _Inventory - Scanned Items Count by Shelving Location_. You will need 
+the date you started inventory on for the filter when running the report.
+. This report will show you how many items have had their inventory date updated since you started inventory.  You 
+will likely see items from other shelving locations that have been updated through your regular check in process.
+. Repeat all the steps for every shelving location/section of your collection that you wish to inventory.
+
+Workflow - Portable Barcode Scanner
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Using your portable barcode scanner, scan every item on the shelf in the chosen area.
+. Export the barcodes to a text file (we recommend using Notepad) and save the file. The barcodes should be in one single spaced single column without extra spaces anywhere.
+. Use Cut and Paste functions to break the big list of barcodes into smaller lists and save each list as an
+individual text file (we recommend each list contains under 500 barcodes). Name your files in sequence, e.g.
+inventory001, inventory002..., so that it will be easy to follow when you upload the files.
+. Go to **Circulation -> Item Status**.
+. Ensure you have rows set to at least 500.
+. Click **Choose File**.
+. You will be prompted to browse your local computer to find the barcode files. Navigate to and select your
+first file and click **Open**.
+. Every item on the list is retrieved and displayed. It may take a while if the list is long. 
+. Select all items using the checkbox at the top of the Row Selector Column.
+. From the **Actions** menu choose **Update Inventory**.
+. A confirmation will appear in the bottom right corner.
+. Repeat until you have updated all items in your desired section of your collection.
+. Run a report using the Sitka Template _Inventory - Un-scanned Items_.  You will need the date you started 
+inventory on and the shelving location(s) you did for the filters when running the report.
+. Take the list of un-scanned items the report produces and check the shelves to see if any were missed.
+. Scan in any missed items and update their inventory date.
+. Set the remaining items on the list to have a status of _Missing_.  This can be done in batch through
+the Items Status screen.
+. Run a report using the Sitka Template _Inventory - Scanned Items Count by Shelving Location_. You will need 
+the date you started inventory on for the filter when running the report.
+. This report will show you how many items have had their inventory date updated since you started inventory.  You 
+will likely see items from other shelving locations that have been updated through your regular check in process.
+. Repeat all the steps for every shelving location/section of your collection that you wish to inventory.
 
 There are two report templates in the Sitka_templates -> Inventory folder on the _Reports_ screen.
 
@@ -53,8 +101,7 @@ you took inventory and the "on shelf" statuses _Reshelving_ and _Available_.
 You can use this report to search for the listed items. You can also upload the barcodes from this report into the 
 Item Status screen and set the items to _Missing_.
 
-Portable Barcode Scanner Workflow
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 
 
 
