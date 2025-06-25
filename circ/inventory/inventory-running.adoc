@@ -5,12 +5,12 @@ Initial Set Up
 ^^^^^^^^^^^^^^
 
 . Record the date you start inventory on.  You will need this when running reports later in the process.
-. xref:_cloning_a_report_template[Clone the Sitka report templates] called _Inventory - Un-scanned Items_ and _Inventory - 
+. In Evergreen, xref:_cloning_a_report_template[Clone the Sitka report templates] called _Inventory - Un-scanned Items_ and _Inventory - 
 Scanned Items Count by Shelving Location_. Both templates can be found under 
 Sitka_templates -> Inventory.
 . In Evergreen, go to **Circulation -> Check In**.
-. From the _Checkin Modifiers_ drop down select **Update Inventory**.
-. Repeat these steps on all computers where check ins may be done.
+.. From the _Checkin Modifiers_ drop down select **Update Inventory**.
+.. Ensure this is done on all computers where items may be checked in.
 
 This ensures that any items currently circulating will have their inventory date updated when they are checked in.
 
