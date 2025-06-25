@@ -1,10 +1,38 @@
 Inventorying Your Collection
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Initial Set Up
+^^^^^^^^^^^^^^
 
+. Record the date you start inventory on.
+. Go to **Circulation -> Check In**.
+. From the _Checkin Modifiers_ drop down select **Update Inventory**.
+. Repeat these steps on all computers where check ins may be done.
 
-Staff Client Workflow
-^^^^^^^^^^^^^^^^^^^^^
+This ensures that any items currently circulating will have their inventory date updated when they are checked in.
+
+Workflow - Item Status
+^^^^^^^^^^^^^^^^^^^^^^
+
+. Go to **Circulation -> Item Status**.
+. Ensure you have rows set to at least 50.
+. Scan in your items.
+. Select all the items by clicking on the check box in the column label row.
+. From the **Actions** menu choose **Update Inventory**.
+. A confirmation will appear in the bottom right corner.
+. Repeat until you have scanned and updated all items in your desired section of your collection.
+. Run a report using the Sitka Template _Inventory - Un-scanned Items_.  You will need the date you started 
+inventory on and the shelving location(s) you did for the filters when running the report.
+. Take the list of un-scanned items the report produces and check the shelves to see if any were missed.
+. Scan in any missed items and update their inventory date.
+. Set the remaining items on the list to have a status of _Missing_.  This can be done in batch through
+the Items Status screen.
+. Run a report using the Sitka Template _Inventory - Scanned Items Count by Shelving Location_. You will need 
+the date you started inventory on for the filter when running the report.
+. This report will show you how many items have had their inventory date updated since you started inventory.  You 
+will likely see items from other shelving locations that have been updated through your regular check in process.
+. Repeat all the steps for every shelving location/section of your collection that you wish to inventory.
+
 
 There are two report templates in the Sitka_templates -> Inventory folder on the _Reports_ screen.
 
