@@ -82,6 +82,21 @@ the date you started inventory on for the filter when running the report.
 will likely see items from other shelving locations that have been updated through your regular check in process.
 . Repeat all the steps for every shelving location/section of your collection that you wish to inventory.
 
+Finishing Your Inventory
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Once you have inventoried all desired section of your collection, run the two inventory
+reports one more time. Anything that still shows up on the un-scanned report should be set 
+to missing.  The scanned item report will give you the final count of how many items
+were inventoried.
+
+
+
+
+
+////
+ORIGINAL CONTENT
+
 There are two report templates in the Sitka_templates -> Inventory folder on the _Reports_ screen.
 
 **Inventory - Scanned Items Count by Shelving Location**
@@ -100,16 +115,6 @@ you took inventory and the "on shelf" statuses _Reshelving_ and _Available_.
 
 You can use this report to search for the listed items. You can also upload the barcodes from this report into the 
 Item Status screen and set the items to _Missing_.
-
-
-
-
-
-
-
-
-////
-ORIGINAL CONTENT
 
 
 Running Inventory
