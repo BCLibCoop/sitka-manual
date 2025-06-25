@@ -1,6 +1,6 @@
 Inventory
 ----------
 
-include::inventory/inventory-preparing.adoc
+include::inventory/inventory-preparing.adoc[]
 
-include::inventory/inventory-running.adoc
+include::inventory/inventory-running.adoc[]
