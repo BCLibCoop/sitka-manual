@@ -1,4 +1,3 @@
-
 Circulation Related Statistics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -126,11 +125,20 @@ Recommended Recurrence Interval: *None, run as needed*
  
 . Enter a descriptive name that includes the date on which you ran the report.  You will likely run this report several times
 over the course of performing inventory.
-. Select your library.
-. Enter the date on which you started doing inventory.
-. Ensure the box is checked for *Run as soon as possible*.
++
+image::images/report/appendix/inventory-scanned-count-by-location-1.png[]
++
+. On the _Filters_ tab, enter values for the filters.
+.. Circulating Library = select your library.
+.. Latest Inventory Date = enter the date on which you started doing inventory.
++
+image::images/report/appendix/inventory-scanned-count-by-location-2.png[]
++
+. Ensure the box is checked for *Run Report Now*.
++
+image::images/report/appendix/inventory-scanned-count-by-location-3.png[]
 
-image::images/report/appendix/inventory-scanned-count-by-location.png[]
+
 
 Inventory - Un-scanned Items
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -141,17 +149,31 @@ _Found under Shared Folders -> Templates -> Sitka_templates ->
 Recommended Recurrence Interval: *None, run as needed*
 
 . Enter a descriptive name.
-. Select your library.
-. Add the on-shelf statuses for your library such as _Available_ and _Reshelving_.  With this report you are looking for items
-in these statuses that should have been on the shelf and scanned for inventory but were not.
-. Add the shelving location(s) you want included in your report.
-. Enter the date on which you started doing inventory.
-. Ensure the box is checked for *Run as soon as possible*.
++
+image::images/report/appendix/inventory-un-scanned-1.png[]
++
+. On the _Filters_ tab, enter values for the filters.
+.. Circulating Library = select your library.
++
+image::images/report/appendix/inventory-un-scanned-2.png[]
++
+.. Location ID =  add the shelving location(s) you want included in your report.
++
+image::images/report/appendix/inventory-un-scanned-3.png[]
++
+.. Enter the date on which you started doing inventory.
++
+image::images/report/appendix/inventory-un-scanned-4.png[]
++
+.. ID = add the on-shelf statuses for your library such as _Available_ and _Reshelving_.  With this 
+report you are looking for items in these statuses that should have been on the shelf and scanned for 
+inventory but were not.
++
+image::images/report/appendix/inventory-un-scanned-5.png[]
++
+. Ensure the box is checked for *Run Report Now*.
 
-_Found under Shared Folders -> Templates -> Sitka_templates ->
- Inventory._
 
-image::images/report/appendix/inventory-un-scanned.png[]
 
 Overdues Within Time Span - General (Based on Checkout Library)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
