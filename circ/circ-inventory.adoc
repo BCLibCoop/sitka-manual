@@ -8,6 +8,32 @@ the functionality available in Sitka's Evergreen and the experience of inventory
 projects done by libraries in the Sitka consortium and the Evergreen community.
 ======
 
+Item records include fields for inventory date and inventory workstation. The
+values in these fields are updated when an item in inventoried by using the
+*Update Inventory* action in _Item Status_ or the *Update Inventory checkin 
+modifier* at _Check In_.
+
+The inventory date and workstation can be seen in several places in the staff
+client:
+
+* Item Status - List View
++
+image:images/circ/inventory/update-inventory-item-record-1.png[scaledwidth="75%"]
++
+* Item Status - Detail View Quick Summary Tab
++
+image:images/circ/inventory/update-inventory-item-record-2.png[scaledwidth="75%"]
++
+* Bibliographic Record - Holdings View
++
+image:images/circ/inventory/update-inventory-item-record-3.png[scaledwidth="75%"]
++
+[NOTE]
+======
+Due to a bug the inventory workstation in the holdings view currently displays
+the workstation database ID rather than the workstation name.
+======
+
 include::inventory/inventory-preparing.adoc[]
 
 include::inventory/inventory-running.adoc[]
