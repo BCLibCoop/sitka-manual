@@ -26,9 +26,10 @@ Columns
 [[_inventory_columns]]
 
 Best practice is to ensure that the Check In and Item Status screens are set to
-display the call number, shelving location, and circulation modifier columns.
+display the call number, shelving location, and circulation modifier xref:_columns[columns].
 
 As items are scanned for inventory staff should keep an eye out for the following:
+
 * incorrect call numbers
 * call numbers not matching between Evergreen and the item
 * incorrect shelving locations
