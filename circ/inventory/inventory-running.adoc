@@ -4,15 +4,40 @@ Inventorying Your Collection
 Initial Set Up
 ^^^^^^^^^^^^^^
 
-. Record the date you start inventory on.  You will need this when running reports later in the process.
-. In Evergreen, xref:_cloning_a_report_template[clone the Sitka report templates] called _Inventory - Un-scanned Items_ and _Inventory - 
+Inventory Start Date
+++++++++++++++++++++
+
+Make a note of the date you start inventory on.  You will need this when running 
+reports later in the process.
+
+Report Templates
+++++++++++++++++
+
+There are two report templates used with inventory - _Inventory - Un-scanned Items_ and _Inventory - 
 Scanned Items Count by Shelving Location_. Both templates can be found under 
 Sitka_templates -> Inventory.
-. In Evergreen, go to **Circulation -> Check In**.
-.. From the _Checkin Modifiers_ drop down select **Update Inventory**.
-.. Ensure this is done on all computers where items may be checked in.
 
-This ensures that any items currently circulating will have their inventory date updated when they are checked in.
+Make sure you have the most recent version of the templates cloned into your own folders.
+For information on cloning report templates see xref:_cloning_a_report_template[].
+
+Update Inventory Checkin Modifier
++++++++++++++++++++++++++++++++++
+
+Turn on the _Update Inventory_ checkin modifier on all computers where items may be checked
+in while you are doing inventory.  This ensures that any items currently circulating 
+will have their inventory date updated when they are checked in.
+
+. In Evergreen, go to **Circulation -> Check In**.
+. From the _Checkin Modifiers_ drop down select **Update Inventory**.
++
+image:images/circ/inventory/inventory-checkin-modifier-1.png[scaledwidth="75%"]
++
+. A banner will display across the top of the check in screen to indicate that the _Update
+Inventory_ modifier is being used.
++
+image:images/circ/inventory/inventory-checkin-modifier-2.png[scaledwidth="75%"]
+
+
 
 Workflow - Item Status
 ^^^^^^^^^^^^^^^^^^^^^^
