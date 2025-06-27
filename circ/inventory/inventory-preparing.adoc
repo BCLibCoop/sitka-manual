@@ -76,6 +76,7 @@ Staff with cataloguing permissions can update the items as needed.
 
 Update Inventory Checkin Modifier
 +++++++++++++++++++++++++++++++++
+[_update_inventory_checkin_modifier]
 
 Turn on the _Update Inventory_ checkin modifier on all computers where items may be checked
 in while you are doing inventory.  This ensures that any items currently circulating 
