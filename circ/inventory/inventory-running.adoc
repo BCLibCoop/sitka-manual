@@ -8,11 +8,17 @@ Workflow - Item Status
 . Ensure you have rows set to at least 50 in your xref:_function_bar[function bar].
 . Scan in your items.
 . Select all the items by clicking on the check box in the column label row.
-. From the **Actions** menu choose **Update Inventory**.
 +
 image:images/circ/inventory/inventory-item-status-1.png[scaledwidth="75%"]
 +
+. From the **Actions** menu choose **Update Inventory**.
++
+image:images/circ/inventory/inventory-item-status-2.png[scaledwidth="75%"]
++
 . A confirmation will appear in the bottom right corner.
++
+image:images/circ/inventory/inventory-item-status-3.png[scaledwidth="75%"]
++
 . Repeat until you have scanned and updated all items in your desired section of your collection.
 . Run a report using the Sitka Template _Inventory - Un-scanned Items_.  You will need the date you started 
 inventory on and the shelving location(s) you did for the filters when running the report.
