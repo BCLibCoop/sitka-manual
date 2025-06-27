@@ -136,7 +136,7 @@ image::images/report/appendix/inventory-scanned-count-by-location-2.png[]
 +
 . On the _Layout and Scheduling_ tab, ensure the box is checked for *Run Report Now*.
 +
-image::images/report/appendix/inventory-scanned-count-by-location-3.png[]
+image::images/report/appendix/run-report-now.png[]
 
 
 
@@ -173,7 +173,7 @@ image::images/report/appendix/inventory-un-scanned-5.png[]
 +
 . On the _Layout and Scheduling_ tab, ensure the box is checked for *Run Report Now*.
 +
-image::images/report/appendix/inventory-scanned-count-by-location-3.png[]
+image::images/report/appendix/run-report-now.png[]
 
 
 Overdues Within Time Span - General (Based on Checkout Library)
@@ -268,10 +268,17 @@ Recommended Recurrence Interval: *None, run as needed*
 
 . Enter a name that includes a specific date as this report will show a snapshot of
 your collection at the moment the report is run.
-. Add your library or your branch(es).
-. Ensure the box is checked for *Run as soon as possible*.
-
-image::images/report/appendix/title-item-count-location-circ-mod.png[]
++
+image::images/report/appendix/title-item-count-shelving-circ-mod-1.png[]
++
+. On the _Filters_ tab, enter values for the filters.
+.. Organizational Unit ID = select your library.
++
+image::images/report/appendix/title-item-count-shelving-circ-mod-2.png[]
++
+. On the _Layout and Scheduling_ tab, ensure the box is checked for *Run Report Now*.
++
+image::images/report/appendix/run-report-now.png[]
 
 ////
 
