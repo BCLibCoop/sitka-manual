@@ -34,6 +34,8 @@ you will need the date you started inventory on and the shelving location(s) you
 . Take the list of un-scanned items the report produces and check the shelves to see if 
 any were missed.
 . Scan in any missed items and update their inventory date using the *Update Inventory* action.
+. Any items you cannot locate should be xref:_missing[marked as missing]. Evergreen will alert
+you if they are found.   
 . Run a report using the Sitka Template 
 xref:_inventory_scanned_items_count_by_shelving_location[_Inventory - 
 Scanned Items Count by Shelving Location_]. For the report filters 
@@ -62,6 +64,8 @@ you will need the date you started inventory on and the shelving location(s) you
 . Take the list of un-scanned items the report produces and check the shelves to see if 
 any were missed.
 . Scan in any missed items. Their inventory date is automatically updated.
+. Any items you cannot locate should be xref:_missing[marked as missing]. Evergreen will alert
+you if they are found.
 . Run a report using the Sitka Template xref:_inventory_scanned_items_count_by_shelving_location[_Inventory - 
 Scanned Items Count by Shelving Location_]. For the report filters 
 you will need the date you started inventory on.
@@ -104,14 +108,19 @@ Finishing Your Inventory
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 Once you have inventoried all desired section of your collection, run the two inventory
-reports one more time. Anything that still shows up on the un-scanned report should be set 
-to missing.  The scanned item report will give you the final count of how many items
-were inventoried.
+reports one more time. 
 
-. Set the remaining items on the list to have a status of _Missing_.  This can be done in batch through
-the Items Status screen.
+You may wish to keep the final output from xref:_inventory_scanned_items_count_by_shelving_location[_Inventory - 
+Scanned Items Count by Shelving Location_] for your records.
 
+xref:_inventory_un_scanned_items[_Inventory - Un-scanned Items_] should be run for all
+shelving locations where inventory was done.  If you have been marking unfound items
+as missing throughout the inventory process this report will be blank. If any items
+do appear on the report, xref:_missing[mark them as missing].
 
+You may also wish to use the Sitka Template 
+xref:_status_all_items_with_selected_item_status[_Status: All Items with Selected Item Status_]
+to generate a list of your missing items so you can determine if any should be re-ordered.
 
 
 ////
