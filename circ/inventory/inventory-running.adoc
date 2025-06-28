@@ -82,7 +82,7 @@ Workflow - Portable Barcode Scanner
 individual text file. Each list contains under 500 barcodes. Name your files in sequence 
 so that it will be easy to follow when you upload the files (e.g. inventory001, inventory002, etc.).
 . Go to **Circulation -> Item Status**.
-. Ensure you have rows set to at least 500.
+. Ensure you have rows set to at least 500 in your xref:_function_bar[function bar].
 . Click **Choose File**.
 +
 image:images/circ/inventory/inventory-barcode-scanner-1.png[scaledwidth="75%"]
