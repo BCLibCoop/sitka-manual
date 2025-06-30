@@ -77,10 +77,10 @@ Workflow - Portable Barcode Scanner
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Using your portable barcode scanner, scan every item on the shelf in  your desired section of the collection.
-. Export the barcodes to a text file (we recommend using Notepad) and save the file. The barcodes should be in one single spaced single column without extra spaces anywhere.
-. Use copy/paste to break the big list of barcodes into smaller lists and save each list as an
-individual text file. Each list contains under 500 barcodes. Name your files in sequence 
-so that it will be easy to follow when you upload the files (e.g. inventory001, inventory002, etc.).
+. Export the barcodes to a text file (we recommend using Notepad) and save the file. 
+The barcodes should be in one single spaced single column without extra spaces anywhere.
+. Use copy/paste to break the big list of barcodes into smaller lists and save each list 
+as an individual text file. Co-op Support recommends each list contain under 500 barcodes. 
 . Go to **Circulation -> Item Status**.
 . Ensure you have rows set to at least 500 in your xref:_function_bar[function bar].
 . Click **Choose File**.
@@ -88,7 +88,8 @@ so that it will be easy to follow when you upload the files (e.g. inventory001, 
 image:images/circ/inventory/inventory-barcode-scanner-1.png[scaledwidth="75%"]
 +
 . Follow the on screen prompts to select your file.
-. A progress bar will display as the file loads.
+. A progress bar will display as the file loads.  The larger the file the longer it will
+take to load.
 . The items will be listed and the file name displays at the top.  
 . Select all the items by clicking on the check box in the column label row.
 +
