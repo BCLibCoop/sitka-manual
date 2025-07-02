@@ -45,7 +45,8 @@ you will need the date you started inventory.
 . This report will show you how many items have had their inventory date updated 
 since you started inventory.  You will likely see items from other shelving locations 
 that have been updated through your regular check in process, as long as 
-the xref:_update_inventory_checkin_modifier[_Update Inventory_ checkin modifier is enabled].
+the xref:_update_inventory_checkin_modifier[_Update Inventory_ checkin modifier is enabled]
+on all workstations where check in is done.
 . Repeat all the steps for every shelving location/section of your collection that you wish 
 to inventory.
 
@@ -75,7 +76,8 @@ you will need the date you started inventory.
 . This report will show you how many items have had their inventory date updated 
 since you started inventory.  You will likely see items from other shelving locations 
 that have been updated through your regular check in process, as long as 
-the xref:_update_inventory_checkin_modifier[_Update Inventory_ checkin modifier is enabled].
+the xref:_update_inventory_checkin_modifier[_Update Inventory_ checkin modifier is enabled]
+on all workstations where check in is done.
 . Repeat all the steps for every shelving location/section of your collection that you wish to inventory.
 
 Workflow - Portable Barcode Scanner
@@ -124,7 +126,8 @@ you will need the date you started inventory.
 . This report will show you how many items have had their inventory date updated 
 since you started inventory.  You will likely see items from other shelving locations 
 that have been updated through your regular check in process, as long as 
-the xref:_update_inventory_checkin_modifier[_Update Inventory_ checkin modifier is enabled].
+the xref:_update_inventory_checkin_modifier[_Update Inventory_ checkin modifier is enabled]
+on all workstations where check in is done.
 . Repeat all the steps for every shelving location/section of your collection that you wish 
 to inventory.
 
