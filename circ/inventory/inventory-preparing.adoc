@@ -1,5 +1,6 @@
 Preparing for an Inventory
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+(((Inventory)))
 
 Assessing Your Collection
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -43,6 +44,8 @@ reports later in the process.
 
 Report Templates
 ++++++++++++++++
+(((Reports, Inventory)))
+(((Inventory)))
 
 There are two report templates used with inventory - 
 xref:_inventory_un_scanned_items[_Inventory - Un-scanned Items_] and 
@@ -76,6 +79,7 @@ permissions can update the items as needed.
 Update Inventory Checkin Modifier
 +++++++++++++++++++++++++++++++++
 [_update_inventory_checkin_modifier]
+(((Update Inventory Date)))
 
 Turn on the _Update Inventory_ checkin modifier on all computers where items may be checked
 in while you are doing inventory.  This ensures that any items currently circulating 
