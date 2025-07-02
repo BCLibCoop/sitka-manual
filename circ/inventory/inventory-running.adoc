@@ -33,9 +33,9 @@ the collection.
 . Run a report using the Sitka Template 
 xref:_inventory_un_scanned_items[_Inventory - Un-scanned Items_]. For the report filters 
 you will need the date you started inventory and the shelving location(s) you inventoried.
-. Take the list of un-scanned items the report produces and check the shelves to see if 
+. Take the list of un-scanned items and check the shelves to see if 
 any were missed.
-. Scan in any missed items and update their inventory date using the *Update Inventory* action.
+. If you find any un-scanned items, scan them in and update their inventory date using the *Update Inventory* action.
 . Any items you cannot locate should be xref:_missing[marked as missing]. Evergreen will alert
 you if they are found.   
 . Run a report using the Sitka Template 
@@ -44,7 +44,8 @@ Scanned Items Count by Shelving Location_]. For the report filters
 you will need the date you started inventory.
 . This report will show you how many items have had their inventory date updated 
 since you started inventory.  You will likely see items from other shelving locations 
-that have been updated through your regular check in process.
+that have been updated through your regular check in process, as long as 
+the xref:_update_inventory_checkin_modifier[_Update Inventory_ checkin modifier is enabled].
 . Repeat all the steps for every shelving location/section of your collection that you wish 
 to inventory.
 
@@ -65,14 +66,16 @@ xref:_inventory_un_scanned_items[_Inventory - Un-scanned Items_]. For the report
 you will need the date you started inventory and the shelving location(s) you inventoried.
 . Take the list of un-scanned items and check the shelves to see if 
 any were missed.
-. Scan in any missed items. Their inventory date is automatically updated.
+. If you find any un-scanned items, scan them in. Their inventory date is automatically updated.
 . Any items you cannot locate should be xref:_missing[marked as missing]. Evergreen will alert
 you if they are found.
 . Run a report using the Sitka Template xref:_inventory_scanned_items_count_by_shelving_location[_Inventory - 
 Scanned Items Count by Shelving Location_]. For the report filters 
 you will need the date you started inventory.
-. This report will show you how many items have had their inventory date updated since you started inventory.  You 
-will likely see items from other shelving locations that have been updated through your regular check in process.
+. This report will show you how many items have had their inventory date updated 
+since you started inventory.  You will likely see items from other shelving locations 
+that have been updated through your regular check in process, as long as 
+the xref:_update_inventory_checkin_modifier[_Update Inventory_ checkin modifier is enabled].
 . Repeat all the steps for every shelving location/section of your collection that you wish to inventory.
 
 Workflow - Portable Barcode Scanner
@@ -109,9 +112,9 @@ image:images/circ/inventory/inventory-item-status-3.png[scaledwidth="75%"]
 . Run a report using the Sitka Template 
 xref:_inventory_un_scanned_items[_Inventory - Un-scanned Items_]. For the report filters 
 you will need the date you started inventory and the shelving location(s) you inventoried.
-. Take the list of un-scanned items the report produces and check the shelves to see if 
+. Take the list of un-scanned items and check the shelves to see if 
 any were missed.
-. Scan in any missed items and update their inventory date using the *Update Inventory* action.
+. If you find any un-scanned items, scan them in and update their inventory date using the *Update Inventory* action.
 . Any items you cannot locate should be xref:_missing[marked as missing]. Evergreen will alert
 you if they are found.   
 . Run a report using the Sitka Template 
@@ -120,7 +123,8 @@ Scanned Items Count by Shelving Location_]. For the report filters
 you will need the date you started inventory.
 . This report will show you how many items have had their inventory date updated 
 since you started inventory.  You will likely see items from other shelving locations 
-that have been updated through your regular check in process.
+that have been updated through your regular check in process, as long as 
+the xref:_update_inventory_checkin_modifier[_Update Inventory_ checkin modifier is enabled].
 . Repeat all the steps for every shelving location/section of your collection that you wish 
 to inventory.
 
