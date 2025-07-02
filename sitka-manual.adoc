@@ -51,7 +51,6 @@ include::circ/circ-selfcheck.adoc[]
 
 include::circ/circ-offline.adoc[]
 
-include::circ/circ-inventory.adoc[]
 
 Staff Catalogue
 ===============
@@ -136,6 +135,12 @@ Simple Reports
 
 include::reports/simple-reports.adoc[]
 
+Inventory
+=========
+
+include::inventory/inventory-preparing.adoc[]
+
+include::inventory/inventory-running.adoc[]
 
 Serials
 =======
@@ -151,15 +156,7 @@ include::serials/serials-routing.adoc[]
 
 include::serials/serials-binding.adoc[]
 
-////
-Inventory
-=========
-include::inventory/inventory-preparing.adoc[]
 
-include::inventory/inventory-running.adoc[]
-
-include::inventory/inventory-reporting.adoc[]
-////
 
 Course Reserves
 ===============
