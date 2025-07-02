@@ -1,6 +1,6 @@
 Preparing for an Inventory
 --------------------------
-(((Inventory, " " )))
+(((Inventory)))
 
 [NOTE]
 ======
@@ -11,11 +11,11 @@ projects done by libraries in the Sitka consortium and the Evergreen community.
 
 Inventory Date
 ~~~~~~~~~~~~~~
-(((Update Inventory Date)))
-(((Checkin Modifier)))
+(((Inventory Date)))
+(((Checkin Modifiers)))
 (((Item Status)))
 (((Holdings View)))
-(((Inventory Date)))
+
 
 Item records include fields for inventory date and inventory workstation. The
 values in these fields are updated when an item in inventoried by using the
@@ -86,7 +86,6 @@ reports later in the process.
 Report Templates
 ^^^^^^^^^^^^^^^^
 (((Reports, Inventory)))
-(((Inventory, Reports)))
 
 There are two report templates used with inventory - 
 xref:_inventory_un_scanned_items[_Inventory - Un-scanned Items_] and 
