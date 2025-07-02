@@ -39,7 +39,7 @@ Initial Set Up
 Inventory Start Date
 ++++++++++++++++++++
 
-Make a note of the date you start inventory on.  You will need this when running 
+Make a note of the date you start inventory.  You will need this when running 
 reports later in the process.
 
 Report Templates
@@ -60,6 +60,7 @@ For information on cloning report templates see xref:_cloning_a_report_template[
 Columns
 +++++++
 [[_inventory_columns]]
+(((Columns)))
 
 Best practice is to ensure that the Check In and Item Status screens are set to
 display the call number, shelving location, and circulation modifier xref:_columns[columns].
