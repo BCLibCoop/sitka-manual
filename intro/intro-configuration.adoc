@@ -1,8 +1,10 @@
 Configuring Your Workstation
 ----------------------------
+(((Configuration)))
 
 Colour Mode Setting
 ~~~~~~~~~~~~~~~~~~~
+(((Colour Mode, Configuration)))
 
 The Evergreen staff client can be used in light mode or dark mode.
 
@@ -16,7 +18,7 @@ image::images/intro/colour-mode-2.png[]
 
 Function Bar
 ~~~~~~~~~~~~
-(((Function Bar)))
+(((Function Bar, Configuration)))
 
 The function bar can be found throughout Evergreen and enables you to page through pages,
 adjust the number of rows displaying, access the Actions menu, and manage your columns and Actions menus.
@@ -37,6 +39,7 @@ image::images/intro/function-bar-2.png[]
 
 Grid Options
 ~~~~~~~~~~~~
+(((Grid Options, Configuration)))
 
 The *Grid Options* menu can be accessed from the xref:_function_bar[Function Bar] by clicking 
 on the gear symbol.
@@ -57,7 +60,7 @@ the original workstation's name or you will need to re-set all your grid setting
 
 Columns
 ^^^^^^^
-(((Column Configuration)))
+(((Columns, Configuration)))
 
 Display Columns
 +++++++++++++++
@@ -100,7 +103,7 @@ image::images/intro/grid-column-width-2.png[]
 Manage Actions Menu
 ^^^^^^^^^^^^^^^^^^^
 (((Manage Actions Menu)))
-(((Actions Menu)))
+(((Actions Menu, Configuration)))
 
 
 The newer xref:_function_bar[function bar] includes the *Manage Actions Menu* option.
@@ -134,6 +137,8 @@ image::images/intro/grid-manage-action-menu-3.png[]
 
 Downloading and Printing
 ^^^^^^^^^^^^^^^^^^^^^^^^
+(((Downloading)))
+(((Printing)))
 
 There are two ways to print the information in the grid and one way to download it.  In all
 cases, the list will only include the items currently displaying on the screen.
@@ -166,7 +171,7 @@ image:images/circ/download-hold-pull-list-1.png[scaledwidth="75%"]
 
 Library Selector
 ~~~~~~~~~~~~~~~~
-(((Library Selector)))
+(((Library Selector, Configuration)))
 
 Some interfaces include a library selector that enables staff to set the scope for the interface.
 
@@ -188,7 +193,7 @@ image::images/intro/library-selector-2.png[]
 
 Filters
 ~~~~~~~
-(((Filters)))
+(((Filters, Configuration)))
 
 Some interfaces include filters that enable staff to filter the available rows in the grid.
 
@@ -220,9 +225,10 @@ image::images/intro/filters-5.png[]
 
 ======
 
+[[_configuring_workstation_administration]]
 Workstation Administration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
-[[_configuring_workstation_administration]]
+(((Workstation Administration)))
 
 Workstation specific information can be set by going to *Administration -> Workstation*.
 
