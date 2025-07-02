@@ -1,6 +1,6 @@
 Preparing for an Inventory
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
-(((Inventory)))
+(((Inventory, )))
 
 Assessing Your Collection
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -45,7 +45,7 @@ reports later in the process.
 Report Templates
 ++++++++++++++++
 (((Reports, Inventory)))
-(((Inventory)))
+(((Inventory, Reports)))
 
 There are two report templates used with inventory - 
 xref:_inventory_un_scanned_items[_Inventory - Un-scanned Items_] and 
@@ -60,7 +60,7 @@ For information on cloning report templates see xref:_cloning_a_report_template[
 Columns
 +++++++
 [[_inventory_columns]]
-(((Columns)))
+(((Columns, Inventory)))
 
 Best practice is to ensure that the Check In and Item Status screens are set to
 display the call number, shelving location, and circulation modifier xref:_columns[columns].
@@ -80,7 +80,7 @@ permissions can update the items as needed.
 Update Inventory Checkin Modifier
 +++++++++++++++++++++++++++++++++
 [_update_inventory_checkin_modifier]
-(((Update Inventory Date)))
+(((Update, Inventory Date)))
 
 Turn on the _Update Inventory_ checkin modifier on all computers where items may be checked
 in while you are doing inventory.  This ensures that any items currently circulating 
