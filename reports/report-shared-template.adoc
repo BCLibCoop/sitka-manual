@@ -49,6 +49,7 @@ change as Co-op Staff add, update, and remove templates as needed.
 
 Acquisitions
 ^^^^^^^^^^^^
+[[_sitka_templates_acq]]
 
 The _Acquisitions_ folder contains a number of sub-folders which divide the report templates across
 the different parts of the acquisitions module. 
@@ -61,6 +62,7 @@ the different parts of the acquisitions module.
 
 Bibliographic Records
 ^^^^^^^^^^^^^^^^^^^^^
+[[_sitka_templates_bib_records]]
 
 Here you will find templates that generate lists of bibliographic records, usually with the record ID
 included in the output.  In general it is not easy to generate reports based on bibliographic data based
@@ -72,6 +74,7 @@ on the bibliographic record structure; this limits the templates that are availa
 
 Bills Payments
 ^^^^^^^^^^^^^^
+[[_sitka_templates_bills-payments]]
 
 Here you will find templates related to billing and payments.  These templates can be used to track
 down balances, get totals of payments made in specific time periods as well as generate lists of patrons 
@@ -84,8 +87,9 @@ with bill balances meeting specified criteria.
 * _Snapshot of total billing balance incurred at selected libraries_
 * _System Adjustment: Lost Item Returned_
 
-Bookings
+Booking
 ^^^^^^^^
+[[_sitka_templates_booking]]
 
 Here you will find templates to give you information about overdue reservations, reservations starting after
 a particular day, cancelled reservations and more.
@@ -99,6 +103,7 @@ a particular day, cancelled reservations and more.
 
 Circulation
 ^^^^^^^^^^^
+[[_sitka_templates_circulation]]
 
 The _Circulation_ folder contains templates primarily concerned with circulations.  Templates have
 been divided into the following sub-folders.
@@ -178,6 +183,7 @@ Here are templates for libraries that use xref:_non_catalogued_items[non-catalog
 
 Collection
 ^^^^^^^^^^
+[[_sitka_templates_collection]]
 
 The _Collections_ folder contains templates primarily concerned with your collection.  Templates have
 been divided into the following sub-folders.
@@ -251,6 +257,7 @@ including templates related to deleted items, pre-catalogued items, and weeding.
 
 Custom Templates
 ^^^^^^^^^^^^^^^^
+[[_sitka_templates_custom]]
 
 As needed Co-op Support will assist libraries in modifiying templates or creating new templates specific to that 
 library's needs and will put these new or modified templates into a custom folder specificially for that 
@@ -265,6 +272,7 @@ know and we can remove them for you to help keep the templates in that folder up
 
 Holds
 ^^^^^
+[[_sitka_templates_holds]]
 
 Here you will find templates that will give you counts and lists related to holds.
 
@@ -276,8 +284,9 @@ Here you will find templates that will give you counts and lists related to hold
 * _Suspended Holds (holds without expiration date)_
 * _Unfulfilled & Uncancelled ILC Holds Placed within Time Span_
 
-Intra-federation ILL Stats
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+Intra-federation ILL
+^^^^^^^^^^^^^^^^^^^^
+[[_sitka_templates_ill]]
 
 Here you will find templates to track interlibrary loans done via Interlibrary Connect within Evergreen.  
 These templates are relavant to libraries participating in BC ILC, Sea to Sky ILC, or Spruce ILC.
@@ -288,6 +297,7 @@ These templates are relavant to libraries participating in BC ILC, Sea to Sky IL
 
 Inventory
 ^^^^^^^^^
+[[_sitka_templates_inventory]]
 
 Here you will find two templates to assist you in running inventory at your library.
 
@@ -299,6 +309,7 @@ results based on specific item statuses and shelving locations.
 
 Local Administration
 ^^^^^^^^^^^^^^^^^^^^
+[[_sitka_templates_local_admin]]
 
 Here you will find templates that can be used to display information about to aid library staff when working with local 
 administration functions.  Some of the templates duplicate information that can be
@@ -313,11 +324,19 @@ viewed directly in the staff client but is easier to view as report output.
 
 Misc.
 ^^^^^
+[[_sitka_templates_misc]]
 
 Here you will find templates that don't fit in any other category.
 
+Notifications
+^^^^^^^^^^^^^
+[[_sitka_templates_notifications]]
+
+Here you will find templates for lists of patrons who received notifications.
+
 Patrons
 ^^^^^^^
+[[_sitka_templates_patrons]]
 
 The _Patrons_ folder contains templates primarily concerned with your patrons.  Templates have
 been divided into the following sub-folders.
