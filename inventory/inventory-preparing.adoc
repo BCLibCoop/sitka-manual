@@ -59,7 +59,9 @@ xref:_title_amp_item_count_by_shelving_location_and_circulation_modifier[Title &
 Item Count by Shelving Location & Circulation Modifier]
 +
 ** This template will give a report showing the make up of your entire collection by shelving location & circulation
-modifier.  The report can be helpful in determining which sections of the collection you would like to inventory when.
+modifier.  The report will show you the size of different parts of your
+collection which you can be helpful when thinking about the order in which to inventory
+different section.
 +
 * Sitka_templates -> Collection -> Item List by Item Attributes -> Shelving Location : 
 Items with Selected Shelving Location
