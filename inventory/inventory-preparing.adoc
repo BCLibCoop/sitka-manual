@@ -1,0 +1,140 @@
+Preparing for an Inventory
+--------------------------
+(((Inventory)))
+
+[NOTE]
+======
+The following guidelines and workflows have been developed by Co-op Support based on 
+the functionality available in Sitka's Evergreen and the experience of inventory 
+projects done by libraries in the Sitka consortium and the Evergreen community.
+======
+
+Inventory Date
+~~~~~~~~~~~~~~
+(((Inventory Date)))
+(((Checkin Modifiers)))
+(((Item Status)))
+(((Holdings View)))
+
+
+Item records include fields for inventory date and inventory workstation. The
+values in these fields are updated when an item in inventoried by using the
+*Update Inventory* action in _Item Status_ or the *Update Inventory* checkin 
+modifier at _Check In_.
+
+The inventory date and workstation can be seen in several places in the staff
+client:
+
+* Item Status - List View
++
+image:images/inventory/update-inventory-item-record-1.png[scaledwidth="75%"]
++
+* Item Status - Detail View Quick Summary Tab
++
+image:images/inventory/update-inventory-item-record-2.png[scaledwidth="75%"]
++
+* Bibliographic Record - Holdings View
++
+image:images/inventory/update-inventory-item-record-3.png[scaledwidth="75%"]
++
+[NOTE]
+======
+Due to a bug the inventory workstation in the Holdings View currently displays
+the workstation database ID rather than the workstation name.
+======
+
+Assessing Your Collection
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The first step to running inventory is to choose what you will inventory.  You may wish to inventory the entire
+library collection or just plan on running inventory on specific collections.
+
+If you plan to inventory the entire library collection Co-op Support recommends breaking it into sections, based
+on shelving location and/or call number range.
+
+There are several report templates you can use to aid you in preparing for your inventory.
+
+* Sitka_templates -> Collection -> Item and Title Count -> 
+xref:_title_amp_item_count_by_shelving_location_and_circulation_modifier[Title & 
+Item Count by Shelving Location & Circulation Modifier]
++
+** This template will give a report showing the make up of your entire collection by shelving location & circulation
+modifier.  The report will show you the size of different parts of your
+collection which can be helpful when thinking about the order in which to inventory
+different sections.
++
+* Sitka_templates -> Collection -> Item List by Item Attributes -> Shelving Location : 
+Items with Selected Shelving Location
++
+** This template will give a report that lists all items in a particular shelving location. This can be helpful
+to show what should be on the shelf.
++
+* Sitka_templates -> Collection -> Item List by Item Attributes -> 
+Call Number : Items with Call Numbers within a Range
++
+** This template will give a report that lists all items in your specified call number range.  This can be helpful to 
+break up large shelving locations, like Fiction and Non-Fiction, into smaller pieces.
+
+
+Initial Set Up
+~~~~~~~~~~~~~~
+
+Inventory Start Date
+^^^^^^^^^^^^^^^^^^^^
+
+Make a note of the date you start inventory.  You will need this when running 
+reports later in the process.
+
+Report Templates
+^^^^^^^^^^^^^^^^
+(((Reports, Inventory)))
+
+There are two report templates used with inventory - 
+xref:_inventory_un_scanned_items[_Inventory - Un-scanned Items_] and 
+xref:_inventory_scanned_items_count_by_shelving_location[_Inventory - 
+Scanned Items Count by Shelving Location_]. Both templates can be found under 
+Sitka_templates -> Inventory.
+
+Make sure you have the most recent version of the templates cloned into your own folders.
+For information on cloning report templates see xref:_cloning_a_report_template[].
+
+
+[[_inventory_columns]]
+Columns
+^^^^^^^
+(((Columns, Inventory)))
+
+Best practice is to ensure that the Check In and Item Status screens are set to
+display the call number, shelving location, and circulation modifier xref:_columns[columns].
+
+As items are scanned for inventory staff should keep an eye out for the following:
+
+* incorrect call numbers
+* call numbers not matching between Evergreen and the item
+* incorrect shelving locations
+* incorrect circulation modifiers
+* missing circulation modifiers
+
+Items found with one of the above issues should be pulled so staff with cataloguing 
+permissions can update the items as needed.  
+
+
+Update Inventory Checkin Modifier
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(((Update, Inventory Date)))
+
+Turn on the _Update Inventory_ checkin modifier on all computers where items may be checked
+in while you are doing inventory.  This ensures that any items currently circulating 
+will have their inventory date updated when they are checked in.
+
+. In Evergreen, go to **Circulation -> Check In**.
+. From the _Checkin Modifiers_ drop down select **Update Inventory**.
++
+image:images/inventory/inventory-checkin-modifier-1.png[scaledwidth="75%"]
++
+. A banner will display across the top of the check in screen to indicate that the _Update
+Inventory_ modifier is being used.
++
+image:images/inventory/inventory-checkin-modifier-2.png[scaledwidth="75%"]
+
+

@@ -16,7 +16,7 @@ When a library staff account expires the staff member is not able to log into th
 Evergreen staff client until their account has been renewed. 
 ======
 
-There are three kinds of library staff accounts:
+There are two kinds of library staff accounts recommended by Co-op Support:
 
 *Staff Specific Accounts*
 
@@ -35,7 +35,15 @@ Libraries are encouraged to use Staff Specific Accounts for all accounts that ne
 reporter in Evergreen to avoid the need to re-set up recurring reports.
 ======
 
-*Staff/Personal Accounts*
+*Generic Staff Accounts*
+
+* Account is generally specific to a department or function, such as circulation or cataloguing, and is used
+by multiple staff members.
+* Account name is not tied to a specific person.  For example, Circulation FrontDesk is a commonly used name.
+* Account CANNOT be granted permissions to use the reporter or view report output.
+
+
+*Staff/Personal Accounts - No Longer Recommended*
 
 * Account is specific to a particular staff member and includes their personal details like first 
 and last name.
@@ -45,16 +53,10 @@ and last name.
 
 [NOTE]
 ======
-Support recommends using Staff Specific Accounts instead of Staff/Personal Accounts. It is easier 
-for libraries to manage accounts when staff and personal accounts are kept separate.
+Co-op Support now strongly recommends against using Staff/Personal Accounts due to issues that
+have arisen when libraries are closing down a staff member's account after they leave the library.
 ======
 
-*Generic Staff Accounts*
-
-* Account is generally specific to a department or function, such as circulation or cataloguing, and is used
-by multiple staff members.
-* Account name is not tied to a specific person.  For example, Circulation FrontDesk is a commonly used name.
-* Account CANNOT be granted permissions to use the reporter or view report output.
 
 
 Creating Library Staff Accounts

@@ -1,3 +1,178 @@
+Inventorying Your Collection
+----------------------------
+(((Inventory)))
+
+
+[TIP]
+=====
+Once you start your inventory, any item found in an incorrect location should be
+checked in before it is shelved in the correction location to ensure its
+inventory date is updated.
+=====
+
+Workflow - Item Status
+~~~~~~~~~~~~~~~~~~~~~~
+
+. Go to **Circulation -> Item Status**.
+. Ensure you have rows set to at least 500 in your xref:_function_bar[function bar].
+. Scan in your items.
+. Select all the items by clicking on the check box in the column label row.
++
+image:images/inventory/inventory-item-status-1.png[scaledwidth="75%"]
++
+. From the **Actions** menu choose **Update Inventory**.
++
+image:images/inventory/inventory-item-status-2.png[scaledwidth="75%"]
++
+. A confirmation will appear in the bottom right corner.
++
+image:images/inventory/inventory-item-status-3.png[scaledwidth="75%"]
++
+. Repeat until you have scanned and updated all the items in your desired section of 
+the collection.
+. Run a report using the Sitka Template 
+xref:_inventory_un_scanned_items[_Inventory - Un-scanned Items_]. For the report filters 
+you will need the date you started inventory and the shelving location(s) you inventoried.
+. Take the list of un-scanned items and check the shelves to see if 
+any were missed.
+. If you find any un-scanned items, scan them in and update their inventory date using the *Update Inventory* action.
+. Any items you cannot locate should be xref:_missing[marked as missing]. Evergreen will alert
+you if they are found.   
+. Run a report using the Sitka Template 
+xref:_inventory_scanned_items_count_by_shelving_location[_Inventory - 
+Scanned Items Count by Shelving Location_]. For the report filters 
+you will need the date you started inventory.
+. This report will show you how many items have had their inventory date updated 
+since you started inventory.  You will likely see items from other shelving locations 
+that have been updated through your regular check in process, as long as 
+the xref:_update_inventory_checkin_modifier[_Update Inventory_ checkin modifier is enabled]
+on all workstations where check in is done.
+. Repeat all the steps for every shelving location/section of your collection that you wish 
+to inventory.
+
+Workflow - Check In
+~~~~~~~~~~~~~~~~~~~
+
+. Go to **Circulation -> Check In**.
+. Ensure the checkin modifier **Update Inventory** is active. For information
+on turning this on see xref:_update_inventory_checkin_modifier[].
++
+image:images/inventory/inventory-checkin-modifier-2.png[scaledwidth="75%"]
++
+. Scan in your items. Their inventory date is automatically updated.
+. Repeat until you have scanned and updated all items in your desired section 
+of the collection.
+. Run a report using the Sitka Template 
+xref:_inventory_un_scanned_items[_Inventory - Un-scanned Items_]. For the report filters 
+you will need the date you started inventory and the shelving location(s) you inventoried.
+. Take the list of un-scanned items and check the shelves to see if 
+any were missed.
+. If you find any un-scanned items, scan them in. Their inventory date is automatically updated.
+. Any items you cannot locate should be xref:_missing[marked as missing]. Evergreen will alert
+you if they are found.
+. Run a report using the Sitka Template xref:_inventory_scanned_items_count_by_shelving_location[_Inventory - 
+Scanned Items Count by Shelving Location_]. For the report filters 
+you will need the date you started inventory.
+. This report will show you how many items have had their inventory date updated 
+since you started inventory.  You will likely see items from other shelving locations 
+that have been updated through your regular check in process, as long as 
+the xref:_update_inventory_checkin_modifier[_Update Inventory_ checkin modifier is enabled]
+on all workstations where check in is done.
+. Repeat all the steps for every shelving location/section of your collection that you wish to inventory.
+
+Workflow - Portable Barcode Scanner
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+. Using your portable barcode scanner, scan every item on the shelf in  your desired section of the collection.
+. Export the barcodes to a text file (we recommend using Notepad) and save the file. 
+The barcodes should be in one single spaced single column without extra spaces anywhere.
+. Use copy/paste to break the big list of barcodes into smaller lists and save each list 
+as an individual text file. Co-op Support recommends each list contain under 500 barcodes. 
+. Go to **Circulation -> Item Status**.
+. Ensure you have rows set to at least 500 in your xref:_function_bar[function bar].
+. Click **Choose File**.
++
+image:images/inventory/inventory-barcode-scanner-1.png[scaledwidth="75%"]
++
+. Follow the on screen prompts to select your file.
+. A progress bar will display as the file loads.  The larger the file the longer it will
+take to load.
+. The items will be listed and the file name displays at the top.  
+. Select all the items by clicking on the check box in the column label row.
++
+image:images/inventory/inventory-barcode-scanner-2.png[scaledwidth="75%"]
++
+. From the **Actions** menu choose **Update Inventory**.
++
+image:images/inventory/inventory-barcode-scanner-3.png[scaledwidth="75%"]
++
+. A confirmation will appear in the bottom right corner.
++
+image:images/inventory/inventory-item-status-3.png[scaledwidth="75%"]
++
+. Repeat until you have updated all items in your desired section of your collection.
+. Run a report using the Sitka Template 
+xref:_inventory_un_scanned_items[_Inventory - Un-scanned Items_]. For the report filters 
+you will need the date you started inventory and the shelving location(s) you inventoried.
+. Take the list of un-scanned items and check the shelves to see if 
+any were missed.
+. If you find any un-scanned items, scan them in and update their inventory date using the *Update Inventory* action.
+. Any items you cannot locate should be xref:_missing[marked as missing]. Evergreen will alert
+you if they are found.   
+. Run a report using the Sitka Template 
+xref:_inventory_scanned_items_count_by_shelving_location[_Inventory - 
+Scanned Items Count by Shelving Location_]. For the report filters 
+you will need the date you started inventory.
+. This report will show you how many items have had their inventory date updated 
+since you started inventory.  You will likely see items from other shelving locations 
+that have been updated through your regular check in process, as long as 
+the xref:_update_inventory_checkin_modifier[_Update Inventory_ checkin modifier is enabled]
+on all workstations where check in is done.
+. Repeat all the steps for every shelving location/section of your collection that you wish 
+to inventory.
+
+Finishing Your Inventory
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Once you have inventoried all desired section of your collection, run the two inventory
+reports one more time. 
+
+You may wish to keep the final output from xref:_inventory_scanned_items_count_by_shelving_location[_Inventory - 
+Scanned Items Count by Shelving Location_] for your records.
+
+xref:_inventory_un_scanned_items[_Inventory - Un-scanned Items_] should be run for all
+shelving locations where inventory was done.  If you have been marking unfound items
+as missing throughout the inventory process this report will be blank. If any items
+do appear on the report, xref:_missing[mark them as missing].
+
+You may also wish to use the Sitka Template 
+xref:_status_all_items_with_selected_item_status[_Status: All Items with Selected Item Status_]
+to generate a list of your missing items so you can determine if any should be re-ordered.
+
+
+////
+ORIGINAL CONTENT
+
+There are two report templates in the Sitka_templates -> Inventory folder on the _Reports_ screen.
+
+**Inventory - Scanned Items Count by Shelving Location**
+
+This report counts the items that have been checked in/out or otherwise had their status changed
+(including being checked out, marked missing or lost) during the inventory period.
+The date when you started taking inventory should be entered as the _Copy Status Changed Time_ when
+running the report. The numbers are broken down by shelving locations.
+
+**Inventory - Un-scanned Items**
+
+This report generates a list of items that should be on the shelf but were not checked in/out
+or otherwise had their status changed during the inventory period. When running the report use the
+date when you started taking inventory for the _Copy Status Changed Time_, the shelving location(s) in which
+you took inventory and the "on shelf" statuses _Reshelving_ and _Available_.
+
+You can use this report to search for the listed items. You can also upload the barcodes from this report into the 
+Item Status screen and set the items to _Missing_.
+
+
 Running Inventory
 -----------------
 
@@ -104,11 +279,12 @@ items using the checkbox at the top of the Row Selector Column.
 +
 . Repeat steps 4-7 to inventory the items in all of your files.
 
-////
+
 [TIP]
 =====
 You may see prompt popups for items with special statuses, such as lost, missing, checked out,
 in-transit or routing to the holds shelf. Once you confirm the prompt, the loading will continue.
 You need to follow up with items going on hold shelf and in-transit.
 =====
+
 ////

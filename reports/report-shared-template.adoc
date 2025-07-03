@@ -47,6 +47,7 @@ to make it easier for library staff to find the templates they need.  The specif
 change as Co-op Staff add, update, and remove templates as needed.
 
 
+[[_sitka_templates_acq]]
 Acquisitions
 ^^^^^^^^^^^^
 
@@ -59,6 +60,7 @@ the different parts of the acquisitions module.
 * _Line items that have been Received but not Invoiced_ (Line Items)
 * _Orphaned Barcodes (items)_ (Line Items)
 
+[[_sitka_templates_bib_records]]
 Bibliographic Records
 ^^^^^^^^^^^^^^^^^^^^^
 
@@ -70,6 +72,7 @@ on the bibliographic record structure; this limits the templates that are availa
 * _List of items with selected item_type value in MARC leader_
 * _Title, bib id and URL list of records with 856$9 = library shortname code (clone)_
 
+[[_sitka_templates_bills-payments]]
 Bills Payments
 ^^^^^^^^^^^^^^
 
@@ -84,8 +87,9 @@ with bill balances meeting specified criteria.
 * _Snapshot of total billing balance incurred at selected libraries_
 * _System Adjustment: Lost Item Returned_
 
-Bookings
-^^^^^^^^
+[[_sitka_templates_booking]]
+Booking
+^^^^^^^
 
 Here you will find templates to give you information about overdue reservations, reservations starting after
 a particular day, cancelled reservations and more.
@@ -97,6 +101,7 @@ a particular day, cancelled reservations and more.
 * _Total Reservations Picked Up (Monthly)_
 
 
+[[_sitka_templates_circulation]]
 Circulation
 ^^^^^^^^^^^
 
@@ -176,6 +181,7 @@ Here are templates for libraries that use xref:_non_catalogued_items[non-catalog
 * _Circulation count of non-catalogued items by item type within time frame_
 * _Monthly Circulation count of non-catalogued items by item type_
 
+[[_sitka_templates_collection]]
 Collection
 ^^^^^^^^^^
 
@@ -249,6 +255,7 @@ including templates related to deleted items, pre-catalogued items, and weeding.
 * _xref:_weeding_items_circulated_fewer_times_since_a_selected_date_excl_copied_added_after_a_selected_date[Weeding - Items Circulated Fewer Times since a Selected Date (excl. Items added after a Selected Date)]_
 * _xref:_weeding_items_never_circulated_after_a_selected_date[Weeding - Items Never Circulated after a Selected Date]_
 
+[[_sitka_templates_custom]]
 Custom Templates
 ^^^^^^^^^^^^^^^^
 
@@ -263,6 +270,7 @@ If there are templates in your custom folder that are no longer needed by your l
 know and we can remove them for you to help keep the templates in that folder up to date.
 
 
+[[_sitka_templates_holds]]
 Holds
 ^^^^^
 
@@ -276,8 +284,9 @@ Here you will find templates that will give you counts and lists related to hold
 * _Suspended Holds (holds without expiration date)_
 * _Unfulfilled & Uncancelled ILC Holds Placed within Time Span_
 
-Intra-federation ILL Stats
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+[[_sitka_templates_ill]]
+Intra-federation ILL
+^^^^^^^^^^^^^^^^^^^^
 
 Here you will find templates to track interlibrary loans done via Interlibrary Connect within Evergreen.  
 These templates are relavant to libraries participating in BC ILC, Sea to Sky ILC, or Spruce ILC.
@@ -286,6 +295,7 @@ These templates are relavant to libraries participating in BC ILC, Sea to Sky IL
 * _xref:_library_inbound_ilc_holds_count_for_selected_month[LIBRARY: Inbound ILC holds count for selected month]_
 * _xref:_library_outbound_ilc_holds_count_for_selected_month[LIBRARY: Outbound ILC holds count for selected month]_
 
+[[_sitka_templates_inventory]]
 Inventory
 ^^^^^^^^^
 
@@ -297,6 +307,7 @@ Here you will find two templates to assist you in running inventory at your libr
 list of all items not scanned in the specified time period, with the option to filter the 
 results based on specific item statuses and shelving locations.
 
+[[_sitka_templates_local_admin]]
 Local Administration
 ^^^^^^^^^^^^^^^^^^^^
 
@@ -311,11 +322,19 @@ viewed directly in the staff client but is easier to view as report output.
 * _Hold policy by pickup library (ILC participants: please select your federation, too)_
 * _Reports Run In Specified Time Period By Specified Library_
 
+[[_sitka_templates_misc]]
 Misc.
 ^^^^^
 
 Here you will find templates that don't fit in any other category.
 
+[[_sitka_templates_notifications]]
+Notifications
+^^^^^^^^^^^^^
+
+Here you will find templates for lists of patrons who received notifications.
+
+[[_sitka_templates_patrons]]
 Patrons
 ^^^^^^^
 
@@ -351,8 +370,8 @@ get lists based on shelving locations, item statuses, circulation modifiers, sta
  
 .Key templates are:
 * _Patron List by Expiration Date_
-* _Patron List with Full Details by Profile Groups_
-* _Patrons without circulation after a selected date (Inactive patrons)_
+* _Patron List with Full Details Filtered by Patron Profiles_
+* _Patrons without circulation after selected date (Inactive patrons)_
 
 Newly Registered/Opted-in Patrons
 +++++++++++++++++++++++++++++++++

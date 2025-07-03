@@ -3,6 +3,7 @@ Getting Started
 
 Accessing the Evergreen Staff Client for Sitka Libraries
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(((Evergreen Staff Client)))
 
 * Sitka's Evergreen web client is only supported in Chrome. You must use Chrome to log in to Evergreen.
 
@@ -14,6 +15,7 @@ image::images/intro/accessing-evergreen-1.png[]
 
 Logging into Evergreen
 ^^^^^^^^^^^^^^^^^^^^^^
+(((Logging In)))
 
 . The URL to log into the staff client is *https://catalogue.libraries.coop/eg/staff/*
 . Enter your username and password.
@@ -43,6 +45,7 @@ If your account has a working location and you cannot login try the following:
 
 Logging Out of Evergreen
 ^^^^^^^^^^^^^^^^^^^^^^^^
+(((Logging Out)))
 
 . Click the menu button in the upper right-hand corner.
 . Select *Log Out* from the drop down menu.
@@ -147,6 +150,7 @@ how this can be done.
 Keyboard Navigation
 ~~~~~~~~~~~~~~~~~~~
 (((Keyboard Navigation)))
+(((Keyboard Shorcuts)))
 
 Staff can use the following navigation bar functions to navigate Evergreen. 
 
@@ -160,7 +164,7 @@ Staff can use the following navigation bar functions to navigate Evergreen.
 
 Staff can also use the following keyboard shortcuts to navigate Evergreen.
 
-[[keyboard-shortcuts]]
+[[_keyboard_shortcuts]]
 .Keyboard Shortcuts
 [options="header"]
 |===
@@ -190,9 +194,10 @@ The shortcuts also display in the menus beside the associated options.
 
 image::images/intro/keyboard-navigation-2.png[]
 
-[[download-hatch]]
+[[_download_hatch]]
 Downloading and Installing Hatch
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(((Hatch)))
 
 Hatch is an *optional* installable program that works with your browser to manage complex printing needs, such as printing to different printers under different circumstances.
 

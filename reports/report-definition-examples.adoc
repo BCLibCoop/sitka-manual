@@ -1,4 +1,3 @@
-
 Circulation Related Statistics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -126,11 +125,20 @@ Recommended Recurrence Interval: *None, run as needed*
  
 . Enter a descriptive name that includes the date on which you ran the report.  You will likely run this report several times
 over the course of performing inventory.
-. Select your library.
-. Enter the date on which you started doing inventory.
-. Ensure the box is checked for *Run as soon as possible*.
++
+image::images/report/appendix/inventory-scanned-count-by-location-1.png[]
++
+. On the _Filters_ tab, enter values for the filters.
+.. Circulating Library = select your library.
+.. Latest Inventory Date = enter the date on which you started doing inventory.
++
+image::images/report/appendix/inventory-scanned-count-by-location-2.png[]
++
+. On the _Layout and Scheduling_ tab, ensure the box is checked for *Run Report Now*.
++
+image::images/report/appendix/run-report-now.png[]
 
-image::images/report/appendix/inventory-scanned-count-by-location.png[]
+
 
 Inventory - Un-scanned Items
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -141,17 +149,32 @@ _Found under Shared Folders -> Templates -> Sitka_templates ->
 Recommended Recurrence Interval: *None, run as needed*
 
 . Enter a descriptive name.
-. Select your library.
-. Add the on-shelf statuses for your library such as _Available_ and _Reshelving_.  With this report you are looking for items
-in these statuses that should have been on the shelf and scanned for inventory but were not.
-. Add the shelving location(s) you want included in your report.
-. Enter the date on which you started doing inventory.
-. Ensure the box is checked for *Run as soon as possible*.
++
+image::images/report/appendix/inventory-un-scanned-1.png[]
++
+. On the _Filters_ tab, enter values for the filters.
+.. Circulating Library = select your library.
++
+image::images/report/appendix/inventory-un-scanned-2.png[]
++
+.. Location ID =  add the shelving location(s) you want included in your report.
++
+image::images/report/appendix/inventory-un-scanned-3.png[]
++
+.. Enter the date on which you started doing inventory.
++
+image::images/report/appendix/inventory-un-scanned-4.png[]
++
+.. ID = add the on-shelf statuses for your library such as _Available_ and _Reshelving_.  With this 
+report you are looking for items in these statuses that should have been on the shelf and scanned for 
+inventory but were not.
++
+image::images/report/appendix/inventory-un-scanned-5.png[]
++
+. On the _Layout and Scheduling_ tab, ensure the box is checked for *Run Report Now*.
++
+image::images/report/appendix/run-report-now.png[]
 
-_Found under Shared Folders -> Templates -> Sitka_templates ->
- Inventory._
-
-image::images/report/appendix/inventory-un-scanned.png[]
 
 Overdues Within Time Span - General (Based on Checkout Library)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -224,16 +247,31 @@ Recommended Recurrence Interval: *Monthly*
 
 . Enter a name that doesn't include a specific date as this report will run every month. For example, "Items Currently Damaged, Lost
 or Missing", not "January Damaged, Lost, or Missing Items".
-. Choose *Relative Date*.
-. Add your library or your branch(es).
-. Select the status(es) you would like included in the report output.
-.. You can run the report separately for each status you want to report on or have multiple statuses on the same report.
-. Check the box for Recurring Report.
++
+image::images/report/appendix/items-with-selected-status-1.png[]
++
+. On the _Filters_ tab, enter values for the filters.
+.. Organizational Unit ID = select your library.
++
+image::images/report/appendix/items-with-selected-status-2.png[]
++
+.. ID = add the status(es) you want included in your report.
++
+image::images/report/appendix/items-with-selected-status-3.png[]
++
+. Check the box for _Recurring Report_.
 .. Set the *Recurrence Interval* to *1 Month(s)*.
-.. Check the box beside the date and set the date to the first of the next month.
-.. Set the time to between 1:00am PT and 4:00am PT.
+. Check the radio button for _Schedule Report For Later_.
+.. Set the date to the first of the next month and the time to between 1:00am PT 
+and 4:00am PT.
++
+image::images/report/appendix/items-with-selected-status-4.png[]
 
-image::images/report/appendix/status-all-items-with-selected-status.png[]
+[TIP]
+=====
+Libraries may wish to set up multiple recurring reports, each for a different item status, or 
+a single report that includes multiple statuses.
+=====
 
 Title & Item Count by Shelving Location and Circulation Modifier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -245,10 +283,17 @@ Recommended Recurrence Interval: *None, run as needed*
 
 . Enter a name that includes a specific date as this report will show a snapshot of
 your collection at the moment the report is run.
-. Add your library or your branch(es).
-. Ensure the box is checked for *Run as soon as possible*.
-
-image::images/report/appendix/title-item-count-location-circ-mod.png[]
++
+image::images/report/appendix/title-item-count-shelving-circ-mod-1.png[]
++
+. On the _Filters_ tab, enter values for the filters.
+.. Organizational Unit ID = select your library.
++
+image::images/report/appendix/title-item-count-shelving-circ-mod-2.png[]
++
+. On the _Layout and Scheduling_ tab, ensure the box is checked for *Run Report Now*.
++
+image::images/report/appendix/run-report-now.png[]
 
 ////
 
