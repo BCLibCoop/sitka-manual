@@ -247,16 +247,31 @@ Recommended Recurrence Interval: *Monthly*
 
 . Enter a name that doesn't include a specific date as this report will run every month. For example, "Items Currently Damaged, Lost
 or Missing", not "January Damaged, Lost, or Missing Items".
-. Choose *Relative Date*.
-. Add your library or your branch(es).
-. Select the status(es) you would like included in the report output.
-.. You can run the report separately for each status you want to report on or have multiple statuses on the same report.
-. Check the box for Recurring Report.
++
+image::images/report/appendix/items-with-selected-status-1.png[]
++
+. On the _Filters_ tab, enter values for the filters.
+.. Organizational Unit ID = select your library.
++
+image::images/report/appendix/items-with-selected-status-2.png[]
++
+.. ID = add the status(es) you want included in your report.
++
+image::images/report/appendix/items-with-selected-status-3.png[]
++
+. Check the box for _Recurring Report_.
 .. Set the *Recurrence Interval* to *1 Month(s)*.
-.. Check the box beside the date and set the date to the first of the next month.
-.. Set the time to between 1:00am PT and 4:00am PT.
+. Check the radio button for _Schedule Report For Later_.
+.. Set the date to the first of the next month and the time to between 1:00am PT 
+and 4:00am PT.
++
+image::images/report/appendix/items-with-selected-status-4.png[]
 
-image::images/report/appendix/status-all-items-with-selected-status.png[]
+[TIP]
+=====
+Libraries may wish to set up multiple recurring reports, each for a different item status, or 
+a single report that includes multiple statuses.
+=====
 
 Title & Item Count by Shelving Location and Circulation Modifier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
