@@ -6,9 +6,6 @@ Best Practices for Using the Browser
 Setting Browser Defaults for Web Client
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-(((Browser, Settings)))
-(((Settings, Browser)))
-
 To ensure that staff can easily get to the web client portal page on login without additional steps, you can set the browser’s home page to default to the web client.
 
 .Setting the Web Client as the Home Page in Chrome
@@ -30,6 +27,8 @@ image::images/intro/homepage2.png[]
 [[_bookmarks_profiles]]
 Bookmarks and Shortcuts
 ~~~~~~~~~~~~~~~~~~~~~~~
+(((Browser, Bookmarks)))
+(((Browser, Shortcuts)))
 
 Bookmark Toolbar
 ^^^^^^^^^^^^^^^^
@@ -61,6 +60,7 @@ Some users may want to automatically open the web client’s portal page in a ne
 
 Browser Configuration
 ~~~~~~~~~~~~~~~~~~~~~
+(((Broswer, Configuration)))
 
 Update browser
 ^^^^^^^^^^^^^^
@@ -77,9 +77,7 @@ image::images/intro/browser1.png[]
 [[_allow_popups]]
 Allow Pop-ups
 ^^^^^^^^^^^^^
-
 (((Browser, Pop-ups)))
-(((Pop-ups, Browser)))
 
 Your browser must allow pop-ups from *https://catalogue.libraries.coop* or you will see a small icon or message when a pop-up is triggered.
 
@@ -106,9 +104,7 @@ image:images/intro/popupallow.png[scaledwidth="75%"]
 
 Allow Cookies
 ^^^^^^^^^^^^^
-
 (((Browser, Cookies)))
-(((Cookies, Browser)))
 
 .Allow Cookies
 . Click *Menu*.
@@ -134,9 +130,7 @@ If you have cookies enabled in your browser, but they are disappearing, check yo
 
 Turn Off Autofill
 ^^^^^^^^^^^^^^^^^
-
 (((Browser, Autofill)))
-(((Autofill, Browser)))
 
 . Click *Menu*.
 +
@@ -152,15 +146,13 @@ image::images/intro/autofill.png[]
 Troubleshooting
 ~~~~~~~~~~~~~~~
 
-(((Troubleshooting, Browser)))
 (((Browser, Troubleshooting)))
-(((Internet Browser, Troubleshooting)))
 
 
 Retrieve Console Messages
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-(((Troubleshooting, Console Messages)))
+(((Browser, Console Messages)))
 
 If you are encountering issues in Evergreen please check the 
 browser console and send any error messages that appear to 
@@ -200,9 +192,8 @@ Please read xref:_guidelines_for_support_requests[] before submitting your ticke
 
 Clear Cache
 ^^^^^^^^^^^
-
 (((Browser, Cache)))
-(((Cache, Browser)))
+
 
 .Clear Cache
 . Click *Menu*.
@@ -219,9 +210,8 @@ image::images/intro/clearcache.png[]
 
 Clear Cookies
 ^^^^^^^^^^^^^
-
 (((Browser, Cookies)))
-(((Cookies, Browser)))
+
 
 If you log in and see a blank page with the green bar across the top, but nothing else will load, you may need to clear your browser's cache and cookies.
 
@@ -234,7 +224,6 @@ Co-op Support recommends writing down your workstation name before clearing cook
 so that you can register with the same workstation name which will preserve 
 your workstation settings.
 =========
-
 
 .Clear Cookies
 . Click *Menu*.
@@ -256,9 +245,8 @@ xref:_registering_a_staff_workstation[].
 
 Reset Settings
 ^^^^^^^^^^^^^^
-
 (((Browser, Settings)))
-(((Settings, Browser)))
+
 
 If you still see a blank page with the green bar across after clearing your cookies the next step is to reset your
 settings for Chrome.
@@ -276,6 +264,7 @@ image::images/intro/browser1.png[]
 
 Delete the Offline Database
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(((Browser, Offline Database)))
 
 If you still see a blank page with the green bar across after clearing your cookies and resetting your settings
 the next step is to delete the offline database.
@@ -297,6 +286,7 @@ image::images/intro/browser3.png[]
 
 Reconnect Hatch
 ^^^^^^^^^^^^^^^
+(((Hatch)))
 
 (((Troubleshooting, Hatch)))
 (((Hatch, Troubleshooting)))
