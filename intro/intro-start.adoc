@@ -163,7 +163,7 @@ Staff can use the following navigation bar functions to navigate Evergreen.
 
 Staff can also use the following keyboard shortcuts to navigate Evergreen.
 
-[[keyboard-shortcuts]]
+[[_keyboard_shortcuts]]
 .Keyboard Shortcuts
 [options="header"]
 |===
@@ -193,7 +193,7 @@ The shortcuts also display in the menus beside the associated options.
 
 image::images/intro/keyboard-navigation-2.png[]
 
-[[download-hatch]]
+[[_download_hatch]]
 Downloading and Installing Hatch
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 (((Hatch)))
