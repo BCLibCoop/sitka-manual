@@ -27,15 +27,15 @@ client:
 
 * Item Status - List View
 +
-image:images/circ/inventory/update-inventory-item-record-1.png[scaledwidth="75%"]
+image:images/inventory/update-inventory-item-record-1.png[scaledwidth="75%"]
 +
 * Item Status - Detail View Quick Summary Tab
 +
-image:images/circ/inventory/update-inventory-item-record-2.png[scaledwidth="75%"]
+image:images/inventory/update-inventory-item-record-2.png[scaledwidth="75%"]
 +
 * Bibliographic Record - Holdings View
 +
-image:images/circ/inventory/update-inventory-item-record-3.png[scaledwidth="75%"]
+image:images/inventory/update-inventory-item-record-3.png[scaledwidth="75%"]
 +
 [NOTE]
 ======
@@ -128,11 +128,11 @@ will have their inventory date updated when they are checked in.
 . In Evergreen, go to **Circulation -> Check In**.
 . From the _Checkin Modifiers_ drop down select **Update Inventory**.
 +
-image:images/circ/inventory/inventory-checkin-modifier-1.png[scaledwidth="75%"]
+image:images/inventory/inventory-checkin-modifier-1.png[scaledwidth="75%"]
 +
 . A banner will display across the top of the check in screen to indicate that the _Update
 Inventory_ modifier is being used.
 +
-image:images/circ/inventory/inventory-checkin-modifier-2.png[scaledwidth="75%"]
+image:images/inventory/inventory-checkin-modifier-2.png[scaledwidth="75%"]
 
 

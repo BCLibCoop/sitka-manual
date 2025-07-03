@@ -18,15 +18,15 @@ Workflow - Item Status
 . Scan in your items.
 . Select all the items by clicking on the check box in the column label row.
 +
-image:images/circ/inventory/inventory-item-status-1.png[scaledwidth="75%"]
+image:images/inventory/inventory-item-status-1.png[scaledwidth="75%"]
 +
 . From the **Actions** menu choose **Update Inventory**.
 +
-image:images/circ/inventory/inventory-item-status-2.png[scaledwidth="75%"]
+image:images/inventory/inventory-item-status-2.png[scaledwidth="75%"]
 +
 . A confirmation will appear in the bottom right corner.
 +
-image:images/circ/inventory/inventory-item-status-3.png[scaledwidth="75%"]
+image:images/inventory/inventory-item-status-3.png[scaledwidth="75%"]
 +
 . Repeat until you have scanned and updated all the items in your desired section of 
 the collection.
@@ -57,7 +57,7 @@ Workflow - Check In
 . Ensure the checkin modifier **Update Inventory** is active. For information
 on turning this on see xref:_update_inventory_checkin_modifier[].
 +
-image:images/circ/inventory/inventory-checkin-modifier-2.png[scaledwidth="75%"]
+image:images/inventory/inventory-checkin-modifier-2.png[scaledwidth="75%"]
 +
 . Scan in your items. Their inventory date is automatically updated.
 . Repeat until you have scanned and updated all items in your desired section 
@@ -92,7 +92,7 @@ as an individual text file. Co-op Support recommends each list contain under 500
 . Ensure you have rows set to at least 500 in your xref:_function_bar[function bar].
 . Click **Choose File**.
 +
-image:images/circ/inventory/inventory-barcode-scanner-1.png[scaledwidth="75%"]
+image:images/inventory/inventory-barcode-scanner-1.png[scaledwidth="75%"]
 +
 . Follow the on screen prompts to select your file.
 . A progress bar will display as the file loads.  The larger the file the longer it will
@@ -100,15 +100,15 @@ take to load.
 . The items will be listed and the file name displays at the top.  
 . Select all the items by clicking on the check box in the column label row.
 +
-image:images/circ/inventory/inventory-barcode-scanner-2.png[scaledwidth="75%"]
+image:images/inventory/inventory-barcode-scanner-2.png[scaledwidth="75%"]
 +
 . From the **Actions** menu choose **Update Inventory**.
 +
-image:images/circ/inventory/inventory-barcode-scanner-3.png[scaledwidth="75%"]
+image:images/inventory/inventory-barcode-scanner-3.png[scaledwidth="75%"]
 +
 . A confirmation will appear in the bottom right corner.
 +
-image:images/circ/inventory/inventory-item-status-3.png[scaledwidth="75%"]
+image:images/inventory/inventory-item-status-3.png[scaledwidth="75%"]
 +
 . Repeat until you have updated all items in your desired section of your collection.
 . Run a report using the Sitka Template 
