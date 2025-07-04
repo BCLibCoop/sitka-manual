@@ -230,6 +230,9 @@ https://docs.libraries.coop/acquisitions/[Sitka's Evergreen Acquisitions Documen
 Carousel Secondary Perms
 ++++++++++++++++++++++++
 
+This secondary permission group 
+
+
 Circ Override Secondary Perms
 +++++++++++++++++++++++++++++
 
@@ -317,7 +320,8 @@ Granting Additional Permissions to Staff Accounts
 
 Additional permissions can be granted to library staff in two ways.
 
-*Secondary Permission Groups*
+Secondary Permission Groups
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 link:https://youtu.be/QgChELUq48E[*Sitka Snippet Video - Additional Permissions for Library Staff Accounts (2:03)*]
 
@@ -330,7 +334,8 @@ of staff at your library who have a secondary permission group assigned to their
 is found under Shared Folders -> Templates -> Sitka_templates -> Patrons -> Others.
 
 
-*Individual Permissions*
+Individual Permissions
+^^^^^^^^^^^^^^^^^^^^^^
 
 Local System Administrators may selectively grant additional permissions available to LSA accounts 
 to other non-LSA accounts.
