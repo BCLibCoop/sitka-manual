@@ -230,19 +230,38 @@ https://docs.libraries.coop/acquisitions/[Sitka's Evergreen Acquisitions Documen
 Carousel Secondary Perms
 ++++++++++++++++++++++++
 
-This secondary permission group 
+This secondary permission group gives staff access to the carousel feature in Evergreen
+that is used by LibPress libraries.
 
+Library staff must send a request to Co-op Support if they need to have this
+permission group added to their account.
 
-Circ Override Secondary Perms
-+++++++++++++++++++++++++++++
+See the https://help.libraries.coop/libpress/highlights/sitka-carousels/[Sitka Carousels section]
+in the https://help.libraries.coop/libpress[LibPress Manual] for information on creating
+and working with carousels.
+
 
 Cover Image Upload Secondary Perms
 ++++++++++++++++++++++++++++++++++
 
+This secondary permission group gives staff access to the cover image uploader found 
+Evergreen's staff catalogue.
 
+Library staff must send a request to Co-op Support if they need to have this
+permission group added to their account.
+
+See xref:_uploading_cover_images[] for information on using this feature.
 
 Reporter Full Permission
 ++++++++++++++++++++++++
+
+This secondary permission group gives staff access to the reporter in Evergreen to
+run and view reports.
+
+Library staff must complete a 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[Full Reporter Privacy Waiver].  Once the waiver
+has been received Co-op Staff will grant this 
+
 
 Reporter View Output Permissions
 ++++++++++++++++++++++++++++++++
@@ -326,7 +345,7 @@ Secondary Permission Groups
 link:https://youtu.be/QgChELUq48E[*Sitka Snippet Video - Additional Permissions for Library Staff Accounts (2:03)*]
 
 Acquisitions and reporter permissions are granted as secondary permission groups.  Acq Admin users can grant 
-acquisitions permissions.  Reporter permissions are granted by Support after a 
+acquisitions permissions.  Reporter permissions are granted by Co-op Support after a 
 https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[Reporter Privacy Waiver] is completed.
 
 The report template _Staff Assigned to Supplementary Permission Group(s)_ can be used to generate a list 
