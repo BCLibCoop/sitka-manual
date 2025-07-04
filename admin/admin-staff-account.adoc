@@ -242,6 +242,33 @@ Reporter View Output Permissions
 
 K12 School Permission Groups
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Staff permission groups for K12 school staff are significantly different from other library types.
+
+K12 Clerk
++++++++++
+
+K12 Basic Circ
+++++++++++++++
+
+K12 Basic Circ + Copy
++++++++++++++++++++++
+
+K12 Circ + Copy
++++++++++++++++
+
+K12 Circ + Full Cat
++++++++++++++++++++
+
+K12 School Library Admin
+++++++++++++++++++++++++
+
+Circ Override Secondary Perms
++++++++++++++++++++++++++++++
+
+Local School Library Admin Secondary Perms
+++++++++++++++++++++++++++++++++++++++++++
+
+
 
 
 ////
