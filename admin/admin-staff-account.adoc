@@ -182,7 +182,7 @@ for a particular account, go to *Administration -> User Permission Editor* in th
 | Basic circulation functions	| *	| *	| *	| *	| *	| *
 | CheckIn bad status overrides	| *	| *	| *	| *	| *	| *
 | CheckIn Missing/Lost/ClaimedReturned overrides|	| *	| *	| *	| 	 	| *
-| CheckOut overrides	 	| *	| *	| *	 |	| *     |
+| CheckOut overrides	 	| *	| *	| *	 | *	| *  | *  |
 | MaxRenewalReached override	|	| *	| *	| *	| *	| *
 | Basic patron record	| *	| *	| *	| *	| *	| *
 | Bar patrons	| *	| *	| *	| *	| 	| *
