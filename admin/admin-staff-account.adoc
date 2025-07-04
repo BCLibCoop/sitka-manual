@@ -171,6 +171,111 @@ https://bc.libraries.coop/support/[Co-op Support] for the password reset URL for
 Staff Account Permission Groups
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
+////
+Every library staff account must have a staff permission group assigned as their Main (Profile)
+Permission Group in order to access the staff client.  Staff can also have secondary permission
+groups assigned to give them access to special features.
+
+Library directors should consider what functions each staff member needs access to and 
+assign the appropriate permission group.
+
+Main Staff Permission Groups
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+This is a general outline of the available staff permission groups and the permissions included.
+Some permission groups are specific to a particular library type.
+
+General Staff
++++++++++++++
+
+Circulator
+++++++++++
+
+Cataloguer
+++++++++++
+
+Circ + Copy Edit
+++++++++++++++++
+
+Circ + Full Cat
++++++++++++++++
+
+Local System Administrator
+++++++++++++++++++++++++++
+
+Federation System Administrator
++++++++++++++++++++++++++++++++
+
+Public library specific
+
+Student Assistant
++++++++++++++++++
+
+Post secondary specific
+
+
+
+
+
+Secondary Staff Permission Groups
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Acquisitions Supplementary Perm Groups
+++++++++++++++++++++++++++++++++++++++
+
+Carousel Secondary Perms
+++++++++++++++++++++++++
+
+Circ Override Secondary Perms
++++++++++++++++++++++++++++++
+
+Cover Image Upload Secondary Perms
+++++++++++++++++++++++++++++++++++
+
+
+
+Reporter Full Permission
+++++++++++++++++++++++++
+
+Reporter View Output Permissions
+++++++++++++++++++++++++++++++++
+
+K12 School Permission Groups
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Staff permission groups for K12 school staff are significantly different from other library types.
+
+K12 Clerk
++++++++++
+
+K12 Basic Circ
+++++++++++++++
+
+K12 Basic Circ + Copy
++++++++++++++++++++++
+
+K12 Circ + Copy
++++++++++++++++
+
+K12 Circ + Full Cat
++++++++++++++++++++
+
+K12 School Library Admin
+++++++++++++++++++++++++
+
+Circ Override Secondary Perms
++++++++++++++++++++++++++++++
+
+Local School Library Admin Secondary Perms
+++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+////
+
+
+
+
 Below is a general outline of staff account permission levels.  
 
 To view a detailed list of permissions 
@@ -182,7 +287,7 @@ for a particular account, go to *Administration -> User Permission Editor* in th
 | Basic circulation functions	| *	| *	| *	| *	| *	| *
 | CheckIn bad status overrides	| *	| *	| *	| *	| *	| *
 | CheckIn Missing/Lost/ClaimedReturned overrides|	| *	| *	| *	| 	 	| *
-| CheckOut overrides	 	| *	| *	| *	 |	| *     |
+| CheckOut overrides	 	| *	| *	| *	 | *	| *  | *  
 | MaxRenewalReached override	|	| *	| *	| *	| *	| *
 | Basic patron record	| *	| *	| *	| *	| *	| *
 | Bar patrons	| *	| *	| *	| *	| 	| *
