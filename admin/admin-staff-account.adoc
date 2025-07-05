@@ -216,7 +216,16 @@ Circulator
 
 Circulation Overrides:
 
-* 
+* Renew an item needed to fill a hold
+* Renew an item that has no renewals remaining
+* Force check out for items with the status of _Missing_ or _Lost_
+* Check out items to patrons exceeding the allowed check out count
+* Check out items to patrons exceeding the allowed fine amount
+* Check out items to patrons exceeding the allowed overdue item count 
+* Check out items to patrons exceeding the allowed lost item count
+* Place holds on items that are not holdable.  The hold will not be filled until the item becomes holdable.
+* Place holds above the maximum number of holds
+* Check in In Transit item with blocks
 
 Cataloguer
 ++++++++++
@@ -224,11 +233,39 @@ Cataloguer
 Circ + Copy Edit
 ++++++++++++++++
 
+Circulation Overrides:
+
+* Check out or in items with the status of claims returned
+* Check out a non-circulating item
+* Override item on hold shelf failure ITEM_ON_HOLDS_SHELF.override???
+
+Cataloguing Overrides:
+
+* Update the item status for lost and missing items
+
+
+
 Circ + Full Cat
 +++++++++++++++
 
+
+Cataloguing Overrides:
+
+* Delete items in problematic statuses
+
 Local System Administrator
 ++++++++++++++++++++++++++
+
+Circulation Overrides:
+
+* Override a required deposit at check out
+* Mark items as claimed returned when the patron has exceeded the maximum
+* Renew an item needed for a hold.  What is the difference between COPY_NEEDED_FOR_HOLD.override 
+(granted to Circulator) and RENEW_HOLD_OVERRIDE (granted to LSA)????
+
+
+Cataloguing Overrides:
+
 
 Federation System Administrator
 +++++++++++++++++++++++++++++++
