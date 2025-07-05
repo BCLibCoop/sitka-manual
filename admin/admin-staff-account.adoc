@@ -186,8 +186,37 @@ Some permission groups are specific to a particular library type.
 General Staff
 +++++++++++++
 
+* Register and edit patrons
+* Check out items
+* Renew items
+* Create and check out pre-cats
+* Set items to claims returned and lost
+* Create and pay bills
+* Create notes on patron accounts
+* Bar patrons
+* In-house items
+* Access and use the holds pull list
+* Place and cancel holds
+* Check items in
+* Work with user buckets
+
+Circulation Overrides:
+
+* Check out an item that is in a non-circulatable status
+* Change the due date on an item
+* Place multiple holds on the same title for a patron
+* Place a hold on an item under age hold protection. The hold will not be filled until the item is no longer
+protected.
+
+
 Circulator
 ++++++++++
+
+
+
+Circulation Overrides:
+
+* 
 
 Cataloguer
 ++++++++++
@@ -258,13 +287,26 @@ Reporter Full Permission
 This secondary permission group gives staff access to the reporter in Evergreen to
 run and view reports.
 
-Library staff must complete a 
-https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[Full Reporter Privacy Waiver].  Once the waiver
-has been received Co-op Staff will grant this 
+In accordance with Sitka’s privacy policy and owing to the nature of Sitka’s shared 
+Evergreen database any staff needing access to the reporter must sign and submit the 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/full-reporter-privacy-waiver/[Full 
+Reporter Privacy Waiver].  Once the waiver is completed, if the staff account meets the 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[required criteria],
+Co-op Support will grant reporter permissions to the account. 
 
 
 Reporter View Output Permissions
 ++++++++++++++++++++++++++++++++
+
+This secondary permission group gives staff access view report output that is shared with them via email or 
+a link.
+
+In accordance with Sitka’s privacy policy and owing to the nature of Sitka’s shared 
+Evergreen database any staff needing access to the reporter must sign and submit the 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/all-staff-reporter-privacy-waiver/[All Staff 
+Reporter Privacy Waiver].  Once the waiver is completed, if the staff account meets the 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[required criteria],
+Co-op Support will grant reporter permissions to the account. 
 
 K12 School Permission Groups
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
