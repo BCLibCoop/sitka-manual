@@ -261,7 +261,7 @@ Circulation Overrides:
 * Override a required deposit at check out
 * Mark items as claimed returned when the patron has exceeded the maximum
 * Renew an item needed for a hold.  What is the difference between COPY_NEEDED_FOR_HOLD.override 
-(granted to Circulator) and RENEW_HOLD_OVERRIDE (granted to LSA)????
+(granted to Circulator) and RENEW_HOLD_OVERRIDE (granted to LSA)
 
 
 Cataloguing Overrides:
