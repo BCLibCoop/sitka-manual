@@ -171,8 +171,6 @@ https://bc.libraries.coop/support/[Co-op Support] for the password reset URL for
 Staff Account Permission Groups
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-////
 Every library staff account must have a staff permission group assigned as their Main (Profile)
 Permission Group in order to access the staff client.  Staff can also have secondary permission
 groups assigned to give them access to special features.
@@ -183,13 +181,53 @@ assign the appropriate permission group.
 Main Staff Permission Groups
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 This is a general outline of the available staff permission groups and the permissions included.
+
+////
 Some permission groups are specific to a particular library type.
 
 General Staff
 +++++++++++++
 
+* Register and edit patrons
+* Check out items
+* Renew items
+* Create and check out pre-cats
+* Set items to claims returned and lost
+* Create and pay bills
+* Create notes on patron accounts
+* Bar patrons
+* In-house items
+* Access and use the holds pull list
+* Place and cancel holds
+* Check items in
+* Work with user buckets
+
+Circulation Overrides:
+
+* Check out an item that is in a non-circulatable status
+* Change the due date on an item
+* Place multiple holds on the same title for a patron
+* Place a hold on an item under age hold protection. The hold will not be filled until the item is no longer
+protected.
+
+
 Circulator
 ++++++++++
+
+
+
+Circulation Overrides:
+
+* Renew an item needed to fill a hold
+* Renew an item that has no renewals remaining
+* Force check out for items with the status of _Missing_ or _Lost_
+* Check out items to patrons exceeding the allowed check out count
+* Check out items to patrons exceeding the allowed fine amount
+* Check out items to patrons exceeding the allowed overdue item count 
+* Check out items to patrons exceeding the allowed lost item count
+* Place holds on items that are not holdable.  The hold will not be filled until the item becomes holdable.
+* Place holds above the maximum number of holds
+* Check in In Transit item with blocks
 
 Cataloguer
 ++++++++++
@@ -197,11 +235,39 @@ Cataloguer
 Circ + Copy Edit
 ++++++++++++++++
 
+Circulation Overrides:
+
+* Check out or in items with the status of claims returned
+* Check out a non-circulating item
+* Override item on hold shelf failure ITEM_ON_HOLDS_SHELF.override???
+
+Cataloguing Overrides:
+
+* Update the item status for lost and missing items
+
+
+
 Circ + Full Cat
 +++++++++++++++
 
+
+Cataloguing Overrides:
+
+* Delete items in problematic statuses
+
 Local System Administrator
 ++++++++++++++++++++++++++
+
+Circulation Overrides:
+
+* Override a required deposit at check out
+* Mark items as claimed returned when the patron has exceeded the maximum
+* Renew an item needed for a hold.  What is the difference between COPY_NEEDED_FOR_HOLD.override 
+(granted to Circulator) and RENEW_HOLD_OVERRIDE (granted to LSA)
+
+
+Cataloguing Overrides:
+
 
 Federation System Administrator
 +++++++++++++++++++++++++++++++
@@ -213,70 +279,9 @@ Student Assistant
 
 Post secondary specific
 
-
-
-
-
-Secondary Staff Permission Groups
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Acquisitions Supplementary Perm Groups
-++++++++++++++++++++++++++++++++++++++
-
-Carousel Secondary Perms
-++++++++++++++++++++++++
-
-Circ Override Secondary Perms
-+++++++++++++++++++++++++++++
-
-Cover Image Upload Secondary Perms
-++++++++++++++++++++++++++++++++++
-
-
-
-Reporter Full Permission
-++++++++++++++++++++++++
-
-Reporter View Output Permissions
-++++++++++++++++++++++++++++++++
-
-K12 School Permission Groups
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Staff permission groups for K12 school staff are significantly different from other library types.
-
-K12 Clerk
-+++++++++
-
-K12 Basic Circ
-++++++++++++++
-
-K12 Basic Circ + Copy
-+++++++++++++++++++++
-
-K12 Circ + Copy
-+++++++++++++++
-
-K12 Circ + Full Cat
-+++++++++++++++++++
-
-K12 School Library Admin
-++++++++++++++++++++++++
-
-Circ Override Secondary Perms
-+++++++++++++++++++++++++++++
-
-Local School Library Admin Secondary Perms
-++++++++++++++++++++++++++++++++++++++++++
-
-
-
+Below is a general outline of staff account permission levels.  
 
 ////
-
-
-
-
-Below is a general outline of staff account permission levels.  
 
 To view a detailed list of permissions 
 for a particular account, go to *Administration -> User Permission Editor* in the staff client.
@@ -307,24 +312,123 @@ for a particular account, go to *Administration -> User Permission Editor* in th
 | Create serials subscriptions	 |	 |  |  | * | * | *
 |===
 
+////
 [NOTE]
 ======
 Only users with reporting permissions  
 can access the Reports interface or view report output. To request reporting 
 permissions staff must sign and submit a https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[Reporter Privacy Waiver].
 ======
+////
+
+Secondary Staff Permission Groups
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Acquisitions Supplementary Perm Groups
+++++++++++++++++++++++++++++++++++++++
+
+These secondary permission groups give staff access to functions in the 
+acquisitions module.  More information on these groups can be found in the 
+https://docs.libraries.coop/acquisitions/_permissions.html#_acquisitions_permission_groups[Acquisitions Permission Groups section] of 
+https://docs.libraries.coop/acquisitions/[Sitka's Evergreen Acquisitions Documentation].
+
+
+Carousel Secondary Perms
+++++++++++++++++++++++++
+
+This secondary permission group gives staff access to the carousel feature in Evergreen
+that is used by LibPress libraries.
+
+Library staff must send a request to https://bc.libraries.coop/support/[Co-op Support] if they need to have this
+permission group added to their account.
+
+See the https://help.libraries.coop/libpress/highlights/sitka-carousels/[Sitka Carousels section]
+in the https://help.libraries.coop/libpress[LibPress Manual] for information on creating
+and working with carousels.
+
+
+Cover Image Upload Secondary Perms
+++++++++++++++++++++++++++++++++++
+
+This secondary permission group gives staff access to the cover image uploader found 
+Evergreen's staff catalogue.
+
+Library staff must send a request to https://bc.libraries.coop/support/[Co-op Support] if they need to have this
+permission group added to their account.
+
+See xref:_uploading_cover_images[] for information on using this feature.
+
+Reporter Full Permission
+++++++++++++++++++++++++
+
+This secondary permission group gives staff access to the reporter in Evergreen to
+run and view reports.
+
+In accordance with Sitka’s privacy policy and owing to the nature of Sitka’s shared 
+Evergreen database any staff needing access to the reporter must sign and submit the 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/full-reporter-privacy-waiver/[Full 
+Reporter Privacy Waiver].  Once the waiver is completed, if the staff account meets the 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[required criteria],
+Co-op Support will grant reporter permissions to the account. 
+
+
+Reporter View Output Permissions
+++++++++++++++++++++++++++++++++
+
+This secondary permission group gives staff access view report output that is shared with them via email or 
+a link.
+
+In accordance with Sitka’s privacy policy and owing to the nature of Sitka’s shared 
+Evergreen database any staff needing access to the reporter must sign and submit the 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/all-staff-reporter-privacy-waiver/[All Staff 
+Reporter Privacy Waiver].  Once the waiver is completed, if the staff account meets the 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[required criteria],
+Co-op Support will grant reporter permissions to the account. 
+
+////
+K12 School Permission Groups
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Staff permission groups for K12 school staff are significantly different from other library types.
+
+K12 Clerk
++++++++++
+
+K12 Basic Circ
+++++++++++++++
+
+K12 Basic Circ + Copy
++++++++++++++++++++++
+
+K12 Circ + Copy
++++++++++++++++
+
+K12 Circ + Full Cat
++++++++++++++++++++
+
+K12 School Library Admin
+++++++++++++++++++++++++
+
+Circ Override Secondary Perms
++++++++++++++++++++++++++++++
+
+Local School Library Admin Secondary Perms
+++++++++++++++++++++++++++++++++++++++++++
+
+////
+
 
 Granting Additional Permissions to Staff Accounts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Additional permissions can be granted to library staff in two ways.
 
-*Secondary Permission Groups*
+Secondary Permission Groups
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 link:https://youtu.be/QgChELUq48E[*Sitka Snippet Video - Additional Permissions for Library Staff Accounts (2:03)*]
 
 Acquisitions and reporter permissions are granted as secondary permission groups.  Acq Admin users can grant 
-acquisitions permissions.  Reporter permissions are granted by Support after a 
+acquisitions permissions.  Reporter permissions are granted by Co-op Support after a 
 https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[Reporter Privacy Waiver] is completed.
 
 The report template _Staff Assigned to Supplementary Permission Group(s)_ can be used to generate a list 
@@ -332,7 +436,8 @@ of staff at your library who have a secondary permission group assigned to their
 is found under Shared Folders -> Templates -> Sitka_templates -> Patrons -> Others.
 
 
-*Individual Permissions*
+Individual Permissions
+^^^^^^^^^^^^^^^^^^^^^^
 
 Local System Administrators may selectively grant additional permissions available to LSA accounts 
 to other non-LSA accounts.

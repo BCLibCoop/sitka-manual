@@ -2,7 +2,7 @@ Permission Tree Display Entries
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The permission tree display entries allow the list of patron (profile) permission groups
-to be customized per library.
+to be customized per library. If you do not have a customized tree, Evergreen will use the default tree for your library type.
 
 Viewing Your Permission Tree
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -16,7 +16,7 @@ system.
 +
 image::images/admin/permission-tree-display-entries-1.png[]
 +
-. If you don't have a custom permission group tree set up the screen will be blank.
+. If you don't have a custom permission group tree, nothing will show under display entries.
 +
 image::images/admin/permission-tree-display-entries-2.png[]
 +

@@ -1361,8 +1361,7 @@ display as unless the field label is clicked.|True/False| | LSA |
 themselves with usernames in addition to barcode. For this setting to work, a barcode 
 format must also be defined|True/False| | Sitka |
 
-|OPAC Inactivity Timeout (in seconds)|Number of seconds of inactivity before OPAC 
-accounts are automatically logged out.|Number| | LSA |
+|OPAC Inactivity Timeout (in seconds)|Number of seconds of inactivity before the patron is logged out of the OPAC. The minimum value that can be entered is 240 seconds. At the 180 second mark a countdown will appear and patrons can choose to end the session, continue the session, or allow it to time out.|Number| | LSA |
 
 |Patron opt-in boundary|Admin setting|Text| | Sitka |
 
