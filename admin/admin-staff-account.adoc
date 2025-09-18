@@ -181,6 +181,8 @@ assign the appropriate permission group.
 Main Staff Permission Groups
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 This is a general outline of the available staff permission groups and the permissions included.
+
+////
 Some permission groups are specific to a particular library type.
 
 General Staff
@@ -277,9 +279,47 @@ Student Assistant
 
 Post secondary specific
 
+Below is a general outline of staff account permission levels.  
 
+////
 
+To view a detailed list of permissions 
+for a particular account, go to *Administration -> User Permission Editor* in the staff client.
 
+[option="header"]
+|===
+| Action	| General Staff	| Circulators	| Circ + Copy Edit	| Circ + Full Cat	| Catalogers	| Local System Administrator (LSA)
+| Basic circulation functions	| *	| *	| *	| *	| *	| *
+| CheckIn bad status overrides	| *	| *	| *	| *	| *	| *
+| CheckIn Missing/Lost/ClaimedReturned overrides|	| *	| *	| *	| 	 	| *
+| CheckOut overrides	 	| *	| *	| *	 | *	| *  | *  
+| MaxRenewalReached override	|	| *	| *	| *	| *	| *
+| Basic patron record	| *	| *	| *	| *	| *	| *
+| Bar patrons	| *	| *	| *	| *	| 	| *
+| Unbar patrons	 	| 	| *	| *	| *	|      | *
+| Merge/delete patrons	| 	| 	| 	|	| 	| *
+| Patron restriction overrides	 |	| *	| *	| *	| 	| *
+| Bills and payments	| *	| *	| *	| *	| 	| *
+| Holds	| *	| *	| *	| *	| *	| *
+| Item/volume records	 |	| 	| *	| *	| *	| *
+| Bib records	 |	 |	 |	| *	| *	| *
+| Buckets	| *	| *	| *	| *	| *	| *
+| Create/upload offline transactions	| *	| *	| *	| *	| *	| *
+| Process offline transactions	 |	 |	 |	| 	 |	| *
+| Transit	| *	| *	| *	| *	| *	| *
+| Abort remote transit	 |	 |	| *	| *	| *	| *
+| Receive serials	 |	 | * | *	| *	| *	| *
+| Create serials subscriptions	 |	 |  |  | * | * | *
+|===
+
+////
+[NOTE]
+======
+Only users with reporting permissions  
+can access the Reports interface or view report output. To request reporting 
+permissions staff must sign and submit a https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[Reporter Privacy Waiver].
+======
+////
 
 Secondary Staff Permission Groups
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -345,6 +385,7 @@ Reporter Privacy Waiver].  Once the waiver is completed, if the staff account me
 https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[required criteria],
 Co-op Support will grant reporter permissions to the account. 
 
+////
 K12 School Permission Groups
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Staff permission groups for K12 school staff are significantly different from other library types.
@@ -373,45 +414,8 @@ Circ Override Secondary Perms
 Local School Library Admin Secondary Perms
 ++++++++++++++++++++++++++++++++++++++++++
 
+////
 
-
-Below is a general outline of staff account permission levels.  
-
-To view a detailed list of permissions 
-for a particular account, go to *Administration -> User Permission Editor* in the staff client.
-
-[option="header"]
-|===
-| Action	| General Staff	| Circulators	| Circ + Copy Edit	| Circ + Full Cat	| Catalogers	| Local System Administrator (LSA)
-| Basic circulation functions	| *	| *	| *	| *	| *	| *
-| CheckIn bad status overrides	| *	| *	| *	| *	| *	| *
-| CheckIn Missing/Lost/ClaimedReturned overrides|	| *	| *	| *	| 	 	| *
-| CheckOut overrides	 	| *	| *	| *	 | *	| *  | *  
-| MaxRenewalReached override	|	| *	| *	| *	| *	| *
-| Basic patron record	| *	| *	| *	| *	| *	| *
-| Bar patrons	| *	| *	| *	| *	| 	| *
-| Unbar patrons	 	| 	| *	| *	| *	|      | *
-| Merge/delete patrons	| 	| 	| 	|	| 	| *
-| Patron restriction overrides	 |	| *	| *	| *	| 	| *
-| Bills and payments	| *	| *	| *	| *	| 	| *
-| Holds	| *	| *	| *	| *	| *	| *
-| Item/volume records	 |	| 	| *	| *	| *	| *
-| Bib records	 |	 |	 |	| *	| *	| *
-| Buckets	| *	| *	| *	| *	| *	| *
-| Create/upload offline transactions	| *	| *	| *	| *	| *	| *
-| Process offline transactions	 |	 |	 |	| 	 |	| *
-| Transit	| *	| *	| *	| *	| *	| *
-| Abort remote transit	 |	 |	| *	| *	| *	| *
-| Receive serials	 |	 | * | *	| *	| *	| *
-| Create serials subscriptions	 |	 |  |  | * | * | *
-|===
-
-[NOTE]
-======
-Only users with reporting permissions  
-can access the Reports interface or view report output. To request reporting 
-permissions staff must sign and submit a https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[Reporter Privacy Waiver].
-======
 
 Granting Additional Permissions to Staff Accounts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
