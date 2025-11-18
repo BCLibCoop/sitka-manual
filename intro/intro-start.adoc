@@ -199,9 +199,8 @@ Downloading and Installing Hatch
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 (((Hatch)))
 
-Hatch is an *optional* installable program that works with your browser to manage complex printing needs, such as printing to different printers under different circumstances.
-
-anchor:download-hatch-ref[Hatch]
+Hatch is an *optional* installable program that works with your browser to manage complex printing needs, 
+such as printing to different printers under different circumstances.
 
 . Install Java Runtime Environment (JRE).
 Windows only requires a JRE to run Hatch, not a full JDK. Download and install JRE version 1.8 or higher from https://www.java.com[java].
