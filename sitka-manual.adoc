@@ -130,9 +130,6 @@ include::reports/report-eg-table.adoc[]
 include::reports/report-db-term.adoc[]
 ////
 
-Simple Reports
-==============
-
 include::reports/simple-reports.adoc[]
 
 Inventory
