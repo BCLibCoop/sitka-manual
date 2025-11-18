@@ -194,7 +194,7 @@ The shortcuts also display in the menus beside the associated options.
 
 image::images/intro/keyboard-navigation-2.png[]
 
-[[_download_hatch]]
+[[_hatch_download]]
 Downloading and Installing Hatch
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 (((Hatch)))
@@ -223,6 +223,6 @@ Enable Hatch in Evergreen
 
 . Log out. Print preferences will now be stored in Hatch.
 
-Refer to xref:hatch-printing[] to configure printer settings.
+Refer to xref:_hatch_printing[] to configure printer settings.
 
-Refer to xref:hatch-troubleshooting[] if you are having issues with Hatch.
+Refer to xref:_hatch_troubleshooting[] if you are having issues with Hatch.
