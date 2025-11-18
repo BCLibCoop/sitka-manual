@@ -112,9 +112,9 @@ staff client are re-written in the newer code.
 ======
 
 
+[[_workstation_search_preferences]]
 Search Preferences
 ~~~~~~~~~~~~~~~~~~
-[[workstation-search-preferences]]
 
 Staff should not use the search preferences settings found in Workstation Administration.  Instead,
 search preferences should be set from within the staff catalogue.  See xref:_search_preferences[].
