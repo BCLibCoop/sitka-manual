@@ -98,9 +98,8 @@ report output.  It does this by allowing you to manually select the way in which
 the database tables when running a report from the template.  The type of join used will determine 
 what kind of data can display a null value in your report output.
 
-In the report template editor a Venn diagram indicates the type of join used between tables. 
-
-To change the type of join used, click on the icon beside the table name and select the join you wish to use.
+In the Report Template Editor a Venn diagram indicates the type of join used between tables.  To change the type 
+of join used, click on the icon beside the table name and select the join you wish to use.
 
 image::images/report/report-nullability-1.png[]
 
