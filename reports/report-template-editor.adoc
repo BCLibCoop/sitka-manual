@@ -82,7 +82,7 @@ Information about items out to a patron is held in the circulation table while i
 items on hold is held in the hold request table.  More information can be found in 
 xref:_the_evergreen_database[].
 
-////
+
 Nullability
 ^^^^^^^^^^^
 
@@ -90,24 +90,25 @@ Nullability
 (((Reporter, Nullability)))
 (((Report Templates, Nullability)))
 
-You may wish to use nullability if your report output includes null values that you don't want included. A _NULL_ value in a field means that there is no value in that field. 
+You may wish to use nullability if your report output includes null values that you don't want included. 
+A _NULL_ value in a field means that there is no value in that field. 
 
-Nullability allows you to have more control over whether or not null values in fields are included in your report output.  It does this 
-by allowing you to manually select the way in which Evergreen is joining the database tables when running 
-a report from the template.  The type of join used will determine what kind of data 
-can display a null value in your report output.
+Nullability allows you to have more control over whether or not null values in fields are included in your 
+report output.  It does this by allowing you to manually select the way in which Evergreen is joining 
+the database tables when running a report from the template.  The type of join used will determine 
+what kind of data can display a null value in your report output.
 
-When Nullability is checked the following options show for joins between tables:
+In the report template editor a Venn diagram indicates the type of join used between tables. 
 
-* *Default* - defined within Evergreen. See xref:_the_evergreen_database[] for more information.
-* *Child Nullable* = depends on the default join (usually left). Evergreen will include all records in
-the child table (linked to table).
-* *Parent Nullable* = depends on the default join (usually right). Evergreen will include all records in
+To change the type of join used, click on the icon beside the table name and select the join you wish to use.
+
+image::images/report/report-nullability-1.png[]
+
+
+* *Left Join* = Evergreen will include all records in the child table (linked to table).
+* *Right Join* = Evergreen will include all records in
 the parent table (linked from table).
-* *None Nullable* = equivalent to inner join. Evergreen will only include data that is in both tables
-
-
-image::images/report/report-nullability-2.png[]
+* *Inner Join* = Evergreen will only include data that is in both tables
 
 [NOTE]
 ======
@@ -116,8 +117,9 @@ the same table.
 ======
 
 To learn more about nullability see the Evergreen conference presentation https://youtu.be/oDtjpW3Kiz8[*Thanks for Nothing: 
-Nullability Selection in Evergreen Reports (45:00)*].
-////
+Nullability Selection in Evergreen Reports (45:00)*]. While the interface has changed since this presentation, the conceptual discussions 
+of nullability are still applicable.
+
 
 Adding a Display Field
 ^^^^^^^^^^^^^^^^^^^^^^
