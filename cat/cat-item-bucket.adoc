@@ -23,7 +23,6 @@ When a bucket is retrieved, all information about the records in it is transferr
 Creating/Deleting Item Buckets
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[[create-bucket]]
 Creating Item Buckets
 ^^^^^^^^^^^^^^^^^^^^^
 
@@ -139,7 +138,7 @@ image::images/cat/buckets/item-bucket-move-item-2.png[]
 +
 . The items can now be xref:_adding_items_to_a_bucket[added to a different bucket].
 
-[[item-bucket-edit-item]]
+[[_item_bucket_edit_item]]
 Editing Items
 ^^^^^^^^^^^^^
 
@@ -151,7 +150,7 @@ image::images/cat/buckets/item-bucket-edit-item-1.png[]
 . The xref:_batch_editing_items[Holdings Editor] will open in a new tab.
 
 
-[[item-bucket-print-label]]
+[[_item_bucket_print_label]]
 Printing Item Labels
 ^^^^^^^^^^^^^^^^^^^^
 
@@ -162,7 +161,7 @@ image::images/cat/buckets/item-bucket-print-label-1.png[]
 +
 . The xref:_printing_item_labels[Item Label interface] will open in a new tab.
 
-[[item-bucket-delete-item]]
+[[_item_bucket_delete_item]]
 Deleting Items
 ^^^^^^^^^^^^^^
 

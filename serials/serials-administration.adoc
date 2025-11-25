@@ -3,7 +3,6 @@ Serials Administration
 
 link:https://www.youtube.com/watch?v=51LbKxtnETY[*Serials Training Video - Serials Overview (10:41)*]
 
-[[serial-item-template]]
 Serial Item Templates
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -80,7 +79,7 @@ image::images/serials/prediction1.png[scaledwidth="75%"]
 +
 image::images/serials/prediction2.png[scaledwidth="75%"]
 +
-.. See xref:pattern-wizard[] for detailed instructions.
+.. See xref:_pattern_wizard[] for detailed instructions.
 
 . Choose the *Owning Library*.
 
@@ -90,7 +89,6 @@ image::images/serials/prediction2.png[scaledwidth="75%"]
 +
 image::images/serials/prediction3.png[scaledwidth="75%"]
 
-[[pattern-wizard]]
 Pattern Wizard
 ++++++++++++++
 

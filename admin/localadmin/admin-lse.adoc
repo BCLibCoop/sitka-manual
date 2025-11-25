@@ -2,8 +2,6 @@ Library Settings Editor
 ~~~~~~~~~~~~~~~~~~~~~~~
 (((Library Settings Editor)))
 
-anchor:library-settings-editor[Library Settings Editor]
-
 Local system administrators can use library settings to customize some of
 Evergreen's behavior for their library or library system. 
 
@@ -131,12 +129,12 @@ marks are never required when updating settings in the staff client.
 * xref:_library_settings_vandelay[]
 * xref:_library_settings_uncategorized[]
 
+[[_library_settings_acquisitions]]
 Acquisitions
 ++++++++++++
 
 ((("Acquisitions", "Library Settings Editor")))
 
-[[_library_settings_acquisitions]]
 
 See 
 http://docs.libraries.coop/acquisitions/_acquisitions_settings_in_the_library_settings_editor.html[Acquisitions 
