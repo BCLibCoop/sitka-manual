@@ -47,7 +47,7 @@ to authenticate with some 3rd party products and to retrieve the active patron r
 
 Co-op Support strongly recommends libraries delete inactive barcodes on a regular basis. The Sitka template named
 _List of Inactive Patron Barcodes_ can be used to generate a list of inactive patron barcodes which your local system 
-administrator can then be copy/pasted into the Patron Deletion Tool.
+administrator can copy/paste into the Patron Deletion Tool.
 
 . In the xref:_accessing_the_patron_deletion_tool[Patron Deletion Tool] enter the barcodes for the cards to 
 be deleted (one barcode per line).
@@ -83,10 +83,10 @@ username is available to be used.
 If the patron has not changed the username it will match their barcode.
 
 If there is any possibility that the username or barcode will be needed in the future staff 
-should prefix the username on the current account with DELETED before deleting the account.
+should prefix the username on the current account with DELETED _before_ deleting the account.
 =========
 
-. In the xref:_accessing_the_patron_deletion_tool[Patron Deletion Tool]l enter the barcodes for the accounts to 
+. In the xref:_accessing_the_patron_deletion_tool[Patron Deletion Tool] enter the barcodes for the accounts to 
 be deleted (one barcode per line).
 . Ensure the box for *Delete cards only* is un-checked.
 . Click *Submit*.
