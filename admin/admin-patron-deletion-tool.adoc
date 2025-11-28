@@ -42,7 +42,7 @@ Deleting Inactive Cards
 (((Delete Inactive Cards)))
 
 When the barcode for a patron's account is replaced and a new barcode is assigned, the old barcode remains in the Evergreen 
-database as an inactive card. Patrons cannot log into the public catalogue with an inactive barcode, but it can be used 
+database as an inactive card. Patrons cannot login to the public catalogue with an inactive barcode, but it can be used 
 to authenticate with some 3rd party products and to retrieve the active patron record in the staff client.
 
 Co-op Support strongly recommends libraries delete inactive barcodes on a regular basis. The Sitka template named
