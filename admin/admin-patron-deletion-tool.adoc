@@ -14,23 +14,12 @@ in order for an account to be deleted.
 | Scenario	| Action
 | An active patron lost their library card and was 
 issued a new one using the xref:_barcodes[Replace Barcode] function. |  xref:_deleting_inactive_cards[Delete the 
-barcode for lost card]. 
+barcode for the lost card]. 
 | A patron is no longer active and their account should be 
 removed completely.	| xref:_deleting_patron_accounts[Delete the patron account].
-| An active patron has more than one account.	| xref:_merging_patron_accounts[Merge the accounts]. Choose the card number that you 
+| An active patron has more than one account.	| xref:_merging_patron_accounts[Merge the accounts]. Choose the barcode that you 
 want to keep as the lead record.
 |====
-
-[CAUTION]
-=========
-Evergreen checks against all patrons (un-deleted and deleted) to determine whether a 
-username is available to be used.
-
-If the patron has not changed the username it will match their barcode.
-
-If there is any possibility that the username or barcode will be needed in the future staff 
-should prefix the username on the current account with DELETED before deleting the account.
-=========
 
 Accessing the Patron Deletion Tool
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -56,8 +45,9 @@ When the barcode for a patron's account is replaced and a new barcode is assigne
 database as an inactive card. Patrons cannot log into the public catalogue with an inactive barcode, but it can be used 
 to authenticate with some 3rd party products and to retrieve the active patron record in the staff client.
 
-Co-op Support strongly recommends libraries delete inactive barcodes on a regular basis. The Sitka_template "NAME GOES HERE"
-can be used to generate a list of inactive barcodes at your library which can then be copy/pasted into the Patron Deletion Tool.
+Co-op Support strongly recommends libraries delete inactive barcodes on a regular basis. The Sitka template named
+_List of Inactive Patron Barcodes_ can be used to generate a list of inactive patron barcodes which your local system 
+administrator can then be copy/pasted into the Patron Deletion Tool.
 
 . In the xref:_accessing_the_patron_deletion_tool[Patron Deletion Tool] enter the barcodes for the cards to 
 be deleted (one barcode per line).
@@ -85,7 +75,19 @@ Deleting Patron Accounts
 (((Delete Patrons)))
 (((Patron Deletion)))
 
-. In the Patron Deletion Tool enter the barcodes for the accounts to be deleted (one barcode per line).
+[CAUTION]
+=========
+Evergreen checks against all patrons (un-deleted and deleted) to determine whether a 
+username is available to be used.
+
+If the patron has not changed the username it will match their barcode.
+
+If there is any possibility that the username or barcode will be needed in the future staff 
+should prefix the username on the current account with DELETED before deleting the account.
+=========
+
+. In the xref:_accessing_the_patron_deletion_tool[Patron Deletion Tool]l enter the barcodes for the accounts to 
+be deleted (one barcode per line).
 . Ensure the box for *Delete cards only* is un-checked.
 . Click *Submit*.
 +
