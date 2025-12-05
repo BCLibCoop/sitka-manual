@@ -3,7 +3,7 @@ Search Preferences
 
 https://youtu.be/wl2oSwF0Zx4[*Sitka Snippet Video - Search Preferences (1:48)*]
 
-Catalogue searching related preferences can be set directly in the staff catalogue.
+Catalogue search preferences can be set directly in the staff client.
 
 Setting Your Preferences
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -43,7 +43,7 @@ will be highlighted in the search results.
 
 [NOTE]
 ======
-The preference set in the staff client override any preferences for the logged in account that 
+The preferences set in the staff client override any preferences for the logged in account that 
 have been set in the public catalogue via xref:_search_and_history_preferences[My Account].
 ======
 
