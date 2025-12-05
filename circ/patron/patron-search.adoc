@@ -26,8 +26,6 @@ image:images/circ/retrieve-patron-1.png[]
 ======
 A message will display if an inactive patron barcode is used to retrieve a patron account and
 the patron will not be able to check out items.
-
-image:images/circ/retrieve-patron-2.png[]
 ======
 
 
