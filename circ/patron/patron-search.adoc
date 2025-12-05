@@ -22,12 +22,6 @@ image:images/circ/retrieve-patron-1.png[]
 +
 . The patron's account will open.
 
-[NOTE]
-======
-A message will display if an inactive patron barcode is used to retrieve a patron account and
-the patron will not be able to check out items.
-======
-
 
 Patron Opt-In
 +++++++++++++

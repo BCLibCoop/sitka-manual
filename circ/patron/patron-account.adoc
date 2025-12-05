@@ -42,7 +42,15 @@ image:images/circ/patron-summary-6.png[]
 Check Out Tab
 ^^^^^^^^^^^^^
 
-For information on the *Check Out* tab see xref:_check_out[].
+The check out tab allows library staff to check items out to patrons.  
+
+[NOTE]
+======
+If the patron's account has been retrieved with an inactive patron barcode the check out field
+is grayed out and the patron will not be able to check out items.
+======
+
+For more information on the *Check Out* tab see xref:_check_out[].
 
 Items Out Tab
 ^^^^^^^^^^^^^
