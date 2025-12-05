@@ -20,8 +20,8 @@ image::images/staffcat/search-preferences-2.png[Catalogue Preference Options]
 and portal page by default. You can override this setting when you are actually searching by selecting a 
 different library. One recommendation is to set the search library to the highest point you would 
 normally want to search.
-.. *Preferred Library* This determines which library's holdings displays first 
-in the grid within a search result and in the Item Table within a record. If 
+.. *Preferred Library* This determines which library's holdings display first 
+in the item grid within a search result and in the Item Table within a record. If 
 your preferred library is a descendant of your search library, the item count in 
 in the search result will display for both your search library and preferred library.
 One recommendation is to set this to your home library so that local counts show
