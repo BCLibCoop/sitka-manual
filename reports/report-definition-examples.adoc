@@ -406,17 +406,31 @@ _Found under Shared Folders -> Templates -> Sitka_templates ->
  
 Recommended Recurrence Interval: *None, run as needed*
 
-. Enter a name. You may wish to include the period for which you are counting circulations.
-. Add your library.
-. Enter the time period you would like to report on. The earliest date goes first.
-. Pick the shelving location(s) to be included.  Your output will only include items in the
-selected shelving location(s).
-. Enter a number for the circulation threshold. Your output will only include items that have
-circulated more times than your threshold.  If nothing is included in your output try lowering
-the threshold.
-. Ensure the box is checked for *Run as soon as possible*.
-
-image::images/report/appendix/popular-titles-shelving-location.png[]
+. Enter a descriptive name.
++
+image::images/report/appendix/popular-titles-1.png[]
++
+. On the _Filters_ tab, enter values for the filters.
+.. Circulating Library = select your library.
++
+image::images/report/appendix/inventory-un-scanned-2.png[]
++
+.. Checkout Date/Time = enter the time period you would like to report on. The earliest date goes first.
++
+image::images/report/appendix/popular-titles-2.png[]
++
+.. Circ ID = enter a number for the circulation threshold. Your output will only include items that have circulated 
+more times than your threshold. If nothing is included in your output try lowering the threshold.
++
+image::images/report/appendix/popular-titles-3.png[]
++
+.. Location ID =  add the shelving location(s) you want included in your report.
++
+image::images/report/appendix/inventory-un-scanned-3.png[]
++
+. On the _Layout and Scheduling_ tab, ensure the box is checked for *Run Report Now*.
++
+image::images/report/appendix/run-report-now.png[]
 
 Patron Management
 ~~~~~~~~~~~~~~~~~
