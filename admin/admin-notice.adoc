@@ -8,10 +8,9 @@ https://bc.libraries.coop/support/[Co-op Support].
 Local system administrators can view but not edit the action trigger templates used by their 
 library see xref:action-triggers[Action Triggers] for instructions. 
 
-Notifications are sent in three ways, depending on the notification:
+Notifications are sent in two ways, depending on the notification:
 
 * Email - sent directly to the patron
-* SMS Text Message - sent directly to the patron
 * Mail - sent to the library as a PDF to be printed and mailed out 
 
 Email Notifications
@@ -85,8 +84,7 @@ Courtesy Notifications
 (((Courtesy Notifications)))
 (((Notifications, Courtesy)))
 
-Courtesy notifications are generated and sent via email and/or SMS text message ahead of an item being due.  
-**If a library has both email and SMS text message courtesy notifications enabled patrons will receive both.**
+Courtesy notifications are generated and sent via email ahead of an item being due.  
 
 [CAUTION]
 =========
@@ -107,7 +105,7 @@ patron account will receive email courtesy notifications.
 To customize the wording or the interval of the notification please contact 
 https://bc.libraries.coop/support/[Co-op Support].
 
-
+////
 SMS Text Message Courtesy Notifications
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -126,7 +124,7 @@ an item is due. Patrons must have a default Default SMS/Text Number and Default 
 The process that generates courtesy notices runs early in the morning.  SMS text messages are sent around 
 *2:00am* PT. 
 =========
-
+////
 
 Overdue Notifications
 ~~~~~~~~~~~~~~~~~~~~~
@@ -262,16 +260,12 @@ https://bc.libraries.coop/support/[Co-op Support].
 Hold Ready For Pickup
 ^^^^^^^^^^^^^^^^^^^^^
 
-Depending on the notification option selected when a hold is placed, a patron will be notified via email, 
-SMS text message, or a manual phone call when their hold is captured. 
+Depending on the notification option selected when a hold is placed, a patron will be notified via email 
+or a manual phone call when their hold is captured. 
 
 Email notifications are automatically sent to patrons when a hold is captured after a processing delay.  By 
 default the delay is 30 minutes but this can be customized if a library needs a longer or shorter processing
 delay.
-
-SMS text message notifications are automatically sent 30 minutes after the hold is captured.  This processing
-delay is global and cannot be customized.  The wording of the SMS text message is also global and cannot
-be customized.
 
 Phone notifications are done manually by library staff.
 
@@ -356,7 +350,7 @@ Test Notification
 ^^^^^^^^^^^^^^^^^
 
 Library staff and patrons can initiate 
-xref:_update_and_test_email_address_or_sms_text_number[test email and test SMS text messages] to confirm the 
+xref:_updating_and_testing_email_addresses[test email messages] to confirm the 
 information in the patron's account is correct.  These test notifications are sent after a 1 minute delay.
 The notifications are set globally so the wording and delay cannot be customized.
 
