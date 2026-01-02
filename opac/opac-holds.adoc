@@ -26,8 +26,7 @@ image::images/opac/opac-holds-1.png[scaledwidth="75%",alt="Holds"]
 pickup location.
 . Choose the method of notification.  The notification method will be selected
 automatically if it is set in account preferences, but can be overridden on this screen.
-.. The phone number and email in your account will be used to populate the notification options, but
-you can use a different phone number for phone or text notification when placing the hold.
+.. The phone number and email in your account will be used to populate the notification options.
 +
 image::images/opac/opac-holds-3.png[scaledwidth="75%",alt="Holds"]
 +
