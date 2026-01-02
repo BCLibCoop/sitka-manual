@@ -752,7 +752,7 @@ field in patron registration.|Text| | LSA |
 field in patron registration.|Text| | LSA |
 
 |Example for default_sms_notify field on patron registration|The example on validation on the default_sms_notify 
-field in patron registration.|Text| | LSA |
+field in patron registration.|Text| | LSA | This feature is not used by Sitka.|
 
 |Example for Email field on patron registration|The example on validation on the Email 
 field in patron  registration.|Text| | LSA |
@@ -839,7 +839,7 @@ Ex: "[2-9]\d{2}-\d{3}-(\d{4})( x\d+)?" will ignore the extension on a NANP numbe
  on the default_phone field in patron registration. |Regular expression | |LSA|
 
 |Regex for default_sms_notify field on patron registration| The Regular Expression for 
-validation on the default_sms_notify field in patron registration. | Regular expression | |LSA |
+validation on the default_sms_notify field in patron registration. | Regular expression | |LSA | This feature is not used by Sitka. |
 
 |Regex for Email field on patron registration|The Regular Expression on validation on the 
 Email field in patron registration.|Regular expression| | LSA |
@@ -1440,7 +1440,7 @@ Selection List | |LSA |
 |===
 |Setting|Description|Data type|Default | Edited by | Notes
 |Disable auth requirement for texting call numbers.|Disable authentication 
-requirement for sending call number information via SMS from the OPAC.|True/False| TRUE | LSA |
+requirement for sending call number information via SMS from the OPAC.|True/False| TRUE | LSA | This feature is not used by Sitka. |
 
 |Enable features that send SMS text messages.|Current features that use SMS include 
 hold-ready-for-pickup notifications and a "Send Text" action for call numbers in 
@@ -1448,7 +1448,7 @@ the OPAC. If this setting is not enabled, the SMS options will not be offered to
 the user. Unless you are carefully silo-ing patrons and their use of the 
 OPAC, the context org for this setting should be the top org in the org 
 hierarchy, otherwise patrons can trample their user settings when jumping 
-between orgs.|True/False| TRUE | LSA |
+between orgs.|True/False| FALSE | SITKA | This feature is not used by Sitka. |
 |===
 
 [[_library_settings_url_verify]]
