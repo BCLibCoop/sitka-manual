@@ -66,6 +66,11 @@ Edit Notification Settings
 ++++++++++++++++++++++++++
 [[_modify_holds_notification_settings]]
 
+[NOTE]
+======
+Patrons can edit their own notification settings via xref:_items_on_hold[My Account].
+======
+
 . On the _View Holds_ tab in the staff catalogue, select the hold to edit and go to 
 *Actions -> Modify Hold(s)*.
 . In the pop-up that appears, add and/or remove information from the notification fields to 
@@ -87,14 +92,17 @@ image:images/circ/holds/modify-holds-notification-settings-2.png[scaledwidth="75
 .. To remove a method of notification check the box and leave the field blank.
 .. To add or edit a method of notification check the box and fill in the relevant information.
 +
+[NOTE]
+======
+Sitka's Evergreen does not currently support the use of Text/SMS so these options should be 
+ignored.
+======
++
 image:images/circ/holds/modify-holds-notification-settings-3.png[scaledwidth="75%"]
 +
 . Click *Submit*.
 
-[NOTE]
-======
-Patrons can edit their own notification settings via xref:_items_on_hold[My Account].
-======
+
 
 Edit Hold Dates
 +++++++++++++++

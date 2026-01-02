@@ -95,15 +95,15 @@ The existing password is not displayed in the patron account for security reason
 retrieve existing passwords.
 ======
 
-Update and Test Email Address or SMS/Text Number
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Updating and Testing Email Addresses
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Enter new email address or SMS number, and click *Save*.
-. Click *Send Test Email* or *Send Test Text.*
+. Enter the new email address. Multiple email addresses can be entered, separated by commas.
+. Click *Save* and then click *Send Test Email*.
 +
 image:images/circ/patronupdate5.png[scaledwidth="75%"]
 +
-. Confirm with the patron whether or not they received the test email or text message.
+. Confirm with the patron whether or not they received the test email.
 
 Invalidating an Email Address
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

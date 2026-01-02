@@ -16,18 +16,29 @@ Placing Title Level Holds
 
 link:https://youtu.be/NkV8pIU2R34[*Sitka Snippet Video - Placing Title Level Holds (2:05)*]
 
-. To place a title level hold, click the *Place Hold* button to the right of the record on the search result list, or on the record summary screen.
+. To place a title level hold, click the *Place Hold* button to the right of the record 
+in the search result list, or on the record summary screen.
 +
-image:images/circ/placehold1.png[scaledwidth="75%"]
+image:images/circ/holds/title-hold-1.png[scaledwidth="75%"]
 +
-. Scan or type patron's barcode, or select your own staff login, or click *Patron Search* if you do not have patron's card.
-. Edit patron hold notification methods and pickup location, if necessary, and click *Place Hold(s)*. Any method or contact number entered on this screen will override defaults in patron record, and will be used for display and print purposes for this hold.
+. Enter patron's barcode if you have it or click *Search for Patron*.
+.. You can also use the radio buttons to select the logged in staff account.
 +
-image:images/circ/placehold2.png[scaledwidth="75%"]
+image:images/circ/holds/title-hold-2.png[scaledwidth="75%"]
 +
-. Click *Return* to go back to search results, or place another hold for this title.
+. The selected patron's information will populate.  Edit notification methods and pickup 
+location if necessary and click *Place Hold(s)*. 
+.. Any method or contact number entered on this screen will override defaults in patron record 
+and will be used for display and print purposes for this hold.
 +
-image:images/circ/placehold3.png[scaledwidth="75%"]
+image:images/circ/holds/title-hold-3.png[scaledwidth="75%"]
++
+. The _Holds Status_ field will update to indicate whether or not the hold was sucessfully placed.
+See xref:_hold_placement_status_messages[] for the possible messages.
+You can now place another hold for this title or click *Return* to go back to the search 
+results.
++
+image:images/circ/holds/title-hold-4.png[scaledwidth="75%"]
 
 Placing Meta-record Level Holds
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -54,24 +65,32 @@ image:images/circ/metahold2.png[scaledwidth="75%"]
 Group Formats and Editions Search
 +++++++++++++++++++++++++++++++++
 
-. On the *Keyword Search* tab, check the box for *Group Formats and Editions*.
+. On the *Keyword Search* tab, check the box for *Group Formats and Editions*. Enter your search
+ terms and click *Search*.
 +
-image:images/circ/metahold3.png[scaledwidth="75%"]
+image:images/circ/holds/group-formats-1.png[scaledwidth="75%"]
 +
-. Enter search terms and click *Search*.
-. Click *Place Hold* beside the meta-record on the result list.
+. Click *Place Hold* button to the right of the record in the search result list.
 +
-image:images/circ/metahold4.png[scaledwidth="75%"]
+image:images/circ/holds/group-formats-2.png[scaledwidth="75%"]
 +
-. Select the acceptable formats and languages
+. All formats and languages are selected by default.  Un-select options as desired.
 +
-image:images/circ/metahold5.png[scaledwidth="75%"]
+image:images/circ/holds/group-formats-3.png[scaledwidth="75%"]
 +
-. Click *Place Hold(s)*.
+. Enter patron's barcode if you have it or click *Search for Patron*. Edit the patron 
+notification fields if necessary and click *Place Hold(s)*. 
+.. Any method or contact number entered on this screen will override defaults in patron record 
+and will be used for display and print purposes for this hold.
++
+image:images/circ/holds/group-formats-4.png[scaledwidth="75%"]
 
-TIP: The icons indicate the available formats at the search location. The number beside the title is the number of records with physical items. Click the title to view these individual records.
-
-TIP: After a meta-record hold is placed, if a new MARC record is added and it meets the grouping criteria, items under this new record will be targeted.
+[NOTE]
+=====
+After a meta-record hold is placed, if a new MARC record is added and it meets the 
+grouping criteria, items under this new record will be targeted.
+=====
+ 
 
 Placing Call Number and Item Level Holds
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -103,7 +122,7 @@ link:https://youtu.be/CBvMWZMgA24[*Sitka Snippet Video - Placing Holds from the 
 image:images/circ/patron-place-hold-1.png[scaledwidth="75%"]
 +
 . The catalogue will open.
-. Search for the title and place your hold as described in xref:place-holds[].
+. Search for the title and place your hold as described in xref:_placing_title_level_holds[].
 . Click *Return* to return to your search results or click on the patron's name to return to the
 patron's account.
 +
