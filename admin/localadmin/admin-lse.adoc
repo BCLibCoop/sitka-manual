@@ -1382,7 +1382,7 @@ setting | Number | |Sitka |
 password reset request should remain active.|Duration|  |Sitka |
 
 |Staff login inactivity timeout (in seconds)|Number of seconds of inactivity before 
-staff client prompts for login and password.|Number| |LSA |
+staff client prompts for login and password.|Number|28800 |LSA |
 |===
 
 [[_library_settings_self_check]]

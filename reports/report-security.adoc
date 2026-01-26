@@ -1,0 +1,74 @@
+Reporter Security
+-----------------
+
+(((Reporter)))
+(((Reporter Permissions)))
+(((Permissions, Reporter)))
+
+Evergreen has a powerful reporter that can report on almost every field in every table in the 
+Evergreen database.
+
+In accordance with 
+https://bc.libraries.coop/support/sitka/sitka-shared-library-database-detailed-privacy-policy/[Sitka’s 
+privacy policy] and owing to the nature of Sitka’s shared Evergreen database there are several
+measures in place to help libraries protect their patron data.
+
+Reporter Privacy Waivers
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Any library staff needing access to the reporter in Evergreen must sign and submit the 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/full-reporter-privacy-waiver/[Full 
+Reporter Privacy Waiver].  Once the waiver is completed, if the staff account meets the 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[required criteria],
+Co-op Support will grant reporter permissions to the account. 
+
+Library directors and administrators should ensure that only appropriate staff at their library have access to the
+reporter.  The report template xref:_staff_assigned_to_supplementary_permission_group_s[Staff Assigned to Supplementary
+Permission Group(s)] can be used to see what staff have additional permission groups assigned. Please
+https://bc.libraries.coop/support/[contact Co-op Support] if reporter permissions need to be removed
+from any staff accounts. 
+
+
+Accessing Report Output
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Report templates, definitions, and output can be shared between library staff. 
+
+Two things must be in place for sharing to work:
+
+. The folder containing the template, definition, or output must be xref:_sharing_folders[shared with the appropriate 
+organization].
+. The viewing staff member must have signed a 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[reporter privacy waiver] and have been granted 
+either _Reporter Full Permissions_ or _Reporter View Output Permissions_.
+
+////
+[NOTE]
+======
+It may be useful for staff to share report templates between libraries.
+
+There are very few circumstances 
+where it would be appropriate to share report definitions or output between libraries.
+======
+////
+
+Personally Identifiable Information (PII) Redaction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Personal information is defined by FIPPA as information about an identifiable person. Examples include, 
+but are not limited to: name, age, address, phone number, and email address.
+
+Patron PII will only display in report output if the staff member requesting the report has the appropriately scoped 
+permissions to see the patron's information based on that staff's set of working locations and permission depth, or 
+the patron has opted-in to be visible at such a location. 
+
+If a staff member runs a report whose output contains patron PII for un-opted in patrons from outside 
+of the staff member’s library, the PII will be redacted and display as blank field. 
+
+The below example shows a report run by a staff member at Maple Public Library.
+
+* PII shows for the three Maple patrons - Ashley, James, and Bart.
+* PII shows for the one Arbutus patron who has opted in at Maple - Jules.
+* PII does not show for the other Arbutus patron who has not opted in at Maple.
+
+image::images/report/report-security-1.png[]
