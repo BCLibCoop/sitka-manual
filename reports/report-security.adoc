@@ -1,19 +1,22 @@
-Reporter Security Measures
---------------------------
+Reporter Security
+-----------------
 
 (((Reporter)))
 (((Reporter Permissions)))
 (((Permissions, Reporter)))
 
-Evergreen has a powerful reportering that report on almost every field in every table in the Evergreen database.
+Evergreen has a powerful reporter that can report on almost every field in every table in the 
+Evergreen database.
 
-In accordance with Sitka’s privacy policy and owing to the nature of Sitka’s shared Evergreen database there are several
+In accordance with 
+https://bc.libraries.coop/support/sitka/sitka-shared-library-database-detailed-privacy-policy/[Sitka’s 
+privacy policy] and owing to the nature of Sitka’s shared Evergreen database there are several
 measures in place to help libraries protect their patron data.
 
 Reporter Privacy Waivers
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Any library staff needing access to the reporter must sign and submit the 
+Any library staff needing access to the reporter in Evergreen must sign and submit the 
 https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/full-reporter-privacy-waiver/[Full 
 Reporter Privacy Waiver].  Once the waiver is completed, if the staff account meets the 
 https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[required criteria],
@@ -21,7 +24,9 @@ Co-op Support will grant reporter permissions to the account.
 
 Library directors and administrators should ensure that only appropriate staff at their library have access to the
 reporter.  The report template xref:_staff_assigned_to_supplementary_permission_group_s[Staff Assigned to Supplementary
-Permission Group(s)] can be used to see what staff have additional permission groups, such as reporter permissions, assigned.
+Permission Group(s)] can be used to see what staff have additional permission groups assigned. Please
+https://bc.libraries.coop/support/[contact Co-op Support] if reporter permissions need to be removed
+from any staff accounts. 
 
 
 Accessing Report Output
@@ -34,7 +39,7 @@ Two things must be in place for sharing to work:
 . The folder containing the template, definition, or output must be xref:_sharing_folders[shared with the appropriate 
 organization].
 . The viewing staff member must have signed a 
-https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[reporter privacy waiver] and been granted 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[reporter privacy waiver] and have been granted 
 either _Reporter Full Permissions_ or _Reporter View Output Permissions_.
 
 [NOTE]
@@ -55,8 +60,8 @@ Patron PII will only display in report output if the staff member requesting the
 permissions to see the patron's information based on that staff's set of working locations and permission depth, or 
 the patron has opted-in to be visible at such a location. 
 
-If report output contains patron PII for patrons outside of the staff member running the report's library, the PII 
-will be redacted and display as blank field. 
+If a staff member run a report whose output contains patron PII for patrons outside of 
+the staff member's library, the PII will be redacted and display as blank field. 
 
 The below example shows a report run by a staff member at Maple Public Library.
 
