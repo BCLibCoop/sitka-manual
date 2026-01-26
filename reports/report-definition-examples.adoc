@@ -503,12 +503,19 @@ _Found under Shared Folders -> Templates -> Sitka_templates -> Patrons ->
  
 Recommended Recurrence Interval: *None, run as needed*
  
- . Enter a name that includes a specific date as this report will show a snapshot of
+ . Enter a descriptive name that includes date on which you ran the report as this report will show a snapshot of
 your staff at the moment the report is run.
-. Add your library.
-. Ensure the box is checked for *Run as soon as possible*.
-
-image::images/report/appendix/staff-assigned-secondary-perms.png[]
++
+image::images/report/appendix/staff-assigned-secondary-perms-1.png[]
++
+. On the _Filters_ tab, enter values for the filters.
+.. Home Libraryb = select your library.
++
+image::images/report/appendix/staff-assigned-secondary-perms-2.png[]
++
+. On the _Layout and Scheduling_ tab, ensure the box is checked for *Run Report Now*.
++
+image::images/report/appendix/run-report-now.png[]
 
 [NOTE]
 ======
