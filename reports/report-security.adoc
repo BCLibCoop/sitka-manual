@@ -5,17 +5,39 @@ Reporter Security Measures
 (((Reporter Permissions)))
 (((Permissions, Reporter)))
 
+Evergreen has a powerful reportering that report on almost every field in every table in the Evergreen database.
+
+In accordance with Sitka’s privacy policy and owing to the nature of Sitka’s shared Evergreen database there are several
+measures in place to help libraries protect their patron data.
+
 Reporter Privacy Waivers
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
+Any library staff needing access to the reporter must sign and submit the 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/full-reporter-privacy-waiver/[Full 
+Reporter Privacy Waiver].  Once the waiver is completed, if the staff account meets the 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[required criteria],
+Co-op Support will grant reporter permissions to the account. 
 
-Folder Sharing
-~~~~~~~~~~~~~~
+Library directors and administrators should ensure that only appropriate staff at their library have access to the
+reporter.  The report template xref:_staff_assigned_to_supplementary_permission_group_s[Staff Assigned to Supplementary
+Permission Group(s)] can be used to see what staff have additional permission groups, such as reporter permissions, assigned.
 
+
+Accessing Report Output
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Report templates, definitions, and output can be shared between library staff.
 
 Personally Identifiable Information (PII) Redaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Personal information is defined by FIPPA as information about an identifiable person. Examples include, 
+but are not limited to: name, age, address, phone number, and email address.
+
+Patron PII will only display in report output if the staff member requesting the report has the appropriately scoped 
+permissions to see the patron's information based on that staff's set of working locations and permission depth, or 
+the patron has opted-in to be visible at such a location. 
 
 
 
