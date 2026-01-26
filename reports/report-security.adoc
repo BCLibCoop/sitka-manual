@@ -1,0 +1,51 @@
+Reporter Security Measures
+--------------------------
+
+(((Reporter)))
+(((Reporter Permissions)))
+(((Permissions, Reporter)))
+
+Reporter Privacy Waivers
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Folder Sharing
+~~~~~~~~~~~~~~
+
+
+Personally Identifiable Information (PII) Redaction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+It is possible to report on almost every field in 
+every table in the Evergreen database. In accordance with Sitka’s privacy policy and owing to the nature of Sitka’s shared 
+Evergreen database any staff needing access to the reporter must sign and submit the 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/full-reporter-privacy-waiver/[Full 
+Reporter Privacy Waiver].  Once the waiver is completed, if the staff account meets the 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[required criteria],
+Co-op Support will grant reporter permissions to the account. 
+
+
+These components are saved in xref:_folders[folders] specific to the library account. Users can 
+xref:_sharing_folders[share their folders] to allow others to clone templates and view report definitions 
+and output but only the owning staff account can manage the contents of their folders.
+
+[
+[TIP]
+=====
+Know which library staff at your library have recurring reports set up and make sure to stop those reports
+when the staff member leaves your library.  
+
+Once a xref:_closing_library_staff_accounts[library staff account is closed] it is no longer possible to 
+access the reporter via the staff client and you will require assistance from Co-op Support to stop any 
+recurring reports run by the library staff account.
+=====
+
+
+Any staff needing to view report output, but not run reports, must sign and submit the 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/all-staff-reporter-privacy-waiver/[All 
+Staff Reporter Privacy Waiver].  Once the waiver is completed, if the staff account meets the 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[required criteria],
+Co-op Support will grant report output viewing permissions to the account. 
