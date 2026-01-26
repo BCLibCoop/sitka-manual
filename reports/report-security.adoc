@@ -42,6 +42,7 @@ organization].
 https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[reporter privacy waiver] and have been granted 
 either _Reporter Full Permissions_ or _Reporter View Output Permissions_.
 
+////
 [NOTE]
 ======
 It may be useful for staff to share report templates between libraries.
@@ -49,6 +50,7 @@ It may be useful for staff to share report templates between libraries.
 There are very few circumstances 
 where it would be appropriate to share report definitions or output between libraries.
 ======
+////
 
 Personally Identifiable Information (PII) Redaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
