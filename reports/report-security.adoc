@@ -63,7 +63,7 @@ permissions to see the patron's information based on that staff's set of working
 the patron has opted-in to be visible at such a location. 
 
 If a staff member runs a report whose output contains patron PII for un-opted in patrons from outside 
-of the staff member’s library, the PII will be redacted and display as blank field. 
+of the staff member’s library, the PII will be redacted and display as a blank field. 
 
 The below example shows a report run by a staff member at Maple Public Library.
 
@@ -72,3 +72,11 @@ The below example shows a report run by a staff member at Maple Public Library.
 * PII does not show for the other Arbutus patron who has not opted in at Maple.
 
 image::images/report/report-security-1.png[]
+
+All fields in the following database tables will be redacted as report output columns by default:
+
+* User 
+* User Address
+* User Activity
+* User Settings
+* User Stat Cat Entries
