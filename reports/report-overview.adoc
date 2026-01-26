@@ -5,8 +5,11 @@ Reporter Overview
 (((Reporter Permissions)))
 (((Permissions, Reporter)))
 
-It is possible to report on almost every field in 
-every table in the Evergreen database. In accordance with Sitka’s privacy policy and owing to the nature of Sitka’s shared 
+As it is possible to report on almost every field in every table in the Evergreen database
+a number of xref:_reporter_security[security measures] are in place to help libraries protect 
+their patron data. 
+
+In accordance with Sitka’s privacy policy and owing to the nature of Sitka’s shared 
 Evergreen database any staff needing access to the reporter must sign and submit the 
 https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/full-reporter-privacy-waiver/[Full 
 Reporter Privacy Waiver].  Once the waiver is completed, if the staff account meets the 
