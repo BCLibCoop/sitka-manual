@@ -371,7 +371,7 @@ Staff Reporter Privacy Waiver].
 
 If you run a report whose output contains patron PII for un-opted in patrons from outside of your 
 library, the xref:_personally_identifiable_information_pii_redaction[PII will be redacted] 
-and display as blank field.
+and display as a blank field.
 
 Unless you have set a specific run time reports generally take about 5 minutes to complete.  If your 
 report still shows as pending in the your output folder after 15 minutes please 
