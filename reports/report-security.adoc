@@ -62,7 +62,7 @@ Patron PII will only display in report output if the staff member requesting the
 permissions to see the patron's information based on that staff's set of working locations and permission depth, or 
 the patron has opted-in to be visible at such a location. 
 
-If a staff member run a report whose output contains patron PII for patrons outside of 
+If a staff member runs a report whose output contains patron PII for patrons outside of 
 the staff member's library, the PII will be redacted and display as blank field. 
 
 The below example shows a report run by a staff member at Maple Public Library.
