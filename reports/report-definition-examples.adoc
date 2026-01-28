@@ -486,7 +486,9 @@ Recommended Recurrence Interval: *None, run as needed*
 . Enter a name that includes a specific date as this report will show all reports run within your specified time period.
 . Enter the time period you would like to report on. The earliest date goes first.
 . Add your library.
-. Ensure the box is checked for *Run as soon as possible*.
+. On the _Layout and Scheduling_ tab, ensure the box is checked for *Run Report Now*.
++
+image::images/report/appendix/run-report-now.png[]
 
 image::images/report/appendix/reports-run-in-time-period.png[]
 
