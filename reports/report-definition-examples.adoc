@@ -126,7 +126,7 @@ Collection Management
 ~~~~~~~~~~~~~~~~~~~~~
 
 Circ Modifier: Items with Selected Circ Modifiers
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 _Found under Shared Folders -> Templates -> Sitka_templates ->
  Collection -> Item List by Item Attributes._
@@ -249,28 +249,29 @@ image::images/report/appendix/name-your-report.png[]
 +
 . On the _Filters_ tab, enter values for the filters.
 .. Due Date/Time = check the box for *Relative time value* and enter the time range you would like to report on. The 
-earliest date (bigger number) goes first.
+earliest date (bigger number) goes first. If running as a weekly report it can be handy to use increments of 7.
 +
 image::images/report/appendix/overdues-within-time-span-general-1.png[]
 +
-.. If running as a weekly report it can be handy to use increments of 7.
-. Add your library or your branch(es).
+.. Organizational Unit ID = select your library and/or your branch(es).
++
+image::images/report/appendix/filter-in-list-org-unit-id.png[]
++
 . Check the box for _Recurring Report_.
 .. Set the *Recurrence Interval* to *1 Week(s)*.
 . Check the radio button for _Schedule Report For Later_.
-.. Check the box beside the date and set the date to the first time you want the report
-to run.  The report will run on the same day of the week every week; the example report 
-will run every Wednesday.
+.. Set the date to the first time you want the report to run.  The report will 
+run on the same day of the week every week; the example report will run every Wednesday.
 .. Set the time to between 1:00am PT and 4:00am PT.
++
+image::images/report/appendix/overdues-within-time-span-general-2.png[]
 
-
-image::images/report/appendix/overdues-within-time-span-general.png[]
 
 Shelving Location and Circ Modifier: Items with Selected Shelving Location and Circ Modifier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 _Found under Shared Folders -> Templates -> Sitka_templates ->
- Collection -> Item List by Item Attribues._
+ Collection -> Item List by Item Attributes._
 
 Recommended Recurrence Interval: *None, run as needed*
 
@@ -280,11 +281,20 @@ reporting on.
 image::images/report/appendix/name-your-report.png[]
 +
 . On the _Filters_ tab, enter values for the filters.
-. Add the shelving location for which you would like a list of items
+.. Location ID = select the shelving location for which you would like a list of items
 using the location.
-. Add the circulation modifier for which you would like a list of items
-using the modifier.
-. Add your library or your branch(es).
++
+image::images/report/appendix/filter-in-list-shelving-location.png[]
++
+.. Code = select the circulation modifier(s) for which you would like a list of items
+using the modifier(s).
++
+image::images/report/appendix/filter-in-list-circ-mod.png[]
++
+.. Organizational Unit ID = select your library and/or your branch(es).
++
+image::images/report/appendix/filter-in-list-org-unit-id.png[]
++
 . On the _Layout and Scheduling_ tab, ensure the box is checked for *Run Report Now*.
 +
 image::images/report/appendix/run-report-now.png[]
@@ -296,7 +306,7 @@ Shelving Location: Items with Selected Shelving Location
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 _Found under Shared Folders -> Templates -> Sitka_templates ->
- Collection -> Item List by Item Attribues._
+ Collection -> Item List by Item Attributes._
 
 Recommended Recurrence Interval: *None, run as needed*
 
@@ -306,9 +316,15 @@ reporting on.
 image::images/report/appendix/name-your-report.png[]
 +
 . On the _Filters_ tab, enter values for the filters.
-. Add the shelving location(s) for which you would like a list of items
+.. Location ID = select the shelving location for which you would like a list of items
 using the location.
-. Add your library or your branch(es).
++
+image::images/report/appendix/filter-in-list-shelving-location.png[]
++
+.. Circulating Library = select your library.
++
+image::images/report/appendix/filter-in-list-circ-library.png[]
++
 . On the _Layout and Scheduling_ tab, ensure the box is checked for *Run Report Now*.
 +
 image::images/report/appendix/run-report-now.png[]
@@ -328,7 +344,7 @@ or Missing", not "January Damaged, Lost, or Missing Items".
 image::images/report/appendix/name-your-report.png[]
 +
 . On the _Filters_ tab, enter values for the filters.
-.. Organizational Unit ID = select your library.
+.. Organizational Unit ID = select your library and/or your branch(es).
 +
 image::images/report/appendix/filter-in-list-org-unit-id.png[]
 +
@@ -387,8 +403,8 @@ image::images/report/appendix/
 ////
 
  
-Weeding - Copies Circulated Fewer Times since a Selected Date (excl. Copied added after a Selected Date)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Weeding - Copies Circulated Fewer Times since a Selected Date OVER 2 Years ago
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  
 _Found under Shared Folders -> Templates -> Sitka_templates ->
  Collection -> Others._
@@ -400,14 +416,29 @@ Recommended Recurrence Interval: *None, run as needed*
 image::images/report/appendix/name-your-report.png[]
 +
 . On the _Filters_ tab, enter values for the filters.
-. Add your library.
-. Add the date after which new items should be excluded. If you don't want to include items 
+.. Circulating Library = select your library.
++
+image::images/report/appendix/filter-in-list-circ-library.png[]
++
+.. Active Date/Time = enter the date after which new items should be excluded. If you don't want to include items 
 catalogued in the current calendar year enter January 1st of the current year.
-. Add the shelving location(s) in which items should be included.
-. Add a date after which to count circulations.  Circulations before this date will not be
-used to calculate whether an item meets the threshold entered in the next filter. 
-. Enter a threshold.  Items that have circulated fewer times than the threshold, after the date selected 
++
+image::images/report/appendix/filter-before-active-date.png[]
++
+.. Location ID = select the shelving location(s) in which items should be included.
++
+image::images/report/appendix/filter-in-list-shelving-location.png[]
++
+.. Checkout Date/Time = enter a date after which to count circulations.  Circulations before this date will not be
+used to calculate whether an item meets the threshold entered in the next filter.
++
+image::images/report/appendix/filter-onorafter-checkout-date.png[]
++ 
+. Circ ID = enter a threshold.  Items that have circulated fewer times than the threshold, after the date selected 
 for Checkout Date/Time, will be included in your report output.
++
+image::images/report/appendix/filter-lessthan-circ-id.png[]
++ 
 . On the _Layout and Scheduling_ tab, ensure the box is checked for *Run Report Now*.
 +
 image::images/report/appendix/run-report-now.png[]
@@ -415,17 +446,15 @@ image::images/report/appendix/run-report-now.png[]
 [NOTE]
 ======
 For this example, the items that will be included in the report output are items catalogued 
-before January 1st 2023 (Active Date/Time), that have the shelving location Adult Fiction,
-and have circulated fewer than 3 times since January 1st 2021.
+before January 1st 2026 (Active Date/Time), that have the shelving location Juvenile DVD,
+and have circulated fewer than 2 times since January 1st 2022.
 ======
 
-image::images/report/appendix/weeding-copies-circ-fewer-times-since-date.png[]
- 
-Weeding -Copies Never Circulated after a Selected Date (clone)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Weeding - Copies Never Circulated after a Selected Date
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  
 _Found under Shared Folders -> Templates -> Sitka_templates ->
- Collection -> Others._
+ Collection -> Weeding._
 
 Recommended Recurrence Interval: *None, run as needed*
 
@@ -434,12 +463,24 @@ Recommended Recurrence Interval: *None, run as needed*
 image::images/report/appendix/name-your-report.png[]
 +
 . On the _Filters_ tab, enter values for the filters.
-. Add the date after which new items should be excluded. If you don't want to include items 
+.. Active Date/Time = enter the date after which new items should be excluded. If you don't want to include items 
 catalogued in the current calendar year enter January 1st of the current year.
-. Add your library.
-. Add the shelving location(s) in which items should be included.
-. Add a date for last checkout.  Items that have not been checked out since this date
++
+image::images/report/appendix/filter-before-active-date.png[]
++
+.. Circulating Library = select your library.
++
+image::images/report/appendix/filter-in-list-circ-library.png[]
++
+.. Location ID = select the shelving location(s) in which items should be included.
++
+image::images/report/appendix/filter-in-list-shelving-location.png[]
++
+.. Last Circulation Date = enter a date for last checkout.  Items that have not been checked out since this date
 will be included in your output.
++
+image::images/report/appendix/filter-before-last-circ-date.png[]
++
 . On the _Layout and Scheduling_ tab, ensure the box is checked for *Run Report Now*.
 +
 image::images/report/appendix/run-report-now.png[]
@@ -447,11 +488,9 @@ image::images/report/appendix/run-report-now.png[]
 [NOTE]
 ======
 For this example, the items that will be included in the report output are items catalogued 
-before January 1st 2023 (Active Date/Time), that have the shelving location Adult Fiction,
- and have not circulated since June 1st 2022 (Last Circulation Date).
+before January 1st 2026 (Active Date/Time), that have the shelving location Juvenile DVD,
+ and have not circulated since January 1st 2025 (Last Circulation Date).
 ======
-
-image::images/report/appendix/weeding-never-circ-since-date.png[]
 
 
 //// 
@@ -538,8 +577,14 @@ Registrations", not "January Patron Registrations".
 image::images/report/appendix/name-your-report.png[]
 +
 . On the _Filters_ tab, enter values for the filters.
-. Add your library.
-. = check the box for *Relative time value* and enter *1 Month(s) ago*.
+.. Home Library = select your library.
++
+image::images/report/appendix/filter-in-list-home-library.png[]
++
+.. Record Creation Date/Time = check the box for *Relative time value* and enter *1 Month(s) ago*.
++
+image::images/report/appendix/filter-equal-relative-create-date-patron.png[]
++
 . Check the box for _Recurring Report_.
 .. Set the *Recurrence Interval* to *1 Month(s)*.
 . Check the radio button for _Schedule Report For Later_.
@@ -548,8 +593,8 @@ and 4:00am PT.
 +
 image::images/report/appendix/recurring-report-monthly.png[]
 
-Total Patron Count by Patron Profiles
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Total Patron Count by Patron Profile
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 _Found under Shared Folders -> Templates -> Sitka_templates ->
  Patrons -> Patron Count._
@@ -562,9 +607,15 @@ your patrons at the moment the report is run.
 image::images/report/appendix/name-your-report.png[]
 +
 . On the _Filters_ tab, enter values for the filters.
-. Add your library.
-. Enter a date for patron expiration.  To count all patrons enter 1900-01-01 as the date.
-To only count unexpired patrons enter today's date.
+.. Home Library = select your library.
++
+image::images/report/appendix/filter-in-list-home-library.png[]
++
+. Privilege Expiration Date = enter a date for patron expiration.  To count all patrons enter 1900-01-01 as the date.
+To count only unexpired patrons enter today's date.
++
+image::images/report/appendix/filter-after-patron-expiration.png[]
++
 . On the _Layout and Scheduling_ tab, ensure the box is checked for *Run Report Now*.
 +
 image::images/report/appendix/run-report-now.png[]
@@ -586,13 +637,19 @@ Recommended Recurrence Interval: *None, run as needed*
 image::images/report/appendix/name-your-report.png[]
 +
 . On the _Filters_ tab, enter values for the filters.
-. Enter the time period you would like to report on. The earliest date goes first.
-. Add your library.
+.. Run Time = enter the time period you would like to report on. The earliest date 
+goes first.
++
+image::images/report/appendix/filter-between-report-run-time.png[]
++
+.. Home Library = select your library.
++
+image::images/report/appendix/filter-in-list-home-library.png[]
++
 . On the _Layout and Scheduling_ tab, ensure the box is checked for *Run Report Now*.
 +
 image::images/report/appendix/run-report-now.png[]
 
-image::images/report/appendix/reports-run-in-time-period.png[]
 
 [NOTE]
 ======
