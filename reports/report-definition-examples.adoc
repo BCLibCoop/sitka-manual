@@ -5,26 +5,37 @@ LIBRARY: Inbound ILC holds count for selected month
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 _Found under Shared Folders -> Templates -> Sitka_templates ->
- Intra-federation ILL stats._
+ Intra-federation ILL._
 
 Recommended Recurrence Interval: *Monthly*
 
 . Enter a name that doesn't include a specific date as this report will run every month. For example, "Monthly Inbound ILC",
  not "January Inbound ILC".
-. Add your library.
-. Choose *Relative Date* and add *1 Month(s) ago*.
-. Check the box for Recurring Report.
-.. Set the *Recurrence Interval* to 1 Month(s).
-.. Check the box beside the date and set the date to the first of the next month.
-.. Set the time to between 1:00am PT and 4:00am PT.
-
-image::images/report/appendix/library-inbound-ilc-holds-count-monthly.png[]
++
+image::images/report/appendix/library-inbound-ilc-holds-count-monthly-1.png[]
++
+. On the _Filters_ tab, enter values for the filters.
+.. Destination Library = select your library.
++
+image::images/report/appendix/library-inbound-ilc-holds-count-monthly-2.png[]
++
+..Send Date/Time = check the box for *Relative time value* and enter *1 Month(s) ago*.
++
+image::images/report/appendix/library-inbound-ilc-holds-count-monthly-3.png[]
++
+. Check the box for _Recurring Report_.
+.. Set the *Recurrence Interval* to *1 Month(s)*.
+. Check the radio button for _Schedule Report For Later_.
+.. Set the date to the first of the next month and the time to between 1:00am PT 
+and 4:00am PT.
++
+image::images/report/appendix/recurring-report-monthly.png[]
 
 LIBRARY: Outbound ILC holds count for selected month
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 _Found under Shared Folders -> Templates -> Sitka_templates -> 
-Intra-federation ILL stats._
+Intra-federation ILL._
 
 Recommended Recurrence Interval: *Monthly*
 
@@ -32,12 +43,13 @@ Recommended Recurrence Interval: *Monthly*
  not "January Outbound ILC".
 . Add your library.
 . Choose *Relative Date* and add *1 Month(s) ago*.
-. Check the box for Recurring Report.
-.. Set the *Recurrence Interval* to 1 Month(s).
-.. Check the box beside the date and set the date to the first of the next month.
-.. Set the time to between 1:00am PT and 4:00am PT.
-
-image::images/report/appendix/library-outbound-ilc-holds-count-monthly.png[]
+. Check the box for _Recurring Report_.
+.. Set the *Recurrence Interval* to *1 Month(s)*.
+. Check the radio button for _Schedule Report For Later_.
+.. Set the date to the first of the next month and the time to between 1:00am PT 
+and 4:00am PT.
++
+image::images/report/appendix/recurring-report-monthly.png[]
 
 
 Monthly Circulation by Circulation modifier
@@ -52,12 +64,14 @@ Recommended Recurrence Interval: *Monthly*
 Circ Modifier", not "January Circulation by Circ Modifier".
 . Choose *Relative Date* and add *1 Month(s) ago*.
 . Add your library or your branch(es).
-. Check the box for Recurring Report.
-.. Set the *Recurrence Interval* to 1 Month(s).
-.. Check the box beside the date and set the date to the first of the next month.
-.. Set the time to between 1:00am PT and 4:00am PT.
+. Check the box for _Recurring Report_.
+.. Set the *Recurrence Interval* to *1 Month(s)*.
+. Check the radio button for _Schedule Report For Later_.
+.. Set the date to the first of the next month and the time to between 1:00am PT 
+and 4:00am PT.
++
+image::images/report/appendix/recurring-report-monthly.png[]
 
-image::images/report/appendix/monthly-circ-by-circ-mod.png[]
 
 Monthly Circulation by Shelving Location
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -71,12 +85,13 @@ Recommended Recurrence Interval: *Monthly*
 Shelving Location", not "January Circulation by Shelving Location".
 . Choose *Relative Date* and add *1 Month(s) ago*.
 . Add your library or your branch(es).
-. Check the box for Recurring Report.
-.. Set the *Recurrence Interval* to 1 Month(s).
-.. Check the box beside the date and set the date to the first of the next month.
-.. Set the time to between 1:00am PT and 4:00am PT.
-
-image::images/report/appendix/monthly-circ-by-shelving-location.png[]
+. Check the box for _Recurring Report_.
+.. Set the *Recurrence Interval* to *1 Month(s)*.
+. Check the radio button for _Schedule Report For Later_.
+.. Set the date to the first of the next month and the time to between 1:00am PT 
+and 4:00am PT.
++
+image::images/report/appendix/recurring-report-monthly.png[]
 
 Collection Management
 ~~~~~~~~~~~~~~~~~~~~~
@@ -94,7 +109,9 @@ reporting on.
 . Add your library or your branch(es).
 . Add the circulation modifier(s) for which you would like a list of items
 using the modifier(s).
-. Ensure the box is checked for *Run as soon as possible*.
+. On the _Layout and Scheduling_ tab, ensure the box is checked for *Run Report Now*.
++
+image::images/report/appendix/run-report-now.png[]
 
 
 image::images/report/appendix/selected-circ-modifier.png[]
@@ -191,12 +208,14 @@ Recommended Recurrence Interval: *Weekly*
  goes first.
 .. If running as a weekly report it can be handy to use increments of 7.
 . Add your library or your branch(es).
-. Check the box for Recurring Report.
+. Check the box for _Recurring Report_.
 .. Set the *Recurrence Interval* to *1 Week(s)*.
+. Check the radio button for _Schedule Report For Later_.
 .. Check the box beside the date and set the date to the first time you want the report
 to run.  The report will run on the same day of the week every week; the example report 
 will run every Wednesday.
 .. Set the time to between 1:00am PT and 4:00am PT.
+
 
 image::images/report/appendix/overdues-within-time-span-general.png[]
 
@@ -215,7 +234,9 @@ using the location.
 . Add the circulation modifier for which you would like a list of items
 using the modifier.
 . Add your library or your branch(es).
-. Ensure the box is checked for *Run as soon as possible*.
+. On the _Layout and Scheduling_ tab, ensure the box is checked for *Run Report Now*.
++
+image::images/report/appendix/run-report-now.png[]
 
 
 image::images/report/appendix/shelving-location-and-circ-modifier-item-list.png[]
@@ -233,8 +254,9 @@ reporting on.
 . Add the shelving location(s) for which you would like a list of items
 using the location.
 . Add your library or your branch(es).
-. Ensure the box is checked for *Run as soon as possible*.
-
+. On the _Layout and Scheduling_ tab, ensure the box is checked for *Run Report Now*.
++
+image::images/report/appendix/run-report-now.png[]
 
 image::images/report/appendix/shelving-location-item-list.png[]
 
@@ -265,7 +287,7 @@ image::images/report/appendix/items-with-selected-status-3.png[]
 .. Set the date to the first of the next month and the time to between 1:00am PT 
 and 4:00am PT.
 +
-image::images/report/appendix/items-with-selected-status-4.png[]
+image::images/report/appendix/recurring-report-monthly.png[]
 
 [TIP]
 =====
@@ -327,7 +349,9 @@ catalogued in the current calendar year enter January 1st of the current year.
 used to calculate whether an item meets the threshold entered in the next filter. 
 . Enter a threshold.  Items that have circulated fewer times than the threshold, after the date selected 
 for Checkout Date/Time, will be included in your report output.
-. Ensure the box is checked for *Run as soon as possible* (not shown in the screenshot)
+. On the _Layout and Scheduling_ tab, ensure the box is checked for *Run Report Now*.
++
+image::images/report/appendix/run-report-now.png[]
 
 [NOTE]
 ======
@@ -353,7 +377,9 @@ catalogued in the current calendar year enter January 1st of the current year.
 . Add the shelving location(s) in which items should be included.
 . Add a date for last checkout.  Items that have not been checked out since this date
 will be included in your output.
-. Ensure the box is checked for *Run as soon as possible* 
+. On the _Layout and Scheduling_ tab, ensure the box is checked for *Run Report Now*.
++
+image::images/report/appendix/run-report-now.png[]
 
 [NOTE]
 ======
@@ -447,12 +473,13 @@ Recommended Recurrence Interval: *Monthly*
 Registrations", not "January Patron Registrations".
 . Add your library.
 . Choose *Relative Date* and add *1 Month(s) ago*.
-. Check the box for Recurring Report.
-.. Set the *Recurrence Interval* to 1 Month(s).
-.. Check the box beside the date and set the date to the first of the next month.
-.. Set the time to between 1:00am PT and 4:00am PT.
-
-image::images/report/appendix/monthly-patrons-registration.png[]
+. Check the box for _Recurring Report_.
+.. Set the *Recurrence Interval* to *1 Month(s)*.
+. Check the radio button for _Schedule Report For Later_.
+.. Set the date to the first of the next month and the time to between 1:00am PT 
+and 4:00am PT.
++
+image::images/report/appendix/recurring-report-monthly.png[]
 
 Total Patron Count by Patron Profiles
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -467,9 +494,9 @@ your patrons at the moment the report is run.
 . Add your library.
 . Enter a date for patron expiration.  To count all patrons enter 1900-01-01 as the date.
 To only count unexpired patrons enter today's date.
-. Ensure the box is checked for *Run as soon as possible*.
-
-image::images/report/appendix/patron-count.png[]
+. On the _Layout and Scheduling_ tab, ensure the box is checked for *Run Report Now*.
++
+image::images/report/appendix/run-report-now.png[]
 
 [[_report_definition_examples_local_administration]]
 Local Administration
