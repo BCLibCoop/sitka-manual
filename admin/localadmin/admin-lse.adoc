@@ -191,47 +191,47 @@ is deleted.|True/False| TRUE | Sitka |
 
 |Holdings Editor Default Values and Visibility | | Text | | Sitka |
 
-| ItemPrint Label - Call Number Wrap Filter Height | Set the default height (in number of lines) to use for call number wrapping in the left print label.  
+|ItemPrint Label - Call Number Wrap Filter Height | Set the default height (in number of lines) to use for call number wrapping in the left print label.  
 | Text |  | LSA |
 
-| ItemPrint Label - Call Number Wrap Filter Width | set the default width (in number of characters) to use for call number wrapping in the left print label. 
+|ItemPrint Label - Call Number Wrap Filter Width | set the default width (in number of characters) to use for call number wrapping in the left print label. 
 | Text  |  | LSA |
 
-| Item Print Label - Height for Pocket Label | Set the default height for the item 
+|Item Print Label - Height for Pocket Label | Set the default height for the item 
 print Pocket Label. Please include a unit of measurement that is valid CSS. For 
 example, "1in" or "2.5cm" | Text | |LSA | 
 
-| Item Print Label - Height for Spine Label | Set the default height for the item print 
+|Item Print Label - Height for Spine Label | Set the default height for the item print 
 Spine Label. Please include a unit of measurement that is valid CSS. For example, "1in" or "2.5cm" | Text | | LSA| 
 
-| Item Print Label - Inline CSS | This setting allows you to inject arbitrary CSS into the item print label template. For example, ".printlabel { text-transform: uppercase; }"
+|Item Print Label - Inline CSS | This setting allows you to inject arbitrary CSS into the item print label template. For example, ".printlabel { text-transform: uppercase; }"
  | Text | | LSA | 
 
-| Item Print Label - Left Margin for Pocket Label | Set the default left margin for the item print Pocket Label (or in other words, the desired space between the two labels). 
+|Item Print Label - Left Margin for Pocket Label | Set the default left margin for the item print Pocket Label (or in other words, the desired space between the two labels). 
 Please include a unit of measurement that is valid CSS. For example, "1in" or "2.5cm" | Text | | LSA | 
 
-| Item Print Label - Left Margin for Spine Label | Set the default left margin for the item print Spine Label. Please include a unit of measurement that is valid CSS. 
+|Item Print Label - Left Margin for Spine Label | Set the default left margin for the item print Spine Label. Please include a unit of measurement that is valid CSS. 
 For example, "1in" or "2.5cm" | Text | | LSA | 
 
-| Item Print Label - Width for Pocket Label | Set the default width for the item print Pocket Label. Please include a unit of measurement that is valid CSS. 
+|Item Print Label - Width for Pocket Label | Set the default width for the item print Pocket Label. Please include a unit of measurement that is valid CSS. 
 For example, "1in" or "2.5cm" | Text | | LSA | 
 
-| Item Print Label - Width for Spine Label | Set the default width for the item print Spine Label. Please include a unit of measurement that is valid CSS. 
+|Item Print Label - Width for Spine Label | Set the default width for the item print Spine Label. Please include a unit of measurement that is valid CSS. 
 For example, "1in" or "2.5cm" | Text | | LSA | 
 
-| Item Print Label Font Family |Set the preferred font family for item print labels. You can specify a list of CSS fonts, separated by commas, in order of preference; 
+|Item Print Label Font Family |Set the preferred font family for item print labels. You can specify a list of CSS fonts, separated by commas, in order of preference; 
 the system will use the first font it finds with a matching name. For example, "Arial, Helvetica, serif"  | Text | | LSA |
 
-| Item Print Label Font Size | Set the default font size for item print labels. Please include a unit of measurement that is valid CSS. For example, "12pt" or "16px" or "1em" | Text | | LSA |
+|Item Print Label Font Size | Set the default font size for item print labels. Please include a unit of measurement that is valid CSS. For example, "12pt" or "16px" or "1em" | Text | | LSA |
 
-| Item Print Label Font Weight | Set the default font weight for item print labels. Please use the CSS specification for values for font-weight. For example, "normal", "bold", 
+|Item Print Label Font Weight | Set the default font weight for item print labels. Please use the CSS specification for values for font-weight. For example, "normal", "bold", 
 "bolder", or "lighter" | Text | | LSA |
 
 |Maximum Parallel Z39.50 Batch Searches|The maximum number of Z39.50 searches that can be in-flight at any given time when performing batch Z39.50 searches|Number| | Sitka |
 
 |Maximum Z39.50 Batch Search Results|The maximum number of search results to retrieve and queue for each record + Z39 source during batch Z39.50 searches|Number| | Sitka |
 
-| Patron view discovery layer URL | URL for displaying an item in the "patron view" discovery layer with a placeholder for the bib record ID: {eg_record_id}. For example: https://example.com/Record/{eg_record_id} | Text | | Sitka | Set by Sitka. If you would like it changed, please submit a support ticket.
+|Patron view discovery layer URL | URL for displaying an item in the "patron view" discovery layer with a placeholder for the bib record ID. | Text | Evergreen URL | Sitka | Set by Sitka. If you would like it changed, please submit a support ticket.
 
 |Require call number labels in Copy Editor | Define whether Copy Editor requires Call Number labels | True/False | TRUE | Sitka|
 
@@ -945,7 +945,7 @@ Desk flag in patron record.|True/False| | LSA |
 hold to fill using a given copy at capture time|Selection list| Traditional | Sitka |
 
 |Block renewal of items needed for holds|When an item could fulfill a hold, do not allow 
-the current patron to renew|True/False| | Sitka |
+the current patron to renew|True/False|  | LSA |
 
 |Cancelled holds display age|Show all cancelled holds that were cancelled within this 
 amount of time|Duration| | LSA |
@@ -1070,7 +1070,7 @@ calculated from date of birth in patron accounts|Duration  (years)| 18 years | L
 information on this library, such as contact information, hours of operation, and 
 directions. Use a complete URL, such as "http://example.com/hours.html".|Text| | LSA |
 
-|Library time zone |  | Text | |Sitka |
+|Library time zone | Define the time zone in which a library physically resides.  | Text | |Sitka |
 
 |Mark item damaged voids overdues|When an item is marked damaged, overdue fines on the 
 most recent circulation are voided.|True/False| | LSA |

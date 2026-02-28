@@ -120,8 +120,8 @@ xref:_recurring_reports[recurring reports] so staff don't need to manually run t
 .Key templates are:
 * _By SelfCheck (Evergreen SelfChek Module): Circ Stats within Time Frame (by Month)_
 * _Monthly Circulation by Patron Home Library_
-* _xref:_monthly_circulation_by_circulation_modifier_new_3_1[Monthly Circulation by Circulation modifier]_
-* _xref:_monthly_circulation_by_shelving_location_new_3_1[Monthly Circulation by Shelving Location]_ 
+* _xref:_monthly_circulation_by_circulation_modifier[Monthly Circulation by Circulation modifier]_
+* _xref:_monthly_circulation_by_shelving_location[Monthly Circulation by Shelving Location]_ 
 * _Monthly Pre-Cat Circulation Count_
 
 Circulation within time frame
@@ -214,18 +214,18 @@ get lists based on shelving locations, item statuses, circulation modifiers, sta
  enabling you to get exactly the items you're looking for.
  
 .Key templates are:
-* _Circ Modifier : Items with Selected Circ Modifiers_
+* _xref:_circ_modifier_items_with_selected_circ_modifiers[Circ Modifier : Items with Selected Circ Modifiers]_
 * _Items with Selected Shelving Location & Status (with total circ and in-house count)_
 * _Newly Catalogued Items within Selected Month(s)_
-* _Shelving Location : Items with Selected Shelving Location_
-* _Shelving Location and Circ Modifier : Items with Selected Shelving Location and Circ Modifier_
-* _Status : Items with Selected Copy Status Set within Time Frame_
+* _xref:_shelving_location_items_with_selected_shelving_location[Shelving Location : Items with Selected Shelving Location]_
+* _xref:_shelving_location_and_circ_modifier_items_with_selected_shelving_location_and_circ_modifier[Shelving Location and Circ Modifier : Items with Selected Shelving Location and Circ Modifier]_
+* _xref:_status_all_items_with_selected_item_status[Status : Items with Selected Item Status]_
 
 Many templates in this sub-folder can assist libraries with data clean up.
 
 .Key templates for this are:
 * _Barcode : Items with Barcode with Matched Substring_ - used to find items using old barcodes
-* _Circ Modifier : Items without Circ Modifier_ - used to find items missing a circulation modifier
+* _xref:_circ_modifier_copies_without_circ_modifier[Circ Modifier: Copies without Circ Modifier]_ - used to find items missing a circulation modifier
 * _Price : Items with Price = $0.00_ - used to find items where the price is set to zero
 * _Price: Items with Price Unset (NULL)_ - used to find items where the price field is blank
 
@@ -252,8 +252,8 @@ including templates related to deleted items, pre-catalogued items, and weeding.
 * _xref:_popular_titles_at_selected_shelving_locations_within_specified_time_span[Popular Titles at Selected Shelving Locations within Specified Time Span]_
 * _Pre-cat item list with current title and author (non-deleted only)_
 * _Value of Collection by Shelving Location by item circ library_
-* _xref:_weeding_items_circulated_fewer_times_since_a_selected_date_excl_copied_added_after_a_selected_date[Weeding - Items Circulated Fewer Times since a Selected Date (excl. Items added after a Selected Date)]_
-* _xref:_weeding_items_never_circulated_after_a_selected_date[Weeding - Items Never Circulated after a Selected Date]_
+* _xref:_weeding_copies_circulated_fewer_times_since_a_selected_date_over_2_years_ago[Weeding - Copies Circulated Fewer Times since a Selected Date OVER 2 Years ago]_
+* _xref:_weeding_copies_never_circulated_after_a_selected_date[Weeding - Copies Never Circulated after a Selected Date]_
 
 [[_sitka_templates_custom]]
 Custom Templates
@@ -301,7 +301,7 @@ Inventory
 
 Here you will find two templates to assist you in running inventory at your library.
 
-* _xref:_inventory_scanned_items_count_by_shelving_location_new[Inventory - Scanned Items Count by Shelving Location (NEW)]_ - this template gives you a count
+* _xref:_inventory_scanned_items_count_by_shelving_location[Inventory - Scanned Items Count by Shelving Location]_ - this template gives you a count
  of all items scanned in the specified period, broken down by shelving location.
 * _xref:_inventory_un_scanned_items[Inventory - Un-scanned Items]_ - this template gives a 
 list of all items not scanned in the specified time period, with the option to filter the 
@@ -320,7 +320,8 @@ viewed directly in the staff client but is easier to view as report output.
 * _Circulation Policies filtering by copy circ lib_
 * _Hold Policies by Item's Owning Library_
 * _Hold policy by pickup library (ILC participants: please select your federation, too)_
-* _Reports Run In Specified Time Period By Specified Library_
+* _xref:_reports_run_in_specified_time_period_by_specified_library[Reports Run In Specified Time Period By Specified 
+Library]_
 
 [[_sitka_templates_misc]]
 Misc.
@@ -345,8 +346,9 @@ Library Staff
 +++++++++++++
 
 Here you will find templates related to library staff accounts.
+
 .Key templates are:
-* _Staff Assigned to Supplementary Permission Group(s)_
+* _xref:_reports_run_in_specified_time_period_by_specified_library[Staff Assigned to Supplementary Permission Group(s)]_
 
 Patron Count
 ++++++++++++
@@ -357,7 +359,7 @@ Here you will find templates that count patrons whose home library is your libra
 * _Active (having circ history) Patron Count by Patron Home Library and Profile_
 * _Active (having circ history) Patron Count by Patron Home Library, Profile and Stat Cat_
 * _Patron Count by Profile Group then by one Stat Cat_
-* _xref:_total_patron_count_by_patron_profiles[Total Patron Count by Patron Profiles]_
+* _xref:_total_patron_count_by_patron_profile[Total Patron Count by Patron Profiles]_
  
 
 Patron List

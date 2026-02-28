@@ -128,10 +128,6 @@ include::reports/report-troubleshoot-template.adoc[]
 
 include::reports/report-eg-table.adoc[]
 
-////
-include::reports/report-db-term.adoc[]
-////
-
 include::reports/simple-reports.adoc[]
 
 Inventory
@@ -161,10 +157,6 @@ Course Reserves
 ===============
 include::course-reserves/course-reserves.adoc[]
 
-////
-include::course-reserves/old-course-reserves.adoc[]
-////
-
 Booking
 =======
 include::booking/booking-module.adoc[]
@@ -191,10 +183,6 @@ include::admin/admin-patron-deletion-tool.adoc[]
 include::admin/admin-staff-account.adoc[]
 
 include::admin/admin-notice.adoc[]
-
-////
-include::admin/admin-opac-station.adoc[]
-////
 
 include::admin/admin-system-requirement.adoc[]
 
