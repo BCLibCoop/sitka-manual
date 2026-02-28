@@ -300,8 +300,6 @@ image::images/report/appendix/filter-in-list-org-unit-id.png[]
 image::images/report/appendix/run-report-now.png[]
 
 
-image::images/report/appendix/shelving-location-and-circ-modifier-item-list.png[]
-
 Shelving Location: Items with Selected Shelving Location
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -329,7 +327,6 @@ image::images/report/appendix/filter-in-list-circ-library.png[]
 +
 image::images/report/appendix/run-report-now.png[]
 
-image::images/report/appendix/shelving-location-item-list.png[]
 
 Status: All Items with Selected Item Status
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -407,7 +404,7 @@ Weeding - Copies Circulated Fewer Times since a Selected Date OVER 2 Years ago
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  
 _Found under Shared Folders -> Templates -> Sitka_templates ->
- Collection -> Others._
+ Collection -> Weeding._
 
 Recommended Recurrence Interval: *None, run as needed*
 
