@@ -43,12 +43,13 @@ the staff catalogue in a new tab it will reset to the workstation's default sear
 [TIP]
 =====
 The workstation setting _Include Full Library Names in Library Search?_ controls whether the display
-in the library selector is the libraryname and short code or just the short code.  See 
+in the library selector is the library name and short code or just the short code.  See 
 xref:_include_full_library_names_in_library_selector[] for information on this setting.
 =====
 
 Additional Options
 ^^^^^^^^^^^^^^^^^^
+*Screenshots to expand this section?*
 
 Also in the search form are buttons for resetting the search form, accessing the 
 xref:_search_templates[Search Templates], accessing the xref:_search_preferences[Search Preferences], 
@@ -133,13 +134,13 @@ Access the filters by selecting the three stacked dots to the right of the searc
 
 image::searching_the_catalog/search_filters.png[Keyword Search pane with the filters button highlighted, showing the nine filtering tools at the bottom of the pane, listed below.]
 
-The options available in each filter depend on the library selected in the xref:staff_catalog:searching_the_catalog.adoc#library_selector[Library Selector]. The available filters are: _Item Type_, _Form_, _Language_, _Audience_, _Video Format_, _Bibliographic Level_, _Literary Form_, and _Shelving Location_.
+The options available in each filter depend on the library selected in the xref:staff_catalog:searching_the_catalog.adoc#library_selector[Library Selector]. The available filters are: _Language_, _Audience_, _Literary Form_, and _Shelving Location_.
 
 To add a filter, select the desired term from the list in the filter. The selected term will be highlighted and the filter will be applied when you run the search. Use the scroll bar in each filter to view more options.
 
 TIP: Hold CTRL (Windows) or CMD (Mac) to make multiple selections in a single filter.
 
-To remove a filter, select the first term in the filter's list that begins with _All_ and is followed by the name of the filter. For example, to remove the _Form_ filter, select _All Item Forms_.
+To remove a filter, select the first term in the filter's list that begins with _All_ and is followed by the name of the filter. For example, to remove the _Language_ filter, select _All Languages_.
 
 To remove all filters, select the _Reset_ button in the top-right corner of the search form.
 
