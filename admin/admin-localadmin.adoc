@@ -17,6 +17,8 @@ include::localadmin/admin-group-penalty.adoc[]
 
 include::localadmin/admin-hold-policy.adoc[]
 
+include::localadmin/admin-recall.adoc[]
+
 include::localadmin/admin-hopeless-holds.adoc[]
 
 include::localadmin/admin-item.adoc[]
@@ -30,8 +32,6 @@ include::localadmin/admin-action-triggers.adoc[]
 include::localadmin/admin-negative-balances.adoc[]
 
 include::localadmin/admin-permissions-tree.adoc[]
-
-include::localadmin/admin-recall.adoc[]
 
 include::localadmin/admin-shelving-location.adoc[]
 
