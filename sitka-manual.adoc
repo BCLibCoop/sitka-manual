@@ -57,7 +57,6 @@ Staff Catalogue
 
 include::cat-staff/cat-staff-configure.adoc[Configuring the Staff Catalogue]
 
-////
 include::cat-staff/searching-catalogue.adoc[Searching the Staff Catalogue]
 
 include::cat-staff/search-results.adoc[Search Results]
@@ -65,7 +64,6 @@ include::cat-staff/search-results.adoc[Search Results]
 include::cat-staff/bibliographic-records.adoc[Bibliographic Records]
 
 include::cat-staff/basket.adoc[Baskets]
-////
 
 
 Cataloguing
