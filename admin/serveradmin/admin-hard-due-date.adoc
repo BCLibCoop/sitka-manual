@@ -1,0 +1,52 @@
+Hard Due Date
+~~~~~~~~~~~~~
+
+Academic libraries may wish to use hard due dates to truncate due dates at the end of a semester or 
+allow particular material to go out for an entire semester.  
+
+Viewing Your Hard Due Dates
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Local system administrators can view hard due dates for your library but cannot update or add
+new dates. 
+
+. Go to *Administration -> Server Administration -> Hard Due Date Changes*.
+. Existing hard due dates will display for the current working location with the current ceiling 
+date visible. Multi-branch libraries should use the library selector to display hard due dates for their 
+system and descendants.
++
+image::images/admin/hard-due-date-1.png[scaledwidth="75%"]
++
+. To see past and upcoming dates for a specific hard due date click *Values* on the applicable line.
++
+image::images/admin/hard-due-date-2.png[scaledwidth="75%"]
++
+. The dates will display.
++
+image::images/admin/hard-due-date-3.png[scaledwidth="75%"]
+
+
+Changing Your Hard Due Dates
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you wish to update or add hard due dates please 
+contact https://bc.libraries.coop/support/[Co-op Support] 
+with the following:
+
+* Date or dates for the hard due date
+* Who and what the hard due date should apply to
+** Refer to xref:_understanding_your_circulation_policies[Understanding Your Circulation Policies] for the information on the parameters you can specify
+* Whether the hard due should apply all the time or just truncate the regular due dates when they would
+fall after the hard due date
+** Libraries can have both types of hard due dates if you'd like different scenarios to apply to different
+patron groups or items.  For example, you may want to have regular loan durations apply to students until
+the end of term when they start to truncate while faculty members always get to check out items for the
+entire semester.
+
+[TIP]
+=====
+Send your new hard due dates to Support on a regular basis to ensure your circulation works as expected.
+
+For instance, you may wish to send the dates for your fall, winter, and summer terms to Support every
+ August so that your dates can be entered for the entire year.
+=====

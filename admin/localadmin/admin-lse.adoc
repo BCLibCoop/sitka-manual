@@ -448,7 +448,7 @@ as inactive.|True/False| TRUE | LSA |
 
 |Patron Registration: Cloned patrons get address copy|If True, in the Patron editor, 
 addresses are copied from the cloned user. If False, addresses are linked from 
-the cloned user which can only be edited from the cloned user record.|True/False| | LSA |
+the cloned user which can only be edited from the cloned user record.|True/False| TRUE | LSA |
 
 |Patron search diacritic insensitive | Match patron last, first, and middle names 
 irrespective of usage of diacritical marks or spaces. | True/False | TRUE |Sitka |
