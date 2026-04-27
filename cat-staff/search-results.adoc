@@ -90,7 +90,7 @@ Facets
 
 Facets appear on the left side of the Search Results page. These facets are grouped by categories such as author, subject, genre, series, and more. Each category contains the most common information in your search results' MARC records. 
 
-image::search_results/facets.png[Screenshot with the facets panel highlughted, as described above.]
+image::search_results/facets.png[Screenshot with the facets panel highlighted, as described above.]
 
 Select a facet within a given category to limit the search results to the selected facet.
 
