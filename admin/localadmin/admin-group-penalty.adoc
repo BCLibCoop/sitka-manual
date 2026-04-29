@@ -26,20 +26,23 @@ on how this displays in a patron account.
 
 image:images/admin/group-penalty-threshold-1.png[scaledwidth="75%",alt="Local Penalty Thresholds"]
 
+[TIP]
+=====
 Group penalty thresholds may be set up on different levels in terms of patron profiles and libraries. 
 Penalties on more specific levels of profile and/or library take precedence. This allows 
 you to set up penalties on a higher level of profile, e.g. Public Library Patrons, and/or library, 
 e.g. system instead of branch, for most profiles and/or branches to share. If there 
 are rules applied to lower level profiles, e.g. PL Juvenile or a branch, you just need to set 
 them up for these specific profile/branch.
+=====
 
 There are default penalty thresholds set at the Sitka level.  All four penalties have a threshold of 
 9999. These thresholds apply if there isn't a more specific penalty set for a library.
 
-Creating Local Penalty Thresholds
+Creating Group Penalty Thresholds
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Local System Administrators can create local penalty thresholds.
+Local System Administrators can create group penalty thresholds.
 
 . Go to *Administration -> Local Administration -> Group Penalty Threshold*.
 
@@ -59,7 +62,7 @@ image:images/admin/group-penalty-threshold-3.png[scaledwidth="75%",alt="Create L
 +
 . The penalty threshold is created and appears in the grid.
 
-Editing Local Penalty Thresholds
+Editing Group Penalty Thresholds
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Double click on the penalty you would like to edit or select it and from the the *Actions* menu 
@@ -74,7 +77,7 @@ image::images/admin/group-penalty-threshold-edit-2.png[scaledwidth="75%",alt="Ed
 . The penalty threshold is updated.
 
 
-Deleting Local Penalty Thresholds
+Deleting Group Penalty Thresholds
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Select the penalty you'd like to delete.
