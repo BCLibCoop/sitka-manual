@@ -49,7 +49,7 @@ Checking for Notifications
 (((Triggered Events)))
 
 Evergreen keeps a record, called a triggered event, of courtesy, overdue, and hold notifications sent 
-out via email and SMS text message.  You can check to see whether or not a notification was generated.
+out via email.  You can check to see whether or not a notification was generated.
 
 These records are kept for 3 to 6 months, depending on the type of notification.
 
