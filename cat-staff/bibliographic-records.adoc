@@ -75,10 +75,10 @@ image::bibliographic_records/record_actions.png[Screenshot of a record summary w
 You can use the following actions:
 
 * *Patron View*: The record will open in the patron catalog (OPAC) in a new tab. You will not be logged in to Evergreen in this new tab. You must return to your staff tab to continue using staff features.
-* *Place Hold*: The _Place Hold_ screen will appear in the current tab. You may place a title or part level hold. Select *Return* to return to the record.
+* *Place Hold*: The _Place Hold_ screen will appear in the current tab. You may place a title hold. Select *Return* to return to the record.
 * *Add Holdings*: The _Holdings Editor_ for the current record will open in a new tab. Users with the appropriate permissions can begin the process of adding a new holding (item). 
-* *Serials*: A dropdown menu opens with the options *Manage Serials* and *Manage MFHDs*. Both options take you to the _Serials_ page for the current record with the selected pane open.
-* *Mark For...*: A dropdown menu opens with the options _Conjoined Items_, _Overlay Target_, _Title Hold Transfer_, _Holding Transfer_, and _Reset Record Marks_. Cataloging primarily use these to complete a variety of cataloging tasks. Circulation staff may use the _Title Hold Transfer_ option to transfer a hold to a different hold request while preserving the other hold details. _Reset Record Marks_ removes all marks.
+* *Serials*: A dropdown menu opens with the options *Quick Receive*, *Manage Subscriptions*, and *Manage MFHDs*. The latter two options take you to the _Serials_ page for the current record with the selected pane open.
+* *Mark For...*: A dropdown menu opens with the options _Conjoined Items_, _Overlay Target_, _Title Hold Transfer_, _Holding Transfer_, and _Reset Record Marks_. Cataloging primarily uses these to complete a variety of cataloging tasks. Circulation staff may use the _Title Hold Transfer_ option to transfer a hold to a different hold request while preserving the other hold details. _Reset Record Marks_ removes all marks.
 * *Other Actions*: A dropdown menu opens with the following options:
 ** *Add To Bucket*: The _Add Item # to Bucket_ window opens. You may add the record to an existing, new, or shared record bucket.
 ** *Add To Carousel*: The _Add to Carousel_ window opens. You may add the record to an existing carousel or create a new carousel.
