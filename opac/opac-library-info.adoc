@@ -13,7 +13,7 @@ image:images/opac/library-info/opac-library-info-1.png[]
 
 [NOTE]
 ======
-Instead of linking the to library information page, the library or branch name in the _Location_ column can
+Instead of linking to the library information page, the library or branch name in the _Location_ column can
 link to your library's website.
 
 To do this you must enter a value for the library setting _Library information URL (such as "http://example.com/about.html")_
