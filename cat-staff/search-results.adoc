@@ -21,7 +21,7 @@ This information appears in the listed order from left to right in each result, 
 
 image::search_results/result_details.png[Screenshot of a single result with the different kinds of information highlighted, as described above.]
 
-Each result also contains a green *Place Hold* button that allows you to place a title or part level hold on the item, as well as an _Add to Bucket_ dropdown. 
+Each result also contains a green *Place Hold* button that allows you to place a title hold on the item, as well as an _Add to Bucket_ dropdown. 
 
 Item Description
 ^^^^^^^^^^^^^^^^
@@ -90,7 +90,7 @@ Facets
 
 Facets appear on the left side of the Search Results page. These facets are grouped by categories such as author, subject, genre, series, and more. Each category contains the most common information in your search results' MARC records. 
 
-image::search_results/facets.png[Screenshot with the facets panel highlughted, as described above.]
+image::search_results/facets.png[Screenshot with the facets panel highlighted, as described above.]
 
 Select a facet within a given category to limit the search results to the selected facet.
 

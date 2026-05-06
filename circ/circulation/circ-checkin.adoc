@@ -76,7 +76,10 @@ Click the *Checkin Modifiers* drop down arrow. These options may be selected sin
 * Clear Holds Shelf: Checking in hold-shelf-expired items will clear the items from the holds shelf (holds to be cancelled).
 * Retarget Local Holds: Makes Evergreen's hold targeter find the items immediately, and is useful for checking in newly holdable items.
 * Retarget All Statuses: Checks for a local hold to retarget, regardless of the status of the item being checked in. This modifier must be used in conjunction with the Retarget Local Holds modifier.
-* Capture Local Holds as Transits: Local holds will be given an _In transit_ status instead of _On holds shelf_. The intent is to stop the system from sending holds notifications before the item is ready to be placed on the holds shelf, and item will have a status of _In transit_ until checked in again.
+* Capture Local Holds as Transits: Local holds will be given an _In transit_ status instead of _On holds shelf_. The intent 
+is to stop the system from sending holds notifications before the item is ready to be placed on the holds shelf, and item 
+will have a status of _In transit_ until checked in again. If you wish to simply delay notification and allow time for staff 
+to process item to holds shelf, you may wish to use the library setting _Hold shelf status delay_ instead.
 * Manual Floating Active: Works in conjunction with floating groups (if configured for your library by Co-op Support).
 * Update Inventory: Adds a date and time stamp, as well as workstation name, to item records as they are checked in, to facilitate inventory processes.
 
