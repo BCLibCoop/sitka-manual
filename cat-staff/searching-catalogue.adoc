@@ -6,20 +6,29 @@ The staff catalogue enables staff to search for holdings in their collection and
 Search Form
 ~~~~~~~~~~~
 
-The entire panel at the top of the staff catalogue is the search form. It is made up of 
-xref:_search_panes[five search panes], xref:_library_selector[the library selector], and 
-xref:_additional_options[additional options].
+The entire panel at the top of the staff catalogue is the search form:
+
+. xref:_search_panes[Five Search Panes]
+. xref:_library_selector[The Library Selector]
+. xref:_additional_options[Additional Options]
 
 image::images/staffcat/search/catalogue-search-1.png[Catalogue Search Form]
 
 Search Panes
 ^^^^^^^^^^^^
 
-There are five search panes available in the search form - xref:_keyword_search_staff[Keyword Search],
-xref:_numeric_search_staff[Numeric Search], xref:_marc_search_staff[MARC Search], 
-xref:_browse_search_staff[Browse], and xref:_shelf_browse_staff[Shelf Browse].  
-These enable staff to search the catalogue
-in a variety of ways.
+There are five search panes available in the search form that enable staff to search the catalogue
+in a variety of ways:
+
+* xref:_keyword_search_staff[Keyword Search]
+* xref:_numeric_search_staff[Numeric Search]
+* xref:_marc_search_staff[MARC Search]
+* xref:_browse_search_staff[Browse]
+* xref:_shelf_browse_staff[Shelf Browse]
+
+The default search pane for your workstation can be set in the 
+xref:_search_preferences[Search Preferences]. 
+ 
 
 [[_library_selector]]
 Library Selector
@@ -28,11 +37,11 @@ Library Selector
 The library selector allows you to change your search library to the consortium, system, branch, or 
 other organization of your choice.
 
+To change your search library, select the text box to the left of the *Search* button and make 
+your selection from the drop down menu.
+
 The default search library for your workstation can be set in the 
 xref:_search_preferences[Search Preferences]. 
-
-To change your search library, select the text box to the left of the _Search_ button and make 
-your selection from the dropdown menu.
 
 You may also enter the short name of the library you wish to search directly 
 into the text box and then select it from the shortened list that displays.
