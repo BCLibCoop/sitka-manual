@@ -117,7 +117,7 @@ NOTE: Keyword searches will look through all relevant fields in the bibliographi
 Additional Search Rows
 ^^^^^^^^^^^^^^^^^^^^^^
 
-To add an additional search row, click the _plus sign_ (+) to the right of the Search Terms text box. A new search row appears below the first. 
+To add an additional search row, click the *plus sign* (+) to the right of the Search Terms text box. A new search row appears below the first. 
 
 The new search row will search the same format as that selected on the first search row. 
 
@@ -125,7 +125,7 @@ Additional search rows are joined to preceding search rows with the Boolean oper
 
 image::searching_the_catalog/additional_search_rows.png[Staff Catalogue page showing two search rows with the plus sign symbol and the Join with menu highlighted.]
 
-To delete a search row, click the _minus sign_ (-) to the right of the row you wish to delete.
+To delete a search row, click the *minus sign* (-) to the right of the row you wish to delete.
 
 .Example
 ****
@@ -215,7 +215,7 @@ Enter the three-digit tag you wish to search in the _Tag_ text box. If desired, 
 
 Then, enter the value for which you are searching in the _Value_ text box. Begin the search by selecting the *Search* button in the top-right corner. Search results appear below the search form.
 
-You can only search one tag or subfield per row. To add additional rows, click the _plus sign_ (+) to the right of the search row. To remove rows, click the _minus sign_ (-) to the right of the search row.
+You can only search one tag or subfield per row. To add additional rows, click the *plus sign* (+) to the right of the search row. To remove rows, click the *minus sign* (-) to the right of the search row.
 
 image::searching_the_catalog/marc_search.png[MARC Search pane with arrows indicating the MARC Search pane selected, the Tag, Subfield, and Value text boxes, and the Search button, as described above.]
 
