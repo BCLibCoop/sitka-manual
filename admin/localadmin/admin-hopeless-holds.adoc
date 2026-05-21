@@ -8,8 +8,7 @@ Hopeless Holds
 https://youtu.be/Sf6DISXuEu0[*Sitka Snippet Video - Hopeless Holds (1:11)*]
 
 In Evergreen unfillable holds are called Hopeless Holds.  A hold will become hopeless when all of the 
-items that could potentially fill the hold are in a hopeless prone item status or all potential items have 
-been deleted from the database.
+items that could potentially fill the hold are in a hopeless prone item status.
 
 The hopeless prone item statuses in Sitka's Evergreen are _Discard/Weed_, _Damaged_, _Lost_, _Lost and Paid_, 
 and _Missing_.  This is set globally and cannot be altered for individual libraries.
