@@ -16,7 +16,7 @@ the xref:_hopeless_holds[_Hopeless Holds_] interface.
 =========
 Libraries participating in Interlibrary Connect should NEVER cancel a hold if the pick up library is not their own.
 
-If a library deletes the last holding from a record, Evergreen will automatically delete the bibligraphic record and 
+If a library xref:_deleting_holdings[deletes the last holding] from a record, Evergreen will automatically delete the bibligraphic record and 
 any holds associated with it including ILC holds. A warning is given to the staff member deleting the item if there are 
 holds but Evergreen does not alert other libraries that have holds associated with the record. 
 
