@@ -22,7 +22,7 @@ holds but Evergreen does not alert other libraries that have holds associated wi
 
 Co-op Support recommends libraries run a report to catch holds cancelled by Evergreen in this way. 
 The template _Monthly Cancelled Holds List with Cancelation 
-Cause_ can be run as needed or set up as a monthly recurring report. These holds will show with a cancel reason of_Untargeted 
+Cause_ can be run as needed or set up as a monthly recurring report. These holds will show with a cancel reason of _Untargeted 
 expiration_.
 =========
 
