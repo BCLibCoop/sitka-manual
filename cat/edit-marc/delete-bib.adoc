@@ -66,7 +66,7 @@ image::images/cat/marc/delete-marc-2.png[]
 Deleting Records via a Record Bucket
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you import or create a MARC records you don't end up using, youb can delete them in batch 
+If you import or create a MARC records you don't end up using, you can delete them in batch 
 from a xref:_record_buckets[record bucket].
 
 . Go to *Cataloguing -> Record Buckets*.
