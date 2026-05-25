@@ -120,9 +120,11 @@ Evergreen will apply the following cancel reasons when a particular action is pe
 
 * *Hold shelf expiration* -  Evergreen applies this hold reason when holds are xref:_clearing_holds[cleared from the hold shelf]
  using the *Clear These Holds* button.
-* *Untargeted expiration* - Evergreen applies this hold reason when the last item that could fill the hold is deleted and the 
+* *Untargeted expiration* - Evergreen applies this hold reason when the 
+xref:_deleting_holdings[last item that could fill the hold is deleted] and the 
 associated bibliographic record is automatically deleted.
-* *Patron via OPAC* - Evergreen applies this hold reason when a patron cancels a hold via My Account in the public catalogue.
+* *Patron via OPAC* - Evergreen applies this hold reason when a patron via xref:_items_on_hold[cancels a hold via My Account] in the public catalogue.
 * *Patron via SIP* - Evergreen applies this hold reason when a hold is cancelled via a 3rd party product that authenticates 
 with Evergreen via SIP.
-* *Hold Group Event rollback* - Evergreen applies this hold reason when a hold is cancelled via Hold groups.
+* *Hold Group Event rollback* - Evergreen applies this hold reason when a hold is 
+xref:_cancelling_holds_for_a_hold_group[cancelled via Hold Groups].
