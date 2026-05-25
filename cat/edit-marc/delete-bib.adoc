@@ -38,12 +38,12 @@ Records with holdings attached, physical or electronic, cannot be deleted.
 Records that have holds associated with them can be deleted. Evergreen will automatically 
 xref:_cancelling_holds[cancel the holds] as part of the deletion process. 
 
-[NOTE]
-======
+[TIP]
+=====
 Co-op Support recommends libraries run a report to catch holds cancelled by Evergreen through the deletion process. The template 
 _Monthly Cancelled Holds List with Cancelation Cause_ can be run as needed or set up as a monthly recurring report. 
 These holds will show with a cancel reason of _Untargeted expiration_.
-======
+=====
 
 Deleting Records via the Staff Catalogue
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
