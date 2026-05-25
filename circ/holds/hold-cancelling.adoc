@@ -117,8 +117,8 @@ owns a local item that can fill a hold and so needs to place a hold via Interlib
 
 Evergreen will apply the following cancel reasons when a particular action is performed in Evergreen:
 
-* *Hold shelf expiration* -  Evergreen applies this hold reason when holds are cleared from the hold shelf using the *Clear
-These Holds* button.
+* *Hold shelf expiration* -  Evergreen applies this hold reason when holds are xref:_clearing_holds[cleared from the hold shelf]
+ using the *Clear These Holds* button.
 * *Untargeted expiration* - Evergreen applies this hold reason when the last item that could fill the hold is deleted and the 
 associated bibliographic record is automatically deleted.
 * *Patron via OPAC* - Evergreen applies this hold reason when a patron cancels a hold via My Account in the public catalogue.
