@@ -35,7 +35,7 @@ the xref:_pull_list_for_hold_requests[_Pull List for Hold Requests_], the xref:_
 the xref:_hopeless_holds[_Hopeless Holds_] interface.
 
 . In the interface of your choice, select the hold(s) you wish to cancel.
-. Go to Actions -> *Cancel Hold*.
+. Go to *Actions -> Cancel Hold*.
 +
 image:images/circ/holds/cancel-hold-1.png[scaledwidth="75%"]
 +
@@ -59,10 +59,11 @@ image:images/circ/holds/cancel-hold-3.png[scaledwidth="75%"]
 +
 . The hold is now cancelled and appear on the _Recently Canceled Holds_ tab in _Holds_ within the patron's account. 
 +
-image:images/circ/holds/cancel-hold-2.png[scaledwidth="75%"]
+image:images/circ/holds/cancel-hold-4.png[scaledwidth="75%"]
 +
 The hold will also appear in the xref:_holds_history[_Holds History_] interface in _My Account_ 
 in the public catalogue if the patron has opted into saving their holds history.
++
 . If the item was on the holds shelf it needs to be checked in.  The item will go into _Reshelving_ or be
 captured to fill the next hold.
 
