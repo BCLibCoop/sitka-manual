@@ -7,7 +7,7 @@ Holds can be cancelled in numerous ways by patrons, library staff, and Evergreen
 Patrons can cancel their own holds through the xref:_public_catalogue_holds[_Items on Hold_] interface in _My Account_ 
 in the public catalogue.
 
-Library staff can cancel holds for patrons through the xref:_holds_tab[Open Holds Requests tab] in a patron's account, 
+Library staff can cancel holds for patrons through the xref:_holds_tab[_Open Holds Requests_] tab in a patron's account, 
 the _Holds View_ in the staff catalogue, 
 the xref:_pull_list_for_hold_requests[_Pull List for Hold Requests_], the xref:_holds_shelf[_Hold Shelf_], and 
 the xref:_hopeless_holds[_Hopeless Holds_] interface.
@@ -29,8 +29,8 @@ expiration_.
 Cancelling Holds in the Staff Client
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Staff can manually cancel holds for patrons in the staff client through the xref:_holds_tab[Open Holds Requests tab] in a patron's account, 
-the _Holds View_ in the staff catalogue, 
+Staff can manually cancel holds for patrons in the staff client through the xref:_holds_tab[_Open Holds Requests_] tab
+ in a patron's account, the _Holds View_ in the staff catalogue, 
 the xref:_pull_list_for_hold_requests[_Pull List for Hold Requests_], the xref:_holds_shelf[_Hold Shelf_], and 
 the xref:_hopeless_holds[_Hopeless Holds_] interface.
 
@@ -101,7 +101,8 @@ Cancel Reasons
 Cancel reasons, also called cancel causes, show why a hold was cancelled. When holds are manually cancelled, staff can include 
 a note to further explain the circumstances around the cancellation.
 
-Staff can apply the following cancel reasons manually when cancelling a hold through the xref:_holds_tab[Open Holds Requests tab] in a patron's account, 
+Staff can apply the following cancel reasons manually when cancelling a hold through the xref:_holds_tab[_Open Holds Requests_]
+ tab in a patron's account, 
 the _Holds View_ in the staff catalogue, the xref:_pull_list_for_hold_requests[_Pull List for Hold Requests_], 
 the xref:_holds_shelf[_Hold Shelf_], or 
 the xref:_hopeless_holds[_Hopeless Holds_] interface:
