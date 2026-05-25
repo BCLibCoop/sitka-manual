@@ -6,7 +6,7 @@ Age based hold protection enables libraries to block holds from being filled for
 libraries or branches until the item has been active for a specified amount of time.
 
 The following age based hold protection rules can be used when applying age based hold protection
-xref:xref:_item_attributes[item attributes].
+xref:_item_attributes[item attributes].
 
 [options="header"]
 |===
