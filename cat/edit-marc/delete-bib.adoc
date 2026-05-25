@@ -27,13 +27,23 @@ Deleting Bibliographic Records
 (((Delete, MARC Records)))
 
 Evergreen will automatically delete records when the last item attached to the record 
-is deleted.
+is deleted. 
 
 Records that are imported or created in Evergreen but never have a holding attached or a 
 scoped 856 field added are automatically deleted when they've been in the catalogue for 
 more than 3 months.
 
 Records with holdings attached, physical or electronic, cannot be deleted.
+
+records that have holds associated with them can be deleted. Evergreen will automatically cancel the holds as
+part of the deletion process. 
+
+[NOTE]
+======
+Co-op Support recommends libraries run a report to catch holds cancelled by Evergreen in this way. The template 
+_Monthly Cancelled Holds List with Cancelation Cause_ can be run as needed or set up as a monthly recurring report. 
+These holds will show with a cancel reason of _Untargeted expiration_.
+======
 
 Deleting Records via the Staff Catalogue
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
