@@ -35,8 +35,8 @@ more than 3 months.
 
 Records with holdings attached, physical or electronic, cannot be deleted.
 
-records that have holds associated with them can be deleted. Evergreen will automatically cancel the holds as
-part of the deletion process. 
+records that have holds associated with them can be deleted. Evergreen will automatically 
+xref:_cancelling_holds[cancel the holds] as part of the deletion process. 
 
 [NOTE]
 ======
