@@ -6,7 +6,7 @@ Age based hold protection enables libraries to block holds from being filled for
 libraries or branches until the item has been active for a specified amount of time.
 
 The following age based hold protection rules can be used when applying age based hold protection
-xref:xref:_item_attributes[item attributes].
+xref:_item_attributes[item attributes].
 
 [options="header"]
 |===
@@ -38,5 +38,5 @@ has passed unless manually removed by library staff via the xref:_holdings_edito
 
 To see a list of items with the age based hold protection item attribute applied use the report template 
 _Age Based Hold Protection: Items with Age Based Hold Protection_ found under
-in the reporter under _Shared Folders -> Templates -> Sitka_templates -> Collection -> Copy List by Item
+in the reporter under _Shared Folders -> Templates -> Sitka_templates -> Collection -> Item List by Item
 Attributes_.

@@ -1,0 +1,130 @@
+Cancelling Holds
+~~~~~~~~~~~~~~~~
+(((Holds, Cancelling)))
+
+Holds can be cancelled in numerous ways by patrons, library staff, and Evergreen. 
+
+Patrons can cancel their own holds through the xref:_public_catalogue_holds[_Items on Hold_] interface in _My Account_ 
+in the public catalogue.
+
+Library staff can cancel holds for patrons through the xref:_holds_tab[_Open Holds Requests_] tab in a patron's account, 
+the _Holds View_ in the staff catalogue, 
+the xref:_pull_list_for_hold_requests[_Pull List for Hold Requests_], the xref:_holds_shelf[_Hold Shelf_], and 
+the xref:_hopeless_holds[_Hopeless Holds_] interface.
+
+[CAUTION]
+=========
+Libraries participating in Interlibrary Connect should NEVER cancel a hold if the pick up library is not their own.
+
+If a library xref:_deleting_holdings[deletes the last holding] from a record, Evergreen will automatically delete the bibligraphic record and 
+any holds associated with it including ILC holds. A warning is given to the staff member deleting the item if there are 
+holds but Evergreen does not alert other libraries that have holds associated with the record. 
+
+Co-op Support recommends libraries run a report to catch holds cancelled by Evergreen in this way. 
+The template _Monthly Cancelled Holds List with Cancelation 
+Cause_ can be run as needed or set up as a monthly recurring report. These holds will show with a cancel reason of _Untargeted 
+expiration_.
+=========
+
+Cancelling Holds in the Staff Client
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Staff can manually cancel holds for patrons in the staff client through the xref:_holds_tab[_Open Holds Requests_] tab
+ in a patron's account, the _Holds View_ in the staff catalogue, 
+the xref:_pull_list_for_hold_requests[_Pull List for Hold Requests_], the xref:_holds_shelf[_Hold Shelf_], and 
+the xref:_hopeless_holds[_Hopeless Holds_] interface.
+
+. In the interface of your choice, select the hold(s) you wish to cancel.
+. Go to *Actions -> Cancel Hold*.
++
+image:images/circ/holds/cancel-hold-1.png[scaledwidth="75%"]
++
+. Choose the appropriate xref:_cancel_reasons[cancel reason] from the drop down menu. If cancelling multiple holds at once the same cancel 
+reason will be used for all.
++
+image:images/circ/holds/cancel-hold-2.png[scaledwidth="75%"]
++
+. Enter a note if applicable.
++
+[CAUTION]
+=========
+If your library has the xref:_holds_cancelled_by_staff[Holds Cancelled by Staff] notification enabled
+anything entered into the _Notes_ field when cancelling a hold appears as the Cancel Cause in the email
+sent to the patron.
+=========
++
+. Click *Cancel Hold*.
++
+image:images/circ/holds/cancel-hold-3.png[scaledwidth="75%"]
++
+. The hold is now cancelled and appear on the _Recently Canceled Holds_ tab in _Holds_ within the patron's account. 
++
+image:images/circ/holds/cancel-hold-4.png[scaledwidth="75%"]
++
+The hold will also appear in the xref:_holds_history[_Holds History_] interface in _My Account_ 
+in the public catalogue if the patron has opted into saving their holds history.
++
+. If the item was on the holds shelf it needs to be checked in.  The item will go into _Reshelving_ or be
+captured to fill the next hold.
+
+[NOTE]
+======
+Patrons can cancel their own holds via xref:_items_on_hold[My Account].
+======
+
+Cancelling Holds for a Hold Group
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Library staff can also cancel a set of holds placed for a particular hold group.
+
+. Go to *Circulation* -> *Hold Groups*.
+. From the *Hold Groups* tab, double-click the hold group you wish to open.
++
+image:images/circ/holds/hold-group-place-hold-2.png[scaledwidth="75%"]
++
+. The group will be opened on the *Current Users* tab. Click on the *Hold Events* tab.
++
+image:images/circ/holds/hold-group-place-hold-3.png[scaledwidth="75%"]
++
+. Select the set of holds you wish to cancel.
+. Click *Actions* -> *Cancel hold group event*.
++
+image:images/circ/holds/hold-group-cancel-hold-1.png[scaledwidth="75%"]
++
+. Click *OK/Continue*.
+. All holds in the set are cancelled.
+. If an item was captured for one of the holds and on holds shelf, check it in.  The item will go into _Reshelving_ or be
+captured to fill the next hold.
+
+Cancel Reasons
+^^^^^^^^^^^^^^
+
+Cancel reasons, also called cancel causes, show why a hold was cancelled. When holds are manually cancelled, staff can include 
+a note to further explain the circumstances around the cancellation.
+
+Staff can apply the following cancel reasons manually when cancelling a hold through the xref:_holds_tab[_Open Holds Requests_]
+ tab in a patron's account, 
+the _Holds View_ in the staff catalogue, the xref:_pull_list_for_hold_requests[_Pull List for Hold Requests_], 
+the xref:_holds_shelf[_Hold Shelf_], or 
+the xref:_hopeless_holds[_Hopeless Holds_] interface:
+
+* *Hold shelf expiration* -  This hold reason can be used if the hold is not picked up from the holds shelf in the time alloted.
+* *Staff forced* - This hold reason can be used if staff need to cancel a patron's hold, such as when the library no longer
+owns a local item that can fill a hold and so needs to place a hold via Interlibrary Connect instead.
+* *Patron via phone* - This hold reason can be used if the patron calls the library to cancel their hold.
+* *Patron in person* - This hold reason can be used if the patron comes into the library to cancel their hold.
+* *Patron via email* - This hold reason can be used if the patron emails the library to cancel their hold.
+* *Patron via SMS* - This hold reason can be used if the patron sends an SMS message to the library to cancel their hold.
+
+Evergreen will apply the following cancel reasons when a particular action is performed in Evergreen:
+
+* *Hold shelf expiration* -  Evergreen applies this hold reason when holds are xref:_clearing_holds[cleared from the hold shelf]
+ using the *Clear These Holds* button.
+* *Untargeted expiration* - Evergreen applies this hold reason when the 
+xref:_deleting_holdings[last item that could fill the hold is deleted] and the 
+associated bibliographic record is automatically deleted.
+* *Patron via OPAC* - Evergreen applies this hold reason when a patron via xref:_items_on_hold[cancels a hold via My Account] in the public catalogue.
+* *Patron via SIP* - Evergreen applies this hold reason when a hold is cancelled via a 3rd party product that authenticates 
+with Evergreen via SIP.
+* *Hold Group Event rollback* - Evergreen applies this hold reason when a hold is 
+xref:_cancelling_holds_for_a_hold_group[cancelled via Hold Groups].

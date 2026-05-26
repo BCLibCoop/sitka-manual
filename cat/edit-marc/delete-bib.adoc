@@ -27,7 +27,7 @@ Deleting Bibliographic Records
 (((Delete, MARC Records)))
 
 Evergreen will automatically delete records when the last item attached to the record 
-is deleted.
+is deleted. 
 
 Records that are imported or created in Evergreen but never have a holding attached or a 
 scoped 856 field added are automatically deleted when they've been in the catalogue for 
@@ -35,10 +35,21 @@ more than 3 months.
 
 Records with holdings attached, physical or electronic, cannot be deleted.
 
+Records that have holds associated with them can be deleted. Evergreen will automatically 
+xref:_cancelling_holds[cancel the holds] as part of the deletion process. 
+
+[TIP]
+=====
+Co-op Support recommends libraries run a report to catch holds cancelled by Evergreen through the deletion process. The template 
+_Monthly Cancelled Holds List with Cancelation Cause_ can be run as needed or set up as a monthly recurring report. 
+These holds will show with a cancel reason of _Untargeted expiration_.
+=====
+
 Deleting Records via the Staff Catalogue
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can delete a MARC record directly from the *MARC Edit* tab in the bibliographic record.  
+If you import or create a MARC record you don't end up using, you can delete it directly from the *MARC Edit* tab 
+in the bibliographic record.  
 
 . Search the catalogue for a record that you need to delete, as described
 in xref:_searching_the_database_for_cataloguing_purposes[].
@@ -55,7 +66,8 @@ image::images/cat/marc/delete-marc-2.png[]
 Deleting Records via a Record Bucket
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Records can be deleted in batch from a xref:_record_buckets[record bucket].
+If you import or create a MARC records you don't end up using, you can delete them in batch 
+from a xref:_record_buckets[record bucket].
 
 . Go to *Cataloguing -> Record Buckets*.
 . Click the name of the bucket containing the records you would like to delete.

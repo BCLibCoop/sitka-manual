@@ -216,64 +216,6 @@ currently on top of the queue you need to do the following.
 . Activate the original top hold.
 ======
 
-
-Cancelling Holds
-^^^^^^^^^^^^^^^^
-
-Holds can be cancelled individually by library staff and patrons. 
-
-. On the _View Holds_ tab in the staff catalogue or on the _Holds_ tab in the patron's account, select 
-the hold you wish to cancel and go to *Actions -> Cancel Hold*.
-. Choose the appropriate cancel reason from the drop down menu.
-+
-image:images/circ/manageholds2.png[scaledwidth="75%"]
-+
-. Enter a note if applicable.
-+
-[CAUTION]
-=========
-If your library has the xref:_holds_cancelled_by_staff[Holds Cancelled by Staff] notification enabled
-anything entered into the _Notes_ field when cancelling a hold appears as the Cancel Cause in the email
-sent to the patron.
-=========
-+
-. Click *Cancel Hold*.
-+
-image:images/circ/manageholds2b.png[scaledwidth="75%"]
-+
-. If the item was on holds shelf, check it in.  The item will go into _Reshelving_ or be
-captured to fill the next hold.
-
-[NOTE]
-======
-Patrons can cancel their own holds via xref:_items_on_hold[My Account].
-======
-
-Cancelling Holds for a Hold Group
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Library staff can also cancel a set of holds placed for a particular hold group.
-
-. Go to *Circulation* -> *Hold Groups*.
-. From the *Hold Groups* tab, double-click the hold group you wish to open.
-+
-image:images/circ/holds/hold-group-place-hold-2.png[scaledwidth="75%"]
-+
-. The group will be opened on the *Current Users* tab. Click on the *Hold Events* tab.
-+
-image:images/circ/holds/hold-group-place-hold-3.png[scaledwidth="75%"]
-+
-. Select the set of holds you wish to cancel.
-. Click *Actions* -> *Cancel hold group event*.
-+
-image:images/circ/holds/hold-group-cancel-hold-1.png[scaledwidth="75%"]
-+
-. Click *OK/Continue*.
-. All holds in the set are cancelled.
-. If an item was captured for one of the holds and on holds shelf, check it in.  The item will go into _Reshelving_ or be
-captured to fill the next hold.
-
-
 Transferring Title Holds
 ^^^^^^^^^^^^^^^^^^^^^^^^
 

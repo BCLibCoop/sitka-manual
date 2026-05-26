@@ -309,9 +309,10 @@ If you wish to delete individual titles from the list select the items you wish 
 *Delete Selected*.
 
 
+[[_public_catalogue_holds]]
 Holds
 ~~~~~
-[[public-catalogue-holds]]
+
 
 (((My Account, Holds)))
 (((Holds, My Account)))
@@ -362,6 +363,7 @@ image::images/opac/opac-account-holds-3.png[scaledwidth="75%",alt="My Account Ho
 Holds history will only display if it has been enabled in your 
 xref:_search_and_history_preferences[_Search and History Preferences_].
 
+[[_public_catalogue_hold_groups]]
 Hold Groups
 ^^^^^^^^^^^
 (((Hold Groups)))

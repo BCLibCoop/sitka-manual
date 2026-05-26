@@ -16,7 +16,7 @@ Viewing Import Queues
 ^^^^^^^^^^^^^^^^^^^^^
 
 . Go to *Cataloguing -> MARC Batch Import/Export*.
-. The _MARC Batch Import/Export_ interface will open with the _Import_ tab selected.
+. The _MARC Batch Import/Export_ interface will open with the _Import for Cataloging_ tab selected.
 . Click on the *Inspect Queue* tab.
 +
 image:images/cat/marc/marc-import-view-queue-1.png[]
@@ -43,13 +43,13 @@ Deleting Import Queues
 ^^^^^^^^^^^^^^^^^^^^^^
 
 . Go to *Cataloguing -> MARC Batch Import/Export*.
-. The _MARC Batch Import/Export_ interface will open with the _Import_ tab selected.
+. The _MARC Batch Import/Export_ interface will open with the _Import for Cataloging_ tab selected.
 . Click on the *Inspect Queue* tab.
 +
 image:images/cat/marc/marc-import-view-queue-1.png[]
 +
 . Select the queue you would like to delete and then choose *Delete Selected*
-from the Actions menu.
+from the *Actions* menu.
 +
 image:images/cat/marc/marc-import-delete-queue-1.png[]
 

@@ -27,18 +27,18 @@ The top panel in a record is the _Record Summary_. This contains the following i
 
 * _Format_: The type of item, such as book, DVD, or large print book. This appears above the cover image.
 * _Cover Image_: Image of the cover of the specific version of the item on this record. Note that clicking the cover image will open the image file in your browser.
-* _Title_: The title is a hyperlink. Selecting the title will direct you to the record with no other information in the URL. This is useful for sharing the record.
+* _Title_: The title is a hyperlink. Clicking the title will direct you to the record with no other information in the URL. This is useful for sharing the record.
 * _Author_: The author's name exactly as it appears in the MARC record.
-* _Bibliographic Call Number_: This is pulled from the MARC record, so it may different from any call number used in your library or consortium.
-* _Edition_
-* _Publication Date_
-* _Record Owner_
-* _TCN_: Title Control Number
-* _Database ID_
-* _Created On_ Date
-* _Created By_ User: The user's Evergreen account is linked here.
-* _Last Edited By_ User: The user's Evergreen account is linked here.
-* _Last Edited On_ Date
+* _Bib Call #_: Bibliographic call number. This is pulled from the MARC record, so it may be different from any call number used in your library or consortium.
+* _Edition_: The edition.
+* _Publication Date_: Publication date.
+* _Record Owner_: The Evergreen account of the record owner, hyperlinked to the account.
+* _TCN_: The record's Title Control Number.
+* _Database ID_: The record's database ID.
+* _Created On_: Date created.
+* _Created By_: The Evergreen account of the record creator, hyperlinked to the account.
+* _Last Edited By_: The Evergreen account of user who most recently edited the record, hyperlinked to the account.
+* _Last Edited On_: Date last edited.
 
 image::bibliographic_records/record_summary.png[Screenshot of the Record Summary for Ready Player One containing the information described above.]
 
@@ -173,7 +173,7 @@ Select a library from the _Pickup Library_ menu to filter the holds by pickup li
 
 To perform an action on a hold:
 
-. Select a hold by checking the checkbox to the left of the hold. You may select multipe holds, or select all holds in the list by checking the checkbox at the top of the table.
+. Select a hold by checking the checkbox to the left of the hold. You may select multiple holds, or select all holds in the list by checking the checkbox at the top of the table.
 . Select the _Actions for Selected Rows_ button located below the record views list. It is the left-most button in the group of buttons to the right of the page.
 . Select an action from the list. Some common actions include _Cancel Hold_, _Modify Hold_, and _Retrieve Patron_.
 
@@ -197,7 +197,7 @@ To add a new part:
 
 To delete or merge parts:
 
-. Select a part by checking the checkbox to the left of the part. You may select multipe parts, or select all parts in the list by checking the checkbox at the top of the table.
+. Select a part by checking the checkbox to the left of the part. You may select multiple parts, or select all parts in the list by checking the checkbox at the top of the table.
 . Select the _Actions for Selected Rows_ button located below the record views list. It is the first button to the right of the _New Monograph Part_ button.
 . Select an option from the menu.
 ** _Delete Selected_: The selected part is deleted.
@@ -221,7 +221,7 @@ To perform actions from the _Holdings View_:
 . Check or uncheck the checkboxes below the _Holdings Maintenance_ text box to match your preferences. 
 . In the table, expand or collapse rows by selecting arrow in the _Location/Barcode_ column.
 . Select items by checking the checkbox on the left side of the item's row.
-. Select an action from the _Actions for Selected Rows_ menu. This menu is the left-most button in the group of three butons to the right of the page above the table.
+. Select an action from the _Actions for Selected Rows_ menu. This menu is the left-most button in the group of three buttons to the right of the page above the table.
 
 image::bibliographic_records/holdings_actions.png[Screenshot of the Holdings View with the actions menu displayed, as described above.]
 
@@ -238,7 +238,7 @@ To perform any actions, first select conjoined items from the table by checking 
 To change the type of the selected conjoined items:
 
 . Select the _Change Type_ button located above the table to the left of the page. The _Attach/Modify # Conjoined Item(s)_ window opens.
-. Selected a peer trype from the _Peer Type_ dropdown menu.
+. Selected a peer type from the _Peer Type_ dropdown menu.
 . Select _Attach/Modify_. A confirmation message appears at the bottom of the screen.
 
 To unlink items:
@@ -308,11 +308,11 @@ To expand rows vertically, select the downward caret. The button will change to 
 
 To collapse rows vertically, select the caret (^). The button will change to a downward caret. Rows will collapse to a single line and overflowing text will be replaced with an ellipsis.
 
-image::bibliographic_records/expand_vert.png[Screenshot of the grid options buttons with the down caret button highlighted, which is secod from the right.]
+image::bibliographic_records/expand_vert.png[Screenshot of the grid options buttons with the down caret button highlighted, which is second from the right.]
 
 To access more grid options, select the gear button. A menu opens.
 
-image::bibliographic_records/grid_options_menu.png[Screenshot showing the gear button selected, as described above. The menu is descibed below.]
+image::bibliographic_records/grid_options_menu.png[Screenshot showing the gear button selected, as described above. The menu is described below.]
 
 _Manage Columns_: The _Grid Columns Configurations_ window opens. Changes are applied automatically.
 
@@ -373,7 +373,7 @@ To apply a filter:
 . Select _Filter_ in the desired column. The filter menu opens.
 . Choose an operator. This will determine how your filter will be applied. Options will vary depending on the kind of data contained in the column.
 . Enter a filter criteria in the empty text box.
-. Select _Apply Filter_. The filter menu closes and the filter is apllied.
+. Select _Apply Filter_. The filter menu closes and the filter is applied.
 
 To close the _Filter_ menu without applying the filter, select _Close_.
 

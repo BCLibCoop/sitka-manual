@@ -9,6 +9,8 @@ include::holds/hold-viewing.adoc[Viewing Holds]
 
 include::holds/hold-managing.adoc[Managing Holds]
 
+include::holds/hold-cancelling.adoc[Cancelling Holds]
+
 include::holds/hold-pull-list.adoc[Pull List for Hold Requests]
 
 include::holds/hold-hold-filling.adoc[Holds Filling Explained]

@@ -21,7 +21,7 @@ This information appears in the listed order from left to right in each result, 
 
 image::search_results/result_details.png[Screenshot of a single result with the different kinds of information highlighted, as described above.]
 
-Each result also contains a green *Place Hold* button that allows you to place a title hold on the item, as well as an _Add to Bucket_ dropdown. 
+Each result also contains a green *Place Hold* button that allows you to place a title hold on the item, as well as an _Add to Bucket_ drop down. 
 
 Item Description
 ^^^^^^^^^^^^^^^^
@@ -39,9 +39,9 @@ The item description, also called the physical summary, appears on the left side
 
 All information except for the cover image and call number is taken from the item's MARC record.
 
-Selecting an item's title or cover image will take you to that item's bibliographic record.
+Clicking on an item's title or cover image will take you to that item's bibliographic record.
 
-Selecting an item's author will conduct a search for that author.
+Clicking on an item's author will conduct a search for that author.
 
 Holdings Information
 ^^^^^^^^^^^^^^^^^^^^
@@ -69,11 +69,11 @@ The history of the record appears on the right side of the search result. You ca
 Show More Details
 ^^^^^^^^^^^^^^^^^
 
-Select _Show More Details_ above the first search result to display shelving location information for each item on the Search Results page.
+Click *Show More Details* above the first search result to display shelving location information for each item on the Search Results page.
 
 image::search_results/show_more_details.png[Screenshot with the Show More Details button highlighted, as described above.]
 
-NOTE: The _Show More Details_ button will change to say _Show Fewer Details_ when selected.
+NOTE: The *Show More Details* button will change to say *Show Fewer Details* when clicked.
 
 Shelving location information will appear in a table below the item description.
 
@@ -88,13 +88,15 @@ If a branch is selected in the Library Selector, only information for the branch
 Facets
 ~~~~~~
 
-Facets appear on the left side of the Search Results page. These facets are grouped by categories such as author, subject, genre, series, and more. Each category contains the most common information in your search results' MARC records. 
+Facets appear on the left side of the Search Results page. These facets are grouped by categories such as author, subject, genre, series, and more. Each category contains the most common information in your search results' MARC records.
+
+NOTE: Facets can be hidden by clicking *Hide Facets* and shown again by clicking *Show Facets*. The button label will change based on whether facets are shown.
 
 image::search_results/facets.png[Screenshot with the facets panel highlighted, as described above.]
 
-Select a facet within a given category to limit the search results to the selected facet.
+Click on a facet within a given category to limit the search results to the selected facet.
 
-Select the facet again to remove your selection.
+Click on the facet again to remove your selection.
 
 Buckets
 ~~~~~~~

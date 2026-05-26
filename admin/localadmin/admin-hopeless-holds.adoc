@@ -8,8 +8,7 @@ Hopeless Holds
 https://youtu.be/Sf6DISXuEu0[*Sitka Snippet Video - Hopeless Holds (1:11)*]
 
 In Evergreen unfillable holds are called Hopeless Holds.  A hold will become hopeless when all of the 
-items that could potentially fill the hold are in a hopeless prone item status or all potential items have 
-been deleted from the database.
+items that could potentially fill the hold are in a hopeless prone item status.
 
 The hopeless prone item statuses in Sitka's Evergreen are _Discard/Weed_, _Damaged_, _Lost_, _Lost and Paid_, 
 and _Missing_.  This is set globally and cannot be altered for individual libraries.
@@ -22,7 +21,7 @@ Libraries should review and resolve hopeless holds on a regular basis.
 image:images/admin/hopeless-holds-1.png[scaledwidth="75%"]
 +
 . From the *Actions* menu select:
-.. *xref:_cancelling_holds[Cancel Hold]* to cancel the patron's hold.
+.. *xref:_cancelling_holds_in_the_staff_client[Cancel Hold]* to cancel the patron's hold.
 .. *xref:_transferring_title_holds[Transfer to Marked Title]* to move the hold to a record with holdable items.
 .. *xref:add_holdings[Add Holdings]* to add a new item to the record.  This can be temporary on order item 
 while your library waits for a replacement to arrive.

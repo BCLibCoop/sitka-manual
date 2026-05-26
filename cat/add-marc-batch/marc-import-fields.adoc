@@ -63,7 +63,7 @@ This Upload
 [options="header"]
 |===
 | Field | Description | Required | Note
-| Select or Create Queue |This groups your record into a queue so you can work with them. 
+| Select or Create Queue |This groups your records into a queue so you can work with them. 
 | Yes | Queues are linked to the match sets and holdings import profile. You cannot change 
 a record match set or holdings import profile once it has been set for a queue. Do not use 
  "/" or "\" (slash or backslash) in your queue name.
