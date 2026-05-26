@@ -17,15 +17,13 @@ image:images/cat/marc/marc-importer-1.png[]
 xref:_uploading_marc_record_files_with_holdings_included[].
 .. Merge Profile: Do not select a merge profile at this stage.
 .. Select a Record Source: Choose the appropriate source for your records.
-.. Import Non-Matching Records: Check the box.
 . Click *Choose File* and select your MARC file.
 . Click *Upload*.
 +
 image:images/cat/marc/marc-import-files-1.png[]
 +
 . The progress of the upload will display.  Depending on the size of the file,
- it may take a while for the file to upload. If you did not choose 
- to import non-matching records, Import Progress will stay at 0%. 
+ it may take a while for the file to upload. 
 . Once the upload is complete click *Go to Queue*.
 +
 image:images/cat/marc/marc-import-files-2.png[]
@@ -62,7 +60,6 @@ image:images/cat/marc/marc-importer-1.png[]
 .. Holdings Import Profile: Select the appropriate profile. 
 .. Merge Profile: Do not select a merge profile at this stage.
 .. Select a Record Source: Choose the appropriate source for your records.
-.. Import Non-Matching Records: Check the box.
 . Click *Choose File* and select your MARC file.
 . Click *Upload*.
 +
@@ -94,7 +91,6 @@ image:images/cat/marc/marc-importer-1.png[]
 .. Record Match Set: Co-op Support will instruct you on which match set to choose.
 .. Merge Profile: Do not select a merge profile at this stage.
 .. Select a Record Source: Choose the appropriate source for your records.
-.. Import Non-Matching Records: Check the box.
 . Click *Choose File* and select your MARC file.
 . Click *Upload*.
 +
