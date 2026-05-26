@@ -35,10 +35,10 @@ The top panel in a record is the _Record Summary_. This contains the following i
 * _Record Owner_
 * _TCN_: Title Control Number
 * _Database ID_
-* _Created On_ Date
+* _Created On_: Date
 * _Created By_ User: The user's Evergreen account is linked here.
 * _Last Edited By_ User: The user's Evergreen account is linked here.
-* _Last Edited On_ Date
+* _Last Edited On_: Date
 
 image::bibliographic_records/record_summary.png[Screenshot of the Record Summary for Ready Player One containing the information described above.]
 
