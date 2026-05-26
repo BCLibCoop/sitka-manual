@@ -27,18 +27,18 @@ The top panel in a record is the _Record Summary_. This contains the following i
 
 * _Format_: The type of item, such as book, DVD, or large print book. This appears above the cover image.
 * _Cover Image_: Image of the cover of the specific version of the item on this record. Note that clicking the cover image will open the image file in your browser.
-* _Title_: The title is a hyperlink. Selecting the title will direct you to the record with no other information in the URL. This is useful for sharing the record.
+* _Title_: The title is a hyperlink. Clicking the title will direct you to the record with no other information in the URL. This is useful for sharing the record.
 * _Author_: The author's name exactly as it appears in the MARC record.
-* _Bibliographic Call Number_: This is pulled from the MARC record, so it may different from any call number used in your library or consortium.
-* _Edition_
-* _Publication Date_
-* _Record Owner_
-* _TCN_: Title Control Number
-* _Database ID_
-* _Created On_: Date
-* _Created By_ User: The user's Evergreen account is linked here.
-* _Last Edited By_ User: The user's Evergreen account is linked here.
-* _Last Edited On_: Date
+* _Bib Call #_: Bibliographic call number. This is pulled from the MARC record, so it may be different from any call number used in your library or consortium.
+* _Edition_: The edition.
+* _Publication Date_: Publication date.
+* _Record Owner_: The Evergreen account of the record owner, hyperlinked to the account.
+* _TCN_: The record's Title Control Number.
+* _Database ID_: The record's database ID.
+* _Created On_: Date created.
+* _Created By_: The Evergreen account of the record creator, hyperlinked to the account.
+* _Last Edited By_: The Evergreen account of user who most recently edited the record, hyperlinked to the account.
+* _Last Edited On_: Date last edited.
 
 image::bibliographic_records/record_summary.png[Screenshot of the Record Summary for Ready Player One containing the information described above.]
 
