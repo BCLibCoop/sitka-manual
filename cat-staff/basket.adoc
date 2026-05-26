@@ -15,13 +15,13 @@ IMPORTANT: The basket will empty if you log out of Evergreen.
 
 To add a record to the basket, first find the record by conducting a search in the _Staff Catalog_.
 
-Then, check the checkbox that appears between the result number and the cover image of the desired result. The record is added to your basket, and the number next to the _Basket Actions_ button in the search form increases.
+Then, *check* the checkbox that appears between the result number and the cover image of the desired result. The record is added to your basket, and the number next to the _Basket Actions_ button in the search form increases.
 
 image::basket/add_basket.png[Screenshot of the Staff Catalog page with the box checked as described above. The Basket Actions button is highlighted.]
 
-To add all records on the page, check the checkbox between the search form and the search results. All results on the page are selected.
+To add all records on the page, *check* the checkbox between the search form and the search results. All results on the page are selected.
 
-To add records from additional pages, navigate to the desired page and check the same checkbox between the search form and the search results.
+To add records from additional pages, navigate to the desired page and *check* the same checkbox between the search form and the search results.
 
 To add all search results, select _Basket Actions_ in the search form below the _Library Selector_. 
 
@@ -34,14 +34,14 @@ TIP: To add records directly to a bucket and skip the basket, see the xref:catal
 Removing Records from the Basket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To remove a record from the basket, uncheck the checkbox between the result number and the cover image. You can do this from the search results page or from the basket. The record is removed from the basket.
+To remove a record from the basket, *uncheck* the checkbox between the result number and the cover image. You can do this from the search results page or from the basket. The record is removed from the basket.
 
 To remove all records from the basket, select the _Basket Actions_ button in the search form. Then, select _Clear Basket_. All records are removed from the basket.
 
 Viewing the Basket
 ~~~~~~~~~~~~~~~~~~
 
-To view a basket, select the basket icon in the search form, located to the left of the _Basket Actions_ button. The basket opens.
+To view a basket, *select* the basket icon in the search form, located to the left of the _Basket Actions_ button. The basket opens.
 
 You may also select _Basket Actions_ -> _View Basket_. The basket opens.
 
