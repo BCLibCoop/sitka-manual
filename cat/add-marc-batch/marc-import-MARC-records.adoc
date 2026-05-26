@@ -29,7 +29,7 @@ image:images/cat/marc/marc-import-non-match-records-1.png[]
 Importing Matching Records
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Go to your queue either by clicking the *Go to Queue* button appears when the upload is
+. Go to your queue either by clicking the *Go to Queue* button that appears when the upload is
 complete or by following the instructions in xref:_viewing_import_queues[].
 . The Matches column will indicate how many records have been found in the catalogue
 which match the records in the file.
