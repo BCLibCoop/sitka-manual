@@ -5,7 +5,7 @@ Uploading Basic MARC Record Files
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Go to *Cataloguing-> MARC Batch Import/Export*.
-. The _MARC Batch Import/Export_ interface will open with the _Import_ tab selected.
+. The _MARC Batch Import/Export_ interface will open with the _Import for Cataloging_ tab selected.
 +
 image:images/cat/marc/marc-importer-1.png[]
 +
@@ -49,7 +49,7 @@ be loaded if the format does not match Sitka's holding profile.
 =========
 
 . Go to *Cataloguing-> MARC Batch Import/Export*.
-. The _MARC Batch Import/Export_ interface will open with the _Import_ tab selected.
+. The _MARC Batch Import/Export_ interface will open with the _Import for Cataloging_ tab selected.
 +
 image:images/cat/marc/marc-importer-1.png[]
 +
@@ -81,7 +81,7 @@ http://docs.libraries.coop/policy/_batch_loading_bibliographic_records.html#_lib
 Cataloguing Policy for Library Specific Batch Loading].
 
 . Go to *Cataloguing-> MARC Batch Import/Export*.
-. The _MARC Batch Import/Export_ interface will open with the _Import_ tab selected.
+. The _MARC Batch Import/Export_ interface will open with the _Import for Cataloging_ tab selected.
 +
 image:images/cat/marc/marc-importer-1.png[]
 +
