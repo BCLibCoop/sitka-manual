@@ -99,6 +99,27 @@ then click *Expand* or *Shrink* to adjust the column sizes.
 
 image::images/intro/grid-column-width-2.png[]
 
+Reset Columns
++++++++++++++
+
+The column display can be reset to its defaults using the *Reset Columns* option in the _Grid Options_. 
+This does not affect your saved settings.
+
+Column Selections
++++++++++++++++++
+
+All available columns for the interface are listed at the bottom of the *Grid Options* menu. 
+
+In newer interfaces, visible columns have a blue box next to them. Hidden columns have a white box next to them. 
+To toggle the visibility of a column, select the column name in the menu. The change is applied to the grid
+and the menu remains open.
+
+In older interfaces, visible columns have a green check next to them. Hidden columns have a yellow x next to them. 
+To toggle the visibility of a column, select the column name in the menu. The menu closes and 
+the change is applied.
+
+image::images/intro/grid-column-selection-1.png[]
+
 
 Manage Actions Menu
 ^^^^^^^^^^^^^^^^^^^
