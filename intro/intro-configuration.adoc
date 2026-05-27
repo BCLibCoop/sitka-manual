@@ -189,34 +189,26 @@ which will include all the columns currently visible on the screen.
 
 image:images/circ/download-hold-pull-list-1.png[scaledwidth="75%"]
 
+Sorting
+^^^^^^^
 
-Library Selector
-~~~~~~~~~~~~~~~~
-(((Library Selector, Configuration)))
+Some grids allow you to sort the grid by column. If this is possible, the column headings will be blue and 
+underlined.
 
-Some interfaces include a library selector that enables staff to set the scope for the interface.
+To sort the grid by a given column in ascending order (0-9, a-z), select the column heading. An up 
+arrow will appear in the selected column heading. The grid will be sorted automatically.
 
-There are currently several styles of the library selector.  
+To sort the grid by a given column in descending order (z-a, 0-9), select the same column heading twice. 
+A down arrow will appear in the selected column heading. The grid will be sorted automatically.
 
-The library selector in newer interfaces shows the full names of the library if 
-xref:_include_full_library_names_in_library_selector[full names are enabled].
-
-Where applicable, *Ancestor* and *Descendants* checkboxes are included.  Multi-branch libraries can set
-the library to their system and then check the *Descendants* checkbox to include all of their branches.
-
-image::images/intro/library-selector-1.png[]
-
-The library selector in older interfaces only shows the library shortcode.  This older style
-of library selector will be phased out as future updates to Evergreen replace the older interfaces.
-
-image::images/intro/library-selector-2.png[]
+To remove your sorting selections, refresh the page. This may erase your other grid selections.
 
 
 Filters
-~~~~~~~
+^^^^^^^
 (((Filters, Configuration)))
 
-Some interfaces include filters that enable staff to filter the available rows in the grid.
+Some interfaces include filters in the grid that enable staff to filter the available rows in the grid.
 
 image::images/intro/filters-1.png[]
 
@@ -245,6 +237,29 @@ _Is Deleted_ set to _No_ so that deleted shelving locations do not display by de
 image::images/intro/filters-5.png[]
 
 ======
+
+
+Library Selector
+~~~~~~~~~~~~~~~~
+(((Library Selector, Configuration)))
+
+Some interfaces include a library selector that enables staff to set the scope for the interface.
+
+There are currently several styles of the library selector.  
+
+The library selector in newer interfaces shows the full names of the library if 
+xref:_include_full_library_names_in_library_selector[full names are enabled].
+
+Where applicable, *Ancestor* and *Descendants* checkboxes are included.  Multi-branch libraries can set
+the library to their system and then check the *Descendants* checkbox to include all of their branches.
+
+image::images/intro/library-selector-1.png[]
+
+The library selector in older interfaces only shows the library shortcode.  This older style
+of library selector will be phased out as future updates to Evergreen replace the older interfaces.
+
+image::images/intro/library-selector-2.png[]
+
 
 [[_configuring_workstation_administration]]
 Workstation Administration
