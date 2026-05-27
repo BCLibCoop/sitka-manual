@@ -81,17 +81,17 @@ the original workstation's name or you will need to re-set all your grid setting
  the staff client.
 =====
 
-xref:_display_columns[Display Columns]
-xref:_column_width[Column Width]
-xref:_reset_columns[Reset Columns]
-xref:_column selections[Column Selections]
-xref:_manage_actions_menu[Manage Actions Menu]
-xref:_save_grid_settings[Save Grid Settings]
-xref:_grid_options_print_full_grid[Print Full Grid]
-xref:_grid_options_print_selected_rows[Print Selected Rows]
-xref:_grid_options_download_full_csv[Download Full CSV]
-xref:_sorting[Sorting]
-xref:_filters[Filters]
+* xref:_display_columns[Display Columns]
+* xref:_column_width[Column Width]
+* xref:_reset_columns[Reset Columns]
+* xref:_column_selections[Column Selections]
+* xref:_manage_actions_menu[Manage Actions Menu]
+* xref:_save_grid_settings[Save Grid Settings]
+* xref:_grid_options_print_full_grid[Print Full Grid]
+* xref:_grid_options_print_selected_rows[Print Selected Rows]
+* xref:_grid_options_download_full_csv[Download Full CSV]
+* xref:_sorting[Sorting]
+* xref:_filters[Filters]
 
 Display Columns
 +++++++++++++++
