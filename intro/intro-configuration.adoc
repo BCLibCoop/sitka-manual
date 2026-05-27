@@ -73,14 +73,6 @@ image::images/intro/grid-options-1.png[]
 Some options in the menu and the resulting screens will differ depending on the 
 version of the xref:_function_bar[function bar].
 
-[TIP]
-=====
-When saved, grid options are saved for the particular workstation. If you need
-to xref:_registering_a_staff_workstation[re-register your workstation] you should use 
-the original workstation's name or you will need to re-set all your grid settings across
- the staff client.
-=====
-
 * xref:_display_columns[Display Columns]
 * xref:_column_width[Column Width]
 * xref:_reset_columns[Reset Columns]
@@ -186,6 +178,14 @@ settings are saved.
 . Click *Save Grid Settings*.
 +
 image::images/intro/grid-manage-action-menu-3.png[]
+
+[TIP]
+=====
+When saved, grid options are saved for the particular workstation. If you need
+to xref:_registering_a_staff_workstation[re-register your workstation] you should use 
+the original workstation's name or you will need to re-set all your grid settings across
+ the staff client.
+=====
 
 [[_grid_options_print_full_grid]]
 Print Full Grid
