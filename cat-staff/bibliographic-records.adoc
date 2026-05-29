@@ -83,6 +83,7 @@ You can use the following actions:
 ** *Add To Bucket*: The _Add Item # to Bucket_ window opens. You may add the record to an existing, new, or shared record bucket.
 ** *Add To Carousel*: The _Add to Carousel_ window opens. You may add the record to an existing carousel or create a new carousel.
 ** *Upload Cover Image*: The _Upload Cover Image_ window opens. You may upload a cover image for the current record.
+** *Clear Added Content Cache*: ...and the popup _Added Content Cache Cleared_ appears.
 ** *View/Place Orders*: The _Line Items Related to Bib Record_ page in the _Acquisitions_ module opens in a new tab.
 
 [[record_views]]
@@ -99,7 +100,7 @@ To change the tab that is selected by default, navigate to the tab of your choic
 Staff View
 ^^^^^^^^^^
 
-The _Staff View_ tab contains information from the MARC record in a human-readable format. It includes title, author, edition, publisher, type of resource, physical description, ISBN, hold and copy counts, subjects, genre, and formats and editions information.
+The _Staff View_ tab contains information from the MARC record in a human-readable format. It includes title, author, edition, publisher, type of resource, physical description, ISBN, hold and copy counts, subjects, and formats and editions information.
 
 Selecting any of the hyperlinked information will run the appropriate search.
 
@@ -145,9 +146,9 @@ Record Notes
 
 The _Record Notes_ tab allows users with appropriate permissions to keep notes on a record. This may be useful when a record is under review.
 
-Create a new note by selecting _New Rcord Note_ below the record views list. The _Record Editor: Bib Record Note_ window opens. Enter your note in the _Note_ text box and select _Save_. All other information is generated automatically. Your note is added to the table.
+Create a new note by selecting _New Record Note_ below the record views list. The _Record Editor: Bib Record Note_ window opens. Enter your note in the _Note_ text box and select _Save_. All other information is generated automatically. Your note is added to the table.
 
-Sort the list in ascending order by creation date or note contents by selecting _Creation Date_ or _Note_. Sort the list in descening order by selecting the appropriate button again.
+Sort the list in ascending order by creation date or note contents by selecting _Creation Date_ or _Note_. Sort the list in descending order by selecting the appropriate button again.
 
 Filter the notes by creation date or note contents by selecting _Filter_ below the _Creation Date_ or _Note_ column. A menu opens. Select an operator and criteria, then select _Apply Filter_. Select _Close_ to close the filter menu.
 
