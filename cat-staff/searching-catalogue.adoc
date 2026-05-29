@@ -9,7 +9,7 @@ Search Form
 The entire panel at the top of the staff catalogue is the search form:
 
 . xref:_search_panes[Five Search Panes]
-. xref:_library_selector[The Library Selector]
+. xref:_library_selector_staff_cat[The Library Selector]
 . xref:_additional_options[Additional Options]
 
 image::images/staffcat/search/catalogue-search-1.png[Catalogue Search Form]
@@ -30,7 +30,7 @@ The default search pane for your workstation can be set in the
 xref:_search_preferences[Search Preferences]. 
  
 
-[[_library_selector]]
+[[_library_selector_staff_cat]]
 Library Selector
 ^^^^^^^^^^^^^^^^
 
