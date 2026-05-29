@@ -2,13 +2,13 @@ Bibliographic Records (Record Details)
 --------------------------------------
 
 
-Each item in the catalog is linked to a bibliographic record. This record contains detailed information about the item. You can also perform a number of actions from a bibliographic record.
+Each item in the catalogue is linked to a bibliographic record. This record contains detailed information about the item. You can also perform a number of actions from a bibliographic record.
 
 Access an item's bibliographic record by finding the item in the _Staff Catalog_, then selecting the item's title or cover image. 
 
 You may also access an item's record by clicking its title any time it is hyperlinked, such as on a patron's account or on the _Item Status_ page.
 
-There may be multiple records for a given title if the title has multiple editions, formats, or publishers in your catalog. Differences in cataloging practices between libraries could also result in multiple records for the same title. 
+There may be multiple records for a given title if the title has multiple editions, formats, or publishers in your catalogue. Differences in cataloguing practices between libraries could also result in multiple records for the same title. 
 
 [TIP]
 ====
@@ -78,7 +78,7 @@ You can use the following actions:
 * *Place Hold*: The _Place Hold_ screen will appear in the current tab. You may place a title hold. Select *Return* to return to the record.
 * *Add Holdings*: The _Holdings Editor_ for the current record will open in a new tab. Users with the appropriate permissions can begin the process of adding a new holding (item). 
 * *Serials*: A dropdown menu opens with the options *Quick Receive*, *Manage Subscriptions*, and *Manage MFHDs*. The latter two options take you to the _Serials_ page for the current record with the selected pane open.
-* *Mark For...*: Cataloging primarily uses these to complete a variety of cataloging tasks. Circulation staff may use the _Title Hold Transfer_ option to transfer a hold to a different hold request while preserving the other hold details. _Reset Record Marks_ removes all marks. The dropdown menu options are:
+* *Mark For...*: Cataloguing primarily uses these to complete a variety of cataloguing tasks. Circulation staff may use the _Title Hold Transfer_ option to transfer a hold to a different hold request while preserving the other hold details. _Reset Record Marks_ removes all marks. The dropdown menu options are:
 ** *_Conjoined Items_*
 ** *_Overlay Target_*
 ** *_Title Hold Transfer_*
