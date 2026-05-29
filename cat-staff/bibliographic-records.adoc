@@ -88,10 +88,8 @@ You can use the following actions:
 ** *Add To Bucket*: The _Add Item # to Bucket_ window opens. You may add the record to an existing, new, or shared record bucket.
 ** *Add To Carousel*: The _Add to Carousel_ window opens. You may add the record to an existing carousel or create a new carousel.
 ** *Upload Cover Image*: The _Upload Cover Image_ window opens. You may upload a cover image for the current record.
-** *Clear Added Content Cache*: *THIS WORDING MUST BE UPDATED THANK YOU* and the popup _Added Content Cache Cleared_ appears.
+** *Clear Added Content Cache*: and the popup _Added Content Cache Cleared_ appears. *THIS WORDING MUST BE UPDATED THANK YOU* It also does not appear here https://docs.evergreen-ils.org/docs/latest/staff_catalog/bibliographic_records.html#record_actions
 ** *View/Place Orders*: The _Line Items Related to Bib Record_ page in the _Acquisitions_ module opens in a new tab.
-
-*Regarding Clear Added Content Cache*: It also does not appear here https://docs.evergreen-ils.org/docs/latest/staff_catalog/bibliographic_records.html#record_actions
 
 [[record_views]]
 Record Views
