@@ -14,7 +14,7 @@ image::search_templates/search_templates.png[The Search Templates menu is hihgli
 Creating a Search Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. To create a search template, first make all desired selections. You may make selections in the following fields: 
+To create a search template, first make all desired selections. You may make selections in the following fields: 
 
 * Format
 * Catalog Field
@@ -29,10 +29,9 @@ You may also add additional search rows. If you use multiple search rows, you ma
 Filters and checkbox selections _will not_ be saved in a search template.
 ======
 
-image::search_templates/search_template_example.png[The Keyword Search pane containing two search rows with the following fields highlighted, which contain the indicated selections: Format - All Books, Catalog Field - Title, Matching - Contains Phrase, Join With - Or, Catalog Field - Author, Matching - Contains, Sort Results - Newest to Oldest, Publication Year is - After 2000.]
+Click *Search Templates* -> *Save Template*. The _Template Name_ dialogue box appears. 
 
-. Click *Search Templates* -> *Save Template*. The _Template Name_ dialogue box appears. 
-.. Enter a brief, descriptive name and click *Save*. This template will now appear in the *Search Templates* menu.
+Enter a brief, descriptive name and click *Save*. This template will now appear in the *Search Templates* menu.
 
 [TIP]
 ====
@@ -48,7 +47,7 @@ Using a Search Template
 
 . Select a template from the list below the gray dividing line.
 
-The current template, if any, appears in bold.
+. The current template, if any, appears in bold.
 
 image::search_templates/using_a_template.png[The Search Templates drop down menu, which contains three options, then a list of saved templates after a gray dividing line. The list of saved templates is highlighted. The first three options are: Save Template, Delete Selected, and Delete All Templates.]
 
@@ -59,13 +58,14 @@ To delete search templates, click *Search Templates* located below the Library S
 
 To delete the current template, which will be shown in bold on this drop down menu:
 
-* click *Delete Selected*.
-* The _Confirm Delete_ dialog box will open. Click *Confirm*.
-* The template is deleted.
+. click *Delete Selected*.
+. The _Confirm Delete_ dialog box will open. Click *Confirm*.
+. The template is deleted.
 
 To delete all saved templates:
-* Click *Delete All Templates*.
-* The _Confirm Delete All_ dialog box will open. Click *Confirm*.
-* All templates are deleted.
+
+. Click *Delete All Templates*.
+. The _Confirm Delete All_ dialog box will open. Click *Confirm*.
+. All templates are deleted.
 
 image::search_templates/delete_templates.png[Search Templates menu with Delete Selected and Delete All Templates highlighted, as described above.]
