@@ -10,7 +10,7 @@ The entire panel at the top of the staff catalogue is the search form:
 
 . xref:_search_panes[Five Search Panes]
 . xref:_library_selector_staff_cat[The Library Selector]
-. xref:_additional_options[Additional Options]
+. xref:_additional_options_staff_cat[Additional Options]
 
 image::images/staffcat/search/catalogue-search-1.png[Catalogue Search Form]
 
@@ -56,13 +56,23 @@ in the library selector is the library name and short code or just the short cod
 xref:_include_full_library_names_in_library_selector[] for information on this setting.
 =====
 
+[[_additional_options_staff_cat]]
 Additional Options
 ^^^^^^^^^^^^^^^^^^
-*Screenshots to expand this section?*
 
-Also in the search form are buttons for resetting the search form, accessing the 
-xref:_search_templates[Search Templates], accessing the xref:_search_preferences[Search Preferences], 
-and working with baskets.
+The *Reset* button will clear the search terms and reset the search field to the default.
+
+[NOTE]
+======
+The *Sort Results* menu and the checkboxes are not reset.
+======
+
+You can also access the following features:
+
+* xref:_search_templates[*Search Templates*]
+* xref:_search_preferences[*Search Preferences*] 
+* xref:_baskets_staff_cat[*Basket Actions*]
+* xref:_viewing_the_basket[*Viewing the Basket*] (represented by a basket icon)
 
 
 [[_keyword_search_staff]]
