@@ -29,12 +29,7 @@ You may also add additional search rows. If you use multiple search rows, you ma
 Filters and checkbox selections _will not_ be saved in a search template.
 ======
 
-.Example
-**** 
-This example contains selections in all possible fields. This would be a useful template for helping patrons find newer books.
-
 image::search_templates/search_template_example.png[The Keyword Search pane containing two search rows with the following fields highlighted, which contain the indicated selections: Format - All Books, Catalog Field - Title, Matching - Contains Phrase, Join With - Or, Catalog Field - Author, Matching - Contains, Sort Results - Newest to Oldest, Publication Year is - After 2000.]
-****
 
 . Then click *Search Templates* -> *Save Template*. The _Template Name_ dialogue box appears. 
 .. Enter a brief, descriptive name and click *Save*. This template will now appear in the *Search Templates* menu.
