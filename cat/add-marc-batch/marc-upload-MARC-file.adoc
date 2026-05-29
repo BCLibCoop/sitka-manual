@@ -68,7 +68,7 @@ image:images/cat/marc/marc-import-files-1.png[]
 . The progress of the upload will display.
 . Once the upload is complete click *Go to Queue*.
 +
-image:images/cat/marc/marc-import-files-2.png[]
+image:images/cat/marc/marc-import-files-holdings-1.png[]
 +
 . See xref:_importing_marc_records[].
 
@@ -94,7 +94,7 @@ image:images/cat/marc/marc-importer-1.png[]
 . Click *Choose File* and select your MARC file.
 . Click *Upload*.
 +
-image:images/cat/marc/marc-import-files-1.png[]
+image:images/cat/marc/marc-import-files-erecords-1.png[]
 +
 . The progress of the upload will display.
 . Once the upload is complete click *Go to Queue*.
