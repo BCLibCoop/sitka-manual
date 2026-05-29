@@ -1,0 +1,40 @@
+Accessing the Staff Catalogue
+-----------------------------
+
+There are three ways to access the _Staff Catalogue_.
+
+[TIP]
+=====
+The _Staff Catalogue_ may also be accessed by pressing the *F3* key any time while using Evergreen.
+=====
+
+From the Splash Page
+~~~~~~~~~~~~~~~~~~~~
+
+. On the splash page, enter a keyword into the text box in the _Item Search and Cataloguing_ section.
+. Click *Search Catalogue*.
+. The _Staff Catalogue_ page opens with the results of the keyword search for your default search library.
+
+image:images/staffcat/access-staff-catalogue-1.png[The Item Search and Cataloguing section of the splash page 
+with the search bar highlighted.]
+
+[TIP]
+=====
+You can change your default search library for the workstation in the xref:_search_preferences[Search Preferences].
+=====
+
+From the Search Menu
+~~~~~~~~~~~~~~~~~~~~
+
+. Go to *Search* -> *Search the Catalog*.
+. The _Staff Catalogue_ page opens.
+
+image:images/staffcat/access-staff-catalogue-2.png[Search menu with Search the Catalog highlighted.]
+
+From the Cataloguing Menu
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+. Go to *Cataloging* -> *Search the Catalog*.
+. The _Staff Catalogue_ page opens.
+
+image:images/staffcat/access-staff-catalogue-3.png[Cataloging menu with Search the Catalog highlighted.]
