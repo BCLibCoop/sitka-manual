@@ -78,13 +78,20 @@ You can use the following actions:
 * *Place Hold*: The _Place Hold_ screen will appear in the current tab. You may place a title hold. Select *Return* to return to the record.
 * *Add Holdings*: The _Holdings Editor_ for the current record will open in a new tab. Users with the appropriate permissions can begin the process of adding a new holding (item). 
 * *Serials*: A dropdown menu opens with the options *Quick Receive*, *Manage Subscriptions*, and *Manage MFHDs*. The latter two options take you to the _Serials_ page for the current record with the selected pane open.
-* *Mark For...*: A dropdown menu opens with the options _Conjoined Items_, _Overlay Target_, _Title Hold Transfer_, _Holding Transfer_, and _Reset Record Marks_. Cataloging primarily uses these to complete a variety of cataloging tasks. Circulation staff may use the _Title Hold Transfer_ option to transfer a hold to a different hold request while preserving the other hold details. _Reset Record Marks_ removes all marks.
+* *Mark For...*: Cataloging primarily uses these to complete a variety of cataloging tasks. Circulation staff may use the _Title Hold Transfer_ option to transfer a hold to a different hold request while preserving the other hold details. _Reset Record Marks_ removes all marks. The dropdown menu options are:
+** *_Conjoined Items_*
+** *_Overlay Target_*
+** *_Title Hold Transfer_*
+** *_Holding Transfer_*
+** *_Reset Record Marks_*
 * *Other Actions*: A dropdown menu opens with the following options:
 ** *Add To Bucket*: The _Add Item # to Bucket_ window opens. You may add the record to an existing, new, or shared record bucket.
 ** *Add To Carousel*: The _Add to Carousel_ window opens. You may add the record to an existing carousel or create a new carousel.
 ** *Upload Cover Image*: The _Upload Cover Image_ window opens. You may upload a cover image for the current record.
-** *Clear Added Content Cache*: ...and the popup _Added Content Cache Cleared_ appears.
+** *Clear Added Content Cache*: *THIS WORDING MUST BE UPDATED THANK YOU* and the popup _Added Content Cache Cleared_ appears.
 ** *View/Place Orders*: The _Line Items Related to Bib Record_ page in the _Acquisitions_ module opens in a new tab.
+
+*Regarding Clear Added Content Cache*: It also does not appear here https://docs.evergreen-ils.org/docs/latest/staff_catalog/bibliographic_records.html#record_actions
 
 [[record_views]]
 Record Views
@@ -219,7 +226,11 @@ The _Holdings View_ tab displays detailed item and call number information. It a
 To perform actions from the _Holdings View_:
 
 . Select the appropriate library in the _Holdings Maintenance_ menu that appears below the record views list. The table will update to reflect your selection. The library chosen in the _Library Selector_ will be chosen by default.
-. Check or uncheck the checkboxes below the _Holdings Maintenance_ text box to match your preferences. 
+. Check or uncheck the checkboxes below the _Holdings Maintenance_ text box to match your preferences:
+** Show Call Numbers
+** Show Copies
+** Show Empty Call Numbers
+** Show Empty Libs
 . In the table, expand or collapse rows by selecting arrow in the _Location/Barcode_ column.
 . Select items by checking the checkbox on the left side of the item's row.
 . Select an action from the _Actions for Selected Rows_ menu. This menu is the left-most button in the group of three buttons to the right of the page above the table.
