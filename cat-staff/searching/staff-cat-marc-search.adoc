@@ -4,6 +4,16 @@ MARC Search
 
 The MARC Search pane allows you to search fields and subfields in MARC records.
 
+image::images/cat/cat-menu.png[Catalogue Menu]
+
+image::images/staffcat/staff-cat-library-selector.png[Library selector in the staff catalogue]
+
+image::images/staffcat/staff-cat-marc-search-1.png[]
+
+image::images/staffcat/staff-cat-marc-search-2.png[]
+
+image::images/staffcat/staff-cat-marc-search-3.png[]
+
 Enter the three-digit tag you wish to search in the _Tag_ text box. If desired, enter the subfield you wish to search in the _Subfield_ text box. 
 
 Then, enter the value for which you are searching in the _Value_ text box. Begin the search by clicking the *Search* button in the top-right corner. Search results appear below the search form.
