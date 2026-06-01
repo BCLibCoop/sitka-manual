@@ -23,7 +23,29 @@ image::images/staffcat/search/keyword-search-1.png[Keyword Search pane]
 +
 . Your results are displayed.
 
-Search Options
+Additional Search Rows
+^^^^^^^^^^^^^^^^^^^^^^
+THIS SECTION SHOULD BE WORKED IN AS A NOTE IN THE STEPS FOR PERFORMING A KEYWORD SEARCH RATHER THAN BEING ITS OWN SECTION
+
+To add an additional search row, click the *plus sign* (+) to the right of the Search Terms text box. A new search row appears below the first. 
+
+The new search row will search the same format as that selected on the first search row. 
+
+Additional search rows are joined to preceding search rows with the Boolean operators _And_ or _Or_, which may be selected in the _Join with_ menu to the left of the additional search row.
+
+image::searching_the_catalog/additional_search_rows.png[Staff Catalogue page showing two search rows with the plus sign symbol and the Join with menu highlighted.]
+
+To delete a search row, click the *minus sign* (-) to the right of the row you wish to delete.
+
+.Example
+****
+Suppose you have a patron who wants a new J.R.R. Tolkien book but has has already read _The Hobbit_. You could run the search in the image below. 
+
+image::searching_the_catalog/two_row_search_example.png[A search with two rows with the following selections, in order: Format - All Formats, Catalog Field - Author, Matching - Contains, Search Terms - tolkien, Join with - And, Catalog Field - Title, Matching - Does not contain, Search Terms - hobbit.]
+****
+
+[[_search_filters_staff]]
+Search Filters
 ^^^^^^^^^^^^^^
 
 There are three options to limit your keyword search: _Format_, _Catalog Field_, and _Matching_.
@@ -58,28 +80,6 @@ Conducting a search for a title that contains the phrase “dog walk” could re
 
 NOTE: Keyword searches will look through all relevant fields in the bibliographic record, even if they are not displayed in the search results. For example, searching by title also searches the alternate title field, which is not displayed in search results.
 
-Additional Search Rows
-^^^^^^^^^^^^^^^^^^^^^^
-
-To add an additional search row, click the *plus sign* (+) to the right of the Search Terms text box. A new search row appears below the first. 
-
-The new search row will search the same format as that selected on the first search row. 
-
-Additional search rows are joined to preceding search rows with the Boolean operators _And_ or _Or_, which may be selected in the _Join with_ menu to the left of the additional search row.
-
-image::searching_the_catalog/additional_search_rows.png[Staff Catalogue page showing two search rows with the plus sign symbol and the Join with menu highlighted.]
-
-To delete a search row, click the *minus sign* (-) to the right of the row you wish to delete.
-
-.Example
-****
-Suppose you have a patron who wants a new J.R.R. Tolkien book but has has already read _The Hobbit_. You could run the search in the image below. 
-
-image::searching_the_catalog/two_row_search_example.png[A search with two rows with the following selections, in order: Format - All Formats, Catalog Field - Author, Matching - Contains, Search Terms - tolkien, Join with - And, Catalog Field - Title, Matching - Does not contain, Search Terms - hobbit.]
-****
-
-Filters
-^^^^^^^
 
 Filters let you refine your search beyond the options available in the search row. 
 
@@ -103,8 +103,10 @@ Then, enter the publication year or years in the text box or text boxes to the r
 
 IMPORTANT: Filters will not be applied until you click *Search*. If you make any changes to filters after beginning a search, you must click *Search* again to apply your changes.
 
-Sorting
-^^^^^^^
+
+[[_sort_results_staff]]
+Sort Results
+^^^^^^^^^^^^
 
 Search results can be sorted by relevance, title (A to Z or Z to A), author (A to Z or Z to A), publication date (newest to oldest or oldest to newest), or popularity (most to least popular or popularity adjusted relevance). By default, searches are sorted by relevance.
 
@@ -114,6 +116,7 @@ To change the sorting method of a search you have already started, select an opt
 
 image::searching_the_catalog/sort_results.png[The Sort Results menu is expanded to show the options, as described above, in the order described above.]
 
+[[_search_checkboxes_staff]]
 Search Checkboxes
 ^^^^^^^^^^^^^^^^^
 
