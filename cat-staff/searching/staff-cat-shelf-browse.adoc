@@ -1,0 +1,15 @@
+[[_shelf_browse_staff]]
+Shelf Browse
+~~~~~~~~~~~~
+
+The Shelf Browse pane allows you to browse by call number. It will return results that fall around your search term alphabetically or numerically. Each result links to catalogue records. (To browse by bibliographic headings, see xref:_browse_search_staff[Browse].)
+
+In libraries where call numbers include part information, such as volume number, you can use this pane to browse volumes in a series.
+
+To use the Shelf Browse pane, enter a call number in the _Browse Call Numbers starting with_ text box, then click *Search*. Results appear below the search form. 
+
+You may click *Next* or *Back*, which appear above and below the results, to view more results.
+
+TIP: Shelf Browse is best used at the smallest appropriate level, usually the branch level, due to possible variations in call number practices. 
+
+image::searching_the_catalog/shelf_browse_search.png[Shelf Browse search pane with an arrow indicating the Browse Call Numbers starting with text box, as described above. The search term is FIC 213. The Search Library is set to BR1. The result of the search is an alphabetical list of fifteen call numbers with FIC 213 in the middle. The results are laid out in a tile format with three columns and five rows.]

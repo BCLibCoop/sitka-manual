@@ -1,0 +1,70 @@
+Search Form
+~~~~~~~~~~~
+
+The entire panel at the top of the staff catalogue is the search form:
+
+. xref:_search_panes[Five Search Panes]
+. xref:_library_selector_staff_cat[The Library Selector]
+. xref:_additional_options_staff_cat[Additional Options]
+
+image::images/staffcat/search/catalogue-search-1.png[Catalogue Search Form]
+
+Search Panes
+^^^^^^^^^^^^
+
+There are five search panes available in the search form that enable staff to search the catalogue
+in a variety of ways:
+
+* xref:_keyword_search_staff[Keyword Search]
+* xref:_numeric_search_staff[Numeric Search]
+* xref:_marc_search_staff[MARC Search]
+* xref:_browse_search_staff[Browse]
+* xref:_shelf_browse_staff[Shelf Browse]
+
+The default search pane for your workstation can be set in the 
+xref:_search_preferences[Search Preferences]. 
+ 
+
+[[_library_selector_staff_cat]]
+Library Selector
+^^^^^^^^^^^^^^^^
+
+The library selector allows you to change your search library to the consortium, system, branch, or 
+other organization of your choice.
+
+To change your search library, click the text box to the left of the *Search* button and make 
+your selection from the drop down menu.
+
+The default search library for your workstation can be set in the 
+xref:_search_preferences[Search Preferences]. 
+
+You may also enter the short name of the library you wish to search directly 
+into the text box and then select it from the shortened list that displays.
+
+Your library selection will stay until you leave the staff catalogue on that tab. When you open
+the staff catalogue in a new tab it will reset to the workstation's default search library.
+
+[TIP]
+=====
+The workstation setting _Include Full Library Names in Library Search?_ controls whether the display
+in the library selector is the library name and short code or just the short code.  See 
+xref:_include_full_library_names_in_library_selector[] for information on this setting.
+=====
+
+[[_additional_options_staff_cat]]
+Additional Options
+^^^^^^^^^^^^^^^^^^
+
+The *Reset* button will clear the search terms and reset the search field to the default.
+
+[NOTE]
+======
+The _Sort Results_ box and the checkboxes are not reset.
+======
+
+You can also access the following features:
+
+* xref:_search_templates[*Search Templates*]
+* xref:_search_preferences[*Search Preferences*] 
+* xref:_baskets_staff_cat[*Basket Actions*]
+* xref:_viewing_the_basket[*Viewing the Basket*] (represented by a basket icon)

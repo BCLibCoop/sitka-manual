@@ -1,0 +1,13 @@
+[[_numeric_search_staff]]
+Numeric Search
+~~~~~~~~~~~~~~
+
+The Numeric Search pane allows you to search numerical fields in bibliographic records. You may search the following fields: _ISBN_, _UPC_, _ISSN_, _LCCN_, _TCN_, and _Item Barcode_.
+
+NOTE: An item may have multiple barcodes on it. _Item Barcode_ refers to the barcode created by your library. It is the barcode you scan to check an item in or out.
+
+First, select the _Query Type_ from the drop down menu. Then, enter the numeric value of the search in the _Value_ text box. 
+
+Begin the search by clicking the *Search* button in the top-right corner. Search results appear below the search form.
+
+image::searching_the_catalog/numeric_search.png[Numeric Search pane with arrows indicating the Numeric Search pane selected, the Query Type drop down menu, the Value text box, and the Search button, as described above.]
