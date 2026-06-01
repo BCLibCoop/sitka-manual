@@ -2,7 +2,17 @@
 Shelf Browse
 ~~~~~~~~~~~~
 
-The Shelf Browse pane allows you to browse by call number. It will return results that fall around your search term alphabetically or numerically. Each result links to catalogue records. (To browse by bibliographic headings, see xref:_browse_search_staff[Browse].)
+The _Shelf Browse_ pane allows you to browse by call number. It will return results that fall around your search term alphabetically or numerically. Each result links to catalogue records. (To browse by bibliographic headings, see xref:_browse_search_staff[Browse].)
+
+image::images/cat/cat-menu.png[Catalogue Menu]
+
+image::images/staffcat/staff-cat-library-selector.png[Library selector in the staff catalogue]
+
+image::images/staffcat/staff-cat-shelf-browse-1.png[]
+
+image::images/staffcat/staff-cat-shelf-browse-2.png[]
+
+image::images/staffcat/staff-cat-shelf-browse-3.png[]
 
 In libraries where call numbers include part information, such as volume number, you can use this pane to browse volumes in a series.
 
