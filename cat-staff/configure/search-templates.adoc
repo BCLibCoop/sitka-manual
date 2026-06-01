@@ -3,40 +3,54 @@ Search Templates
 
 Search templates allow you to save search options and inputs for future use.
 
-You may create a search template using any xref:_search_panes[search pane]. However, since the Keyword Search pane contains the most options, search templates are most useful on this pane. 
+You may create a search template using any xref:_search_panes[search pane]. However, since the Keyword Search pane contains 
+the most options, search templates are most useful on this pane. 
 
 You can follow these same instructions to make templates for any search pane.
 
-To access the Search Templates menu, click *Search Templates* below the Library Selector in the top-right corner of the Staff Catalogue page. A drop down menu opens.
+To access the Search Templates menu, click *Search Templates* below the Library Selector in the top-right corner 
+of the Staff Catalogue page. A drop down menu opens.
 
-image::search_templates/search_templates.png[The Search Templates menu is hihglighted below the Library Selector, as described above.]
+image::images/staffcat/staff-cat-search-templates-1.png[The Search Templates menu is hihglighted below the Library Selector, 
+as described above.]
 
 Creating a Search Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To create a search template, first make all desired selections. You may make selections in the following fields: 
+[TIP]
+=====
+Use a unique name that describes the search settings.
+=====
 
+. To create a search template, first make all desired selections. You may make selections in the following fields: 
++
 * Format
 * Catalog Field
 * Matching
 * Sort Results
+* Language
+* Audience
+* Literary Format
+* Shelving Location
 * Publication Year
++
+. You may also add additional search rows. If you use multiple search rows, you may also make a selection in the Join With field.
+. Click *Search Templates* -> *Save Template*.
++
+image::images/staffcat/staff-cat-search-templates-2.png[]
++
+. A pop-up will appear. Enter a brief, descriptive name and click *Save*.
++
+image::images/staffcat/staff-cat-search-templates-3.png[]
++ 
+. The template will now appear in the *Search Templates* menu.
 
-You may also add additional search rows. If you use multiple search rows, you may also make a selection in the Join With field.
+[CAUTION]
+=========
+Checkbox selections will not be saved in a search template.
+=========
 
-[IMPORTANT]
-======
-Filters and checkbox selections _will not_ be saved in a search template.
-======
 
-Click *Search Templates* -> *Save Template*. The _Template Name_ dialogue box appears. 
-
-Enter a brief, descriptive name and click *Save*. This template will now appear in the *Search Templates* menu.
-
-[TIP]
-====
-Use a unique name that describes the search settings.
-====
 
 image::search_templates/save_template.png[Save Template dialog box with the following text: Books by Title or Auth after 2000]
 
