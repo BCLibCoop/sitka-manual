@@ -11,8 +11,7 @@ You can follow these same instructions to make templates for any search pane.
 To access the Search Templates menu, click *Search Templates* below the Library Selector in the top-right corner 
 of the Staff Catalogue page. A drop down menu opens.
 
-image::images/staffcat/staff-cat-search-templates-1.png[The Search Templates menu is hihglighted below the Library Selector, 
-as described above.]
+image::images/staffcat/staff-cat-search-templates-1.png[]
 
 Creating a Search Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -50,25 +49,26 @@ image::images/staffcat/staff-cat-search-templates-3.png[]
 Checkbox selections will not be saved in a search template.
 =========
 
-
-
-image::search_templates/save_template.png[Save Template dialog box with the following text: Books by Title or Auth after 2000]
-
 Using a Search Template
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-. To use a saved template, click *Search Templates* located below the Library Selector in the top-right corner. A drop down menu opens.
+. To use a saved template, click *Search Templates* located below the Library Selector in the top-right corner. 
++
+image::images/staffcat/staff-cat-search-templates-4.png[]
++ 
+. Select a template from the list in the drop down menu that appears.
++
+image::images/staffcat/staff-cat-search-templates-5.png[]
++ 
+. The template will load and search criteria will be updated.
 
-. Select a template from the list below the gray dividing line.
-
-. The current template, if any, appears in bold.
-
-image::search_templates/using_a_template.png[The Search Templates drop down menu, which contains three options, then a list of saved templates after a gray dividing line. The list of saved templates is highlighted. The first three options are: Save Template, Delete Selected, and Delete All Templates.]
 
 Deleting a Search Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To delete search templates, click *Search Templates* located below the Library Selector in the top-right corner. 
+To delete search templates, click *Search Templates* located below the Library Selector in the top-right corner.
+
+image::images/staffcat/staff-cat-search-templates-6.png[Search Templates menu with Delete Selected and Delete All Templates highlighted] 
 
 To delete the current template, which will be shown in bold on this drop down menu:
 
@@ -81,5 +81,3 @@ To delete all saved templates:
 . Click *Delete All Templates*.
 . The _Confirm Delete All_ dialog box will open. Click *Confirm*.
 . All templates are deleted.
-
-image::search_templates/delete_templates.png[Search Templates menu with Delete Selected and Delete All Templates highlighted, as described above.]
