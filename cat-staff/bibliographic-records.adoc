@@ -165,7 +165,7 @@ To delete a note:
 . Select the _Actions for Selected Rows_ button located below the record views list. It is the first button to the right of the _New Record Note_ button. 
 . Select _Delete Selected_. The selected note is deleted.
 
-image::bibliographic_records/delete_note.png[Screenshote showing the Delete Selected button, as described above.]
+image::bibliographic_records/delete_note.png[Screenshot showing the Delete Selected button, as described above.]
 
 To change what information is displayed in the table, see more results, and select other options, see xref:staff_catalog:bibliographic_records.adoc#grid_options[Grid Options].
 
