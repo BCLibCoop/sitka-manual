@@ -56,11 +56,11 @@ image::bibliographic_records/results_navigation.png[Screenshot of a bibliographi
 
 The following buttons are available:
 
-* _Start_: View the record for the first search result.
-* _Previous_: View the record for the search result before this one.
-* _Next_: View the record for the search result after this one.
-* _End_: View the record for the last search result.
-* _Back to Results (# / #)_: Return to the search results page. The first number indicates the position of the current record in the search results. The second number indicates the total number of results.
+* *Start*: View the record for the first search result.
+* *Previous*: View the record for the search result before this one.
+* *Next*: View the record for the search result after this one.
+* *End*: View the record for the last search result.
+* *Back to Results (# / #)*: Return to the search results page. The first number indicates the position of the current record in the search results. The second number indicates the total number of results.
 
 NOTE: If there was only one search result, or if you access the record through any method besides a catalog search, the _Results Navigation_ buttons may not be available.
 
@@ -79,11 +79,11 @@ You can use the following actions:
 * *Add Holdings*: The _Holdings Editor_ for the current record will open in a new tab. Users with the appropriate permissions can begin the process of adding a new holding (item). 
 * *Serials*: A dropdown menu opens with the options *Quick Receive*, *Manage Subscriptions*, and *Manage MFHDs*. The latter two options take you to the _Serials_ page for the current record with the selected pane open.
 * *Mark For...*: Cataloguing primarily uses these to complete a variety of cataloguing tasks. Circulation staff may use the _Title Hold Transfer_ option to transfer a hold to a different hold request while preserving the other hold details. _Reset Record Marks_ removes all marks. The dropdown menu options are:
-** *_Conjoined Items_*
-** *_Overlay Target_*
-** *_Title Hold Transfer_*
-** *_Holding Transfer_*
-** *_Reset Record Marks_*
+** *Conjoined Items*
+** *Overlay Target*
+** *Title Hold Transfer*
+** *Holding Transfer*
+** *Reset Record Marks*
 * *Other Actions*: A dropdown menu opens with the following options:
 ** *Add To Bucket*: The _Add Item # to Bucket_ window opens. You may add the record to an existing, new, or shared record bucket.
 ** *Add To Carousel*: The _Add to Carousel_ window opens. You may add the record to an existing carousel or create a new carousel.
