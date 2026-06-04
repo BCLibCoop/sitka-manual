@@ -1,15 +1,12 @@
 Search Templates
 ~~~~~~~~~~~~~~~~
 
-Search templates allow you to save search options and inputs for future use.
-
-You may create a search template using any xref:_search_panes[search pane]. However, since the Keyword Search pane contains 
+Search templates allow you to save search options and inputs for future use. You can create search templates 
+using any xref:_search_panes[search pane]. Since the _Keyword Search_ pane contains 
 the most options, search templates are most useful on this pane. 
 
-You can follow these same instructions to make templates for any search pane.
-
-To access the Search Templates menu, click *Search Templates* below the Library Selector in the top-right corner 
-of the Staff Catalogue page. A drop down menu opens.
+To access the search templates menu, click *Search Templates* below the library selector in the top-right corner 
+of the staff catalogue page. A drop down menu opens.
 
 image::images/staffcat/staff-cat-search-templates-1.png[]
 
@@ -33,7 +30,7 @@ Use a unique name that describes the search settings.
 * Shelving Location
 * Publication Year
 +
-. You may also add additional search rows. If you use multiple search rows, you may also make a selection in the Join With field.
+. You may also add additional search rows. If you use multiple search rows, you may also make a selection in the _Join With_ field.
 . Click *Search Templates* -> *Save Template*.
 +
 image::images/staffcat/staff-cat-search-templates-2.png[]
@@ -52,7 +49,7 @@ Checkbox selections will not be saved in a search template.
 Using a Search Template
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-. To use a saved template, click *Search Templates* located below the Library Selector in the top-right corner. 
+. To use a saved template, click *Search Templates* located below the library selector in the top-right corner. 
 +
 image::images/staffcat/staff-cat-search-templates-4.png[]
 + 
@@ -66,7 +63,7 @@ image::images/staffcat/staff-cat-search-templates-5.png[]
 Deleting a Search Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To delete search templates, click *Search Templates* located below the Library Selector in the top-right corner.
+To delete search templates, click *Search Templates* located below the library selector in the top-right corner.
 
 image::images/staffcat/staff-cat-search-templates-6.png[Search Templates menu with Delete Selected and Delete All Templates highlighted] 
 
