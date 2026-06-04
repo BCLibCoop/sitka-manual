@@ -4,7 +4,7 @@ Bibliographic Records (Record Details)
 
 Each item in the catalogue is linked to a bibliographic record. This record contains detailed information about the item. You can also perform a number of actions from a bibliographic record.
 
-Access an item's bibliographic record by finding the item in the _Staff Catalog_, then selecting the item's title or cover image. 
+Access an item's bibliographic record by finding the item in the _Staff Catalog_, then clicking the item's title or cover image. 
 
 You may also access an item's record by clicking its title any time it is hyperlinked, such as on a patron's account or on the _Item Status_ page.
 
@@ -12,9 +12,9 @@ There may be multiple records for a given title if the title has multiple editio
 
 [TIP]
 ====
-Select _Show Search Form_ in the top-right corner of a bibliographic record page to display the search form. If the search form is displayed, the button will say _Hide Search Form_. Select this button to hide the search form.
+Click _Show Search Form_ in the top-right corner of a bibliographic record page to display the search form. If the search form is displayed, the button will say _Hide Search Form_. Click this button to hide the search form.
 
-The search form is filled by information in your URL. This information will still be present in the search form if you accessed the record from a search results page or by selecting a link that contained search information.
+The search form is filled by information in your URL. This information will still be present in the search form if you accessed the record from a search results page or by clicking a link that contained search information.
 
 image::bibliographic_records/show_search_form.png[Screenshot of the Show Search Form button, as described above.]
 ====
@@ -42,9 +42,9 @@ The top panel in a record is the _Record Summary_. This contains the following i
 
 image::bibliographic_records/record_summary.png[Screenshot of the Record Summary for Ready Player One containing the information described above.]
 
-Select the caret (^) icon in the top-right corner of the _Record Summary_ to collapse the record summary panel. Only the title, edition, TCN, and Created By user will be shown.
+Click the caret (^) icon in the top-right corner of the _Record Summary_ to collapse the record summary panel. Only the title, edition, TCN, and Created By user will be shown.
 
-Select the icon again to expand the record summary panel.
+Click the icon again to expand the record summary panel.
 
 [[results_navigation]]
 Results Navigation
@@ -75,7 +75,7 @@ image::bibliographic_records/record_actions.png[Screenshot of a record summary w
 You can use the following actions:
 
 * *Patron View*: The record will open in the patron catalog (OPAC) in a new tab. You will not be logged in to Evergreen in this new tab. You must return to your staff tab to continue using staff features.
-* *Place Hold*: The _Place Hold_ screen will appear in the current tab. You may place a title hold. Select *Return* to return to the record.
+* *Place Hold*: The _Place Hold_ screen will appear in the current tab. You may place a title hold. Click *Return* to return to the record.
 * *Add Holdings*: The _Holdings Editor_ for the current record will open in a new tab. Users with the appropriate permissions can begin the process of adding a new holding (item). 
 * *Serials*: A dropdown menu opens with the options *Quick Receive*, *Manage Subscriptions*, and *Manage MFHDs*. The latter two options take you to the _Serials_ page for the current record with the selected pane open.
 * *Mark For...*: Cataloguing primarily uses these to complete a variety of cataloguing tasks. Circulation staff may use the _Title Hold Transfer_ option to transfer a hold to a different hold request while preserving the other hold details. _Reset Record Marks_ removes all marks. The dropdown menu options are:
@@ -99,7 +99,7 @@ The _Record Views_ appear below _Results Navigation_ and _Record Actions_ button
 
 image::bibliographic_records/record_tabs.png[Screenshot of a bibliographic record with the record views list highlighted, as described above. The tabs appear in the order they are listed below.]
 
-To change the tab that is selected by default, navigate to the tab of your choice, then select the _Set Default View_ button located above the tabs to the right of the page.
+To change the tab that is selected by default, navigate to the tab of your choice, then click the _Set Default View_ button located above the tabs to the right of the page.
 
 [[staff_view]]
 Staff View
@@ -107,7 +107,7 @@ Staff View
 
 The _Staff View_ tab contains information from the MARC record in a human-readable format. It includes title, author, edition, publisher, type of resource, physical description, ISBN, hold and copy counts, subjects, and formats and editions information.
 
-Selecting any of the hyperlinked information will run the appropriate search.
+Clicking any of the hyperlinked information will run the appropriate search.
 
 [[item_table]]
 Item Table
@@ -141,7 +141,7 @@ MARC View
 
 The _MARC View_ tab shows a non-editable version of the MARC record.
 
-You may print the MARC record from this tab by selecting the _Print Page_ button located to the left of the page below the record views list.
+You may print the MARC record from this tab by clicking the _Print Page_ button located to the left of the page below the record views list.
 
 This tab can give users quick access to basic information about a title, but the xref:staff_catalog:bibliographic_records.adoc#staff_view[Staff View] tab may be more useful.
 
@@ -151,19 +151,19 @@ Record Notes
 
 The _Record Notes_ tab allows users with appropriate permissions to keep notes on a record. This may be useful when a record is under review.
 
-Create a new note by selecting _New Record Note_ below the record views list. The _Record Editor: Bib Record Note_ window opens. Enter your note in the _Note_ text box and select _Save_. All other information is generated automatically. Your note is added to the table.
+Create a new note by clicking _New Record Note_ below the record views list. The _Record Editor: Bib Record Note_ window opens. Enter your note in the _Note_ text box and select _Save_. All other information is generated automatically. Your note is added to the table.
 
-Sort the list in ascending order by creation date or note contents by selecting _Creation Date_ or _Note_. Sort the list in descending order by selecting the appropriate button again.
+Sort the list in ascending order by creation date or note contents by clicking _Creation Date_ or _Note_. Sort the list in descending order by clicking the appropriate button again.
 
-Filter the notes by creation date or note contents by selecting _Filter_ below the _Creation Date_ or _Note_ column. A menu opens. Select an operator and criteria, then select _Apply Filter_. Select _Close_ to close the filter menu.
+Filter the notes by creation date or note contents by clicking _Filter_ below the _Creation Date_ or _Note_ column. A menu opens. Select an operator and criteria, then click _Apply Filter_. Click _Close_ to close the filter menu.
 
-To remove filters, select _Remove Filters_ below the record views list.
+To remove filters, click _Remove Filters_ below the record views list.
 
 To delete a note:
 
-. Select a note from the list by checking the checkbox to the left of the note. You may select multiple notes, or select the checkbox at the top of the table to select all notes. 
-. Select the _Actions for Selected Rows_ button located below the record views list. It is the first button to the right of the _New Record Note_ button. 
-. Select _Delete Selected_. The selected note is deleted.
+. Select a note from the list by checking the checkbox to the left of the note. You may select multiple notes, or check the checkbox at the top of the table to select all notes. 
+. Click the _Actions for Selected Rows_ button located below the record views list. It is the first button to the right of the _New Record Note_ button. 
+. Click _Delete Selected_. The selected note is deleted.
 
 image::bibliographic_records/delete_note.png[Screenshot showing the Delete Selected button, as described above.]
 
@@ -180,7 +180,7 @@ Select a library from the _Pickup Library_ menu to filter the holds by pickup li
 To perform an action on a hold:
 
 . Select a hold by checking the checkbox to the left of the hold. You may select multiple holds, or select all holds in the list by checking the checkbox at the top of the table.
-. Select the _Actions for Selected Rows_ button located below the record views list. It is the left-most button in the group of buttons to the right of the page.
+. Click the _Actions for Selected Rows_ button located below the record views list. It is the left-most button in the group of buttons to the right of the page.
 . Select an action from the list. Some common actions include _Cancel Hold_, _Modify Hold_, and _Retrieve Patron_.
 
 image::bibliographic_records/hold_action.png[Screenshot of the hold actions menu, as described above.]
@@ -197,14 +197,14 @@ The _Monograph Parts_ tab allows users with the appropriate permissions manage p
 
 To add a new part:
 
-. Select _New Monograph Part_ below the record views list to the left of the screen. The _Record Editor: Monograph Parts_ window opens.
+. Click _New Monograph Part_ below the record views list to the left of the screen. The _Record Editor: Monograph Parts_ window opens.
 . Enter the label for the new part in the _label_ text box.
-. Select _Save_. The ID is generated automatically and the part is added to the table.
+. Click _Save_. The ID is generated automatically and the part is added to the table.
 
 To delete or merge parts:
 
 . Select a part by checking the checkbox to the left of the part. You may select multiple parts, or select all parts in the list by checking the checkbox at the top of the table.
-. Select the _Actions for Selected Rows_ button located below the record views list. It is the first button to the right of the _New Monograph Part_ button.
+. Click the _Actions for Selected Rows_ button located below the record views list. It is the first button to the right of the _New Monograph Part_ button.
 . Select an option from the menu.
 ** _Delete Selected_: The selected part is deleted.
 ** _Merge Selected_: The _Merge Monograph Parts_ window opens. Select a lead part by checking a checkbox. Select _Merge_. All selected parts are merged into the lead part.
@@ -247,14 +247,14 @@ To perform any actions, first select conjoined items from the table by checking 
 
 To change the type of the selected conjoined items:
 
-. Select the _Change Type_ button located above the table to the left of the page. The _Attach/Modify # Conjoined Item(s)_ window opens.
+. Click the _Change Type_ button located above the table to the left of the page. The _Attach/Modify # Conjoined Item(s)_ window opens.
 . Selected a peer type from the _Peer Type_ dropdown menu.
-. Select _Attach/Modify_. A confirmation message appears at the bottom of the screen.
+. Click _Attach/Modify_. A confirmation message appears at the bottom of the screen.
 
 To unlink items:
 
-. Select the _Actions for Selected Rows_ menu. This is the next button to the right of the _Change Type_ button above the table.
-. Select _Unlink_. The selected items are unlinked.
+. Click the _Actions for Selected Rows_ menu. This is the next button to the right of the _Change Type_ button above the table.
+. Click _Unlink_. The selected items are unlinked.
 
 Sort items by any column heading in ascending order by clicking the column heading. Sort the items in descending order by clicking the heading again.
 
@@ -266,4 +266,4 @@ Shelf Browse
 
 The _Shelf Browse_ view displays tiles containing records for other items appearing before and after the selected record by call number.
 
-Select _Back_ or _Next_, located above and below the results to the left of the page, to view more results.
+Click _Back_ or _Next_, located above and below the results to the left of the page, to view more results.
