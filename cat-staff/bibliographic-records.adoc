@@ -42,9 +42,9 @@ The top panel in a record is the _Record Summary_. This contains the following i
 
 image::bibliographic_records/record_summary.png[Screenshot of the Record Summary for Ready Player One containing the information described above.]
 
-Click the *caret icon ^* in the top-right corner of the _Record Summary_ to collapse the record summary panel. Only the Title, Edition, TCN, and Created By information will be shown.
+Click the *caret icon ∧* in the top-right corner of the _Record Summary_ to collapse the record summary panel. Only the Title, Edition, TCN, and Created By information will be shown.
 
-With the record summary panel collapsed, the caret icon has inverted. Click the *caret icon ∨* again to expand the record summary panel.
+With the record summary panel collapsed, the caret icon has inverted (is now pointing downwards). Click the *caret icon ∨* once again to expand the record summary panel.
 
 [[results_navigation]]
 Results Navigation
@@ -117,13 +117,13 @@ The *Staff View* tab contains information from the MARC record in a human-readab
 * *Subject*:
 * *Formats and Editions*:
 
-Clicking any hyperlink will run a relevant search. For example, if a record has the Subject _Birds_, the hyperlinked text goes to a subject search for Birds.
+Hyperlinks are to a relevant search. For example, if a record has an ISBN, the ISBN hyperlink is to a numeric search for this ISBN.
 
 [[item_table]]
 Item Table
 ^^^^^^^^^^
 
-The _Item Table_ tab displays a table of all holdings related to the record. The table is organized alphabetically by library.
+The *Item Table* tab displays a table of all holdings related to the record. The table is organized alphabetically by library.
 
 If a preferred library is not set for the workstation, only items in the library chosen in the _Library Selector_ will be shown. 
 
@@ -139,9 +139,9 @@ TIP: For a more detailed view of holdings with the ability to use actions, see x
 MARC Edit
 ^^^^^^^^^
 
-The _MARC Edit_ tab allows users with appropriate permissions to modify fixed fields and tags in the MARC record. 
+The *MARC Edit* tab allows users with appropriate permissions to modify fixed fields and tags in the MARC record. 
 
-This tab allows users to pick between the _Enhanced MARC Editor_ and the _Flat Text Editor_. 
+This tab allows users to pick between the *Enhanced MARC Editor* and the *Flat Text Editor*. 
 
 Use the xref:staff_catalog:bibliographic_records.adoc#marc_view[MARC View] tab for a printer-friendly version of the MARC record.
 
@@ -149,9 +149,9 @@ Use the xref:staff_catalog:bibliographic_records.adoc#marc_view[MARC View] tab f
 MARC View
 ^^^^^^^^^
 
-The _MARC View_ tab shows a non-editable version of the MARC record.
+The *MARC View* tab shows a non-editable version of the MARC record.
 
-You may print the MARC record from this tab by clicking the _Print Page_ button located to the left of the page below the record views list.
+You may print the MARC record from this tab by clicking the *Print Page* button located to the left of the page below the record views list.
 
 This tab can give users quick access to basic information about a title, but the xref:staff_catalog:bibliographic_records.adoc#staff_view[Staff View] tab may be more useful.
 
@@ -159,21 +159,21 @@ This tab can give users quick access to basic information about a title, but the
 Record Notes
 ^^^^^^^^^^^^
 
-The _Record Notes_ tab allows users with appropriate permissions to keep notes on a record. This may be useful when a record is under review.
+The *Record Notes* tab allows users with appropriate permissions to keep notes on a record. This may be useful when a record is under review.
 
-Create a new note by clicking _New Record Note_ below the record views list. The _Record Editor: Bib Record Note_ window opens. Enter your note in the _Note_ text box and select _Save_. All other information is generated automatically. Your note is added to the table.
+Create a new note by clicking *New Record Note* below the record views list. The _Record Editor: Bib Record Note_ window opens. Enter your note in the *Note* text box and select *Save*. All other information is generated automatically. Your note is added to the table.
 
-Sort the list in ascending order by creation date or note contents by clicking _Creation Date_ or _Note_. Sort the list in descending order by clicking the appropriate button again.
+Sort the list in ascending order by creation date or note contents by clicking *Creation Date* or *Note*. Sort the list in descending order by clicking the appropriate button again.
 
-Filter the notes by creation date or note contents by clicking _Filter_ below the _Creation Date_ or _Note_ column. A menu opens. Select an operator and criteria, then click _Apply Filter_. Click _Close_ to close the filter menu.
+Filter the notes by creation date or note contents by clicking *Filter* below the *Creation Date* or *Note* column. A menu opens. Select an operator and criteria, then click *Apply Filter*. Click *Close* to close the filter menu.
 
-To remove filters, click _Remove Filters_ below the record views list.
+To remove filters, click *Remove Filters* below the record views list.
 
 To delete a note:
 
 . Select a note from the list by checking the checkbox to the left of the note. You may select multiple notes, or check the checkbox at the top of the table to select all notes. 
-. Click the _Actions for Selected Rows_ button located below the record views list. It is the first button to the right of the _New Record Note_ button. 
-. Click _Delete Selected_. The selected note is deleted.
+. Click the *Actions for Selected Rows* button located below the record views list. It is the first button to the right of the *New Record Note* button. 
+. Click *Delete Selected*. The selected note is deleted.
 
 image::bibliographic_records/delete_note.png[Screenshot showing the Delete Selected button, as described above.]
 
@@ -183,15 +183,15 @@ To change what information is displayed in the table, see more results, and sele
 View Holds
 ^^^^^^^^^^
 
-The _View Holds_ tab lists all holds on the record. The total number of holds on a record is displayed below the record views list to the left of the page.
+The *View Holds* tab lists all holds on the record. The total number of holds on a record is displayed below the record views list to the left of the page.
 
 Select a library from the _Pickup Library_ menu to filter the holds by pickup library. By default, this is the library selected in the _Library Selector_. 
 
 To perform an action on a hold:
 
 . Select a hold by checking the checkbox to the left of the hold. You may select multiple holds, or select all holds in the list by checking the checkbox at the top of the table.
-. Click the _Actions for Selected Rows_ button located below the record views list. It is the left-most button in the group of buttons to the right of the page.
-. Select an action from the list. Some common actions include _Cancel Hold_, _Modify Hold_, and _Retrieve Patron_.
+. Click the *Actions for Selected Rows* button located below the record views list. It is the left-most button in the group of buttons to the right of the page.
+. Select an action from the list. Some common actions include *Cancel Hold*, *Modify Hold*, and *Retrieve Patron*.
 
 image::bibliographic_records/hold_action.png[Screenshot of the hold actions menu, as described above.]
 
@@ -203,21 +203,21 @@ To change what information is displayed in the table, see more results, and sele
 Monograph Parts
 ^^^^^^^^^^^^^^^
 
-The _Monograph Parts_ tab allows users with the appropriate permissions manage parts associated with a record. 
+The *Monograph Parts* tab allows users with the appropriate permissions manage parts associated with a record. 
 
 To add a new part:
 
-. Click _New Monograph Part_ below the record views list to the left of the screen. The _Record Editor: Monograph Parts_ window opens.
+. Click *New Monograph Part* below the record views list to the left of the screen. The _Record Editor: Monograph Parts_ window opens.
 . Enter the label for the new part in the _label_ text box.
-. Click _Save_. The ID is generated automatically and the part is added to the table.
+. Click *Save*. The ID is generated automatically and the part is added to the table.
 
 To delete or merge parts:
 
 . Select a part by checking the checkbox to the left of the part. You may select multiple parts, or select all parts in the list by checking the checkbox at the top of the table.
-. Click the _Actions for Selected Rows_ button located below the record views list. It is the first button to the right of the _New Monograph Part_ button.
+. Click the *Actions for Selected Rows* button located below the record views list. It is the first button to the right of the *New Monograph Part* button.
 . Select an option from the menu.
-** _Delete Selected_: The selected part is deleted.
-** _Merge Selected_: The _Merge Monograph Parts_ window opens. Select a lead part by checking a checkbox. Select _Merge_. All selected parts are merged into the lead part.
+** *Delete Selected*: The selected part is deleted.
+** *Merge Selected*: The _Merge Monograph Parts_ window opens. Select a lead part by checking a checkbox. Select *Merge*. All selected parts are merged into the lead part.
 
 image::bibliographic_records/part_actions.png[Screenshot of the Monograph Parts tab with the parts actions menu highlighted, as described above.]
 
@@ -229,9 +229,9 @@ To change what information is displayed in the table, see more results, and sele
 Holdings View
 ^^^^^^^^^^^^^
 
-The _Holdings View_ tab displays detailed item and call number information. It also allows users with appropriate permissions to perform actions on holdings.
+The *Holdings View* tab displays detailed item and call number information. It also allows users with appropriate permissions to perform actions on holdings.
 
-To perform actions from the _Holdings View_:
+To perform actions from the *Holdings View*:
 
 . Select the appropriate library in the _Holdings Maintenance_ menu that appears below the record views list. The table will update to reflect your selection. The library chosen in the _Library Selector_ will be chosen by default.
 . Check or uncheck the checkboxes below the _Holdings Maintenance_ text box to match your preferences:
@@ -239,7 +239,7 @@ To perform actions from the _Holdings View_:
 ** Show Copies
 ** Show Empty Call Numbers
 ** Show Empty Libs
-. In the table, expand or collapse rows by selecting arrow in the _Location/Barcode_ column.
+. In the table, expand or collapse rows by selecting arrow in the *Location/Barcode* column.
 . Select items by checking the checkbox on the left side of the item's row.
 . Select an action from the _Actions for Selected Rows_ menu. This menu is the left-most button in the group of three buttons to the right of the page above the table.
 
@@ -251,20 +251,20 @@ To change what information is displayed in the table, see more results, and sele
 Conjoined Items
 ^^^^^^^^^^^^^^^
 
-The _Conjoined Items_ view allows users with appropriate permissions to manage conjoined items from the bibliographic record. 
+The *Conjoined Items* view allows users with appropriate permissions to manage conjoined items from the bibliographic record. 
 
 To perform any actions, first select conjoined items from the table by checking the checkbox located on the left side of the row.
 
 To change the type of the selected conjoined items:
 
-. Click the _Change Type_ button located above the table to the left of the page. The _Attach/Modify # Conjoined Item(s)_ window opens.
-. Selected a peer type from the _Peer Type_ dropdown menu.
-. Click _Attach/Modify_. A confirmation message appears at the bottom of the screen.
+. Click the *Change Type* button located above the table to the left of the page. The _Attach/Modify # Conjoined Item(s)_ window opens.
+. Selected a peer type from the *Peer Type* dropdown menu.
+. Click *Attach/Modify* A confirmation message appears at the bottom of the screen.
 
 To unlink items:
 
-. Click the _Actions for Selected Rows_ menu. This is the next button to the right of the _Change Type_ button above the table.
-. Click _Unlink_. The selected items are unlinked.
+. Click the *Actions for Selected Rows* menu. This is the next button to the right of the *Change Type* button above the table.
+. Click *Unlink*. The selected items are unlinked.
 
 Sort items by any column heading in ascending order by clicking the column heading. Sort the items in descending order by clicking the heading again.
 
@@ -274,6 +274,6 @@ To change what information is displayed in the table, see more results, and sele
 Shelf Browse
 ^^^^^^^^^^^^
 
-The _Shelf Browse_ view displays tiles containing records for other items appearing before and after the selected record by call number.
+The *Shelf Browse* view displays tiles containing records for other items appearing before and after the selected record by call number.
 
-Click _Back_ or _Next_, located above and below the results to the left of the page, to view more results.
+Click *Back* or *Next*, located above and below the results to the left of the page, to view more results.
