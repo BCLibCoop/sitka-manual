@@ -19,7 +19,7 @@ The search form is filled by information in your URL. This information will stil
 image::bibliographic_records/show_search_form.png[Screenshot of the Show Search Form button, as described above.]
 ====
 
-[[record_summary]]
+[[_record_summary]]
 Record Summary
 ~~~~~~~~~~~~~~
 
@@ -46,7 +46,7 @@ Click the *∧ caret icon* in the top-right corner of the _Record Summary_ to co
 
 With the record summary panel collapsed, the caret icon has inverted (it is now pointing downwards). Click the *∨ caret icon* to expand the record summary panel.
 
-[[results_navigation]]
+[[_results_navigation]]
 Results Navigation
 ~~~~~~~~~~~~~~~~~~
 
@@ -64,7 +64,7 @@ The following buttons are available:
 
 NOTE: If there was only one search result, or if you access the record through any method besides a catalog search, the _Results Navigation_ buttons may not be available.
 
-[[record_actions]]
+[[_record_actions]]
 Record Actions
 ~~~~~~~~~~~~~~
 
@@ -91,7 +91,7 @@ You can use the following actions:
 ** *Clear Added Content Cache*: and the popup _Added Content Cache Cleared_ appears. *THIS WORDING MUST BE UPDATED THANK YOU* It also does not appear here https://docs.evergreen-ils.org/docs/latest/staff_catalog/bibliographic_records.html#record_actions
 ** *View/Place Orders*: The _Line Items Related to Bib Record_ page in the _Acquisitions_ module opens in a new tab.
 
-[[record_views]]
+[[_record_views]]
 Record Views
 ~~~~~~~~~~~~
 
@@ -101,7 +101,7 @@ image::bibliographic_records/record_tabs.png[Screenshot of a bibliographic recor
 
 To change the tab that is selected by default, navigate to the tab of your choice, then click the *Set Default View* button located above the tabs to the right of the page.
 
-[[staff_view]]
+[[_staff_view]]
 Staff View
 ^^^^^^^^^^
 
@@ -119,7 +119,7 @@ The *Staff View* tab contains information from the MARC record presented in a hu
 
 Depending on what information is available in the record, different information will show in this tab.
 
-[[itemtable]]
+[[_item_table]]
 Item Table
 ^^^^^^^^^^
 
@@ -135,7 +135,7 @@ To change what information is displayed in the table, see more results, and sele
 
 TIP: For a more detailed view of holdings with the ability to use actions, see xref:_holdings_view[Holdings View].
 
-[[marc_edit]]
+[[_marc_edit]]
 MARC Edit
 ^^^^^^^^^
 
@@ -145,7 +145,7 @@ This tab allows users to pick between the *Enhanced MARC Editor* and the *Flat T
 
 Use the xref:_marc_view[MARC View] tab for a printer-friendly version of the MARC record.
 
-[[marc_view]]
+[[_marc_view]]
 MARC View
 ^^^^^^^^^
 
@@ -155,7 +155,7 @@ You may print the MARC record from this tab by clicking the *Print Page* button 
 
 This tab can give users quick access to basic information about a title, but the xref:_staff_view[Staff View] tab may be more useful.
 
-[[record_notes]]
+[[_record_notes]]
 Record Notes
 ^^^^^^^^^^^^
 
@@ -179,7 +179,7 @@ image::bibliographic_records/delete_note.png[Screenshot showing the Delete Selec
 
 To change what information is displayed in the table, see more results, and select other options, see xref:_grid_options[Grid Options].
 
-[[view_holds]]
+[[_view_holds]]
 View Holds
 ^^^^^^^^^^
 
@@ -199,7 +199,7 @@ Sort holds by any column heading in ascending order by clicking the column headi
 
 To change what information is displayed in the table, see more results, and select other options, see xref:_grid_options[Grid Options].
 
-[[monograph_parts]]
+[[_monograph_parts]]
 Monograph Parts
 ^^^^^^^^^^^^^^^
 
@@ -225,7 +225,7 @@ Sort parts by any column heading in ascending order by clicking the column headi
 
 To change what information is displayed in the table, see more results, and select other options, see xref:_grid_options[Grid Options].
 
-[[holdings_view]]
+[[_holdings_view]]
 Holdings View
 ^^^^^^^^^^^^^
 
@@ -247,7 +247,7 @@ image::bibliographic_records/holdings_actions.png[Screenshot of the Holdings Vie
 
 To change what information is displayed in the table, see more results, and select other options, see xref:_grid_options[Grid Options].
 
-[[conjoined_items]]
+[[_conjoined_items]]
 Conjoined Items
 ^^^^^^^^^^^^^^^
 
@@ -270,7 +270,7 @@ Sort items by any column heading in ascending order by clicking the column headi
 
 To change what information is displayed in the table, see more results, and select other options, see xref:_grid_options[Grid Options].
 
-[[shelf_browse]]
+[[_shelf_browse]]
 Shelf Browse
 ^^^^^^^^^^^^
 
