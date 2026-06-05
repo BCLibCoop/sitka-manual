@@ -42,9 +42,9 @@ The top panel in a record is the _Record Summary_. This contains the following i
 
 image::bibliographic_records/record_summary.png[Screenshot of the Record Summary for Ready Player One containing the information described above.]
 
-Click the *∧ caret icon* in the top-right corner of the _Record Summary_ to collapse the record summary panel. Only the Title, Edition, TCN, and Created By information will be shown.
+Click the *∧ caret icon* in the top-right corner of the _Record Summary_ to collapse the record summary panel. Only the _Title_, _Edition_, _TCN_, and _Created By_ information will be shown.
 
-With the record summary panel collapsed, the caret icon has inverted (is now pointing downwards). Click the *∨ caret icon* to expand the record summary panel.
+With the record summary panel collapsed, the caret icon has inverted (it is now pointing downwards). Click the *∨ caret icon* to expand the record summary panel.
 
 [[results_navigation]]
 Results Navigation
