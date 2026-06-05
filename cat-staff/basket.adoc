@@ -14,15 +14,15 @@ IMPORTANT: The basket will empty if you log out of Evergreen.
 
 To add a record to the basket, first find the record by conducting a search in the _Staff Catalog_.
 
-Then, check the checkbox that appears between the result number and the cover image of the desired result. The record is added to your basket, and the number next to the _Basket Actions_ button in the search form increases.
+Then, check the checkbox that appears between the result number and the cover image of the desired bibliographic record in the results. The record is added to your basket, and the number next to the _Basket Actions_ button in the search form increases.
 
 image::basket/add_basket.png[Screenshot of the Staff Catalog page with the box checked as described above. The Basket Actions button is highlighted.]
 
 To add all records on the page, check the checkbox between the search form and the search results. All results on the page are selected.
 
-To add records from additional pages, navigate to the desired page and check the same checkbox between the search form and the search results.
+To add records from additional pages, navigate to the desired page and check the checkbox of the desired bibliographic record.
 
-To add all search results, click _Basket Actions_ in the search form below the _Library Selector_. 
+To add all search results, click *Basket Actions* in the search form below the _Library Selector_. 
 
 CAUTION: If your search returned many results, this action may take a long time.
 
@@ -33,14 +33,14 @@ TIP: To add records directly to a bucket and skip the basket, see the xref:_buck
 Removing Records from the Basket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To remove a record from the basket, uncheck the checkbox between the result number and the cover image. You can do this from the search results page or from the basket. The record is removed from the basket.
+To remove a record from the basket, uncheck the checkbox between the result number and the cover image. (You can do this from the search results page or from the basket.) The record is removed from the basket.
 
-To remove all records from the basket, click the _Basket Actions_ button in the search form. Then, click _Clear Basket_. All records are removed from the basket.
+To remove all records from the basket, click the *Basket Actions* button in the search form. Then, click *Clear Basket*. All records are removed from the basket.
 
 Viewing the Basket
 ~~~~~~~~~~~~~~~~~~
 
-To view a basket, click the basket icon in the search form, located to the left of the _Basket Actions_ button. The basket opens.
+To view a basket, click the basket icon in the search form, located to the left of the *Basket Actions* button. The basket opens.
 
 You may also click *Basket Actions* -> *View Basket* to open the basket.
 
@@ -72,7 +72,7 @@ The email will contain title, author, publisher, publication date, item type, bi
 Add Basket to Bucket
 ~~~~~~~~~~~~~~~~~~~~
 
-To add the basket to a bucket, click _Basket Actions_ -> _Add Basket to Bucket_. The _Add # Items to Bucket_ window appears. 
+To add the basket to a bucket, click *Basket Actions* -> *Add Basket to Bucket*. The _Add # Items to Bucket_ window appears. 
 
 If you want to add the basket to an existing bucket, select the bucket name from the _Name of existing bucket_ dropdown menu, then click *Add To Selected Bucket*. The window closes and the items are added to the bucket. A confirmation message appears at the bottom of the screen.
 
