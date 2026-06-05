@@ -29,7 +29,7 @@ CAUTION: If your search returned many results, this action may take a long time.
 
 image::basket/add_to_basket_new.png[Screenshot the search form with two records selected and the Basket Actions menu highlighted, as described above.]
 
-TIP: To add records directly to a bucket and skip the basket, see the xref:cataloging:record_buckets.adoc#add_records_from_catalog[Buckets documentation].
+TIP: To add records directly to a bucket and skip the basket, see the xref:_buckets[Buckets documentation].
 
 Removing Records from the Basket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -43,7 +43,7 @@ Viewing the Basket
 
 To view a basket, select the basket icon in the search form, located to the left of the _Basket Actions_ button. The basket opens.
 
-You may also select _Basket Actions_ -> _View Basket_. The basket opens.
+You may also select *Basket Actions* -> *View Basket*. The basket opens.
 
 image::basket/view_basket.png[Screenshot of the search form with the basket icon and the View Basket menu option highlighted, as described above.]
 
@@ -52,12 +52,12 @@ Records appear in the basket exactly as they appear in the search results. Howev
 Place Hold
 ~~~~~~~~~~
 
-To place a hold on every item in the basket, select _Basket Actions_ -> _Place Hold_. The _Place Hold_ form appears. Place the hold the same way you place a hold for a single item. 
+To place a hold on every item in the basket, select *Basket Actions* -> *Place Hold*. The _Place Hold_ form appears. Place the hold the same way you place a hold for a single item. 
 
 Print Title Details
 ~~~~~~~~~~~~~~~~~~~
 
-To print the details of each record in the basket, select _Basket Actions_ -> _Print Title Details_. A printer-friendly version of the basket will appear.
+To print the details of each record in the basket, select *Basket Actions* -> *Print Title Details*. A printer-friendly version of the basket will appear.
 
 Records will appear in the same order they appear in the basket. They will be numbered.
 
@@ -66,7 +66,7 @@ Each entry on the list will contain the bibliographic ID number, ISBN, title, au
 Email Title Details
 ~~~~~~~~~~~~~~~~~~~
 
-To email a summary of the basket contents, select _Basket Actions_ -> Email Title Details. A plaintext summary of the basket will be emailed to the address associated with your Evergreen account.
+To email a summary of the basket contents, click *Basket Actions* -> *Email Title Details*. A plaintext summary of the basket will be emailed to the address associated with your Evergreen account.
 
 The email will contain title, author, publisher, publication date, item type, bibliographic ID number, and ISBN.
 
@@ -84,7 +84,7 @@ If you want to add the basket to a shared bucket, select the _Shared bucket_ tab
 Export Records
 ~~~~~~~~~~~~~~
 
-To export the records in the basket, select _Basket Actions_ -> _Export Records_. The _MARC Batch Import/Export_ page opens.
+To export the records in the basket, select *Basket Actions* -> *Export Records*. The _MARC Batch Import/Export_ page opens.
 
 The _Record Type_ may not be changed.
 
