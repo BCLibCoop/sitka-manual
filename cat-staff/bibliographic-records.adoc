@@ -29,7 +29,7 @@ The top panel in a record is the _Record Summary_. This contains the following i
 * *Cover Image*: Image of the cover of the specific version of the item on this record. Note that clicking the cover image will open the image file in your browser.
 * *Title*: The title is a hyperlink. Clicking the title will direct you to the record with no other information in the URL. This is useful for sharing the record.
 * *Author*: The author's name exactly as it appears in the MARC record.
-* *Bib Call #*: Bibliographic call number. This is pulled from the MARC record, so it may be different from any call number used in your library or consortium.
+* *Bib Call #*: Bibliographic call number. This is pulled from the MARC record, so it may be different from any call number used in your library.
 * *Edition*: The edition.
 * *Publication Date*: Publication date.
 * *Record Owner*: The Evergreen account of the record owner, hyperlinked to the account.
