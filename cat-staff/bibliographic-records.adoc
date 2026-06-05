@@ -12,7 +12,7 @@ There may be multiple records for a given title if the title has multiple editio
 
 [TIP]
 ====
-Click _Show Search Form_ in the top-right corner of a bibliographic record page to display the search form. If the search form is displayed, the button will say _Hide Search Form_. Click this button to hide the search form.
+Click *Show Search Form* in the top-right corner of a bibliographic record page to display the search form. If the search form is displayed, the button will say *Hide Search Form*. Click this button to hide the search form.
 
 The search form is filled by information in your URL. This information will still be present in the search form if you accessed the record from a search results page or by clicking a link that contained search information.
 
@@ -42,9 +42,9 @@ The top panel in a record is the _Record Summary_. This contains the following i
 
 image::bibliographic_records/record_summary.png[Screenshot of the Record Summary for Ready Player One containing the information described above.]
 
-Click the caret (^) icon in the top-right corner of the _Record Summary_ to collapse the record summary panel. Only the title, edition, TCN, and Created By user will be shown.
+Click the *caret icon ^* in the top-right corner of the _Record Summary_ to collapse the record summary panel. Only the Title, Edition, TCN, and Created By information will be shown.
 
-Click the icon again to expand the record summary panel.
+With the record summary panel collapsed, the caret icon has inverted. Click the *caret icon ∨* again to expand the record summary panel.
 
 [[results_navigation]]
 Results Navigation
@@ -62,7 +62,7 @@ The following buttons are available:
 * *End*: View the record for the last search result.
 * *Back to Results (# / #)*: Return to the search results page. The first number indicates the position of the current record in the search results. The second number indicates the total number of results.
 
-NOTE: If there was only one search result, or if you access the record through any method besides a catalog search, the _Results Navigation_ buttons may not be available.
+NOTE: If there was only one search result, or if you access the record through any method besides a catalog search, the *Results Navigation* buttons may not be available.
 
 [[record_actions]]
 Record Actions
@@ -95,19 +95,29 @@ You can use the following actions:
 Record Views
 ~~~~~~~~~~~~
 
-The _Record Views_ appear below _Results Navigation_ and _Record Actions_ buttons. The _Item Table_ tab is selected by default.
+The _Record Views_ appear below _Results Navigation_ and _Record Actions_ buttons. The *Item Table* tab is selected by default.
 
 image::bibliographic_records/record_tabs.png[Screenshot of a bibliographic record with the record views list highlighted, as described above. The tabs appear in the order they are listed below.]
 
-To change the tab that is selected by default, navigate to the tab of your choice, then click the _Set Default View_ button located above the tabs to the right of the page.
+To change the tab that is selected by default, navigate to the tab of your choice, then click the *Set Default View* button located above the tabs to the right of the page.
 
 [[staff_view]]
 Staff View
 ^^^^^^^^^^
 
-The _Staff View_ tab contains information from the MARC record in a human-readable format. It includes title, author, edition, publisher, type of resource, physical description, ISBN, hold and copy counts, subjects, and formats and editions information.
+The *Staff View* tab contains information from the MARC record in a human-readable format.
 
-Clicking any of the hyperlinked information will run the appropriate search.
+* *Patron View*:
+* *Author*:
+* *Publisher*:
+* *Type of Resource*:
+* *Physical Description*:
+* *ISBN*:
+* *Hold and Copy Counts*:
+* *Subject*:
+* *Formats and Editions*:
+
+Clicking any hyperlink will run a relevant search. For example, if a record has the Subject _Birds_, the hyperlinked text goes to a subject search for Birds.
 
 [[item_table]]
 Item Table
