@@ -62,7 +62,7 @@ The following buttons are available:
 * *End*: View the record for the last search result.
 * *Back to Results (# / #)*: Return to the search results page. The first number indicates the position of the current record in the search results. The second number indicates the total number of results.
 
-NOTE: If there was only one search result, or if you access the record through any method besides a catalog search, the *Results Navigation* buttons may not be available.
+NOTE: If there was only one search result, or if you access the record through any method besides a catalog search, the _Results Navigation_ buttons may not be available.
 
 [[record_actions]]
 Record Actions
@@ -77,7 +77,7 @@ You can use the following actions:
 * *Patron View*: The record will open in the patron catalog (OPAC) in a new tab. You will not be logged in to Evergreen in this new tab. You must return to your staff tab to continue using staff features.
 * *Place Hold*: The _Place Hold_ screen will appear in the current tab. You may place a title hold. Click *Return* to return to the record.
 * *Add Holdings*: The _Holdings Editor_ for the current record will open in a new tab. Users with the appropriate permissions can begin the process of adding a new holding (item). 
-* *Serials*: A dropdown menu opens with the options *Quick Receive*, *Manage Subscriptions*, and *Manage MFHDs*. The latter two options take you to the _Serials_ page for the current record with the selected pane open.
+* *Serials*: A dropdown menu opens with the options _Quick Receive_, _Manage Subscriptions_, and _Manage MFHDs_. The latter two options take you to the _Serials_ page for the current record with the selected pane open.
 * *Mark For...*: Cataloguing primarily uses these to complete a variety of cataloguing tasks. Circulation staff may use the _Title Hold Transfer_ option to transfer a hold to a different hold request while preserving the other hold details. _Reset Record Marks_ removes all marks. The dropdown menu options are:
 ** *Conjoined Items*
 ** *Overlay Target*
@@ -95,7 +95,7 @@ You can use the following actions:
 Record Views
 ~~~~~~~~~~~~
 
-The _Record Views_ appear below _Results Navigation_ and _Record Actions_ buttons. The *Item Table* tab is selected by default.
+The _Record Views_ appear below _Results Navigation_ and _Record Actions_ buttons. The _Item Table_ tab is selected by default.
 
 image::bibliographic_records/record_tabs.png[Screenshot of a bibliographic record with the record views list highlighted, as described above. The tabs appear in the order they are listed below.]
 
