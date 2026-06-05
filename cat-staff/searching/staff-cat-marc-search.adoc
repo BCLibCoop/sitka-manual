@@ -21,16 +21,16 @@ image::images/staffcat/staff-cat-library-selector.png[Library selector in the st
 .. (MPL is the Maple Library on Sitka's training server.)
 +
 . Enter the tag, subfield, and value and click *Search*.
-.. You can only search one tag or subfield per row. To add additional rows, click the *plus sign* (+) to the right of the search row. To remove rows, click the *minus sign* (-) to the right of the search row.
 +
 image::images/staffcat/staff-cat-marc-search-2.png[]
+.. You can only search one tag or subfield per row. To add additional rows, click the *plus sign* (+) to the right of the search row. To remove rows, click the *minus sign* (-) to the right of the search row.
 +
 [TIP]
 =====
 Remove any apostrophes from your search value. No results will be returned when apostrophes are included.
 =====
 +
-. Your results are displayed.  Refer to xref:_viewing_search_results_for_cataloguing_purposes[] 
-for information on determining which result to add your holding to.
+. Your results are displayed.  Refer to xref:_search_results[]
+for additional information.
 +
 image::images/staffcat/staff-cat-marc-search-3.png[]
