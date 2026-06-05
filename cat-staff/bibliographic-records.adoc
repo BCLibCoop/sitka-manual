@@ -25,20 +25,20 @@ Record Summary
 
 The top panel in a record is the _Record Summary_. This contains the following information:
 
-* _Format_: The type of item, such as book, DVD, or large print book. This appears above the cover image.
-* _Cover Image_: Image of the cover of the specific version of the item on this record. Note that clicking the cover image will open the image file in your browser.
-* _Title_: The title is a hyperlink. Clicking the title will direct you to the record with no other information in the URL. This is useful for sharing the record.
-* _Author_: The author's name exactly as it appears in the MARC record.
-* _Bib Call #_: Bibliographic call number. This is pulled from the MARC record, so it may be different from any call number used in your library or consortium.
-* _Edition_: The edition.
-* _Publication Date_: Publication date.
-* _Record Owner_: The Evergreen account of the record owner, hyperlinked to the account.
-* _TCN_: The record's Title Control Number.
-* _Database ID_: The record's database ID.
-* _Created On_: Date created.
-* _Created By_: The Evergreen account of the record creator, hyperlinked to the account.
-* _Last Edited By_: The Evergreen account of user who most recently edited the record, hyperlinked to the account.
-* _Last Edited On_: Date last edited.
+* *Format*: The type of item, such as book, DVD, or large print book. This appears above the cover image.
+* *Cover Image*: Image of the cover of the specific version of the item on this record. Note that clicking the cover image will open the image file in your browser.
+* *Title*: The title is a hyperlink. Clicking the title will direct you to the record with no other information in the URL. This is useful for sharing the record.
+* *Author*: The author's name exactly as it appears in the MARC record.
+* *Bib Call #*: Bibliographic call number. This is pulled from the MARC record, so it may be different from any call number used in your library or consortium.
+* *Edition*: The edition.
+* *Publication Date*: Publication date.
+* *Record Owner*: The Evergreen account of the record owner, hyperlinked to the account.
+* *TCN*: The record's Title Control Number.
+* *Database ID*: The record's database ID.
+* *Created On*: Date created.
+* *Created By*: The Evergreen account of the record creator, hyperlinked to the account.
+* *Last Edited By*: The Evergreen account of user who most recently edited the record, hyperlinked to the account.
+* *Last Edited On*: Date last edited.
 
 image::bibliographic_records/record_summary.png[Screenshot of the Record Summary for Ready Player One containing the information described above.]
 
