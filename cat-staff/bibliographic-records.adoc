@@ -27,17 +27,17 @@ The top panel in a record is the _Record Summary_. This contains the following i
 
 * *Format*: The type of item, such as book, DVD, or large print book. (This appears above the cover image.)
 * *Cover Image*: An image of the specific version of this title or non-bibliographic item. (Clicking the cover image will open the image file in another tab in your browser.)
-* *Title*: The title, which hyperlinks to the record's URL. (Clicking the title link will direct you to the record's location with no other information in the URL, which may be useful to use when sharing the link to a bibliographic record.)
+* *Title*: The item's title, hyperlinked to the record's URL. (Clicking the title link will direct you to the record's location with no other information in the URL, which can be useful when sharing the link to a record.)
 * *Author*: The author's name exactly as it appears in the MARC record.
 * *Bib Call #*: The bibliographic call number. (This is pulled from the MARC record, so it may be different from any call number used in your library.)
 * *Edition*: The item's edition.
 * *Publication Date*: The item's publication date.
-* *Record Owner*: The Evergreen account of the record owner, hyperlinked to the account.
+* *Record Owner*: The Evergreen account which owns the record (hyperlinked to the account).
 * *TCN*: The record's Title Control Number.
 * *Database ID*: The record's database ID.
 * *Created On*: The date the record was created.
-* *Created By*: The Evergreen account of the record creator, hyperlinked to the account.
-* *Last Edited By*: The Evergreen account of user who most recently edited the record, hyperlinked to the account.
+* *Created By*: The Evergreen account used to create the record (hyperlinked to the account).
+* *Last Edited By*: The Evergreen account last used to edit the record (hyperlinked to the account).
 * *Last Edited On*: The date the record was last edited.
 
 image::bibliographic_records/record_summary.png[Screenshot of the Record Summary for Ready Player One containing the information described above.]
