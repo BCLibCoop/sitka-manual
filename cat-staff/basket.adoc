@@ -1,7 +1,7 @@
 Basket
 ------
 
-The basket is used to create a temporary collection of bibliographic records. The basket can be used to place holds on multiple records at once, print or email record details, add records to a record bucket, and export records. 
+The basket is used to create a temporary collection of bibliographic records. The basket can be used to place holds on multiple records at once, print or email record details, add records to a record bucket, and export records to a file. 
 
 The basket in Evergreen is temporary, and you can only have one basket at a time. If you want to save the contents of a basket for later, you will need to add the basket to a Record Bucket.
 
