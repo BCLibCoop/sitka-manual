@@ -12,9 +12,16 @@ image::images/cat/cat-menu.png[Catalogue Menu]
 +
 image::images/staffcat/staff-cat-marc-search-1.png[]
 +
-. When searching it is important to ensure 
-that you search the appropriate consortium, system, 
-branch, or other organization of your choice. 
+. When searching it's important to ensure that your desired search scope is set in the library selector.
++
+[TIP]
+======
+Multi-branch libraries can search their entire system or a specific branch.
+
+Libraries participating in reciprocal borrowing may wish to search their library or their ILC zone.
+
+You can set your default search library for the workstation in xref:_search_preferences[].
+======
 +
 image::images/staffcat/staff-cat-library-selector.png[Library selector in the staff catalogue]
 +
