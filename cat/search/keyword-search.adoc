@@ -9,17 +9,17 @@ identifiers, like ISBN, may need to use the Keyword Search when adding additiona
 +
 image::images/cat/cat-menu.png[Catalogue Menu]
 +
+. Select the *Keyword Search* tab.  It will be open by default if it's set as your Default Search Pane.
+. Use the three dots or the *Show more filters* button to expand the search form for more filtering options.
++
+image::images/cat/keyword-search-1.png[Keyword Search screen]
++
 . When searching for cataloguing purposes it is important to ensure 
 that you search the entire consortium. 
 +
 image::images/cat/cat-search-library.png[Search Library]
 +
 .. (GLCONS is the Green Land Consortium on Sitka's training server.)
-+
-. Select the *Keyword Search* tab.  It will be open by default if it's set as your Default Search Pane.
-. Use the three dots or the *Show more filters* button to expand the search form for more filtering options.
-+
-image::images/cat/keyword-search-1.png[Keyword Search screen]
 +
 [TIP]
 =====
