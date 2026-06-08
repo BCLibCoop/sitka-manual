@@ -3,9 +3,7 @@ Basket
 
 The basket is used to temporarily collect bibliographic records. The basket can be used to place a hold on multiple records at once, print or email record details, add records to a record bucket, and export records. 
 
-You only have one basket in Evergreen. If you need to save a basket for later, or create a new basket, you will need to add the basket to a bucket, then empty the basket.
-
-The basket is temporary.
+The basket in Evergreen is temporary, and you can only have one at a time. If you want to save the contents of a basket for later, you will need to add the basket to a bucket.
 
 Adding Records to the Basket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -18,11 +16,11 @@ Then, check the checkbox that appears between the result number and the cover im
 
 image::basket/add_basket.png[Screenshot of the Staff Catalog page with the box checked as described above. The Basket Actions button is highlighted.]
 
-To add all records on the page, check the checkbox between the search form and the search results. All results on the page are selected.
+To add all records on the page to the basket, check the checkbox between the search form and the search results. This will select all results on the page.
 
-To add records from additional pages, navigate to the desired page and check the checkbox of the desired bibliographic record.
+To add a record from an additional page, navigate to the page where the record appears and check the checkbox of the desired bibliographic record.
 
-To add all search results, click *Basket Actions* in the search form below the _Library Selector_. 
+To add all search results, click the *Basket Actions* button to expand the options, and click *Add All Search Results*. 
 
 CAUTION: If your search returned many results, this action may take a long time.
 
@@ -33,54 +31,52 @@ TIP: To add records directly to a bucket and skip the basket, see the xref:_buck
 Removing Records from the Basket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To remove a record from the basket, uncheck the checkbox next to the record. (You can do this from the search results page or from the basket.) The record is removed from the basket.
+To remove a record from the basket, uncheck the checkbox next to the record. (You can do this from the search results page or from the basket.)
 
-To remove all records from the basket, click the *Basket Actions* button in the search form. Then, click *Clear Basket*. All records are removed from the basket.
+To remove all records from the basket, click the *Basket Actions* button, and then click *Clear Basket*.
 
 Viewing the Basket
 ~~~~~~~~~~~~~~~~~~
 
-To view a basket, click the basket icon in the search form, located to the left of the *Basket Actions* button. The basket opens.
+To view a basket, click the basket icon in the search form, located to the left of the *Basket Actions* button.
 
 You may also click *Basket Actions* -> *View Basket* to open the basket.
 
 image::basket/view_basket.png[Screenshot of the search form with the basket icon and the View Basket menu option highlighted, as described above.]
 
-Records appear in the basket exactly as they appear in the search results. However, _Facets_ are unavailable in the basket.
+Records appear in the basket as they appear in the search results, although _Facets_ are unavailable in the basket.
 
 Place Hold
 ~~~~~~~~~~
 
-To place a hold on every item in the basket, click *Basket Actions* -> *Place Hold*. The _Place Hold_ form appears.
-
-Then, a hold can be placed as it would be otherwise (for a single item). Whether or not an individual hold is successful will be indicated next to it.
+To place a hold on every item in the basket, click *Basket Actions* -> *Place Hold*. The _Place Hold_ form appears, and a hold can be placed as it would be otherwise (for a single item). Whether or not an individual hold is successful will be indicated next to the record title.
 
 Print Title Details
 ~~~~~~~~~~~~~~~~~~~
 
 To print the details of each record in the basket, click *Basket Actions* -> *Print Title Details*. A printer-friendly version of the basket will appear.
 
-Records will appear in the same order they appear in the basket. They will be numbered.
+Records appear in the same order they appear in the basket, and will be numbered.
 
-Each entry on the list will contain the bibliographic ID number, ISBN, title, author, publisher, publication date, and item type.
+Each entry on the list contains the record's bibliographic ID number, ISBN, title, author, publisher, publication date, and item type.
 
 Email Title Details
 ~~~~~~~~~~~~~~~~~~~
 
 To email a summary of the basket contents, click *Basket Actions* -> *Email Title Details*. A plaintext summary of the basket will be emailed to the address associated with your Evergreen account.
 
-The email will contain title, author, publisher, publication date, item type, bibliographic ID number, and ISBN.
+The email will contain information about each record's Bib ID#, ISBN, Title, Author, Publication Info, and Item Type.
 
 Add Basket to Bucket
 ~~~~~~~~~~~~~~~~~~~~
 
 To add the basket to a bucket, click *Basket Actions* -> *Add Basket to Bucket*. The _Add # Items to Bucket_ window appears. 
 
-If you want to add the basket to an existing bucket, select the bucket name from the _Name of existing bucket_ dropdown menu, then click *Add To Selected Bucket*. The window closes and the items are added to the bucket. A confirmation message appears at the bottom of the screen.
+If you want to add the basket to an existing bucket, select the bucket name from the _Name of existing bucket_ dropdown menu, then click *Add To Selected Bucket*. The items are added to the bucket, the _Add # Items to Bucket_ window closes, and confirmation message appears at the bottom of the screen.
 
-If you want to add the basket to a new bucket, click the *New bucket* tab. Enter a name and a description into the appropriate text boxes. Click *Add To New Bucket*. The window closes, the bucket is created, and the items are added to the bucket. A confirmation message appears at the bottom of the screen.
+If you want to add the basket to a new bucket, click the *New bucket* tab. Enter a name and a description into the appropriate text boxes. Click *Add To New Bucket*. The bucket is created, the items are added to the bucket, the _Add # Items to Bucket_ window closes, and a confirmation message appears at the bottom of the screen.
 
-If you want to add the basket to a shared bucket, click the *Shared bucket* tab. Enter the ID of the shared bucket in the text box. Click *Add To Shared Bucket*. The window closes and the items are added to the bucket. A confirmation message appears at the bottom of the screen.
+If you want to add the basket to a shared bucket, click the *Shared bucket* tab. Enter the ID of the shared bucket in the text box. Click *Add To Shared Bucket*. The items are added to the bucket, the _Add # Items to Bucket_ window closes, and confirmation message appears at the bottom of the screen.
 
 Export Records
 ~~~~~~~~~~~~~~
