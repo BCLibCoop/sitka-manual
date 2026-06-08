@@ -105,7 +105,7 @@ To change the tab that is selected by default, navigate to the tab of your choic
 Staff View
 ^^^^^^^^^^
 
-The *Staff View* tab contains information from the MARC record presented in a human-readable format. Hyperlinks are to a relevant search. For example, if a record has an ISBN, the ISBN hyperlink is to a numeric search for this ISBN.
+The *Staff View* tab contains information from the MARC record presented in a human-readable format. Hyperlinks are to a relevant search. For example, if a record has an ISBN, the ISBN is hyperlinked to a numeric search for this ISBN.
 
 * *Patron View*:
 * *Author*:
