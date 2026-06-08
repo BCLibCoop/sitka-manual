@@ -446,7 +446,7 @@ In the example below a Circ + Full Cat account is granted permission to process 
 function which otherwise requires an LSA login.
 
 . Log in to Evergreen with a local system administrator account.
-. Find the staff acount on *User Permission Editor*. You may search for the patron account, then go to 
+. Find the staff account on *User Permission Editor*. You may search for the patron account, then go to 
 *Others -> User Permission Editor*, or go to *Administration -> User Permission Editor* to search for 
 the account by barcode.
 . When User Permission Editor is loaded, scroll down the permission list to find *OFFLINE_EXECUTE*. 
