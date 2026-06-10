@@ -4,11 +4,45 @@ Browse
 
 The _Browse_ pane allows you to view bibliographic headings that fall around your search term alphabetically. Each result links to catalogue records that contain the indicated bibliographic information. (To browse by call number, see xref:_shelf_browse_staff[Shelf Browse].)
 
+
+. Go to *Cataloguing* -> *Search the Catalogue*.
++
 image::images/cat/cat-menu.png[Catalogue Menu]
-
-image::images/staffcat/staff-cat-library-selector.png[Library selector in the staff catalogue]
-
++
+. Select the *Browse* tab. It will be open by default if it's set as your default search pane. 
++
 image::images/staffcat/staff-cat-browse-1.png[]
++
+. When searching it's important to ensure that your desired search scope is set in the library selector.
++
+[TIP]
+======
+Multi-branch libraries can search their entire system or a specific branch.
+
+Libraries participating in reciprocal borrowing may wish to search their library or their ILC zone.
+
+You can set your default search library for the workstation in xref:_search_preferences[Search Preferences].
+======
++
+image::images/staffcat/staff-cat-library-selector.png[Library selector in the staff catalogue]
++
+.. (MPL is the Maple Library on Sitka's training server.)
++
+. Select a field to browse, enter a keyword, and click *Browse*.
++
+.. The following fields are browsable:
++
+* title
++
+* author
++
+* subject
++
+* series
++
+. Your results are displayed. 
+
+
 
 image::images/staffcat/staff-cat-browse-2.png[]
 
