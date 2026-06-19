@@ -1051,8 +1051,8 @@ Active date instead of the Creation Date.|True/False|TRUE| Sitka |
 |Setting|Description|Data type|Default | Edited by | Notes
 
 |Change reshelving status interval|Amount of time to wait before changing an item from 
-"Reshelving" status to "Available" | Duration| 1 day | LSA | The default is at midnight each night 
-for items with "Reshelving" status for over 24 hours.
+"Reshelving" status to "Available" | Duration| 1 day | LSA | Shortest duration is 59 minutes. Evergreen checks hourly for items that have been 
+in Reshelving longer than the entered value and updates them to Available accordingly.
 
 |Claim never checked out: mark copy as missing|When a circ is marked as 
 claims-never-checked-out, mark the copy as missing|True/False| TRUE | LSA |
