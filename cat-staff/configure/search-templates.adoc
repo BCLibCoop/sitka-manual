@@ -2,8 +2,12 @@ Search Templates
 ~~~~~~~~~~~~~~~~
 
 Search templates allow you to save search options and inputs for future use. You can create search templates 
-using any xref:_search_panes[search pane]. Since the _Keyword Search_ pane contains 
+using any search pane. Since the _Keyword Search_ pane contains 
 the most options, search templates are most useful on this pane. 
+
+////
+Link to be added back in above when new sections ready.  xref:_search_panes[search pane]
+////
 
 The search templates can be accessed by clicking *Search Templates* below the library selector in the top-right corner 
 on the staff catalogue page.
