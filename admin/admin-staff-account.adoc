@@ -446,7 +446,7 @@ In the example below a Circ + Full Cat account is granted permission to process 
 function which otherwise requires an LSA login.
 
 . Log in to Evergreen with a local system administrator account.
-. Find the staff acount on *User Permission Editor*. You may search for the patron account, then go to 
+. Find the staff account on *User Permission Editor*. You may search for the patron account, then go to 
 *Others -> User Permission Editor*, or go to *Administration -> User Permission Editor* to search for 
 the account by barcode.
 . When User Permission Editor is loaded, scroll down the permission list to find *OFFLINE_EXECUTE*. 
@@ -488,16 +488,15 @@ Closing Library Staff Accounts
 
 link:https://youtu.be/d-EbdpforW8[*Sitka Training Video - Closing Library Staff Accounts (1:56)*]
 
-When a staff member leaves the library their staff access should be disabled in a timely manner.
+When a staff member leaves the library, their staff access should be disabled in a timely manner.
 
-A local system administrator at your library needs to do the following:
+.A local system administrator at your library needs to do the following:
+. remove the working location(s) from the account
+. change the main permission group to a patron permission group
+  .. contact Support to have the permission group changed for local system administrator accounts
+. contact Support if the staff member had permission to view report output or access to the reporter
 
-* remove the working location(s) from the account.
-* change the main permission group to a patron permission group.
-** contact Support to have the permission group changed for local system administrator accounts.
-* contact Support if the staff member had access to view report output or use the reporter.
-
-If the former staff member will not be using the account as a personal borrowing account a local system
+If the former staff member will not be using the account as a personal borrowing account, a local system
 administrator can use the http://docs.libraries.coop/sitka/_deleting_patron_accounts.html[patron deletion tool] to delete the account.
 
 Additionally, if the staff member had access to any other library accounts, such as generic accounts,

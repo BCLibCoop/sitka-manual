@@ -15,12 +15,19 @@ image::images/intro/colour-mode-1.png[]
 
 image::images/intro/colour-mode-2.png[]
 
+Grids
+~~~~~
+(((Grids, Configuration)))
+
+Throughout Evergreen tables, also called grids, are used to display information. All grids can be navigated 
+and modified using the same buttons, even if the available buttons or options might change between grids.
+Some grids allow you to perform actions on items selected in the grid.
 
 Function Bar
-~~~~~~~~~~~~
+^^^^^^^^^^^^
 (((Function Bar, Configuration)))
 
-The function bar can be found throughout Evergreen and enables you to page through pages,
+The function bar can be found throughout Evergreen and enables you to work with the grids to page through pages,
 adjust the number of rows displaying, access the Actions menu, and manage your columns and Actions menus.
 
 The function bar currently comes in two styles with similar functionality.  Eventually all
@@ -37,8 +44,25 @@ image::images/intro/function-bar-2.png[]
 . Show Grid Options menu
 . Text wrap
 
+Actions
+^^^^^^^
+
+To perform actions, you must first select items in the grid. Select items by checking the checkbox on the 
+left side of the item's row. You may select all items on the current page of a grid by checking the checkbox 
+at the top of the grid. 
+
+Then select the _Actions_ button and choose an action. The available actions will depend on which interface
+you are currently using.
+
+[CAUTION]
+=========
+Selecting the checkbox at the top of the grid will only select items on the current page. To 
+select more items, you may navigate to other pages and make additional selections, or change the number 
+of rows that appear on each page.
+=========
+
 Grid Options
-~~~~~~~~~~~~
+^^^^^^^^^^^^
 (((Grid Options, Configuration)))
 
 The *Grid Options* menu can be accessed from the xref:_function_bar[Function Bar] by clicking 
@@ -49,21 +73,22 @@ image::images/intro/grid-options-1.png[]
 Some options in the menu and the resulting screens will differ depending on the 
 version of the xref:_function_bar[function bar].
 
-[TIP]
-=====
-When saved, grid options are saved for the particular workstation. If you need
-to xref:_registering_a_staff_workstation[re-register your workstation] you should use 
-the original workstation's name or you will need to re-set all your grid settings across
- the staff client.
-=====
-
-
-Columns
-^^^^^^^
-(((Columns, Configuration)))
+* xref:_display_columns[Display Columns]
+* xref:_column_width[Column Width]
+* xref:_reset_columns[Reset Columns]
+* xref:_column_selections[Column Selections]
+* xref:_manage_actions_menu[Manage Actions Menu]
+* xref:_save_grid_settings[Save Grid Settings]
+* xref:_grid_options_print_full_grid[Print Full Grid]
+* xref:_grid_options_print_selected_rows[Print Selected Rows]
+* xref:_grid_options_download_full_csv[Download Full CSV]
+* xref:_sorting[Sorting]
+* xref:_filters[Filters]
 
 Display Columns
 +++++++++++++++
+(((Columns, Configuration)))
+
 
 Library staff can customize what columns display, and how they display, in the grid 
 for interfaces in the staff client using the *Manage Columns* option in the _Grid Options_. 
@@ -79,7 +104,6 @@ aligns left and numbers align right.
  when viewing the grid.
 
 image::images/intro/grid-display-columns-1.png[]
-
 
 Column Width
 ++++++++++++
@@ -99,9 +123,30 @@ then click *Expand* or *Shrink* to adjust the column sizes.
 
 image::images/intro/grid-column-width-2.png[]
 
+Reset Columns
++++++++++++++
+
+The column display can be reset to its defaults using the *Reset Columns* option in the _Grid Options_. 
+This does not affect your saved settings.
+
+Column Selections
++++++++++++++++++
+
+All available columns for the interface are listed at the bottom of the *Grid Options* menu. 
+
+In newer interfaces, visible columns have a blue box next to them. Hidden columns have a white box next to them. 
+To toggle the visibility of a column, select the column name in the menu. The change is applied to the grid
+and the menu remains open.
+
+In older interfaces, visible columns have a green check next to them. Hidden columns have a yellow x next to them. 
+To toggle the visibility of a column, select the column name in the menu. The menu closes and 
+the change is applied.
+
+image::images/intro/grid-column-selection-1.png[]
+
 
 Manage Actions Menu
-^^^^^^^^^^^^^^^^^^^
++++++++++++++++++++
 (((Manage Actions Menu)))
 (((Actions Menu, Configuration)))
 
@@ -123,7 +168,7 @@ image:images/intro/grid-manage-action-menu-2.png[scaledwidth="75%"]
 image::images/intro/grid-manage-action-menu-3.png[]
 
 Save Grid Settings
-^^^^^^^^^^^^^^^^^^
+++++++++++++++++++
 
 Changes made to a grid through the grid options are temporary and the display of the 
 grid will revert to its previous settings the next time it's viewed unless the grid 
@@ -134,25 +179,33 @@ settings are saved.
 +
 image::images/intro/grid-manage-action-menu-3.png[]
 
+[TIP]
+=====
+When saved, grid options are saved for the particular workstation. If you need
+to xref:_registering_a_staff_workstation[re-register your workstation] you should use 
+the original workstation's name or you will need to re-set all your grid settings across
+ the staff client.
+=====
 
-Downloading and Printing
-^^^^^^^^^^^^^^^^^^^^^^^^
-(((Downloading)))
-(((Printing)))
-
-There are two ways to print the information in the grid and one way to download it.  In all
-cases, the list will only include the items currently displaying on the screen.
-
+[[_grid_options_print_full_grid]]
 Print Full Grid
 +++++++++++++++
+(((Printing)))
 
 The *Print Full Grid* option available on the *Grid Options* menu (Gear Icon) will open a print dialogue and 
 allow you to print the list which will include all the columns currently visible on the screen. 
 
 image:images/circ/print-hold-pull-list-2.png[scaledwidth="75%"]
 
+[NOTE]
+======
+The printed list will only include the items currently displaying on the screen.
+======
+
+[[_grid_options_print_selected_rows]]
 Print Selected Rows
 +++++++++++++++++++
+(((Printing)))
 
 The *Print Selected Rows* option available on the *Grid Options* menu (Gear Icon) will open a print dialogue and 
 allow you to print the selected rows as a list which will include all the columns currently visible 
@@ -160,42 +213,48 @@ on the screen.
 
 image:images/circ/print-hold-pull-list-3.png[scaledwidth="75%"]
 
+[NOTE]
+======
+The printed list will only include the items currently displaying on the screen.
+======
+
+[[_grid_options_download_full_csv]]
 Download Full CSV
 +++++++++++++++++
+(((Downloading)))
 
 The *Download Full CSV* option available on the *Grid Options* menu (Gear Icon) will download a CSV file 
 which will include all the columns currently visible on the screen. 
 
 image:images/circ/download-hold-pull-list-1.png[scaledwidth="75%"]
 
+[NOTE]
+======
+The downloaded list will only include the items currently displaying on the screen.
+======
 
-Library Selector
-~~~~~~~~~~~~~~~~
-(((Library Selector, Configuration)))
 
-Some interfaces include a library selector that enables staff to set the scope for the interface.
+Sorting
++++++++
+(((Sorting, Configuration)))
 
-There are currently several styles of the library selector.  
+Some grids allow you to sort the grid by column. If this is possible, the column headings will be blue and 
+underlined.
 
-The library selector in newer interfaces shows the full names of the library if 
-xref:_include_full_library_names_in_library_selector[full names are enabled].
+To sort the grid by a given column in ascending order (0-9, a-z), select the column heading. An up 
+arrow will appear in the selected column heading. The grid will be sorted automatically.
 
-Where applicable, *Ancestor* and *Descendants* checkboxes are included.  Multi-branch libraries can set
-the library to their system and then check the *Descendants* checkbox to include all of their branches.
+To sort the grid by a given column in descending order (z-a, 0-9), select the same column heading twice. 
+A down arrow will appear in the selected column heading. The grid will be sorted automatically.
 
-image::images/intro/library-selector-1.png[]
-
-The library selector in older interfaces only shows the library shortcode.  This older style
-of library selector will be phased out as future updates to Evergreen replace the older interfaces.
-
-image::images/intro/library-selector-2.png[]
+To remove your sorting selections, refresh the page. This may erase your other grid selections.
 
 
 Filters
-~~~~~~~
++++++++
 (((Filters, Configuration)))
 
-Some interfaces include filters that enable staff to filter the available rows in the grid.
+Some interfaces include filters in the grid that enable staff to filter the available rows in the grid.
 
 image::images/intro/filters-1.png[]
 
@@ -224,6 +283,29 @@ _Is Deleted_ set to _No_ so that deleted shelving locations do not display by de
 image::images/intro/filters-5.png[]
 
 ======
+
+
+Library Selector
+~~~~~~~~~~~~~~~~
+(((Library Selector, Configuration)))
+
+Some interfaces include a library selector that enables staff to set the scope for the interface.
+
+There are currently several styles of the library selector.  
+
+The library selector in newer interfaces shows the full names of the library if 
+xref:_include_full_library_names_in_library_selector[full names are enabled].
+
+Where applicable, *Ancestor* and *Descendants* checkboxes are included.  Multi-branch libraries can set
+the library to their system and then check the *Descendants* checkbox to include all of their branches.
+
+image::images/intro/library-selector-1.png[]
+
+The library selector in older interfaces only shows the library shortcode.  This older style
+of library selector will be phased out as future updates to Evergreen replace the older interfaces.
+
+image::images/intro/library-selector-2.png[]
+
 
 [[_configuring_workstation_administration]]
 Workstation Administration

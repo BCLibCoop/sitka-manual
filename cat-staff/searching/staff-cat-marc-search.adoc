@@ -1,0 +1,43 @@
+[[_marc_search_staff]]
+MARC Search
+~~~~~~~~~~~
+
+The _MARC Search_ pane allows you to search fields and subfields in MARC records.
+
+. Go to *Cataloguing* -> *Search the Catalogue*.
++
+image::images/cat/cat-menu.png[Catalogue Menu]
++
+. Select the *MARC Search* tab. It will be open by default if it's set as your default search pane. 
++
+image::images/staffcat/staff-cat-marc-search-1.png[]
++
+. When searching it's important to ensure that your desired search scope is set in the library selector.
++
+image::images/staffcat/staff-cat-library-selector.png[Library selector in the staff catalogue]
++
+.. (MPL is the Maple Library on Sitka's training server.)
++
+[TIP]
+======
+Multi-branch libraries can search their entire system or a specific branch.
+
+Libraries participating in reciprocal borrowing may wish to search their library or their ILC zone.
+
+You can set your default search library for the workstation in xref:_search_preferences[Search Preferences].
+======
++
+. Enter the tag, subfield, and value and click *Search*.
++
+image::images/staffcat/staff-cat-marc-search-2.png[]
+.. You can only search one tag or subfield per row. To add additional rows, click the *plus sign* (+) to the right of the search row. To remove rows, click the *minus sign* (-) to the right of the search row.
++
+[TIP]
+=====
+Remove any apostrophes from your search value. No results will be returned when apostrophes are included.
+=====
++
+. Your results are displayed.  Refer to xref:_search_results[]
+for additional information.
++
+image::images/staffcat/staff-cat-marc-search-3.png[]

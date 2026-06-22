@@ -1,12 +1,12 @@
-Configuring the Staff Catalogue
--------------------------------
+Accessing and Configuring the Staff Catalogue
+---------------------------------------------
+
+include::configure/cat-staff-access.adoc[Accessing the Staff Catalogue]
 
 include::configure/catalogue-preferences.adoc[Catalogue Preferences]
 
-////
-
 include::configure/search-templates.adoc[Search Templates]
 
-////
+
 
 

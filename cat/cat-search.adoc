@@ -9,8 +9,6 @@ doing so, you will discover whether you need to add your item to an existing tit
 to import or create a new title record. It is very important that you scope your cataloguing searches to the 
 entire Sitka database.  In the Search Preferences you set Sitka as your Default Search Library.
 
-include::search/catalogue-preferences.adoc[Catalogue Preferences]
-
 include::search/numeric-search.adoc[Numeric Search]
 
 include::search/keyword-search.adoc[Keyword Search]

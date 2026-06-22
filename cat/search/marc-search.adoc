@@ -1,9 +1,13 @@
 MARC Search
 ~~~~~~~~~~~
 
-. To search the catalogue for holdings select *Cataloguing* -> *Search the Catalogue*.
+. To search the catalogue for holdings, go to *Cataloguing* -> *Search the Catalogue*.
 +
 image::images/cat/cat-menu.png[Catalogue Menu]
++
+. Select the *MARC Search* tab. It will be open by default if it's set as your default search pane. 
++
+image::images/cat/marc-search-1.png[MARC Search screen]
 +
 . When searching for cataloguing purposes it is important to ensure 
 that you search the entire consortium. 
@@ -12,20 +16,16 @@ image::images/cat/cat-search-library.png[Search Library]
 +
 .. (GLCONS is the Green Land Consortium on Sitka's training server.)
 +
-. Select the *MARC Search* tab. It will be open by default if it's set as your Default Search Pane. 
-+
-image::images/cat/marc-search-1.png[MARC Search screen]
-+
 . Enter the tag, subfield, and value and click *Search*.
 +
 image::images/cat/marc-search-2.png[MARC Search screen]
 +
 [TIP]
 =====
-Remove any apostrophes from your search valyue. No results will be returned when apostrophes are included.
+Remove any apostrophes from your search value. No results will be returned when apostrophes are included.
 =====
 +
 . Your results are displayed.  Refer to xref:_viewing_search_results_for_cataloguing_purposes[] 
 for information on determining which result to add your holding to.
 +
-image::images/cat/marc-search-3.png[two search results]
+image::images/cat/marc-search-3.png[Search results]
