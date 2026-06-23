@@ -1,6 +1,5 @@
-Bibliographic Records (Record Details)
---------------------------------------
-
+Viewing Bibliographic Records
+-----------------------------
 
 Each item in the catalogue is linked to a bibliographic record. This record contains detailed information about the item. You can also perform a number of actions from a bibliographic record.
 
@@ -19,9 +18,15 @@ The search form is filled by information in your URL. This information will stil
 image::bibliographic_records/show_search_form.png[Screenshot of the Show Search Form button, as described above.]
 ====
 
+
+Bibliographic Record Display
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+image::images/staffcat/staff-cat-bibliographic-record-display-1.png[]
+
 [[_record_summary]]
 Record Summary
-~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^
 
 The top panel in a record is the _Record Summary_. This contains the following information:
 
@@ -47,8 +52,8 @@ Click the *∧ caret icon* in the top-right corner of the _Record Summary_ to co
 With the record summary panel collapsed, the caret icon has inverted (it is now pointing downwards). Click the *∨ caret icon* to expand the record summary panel.
 
 [[_results_navigation]]
-Results Navigation
-~~~~~~~~~~~~~~~~~~
+Navigation
+^^^^^^^^^^
 
 If you accessed the bibliographic record through a search, you can navigate to the records for other results from your search directly from this record. Use the buttons below the _Record Summary_ to the left to navigate your search results.
 
@@ -65,8 +70,8 @@ The following buttons are available:
 NOTE: If there was only one search result, or if you access the record through any method besides a catalog search, the _Results Navigation_ buttons may not be available.
 
 [[_record_actions]]
-Record Actions
-~~~~~~~~~~~~~~
+Actions
+^^^^^^^
 
 Action buttons are located below the _Record Summary_ to the right.
 
@@ -93,7 +98,22 @@ You can use the following actions:
 
 [[_record_views]]
 Record Views
-~~~~~~~~~~~~
+^^^^^^^^^^^^
+
+* xref:_record view_staff[Staff View]
+* xref:_record_view_added_content[Added Content]
+* xref:_record_view_item_table[Item Table]
+* xref:_record_view_marc_edit[MARC Edit]
+* xref:_record_view_marc_view[MARC View]
+* xref:_record_view_record_notes[Record Notes]
+* xref:_record_view_view_holds[View Holds]
+* xref:_record_view_monograph_parts[Monograph Parts]
+* xref:_record_view_holdings_view[Holdings View]
+* xref:_record_view_conjoined_items[Conjoined Items]
+* xref:_record_view_shelf_browse[Shelf Browse]
+
+
+
 
 The _Record Views_ appear below _Results Navigation_ and _Record Actions_ buttons. The _Item Table_ tab is selected by default.
 
@@ -101,11 +121,11 @@ image::bibliographic_records/record_tabs.png[Screenshot of a bibliographic recor
 
 To change the tab that is selected by default, navigate to the tab of your choice, then click the *Set Default View* button located above the tabs to the right of the page.
 
-[[_staff_view]]
+[[_record view_staff]]
 Staff View
-^^^^^^^^^^
+++++++++++
 
-The *Staff View* tab contains information from the MARC record presented in a human-readable format. Hyperlinks are to a relevant search. For example, if a record has an ISBN, the ISBN is hyperlinked to a numeric search for this ISBN.
+The _Staff View_ tab contains information from the MARC record presented in a human-readable format. Hyperlinks are to a relevant search. For example, if a record has an ISBN, the ISBN is hyperlinked to a numeric search for this ISBN.
 
 * *Patron View*:
 * *Author*:
@@ -119,11 +139,17 @@ The *Staff View* tab contains information from the MARC record presented in a hu
 
 Depending on what information is available in the record, different information will show in this tab.
 
-[[_item_table]]
-Item Table
-^^^^^^^^^^
+[[_record_view_added_content]]
+Added Content
++++++++++++++
 
-The *Item Table* tab displays a table of all holdings related to the record. The table is organized alphabetically by library.
+The _Added Content_ tab appears when a library subscribes to a service that provides added content and has it set up in Evergreen.
+
+[[_record_view_item_table]]
+Item Table
+++++++++++
+
+The _Item Table_ tab displays a table of all holdings related to the record. The table is organized alphabetically by library.
 
 If a preferred library is not set for the workstation, only items in the library chosen in the _Library Selector_ will be shown. 
 
@@ -135,31 +161,31 @@ To change what information is displayed in the table, see more results, and sele
 
 TIP: For a more detailed view of holdings with the ability to use actions, see xref:_holdings_view[Holdings View].
 
-[[_marc_edit]]
+[[_record_view_marc_edit]]
 MARC Edit
-^^^^^^^^^
++++++++++
 
-The *MARC Edit* tab allows users with appropriate permissions to modify fixed fields and tags in the MARC record. 
+The _MARC Edit_ tab allows users with appropriate permissions to modify fixed fields and tags in the MARC record. 
 
 This tab allows users to pick between the *Enhanced MARC Editor* and the *Flat Text Editor*. 
 
 Use the xref:_marc_view[MARC View] tab for a printer-friendly version of the MARC record.
 
-[[_marc_view]]
+[[_record_view_marc_view]]
 MARC View
-^^^^^^^^^
++++++++++
 
-The *MARC View* tab shows a non-editable version of the MARC record.
+The _MARC View_ tab shows a non-editable version of the MARC record.
 
 You may print the MARC record from this tab by clicking the *Print Page* button located to the left of the page below the record views list.
 
 This tab can give users quick access to basic information about a title, but the xref:_staff_view[Staff View] tab may be more useful.
 
-[[_record_notes]]
+[[_record_view_record_notes]]
 Record Notes
-^^^^^^^^^^^^
+++++++++++++
 
-The *Record Notes* tab allows users with appropriate permissions to keep notes on a record. This may be useful when a record is under review.
+The _Record Notes_ tab allows users with appropriate permissions to keep notes on a record. This may be useful when a record is under review.
 
 Create a new note by clicking *New Record Note* below the record views list. The _Record Editor: Bib Record Note_ window opens. Enter your note in the _Note_ text box and select *Save*. All other information is generated automatically. Your note is added to the table.
 
@@ -179,11 +205,11 @@ image::bibliographic_records/delete_note.png[Screenshot showing the Delete Selec
 
 To change what information is displayed in the table, see more results, and select other options, see xref:_grid_options[Grid Options].
 
-[[_view_holds]]
+[[_record_view_view_holds]]
 View Holds
-^^^^^^^^^^
+++++++++++
 
-The *View Holds* tab lists all holds on the record. The total number of holds on a record is displayed below the record views list to the left of the page.
+The _View Holds_ tab lists all holds on the record. The total number of holds on a record is displayed below the record views list to the left of the page.
 
 Select a library from the _Pickup Library_ menu to filter the holds by pickup library. By default, this is the library selected in the _Library Selector_. 
 
@@ -199,11 +225,11 @@ Sort holds by any column heading in ascending order by clicking the column headi
 
 To change what information is displayed in the table, see more results, and select other options, see xref:_grid_options[Grid Options].
 
-[[_monograph_parts]]
+[[_record_view_monograph_parts]]
 Monograph Parts
-^^^^^^^^^^^^^^^
++++++++++++++++
 
-The *Monograph Parts* tab allows users with the appropriate permissions manage parts associated with a record. 
+The _Monograph Parts_ tab allows users with the appropriate permissions manage parts associated with a record. 
 
 To add a new part:
 
@@ -225,11 +251,11 @@ Sort parts by any column heading in ascending order by clicking the column headi
 
 To change what information is displayed in the table, see more results, and select other options, see xref:_grid_options[Grid Options].
 
-[[_holdings_view]]
+[[_record_view_holdings_view]]
 Holdings View
-^^^^^^^^^^^^^
++++++++++++++
 
-The *Holdings View* tab displays detailed item and call number information. It also allows users with appropriate permissions to perform actions on holdings.
+The _Holdings View_ tab displays detailed item and call number information. It also allows users with appropriate permissions to perform actions on holdings.
 
 To perform actions from the _Holdings View_:
 
@@ -247,11 +273,11 @@ image::bibliographic_records/holdings_actions.png[Screenshot of the Holdings Vie
 
 To change what information is displayed in the table, see more results, and select other options, see xref:_grid_options[Grid Options].
 
-[[_conjoined_items]]
+[[_record_view_conjoined_items]]
 Conjoined Items
-^^^^^^^^^^^^^^^
++++++++++++++++
 
-The *Conjoined Items* tab allows users with appropriate permissions to manage conjoined items from the bibliographic record. 
+The _Conjoined Items_ tab allows users with appropriate permissions to manage conjoined items from the bibliographic record. 
 
 To perform any actions, first select conjoined items from the table by checking the checkbox located on the left side of the row.
 
@@ -270,10 +296,11 @@ Sort items by any column heading in ascending order by clicking the column headi
 
 To change what information is displayed in the table, see more results, and select other options, see xref:_grid_options[Grid Options].
 
-[[_shelf_browse]]
+[[_record_view_shelf_browse]]
 Shelf Browse
-^^^^^^^^^^^^
+++++++++++++
 
-The *Shelf Browse* tab displays tiles containing records for other items appearing before and after the selected record by call number.
+The _Shelf Browse_ tab displays tiles containing records for other items appearing before and after the selected record by call number.
 
 Click *Back* or *Next*, located above and below the results to the left of the page, to view more results.
+
