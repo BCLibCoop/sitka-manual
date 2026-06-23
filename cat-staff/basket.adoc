@@ -13,7 +13,7 @@ include::basket/basket-add-records.adoc[Adding Records to the Basket]
 
 include::basket/basket-remove-records.adoc[Removing Records from the Basket]
 
-include::basket/basket-batch actions.adoc[Batch Actions Through the Basket]
+include::basket/basket-batch-actions.adoc[Batch Actions Through the Basket]
 
 ////
 
