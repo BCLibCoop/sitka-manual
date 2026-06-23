@@ -17,7 +17,8 @@ Added Content
 ^^^^^^^^^^^^^
 
 The _Added Content_ tab displays for libraries that subscribes to a service that provides added content compatible with
-Evergreen. 
+Evergreen.
+
 image::images/staffcat/bib/record-views-added-content-1.png[]
 
 When no added content is available for a title the tab name will display as _No Added Content_.
