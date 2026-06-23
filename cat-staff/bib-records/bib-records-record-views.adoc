@@ -43,21 +43,22 @@ so Co-op staff can determine if it's a compatible product.
 Item Table
 ^^^^^^^^^^
 
-The _Item Table_ tab displays a table of holdings related to the record. The table is organized alphabetically 
-by library.
+The _Item Table_ tab displays a table of holdings attached to the record based on your search scope. If a  
+preferred library is set for the workstation, applicable items for that library will appear in the list. The table is 
+organized alphabetically by library.
+
+Within the table staff with appropriate permissions can click on the applicable link to:
+
+* edit the call number in the xref:_the_holdings_editor[_Holdings Editor_].
+* edit the item in the xref:_the_holdings_editor[_Holdings Editor_].
+* view the item in xref:_item_status[_Item Status_].
+* place an item level or call number level hold. These hold options should only be used in very specific 
+circumstances. See xref:_placing_call_number_and_item_level_holds[] for more information.
 
 image::images/staffcat/bib/record-views-item-table-1.png[]
 
-
-If a preferred library is not set for the workstation, only items in the 
-library chosen in the _Library Selector_ will be shown. 
-
-If a preferred library is set for the workstation, items in that library will 
-appear in the list when available, but may not be at the top.
-
-Some columns in this table contain links that will let you complete the indicated actions.
-
-To change what information is displayed in the table, see more results, and select other options, see xref:_grid_options[Grid Options].
+Information on customizing the grid display, including adding/removing columns and changing column widths, can
+be found in xref:_grid_options[].
 
 [TIP]
 =====
@@ -69,13 +70,15 @@ see xref:_record_view_holdings_view[].
 MARC Edit
 ^^^^^^^^^
 
+The _MARC Edit_ tab allows users with appropriate permissions to modify fixed fields and tags in the MARC record. 
+
 image::images/staffcat/bib/record-views-marc-edit-1.png[]
 
-The _MARC Edit_ tab allows users with appropriate permissions to modify fixed fields and tags in the MARC record. 
+
 
 This tab allows users to pick between the *Enhanced MARC Editor* and the *Flat Text Editor*. 
 
-Use the xref:_marc_view[MARC View] tab for a printer-friendly version of the MARC record.
+Use the xref:_record_view_marc_view[MARC View] tab for a printer-friendly version of the MARC record.
 
 [[_record_view_marc_view]]
 MARC View
