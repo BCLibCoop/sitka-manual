@@ -55,16 +55,15 @@ Within the table staff with appropriate permissions can click on the applicable 
 * place an item level or call number level hold. These hold options should only be used in very specific 
 circumstances. See xref:_placing_call_number_and_item_level_holds[] for more information.
 
+If additional functions are needed to work with an item staff should use the 
+xref:_record_view_holdings_view[Holdings View] tab instead.
+=====
+
 image::images/staffcat/bib/record-views-item-table-1.png[]
 
 Information on customizing the grid display, including adding/removing columns and changing column widths, can
 be found in xref:_grid_options[].
 
-[TIP]
-=====
-For a more detailed view of holdings with the ability to use actions, 
-see xref:_record_view_holdings_view[].
-=====
 
 [[_record_view_marc_edit]]
 MARC Edit
