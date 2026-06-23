@@ -7,6 +7,16 @@ The basket in Evergreen is temporary, and you can only have one basket at a time
 
 The basket works with bibliographic records (as opposed to item records).
 
+include::basket/basket-view.adoc[Viewing the Basket]
+
+include::basket/basket-add-records.adoc[Adding Records to the Basket]
+
+include::basket/basket-remove-records.adoc[Removing Records from the Basket]
+
+include::basket/basket-batch actions.adoc[Batch Actions Through the Basket]
+
+////
+
 Adding Records to the Basket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -97,3 +107,5 @@ Select the desired _Record Encoding_ from the dropdown menu. You may choose UTF-
 If you wish to include holdings in the records export, check the checkbox. 
 
 Click *Export* to download the file.
+
+////
