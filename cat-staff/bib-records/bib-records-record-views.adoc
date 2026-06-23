@@ -61,10 +61,6 @@ xref:_record_view_holdings_view[Holdings View] tab instead.
 
 image::images/staffcat/bib/record-views-item-table-1.png[]
 
-Information on customizing the grid display, including adding/removing columns and changing column widths, can
-be found in xref:_grid_options[].
-
-
 [[_record_view_marc_edit]]
 MARC Edit
 ^^^^^^^^^
@@ -123,21 +119,18 @@ View Holds
 ^^^^^^^^^^
 
 The _View Holds_ tab lists all holds on the record in the scope specified in the _Pickup Library_ selector. The
-_Holds Count_ also counts holds within the pickup library scope.
+_Holds Count_ displays the number of holds within the pickup library scope.
 
 For more information on viewing holds see xref:_via_the_staff_catalogue[].
 
-image::images/staffcat/bib/record-views-view-holds-1.png[]
-
-Information on customizing the grid display, including adding/removing columns and changing column widths, can
-be found in xref:_grid_options[].
+image::images/staffcat/bib/record-views-view-holds-1.png[the section called "Viewing Holds Via the Staff Catalogue"].
 
 [[_record_view_monograph_parts]]
 Monograph Parts
 ^^^^^^^^^^^^^^^
 
-The _Monograph Parts_ tab allows users to manage parts associated with a record. Parts are not used by
-Sitka.
+The _Monograph Parts_ tab allows users to manage parts associated with a record. The parts functionality 
+is not used by Sitka.
 
 image::images/staffcat/bib/record-views-monograph-parts-1.png[]
 
@@ -170,12 +163,10 @@ Holdings View
 The _Holdings View_ tab displays detailed item and call number information. It also allows users 
 with appropriate permissions to perform numerous actions on holdings.
 
-The _Holdings Maintenance_ selector allows you to determine your library scope.
-
-The check boxes for *Show Call Numbers*, *Show Copies*, *Show Empty Call Numbers*, and *Show Empty Libs* enables
+* The _Holdings Maintenance_ selector allows you to determine your library scope.
+* The check boxes for *Show Call Numbers*, *Show Copies*, *Show Empty Call Numbers*, and *Show Empty Libs* enables
 you to show and hide elements as needed.
-
-Rows can be expanded or collapsed as desired using the arrows in the _Location/Barcode_ column.
+* Rows can be expanded or collapsed as desired using the arrows in the _Location/Barcode_ column.
 
 image::images/staffcat/bib/record-views-holdings-view-1.png[]
 
@@ -211,9 +202,6 @@ To unlink items:
 Sort items by any column heading in ascending order by clicking the column heading. Sort the items in descending order by clicking the heading again.
 
 ////
-
-Information on customizing the grid display, including adding/removing columns and changing column widths, can
-be found in xref:_grid_options[].
 
 [[_record_view_shelf_browse]]
 Shelf Browse
