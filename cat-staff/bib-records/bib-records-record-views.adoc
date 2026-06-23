@@ -5,6 +5,9 @@ Record Views
 Staff View
 ^^^^^^^^^^
 
+image::images/staffcat/bib/record-views-staff-view-1.png[]
+
+
 The _Staff View_ tab contains information from the MARC record presented in a human-readable format. Hyperlinks are to a relevant search. For example, if a record has an ISBN, the ISBN is hyperlinked to a numeric search for this ISBN.
 
 * *Patron View*:
@@ -23,11 +26,15 @@ Depending on what information is available in the record, different information 
 Added Content
 ^^^^^^^^^^^^^
 
+image::images/staffcat/bib/record-views-added-content-1.png[]
+
 The _Added Content_ tab appears when a library subscribes to a service that provides added content and has it set up in Evergreen.
 
 [[_record_view_item_table]]
 Item Table
 ^^^^^^^^^^
+
+image::images/staffcat/bib/record-views-item-table-1.png[]
 
 The _Item Table_ tab displays a table of all holdings related to the record. The table is organized alphabetically by library.
 
@@ -45,6 +52,8 @@ TIP: For a more detailed view of holdings with the ability to use actions, see x
 MARC Edit
 ^^^^^^^^^
 
+image::images/staffcat/bib/record-views-marc-edit-1.png[]
+
 The _MARC Edit_ tab allows users with appropriate permissions to modify fixed fields and tags in the MARC record. 
 
 This tab allows users to pick between the *Enhanced MARC Editor* and the *Flat Text Editor*. 
@@ -55,6 +64,8 @@ Use the xref:_marc_view[MARC View] tab for a printer-friendly version of the MAR
 MARC View
 ^^^^^^^^^
 
+image::images/staffcat/bib/record-views-marc-view-1.png[]
+
 The _MARC View_ tab shows a non-editable version of the MARC record.
 
 You may print the MARC record from this tab by clicking the *Print Page* button located to the left of the page below the record views list.
@@ -64,6 +75,8 @@ This tab can give users quick access to basic information about a title, but the
 [[_record_view_record_notes]]
 Record Notes
 ^^^^^^^^^^^^
+
+image::images/staffcat/bib/record-views-record-notes-1.png[]
 
 The _Record Notes_ tab allows users with appropriate permissions to keep notes on a record. This may be useful when a record is under review.
 
@@ -88,6 +101,8 @@ To change what information is displayed in the table, see more results, and sele
 [[_record_view_view_holds]]
 View Holds
 ^^^^^^^^^^
+
+image::images/staffcat/bib/record-views-view-holds-1.png[]
 
 The _View Holds_ tab lists all holds on the record. The total number of holds on a record is displayed below the record views list to the left of the page.
 
