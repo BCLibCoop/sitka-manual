@@ -5,32 +5,37 @@ Record Views
 Staff View
 ^^^^^^^^^^
 
-image::images/staffcat/bib/record-views-staff-view-1.png[]
-
-
-The _Staff View_ tab contains information from the MARC record presented in a human-readable format. Hyperlinks are to a relevant search. For example, if a record has an ISBN, the ISBN is hyperlinked to a numeric search for this ISBN.
-
-* *Patron View*:
-* *Author*:
-* *Publisher*:
-* *Type of Resource*:
-* *Physical Description*:
-* *ISBN*:
-* *Hold and Copy Counts*:
-* *Subject*:
-* *Formats and Editions*:
+The _Staff View_ tab contains information from the MARC record presented in a human-readable format. Hyperlinks are to a 
+relevant search. For example, if a record has an ISBN, the ISBN is hyperlinked to a numeric search for this ISBN.
 
 Depending on what information is available in the record, different information will show in this tab.
+
+image::images/staffcat/bib/record-views-staff-view-1.png[]
 
 [[_record_view_added_content]]
 Added Content
 ^^^^^^^^^^^^^
 
+The _Added Content_ tab displays for libraries that subscribes to a service that provides added content compatible with
+Evergreen. 
 image::images/staffcat/bib/record-views-added-content-1.png[]
 
-The _Added Content_ tab appears when a library subscribes to a service that provides added content and has it set up in Evergreen.
+When no added content is available for a title the tab name will display as _No Added Content_.
 
 image::images/staffcat/bib/record-views-added-content-2.png[]
+
+[NOTE]
+======
+
+Novelist Select can be integrated with Sitka's Evergreen for added content. Please contact Co-op Support
+if you have a Novelist Select subscription you would like integrated.
+
+For any other added content subscription, please review the 
+https://docs.libraries.coop/policy/_3rd_party_service_integration.html[3rd Party Service Integration policy] and 
+complete the https://survey.libraries.coop/917743?lang=en[3rd Party Service Integration With Sitka’s Evergreen survey] 
+so Co-op staff can determine if it is a compatible product.
+
+======
 
 [[_record_view_item_table]]
 Item Table
