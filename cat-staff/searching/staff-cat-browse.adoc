@@ -30,13 +30,6 @@ You can set your default search library for the workstation in xref:_search_pref
 +
 . Select a field to browse, enter a keyword, and click *Browse*.
 +
-image::images/staffcat/staff-cat-browse-2.png[]
-+
-[TIP]
-======
-Enter the surname first when searching by author in the Browse pane.
-======
-+
 .. The following fields are browsable:
 +
 * title
@@ -47,11 +40,19 @@ Enter the surname first when searching by author in the Browse pane.
 +
 * series
 +
++
+image::images/staffcat/staff-cat-browse-2.png[]
++
+[TIP]
+======
+Enter the surname first when searching by author in the Browse pane.
+======
++
 . Your results are displayed. 
 +
 image::images/staffcat/staff-cat-browse-3.png[]
 +
-Click *Next* or *Back*, which appear above and below the results, to view more results.
+.. Click *Next* or *Back*, which appear above and below the results, to view more results.
 
 
 
