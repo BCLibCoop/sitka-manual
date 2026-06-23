@@ -96,11 +96,14 @@ You can use the following actions:
 ** *Clear Added Content Cache*: and the popup _Added Content Cache Cleared_ appears. *THIS WORDING MUST BE UPDATED THANK YOU* It also does not appear here https://docs.evergreen-ils.org/docs/latest/staff_catalog/bibliographic_records.html#record_actions
 ** *View/Place Orders*: The _Line Items Related to Bib Record_ page in the _Acquisitions_ module opens in a new tab.
 
-[[_record_views]]
+[[record_display_record_views]]
 Record Views
 ^^^^^^^^^^^^
 
-* xref:_record view_staff[Staff View]
+There are eleven record views available in bibliographic record display that can be used to access information and
+perform actions.
+
+* xref:_record_view_staff[Staff View]
 * xref:_record_view_added_content[Added Content]
 * xref:_record_view_item_table[Item Table]
 * xref:_record_view_marc_edit[MARC Edit]
@@ -112,7 +115,7 @@ Record Views
 * xref:_record_view_conjoined_items[Conjoined Items]
 * xref:_record_view_shelf_browse[Shelf Browse]
 
-
+The default record view for your workstation can be set by opening the desired tab and clicking *Set Default View*.
 
 
 The _Record Views_ appear below _Results Navigation_ and _Record Actions_ buttons. The _Item Table_ tab is selected by default.
@@ -121,9 +124,12 @@ image::bibliographic_records/record_tabs.png[Screenshot of a bibliographic recor
 
 To change the tab that is selected by default, navigate to the tab of your choice, then click the *Set Default View* button located above the tabs to the right of the page.
 
-[[_record view_staff]]
+Record Views
+~~~~~~~~~~~~
+
+[[_record_view_staff]]
 Staff View
-++++++++++
+^^^^^^^^^^
 
 The _Staff View_ tab contains information from the MARC record presented in a human-readable format. Hyperlinks are to a relevant search. For example, if a record has an ISBN, the ISBN is hyperlinked to a numeric search for this ISBN.
 
@@ -141,13 +147,13 @@ Depending on what information is available in the record, different information 
 
 [[_record_view_added_content]]
 Added Content
-+++++++++++++
+^^^^^^^^^^^^^
 
 The _Added Content_ tab appears when a library subscribes to a service that provides added content and has it set up in Evergreen.
 
 [[_record_view_item_table]]
 Item Table
-++++++++++
+^^^^^^^^^^
 
 The _Item Table_ tab displays a table of all holdings related to the record. The table is organized alphabetically by library.
 
@@ -163,7 +169,7 @@ TIP: For a more detailed view of holdings with the ability to use actions, see x
 
 [[_record_view_marc_edit]]
 MARC Edit
-+++++++++
+^^^^^^^^^
 
 The _MARC Edit_ tab allows users with appropriate permissions to modify fixed fields and tags in the MARC record. 
 
@@ -173,7 +179,7 @@ Use the xref:_marc_view[MARC View] tab for a printer-friendly version of the MAR
 
 [[_record_view_marc_view]]
 MARC View
-+++++++++
+^^^^^^^^^
 
 The _MARC View_ tab shows a non-editable version of the MARC record.
 
@@ -183,7 +189,7 @@ This tab can give users quick access to basic information about a title, but the
 
 [[_record_view_record_notes]]
 Record Notes
-++++++++++++
+^^^^^^^^^^^^
 
 The _Record Notes_ tab allows users with appropriate permissions to keep notes on a record. This may be useful when a record is under review.
 
@@ -207,7 +213,7 @@ To change what information is displayed in the table, see more results, and sele
 
 [[_record_view_view_holds]]
 View Holds
-++++++++++
+^^^^^^^^^^
 
 The _View Holds_ tab lists all holds on the record. The total number of holds on a record is displayed below the record views list to the left of the page.
 
@@ -227,7 +233,7 @@ To change what information is displayed in the table, see more results, and sele
 
 [[_record_view_monograph_parts]]
 Monograph Parts
-+++++++++++++++
+^^^^^^^^^^^^^^^
 
 The _Monograph Parts_ tab allows users with the appropriate permissions manage parts associated with a record. 
 
@@ -253,7 +259,7 @@ To change what information is displayed in the table, see more results, and sele
 
 [[_record_view_holdings_view]]
 Holdings View
-+++++++++++++
+^^^^^^^^^^^^^
 
 The _Holdings View_ tab displays detailed item and call number information. It also allows users with appropriate permissions to perform actions on holdings.
 
@@ -275,7 +281,7 @@ To change what information is displayed in the table, see more results, and sele
 
 [[_record_view_conjoined_items]]
 Conjoined Items
-+++++++++++++++
+^^^^^^^^^^^^^^^
 
 The _Conjoined Items_ tab allows users with appropriate permissions to manage conjoined items from the bibliographic record. 
 
@@ -298,7 +304,7 @@ To change what information is displayed in the table, see more results, and sele
 
 [[_record_view_shelf_browse]]
 Shelf Browse
-++++++++++++
+^^^^^^^^^^^^
 
 The _Shelf Browse_ tab displays tiles containing records for other items appearing before and after the selected record by call number.
 
