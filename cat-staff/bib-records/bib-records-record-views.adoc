@@ -30,6 +30,8 @@ image::images/staffcat/bib/record-views-added-content-1.png[]
 
 The _Added Content_ tab appears when a library subscribes to a service that provides added content and has it set up in Evergreen.
 
+image::images/staffcat/bib/record-views-added-content-2.png[]
+
 [[_record_view_item_table]]
 Item Table
 ^^^^^^^^^^
@@ -124,6 +126,8 @@ To change what information is displayed in the table, see more results, and sele
 Monograph Parts
 ^^^^^^^^^^^^^^^
 
+image::images/staffcat/bib/record-views-monograph-parts-1.png[]
+
 The _Monograph Parts_ tab allows users with the appropriate permissions manage parts associated with a record. 
 
 To add a new part:
@@ -150,6 +154,8 @@ To change what information is displayed in the table, see more results, and sele
 Holdings View
 ^^^^^^^^^^^^^
 
+image::images/staffcat/bib/record-views-holdings-view-1.png[]
+
 The _Holdings View_ tab displays detailed item and call number information. It also allows users with appropriate permissions to perform actions on holdings.
 
 To perform actions from the _Holdings View_:
@@ -171,6 +177,8 @@ To change what information is displayed in the table, see more results, and sele
 [[_record_view_conjoined_items]]
 Conjoined Items
 ^^^^^^^^^^^^^^^
+
+image::images/staffcat/bib/record-views-conjoined-items-1.png[]
 
 The _Conjoined Items_ tab allows users with appropriate permissions to manage conjoined items from the bibliographic record. 
 
@@ -194,6 +202,8 @@ To change what information is displayed in the table, see more results, and sele
 [[_record_view_shelf_browse]]
 Shelf Browse
 ^^^^^^^^^^^^
+
+image::images/staffcat/bib/record-views-shelf-browse-1.png[]
 
 The _Shelf Browse_ tab displays tiles containing records for other items appearing before and after the selected record by call number.
 
