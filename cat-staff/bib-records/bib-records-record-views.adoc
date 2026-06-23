@@ -28,7 +28,7 @@ image::images/staffcat/bib/record-views-added-content-2.png[]
 [NOTE]
 ======
 
-Novelist Select can be integrated with Sitka's Evergreen for added content. Please 
+NoveList Select can be integrated with Sitka's Evergreen for added content. Please 
 https://bc.libraries.coop/support/[contact Co-op Support]
 if you have a Novelist Select subscription you would like integrated.
 
@@ -43,19 +43,27 @@ so Co-op staff can determine if it's a compatible product.
 Item Table
 ^^^^^^^^^^
 
+The _Item Table_ tab displays a table of holdings related to the record. The table is organized alphabetically 
+by library.
+
 image::images/staffcat/bib/record-views-item-table-1.png[]
 
-The _Item Table_ tab displays a table of all holdings related to the record. The table is organized alphabetically by library.
 
-If a preferred library is not set for the workstation, only items in the library chosen in the _Library Selector_ will be shown. 
+If a preferred library is not set for the workstation, only items in the 
+library chosen in the _Library Selector_ will be shown. 
 
-If a preferred library is set for the workstation, items in that library will appear in the list when available, but may not be at the top.
+If a preferred library is set for the workstation, items in that library will 
+appear in the list when available, but may not be at the top.
 
 Some columns in this table contain links that will let you complete the indicated actions.
 
 To change what information is displayed in the table, see more results, and select other options, see xref:_grid_options[Grid Options].
 
-TIP: For a more detailed view of holdings with the ability to use actions, see xref:_holdings_view[Holdings View].
+[TIP]
+=====
+For a more detailed view of holdings with the ability to use actions, 
+see xref:_record_view_holdings_view[].
+=====
 
 [[_record_view_marc_edit]]
 MARC Edit
