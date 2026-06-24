@@ -27,20 +27,15 @@ Libraries participating in reciprocal borrowing may wish to search their library
 You can set your default search library for the workstation in xref:_search_preferences[Search Preferences].
 ======
 +
-. 
-
-
-
+. Enter a call number in the _Browse Call Numbers starting with_ text box, then click *Search*. 
++
 image::images/staffcat/staff-cat-shelf-browse-2.png[]
-
++
+. Your results are displayed. Click *Next* or *Back*, which appear above and below the results, to view more results.
++
 image::images/staffcat/staff-cat-shelf-browse-3.png[]
 
-In libraries where call numbers include part information, such as volume number, you can use this pane to browse volumes in a series.
-
-To use the Shelf Browse pane, enter a call number in the _Browse Call Numbers starting with_ text box, then click *Search*. Results appear below the search form. 
-
-You may click *Next* or *Back*, which appear above and below the results, to view more results.
-
-TIP: Shelf Browse is best used at the smallest appropriate level, usually the branch level, due to possible variations in call number practices. 
-
-image::searching_the_catalog/shelf_browse_search.png[Shelf Browse search pane with an arrow indicating the Browse Call Numbers starting with text box, as described above. The search term is FIC 213. The Search Library is set to BR1. The result of the search is an alphabetical list of fifteen call numbers with FIC 213 in the middle. The results are laid out in a tile format with three columns and five rows.]
+[TIP]
+======
+Shelf Browse is best used at the smallest appropriate level, usually the branch level, due to possible variations in call number practices. 
+======
