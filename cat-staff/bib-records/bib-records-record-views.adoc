@@ -57,7 +57,6 @@ circumstances. See xref:_placing_call_number_and_item_level_holds[] for more inf
 
 If additional functions are needed to work with an item staff should use the 
 xref:_record_view_holdings_view[Holdings View] tab instead.
-=====
 
 image::images/staffcat/bib/record-views-item-table-1.png[]
 
@@ -213,7 +212,4 @@ after the selected record by call number.
 Click the *Back* and *Next* buttons to page through the results.
 
 image::images/staffcat/bib/record-views-shelf-browse-1.png[]
-
-
-
 
