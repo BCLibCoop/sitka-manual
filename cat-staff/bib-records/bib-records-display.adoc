@@ -94,11 +94,14 @@ perform actions.
 * xref:_record_view_conjoined_items[Conjoined Items]
 * xref:_record_view_shelf_browse[Shelf Browse]
 
-The default record view for your workstation can be set by opening the desired tab and clicking *Set Default View*.
+Any of the record views can be set as the default view for your workstation can be set by opening the desired tab and clicking *Set Default View*.
 
 
-The _Record Views_ appear below _Results Navigation_ and _Record Actions_ buttons. The _Item Table_ tab is selected by default.
+The _Record Views_ appear below _Results Navigation_ and _Record Actions_ buttons. The  tab is selected by default.
 
 image::bibliographic_records/record_tabs.png[Screenshot of a bibliographic record with the record views list highlighted, as described above. The tabs appear in the order they are listed below.]
 
 To change the tab that is selected by default, navigate to the tab of your choice, then click the *Set Default View* button located above the tabs to the right of the page.
+
+Information on customizing the grid display, including adding/removing columns and changing column widths, can
+be found in xref:_grid_options[].
