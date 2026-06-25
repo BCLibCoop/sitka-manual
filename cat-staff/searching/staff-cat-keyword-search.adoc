@@ -28,48 +28,24 @@ Libraries participating in reciprocal borrowing may wish to search their library
 You can set your default search library for the workstation in xref:_search_preferences[Search Preferences].
 ======
 +
-Enter your search criteria and click *Search*.
+. Enter your search criteria and click *Search*.
 +
 image::images/staffcat/staff-cat-keyword-search-2.png[]
++
+[TIP]
+======
+To add an additional search row, click the *plus sign* (+) to the right of the Search Terms text box. A new search row will appear below the first.
+
+Additional search rows are joined to preceding rows with the Boolean operators _And_ or _Or_, which may be selected in the _Join with_ menu to the left of the additional search row.
+
+To delete a search row, click the *minus sign* (-) to the right of the row you wish to delete.
+======
 +
 . Your results are displayed.  Refer to xref:_viewing_search_results[]
 for additional information.
 +
 image::images/staffcat/staff-cat-keyword-search-3.png[]
 
-
-
-
-
-
-
-. In the Keyword Search pane, enter your search criteria. 
-. Click *Search*.
-+
-image::images/staffcat/search/keyword-search-1.png[Keyword Search pane]
-+
-. Your results are displayed.
-
-Additional Search Rows
-^^^^^^^^^^^^^^^^^^^^^^
-THIS SECTION SHOULD BE WORKED IN AS A NOTE IN THE STEPS FOR PERFORMING A KEYWORD SEARCH RATHER THAN BEING ITS OWN SECTION
-
-To add an additional search row, click the *plus sign* (+) to the right of the Search Terms text box. A new search row appears below the first. 
-
-The new search row will search the same format as that selected on the first search row. 
-
-Additional search rows are joined to preceding search rows with the Boolean operators _And_ or _Or_, which may be selected in the _Join with_ menu to the left of the additional search row.
-
-image::searching_the_catalog/additional_search_rows.png[Staff Catalogue page showing two search rows with the plus sign symbol and the Join with menu highlighted.]
-
-To delete a search row, click the *minus sign* (-) to the right of the row you wish to delete.
-
-.Example
-****
-Suppose you have a patron who wants a new J.R.R. Tolkien book but has has already read _The Hobbit_. You could run the search in the image below. 
-
-image::searching_the_catalog/two_row_search_example.png[A search with two rows with the following selections, in order: Format - All Formats, Catalog Field - Author, Matching - Contains, Search Terms - tolkien, Join with - And, Catalog Field - Title, Matching - Does not contain, Search Terms - hobbit.]
-****
 
 [[_search_filters_staff]]
 Search Filters
