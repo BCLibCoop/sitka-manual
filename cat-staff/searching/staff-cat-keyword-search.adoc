@@ -10,6 +10,7 @@ also apply a variety of filters and sort the results.
 image::images/cat/cat-menu.png[Catalogue Menu]
 +
 . Select the *Keyword Search* tab. It will be open by default if it's set as your default search pane. 
+. Use the three dots or the *Show more filters* button to expand the search form for more filtering options.
 +
 image::images/staffcat/staff-cat-keyword-search-1.png[]
 +
@@ -45,7 +46,6 @@ To delete a search row, click the *minus sign* (-) to the right of the row you w
 for additional information.
 +
 image::images/staffcat/staff-cat-keyword-search-3.png[]
-
 
 [[_search_filters_staff]]
 Search Filters
