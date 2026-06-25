@@ -5,15 +5,42 @@ Keyword Search
 The _Keyword Search_ pane lets you search the catalogue with one or more search terms. You may 
 also apply a variety of filters and sort the results. 
 
+. Go to *Cataloguing* -> *Search the Catalogue*.
++
 image::images/cat/cat-menu.png[Catalogue Menu]
-
-image::images/staffcat/staff-cat-library-selector.png[Library selector in the staff catalogue]
-
++
+. Select the *Keyword Search* tab. It will be open by default if it's set as your default search pane. 
++
 image::images/staffcat/staff-cat-keyword-search-1.png[]
++
+. When searching it's important to ensure that your desired search scope is set in the library selector.
++
+image::images/staffcat/staff-cat-library-selector.png[Library selector in the staff catalogue]
++
+.. (MPL is the Maple Library on Sitka's training server.)
++
+[TIP]
+======
+Multi-branch libraries can search their entire system or a specific branch.
 
+Libraries participating in reciprocal borrowing may wish to search their library or their ILC zone.
+
+You can set your default search library for the workstation in xref:_search_preferences[Search Preferences].
+======
++
+Enter your search criteria and click *Search*.
++
 image::images/staffcat/staff-cat-keyword-search-2.png[]
-
++
+. Your results are displayed.  Refer to xref:_viewing_search_results[]
+for additional information.
++
 image::images/staffcat/staff-cat-keyword-search-3.png[]
+
+
+
+
+
 
 
 . In the Keyword Search pane, enter your search criteria. 
