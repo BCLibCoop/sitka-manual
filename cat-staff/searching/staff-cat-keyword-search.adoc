@@ -51,6 +51,8 @@ image::images/staffcat/staff-cat-keyword-search-3.png[]
 Search Filters
 ^^^^^^^^^^^^^^
 
+image::images/staffcat/search/search-filters-1.png[]
+
 There are three options to limit your keyword search: _Format_, _Catalog Field_, and _Matching_.
 
 image::searching_the_catalog/search_options.png[The Format, Catalog Field, and Matching search options, which appear in this order to the left of the Search Terms text box.]
@@ -111,6 +113,8 @@ IMPORTANT: Filters will not be applied until you click *Search*. If you make any
 Sort Results
 ^^^^^^^^^^^^
 
+image::images/staffcat/search/search-filters-2.png[]
+
 Search results can be sorted by relevance, title (A to Z or Z to A), author (A to Z or Z to A), publication date (newest to oldest or oldest to newest), or popularity (most to least popular or popularity adjusted relevance). By default, searches are sorted by relevance.
 
 To change the sorting method before your search, select an option from the _Sort Results_ drop down menu located below the search row. 
@@ -122,6 +126,8 @@ image::searching_the_catalog/sort_results.png[The Sort Results menu is expanded 
 [[_search_checkboxes_staff]]
 Search Checkboxes
 ^^^^^^^^^^^^^^^^^
+
+image::images/staffcat/search/search-filters-3.png[]
 
 Three checkboxes appear on the Keyword Search pane by default. If the _Exclude Electronic Resources_ checkbox is selected on the workstation's xref:_search_preferences[Search Preferences], the _Exclude Electronic Resources_ checkbox will also appear.
 
