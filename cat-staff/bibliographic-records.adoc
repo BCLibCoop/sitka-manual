@@ -1,22 +1,16 @@
 Viewing Bibliographic Records
 -----------------------------
 
-Each item in the catalogue is linked to a bibliographic record. This record contains detailed information about the item. You can also perform a number of actions from a bibliographic record.
+Each title in the catalogue is represented by bibliographic record. This record contains detailed information 
+about the title. There may be multiple records for a given title if the title has multiple editions, formats, 
+or publishers in your catalogue. While the goal is to have one MARC record in the database for each discrete 
+bibliographic title which all libraries add their holdings to, in practice this doesn't always happen so libraries
+may see duplication of records when searching beyond their library or system.
 
-Access an item's bibliographic record by finding the item in the _Staff Catalog_, then clicking the item's title or cover image. 
+The bibliographic record display can be accessed:
 
-You may also access an item's record by clicking its title any time it is hyperlinked, such as on a patron's account or on the _Item Status_ page.
-
-There may be multiple records for a given title if the title has multiple editions, formats, or publishers in your catalogue. Differences in cataloguing practices between libraries could also result in multiple records for the same title. 
-
-[TIP]
-====
-Click *Show Search Form* in the top-right corner of a bibliographic record page to display the search form. If the search form is displayed, the button will say *Hide Search Form*. Click this button to hide the search form.
-
-The search form is filled by information in your URL. This information will still be present in the search form if you accessed the record from a search results page or by clicking a link that contained search information.
-
-image::bibliographic_records/show_search_form.png[Screenshot of the Show Search Form button, as described above.]
-====
+* through the staff catalogue by clicking on the hyperlinked title or cover image in a search results
+* throughout the staff client by clicking on the hyperlinked title in any grid it appears in
 
 include::bib-records/bib-records-display.adoc[Viewing Bibliographic Records]
 
