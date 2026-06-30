@@ -1,0 +1,49 @@
+Batch Actions Through the Basket
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Place Hold
+^^^^^^^^^^
+
+To place a hold on every item in the basket, click *Basket Actions* and from the dropdown click *Place Hold*. The _Place Hold_ form appears, and a hold can be placed as it would be otherwise (for a single item). Whether or not an individual hold is successful will be indicated next to the record title.
+
+Print Title Details
+^^^^^^^^^^^^^^^^^^^
+
+To print the details of each record in the basket, click *Basket Actions* and from the dropdown click *Print Title Details*. A printer-friendly version of the basket will appear.
+
+Records appear in the same order as in the basket, and are numbered in ascending order.
+
+Each bibliographic record on the list contains the record's bibliographic ID number, ISBN, title, author, publisher, publication date, and item type.
+
+Email Title Details
+^^^^^^^^^^^^^^^^^^^
+
+To email a summary of the basket contents, click *Basket Actions* and from the dropdown click *Email Title Details*. A plaintext summary of the basket will be emailed to the address associated with your Evergreen account.
+
+The email will contain information about each record's bibliographic ID number, ISBN, title, author, publisher, publication date, and item type.
+
+Add Basket to Bucket
+^^^^^^^^^^^^^^^^^^^^
+
+To add the basket to a bucket, click *Basket Actions* and from the dropdown click *Add Basket to Bucket*. The _Add # Items to Bucket_ window appears. 
+
+If you want to add the basket to an existing bucket, select the bucket name from the _Name of existing bucket_ dropdown menu, then click *Add To Selected Bucket*. The items are added to the bucket, the _Add # Items to Bucket_ window closes, and confirmation message appears at the bottom of the screen.
+
+If you want to add the basket to a new bucket, click the *New bucket* tab. Enter a name and a description into the appropriate text boxes. Click *Add To New Bucket*. The bucket is created, the items are added to the bucket, the _Add # Items to Bucket_ window closes, and a confirmation message appears at the bottom of the screen.
+
+If you want to add the basket to a shared bucket, click the *Shared bucket* tab. Enter the ID of the shared bucket in the text box. Click *Add To Shared Bucket*. The items are added to the bucket, the _Add # Items to Bucket_ window closes, and confirmation message appears at the bottom of the screen.
+
+Export Records
+^^^^^^^^^^^^^^
+
+To export the records in the basket, click *Basket Actions* and from the dropdown click *Export Records*. The _MARC Batch Import/Export_ page opens.
+
+The _Record Type_ may not be changed.
+
+Select the desired _Record Format_ from the dropdown menu. You may choose MARC21, UNIMARC, MARC XML, or Evergreen Record Entry.
+
+Select the desired _Record Encoding_ from the dropdown menu. You may choose UTF-8 or MARC8.
+
+If you wish to include holdings in the records export, check the checkbox. 
+
+Click *Export* to download the file.

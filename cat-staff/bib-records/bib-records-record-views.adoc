@@ -1,0 +1,215 @@
+Record Views
+~~~~~~~~~~~~
+
+[[_record_view_staff]]
+Staff View
+^^^^^^^^^^
+
+The _Staff View_ tab contains information from the MARC record presented in a human-readable format. Hyperlinks are to a 
+relevant search. For example, if a record has an ISBN, the ISBN is hyperlinked to a numeric search for this ISBN.
+
+Depending on what information is available in the record, different information will show in this tab.
+
+image::images/staffcat/bib/record-views-staff-view-1.png[]
+
+[[_record_view_added_content]]
+Added Content
+^^^^^^^^^^^^^
+
+The _Added Content_ tab displays for libraries that subscribe to a service that provides added content compatible with
+Evergreen.
+
+image::images/staffcat/bib/record-views-added-content-1.png[]
+
+When no added content is available for a title the tab name will display as _No Added Content_.
+
+image::images/staffcat/bib/record-views-added-content-2.png[]
+
+[NOTE]
+======
+
+NoveList Select can be integrated with Sitka's Evergreen for added content. Please 
+https://bc.libraries.coop/support/[contact Co-op Support]
+if you have a Novelist Select subscription you would like integrated.
+
+For any other added content subscriptions, please review the 
+https://docs.libraries.coop/policy/_3rd_party_service_integration.html[3rd Party Service Integration policy] and 
+complete the https://survey.libraries.coop/917743?lang=en[3rd Party Service Integration With Sitka’s Evergreen survey] 
+so Co-op staff can determine if it's a compatible product.
+
+======
+
+[[_record_view_item_table]]
+Item Table
+^^^^^^^^^^
+
+The _Item Table_ tab displays a table of holdings attached to the record based on your search scope. If a  
+preferred library is set for the workstation, applicable items for that library will appear in the list. The table is 
+organized alphabetically by library.
+
+Within the table staff with appropriate permissions can click on the applicable link to:
+
+* edit the call number in the xref:_the_holdings_editor[_Holdings Editor_].
+* edit the item in the xref:_the_holdings_editor[_Holdings Editor_].
+* view the item in xref:_item_status[_Item Status_].
+* place an item level or call number level hold. These hold options should only be used in very specific 
+circumstances. See xref:_placing_call_number_and_item_level_holds[] for more information.
+
+If additional functions are needed to work with an item staff should use the 
+xref:_record_view_holdings_view[Holdings View] tab instead.
+
+image::images/staffcat/bib/record-views-item-table-1.png[]
+
+[[_record_view_marc_edit]]
+MARC Edit
+^^^^^^^^^
+
+The _MARC Edit_ tab allows users with appropriate permissions to modify fixed fields and tags in the MARC record using
+the xref:_enhanced_marc_editor[_Enhanced MARC Editor_] and the xref:_flat_text_editor[_Flat Text Editor_]. 
+
+image::images/staffcat/bib/record-views-marc-edit-1.png[]
+
+[[_record_view_marc_view]]
+MARC View
+^^^^^^^^^
+
+The _MARC View_ tab shows a non-editable version of the MARC record. This tab can give users quick access 
+to basic information about a title, but the xref:_record_view_staff[Staff View] tab may be more useful.
+
+The MARC record can be printed from this tab by clicking the *Print Page* button.
+
+image::images/staffcat/bib/record-views-marc-view-1.png[]
+
+
+[[_record_view_record_notes]]
+Record Notes
+^^^^^^^^^^^^
+
+The _Record Notes_ tab allows users to view notes associated with a record. Currently this feature is only
+used by Evergreen to automatically add a record note when records are merged together.  
+
+image::images/staffcat/bib/record-views-record-notes-1.png[]
+
+
+////
+
+PERMISSION NOT CURRENTLY GRANTED TO LIBRARY STAFF
+
+Create a new note by clicking *New Record Note* below the record views list. The _Record Editor: Bib Record Note_ window opens. Enter your note in the _Note_ text box and select *Save*. All other information is generated automatically. Your note is added to the table.
+
+Sort the list in ascending order by creation date or note contents by clicking *Creation Date* or *Note*. Sort the list in descending order by clicking the appropriate button again.
+
+Filter the notes by creation date or note contents by clicking *Filter* below the _Creation Date_ or _Note_ column. A menu opens. Select an operator and criteria, then click *Apply Filter*. Click *Close* to close the filter menu.
+
+To remove filters, click *Remove Filters* below the record views list.
+
+To delete a note:
+
+. Select a note from the list by checking the checkbox to the left of the note. You may select multiple notes, or check the checkbox at the top of the table to select all notes. 
+. Click the *Actions for Selected Rows* button located below the record views list. It is the first button to the right of the *New Record Note* button. 
+. Click *Delete Selected*. The selected note is deleted.
+
+////
+
+
+
+[[_record_view_view_holds]]
+View Holds
+^^^^^^^^^^
+
+The _View Holds_ tab lists all holds on the record in the scope specified in the _Pickup Library_ selector. The
+_Holds Count_ displays the number of holds within the pickup library scope.
+
+For more information on viewing holds see xref:_via_the_staff_catalogue[].
+
+image::images/staffcat/bib/record-views-view-holds-1.png[the section called "Viewing Holds Via the Staff Catalogue"].
+
+[[_record_view_monograph_parts]]
+Monograph Parts
+^^^^^^^^^^^^^^^
+
+The _Monograph Parts_ tab allows users to manage parts associated with a record. The parts functionality 
+is not used by Sitka.
+
+image::images/staffcat/bib/record-views-monograph-parts-1.png[]
+
+////
+
+FEATURE NOT USED BY SITKA
+
+To add a new part:
+
+. Click *New Monograph Part* below the record views list to the left of the screen. The _Record Editor: Monograph Parts_ window opens.
+. Enter the label for the new part in the _label_ text box.
+. Click *Save*. The ID is generated automatically and the part is added to the table.
+
+To delete or merge parts:
+
+. Select a part by checking the checkbox to the left of the part. You may select multiple parts, or select all parts in the list by checking the checkbox at the top of the table.
+. Click the *Actions for Selected Rows* button located below the record views list. It is the first button to the right of the *New Monograph Part* button.
+. Select an option from the menu.
+** *Delete Selected*: The selected part is deleted.
+** *Merge Selected*: The _Merge Monograph Parts_ window opens. Select a lead part by checking a checkbox. Click *Merge*. All selected parts are merged into the lead part.
+
+Sort parts by any column heading in ascending order by clicking the column heading. Sort the parts in descending order by clicking the heading again.
+
+////
+
+[[_record_view_holdings_view]]
+Holdings View
+^^^^^^^^^^^^^
+
+The _Holdings View_ tab displays detailed item and call number information. It also allows users 
+with appropriate permissions to perform numerous actions on holdings.
+
+* The _Holdings Maintenance_ selector allows you to determine your library scope.
+* The check boxes for *Show Call Numbers*, *Show Copies*, *Show Empty Call Numbers*, and *Show Empty Libs* enables
+you to show and hide elements as needed.
+* Rows can be expanded or collapsed as desired using the arrows in the _Location/Barcode_ column.
+
+image::images/staffcat/bib/record-views-holdings-view-1.png[]
+
+
+To change what information is displayed in the table, see more results, and select other options, see xref:_grid_options[Grid Options].
+
+[[_record_view_conjoined_items]]
+Conjoined Items
+^^^^^^^^^^^^^^^
+
+The _Conjoined Items_ tab allows users with appropriate permissions to manage conjoined items 
+from the bibliographic record. 
+
+image::images/staffcat/bib/record-views-conjoined-items-1.png[]
+
+////
+
+THESE INSTRUCTIONS DON'T MAKE SENSE WITHOUT A CATALOGUING CONJOINED ITEMS SECTION WHICH WE DON'T HAVE YET
+
+To perform any actions, first select conjoined items from the table by checking the checkbox located on the left side of the row.
+
+To change the type of the selected conjoined items:
+
+. Click the *Change Type* button located above the table to the left of the page. The _Attach/Modify # Conjoined Item(s)_ window opens.
+. Selected a peer type from the _Peer Type_ dropdown menu.
+. Click *Attach/Modify* A confirmation message appears at the bottom of the screen.
+
+To unlink items:
+
+. Click the *Actions for Selected Rows* menu. This is the next button to the right of the *Change Type* button above the table.
+. Click *Unlink*. The selected items are unlinked.
+
+Sort items by any column heading in ascending order by clicking the column heading. Sort the items in descending order by clicking the heading again.
+
+////
+
+[[_record_view_shelf_browse]]
+Shelf Browse
+^^^^^^^^^^^^
+
+The _Shelf Browse_ tab displays tiles containing records for other items appearing before and 
+after the selected record by call number.
+
+Click the *Back* and *Next* buttons to page through the results.
+
+image::images/staffcat/bib/record-views-shelf-browse-1.png[]
+

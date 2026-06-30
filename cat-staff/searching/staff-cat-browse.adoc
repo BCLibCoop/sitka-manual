@@ -15,6 +15,10 @@ image::images/staffcat/staff-cat-browse-1.png[]
 +
 . When searching it's important to ensure that your desired search scope is set in the library selector.
 +
+image::images/staffcat/staff-cat-library-selector.png[Library selector in the staff catalogue]
++
+.. (MPL is the Maple Library on Sitka's training server.)
++
 [TIP]
 ======
 Multi-branch libraries can search their entire system or a specific branch.
@@ -24,37 +28,26 @@ Libraries participating in reciprocal borrowing may wish to search their library
 You can set your default search library for the workstation in xref:_search_preferences[Search Preferences].
 ======
 +
-image::images/staffcat/staff-cat-library-selector.png[Library selector in the staff catalogue]
+. Select a field to browse, enter a keyword, and click *Search*.
 +
-.. (MPL is the Maple Library on Sitka's training server.)
-+
-. Select a field to browse, enter a keyword, and click *Browse*.
+image::images/staffcat/staff-cat-browse-2.png[]
 +
 .. The following fields are browsable:
 +
 * title
-+
 * author
-+
 * subject
-+
 * series
 +
-. Your results are displayed. 
-
-
-
-image::images/staffcat/staff-cat-browse-2.png[]
-
+[TIP]
+======
+Enter the surname first when searching by author in the Browse pane.
+======
++
+. Your results are displayed. Click *Next* or *Back*, which appear above and below the results, to view more results.
++
 image::images/staffcat/staff-cat-browse-3.png[]
 
 
-To use the Browse pane, select the headings you would like to search by making a selection from the _Browse for_ drop down menu. You may search by title, author, subject, or series. 
 
-Then, enter your search term in the _Starting with_ text box and click *Search* to begin your search. Results appear below the search form.
 
-You may click *Next* or *Back*, which appear above and below the results, to view more results.
-
-TIP: Enter the surname first when searching by author in the Browse pane.
-
-image::searching_the_catalog/browse_search.png[Browse search pane with arrows indicating the Browse for drop down menu and Starting with text box, as described above. The search reads: Browse for Author starting with Steinbeck. The result of the search is an alphabetical list of ten author headings with Steinbeck in the middle.]

@@ -14,6 +14,10 @@ image::images/staffcat/staff-cat-marc-search-1.png[]
 +
 . When searching it's important to ensure that your desired search scope is set in the library selector.
 +
+image::images/staffcat/staff-cat-library-selector.png[Library selector in the staff catalogue]
++
+.. (MPL is the Maple Library on Sitka's training server.)
++
 [TIP]
 ======
 Multi-branch libraries can search their entire system or a specific branch.
@@ -22,10 +26,6 @@ Libraries participating in reciprocal borrowing may wish to search their library
 
 You can set your default search library for the workstation in xref:_search_preferences[Search Preferences].
 ======
-+
-image::images/staffcat/staff-cat-library-selector.png[Library selector in the staff catalogue]
-+
-.. (MPL is the Maple Library on Sitka's training server.)
 +
 . Enter the tag, subfield, and value and click *Search*.
 +
@@ -37,7 +37,7 @@ image::images/staffcat/staff-cat-marc-search-2.png[]
 Remove any apostrophes from your search value. No results will be returned when apostrophes are included.
 =====
 +
-. Your results are displayed.  Refer to xref:_search_results[]
+. Your results are displayed.  Refer to xref:_viewing_search_results[]
 for additional information.
 +
 image::images/staffcat/staff-cat-marc-search-3.png[]

@@ -5,48 +5,53 @@ Keyword Search
 The _Keyword Search_ pane lets you search the catalogue with one or more search terms. You may 
 also apply a variety of filters and sort the results. 
 
+. Go to *Cataloguing* -> *Search the Catalogue*.
++
 image::images/cat/cat-menu.png[Catalogue Menu]
-
-image::images/staffcat/staff-cat-library-selector.png[Library selector in the staff catalogue]
-
++
+. Select the *Keyword Search* tab. It will be open by default if it's set as your default search pane. 
+. Use the three dots or the *Show more filters* button to expand the search form for more filtering options.
++
 image::images/staffcat/staff-cat-keyword-search-1.png[]
++
+. When searching it's important to ensure that your desired search scope is set in the library selector.
++
+image::images/staffcat/staff-cat-library-selector.png[Library selector in the staff catalogue]
++
+.. (MPL is the Maple Library on Sitka's training server.)
++
+[TIP]
+======
+Multi-branch libraries can search their entire system or a specific branch.
 
+Libraries participating in reciprocal borrowing may wish to search their library or their ILC zone.
+
+You can set your default search library for the workstation in xref:_search_preferences[Search Preferences].
+======
++
+. Enter your search criteria and click *Search*.
++
 image::images/staffcat/staff-cat-keyword-search-2.png[]
-
-image::images/staffcat/staff-cat-keyword-search-3.png[]
-
-
-. In the Keyword Search pane, enter your search criteria. 
-. Click *Search*.
 +
-image::images/staffcat/search/keyword-search-1.png[Keyword Search pane]
-+
-. Your results are displayed.
+[TIP]
+======
+To add an additional search row, click the *plus sign* (+) to the right of the Search Terms text box. A new search row will appear below the first.
 
-Additional Search Rows
-^^^^^^^^^^^^^^^^^^^^^^
-THIS SECTION SHOULD BE WORKED IN AS A NOTE IN THE STEPS FOR PERFORMING A KEYWORD SEARCH RATHER THAN BEING ITS OWN SECTION
-
-To add an additional search row, click the *plus sign* (+) to the right of the Search Terms text box. A new search row appears below the first. 
-
-The new search row will search the same format as that selected on the first search row. 
-
-Additional search rows are joined to preceding search rows with the Boolean operators _And_ or _Or_, which may be selected in the _Join with_ menu to the left of the additional search row.
-
-image::searching_the_catalog/additional_search_rows.png[Staff Catalogue page showing two search rows with the plus sign symbol and the Join with menu highlighted.]
+Additional search rows are joined to preceding rows with the Boolean operators _And_ or _Or_, which may be selected in the _Join with_ menu to the left of the additional search row.
 
 To delete a search row, click the *minus sign* (-) to the right of the row you wish to delete.
-
-.Example
-****
-Suppose you have a patron who wants a new J.R.R. Tolkien book but has has already read _The Hobbit_. You could run the search in the image below. 
-
-image::searching_the_catalog/two_row_search_example.png[A search with two rows with the following selections, in order: Format - All Formats, Catalog Field - Author, Matching - Contains, Search Terms - tolkien, Join with - And, Catalog Field - Title, Matching - Does not contain, Search Terms - hobbit.]
-****
+======
++
+. Your results are displayed.  Refer to xref:_viewing_search_results[]
+for additional information.
++
+image::images/staffcat/staff-cat-keyword-search-3.png[]
 
 [[_search_filters_staff]]
 Search Filters
 ^^^^^^^^^^^^^^
+
+image::images/staffcat/search/search-filters-1.png[]
 
 There are three options to limit your keyword search: _Format_, _Catalog Field_, and _Matching_.
 
@@ -108,6 +113,8 @@ IMPORTANT: Filters will not be applied until you click *Search*. If you make any
 Sort Results
 ^^^^^^^^^^^^
 
+image::images/staffcat/search/search-filters-2.png[]
+
 Search results can be sorted by relevance, title (A to Z or Z to A), author (A to Z or Z to A), publication date (newest to oldest or oldest to newest), or popularity (most to least popular or popularity adjusted relevance). By default, searches are sorted by relevance.
 
 To change the sorting method before your search, select an option from the _Sort Results_ drop down menu located below the search row. 
@@ -119,6 +126,8 @@ image::searching_the_catalog/sort_results.png[The Sort Results menu is expanded 
 [[_search_checkboxes_staff]]
 Search Checkboxes
 ^^^^^^^^^^^^^^^^^
+
+image::images/staffcat/search/search-filters-3.png[]
 
 Three checkboxes appear on the Keyword Search pane by default. If the _Exclude Electronic Resources_ checkbox is selected on the workstation's xref:_search_preferences[Search Preferences], the _Exclude Electronic Resources_ checkbox will also appear.
 
