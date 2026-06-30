@@ -491,10 +491,9 @@ link:https://youtu.be/d-EbdpforW8[*Sitka Training Video - Closing Library Staff 
 When a staff member leaves the library, their staff access should be disabled in a timely manner.
 
 .A local system administrator at your library needs to do the following:
-. remove the working location(s) from the account
-. change the main permission group to a patron permission group
-  .. contact Support to have the permission group changed for local system administrator accounts
-. contact Support if the staff member had permission to view report output or access to the reporter
+. Remove the working location(s) from the account
+. Change the main permission group to a patron permission group (or contact Support in the case of a LSA)
+. Contact Support if the staff member had permission to view report output or access to the reporter
 
 If the former staff member will not be using the account as a personal borrowing account, a local system
 administrator can use the http://docs.libraries.coop/sitka/_deleting_patron_accounts.html[patron deletion tool] to delete the account.
