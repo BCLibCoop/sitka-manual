@@ -2,7 +2,7 @@ Bibliographic Record Display
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The _Bibliographic Record Display_ is a robust interface through which you can view the MARC record, information
-about the items attached to the record, holds associated with the record, and more. You can perform a number
+about the items attached to the record, holds associated with the record, and more. You can also perform a number
 of actions through this interface.
 
 The display is divided into 4 sections:
@@ -31,23 +31,23 @@ missing see the https://bc.libraries.coop/sitka-faqs/[Sitka FAQ]
 for more information.
 | Title | The title of the work from the 245 $a field of the MARC record. | The title is a hyperlink. Selecting the title will direct you to the record 
 with no other information in the URL which can be useful for sharing the record.
-| Author | The author's name exactly as it appears in the MARC record.
+| Author | The author's name exactly as it appears in the MARC record. |
 | Bib Call # | The bibliographic call number from the 050 or 082 field of the MARC record. | This is not
 the call number created through the xref:_holdings_details[Holdings Details section of the Holdings Editor] and 
 associated with an item. 
-| Edition | The title's edition from the 250 field of the MARC record.
+| Edition | The title's edition from the 250 field of the MARC record. |
 | Pubdate |  The title's publication date, taken from character 07-10 of the 008 field in the MARC record.
 | Record Owner | This field currently has no use in Evergreen. | All bibliographic records in the Sitka database 
 are the shared property of the BC Libraries Cooperative, regardless of the holdings attached.
 | TCN | The record's Title Control Number. | In Sitka, the TCN is always the same as the record's database ID.
 | Database ID | The record's database ID. | When reporting issues with bibliographic records to 
 https://bc.libraries.coop/support/[Co-op Support] please include the database ID.
-| Created On | The date the record was created.
+| Created On | The date the record was created. |
 | Created By | The staff account that created the record. | While this is field is a hyperlink to the staff account, 
 you will be unable to view the account if they are not from your library or opted into your library.
 | Last Edited By | The staff account that last edited the record | While this is field is a hyperlink to the staff account, 
 you will be unable to view the account if they are not from your library or opted into your library.
-| Last Edited On | The date the record was last edited on.
+| Last Edited On | The date the record was last edited on. |
 |===
 
 Use the arrow in the right hand corner to collapse and expand the record summary panel as desired. When collapsed
