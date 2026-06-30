@@ -62,7 +62,7 @@ Search Results Navigation
 
 If you accessed the bibliographic record through a search, you can navigate to the records for other results from your search directly from this record. Use the buttons below the _Record Summary_ to the left to navigate your search results.
 
-image::bibliographic_records/results_navigation.png[Screenshot of a bibliographic record with the Results Navigation buttons highlighted, as described above.]
+image::images/staffcat/bib/staff-cat-bibliographic-record-display-3.png[]
 
 The following buttons are available:
 
@@ -72,7 +72,8 @@ The following buttons are available:
 * *End*: View the record for the last search result.
 * *Back to Results (# / #)*: Return to the search results page. The first number indicates the position of the current record in the search results. The second number indicates the total number of results.
 
-NOTE: If there was only one search result, or if you access the record through any method besides a catalog search, the _Results Navigation_ buttons may not be available.
+NOTE: If there was only one search result, or if you accessed the record by clicking through any method besides a 
+catalog search, the _Results Navigation_ buttons may not be available.
 
 [[_bib_display_record_actions]]
 Record Actions Menu
@@ -80,7 +81,7 @@ Record Actions Menu
 
 Action buttons are located below the _Record Summary_ to the right.
 
-image::bibliographic_records/record_actions.png[Screenshot of a record summary with the record actions buttons highlighted, as described above.]
+image::images/staffcat/bib/staff-cat-bibliographic-record-display-4.png[]
 
 You can use the following actions:
 
@@ -120,14 +121,10 @@ perform actions.
 * xref:_record_view_conjoined_items[Conjoined Items]
 * xref:_record_view_shelf_browse[Shelf Browse]
 
-Any of the record views can be set as the default view for your workstation can be set by opening the desired tab and clicking *Set Default View*.
+Any of the record views can be set as the default view for your workstation by opening the desired tab and 
+clicking *Set Default View*.
 
+image::images/staffcat/bib/staff-cat-bibliographic-record-display-5.png[]
 
-The _Record Views_ appear below _Results Navigation_ and _Record Actions_ buttons. The  tab is selected by default.
-
-image::bibliographic_records/record_tabs.png[Screenshot of a bibliographic record with the record views list highlighted, as described above. The tabs appear in the order they are listed below.]
-
-To change the tab that is selected by default, navigate to the tab of your choice, then click the *Set Default View* button located above the tabs to the right of the page.
-
-Information on customizing the grid display, including adding/removing columns and changing column widths, can
+Some of the record views display as a grid. Information on customizing the grid display, including adding/removing columns and changing column widths, can
 be found in xref:_grid_options[].
