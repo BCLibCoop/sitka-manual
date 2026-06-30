@@ -24,19 +24,19 @@ The _Record Summary_ contains basic information about the title.
 |===
 | Field | Description | Note
 | Format Icon | The type of item, such as book, DVD, or large print book. | See xref:_format_icons[] for information
-on how Evergreen determines which format icon to use.
+on how Evergreen determines which format icon to display.
 | Cover Image | An image of the specific version of this title or non-bibliographic item. | If the cover image is
-missing see the https://bc.libraries.coop/sitka-faqs/[Sitka FAQ]
+missing see the Sitka FAQ
  https://bc.libraries.coop/ufaqs/cover-art-images/[Why isn't there cover art for my record?]
 for more information.
 | Title | The title of the work from the 245 $a field of the MARC record. | The title is a hyperlink. Selecting the title will direct you to the record 
-with no other information in the URL which can be useful for sharing the record.
+with no other information in the URL which can be useful for sharing the record with other staff.
 | Author | The author's name exactly as it appears in the MARC record. |
 | Bib Call # | The bibliographic call number from the 050 or 082 field of the MARC record. | This is not
 the call number created through the xref:_holdings_details[Holdings Details section of the Holdings Editor] and 
 associated with an item. 
 | Edition | The title's edition from the 250 field of the MARC record. |
-| Pubdate |  The title's publication date, taken from character 07-10 of the 008 field in the MARC record.
+| Pubdate |  The title's publication date, taken from character 07-10 of the 008 field in the MARC record. |
 | Record Owner | This field currently has no use in Evergreen. | All bibliographic records in the Sitka database 
 are the shared property of the BC Libraries Cooperative, regardless of the holdings attached.
 | TCN | The record's Title Control Number. | In Sitka, the TCN is always the same as the record's database ID.
@@ -60,7 +60,9 @@ image::images/staffcat/bib/staff-cat-bibliographic-record-display-2.png[]
 Search Results Navigation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you accessed the bibliographic record through a search, you can navigate to the records for other results from your search directly from this record. Use the buttons below the _Record Summary_ to the left to navigate your search results.
+If you accessed the bibliographic record through a search, you can navigate to the records for other results 
+from your search directly from this record. Use the buttons below the _Record Summary_ to the left to 
+navigate your search results.
 
 image::images/staffcat/bib/staff-cat-bibliographic-record-display-3.png[]
 
@@ -72,22 +74,27 @@ The following buttons are available:
 * *End*: View the record for the last search result.
 * *Back to Results (# / #)*: Return to the search results page. The first number indicates the position of the current record in the search results. The second number indicates the total number of results.
 
-NOTE: If there was only one search result, or if you accessed the record by clicking through any method besides a 
-catalog search, the _Results Navigation_ buttons may not be available.
+[NOTE]
+======
+If you accessed the record by clicking on the title hyperlink in a grid, such as in Item Status, the search results navigation
+buttons will not display.
+======
 
 [[_bib_display_record_actions]]
 Record Actions Menu
 ^^^^^^^^^^^^^^^^^^^
 
-Action buttons are located below the _Record Summary_ to the right.
+The Action buttons are located below the _Record Summary_ to the right. 
+
+THIS SECTION NEEDS TO TALK ABOUT THE REQUIRED PERM - cat, acq, cover upload, and carousel
 
 image::images/staffcat/bib/staff-cat-bibliographic-record-display-4.png[]
 
-You can use the following actions:
+The following actions are available:
 
 * *Patron View*: The record will open in the patron catalog (OPAC) in a new tab. You will not be logged in to Evergreen in this new tab. You must return to your staff tab to continue using staff features.
 * *Place Hold*: The _Place Hold_ screen will appear in the current tab. You may place a title hold. Click *Return* to return to the record.
-* *Add Holdings*: The _Holdings Editor_ for the current record will open in a new tab. Users with the appropriate permissions can begin the process of adding a new holding (item). 
+* *Add Holdings*: The _Holdings Editor_ for the current record will open in a new tab. See xref:_the_holdings_editor[]. 
 * *Serials*: A dropdown menu opens with the options _Quick Receive_, _Manage Subscriptions_, and _Manage MFHDs_. The latter two options take you to the _Serials_ page for the current record with the selected pane open.
 * *Mark For...*: Cataloguing primarily uses these to complete a variety of cataloguing tasks. Circulation staff may use the _Title Hold Transfer_ option to transfer a hold to a different hold request while preserving the other hold details. _Reset Record Marks_ removes all marks. The dropdown menu options are:
 ** *Conjoined Items*
@@ -101,6 +108,9 @@ You can use the following actions:
 ** *Upload Cover Image*: The _Upload Cover Image_ window opens. You may upload a cover image for the current record.
 ** *Clear Added Content Cache*: and the popup _Added Content Cache Cleared_ appears. *THIS WORDING MUST BE UPDATED THANK YOU* It also does not appear here https://docs.evergreen-ils.org/docs/latest/staff_catalog/bibliographic_records.html#record_actions
 ** *View/Place Orders*: The _Line Items Related to Bib Record_ page in the _Acquisitions_ module opens in a new tab.
+
+
+
 
 [[_bib_display_record_views]]
 Record Views
