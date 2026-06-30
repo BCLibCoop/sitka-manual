@@ -9,7 +9,7 @@ The display is divided into 4 sections:
 
 . xref:_bib_display_record_summary[Record Summary]
 . xref:_bib_display_results_navigation[Search Result Navigation]
-. xref:_bib_display_record_actions[Record Actions Menu]
+. xref:_bib_display_record_actions[Record Action Buttons]
 . xref:_bib_display_record_views[Record Views]
 
 image::images/staffcat/bib/staff-cat-bibliographic-record-display-1.png[]
@@ -81,37 +81,37 @@ buttons will not display.
 ======
 
 [[_bib_display_record_actions]]
-Record Actions Menu
-^^^^^^^^^^^^^^^^^^^
+Record Action Buttons
+^^^^^^^^^^^^^^^^^^^^^
 
-The Action buttons are located below the _Record Summary_ to the right. 
+A number of actions can be performed using the Action buttons located below the _Record Summary_.
 
 image::images/staffcat/bib/staff-cat-bibliographic-record-display-4.png[]
 
 The following actions are available:
 
-* *Patron View*: The record will open in the patron catalog (OPAC) in a new tab. You will not be logged in to Evergreen in this new tab. You must return to your staff tab to continue using staff features.
-* *Place Hold*:  See xref:_placing_title_level_holds[].
-* *Add Holdings*: See xref:_adding_holdings[].
-* *Serials -> Quick Receive* See xref:_serials_receiving[].
-* *Serials -> Manage Subscriptions* See xref:_create_and_manage_subscriptions[].
-* *Serials -> Manage MFHDs*: 
+* *Patron View* - The record will open your public catalogue or discovery layer in a new tab. The value set in the 
+library setting _Patron view discovery layer URL_ determines what public catalogue or discover layer opens.
+* *Place Hold* - See xref:_placing_title_level_holds[].
+* *Add Holdings* - See xref:_adding_holdings[].
+* *Serials -> Quick Receive* - See xref:_serials_receiving[].
+* *Serials -> Manage Subscriptions* - See xref:_create_and_manage_subscriptions[].
+* *Serials -> Manage MFHDs* 
 * *Mark For... -> Conjoined Items*
-* *Mark For... -> Overlay Target* See xref:_overlaying_records_via_z39_50_interface[].
-* *Mark For... -> Title Hold Transfer* See xref:_transfer_holding[].
-* *Mark For... -> Holding Transfer* See xref:_transferring_title_holds[].
-* *Mark For... -> Reset Record Marks* This removes all marks from the record.
-* *Other Actions -> Add To Bucket*: See xref:_record_bucket_record_summary[].
-* *Other Actions -> Add To Carousel*: See https://help.libraries.coop/libpress/content-carousels/sitka-carousels/[Sitka Carousels] in the 
+* *Mark For... -> Overlay Target* - See xref:_overlaying_records_via_z39_50_interface[].
+* *Mark For... -> Title Hold Transfer* - See xref:_transfer_holding[].
+* *Mark For... -> Holding Transfer* - See xref:_transferring_title_holds[].
+* *Mark For... -> Reset Record Marks* - This removes all marks from the record.
+* *Other Actions -> Add To Bucket* - See xref:_adding_records_to_a_record_bucket_via_the_staff_catalogue[].
+* *Other Actions -> Add To Carousel* - See https://help.libraries.coop/libpress/content-carousels/sitka-carousels/[Sitka Carousels] in the 
 LibPress manual.
-* *Other Actions -> Upload Cover Image*: See xref:_uploading_a_cover_image[].
-* *Other Actions -> Clear Added Content Cache*: and the popup _Added Content Cache Cleared_ appears. *THIS WORDING MUST BE UPDATED THANK YOU* It also does not appear here https://docs.evergreen-ils.org/docs/latest/staff_catalog/bibliographic_records.html#record_actions
-* *Other Actions -> View/Place Orders*: See https://docs.libraries.coop/acquisitions/_po_via_view_place_order.html[the section called Creating
-Purchase Orderss via View/Place Orders] and 
+* *Other Actions -> Upload Cover Image* - See xref:_uploading_a_cover_image[].
+* *Other Actions -> Clear Added Content Cache* - This option will clear the cache for content on the added content tab
+(if enabled) and cover art images. 
+* *Other Actions -> View/Place Orders* - See https://docs.libraries.coop/acquisitions/_po_via_view_place_order.html[the section called Creating
+Purchase Orders via View/Place Orders] and 
 https://docs.libraries.coop/acquisitions/_po_li_via_view_place_order.html[the section called Adding Line Items to Purchase Orders
 via View/Place Orders].
-
-
 
 
 [[_bib_display_record_views]]
