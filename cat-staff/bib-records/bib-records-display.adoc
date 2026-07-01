@@ -90,7 +90,7 @@ image::images/staffcat/bib/staff-cat-bibliographic-record-display-4.png[]
 
 The following actions are available:
 
-* *Patron View* - The record will open your public catalogue or discovery layer in a new tab. The value set in the 
+* *Patron View* - The record will open in your public catalogue or discovery layer in a new tab. The value set in the 
 library setting _Patron view discovery layer URL_ determines what public catalogue or discover layer opens.
 * *Place Hold* - See xref:_placing_title_level_holds[].
 * *Add Holdings* - See xref:_adding_holdings[].
