@@ -49,8 +49,6 @@ The first number on each line is the number of copies on a given record at the s
 
 TIP: The consortium or highest-level location always appears on the first line. The library chosen in the _Library Selector_ determines what will be displayed on the next line or lines. The workstation's preferred library, if set, will appear last, if different from the preceding lines.
 
-image::search_results/result_details.png[Screenshot of a single result with the different kinds of information highlighted, as described above.]
-
 
 The title control number (TCN) and the total number of holds on the record are displayed to the right of the location holdings information.
 
@@ -63,8 +61,6 @@ Show More Details
 +++++++++++++++++
 
 Click *Show More Details* above the first search result to display shelving location information for each item on the Search Results page.
-
-image::search_results/show_more_details.png[Screenshot with the Show More Details button highlighted, as described above.]
 
 NOTE: The *Show More Details* button will change to say *Show Fewer Details* when clicked.
 
