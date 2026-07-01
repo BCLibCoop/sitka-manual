@@ -1,3 +1,4 @@
+[[_staff_cat_batch_actions_through_the_basket]]
 Batch Actions Through the Basket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -5,6 +6,7 @@ The *Basket Actions* menu, found by clicking on the *Basket Actions* button in t
 lets you view the contents of the basket, batch place holds, print or email the title details for all titles, 
 add the contents of the basket to a bucket, export records, and clear the basket.
 
+[[_staff_cat_basket_place_holds]]
 Place Hold
 ^^^^^^^^^^
 
@@ -34,7 +36,7 @@ results.
 +
 image::images/staffcat/basket/staff-cat-basket-place-hold-3.png[]
 
-
+[[_staff_cat_basket_print_title_details]]
 Print Title Details
 ^^^^^^^^^^^^^^^^^^^
 
@@ -52,6 +54,7 @@ The information that displays for each listed bibliographic record may vary depe
 Bibliographic ID number, ISBN, ISSN, UPC, title, author, publisher, publication date, and item type can be included.
 ======
 
+[[_staff_cat_basket_email_title_details]]
 Email Title Details
 ^^^^^^^^^^^^^^^^^^^
 . Click the *Basket Actions* button in the bottom right of the _Search Form_.
@@ -68,12 +71,14 @@ The information that displays for each listed bibliographic record may vary depe
 Bibliographic ID number, ISBN, ISSN, UPC, title, author, publisher, publication date, and item type can be included.
 ======
 
+[[_staff_cat_basket_to_bucket]]
 Add Basket to Bucket
 ^^^^^^^^^^^^^^^^^^^^
 
 Instructions for adding a basket to a bucket can be found in 
 xref:_adding_records_to_a_record_bucket_via_the_staff_catalogue[].
 
+[[_staff_cat_basket_esport_records]]
 Export Records
 ^^^^^^^^^^^^^^
 
@@ -93,6 +98,7 @@ image::images/staffcat/basket/staff-cat-basket-export-records-2.png[]
 +
 . A file will download to your browser and can then be downloaded to your computer.
 
+[[_staff_cat_basket_clear_basket]]
 Clear Basket
 ^^^^^^^^^^^^
 
