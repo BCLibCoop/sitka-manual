@@ -10,7 +10,6 @@ Facets appear to the left side of the page, along with Buckets.
 
 Result details are listed to the right of the facets.
 
-image::search_results/search_results.png[Screenshot of search results, as described above.]
 
 Result Details
 ^^^^^^^^^^^^^^
@@ -18,8 +17,6 @@ Result Details
 Each result contains three kinds of information: item description, holdings information, and record history. 
 
 This information appears in the listed order from left to right in each result, as shown in the image below.
-
-image::search_results/result_details.png[Screenshot of a single result with the different kinds of information highlighted, as described above.]
 
 Each result also contains a green *Place Hold* button that allows you to place a title hold on the item, as well as an _Add to Bucket_ drop down. 
 
