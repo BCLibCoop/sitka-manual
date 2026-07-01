@@ -73,8 +73,6 @@ NOTE: The *Show More Details* button will change to say *Show Fewer Details* whe
 
 Shelving location information will appear in a table below the item description.
 
-image::search_results/more_details.png[Screenshot showing shelving location information in a search result, as described above.]
-
 If the consortium is selected in the Library Selector, the table will show information in alphabetical order by branch. 
 
 If a Preferred Library is set for this workstation, the Preferred Library will appear first.
@@ -88,7 +86,6 @@ Facets appear on the left side of the Search Results page. These facets are grou
 
 NOTE: Facets can be hidden by clicking *Hide Facets* and shown again by clicking *Show Facets*. The button label will change based on whether facets are shown.
 
-image::search_results/facets.png[Screenshot with the facets panel highlighted, as described above.]
 
 Click on a facet within a given category to limit the search results to the selected facet.
 
