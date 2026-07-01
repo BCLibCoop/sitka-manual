@@ -102,7 +102,6 @@ Export Records
 image::images/staffcat/basket/staff-cat-basket-export-records-1.png[]
 +
 . The _Export_ tab of the _MARC Batch Import/Export_ interface opens.
-. The _Record Type_ cannot be changed.
 . Select the desired _Record Format_ from the drop down menu. You may choose MARC21, UNIMARC, MARC XML, or Evergreen Record Entry.
 . Select the desired _Record Encoding_ from the dropdown menu. You may choose UTF-8 or MARC8.
 . If you wish to include holdings in the records export, check the checkbox. 
