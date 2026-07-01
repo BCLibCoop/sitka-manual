@@ -12,8 +12,6 @@ of a basket for later, you will need to add the basket to a Record Bucket.
 The basket will empty every time you log out of Evergreen.
 ======
 
-include::basket/basket-view.adoc[Viewing the Basket]
-
 include::basket/basket-add-records.adoc[Adding Records to the Basket]
 
 include::basket/basket-remove-records.adoc[Removing Records from the Basket]

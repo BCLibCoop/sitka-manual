@@ -6,6 +6,20 @@ The *Basket Actions* menu, found by clicking on the *Basket Actions* button in t
 lets you view the contents of the basket, batch place holds, print or email the title details for all titles, 
 add the contents of the basket to a bucket, export records, and clear the basket.
 
+[[_staff_cat_view_basket]]
+View Basket
+^^^^^^^^^^^
+
+The contents of the basket can be viewed in two ways:
+
+. Click the basket icon in the search form, located to the left of the *Basket Actions* button.
+. Click *Basket Actions* and from the drop down select *View Basket*.
+
+[NOTE]
+======
+Records appear in the basket as they appear in the search results, although _Facets_ are unavailable in the basket.
+======
+
 [[_staff_cat_basket_place_holds]]
 Place Hold
 ^^^^^^^^^^
