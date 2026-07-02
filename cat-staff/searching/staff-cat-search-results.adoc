@@ -3,17 +3,33 @@ Viewing Search Results
 
 The results of a search appear below the search form. 
 
+. Search Result Count and Actions
+. xref:_staff_cat_result_details[Result Details]
+. xref:_staff_cat_results_buckets[Facets]
+. xref:_staff_cat_results_buckets[Buckets]
+
 image::images/staffcat/search/staff-cat-search-result-1.png[]
+
+
+
+
+Search Result Count and Actions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The number of results returned by the search appears in the top-left corner in parentheses beside the _Search Results_ label. 
 
-Facets appear to the left side of the page, along with Buckets.
-
-Result details are listed to the right of the facets.
-
-
+[[_staff_cat_result_details]]
 Result Details
 ^^^^^^^^^^^^^^
+
+Each result is made up of six elements.
+
+. xref:_staff_cat_results_numbering_check_box[Numbering and Check Box]
+. xref:_staff_cat_results_title_description[Title Description]
+. xref:_staff_cat_results_holdings[Holdings]
+. xref:_staff_cat_results_record_history[Record History]
+. xref:_staff_cat_results_actions[Actions]
+. xref:_staff_cat_results_item_table[Item Table]
 
 Each result contains three kinds of information: item description, holdings information, and record history. 
 
@@ -21,10 +37,15 @@ This information appears in the listed order from left to right in each result, 
 
 Each result also contains a green *Place Hold* button that allows you to place a title hold on the item, as well as an _Add to Bucket_ drop down. 
 
-Item Description
-++++++++++++++++
+[[_staff_cat_results_numbering_check_box]]
+Numbering and Check Box
+++++++++++++++++++++++
 
-The item description, also called the physical summary, appears on the left side of each search result. It contains the following information:
+[[_staff_cat_results_title_description]]
+Title Description
++++++++++++++++++
+
+The title description, also called the physical summary, appears on the left side of each search result. It contains the following information:
 
 * Cover image (if supplied)
 * Title and author
@@ -41,6 +62,7 @@ Clicking on an item's title or cover image will take you to that item's bibliogr
 
 Clicking on an item's author will conduct a search for that author.
 
+[[_staff_cat_results_holdings]]
 Holdings Information
 ++++++++++++++++++++
 
@@ -53,13 +75,19 @@ TIP: The consortium or highest-level location always appears on the first line. 
 
 The title control number (TCN) and the total number of holds on the record are displayed to the right of the location holdings information.
 
+[[_staff_cat_results_record_history]]
 Record History
 ++++++++++++++
 
 The history of the record appears on the right side of the search result. You can see when the record was created, who created it, when the record was last edited, and who last edited it.
 
-Show More Details
-+++++++++++++++++
+[[_staff_cat_results_actions]]
+Actions
++++++++
+
+[[_staff_cat_results_item_table]]
+Item Table
+++++++++++
 
 Click *Show More Details* above the first search result to display shelving location information for each item on the Search Results page.
 
@@ -73,6 +101,7 @@ If a Preferred Library is set for this workstation, the Preferred Library will a
 
 If a branch is selected in the Library Selector, only information for the branch will be displayed.
 
+[[_staff_cat_results_facets]]
 Facets
 ^^^^^^
 
@@ -85,6 +114,7 @@ Click on a facet within a given category to limit the search results to the sele
 
 Click on the facet again to remove your selection.
 
+[[_staff_cat_results_buckets]]
 Buckets
 ^^^^^^^
 
