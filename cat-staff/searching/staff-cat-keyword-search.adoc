@@ -55,8 +55,6 @@ image::images/staffcat/search/search-filters-1.png[]
 
 There are three options to limit your keyword search: _Format_, _Catalog Field_, and _Matching_.
 
-image::searching_the_catalog/search_options.png[The Format, Catalog Field, and Matching search options, which appear in this order to the left of the Search Terms text box.]
-
 _Format_: Make a selection from the _Format_ drop down menu to specify what type of item you are seeking. Some options for format include: All Books, Music (CD, cassette), All Videos, Braille, Books (large print), and Software/Video Games.
 
 _Catalog Field_: Make a selection from the _Catalog Field_ drop down menu to specify which bibliographic fields you wish to search. You may select Keyword, Title, Journal Title, Author, Subject, or Series.
@@ -65,38 +63,31 @@ _Matching_: Make a selection from the _Matching_ menu to specify how strictly th
 
 * _Contains_: The search will look for items that contain your search terms, regardless of how the terms appear in the record.
 +
-.Example
-**** 
-Conducting a search for a title that contains “dog walk” could return _Dog Walk_, _Walk Your Dog_, and _Dog-Walking Business_.
-****
-+
 * _Does not contain_: The search will look for items that do not contain your search terms.
 +
 * _Contains phrase_: The search will look for items that contain your search terms successively in exact order.
-+
-.Example
-****
-Conducting a search for a title that contains the phrase “dog walk” could return _Dog Walk_, but it _would not_ return _Walk Your Dog_ or _Dog-Walking Business_.
-****
 +
 * _Matches exactly_: The search will look for items that contain only your search terms in exact order. This option is not available when _Keyword_ is selected in the _Catalog Field_ search option.
 +
 * _Starts with_: The search will look for items that begin with your search terms, regardless of how the terms appear in the record. This option is not available when _Keyword_ is selected in the _Catalog Field_ search option.
 
-NOTE: Keyword searches will look through all relevant fields in the bibliographic record, even if they are not displayed in the search results. For example, searching by title also searches the alternate title field, which is not displayed in search results.
-
+[NOTE]
+======
+Keyword searches will look through all relevant fields in the bibliographic record, even if they are not displayed in the search results. For example, searching by title also searches the alternate title field, which is not displayed in search results.
+======
 
 Filters let you refine your search beyond the options available in the search row. 
 
 Access the filters by clicking the three stacked dots to the right of the search row. The filters appear at the bottom of the search form.
 
-image::searching_the_catalog/search_filters.png[Keyword Search pane with the filters button highlighted, showing the nine filtering tools at the bottom of the pane, listed below.]
-
 The options available in each filter depend on the library selected in the xref:_library_selector[Library Selector]. The available filters are: _Language_, _Audience_, _Literary Form_, and _Shelving Location_.
 
 To add a filter, select the desired term from the list in the filter. The selected term will be highlighted and the filter will be applied when you run the search. Use the scroll bar in each filter to view more options.
 
-TIP: Hold CTRL (Windows) or CMD (Mac) to make multiple selections in a single filter.
+[TIP]
+======
+Hold CTRL (Windows) or CMD (Mac) to make multiple selections in a single filter.
+======
 
 To remove a filter, select the first term in the filter's list that begins with _All_ and is followed by the name of the filter. For example, to remove the _Language_ filter, select _All Languages_.
 
@@ -106,8 +97,10 @@ To filter by publication year, first select an option from the drop down menu to
 
 Then, enter the publication year or years in the text box or text boxes to the right of the drop down menu.
 
-IMPORTANT: Filters will not be applied until you click *Search*. If you make any changes to filters after beginning a search, you must click *Search* again to apply your changes.
-
+[IMPORTANT]
+======
+Filters will not be applied until you click *Search*. If you make any changes to filters after beginning a search, you must click *Search* again to apply your changes.
+======
 
 [[_sort_results_staff]]
 Sort Results
@@ -121,8 +114,6 @@ To change the sorting method before your search, select an option from the _Sort
 
 To change the sorting method of a search you have already started, select an option from the _Sort Results_ drop down menu, then click *Search* in the top-right corner to apply your selection.
 
-image::searching_the_catalog/sort_results.png[The Sort Results menu is expanded to show the options, as described above, in the order described above.]
-
 [[_search_checkboxes_staff]]
 Search Checkboxes
 ^^^^^^^^^^^^^^^^^
@@ -135,9 +126,10 @@ Depending on the size of your browser window, these checkboxes appear to the rig
 
 The checkboxes appear in the order listed below. The described behaviour applies when the box is checked (selected).
 
-image::searching_the_catalog/search_checkboxes.png[Keyword Search pane with the search boxes highlighted, as described below.]
-
-IMPORTANT: If you check or uncheck a checkbox after beginning your search, you must click *Search* again to apply your changes.
+[IMPORTANT]
+======
+If you check or uncheck a checkbox after beginning your search, you must click *Search* again to apply your changes.
+======
 
 _Limit to Available_: Results will be limited to items with a status of Available or Reshelving.
 
