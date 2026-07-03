@@ -78,7 +78,7 @@ Keyword searches will look through all relevant fields in the bibliographic reco
 +
 . Filters let you refine your search beyond the options available in the search row. 
 +
-Access the filters by clicking the three stacked dots to the right of the search row. The filters appear at the bottom of the search form.
+Use the three dots or the *Show more filters* button to expand the search form for more filtering options. The filters appear at the bottom of the search form.
 +
 The options available in each filter depend on the library selected in the xref:_library_selector[Library Selector]. The available filters are: _Language_, _Audience_, _Literary Form_, and _Shelving Location_.
 +
@@ -108,7 +108,7 @@ Sort Results
 
 image::images/staffcat/search/search-filters-2.png[]
 
-Search results can be sorted by relevance, title (A to Z or Z to A), author (A to Z or Z to A), publication date (newest to oldest or oldest to newest), or popularity (most to least popular or popularity adjusted relevance). By default, searches are sorted by relevance.
+By default, the search results are in order of greatest to least relevance. Search results can be sorted by relevance, title (A to Z or Z to A), author (A to Z or Z to A), publication date (newest to oldest or oldest to newest), or popularity (most to least popular or popularity adjusted relevance).
 
 To change the sorting method before your search, select an option from the _Sort Results_ drop down menu located below the search row. 
 
