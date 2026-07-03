@@ -3,34 +3,34 @@ Adding Records to the Basket
 
 [TIP]
 =====
-To add records directly to a bucket and skip the basket see the xref:_adding_records_to_a_record_bucket[].
+To skip the basket and add records directly to a bucket see xref:_adding_records_to_a_record_bucket[].
 =====
 
-To add a record to the basket
+Records can be added to the basket singly or in batch.
 
-. Find the record by conducting a search in the _Staff Catalog_.
-. Check the check box that appears between the result number and the cover image of the desired result.
-. The record is added to your basket and the count beside the basket icon will increase.
+. Search the catalogue for the records you would like to add to a bucket, as described in
+xref:_searching_the_catalogue[].
+. Select the title you would like to add to the basket by checking the check box that appears beside
+the result number or checking the check box at the top of the result to add all results on
+the page.
++
+image::images/staffcat/basket/staff-cat-basket-add-records-1.png[]
++
+. The selected record is added to your basket and the count beside the basket icon will increase.
++
+image::images/staffcat/basket/staff-cat-basket-add-records-2.png[]
++
+. Repeat the steps as needed to add more records to your bucket.
 
-To add all records on the page to the basket
-
-. Check the check box between the search form and the search results. This will select all results on the page.
-
-To add a record from an additional page
-
-. Navigate to the page where the record appears and check the checkbox of the desired record.
-
-To add all search results
-
-. Click the *Basket Actions* button to expand the options, and click *Add All Search Results*.
+[NOTE]
+======
+You can also add all search results to a basket by clicking the *Basket Actions* button 
+and then choosing *Add All Search Results*.
 +
 image::images/staffcat/basket/staff-cat-basket-add-search-results-1.png[]
  
-
-[CAUTION]
-=========
-If your search returned many results, this action may take a long time.
-=========
+Use this option cautiously as the more search results you have the longer this will take.
+======
 
 
 
