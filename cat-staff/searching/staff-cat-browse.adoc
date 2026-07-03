@@ -11,7 +11,7 @@ image::images/cat/cat-menu.png[Catalogue Menu]
 +
 . Select the *Browse* tab. It will be open by default if it's set as your default search pane. 
 +
-image::images/staffcat/staff-cat-browse-1.png[]
+image::images/staffcat/search/staff-cat-browse-1.png[]
 +
 . When searching it's important to ensure that your desired search scope is set in the library selector.
 +
@@ -30,7 +30,7 @@ You can set your default search library for the workstation in xref:_search_pref
 +
 . Select a field to browse, enter a keyword, and click *Search*.
 +
-image::images/staffcat/staff-cat-browse-2.png[]
+image::images/staffcat/search/staff-cat-browse-2.png[]
 +
 .. The following fields are browsable:
 +
@@ -46,7 +46,7 @@ Enter the surname first when searching by author in the Browse pane.
 +
 . Your results are displayed. Click *Next* or *Back*, which appear above and below the results, to view more results.
 +
-image::images/staffcat/staff-cat-browse-3.png[]
+image::images/staffcat/search/staff-cat-browse-3.png[]
 
 
 

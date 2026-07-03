@@ -10,7 +10,7 @@ image::images/cat/cat-menu.png[Catalogue Menu]
 +
 . Select the *Shelf Browse* tab. It will be open by default if it's set as your default search pane. 
 +
-image::images/staffcat/staff-cat-shelf-browse-1.png[]
+image::images/staffcat/search/staff-cat-shelf-browse-1.png[]
 +
 . When searching it's important to ensure that your desired search scope is set in the library selector.
 +
@@ -29,11 +29,11 @@ You can set your default search library for the workstation in xref:_search_pref
 +
 . Enter a call number in the _Browse Call Numbers starting with_ text box, then click *Search*. 
 +
-image::images/staffcat/staff-cat-shelf-browse-2.png[]
+image::images/staffcat/search/staff-cat-shelf-browse-2.png[]
 +
 . Your results are displayed. Click *Next* or *Back*, which appear above and below the results, to view more results.
 +
-image::images/staffcat/staff-cat-shelf-browse-3.png[]
+image::images/staffcat/search/staff-cat-shelf-browse-3.png[]
 
 [TIP]
 ======

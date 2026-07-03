@@ -12,7 +12,7 @@ image::images/cat/cat-menu.png[Catalogue Menu]
 . Select the *Keyword Search* tab. It will be open by default if it's set as your default search pane. 
 . Use the three dots or the *Show more filters* button to expand the search form for more filtering options.
 +
-image::images/staffcat/staff-cat-keyword-search-1.png[]
+image::images/staffcat/search/staff-cat-keyword-search-1.png[]
 +
 . When searching it's important to ensure that your desired search scope is set in the library selector.
 +
@@ -31,7 +31,7 @@ You can set your default search library for the workstation in xref:_search_pref
 +
 . Enter your search criteria and click *Search*.
 +
-image::images/staffcat/staff-cat-keyword-search-2.png[]
+image::images/staffcat/search/staff-cat-keyword-search-2.png[]
 +
 [TIP]
 ======
@@ -45,7 +45,7 @@ To delete a search row, click the *minus sign* (-) to the right of the row you w
 . Your results are displayed.  Refer to xref:_viewing_search_results[]
 for additional information.
 +
-image::images/staffcat/staff-cat-keyword-search-3.png[]
+image::images/staffcat/search/staff-cat-keyword-search-3.png[]
 
 [[_search_filters_staff]]
 Search Filters

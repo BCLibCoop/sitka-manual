@@ -14,7 +14,7 @@ image::images/staffcat/staff-cat-marc-search-1.png[]
 +
 . When searching it's important to ensure that your desired search scope is set in the library selector.
 +
-image::images/staffcat/staff-cat-library-selector.png[Library selector in the staff catalogue]
+image::images/staffcat/search/staff-cat-library-selector.png[Library selector in the staff catalogue]
 +
 .. (MPL is the Maple Library on Sitka's training server.)
 +
@@ -29,7 +29,8 @@ You can set your default search library for the workstation in xref:_search_pref
 +
 . Enter the tag, subfield, and value and click *Search*.
 +
-image::images/staffcat/staff-cat-marc-search-2.png[]
+image::images/staffcat/search/staff-cat-marc-search-2.png[]
++
 .. You can only search one tag or subfield per row. To add additional rows, click the *plus sign* (+) to the right of the search row. To remove rows, click the *minus sign* (-) to the right of the search row.
 +
 [TIP]
@@ -40,4 +41,4 @@ Remove any apostrophes from your search value. No results will be returned when 
 . Your results are displayed.  Refer to xref:_viewing_search_results[]
 for additional information.
 +
-image::images/staffcat/staff-cat-marc-search-3.png[]
+image::images/staffcat/search/staff-cat-marc-search-3.png[]
