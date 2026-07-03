@@ -14,6 +14,8 @@ image::images/staffcat/search/staff-cat-search-result-1.png[]
 Search Result Count and Actions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+image::images/staffcat/search/staff-cat-search-result-3.png[]
+
 The number of results returned by the search appears in the top-left corner in parentheses beside the _Search Results_ label.
 
 A check box allows you to select and deselect all results on the current page.
@@ -44,6 +46,11 @@ image::images/staffcat/search/staff-cat-search-result-2.png[]
 Numbering and Check Box
 ++++++++++++++++++++++
 
+Search results are numbered sequentially.  
+
+The check box within the result can be checked to add the 
+result to the basket.  See xref:_working_with_the_basket[].
+
 [[_staff_cat_results_title_description]]
 Title Description
 +++++++++++++++++
@@ -61,11 +68,9 @@ following information:
 * Publisher
 * Identifier (ISBN, ISSN, UPC)
 
-All information except for the cover image and call number is taken from the MARC record.
+All information except for the cover image and call number comes from the MARC record.
 
-Clicking on the title or cover image will take you to the bibliographic record.
-
-Clicking on the author will conduct a search for that author.
+Clicking on the title or cover image will take you to the bibliographic record. Clicking on the author will conduct a search for that author.
 
 [[_staff_cat_results_holdings]]
 Holdings Information
@@ -108,28 +113,24 @@ Actions
 
 The *Place Hold* button allows you to place a title hold on the item. See xref:_placing_title_level_holds[].
 
-The *Add to Bucket* button allows you to add the title to a record bucket. See xref:_record_bucket_search_results[].
+The *Add to Bucket* button allows you to add the title to a record bucket. See 
+xref:_adding_records_to_a_record_bucket_via_the_staff_catalogue[].
 
 [[_staff_cat_results_item_table]]
 Item Table
 ++++++++++
 
-The 
-Click *Show More Details* above the first search result to display shelving location information for each item on the Search Results page.
+The item table displays when the *Show More Details* button has been clicked. The table shows basic item information
+for up to six items attached to the bibliographic records, based on the search library scope.
 
-NOTE: The *Show More Details* button will change to say *Show Fewer Details* when clicked.
-
-Shelving location information will appear in a table below the item description.
-
-If the consortium is selected in the Library Selector, the table will show information in alphabetical order by branch. 
-
-If a Preferred Library is set for this workstation, the Preferred Library will appear first.
-
-If a branch is selected in the Library Selector, only information for the branch will be displayed.
+The table will show information in alphabetical order by library unless a preferred library is set, in which case
+the item for tge preferred library appears first.
 
 [[_staff_cat_results_facets]]
 Facets
 ^^^^^^
+
+image::images/staffcat/search/staff-cat-search-result-4.png[]
 
 Facets appear on the left side of the Search Results page. These facets are grouped by categories such as author, subject, genre, series, and more. Each category contains the most common information in your search results' MARC records.
 
@@ -140,6 +141,8 @@ Click on the facet again to remove your selection.
 [[_staff_cat_results_buckets]]
 Buckets
 ^^^^^^^
+
+image::images/staffcat/search/staff-cat-search-result-5.png[]
 
 Record Buckets can also be accessed from the left side.
 
