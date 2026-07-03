@@ -1,10 +1,14 @@
 Removing Records from the Basket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To remove a record from the basket
-
-. Uncheck the check box next to the record. This can be done from the search results page or from within the basket.
+. Uncheck the check box next to the record. This can be done from the search results page or 
+from xref:_staff_cat_view_basket[within the basket].
++
+image::images/staffcat/basket/staff-cat-basket-remove-records-1.png[]
++
 . The record is removed from the basket and the count beside the basket icon will decrease.
++
+image::images/staffcat/basket/staff-cat-basket-remove-records-2.png[]
 
 [TIP]
 =====
