@@ -56,19 +56,13 @@ image::images/staffcat/search/search-filters-1.png[]
 There are three options to limit your keyword search: _Format_, _Catalog Field_, and _Matching_.
 
 . _Format_: Make a selection from the _Format_ drop down menu to specify what type of item you are seeking. Some options for format include: All Books, Music (CD, cassette), All Videos, Braille, Books (large print), and Software/Video Games.
-+
 . _Catalog Field_: Make a selection from the _Catalog Field_ drop down menu to specify which bibliographic fields you wish to search. You may select Keyword, Title, Journal Title, Author, Subject, or Series.
-+
 . _Matching_: Make a selection from the _Matching_ menu to specify how strictly the search should treat your search terms. You may choose from the following options:
 +
 * _Contains_: The search will look for items that contain your search terms, regardless of how the terms appear in the record.
-+
 * _Does not contain_: The search will look for items that do not contain your search terms.
-+
 * _Contains phrase_: The search will look for items that contain your search terms successively in exact order.
-+
 * _Matches exactly_: The search will look for items that contain only your search terms in exact order. This option is not available when _Keyword_ is selected in the _Catalog Field_ search option.
-+
 * _Starts with_: The search will look for items that begin with your search terms, regardless of how the terms appear in the record. This option is not available when _Keyword_ is selected in the _Catalog Field_ search option.
 +
 [NOTE]
@@ -93,9 +87,11 @@ To remove a filter, select the first term in the filter's list that begins with 
 +
 To remove all filters, click the *Reset* button in the top-right corner of the search form.
 +
-. To filter by publication year, first select an option from the drop down menu to the right of "Publication Year is" at the bottom of the search form. You may select _Is_, _Before_, _After_, or _Between_. If you select _Between_, an additional text box will appear to the right of the existing text box.
-+
-Then, enter the publication year or years in the text box or text boxes to the right of the drop down menu.
+. To filter by publication year, select an option from the drop down menu to the right 
+of "Publication Year is" and enter the publication year or years in the text box.
+* You may select _Is_, _Before_, _After_, or _Between_. If you select _Between_, an additional 
+text box will appear to the right of the existing text box.
+
 
 [IMPORTANT]
 ======
@@ -126,15 +122,12 @@ Depending on the size of your browser window, these checkboxes appear to the rig
 
 The checkboxes appear in the order listed below. The described behaviour applies when the box is checked (selected).
 
-[IMPORTANT]
-======
+* _Limit to Available_: Results will be limited to items with a status of Available or Reshelving.
+* _Group Formats/Editions_: Results of the same title with different formats or editions will be combined into a single result. 
+* _Results from All Libraries_: Results may come from any library in the highest level of your catalogue, usually a consortium or system. Checking this box overrides any conflicting workstation xref:_search_preferences[Search Preferences] and any selection in the xref:_library_selector[Library Selector].
+* _Exclude Electonic Resources_: Results will not include any electronic format, such as e-books. If this checkbox is not visible, check the _Exclude Electronic Resources_ checkbox on the xref:_search_preferences[Search Preferences] page.
+
+[CAUTION]
+=========
 If you check or uncheck a checkbox after beginning your search, you must click *Search* again to apply your changes.
-======
-
-_Limit to Available_: Results will be limited to items with a status of Available or Reshelving.
-
-_Group Formats/Editions_: Results of the same title with different formats or editions will be combined into a single result. 
-
-_Results from All Libraries_: Results may come from any library in the highest level of your catalogue, usually a consortium or system. Checking this box overrides any conflicting workstation xref:_search_preferences[Search Preferences] and any selection in the xref:_library_selector[Library Selector].
-
-_Exclude Electonic Resources_: Results will not include any electronic format, such as e-books. If this checkbox is not visible, check the _Exclude Electronic Resources_ checkbox on the xref:_search_preferences[Search Preferences] page.
+=========
