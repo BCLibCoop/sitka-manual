@@ -3,7 +3,7 @@ Viewing Search Results
 
 The results of a search appear below the search form. 
 
-. Search Result Count and Actions
+. xref:_search_result_count_and_actions[Search Result Count and Actions]
 . xref:_staff_cat_result_details[Result Details]
 . xref:_staff_cat_results_buckets[Facets]
 . xref:_staff_cat_results_buckets[Buckets]
@@ -30,6 +30,8 @@ Each result is made up of six elements.
 . xref:_staff_cat_results_record_history[Record History]
 . xref:_staff_cat_results_actions[Actions]
 . xref:_staff_cat_results_item_table[Item Table]
+
+image::images/staffcat/search/staff-cat-search-result-1.png[]
 
 Each result contains three kinds of information: item description, holdings information, and record history. 
 
