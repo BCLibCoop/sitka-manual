@@ -11,12 +11,19 @@ The results of a search appear below the search form.
 image::images/staffcat/search/staff-cat-search-result-1.png[]
 
 
-
-
 Search Result Count and Actions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The number of results returned by the search appears in the top-left corner in parentheses beside the _Search Results_ label. 
+The number of results returned by the search appears in the top-left corner in parentheses beside the _Search Results_ label.
+
+A check box allows you to select and deselect all results on the current page.
+
+The *Show More Details/Show Fewer Details* button allows you to show and hide the 
+xref:_staff_cat_results_item_table[item table].
+
+The *Show Facets/Hide Facets* button allows you to show and hide the facet bar on the left side of the screen.
+
+The page navigation allows you to page through your results or jump to a specific page.
 
 [[_staff_cat_result_details]]
 Result Details
@@ -31,13 +38,7 @@ Each result is made up of six elements.
 . xref:_staff_cat_results_actions[Actions]
 . xref:_staff_cat_results_item_table[Item Table]
 
-image::images/staffcat/search/staff-cat-search-result-1.png[]
-
-Each result contains three kinds of information: item description, holdings information, and record history. 
-
-This information appears in the listed order from left to right in each result, as shown in the image below.
-
-Each result also contains a green *Place Hold* button that allows you to place a title hold on the item, as well as an _Add to Bucket_ drop down. 
+image::images/staffcat/search/staff-cat-search-result-2.png[]
 
 [[_staff_cat_results_numbering_check_box]]
 Numbering and Check Box
@@ -86,6 +87,10 @@ The history of the record appears on the right side of the search result. You ca
 [[_staff_cat_results_actions]]
 Actions
 +++++++
+
+The *Place Hold* button allows you to place a title hold on the item. See xref:_placing_title_level_holds[].
+
+The *Add to Bucket* button allows you to add the title to a record bucket. See xref:_record_bucket_search_results[].
 
 [[_staff_cat_results_item_table]]
 Item Table
