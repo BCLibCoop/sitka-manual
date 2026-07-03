@@ -124,7 +124,7 @@ The item table displays when the *Show More Details* button has been clicked. Th
 for up to six items attached to the bibliographic records, based on the search library scope.
 
 The table will show information in alphabetical order by library unless a preferred library is set, in which case
-the item for tge preferred library appears first.
+items for the preferred library appear first.
 
 [[_staff_cat_results_facets]]
 Facets
@@ -132,7 +132,9 @@ Facets
 
 image::images/staffcat/search/staff-cat-search-result-4.png[]
 
-Facets appear on the left side of the Search Results page. These facets are grouped by categories such as author, subject, genre, series, and more. Each category contains the most common information in your search results' MARC records.
+Facets appear on the left side of the search results. These facets are grouped by categories such as author, 
+subject, genre, series, and more. Each category contains the most common information in your search results' 
+MARC records.
 
 Click on a facet within a given category to limit the search results to the selected facet.
 
@@ -144,6 +146,7 @@ Buckets
 
 image::images/staffcat/search/staff-cat-search-result-5.png[]
 
-Record Buckets can also be accessed from the left side.
+Favourite and recent record buckets can also be accessed to the left of the search result.
 
-For more information on the record buckets see xref:_record_buckets[].
+Records can be added to these buckets following the instructions in 
+xref:_adding_records_to_a_record_bucket_via_the_staff_catalogue[].
