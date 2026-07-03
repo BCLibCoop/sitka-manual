@@ -48,41 +48,59 @@ Numbering and Check Box
 Title Description
 +++++++++++++++++
 
-The title description, also called the physical summary, appears on the left side of each search result. It contains the following information:
+The title description, also called the physical summary, appears on the left side of each search result. It contains the 
+following information:
 
 * Cover image (if supplied)
-* Title and author
+* Title
+* Author
 * Format with descriptive icon
 * Call number
 * Physical description
 * Edition
 * Publisher
-* ISBN
+* Identifier (ISBN, ISSN, UPC)
 
-All information except for the cover image and call number is taken from the item's MARC record.
+All information except for the cover image and call number is taken from the MARC record.
 
-Clicking on an item's title or cover image will take you to that item's bibliographic record.
+Clicking on the title or cover image will take you to the bibliographic record.
 
-Clicking on an item's author will conduct a search for that author.
+Clicking on the author will conduct a search for that author.
 
 [[_staff_cat_results_holdings]]
 Holdings Information
 ++++++++++++++++++++
 
-Holdings information appears to the right of the item description. Each line contains information that is specific to the location listed after the @ symbol.
+Holdings information appears to the right of the item description. Each line contains information that is specific 
+to the location listed after the @ symbol.
 
-The first number on each line is the number of copies on a given record at the specified location that have the status "Available" or "Reshelving." The second number is the total number of copies owned by the specified location.
+The first number on each line is the number of copies on a given record at the specified location 
+that have the status "Available" or "Reshelving." The second number is the total number of copies owned 
+by the specified location or its descendants.
 
-TIP: The consortium or highest-level location always appears on the first line. The library chosen in the _Library Selector_ determines what will be displayed on the next line or lines. The workstation's preferred library, if set, will appear last, if different from the preceding lines.
+This section will show has shaded in blue if there are no physical holdings attached to the record. Records for e-resources 
+and records where physical holdings haven't been added yet display this way.
 
+[TIP]
+=====
+The consortium or highest-level location always appears on the first line. The library chosen 
+in the _Library Selector_ determines what will be displayed on the next line or lines. 
+The workstation's preferred library, if set, will appear last, if different from the preceding lines.
+=====
 
-The title control number (TCN) and the total number of holds on the record are displayed to the right of the location holdings information.
+The title control number (TCN), which is identical to the database ID in Sitka, and the total number of holds on the record are displayed to the right 
+of the location holdings information.
 
 [[_staff_cat_results_record_history]]
 Record History
 ++++++++++++++
 
-The history of the record appears on the right side of the search result. You can see when the record was created, who created it, when the record was last edited, and who last edited it.
+The history of the record appears on the right side of the search result. You can see when the 
+record was created, who created it, when the record was last edited, and who last edited it.
+
+While the library staff username is a hyperlink to the staff account, 
+you will be unable to view the account if they are not from your library or opted into your library. If there is a 
+concern about edits to a bibliographic record please contact https://bc.libraries.coop/support/[Co-op Support].
 
 [[_staff_cat_results_actions]]
 Actions
@@ -96,6 +114,7 @@ The *Add to Bucket* button allows you to add the title to a record bucket. See x
 Item Table
 ++++++++++
 
+The 
 Click *Show More Details* above the first search result to display shelving location information for each item on the Search Results page.
 
 NOTE: The *Show More Details* button will change to say *Show Fewer Details* when clicked.
@@ -113,9 +132,6 @@ Facets
 ^^^^^^
 
 Facets appear on the left side of the Search Results page. These facets are grouped by categories such as author, subject, genre, series, and more. Each category contains the most common information in your search results' MARC records.
-
-NOTE: Facets can be hidden by clicking *Hide Facets* and shown again by clicking *Show Facets*. The button label will change based on whether facets are shown.
-
 
 Click on a facet within a given category to limit the search results to the selected facet.
 
