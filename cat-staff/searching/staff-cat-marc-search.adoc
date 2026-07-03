@@ -10,11 +10,11 @@ image::images/cat/cat-menu.png[Catalogue Menu]
 +
 . Select the *MARC Search* tab. It will be open by default if it's set as your default search pane. 
 +
-image::images/staffcat/staff-cat-marc-search-1.png[]
+image::images/staffcat/search/staff-cat-marc-search-1.png[]
 +
 . When searching it's important to ensure that your desired search scope is set in the library selector.
 +
-image::images/staffcat/search/staff-cat-library-selector.png[Library selector in the staff catalogue]
+image::images/staffcat/staff-cat-library-selector.png[Library selector in the staff catalogue]
 +
 .. (MPL is the Maple Library on Sitka's training server.)
 +
