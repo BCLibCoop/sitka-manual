@@ -6,7 +6,7 @@ Co-op Support. If you are unsure what notifications your library has set up, ple
 https://bc.libraries.coop/support/[Co-op Support]. 
 
 Local system administrators can view but not edit the action trigger templates used by their 
-library see xref:_notifications_action_triggers[] for instructions. 
+library. See xref:_notifications_action_triggers[] for instructions. 
 
 Notifications are sent in two ways, depending on the notification:
 
