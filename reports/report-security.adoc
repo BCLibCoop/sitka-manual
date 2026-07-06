@@ -58,7 +58,7 @@ Personally Identifiable Information (PII) Redaction
 Personal information is defined by FIPPA as information about an identifiable person. Examples include, 
 but are not limited to: name, age, address, phone number, and email address.
 
-Patron PII will only display in report output if the staff member requesting the report has the appropriately scoped 
+Patron personally indentifiable information (PII) will only display in report output if the staff member requesting the report has the appropriately scoped 
 permissions to see the patron's information based on that staff's set of working locations and permission depth, or 
 the patron has opted-in to be visible at such a location. 
 
