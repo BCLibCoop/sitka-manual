@@ -8,11 +8,11 @@ to https://www.loc.gov/marc/[MARC 21 Format for Bibliographic Data]/
 https://www.marc21.ca/M21/BIB/B001-Sommaire.html[Normes MARC 21] 
 for more information as needed.
 
-[NOTE]
-======
+[CAUTION]
+=========
 When working with MARC Records cataloguers must follow Sitka's Cataloguing Policy for 
 http://docs.libraries.coop/policy/_editing_bibliographic_records.html[editing MARC records].
-======
+=========
 
 The Enhanced MARC Editor can be divided into five parts:
 
