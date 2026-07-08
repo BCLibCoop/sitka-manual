@@ -65,7 +65,7 @@ The _Items Checked Out_ tab shows the items currently out to the patron.
 * Overdue items will display highlighted in red.
 * Using the *Actions* menu staff can perform functions such as printing an items out receipt,
 xref:_renewing_items[renewing items], xref:_mark_items[marking items with a different status],
-and showing triggered events for notifications sent to patrons about particular items.
+and xref:_checking_for_notifications[showing triggered events for notifications sent to patrons] about particular items.
 
 [NOTE]
 ======
