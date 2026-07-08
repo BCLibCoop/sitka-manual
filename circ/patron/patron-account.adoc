@@ -21,9 +21,9 @@ fall back to the primary name if there is no preferred name.
 * Any alerts and/or blocks will appear under the patron's name.
 * Last Activity - Last time the patron accessed their account via My Account or the 
 account was accessed for 3rd party authentication.
-* Last Updated - Last time the account was updated via the *Edit* tab.
+* Last Updated - Last time the account was updated via the _Edit_ tab.
 * Create Date - Date on which the account was originally created.
-* Expire Date - Date on which the account will expire.  This can be updated via the *Edit* tab.
+* Expire Date - Date on which the account will expire.  This can be updated via the _Edit_ tab.
 * Sitka does not use Long Overdue.
 * If a library uses Homeroom or Student ID as _Primary Identification_ it will display in the ID1 field.
 * The patron's primary name displays in the Legal Name field in the summary.
@@ -42,7 +42,7 @@ image:images/circ/patron-summary-6.png[]
 Check Out Tab
 ^^^^^^^^^^^^^
 
-The check out tab allows library staff to check items out to patrons.  
+The _Check Out_ tab allows library staff to check items out to patrons.  
 
 [NOTE]
 ======
@@ -50,7 +50,7 @@ If the patron's account has been retrieved with an inactive patron barcode the c
 is grayed out and the patron will not be able to check out items.
 ======
 
-For more information on the *Check Out* tab see xref:_check_out[].
+For more information on the _Check Out_ tab see xref:_check_out[].
 
 Items Out Tab
 ^^^^^^^^^^^^^
@@ -108,7 +108,7 @@ cancelled holds.
 Open Hold Requests
 ++++++++++++++++++
 
-This tab shows holds that are waiting to be filled or are ready to be picked up by the patron.
+The _Open Hold Requests_ tab shows holds that are waiting to be filled or are ready to be picked up by the patron.
 
 image:images/circ/holds-tab-1.png[]
 
@@ -122,7 +122,7 @@ used to determine how a patron will be or should have been notified about a part
 Recently Canceled Holds
 +++++++++++++++++++++++
 
-This tab shows holds that have been cancelled.  Holds can be cancelled by the patron, by staff, or by
+The _Recently Canceled Holds_ tab shows holds that have been cancelled.  Holds can be cancelled by the patron, by staff, or by
 Evergreen.
 
 image:images/circ/holds-tab-2.png[]
@@ -138,17 +138,17 @@ See xref:_cancelling_holds[] for information on how holds are cancelled.
 Bills Tab
 ^^^^^^^^^
 
-For information on the *Bills* tab see xref:_bills_and_payments[].
+For information on the _Bills_ tab see xref:_bills_and_payments[].
 
 Notes Tab
 ^^^^^^^^^
 
-For information on the *Notes* tab see xref:_patron_notes[].
+For information on the _Notes_ tab see xref:_patron_notes[].
 
 Edit Tab
 ^^^^^^^^
 
-For information on the *Edit* tab see xref:_editing_patron_accounts[].
+For information on the _Edit_ tab see xref:_editing_patron_accounts[].
 
 Other Menu
 ^^^^^^^^^^
@@ -163,7 +163,7 @@ See xref:_checking_for_notifications[].
 |Statistical Categories | View information about any patron statistical categories assigned to the patron.
 For more information on statistical categories see xref:_statistical_categories_patron_editor[].
 |Hold Groups | View any hold groups the patron is part of. For more information on hold groups
- see xref:_hold_groups[].
+ see xref:_managing_hold_groups[].
 |Surveys | View the patron's responses to surveys. For more information on surveys
  see xref:_surveys[].
 |Group Member Details | See any groups the patron is part of.  Sitka does not recommend using patron groups.
@@ -179,6 +179,5 @@ in the same tab with the patron's barcode pre-filled.
 in the same tab with the patron's barcode pre-filled.
 |Booking: Return Reservations | This link opens the xref:_return_reservations[Booking Return] interface
 in the same tab with the patron's barcode pre-filled.
-|Completely Purge Account | Not used by Sitka. See xref:delete-patron-card[] for information on deleting
-patrons.
+|Completely Purge Account | Not used by Sitka. See xref:_deleting_patron_accounts[].
 |===
