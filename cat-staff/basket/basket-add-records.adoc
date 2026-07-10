@@ -1,0 +1,36 @@
+Adding Records to the Basket
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[TIP]
+=====
+To skip the basket and add records directly to a bucket see xref:_adding_records_to_a_record_bucket[].
+=====
+
+Records can be added to the basket singly or in batch.
+
+. Search the catalogue for the records you would like to add to a bucket, as described in
+xref:_searching_the_catalogue[].
+. Select the title you would like to add to the basket by checking the check box that appears beside
+the result number or checking the check box at the top of the result to add all results on
+the page.
++
+image::images/staffcat/basket/staff-cat-basket-add-records-1.png[]
++
+. The selected record is added to your basket and the count beside the basket icon will increase.
++
+image::images/staffcat/basket/staff-cat-basket-add-records-2.png[]
++
+. Repeat the steps as needed to add more records to your bucket.
+
+[NOTE]
+======
+You can also add all search results to a basket by clicking the *Basket Actions* button 
+and then choosing *Add All Search Results*.
+
+image::images/staffcat/basket/staff-cat-basket-add-search-results-1.png[]
+ 
+Use this option cautiously as the more search results you have the longer this will take.
+======
+
+
+

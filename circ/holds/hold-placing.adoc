@@ -21,7 +21,7 @@ in the search result list, or on the record summary screen.
 +
 image:images/circ/holds/title-hold-1.png[scaledwidth="75%"]
 +
-. Enter patron's barcode if you have it or click *Search for Patron*.
+. Enter the patron's barcode if you have it or click *Search for Patron*.
 .. You can also use the radio buttons to select the logged in staff account.
 +
 image:images/circ/holds/title-hold-2.png[scaledwidth="75%"]
@@ -65,7 +65,7 @@ image:images/circ/metahold2.png[scaledwidth="75%"]
 Group Formats and Editions Search
 +++++++++++++++++++++++++++++++++
 
-. On the *Keyword Search* tab, check the box for *Group Formats and Editions*. Enter your search
+. On the _Keyword Search_ tab, check the box for *Group Formats and Editions*. Enter your search
  terms and click *Search*.
 +
 image:images/circ/holds/group-formats-1.png[scaledwidth="75%"]
@@ -78,7 +78,7 @@ image:images/circ/holds/group-formats-2.png[scaledwidth="75%"]
 +
 image:images/circ/holds/group-formats-3.png[scaledwidth="75%"]
 +
-. Enter patron's barcode if you have it or click *Search for Patron*. Edit the patron 
+. Enter the patron's barcode if you have it or click *Search for Patron*. Edit the patron 
 notification fields if necessary and click *Place Hold(s)*. 
 .. Any method or contact number entered on this screen will override defaults in patron record 
 and will be used for display and print purposes for this hold.
@@ -116,7 +116,7 @@ Placing Holds via a Patron Account
 link:https://youtu.be/CBvMWZMgA24[*Sitka Snippet Video - Placing Holds from the Patron Account (1:03)*]
 
 
-. Click the *Holds* tab in the patron's account .
+. Click the _Holds_ tab in the patron's account .
 . Click *Place Hold*.
 +
 image:images/circ/patron-place-hold-1.png[scaledwidth="75%"]
@@ -144,7 +144,7 @@ image:images/circ/holds/hold-group-place-hold-1.png[scaledwidth="75%"]
 +
 image:images/circ/holds/hold-group-place-hold-2.png[scaledwidth="75%"]
 +
-. The group will be opened on the *Current Users* tab. Click on the *Hold Events* tab.
+. The group will be opened on the _Current Users_ tab. Click on the _Hold Events_ tab.
 +
 image:images/circ/holds/hold-group-place-hold-3.png[scaledwidth="75%"]
 +

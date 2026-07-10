@@ -2,17 +2,13 @@ Search Templates
 ~~~~~~~~~~~~~~~~
 
 Search templates allow you to save search options and inputs for future use. You can create search templates 
-using any search pane. Since the _Keyword Search_ pane contains 
+using any xref:_search_panes[search pane]. Since the _Keyword Search_ pane contains 
 the most options, search templates are most useful on this pane. 
-
-////
-Link to be added back in above when new sections ready.  xref:_search_panes[search pane]
-////
 
 The search templates can be accessed by clicking *Search Templates* below the library selector in the top-right corner 
 on the staff catalogue page.
 
-image::images/staffcat/staff-cat-search-templates-1.png[]
+image::images/staffcat/configure/staff-cat-search-templates-1.png[]
 
 Creating a Search Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -37,18 +33,18 @@ Checkbox selections will not be saved in a search template.
 . You may also add additional search rows. If you use multiple search rows, you can make a selection in the _Join With_ field.
 . Click *Search Templates* -> *Save Template*.
 +
-image::images/staffcat/staff-cat-search-templates-2.png[]
+image::images/staffcat/configure/staff-cat-search-templates-2.png[]
 +
 . A pop-up will appear. Enter a brief, descriptive name and click *Save*.
 +
-image::images/staffcat/staff-cat-search-templates-3.png[]
+image::images/staffcat/configure/staff-cat-search-templates-3.png[]
 +
 [TIP]
 =====
 Use unique names that describe the selected search settings when naming your search templates.
 =====
 + 
-. The template will now appear in the *Search Templates* menu.
+. The template will now appear in the drop down.
 
 
 
@@ -57,11 +53,11 @@ Using a Search Template
 
 . To use a saved template, click *Search Templates* located below the library selector in the top-right corner. 
 +
-image::images/staffcat/staff-cat-search-templates-4.png[]
+image::images/staffcat/configure/staff-cat-search-templates-4.png[]
 + 
 . Select a template from the list in the drop down menu that appears.
 +
-image::images/staffcat/staff-cat-search-templates-5.png[]
+image::images/staffcat/configure/staff-cat-search-templates-5.png[]
 + 
 . The template will load and search criteria will be updated. You can now perform your search.
 
@@ -71,7 +67,7 @@ Deleting a Search Template
 
 You can delete all your search templates at once or individual search templates.
 
-image::images/staffcat/staff-cat-search-templates-6.png[Search Templates menu with Delete Selected and Delete All Templates highlighted] 
+image::images/staffcat/configure/staff-cat-search-templates-6.png[Search Templates menu with Delete Selected and Delete All Templates highlighted] 
 
 To delete an individual template:
 

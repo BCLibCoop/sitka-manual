@@ -87,7 +87,7 @@ Commonly Used Tables
 ~~~~~~~~~~~~~~~~~~~~
 
 ILS User Table
-++++++++++++++
+^^^^^^^^^^^^^^
 
 This table contains patron/user records. Important fields in this table include:
 
@@ -103,7 +103,7 @@ for patron's current barcode, the _Circulation_ table to find the circulation hi
 _Mailing Address_, _Physical Address_, and _Main Profile Group_, etc.
 
 Item Table
-++++++++++
+^^^^^^^^^^
 
 This table contains item records. Important fields in this table include:
 
@@ -129,7 +129,7 @@ here go to the _Bib Record_ table and then click on _Simple Records Extracts_.  
 ISSN, Publisher, Publication Year, and Record ID can be found in this table.
 
 Bibliographic Record Table
-++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This table contains title information. In most cases you will want the basic bibliographic information
 which is found within the _Simple Record Extract_ table.  When linking from other tables you usually have
@@ -137,7 +137,7 @@ to link through the _Call Number/Volume_ table to find the _Bib Record_ table.
 
 
 Circulation Table
-+++++++++++++++++
+^^^^^^^^^^^^^^^^^
 
 This table contains circulation records, including pre-catalogued item circulations. 
 
@@ -168,7 +168,7 @@ For patron information follow the link to the _Patron_ table.
 For item information follow the link to the _Circulating Item_ table.
 
 In-house Use Table
-++++++++++++++++++
+^^^^^^^^^^^^^^^^^^
 
 This table contains in-house use records for catalogued items.  These in-house circulations are done via
 the xref:_catalogued_items[_Record In-House Use_] interface.
@@ -176,7 +176,7 @@ the xref:_catalogued_items[_Record In-House Use_] interface.
 For item information follow the link to the _Item_ table.
 
 Non-catalogued Circulation Table
-++++++++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This table contains circulations for xref:_non_catalogued_items[non-catalogued items]. 
 
@@ -185,7 +185,7 @@ the _Non-cat Item Type_ table.
 
 
 Non-catalogued In-house Use Table
-+++++++++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This table contains in-house use records for non-catalogued items. 
 
@@ -196,7 +196,7 @@ For xref:_non_catalogued_type_editor[Non-catalogued item type] information follo
 the _Item Type_ table.
 
 Hold Request Table
-++++++++++++++++++
+^^^^^^^^^^^^^^^^^^
 
 This table contains hold records for holds that are waiting to be filled or waiting to be picked up.
 
@@ -240,7 +240,7 @@ Date/Time which indicates when the automatic notification was sent.
 
  
 Item Transit Table
-++++++++++++++++++
+^^^^^^^^^^^^^^^^^^
 
 This table contains records of item transits.  Records are created in this table both when an item
 is sent back to its circulating library as well as when it is sent to another library to fill a hold.
@@ -248,7 +248,7 @@ is sent back to its circulating library as well as when it is sent to another li
 For item information follow the link to the _Transited Item_ table.
  
 Hold Transit Table
-++++++++++++++++++
+^^^^^^^^^^^^^^^^^^
 
 This table contains records of item transits specifically when the item is transitting to fill a hold. 
 
@@ -257,7 +257,7 @@ For item information follow the link to the _Transited Item_ table.
 For hold information follow the link to the _Hold requiring transit_ table.
 
 Billing Line Item Table
-+++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^
 
 This table contains all the billing line items such as each day's overdue fines and the manually created 
 bills. 
@@ -266,7 +266,7 @@ The records in this table are viewable on the Full Details screen on Bills tab i
 in the staff client.
  
 Billable Transaction with Billing Location Table
-++++++++++++++++++++++++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This table contains the summary records of billings and payments. 
 
@@ -282,7 +282,7 @@ for manually created bills
 * Transaction Finish Time - this is when the bill is resolved by being paid, refunded, or adjusted to zero
 
 Payments: All Table
-+++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^
 
 This table contains ALL payment records. 
 
@@ -292,19 +292,19 @@ or multiple depending on the number of bills resolved or partially resolved by t
 One bill may be resolved by multiple payments. One payment may resolve multiple bills.
  
 Payments: Brick-and-mortar Table
-++++++++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This table contains all payments made at the circulation desk through staff.  
 
 
 Payments: Desk Table
-++++++++++++++++++++ 
+^^^^^^^^^^^^^^^^^^^^
 
 This table contains payments made using the payment type Cash, Check, Credit Card, or Debit Card.
 
  
 Payments: Non-drawer Staff Table
-++++++++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This table contains payments made using the payment type Patron Credit, Work, Forgive, or Goods.
 

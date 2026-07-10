@@ -37,16 +37,6 @@ Reporter playlist (21:52)*]
 
 ======
 
-[TIP]
-=====
-Know which library staff at your library have recurring reports set up and make sure to stop those reports
-when the staff member leaves your library.  
-
-Once a xref:_closing_library_staff_accounts[library staff account is closed] it is no longer possible to 
-access the reporter via the staff client and you will require assistance from Co-op Support to stop any 
-recurring reports run by the library staff account.
-=====
-
 Report templates tell Evergreen what fields are to be displayed in the report output and
 what conditions to filter on in the database. These templates 
 allow you to run a report more than once, without building it anew every time.  Co-op Support has
@@ -59,7 +49,7 @@ the xref:_the_evergreen_database[Evergreen database].
 When a xref:_running_a_report[report is run] Evergreen looks at the values defined for the filters in the 
 report definition and then goes through the database and gathers the records that meet the conditions 
 into an output file. The output file can be viewed xref:_viewing_output_via_the_reporter[via the reporter 
-within the staff client] or via the xref:_viewing_output_via_the_email_link[link in the report completion 
+within the staff client] or xref:_viewing_output_via_the_email_link[via the link in the report completion 
 email].
 
 Any staff needing to view report output, but not run reports, must sign and submit the 
@@ -67,3 +57,13 @@ https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/all-staff-report
 Staff Reporter Privacy Waiver].  Once the waiver is completed, if the staff account meets the 
 https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[required criteria],
 Co-op Support will grant report output viewing permissions to the account. 
+
+[TIP]
+=====
+Know which library staff at your library have recurring reports set up and make sure to stop those reports
+when the staff member leaves your library.  
+
+Once a xref:_closing_library_staff_accounts[library staff account is closed] it is no longer possible to 
+access the reporter via the staff client and you will require assistance from Co-op Support to stop any 
+recurring reports run by the library staff account.
+=====

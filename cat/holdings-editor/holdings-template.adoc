@@ -88,9 +88,9 @@ When importing holdings templates, existing templates will be kept and new ones 
 the same name will be overlaid by the new templates.
 =====
 
+[[_sharing_holdings_templates_via_the_holdings_editor]]
 Via the Holdings Editor
 +++++++++++++++++++++++
-[_sharing_holdings_templates_via_the_holdings_editor]
 
 . In the Holdings Editor click *Export All Templates*.
 +
@@ -107,9 +107,9 @@ image::images/cat/holdings/holdings-template-7.png[]
 . Follow the prompts to locate the templates file to be loaded. Click *Open*.
 . The templates will be imported.
 
+[[_sharing_holdings_templates_via_local_administration]]
 Via Local Administration
 ++++++++++++++++++++++++
-[_sharing_holdings_templates_via_local_administration]
 
 . In Evergreen go to *Administration -> Local Administration -> Holdings Template Editor*.
 . In the Holdings Template Editor click *Export*.

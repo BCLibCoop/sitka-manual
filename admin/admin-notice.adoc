@@ -6,7 +6,7 @@ Co-op Support. If you are unsure what notifications your library has set up, ple
 https://bc.libraries.coop/support/[Co-op Support]. 
 
 Local system administrators can view but not edit the action trigger templates used by their 
-library see xref:action-triggers[Action Triggers] for instructions. 
+library. See xref:_notifications_action_triggers[] for instructions. 
 
 Notifications are sent in two ways, depending on the notification:
 
@@ -14,7 +14,7 @@ Notifications are sent in two ways, depending on the notification:
 * Mail - sent to the library as a PDF to be printed and mailed out 
 
 Email Notifications
-^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~
 (((Email Notifications)))
 (((Notifications, Email)))
 
@@ -44,7 +44,7 @@ unchecked patrons will not receive courtesy, overdue, autorenew, emergency closi
 new patron, patron account expiration, or fine limit exceeded notifications. 
 
 Checking for Notifications
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 (((Patron Notifications, Action Triggers)))
 (((Triggered Events)))
 

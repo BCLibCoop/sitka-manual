@@ -1,0 +1,135 @@
+[[_staff_cat_batch_actions_through_the_basket]]
+Batch Actions Through the Basket
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The *Basket Actions* menu, found by clicking on the *Basket Actions* button in the bottom right of the _Search Form_, 
+lets you view the contents of the basket, batch place holds, print or email the title details for all titles, 
+add the contents of the basket to a bucket, export records, and clear the basket.
+
+[[_staff_cat_view_basket]]
+View Basket
+^^^^^^^^^^^
+
+The contents of the basket can be viewed in two ways:
+
+. Click *Basket Actions* and from the drop down select *View Basket*.
++
+image::images/staffcat/basket/staff-cat-basket-view-basket-1.png[]
++
+. Click the basket icon in the search form, located to the left of the *Basket Actions* button.
++
+image::images/staffcat/basket/staff-cat-basket-view-basket-2.png[]
+
+
+
+[NOTE]
+======
+Records appear in the basket as they appear in the search results, although _Facets_ are unavailable in the basket.
+======
+
+[[_staff_cat_basket_place_holds]]
+Place Hold
+^^^^^^^^^^
+
+You can place a title level hold on every item in the basket
+
+. Click the *Basket Actions* button in the bottom right of the _Search Form_.
+. Select *Place Hold* from the drop down menu.
++
+image::images/staffcat/basket/staff-cat-basket-place-hold-1.png[]
++
+. Enter the patron's barcode if you have it or click *Search for Patron*.
+.. You can also use the radio buttons to select the logged in staff account.
++
+image:images/circ/holds/title-hold-2.png[scaledwidth="75%"]
++
+. The selected patron's information will populate.  Edit notification methods and pickup 
+location if necessary and click *Place Hold(s)*. 
+.. Any method or contact number entered on this screen will override defaults in patron record 
+and will be used for display and print purposes for this hold.
++
+image::images/staffcat/basket/staff-cat-basket-place-hold-2.png[]
++
+. The _Holds Status_ field will update to indicate whether or not the holds were sucessfully placed.
+See xref:_hold_placement_status_messages[] for the possible messages.
+You can now place another hold for these titles or click *Return* to go back to the search 
+results.
++
+image::images/staffcat/basket/staff-cat-basket-place-hold-3.png[]
+
+[[_staff_cat_basket_print_title_details]]
+Print Title Details
+^^^^^^^^^^^^^^^^^^^
+
+. Click the *Basket Actions* button in the bottom right of the _Search Form_.
+. Select *Print Title Details* from the drop down menu.
++
+image::images/staffcat/basket/staff-cat-basket-print-title-details-1.png[]
++
+. A printer-friendly version of the basket will appear. Records appear in the same order as in the basket and are numbered.
+. Print using your browser's functionality. 
+
+[NOTE]
+======
+The information that displays for each listed bibliographic record may vary depending on the information in the record. 
+Bibliographic ID number, ISBN, ISSN, UPC, title, author, publisher, publication date, and item type can be included.
+======
+
+[[_staff_cat_basket_email_title_details]]
+Email Title Details
+^^^^^^^^^^^^^^^^^^^
+. Click the *Basket Actions* button in the bottom right of the _Search Form_.
+. Select *Email Title Details* from the drop down menu.
++
+image::images/staffcat/basket/staff-cat-basket-email-title-details-1.png[]
++
+. A plaintext version of the of the basket will be emailed to the address associated with the library staff account currently 
+logged into the staff client. Records appear in the same order as in the basket and are numbered. 
+
+[NOTE]
+======
+The information that displays for each listed bibliographic record may vary depending on the information in the record. 
+Bibliographic ID number, ISBN, ISSN, UPC, title, author, publisher, publication date, and item type can be included.
+======
+
+[[_staff_cat_basket_to_bucket]]
+Add Basket to Bucket
+^^^^^^^^^^^^^^^^^^^^
+
+Instructions for adding a basket to a bucket can be found in 
+xref:_adding_records_to_a_record_bucket_via_the_staff_catalogue[].
+
+[[_staff_cat_basket_esport_records]]
+Export Records
+^^^^^^^^^^^^^^
+
+. Click the *Basket Actions* button in the bottom right of the _Search Form_.
+. Select *Export Records* from the drop down menu.
++
+image::images/staffcat/basket/staff-cat-basket-export-records-1.png[]
++
+. The _Export_ tab of the _MARC Batch Import/Export_ interface opens.
+. Select the desired _Record Format_ from the drop down menu. You may choose MARC21, UNIMARC, MARC XML, or Evergreen Record Entry.
+. Select the desired _Record Encoding_ from the dropdown menu. You may choose UTF-8 or MARC8.
+. If you wish to include holdings in the records export, check the checkbox. 
+. Click *Export* to download the file.
++
+image::images/staffcat/basket/staff-cat-basket-export-records-2.png[]
++
+. A file will download to your browser and can then be downloaded to your computer.
+
+[[_staff_cat_basket_clear_basket]]
+Clear Basket
+^^^^^^^^^^^^
+
+. Click the *Basket Actions* button in the bottom right of the _Search Form_.
+. Select *Clear Basket* from the drop down menu.
++
+image::images/staffcat/basket/staff-cat-basket-clear-1.png[]
++
+. The contents of the basket are removed and the count beside the basket icon will be zero.
+
+[NOTE]
+======
+The basket will also empty every time you log out of Evergreen.
+======

@@ -6,7 +6,7 @@ takes time, so please ensure you https://bc.libraries.coop/support/[contact Co-o
 requested changes at least one week before you want the changes live.
 
 Appearance
-^^^^^^^^^^
+~~~~~~~~~~
 
 Each library can customize the Evergreen public catalogue with their logo and colours. 
 
@@ -40,7 +40,7 @@ A temporary banner with text and links can be applied across the top of your pub
 banner for Sitka's Evergreen upgrade will override local banners.
 
 Search Library Scope
-^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~
 
 Libraries participating in reciprocal borrowing agreements that allow patrons to place holds, 
 like Interlibrary Connect, have three option for how their public catalogue scopes.
@@ -51,7 +51,7 @@ like Interlibrary Connect, have three option for how their public catalogue scop
 
 [[_request_a_library_card_custom]]
 Request a Library Card
-^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~
 
 Libraries which allow patrons to self register using the xref:_request_a_library_card[Request a Library Card] functionality
 can add custom text between the form fields and the *Submit Registration* button.  This can be used to include information about why the library is collecting
@@ -66,7 +66,7 @@ bottom of the form or for the registration confirmation page.
 
 
 My Account Login
-^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~
 
 The text on the My Account login page can be customized if your library has specific information that patrons
 need for logging in that isn't covered by the default text.
@@ -86,7 +86,7 @@ wording about a default PIN or using the last 4 digits of the patron's phone num
 
 
 Patron Settings
-^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~
 
 The ability for a patron to change their email can be disabled for libraries that require patrons 
 to use an institution issued email address.
