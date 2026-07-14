@@ -6,24 +6,21 @@ link:https://www.youtube.com/watch?v=51LbKxtnETY[*Serials Training Video - Seria
 Serial Item Templates
 ~~~~~~~~~~~~~~~~~~~~~~
 
-link:https://youtu.be/A2xKgU4Ddwo[*Serials Training Video - Serial Copy Templates (2:30)*]
-
-Serial Item Templates specify the item attributes that should be applied when a serial item is received. You must create at least one template to receive serials.
+Serial item templates specify the item attributes that should be applied when a serial item is received. You must 
+create at least one template to receive serials.
 
 Create a Serial Item Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Click *Administration* -> *Serials Administration* -> *Serial Item Templates*.
-+
-image::images/serials/serialsadminitemtemp.png[scaledwidth="75%"]
-+
+. Go to *Administration* -> *Serials Administration* -> *Serial Item Templates*.
 . Click *Create Template*.
 +
 image::images/serials/itemtemplate.png[scaledwidth="75%"]
 +
 . Enter a _Template Name_.
 +
-. Choose the item attributes for this template.
+. Choose the applicable item attributes for your template. For more information on specific item
+attributes see xref:_item_attributes[].
 +
 . Click *Save*.
 +
@@ -32,7 +29,7 @@ image::images/serials/itemtemplate1.png[scaledwidth="75%"]
 Edit a Serial Item Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Click *Administration* -> *Serials Administration* -> *Serial Item Templates*.
+. Go to *Administration* -> *Serials Administration* -> *Serial Item Templates*.
 
 . Click the check box beside the template you want to edit.
 
@@ -57,7 +54,11 @@ Delete a Serial Item Template
 image::images/serials/itemtemplate4.png[scaledwidth="75%"]
 ////
 
-NOTE: Serial Item Templates cannot be deleted.
+
+[NOTE]
+======
+Serial Item Templates cannot be deleted.
+========
 
 Prediction Pattern Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -65,19 +66,17 @@ Prediction Pattern Templates
 Create a Prediction Pattern Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Click *Administration* -> *Serials Administration* -> *Prediction Pattern Templates*.
-+
-image::images/serials/serialsadminprediction.png[scaledwidth="75%"]
+. Go to *Administration* -> *Serials Administration* -> *Prediction Pattern Templates*.
 +
 . Click *New Record*.
 +
 image::images/serials/prediction1.png[scaledwidth="75%"]
 +
-. Enter a *Name*.
+. Enter a name for your prediction pattern.
 +
 . Click *Pattern Wizard*. The wizard has five tabs that will take you through the steps to create a prediction pattern for your publication.
 +
-image::images/serials/prediction2.png[scaledwidth="75%"]
+image::images/serials/create-prediction-pattern-2.png[scaledwidth="75%"]
 +
 .. See xref:_pattern_wizard[] for detailed instructions.
 
@@ -119,7 +118,7 @@ Pattern Wizard
 
 . Click *Next*
 
-image:images/serials/pattern1.png[scaledwidth="75%"]
+image:images/serials/pattern-wizard-1.png[scaledwidth="75%"]
 
 .*Chronology display*
 . Check the box adjacent to *Use Chronology Captions?*
@@ -132,7 +131,7 @@ image:images/serials/pattern1.png[scaledwidth="75%"]
 . Check the box adjacent to Use Alternative Chronology Captions? If the publication uses alternative chronology.
 . Click *Next*
 
-image:images/serials/pattern2.png[scaledwidth="75%"]
+image:images/serials/pattern-wizard-2.png[scaledwidth="75%"]
 
 .*MFHD Indicators*
 . Choose a *Compression Display Option*
@@ -143,7 +142,7 @@ image:images/serials/pattern2.png[scaledwidth="75%"]
 .. Sitka recommends *Captions verified; all levels present*
 . Click *Next*
 
-image:images/serials/pattern3.png[scaledwidth="75%"]
+image:images/serials/pattern-wizard-3.png[scaledwidth="75%"]
 
 .*Frequency and Regularity*
 . Click the radio button for *Pre-selected* and choose the frequency from the drop down menu.
@@ -156,21 +155,23 @@ image:images/serials/pattern3.png[scaledwidth="75%"]
 ... E.g., for a monthly combined issue, enter 02/03 to specify that February and March are combined.
 . Click *Next*
 +
-image:images/serials/pattern4.png[scaledwidth="75%"]
+image:images/serials/pattern-wizard-4.png[scaledwidth="75%"]
 
 .*Review*
 . Review the *Pattern Summary*
 .. Click the blue arrows to see the *Raw Pattern Code*
 +
-image:images/serials/pattern5.png[scaledwidth="75%"]
+image:images/serials/pattern-wizard-5.png[scaledwidth="75%"]
 +
 . Click *Save*
++
+image:images/serials/pattern-wizard-6.png[scaledwidth="75%"]
 
 
 Edit a Prediction Pattern Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Click *Administration* -> *Serials Administration* -> *Prediction Pattern Templates*.
+. Go to *Administration* -> *Serials Administration* -> *Prediction Pattern Templates*.
 
 . Click the check box beside the template you want to edit.
 
@@ -183,18 +184,21 @@ NOTE: Prediction Patterns can be edited after creation as long as all predicted 
 Delete a Prediction Pattern Template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Click *Administration* -> *Serials Administration* -> *Prediction Pattern Templates*.
+. Go to *Administration* -> *Serials Administration* -> *Prediction Pattern Templates*.
 . Click the check box beside the template you want to delete.
 . Click *Actions* -> Choose *Delete Selected*.
 +
 image::images/serials/prediction7.png[scaledwidth="75%"]
 
-NOTE: Prediction Pattern Templates that are being used by subscriptions cannot be deleted.
+[NOTE]
+======
+Prediction pattern templates that are being used by subscriptions cannot be deleted.
+======
 
 Serials Settings
 ~~~~~~~~~~~~~~~~
 
-Click *Administration* -> *Local Administration* -> *Library Settings Editor*.
+Go to *Administration* -> *Local Administration* -> *Library Settings Editor*.
 
 The following settings should be configured in the Library Settings Editor before you start using the Serials module.
 
