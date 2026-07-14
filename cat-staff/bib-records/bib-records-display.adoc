@@ -96,7 +96,7 @@ library setting _Patron view discovery layer URL_ determines what public catalog
 * *Place Hold* - See xref:_placing_title_level_holds[].
 * *Add Holdings* - See xref:_adding_holdings[].
 * *Serials -> Quick Receive* - See xref:_serials_receiving[].
-* *Serials -> Manage Subscriptions* - See xref:_create_and_manage_subscriptions[].
+* *Serials -> Manage Subscriptions* - See xref:_serials_subscriptions[].
 * *Serials -> Manage MFHDs* 
 * *Mark For... -> Conjoined Items*
 * *Mark For... -> Overlay Target* - See xref:_overlaying_records_via_z39_50_interface[].
