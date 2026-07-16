@@ -16,7 +16,7 @@ MARC record fields are:
 
 * *Type* is Leader position 06 - Type of record
 * *Bib Level* is Leader position 07 - Bibliographic level
-* *Content Type* is 336 $a - Content type term
+* *Content Type* is 336 subfield a - Content type term
 * *Form* is 008 position 23 - Form of item , except when Type = e, f, or g then it's position 29
 * *Media Type* is 337 subfield a - Media type term
 * *Speed* is 007 position 03 - Speed
@@ -55,7 +55,7 @@ a, b, c, f, o, q, or s
 | Music (CD, cassette) | Type = j
 | Music Scores | Type = c or d
 | Pictures | Type = k
-| Preloaded Audio | (Type = i *AND* Form = q) *OR* ((Media Type = audio *AND* Content Type = spoken word) *AND* 
+| Preloaded Audio | (Type = i *AND* Form = q) *OR* ((Media Type = audio *OR* Content Type = spoken word) *AND* 
 Format Icon = Book))
 | Serials and Magazines | Bib Level = b or s
 | Serials and Magazines (electronic) | Bib Level = s *AND* Form = q, o, or s
