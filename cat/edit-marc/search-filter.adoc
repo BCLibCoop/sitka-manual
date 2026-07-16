@@ -74,37 +74,37 @@ table shows the leader and control field values associated with each format icon
 [options="header"]
 |===
 | Format Icon Label | Leader and Control Field Values
-| E-video | Type = g *AND* Form = o, s, or q
-| DVD | Video Format = v
-| VHS | Video Format = b
-| Blu-ray | Video Format = s
 | Audio Device | Type = i *AND* Form = q
 | Audiobook (shown if format, eg. cassette, disc, is unknown) | Type = i *but NOT* 
 Form = o, q, or s *and NOT* Speed = a, b, c, d, e, l, or f
-| E-audiobook | Type = i *AND* Form = o or s
-| CD Audiobook | Type = i *AND* Speed = f
-| Cassette audiobook | Type = i *AND* Speed = l
-| Phonograph audiobook | Type = i *AND* Speed = a, b, c, d, or e
+| Blu-ray | Video Format = s
 | Book | Type = a or t *AND* Bib Level = a, c, d, or m *but NOT* Form = a, b, c, d, f, o, q, r, or s
-| E-Book | Type = a or t *AND* Bib Level = a, c, d, or m *AND* Form = o, q, or s
-| Large print book | Type = a or t *AND* Bib Level = a, c, d, or m *AND* Form = d
 | Braille | Type = a *AND* Form = f
+| Cassette audiobook | Type = i *AND* Speed = l
+| Cassette music | Type = j *AND* Speed = l
+| CD Audiobook | Type = i *AND* Speed = f
+| CD music | Type = j *AND* Speed = f
+| DVD | Video Format = v
+| E-audiobook | Type = i *AND* Form = o or s
+| E-Book | Type = a or t *AND* Bib Level = a, c, d, or m *AND* Form = o, q, or s
+| E-Serial or magazine | Bib Level = b or s *AND* Form = o, s, or q
+| E-video | Type = g *AND* Form = o, s, or q
 | Kit or mixed material | Type = o or p
+| Large print book | Type = a or t *AND* Bib Level = a, c, d, or m *AND* Form = d
 | Map | Type = e or f
+| Microform | Form = a, b, or c
 | Music (shown if format, eg. cassette, disc, is unknown) | Type = j *but NOT* Speed = 
 a, b, c, d, e, f, or l
-| Phonograph music | Type = j *AND* Speed = a, b, c, d, or e
-| CD music | Type = j *AND* Speed = f
-| Cassette music | Type = j *AND* Speed = l
 | Music score | Type = c or d
+| Online | Bib Level = i *AND* Form = o, s, or q
+| Phonograph audiobook | Type = i *AND* Speed = a, b, c, d, or e
+| Phonograph music | Type = j *AND* Speed = a, b, c, d, or e
+| Picture | Type = k
 | Preloaded Audio | (Type = i *AND* Form = q) *OR* ((Media Type = audio *AND* Content Type = spoken word) *AND* 
 Format Icon = Book))
-| Picture | Type = k
 | Serial or magazine | Bib Level = b or s *but NOT* Form = o, s, or q
-| E-Serial or magazine | Bib Level = b or s *AND* Form = o, s, or q
 | Software or video game | Type = m
-| Online | Bib Level = i *AND* Form = o, s, or q
 | Toys, puzzles or equipment | Type = r
-| Microform | Form = a, b, or c
+| VHS | Video Format = b
 | Video (shown if format, eg. vhs, dvd, is unknown) | Type = g *but NOT* Video Format = v, s, or b
 |===
