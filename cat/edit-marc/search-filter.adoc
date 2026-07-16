@@ -11,18 +11,17 @@ search results.  See xref:_leader_and_008_field_grid[] and
 xref:_physical_characteristics_wizard[] for instructions on how to edit these fields
 in Evergreen.
 
-////
-NOTE: Link to policy on editing the leader and fixed fields to go here
-////
-
-The terminology used in the Search Filter and Format Icon tables to indicate characters
-of the leader and control fields are:
+The terminology used in the Search Filter and Format Icon tables to indicate characters and values of
+MARC record fields are:
 
 * *Type* is Leader position 06 - Type of record
 * *Bib Level* is Leader position 07 - Bibliographic level
+* *Content Type* is 336 subfield a - Content type term
 * *Form* is 008 position 23 - Form of item , except when Type = e, f, or g then it's position 29
+* *Media Type* is 337 subfield a - Media type term
 * *Speed* is 007 position 03 - Speed
 * *Video Format* is 007 position 04 - Videorecording Format
+
 
 Search Filters
 ^^^^^^^^^^^^^^
@@ -43,6 +42,7 @@ of "s" or "o" are excluded.
 | All Books |Type = a or t *AND* Bib Level = a, c, d, or m *but NOT* Form = a, b, c, or f
 | All Electronic Resources | Form = o or s
 | All Videos | Type = g
+| Audio Device | Type = i *AND* Form = q
 | Audiobooks (electronic) | Type = i *AND* Form = o or s
 | Audiobooks (physical) | Type = i *AND* Speed = l or f
 | Books (electronic) | Type = a or t *AND* Bib Level = a, c, d, or m *AND* Form = o, q, or s
@@ -55,7 +55,8 @@ a, b, c, f, o, q, or s
 | Music (CD, cassette) | Type = j
 | Music Scores | Type = c or d
 | Pictures | Type = k
-| Preloaded Audio | Type = i *AND* Form = q
+| Preloaded Audio | (Type = i *AND* Form = q) *OR* ((Media Type = audio *OR* Content Type = spoken word) *AND* 
+Format Icon = Book))
 | Serials and Magazines | Bib Level = b or s
 | Serials and Magazines (electronic) | Bib Level = s *AND* Form = q, o, or s
 | Software and Video Games | Type = m
@@ -73,35 +74,37 @@ table shows the leader and control field values associated with each format icon
 [options="header"]
 |===
 | Format Icon Label | Leader and Control Field Values
-| Video (shown if format, eg. vhs, dvd, is unknown) | Type = g *but NOT* Video Format = v, s, or b
-| E-video | Type = g *AND* Form = o, s, or q
-| DVD | Video Format = v
-| VHS | Video Format = b
-| Blu-ray | Video Format = s
+| Audio Device | Type = i *AND* Form = q
 | Audiobook (shown if format, eg. cassette, disc, is unknown) | Type = i *but NOT* 
 Form = o, q, or s *and NOT* Speed = a, b, c, d, e, l, or f
-| E-audiobook | Type = i *AND* Form = o or s
-| CD Audiobook | Type = i *AND* Speed = f
-| Cassette audiobook | Type = i *AND* Speed = l
-| Phonograph audiobook | Type = i *AND* Speed = a, b, c, d, or e
+| Blu-ray | Video Format = s
 | Book | Type = a or t *AND* Bib Level = a, c, d, or m *but NOT* Form = a, b, c, d, f, o, q, r, or s
-| E-Book | Type = a or t *AND* Bib Level = a, c, d, or m *AND* Form = o, q, or s
-| Large print book | Type = a or t *AND* Bib Level = a, c, d, or m *AND* Form = d
 | Braille | Type = a *AND* Form = f
+| Cassette audiobook | Type = i *AND* Speed = l
+| Cassette music | Type = j *AND* Speed = l
+| CD Audiobook | Type = i *AND* Speed = f
+| CD music | Type = j *AND* Speed = f
+| DVD | Video Format = v
+| E-audiobook | Type = i *AND* Form = o or s
+| E-Book | Type = a or t *AND* Bib Level = a, c, d, or m *AND* Form = o, q, or s
+| E-Serial or magazine | Bib Level = b or s *AND* Form = o, s, or q
+| E-video | Type = g *AND* Form = o, s, or q
 | Kit or mixed material | Type = o or p
+| Large print book | Type = a or t *AND* Bib Level = a, c, d, or m *AND* Form = d
 | Map | Type = e or f
+| Microform | Form = a, b, or c
 | Music (shown if format, eg. cassette, disc, is unknown) | Type = j *but NOT* Speed = 
 a, b, c, d, e, f, or l
-| Phonograph music | Type = j *AND* Speed = a, b, c, d, or e
-| CD music | Type = j *AND* Speed = f
-| Cassette music | Type = j *AND* Speed = l
 | Music score | Type = c or d
-| Preloaded Audio | Type = i *AND* Form = q
-| Picture | Type = k
-| Serial or magazine | Bib Level = b or s *but NOT* Form = o, s, or q
-| E-Serial or magazine | Bib Level = b or s *AND* Form = o, s, or q
-| Software or video game | Type = m
 | Online | Bib Level = i *AND* Form = o, s, or q
+| Phonograph audiobook | Type = i *AND* Speed = a, b, c, d, or e
+| Phonograph music | Type = j *AND* Speed = a, b, c, d, or e
+| Picture | Type = k
+| Preloaded Audio | (Type = i *AND* Form = q) *OR* ((Media Type = audio *AND* Content Type = spoken word) *AND* 
+Format Icon = Book))
+| Serial or magazine | Bib Level = b or s *but NOT* Form = o, s, or q
+| Software or video game | Type = m
 | Toys, puzzles or equipment | Type = r
-| Microform | Form = a, b, or c
+| VHS | Video Format = b
+| Video (shown if format, eg. vhs, dvd, is unknown) | Type = g *but NOT* Video Format = v, s, or b
 |===
