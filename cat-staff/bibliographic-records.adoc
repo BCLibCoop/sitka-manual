@@ -1,7 +1,7 @@
 Viewing Bibliographic Records
 -----------------------------
 
-Each title in the catalogue is represented by bibliographic record. This record contains detailed information 
+Each title in the catalogue is represented by a bibliographic record. This record contains detailed information 
 about the title. There may be multiple records for a given title if the title has multiple editions, formats, 
 or publishers in your catalogue. While the goal is to have one MARC record in the database for each discrete 
 bibliographic title which all libraries add their holdings to, in practice this doesn't always happen so libraries
