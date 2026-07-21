@@ -77,7 +77,7 @@ _Hold Shelf Status Delay_.
 |Suspended | The hold is suspended and will not be filled until it is automatically or manually activated.
 |Waiting for Capture | An available item has been assigned to the hold but it hasn't been captured
 for the hold yet.  The item will display on the 
-xref:_pull_list_for_hold_requests[_Pull List for Hold Requests_]. 
+xref:_holds_pull_list[Holds Pull List]. 
 |Waiting for Item | All holdable item are currently checked out or otherwise not available.
 |Wrong Shelf | The pickup library for the hold has changed.  Staff need to check the item in to send it
 into transit to the new pickup library.
