@@ -16,7 +16,7 @@ The statistics for in-house use are separate from regular circulation statistics
 count of catalogued items is not included in an item's total use count.
 ======
 
-
+[[_in_house_catalogued_items]]
 Catalogued Items
 ^^^^^^^^^^^^^^^^
 . Go to *Circulation -> Record In-House Use*.
@@ -35,7 +35,7 @@ Keep an eye on the _Item Status_ column when recording in-house use.  You may ne
 if you find items with a status other than _Available_ or _Reshelving_.
 =====
 
-
+[[_in_house_non_catalogued_items]]
 Non-catalogued Items
 ^^^^^^^^^^^^^^^^^^^^
 . Go to *Circulation -> Record In-House Use*.

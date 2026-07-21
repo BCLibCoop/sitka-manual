@@ -68,7 +68,7 @@ To find out what the default join is for a table you can view the
 https://catalogue.libraries.coop/reports/fm_IDL.xml[fm_IDL.xml] file for Sitka's Evergreen.
 
 . Search for the name of the source.
-. Find the column you're interested in and take note of the vlaue for _Name_.
+. Find the column you're interested in and take note of the value for _Name_.
 . Search the page for the _Name_ and look for it to appear in a <links> section.
 . The reltype indicates the join.
 +
@@ -171,7 +171,7 @@ In-house Use Table
 ^^^^^^^^^^^^^^^^^^
 
 This table contains in-house use records for catalogued items.  These in-house circulations are done via
-the xref:_catalogued_items[_Record In-House Use_] interface.
+the xref:_in_house_catalogued_items[_Record In-House Use_] interface.
 
 For item information follow the link to the _Item_ table.
 
@@ -190,7 +190,7 @@ Non-catalogued In-house Use Table
 This table contains in-house use records for non-catalogued items. 
 
 These in-house circulations are done via
-the xref:_non_catalogued_items_2[_Record In-House Use_] interface.
+the xref:_in_house_non_catalogued_items[_Record In-House Use_] interface.
 
 For xref:_non_catalogued_type_editor[Non-catalogued item type] information follow the link to 
 the _Item Type_ table.
