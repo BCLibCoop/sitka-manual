@@ -6,7 +6,7 @@ Capturing Holds and Hold Transits
 link:https://youtu.be/KiUAjFFqvsU[*Sitka Training Video - Capturing Holds (2:29)*]
 
 Items are captured for holds at check in either opportunistically when an item is returned by a patron
-or deliberately when items on the _Pull List for Hold Requests_ are pulled and checked in.  
+or deliberately when items on the xref:_holds_pull_list[Holds Pull List] are pulled and checked in.  
 
 Multi-branch libraries and libraries participating in reciprocal borrowing will see both holds and 
 hold transits captured at check in.
@@ -20,7 +20,7 @@ will print automatically without displaying a slip pop up within Evergreen.
 Capturing Holds
 ^^^^^^^^^^^^^^^
 
-. When a hold is captured at check in a hold slip pop-up will appear, unless 
+. When a hold is captured at xref:_check_in[check in] a hold slip pop-up will appear, unless 
 auto-printing is enabled.
 . Staff can click *Print* or *Do Not Print* depending on their needs.
 . The item is checked in and the item status is updated to _On Holds Shelf_.
@@ -40,7 +40,7 @@ processing delays see xref:_hold_ready_for_pickup[].
 
 [NOTE]
 ======
-Libraries with self pickup hold shelfs can customize the hold slip to limit the amount of patron 
+Libraries with self pickup hold shelfs can xref:_customize_receipt_templates[customize the hold slip] to limit the amount of patron 
 personal information that is printed.
 
 A patron's contact information on the hold slip may differ from what is in their patron account.  Patrons have 
