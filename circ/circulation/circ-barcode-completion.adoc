@@ -15,7 +15,7 @@ Registering Patrons with Barcode Completion
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 In some cases 14 digit codabar barcodes can't be used, such as student numbers 
-issued by a registar's office.  In those cases a barcode prefix is used to create unique barcodes 
+issued by a registrar's office.  In those cases a barcode prefix is used to create unique barcodes 
 within Sitka's Evergreen.
 
 When creating new patrons, either from patron registration or by loading patron records, the assigned 
