@@ -138,7 +138,12 @@ Evergreen can also generate a prediction pattern from existing MFHD records atta
 Create and Manage Issues
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-After generating predictions in the *Manage Predictions* tab, you will see a list of the predicted issues in the *Manage Issues* tab.  A variety of actions can be taken in this tab:
+After generating predictions in the _Manage Predictions_ tab, you will see a list of the predicted issues in 
+the _Manage Issues_ tab.  
+
+image::images/serials/manage-issues-1.png[]
+
+A variety of actions can be taken in this tab:
 
 * Receive issues
 ** Click *Receive Next*. Refer to xref:_serials_receiving[] for details.
@@ -147,7 +152,7 @@ After generating predictions in the *Manage Predictions* tab, you will see a lis
 * Add special issues
 ** Click *Add Special Issue*. Refer to xref:_special_issues[] for details.
 
-image::images/serials/manageissues1.png[]
+
 
 ////
 Create and Manage MFHDs
