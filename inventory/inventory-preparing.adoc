@@ -63,8 +63,8 @@ modifier.  The report will show you the size of different parts of your
 collection which can be helpful when thinking about the order in which to inventory
 different sections.
 +
-* Sitka_templates -> Collection -> Item List by Item Attributes -> Shelving Location : 
-Items with Selected Shelving Location
+* Sitka_templates -> Collection -> Item List by Item Attributes -> xref:_shelving_location_items_with_selected_shelving_location[Shelving Location : 
+Items with Selected Shelving Location]
 +
 ** This template will give a report that lists all items in a particular shelving location. This can be helpful
 to show what should be on the shelf.
