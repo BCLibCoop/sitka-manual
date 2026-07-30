@@ -47,8 +47,8 @@ aspect ratio. This means that the largest dimension of any image will be scaled 
 bounding box. 
 
 * Small = 55px wide x 91px high
-* Medium = 120 px wide x 200 px high
-* Large = 475px wide x 787 px high
+* Medium = 120px wide x 200px high
+* Large = 475px wide x 787px high
 
 Images associated with a bib record will display in the following locations:
 
