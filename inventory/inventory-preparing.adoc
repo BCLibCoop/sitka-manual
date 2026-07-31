@@ -105,7 +105,7 @@ Columns
 (((Columns, Inventory)))
 
 Best practice is to ensure that the Check In and Item Status screens are set to
-display the call number, shelving location, and circulation modifier xref:_columns[columns].
+display the call number, shelving location, and circulation modifier xref:_display_columns[columns].
 
 As items are scanned for inventory staff should keep an eye out for the following:
 
