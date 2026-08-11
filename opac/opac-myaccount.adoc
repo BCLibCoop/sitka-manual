@@ -193,41 +193,56 @@ Notification Preferences
 _Notification Preferences_ is where you set your preferences for holds notification. You can choose
 to be contacted by email or phone.
 
+To receive emailed checkout receipts by default, select _Email checkout receipts by default_ .
+
 To opt-out of receiving courtesy and overdue email notices use the _Receive Overdue and Courtesy Emails_
 setting.  Un-checking this box means your library will not send you any emails for items coming due or
 overdue. You are still responsible for returning items on time and paying any applicable fines.
 
-To receive emailed checkout receipts by default, select _Email checkout receipts by default_ .
 
 image::images/opac/opac-account-7.png[scaledwidth="75%",alt="My Account"]
 
 
-Search and History Preferences
+Other Settings
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 (((Check Out History)))
 (((Hold History)))
 
-_Search and History Preferences_ is where you configure settings around search results, history,
+_Other Settings_ is where you configure settings around search results, history,
 and allowing others access to your account.
+
+Search Settings
++++++++++++++++++
 
 You can select how many search results are displayed per page on your catalogue searches as well as your
 preferred search location if your library is a multi-branch system or part of a larger borrowing zone.
 
+You can choose whether or not to have search terms highlighted in your search results.
+
+Hold Settings
++++++++++++++++++
+
 You can also set your preferred pick up location if your library is a multi branch system or part of a
 larger borrowing zone.
 
-You can choose whether or not to have search terms highlighted in your search results.
-
-Check Out and Hold history can be enabled on this screen.  The check out and holds history is not retroactive;
+Hold history can be enabled on this screen.  The holds history is not retroactive;
 it takes effect once you choose to retain your history.
 
-You may also choose to disable a warning about adding items to a temporary list.
+Authorized Users
++++++++++++++++++
 
 You can specify who, if anyone, can access your account and what access you wish them to
 have.  This is useful if you'd like someone else to be able to pick up your holds for you, for example.
 
 image::images/opac/opac-account-8.png[scaledwidth="75%",alt="My Account"]
+
+Other
++++++++++++++++++
+
+Check Out history can be enabled on this screen. Check out history is not retroactive; it takes effect once you choose to retain your history.
+
+You may also choose to disable a warning about adding items to a temporary list.
 
 My Lists Preferences
 ^^^^^^^^^^^^^^^^^^^^
