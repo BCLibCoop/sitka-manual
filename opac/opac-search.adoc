@@ -185,10 +185,10 @@ When the _Group Formats and Editions_ checkbox is checked all formats and editio
 grouped as one result. For example, the DVD and the print editions of _Pride and 
 Prejudice_ will appear together.
 
-Limit to Available
-^^^^^^^^^^^^^^^^^^
+Limit to Available Items
+^^^^^^^^^^^^^^^^^^^^^^^^
 
-When the _Limit to Available_ checkbox is checked search results are limited based on an item’s current
+When the _Limit to Available Items_ checkbox is checked search results are limited based on an item’s current
 circulation status. Titles without available items in the selected search library will not be displayed.
 
 Item statuses that show as available are: _Available_, _On Display_, _Onsite Consultation_, _Reserves_,
@@ -407,12 +407,11 @@ Search Results
 ~~~~~~~~~~~~~~
 
 The search results are a list of relevant works from the catalogue. If there are many results, they are
-divided into several pages. At the top of the list, you can see the total number of results and go back and
-forth between the pages by clicking the Next or Previous at the top or bottom of the list or click the page number
-to go to that page directly.
+divided into several pages. At the top of the list, you can see the total number of results. You can go back and
+forth between the pages by clicking the Next or Previous at the top or bottom of the list or click the page number to go to that page directly.
 
 Your search terms will be highlighted in both the search results and title details screens. The
-checkbox *Disable Highlighting* will turn this off.
+checkbox *Enable Highlighting* enables highlighted search terms, and unchecking it turns highlighting off.
 
 image::images/opac/opac-search-results-1.png[scaledwidth="75%",alt="Basic Search"]
 
@@ -423,9 +422,9 @@ audiobooks, video recordings, and other formats.
 Clicking a title goes to the title details. Clicking an author searches all works by the author. If you
 want to place a hold on the title, click *Place Hold* to the right of the title information.
 
-Above the results list there are _Limit to Available_, _Group By Formats and Editions_,
+Above the results list there are _Limit to Available Items_, _Group By Formats and Editions_,
  and _Exclude Electronic Resources_ checkboxes. Checking
-_Limit to Available_ will filter out those titles with no available copies in the library or libraries at
+_Limit to Available Items_ will filter out those titles with no available copies in the library or libraries at
 the moment. Checking _Group By Formats and Editions_ will group all formats and editions of the same title 
 as one result. Checking _Exclude Electronic Resources_ will filter out titles for electronic resources. Usually
 you will see your search results re-displayed with fewer results.
