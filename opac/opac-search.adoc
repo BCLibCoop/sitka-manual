@@ -103,7 +103,7 @@ You can access the Advanced Search by clicking *Advanced Search* on the catalogu
 results screen.
 
 The available search options are the same as in Basic Search, but you may use one or more of them
-simultaneously. If you want to combine more than three search options, use the *Add Search Row* button to
+simultaneously. If you want to combine more than three search options, use the *Add Search Terms* button to
 add more search input rows. Clicking the *X* button will close the search input row.
 
 image::images/opac/opac-advanced-search-1.png[scaledwidth="75%",alt="Basic Search"]
@@ -113,6 +113,7 @@ Search Filters
 
 You can filter your search by:
 
+* Accessibility Features
 * Format
 * Language
 * Audience
@@ -142,7 +143,7 @@ If your library has multiple branches, your search result will display items ava
 all branches of your library system separately. If your library participates in Interlibrary Connect
 the results may display items available across the larger borrowing zone.
 
-If you access the catalogue from https://catalogue.libraries.coop, your default search library is
+If you access the catalogue from https://catalogue.libraries.coop your default search library is
 Sitka or the library you have selected on the homepage. You may use the _Search Library_ box to select a
 different library or regional libraries, or all libraries in Sitka to search.
 
