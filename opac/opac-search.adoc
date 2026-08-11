@@ -222,9 +222,9 @@ You can access the MARC Expert Search by clicking on the *Expert Search* tab on 
 If you are familiar with the MARC standard, you may search by specific MARC tags in the Expert Search.
 
 . Enter the three-digit tag number, the subfield (if relevant), and the value or text that corresponds
-to the tag. For example, to search by publisher name, enter 264 b Random House.
+to the tag. For example, to search by publisher name (e.g. Random House), enter 264 in the _Tag:_ field, b in the _Subfield:_ field, and Random House in the _Value:_ field.
 +
-.. To search several tags simultaneously, use the *Add Search Row* button.
+.. To search several tags simultaneously, use the *Add Search Terms* button.
 +
 . Click *Search* to run the search.
 
