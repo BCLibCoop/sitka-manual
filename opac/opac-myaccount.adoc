@@ -343,11 +343,15 @@ You can sort the list by Title, Author, and Format by clicking on the blue text.
 list in ascending order and a second click sorts the list in descending order.
 
 You can use the checkbox beside each hold to select the hold and use the buttons to suspend, activate, 
-or cancel the selected holds. You may set an activation date when you suspend your hold
+or cancel the selected holds. The suspend, activate, and cancel buttons can also be used in the
+Edit column.
+You may set an activation date when you suspend your hold
 or leave the date blank and manually activate it later. A suspended hold will not lose its hold queue position.
 
 The _Status_ column shows whether or not your hold is currently available for pickup, if it has been
-suspended, and what your position is in the hold queue.
+suspended, and what your position is in the hold queue. You can use the checkbox labelled
+"Show only items available for pickup" to toggle showing all items or only those available for pickup.
+You can also refresh the list of items by clicking on *Refresh holds list*.
 
 Your position in the hold queue is indicated by the first number in the status column. For example
 "Hold #3 on 1 copy" indicates you are third in the hold queue.
