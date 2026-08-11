@@ -204,7 +204,7 @@ image::images/opac/opac-account-7.png[scaledwidth="75%",alt="My Account"]
 
 
 Other Settings
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^
 
 (((Check Out History)))
 (((Hold History)))
@@ -213,7 +213,7 @@ _Other Settings_ is where you configure settings around search results, history,
 and allowing others access to your account.
 
 Search Settings
-+++++++++++++++++
++++++++++++++++
 
 You can select how many search results are displayed per page on your catalogue searches as well as your
 preferred search location if your library is a multi-branch system or part of a larger borrowing zone.
@@ -221,7 +221,7 @@ preferred search location if your library is a multi-branch system or part of a 
 You can choose whether or not to have search terms highlighted in your search results.
 
 Hold Settings
-+++++++++++++++++
++++++++++++++
 
 You can also set your preferred pick up location if your library is a multi branch system or part of a
 larger borrowing zone.
@@ -230,7 +230,7 @@ Hold history can be enabled on this screen.  The holds history is not retroactiv
 it takes effect once you choose to retain your history.
 
 Authorized Users
-++++++++++++++
+++++++++++++++++
 
 You can specify who, if anyone, can access your account and what access you wish them to
 have.  This is useful if you'd like someone else to be able to pick up your holds for you, for example.
@@ -238,7 +238,7 @@ have.  This is useful if you'd like someone else to be able to pick up your hold
 image::images/opac/opac-account-8.png[scaledwidth="75%",alt="My Account"]
 
 Other
-++++++++++++++
++++++
 
 Check Out history can be enabled on this screen. Check out history is not retroactive; it takes effect once you choose to retain your history.
 
