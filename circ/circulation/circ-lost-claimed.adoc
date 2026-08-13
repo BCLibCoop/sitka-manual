@@ -142,10 +142,11 @@ and work with the items.  See xref:_item_buckets[] for information on using item
 Missing
 ^^^^^^^
 
-If an item cannot be located it can be marked as missing via the Item Status interface, from within a 
-patron's account, or from the Holds Shelf.
+If an item cannot be located, it can be marked as missing via the Item Status interface or from the Holds Shelf.
 
-. On the appropriate interface select the item and click *Actions -> Mark -> Item as Missing*
+. On the appropriate interface select the item, and
+* in the Item Status interface, click *Actions -> Mark -> Item as Missing*
+* from the Holds Shelf, click *Actions -> Mark Item Missing*
 +
 image:images/circ/mark-missing-1.png[]
 +
