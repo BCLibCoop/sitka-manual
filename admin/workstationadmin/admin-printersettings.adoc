@@ -6,7 +6,7 @@ Click *Administration* -> *Workstation* -> *Printer Settings*
 Printing without Hatch
 ^^^^^^^^^^^^^^^^^^^^^^
 
-If you do not have Hatch installed on your computer you will see this message "Hatch is not installed in this browser. Printing must be configured via the native browser print configuration."
+If you do not have Hatch installed on your computer you will see this message "Hatch Status: Not Connected", the checkbox *Use Hatch for Printing?* will be unchecked and you will see the message "Printer settings below will have no effect."
 
 image::images/admin/printersettingnohatch.png[]
 
