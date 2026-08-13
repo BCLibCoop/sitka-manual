@@ -84,10 +84,14 @@ accordingly on the _Edit_ tab.
 
 Damaged
 ^^^^^^^
-If a patron damages an item it can be marked as damaged at check in, via the Item Status interface, or
+If a patron damages an item it can be marked as damaged at check in, via the Item Status interface, from the Holds Shelf, or
 from within a patron's account.
 
-. On the appropriate interface select the item and click *Actions -> Mark Damaged*
+. On the appropriate interface select the item and, and
+* at check in, click *Actions -> Mark Items Damaged*
+* in the Item Status interface, click *Actions -> Mark -> Item as Damaged*
+* from the Holds Shelf, click *Actions -> Mark Item Damaged*
+* within a patron account, click *Actions -> Mark Damaged*
 +
 image:images/circ/mark-damaged-1.png[]
 +
@@ -123,7 +127,10 @@ If an item is slated to be removed from the collection it can be marked as disca
 via the Item Status interface, or from the Holds Shelf.  Libraries may wish to use the _Discard/Weed_ 
 status when items to be discarded need to be reviewed before being deleted.
 
-. On the appropriate interface select the item and click *Actions -> Mark as Discard/Weed*.
+. On the appropriate interface select the item and,
+* at check in, click *Actions -> Mark Items Discard/Weed*
+* in the Item Status interface, click *Actions -> Mark -> Item as Discard/Weed*
+* from the Holds Shelf, click *Actions -> Mark Item Discard/Weed*
 +
 image:images/circ/mark-discard-1.png[]
 +
