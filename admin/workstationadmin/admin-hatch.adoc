@@ -52,7 +52,7 @@ image::images/admin/testhatch.png[]
 Hatch Extension
 +++++++++++++++
 
-Verify that you are running the correct version of the Hatch Chrome Extension (0.2.2).
+Verify that you are running the correct version of the Hatch Chrome Extension (0.4.0).
 
 . Click Menu.
 +
@@ -61,7 +61,7 @@ image::images/intro/browser1.png[]
 . Click *More Tools*.
 . Click *Extensions*.
 . Scroll down to Hatch Native Messenger.
-. Verify that it is version 0.2.2 and Enabled.
+. Verify that it is version 0.4.0 and Enabled.
 . When the Hatch Extension is installed and enabled, a small yellow icon should appear in the top-right corner of the browser:
 
 .Hatch Extension Console Messages:
