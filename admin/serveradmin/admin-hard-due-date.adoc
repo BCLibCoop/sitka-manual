@@ -1,14 +1,13 @@
 Hard Due Date
 ~~~~~~~~~~~~~
 
-Academic libraries may wish to use hard due dates to truncate due dates at the end of a semester (so that borrowing times are shorter than normal) or 
-allow particular material to go out for an entire semester (so that borrowing times are longer than normal).  
+Academic libraries may wish to use hard due dates to truncate due dates to the end of a semester (so that items are due by a particular date) or 
+allow particular material to go out for an entire semester. Hard due dates can make an item's due date either earlier or later than usual, depending on requirements.
 
 Viewing Your Hard Due Dates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Local system administrators can view hard due dates for your library, but cannot update or add
-new dates. 
+Local system administrators can view hard due dates for your library, but cannot make updates.
 
 . Go to *Administration -> Server Administration -> Hard Due Date Changes*.
 . Existing hard due dates will display for the current working location with the current ceiling 
@@ -28,7 +27,7 @@ image::images/admin/hard-due-date-3.png[scaledwidth="75%"]
 Adding a New Hard Due Date
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you wish to add hard due dates, please 
+If you wish to add a hard due date, please 
 contact https://bc.libraries.coop/support/[Co-op Support] 
 with the following:
 
@@ -38,9 +37,9 @@ with the following:
 * Whether the hard due should apply all the time, or just truncate regular due dates if they would
 fall after the hard due date
 ** Libraries can have both types of hard due dates if you'd like different scenarios to apply to different
-patron groups or items.  For example, you may want to have regular loan durations apply to students until
-the end of term (so the normal borrowing time for students is truncated to a hard due date), while faculty members would always get to check out items for the
-entire semester (so the normal borrowing time for faculty is extended to a hard due date).
+patron groups or items. For example, you may want to have regular loan durations apply to students until
+the end of term (so the due date for students is truncated to a hard due date), while faculty members would always get to check out items for the
+entire semester (so the due date for faculty is extended to a hard due date).
 
 Changing Your Hard Due Dates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
