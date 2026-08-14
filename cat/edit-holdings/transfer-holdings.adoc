@@ -30,7 +30,8 @@ image::images/cat/transfer-holding-2.png[]
 +
 NOTE: Transfer target is kept until it is reset (via *Reset Record Marks* on *Mark for* list) or a new target is marked.
 +
-. Go to *Holdings View* of the source title. Select the call number you want to transfer. Click *Actions* list.
+. Go to *Holdings View* of the source title.
+. Select the call number you want to transfer. Click *Actions* list.
 +
 image::images/cat/transfer-holding-4.png[]
 +
@@ -88,15 +89,22 @@ items under one call number to another with a different call number. You use the
 Transferring Items to Another Call Number/Library
 +++++++++++++++++++++++++++++++++++++++++++++++++
 
-. Find the destination title record. On *Holdings View*, select the destination call number/library. Click *Actions* dropdown. Go to *Mark* to select *Library/Call Number as Transfer Destination*.
+. Find the destination title record.
+
+. On *Holdings View*, select the destination call number/library.
+
+. Click *Actions* dropdown. Go to *Mark* to select *Library/Call Number as Transfer Destination*.
 +
 image::images/cat/transfer-holding-6.png[]
 +
-. Go to the source record, if different from the destination. On *Holdings View*, select the items you wish to transfer. Click *Actions* dropdown list. Go to *Transfer* to select *Transfer Items to Marked Destination*.
+. Go to the source record, if different from the destination.
+. On *Holdings View*, select the items you wish to transfer.
+. Click *Actions* dropdown list. Go to *Transfer* to select *Transfer Items to Marked Destination*.
 +
 image::images/cat/transfer-holding-10.png[]
 +
-. The source item disappears, if destination is under another record. The confirmation pops up at the bottom
+. The source item disappears, if destination is under another record.
+. The confirmation pops up at the bottom
 right of the screen.
 +
 image::images/cat/transfer-holding-11.png[]
