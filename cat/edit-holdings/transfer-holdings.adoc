@@ -4,15 +4,17 @@ Transferring Holdings
 There are times when you need to move item records from one title record to another, or move items
 from one call number to another under the same or another title record. There are functions in
 Evergreen to allow you to do so. The critical step is to ensure that you first mark the destination
-record, then move the source record with the corresponding transfer function. Co-op Support recommends
-you read through the process first before starting, as each scenario has different characteristics.
+record, then move the source record with the corresponding transfer function.
+
+Co-op Support recommends you read through the process first before starting, as each scenario has
+different characteristics.
 
 [[_transfer_holding]]
 Transferring Holdings
 ^^^^^^^^^^^^^^^^^^^^^
 
 When you want to transfer all items under one call number to another title record or another
-library under the same title, you  use the *Transfer Holdings* function. Evergreen will transfer both
+library under the same title, you use the *Transfer Holdings* function. Evergreen will transfer both
 the call number record and all items under it to the new title and/or library.
 
 Transferring Holdings to Another Title Record
@@ -98,9 +100,3 @@ image::images/cat/transfer-holding-10.png[]
 right of the screen.
 +
 image::images/cat/transfer-holding-11.png[]
-
-[NOTE]
-======
-The option to *Transfer Items to Marked Destination* may be cut-off. If you right-click 
-on the item, the option to *Transfer Items to Marked Destination* is visible.
-======
