@@ -28,7 +28,7 @@ Creating Item Buckets
 
 There are two ways to create an item bucket. You can either create a bucket first, without accessing any copies, or you can access an item record and choose to create the bucket from that view. We will demonstrate both methods here.
 
-*Create an Item Bucket on Item Buckets* view
+*Create an Item Bucket on Item Buckets view*
 
 . Select *Cataloging -> Item Buckets* from the menu bar.
 
@@ -54,6 +54,26 @@ image::images/cat/buckets/item-bucket-4.png[]
 * Only buckets created by the login account are listed. But those created by other people can be retrieved via bucket number, if shared with you. Click *Shared Bucket* to type in the number to retrieve it.
 * Ignore the check box for *Shareable* - this function does not work as expected.
 =====
+
+*Create an Item Bucket from File*
+
+You can upload a .csv file of multiple barcodes using the *Choose File* option.
+
+. Select *Cataloging -> Item Buckets* from the menu bar.
+
+. Select *New Bucket* from the *Buckets* dropdown list.
++
+image::images/cat/buckets/item-bucket-1.png[]
++
+. Type in a name and some description, if needed.
++
+. Click *Choose File*.
++
+. Follow the on-screen prompts to select your file.
++
+.. If you want to include deleted barcodes, ensure the *Include deleted?* check box is checked.
++
+. Click *Create Bucket*.
 
 *Create an Item Bucket when Adding an Item Record to a Bucket*
 
