@@ -7,7 +7,7 @@ allow particular material to go out for an entire semester.
 Viewing Your Hard Due Dates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Local system administrators can view hard due dates for your library but cannot update or add
+Local system administrators can view hard due dates for your library, but cannot update or add
 new dates. 
 
 . Go to *Administration -> Server Administration -> Hard Due Date Changes*.
@@ -28,20 +28,23 @@ image::images/admin/hard-due-date-3.png[scaledwidth="75%"]
 Adding a New Hard Due Date
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you wish to add hard due dates please 
+If you wish to add hard due dates, please 
 contact https://bc.libraries.coop/support/[Co-op Support] 
 with the following:
 
-* Date or dates for the hard due date
+* The date for the hard due date
 * Who and what the hard due date should apply to
 ** Refer to xref:_understanding_your_circulation_policies[Understanding Your Circulation Policies] for the information on the parameters you can specify
-* Whether the hard due should apply all the time or just truncate the regular due dates when they would
+* Whether the hard due should apply all the time, or just truncate regular due dates if they would
 fall after the hard due date
 ** Libraries can have both types of hard due dates if you'd like different scenarios to apply to different
 patron groups or items.  For example, you may want to have regular loan durations apply to students until
-the end of term when they start to truncate while faculty members always get to check out items for the
-entire semester.
+the end of term (so the normal borrowing time for students is truncated to a hard due date), while faculty members would always get to check out items for the
+entire semester (so the normal borrowing time for faculty is extended to a hard due date).
 
 Changing Your Hard Due Dates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you already have hard due date paramaters established (i.e. who and what the hard due date applies to), but need the date of a hard due date updated (e.g. the next semester is coming up), please 
+contact https://bc.libraries.coop/support/[Co-op Support] to let us know what the new hard due date should be.
 
