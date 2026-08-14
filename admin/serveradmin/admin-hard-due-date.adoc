@@ -1,8 +1,8 @@
 Hard Due Date
 ~~~~~~~~~~~~~
 
-Academic libraries may wish to use hard due dates to truncate due dates at the end of a semester or 
-allow particular material to go out for an entire semester.  
+Academic libraries may wish to use hard due dates to truncate due dates at the end of a semester (so that borrowing times are shorter than normal) or 
+allow particular material to go out for an entire semester (so that borrowing times are longer than normal).  
 
 Viewing Your Hard Due Dates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -17,7 +17,7 @@ system and descendants.
 +
 image::images/admin/hard-due-date-1.png[scaledwidth="75%"]
 +
-. To see past and upcoming dates for a specific hard due date click *Values* on the applicable line.
+. To see past and upcoming dates for a specific hard due date, click *Values* on the applicable line.
 +
 image::images/admin/hard-due-date-2.png[scaledwidth="75%"]
 +
@@ -45,6 +45,6 @@ entire semester (so the normal borrowing time for faculty is extended to a hard 
 Changing Your Hard Due Dates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you already have hard due date paramaters established (i.e. who and what the hard due date applies to), but need the date of a hard due date updated (e.g. the next semester is coming up), please 
+If you already have a hard due date established, but need the date of a hard due date updated (e.g. the next semester is coming up), please 
 contact https://bc.libraries.coop/support/[Co-op Support] to let us know what the new hard due date should be.
 
