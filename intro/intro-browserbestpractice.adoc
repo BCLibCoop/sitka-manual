@@ -174,11 +174,10 @@ of the errors that display in red.
 
 .Hatch Extension Console Messages:
 . In Chrome, click *Menu*.
-. Select *More tools*.
-. Select *Extensions*.
-. Check the box at the top of the screen that says _Developer Mode_.
+. Click *Extensions*, then *Manage Extensions*.
+. Click the toggle at the top right of the screen that says _Developer Mode_.
 . Scroll down to Hatch Native Messenger.
-. Click on the link that says *background* page. (This will open a new window.)
+. Click on the link that says *service worker*. (This will open a new window.)
 . Select the _Console_ tab.
 . Change the _Default levels_ dropdown to be sure that Verbose is checked.
 . Either take a screenshot or copy and paste the text that appears in the console 
@@ -202,8 +201,9 @@ Clear Cache
 image::images/intro/browser1.png[]
 +
 . Click *Settings*.
+. Select *Privacy and security*.
 . Select *Delete browsing data*.
-. Set Time Range to _All time_.
+. Click *More* and select _All time_ to set the time range.
 . Check the box next to _Cached images and files_ .
 . Click *Delete data*.
 +
@@ -232,8 +232,9 @@ your workstation settings.
 image::images/intro/browser1.png[]
 +
 . Click *Settings*.
+. Select *Privacy and security*.
 . Select *Delete browsing data*.
-. Set Time Range to _All time_.
+. Click *More* and select _All time_ to set the time range.
 . Check the boxes next to _Cookies and other site data_ and 
 _Cached images and files_ .
 . Click *Delete data*.
