@@ -115,7 +115,7 @@ image::images/intro/browser1.png[]
 . Click *Settings*.
 . Select *Privacy and security* from the left hand side.
 . Click *Third-Party cookies*.
-. Under _General Settings_ make sure  _Block third-party cookies in Incognito_ is selected.
+. Under _General Settings_ make sure  _Block third-party cookies_ is selected.
 . Click *Add* beside _Sites allowed to use third-party cookies_.
 +
 image:images/intro/cookies-1.png[scaledwidth="75%"]
@@ -139,7 +139,7 @@ image::images/intro/browser1.png[]
 +
 . Click *Settings*.
 . Select *Autofill and passwords* from the left hand side.
-. Click *Addresses and more*.
+. Click *Contact info*.
 . Turn off *Save and fill addresses*.
 +
 image::images/intro/autofill.png[]
