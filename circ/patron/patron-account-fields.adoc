@@ -35,7 +35,7 @@ below the threshold.  However, Evergreen does not automatically un-check the box
 when the patron’s age is above the threshold and library staff must manually un-check the box.  
   Generally the PL Juvenile permission group is used instead of this flag.
 |Parent/Guardian | No | Can be used to include the parent or guardian's name for juvenile patrons.
-|Parent/Guardian Email address | No | Can be used to include the parent or guardian's email address for juvenile patrons.
+|Parent/Guardian Email Address | No | Can be used to include the parent or guardian's email address for juvenile patrons.
 |Primary Identification Type | Yes | A value of _Other_ has been set as a Sitka default for this field.
 Co-op Support recommends using the value of _Other_ unless 
 you have a legitimate use case for collecting data for one of the other values.  
