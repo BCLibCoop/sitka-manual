@@ -101,7 +101,7 @@ Batch Delete Users
 To ensure needed statistics are preserved it is not currently possible to delete users through
 User Buckets.
 
-To delete users refer to xref:delete-patron-card[]
+To delete users refer to xref:_patron_deletion_tool[]
 
 [[view-batch-change]]
 View Batch Changes
