@@ -26,7 +26,7 @@ are optional and can be used as needed.
 The preferred name is used instead of the primary for notifications and displays in _My Account_.  
 |Name Keywords | No | Additional keywords that can be used to group accounts for searching purposes.
 |OPAC/Staff Client Holds Alias | No | The alias can be used if a patron doesn't want items on the hold shelf appearing
-under their real name.
+under their real name. (MISSING???)
 |Date of Birth | Can be set as required by libraries | Date of birth of the patron.
 |Juvenile Check Box | No | Can be used to tag accounts as juvenile for policy and reporting purposes. 
 When a date of birth is entered Evergreen checks the value for the library setting 
@@ -35,6 +35,7 @@ below the threshold.  However, Evergreen does not automatically un-check the box
 when the patron’s age is above the threshold and library staff must manually un-check the box.  
   Generally the PL Juvenile permission group is used instead of this flag.
 |Parent/Guardian | No | Can be used to include the parent or guardian's name for juvenile patrons.
+|Parent/Guardian Email address | No | Can be used to include the parent or guardian's email address for juvenile patrons.
 |Primary Identification Type | Yes | A value of _Other_ has been set as a Sitka default for this field.
 Co-op Support recommends using the value of _Other_ unless 
 you have a legitimate use case for collecting data for one of the other values.  
