@@ -127,7 +127,7 @@ Update Inventory Checkin Modifier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 (((Update, Inventory Date)))
 
-Turn on the _Update Inventory_ checkin modifier on all computers where items may be checked
+At Check In, turn on the _Update Inventory_ checkin modifier on all computers where items may be checked
 in while you are doing inventory.  This ensures that any items currently circulating 
 will have their inventory date updated when they are checked in.
 
@@ -141,4 +141,11 @@ Inventory_ modifier is being used.
 +
 image:images/inventory/inventory-checkin-modifier-2.png[scaledwidth="75%"]
 
+Enable Update Inventory with In-House Use
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+. In Evergreen, go to **Circulation → Record In-House Use**.
+
+. Check the Update Inventory check box. SCREENSHOT REQUIRED.
+
+. A banner will display across the top of the screen to indicate that Update Inventory is enabled. SCREENSHOT REQUIRED.
