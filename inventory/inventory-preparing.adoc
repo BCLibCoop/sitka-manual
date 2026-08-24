@@ -19,8 +19,8 @@ Inventory Date
 
 Item records include fields for inventory date and inventory workstation. The
 values in these fields are updated when an item in inventoried by using the
-*Update Inventory* action in _Item Status_ or the *Update Inventory* checkin 
-modifier at _Check In_.
+*Update Inventory* action in _Item Status_, the *Update Inventory* checkin 
+modifier at _Check In_, or enabling *Update Inventory* with _In-House Use_.
 
 The inventory date and workstation can be seen in several places in the staff
 client:
