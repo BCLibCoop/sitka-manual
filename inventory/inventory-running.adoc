@@ -80,6 +80,34 @@ the xref:_update_inventory_checkin_modifier[_Update Inventory_ checkin modifier 
 on all workstations where check in is done.
 . Repeat all the steps for every shelving location/section of your collection that you wish to inventory.
 
+Workflow - In-House Use
+~~~~~~~~~~~~~~~~~~~~~~
+
+. Go to **Circulation -> Record In-House Use**.
+. Ensure the **Update Inventory** check box is checked. For information
+on enabling this, see xref:_enable_update_inventory_with_in_house_use[].
+. Ensure you have rows set to at least 100 in your xref:_function_bar[function bar].
+. Scan in your items. Their inventory date is automatically updated.
+. Repeat until you have scanned and updated all items in your desired section 
+of the collection.
+. Run a report using the Sitka Template 
+xref:_inventory_un_scanned_items[_Inventory - Un-scanned Items_]. For the report filters 
+you will need the date you started inventory and the shelving location(s) you inventoried.
+. Take the list of un-scanned items and check the shelves to see if 
+any were missed.
+. If you find any un-scanned items, scan them in. Their inventory date is automatically updated.
+. Any items you cannot locate should be xref:_missing[marked as missing]. Evergreen will alert
+you if they are found.
+. Run a report using the Sitka Template xref:_inventory_scanned_items_count_by_shelving_location[_Inventory - 
+Scanned Items Count by Shelving Location_]. For the report filters 
+you will need the date you started inventory.
+. This report will show you how many items have had their inventory date updated 
+since you started inventory.  You will likely see items from other shelving locations 
+that have been updated through your regular check in process, as long as 
+the xref:_update_inventory_checkin_modifier[_Update Inventory_ checkin modifier is enabled]
+on all workstations where check in is done.
+. Repeat all the steps for every shelving location/section of your collection that you wish to inventory.
+
 Workflow - Portable Barcode Scanner
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
