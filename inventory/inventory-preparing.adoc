@@ -148,6 +148,10 @@ image:images/inventory/inventory-checkin-modifier-2.png[scaledwidth="75%"]
 Enable Update Inventory with In-House Use
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+If your library tracks in-house use, check the box to update inventory on all computers where items may be 
+in-housed while you are doing inventory. This ensures that any items in-housed will have their 
+inventory date updated when they are scanned.
+
 . In Evergreen, go to **Circulation → Record In-House Use**.
 . Check the **Update Inventory** check box.
 +
