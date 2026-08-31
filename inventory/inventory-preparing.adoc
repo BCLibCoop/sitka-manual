@@ -149,7 +149,10 @@ Enable Update Inventory with In-House Use
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . In Evergreen, go to **Circulation → Record In-House Use**.
-
-. Check the **Update Inventory** check box. SCREENSHOT REQUIRED.
-
-. A banner will display across the top of the screen to indicate that Update Inventory is enabled. SCREENSHOT REQUIRED.
+. Check the **Update Inventory** check box.
++
+image:images/inventory/inventory-inhouse-checkbox-1.png[scaledwidth="75%"]
++
+. A banner will display across the top of the screen to indicate that Update Inventory is enabled.
++
+image:images/inventory/inventory-inhouse-checkbox-2.png[scaledwidth="75%"]
