@@ -18,7 +18,7 @@ Inventory Date
 
 
 Item records include fields for inventory date and inventory workstation. The
-values in these fields are updated when an item in inventoried by using the
+values in these fields are updated when an item is inventoried by using the
 *Update Inventory* action in _Item Status_, the *Update Inventory* checkin 
 modifier at _Check In_, or enabling *Update Inventory* with _In-House Use_.
 
@@ -32,6 +32,10 @@ image:images/inventory/update-inventory-item-record-1.png[scaledwidth="75%"]
 * Item Status - Detail View Quick Summary Tab
 +
 image:images/inventory/update-inventory-item-record-2.png[scaledwidth="75%"]
++
+* Check In
++
+image:images/inventory/update-inventory-item-record-4.png[scaledwidth="75%"]
 +
 * Bibliographic Record - Holdings View
 +
