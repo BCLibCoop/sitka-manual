@@ -86,7 +86,7 @@ Workflow - In-House Use
 [CAUTION]
 =========
 To avoid skewing your in-house statistics, only items that actually need to be counted for in-house use 
-should be inventoried through the _In-House Use_interface.
+should be inventoried through the _In-House Use_ interface.
 
 The majority of your inventory should be performed through the xref:_workflow_item_status[_Item Status_] and 
 xref:_workflow_check_in[_Check In_] interfaces. 
