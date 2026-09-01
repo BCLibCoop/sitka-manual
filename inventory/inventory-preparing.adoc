@@ -43,7 +43,7 @@ image:images/inventory/update-inventory-item-record-3.png[scaledwidth="75%"]
 +
 [NOTE]
 ======
-Due to a bug the inventory workstation in the Holdings View currently displays
+Due to a bug, the inventory workstation in the Holdings View currently displays
 the workstation database ID rather than the workstation name.
 ======
 
@@ -51,7 +51,7 @@ Assessing Your Collection
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The first step to running inventory is to choose what you will inventory.  You may wish to inventory the entire
-library collection or just plan on running inventory on specific collections.
+library collection, or just plan on running inventory on specific collections.
 
 If you plan to inventory the entire library collection Co-op Support recommends breaking it into sections, based
 on shelving location and/or call number range.
