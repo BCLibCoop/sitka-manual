@@ -180,8 +180,35 @@ By default all fields will display.  The local system administrator at your libr
 _Suggested Fields_ using the library setting _Default showing suggested patron registration fields_.
 
 Customizing the fields that display and are required in the patron account can help ensure the relevant information
-is being recorded for your patrons and can cut down on unnessary information being saved.  These customizations 
-apply to both the staff client patron registration form and the patron self-registration form.
+is being recorded for your patrons, and can cut down on unnessary information being saved.  These customizations 
+apply to both the xref:_registering_new_patrons[staff client patron registration form] and the patron self-registration form on your OPAC (if self-registration is enabled with xref:_library_settings_opac[the _Allow Patron Self-Registration_ library setting]). These customizations also impact fields in the _Edit_ tab of a xref:_working_with_patron_accounts[patron account].
+
+Show Fields
++++++++++++
+
+* Show active field on patron registration
+* Show alias field on patron registration
+* Show barred field on patron registration
+* Show calendar widget for dob field on patron registration
+* Show claims_never_checked_out_count field on patron registration
+* Show claims_returned_count field on patron registration
+* Show county field on patron registration
+* Show day_phone field on patron registration
+* Show dob field on patron registration
+* Show email field on patron registration
+* Show evening_phone field on patron registration
+* Show ident_value field on patron registration
+* Show ident_value2 field on patron registration
+* Show juvenile field on patron registration
+* Show master_account field on patron registration
+* Show other_phone field on patron registration
+* Show Photo URL field on patron registration
+* Show prefix field on patron registration
+* Show second_given_name field on patron registration
+* Show State field on patron registration
+* Show suffix field on patron registration
+* GUI: Show guardian email field on patron registration
+* GUI: Show guardian field on patron registration
 
 Required Fields
 +++++++++++++++
