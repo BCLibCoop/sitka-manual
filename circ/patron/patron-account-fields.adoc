@@ -180,7 +180,7 @@ By default all fields will display.  The local system administrator at your libr
 _Suggested Fields_ using the library setting _Default showing suggested patron registration fields_.
 
 Customizing the fields that display and are required in the patron account can help ensure the relevant information
-is being recorded for your patrons, and can cut down on unnessary information being saved.
+is being recorded for your patrons, and can cut down on unnecessary information being saved.
 
 These customizations apply to both the xref:_registering_new_patrons[staff client patron registration form] and the patron self-registration form on your OPAC (if self-registration is enabled with xref:_library_settings_opac[the _Allow Patron Self-Registration_ library setting]).
 
@@ -189,9 +189,11 @@ These customizations also impact fields in the _Edit_ tab of a xref:_working_wit
 Show Fields
 +++++++++++
 
-The following fields are shown by default (that is, when the library setting has no value, the field it relates to is visible).
+When the following library settings have no value, the related fields are visible.
 
-Setting any of these Show library settings to False will hide them from a patron account as well as the patron registration form. A False value for a Show library setting does not delete information which previously had been saved in the field, but the information in the field will not be visible until the related library setting is deleted or set to True.
+Setting any of these _Show_ library settings to False will hide the related field from the Edit tab in a patron account, as well as the patron registration form.
+
+The applicable library settings are:
 
 * Show active field on patron registration
 * Show alias field on patron registration
@@ -216,6 +218,10 @@ Setting any of these Show library settings to False will hide them from a patron
 * Show suffix field on patron registration
 * GUI: Show guardian email field on patron registration
 * GUI: Show guardian field on patron registration
+
+The information saved in a field which becomes hidden if the related the _Show_ library setting is set to False will not be visible until the library setting is deleted or set to True. Doing this does not delete the information from patron accounts which had values saved in the field.
+
+For example, if values are saved in the Email Address field in patron accounts, and then the _Show_ library setting for the email field is set to False, patron emails will not be visible or editable in patron accounts. Then, if the _Show_ library setting for email is deleted or set to True, the Email Address field will again appear in patron accounts, with the previously saved emails again displayed. (You will need to log out and back into the staff client for these changes to become visible.)
 
 Required Fields
 +++++++++++++++
