@@ -180,11 +180,18 @@ By default all fields will display.  The local system administrator at your libr
 _Suggested Fields_ using the library setting _Default showing suggested patron registration fields_.
 
 Customizing the fields that display and are required in the patron account can help ensure the relevant information
-is being recorded for your patrons, and can cut down on unnessary information being saved.  These customizations 
-apply to both the xref:_registering_new_patrons[staff client patron registration form] and the patron self-registration form on your OPAC (if self-registration is enabled with xref:_library_settings_opac[the _Allow Patron Self-Registration_ library setting]). These customizations also impact fields in the _Edit_ tab of a xref:_working_with_patron_accounts[patron account].
+is being recorded for your patrons, and can cut down on unnessary information being saved.
+
+These customizations apply to both the xref:_registering_new_patrons[staff client patron registration form] and the patron self-registration form on your OPAC (if self-registration is enabled with xref:_library_settings_opac[the _Allow Patron Self-Registration_ library setting]).
+
+These customizations also impact fields in the _Edit_ tab of a xref:_working_with_patron_accounts[patron account].
 
 Show Fields
 +++++++++++
+
+The following fields are shown by default (that is, when the library setting has no value, the field it relates to is visible).
+
+Setting any of these Show library settings to False will hide them from a patron account as well as the patron registration form. A False value for a Show library setting does not delete information which previously had been saved in the field, but the information in the field will not be visible until the related library setting is deleted or set to True.
 
 * Show active field on patron registration
 * Show alias field on patron registration
