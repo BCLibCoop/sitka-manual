@@ -310,8 +310,8 @@ previously checked out.
 
 image::images/opac/opac-account-checked-out-3.png[scaledwidth="75%",alt="My Account Checked Out"]
 
-Check out history will only display if it has been enabled in your 
-xref:_search_and_history_preferences[_Search and History Preferences_].  History
+Check out history will only display if it has been enabled in your account's
+xref:_other_settings[_Other Settings_].  History
 displays from the date you enabled it; items checked out prior will not be included in your history.
 
 You can sort the list by Title, Author, Checkout Date, Due Date, Date Returned, Barcode, or Call number by
