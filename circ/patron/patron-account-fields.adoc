@@ -224,7 +224,7 @@ For example, if values are saved in the Email Address field in patron accounts, 
 Required Fields
 +++++++++++++++
 
-There are a number of fields that are required for all patron accounts across Sitka, such as barcode, home library
+There are a number of fields that are required for all patron accounts across Sitka, such as barcode, home library,
  and permission group.  Required fields that must be filled in to save the account are indicated in yellow.
  
 Libraries can decide to set additional fields as required to conform with local policy.
