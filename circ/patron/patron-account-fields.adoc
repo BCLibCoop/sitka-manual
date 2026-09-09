@@ -187,10 +187,7 @@ These customizations also impact fields in the _Edit_ tab of a xref:_working_wit
 
 Show Fields
 +++++++++++
-
-When the following library settings have no value, the related fields are visible.
-
-Setting any of these _Show_ library settings to False will hide the related field from the _Edit_ tab in a patron account, as well as the patron registration form.
+Setting any of these _Show_ library settings to False will hide the related field from the _Edit_ tab in a patron account, as well as the patron registration form. When these library settings have no value, the related fields are visible. 
 
 The applicable library settings are:
 
