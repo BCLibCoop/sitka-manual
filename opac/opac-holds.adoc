@@ -31,7 +31,7 @@ automatically if it is set in account preferences, but can be overridden on this
 +
 image::images/opac/opac-holds-notification-options-1.png[scaledwidth="75%",alt="Holds"]
 +
-.. If no email is set, one can be set by clicking *Add an email address*
+.. If no email is set, one can be set by clicking *Add an email address*. This will open the _Update Email_ screen. Enter your password and email, then click *Save Changes*.
 +
 .. If no phone number is set, check the check box and enter a phone number.
 +
