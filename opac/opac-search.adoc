@@ -194,11 +194,9 @@ circulation status. Titles without available items in the selected search librar
 Item statuses that show as available are: _Available_, _On Display_, _Onsite Consultation_, _Reserves_,
 and _Reshelving_.
 
-
+[[_public_catalogue_numeric_search]]
 Numeric Search
 ~~~~~~~~~~~~~~
-
-[[public-catalogue-numeric-search]]
 
 You can access the Numeric Search by clicking on the *Numeric Search* tab on the _Advanced Search_ screen.
 
@@ -213,9 +211,9 @@ image::images/opac/opac-numeric-search-1.png[scaledwidth="75%",alt="Basic Search
 Searching by Call Number will take you to the Shelf Browser.
 =====
 
+[[_public_catalogue_expert_search]]
 Expert Search
 ~~~~~~~~~~~~~
-[[public-catalogue-expert-search]]
 
 You can access the MARC Expert Search by clicking on the *Expert Search* tab on the Advanced Search screen.
 
@@ -237,9 +235,10 @@ not be included in the results.
 =====
 
 
+[[_public_catalogue_browse_the_catalogue]]
 Browse the Catalogue
 ~~~~~~~~~~~~~~~~~~~~
-[[public-catalogue-browse-the-catalogue]]
+
 
 You can access the browse search by clicking *Browse the Catalogue* on the Basic Search or search results
 screen.
@@ -402,7 +401,7 @@ last 3 years.
 
 
 
-
+[[_public_catalogue_search_results]]
 Search Results
 ~~~~~~~~~~~~~~
 
