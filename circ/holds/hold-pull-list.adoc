@@ -6,15 +6,15 @@ Holds Pull List
 
 link:https://youtu.be/DiOY9Mkauss[*Sitka Training Video - Pull List for Hold Requests (4:26)*]
 
-Items that are available on your shelf and have been requested to fill a hold will appear on the pull 
-list for hold requests.  Staff can print the list, pull the items from the shelf, and then check them
+Items that are available on your shelf and have been requested to fill a hold will appear on the holds pull list. 
+Staff can print the list, pull the items from the shelf, and then check them
 in to capture the holds.  Co-op Support recommends checking the pull list at once day; libraries with a 
 high volume of holds may find it beneficial to check the list multiple times a day.
 
 Pulling Holds Using the Pull List
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Go to *Circulation → Pull List for Hold Requests*.
+. Go to *Circulation → Holds Pull List*.
 . The pull list displays. By default the items on the list are grouped first by shelving location, 
 then by call number. 
 +
@@ -38,7 +38,7 @@ a selection of shelving locations. This filter is sticky and will remain for the
 +
 image:images/circ/hold-pull-list-3.png[scaledwidth="75%"]
 +
-. Print the pull list. See xref:_printing_and_downloading_the_pull_list_for_hold_requests[] for 
+. Print the pull list. See xref:_printing_and_downloading_the_holds_pull_list[] for 
 printing and downloading options.
 . Pull the items from your shelves and check them in to 
 xref:_capturing_holds_and_hold_transits[capture the holds].
@@ -46,8 +46,8 @@ xref:_capturing_holds_and_hold_transits[capture the holds].
 +
 image:images/circ/hold-pull-list-4.png[scaledwidth="75%"]
 
-Printing and Downloading the Pull List for Hold Requests
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Printing and Downloading the Holds Pull List
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 There are three ways to print the pull list for hold requests and one way to download it.  In all
 cases the list will only include the items currently displaying on the screen.
@@ -89,8 +89,8 @@ which will include all the columns currently visible on the screen.
 image:images/circ/download-hold-pull-list-1.png[scaledwidth="75%"]
 
 
-Interlibrary Connect and the Pull List for Hold Requests
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Interlibrary Connect and the Holds Pull List
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Libraries participating in Interlibrary Connect should ensure they always have the _Pickup Library_ 
 column visible in the grid to easily distinguish between local and ILC holds.
