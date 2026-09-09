@@ -217,9 +217,9 @@ The applicable library settings are:
 * Show suffix field on patron registration
 * GUI: Show guardian field on patron registration
 
-The information saved in a field which becomes hidden if the related the _Show_ library setting is set to False will not be visible until the library setting is deleted or set to True. Doing this does not delete the information from patron accounts which had values saved in the field.
+If a _Show_ library setting is set to False, information saved in the related field will not be visible until the library setting is deleted or set to True. Doing this does not delete the information from patron accounts which had values saved in the field.
 
-For example, if values are saved in the Email Address field in patron accounts, and then the _Show_ library setting for the email field is set to False, patron emails will not be visible or editable in patron accounts. Then, if the _Show_ library setting for email is deleted or set to True, the Email Address field will again appear in patron accounts, with the previously saved emails again displayed. (You will need to log out and back into the staff client for these changes to become visible.)
+For example, if values are saved in the Email Address field in patron accounts, and then the _Show email field on patron registration_ library setting is set to False, patron emails will not be visible or editable in patron accounts. Then, if the value for _Show email field on patron registration_ is deleted or set to True, the Email Address field will again appear in patron accounts, with the previously saved emails again displayed. (You will need to log out and back into the staff client for these changes to become visible.)
 
 Required Fields
 +++++++++++++++
