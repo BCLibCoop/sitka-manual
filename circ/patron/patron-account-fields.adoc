@@ -187,9 +187,9 @@ These customizations also impact fields in the _Edit_ tab of a xref:_working_wit
 
 Show Fields
 +++++++++++
-Setting any of these _Show_ library settings to False will hide the related field from the _Edit_ tab in a patron account, as well as the patron registration form. When these library settings have no value, the related fields are visible. 
+Setting any of these _Show_ library settings to False will hide the related field from the _Edit_ tab in a patron account, as well as the patron registration form.
 
-The applicable library settings are:
+When these library settings have no value, the related fields are visible. The applicable library settings are:
 
 * Show active field on patron registration
 * Show alias field on patron registration
@@ -214,9 +214,12 @@ The applicable library settings are:
 * Show suffix field on patron registration
 * GUI: Show guardian field on patron registration
 
+[NOTE]
+======
 If a _Show_ library setting is set to False, information saved in the related field will not be visible until the library setting is deleted or set to True. Doing this does not delete the information from patron accounts which had values saved in the field.
 
 For example, if values are saved in the Email Address field in patron accounts, and then the _Show email field on patron registration_ library setting is set to False, patron emails will not be visible or editable in patron accounts. Then, if the value for _Show email field on patron registration_ is deleted or set to True, the Email Address field will again appear in patron accounts, with the previously saved emails again displayed. (You will need to log out and back into the staff client for these changes to become visible.)
+======
 
 Required Fields
 +++++++++++++++
