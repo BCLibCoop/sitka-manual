@@ -235,14 +235,14 @@ Authorized Users
 You can specify who, if anyone, can access your account and what access you wish them to
 have.  This is useful if you'd like someone else to be able to pick up your holds for you, for example.
 
-image::images/opac/opac-account-8.png[scaledwidth="75%",alt="My Account"]
-
 Other
 +++++
 
 Check Out history can be enabled on this screen. Check out history is not retroactive; it takes effect once you choose to retain your history.
 
 You may also choose to disable a warning about adding items to a temporary list.
+
+image::images/opac/opac-account-8.png[scaledwidth="75%",alt="My Account"]
 
 My Lists Preferences
 ^^^^^^^^^^^^^^^^^^^^
