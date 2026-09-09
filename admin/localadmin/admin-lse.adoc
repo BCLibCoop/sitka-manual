@@ -148,7 +148,7 @@ Settings in the Library Settings Editor] in the Acquisitions Manual.
 |Setting|Description|Data type|Default|Edited by|Notes
 
 |Booking Allow Email Notify|Permit email notification when a reservation is ready 
-for pick-up.|True/false| | LSA |
+for pick-up.|True/False| | LSA |
 
 |Elbow room|Elbow room specifies how far in the future you must make a reservation 
 on an item if that item will have to transit to reach its pick-up location. It 
@@ -297,7 +297,7 @@ that directly target the item, the system will attempt to find a hold for the pa
 that could be fulfilled by the checked out item and fulfills it. On the Staff Client 
 you may notice that when a patron checks out an item under a title on which he/she 
 has a hold, the hold will be treated as filled though the item has not been assigned to 
-the patron's hold.|True/false| | LSA |
+the patron's hold.|True/False| | LSA |
 
 |Checkout fills related hold on valid copy only|When filling related holds on checkout 
 only match on items that are valid for opportunistic capture for the hold. Without 
@@ -413,7 +413,7 @@ only creates new overdue fines. Use both settings together to get the full compl
 of overdue fines for a lost item|True/False| | LSA |
 
 |Lost items usable on checkin|Lost items are usable on checkin instead of going 'home' 
-first|True/false|  | LSA |
+first|True/False|  | LSA |
 
 |Max patron claims returned count|When this count is exceeded, a staff override is required 
 to mark the item as claims returned.|Number| | LSA |
@@ -453,7 +453,7 @@ irrespective of usage of diacritical marks or spaces. | True/False | TRUE |Sitka
 
 |Printing: custom JavaScript file|Full URL path to a JavaScript File to be loaded 
 when printing. Should implement a print_custom function for DOM manipulation. Can 
-change the value of the do_print variable to false to cancel printing.|Text| | | This feature is not used by Sitka.
+change the value of the do_print variable to False to cancel printing.|Text| | | This feature is not used by Sitka.
 
 |Require matching email address for password reset requests||True/False| | LSA |
 
@@ -878,7 +878,7 @@ date into copy note content.|True/False| TRUE | LSA |
 TRUE | LSA |
 
 |Show billing tab first when bills are present|If true accounts for patrons with bills 
-will open to the billing tab instead of check out|True/false| |LSA | Setting is obsolete
+will open to the billing tab instead of check out|True/False| |LSA | Setting is obsolete
 
 |Show XXXXX field on patron registration|The XXXXX field will be shown on the patron 
 registration screen. Showing a field makes it appear with required fields even when 
