@@ -31,6 +31,15 @@ automatically if it is set in account preferences, but can be overridden on this
 +
 image::images/opac/opac-holds-3.png[scaledwidth="75%",alt="Holds"]
 +
+[NOTE]
+=======
+If no email is set, one can be set by clicking *Add an email address*
+
+If no phone number is set, check the check box and enter a phone number.
+=======
++
+image::images/opac/opac-holds-notification-options-1.png[scaledwidth="75%",alt="Holds"]
++
 . You can suspend the hold but have it activate on a specific date, keeping your place in the queue.
 +
 . You can also set a date on which the hold will be cancelled.
@@ -43,7 +52,6 @@ image::images/opac/opac-holds-4.png[scaledwidth="75%",alt="Holds"]
 . You can view and cancel your holds at anytime through _Holds_ in _My Account_ and can edit, suspend, 
 or activate your holds until they are captured for pick up.
 
-image::images/opac/opac-holds-notification-options-1.png[scaledwidth="75%",alt="Holds"]
 
 Unsuccessful Hold Messages
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
