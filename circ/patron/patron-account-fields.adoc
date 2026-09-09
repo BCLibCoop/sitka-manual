@@ -215,8 +215,6 @@ The applicable library settings are:
 * Show second_given_name field on patron registration
 * Show State field on patron registration
 * Show suffix field on patron registration
-* GUI: Show guardian email field on patron registration
-* GUI: Show guardian field on patron registration
 
 The information saved in a field which becomes hidden if the related the _Show_ library setting is set to False will not be visible until the library setting is deleted or set to True. Doing this does not delete the information from patron accounts which had values saved in the field.
 
