@@ -108,6 +108,7 @@ add more search input rows. Clicking the *X* button will close the search input 
 
 image::images/opac/opac-advanced-search-1.png[scaledwidth="75%",alt="Basic Search"]
 
+[[_public_catalogue_search_filters]]
 Search Filters
 ^^^^^^^^^^^^^^
 
@@ -127,7 +128,8 @@ image::images/opac/opac-advanced-search-2.png[scaledwidth="75%",alt="Basic Searc
 [TIP]
 =====
 All the search filters, with the exception of Shelving Location, rely on values entered into the Leader,
-007, 008, 041, or 341 fields of the MARC record. Records with incorrect coding will not filter correctly.
+007, 008, 041, or 341 fields of the MARC record. Records with incorrect coding will not filter correctly. See
+xref:_search_filters_and_format_icons[] for more information.
 =====
 
 Search Library
