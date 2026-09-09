@@ -353,7 +353,7 @@ suspended, and what your position is in the hold queue. You can use the checkbox
 "Show only items available for pickup" to toggle showing all items or only those available for pickup.
 You can also refresh the list of items by clicking on *Refresh holds list*.
 
-Your position in the hold queue is indicated by the first number in the Status _column_. For example
+Your position in the hold queue is indicated by the first number in the _Status_ column. For example
 "Hold #3 on 1 copy" indicates you are third in the hold queue.
 
 Clicking the *Edit* button will bring you to the hold editing screen.  Here you can:
