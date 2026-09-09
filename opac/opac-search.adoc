@@ -127,7 +127,7 @@ image::images/opac/opac-advanced-search-2.png[scaledwidth="75%",alt="Basic Searc
 [TIP]
 =====
 All the search filters, with the exception of Shelving Location, rely on values entered into the Leader,
-007, 008, or 041 fields of the MARC record. Records with incorrect coding will not filter correctly.
+007, 008, 041, or 341 fields of the MARC record. Records with incorrect coding will not filter correctly.
 =====
 
 Search Library
