@@ -8,28 +8,29 @@ The following table describes each of the menu options in use and their required
 |====
 | Menu option | Description | Permission
 | xref:_age_overdue_circs_to_lost[Age Overdue Circ to Lost] | To create a queue of ALL overdue items by selected patron profiles at selected libraries to be marked lost. It does not support date parameter. This feature is mainly for school libraries' end of term process. To automatically mark items lost when they are overdue for x days, contact Co-op support | LSA
-| Auto-Print Settings | To block automatic receipt printing in selected staff client transactions | LSA
+| Auto-Print Settings | To block automatic receipt printing in selected staff client transactions | Local System Administrator
 | xref:_carousels[Carousels] | Carousels are only available for use with LibPress websites | Carousels Secondary Permissions
 | xref:_cash_reports[Cash Reports] | View summary report of cash transactions for selected date range | All staff
-| xref:_circulation_policies[Circulation Policies] | View circulation policies	| Viewable to LSA. Contact Co-op support for editing
-| xref:_closed_dates_editor[Closed Dates Editor] | Set library ad hoc closure dates (affects due dates and fines)	| LSA
-| xref:_group_penalty_thresholds[Group Penalty Thresholds] | Set library-specific thresholds for maximum items out, maximum overdues, and maximum fines | LSA
-| xref:_hold_policies[Hold Policies] | Information on viewing and updating hold policies. | Local System Administrators can view. Contact Co-op Support for updates
-| xref:_creating_holdings_templates[Holdings Template Editor] | Interface to create holdings templates  | LSA/Cataloguers
-| xref:_hold_driven_recall[Hold-driven Recall] | |
-| xref:_hopeless_holds[Hopeless Holds] | |
-| xref:item-alert-suppression[Item Alert Suppression] | not to display copy alert on selected actions | LSA
+| xref:_circulation_policies[Circulation Policies] | Information on viewing and updating circulation policies.	| Local System Administrators can view. Contact Co-op Support for updates.
+| xref:_closed_dates_editor[Closed Dates Editor] | Set library ad hoc closure dates (affects due dates and fines)	| Local System Administrator
+| xref:_group_penalty_thresholds[Group Penalty Thresholds] | Set library-specific thresholds for maximum items out, maximum overdues, and maximum fines | Local System Administrator
+| xref:_hold_policies[Hold Policies] | Information on viewing and updating hold policies. | Local System Administrators can view. Contact Co-op Support for updates.
+| xref:_creating_holdings_templates[Holdings Template Editor] | Interface to create holdings templates  | Local System Administrator/Cataloguers
+| xref:_hold_driven_recall[Hold-driven Recall] | | Local System Administrator
+| xref:_hopeless_holds[Hopeless Holds] | | Local System Administrator
+| xref:item-alert-suppression[Item Alert Suppression] | not to display copy alert on selected actions | Local System Administrator
 | xref:item-tag[Item Tags] | Not currently used by Sitka | No permissions granted
-| xref:_library_settings_editor[Library Settings Editor] | Detailed library configuration settings | LSA/Co-op suppport
-| xref:_non_catalogued_type_editor[Non-catalogued Type Editor] | Create and edit optional non-catalogued item types | LSA
-| xref:_notifications_action_triggers[Notifications / Action Triggers]
+| xref:_library_settings_editor[Library Settings Editor] | Detailed library configuration settings | Local System Administrator/Co-op Suppport
+| xref:_non_catalogued_type_editor[Non-catalogued Type Editor] | Create and edit optional non-catalogued item types | Local System Administrator
+| xref:_notifications_action_triggers[Notifications / Action Triggers] | | Local System Administrators can view. Contact Co-op Support for updates.
 | xref:_patrons_with_negative_balances[Patrons with Negative Balances] | Display a list of patron accounts with negative bill balances, to whom the library may owe refunds | All staff
-| xref:_permission_tree_display_entries[Permission Tree Display Entries]  | |
-| xref:_shelving_location_editor[Shelving Location Editor] | Create and edit copy locations, also known as shelving locations | LSA
-| xref:_shelving_location_groups[Shelving Location Groups] | Allows one or more shelving locations to be grouped together as a search location. | LSA
-| xref:_shelving_location_order[Shelving Location Order] | Change display order of copy locations on Holds Pull list, also known as shelving locations | LSA
-| xref:stat-cat[] | Create and manage optional categories for detailed patron/item information | LSA
-| xref:admin-survey[] | Create patron surveys to be completed at patron registration | LSA
-| xref:transit-list[] | View items in transit to or from your library during selected date range | All staff
-| xref:_work_log[] | List the most recent transactions processed on the workstation | All staff
+| xref:_permission_tree_display_entries[Permission Tree Display Entries]  | | Local System Administrators can view. Contact Co-op Support for updates.
+| xref:_shelving_location_editor[Shelving Location Editor] | Create and edit copy locations, also known as shelving locations | Local System Administrator
+| xref:_shelving_location_groups[Shelving Location Groups] | Allows one or more shelving locations to be grouped together as a search location. | Local System Administrator
+| xref:_shelving_location_order[Shelving Location Order] | Change display order of copy locations on Holds Pull list, also known as shelving locations | Local System Administrator
+| xref:_statistical_categories_item_editor[Statistical Categories - Item Editor] | Create and manage optional categories for detailed item information | Local System Administrator
+| xref:_statistical_categories_patron_editor[Statistical Categories - Patron Editor] |Create and manage optional categories for detailed patron information  | Local System Administrator
+| xref:_surveys[Surveys] | Create patron surveys to be completed at patron registration | Local System Administrator
+| xref:_transit_list_admin[Transit List] | View items in transit to or from your library during selected date range | All staff
+| xref:_work_log[Work Log] | List the most recent transactions processed on the workstation | All staff
 |====
