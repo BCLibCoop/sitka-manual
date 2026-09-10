@@ -1,6 +1,8 @@
 Workstation Administration
 --------------------------
 
+include::workstationadmin/admin-workstation-settings.adoc[]
+
 include::workstationadmin/admin-registeredworkstations.adoc[]
 
 include::workstationadmin/admin-printersettings.adoc[]
@@ -55,67 +57,3 @@ image::images/admin/latency-test.png[]
 
 *Average Latency* - Indicates how long it takes for your workstation to communicate with Sitka's Evergreen servers.
 
-
-Sounds
-~~~~~~
-(((Sounds)))
-(((Disable Sounds)))
-
-Sound is on by default in the Evergreen staff client. You can test the sounds and disable
-them if desired.
-
-Go to *Administration* -> *Workstation*
-
-.Test Sounds
-. Click the buttons to test the staff client sounds.
-+
-image::images/admin/sounds-test-1.png[]
-+
-. Distinct sounds will be played for each event.
-.. *Success*
-.. *Info*
-.. *Warning*
-.. *Error*
-
-.Disable Sounds
-. Check the box for *Disable Sounds* to turn off the staff client sounds.
-+
-image::images/admin/sounds-test-2.png[]
-+
-. This will also disable the sound test buttons.
-
-Include Full Library Names in Library Selector
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-(((Library Selector)))
-
-link:https://youtu.be/pgDPRt3J-MM[*Sitka Snippet Video - Turning on Full Library Names (1:19)*]
-
-Go to *Administration* -> *Workstation*
-
-.Library Selector Shows Combined Names
-. Check the box for *Include Full Library Names in Library Selector* to show the full name, 
-as well as the short code, in library selectors in the staff client.
-+
-image::images/admin/library-selector-name-setting-1.png[]
-+
-. Log out of the staff client.
-. Clear your browser cache.  See xref:_clear_cache[].
-. Log into the staff client.  The full library name will now display in the library selector drop down.
-
-[NOTE]
-======
-This setting only applies to library selectors written in angular code, such as the staff catalogue.  Library
-selectors in older interfaces, such as most of circulation, will not show the full name.
-
-Libraries can expect to see this setting apply to more interfaces in the future as the older parts of the 
-staff client are re-written in the newer code.
-======
-
-
-[[_workstation_search_preferences]]
-Search Preferences
-~~~~~~~~~~~~~~~~~~
-
-Staff should not use the search preferences settings found in Workstation Administration.
-
-Search preferences should be set from within the staff catalogue.  See xref:_search_preferences[].
