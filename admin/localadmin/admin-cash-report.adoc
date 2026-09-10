@@ -1,8 +1,6 @@
 Cash Reports
 ~~~~~~~~~~~~
 
-anchor:cash-report[Cash Reports]
-
 Evergreen generates a basic cash reports libraries can use to track the payments made. 
 
 Libraries can also create customized payment reports through the xref:_reports[Reporter]. 
