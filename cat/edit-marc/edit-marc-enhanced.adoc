@@ -46,8 +46,8 @@ material that is being described. In some cases this means that the meaning of t
 [TIP]
 =====
 The search filters and format icons in the public catalogue rely on 
-accurate coding in the Leader, 007 and 008 fields. Please see the format filter and icon 
-specifications for Sitka's Evergreen in xref:_search_filters_and_format_icons[].
+accurate coding in the Leader, 007, 008, 336, and 341 fields. Please see the search filter 
+and icon specifications for Sitka's Evergreen in xref:_search_filters_and_format_icons[].
 =====
 
 
@@ -66,6 +66,12 @@ stacked vertically on separate lines from the field numbers, instead of each fie
 with all subfields horizontally.
 * The *Validate* button is a function of authorities which are not currently used in Sitka's 
 Evergreen.
+* When the *Special Characters* button is clicked, a pop-up appears for the _Special Characters
+Map_. Character sets for Latin, Punctuation, and Canadian syllabics are available. Clicking on
+a character will copy it and it can then be pasted into the MARC record in the desired spot.
++
+image::images/cat/marc/special-characters-map-1.png[]
++  
 * When the *Help* button is clicked, a list of keyboard shortcuts that can be used to edit
 the MARC record display. As well, MARC references will display for fields 1XX through
 8XX in the main body of the MARC record.
@@ -167,7 +173,7 @@ image::images/cat/marc-edit-1.png[]
 +
 ////
 
-. In the Enhanced MARC Editor, click the blue icon to the right of the 007 field. See 
+. In the Enhanced MARC Editor, click the icon to the right of the 007 field. See 
 xref:_marc_record[] if the record doesn't already have a 007 field.
 +
 image::images/cat/marc/physical-characteristics-wizard-1.png[]
@@ -188,14 +194,14 @@ drop down menu.
 . Evergreen will display the result of each selection in the preview above. The character of your current 
 position will be in red.
 +
-image::images/cat/pcw-3.png[]
+image::images/cat/marc/physical-characteristics-wizard-2.png[]
 +
 . Use the *Previous* or *Next* buttons, navigate through the various positions in the 
 007 field.
 
 . Once the you have entered all of the applicable values click *Apply*.
 +
-image::images/cat/pcw-4.png[]
+image::images/cat/marc/physical-characteristics-wizard-3.png[]
 +
 . All of the values selected will be stored and displayed within the 007 field of the bibliographic record.
 +
