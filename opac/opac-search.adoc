@@ -127,10 +127,11 @@ image::images/opac/opac-advanced-search-2.png[scaledwidth="75%",alt="Basic Searc
 
 [TIP]
 =====
-All the search filters, with the exception of Shelving Location, rely on values entered into the Leader,
-007, 008, 041, or 341 fields of the MARC record. Records with incorrect coding will not filter correctly. See
-xref:_search_filters_and_format_icons[] for more information.
+With the exception of Shelving Location, the search filters rely on 
+accurate coding in the Leader, 007, 008, 336, and 341 fields. Please see the search filter 
+and icon specifications for Sitka's Evergreen in xref:_search_filters_and_format_icons[].
 =====
+
 
 Search Library
 ^^^^^^^^^^^^^^
