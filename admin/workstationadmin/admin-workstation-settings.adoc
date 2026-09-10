@@ -7,6 +7,8 @@ There are a number of workstation settings that can be set by going to
 These settings apply to the logged in workstation. For the settings to take effect
 you must log out and back into the workstation.
 
+image::images/admin/workstation-settings-1.png[]
+
 [NOTE]
 ======
 With the exception of Sounds, these settings only apply to interfaces written 
@@ -17,14 +19,12 @@ Libraries can expect to see these settings apply to more interfaces in the futur
 as the older parts of the staff client are re-written in the newer code.
 ======
 
-image::images/admin/workstation-settings-1.png[]
-
 Sounds
 ^^^^^^
 (((Sounds)))
 (((Disable Sounds)))
 
-Sound is on by default in the Evergreen staff client. You can test the sounds and disable
+Sound is on by default in the staff client. You can test the sounds and disable
 them if desired.
 
 .Test Sounds
