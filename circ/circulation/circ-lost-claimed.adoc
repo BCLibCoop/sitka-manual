@@ -87,11 +87,7 @@ Damaged
 If a patron damages an item it can be marked as damaged at check in, via the Item Status interface, from the Holds Shelf, or
 from within a patron's account.
 
-. On the appropriate interface select the item and, and
-* at check in, click *Actions -> Mark Items Damaged*
-* in the Item Status interface, click *Actions -> Mark -> Item as Damaged*
-* from the Holds Shelf, click *Actions -> Mark Item Damaged*
-* within a patron account, click *Actions -> Mark Damaged*
+. On the appropriate interface select the item click *Actions -> Mark Items Damaged*, *Actions -> Mark -> Item as Damaged*, *Actions -> Mark Item Damaged*, or *Actions -> Mark Damaged* (depending on interface).
 +
 image:images/circ/mark-damaged-1.png[]
 +
@@ -127,10 +123,7 @@ If an item is slated to be removed from the collection it can be marked as disca
 via the Item Status interface, or from the Holds Shelf.  Libraries may wish to use the _Discard/Weed_ 
 status when items to be discarded need to be reviewed before being deleted.
 
-. On the appropriate interface select the item and,
-* at check in, click *Actions -> Mark Items Discard/Weed*
-* in the Item Status interface, click *Actions -> Mark -> Item as Discard/Weed*
-* from the Holds Shelf, click *Actions -> Mark Item Discard/Weed*
+. On the appropriate interface select the item click *Actions -> Mark Items Discard/Weed*, *Actions -> Mark -> Item as Discard/Weed*, or *Actions -> Mark Item Discard/Weed* (depending on interface).
 +
 image:images/circ/mark-discard-1.png[]
 +
@@ -151,9 +144,7 @@ Missing
 
 If an item cannot be located, it can be marked as missing via the Item Status interface or from the Holds Shelf.
 
-. On the appropriate interface select the item, and
-* in the Item Status interface, click *Actions -> Mark -> Item as Missing*
-* from the Holds Shelf, click *Actions -> Mark Item Missing*
+. On the appropriate interface select the item and click *Actions -> Mark -> Item as Missing* or *Actions -> Mark Item Missing* (depending on interface).
 +
 image:images/circ/mark-missing-1.png[]
 +
