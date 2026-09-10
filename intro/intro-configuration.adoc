@@ -323,7 +323,7 @@ Here staff can:
 * xref:_print_service_hatch[view information about Hatch]
 * xref:_tests[run latency tests]
 * xref:_sounds[disable and test sounds for the staff client]
+* LINK HERE [prevent links from opening in new tabs]
 * xref:_include_full_library_names_in_library_selector[set the library selector to include the full name of libraries]
-
-Staff should not use the search preferences settings found in Workstation Administration.  Instead,
-search preferences should be set from within the staff catalogue.  See xref:_search_preferences[].
+* xref:_search_preferences[set search preferences in the staff catalogue]
+* LINK HERE [adjust table density]
