@@ -37,8 +37,8 @@ them. This used on the Bill History Transaction screen.
 Customize Receipt Templates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.  In Evergreen, go to **Administration -> Workstation -> Print Templates**.
-.  Select the Template Name of the receipt you wish to customize.
+.  Go to **Administration -> Workstation -> Print Templates**.
+.  From the *Template Name* drop down, select the receipt template you wish to customize.
 +
 image::images/admin/printtemplate1.png[]
 +
