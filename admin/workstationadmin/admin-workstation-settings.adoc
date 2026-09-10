@@ -1,10 +1,23 @@
 Workstation Settings
 ~~~~~~~~~~~~~~~~~~~~
 
-image::images/admin/workstation-settings-1.png[]
-
 There are a number of workstation settings that can be set by going to 
 *Administration -> Workstation*. 
+
+These settings apply to the logged in workstation. For the settings to take affect
+you must log out and back into the workstation.
+
+[NOTE]
+======
+With the exception of Sounds, these settings only apply to interfaces written 
+in angular code, such as the staff catalogue. The settings will not apply to 
+older interfaces, such as most of circulation.
+
+Libraries can expect to see these settings apply to more interfaces in the future 
+as the older parts of the staff client are re-written in the newer code.
+======
+
+image::images/admin/workstation-settings-1.png[]
 
 Sounds
 ^^^^^^
@@ -35,7 +48,14 @@ image::images/admin/sounds-test-2.png[]
 Prevent Links from Opening in New Tabs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-buggy
+. Check the box for *Prevent links from opening in new tabs* to force
+all links to open in the same window.
++
+image::images/admin/prevent-links-1.png[]
++
+. Log out of the staff client.
+. Clear your browser cache.  See xref:_clear_cache[].
+. Log into the staff client.  Links will now only open in the same tab.
 
 Include Full Library Names in Library Selector
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -43,9 +63,6 @@ Include Full Library Names in Library Selector
 
 link:https://youtu.be/pgDPRt3J-MM[*Sitka Snippet Video - Turning on Full Library Names (1:19)*]
 
-Go to *Administration* -> *Workstation*
-
-.Library Selector Shows Combined Names
 . Check the box for *Include Full Library Names in Library Selector* to show the full name, 
 as well as the short code, in library selectors in the staff client.
 +
@@ -55,16 +72,16 @@ image::images/admin/library-selector-name-setting-1.png[]
 . Clear your browser cache.  See xref:_clear_cache[].
 . Log into the staff client.  The full library name will now display in the library selector drop down.
 
-[NOTE]
-======
-This setting only applies to library selectors written in angular code, such as the staff catalogue.  Library
-selectors in older interfaces, such as most of circulation, will not show the full name.
-
-Libraries can expect to see this setting apply to more interfaces in the future as the older parts of the 
-staff client are re-written in the newer code.
-======
 
 Table Density
 ^^^^^^^^^^^^^
 
-Values are Compact, Standard, and Wide
+. From the drop down for *Table density* select Compact, Standard, and Wide.
++
+image::images/admin/table-density-1.png[]
++
+. Log out of the staff client.
+. Clear your browser cache.  See xref:_clear_cache[].
+. Log into the staff client.  The table density in newer interfaces will follow your
+choice.
+
