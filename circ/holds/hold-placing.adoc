@@ -111,6 +111,12 @@ Placing Holds for a Hold Group
 .. Please note that most additional hold options (e.g., choosing the pickup library or notification preferences) are disabled for holds placed by Hold Group. Pickup location and notification preferences adhere to the defaults for the respective patrons. Patrons can edit their notification preferences and pickup locations from My Account on the public catalog after the hold is placed. Holds may be suspended and an activate date added if desired.
 .Click *Submit*.
 
+image:images/circ/holds/hold-group-place-hold-staff-cat-1.png[scaledwidth="75%"]
+
+image:images/circ/holds/hold-group-place-hold-staff-cat-1.png[scaledwidth="75%"]
+
+image:images/circ/holds/hold-group-place-hold-staff-cat-3.png[scaledwidth="75%"]
+
 
 Placing Holds via a Patron Account
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
