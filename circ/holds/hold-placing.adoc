@@ -115,15 +115,14 @@ in the search result list, or on the record summary screen.
 +
 image:images/circ/holds/title-hold-1.png[scaledwidth="75%"]
 +
-. Use the radio buttons to select a xref:_placing_holds_for_a_hold_group[hold group] and use the drop down to choose the Hold Group from the list.
-+
-image:images/circ/holds/hold-group-place-hold-staff-cat-1.png[scaledwidth="75%"]
-+
+. Use the radio buttons to select a xref:_placing_holds_for_a_hold_group[hold group] and use the drop down to choose the Hold Group from the list, then click *Place Hold(s)*.
 .. Please note that most additional hold options (e.g., choosing the pickup library or 
 notification preferences) are disabled for holds placed by Hold Group. Pickup location and 
 notification preferences adhere to the defaults for the respective patrons. Patrons can edit their 
 notification preferences and pickup locations from My Account on the public catalog after the hold 
 is placed. Holds may be suspended and an activate date added if desired.
++
+image:images/circ/holds/hold-group-place-hold-staff-cat-1.png[scaledwidth="75%"]
 +
 image:images/circ/holds/hold-group-place-hold-staff-cat-2.png[scaledwidth="75%"]
 +
