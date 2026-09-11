@@ -1,10 +1,10 @@
 Hard Due Date
 ~~~~~~~~~~~~~
 
-Academic libraries may wish to use hard due dates to truncate due dates to the end of a semester (so that items are due by a particular date) or 
+Academic libraries may wish to use hard due dates to truncate due dates to the end of a semester or 
 allow particular material to go out for an entire semester. Hard due dates can make an item's due date either earlier or later than usual, depending on requirements.
 
-Local system administrators at K12 and post-secondary libraries can view and change existing hard due dates. To add a new hard due date, you will need to contact Co-op Support.
+Local system administrators at academic libraries can view and change existing hard due dates. To add a new hard due date, you will need to contact Co-op Support.
 
 Viewing Your Hard Due Dates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -51,15 +51,33 @@ If you already have a hard due date established, but need the date of a hard due
 First, update the ceiling date.
 
 . Go to *Administration -> Server Administration -> Hard Due Date Changes*.
++
+image::images/admin/hard-due-date-1.png[scaledwidth="75%"]
++
 . Check the checkbox of the rule you want to edit.
 . Click *Actions → Edit Selected*.
++
+image::images/admin/hard-due-date-update-1.png[scaledwidth="75%"]
++
 . Enter the new hard due date in the *Current Ceiling Date* field.
 . Click *Save*.
++
+image::images/admin/hard-due-date-update-2.png[scaledwidth="75%"]
+
 
 Next, add the new hard due date value.
 
 . Click the *Values* link for the rule you want to update.
++
+image::images/admin/hard-due-date-2.png[scaledwidth="75%"]
++
 . Click *New Hard Due Date Values*.
++
+image::images/admin/hard-due-date-update-3.png[scaledwidth="75%"]
++
 . Enter the date that the new hard due date becomes active in the *Active Date* field.
 . Enter the new hard due date in the *Ceiling Date* field.
 . Click *Save*.
++
+image::images/admin/hard-due-date-update-4.png[scaledwidth="75%"]
+
