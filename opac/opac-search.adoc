@@ -486,7 +486,8 @@ image:images/opac/opac-search-results-7.png[scaledwidth="75%"]
 
 * Click *More Details* to see more bibliographic details including subjects.
 * Click *Show Only Available Copies* to limit view to available items of that title. Click *Show All Copies* to see all items.
-* Click the library name to see details about the library such as address and open hours.
+* Click the library name (in the screenshot example, *Maple Library*) to see details about the library, such as address and open hours.
+* Click *Accessibility Features* to see accessibility information, if available; for more information, see xref:_accessibility_metadata[].
 * Click *Summaries & More* to see the book’s summaries and reviews, if available.
 * Click *Additional Content* to see any additional content for the title.  
 * Click *Shelf Browser* to view items appearing near the current item on the library shelves. 
