@@ -71,6 +71,11 @@ image:images/admin/patron-delete-inactive-3.png[]
 +
 image:images/admin/patron-delete-inactive-4.png[]
 
+[TIP]
+=====
+Inactive barcodes can also be individually deleted from a patron account.
+=====
+
 
 Deleting Patron Accounts
 ~~~~~~~~~~~~~~~~~~~~~~~~
