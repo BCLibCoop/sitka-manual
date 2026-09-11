@@ -14,7 +14,7 @@ Holds can be placed by staff in the staff catalogue and by patrons on your publi
 [NOTE]
 ======
 
-The option for placing holds for hold groups will only appear if your library has at least one hold group.
+In the staff catalogue, the option for placing holds for hold groups will only appear if your library has at least one hold group.
 
 The *Recent Patron* button will only appear if the library setting _Place holds for recent patrons_ has been set to
 TRUE. The value of the library setting _Number of Retrievable Recent Patrons_ determines how many recent patrons will display.
@@ -53,23 +53,6 @@ Placing Meta-record Level Holds
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can request acceptable formats and languages of a title at time of hold placement, or you can group formats at time of search. Records are grouped by title, author, and format. Format information is from the MARC record leader and fixed fields.
-
-////
-Advanced Hold Options
-+++++++++++++++++++++
-
-. Click *Place Hold* to the right of the record on the search result list, or on the record summary screen.
-. Click *Advanced Hold Options* under the title.
-+
-image:images/circ/metahold1.png[scaledwidth="75%"]
-+
-. If meta-record data is available, the different formats and languages display. Select the acceptable formats and languages.
-+
-image:images/circ/metahold2.png[scaledwidth="75%"]
-+
-. Edit patron hold notification methods and pickup location, if required.
-. Click *Submit*.
-////
 
 Group Formats and Editions Search
 +++++++++++++++++++++++++++++++++
