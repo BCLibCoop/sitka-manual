@@ -4,10 +4,12 @@ Hard Due Date
 Academic libraries may wish to use hard due dates to truncate due dates to the end of a semester (so that items are due by a particular date) or 
 allow particular material to go out for an entire semester. Hard due dates can make an item's due date either earlier or later than usual, depending on requirements.
 
+Local system administrators at K12 and post-secondary libraries can view and change existing hard due dates. To add a new hard due date, you will need to contact Co-op Support.
+
 Viewing Your Hard Due Dates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Local system administrators can view hard due dates for your library, but cannot make updates.
+Local system administrators can view existing hard due dates for your library.
 
 . Go to *Administration -> Server Administration -> Hard Due Date Changes*.
 . Existing hard due dates will display for the current working location with the current ceiling 
@@ -27,15 +29,15 @@ image::images/admin/hard-due-date-3.png[scaledwidth="75%"]
 Adding a New Hard Due Date
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you wish to add a hard due date, please 
+To add a hard due date, please 
 contact https://bc.libraries.coop/support/[Co-op Support] 
 with the following:
 
-* The date for the hard due date
-* Who and what the hard due date should apply to
-** Refer to xref:_understanding_your_circulation_policies[Understanding Your Circulation Policies] for the information on the parameters you can specify
+* The date for the hard due date.
+* Who and what the hard due date should apply to.
+** Refer to xref:_understanding_your_circulation_policies[Understanding Your Circulation Policies] for the information on the parameters you can specify.
 * Whether the hard due should apply all the time, or just truncate regular due dates if they would
-fall after the hard due date
+fall after the hard due date.
 ** Libraries can have both types of hard due dates if you'd like different scenarios to apply to different
 patron groups or items. For example, you may want to have regular loan durations apply to students until
 the end of term (so the due date for students is truncated to a hard due date), while faculty members would always get to check out items for the
@@ -44,6 +46,20 @@ entire semester (so the due date for faculty is extended to a hard due date).
 Changing Your Hard Due Dates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you already have a hard due date established, but need the date of a hard due date updated (e.g. the next semester is coming up), please 
-contact https://bc.libraries.coop/support/[Co-op Support] to let us know what the new hard due date should be.
+If you already have a hard due date established, but need the date of a hard due date updated (e.g. the next semester is coming up), local system administrators can update the existing hard due date for your library.
 
+First, update the ceiling date.
+
+. Go to *Administration -> Server Administration -> Hard Due Date Changes*.
+. Check the checkbox of the rule you want to edit.
+. Click *Actions → Edit Selected*.
+. Enter the new hard due date in the *Current Ceiling Date* field.
+. Click *Save*.
+
+Next, add the new hard due date value.
+
+. Click the *Values* link for the rule you want to update.
+. Click *New Hard Due Date Values*.
+. Enter the date that the new hard due date becomes active in the *Active Date* field.
+. Enter the new hard due date as the *Ceiling Date*.
+. Click *Save*.
