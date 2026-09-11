@@ -6,7 +6,7 @@ You may suppress some item alerts from showing up on the corresponding staff act
 For example, you may choose to suppress the alert when checking out a missing item.
 
 . Go to *Administration -> Local Administration -> Item Alert Suppression*. 
-. Click *Create*. 
+. Click *New Item Alert Suppression*. 
 . In the pop-up window, select the Alert Type from the dropdown list. 
 . Make sure your library is in the Org Unit box. 
 . Click *Save*.
