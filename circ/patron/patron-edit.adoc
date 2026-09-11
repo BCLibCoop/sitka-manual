@@ -58,14 +58,37 @@ inactive. Best practice is to delete inactive patron cards.
 image:images/circ/patronupdate4.png[scaledwidth="75%"]
 +
 . All barcodes that the patron has had are displayed in a pop-up window.
-. Click *Active*  to activate an inactive card.
-. Click *Primary*  on the Active card, Active must be the Primary Card.
+. Click *Active* to activate an inactive card.
+. Click *Primary* on the Active card, Active must be the Primary Card.
 . Click *Apply Changes*.
 +
 image:images/circ/patronupdate9.png[scaledwidth="75%"]
 +
 . Click *Save* at top right of screen.
 
+Deleting Inactive Cards
++++++++++++++++++++++++
+
+When the barcode for a patron’s account is replaced and a new barcode is assigned, the old barcode remains in the Evergreen database as an inactive card. Patrons cannot login to the public catalogue with an inactive barcode, but it can be used to authenticate with some 3rd party products and to retrieve the active patron record in the staff client. Co-op Support strongly recommends libraries delete inactive barcodes on a regular basis.
+
+To delete inactive barcodes from a patron's account:
+
+. Click *See All*.
++
+image:images/circ/patronupdate4.png[scaledwidth="75%"]
++
+. All barcodes that the patron has had are displayed in a pop-up window.
+. Click the *Delete* button next to the inactive barcode(s) to be deleted.
+. Click *Apply Changes*.
++
+image:images/circ/patronupdate9.png[scaledwidth="75%"]
++
+. Click *Save* at top right of screen.
+
+[TIP]
+======
+To delete a number of inactive cards at once, the Sitka template named _List of Inactive Patron Barcodes_ can be used to generate a list of inactive patron barcodes which your local system administrator can copy/paste into the xref:_deleting_inactive_cards[Patron Deletion Tool].
+======
 
 Resetting a Patron Password
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
