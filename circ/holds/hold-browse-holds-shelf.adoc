@@ -68,6 +68,8 @@ image:images/circ/holds/clear-holds-shelf-1.png[scaledwidth="75%"]
 . Only holds that have been cancelled or are expired will now display.
 . Click *Clear These Holds*.  This will cancel the expired holds.
 +
+.. The *Clear These Holds* button can be hidden by setting the library setting _Hide the Clear These Holds button_ to TRUE.
++
 image:images/circ/holds/clear-holds-shelf-2.png[scaledwidth="75%"]
 +
 . The *Post-Clear* column will indicate what will happen when the item is checked in.
