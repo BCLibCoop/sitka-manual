@@ -16,7 +16,7 @@ Batch modifications and deletions can be rolled back or reversed, with the excep
 
 Patron accounts can be added to User Buckets by scanning individual patron barcodes or by uploading a file of patron barcodes directly in the Patron Bucket interface. They can also be added to a User Bucket from the Patron Search screen. Batch changes and batch edit sets are tied to the Patron Bucket itself, not to the login of the bucket owner.
 
-[[create-user-bucket]]
+[[_create_user_bucket]]
 Create a User Bucket
 ^^^^^^^^^^^^^^^^^^^^
 
@@ -50,7 +50,7 @@ To add users to a bucket by uploading a file of user barcodes:
 . Select the user accounts that you want to add to the bucket by checking the box next to each user row or by using the CTRL or SHIFT key on your keyboard to select multiple users.
 . Go to *Actions -> Add To Bucket* or right-click on a selected user account to view the _Actions_ menu and select *Add To Bucket*.  The user accounts will move to the *Bucket View* tab and are now in the selected User Bucket.
 
-[[batch-edit-user]]
+[[_batch_edit_users]]
 Batch Edit All Users
 ^^^^^^^^^^^^^^^^^^^^
 
@@ -78,7 +78,7 @@ To batch edit all users in a user bucket:
 All permissions must be granted at the organizational unit that the workstation is registered to or higher, and are checked against the users' Home Library when a batch modification or deletion is executed.
 
 
-[[batch-mod-statcat]]
+[[_batch_mod_statcats]]
 Batch Modify Statistical Categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -95,7 +95,7 @@ Batch Modify Statistical Categories
 
 . Click *Apply Changes*.  The stat cat modification(s) will be applied in batch.
 
-[[batch-delete-user]]
+[[_batch_delete_users]]
 Batch Delete Users
 ^^^^^^^^^^^^^^^^^^
 To ensure needed statistics are preserved it is not currently possible to delete users through
@@ -103,7 +103,7 @@ User Buckets.
 
 To delete users refer to xref:_deleting_patron_accounts[]
 
-[[view-batch-change]]
+[[_view_batch_changes]]
 View Batch Changes
 ^^^^^^^^^^^^^^^^^^
 
@@ -112,7 +112,7 @@ View Batch Changes
 . Click *View batch changes*.  A dialogue box will appear that lists the _Name_, date _Completed_, and date _Rolled back_ of any batch changes made to the bucket.  There is also an option to _Delete_ a batch change.  This will remove this batch change from the list of actions that can be rolled back.  It will not delete or reverse the batch change.
 . Click *OK* to close the dialog box.
 
-[[roll-back-changes]]
+[[_roll_back_changes]]
 Roll Back Batch Changes
 ^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -137,7 +137,7 @@ Batch Create Notes
 Every patron in a bucket has a note added to their account when notes are batch created this way. Unchecking individual patrons in a bucket's list has no effect (a note is added to every patron account in the user bucket, regardless).
 ======
 
-[[sharing-buckets]]
+[[_sharing_buckets]]
 Sharing Buckets
 ^^^^^^^^^^^^^^^
 
