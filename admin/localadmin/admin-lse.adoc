@@ -791,6 +791,10 @@ hidden via the xref:_holdings_editor_preferences[Holdings Editor Preferences].
 |Hide the Clear These Holds button |Hide the Clear These Holds button from 
 the Holds Shelf interface.| True/False | |LSA |
 
+|Hide the entire template bar in Holdings Editor |Hides the template bar in the 
+Volume/Copy/Holdings Editor. By default, the template bar is displayed in this interface.| 
+True/False | |Sitka |This feature is not used by Sitka.
+
 |Horizontal layout for Volume/Copy Creator/Editor.|The main entry point for this interface 
 is in Holdings Maintenance, Actions for Selected Rows, Edit Item Attributes / Call Numbers 
 / Replace Barcodes. This setting changes the top and bottom panes (if FALSE) for that 
