@@ -26,7 +26,9 @@ Creating/Deleting Item Buckets
 Creating Item Buckets
 ^^^^^^^^^^^^^^^^^^^^^
 
-There are two ways to create an item bucket. You can either create a bucket first, without accessing any copies, or you can access an item record and choose to create the bucket from that view. We will demonstrate both methods here.
+There are three ways to create an item bucket. You can either create a bucket first, without accessing any copies, create an item bucket from a .csv file, or you can access an item record and choose to create the bucket from that view. We will demonstrate both methods here.
+
+include::cat-item-bucket.adoc[Creating Item Buckets]
 
 *Create an Item Bucket on Item Buckets view*
 
