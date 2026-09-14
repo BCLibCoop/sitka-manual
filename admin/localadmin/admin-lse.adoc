@@ -779,6 +779,9 @@ the old staff catalogue
 Attribute Editor to hide in the staff client.|Text| | | This library setting is obsolete. Item attributes can now be  
 hidden via the xref:_holdings_editor_preferences[Holdings Editor Preferences].
 
+|Hide the Clear These Holds button |Hide the Clear These Holds button from 
+the Holds Shelf interface.| True/False | |LSA |
+
 |Horizontal layout for Volume/Copy Creator/Editor.|The main entry point for this interface 
 is in Holdings Maintenance, Actions for Selected Rows, Edit Item Attributes / Call Numbers 
 / Replace Barcodes. This setting changes the top and bottom panes (if FALSE) for that 
@@ -1169,6 +1172,9 @@ service to use for converting address input to geographic coordinates. |Selectio
 |Jump to details on 1 hit (public)|When a search yields only 1 result, jump directly to the 
 record details page. This setting only affects the public OPAC|True/False| | LSA |
 
+|KPAC Audience Filter |Controls which items to display based on MARC Target Audience
+ (Audn) field. Options are: a,b,c,d,j. Default is: a,b,c,j |Text | | |
+
 |Jump to details on 1 hit (staff client)|When a search yields only 1 result, jump 
 directly to the record details page. This setting only affects the PAC within the 
 staff client|True/False| | LSA |
@@ -1531,9 +1537,18 @@ to circulate unless overridden with the COPY_RESERVED.override permission.
 |GUI: Juvenile account requires parent/guardian | Require a value for the parent/guardian 
 field in the patron editor for patrons marked as juvenile | True/False | | LSA |
 
+|GUI: Show guardian email field on patron registration | The guardian email field will be shown on 
+the patron registration screen. Showing a field makes it appear with required fields even 
+when not required. If the field is required this setting is ignored. | True/False |FALSE | Sitka | This feature is not used by Sitka.
+
 |GUI: Show guardian field on patron registration | The guardian field will be shown on 
 the patron registration screen. Showing a field makes it appear with required fields even 
 when not required. If the field is required this setting is ignored. | True/False | | LSA |
+
+|GUI: Suggest guardianemail field on patron registration | The guardian email field will be 
+suggested on the patron registration screen. Suggesting a field makes it appear when 
+suggested fields are shown. If the field is shown or required this setting is 
+ignored. | True/False |FALSE | Sitka | This feature is not used by Sitka.
 
 |GUI: Suggest guardian field on patron registration | The guardian field will be 
 suggested on the patron registration screen. Suggesting a field makes it appear when 
