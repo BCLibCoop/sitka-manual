@@ -189,7 +189,7 @@ Show Fields
 +++++++++++
 Setting any of these _Show_ library settings to False will hide the related field from the _Edit_ tab in a patron account, as well as the patron registration form.
 
-When these library settings have no value, the related fields are visible. The applicable library settings are:
+A True value means the related fields will be visible. When these library settings are not assigned a value, the related fields will also be visible. The applicable library settings are:
 
 * Show active field on patron registration
 * Show alias field on patron registration
