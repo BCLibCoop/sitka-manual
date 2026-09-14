@@ -181,7 +181,7 @@ _Suggested Fields_ using the library setting _Default showing suggested patron r
 Customizing the fields that display and are required in the patron account can help ensure the relevant information
 is being recorded for your patrons, and can cut down on unnecessary information being saved.
 
-These customizations impact fields in xref:_editing_patron_accounts[the Edit tab of a patron account], the xref:_registering_new_patrons[staff client patron registration form], and xref:_request_a_library_card.html[patron self-registration] in your public catalogue (if you have self-registration enabled).
+These customizations impact fields in xref:_editing_patron_accounts[the Edit tab of a patron account], the xref:_registering_new_patrons[staff client patron registration form], and xref:_request_a_library_card[patron self-registration] in your public catalogue (if you have self-registration enabled).
 
 Show Fields
 +++++++++++
