@@ -1539,7 +1539,8 @@ field in the patron editor for patrons marked as juvenile | True/False | | LSA |
 
 |GUI: Show guardian email field on patron registration | The guardian email field will be shown on 
 the patron registration screen. Showing a field makes it appear with required fields even 
-when not required. If the field is required this setting is ignored. | True/False |FALSE | Sitka | This feature is not used by Sitka.
+when not required. If the field is required this setting is ignored. | True/False |FALSE | Sitka | 
+This feature is not used by Sitka.
 
 |GUI: Show guardian field on patron registration | The guardian field will be shown on 
 the patron registration screen. Showing a field makes it appear with required fields even 
