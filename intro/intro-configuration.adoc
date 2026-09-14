@@ -23,6 +23,11 @@ Throughout Evergreen tables, also called grids, are used to display information.
 and modified using the same buttons, even if the available buttons or options might change between grids.
 Some grids allow you to perform actions on items selected in the grid.
 
+[TIP]
+=====
+The table density of newer interfaces can be xref:_table_density[adjusted in Workstation Administration].
+=====
+
 Function Bar
 ^^^^^^^^^^^^
 (((Function Bar, Configuration)))
