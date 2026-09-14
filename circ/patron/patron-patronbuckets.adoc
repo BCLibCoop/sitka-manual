@@ -122,6 +122,21 @@ Roll Back Batch Changes
 
 NOTE: Batch statistical category changes cannot be rolled back.
 
+[[batch-create-notes]]
+Batch Create Notes
+^^^^^^^^^^^^^^^^^^
+
+.Notes, alerts, and blocks can be added to accounts in a user bucket by clicking the *Batch Create Notes* button.
+. Go to *Circulation -> User Buckets*
+. Click *Buckets* and select the bucket which has the accounts that you want to add notes to.
+. Click *Batch Create Notes*.
+** For more detail on the differences between patron notes, see xref:_patron_notes[].
+
+[NOTE]
+======
+Every patron in a bucket has a note added to their account when notes are batch created this way. Unchecking individual patrons in a bucket's list has no effect (a note is added to every patron account in the user bucket, regardless).
+======
+
 [[sharing-buckets]]
 Sharing Buckets
 ^^^^^^^^^^^^^^^
