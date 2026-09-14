@@ -187,9 +187,14 @@ These customizations also impact fields in the _Edit_ tab of a xref:_working_wit
 
 Show Fields
 +++++++++++
+
+These customizations impact fields in xref:_editing_patron_accounts[the Edit tab of a patron account], the _registering_new_patrons[staff client patron registration form], and xref:_request_a_library_card.html[patron self-registration] in your public catalogue (if you haveself-registration enabled).
+
+When these library settings are not assigned a value, the related fields will be visible. A True value also means the related fields will be visible.
+
 Setting any of these _Show_ library settings to False will hide the related field from the _Edit_ tab in a patron account, as well as the patron registration form.
 
-A True value means the related fields will be visible. When these library settings are not assigned a value, the related fields will also be visible. The applicable library settings are:
+The applicable library settings are:
 
 * Show active field on patron registration
 * Show alias field on patron registration
