@@ -127,10 +127,10 @@ Batch Create Notes
 ^^^^^^^^^^^^^^^^^^
 
 .Notes, alerts, and blocks can be added to accounts in a user bucket by clicking the *Batch Create Notes* button.
-. Go to *Circulation -> User Buckets*
+. Go to *Circulation -> User Buckets*.
 . Click *Buckets* and select the bucket which has the accounts that you want to add notes to.
 . Click *Batch Create Notes*.
-** For more detail on the differences between patron notes, see xref:_patron_notes[].
+** For more detail on the differences between patron notes and how to apply changes, see xref:_staff_generated_notes[].
 
 [NOTE]
 ======
