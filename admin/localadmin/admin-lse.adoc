@@ -817,6 +817,9 @@ the staff client will display when investigating item details|Number| 4 | LSA |
 payment attempt will warn if the amount exceeds the value of this setting. | Number	| 
 1000 | LSA |
 
+|Place holds for recent patrons | Loading a patron in the place holds interface designates them as
+ recent. Show the interface to load recent patrons when placing holds. |True/False| | LSA |
+
 |Record in-house use: # of uses threshold for Are You Sure? dialog.|In the Record In-House 
 Use interface, a submission attempt will warn if the # of uses field exceeds the value 
 of this setting.|Number| | LSA |
@@ -1187,6 +1190,14 @@ e.g. https://my-evergreen.matomo.cloud/| Text | | Sitka |
 |Maximum file size for uploaded cover image files (at time of upload, prior to rescaling). |
 The number of bytes to allow for a cover image upload. If unset, defaults to 
 10737418240 (roughly 10GB). | Number | 10000000 (10MB) | Sitka | 
+
+|OPAC Alert Banner: Display | Show an alert banner in the OPAC. 
+Default is false. |True/False| FALSE | LSA |
+
+|OPAC Alert Banner: Text | Text that will display in the alert banner. |Text|  | LSA |
+
+|OPAC Alert Banner: Type | Determine the display of the banner. Options are: success, info, 
+warning, danger. |Selection list|  | LSA |
 
 |OPAC login message | HTML blob to be rendered in an interstitial page upon OPAC 
 login | Text|  | LSA |
