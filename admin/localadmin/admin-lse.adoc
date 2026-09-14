@@ -550,8 +550,17 @@ are true.|Duration| 6 months | LSA |
 |Warn when patron account is about to expire|If set, the staff client displays a warning 
 this number of days before the expiry of a patron account. Value is in number of days.|Duration|
  | LSA |
- 
- | Workstation OU fallback for staff-placed holds | For staff-placed holds, in the 
+
+|When aging circulations do not retain the patron postal code | | True/False |TRUE | Sitka |
+
+|When aging circulations do not retain the year from patron date of birth | | True/False |TRUE | 
+Sitka |
+
+|When aging holds do not retain the patron postal code | | True/False |TRUE | Sitka |
+
+|When aging holds do not retain the year from patron date of birth | | True/False |TRUE | Sitka |
+
+| Workstation OU fallback for staff-placed holds | For staff-placed holds, in the 
 absence of a patron preferred pickup location, fall back to using the staff 
 workstation OU (rather than patron home OU) | True/False | |LSA |
 
