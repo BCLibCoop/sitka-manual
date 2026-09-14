@@ -119,5 +119,7 @@ image::images/cat/transfer-holding-11.png[]
 
 [NOTE]
 ======
-You can xref:_working_with_items_in_a_bucket[use an item bucket] to transfer a number of items at once. To do so, select the items you would like to move to another bucket, and then from the *Actions* menu select *Transfer Selected Items to Marked Call Number*.
+You can xref:_working_with_items_in_a_bucket[use an item bucket] to transfer a number of items at once.
+
+After the destination or target record has been marked for Holding Transfer, navigate to the desired item bucket. Then, select the items in the bucket that you would like to transfer, and from the *Actions* menu select *Transfer Selected Items to Marked Call Number*.
 ======
