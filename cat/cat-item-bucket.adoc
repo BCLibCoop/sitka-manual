@@ -36,7 +36,7 @@ Create an Item Bucket on Item Buckets view
 ++++++++++++++++++++++++++++++++++++++++++
 [[_item_bucket_create]]
 
-. Select *Cataloging -> Item Buckets* from the menu bar.
+. Go to *Cataloging -> Item Buckets*.
 
 . Select *New Bucket* from the *Buckets* dropdown list.
 +
@@ -67,7 +67,7 @@ Create an Item Bucket from File
 
 You can upload a .csv file of multiple barcodes using the *Choose File* option.
 
-. Select *Cataloging -> Item Buckets* from the menu bar.
+. Go to *Cataloging -> Item Buckets*.
 
 . Select *New Bucket* from the *Buckets* dropdown list.
 +
