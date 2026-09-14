@@ -6,7 +6,7 @@ allow particular material to go out for an entire semester. See xref:_understand
 information on how how hard due dates are applied to circulations.
 
 Local system administrators at academic libraries can view existing hard due dates and add new values to them. To add a brand new hard due date, you 
-will need to contact Co-op Support.
+will need to https://bc.libraries.coop/support/[contact Co-op Support].
 
 Viewing Your Hard Due Dates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -69,8 +69,7 @@ image::images/admin/hard-due-date-update-4.png[scaledwidth="75%"]
 Adding a New Hard Due Date
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To add a hard due date, please 
-contact https://bc.libraries.coop/support/[Co-op Support] 
+To add a hard due date, please https://bc.libraries.coop/support/[contact Co-op Support] 
 with the following:
 
 * The initial date for the hard due date.
