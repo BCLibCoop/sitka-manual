@@ -181,20 +181,14 @@ _Suggested Fields_ using the library setting _Default showing suggested patron r
 Customizing the fields that display and are required in the patron account can help ensure the relevant information
 is being recorded for your patrons, and can cut down on unnecessary information being saved.
 
-These customizations apply to both the xref:_registering_new_patrons[staff client patron registration form] and the patron self-registration form on your OPAC (if self-registration is enabled with xref:_library_settings_opac[the _Allow Patron Self-Registration_ library setting]).
-
-These customizations also impact fields in the _Edit_ tab of a xref:_working_with_patron_accounts[patron account].
+These customizations impact fields in xref:_editing_patron_accounts[the Edit tab of a patron account], the xref:_registering_new_patrons[staff client patron registration form], and xref:_request_a_library_card.html[patron self-registration] in your public catalogue (if you have self-registration enabled).
 
 Show Fields
 +++++++++++
 
-These customizations impact fields in xref:_editing_patron_accounts[the Edit tab of a patron account], the _registering_new_patrons[staff client patron registration form], and xref:_request_a_library_card.html[patron self-registration] in your public catalogue (if you haveself-registration enabled).
+Setting any of these _Show_ library settings to False will hide the related field from the _Edit_ tab in a patron account as well as the patron registration form.
 
-When these library settings are not assigned a value, the related fields will be visible. A True value also means the related fields will be visible.
-
-Setting any of these _Show_ library settings to False will hide the related field from the _Edit_ tab in a patron account, as well as the patron registration form.
-
-The applicable library settings are:
+When these library settings are not assigned a value, the related fields will be visible. A True value also means the related fields will be visible. The applicable library settings are:
 
 * Show active field on patron registration
 * Show alias field on patron registration
