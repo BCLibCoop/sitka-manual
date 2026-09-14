@@ -50,7 +50,7 @@ image::images/serials/quick-receive-4.png[scaledwidth="75%"]
 Receive Issues
 ~~~~~~~~~~~~~~
 
-The *Manage Issues* tab can be used to receive the next expected issue and to receive multiple expected issues.
+The _Manage Issues_ tab can be used to receive the next expected issue and to receive multiple expected issues.
 
 . Retrieve the serial record
 . Click *Serials* -> *Manage Subscriptions* -> *Manage Issues* tab.
@@ -65,11 +65,12 @@ Receive Next Issue and Barcode
 image::images/serials/receiveissue1.png[scaledwidth="75%"]
 +
 . A Receive items dialog box will appear with the next expected issue and item(s).
-. The Shelving Location and Circulation Modifier will be pre-populated from the Receive Template associated with the Distribution. Changes can be made to the pre-populated information.
-. _Call Number_: Enter a call number. Any item with a barcode must also have a call number.
-. _Barcode_: Scan in the barcode that will be affixed to the item(s).
-. The box to Receive the item(s) will be checked by default.
-. Check the box adjacent to Routing List to print an existing routing list.
+.. The Shelving Location and Circulation Modifier will be pre-populated from the Receive 
+Template associated with the Distribution. Changes can be made to the pre-populated information.
+.. _Call Number_: Enter a call number. Any item with a barcode must also have a call number.
+.. _Barcode_: Scan in the barcode that will be affixed to the item(s).
+.. The box to Receive the item(s) will be checked by default.
+.. Check the box adjacent to Routing List to print an existing routing list.
 +
 image::images/serials/quickreceive3.png[scaledwidth="75%"]
 +
