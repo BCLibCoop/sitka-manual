@@ -62,7 +62,7 @@ Receive Next Issue and Barcode
 . Check the box adjacent to *Barcode on receive*.
 . Click *Receive Next*.
 +
-image::images/serials/receiveissue1.png[scaledwidth="75%"]
+image::images/serials/receive-issue-barcode-1.png[scaledwidth="75%"]
 +
 . A Receive items dialog box will appear with the next expected issue and item(s).
 .. The Shelving Location and Circulation Modifier will be pre-populated from the Receive 
@@ -71,18 +71,21 @@ Template associated with the Distribution. Changes can be made to the pre-popula
 .. _Barcode_: Scan in the barcode that will be affixed to the item(s).
 .. The box to Receive the item(s) will be checked by default.
 .. Check the box adjacent to Routing List to print an existing routing list.
+. Click *Save* to receive the item(s).
 +
-image::images/serials/quickreceive3.png[scaledwidth="75%"]
+image::images/serials/receive-issue-barcode-2.png[scaledwidth="75%"]
 +
-. Click *Save* to receive the item(s). The Status of the issue will update to "Received" and a Date Received will be recorded.
-.. The barcoded item(s) will now appear in the holdings area of the catalogue and the Holdings Summary in the Issues Held tab in the catalogue will reflect the newly received issue.
+. The Status of the issue will update to "Received" and a Date Received will be recorded.
+. The barcoded item(s) will now appear on the _Item Table_ tab.
++
+image::images/serials/receive-issue-barcode-3.png[scaledwidth="75%"]
 
 Receive Next Issue (no barcode)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . In the _Manage Issues_ tab, make sure the box adjacent to Barcode on receive is unchecked and click Receive Next.
 +
-image::images/serials/receiveissuenobarcode.png[scaledwidth="75%"]
+image::images/serials/receive-issue-no-barcode-1.png[scaledwidth="75%"]
 +
 . A Receive items dialog box will appear with the message "Will receive # item(s) without barcoding."
 +
