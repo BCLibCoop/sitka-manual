@@ -12,7 +12,7 @@ image::images/admin/call-number-prefix-1.png[scaledwidth="75%",alt="Create Call 
 Create a Call Number Prefix or Suffix
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Go to *Administration -> Server Administration- > Call Number Prefix* or *Call Number Suffix*.
+. Go to *Administration -> Server Administration -> Call Number Prefix* or *Call Number Suffix*.
 +
 To view the prefixes/suffixes for your library, enter your library code into the Library filter.
 Multi-branch libraries can enter the system and then check the box to display the descendants.
