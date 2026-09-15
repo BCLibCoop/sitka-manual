@@ -78,7 +78,12 @@ image::images/serials/receive-issue-barcode-2.png[scaledwidth="75%"]
 . The Status of the issue will update to "Received" and a Date Received will be recorded.
 . The barcoded item(s) will now appear on the _Item Table_ tab.
 +
-image::images/serials/receive-issue-barcode-3.png[scaledwidth="75%"]
+image::images/serials/receive-issue-barcode-3.png[scaledwidth="75%"] 
++
+. The Holdings Summary 
+in the _Issues Held_ tab in the public catalogue will reflect the newly received issue.
++
+image::images/serials/receive-issue-barcode-4.png[scaledwidth="75%"] 
 
 Receive Next Issue (no barcode)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -88,10 +93,22 @@ Receive Next Issue (no barcode)
 image::images/serials/receive-issue-no-barcode-1.png[scaledwidth="75%"]
 +
 . A Receive items dialog box will appear with the message "Will receive # item(s) without barcoding."
+. Click *OK/Continue* to receive the issue. 
 +
-image::images/serials/receiveissuenobarcode1.png[scaledwidth="75%"]
+image::images/serials/receive-issue-no-barcode-2.png[scaledwidth="75%"]
 +
-. Click *OK/Continue* to receive the issue. The Status of the issue will update to "Received" and a Date Received will be recorded. The Holdings Summary in the Issues Held tab in the catalogue will reflect the newly received issue.
+. The status of the issue will update to _Received_ and a _Date Received_ will be recorded. 
++
+image::images/serials/receive-issue-no-barcode-3.png[scaledwidth="75%"]
+
+
+////
+
+NEED TO FIGURE OUT WHY NON-BARCODED SERIALS AREN'T SHOWING IN THE PUBLIC CATALOGUE
+
+The Holdings Summary 
+in the Issues Held tab in the public catalogue will reflect the newly received issue.
+////
 
 Batch Receive
 ~~~~~~~~~~~~~
