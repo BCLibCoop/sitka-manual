@@ -18,7 +18,8 @@ Multi-branch libraries can enter the system and then check the box to display th
 image::images/admin/call-number-prefix-2.png[scaledwidth="75%",alt="Create Call Number Suffix"]
 +
 . Click *New Call Number/Volume Prefix/Suffix*. 
-. Type in the Label and Label Sort Key. 
+. Type in the Label.
+** The Label Sort Key will be geberated based on the Label you assign, and it changes if the Label changes.
 . Choose your library as the Owning Library.
 . Click Save.
 +
