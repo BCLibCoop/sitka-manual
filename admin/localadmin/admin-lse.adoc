@@ -1067,6 +1067,18 @@ Active date instead of the Creation Date.|True/False|TRUE| Sitka |
 |===
 |Setting|Description|Data type|Default | Edited by | Notes
 
+|Admin organizational unit for Quipu eCard feature |Organizational unit used by the Evergreen 
+admin user of the Quipu eCard feature |Selection list | | |This feature is not used by Sitka.
+
+|Barcode length for Quipu eCard feature |Set the barcode length for new Quipu eCard 
+users | | | |This feature is not used by Sitka.
+
+|Barcode prefix for Quipu eCard feature |Set the barcode prefix for new Quipu eCard 
+users | | | |This feature is not used by Sitka.
+
+|Calculate barcode checkdigit for Quipu eCard feature |Calculate the barcode check digit for 
+new Quipu eCard users |True/False | | |This feature is not used by Sitka.
+
 |Change reshelving status interval|Amount of time to wait before changing an item from 
 "Reshelving" status to "Available" | Duration| 1 day | LSA | Shortest duration is 59 minutes. Evergreen checks hourly for items that have been 
 in Reshelving longer than the entered value and updates them to Available accordingly.
@@ -1079,6 +1091,9 @@ Default is to leave the copy in the Checked Out status|Selection list| Claims Re
 
 |Courier code|Courier Code for the library. Available in transit slip 
 templates as the %courier_code% macro.|Text| | | This feature is not used by Sitka.
+
+|Evergreen Admin Username for the Quipu eCard feature |Username of the Evergreen admin account
+ that will create new Quipu eCard users |Text | | |This feature is not used by Sitka.
 
 |Juvenile age threshold|Upper cut-off age for patrons to be considered juvenile, 
 calculated from date of birth in patron accounts|Duration  (years)| 18 years | LSA |
@@ -1095,9 +1110,34 @@ most recent circulation are voided.|True/False| | LSA |
 |My Account URL | URL for a My Account link. Use a complete URL, such as 
 "https://example.com/eg/opac/login". | | | LSA |
 
+|Number of valid addresses needed to offer patron account e-renewal via Quipu |Number of valid 
+addresses that a patron record must have in order to offer e-renewal via Quipu. Zero means 
+that the patron record address are not considered; one means that either the mailing or 
+billing/physical address must be set and marked as valid; two means that both the mailing and 
+billing/physical address must be set and marked as valid. Default value is two 
+(2). |Number | | |This feature is not used by Sitka.
+
+|Patron permission profile after verification for Quipu eCard feature |Patron permission profile 
+after verification for Quipu eCard feature. This is only used if the setting "Enable eCard 
+verification feature in the OPAC" is active. |Selection list | | |This feature is not used 
+by Sitka.
+
+|Patron permission profile for Quipu eCard feature |Patron permission profile for Quipu eCard 
+feature |Selection list | | |This feature is not used 
+by Sitka.
+
 |Pre-cat item circ lib|Override the default circ lib of "here" with a pre-configured 
 circ lib for pre-cat items. The value should be the "shortname" (aka policy name) of 
 the org unit|Text | | LSA |
+
+|Quipu eCard Customer Account |Quipu Customer Account ID to be used for eCard registration |Number
+| | |This feature is not used by Sitka.
+
+|Quipu eCard/eRenew Fully Qualified Domain Name | Quipu ecard/eRenew Fully Qualified Domain 
+Name is the external hostname for the Quipu server. Defaults to ecard.quipugroup.net |Text | | |This feature is not used by Sitka.
+
+|Quipu eCard Shared Secret |Quipu Customer Account shared secret to be used for eCard 
+authentication |Text | | |This feature is not used by Sitka.
 
 |Telephony: Arbitrary line(s) to include in each notice callfile|This overrides lines 
 from opensrf.xml. Line(s) must be valid for your target server and platform 
@@ -1166,6 +1206,15 @@ after the stylesheets and allow for custom CSS without editing server side templ
 query type selectors in the public catalog for search on copy tags. | True/False | FALSE 
 | Sitka | This feature is not currently used in Sitka.
 
+|Enable eCard registration feature in the OPAC |Enable access to the eCard registration 
+form in the OPAC |True/False | | |This feature is not used by Sitka.
+
+|Enable eCard renewal feature in the OPAC |Enable access to the eCard renewal 
+form in the OPAC |True/False | | |This feature is not used by Sitka.
+
+|Enable eCard verification feature in the OPAC |Enable access to the eCard verification 
+form in the OPAC |True/False | | |This feature is not used by Sitka.
+
 |Enable Holdings Sort by Geographic Proximity | When set to TRUE, will cause the record 
 details page to display the controls for sorting holdings by geographic proximity. This 
 also depends on the global flag opac.use_geolocation being enabled.| True/False| | 
@@ -1178,6 +1227,12 @@ SSO. Default is usrname. Other reasonable values would be barcode or email.| Tex
 
 |Geographic Location Service to use for Addresses|Specifies which geographic location 
 service to use for converting address input to geographic coordinates. |Selection List| | Sitka |
+
+|Google Analytics: Code | Account code provided by Google. (Example: G-GVGQ11X12) |Text | | | 
+This feature is not used by Sitka.
+
+|Google Analytics: Enable | Enable Google Analytics in the OPAC. Default is false. |True/False
+ |FALSE| |This feature is not used by Sitka.
 
 |Ignore the Global luri_as_copy flag for this OU |	Admin setting on e-records scoping	
 |True/False | | Sitka |
@@ -1209,6 +1264,9 @@ e.g. https://my-evergreen.matomo.cloud/| Text | | Sitka |
 |Maximum file size for uploaded cover image files (at time of upload, prior to rescaling). |
 The number of bytes to allow for a cover image upload. If unset, defaults to 
 10737418240 (roughly 10GB). | Number | 10000000 (10MB) | Sitka | 
+
+|Number of days before account expiration in which to offer an e-renewal. |Text | | | |This 
+feature is not used by Sitka.
 
 |OPAC Alert Banner: Display | Show an alert banner in the OPAC. 
 Default is false. |True/False| FALSE | LSA |
@@ -1276,8 +1334,17 @@ Shibboleth SSO. Default is uid; use eppn for Active Directory | Text | | Sitka |
 
 |Show Geographic Proximity in Miles |When set to TRUE, will cause the record details page to show distances for geographic proximity in miles instead of kilometres. |True/False | | LSA| This feature is not used by Sitka.
 
+|Show KPAC Link | Show the KPAC link in the OPAC. Default is false. |True/False| | |This feature 
+is not used by Sitka.
+
 |Show Owning Lib in Items Out |If enabled, the Owning Lib will be shown in the Items Out 
 display. This may assist in requesting additional renewals | True/False | | Sitka |
+
+|Stackmap: Enable |Enable Stackmap in the OPAC. Default is false. |True/False |FALSE | |This 
+feature is not used by Sitka.
+
+|Stackmap: Identifier |
+Account code provided by Stackmap. (Example: pines-evergreen) |Text | | |This feature is not used by Sitka.
 
 |Soundex score weighting in OPAC spelling suggestions. |Soundex, trgm, and keyboard 
 distance similarity measures can be combined to form a secondary ordering parameter 
@@ -1315,6 +1382,18 @@ or contact your library for assistance."
 
 |Warn patrons when adding to a temporary book list|Present a warning dialogue when 
 a patron adds a book to the temporary book list.|True/False| TRUE | Sitka |
+|===
+
+[[_library_settings_openapi]]
+.OpenAPI data access control
+[options="header"]
+|===
+|Setting|Description|Data type|Default | Edited by | Notes
+
+|Globally filtered Fieldmapper properties | |Text | | | This feature is not used by Sitka.
+
+|Globally whitelisted Fieldmapper properties | |Text | | | This feature is not used by Sitka.
+
 |===
 
 [[_library_settings_program]]
@@ -1367,8 +1446,21 @@ in place of %INCLUDE(notice_text)%|Text|| Sitka |Setting is obsolete
 [options="header"]
 |===
 |Setting|Description|Data type|Default | Edited by | Notes
+
+|Allow both Shibboleth and native Staff Client authentication |When Shibboleth SSO is enabled, 
+also allow native Evergreen authentication |True/False | | |This feature is not used by Sitka.
+
 |Default level of patrons' internet access|Enter numbers 1 (Filtered), 
 2 (Unfiltered), or 3 (No Access)|Selection List| Unfiltered |LSA |
+
+|Enable Shibboleth SSO for the Staff Client| |True/False| | | This feature is not used by Sitka.
+
+|Evergreen Staff SSO matchpoint| Evergreen-side field to match a patron against for Shibboleth 
+SSO. Default is usrname. Other reasonable values would be barcode or email. |Text | | |This 
+feature is not used by Sitka.
+
+|Log out of the Staff Shibboleth IdP |When logging out of Evergreen, also force a logout of the 
+IdP behind Shibboleth |True/False | | |This feature is not used by Sitka.
 
 |Maximum concurrently active self-serve password reset requests|Prevent the 
 creation of new self-serve password reset requests until the number of active 
@@ -1408,6 +1500,14 @@ setting | Number | |Sitka |
 
 |Self-serve password reset request time-to-live|Length of time (in seconds) a self-serve 
 password reset request should remain active.|Duration|  |Sitka |
+
+|Shibboleth Staff SSO Entity ID | |Text | | |This feature is not used by Sitka.
+
+|Shibboleth Staff SSO matchpoint | Shibboleth-side field to match a patron against for Shibboleth 
+SSO. Default is uid; use eppn for Active Directory |Text | | |This feature is not used by Sitka.
+
+|Specific Shibboleth Application path. Default /Shibboleth.sso| |Text | | |This feature 
+is not used by Sitka.
 
 |Staff login inactivity timeout (in seconds)|Number of seconds of inactivity before 
 staff client prompts for login and password.|Number|28800 |LSA |
