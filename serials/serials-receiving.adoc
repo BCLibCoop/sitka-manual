@@ -75,7 +75,7 @@ Template associated with the Distribution. Changes can be made to the pre-popula
 +
 image::images/serials/receive-issue-barcode-2.png[scaledwidth="75%"]
 +
-. The Status of the issue will update to "Received" and a Date Received will be recorded.
+. The status of the issue will update to _Received_ and a date received will be recorded.
 . The barcoded item(s) will now appear on the _Item Table_ tab.
 +
 image::images/serials/receive-issue-barcode-3.png[scaledwidth="75%"] 
@@ -97,7 +97,7 @@ image::images/serials/receive-issue-no-barcode-1.png[scaledwidth="75%"]
 +
 image::images/serials/receive-issue-no-barcode-2.png[scaledwidth="75%"]
 +
-. The status of the issue will update to _Received_ and a _Date Received_ will be recorded. 
+. The status of the issue will update to _Received_ and a date received will be recorded. 
 +
 image::images/serials/receive-issue-no-barcode-3.png[scaledwidth="75%"]
 
