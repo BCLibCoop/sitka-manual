@@ -2,7 +2,7 @@ Call Number Prefix and Suffix
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 [[_prefix_and_suffix]]
 
-If you library uses prefixes and/or suffixes in call numbers, you can build a standard list, which 
+If your library uses prefixes and/or suffixes in call numbers, you can build a standard list which 
 will be displayed as dropdown lists when creating/editing call number record.
 
 This is how it looks on the call number creating/editing screen.
@@ -19,10 +19,10 @@ image::images/admin/call-number-prefix-2.png[scaledwidth="75%",alt="Create Call 
 +
 . Click *New Call Number/Volume Prefix/Suffix*. 
 . Type in the Label.
-** The Label Sort Key will be generated based on the Label you assign, and it changes if the Label changes.
+** The Label Sort Key is generated based on the Label you assign, and the Label Sort Key changes if the Label changes.
 . Choose your library as the Owning Library.
 . Click Save.
 +
 image::images/admin/call-number-prefix-3.png[scaledwidth="75%",alt="Create Call Number Suffix"]
 
-To edit or delete a prefix/suffix, check the record, and then click *Edit Selected* or *Delete Selected*.
+To edit or delete a label, check the checkbox of the specific prefix/suffix and then click *Edit Selected* or *Delete Selected*.
