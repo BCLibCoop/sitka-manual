@@ -2,15 +2,17 @@ Call Number Prefix and Suffix
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 [[_prefix_and_suffix]]
 
-If your library uses prefixes and/or suffixes in call numbers, you can build a standard list which 
-will be displayed as dropdown lists when creating/editing call number record.
+If your library uses prefixes or suffixes in call numbers, you can build a standard list which 
+will be displayed as dropdown options when creating or editing call number records.
 
-This is how it looks on the call number creating/editing screen.
+This is how a prefix or suffix list appears when creating or editing a call number.
 
 image::images/admin/call-number-prefix-1.png[scaledwidth="75%",alt="Create Call Number Suffix"]
 
-. To create a call number prefix or suffix, go 
-to *Administration -> Server Administration- > Call Number Prefix* or *Call Number Suffix*.
+Create a Call Number Prefix or Suffix
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Go to *Administration -> Server Administration- > Call Number Prefix* or *Call Number Suffix*.
 +
 To view the prefixes/suffixes for your library, enter your library code into the Library filter.
 Multi-branch libraries can enter the system and then check the box to display the descendants.
@@ -25,4 +27,14 @@ image::images/admin/call-number-prefix-2.png[scaledwidth="75%",alt="Create Call 
 +
 image::images/admin/call-number-prefix-3.png[scaledwidth="75%",alt="Create Call Number Suffix"]
 
-To edit or delete a label, check the checkbox of the specific prefix/suffix and then click *Edit Selected* or *Delete Selected*.
+Edit a Call Number Prefix or Suffix
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+. Click the checkbox of the prefix/suffix to be edited.
+. Click *Edit Selected*.
+. Make the desired edits, then click *Save*.
+
+Delete a Call Number Prefix or Suffix
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+. Click the checkbox of the prefix/suffix to be deleted.
+. Click *Delete Selected*.
+. When the pop-up appears, click *Confirm* to confirm deletion.
