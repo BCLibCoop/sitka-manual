@@ -7,11 +7,16 @@ For example, you may choose to suppress the alert when checking out a missing it
 
 . Go to *Administration -> Local Administration -> Item Alert Suppression*. 
 . Click *New Item Alert Suppression*. 
++
+image::images/admin/item-alert-suppression-1.png[]
++
 . In the pop-up window, select the Alert Type from the dropdown list. 
 . Make sure your library is in the Org Unit box. 
 . Click *Save*.
++
+image::images/admin/item-alert-suppression-2.png[]
 
-image::images/admin/copy-alert-1.png[]
+
 
 Item Tags
 ~~~~~~~~~
