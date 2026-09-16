@@ -61,7 +61,7 @@ xref:_delete_inactive_card_patron_account[Deleting Inactive Patron Barcodes].
 Editing Current Patron Barcodes
 +++++++++++++++++++++++++++++++
 
-If a patron has multiple physical library cards or patron accounts have been merged together, staff
+If a patron has multiple physical library cards or patron accounts have been merged together, library staff
 can view all current barcodes associated with the patron account and determine which should be
 active and the primary barcode for the account.
 
@@ -93,7 +93,7 @@ Deleting Inactive Patron Barcodes
 [NOTE]
 ======
 Library staff can only delete patron barcodes that have already been set to inactive. If the 
-barcode you would like to delete is currently active following the steps for 
+barcode you would like to delete is currently active follow the steps for 
 xref:_editing_current_patron_barcodes[editing current patron barcodes] before attempting to
 delete the barcodes.
 
