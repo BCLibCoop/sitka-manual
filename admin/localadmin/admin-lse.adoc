@@ -790,7 +790,7 @@ Attribute Editor to hide in the staff client.|Text| | | This library setting is 
 hidden via the xref:_holdings_editor_preferences[Holdings Editor Preferences].
 
 |Hide the Clear These Holds button |Hide the Clear These Holds button from 
-the Holds Shelf interface.| True/False | |LSA |
+the Holds Shelf interface.| True/False | |Sitka |This feature is not used by Sitka.
 
 |Hide the entire template bar in Holdings Editor |Hides the template bar in the 
 Volume/Copy/Holdings Editor. By default, the template bar is displayed in this interface.| 

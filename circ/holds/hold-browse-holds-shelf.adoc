@@ -57,9 +57,6 @@ shelf.
 ======
 Evergreen calculates a hold's expire time based on the value entered for the library setting 
 _Default hold shelf expire interval_.
-
-The *Clear These Holds* button can be hidden by setting the library setting
- _Hide the Clear These Holds button_ to TRUE.
 ======
 
 To clear these holds:
