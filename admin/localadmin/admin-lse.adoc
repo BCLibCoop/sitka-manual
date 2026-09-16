@@ -1275,7 +1275,7 @@ Default is false. |True/False| FALSE | LSA |
 |OPAC Alert Banner: Text | Text that will display in the alert banner. |Text|  | LSA |
 
 |OPAC Alert Banner: Type | Determine the display of the banner. Options are: success, info, 
-warning, danger. |Selection list|  | LSA |
+warning, danger. |Selection list|  | LSA |Sitka Support recommends using 'danger' for best visibility.
 
 |OPAC login message | HTML blob to be rendered in an interstitial page upon OPAC 
 login | Text|  | LSA |
