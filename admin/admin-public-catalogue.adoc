@@ -49,11 +49,54 @@ like Interlibrary Connect, have three option for how their public catalogue scop
 . All libraries in your zone display in the search list and your library is the default
 . All libraries in your zone display in the search list and the top organization in the zone is the default
 
+Public Catalogue Library Settings
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+There are a number of library setting that can be used by local system administrators to customize 
+the public catalogue.
+
+Public Catalogue Messaging Settings
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* OPAC Alert Banner: Text
+* OPAC Alert Banner: Type
+* OPAC Alert Banner: Display
+* OPAC Login Message
+
+Patron Related Settings
+^^^^^^^^^^^^^^^^^^^^^^^
+
+* Allow Patron Self-Registration
+* Hide Username field in Patron Self-Reg
+* Patron Self-Reg. Date of Birth Order
+* Patron Self-Reg. Display Timeout
+* Allow pending addresses
+
+
+////
+ADDITIONAL SETTINGS TO ADD POST-UPGRADE
+
+* My Account URL (such as "https://example.com/eg/opac/login")
+* Library information URL (such as "http://example.com/about.html")
+* Use external "library information URL" in copy table, if available
+* _uses phone as default pin_
+* OPAC Inactivity Timeout (in seconds)
+* OPAC: Number of staff client saved searches to display on left side of results 
+and record details pages
+* Tag Circulated Items in Results
+* Allow users to browse Courses by Instructor
+* Allow multiple username changes
+* Allow record emailing without login
+* Warn patrons when adding to a temporary book list
+
+////
+
+
 [[_request_a_library_card_custom]]
 Request a Library Card
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Libraries which allow patrons to self register using the xref:_request_a_library_card[Request a Library Card] functionality
+Libraries that allow patrons to self register using the xref:_request_a_library_card[Request a Library Card] functionality
 can add custom text between the form fields and the *Submit Registration* button.  This can be used to include information about why the library is collecting
 the information required in the form and what the library will do with that information.
 
