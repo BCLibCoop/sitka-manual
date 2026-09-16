@@ -173,12 +173,12 @@ statistical categories see xref:_statistical_categories_patron_editor[].
 Customizing the Display Fields
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The patron account form can display _Required Fields_, _Suggested Fields_, or _All Fields_. 
+The patron account form can display *Required Fields*, *Suggested Fields*, or *All Fields*. 
 
 image:images/circ/patron-fields-1.png[]
 
-By default _All Fields_ is selected.  A local system administrator at your library can set the default to 
-_Suggested Fields_ using the library setting _Default showing suggested patron registration fields_.
+By default *All Fields* is selected.  A local system administrator at your library can set the default to 
+*Suggested Fields* using the library setting _Default showing suggested patron registration fields_.
 
 Customizing the fields that display and are required in the patron account can help ensure the relevant information
 is being recorded for your patrons and can cut down on unnecessary information being saved.
@@ -251,7 +251,7 @@ the account. The applicable library settings are:
 [TIP]
 =====
 Setting any of the library settings that begin with _Show_ to FALSE will hide the applicable field so it does not
-show at all in the patron account form regardless of whether _Required Fields_, _Suggested Fields_, or _All Fields_ is selected.
+show at all in the patron account form regardless of whether *Required Fields*, *Suggested Fields*, or *All Fields* is selected.
 =====
 
 Suggested Fields
