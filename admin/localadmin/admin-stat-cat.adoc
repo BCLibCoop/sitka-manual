@@ -27,13 +27,17 @@ image::images/admin/stat-cat-item-1.png[]
 +
 . Enter the relevant information for your statistical category and click *Save*.
 +
-* *Required*: If checked, a value must be selected for the stat cat when cataloguing a new item.
-* *OPAC Visible*: If checked, the stat cat name and the selected value are displayed in 
-the item table when looking at a record in the public catalogue.
-* *Checkout Archive*: If checked, the stat cat and its value are kept in aged 
-circulation records.
+* *Required*: If yes is selected, a value must be assigned for the stat cat when cataloguing a new item. Selecting no means the stat cat is not required
+* *OPAC Visible*: If yes is selected, the stat cat name and the selected value are displayed in 
+the item table when looking at a record in the public catalogue. If no is selected, it will not display there.
+* *Checkout Archive*: If yes is selected, the stat cat and its value are kept in aged 
+circulation records. If no is selected, it will not be.
 +
 image::images/admin/stat-cat-item-2.png[]
++
+* *Sip Field*: If applicable, select the SIP field identifier that will contain the category and its value.
+* *SIP Format*: If applicable, specify the SIP format string.
+* *Stat Cat ID*: Assigned after the stat cat is created.
 
 [[_adding_item_statistical_category_entries]]
 Adding Statistical Category Entries
