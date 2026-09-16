@@ -38,36 +38,6 @@ circulation records. If no is selected, it will not be.
 +
 image::images/admin/stat-cat-item-2.png[]
 
-[[_adding_item_statistical_category_entries]]
-Adding Statistical Category Entries
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-https://youtu.be/b3uE4zUB6sQ[*Sitka Snippet Video - Adding Item Statistical Category Entries (0:55)*]
-
-Each statistical category can have multiple values that library staff can choose from when 
-adding or editing an item.
-
-. Go to *Administration -> Local Administration-> Statistical Categories - Item Editor*.
-. Click *Entries* for the stat cat you would like to add values to.  
-+
-image::images/admin/stat-cat-item-3.png[]
-+
-. Click *New Statistical Category Entry - Item*.
-+
-image::images/admin/stat-cat-item-4.png[]
-+
-. Enter the value and click *Save*.
-+
-image::images/admin/stat-cat-item-5.png[]
-+
-. Repeat as needed to add additional values.
-. Clicking *Return* in the top right of the screen will take you back to the previous screen.
-
-[NOTE]
-======
-Previously, statistical category entries could not be edited or deleted in the staff client, and Co-op Support needed to assist. Library staff can now deleted statistical category entries.
-======
-
 [[_editing_item_statistical_categories]]
 Editing Statistical Categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -115,7 +85,67 @@ image::images/admin/stat-cat-item-8.png[]
 +
 . Your statistical category is deleted and no longer displays in the grid.
 . If entries have already been applied to items you will see the message _Delete of Statistical Category - Item failed 
-or was not allowed_. Please contact https://bc.libraries.coop/support/[Co-op Support] for assistance.  
+or was not allowed_. Please contact https://bc.libraries.coop/support/[Co-op Support] for assistance.
+
+[[_adding_item_statistical_category_entries]]
+Adding Statistical Category Entries
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+https://youtu.be/b3uE4zUB6sQ[*Sitka Snippet Video - Adding Item Statistical Category Entries (0:55)*]
+
+Each statistical category can have multiple values that library staff can choose from when 
+adding or editing an item.
+
+. Go to *Administration -> Local Administration-> Statistical Categories - Item Editor*.
+. Click *Entries* for the stat cat you would like to add values to.  
++
+image::images/admin/stat-cat-item-3.png[]
++
+. Click *New Statistical Category Entry - Item*.
++
+image::images/admin/stat-cat-item-4.png[]
++
+. Enter the Value and click *Save*.
++
+image::images/admin/stat-cat-item-5.png[]
++
+. Repeat as needed to add additional values.
+. Clicking *Return* in the top right of the screen will take you back to the previous screen.
+
+[NOTE]
+======
+Previously, statistical category entries could not be edited or deleted in the staff client, and Co-op Support needed to assist. Library staff can now delete statistical category entries themselves.
+======
+
+[[_editing_item_statistical_category_entries]]
+Editing Statistical Category Entries
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Go to *Administration -> Local Administration-> Statistical Categories - Item Editor*.
+. Click *Entries* for the stat cat you would like to edit the values of.  
++
+image::images/admin/stat-cat-item-3.png[]
++
+. Click the checkbox of the entry you want to edit.
+. Select *Actions -> Edit Selected*.
+. Change the Value and click *Save*.
+. Repeat as needed to edit other entries.
+. Clicking *Return* in the top right of the screen will take you back to the previous Statistical Categories - Item Editor screen.
+
+[[_deleting_item_statistical_category_entries]]
+Deleting Statistical Category Entries
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Go to *Administration -> Local Administration-> Statistical Categories - Item Editor*.
+. Click *Entries* for the stat cat you would like to delete the values of.
++
+image::images/admin/stat-cat-item-3.png[]
++
+. Click the checkbox of the entry you want to delete.
+. Select *Actions -> Delete Selected*.
+* Click *Confirm* to confirm deletion.
+. Repeat as needed to delete other entries.
+. Clicking *Return* in the top right of the screen will take you back to the previous Statistical Categories - Item Editor screen.
 
 
 Statistical Categories - Patron Editor
