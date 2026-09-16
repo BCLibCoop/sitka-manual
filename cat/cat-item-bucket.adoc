@@ -77,11 +77,18 @@ image::images/cat/buckets/item-bucket-1.png[]
 +
 . Click *Choose File*.
 +
+image::images/cat/buckets/item-bucket-file-1.png[]
++
 . Follow the on-screen prompts to select your file.
 +
 .. If you want to include deleted barcodes, ensure the *Include deleted?* check box is checked.
 +
 . Click *Create Bucket*.
++
+image::images/cat/buckets/item-bucket-file-2.png[]
++
+. The newly created bucket is the active bucket in Bucket View.  Note that the bucket is numbered, 
+and creator/owner identified.
 
 Create an Item Bucket when Adding an Item Record to a Bucket
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
