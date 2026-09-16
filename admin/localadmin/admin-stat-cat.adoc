@@ -175,51 +175,18 @@ image::images/admin/stat-cat-patron-1.png[]
 . Enter the relevant information for your statistical category.
 +
 * *Name*: The name will be visible to library staff and can be visible to patrons.  
-* *Required*: If checked, a value must be selected for the stat cat when cataloguing a new item.
-* *OPAC Visible*: If checked, the stat cat name and the selected value are displayed in 
-the item table when looking at a record in the public catalogue.
+* *Required*: If yes is selected, a value must be assigned when creating a new account or saving an existing account. Selecting no means the stat cat is not required.
+* *OPAC Visible*: If yes is selected, the stat cat name and the selected value are displayed in the patron’s account in the OPAC. If no is selected, it will not display there.
 * *User Summary*: If checked, the stat cat and value display in the patron summary within 
 the patron account.
 * *Free Text*: If checked, staff can type in a value rather than being restricted to a 
 the list of predefined entries.
-* *Checkout Archive*: If checked, the stat cat and its value are kept in aged 
-circulation records.
+* *Checkout Archive*: If yes is selected, the category and its values will be archived. If no is selected, it will not be.
 * *SIP Field* and *SIP Format* are not currently used by Sitka.
 +
 image::images/admin/stat-cat-patron-2.png[]
 +
 . Click *Save*
-
-[[_adding_patron_statistical_category_entries]]
-Adding Statistical Category Entries
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-https://youtu.be/dcN6WKPpSOs[*Sitka Snippet Video - Adding Patron Statistical Category Entries (1:01)*]
-
-Each statistical category can have multiple values that library staff can choose from when 
-registering or editing a patron.
-
-. Go to *Administration -> Local Administration-> Statistical Categories - Patron Editor*.
-. Click *Entries* for the stat cat you would like to add values to.  
-+
-image::images/admin/stat-cat-patron-3.png[]
-+
-. Click *New Statistical Category Entry - Item*.
-+
-image::images/admin/stat-cat-patron-4.png[]
-+
-. Enter the value and click *Save*.
-+
-image::images/admin/stat-cat-patron-5.png[]
-+
-. Repeat as needed to add additional values.
-. Clicking *Return* in the top right of the screen will take you back to the previous screen.
-
-[NOTE]
-======
-Statistical category entries cannot be edited or deleted in the staff client.  Please contact
-https://bc.libraries.coop/support/[Co-op Support] for assistance.
-======
 
 [[_editing_patron_statistical_categories]]
 Editing Statistical Categories
@@ -269,3 +236,63 @@ image::images/admin/stat-cat-patron-8.png[]
 . Your statistical category is deleted and no longer displays in the grid.  
 . If entries have already been applied to patrons you will see the message _Delete of Statistical Category - Patron failed 
 or was not allowed_. Please contact https://bc.libraries.coop/support/[Co-op Support] for assistance.
+
+[[_adding_patron_statistical_category_entries]]
+Adding Statistical Category Entries
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+https://youtu.be/dcN6WKPpSOs[*Sitka Snippet Video - Adding Patron Statistical Category Entries (1:01)*]
+
+Each statistical category can have multiple values that library staff can choose from when 
+registering or editing a patron.
+
+. Go to *Administration -> Local Administration-> Statistical Categories - Patron Editor*.
+. Click *Entries* for the stat cat you would like to add values to.  
++
+image::images/admin/stat-cat-patron-3.png[]
++
+. Click *New Statistical Category Entry - Item*.
++
+image::images/admin/stat-cat-patron-4.png[]
++
+. Enter the Entry Value and click *Save*.
++
+image::images/admin/stat-cat-patron-5.png[]
++
+. Repeat as needed to add additional values.
+. Clicking *Return* in the top right of the screen will take you back to the previous screen.
+
+[NOTE]
+======
+Previously, statistical category entries could not be edited or deleted in the staff client, and Co-op Support needed to assist. Library staff can now delete statistical category entries themselves.
+======
+
+[[_editing_patron_statistical_category_entries]]
+Editing Statistical Category Entries
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Go to *Administration -> Local Administration-> Statistical Categories - Patron Editor*.
+. Click *Entries* for the stat cat you would like to edit the values of.  
++
+image::images/admin/stat-cat-item-3.png[]
++
+. Click the checkbox of the entry you want to edit.
+. Select *Actions -> Edit Selected*.
+. Change the Entry Value and click *Save*.
+. Repeat as needed to edit other entries.
+. Clicking *Return* in the top right of the screen will take you back to the previous Statistical Categories - Patron Editor screen.
+
+[[_deleting_patron_statistical_category_entries]]
+Deleting Statistical Category Entries
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Go to *Administration -> Local Administration-> Statistical Categories - Patron Editor*.
+. Click *Entries* for the stat cat you would like to delete the values of.
++
+image::images/admin/stat-cat-item-3.png[]
++
+. Click the checkbox of the entry you want to delete.
+. Select *Actions -> Delete Selected*.
+* Click *Confirm* to confirm deletion.
+. Repeat as needed to delete other entries.
+. Clicking *Return* in the top right of the screen will take you back to the previous Statistical Categories - Item Editor screen.
