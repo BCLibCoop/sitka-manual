@@ -209,7 +209,7 @@ The applicable library settings are:
 * Require prefix field on patron registration
 * Require State field on patron registration
 
-When the setting is set to True the field will be indicated as required in yellow and will display when
+When the setting is set to TRUE the field will be indicated as required in yellow and will display when
 *Required Fields* is selected.
 
 [NOTE]
