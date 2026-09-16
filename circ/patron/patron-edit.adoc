@@ -119,7 +119,7 @@ image:images/circ/patron/patron-barcode-delete-3.png[scaledwidth="75%"]
 
 [TIP]
 ======
-To batch delete inactive barcodes from multiple patrons, local system administrators can use 
+To batch delete inactive barcodes for multiple patrons, local system administrators can use 
 the xref:_deleting_inactive_cards[Patron Deletion Tool].
 ======
 
