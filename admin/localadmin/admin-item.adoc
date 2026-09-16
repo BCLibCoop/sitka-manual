@@ -6,8 +6,8 @@ You may suppress some item alerts from showing up on the corresponding staff act
 For example, you may choose to suppress the alert when checking out a missing item.
 
 . Go to *Administration -> Local Administration -> Item Alert Suppression*. 
-. Item alert suppressions are displays for your workstation's library. Multi-branch libraries 
-need to set the library to their system in the library selector and check the box to display 
+. Item alert suppressions are displayed for your workstation's library. Multi-branch libraries 
+need to set the library to their system in the xref:_library_selector[library selector] and check the box to display 
 descendants.
 +
 image::images/admin/library-filter-1.png[Library Selector]
