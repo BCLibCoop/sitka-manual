@@ -32,12 +32,11 @@ image::images/admin/stat-cat-item-1.png[]
 the item table when looking at a record in the public catalogue. If no is selected, it will not display there.
 * *Checkout Archive*: If yes is selected, the stat cat and its value are kept in aged 
 circulation records. If no is selected, it will not be.
-+
-image::images/admin/stat-cat-item-2.png[]
-+
 * *Sip Field*: If applicable, select the SIP field identifier that will contain the category and its value.
 * *SIP Format*: If applicable, specify the SIP format string.
 * *Stat Cat ID*: Assigned after the stat cat is created.
++
+image::images/admin/stat-cat-item-2.png[]
 
 [[_adding_item_statistical_category_entries]]
 Adding Statistical Category Entries
