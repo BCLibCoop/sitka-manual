@@ -55,6 +55,8 @@ Public Catalogue Library Settings
 There are a number of library setting that can be used by local system administrators to customize 
 the public catalogue.
 
+ADD LINK TO LIBRAY SETTINGS PAGE
+
 Public Catalogue Messaging Settings
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -71,6 +73,10 @@ Patron Related Settings
 * Patron Self-Reg. Date of Birth Order
 * Patron Self-Reg. Display Timeout
 * Allow pending addresses
+
+xref:_personal_information[pending address display]
+
+xref:_request_a_library_card[link to for self check related settings]
 
 
 ////
