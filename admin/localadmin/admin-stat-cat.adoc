@@ -176,10 +176,10 @@ image::images/admin/stat-cat-patron-1.png[]
 +
 * *Name*: The name will be visible to library staff and can be visible to patrons.  
 * *Required*: If yes is selected, a value must be assigned when creating a new account or saving an existing account. Selecting no means the stat cat is not required.
-* *OPAC Visible*: If yes is selected, the stat cat name and the selected value are displayed in the patron’s account in the OPAC. If no is selected, it will not display there.
-* *User Summary*: If checked, the stat cat and value display in the patron summary within 
-the patron account.
-* *Free Text*: If checked, staff can type in a value rather than being restricted to a 
+* *OPAC Visible*: If yes is selected, the stat cat name and the selected value are displayed in the patron’s account in the public catalogue. If no is selected, it will not be.
+* *User Summary*: If yes is selected, the stat cat and value display in the patron summary within 
+the patron account. If no is selected, it will not be. (The stat cat will also not appear if no value has been entered for the patron.)
+* *Free Text*: If yes is selected, staff can type in a value rather than being restricted to a 
 the list of predefined entries.
 * *Checkout Archive*: If yes is selected, the category and its values will be archived. If no is selected, it will not be.
 * *SIP Field* and *SIP Format* are not currently used by Sitka.
