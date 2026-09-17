@@ -61,7 +61,7 @@ Add to Favorites
 This adds a record bucket to your Favourites. 
 Favorited buckets will populate  your Favorites view in the buckets interface, as well as in the staff catalogue buckets tab. 
 
-This action can also be taken by clicking the star icon. Clicking the icon so that it turns yellow adds a bucket to your Favorites list.
+This action can also be taken by clicking the star icon. Clicking the star icon so that it turns yellow adds a bucket to your Favorites list.
 
 Create Carousel From Bucket
 +++++++++++++++++++++++++++
@@ -104,7 +104,7 @@ MARC Batch Edit
 
 The MARC Batch Edit function is not used by Sitka and library staff cannot use it to batch edit 
 MARC records. The MARC Batch Edit action will take staff to the MARC Batch Edit interface but 
-permissions will prevent any batch edits. Please contact Co-op Support for assistance 
+permissions will prevent any batch edits. Please https://bc.libraries.coop/support/[contact Co-op Support] for assistance 
 with batch editing.
 
 Remove from Favorites
@@ -115,7 +115,7 @@ This removes a record bucket from your Favourites.
 Favorited buckets will populate 
 your Favorites view in the buckets interface, as well as in the staff catalogue buckets tab. 
 
-This action can also be taken by clicking the star icon. Clicking the icon so that it changes from yellow (to transparent) removes a bucket from your Favorites list.
+This action can also be taken by clicking the star icon. Clicking the star icon so that it changes from yellow (to transparent) removes a bucket from your Favorites list.
 
 Share Buckets
 +++++++++++++
