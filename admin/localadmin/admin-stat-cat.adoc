@@ -8,8 +8,7 @@ about your items that is not included in the standard fields in the item record.
 categories can be created at the branch, system, or federation level by staff with the 
 appropriate permissions.
 
-Item statistical categories can be used in reporting, and OPAC visible stat cats display in
-your public catalogue.
+Item statistical categories can xref:_sitka_templates_collection[be used in reporting], and OPAC visible stat cats display in your public catalogue.
 
 See xref:_item_statistical_category_values[] for information on applying statistical categories
 to items.
@@ -157,9 +156,9 @@ about your patrons that is not included in the standard fields in the patron rec
 categories can be created at the branch, system, or federation level by staff with the 
 appropriate permissions.
 
-Patron statistical categories can be used in reporting and can be set to display to library
-staff in the patron summary in the patron account and to patrons in the Personal Information
-section of My Account in the public catalogue.
+Patron statistical categories can be set to display to library
+staff in the patron summary in the patron account, and to patrons in the xref:_personal_information[Personal Information
+section of My Account] in the public catalogue. Patron statistical categories can also xref:_sitka_templates_patrons[be used in reporting]. 
 
 [[_creating_patron_statistical_categories]]
 Creating Statistical Categories
