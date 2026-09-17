@@ -8,7 +8,7 @@ about your items that is not included in the standard fields in the item record.
 categories can be created at the branch, system, or federation level by staff with the 
 appropriate permissions.
 
-Item statistical categories can xref:_sitka_templates_collection[be used in reporting], and OPAC visible stat cats display in your public catalogue.
+Item statistical categories can xref:_sitka_templates_collection[be used in reporting], and OPAC visible stat cats xref:_view_a_title_record[display in your public catalogue].
 
 See xref:_item_statistical_category_values[] for information on applying statistical categories
 to items.
@@ -177,7 +177,7 @@ image::images/admin/stat-cat-patron-1.png[]
 * *Required*: If yes is selected, a value must be assigned when creating a new account or saving an existing account. Selecting no means the stat cat is not required.
 * *OPAC Visible*: If yes is selected, the stat cat name and the selected value are displayed in the patron’s account in the public catalogue. If no is selected, it will not be.
 * *User Summary*: If yes is selected, the stat cat and value display in the patron summary within 
-the patron account. If no is selected, it will not be. (The stat cat will also not appear if no value has been entered for the patron.)
+the patron account. If no is selected, it will not be. (The stat cat field will also not be visible in the patron account if no value has been entered for the patron.)
 * *Free Text*: If yes is selected, staff can type in a value rather than being restricted to a 
 the list of predefined entries.
 * *Checkout Archive*: If yes is selected, the category and its values will be archived. If no is selected, it will not be.
