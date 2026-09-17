@@ -55,18 +55,52 @@ Public Catalogue Library Settings
 There are a number of library setting that can be used by local system administrators to customize 
 the public catalogue.
 
-ADD LINK TO LIBRAY SETTINGS PAGE
+xref:localadmin/admin-lse.adoc#_library_settings_editor[]
 
 Public Catalogue Messaging Settings
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+A temporary banner with text and links can be applied across the top of your public catalogue.  The yearly 
+banner for Sitka's Evergreen upgrade will override local banners.
+
+OPAC Alert Banner: Display
+++++++++++++++++++++++++++
+Can be set to "true" to display the banner or "false" to hide the banner.
+
+OPAC Alert Banner: Type
++++++++++++++++++++++++
+The banner has four display options:
+
+* success
+* info
+* warning
+* danger
+
+[NOTE]
+======
+Coop support recommends using "danger" for the best contrast.
+======
+
+OPAC Alert Banner: Text
++++++++++++++++++++++++
+Banner text can be formatted using 
+
 image::images/admin/opac-banner-customize-1.png[]
 
+.Text Formatting
+[options="header"]
+|===
+| Goal      | Original   | Code                       | Result
+| Bold (HTML) | hello       | `$$<b>hello</b>$$`            | **hello**
+| Italic (HTML) | hello       | `$$<i>hello</i>$$`            | _hello_
+| Underline (HTML) | hello       | `$$<u>hello</u>$$`            | [underline]#hello#
+| Link (HTML) | hello       | `$$<a href="https://bc.libraries.coop">hello</a>$$`            | https://bc.libraries.coop[hello]
+|===
 
-* OPAC Alert Banner: Text
-* OPAC Alert Banner: Type
-* OPAC Alert Banner: Display
 * OPAC Login Message
+
+////
+ADDITIONAL SETTINGS TO ADD POST-UPGRADE
 
 Patron Related Settings
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -82,8 +116,7 @@ xref:_personal_information[pending address display]
 xref:_request_a_library_card[link to for self check related settings]
 
 
-////
-ADDITIONAL SETTINGS TO ADD POST-UPGRADE
+
 
 * My Account URL (such as "https://example.com/eg/opac/login")
 * Library information URL (such as "http://example.com/about.html")
