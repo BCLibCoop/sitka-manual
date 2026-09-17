@@ -4,12 +4,12 @@ Managing Record Buckets
 Viewing Record Buckets
 ^^^^^^^^^^^^^^^^^^^^^^ 
 
-To view record buckets, go to *Cataloguing -> Record Buckets*.
+To view record buckets, go to *Cataloging -> Record Buckets*.
 
 Beneath the header are shortcuts to display different sets of buckets:
 
 * _My buckets_ shows all buckets that you created or that you own directly.
-* _Favorites_ shows the buckets that you have marked as a favourite.
+* _Favorites_ shows the buckets that you have marked as a Favorite.
 * _Recent_ shows buckets that you have recently viewed.
 * _Shared with others_ shows buckets that you have shared with other staff users or libraries.
 * _Shared with me_ shows buckets that have either been directly shared with you or shared with your 
@@ -30,7 +30,7 @@ Catalogue Search
 ^^^^^^^^^^^^^^^^
 
 While there is a catalogue search available from within the Record Bucket interface, it is 
-recommended that staff go to *Cataloguing -> Search Catalogue* as there are more options available 
+recommended that staff go to *Cataloging -> Search Catalog* as there are more options available 
 for filtering and limiting your search by starting in the staff catalogue.
 
 image::images/cat/buckets/record-bucket-manage-bucket-3.png[]
@@ -43,22 +43,22 @@ There are a number of actions that can be performed on buckets available from th
 
 image::images/cat/buckets/record-bucket-actions-1.png[]
 
-* xref:_record_bucket_action_add_favourite[Add to Favorites]
+* xref:_record_bucket_action_add_favorite[Add to Favorites]
 * xref:_record_bucket_action_carousel[Create Carousel from Bucket]
 * xref:_record_bucket_action_delete[Delete Bucket(s)]
 * xref:_record_bucket_action_edit[Edit Buckets]
 * xref:_record_bucket_action_export[Export Records]
 * xref:_record_bucket_action_marc_batch[MARC Batch Edit]
-* xref:_record_bucket_action_remove_favourite[Remove from Favourites]
+* xref:_record_bucket_action_remove_favorite[Remove from Favorites]
 * xref:_record_bucket_action_share[Share Bucket]
 * xref:_record_bucket_action_transfer_owner[Transfer Bucket Ownership]
 * xref:_record_bucket_action_upload[Upload Records]
 
 Add to Favorites
 ++++++++++++++++
-[[_record_bucket_action_add_favourite]]
+[[_record_bucket_action_add_favorite]]
 
-This adds a record bucket to your Favourites. 
+This adds a record bucket to your Favorites. 
 Favorited buckets will populate  your Favorites view in the buckets interface, as well as in the staff catalogue buckets tab. 
 
 This action can also be taken by clicking the star icon. Clicking the star icon so that it turns yellow adds a bucket to your Favorites list.
@@ -109,9 +109,9 @@ with batch editing.
 
 Remove from Favorites
 +++++++++++++++++++++
-[[_record_bucket_action_remove_favourite]]
+[[_record_bucket_action_remove_favorite]]
 
-This removes a record bucket from your Favourites. 
+This removes a record bucket from your Favorites. 
 Favorited buckets will populate 
 your Favorites view in the buckets interface, as well as in the staff catalogue buckets tab. 
 
