@@ -57,8 +57,6 @@ Deleting Statistical Categories
 
 https://youtu.be/T_hhcbbcs4k[*Sitka Snippet Video - Deleting Item Statistical Categories (1:05)*]
 
-Statistical categories can only be deleted if the entries associated with it haven't been applied to any items.
-
 ////
 [CAUTION]
 =========
@@ -81,8 +79,6 @@ image::images/admin/stat-cat-item-7.png[]
 image::images/admin/stat-cat-item-8.png[]
 +
 . Your statistical category is deleted and no longer displays in the grid.
-. If entries have already been applied to items you will see the message _Delete of Statistical Category - Item failed 
-or was not allowed_. Please contact https://bc.libraries.coop/support/[Co-op Support] for assistance.
 
 [[_adding_item_statistical_category_entries]]
 Adding Statistical Category Entries
