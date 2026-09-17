@@ -43,35 +43,35 @@ There are a number of actions that can be performed on buckets available from th
 
 image::images/cat/buckets/record-bucket-actions-1.png[]
 
-* xref:_record_bucket_action_favourite[Add to Favorites/Remove from Favorites]
-* xref:_record_bucket_action_edit[Edit Buckets]
+* xref:_record_bucket_action_add_favourite[Add to Favorites]
+* xref:_record_bucket_action_carousel[Create Carousel from Bucket]
 * xref:_record_bucket_action_delete[Delete Bucket(s)]
-* xref:_record_bucket_action_share[Share Buckets]
-* xref:_record_bucket_action_transfer_owner[Transfering Bucket Ownership]
+* xref:_record_bucket_action_edit[Edit Buckets]
 * xref:_record_bucket_action_export[Export Records]
-* xref:_record_bucket_action_upload[Upload Records]
-* xref:_record_bucket_action_carousel[Creating Carousels]
 * xref:_record_bucket_action_marc_batch[MARC Batch Edit]
+* xref:_record_bucket_action_remove_favourite[Remove from Favourites]
+* xref:_record_bucket_action_share[Share Bucket]
+* xref:_record_bucket_action_transfer_owner[Transfer Bucket Ownership]
+* xref:_record_bucket_action_upload[Upload Records]
 
-Add to Favorites/Remove from Favorites
-++++++++++++++++++++++++++++++++++++++
-[[_record_bucket_action_favourite]]
+Add to Favorites
+++++++++++++++++
+[[_record_bucket_action_add_favourite]]
 
-This adds or removes a record bucket to or from your Favourites. 
-Favorited buckets will populate 
-your Favorites view in the buckets interface, as well as in the staff catalogue buckets tab. 
+This adds a record bucket to your Favourites. 
+Favorited buckets will populate  your Favorites view in the buckets interface, as well as in the staff catalogue buckets tab. 
 
-This action can also be taken by clicking the star icon. Clicking the icon so that it turns yellow adds a bucket to your Favorites list, and clicking the star again removes it.
+This action can also be taken by clicking the star icon. Clicking the icon so that it turns yellow adds a bucket to your Favorites list.
 
+Create Carousel From Bucket
++++++++++++++++++++++++++++
+[[_record_bucket_action_carousel]]
 
-Edit Buckets
-++++++++++++
-[[_record_bucket_action_edit]]
+Sitka does not currently use the Carousels feature in the Evergreen public catalogue.
 
-This allows you to edit the bucket details, including name, description, and whether or not 
-the bucket is public.
-
-This action can also be taken by clicking on the pencil icon in the record bucket grid.
+Libraries using LibPress can find information on using carousels in the 
+https://help.libraries.coop/libpress/highlights/sitka-carousels/[Sitka Carousels] section
+of the https://help.libraries.coop/libpress/[LibPress manual].
 
 Delete Bucket(s)
 ++++++++++++++++
@@ -81,6 +81,41 @@ This action allows you to delete the selected bucket(s).  A pop-up will ask you 
 the deletion. You can only delete buckets that you own or for which you have editing permissions.
 
 This action can also be taken by clicking on the X icon in the record bucket grid.
+
+Edit Bucket
+++++++++++++
+[[_record_bucket_action_edit]]
+
+This allows you to edit the bucket details, including name, description, and whether or not 
+the bucket is public.
+
+This action can also be taken by clicking on the pencil icon in the record bucket grid.
+
+Export Records
+++++++++++++++
+[[_record_bucket_action_export]]
+
+This action allows staff to export all of the records in the selected buckets. See 
+xref:_exporting_marc_records_via_a_record_bucket[].
+
+MARC Batch Edit
++++++++++++++++
+[[_record_bucket_action_marc_batch]]
+
+The MARC Batch Edit function is not used by Sitka and library staff cannot use it to batch edit 
+MARC records. The MARC Batch Edit action will take staff to the MARC Batch Edit interface but 
+permissions will prevent any batch edits. Please contact Co-op Support for assistance 
+with batch editing.
+
+Remove from Favorites
++++++++++++++++++++++
+[[_record_bucket_action_remove_favourite]]
+
+This removes a record bucket from your Favourites. 
+Favorited buckets will populate 
+your Favorites view in the buckets interface, as well as in the staff catalogue buckets tab. 
+
+This action can also be taken by clicking the star icon. Clicking the icon so that it changes from yellow (to transparent) removes a bucket from your Favorites list.
 
 Share Buckets
 +++++++++++++
@@ -127,8 +162,8 @@ image::images/cat/buckets/record-bucket-share-5.png[]
 image::images/cat/buckets/record-bucket-share-4.png[]
 
 
-Transferring Bucket Ownership
-+++++++++++++++++++++++++++++
+Transfer Bucket Ownership
++++++++++++++++++++++++++
 [[_record_bucket_action_transfer_owner]]
 
 This action allows you to transfer a bucket to another user.
@@ -154,13 +189,6 @@ Depending on your permissions, once you transfer a bucket you may lose editing o
 for that bucket. Administrators can transfer buckets for other users, even if the administrator 
 doesn’t directly own the bucket.
 
-Export Records
-++++++++++++++
-[[_record_bucket_action_export]]
-
-This action allows staff to export all of the records in the selected buckets. See 
-xref:_exporting_marc_records_via_a_record_bucket[].
-
 Upload Records
 ++++++++++++++
 [[_record_bucket_action_upload]]
@@ -168,23 +196,4 @@ Upload Records
 This action allows staff to upload or copy/paste 
 bibliographic IDs to the selected bucket. See xref:_adding_records_to_a_record_bucket_via_upload_records[].
 
-Creating Carousels
-++++++++++++++++++
-[[_record_bucket_action_carousel]]
 
-Sitka does not currently use the Carousels feature in the Evergreen public catalogue.
-
-Libraries using LibPress can find information on using carousels in the 
-https://help.libraries.coop/libpress/highlights/sitka-carousels/[Sitka Carousels] section
-of the https://help.libraries.coop/libpress/[LibPress manual].
-
-
-
-MARC Batch Edit
-+++++++++++++++
-[[_record_bucket_action_marc_batch]]
-
-The MARC Batch Edit function is not used by Sitka and library staff cannot use it to batch edit 
-MARC records. The MARC Batch Edit action will take staff to the MARC Batch Edit interface but 
-permissions will prevent any batch edits. Please contact Co-op Support for assistance 
-with batch editing.
