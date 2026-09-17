@@ -906,7 +906,9 @@ registration screen. Showing a field makes it appear with required fields even w
 not required. If the field is required this setting is ignored.|True/False| | LSA | For 
 more information on using these settings see xref:_customizing_the_display_fields[].
 
-|Show Photo URL field on patron registration | The Photo URL field will be shown on the patron registration screen. Showing a field makes it appear with required fields even when not required. If the field is required this setting is ignored. |True/False| FALSE | Sitka | https://bc.libraries.coop/support/[Contact Co-op Support]
+|Show Photo URL field on patron registration | The Photo URL field will be shown on the patron registration screen. 
+Showing a field makes it appear with required fields even when not required. If the field is required this setting is ignored. 
+|True/False| FALSE | Sitka | https://bc.libraries.coop/support/[Contact Co-op Support]
 if you wish to use the photo URL feature.
 
 | Staff Catalog Search Filters| | Text | | Sitka |
@@ -928,7 +930,9 @@ patron registration screen. Suggesting a field makes it appear when suggested fi
 are shown. If the field is shown or required this setting is ignored.|True/False| | LSA 
 | For more information on using these settings see xref:_customizing_the_display_fields[].
 
-|Suggest Photo URL field on patron registration |The Photo URL field will be suggested on the patron registration screen. Suggesting a field makes it appear when suggested fields are shown. If the field is shown or required this setting is ignored. | True/False | | Sitka | https://bc.libraries.coop/support/[Contact Co-op Support]
+|Suggest Photo URL field on patron registration |The Photo URL field will be suggested on the patron registration screen. 
+Suggesting a field makes it appear when suggested fields are shown. If the field is shown or required this setting is ignored. 
+| True/False | | Sitka | https://bc.libraries.coop/support/[Contact Co-op Support]
 if you wish to use the photo URL feature.
 
 |Toggle off the patron summary sidebar after first view.|When true, the patron summary 
