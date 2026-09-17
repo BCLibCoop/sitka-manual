@@ -32,7 +32,6 @@ the item table when looking at a record in the public catalogue. If no is select
 * *Checkout Archive*: If yes is selected, the stat cat and its value are kept in aged 
 circulation records. If no is selected, it will not be.
 * *Sip Field* and *SIP Format* are not currently used by Sitka.
-* *Stat Cat ID*: Assigned after the stat cat is created.
 +
 image::images/admin/stat-cat-item-2.png[]
 
@@ -126,7 +125,13 @@ image::images/admin/stat-cat-item-3.png[]
 +
 . Click the checkbox of the entry you want to edit.
 . Select *Actions -> Edit Selected*.
-. Change the Value and click *Save*.
++
+image::images/admin/stat-cat-item-edit-1.png[]
++
+. Change the value and click *Save*.
++
+image::images/admin/stat-cat-item-edit-2.png[]
++
 . Repeat as needed to edit other entries.
 . Clicking *Return* in the top right of the screen will take you back to the previous Statistical Categories - Item Editor screen.
 
@@ -141,7 +146,13 @@ image::images/admin/stat-cat-item-3.png[]
 +
 . Click the checkbox of the entry you want to delete.
 . Select *Actions -> Delete Selected*.
++
+image::images/admin/stat-cat-item-delete-1.png[]
++
 * Click *Confirm* to confirm deletion.
++
+image::images/admin/stat-cat-item-delete-2.png[]
++
 . Repeat as needed to delete other entries.
 . Clicking *Return* in the top right of the screen will take you back to the previous Statistical Categories - Item Editor screen.
 
