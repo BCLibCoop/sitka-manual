@@ -52,10 +52,10 @@ like Interlibrary Connect, have three option for how their public catalogue scop
 Public Catalogue Library Settings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-There are a number of library setting that can be used by local system administrators to customize 
+There are a number of library settings that can be used by local system administrators to customize 
 the public catalogue.
 
-xref:_library_settings_editor[]
+xref:_library_settings_editor[Library Settings Editor]
 
 Public Catalogue Messaging Settings
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -83,11 +83,11 @@ Coop support recommends using "danger" for the best contrast.
 
 OPAC Alert Banner: Text
 +++++++++++++++++++++++
-Banner text can be formatted using 
+Banner text can be formatted using HTML.
 
 image::images/admin/opac-banner-customize-1.png[]
 
-.Text Formatting
+.HTML Text Formatting
 [options="header"]
 |===
 | Goal      | Original   | Code                       | Result
@@ -95,9 +95,13 @@ image::images/admin/opac-banner-customize-1.png[]
 | Italic (HTML) | hello       | `$$<i>hello</i>$$`            | _hello_
 | Underline (HTML) | hello       | `$$<u>hello</u>$$`            | [underline]#hello#
 | Link (HTML) | hello       | `$$<a href="https://bc.libraries.coop">hello</a>$$`            | https://bc.libraries.coop[hello]
+| Line Break (HTML) | hello hello | `$$hello<br>hello$$`            | hello + 
+hello
 |===
 
-* OPAC Login Message
+OPAC Login Message
+++++++++++++++++++
+Sets a message to be displayed after logging in to My Account.
 
 ////
 ADDITIONAL SETTINGS TO ADD POST-UPGRADE
