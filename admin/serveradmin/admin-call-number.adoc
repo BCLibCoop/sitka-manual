@@ -21,22 +21,22 @@ Multi-branch libraries can enter the system and then check the box to display th
 +
 image::images/admin/call-number-prefix-2.png[scaledwidth="75%",alt="Create Call Number Suffix"]
 +
-. Type in the Label.
+. Enter the value for the Label.
 ** The Label Sort Key is generated based on the Label you assign, and the Label Sort Key changes if the Label changes.
 . Choose your library as the Owning Library.
-. Click Save.
+. Click *Save*.
 +
 image::images/admin/call-number-prefix-3.png[scaledwidth="75%",alt="Create Call Number Suffix"]
 
 [[_edit_call_number_prefix_suffix]]
 Edit a Call Number Prefix or Suffix
 +++++++++++++++++++++++++++++++++++
-. Click the checkbox of the prefix/suffix to be edited.
+. *Check* the check box of the prefix or suffix to be edited.
 . Click *Edit Selected*.
 +
 image::images/admin/call-number-prefix-edit-1.png[scaledwidth="75%",alt="Create Call Number Suffix"]
 +
-. Make the desired edits, then click *Save*.
+. Edit the value for Label, then click *Save*.
 +
 image::images/admin/call-number-prefix-edit-2.png[scaledwidth="75%",alt="Create Call Number Suffix"]
 
@@ -48,7 +48,7 @@ Changing a call number prefix or suffix immediately updates all call numbers usi
 [[_delete_call_number_prefix_suffix]]
 Delete a Call Number Prefix or Suffix
 +++++++++++++++++++++++++++++++++++++
-. Click the checkbox of the prefix/suffix to be deleted.
+. *Check* the check box of the prefix or suffix to be deleted.
 . Click *Delete Selected*.
 +
 image::images/admin/call-number-prefix-delete-1.png[scaledwidth="75%",alt="Create Call Number Suffix"]
