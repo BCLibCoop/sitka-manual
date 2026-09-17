@@ -28,6 +28,7 @@ of item barcodes
 * Circulation modifier column and *Update Inventory* check box available in 
 xref:_workflow_in_house_use[Record In-House Use]
 * Several changes to the patron account which include:
+** The ability to delete inactive barcodes from within the patron account
 ** Email receipts can be sent from the _Items Out_ tab
 ** Authorized users now display more prominently in the patron summary
 ** A group overdue count is now included in the patron summary for 
@@ -79,6 +80,7 @@ Public Catalogue
 * New Accessibility Features search filter
 * New Accessibility Features tab in the record view
 * A number of improvements make the public catalogue more accessible
+* Libraries can now add and update banners on their public catalogue
 * Basic Search can be toggled on and off by clicking on Basic Search
 * Search & History within My Account Preferences has been renamed Other Settings
 
