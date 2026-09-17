@@ -249,17 +249,13 @@ image::images/admin/stat-cat-patron-3.png[]
 +
 image::images/admin/stat-cat-patron-4.png[]
 +
-. Enter the Entry Value and click *Save*.
+. Enter the value and click *Save*.
 +
 image::images/admin/stat-cat-patron-5.png[]
 +
 . Repeat as needed to add additional values.
 . Clicking *Return* in the top right of the screen will take you back to the previous screen.
 
-[NOTE]
-======
-Previously, statistical category entries could not be edited or deleted in the staff client, and Co-op Support needed to assist. Library staff can now edit and delete statistical category entries themselves.
-======
 
 [[_editing_patron_statistical_category_entries]]
 Editing Statistical Category Entries
@@ -268,13 +264,20 @@ Editing Statistical Category Entries
 . Go to *Administration -> Local Administration-> Statistical Categories - Patron Editor*.
 . Click *Entries* for the stat cat you would like to edit the values of.  
 +
-image::images/admin/stat-cat-item-3.png[]
+image::images/admin/stat-cat-patron-3.png[]
 +
 . Click the checkbox of the entry you want to edit.
 . Select *Actions -> Edit Selected*.
-. Change the Entry Value and click *Save*.
++
+image::images/admin/stat-cat-patron-edit-1.png[]
++
+. Edit the value as desired and click *Save*.
++
+image::images/admin/stat-cat-patron-edit-2.png[]
++
+. The entry is updated in the grid as well as on any patron accounts using the value.
 . Repeat as needed to edit other entries.
-. Clicking *Return* in the top right of the screen will take you back to the previous Statistical Categories - Patron Editor screen.
+. Clicking *Return* in the top right of the screen will take you back to the previous screen.
 
 [[_deleting_patron_statistical_category_entries]]
 Deleting Statistical Category Entries
@@ -283,10 +286,17 @@ Deleting Statistical Category Entries
 . Go to *Administration -> Local Administration-> Statistical Categories - Patron Editor*.
 . Click *Entries* for the stat cat you would like to delete the values of.
 +
-image::images/admin/stat-cat-item-3.png[]
+image::images/admin/stat-cat-patron-3.png[]
 +
 . Click the checkbox of the entry you want to delete.
 . Select *Actions -> Delete Selected*.
-* Click *Confirm* to confirm deletion.
++
+image::images/admin/stat-cat-patron-delete-1.png[]
++
+. Click *Confirm* to confirm deletion.
++
+image::images/admin/stat-cat-patron-delete-2.png[]
++
+. The entry no longer displays in the grid and is deleted from any patron accounts that were using the value.
 . Repeat as needed to delete other entries.
-. Clicking *Return* in the top right of the screen will take you back to the previous Statistical Categories - Item Editor screen.
+. Clicking *Return* in the top right of the screen will take you back to the previous screen.
