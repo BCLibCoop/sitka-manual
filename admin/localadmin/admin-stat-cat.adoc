@@ -196,7 +196,7 @@ the list of predefined entries.
 +
 image::images/admin/stat-cat-patron-2.png[]
 +
-. Click *Save*
+. Click *Save*.
 . The statistical category now displays in the grid. Entries can now be added as per xref:_adding_patron_statistical_category_entries[]. 
 
 [[_editing_patron_statistical_categories]]
@@ -294,6 +294,14 @@ image::images/admin/stat-cat-patron-edit-2.png[]
 [[_deleting_patron_statistical_category_entries]]
 Deleting Statistical Category Entries
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+[CAUTION]
+=========
+Once a statistical category entry is deleted it cannot be un-deleted by either library staff or
+Co-op Support.  
+
+Deleting a statistical category entry also removes the entry from any patrons using it.
+=========
 
 . Go to *Administration -> Local Administration-> Statistical Categories - Patron Editor*.
 . Click *Entries* for the stat cat you would like to delete the values of.
