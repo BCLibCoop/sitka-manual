@@ -3,7 +3,7 @@ Call Number Prefix and Suffix
 [[_prefix_and_suffix]]
 
 If your library uses prefixes or suffixes in call numbers, you can build a standard list which 
-will be displayed as dropdown options when creating or editing call number records.
+will be displayed as drop down options when creating or editing call number records.
 
 This is how a prefix or suffix list appears when creating or editing a call number.
 
@@ -16,10 +16,10 @@ Create a Call Number Prefix or Suffix
 +
 To view the prefixes/suffixes for your library, enter your library code into the Library filter.
 Multi-branch libraries can enter the system and then check the box to display the descendants.
+. Click *New Call Number/Volume Prefix/Suffix*. 
 +
 image::images/admin/call-number-prefix-2.png[scaledwidth="75%",alt="Create Call Number Suffix"]
 +
-. Click *New Call Number/Volume Prefix/Suffix*. 
 . Type in the Label.
 ** The Label Sort Key is generated based on the Label you assign, and the Label Sort Key changes if the Label changes.
 . Choose your library as the Owning Library.
