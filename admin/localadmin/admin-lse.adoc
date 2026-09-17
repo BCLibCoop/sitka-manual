@@ -1253,7 +1253,7 @@ This feature is not used by Sitka.
 record details page. This setting only affects the public OPAC|True/False| | LSA |
 
 |KPAC Audience Filter |Controls which items to display based on MARC Target Audience
- (Audn) field. Options are: a,b,c,d,j. Default is: a,b,c,j |Text | | |
+ (Audn) field. Options are: a,b,c,d,j. Default is: a,b,c,j |Text | |Sitka |
 
 |Jump to details on 1 hit (staff client)|When a search yields only 1 result, jump 
 directly to the record details page. This setting only affects the PAC within the 
@@ -1346,8 +1346,7 @@ Shibboleth SSO. Default is uid; use eppn for Active Directory | Text | | Sitka |
 
 |Show Geographic Proximity in Miles |When set to TRUE, will cause the record details page to show distances for geographic proximity in miles instead of kilometres. |True/False | | LSA| This feature is not used by Sitka.
 
-|Show KPAC Link | Show the KPAC link in the OPAC. Default is false. |True/False| | |This feature 
-is not used by Sitka.
+|Show KPAC Link | Show the KPAC link in the OPAC. Default is false. |True/False| |Sitka |
 
 |Show Owning Lib in Items Out |If enabled, the Owning Lib will be shown in the Items Out 
 display. This may assist in requesting additional renewals | True/False | | Sitka |
@@ -1400,12 +1399,8 @@ a patron adds a book to the temporary book list.|True/False| TRUE | Sitka |
 .OpenAPI data access control
 [options="header"]
 |===
-|Setting|Description|Data type|Default | Edited by | Notes
-
-|Globally filtered Fieldmapper properties | |Text | | | This feature is not used by Sitka.
-
-|Globally whitelisted Fieldmapper properties | |Text | | | This feature is not used by Sitka.
-
+|OpenAPI data access control
+|All settings are set by Sitka.
 |===
 
 [[_library_settings_program]]
