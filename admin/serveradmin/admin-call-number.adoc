@@ -9,8 +9,9 @@ This is how a prefix or suffix list appears when creating or editing a call numb
 
 image::images/admin/call-number-prefix-1.png[scaledwidth="75%",alt="Create Call Number Suffix"]
 
+[[_create_call_number_prefix_suffix]]
 Create a Call Number Prefix or Suffix
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++++++++++++++++++++++++++++++++++++++
 
 . Go to *Administration -> Server Administration -> Call Number Prefixes* or *Call Number Suffixes*.
 +
@@ -27,8 +28,9 @@ image::images/admin/call-number-prefix-2.png[scaledwidth="75%",alt="Create Call 
 +
 image::images/admin/call-number-prefix-3.png[scaledwidth="75%",alt="Create Call Number Suffix"]
 
+[[_edit_call_number_prefix_suffix]]
 Edit a Call Number Prefix or Suffix
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++++++++++++++++++++++++++++++++++++
 . Click the checkbox of the prefix/suffix to be edited.
 . Click *Edit Selected*.
 +
@@ -43,8 +45,9 @@ image::images/admin/call-number-prefix-edit-2.png[scaledwidth="75%",alt="Create 
 Changing a call number prefix or suffix immediately updates all call numbers using the prefix or suffix. While this may be desired, it can also cause a mismatch with physical item labels.
 =========
 
+[[_delete_call_number_prefix_suffix]]
 Delete a Call Number Prefix or Suffix
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++++++++++++++++++++++++++++++++++++++
 . Click the checkbox of the prefix/suffix to be deleted.
 . Click *Delete Selected*.
 +
