@@ -9,28 +9,78 @@ New Features in Evergreen Version 3.17
 Staff Client
 ~~~~~~~~~~~~
 
+* New xref:_table_density[grid density setting]
+* Terminology in action menus is more consistent throughout the staff client
+* Filters are case insensitive
+
 [[_new_features_circulation]]
 Circulation
 ~~~~~~~~~~~
 
 
-
+* Checking and item in or out no longer updates the Edit Date or Last Editor 
+field for item. The item status change date is still updated.
+* Email receipts can be sent from the Renew and Check In interfaces
+* The Evergreen shelf check has been redesigned
+* When creating a new item bucket there is an option to upload a .csv file 
+of item barcodes
+* _Pull List for Holds Requests_ interface has been renamed xref:_holds_pull_list[_Holds Pull List_].
+* Circulation modifier column and *Update Inventory* check box available in 
+xref:_workflow_in_house_use[Record In-House Use]
+* Several changes to the patron account which include:
+** Email receipts can be sent from the _Items Out_ tab
+** Authorized users now display more prominently in the patron summary
+** A group overdue count is now included in the patron summary for 
+libraries using patron groups
+** Additional fields from the patron form now appear at the bottom 
+of the patron summary
+** The Transit Source column will now show the transit library’s shortcode 
+rather than the database ID when looking at holds in the patron account
+** Closing a patron account using the Done button clears the patron’s name 
+from the tab
+** When library settings beginning with _Show_ are set to FALSE the applicable
+field is hidden in the patron account form. See xref:_customizing_the_display_fields[].
 
 [[_new_features_cataloguing]]
 Cataloguing
 ~~~~~~~~~~~
+
+* The holdings editor has been redesigned to be more accessible
+* There is a Holding Templates Editor which improves functionality for creating and managing holding templates
+* Create MARC Record interface has been angularized and now uses the same editor found in the staff catalogue
+* xref:_help_and_additional_options[Special Characters Map] available in the 
+Enhanced MARC Editor.
+* xref:_enhanced_marc_editor[Enhanced MARC Editor]
+** Undo button now works as expected
+** Drop down menus now appear for the Cont and Ills fields in the grid
+** When adding subfields, focus is now correctly on the subfield field rather than the subfield value field
+** Fields under 100 are suggested in the drop down when clicking on the field number
+** Alphabetical subfields are listed ahead of numeric onesin the drop down when clicking on a subfield
+** Keyboard navigation is improved
+** Dark mode is significantly improved
+
 
 
 [[_new_features_staff_catalogue]]
 Staff Catalogue
 ~~~~~~~~~~~~~~~
 
+* New Cancel if not filled by option when placing holds
+* New option to xref:_placing_holds_for_a_hold_group[place holds for Hold Groups]
+ when placing holds.
+* New option to retrieve recent patrons when placing holds
+* Improvements to shelf browse display
 
 
 [[_new_features_public_catalogue]]
 Public Catalogue
 ~~~~~~~~~~~~~~~~
 
+* New Accessibility Features search filter
+* New Accessibility Features tab in the record view
+* A number of improvements make the public catalogue more accessible
+* Basic Search can be toggled on and off by clicking on Basic Search
+* Search & History within My Account Preferences has been renamed Other Settings
 
 [[_new_features_course_reserves]]
 Course Reserves
@@ -42,6 +92,12 @@ Reporter
 ~~~~~~~~
 
 
+[[_new_features_administration]]
+Administration
+~~~~~~~~
+
+* Patron and Item statistical categories and their values can be edited and deleted
+* Academic libraries can add new values for hard due dates
 
 
 
