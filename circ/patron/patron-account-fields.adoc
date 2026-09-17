@@ -45,7 +45,7 @@ legitimate use case for collecting data for one of the other values.
 |Secondary Identification | No | This field is used to collect identification information about the patron. 
 Generally this is used by academic libraries for data such as student number or homeroom.
 |Photo URL | Can be set as required by libraries | This field allows libraries to link to a picture of a patron. Sitka
-does not store the photos. Additional permissions are required to use this field. Please contact 
+does not store the photos. This field is hidden by default and additional permissions are required to use this field. Please contact 
 https://bc.libraries.coop/support/[Co-op Support] for more information.
 |Patron Preferred Language | No | Patrons can set English or French as their preferred language to receive email
 notifications in that language.  Patrons can xref:_personal_information[update their preference] via 

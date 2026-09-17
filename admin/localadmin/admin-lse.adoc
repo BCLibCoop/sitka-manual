@@ -888,7 +888,8 @@ xref:_customizing_the_display_fields[].
 |Require ident_value field on patron registration | The ident_value field will be required 
 on the patron registration screen. |True/False | | LSA |
 
-|Require Photo URL field on patron registration | | True/False | | Sitka |
+|Require Photo URL field on patron registration | | True/False | | Sitka | https://bc.libraries.coop/support/[Contact Co-op Support]
+if you wish to use the photo URL feature.
 
 |Require staff initials for entry/edit of copy notes.|Appends staff initials and edit 
 date into copy note content.|True/False| TRUE | LSA |
@@ -904,6 +905,9 @@ will open to the billing tab instead of check out|True/False| |LSA | Setting is 
 registration screen. Showing a field makes it appear with required fields even when 
 not required. If the field is required this setting is ignored.|True/False| | LSA | For 
 more information on using these settings see xref:_customizing_the_display_fields[].
+
+|Show Photo URL field on patron registration|True/False| FALSE | Sitka | https://bc.libraries.coop/support/[Contact Co-op Support]
+if you wish to use the photo URL feature.
 
 | Staff Catalog Search Filters| | Text | | Sitka |
 
@@ -1660,7 +1664,7 @@ This feature is not used by Sitka.
 the patron registration screen. Showing a field makes it appear with required fields even 
 when not required. If the field is required this setting is ignored. | True/False | | LSA |
 
-|GUI: Suggest guardianemail field on patron registration | The guardian email field will be 
+|GUI: Suggest guardian email field on patron registration | The guardian email field will be 
 suggested on the patron registration screen. Suggesting a field makes it appear when 
 suggested fields are shown. If the field is shown or required this setting is 
 ignored. | True/False |FALSE | Sitka | This feature is not used by Sitka.
