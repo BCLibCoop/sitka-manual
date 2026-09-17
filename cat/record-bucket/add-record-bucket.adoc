@@ -7,19 +7,18 @@ the item status interface, the MARC Batch Import/Export, and report output.
 Adding Records to a Record Bucket via the Staff Catalogue
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* xref:_record_bucket_search_results_single_record[A single record via Search Results]
+* xref:_record_bucket_search_results_single_record[Individual records via Search Results]
 * xref:_record_bucket_search_results_multiple_records[Multiple records via Search Results]
-* xref:_record_bucket_staff_catalogue_basket[Staff Catalogue Basket]
-* xref:_record_bucket_record_summary[Record Summary]
+* xref:_record_bucket_staff_catalogue_basket[Multiple records via the Staff Catalogue Basket]
+* xref:_record_bucket_record_summary[Individual records via Record Summary]
 
 [[_record_bucket_search_results_single_record]]
-A single record via Search Results
-++++++++++++++++++++++++++++++++++
+Individual records via Search Results
++++++++++++++++++++++++++++++++++++++
 
 . Search the catalogue for the records you would like to add to a bucket, as described
 in xref:_searching_the_database_for_cataloguing_purposes[].
-. Click *Add to Bucket* on the result. Clicking on the arrow beside will show a drop down menu of existing
-buckets.
+. Click *Add to Bucket* on the result. Clicking on the arrow beside will show a drop down menu of existing buckets.
 +
 image::images/cat/buckets/record-bucket-add-search-result-1.png[]
 +
@@ -59,8 +58,8 @@ image::images/cat/buckets/record-bucket-add-search-result-4.png[]
 +
 . The record is added to the record bucket. 
 
-Staff Catalogue Basket
-++++++++++++++++++++++
+Multiple records via the Staff Catalogue Basket
++++++++++++++++++++++++++++++++++++++++++++++++
 [[_record_bucket_staff_catalogue_basket]]
 
 . Search the catalogue for the records you would like to add to a bucket, as described
@@ -91,8 +90,8 @@ image::images/cat/buckets/record-bucket-add-2.png[]
 . The record is added to the record bucket. 
 
 [[_record_bucket_record_summary]]
-Record Summary
-++++++++++++++
+Individual records via Record Summary
++++++++++++++++++++++++++++++++++++++
 
 . Search the catalogue for the record you would like to add to a bucket, as described
 in xref:_searching_the_database_for_cataloguing_purposes[].
@@ -208,8 +207,7 @@ image::images/cat/buckets/record-bucket-add-query-3.png[]
 +
 image::images/cat/buckets/record-bucket-add-query-4.png[]
 +
-. Continue searching and adding records to your bucket or click on *Bucket View* to go 
-to your bucket.
+. Continue searching and adding records to your bucket or click on *Bucket View* to go to your bucket.
 
 
 [TIP]
