@@ -212,7 +212,7 @@ https://youtu.be/XwC2pv5aPEM[*Sitka Snippet Video - Editing Patron Statistical C
 image::images/admin/stat-cat-edit-cat-patron-1.png[]
 +
 . Make your changes and click *Save*.
-. Your changes will be reflected in the grid.
+. Your changes will be reflected in the grid and in the statistical category field in the patron account.
 
 [[_deleting_patron_statistical_categories]]
 Deleting Statistical Categories
@@ -240,7 +240,8 @@ image::images/admin/stat-cat-patron-7.png[]
 +
 image::images/admin/stat-cat-patron-8.png[]
 +
-. Your statistical category is deleted and no longer displays in the grid.  
+. Your statistical category is deleted and no longer displays in the grid. The statistical category and
+all associated values are also removed from all patron accounts. 
 
 [[_adding_patron_statistical_category_entries]]
 Adding Statistical Category Entries
