@@ -49,3 +49,8 @@ image::images/admin/call-number-prefix-delete-1.png[scaledwidth="75%",alt="Creat
 . When the pop-up appears, click *Confirm* to confirm deletion.
 +
 image::images/admin/call-number-prefix-delete-2.png[scaledwidth="75%",alt="Create Call Number Suffix"]
+
+[CAUTION]
+=========
+Prefixes and suffixes can only be deleted if they have not been applied to a call number. The prefix or suffix must be removed from every call number using it before it can be deleted. You may also need to log out and back in again for the deleted prefix or suffix to disappear as an option.
+=========
