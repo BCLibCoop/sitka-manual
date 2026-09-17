@@ -157,7 +157,7 @@ categories can be created at the branch, system, or federation level by staff wi
 appropriate permissions.
 
 Patron statistical categories can be set to display to library
-staff in the patron summary in the patron account, and to patrons in the xref:_personal_information[Personal Information
+staff in the patron summary in the patron account and to patrons in the xref:_personal_information[Personal Information
 section of My Account] in the public catalogue. Patron statistical categories can also xref:_sitka_templates_patrons[be used in reporting]. 
 
 [[_creating_patron_statistical_categories]]
@@ -174,18 +174,19 @@ image::images/admin/stat-cat-patron-1.png[]
 . Enter the relevant information for your statistical category.
 +
 * *Name*: The name will be visible to library staff and can be visible to patrons.  
-* *Required*: If yes is selected, a value must be assigned when creating a new account or saving an existing account. Selecting no means the stat cat is not required.
-* *OPAC Visible*: If yes is selected, the stat cat name and the selected value are displayed in the patron’s account in the public catalogue. If no is selected, it will not be.
-* *User Summary*: If yes is selected, the stat cat and value display in the patron summary within 
-the patron account. If no is selected, it will not be. (The stat cat field will also not be visible in the patron account if no value has been entered for the patron.)
-* *Free Text*: If yes is selected, staff can type in a value rather than being restricted to a 
+* *Required*: If YES is selected, a value must be assigned when creating a new account or saving an existing account.
+* *OPAC Visible*: If YES is selected, the stat cat name and the selected value are displayed in the patron’s account in the public catalogue.
+* *User Summary*: If YES is selected, the stat cat and value display in the patron summary within 
+the patron account if a value has been entered.
+* *Free Text*: If YES is selected, staff can type in a value rather than being restricted to a 
 the list of predefined entries.
-* *Checkout Archive*: If yes is selected, the category and its values will be archived. If no is selected, it will not be.
+* *Checkout Archive*: If YES is selected, the stat cat and its value are kept in aged circulation records. 
 * *SIP Field* and *SIP Format* are not currently used by Sitka.
 +
 image::images/admin/stat-cat-patron-2.png[]
 +
 . Click *Save*
+. The statistical category now displays in the grid. Entries can now be added as per xref:_adding_patron_statistical_category_entries[]. 
 
 [[_editing_patron_statistical_categories]]
 Editing Statistical Categories
@@ -197,7 +198,7 @@ https://youtu.be/XwC2pv5aPEM[*Sitka Snippet Video - Editing Patron Statistical C
 . Select the statistical category you would like to edit.
 . From the *Actions* menu choose *Edit Selected*.
 +
-image::images/admin/stat-cat-patron-6.png[]
+image::images/admin/stat-cat-edit-cat-patron-1.png[]
 +
 . Make your changes and click *Save*.
 . Your changes will be reflected in the grid.
@@ -208,10 +209,7 @@ Deleting Statistical Categories
 
 https://youtu.be/Zz9A9FUfrtc[*Sitka Snippet Video - Deleting Patron Statistical Categories (1:07)*]
 
-Statistical categories can only be deleted if the entries associated with it haven't been 
-applied to any patrons.
 
-////
 [CAUTION]
 =========
 Once a statistical category is deleted it cannot be un-deleted by either library staff or
@@ -219,7 +217,6 @@ Co-op Support.
 
 Deleting a statistical category also removes the associated values from any patrons using them.
 =========
-////
 
 . Go to *Administration -> Local Administration-> Statistical Categories - Patron Editor*.
 . Select the statistical category you would like to delete.
@@ -233,8 +230,6 @@ image::images/admin/stat-cat-patron-7.png[]
 image::images/admin/stat-cat-patron-8.png[]
 +
 . Your statistical category is deleted and no longer displays in the grid.  
-. If entries have already been applied to patrons you will see the message _Delete of Statistical Category - Patron failed 
-or was not allowed_. Please contact https://bc.libraries.coop/support/[Co-op Support] for assistance.
 
 [[_adding_patron_statistical_category_entries]]
 Adding Statistical Category Entries
@@ -250,7 +245,7 @@ registering or editing a patron.
 +
 image::images/admin/stat-cat-patron-3.png[]
 +
-. Click *New Statistical Category Entry - Item*.
+. Click *New Statistical Category Entry - Patron*.
 +
 image::images/admin/stat-cat-patron-4.png[]
 +
