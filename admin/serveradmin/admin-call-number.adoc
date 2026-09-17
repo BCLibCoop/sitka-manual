@@ -31,10 +31,21 @@ Edit a Call Number Prefix or Suffix
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 . Click the checkbox of the prefix/suffix to be edited.
 . Click *Edit Selected*.
++
+image::images/admin/call-number-prefix-edit-1.png[scaledwidth="75%",alt="Create Call Number Suffix"]
++
 . Make the desired edits, then click *Save*.
++
+image::images/admin/call-number-prefix-edit-2.png[scaledwidth="75%",alt="Create Call Number Suffix"]
+
 
 Delete a Call Number Prefix or Suffix
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 . Click the checkbox of the prefix/suffix to be deleted.
 . Click *Delete Selected*.
++
+image::images/admin/call-number-prefix-delete-1.png[scaledwidth="75%",alt="Create Call Number Suffix"]
++
 . When the pop-up appears, click *Confirm* to confirm deletion.
++
+image::images/admin/call-number-prefix-delete-2.png[scaledwidth="75%",alt="Create Call Number Suffix"]
