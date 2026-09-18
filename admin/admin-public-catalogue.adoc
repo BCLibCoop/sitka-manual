@@ -95,7 +95,8 @@ image::images/admin/opac-banner-customize-1.png[]
 | Italic (HTML) | hello       | `$$<i>hello</i>$$`            | _hello_
 | Underline (HTML) | hello       | `$$<u>hello</u>$$`            | [underline]#hello#
 | Link (HTML) | hello       | `$$<a href="https://bc.libraries.coop">hello</a>$$`            | https://bc.libraries.coop[hello]
-| Line Break (HTML) | hello hello | `$$hello<br>hello$$`            | hello + 
+| Line Break (HTML) | hello hello | `$$hello<br>hello$$`            | hello
++
 hello
 |===
 
