@@ -1,40 +1,35 @@
 Holdings Templates
 ~~~~~~~~~~~~~~~~~~
-[[holdings-template]]
 
 link:https://youtu.be/evqF-tOekD4[*Sitka Snippet Video - Creating and Using Holdings Templates (2:21)*]
 
-anchor:holdings-template[Holdings Template]
 Holdings templates allow you to set up templates with pre-selected values for item attributes
 and help to ensure consistency in cataloguing of items.
+
+To access the Holdings Templates interface click on the _Holdings Templates_ tab in the Holdings Editor or go to 
+*Administration -> Local Administration -> Holdings Template Editor*.
+
+From the Holdings Templates interface you can view, create, edit, delete, import, and export templates.
+
+image::images/cat/holdings/holdings-template-1.png[]
 
 Creating Holdings Templates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Go to *Administration -> Local Administration -> Holdings Template Editor*. 
+. In the Holdings Templates click *Create Template*. 
 +
-OR
+image::images/cat/holdings/holdings-template-create-1.png[]
 +
-Open the Holdings Editor through any bibliographic record and go to the *Holdings* tab if you are using 
-the unified editor or the *Item Attributes* tab if you are not.
+. The Holdings Templates Editor will open in a new tab.
+. Enter the values for the call number and item attributes needed for your template.
 +
-image::images/cat/holdings/holdings-template-1.png[]
+image::images/cat/holdings/holdings-template-create-2.png[]
 +
-. Enter the values for the item attributes needed for your template.
+. Enter a name for the template and click *Save as New Template*.
 +
-image::images/cat/holdings/holdings-template-2.png[]
+image::images/cat/holdings/holdings-template-create-3.png[]
 +
-[NOTE]
-======
-Values entered for _Prefix_ and/or _Suffix_ in the xref:_holdings_details[Holdings Details] section will be 
-saved as part of the template.
-======
-+
-. Type in a name for the template and click *Save Template*.
-+
-image::images/cat/holdings/holdings-template-3.png[]
-+
-. The template is saved.
+. The template is saved. Close the tab to return to the Holdings Editor.
 
 Deleting Holdings Templates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
