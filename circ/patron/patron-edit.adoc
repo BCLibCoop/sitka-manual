@@ -41,7 +41,7 @@ Patrons cannot login to the public catalogue with an inactive barcode, but inact
 be used to authenticate with some 3rd party products and to retrieve the active patron record 
 in the staff client. Co-op Support strongly recommends libraries delete inactive barcodes.
 
-[_replacing_patron_barcode]
+[[_replacing_patron_barcode]]
 Replacing a Patron Barcode
 ++++++++++++++++++++++++++
 
@@ -64,7 +64,7 @@ image:images/circ/patron/patron-barcode-replace-2.png[scaledwidth="75%"]
 Co-op Support strongly recommends deleting barcodes that have been replaced.  See 
 xref:_delete_inactive_card_patron_account[Deleting Inactive Patron Barcodes].
 
-[_editing_current_patron_barcodes]
+[[_editing_current_patron_barcodes]]
 Editing Current Patron Barcodes
 +++++++++++++++++++++++++++++++
 
