@@ -13,7 +13,7 @@ Holdings Preferences
 
 Select the checkboxes or use the drop down menus to set the settings you'd like.
 
-image::images/cat/holdings/holdings-editor-preferencess-2.png[]
+image::images/cat/holdings/holdings-editor-preferences-2.png[]
 
 Holdings Display Preferences
 ++++++++++++++++++++++++++++
@@ -60,8 +60,7 @@ Set the level at which you'd like to filter statistical categories in _Default S
 Libraries that share statistical categories across a federation or system may wish to choose the 
 federation or system as their default filter.
 
-Set a default Item Alert Type to be used when adding item alerts in _Default Item Alert Type_.  Start typing in the 
-field to have the available options appear. 
+Set a default Item Alert Type to be used when adding item alerts in _Default Item Alert Type_. 
 
 image::images/cat/holdings/holdings-editor-preferences-3.png[]
 
