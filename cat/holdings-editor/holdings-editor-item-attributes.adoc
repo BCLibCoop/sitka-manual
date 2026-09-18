@@ -71,13 +71,28 @@ status cannot be selected from the drop down menu as an action, such as checking
 set the item to that status.
 |===
 
-Applying an Item Attribute
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+Editing Item Attributes
+^^^^^^^^^^^^^^^^^^^^^^^
 
-. To apply a value to an item attribute click on the attribute.
+. In the Item Attributes section of the Holdings Editor, click on the attribute you wish to edit.
 . From the drop down menu choose your attribute value and then click Apply.
-. The attribute
++
+image::images/cat/holdings/item-attribute-apply-1.png[scaledwidth="75%"]
++
+. The attribute will be highlighted in green and the attribute label will be in bold.
++
+image::images/cat/holdings/item-attribute-apply-2.png[scaledwidth="75%"]
++
+. Apply values to all desired attributes and click *Apply All & Save* or "Apply All, Save & Exit*.
+. The item record is updated with the selected attributes. 
 
+[NOTE]
+======
+The value for an attribute can be cleared by clicking the *Clear* button for the particular attribute.
+
+image::images/cat/holdings/item-attribute-apply-3.png[scaledwidth="75%"]
+
+======
 
 Item Alerts
 ^^^^^^^^^^^
@@ -99,7 +114,7 @@ image::images/cat/holdings/item-alert-5.png[scaledwidth="75%",alt="Item Alerts"]
 Adding an Item Alert
 ++++++++++++++++++++
 
-. In the item attributes section of the Holdings Editor, click *Item Alerts*.
+. In the Item Attributes section of the Holdings Editor, click *Alerts*.
 +
 image::images/cat/holdings/item-alert-1.png[scaledwidth="75%",alt="Item Alerts"]
 +
@@ -165,7 +180,7 @@ public and displayed in the public catalogue.
 Adding an Item Note
 +++++++++++++++++++
 
-. In the item attributes section of the Holdings Editor, click *Item Notes*.
+. In the item attributes section of the Holdings Editor, click *Notes*.
 +
 image::images/cat/holdings/item-note-1.png[scaledwidth="75%",alt="Item Notes"]
 +
