@@ -31,7 +31,7 @@ Evergreen keeps a record of the barcodes currently associated with a patron's ac
 these barcodes will be the active primary card while the others will be inactive.
 
 If a library card with an inactive barcode is scanned into Check In, Evergreen will retrieve the 
-account with a warning that the barcode is inactive and will not allow check outs.
+account but will not allow check outs.
 
 Patrons cannot login to the public catalogue with an inactive barcode, but inactive barcodes may 
 be used to authenticate with some 3rd party products and to retrieve the active patron record 
@@ -40,6 +40,8 @@ in the staff client. Co-op Support strongly recommends libraries delete inactive
 
 Replacing a Patron Barcode
 ++++++++++++++++++++++++++
+
+https://youtu.be/RKKbIwt7P0o[*Sitka Snippet Video - Replacing a Patron Barcode (1:40)*]
 
 If a patron has lost their library card, their current barcode in Evergreen can be replaced with 
 the barcode on their new library card.
@@ -89,6 +91,8 @@ xref:_delete_inactive_card_patron_account[delete any inactive barcodes] associat
 [[_delete_inactive_card_patron_account]]
 Deleting Inactive Patron Barcodes
 +++++++++++++++++++++++++++++++++
+
+https://youtu.be/_kxjCHCgRok[*Sitka Snippet Video - Deleting Inactive Patron Barcodes (2:46)*]
 
 [NOTE]
 ======
