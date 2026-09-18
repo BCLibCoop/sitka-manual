@@ -25,11 +25,12 @@ the *Actions* menu.
 * by scanning an item into *Item Status* and selecting the appropriate option from
 the *Actions* menu.
 
-The Holdings Editor has three parts:
+The Holdings Editor has four parts:
 
 * xref:_holdings_details[Holdings Details]
 * xref:_item_attributes[Item Attributes]
 * xref:_holdings_editor_preferences[Preferences]
+* xref:_holdings_templates[Holdings Templates]
 
 
 image::images/cat/holdings/the-holdings-editor-1.png[]
