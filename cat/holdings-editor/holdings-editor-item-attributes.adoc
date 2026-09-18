@@ -118,11 +118,11 @@ Adding an Item Alert
 +
 image::images/cat/holdings/item-alert-1.png[scaledwidth="75%",alt="Item Alerts"]
 +
-. Choose a type from the dropdown list.
-. Type in the message.
+. Choose an alert type from the drop down list.
+. Enter the message in the _Alert Note_ field.
 . If desired, check the box for *Temporary?*. This can be useful if the alert is only needed 
 to resolve a particular issue.
-. Click *Add New*. The alert will display as a pending new alert.
+. Click *Add New*. The alert will display as a pending item alert.
 +
 image::images/cat/holdings/item-alert-2.png[scaledwidth="75%",alt="Item Alerts"]
 +
@@ -132,27 +132,28 @@ image::images/cat/holdings/item-alert-3.png[scaledwidth="75%",alt="Item Alerts"]
 +
 . Back in the holdings editor, click *Apply All, Save & Exit*.
 +
-. The alert will appear at check out and/or check in depending on the alert type chosen.
+. The alert will appear when the item is checked out and/or checked in depending on 
+the alert type chosen.
 
 Editing an Item Alert
 +++++++++++++++++++++
 
-////
-LP 2012971 - ITEM ALERTS CURRENTLY CANT BE EDITED VIA HOLDINGS EDITOR
-////
-
-. In the item attributes section of the Holdings Editor, click *Item Alerts*.
+. In the item attributes section of the Holdings Editor, click * Alerts*.
 +
 image::images/cat/holdings/item-alert-1.png[scaledwidth="75%",alt="Item Alerts"]
 +
-. Make the the necessary changed and click *Apply Changes*
+. Make the the necessary changes and click *Apply Changes*
 +
 image::images/cat/holdings/item-alert-4.png[scaledwidth="75%",alt="Item Alerts"]
 +
-. Back in the holdings editor, click *Apply All, Save & Exit*.
+. The Alerts attribute will indicate that there is a modified alert.
 +
-. The updated alert will appear at check out and/or check in depending on the alert type chosen.
-
+image::images/cat/holdings/item-alert-4b.png[scaledwidth="75%",alt="Item Alerts"]
++
+. Click *Apply All, Save & Exit*.
++
+. The updated alert will appear when the item is checked out and/or checked in depending on 
+the alert type chosen.
 
 
 Deleting an Item Alert
