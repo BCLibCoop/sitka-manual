@@ -96,7 +96,7 @@ xref:_workflow_check_in[_Check In_] interfaces.
 . Ensure the **Update Inventory** check box is checked. For information
 on enabling this, see xref:_enable_update_inventory_with_in_house_use[].
 +
-image:images/inventory/inventory-checkin-modifier-2.png[scaledwidth="75%"]
+image:images/inventory/inventory-inhouse-checkbox-1.png[scaledwidth="75%"]
 +
 . Scan in your items. Their inventory date is automatically updated.
 . Repeat until you have scanned and updated all items needing to be recorded for in-house use.
