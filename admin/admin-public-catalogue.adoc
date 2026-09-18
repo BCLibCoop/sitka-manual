@@ -55,13 +55,14 @@ Public Catalogue Library Settings
 There are a number of library settings that can be used by local system administrators to customize 
 the public catalogue.
 
-See xref:_library_settings_editor[].
+See xref:_library_settings_editor[] for additional information on editing library settings.
 
 Public Catalogue Messaging Settings
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-A temporary banner with text and links can be applied across the top of your public catalogue.  The yearly 
-banner for Sitka's Evergreen upgrade will override local banners.
+A temporary banner with text and links can be applied across the top of your public catalogue, and a custom message can be set to display on log in.
+
+image::images/admin/opac-banner-customize-1.png[]
 
 OPAC Alert Banner: Display
 ++++++++++++++++++++++++++
@@ -69,7 +70,7 @@ Can be set to "true" to display the banner or "false" to hide the banner.
 
 OPAC Alert Banner: Type
 +++++++++++++++++++++++
-The banner has four display options:
+The banner has four display options which change the text colour:
 
 * success
 * info
@@ -85,15 +86,13 @@ OPAC Alert Banner: Text
 +++++++++++++++++++++++
 Banner text can be formatted using HTML.
 
-image::images/admin/opac-banner-customize-1.png[]
-
 .HTML Text Formatting
 [options="header"]
 |===
 | Goal      | Original   | Code                       | Result
 | Bold (HTML) | hello       | `$$<b>hello</b>$$`            | **hello**
 | Italic (HTML) | hello       | `$$<i>hello</i>$$`            | _hello_
-| Underline (HTML) | hello       | `$$<u>hello</u>$$`            | [underline]#hello#
+| Underline (HTML) | hello       | `$$<u>hello</u>$$`            | [.underline]#hello#
 | Link (HTML) | hello       | `$$<a href="https://bc.libraries.coop">hello</a>$$`            | https://bc.libraries.coop[hello]
 | Line Break (HTML) | hello hello | `$$hello<br>hello$$`            | hello
 +
