@@ -16,7 +16,7 @@ image::images/cat/holdings/holdings-template-1.png[]
 Creating Holdings Templates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. In the Holdings Templates click *Create Template*. 
+. In the Holdings Templates, click *Create Template*. 
 +
 image::images/cat/holdings/holdings-template-create-1.png[]
 +
@@ -31,25 +31,33 @@ image::images/cat/holdings/holdings-template-create-3.png[]
 +
 . The template is saved. Close the tab to return to the Holdings Editor.
 
+Editing Holdings Templates
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. In the Holdings Templates, select the template you would like to edit and click *Edit Selected*. 
++
+image::images/cat/holdings/holdings-template-edit-1.png[]
++
+. The Holdings Templates Editor will open in a new tab.
+. Make the desired changed and click Save Templare.
++
+image::images/cat/holdings/holdings-template-edit-2.png[]
++
+. The template is saved. Close the tab to return to the Holdings Editor.
+
+
 Deleting Holdings Templates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Go to *Administration -> Local Administration -> Holdings Template Editor*. 
-+
-OR
-+
-Open the Holdings Editor through any bibliographic record and go to the *Holdings* tab if you are using 
-the unified editor or the *Item Attributes* tab if you are not.
-+
-image::images/cat/holdings/holdings-template-1.png[]
-+
-. Select the template you would like to delete from the drop down menu.
-+
-. Click *Delete Template*.
+. In the Holdings Templates, select the template you would like to delete and click *Delete Selected*. 
 +
 image::images/cat/holdings/holdings-template-delete-1.png[]
 +
-. Your template has been deleted and will no longer appear in the list.
+. A pop-up will appear. Click *OK* to confirm the deletion.
++
+image::images/cat/holdings/holdings-template-delete-2.png[]
++
+. The template is deleted and no longer appears in the grid.
 
 Using Holdings Templates
 ^^^^^^^^^^^^^^^^^^^^^^^^
