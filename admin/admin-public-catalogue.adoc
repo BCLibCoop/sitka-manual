@@ -89,14 +89,12 @@ Banner text can be formatted using HTML.
 .HTML Text Formatting
 [options="header"]
 |===
-| Goal      | Original   | Code                       | Result
-| Bold (HTML) | hello       | `$$<b>hello</b>$$`            | **hello**
-| Italic (HTML) | hello       | `$$<i>hello</i>$$`            | _hello_
-| Underline (HTML) | hello       | `$$<u>hello</u>$$`            | [.underline]#hello#
-| Link (HTML) | hello       | `$$<a href="https://bc.libraries.coop">hello</a>$$`            | https://bc.libraries.coop[hello]
-| Line Break (HTML) | hello hello | `$$hello<br>hello$$`            | hello
-+
-hello
+| Format  | Code               
+| Bold  | `$$<b>hello</b>$$`       
+| Italic | `$$<i>hello</i>$$`      
+| Underline   | `$$<u>hello</u>$$`   
+| Link   | `$$<a href="https://bc.libraries.coop">hello</a>$$`   
+| Line Break  | `$$hello<br>hello$$`   
 |===
 
 OPAC Login Message
