@@ -66,10 +66,18 @@ xref:_shelving_location_editor[].
 | xref:_item_statistical_category_values[Statistical Categories] | Item statistical categories created by your library or 
 federation. | Use the dropdown list to choose which organization's entries to display. To edit existing statistical categories
  or create new ones see xref:_statistical_categories_item_editor[]. 
-| xref:_item_statuses[Status] | Current status of the item | By default a new item record is assigned a status of In Process. Some 
+| xref:_item_statuses[Item Status] | Current status of the item | By default a new item record is assigned a status of In Process. Some 
 status cannot be selected from the drop down menu as an action, such as checking out the item, is required to 
 set the item to that status.
 |===
+
+Applying an Item Attribute
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. To apply a value to an item attribute click on the attribute.
+. From the drop down menu choose your attribute value and then click Apply.
+. The attribute
+
 
 Item Alerts
 ^^^^^^^^^^^
