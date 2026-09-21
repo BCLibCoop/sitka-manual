@@ -10,14 +10,14 @@ This is how a prefix or suffix list appears when creating or editing a call numb
 
 image::images/admin/call-number-prefix-1.png[scaledwidth="75%",alt="Create Call Number Suffix"]
 
-[[_create_call_number_prefix_suffix]]
+
 Creating Call Number Prefixes or Suffixes
-+++++++++++++++++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Go to *Administration -> Server Administration -> Call Number Prefixes* or *Call Number Suffixes*.
 +
 . To view the prefixes or suffixes for your library, enter your library code into the Library Selector.
-* Multi-branch libraries can enter the system and then check the box to display the descendants.
+* Multi-branch libraries need to set the library to their system in the xref:_library_selector[library selector] and check the box to display descendants.
 . Click *New Call Number/Volume Prefix* or *New Call Number/Volume Suffix*. 
 +
 image::images/admin/call-number-prefix-2.png[scaledwidth="75%",alt="Create Call Number Suffix"]
@@ -28,9 +28,8 @@ image::images/admin/call-number-prefix-2.png[scaledwidth="75%",alt="Create Call 
 +
 image::images/admin/call-number-prefix-3.png[scaledwidth="75%",alt="Create Call Number Suffix"]
 
-[[_edit_call_number_prefix_suffix]]
 Editing Call Number Prefixes or Suffixes
-++++++++++++++++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . *Check* the check box of the prefix or suffix to be edited.
 . Click *Edit Selected*.
@@ -48,9 +47,8 @@ the prefix or suffix. While this may be desired, it can also cause a mismatch wi
 physical item labels.
 ======
 
-[[_delete_call_number_prefix_suffix]]
 Deleting Call Number Prefixes or Suffixes
-+++++++++++++++++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . *Check* the check box of the prefix or suffix to be deleted.
 . Click *Delete Selected*.
