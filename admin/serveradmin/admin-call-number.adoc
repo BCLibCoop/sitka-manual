@@ -3,7 +3,8 @@ Call Number Prefix and Suffix
 [[_prefix_and_suffix]]
 
 If your library uses prefixes or suffixes in call numbers, you can build a standard list which 
-will be displayed as drop down options when creating or editing call number records.
+will be displayed as drop down options when creating or editing call number records in the 
+xref:_the_holdings_editor[holdings editor].
 
 This is how a prefix or suffix list appears when creating or editing a call number.
 
@@ -22,7 +23,6 @@ Creating Call Number Prefixes or Suffixes
 image::images/admin/call-number-prefix-2.png[scaledwidth="75%",alt="Create Call Number Suffix"]
 +
 . *Enter* the value for the Label.
-** The Label Sort Key is generated based on the Label you assign, and the Label Sort Key changes if the Label changes.
 . Choose your library as the Owning Library.
 . Click *Save*.
 +
@@ -31,6 +31,7 @@ image::images/admin/call-number-prefix-3.png[scaledwidth="75%",alt="Create Call 
 [[_edit_call_number_prefix_suffix]]
 Editing Call Number Prefixes or Suffixes
 ++++++++++++++++++++++++++++++++++++++++
+
 . *Check* the check box of the prefix or suffix to be edited.
 . Click *Edit Selected*.
 +
@@ -42,12 +43,15 @@ image::images/admin/call-number-prefix-edit-2.png[scaledwidth="75%",alt="Create 
 
 [NOTE]
 ======
-Changing a call number prefix or suffix immediately updates all call numbers using the prefix or suffix. While this may be desired, it can also cause a mismatch with physical item labels.
+Changing a call number prefix or suffix immediately updates all call numbers using 
+the prefix or suffix. While this may be desired, it can also cause a mismatch with 
+physical item labels.
 ======
 
 [[_delete_call_number_prefix_suffix]]
 Deleting Call Number Prefixes or Suffixes
 +++++++++++++++++++++++++++++++++++++++++
+
 . *Check* the check box of the prefix or suffix to be deleted.
 . Click *Delete Selected*.
 +
