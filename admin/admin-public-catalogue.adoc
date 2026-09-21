@@ -66,7 +66,7 @@ image::images/admin/opac-banner-customize-1.png[]
 
 OPAC Alert Banner: Display
 ++++++++++++++++++++++++++
-Can be set to "true" to display the banner or "false" to hide the banner.
+Can be set to TRUE to display the banner or FALSE to hide the banner.
 
 OPAC Alert Banner: Type
 +++++++++++++++++++++++
