@@ -63,25 +63,32 @@ will be displayed as drop down options when creating or editing call number reco
 | xref:_carousels[Carousels] | Carousels are only available for use with LibPress websites
  | Local | Carousels Secondary Permissions
 | xref:_cash_reports[Cash Reports] | View summary report of cash transactions for selected date range | Local | All staff
-| xref:_circulation_modifiers[Circulation Modifiers] | | Server | Local System Administrators can view
+| xref:_circulation_modifiers[Circulation Modifiers] |Information on viewing circulation modifiers.
+ | Server | Local System Administrators can view
 | xref:_circulation_policies[Circulation Policies] | Information on viewing and updating 
 circulation policies.	| Local | Local System Administrators can view. Contact Co-op Support for 
 updates.
 | xref:_closed_dates_editor[Closed Dates Editor] | Set library ad hoc closure dates (affects due dates and fines)	| Local | Local System Administrator
-| xref:_floating_group[Floating Group] | | Server | Local System Administrators can view. Contact Co-op Support for updates.
+| xref:_floating_group[Floating Group] |Information on viewing and updating floating groups.
+ | Server | Local System Administrators can view. Contact Co-op Support for updates.
 | xref:_group_penalty_thresholds[Group Penalty Thresholds] | Set library-specific thresholds for 
 maximum items out, maximum overdues, and maximum fines | Local | Local System Administrator
 | xref:_hold_policies[Hold Policies] | Information on viewing and updating hold policies. | Local | Local System Administrators can view. Contact Co-op Support for updates.
 | xref:_creating_holdings_templates[Holdings Template Editor] | Interface to create holdings templates  | Local | Local System Administrator/Cataloguers
-| xref:_hard_due_date[Hard Due Date] | | Server | Local System Administrators and Co-op Support
+| xref:_hard_due_date[Hard Due Date] |Information on viewing and updating hard due dates.
+ | Server | Local System Administrators and Co-op Support
 | xref:_hold_driven_recall[Hold-driven Recall] | | Local | Local System Administrator
-| xref:_hopeless_holds[Hopeless Holds] | | Local | Local System Administrator
+| xref:_hopeless_holds[Hopeless Holds] |View summary of hopeless holds for selected date range
+ | Local | Local System Administrator
 | xref:_item_alert_suppression[Item Alert Suppression] | Suppress item alerts on selected actions | Local | Local System Administrator
-| xref:_item_statuses[Item Statuses] | | Server | Local System Administrators can view
+| xref:_item_statuses[Item Statuses] |View item statuses and their properties. | Server | Local 
+System Administrators can view
 | xref:_item_tags[Item Tags] | Not currently used by Sitka | Local | No permissions granted
 | xref:_library_settings_editor[Library Settings Editor] | Detailed library configuration settings | Local | Local System Administrator/Co-op Suppport
 | xref:_non_catalogued_type_editor[Non-catalogued Type Editor] | Create and edit optional non-catalogued item types | Local | Local System Administrator
-| xref:_notifications_action_triggers[Notifications / Action Triggers] | | Local | Local System Administrators can view. Contact Co-op Support for updates.
+| xref:_notifications_action_triggers[Notifications / Action Triggers] |Information on viewing and
+ updating notifications and action triggers. | Local | Local System Administrators can view. 
+ Contact Co-op Support for updates.
 | xref:_organizational_units[Organizational Units] | | Server | Local System Administrators
 | xref:_patrons_with_negative_balances[Patrons with Negative Balances] | Display a list of patron 
 accounts with negative bill balances, to whom the library may owe refunds | Local | All staff
