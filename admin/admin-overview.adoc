@@ -7,7 +7,7 @@ or the effect scope, e.g. individual workstations, libraries or the whole consor
 function  are visible to anyone logged into the staff client but most of them require 
 special permissions to edit.
 
-xref:admin-workstationadmin.adoc#_workstation_administration[*Workstation Administration*]: Here you may register your computer with extra libraries, 
+xref:_workstation_administration[*Workstation Administration*]: Here you may register your computer with extra libraries, 
 configure printer settings, print templates, 
 workstation settings and their storage location.
 
