@@ -21,18 +21,20 @@ xref:_server_administration[*Server Administration*]: Settings here are mainly a
 whole consortium. But individual libraries can configure a few items, such as, call number 
 prefix/suffix, library's operation hours and addresses under Organizational Units.
 
-*Acquisitions Administration*: Settings relating to the acquisitions module, including EDI accounts
+https://docs.libraries.coop/acquisitions/_administration.html[*Acquisitions Administration*]: 
+Settings relating to the acquisitions module, including EDI accounts
 , fund management, and maintaining providers.
 
-*Serials Administration*: Here you can manage and create prediction 
+xref:_serials_administration[*Serials Administration*]: Here you can manage and create prediction 
 pattern and serial item templates. 
 
-*Booking Administration*: Here you can manage and create
+xref:_booking_module_administration[*Booking Administration*]: Here you can manage and create
  resources for the booking module, as well  as their types and attributes.
 
-*Reports*: Create and clone report templates, view shared templates and report output.
+xref:_reporter_overview[*Reports*]: Create and clone report templates, view shared templates and 
+report output.
 
-*Simple Reports*: This feature is not used by Sitka.
+xref:_simple_reports[*Simple Reports*]: This feature is not used by Sitka.
 
 [NOTE]
 ======
