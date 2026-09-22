@@ -1,14 +1,13 @@
 Administration Overview
 ------------------------
 
-Administration functions are available on the *Administration* dropdown menu.  Functions on 
+Administration functions are available on the *Administration* drop down menu.  Functions on 
 this menu are grouped into either the target module that the configuration applies to 
 or the effect scope, e.g. individual workstations, libraries or the whole consortium.  These 
 function  are visible to anyone logged into the staff client but most of them require 
 special permissions to edit.
 
-
-*Workstation Administration*: Here you may register your computer with extra libraries, 
+xref:admin-workstationadmin.adoc#_workstation_administration[*Workstation Administration*]: Here you may register your computer with extra libraries, 
 configure printer settings, print templates, 
 workstation settings and their storage location.
 
@@ -21,13 +20,15 @@ to individual staff accounts.
 individual libraries can configure a few items, such as, call number prefix/suffix, 
 library's operation hours and addresses under Organizational Units.
 
-*Acquisitions Administration*: 
+*Acquisitions Administration*: Settings relating to the acquisitions module, including EDI accounts
+, fund management, and maintaining providers.
 
-*Serials Administration*:
+*Serials Administration*: Here you can manage and create prediction pattern and serial item templates. 
 
-*Booking Administration*:
+*Booking Administration*: Here you can manage and create resources for the booking module, as well
+ as their types and attributes.
 
-*Reports*:
+*Reports*: Create and clone report templates, view shared templates and report output.
 
 *Simple Reports*: This feature is not used by Sitka.
 
