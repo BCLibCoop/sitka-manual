@@ -3,13 +3,16 @@ Transferring Holdings
 
 Sometimes holdings need to be moved to a different bibliographic record or items need to be moved to a new existing call number.
 Transferring these holdings enables them to be moved without losing circulation data, as would happen if the holding was deleted
-and recreated.
+and recreated on the new record.
 
-[TIP]
+[NOTE]
 =====
 For multi-branch libraries, if you wish to permanently transfer holdings between branches this should be done by updating 
 the item attributes for _Circulating Library_ and _Owning Library_. See xref:_the_holdings_editor[] for
 more information.
+
+If you wish items to float between your branches, rather than permanently transferring them, please 
+https://bc.libraries.coop/support/[contact Co-op Support] for assistance in setting up floating.
 =====
 
 
@@ -18,7 +21,7 @@ Transferring Holdings
 ^^^^^^^^^^^^^^^^^^^^^
 
 Holdings may need to be transferred if the bibliographic record they are attached to doesn't match the item in hand or
-there is a better record in the catalogue that could be used instead.
+if there is a better record in the catalogue that could be used instead.
 
 
 [TIP]
@@ -133,7 +136,7 @@ the holdings editor. See xref:_holdings_details[].
 +
 image::images/cat/transfer-holding-4.png[]
 +
-. From the *Actions* menu select *Library/Call Number as Transfer Destination*.
+. From the *Actions* menu select *Mark Library/Call Number as Transfer Destination*.
 +
 image::images/cat/transfer-holding-5.png[]
 +
@@ -145,9 +148,10 @@ image::images/cat/transfer-holding-6.png[]
 +
 . The screen automatically refreshes and the selected item will display under its new call number 
 or no longer appear in the grid if it has been moved to a call number attached to another record.
-. If the item has been moved between records, check the original record to see if there are any title holds for your 
+. Any call number level holds will need to be cancelled and re-placed on the new call number. If the item has been moved between 
+records, check the original record to see if there are any title holds for your 
 library. If there are follow the instructions in xref:_transferring_title_holds[] to transfer them to the new record as well.
-Any call number level holds will need to be cancelled and re-placed on the call number.
+
 
 [NOTE]
 ======
