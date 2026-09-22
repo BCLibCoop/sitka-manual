@@ -14,6 +14,9 @@ an account can be used at.
 ======
 When a library staff account expires the staff member is not able to log into the 
 Evergreen staff client until their account has been renewed. 
+
+Local system administrators can renew all staff accounts except local system administrators. 
+https://bc.libraries.coop/support/[Contact Co-op Support] to have a local system administrator account renewed.
 ======
 
 There are two kinds of library staff accounts recommended by Co-op Support:
@@ -40,7 +43,7 @@ reporter in Evergreen to avoid the need to re-set up recurring reports.
 * Account is generally specific to a department or function, such as circulation or cataloguing, and is used
 by multiple staff members.
 * Account name is not tied to a specific person.  For example, Circulation FrontDesk is a commonly used name.
-* Account CANNOT be granted permissions to use the reporter or view report output.
+* Account CANNOT be granted permissions to use the reporter.
 
 
 *Staff/Personal Accounts - No Longer Recommended*
@@ -105,7 +108,7 @@ image::images/admin/staff-account-3.png[]
 
 [CAUTION]
 =========
-Staff accounts without a working location can not sign into the Evergreen staff client. 
+Staff accounts without a working location cannot sign into the Evergreen staff client. 
 =========
 
 Editing Library Staff Accounts
@@ -113,19 +116,37 @@ Editing Library Staff Accounts
 
 link:https://youtu.be/kQ9HD5SFcFU[*Sitka Training Video - Editing Library Staff Accounts (1:08)*]
 
-All library staff members can update their own username, password, and email addresses by logging 
-into *My Account* in the public catalogue.  They can use the *Forgot your Password* link on the *My Account* 
-login screen as well, as long as their staff account contains a valid email address. Updating your 
-staff account in the public catalogue is the same as updating it in the staff client.
 
-[NOTE]
-======
-Some libraries have disabled editing of email addresses through My Account.
-======
+Editing Staff Accounts via My Account
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Local System Administrators can edit staff accounts in the staff client, with the exception of any LSA staff 
-accounts.  For edits to Local System Administrator accounts, other than username, password, or 
-email address, contact Support. Please include the account barcode and the changes needed.
+All library staff can update their own username and password by logging 
+into xref:_my_account[_My Account_] in the public catalogue.  Library staff can also
+update their email address this way unless their libary has disabled the editing of email addresses
+through My Account.
+
+See xref:_resetting_staff_account_password[] for more ways a staff password can be reset.
+
+[CAUTION]
+=========
+Updating your staff account in the public catalogue is the same as updating it in the staff client.
+
+If you change your username and/or password in _My Account_ that is the username and/or password
+you must now use to log into the staff client.
+=========
+
+
+Editing Staff Accounts via the Staff Client
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Local system administrators can edit all staff accounts in the staff client the same as you 
+would edit a patron, with the exception of local system administrator accounts. 
+
+See xref:_resetting_staff_account_password[] for ways a staff password can be reset.
+
+Local system administrator accounts can only be edited in the staff client by Co-op Support. If a local 
+system administrator account needs edits beyond what can be done via My Account please
+https://bc.libraries.coop/support/[contact Co-op Support] and include the account barcode and the changes needed.
 
 
 Resetting Staff Account Password
