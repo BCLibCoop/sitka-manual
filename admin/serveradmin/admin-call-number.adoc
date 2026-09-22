@@ -16,8 +16,7 @@ Creating Call Number Prefixes or Suffixes
 
 . Go to *Administration -> Server Administration -> Call Number Prefixes* or *Call Number Suffixes*.
 +
-. Enter your library code into the library selector, and the prefixes or suffixes are displayed for your workstation's library.
-* Multi-branch libraries need to set the library to their system in the xref:_library_selector[library selector] and check the box to display descendants.
+. Call number prefixes and suffixes are displayed for your workstation's library. Multi-branch libraries need to set the library to their system in the xref:_library_selector[library selector] and check the box to display descendants.
 . Click *New Call Number/Volume Prefix* or *New Call Number/Volume Suffix*. 
 +
 image::images/admin/call-number-prefix-2.png[scaledwidth="75%",alt="Create Call Number Suffix"]
