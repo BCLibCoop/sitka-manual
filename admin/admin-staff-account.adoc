@@ -158,24 +158,24 @@ https://youtu.be/YoB-JG6Y9Sk[*Sitka Training Video - Managing Passwords(4:02)*]
 Staff passwords can be reset:
 
 * through My Account in your public catalogue.
-** Log into *My Account* and using the the _Change_ link found on the *Personal Information* tab of 
+** Log into _My Account_ and using the the *Change* button found on the *Personal Information* tab of 
 *Account Preferences*.
 +
 https://youtu.be/LprDPIhqN1I[*Sitka Snippet Video - Changing an Existing Password (1:20)*]
 +
 * through the password reset link in your public catalogue.
-** Use the *Forgot Your Password?* link in the *My Account* login screen on your public catalogue. You must have an email 
+** Use the *Forgot Your Password?* link in the _My Account_ login screen on your public catalogue. You must have an email 
 address recorded in your staff account for this to method to work.
 +
 https://youtu.be/iJo5ajf-XAA[*Sitka Snippet Video - Resetting a Forgotten Password (2:54)*]
 +
 * through your account in the staff client by your local system administrator.
-** Local system administrators can use the *Send Password Reset Link* button on the *Edit* tab in the patron account in the staff client OR assign a new password to 
+** Local system administrators can use the *Send Password Reset Link* button on the _Edit_ tab in the patron account in the staff client OR assign a new password to 
 staff that are not also local system administrators.
 
 * through a request to https://bc.libraries.coop/support/[Co-op Support].
 ** If you are unable to reset your password using one of the other methods, send in a request to 
-Support to have a temporary password assigned and then use the _Change_ link in *My Account*.
+Support to have a temporary password assigned and then use the *Change* button in _My Account_.
 
 [NOTE]
 ======
@@ -183,8 +183,8 @@ Resetting a password by email is disabled for libraries using single sign-on.  I
 single sign-on you will not be able to use the *Forgot Your Password?* link in your public catalogue or the *Send Password Reset Link* button
 in the staff client.
 
-Please contact 
-https://bc.libraries.coop/support/[Co-op Support] for the password reset URL for your library.
+Please 
+https://bc.libraries.coop/support/[contact Co-op Support] for the password reset URL for your library.
 ======
 
 
