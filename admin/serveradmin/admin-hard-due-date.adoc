@@ -14,8 +14,7 @@ Viewing Your Hard Due Dates
 Local system administrators can view existing hard due dates for your library.
 
 . Go to *Administration -> Server Administration -> Hard Due Date Changes*.
-. The library selector will be scoped to your workstation’s location. Existing hard due dates will display for the current working location with the current ceiling date visible. 
-** Multi-branch libraries will need to select their system in order to see their policies, and should use the library selector to display hard due dates for their system and descendants.
+. Hard due dates are displayed for your workstation's library. Multi-branch libraries need to set the library to their system in the xref:_library_selector[library selector] and check the box to display descendants.
 +
 image::images/admin/hard-due-date-1.png[scaledwidth="75%"]
 +
