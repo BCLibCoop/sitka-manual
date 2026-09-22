@@ -6,47 +6,62 @@ from one call number to another under the same or another title record. There ar
 Evergreen to allow you to do so. The critical step is to ensure that you first mark the destination
 record, then move the source record with the corresponding transfer function.
 
-Co-op Support recommends you read through the process first before starting, as each scenario has
-different characteristics.
+[TIP]
+=====
+For multi-branch libraries, if you wish to transfer holdings between branches this should be done by updating 
+the item attributes for _Circulating Library_ and _Owning Library_. See xref:_the_holdings_editor[] for
+more information.
+=====
+
 
 [[_transfer_holding]]
-Transferring Holdings to Another Title Record
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Transferring Holdings
+^^^^^^^^^^^^^^^^^^^^^
 
 When you want to transfer all items under one call number to another title record under the same title,
 you use the *Transfer Holdings* function. Evergreen will transfer both
 the call number record and all items under it to the new title.
 
-. Find the destination or target record. On *Mark for* dropdown list, select *Holding Transfer*.
+. Find the record you would like to move your holdings to. 
+. From the *Mark for* drop down menu, select *Holding Transfer*.
 +
 image::images/cat/transfer-holding-1.png[]
 +
-. Confirmation appears at bottom right of the screen.
+. A confirmation message reading _Holding Transfer Target Set_ will appear at bottom right of the screen.
++
+[NOTE]
+======
+Once you set a transfer target it will be kept until a new target is marked or the record marks are reset
+by going to *Mark for* -> *Reset Record Marks*.
+
+image::images/cat/transfer-reset-record-marks-1.png[]
+======
++
+. Retrieve the record that the holdings you would like to transfer are currently attached to.
+. Click the _Holdings View_ tab and select the call number you want to transfer. 
 +
 image::images/cat/transfer-holding-2.png[]
 +
-NOTE: Transfer target is kept until it is reset (via *Reset Record Marks* on *Mark for* list) or a new target is marked.
-+
-. Go to *Holdings View* of the source title.
-. Select the call number you want to transfer. Click *Actions* list.
-+
-image::images/cat/transfer-holding-4.png[]
-+
-. Scroll down to *Transfer*. Choose *Transfer Holdings to Marked Destination*.
+. From the *Actions* menu select *Transfer Holdings to Marked Destination*.
 +
 image::images/cat/transfer-holding-3.png[]
 +
-. The confirmation pop-up appears on bottom right of the screen.
-+
-image::images/cat/transfer-holding-4a.png[]
-+
-[NOTE]
+. The screen automatically refreshes and the selected holdings no longer appear in the grid.
+. Manually refresh the record you transferred the holdings to and confirm they now display there as expected.
+
+
+[TIP]
 ========
-Your call number's owning library and items' circulation library will not be changed during the transfer. If you already have call numbers under the destination record and the call numbers are the same, the call numbers will be merged.
+If the call number for the holdings being transferred matches exactly to an existing call number for your library
+on the record it is being transferred to Evergreen will merge the call numbers together and you will see all
+items under the one call number.
 ========
 
-Transferring Holdings to Another Library
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+////
+[[_transfer_holdings_another_branch]]
+Transferring Holdings to Another Branch
+++++++++++++++++++++++++++++++++++++++++
+
 
 When you want to transfer all items under one call number to another
 library under the same title, you use the *Transfer Holdings* function. Evergreen will transfer both
@@ -89,10 +104,11 @@ image::images/cat/transfer-holding-3.png[]
 =======
 If the destination library has a call number with the same call number, the call numbers will be merged during the transfer.
 =======
+////
 
 [[_transfer_item]]
-Transferring Items to Another Call Number/Library
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Transferring Items
+^^^^^^^^^^^^^^^^^^
 
 You may want to transfer some of the items under one call number to another call number or transfer all
 items under one call number to another with a different call number. You use the  *Transfer Items* function.
