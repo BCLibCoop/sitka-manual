@@ -52,7 +52,7 @@ contact Co-op support | Local | Local System Administrator
 | xref:_circulation_modifiers[Circulation Modifiers] | | Server | Local System Administrators can view
 | xref:_circulation_policies[Circulation Policies] | Information on viewing and updating circulation policies.	| Local | Local System Administrators can view. Contact Co-op Support for updates.
 | xref:_closed_dates_editor[Closed Dates Editor] | Set library ad hoc closure dates (affects due dates and fines)	| Local | Local System Administrator
-| xref:_floating_group [Floating Group] | | Server | Local System Administrators can view. Contact Co-op Support for updates.
+| xref:_floating_group[Floating Group] | | Server | Local System Administrators can view. Contact Co-op Support for updates.
 | xref:_group_penalty_thresholds[Group Penalty Thresholds] | Set library-specific thresholds for maximum items out, maximum overdues, and maximum fines | Local | Local System Administrator
 | xref:_hold_policies[Hold Policies] | Information on viewing and updating hold policies. | Local | Local System Administrators can view. Contact Co-op Support for updates.
 | xref:_creating_holdings_templates[Holdings Template Editor] | Interface to create holdings templates  | Local | Local System Administrator/Cataloguers
