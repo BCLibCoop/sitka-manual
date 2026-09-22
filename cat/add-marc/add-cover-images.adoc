@@ -3,40 +3,19 @@ Uploading Cover Images
 (((Cover Images)))
 (((Cover Art)))
 
-////
-As of version 3.9 Evergreen has an option in the Record Summary to upload cover images.  
-
-Due to capacity limitations this feature is not available to Sitka libraries.
-
-Libraries can host their own images and link to them as a related resource.  See xref:_related_resources[]
-for information on how to code the 856 field for related resources.
-
-[NOTE]
-======
-Cover images for bibliographic items in Sitka's Evergreen are supplied by Content Cafe and depend 
-on the records having the relevant ISBN (020 field), ISSN (022 field), or UPC (024 field).
-
-Libraries can contact Content Cafe directly to report missing cover images for bibliographic records.  
-Please contact https://bc.libraries.coop/support/[Co-op Support] if you need Content Cafe's email.
-======
-////
-
 Library staff with appropriate permissions can upload a cover image for a specific bibliographic 
 record.  This should only be used for adding images to non-bibliographic records, such as for Library of Things 
 collections, or for adding images to records for highly specialized bibliographic items.  
 
 [NOTE]
 ======
-Cover images for bibliographic items in Sitka's Evergreen are supplied by Content Cafe and depend 
+Cover images for bibliographic items in Sitka's Evergreen are supplied by Syndetics and depend 
 on the records having the relevant ISBN (020 field), ISSN (022 field), or UPC (024 field).
 
-Missing images for bibliographic records should be
-reported to Content Cafe. Libraries can contact Content Cafe directly to report missing cover images for bibliographic records.  
-Please contact https://bc.libraries.coop/support/[Co-op Support] if you need Content Cafe's email.
+Missing images for bibliographic records should be reported to Syndetics.  If the relevant identifier tags (ISBN, ISSN, or UPC) are in the MARC record and the cover art is still not displaying you can email Syndetics. Contact https://bc.libraries.coop/support/[Co-op Support] for the address. Please include the ISBN, ISSN, UPC, or EAN and the title in your email to Syndetics.
 ======
 
-For access to the Cover Image Uploader please contact https://bc.libraries.coop/support/[Co-op Support]
- and include the barcodes for the staff accounts that need access. 
+Local System Administrators can grant library staff permissions for the Cover Image Uploader. See xref:_granting_additional_permissions_to_staff_accounts[Granting Additional Permissions to Staff Accounts].
 
 Acceptable file types are jpg, png, xpm, xbm, gif, and bmp. All uploaded images are converted 
 to PNG at the time of upload and scaled to small, medium, and large for various uses within the 
