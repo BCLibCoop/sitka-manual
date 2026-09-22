@@ -26,9 +26,13 @@ if there is a better record in the catalogue that could be used instead.
 
 [TIP]
 =====
-In cases where there is a better record cataloguers should assess whether holdings should be transferred or whether the
-two records should be merged together to reduce duplication in the catalogue and so that all libraries with holdings
-attached get the benefit of the better record. See xref:_merging_bibliographic_records[].
+In cases where there's a better record, cataloguers with sufficient cataloguing knowledge should assess whether 
+the two records should be merged together instead of transferring the holding. Merging reduces duplication in 
+the catalogue and all libraries with holdings attached get the benefit of the better record. 
+
+See xref:_merging_bibliographic_records[] and 
+https://docs.libraries.coop/policy/_cataloguing_policy.html[Sitka's Cataloguing Policy] to determine if merging 
+is appropriate.
 =====
  
 . Find the record you would like to move your holdings to. 
@@ -67,55 +71,6 @@ to be cancelled and re-placed on the new record.
 Evergreen will merge call numbers together if the transferred call number matches a call number for your library on the
 new record.
 ========
-
-////
-[[_transfer_holdings_another_branch]]
-Transferring Holdings to Another Branch
-++++++++++++++++++++++++++++++++++++++++
-
-
-When you want to transfer all items under one call number to another
-library under the same title, you use the *Transfer Holdings* function. Evergreen will transfer both
-the call number record and all items under it to the new library.
-
-. Find the destination or target record. On *Mark for* dropdown list, select *Holding Transfer*.
-+
-image::images/cat/transfer-holding-1.png[]
-+
-. Confirmation appears at bottom right of the screen.
-+
-image::images/cat/transfer-holding-2.png[]
-+
-NOTE: Transfer target is kept until it is reset (via *Reset Record Marks* on *Mark for* list) or a new target is marked.
-+
-. Go to *Holdings View* of the source title, and select the destination library.
-.. You may need to select *Show Empty Libs* to see your destination.
-+
-image::images/cat/transfer-holding-5.png[]
-+
-Click *Actions* dropdown list. Scroll down to *Mark*. Select *Mark Library/Call Number as Transfer Destination*.
-+
-image::images/cat/transfer-holding-6.png[]
-+
-. Confirmation appears at the bottom right corner of the screen.
-+
-. Find the source title. Select the source volume on *Holdings View*.
-+
-image::images/cat/transfer-holding-7.png[]
-+
-. Click *Actions* dropdown list. Scroll down to *Transfer*. Select
-*Transfer Holdings to Marked Destination*.
-+
-image::images/cat/transfer-holding-3.png[]
-+
-. Confirmation appears at bottom right of the screen.
-
-
-[TIP]
-=======
-If the destination library has a call number with the same call number, the call numbers will be merged during the transfer.
-=======
-////
 
 [[_transfer_item]]
 Transferring Items
