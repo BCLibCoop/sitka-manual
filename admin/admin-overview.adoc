@@ -77,7 +77,6 @@ maximum items out, maximum overdues, and maximum fines | Local | Local System Ad
 | xref:_creating_holdings_templates[Holdings Template Editor] | Interface to create holdings templates  | Local | Local System Administrator/Cataloguers
 | xref:_hard_due_date[Hard Due Date] |Information on viewing and updating hard due dates.
  | Server | Local System Administrators and Co-op Support
-| xref:_hold_driven_recall[Hold-driven Recall] | | Local | Local System Administrator
 | xref:_hopeless_holds[Hopeless Holds] |View summary of hopeless holds for selected date range
  | Local | Local System Administrator
 | xref:_item_alert_suppression[Item Alert Suppression] | Suppress item alerts on selected actions | Local | Local System Administrator
