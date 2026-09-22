@@ -34,6 +34,9 @@ circulation records.
 * *Sip Field* and *SIP Format* are not currently used by Sitka.
 +
 image::images/admin/stat-cat-item-2.png[]
++
+. Click *Save*.
+. The statistical category now displays in the grid. Entries can now be added as per xref:_adding_patron_statistical_category_entries[]. 
 
 [[_editing_item_statistical_categories]]
 Editing Statistical Categories
@@ -48,7 +51,7 @@ https://youtu.be/WqABms3yMEA[*Sitka Snippet Video - Editing Item Statistical Cat
 image::images/admin/stat-cat-item-6.png[]
 +
 . Make your changes and click *Save*.
-. Your changes will be reflected in the grid.
+. Your changes will be reflected in the grid and in the statistical category field in the holdings editor.
 
 
 [[_deleting_item_statistical_categories]]
@@ -76,7 +79,8 @@ image::images/admin/stat-cat-item-7.png[]
 +
 image::images/admin/stat-cat-item-8.png[]
 +
-. Your statistical category is deleted and no longer displays in the grid.
+. Your statistical category is deleted and no longer displays in the grid. The statistical category and
+all associated values are also removed from all item records. 
 
 [[_adding_item_statistical_category_entries]]
 Adding Statistical Category Entries
@@ -103,10 +107,6 @@ image::images/admin/stat-cat-item-5.png[]
 . Repeat as needed to add additional values.
 . Clicking *Return* in the top right of the screen will take you back to the previous screen.
 
-[NOTE]
-======
-Previously, statistical category entries could not be edited or deleted in the staff client, and Co-op Support needed to assist. Library staff can now edit and delete statistical category entries themselves.
-======
 
 [[_editing_item_statistical_category_entries]]
 Editing Statistical Category Entries
@@ -126,8 +126,9 @@ image::images/admin/stat-cat-item-edit-1.png[]
 +
 image::images/admin/stat-cat-item-edit-2.png[]
 +
+. The entry is updated in the grid as well as on any items using the value.
 . Repeat as needed to edit other entries.
-. Clicking *Return* in the top right of the screen will take you back to the previous Statistical Categories - Item Editor screen.
+. Clicking *Return* in the top right of the screen will take you back to the previous screen.
 
 [[_deleting_item_statistical_category_entries]]
 Deleting Statistical Category Entries
@@ -155,8 +156,9 @@ image::images/admin/stat-cat-item-delete-1.png[]
 +
 image::images/admin/stat-cat-item-delete-2.png[]
 +
+. The entry no longer displays in the grid and is deleted from any patron accounts that were using the value.
 . Repeat as needed to delete other entries.
-. Clicking *Return* in the top right of the screen will take you back to the previous Statistical Categories - Item Editor screen.
+. Clicking *Return* in the top right of the screen will take you back to the previous screen.
 
 
 Statistical Categories - Patron Editor
