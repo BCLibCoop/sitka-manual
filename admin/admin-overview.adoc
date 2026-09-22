@@ -7,17 +7,17 @@ or the effect scope, e.g. individual workstations, libraries or the whole consor
 function  are visible to anyone logged into the staff client but most of them require 
 special permissions to edit.
 
-*Workstation Administration*: Here you may register your computer with extra libraries, 
-configure printer settings, print templates, 
+xref:_workstation_administration[*Workstation Administration*]: Here you may register your 
+computer with extra libraries, configure printer settings, print templates, 
 workstation settings and their storage location.
 
-*User Permission Editor*: Local system administrators may add extra permissions 
-to individual staff accounts. 
+xref:_individual_permissions[*User Permission Editor*]: Local system administrators may add 
+extra permissions to individual staff accounts. 
 
-*Local Administration*: Most settings applied to individual libraries
+xref:_local_administration[*Local Administration*]: Most settings applied to individual libraries
  are configured here.
 
-*Server Administration*: Settings here are mainly applied to the 
+xref:_server_administration[*Server Administration*]: Settings here are mainly applied to the 
 whole consortium. But individual libraries can configure a few items, such as, call number 
 prefix/suffix, library's operation hours and addresses under Organizational Units.
 
@@ -53,7 +53,8 @@ items by selected patron profiles at selected libraries to be marked lost. It
 does not support date parameter. This feature is mainly for school libraries' end of term 
 process. To automatically mark items lost when they are overdue for x days, 
 contact Co-op support | Local | Local System Administrator
-| Auto-Print Settings | To block automatic receipt printing in selected staff client transactions | Local | Local System Administrator
+| Auto-Print Settings | To block automatic receipt printing in selected staff client transactions
+ | Local | Local System Administrator
 | xref:_call_number_prefix_and_suffix[Call Number Prefix and Suffix] |Build a standard list which 
 will be displayed as drop down options when creating or editing call number records | Server |
  Local System Administrators 
