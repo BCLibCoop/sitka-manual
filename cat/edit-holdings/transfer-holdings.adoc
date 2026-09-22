@@ -119,19 +119,19 @@ items under one call number to another with a different call number. You use the
 
 . Click *Actions* dropdown. Go to *Mark* to select *Library/Call Number as Transfer Destination*.
 +
-image::images/cat/transfer-holding-6.png[]
+image::images/cat/transfer-holding-4.png[]
 +
 . Go to the source record, if different from the destination.
 . On *Holdings View*, select the items you wish to transfer.
 . Click *Actions* dropdown list. Go to *Transfer* to select *Transfer Items to Marked Destination*.
 +
-image::images/cat/transfer-holding-10.png[]
+image::images/cat/transfer-holding-5.png[]
 +
 . The source item disappears, if destination is under another record.
 . The confirmation pops up at the bottom
 right of the screen.
 +
-image::images/cat/transfer-holding-11.png[]
+image::images/cat/transfer-holding-6.png[]
 
 [NOTE]
 ======
