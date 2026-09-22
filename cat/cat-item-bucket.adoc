@@ -207,6 +207,15 @@ Deleting Items
 See xref:_deleting_items_via_item_buckets[].
 
 
+////
+SECTION ON TRANSFERRING ITEMS TO BE ADDED
+
+After the destination or target record has been marked as the target, navigate to the item bucket with items to be 
+transferred. Then, select the items in the bucket that should be transferred, and from the *Actions* menu select 
+*Transfer Selected Items to Marked Call Number*.
+////
+
+
 
 Retrieving Shared Buckets
 ~~~~~~~~~~~~~~~~~~~~~~~~

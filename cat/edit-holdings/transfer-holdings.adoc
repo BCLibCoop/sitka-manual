@@ -1,14 +1,13 @@
 Transferring Holdings
 ~~~~~~~~~~~~~~~~~~~~~
 
-There are times when you need to move item records from one title record to another, or move items
-from one call number to another under the same or another title record. There are functions in
-Evergreen to allow you to do so. The critical step is to ensure that you first mark the destination
-record, then move the source record with the corresponding transfer function.
+Sometimes holdings need to be moved to a different bibliographic record or items need to be moved to a new existing call number.
+Transferring these holdings enables them to be moved without losing circulation data, as would happen if the holding was deleted
+and recreated.
 
 [TIP]
 =====
-For multi-branch libraries, if you wish to transfer holdings between branches this should be done by updating 
+For multi-branch libraries, if you wish to permanently transfer holdings between branches this should be done by updating 
 the item attributes for _Circulating Library_ and _Owning Library_. See xref:_the_holdings_editor[] for
 more information.
 =====
@@ -18,10 +17,17 @@ more information.
 Transferring Holdings
 ^^^^^^^^^^^^^^^^^^^^^
 
-When you want to transfer all items under one call number to another title record under the same title,
-you use the *Transfer Holdings* function. Evergreen will transfer both
-the call number record and all items under it to the new title.
+Holdings may need to be transferred if the bibliographic record they are attached to doesn't match the item in hand or
+there is a better record in the catalogue that could be used instead.
 
+
+[TIP]
+=====
+In cases where there is a better record cataloguers should assess whether holdings should be transferred or whether the
+two records should be merged together to reduce duplication in the catalogue and so that all libraries with holdings
+attached get the benefit of the better record. See xref:_merging_bibliographic_records[].
+=====
+ 
 . Find the record you would like to move your holdings to. 
 . From the *Mark for* drop down menu, select *Holding Transfer*.
 +
@@ -48,13 +54,15 @@ image::images/cat/transfer-holding-3.png[]
 +
 . The screen automatically refreshes and the selected holdings no longer appear in the grid.
 . Manually refresh the record you transferred the holdings to and confirm they now display there as expected.
+. Check the original record to see if there are any title holds for your library. If there are follow the instructions 
+in xref:_transferring_title_holds[] to transfer them to the new record as well. Any item or call number level holds will need
+to be cancelled and re-placed on the new record.
 
 
 [TIP]
 ========
-If the call number for the holdings being transferred matches exactly to an existing call number for your library
-on the record it is being transferred to Evergreen will merge the call numbers together and you will see all
-items under the one call number.
+Evergreen will merge call numbers together if the transferred call number matches a call number for your library on the
+new record.
 ========
 
 ////
@@ -110,32 +118,39 @@ If the destination library has a call number with the same call number, the call
 Transferring Items
 ^^^^^^^^^^^^^^^^^^
 
-You may want to transfer some of the items under one call number to another call number or transfer all
-items under one call number to another with a different call number. You use the  *Transfer Items* function.
+You may wish to transfer specific items under one call number to another call number or transfer all
+items under one call number to a different call number; this can be done within a single record or between
+records. 
 
-. Find the destination title record.
+[TIP]
+=====
+Call number changes within a record can also be done by updating the call number in 
+the holdings editor. See xref:_holdings_details[].
+=====
 
-. On *Holdings View*, select the destination call number/library.
-
-. Click *Actions* dropdown. Go to *Mark* to select *Library/Call Number as Transfer Destination*.
+. Retrieve the record that the call number you would like to transfer to is currently attached to.
+. Click the _Holdings View_ tab and select the call number you want to transfer to. 
 +
 image::images/cat/transfer-holding-4.png[]
 +
-. Go to the source record, if different from the destination.
-. On *Holdings View*, select the items you wish to transfer.
-. Click *Actions* dropdown list. Go to *Transfer* to select *Transfer Items to Marked Destination*.
+. From the *Actions* menu select *Library/Call Number as Transfer Destination*.
 +
 image::images/cat/transfer-holding-5.png[]
 +
-. The source item disappears, if destination is under another record.
-. The confirmation pops up at the bottom
-right of the screen.
+. If the item you wish to transfer is attached to a different record, retrieve that record.
+. Click the _Holdings View_ tab and select the item you want to transfer. 
+. From the *Actions* menu select *Transfer Items to Marked Destination*.
 +
 image::images/cat/transfer-holding-6.png[]
++
+. The screen automatically refreshes and the selected item will display under its new call number 
+or no longer appear in the grid if it has been moved to a call number attached to another record.
+. If the item has been moved between records, check the original record to see if there are any title holds for your 
+library. If there are follow the instructions in xref:_transferring_title_holds[] to transfer them to the new record as well.
+Any call number level holds will need to be cancelled and re-placed on the call number.
 
 [NOTE]
 ======
-You can xref:_working_with_items_in_a_bucket[use an item bucket] to transfer a number of items at once.
-
-After the destination or target record has been marked as the target, navigate to the item bucket with items to be transferred. Then, select the items in the bucket that should be transferred, and from the *Actions* menu select *Transfer Selected Items to Marked Call Number*.
+You can also use an item bucket to transfer a number of items at once. See xref:_working_with_items_in_a_bucket[].
 ======
+
