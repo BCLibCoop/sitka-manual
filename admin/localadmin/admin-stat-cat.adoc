@@ -20,6 +20,9 @@ Creating Statistical Categories
 https://youtu.be/M1-_Cp4lN4I[*Sitka Snippet Video - Creating Item Statistical Categories (1:39)*]
 
 . Go to *Administration -> Local Administration-> Statistical Categories Editor - Item*.
+. Statistical categories are displayed for your workstation's library. Multi-branch libraries 
+need to set the library to their system in the xref:_library_selector[library selector] and check the box to display 
+descendants.
 . Click *New Statistical Category - Item*.
 +
 image::images/admin/stat-cat-item-1.png[]
@@ -45,6 +48,9 @@ Editing Statistical Categories
 https://youtu.be/WqABms3yMEA[*Sitka Snippet Video - Editing Item Statistical Categories (0:59)*]
 
 . Go to *Administration -> Local Administration-> Statistical Categories Editor - Item*.
+. Statistical categories are displayed for your workstation's library. Multi-branch libraries 
+need to set the library to their system in the xref:_library_selector[library selector] and check the box to display 
+descendants.
 . Select the statistical category you would like to edit.
 . From the *Actions* menu choose *Edit Selected*.
 +
@@ -69,6 +75,9 @@ Deleting a statistical category also removes the associated values from any item
 =========
 
 . Go to *Administration -> Local Administration-> Statistical Categories Editor - Item*.
+. Statistical categories are displayed for your workstation's library. Multi-branch libraries 
+need to set the library to their system in the xref:_library_selector[library selector] and check the box to display 
+descendants.
 . Select the statistical category you would like to delete.
 . From the *Actions* menu choose *Delete Selected*.
 +
@@ -92,6 +101,9 @@ Each statistical category can have multiple values that library staff can choose
 adding or editing an item.
 
 . Go to *Administration -> Local Administration-> Statistical Categories Editor - Item*.
+. Statistical categories are displayed for your workstation's library. Multi-branch libraries 
+need to set the library to their system in the xref:_library_selector[library selector] and check the box to display 
+descendants.
 . Click *Entries* for the stat cat you would like to add values to.  
 +
 image::images/admin/stat-cat-item-3.png[]
@@ -113,6 +125,9 @@ Editing Statistical Category Entries
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Go to *Administration -> Local Administration-> Statistical Categories Editor - Item*.
+. Statistical categories are displayed for your workstation's library. Multi-branch libraries 
+need to set the library to their system in the xref:_library_selector[library selector] and check the box to display 
+descendants.
 . Click *Entries* for the stat cat you would like to edit the values of.  
 +
 image::images/admin/stat-cat-item-3.png[]
@@ -143,6 +158,9 @@ Deleting a statistical category entry also removes the associated values from an
 =========
 
 . Go to *Administration -> Local Administration-> Statistical Categories Editor - Item*.
+. Statistical categories are displayed for your workstation's library. Multi-branch libraries 
+need to set the library to their system in the xref:_library_selector[library selector] and check the box to display 
+descendants.
 . Click *Entries* for the stat cat you would like to delete the values of.
 +
 image::images/admin/stat-cat-item-3.png[]
@@ -182,6 +200,9 @@ Creating Statistical Categories
 https://youtu.be/-W87k_ZQov0[*Sitka Snippet Video - Creating Patron Statistical Categories (2:05)*]
 
 . Go to *Administration -> Local Administration-> Statistical Categories Editor - Patron*.
+. Statistical categories are displayed for your workstation's library. Multi-branch libraries 
+need to set the library to their system in the xref:_library_selector[library selector] and check the box to display 
+descendants.
 . Click *New Statistical Category Editor- Patron* to open the editor.
 +
 image::images/admin/stat-cat-patron-1.png[]
@@ -210,6 +231,9 @@ Editing Statistical Categories
 https://youtu.be/XwC2pv5aPEM[*Sitka Snippet Video - Editing Patron Statistical Categories (0:57)*]
 
 . Go to *Administration -> Local Administration-> Statistical Categories Editor - Patron*.
+. Statistical categories are displayed for your workstation's library. Multi-branch libraries 
+need to set the library to their system in the xref:_library_selector[library selector] and check the box to display 
+descendants.
 . Select the statistical category you would like to edit.
 . From the *Actions* menu choose *Edit Selected*.
 +
@@ -234,6 +258,9 @@ Deleting a statistical category also removes the associated values from any patr
 =========
 
 . Go to *Administration -> Local Administration-> Statistical Categories Editor - Patron*.
+. Statistical categories are displayed for your workstation's library. Multi-branch libraries 
+need to set the library to their system in the xref:_library_selector[library selector] and check the box to display 
+descendants.
 . Select the statistical category you would like to delete.
 . From the *Actions* menu choose *Delete Selected*.
 +
@@ -257,6 +284,9 @@ Each statistical category can have multiple values that library staff can choose
 registering or editing a patron.
 
 . Go to *Administration -> Local Administration-> Statistical Categories Editor - Patron*.
+. Statistical categories are displayed for your workstation's library. Multi-branch libraries 
+need to set the library to their system in the xref:_library_selector[library selector] and check the box to display 
+descendants.
 . Click *Entries* for the stat cat you would like to add values to.  
 +
 image::images/admin/stat-cat-patron-3.png[]
@@ -278,6 +308,9 @@ Editing Statistical Category Entries
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 . Go to *Administration -> Local Administration-> Statistical Categories Editor - Patron*.
+. Statistical categories are displayed for your workstation's library. Multi-branch libraries 
+need to set the library to their system in the xref:_library_selector[library selector] and check the box to display 
+descendants.
 . Click *Entries* for the stat cat you would like to edit the values of.  
 +
 image::images/admin/stat-cat-patron-3.png[]
@@ -308,6 +341,9 @@ Deleting a statistical category entry also removes the entry from any patrons us
 =========
 
 . Go to *Administration -> Local Administration-> Statistical Categories Editor - Patron*.
+. Statistical categories are displayed for your workstation's library. Multi-branch libraries 
+need to set the library to their system in the xref:_library_selector[library selector] and check the box to display 
+descendants.
 . Click *Entries* for the stat cat you would like to delete the values of.
 +
 image::images/admin/stat-cat-patron-3.png[]
