@@ -1,13 +1,11 @@
 Library Staff Accounts
 ----------------------
-[[library-staff-accounts]]
-[[local-system-administrators]]
 
 In Evergreen library staff accounts are the same as patron accounts with two differences.
 
-. Staff accounts use Main (Profile) Permissions Groups with permissions that give access to 
+. Library staff accounts use Main (Profile) Permissions Groups with permissions that give access to 
 Evergreen’s staff functions.
-. Staff accounts have working locations which tell Evergreen which libraries or branches 
+. Library staff accounts have working locations which tell Evergreen which libraries or branches 
 an account can be used at.
 
 [NOTE]
@@ -15,13 +13,13 @@ an account can be used at.
 When a library staff account expires the staff member is not able to log into the 
 Evergreen staff client until their account has been renewed. 
 
-Local system administrators can renew all staff accounts except local system administrators. 
+Local system administrators can renew all library staff accounts except local system administrators. 
 https://bc.libraries.coop/support/[Contact Co-op Support] to have a local system administrator account renewed.
 ======
 
 There are two kinds of library staff accounts recommended by Co-op Support:
 
-*Staff Specific Accounts*
+*Library Staff Specific Accounts*
 
 * Account is specific to a particular staff member and includes their personal details like first 
 and last name.
@@ -34,11 +32,11 @@ that run from the reporter.  The new user MUST complete a
  
 [NOTE]
 ======
-Libraries are encouraged to use Staff Specific Accounts for all accounts that need access to the 
+Libraries are encouraged to use Library Staff Specific Accounts for all accounts that need access to the 
 reporter in Evergreen to avoid the need to re-set up recurring reports.
 ======
 
-*Generic Staff Accounts*
+*Generic Library Staff Accounts*
 
 * Account is generally specific to a department or function, such as circulation or cataloguing, and is used
 by multiple staff members.
@@ -46,7 +44,7 @@ by multiple staff members.
 * Account CANNOT be granted permissions to use the reporter.
 
 
-*Staff/Personal Accounts - No Longer Recommended*
+*Library Staff/Personal Accounts - No Longer Recommended*
 
 * Account is specific to a particular staff member and includes their personal details like first 
 and last name.
@@ -56,7 +54,7 @@ and last name.
 
 [NOTE]
 ======
-Co-op Support now strongly recommends against using Staff/Personal Accounts due to issues that
+Co-op Support now strongly recommends against using Library Staff/Personal Accounts due to issues that
 have arisen when libraries are closing down a staff member's account after they leave the library.
 ======
 
@@ -72,14 +70,14 @@ into consideration:
 
 * It is best practice to use a temporary password and then have your staff reset their password to something 
 only they know.
-* For an account to be a staff account it needs to have a Main (Profile) Permission Group with library 
+* For an account to be a library staff account it needs to have a Main (Profile) Permission Group with library 
 staff permissions.  Choose the appropriate permission group for the access the staff member needs.  
 
 [NOTE]
 ======
-The Local System Administrator permission group can only be assigned by Support.  Libraries may create 
-an account using any permission group and then submit a request to Support to have the account updated to 
-local system administrator. Please include the account's barcode in the request.
+The Local System Administrator permission group can only be assigned by Co-op Support.  Libraries may create 
+an account using any permission group and then https://bc.libraries.coop/support/[contact Co-op Support] to 
+have the account updated to a local system administrator. Please include the account's barcode in the request.
 ======
 
 The table in 
@@ -89,7 +87,8 @@ http://docs.libraries.coop/sitka/_staff_account_permission_groups.html[Staff Acc
 image::images/admin/staff-account-1.png[scaledwidth="50%"]
 
 This example shows public library staff permission groups.  A similar list of 
-groups is available for each library type. 
+groups is available for each library type. This list can be customized so show only the library staff 
+permission groups used at your library. See xref:_permission_tree_display_entries[] for more information.
 
 Working Locations
 ^^^^^^^^^^^^^^^^^
@@ -108,7 +107,7 @@ image::images/admin/staff-account-3.png[]
 
 [CAUTION]
 =========
-Staff accounts without a working location cannot sign into the Evergreen staff client. 
+Library staff accounts without a working location cannot sign into the Evergreen staff client. 
 =========
 
 Editing Library Staff Accounts
@@ -117,45 +116,45 @@ Editing Library Staff Accounts
 link:https://youtu.be/kQ9HD5SFcFU[*Sitka Training Video - Editing Library Staff Accounts (1:08)*]
 
 
-Editing Staff Accounts via My Account
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Editing Library Staff Accounts via My Account
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 All library staff can update their own username and password by logging 
 into xref:_my_account[_My Account_] in the public catalogue.  Library staff can also
 update their email address this way unless their libary has disabled the editing of email addresses
 through My Account.
 
-See xref:_resetting_staff_account_password[] for more ways a staff password can be reset.
+See xref:_resetting_staff_account_password[] for more ways a library staff password can be reset.
 
 [CAUTION]
 =========
-Updating your staff account in the public catalogue is the same as updating it in the staff client.
+Updating your library staff account in the public catalogue is the same as updating it in the staff client.
 
 If you change your username and/or password in _My Account_ that is the username and/or password
 you must now use to log into the staff client.
 =========
 
 
-Editing Staff Accounts via the Staff Client
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Editing Library Staff Accounts via the Staff Client
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Local system administrators can edit all staff accounts in the staff client the same as you 
+Local system administrators can edit all library staff accounts in the staff client the same as you 
 would edit a patron, with the exception of local system administrator accounts. 
 
-See xref:_resetting_staff_account_password[] for ways a staff password can be reset.
+See xref:_resetting_staff_account_password[] for ways a library staff password can be reset.
 
 Local system administrator accounts can only be edited in the staff client by Co-op Support. If a local 
 system administrator account needs edits beyond what can be done via My Account please
 https://bc.libraries.coop/support/[contact Co-op Support] and include the account barcode and the changes needed.
 
 
-Resetting Staff Account Password
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Resetting Library Staff Account Passwords
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 https://youtu.be/YoB-JG6Y9Sk[*Sitka Training Video - Managing Passwords(4:02)*]
 
 
-Staff passwords can be reset:
+Library staff passwords can be reset:
 
 * through My Account in your public catalogue.
 ** Log into _My Account_ and using the the *Change* button found on the _Personal Information_ tab of 
@@ -165,17 +164,18 @@ https://youtu.be/LprDPIhqN1I[*Sitka Snippet Video - Changing an Existing Passwor
 +
 * through the password reset link in your public catalogue.
 ** Use the *Forgot Your Password?* link in the _My Account_ login screen on your public catalogue. You must have an email 
-address recorded in your staff account for this to method to work.
+address recorded in your library staff account for this to method to work.
 +
 https://youtu.be/iJo5ajf-XAA[*Sitka Snippet Video - Resetting a Forgotten Password (2:54)*]
 +
 * through your account in the staff client by your local system administrator.
-** Local system administrators can use the *Send Password Reset Link* button on the _Edit_ tab in the patron account in the staff client OR assign a new password to 
-staff that are not also local system administrators.
+** Local system administrators can use the *Send Password Reset Link* button on the _Edit_ tab in the 
+patron account in the staff client OR assign a new password to library staff that are not also local 
+system administrators.
 
-* through a request to https://bc.libraries.coop/support/[Co-op Support].
+* by https://bc.libraries.coop/support/[contacting Co-op Support].
 ** If you are unable to reset your password using one of the other methods, send in a request to 
-Support to have a temporary password assigned and then use the *Change* button in _My Account_.
+Co-op Support to have a temporary password assigned and then use the *Change* button in _My Account_.
 
 [NOTE]
 ======
@@ -196,7 +196,7 @@ Every library staff account must have a staff permission group assigned as their
 Permission Group in order to access the staff client.  Staff can also have secondary permission
 groups assigned to give them access to special features.
 
-Library directors should consider what functions each staff member needs access to and 
+Library directors and administrators should consider what functions each staff member needs access to and 
 assign the appropriate permission group.
 
 Main Staff Permission Groups
@@ -333,22 +333,17 @@ for a particular account, go to *Administration -> User Permission Editor* in th
 | Create serials subscriptions	 |	 |  |  | * | * | *
 |===
 
-////
-[NOTE]
-======
-Only users with reporting permissions  
-can access the Reports interface or view report output. To request reporting 
-permissions staff must sign and submit a https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[Reporter Privacy Waiver].
-======
-////
 
 Secondary Permission Groups
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+These secondary permission permission groups can be granted to approrpiate library staff accounts to give
+access to specific features and functions that are not available through the main staff permission groups.
+
 Acquisitions Supplementary Perm Groups
 ++++++++++++++++++++++++++++++++++++++
 
-These secondary permission groups give staff access to functions in the 
+These secondary permission groups give library staff access to functions in the 
 acquisitions module.  More information on these groups can be found in the 
 https://docs.libraries.coop/acquisitions/_permissions.html#_acquisitions_permission_groups[Acquisitions Permission Groups section] of 
 https://docs.libraries.coop/acquisitions/[Sitka's Evergreen Acquisitions Documentation].
@@ -357,10 +352,10 @@ https://docs.libraries.coop/acquisitions/[Sitka's Evergreen Acquisitions Documen
 Carousel Secondary Perms
 ++++++++++++++++++++++++
 
-This secondary permission group gives staff access to the carousel feature in Evergreen
+This secondary permission group gives library staff access to the carousel feature in Evergreen
 that is used by LibPress libraries.
 
-Library staff must send a request to https://bc.libraries.coop/support/[Co-op Support] if they need to have this
+Library staff must https://bc.libraries.coop/support/[contact Co-op Support] if they need to have this
 permission group added to their account.
 
 See the https://help.libraries.coop/libpress/highlights/sitka-carousels/[Sitka Carousels section]
@@ -371,18 +366,18 @@ and working with carousels.
 Cover Image Upload Secondary Perms
 ++++++++++++++++++++++++++++++++++
 
-This secondary permission group gives staff access to the cover image uploader found 
-Evergreen's staff catalogue.
-
-Local system administrators can grant this permission group to library staff accounts. 
-See xref:_secondary_permission_groups[].
+This secondary permission group gives library staff access to upload custom cover images for bibliographic records through
+the cover image uploader found in Evergreen's staff catalogue.
 
 See xref:_uploading_cover_images[] for information on using this feature.
+
+Local system administrators can grant this permission group to library staff accounts. 
+See xref:_secondary_permission_groups[] for instructions.
 
 Reporter Full Permission
 ++++++++++++++++++++++++
 
-This secondary permission group gives staff access to the reporter in Evergreen to
+This secondary permission group gives library staff access to the reporter in Evergreen to
 run and view reports.
 
 In accordance with Sitka’s privacy policy and owing to the nature of Sitka’s shared 
@@ -396,11 +391,11 @@ Co-op Support will grant reporter permissions to the account.
 Reporter View Output Permissions
 ++++++++++++++++++++++++++++++++
 
-This secondary permission group gives staff access view report output that is shared with them via email or 
-a link.
+This secondary permission group gives library staff access view report output that is shared with them 
+via email or a link.
 
-Local system administrators can grant this permission group to library staff accounts. 
-See xref:_secondary_permission_groups[].
+Local system administrators can grant this permission group to library staff accounts. See 
+xref:_secondary_permission_groups[] for instructions.
 
 
 
@@ -445,27 +440,35 @@ Local School Library Admin Secondary Perms
 ////
 
 
-Granting Additional Permissions to Staff Accounts
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Granting Additional Permissions to Library Staff Accounts
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Additional permissions can be granted to library staff in two ways.
 
-Secondary Permission Groups
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Granting Secondary Permission Groups
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 link:https://youtu.be/QgChELUq48E[*Sitka Snippet Video - Additional Permissions for Library Staff Accounts (2:03)*]
 
-Acquisitions and reporter permissions are granted as secondary permission groups.  Acq Admin users can grant 
-acquisitions permissions.  Reporter permissions are granted by Co-op Support after a 
+Acquisitions, carousel, cover art, and reporter permissions are granted as secondary permission groups. See
+xref:_secondary_permission_groups[] for information on specific secondary permission groups.
+
+
+
+Full reporter permissions are granted by Co-op Support after a 
 https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[Reporter Privacy Waiver] is completed.
 
+
+Acq Admin users can grant acquisitions permissions.
+
+
 The report template _Staff Assigned to Supplementary Permission Group(s)_ can be used to generate a list 
-of staff at your library who have a secondary permission group assigned to their account.  This template 
-is found under Shared Folders -> Templates -> Sitka_templates -> Patrons -> Others.
+of library staff at your library who have a secondary permission group assigned to their account.  This template 
+is found under Shared Folders -> Templates -> Sitka_templates -> Patrons -> Library Staff. 
 
 
-Individual Permissions
-^^^^^^^^^^^^^^^^^^^^^^
+Granting Individual Permissions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Local System Administrators may selectively grant additional permissions available to LSA accounts 
 to other non-LSA accounts.
