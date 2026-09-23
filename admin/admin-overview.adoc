@@ -54,55 +54,65 @@ for updates.
 items by selected patron profiles at selected libraries to be marked lost. It 
 does not support date parameter. This feature is mainly for school libraries' end of term 
 process. To automatically mark items lost when they are overdue for x days, 
-contact Co-op support | Local | Local System Administrator
+contact Co-op support. | Local | Local System Administrator
 | Auto-Print Settings | To block automatic receipt printing in selected staff client transactions
  | Local | Local System Administrator
 | xref:_call_number_prefix_and_suffix[Call Number Prefix and Suffix] |Build a standard list which 
-will be displayed as drop down options when creating or editing call number records | Server |
+will be displayed as drop down options when creating or editing call number records. | Server |
  Local System Administrators 
-| xref:_carousels[Carousels] | Carousels are only available for use with LibPress websites
+| xref:_carousels[Carousels] | Carousels are only available for use with LibPress websites.
  | Local | Carousels Secondary Permissions
-| xref:_cash_reports[Cash Reports] | View summary report of cash transactions for selected date range | Local | All staff
+| xref:_cash_reports[Cash Reports] | View summary report of cash transactions for selected date range. | Local | All staff
 | xref:_circulation_modifiers[Circulation Modifiers] |Information on viewing circulation modifiers.
  | Server | Local System Administrators can view
 | xref:_circulation_policies[Circulation Policies] | Information on viewing and updating 
 circulation policies.	| Local | Local System Administrators can view. Contact Co-op Support for 
 updates.
-| xref:_closed_dates_editor[Closed Dates Editor] | Set library ad hoc closure dates (affects due dates and fines)	| Local | Local System Administrator
+| xref:_closed_dates_editor[Closed Dates Editor] | Set library ad hoc closure dates. (affects due dates and fines)	| Local | Local System Administrator
 | xref:_floating_group[Floating Group] |Information on viewing and updating floating groups.
  | Server | Local System Administrators can view. Contact Co-op Support for updates.
 | xref:_group_penalty_thresholds[Group Penalty Thresholds] | Set library-specific thresholds for 
-maximum items out, maximum overdues, and maximum fines | Local | Local System Administrator
+maximum items out, maximum overdues, and maximum fines. | Local | Local System Administrator
 | xref:_hold_policies[Hold Policies] | Information on viewing and updating hold policies. | Local | Local System Administrators can view. Contact Co-op Support for updates.
-| xref:_creating_holdings_templates[Holdings Template Editor] | Interface to create holdings templates  | Local | Local System Administrator/Cataloguers
+| xref:_creating_holdings_templates[Holdings Template Editor] | Interface to create holdings 
+templates  | Local | Local System Administrator/Cataloguers
 | xref:_hard_due_date[Hard Due Date] |Information on viewing and updating hard due dates.
  | Server | Local System Administrators and Co-op Support
-| xref:_hopeless_holds[Hopeless Holds] |View summary of hopeless holds for selected date range
+| xref:_hopeless_holds[Hopeless Holds] |View summary of hopeless holds for selected date range.
  | Local | Local System Administrator
-| xref:_item_alert_suppression[Item Alert Suppression] | Suppress item alerts on selected actions | Local | Local System Administrator
+| xref:_item_alert_suppression[Item Alert Suppression] | Suppress item alerts on selected actions. | Local | Local System Administrator
 | xref:_item_statuses[Item Statuses] |View item statuses and their properties. | Server | Local 
 System Administrators can view
-| xref:_item_tags[Item Tags] | Not currently used by Sitka | Local | No permissions granted
-| xref:_library_settings_editor[Library Settings Editor] | Detailed library configuration settings | Local | Local System Administrator/Co-op Suppport
-| xref:_non_catalogued_type_editor[Non-catalogued Type Editor] | Create and edit optional non-catalogued item types | Local | Local System Administrator
+| xref:_item_tags[Item Tags] | Not currently used by Sitka. | Local | No permissions granted.
+| xref:_library_settings_editor[Library Settings Editor] | Detailed library configuration settings.
+ | Local | Local System Administrator/Co-op Suppport
+| xref:_non_catalogued_type_editor[Non-catalogued Type Editor] | Create and edit optional 
+non-catalogued item types. | Local | Local System Administrator
 | xref:_notifications_action_triggers[Notifications / Action Triggers] |Information on viewing and
  updating notifications and action triggers. | Local | Local System Administrators can view. 
  Contact Co-op Support for updates.
 | xref:_organizational_units[Organizational Units] |Information on viewing and updating 
-organizational unit settings including library email address, phone number, hours of operation, and adddress. | Server | Local System Administrators
+organizational unit settings including library email address, phone number, hours of operation, 
+and adddress. | Server | Local System Administrators
 | xref:_patrons_with_negative_balances[Patrons with Negative Balances] | Display a list of patron 
-accounts with negative bill balances, to whom the library may owe refunds | Local | All staff
+accounts with negative bill balances, to whom the library may owe refunds. | Local | All staff
 | xref:_permission_tree_display_entries[Permission Tree Display Entries] |Information on viewing 
 and updating permission group trees. | Local | Local System Administrators can view. Contact 
 Co-op Support for updates.
-| xref:_shelving_location_editor[Shelving Location Editor] | Create and edit shelving locations
+| xref:_shelving_location_editor[Shelving Location Editor] | Create and edit shelving locations.
  | Local | Local System Administrator
-| xref:_shelving_location_groups[Shelving Location Groups] | Allows one or more shelving locations to be grouped together as a search location. | Local | Local System Administrator
+| xref:_shelving_location_groups[Shelving Location Groups] | Allows one or more shelving locations 
+to be grouped together as a search location. | Local | Local System Administrator
 | xref:_shelving_location_order[Shelving Location Order] | Change display order of shelving 
-locations on Holds Pull list | Local | Local System Administrator
-| xref:_statistical_categories_item_editor[Statistical Categories - Item Editor] | Create and manage optional categories for detailed item information | Local | Local System Administrator
-| xref:_statistical_categories_patron_editor[Statistical Categories - Patron Editor] |Create and manage optional categories for detailed patron information  | Local | Local System Administrator
-| xref:_surveys[Surveys] | Create patron surveys to be completed at patron registration | Local | Local System Administrator
-| xref:_transit_list_admin[Transit List] | View items in transit to or from your library during selected date range | Local | All staff
-| xref:_work_log[Work Log] | List the most recent transactions processed on the workstation | Local | All staff
+locations on Holds Pull list. | Local | Local System Administrator
+| xref:_statistical_categories_item_editor[Statistical Categories - Item Editor] | Create and 
+manage optional categories for detailed item information. | Local | Local System Administrator
+| xref:_statistical_categories_patron_editor[Statistical Categories - Patron Editor] |Create and 
+manage optional categories for detailed patron information.  | Local | Local System Administrator
+| xref:_surveys[Surveys] | Create patron surveys to be completed at patron registration. | 
+Local | Local System Administrator
+| xref:_transit_list_admin[Transit List] | View items in transit to or from your library during 
+selected date range. | Local | All staff
+| xref:_work_log[Work Log] | List the most recent transactions processed on the workstation. 
+| Local | All staff
 |====
