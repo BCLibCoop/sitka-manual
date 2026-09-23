@@ -487,7 +487,7 @@ for exceptions on check-in. But the accompanying sound will be played.|True/Fals
 |Target copies for a hold even if copy's circ lib is closed|If this setting is true 
 at a given org unit or one of its ancestors, the hold targeter will target 
 copies from this org unit even if the org unit is closed (according to the Org Unit's 
-closed dates.).|True/False| | LSA | Set the value to True if you want to target copies for 
+closed dates.).|True/False| | LSA | Set the value to TRUE if you want to target copies for 
 holds at closed circulating libraries. Set the value to False, or leave it unset, 
 if you do not want to enable this feature.
 
@@ -495,7 +495,7 @@ if you do not want to enable this feature.
 hold's pickup lib|If this setting is true at a given org unit or one of 
 its ancestors, the hold targeter will target copies from this org unit even if the org 
 unit is closed (according to the Org Unit's closed dates) IF AND ONLY IF the copy's 
-circ lib is the same as the hold's pickup lib.|True/False| | LSA |Set the value to True if you want 
+circ lib is the same as the hold's pickup lib.|True/False| | LSA |Set the value to TRUE if you want 
 to target copies for holds at closed circulating libraries when the circulating library 
 of the item and the pickup library of the hold are the same. Set the value to False, or 
 leave it unset, if you do not want to enable this feature.
@@ -648,31 +648,31 @@ minimum.|Number(Currency) | | LSA |
 
 |Negative Balance Interval (DEFAULT)|Amount of time after which no negative balances 
 (refunds) are allowed on circulation bills. The "Prohibit negative balance on bills" 
-setting must also be set to "true".|Duration| | LSA | If the settings for Lost and Overdues are 
+setting must also be set to TRUE.|Duration| | LSA | If the settings for Lost and Overdues are 
 the same, you may use this setting and the "Prohibit Negative Balance on Bills (DEFAULT)" 
 setting, and igore the separate settings for Lost and Overdues.
 
 |Negative Balance Interval for Lost|Amount of time after which no negative balances 
 (refunds) are allowed on bills for lost/long overdue materials. The "Prohibit 
-negative balance on bills for lost materials" setting must also be set to "true".
+negative balance on bills for lost materials" setting must also be set to TRUE.
 |Duration| | LSA |
 
 |Negative Balance Interval for Overdues|Amount of time after which no negative balances 
 (refunds) are allowed on bills for overdue materials. The "Prohibit negative balance on 
-bills for overdue materials" setting must also be set to "true".|Duration| |LSA |
+bills for overdue materials" setting must also be set to TRUE.|Duration| |LSA |
 
 |Prohibit negative balance on bills (Default)|Default setting to prevent negative balances 
-(refunds) on circulation related bills. Set to "true" to prohibit negative balances at 
+(refunds) on circulation related bills. Set to TRUE to prohibit negative balances at 
 all times or, when used in conjunction with an interval setting, to prohibit negative 
 balances after a set period of time.|True/False| | LSA |
 
 |Prohibit negative balance on bills for lost materials|Prevent negative balances (refunds) 
-on bills for lost/long overdue materials. Set to "true" to prohibit negative balances 
+on bills for lost/long overdue materials. Set to TRUE to prohibit negative balances 
 at all times or, when used in conjunction with an interval setting, to prohibit negative 
 balances after an interval of time.|True/False| | LSA |
 
 |Prohibit negative balance on bills for overdue materials|Prevent negative balances 
-(refunds) on bills for lost/long overdue materials. Set to "true" to prohibit negative 
+(refunds) on bills for lost/long overdue materials. Set to TRUE to prohibit negative 
 balances at all times or, when used in conjunction with an interval setting, to prohibit 
 negative balances after an interval of time.|True/False| | LSA |
 
@@ -786,9 +786,9 @@ fields in patron registration. Applies to all phone fields without their own set
 |Example for Postal Code field on patron registration|The example on validation on the 
 Postal Code field in patron registration.|Text| | LSA |
 
-|Format Date+Time with this pattern| |Text|Default: yyyy-MM-dd HH:mm | Sitka |
+|Format Date+Time with this pattern| |Text|yyyy-MM-dd HH:mm | Sitka |
 
-|Format Dates with this pattern | | Text | Default: yyyy-MM-dd | Sitka |
+|Format Dates with this pattern | | Text | yyyy-MM-dd | Sitka |
 
 |GUI: Enable Traditional Staff Catalog | | True/False | FALSE | Sitka | Sitka no longer uses
 the old staff catalogue
@@ -1011,7 +1011,7 @@ the patron|Duration| 7 days | Sitka |
 
 |FIFO|Force holds to a more strict First-In, First-Out capture. Default is SAVE-GAS, 
 which gives priority to holds with pickup location the same as checkin library.|True/False| 
-Default: False| Sitka |
+FALSE| Sitka |
 
 |Hard boundary||Number| | Sitka |
 
