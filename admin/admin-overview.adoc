@@ -3,7 +3,7 @@ Administration Overview
 
 Administration functions are available on the *Administration* drop down menu.  Functions on 
 this menu are grouped into either the target module that the configuration applies to 
-or the effect scope, e.g. individual workstations, libraries or the whole consortium.  These 
+or the effect scope, e.g. individual workstations, libraries or the whole consortium. Most of these 
 function  are visible to anyone logged into the staff client but most of them require 
 special permissions to edit.
 
@@ -22,8 +22,8 @@ whole consortium. But individual libraries can configure a few items, such as, c
 prefix/suffix, library's operation hours and addresses under Organizational Units.
 
 https://docs.libraries.coop/acquisitions/_administration.html[*Acquisitions Administration*]: 
-Settings relating to the acquisitions module, including EDI accounts
-, fund management, and maintaining providers.
+Settings relating to the acquisitions module, including EDI accounts, fund management, 
+and maintaining providers.
 
 xref:_serials_administration[*Serials Administration*]: Here you can manage and create prediction 
 pattern and serial item templates. 
@@ -39,7 +39,7 @@ xref:_simple_reports[*Simple Reports*]: This feature is not used by Sitka.
 [NOTE]
 ======
 You may access most of the administration functions but attempting to edit may fail silently if you do not have the required 
-permission. Your editing will not be saved.
+permission. Your changes will not be saved.
 ======
 
 
@@ -89,7 +89,7 @@ System Administrators can view
  updating notifications and action triggers. | Local | Local System Administrators can view. 
  Contact Co-op Support for updates.
 | xref:_organizational_units[Organizational Units] |Information on viewing and updating 
-organizational unit settings. | Server | Local System Administrators
+organizational unit settings including library email address, phone number, hours of operation, and adddress. | Server | Local System Administrators
 | xref:_patrons_with_negative_balances[Patrons with Negative Balances] | Display a list of patron 
 accounts with negative bill balances, to whom the library may owe refunds | Local | All staff
 | xref:_permission_tree_display_entries[Permission Tree Display Entries] |Information on viewing 
