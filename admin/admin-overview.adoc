@@ -92,9 +92,9 @@ System Administrators can view
 organizational unit settings. | Server | Local System Administrators
 | xref:_patrons_with_negative_balances[Patrons with Negative Balances] | Display a list of patron 
 accounts with negative bill balances, to whom the library may owe refunds | Local | All staff
-| xref:_permission_tree_display_entries[Permission Tree Display Entries]Information on viewing and
- updating permission group trees.  | | Local | Local System Administrators can view. Contact 
- Co-op Support for updates.
+| xref:_permission_tree_display_entries[Permission Tree Display Entries] |Information on viewing 
+and updating permission group trees. | Local | Local System Administrators can view. Contact 
+Co-op Support for updates.
 | xref:_shelving_location_editor[Shelving Location Editor] | Create and edit shelving locations
  | Local | Local System Administrator
 | xref:_shelving_location_groups[Shelving Location Groups] | Allows one or more shelving locations to be grouped together as a search location. | Local | Local System Administrator
