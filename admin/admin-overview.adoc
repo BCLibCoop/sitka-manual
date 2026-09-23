@@ -55,7 +55,7 @@ items by selected patron profiles at selected libraries to be marked lost. It
 does not support date parameter. This feature is mainly for school libraries' end of term 
 process. To automatically mark items lost when they are overdue for x days, 
 contact Co-op support. | Local | Local System Administrator
-| Auto-Print Settings | To block automatic receipt printing in selected staff client transactions
+| Auto-Print Settings | To block automatic receipt printing in selected staff client transactions.
  | Local | Local System Administrator
 | xref:_call_number_prefix_and_suffix[Call Number Prefix and Suffix] |Build a standard list which 
 will be displayed as drop down options when creating or editing call number records. | Server |
