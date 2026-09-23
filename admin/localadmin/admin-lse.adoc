@@ -542,7 +542,7 @@ returned that was marked Lost, the item processing fee will be voided.|True/Fals
 
 |Void lost max interval|Items that have been overdue this long will not result in lost 
 charges being voided when returned, and the overdue fines will not be restored, either. 
-Only applies if *Circ: Void lost item billing* or *Circ: Void processing fee on lost item* 
+Only applies if _Circ: Void lost item billing_ or _Circ: Void processing fee on lost item_ 
 are true.|Duration| 6 months | LSA |
 
 |Void processing fee on lost item return|Void processing fee when lost item returned
@@ -552,14 +552,21 @@ are true.|Duration| 6 months | LSA |
 this number of days before the expiry of a patron account. Value is in number of days.|Duration|
  | LSA |
 
-|When aging circulations do not retain the patron postal code | | True/False |TRUE | Sitka |
+|When aging circulations do not retain the patron postal code |When true, the postal code of the 
+patron is not retained in circulations that have been aged to further ensure circulations are 
+anonymized. | True/False |TRUE | Sitka |
 
-|When aging circulations do not retain the year from patron date of birth | | True/False |TRUE | 
-Sitka |
+|When aging circulations do not retain the year from patron date of birth |When true, the birth 
+year of the patron is not retained in circulations that have been aged to further ensure 
+circulations are anonymized. | True/False |TRUE | Sitka |
 
-|When aging holds do not retain the patron postal code | | True/False |TRUE | Sitka |
+|When aging holds do not retain the patron postal code |When true, the postal code of the patron 
+is not retained in holds that have been aged to further ensure holds are anonymized.
+ | True/False |TRUE | Sitka |
 
-|When aging holds do not retain the year from patron date of birth | | True/False |TRUE | Sitka |
+|When aging holds do not retain the year from patron date of birth |When true, the birth year the 
+patron is not retained in holds that have been aged to further ensure holds are anonymized. | 
+True/False |TRUE | Sitka |
 
 | Workstation OU fallback for staff-placed holds | For staff-placed holds, in the 
 absence of a patron preferred pickup location, fall back to using the staff 
@@ -748,7 +755,8 @@ is true.|True/False| | LSA |
 
 |Display Links to Deprecated Acquisitions Interfaces | | True/False | | Sitka |
 
-|Enable Angular Circulation Menu | | True/False | FALSE | Sitka |
+|Enable Angular Circulation Menu | | True/False | FALSE | Sitka | Angular circulation is still 
+being developed and is not ready for live use yet.
 
 |Example dob field on patron registration | The example for validation on the dob field in 
 patron registration.| Text | | LSA |
