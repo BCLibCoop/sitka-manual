@@ -75,7 +75,7 @@ updates.
 maximum items out, maximum overdues, and maximum fines. | Local | Local System Administrator
 | xref:_hold_policies[Hold Policies] | Information on viewing and updating hold policies. | Local | Local System Administrators can view. Contact Co-op Support for updates.
 | xref:_creating_holdings_templates[Holdings Template Editor] | Interface to create holdings 
-templates  | Local | Local System Administrator/Cataloguers
+templates.  | Local | Local System Administrator/Cataloguers
 | xref:_hard_due_date[Hard Due Date] |Information on viewing and updating hard due dates.
  | Server | Local System Administrators and Co-op Support
 | xref:_hopeless_holds[Hopeless Holds] |View summary of hopeless holds for selected date range.
