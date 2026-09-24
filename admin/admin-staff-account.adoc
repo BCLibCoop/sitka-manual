@@ -571,7 +571,7 @@ link:https://youtu.be/d-EbdpforW8[*Sitka Training Video - Closing Library Staff 
 When a staff member leaves the library, their staff access should be disabled in a timely manner.
 
 .A local system administrator at your library needs to do the following:
-. xref:_working_locations[Remove the working location(s] from the account
+. xref:_working_locations[Remove the working location(s)] from the account
 . xref:_removing_secondary_permission_group[Remove any secondary permission groups] granted to the account. 
 +
 [NOTE]
