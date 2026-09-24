@@ -43,7 +43,7 @@ organization].
 https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[reporter privacy waiver] is required.
 .. For _Reporter View Output Permissions_ a local system administrator at your library can grant the 
 secondary permission group to library staff accounts. See xref:_managing_secondary_permission_groups[]
-for information on granting _Reporter View Output Permissions_
+for information on granting _Reporter View Output Permissions_.
 
 ////
 [NOTE]
