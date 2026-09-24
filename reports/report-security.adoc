@@ -38,9 +38,12 @@ Two things must be in place for sharing to work:
 
 . The folder containing the template, definition, or output must be xref:_sharing_folders[shared with the appropriate 
 organization].
-. The viewing staff member must have signed a 
-https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[reporter privacy waiver] and have been granted 
-either _Reporter Full Permissions_ or _Reporter View Output Permissions_.
+. The viewing staff member must have either _Reporter Full Permissions_ or _Reporter View Output Permissions_.
+.. For _Reporter Full Permissions_ a signed 
+https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[reporter privacy waiver] is required.
+.. For _Reporter View Output Permissions_ a local system administrator at your library can grant the 
+secondary permission group to library staff accounts. See xref:_managing_secondary_permission_groups[]
+for information on granting _Reporter View Output Permissions_
 
 ////
 [NOTE]
