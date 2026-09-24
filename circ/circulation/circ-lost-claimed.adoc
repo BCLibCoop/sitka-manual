@@ -231,7 +231,7 @@ Lost
 If a patron loses an item, it can be marked as lost in their account.
 
 . Go to the _Items Out_ tab in the patron account.
-. Select the item and click *Actions -> Mark Lost (By Patron)*.
+. Select the item and choose *Mark Lost (By Patron)* from the *Actions* menu.
 +
 image:images/circ/mark-lost-1.png[]
 +
