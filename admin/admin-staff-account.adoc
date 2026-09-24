@@ -445,26 +445,79 @@ Granting Additional Permissions to Library Staff Accounts
 
 Additional permissions can be granted to library staff in two ways.
 
-Granting Secondary Permission Groups
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[[_grant_secondary_permission_groups]]
+Secondary Permission Groups
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* xref:_granting_secondary_permission_group[Granting a Secondary Permission Group]
+* xref:_removing_secondary_permission_group[Removing a Secondary Permission Group]
 
 link:https://youtu.be/QgChELUq48E[*Sitka Snippet Video - Additional Permissions for Library Staff Accounts (2:03)*]
 
-Acquisitions, carousel, cover art, and reporter permissions are granted as secondary permission groups. See
+Cover Image Upload and Reporter View Output permissions can be granted to and removed from 
+all library staff accounts as secondary permission groups by local system administrators. For acquisitions 
+supplementary permission groups
+see https://docs.libraries.coop/acquisitions/_granting_acquisitions_permissions.html[the section called "Granting
+Acquisitions Permissions"] in Sitka’s Evergreen Acquisitions Documentation.
+
 xref:_secondary_permission_groups[] for information on specific secondary permission groups.
 
-
-
-Full reporter permissions are granted by Co-op Support after a 
-https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[Reporter Privacy Waiver] is completed.
-
-
-Acq Admin users can grant acquisitions permissions.
-
+[CAUTION]
+=========
+The _Reporter View Output Permissions_ or _Cover Image Upload Secondary Perms groups only function as secondary 
+groups. If one of these is set as the Main (Profile) Permission Group for a library staff account, that account will 
+be unable to login to the staff client.
+=========
 
 The report template _Staff Assigned to Supplementary Permission Group(s)_ can be used to generate a list 
 of library staff at your library who have a secondary permission group assigned to their account.  This template 
-is found under Shared Folders -> Templates -> Sitka_templates -> Patrons -> Library Staff. 
+is found under Shared Folders -> Templates -> Sitka_templates -> Patrons -> Library Staff. Co-op Support 
+recommends running this report on an annual basis to keep track of who at your library has secondary permission
+granted.
+
+[[_granting_secondary_permission_group]]
+Granting a Secondary Permission Group
++++++++++++++++++++++++++++++++++++++
+
+. Open the account of the library staff account you wish to grant a secondary permission group to.
+. Go to the _Edit_ tab.
+. To the right of the _Main (Profile) Permission Group_ field click *Secondary Groups*.
++
+image::images/admin/librarystaff/grant-secondary-perm-group-1.png[]
++
+. From the drop down menu select _Reporter View Output Permissions_ or _Cover Image Upload Secondary Perms_.
++
+image::images/admin/librarystaff/grant-secondary-perm-group-2.png[]
++
+. Click *Add*.
++
+image::images/admin/librarystaff/grant-secondary-perm-group-3.png[]
++
+. Click *Apply Changes*.
++
+image::images/admin/librarystaff/grant-secondary-perm-group-4.png[]
++
+. You do not need to click *Save* in the patron account.
+
+[[_removing_secondary_permission_group]]
+Removing a Secondary Permission Group
++++++++++++++++++++++++++++++++++++++
+
+. Open the account of the library staff account you wish to remove a secondary permission group from.
+. Go to the _Edit_ tab.
+. To the right of the _Main (Profile) Permission Group_ field click *Secondary Groups*.
++
+image::images/admin/librarystaff/grant-secondary-perm-group-1.png[]
++
+. Click *Delete* beside the permission group you would like to remove.
++
+image::images/admin/librarystaff/remove-secondary-perm-group-1.png[]
++
+. Click *Apply Changes* in the pop-up.
++
+image::images/admin/librarystaff/remove-secondary-perm-group-2.png[]
++
+. You do not need to click *Save* in the patron account.
 
 
 Granting Individual Permissions
