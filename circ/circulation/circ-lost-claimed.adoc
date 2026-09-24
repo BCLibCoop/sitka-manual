@@ -19,6 +19,13 @@ Mark Items
 
 
 Items can have their status changed via the _Mark_ functions on the Actions menus. 
+
+[NOTE]
+======
+There is variation between interfaces with what specific wording is used for some of these actions. 
+The most commonly used wording is used in the instructions here.
+======
+
 See xref:_item_statuses[] for more information on how particular item statuses behave.
 
 Claims Never Checked Out
@@ -33,7 +40,10 @@ to check it in the item can be marked as claims never checked out.
 image:images/circ/mark-claims-never-checked-out-1.png[]
 +
 . A pop-up appears where staff can confirm that they wish to mark the item by clicking *OK/Continue*.
-. The item is checked in and set to _Missing_. The item is no longer associated with the patron's account.
+. The item is checked in and 
+set to _Missing_. The item is no longer associated with the patron's account.
+. The patron's _Claims Never Checked Out Count_ is automatically increased. This can be viewed in the patron summary
+and the _Edit_ tab.
 
 [NOTE]
 ======
@@ -60,15 +70,15 @@ image:images/circ/mark-claims-returned-2.png[]
 . The item's status is updated to _Claimed Returned_. It remains associated with the patron's account and 
 is now displayed on the _Other/Special Circulations_ tab.
 +
+image:images/circ/mark-claims-returned-3.png[]
++
 [NOTE]
 ======
 Some libraries prefer to use the status _Missing_.  This can be set using the library setting 
 _Claim Return: Mark copy as missing_.
 ====== 
 +
-image:images/circ/mark-claims-returned-3.png[]
-+
-. The patron's *Claims-returned Count* is automatically increased. This can be viewed in the patron summary
+. The patron's _Claims-returned Count_ is automatically increased. This can be viewed in the patron summary
 and the _Edit_ tab.
 +
 [NOTE]
@@ -79,15 +89,16 @@ a patron can claim as returned before a staff override is required.
 
 A claimed returned items is resolved when it is checked in or when the status is updated to _Missing_ or _Lost_
 following local library policy.  An alert displays on check in to let staff know a claimed returned
-item has been found.  When an item is located staff may wish to adjust the patron's *Claims-returned Count*
+item has been found.  If the item is found in the library staff may wish to adjust the patron's 
+_Claims-returned Count_
 accordingly on the _Edit_ tab.
 
 Damaged
 ^^^^^^^
-If a patron damages an item it can be marked as damaged at check in, via the Item Status interface, from the Holds Shelf, or
-from within a patron's account.
+If a patron damages an item or it is found damaged in the library it can be marked as damaged at check in, 
+from within a patron's account, via the Item Status interface, via the Holds Pull List, or from the Holds Shelf.
 
-. On the appropriate interface select the item click *Actions -> Mark Items Damaged*, *Actions -> Mark -> Item as Damaged*, *Actions -> Mark Item Damaged*, or *Actions -> Mark Damaged* (depending on interface).
+. On the appropriate interface select the item and choose *Mark Item as Damaged* from the *Actions* menu.
 +
 image:images/circ/mark-damaged-1.png[]
 +
