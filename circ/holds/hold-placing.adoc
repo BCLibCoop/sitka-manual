@@ -106,7 +106,7 @@ image:images/circ/holds/call-number-hold-2.png[scaledwidth="75%"]
 Co-op Support recommends only using items holds if it's absolutely necessary to target a particular physical
 item.  Item holds should never be used when placing holds on items owned by other libraries.
 
-Do not use Recall Hold or Force Item Hold.
+Do not use the *Recall Hold* or *Force Item Hold* buttons.
 
 image:images/circ/holds/item-hold-1.png[scaledwidth="75%"]
 =========
@@ -148,14 +148,14 @@ link:https://youtu.be/CBvMWZMgA24[*Sitka Snippet Video - Placing Holds from the 
 . Click the _Holds_ tab in the patron's account .
 . Click *Place Hold*.
 +
-image:images/circ/patron-place-hold-1.png[scaledwidth="75%"]
+image:images/circ/holds/patron-place-hold-1.png[scaledwidth="75%"]
 +
 . The staff catalogue will open.
 . Search for the title and place your hold as described in xref:_placing_title_level_holds[].
 . Click *Return* to return to your search results, the patron's name to return to the patron's account, or 
 *Clear* to continue in the staff catalogue without the link to the patron.
 +
-image:images/circ/patron-place-hold-2.png[scaledwidth="75%"]
+image:images/circ/holds/patron-place-hold-2.png[scaledwidth="75%"]
 
 
 
