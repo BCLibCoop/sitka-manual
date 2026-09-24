@@ -454,7 +454,8 @@ Secondary Permission Groups
 
 link:https://youtu.be/QgChELUq48E[*Sitka Snippet Video - Additional Permissions for Library Staff Accounts (2:03)*]
 
-Cover Image Upload and Reporter View Output permissions can be granted to and removed from 
+The _Reporter View Output Permissions_ or _Cover Image Upload Secondary Perms_ secondary 
+permission groups can be granted to and removed from 
 all library staff accounts as secondary permission groups by local system administrators. For acquisitions 
 supplementary permission groups
 see https://docs.libraries.coop/acquisitions/_granting_acquisitions_permissions.html[the section called "Granting
@@ -464,7 +465,7 @@ See xref:_secondary_permission_groups[] for information on specific secondary pe
 
 [CAUTION]
 =========
-The _Reporter View Output Permissions_ or _Cover Image Upload Secondary Perms groups only function as secondary 
+The _Reporter View Output Permissions_ or _Cover Image Upload Secondary Perms_ groups only function as secondary 
 groups. If one of these is set as the Main (Profile) Permission Group for a library staff account, that account will 
 be unable to login to the staff client.
 =========
@@ -494,7 +495,7 @@ image::images/admin/librarystaff/grant-secondary-perm-group-3.png[]
 +
 image::images/admin/librarystaff/grant-secondary-perm-group-4.png[]
 +
-. You do not need to click *Save* in the patron account.
+. You do NOT need to click *Save* in the patron account.
 
 [[_removing_secondary_permission_group]]
 Removing a Secondary Permission Group
@@ -514,23 +515,20 @@ image::images/admin/librarystaff/remove-secondary-perm-group-1.png[]
 +
 image::images/admin/librarystaff/remove-secondary-perm-group-2.png[]
 +
-. You do not need to click *Save* in the patron account.
+. You do NOT need to click *Save* in the patron account.
 
 
 Granting Individual Permissions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Local System Administrators may selectively grant additional permissions available to LSA accounts 
-to other non-LSA accounts.
-
-In the example below a Circ + Full Cat account is granted permission to process offline transactions, a 
-function which otherwise requires an LSA login.
+Local System Administrators may selectively grant additional permissions available to local system administrator 
+accounts to other non-local system administrator accounts.
 
 . Log in to Evergreen with a local system administrator account.
-. Find the staff account on *User Permission Editor*. You may search for the patron account, then go to 
-*Others -> User Permission Editor*, or go to *Administration -> User Permission Editor* to search for 
+. Find the staff account in the *User Permission Editor*. You may search for the patron account, then go to 
+*Others -> User Permission Editor*, or go to *Administration -> User Permission Editor* and search for 
 the account by barcode.
-. When User Permission Editor is loaded, scroll down the permission list to find *OFFLINE_EXECUTE*. 
+. When the User Permission Editor is loaded, scroll down the permission list to find the desired permission. 
 . Select the checkbox in *Applied* column. 
 . Scroll down to the bottom to click *Save*.
 +
@@ -539,7 +537,7 @@ image::images/admin/staff-account-2.png[]
 [TIP]
 =====
 * *Permission*: List of permission names. For help correlating permissions to specific Evergreen functions 
-please contact Support.
+please https://bc.libraries.coop/support/[contact Co-op Support].
 * *Applied*: If checked the permission is granted to this account.
 * *Depth*:  limits application to the staff member's library and should be left at the default. Evergreen 
 blocks attempts to set Federation- or Sitka-wide privileges.
@@ -558,7 +556,7 @@ You can easily retrieve a list of all library staff accounts at your library thr
 . Set the organizational unit to your library or system.
 . Click *Search*.
 +
-image::images/admin/staff-account-4.png[]
+image::images/admin/librarystaff/staff-account-4.png[]
 
 Support recommends reviewing your staff accounts on a regular basis and 
 xref:_closing_library_staff_accounts[closing accounts] for 
@@ -573,11 +571,12 @@ link:https://youtu.be/d-EbdpforW8[*Sitka Training Video - Closing Library Staff 
 When a staff member leaves the library, their staff access should be disabled in a timely manner.
 
 .A local system administrator at your library needs to do the following:
-. Remove the working location(s) from the account
+. xref:_working_locations[Remove the working location(s] from the account
+. xref:_removing_secondary_permission_group[Remove any secondary permission groups] granted by local system administrators.
 . Change the main permission group to a patron permission group (or 
 https://bc.libraries.coop/support/[contact Co-op Support] in the case of a local system
 administrator)
-. https://bc.libraries.coop/support/[Contact Co-op Support] if the staff member had permission to view report output or access to the reporter
+. https://bc.libraries.coop/support/[Contact Co-op Support] if the staff member had permission to access to the reporter
 
 If the former staff member will not be using the account as a personal borrowing account, a local system
 administrator can use the http://docs.libraries.coop/sitka/_deleting_patron_accounts.html[patron deletion tool] to delete the account.
@@ -603,17 +602,20 @@ to be moved to a new staff member.
 Moving Reports to a New Staff Member
 ++++++++++++++++++++++++++++++++++++
 
-. Ensure that folder(s) the report templates currently reside in are shared with your library. Sharing them 
+. Ensure that folder(s) the report templates currently reside in are 
+xref:_sharing_folders[shared with your library]. Sharing them 
 makes them visible to anyone at your library who has signed the https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/full-reporter-privacy-waiver/[Full 
 Reporter Privacy Waiver] and so has access to the Reporter. 
-. The new staff member handling reports logs in and clones all the needed report templates into their own 
+. The new staff member handling reports logs in and 
+xref:_cloning_a_report_template[clones all the needed report templates] into their own 
 folders, same as you would clone a report from the Sitka Templates folder.
-. Any recurring reports running from the old account need to be cancelled by going into the Reports folder 
-for each report and deleting the report. 
+. Any recurring reports running from the old account need to be 
+xref:_deleting_report_definitions_and_output[cancelled] by going into the Reports folder 
+for each report and deleting the report definition. 
 
 [CAUTION]
 =========
-Deleting reports also deletes any output attached to the report so make sure to download any needed 
+Deleting report definitions also deletes any output attached to the report so make sure to download any needed 
 report output as Excel or CSV files and save them to your computer or network drive.
 
 Report output that is more than 3 years old is deleted annually by Co-op Support.
