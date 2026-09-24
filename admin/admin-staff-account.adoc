@@ -572,11 +572,17 @@ When a staff member leaves the library, their staff access should be disabled in
 
 .A local system administrator at your library needs to do the following:
 . xref:_working_locations[Remove the working location(s] from the account
-. xref:_removing_secondary_permission_group[Remove any secondary permission groups] granted by local system administrators.
+. xref:_removing_secondary_permission_group[Remove any secondary permission groups] granted to the account. 
++
+[NOTE]
+======
+While local system administrators can only grant certain secondary permission groups, they can remove all of them.
+======
++
 . Change the main permission group to a patron permission group (or 
 https://bc.libraries.coop/support/[contact Co-op Support] in the case of a local system
 administrator)
-. https://bc.libraries.coop/support/[Contact Co-op Support] if the staff member had permission to access to the reporter
+
 
 If the former staff member will not be using the account as a personal borrowing account, a local system
 administrator can use the http://docs.libraries.coop/sitka/_deleting_patron_accounts.html[patron deletion tool] to delete the account.
