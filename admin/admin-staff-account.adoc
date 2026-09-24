@@ -596,13 +596,15 @@ Recurring Reports
 If the account being closed is currently used to run recurring reports for the library you have 
 two options for handling those reports:
 
-. If the account has only ever been used for staff access (no personal borrowing) you can update the name
+* If the account has only ever been used for staff access (no personal borrowing) you can update the name
  and details on the account (or contact https://bc.libraries.coop/support/[contact Co-op Support] in the 
  case of a local system administrator).  The new user MUST complete a 
  https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[reporter privacy waiver] to comply 
  with Sitka’s privacy policy.
++
 *OR*
-. If the account has been used as both a staff and personal borrowing account the reports will need 
++
+* If the account has been used as both a staff and personal borrowing account the reports will need 
 to be moved to a new staff member.
 
 Moving Reports to a New Staff Member
