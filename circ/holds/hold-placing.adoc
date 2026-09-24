@@ -92,12 +92,14 @@ Placing Call Number and Item Level Holds
 . To place a call number or item level hold, retrieve and display the record.
 . In the _Item Table_ click *Call Number Hold* or *Item Hold* in the *Holdable?* column.
 +
-image:images/circ/callnumberhold1.png[scaledwidth="75%"]
+image:images/circ/holds/call-number-hold-1.png[scaledwidth="75%"]
 +
 . Enter the patron's barcode if you have it or click *Search for Patron* or *Recent Patron*.
 .. You can also use the radio buttons to select the logged in staff account or a xref:_placing_holds_for_a_hold_group[hold group].
+. Edit the patron hold notification fields as required and click *Place Hold(s)*.
 +
-. Edit the patron hold notification fields as required and click *Submit*.
+image:images/circ/holds/call-number-hold-2.png[scaledwidth="75%"]
+
 
 [CAUTION]
 =========
@@ -105,6 +107,8 @@ Co-op Support recommends only using items holds if it's absolutely necessary to 
 item.  Item holds should never be used when placing holds on items owned by other libraries.
 
 Do not use Recall Hold or Force Item Hold.
+
+image:images/circ/holds/item-hold-1.png[scaledwidth="75%"]
 =========
 
 Placing Holds for a Hold Group
@@ -146,10 +150,10 @@ link:https://youtu.be/CBvMWZMgA24[*Sitka Snippet Video - Placing Holds from the 
 +
 image:images/circ/patron-place-hold-1.png[scaledwidth="75%"]
 +
-. The catalogue will open.
+. The staff catalogue will open.
 . Search for the title and place your hold as described in xref:_placing_title_level_holds[].
-. Click *Return* to return to your search results or click on the patron's name to return to the
-patron's account.
+. Click *Return* to return to your search results, the patron's name to return to the patron's account, or 
+*Clear* to continue in the staff catalogue without the link to the patron.
 +
 image:images/circ/patron-place-hold-2.png[scaledwidth="75%"]
 
