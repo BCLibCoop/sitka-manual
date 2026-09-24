@@ -35,7 +35,7 @@ If a patron believes an item was erroneously checked out on their account and st
 to check it in the item can be marked as claims never checked out.
 
 . Go to the _Items Out_ tab in the patron account.
-. Select the item and click *Actions -> Mark Claims Never Checked Out*.
+. Select the item and choose *Mark Claims Never Checked Out* from the *Actions* menu.
 +
 image:images/circ/mark-claims-never-checked-out-1.png[]
 +
@@ -58,7 +58,7 @@ If a patron believes an item out on their account was returned and staff cannot 
 the item can be marked as claims returned. 
 
 . Go to the _Items Out_ tab in the patron account.
-. Select the item and click *Actions -> Mark Claims Returned*.
+. Select the item and choose *Mark Claims Returned* from the *Actions* menu.
 +
 image:images/circ/mark-claims-returned-1.png[]
 +
@@ -72,17 +72,14 @@ is now displayed on the _Other/Special Circulations_ tab.
 +
 image:images/circ/mark-claims-returned-3.png[]
 +
-[NOTE]
-======
-Some libraries prefer to use the status _Missing_.  This can be set using the library setting 
-_Claim Return: Mark copy as missing_.
-====== 
-+
 . The patron's _Claims-returned Count_ is automatically increased. This can be viewed in the patron summary
 and the _Edit_ tab.
 +
 [NOTE]
 ======
+Some libraries prefer to use the status _Missing_ rather than _Claimed Returned_.  This can be set using the library setting 
+_Claim Return: Mark copy as missing_.
+
 Libraries can use the library setting _Max Patron Claims Returned Count_ to set a maximum number of items
 a patron can claim as returned before a staff override is required.
 ====== 
@@ -96,9 +93,9 @@ accordingly on the _Edit_ tab.
 Damaged
 ^^^^^^^
 If a patron damages an item or it is found damaged in the library it can be marked as damaged at check in, 
-from within a patron's account, via the Item Status interface, via the Holds Pull List, or from the Holds Shelf.
+from within a patron's account, from the Holds Pull List, from the Holds Shelf, or via the Item Status interface.
 
-. On the appropriate interface select the item and choose *Mark Item as Damaged* from the *Actions* menu.
+. On the appropriate interface select the item and choose *Mark Items Damaged* from the *Actions* menu.
 +
 image:images/circ/mark-damaged-1.png[]
 +
@@ -131,10 +128,10 @@ Discard/Weed
 ^^^^^^^^^^^^
 
 If an item is slated to be removed from the collection it can be marked as discard/weed at check in, 
-via the Item Status interface, or from the Holds Shelf.  Libraries may wish to use the _Discard/Weed_ 
-status when items to be discarded need to be reviewed before being deleted.
+from the Holds Pull List, from the Holds Shelf, or via the Item Status interface. Libraries may wish to 
+use the _Discard/Weed_ status when items to be discarded need to be reviewed before being deleted.
 
-. On the appropriate interface select the item click *Actions -> Mark Items Discard/Weed*, *Actions -> Mark -> Item as Discard/Weed*, or *Actions -> Mark Item Discard/Weed* (depending on interface).
+. On the appropriate interface select the item and choose *Mark Item Discard/Weed* from the *Actions* menu.
 +
 image:images/circ/mark-discard-1.png[]
 +
@@ -153,17 +150,15 @@ and work with the items.  See xref:_item_buckets[] for information on using item
 Missing
 ^^^^^^^
 
-If an item cannot be located, it can be marked as missing via the Item Status interface or from the Holds Shelf.
+If an item cannot be located, it can be marked as missing from the Holds Shelf, from the Holds Pull List,
+or via the Item Status interface.
 
-. On the appropriate interface select the item and click *Actions -> Mark -> Item as Missing* or *Actions -> Mark Item Missing* (depending on interface).
+. On the appropriate interface select the item and choose *Mark Item Missing* from the *Actions* menu.
 +
 image:images/circ/mark-missing-1.png[]
 +
 . A pop-up appears where staff can confirm that they wish to mark the item by clicking *OK/Continue*.
-. If the item is currently checked out a second pop-up will ask staff to confirm that they wish to check
-in the item.
-. The item is set to _Missing_ and, if previously checked out, is no longer associated with the patron's
-account.
+. The item is set to _Missing_.
 
 A missing item is resolved when it is found and checked in or when it is deleted from Evergreen.
 
@@ -213,13 +208,7 @@ image:images/circ/mark-missing-pieces-2.png[]
 . The xref:_staff_generated_notes[_Create Note_] pop-up will appear.  Use the pop-up to create a note, 
 alert, or block on the patron's account.  
 +
-[NOTE]
-======
-This pop-up is the old Notes pop-up and is missing the functionality that allows staff to select the display
-depth and set a note as patron visible so it displays to the patron in My Account.
-======
-+
-. Click *OK*.
+. Click *Save*.
 . The note is applied to the last borrower's account and the item is set to _Damaged_ and renewed on the
 patron's account, if there are remaining renewals.
 . A letter is generated that can be edited and then printed and mailed to the patron.
@@ -227,7 +216,7 @@ patron's account, if there are remaining renewals.
 image:images/circ/mark-missing-pieces-3.png[]
 
 A missing pieces item is resolved when the pieces are returned and the item is checked in or the pieces 
-are never returned and the item is deleted.  Notes related to the item must be manually removed from
+are never returned and the item is deleted.  Notes, alerts, and blocks related to the item must be manually removed from
 the patron's account.
 
 [NOTE]
@@ -252,21 +241,21 @@ displayed on the _Other/Special Circulations_ tab.
 image:images/circ/mark-lost-2.png[]
 +
 . A bill is automatically added to the patron's account on the _Bills_ tab for the replacement cost of 
-the item and displays in dark red. A processing fee is included if the library has a value in the 
+the item and displays highlighted in pink. A processing fee is included if the library has a value in the 
 library setting _Lost Materials Processing Fee_.
 +
 image:images/circ/mark-lost-3.png[]
 
-[NOTE]
-======
+[TIP]
+=====
 Evergreen can also automatically mark an item as lost after the item is a set number of days overdue.
 See xref:_overdue_mark_lost_notification[] for information on this process.
-======
+=====
 
 A lost item is resolved when it is checked in or paid for.  A checked in lost item will continue
-to display on a patron's  _Other/Special Circulations_ tab until all bills linked to the item are
+to display on a patron's _Other/Special Circulations_ tab until all bills linked to the item are
 resolved.  This includes replacement charges, overdue charges, and manual charges added to the existing bills. 
-See xref:_bills_and_payments[] for more information on managing *Lost* bills.
+See xref:_bills_and_payments[] for more information on managing bills for lost items.
 
 ////
 There are a number of library settings which determine how Evergreen handles lost items:
