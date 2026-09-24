@@ -124,7 +124,7 @@ into xref:_my_account[_My Account_] in the public catalogue.  Library staff can 
 update their email address this way unless their libary has disabled the editing of email addresses
 through My Account.
 
-See xref:_resetting_staff_account_password[] for more ways a library staff password can be reset.
+See xref:_resetting_library_staff_account_passwords[] for more ways a library staff password can be reset.
 
 [CAUTION]
 =========
@@ -141,10 +141,10 @@ Editing Library Staff Accounts via the Staff Client
 Local system administrators can edit all library staff accounts in the staff client the same as you 
 would edit a patron, with the exception of local system administrator accounts. 
 
-See xref:_resetting_staff_account_password[] for ways a library staff password can be reset.
+See xref:_resetting_library_staff_account_passwords[] for ways a library staff password can be reset.
 
 Local system administrator accounts can only be edited in the staff client by Co-op Support. If a local 
-system administrator account needs edits beyond what can be done via My Account please
+system administrator account needs edits beyond what can be done via _My Account_ please
 https://bc.libraries.coop/support/[contact Co-op Support] and include the account barcode and the changes needed.
 
 
@@ -372,7 +372,7 @@ the cover image uploader found in Evergreen's staff catalogue.
 See xref:_uploading_cover_images[] for information on using this feature.
 
 Local system administrators can grant this permission group to library staff accounts. 
-See xref:_secondary_permission_groups[] for instructions.
+See xref:_managing_secondary_permission_groups[] for instructions.
 
 Reporter Full Permission
 ++++++++++++++++++++++++
@@ -395,7 +395,7 @@ This secondary permission group gives library staff access view report output th
 via email or a link.
 
 Local system administrators can grant this permission group to library staff accounts. See 
-xref:_secondary_permission_groups[] for instructions.
+xref:_managing_secondary_permission_groups[] for instructions.
 
 
 
@@ -445,12 +445,12 @@ Granting Additional Permissions to Library Staff Accounts
 
 Additional permissions can be granted to library staff in two ways.
 
-[[_grant_secondary_permission_groups]]
-Secondary Permission Groups
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* xref:_granting_secondary_permission_group[Granting a Secondary Permission Group]
-* xref:_removing_secondary_permission_group[Removing a Secondary Permission Group]
+Managing Secondary Permission Groups
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* xref:_granting_secondary_permission_group[Granting Secondary Permission Groups]
+* xref:_removing_secondary_permission_group[Removing Secondary Permission Groups]
 
 link:https://youtu.be/QgChELUq48E[*Sitka Snippet Video - Additional Permissions for Library Staff Accounts (2:03)*]
 
@@ -474,8 +474,8 @@ Libraries can run a report to see which accounts have secondary permission group
 xref:_staff_assigned_to_supplementary_permission_group_s[] for information on running this report.
 
 [[_granting_secondary_permission_group]]
-Granting a Secondary Permission Group
-+++++++++++++++++++++++++++++++++++++
+Granting Secondary Permission Groups
+++++++++++++++++++++++++++++++++++++
 
 . Open the account of the library staff account you wish to grant a secondary permission group to.
 . Go to the _Edit_ tab.
@@ -498,8 +498,8 @@ image::images/admin/librarystaff/grant-secondary-perm-group-4.png[]
 . You do NOT need to click *Save* in the patron account.
 
 [[_removing_secondary_permission_group]]
-Removing a Secondary Permission Group
-+++++++++++++++++++++++++++++++++++++
+Removing Secondary Permission Group
++++++++++++++++++++++++++++++++++++
 
 . Open the account of the library staff account you wish to remove a secondary permission group from.
 . Go to the _Edit_ tab.
