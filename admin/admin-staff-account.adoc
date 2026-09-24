@@ -469,11 +469,8 @@ groups. If one of these is set as the Main (Profile) Permission Group for a libr
 be unable to login to the staff client.
 =========
 
-The report template _Staff Assigned to Supplementary Permission Group(s)_ can be used to generate a list 
-of library staff at your library who have a secondary permission group assigned to their account.  This template 
-is found under Shared Folders -> Templates -> Sitka_templates -> Patrons -> Library Staff. Co-op Support 
-recommends running this report on an annual basis to keep track of who at your library has secondary permission
-granted.
+Libraries can run a report to see which accounts have secondary permission groups assigned to them.  See
+xref:_staff_assigned_to_supplementary_permission_group_s[] for information on running this report.
 
 [[_granting_secondary_permission_group]]
 Granting a Secondary Permission Group
