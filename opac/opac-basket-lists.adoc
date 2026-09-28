@@ -91,8 +91,8 @@ In the basket view there is also a button that allows you to add the contents of
 
 image::images/opac/opac-basket-12.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
-Print from the Baskets
-^^^^^^^^^^^^^^^^^^^^^^
+Print from the Basket
+^^^^^^^^^^^^^^^^^^^^^
 
 . Select the titles you'd like included.
 . Click the *Print Details* button.
@@ -116,8 +116,8 @@ image:images/opac/opac-print-basket-4.png[scaledwidth="75%"]
 +
 . Follow any prompts from your browser to print the details.
 
-Email from the Baskets
-^^^^^^^^^^^^^^^^^^^^^^
+Email from the Basket
+^^^^^^^^^^^^^^^^^^^^^
 
 . Select the titles you'd like included.
 . Click the *Email Details* button.
@@ -167,13 +167,13 @@ Creating a List via My Account
 
 . Select _My Lists_ from the menu.
 +
-image::images/opac/opac-list-1.png[scaledwidth="75%",alt="My Account Lists"]
+image::images/opac/opac-my-lists-menu-1.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 +
 . In the _Create New List_ section, enter a name and optional description for the list.
 +
-. Click *Share* if you'd like to share the contents of the list with other users.
+. If you'd like to share the contents of the list with other users, select YES from the drop down menu.
 +
-. Click *Create List*.
+. Click *Save New List*.
 +
 image::images/opac/opac-list-2.png[scaledwidth="75%",alt="My Account Lists"]
 
@@ -194,7 +194,7 @@ image::images/opac/opac-list-3.png[scaledwidth="75%",alt="My Account Lists"]
 . By default _Move contents of basket to this list?_ is set to YES.
 .. The contents of the basket displays below.
 +
-. Click *Create List*.
+. Click *Save New List*.
 +
 image::images/opac/opac-list-4.png[scaledwidth="75%",alt="My Account Lists"]
 
@@ -206,7 +206,7 @@ to xref:_adding_titles_to_the_basket[].
 . Select *Add Basket to Saved List* from the basket action menu.
 .. If  not logged in, a prompt appears.
 +
-image::images/opac/opac-list-3.png[scaledwidth="75%",alt="My Account Lists"]
+image::images/opac/opac-my-lists-menu-1.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 +
 . Un-check the box beside any titles you don't want added to the list.
 . Click *Move selected items to list* and choose the list you want from the drop down.
@@ -279,6 +279,13 @@ You can export your list to a comma delimited file by selecting *Download CSV* a
 prompts to save the file on your computer.
 
 image::images/opac/opac-list-9.png[scaledwidth="75%",alt="My Account Lists"]
+
+Editing a List
+^^^^^^^^^^^^^^
+
+You can edit your list to update the name and description.
+
+image::images/opac/opac-list-edit-1.png[scaledwidth="75%",alt="My Account Lists"]
 
 Deleting a List
 ^^^^^^^^^^^^^^^
