@@ -38,8 +38,11 @@ image::images/opac/opac-account-visibility-1.png[scaledwidth="75%",alt="My Accou
 +
 image::images/opac/opac-account-2.png[scaledwidth="75%",alt="My Account"]
 
-NOTE: All patron and staff accounts in Evergreen can access _My Account_ through the public 
+[NOTE]
+======
+All patron and staff accounts in Evergreen can access _My Account_ through the public 
 catalogue.
+======
 
 Resetting Your Password
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -223,7 +226,7 @@ You can choose whether or not to have search terms highlighted in your search re
 Hold Settings
 +++++++++++++
 
-You can also set your preferred pick up location if your library is a multi branch system or part of a
+You can set your preferred pick up location if your library is a multi-branch system or part of a
 larger borrowing zone.
 
 Hold history can be enabled on this screen.  The holds history is not retroactive;

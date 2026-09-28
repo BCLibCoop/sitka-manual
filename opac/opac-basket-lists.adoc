@@ -16,6 +16,9 @@ staff picks or themed lists that can be posted on a library's website.
 
 Lists are accessed via the _My Lists_ section of  _My Account_.
 
+image::images/opac/opac-my-lists-menu-1.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
+
+
 Adding Titles to the Basket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -43,30 +46,33 @@ image::images/opac/opac-basket-4.png[scaledwidth="75%",alt="Adding Titles to the
 Removing Titles from the Basket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Titles can be removed from the basket in a number of ways:
+Titles can be removed from the basket in a number of ways.
 
-* un-checking the box beside the search results. The entire page of results can be removed by un-checking
- the select all box at the top of the results.
+On the search results page you can remove individual titles by un-checking the box beside the search result or 
+by clicking *Remove from basket*.
 
-image::images/opac/opac-basket-5.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
+image::images/opac/opac-basket-5.png[scaledwidth="75%",alt="Removing Titles to the Basket"]
 
-* by clicking *Remove from basket* in the search results view.
+On the search results page you can remove titles in batch by un-checking the select all box at the top of the results
+or clicking *Clear basket*.
 
-image::images/opac/opac-basket-6.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
+image::images/opac/opac-basket-6.png[scaledwidth="75%",alt="Removing Titles to the Basket"]
 
-* by clicking *Remove from basket* on the title details page.
+Titles can also be removed individually by clicking *Remove from basket* on the title details page.
 
 image::images/opac/opac-basket-7.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
-* by using the *Clear Basket* action from the basket icon drop down menu.
+When viewing a basket, you can select the titles you wish to remove and use the *Delete* button 
+in the basket view.
 
 image::images/opac/opac-basket-8.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
-* by selecting the titles you wish to remove and using the *Delete* button in the basket view.
+The entire basket can be cleared by slecting the *Clear Basket* action from the basket icon drop down menu.
 
 image::images/opac/opac-basket-9.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
-* by checking the box for *Clear entire basket when actions complete* before performing an action.
+The entire basket can also be cleared by checking the box for *Clear entire basket when actions complete* before 
+performing an action when viewing a basket.
 
 image::images/opac/opac-basket-10.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 

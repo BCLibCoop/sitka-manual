@@ -73,8 +73,8 @@ You can limit your search by format. Some of the more popular formats in the lis
 [TIP]
 =====
 The format filter uses values from the Leader, 007, and 008 fields of the MARC record to determine which
-records to include in your search results. More information can be found in
-xref:_search_filters_and_format_icons[Search Filters and Format Icons].
+records to include in your search results. See xref:_search_filters_and_format_icons[] for more 
+information.
 =====
 
 Library
@@ -86,8 +86,16 @@ The default search library is your library or borrowing zone. If your library sy
 or a borrowing zone that includes multiple libraries you can use the _Library_ box to select different
 branches or libraries.
 
+[TIP]
+=====
+Libraries participating in Interlibrary Connect can decide how their public catalogue will scope.
+See xref:_search_library_scope[] in the Public Catalogue Customizations chapter.
+=====
+
 If your library has multiple branches, your search results will display items available at your branch and
-all branches of your library system separately. If your library participates in Interlibrary Connect resource sharing,
+all branches of your library system separately. 
+
+If your library participates in Interlibrary Connect, 
 the results may display items available across the larger borrowing zone.
 
 If you access the catalogue from https://catalogue.libraries.coop you may scope your search result to Sitka,
@@ -142,8 +150,16 @@ The default search library is your library or borrowing zone. If your library sy
 or a borrowing zone that includes multiple libraries you can use the _Search Library_ box to select different
 branches or libraries.
 
-If your library has multiple branches, your search result will display items available at your branch and
-all branches of your library system separately. If your library participates in Interlibrary Connect
+[TIP]
+=====
+Libraries participating in Interlibrary Connect can decide how their public catalogue will scope.
+See xref:_search_library_scope[] in the Public Catalogue Customizations chapter.
+=====
+
+If your library has multiple branches, your search results will display items available at your branch and
+all branches of your library system separately. 
+
+If your library participates in Interlibrary Connect, 
 the results may display items available across the larger borrowing zone.
 
 If you access the catalogue from https://catalogue.libraries.coop your default search library is
@@ -194,8 +210,11 @@ Limit to Available Items
 When the _Limit to Available Items_ checkbox is checked search results are limited based on an item’s current
 circulation status. Titles without available items in the selected search library will not be displayed.
 
+[TIP]
+=====
 Item statuses that show as available are: _Available_, _On Display_, _Onsite Consultation_, _Reserves_,
 and _Reshelving_.
+=====
 
 [[_public_catalogue_numeric_search]]
 Numeric Search
@@ -262,11 +281,11 @@ The browse is constructed by the term _starting with_.
 . Click *Browse the Catalogue*.
 . Select a field to browse, enter a keyword, and click *Browse*.
 . A list of results will appear.
-. Click on the bolded text to view bibliographic records.
+. Click on the desired result to view bibliographic records.
 
 image::images/opac/opac-browse-catalogue-2.png[scaledwidth="75%",alt="Basic Search"]
 
-Click  *Back* or *Next* to move through results. Note results
+Click *Back* or *Next* to move through results. Note your results
 are alphabetical, with results prior to the search term, and after, listed.
 
 Search Tips
@@ -398,9 +417,11 @@ and relevance sorts items with like popularity.
 image::images/opac/opac-popularity-1.png[scaledwidth="75%",alt="Basic Search"]
 
 
-NOTE: Currently popularity badges have been set up in Sitka based on hold and circulation counts over the
+[NOTE]
+======
+Currently popularity badges have been set up in Sitka based on hold and circulation counts over the
 last 3 years.
-
+======
 
 
 [[_public_catalogue_search_results]]
@@ -409,7 +430,8 @@ Search Results
 
 The search results are a list of relevant works from the catalogue. If there are many results, they are
 divided into several pages. At the top of the list, you can see the total number of results. You can go back and
-forth between the pages by clicking the Next or Previous at the top or bottom of the list or click the page number to go to that page directly.
+forth between the pages by clicking the Next or Previous buttons at the top and bottom of the list or click the page 
+number to go to that page directly.
 
 Your search terms will be highlighted in both the search results and title details screens. The
 checkbox *Enable Highlighting* enables highlighted search terms, and unchecking it turns highlighting off.
@@ -437,7 +459,7 @@ Formats and Editions
 ^^^^^^^^^^^^^^^^^^^^
 
 If you have selected _Group Formats and Editions_ with your search, your search results are grouped by
-various formats and editions of the same title. Multiple format icons may be lit up.
+various formats and editions of the same title. Multiple format icons may display.
 
 image::images/opac/opac-search-results-2.png[scaledwidth="75%",alt="Basic Search"]
 
