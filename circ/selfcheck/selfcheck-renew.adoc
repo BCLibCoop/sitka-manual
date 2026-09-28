@@ -10,6 +10,6 @@ Patrons can renew items at the self check if they physically have the item.
 +
 image:images/circ/self_check_renew_1.png[scaledwidth="75%"]
 +
-. If the renewal fails, a message advises patron to speak to staff.
+. If the renewal fails, an error message will display on screen.
 +
 image:images/circ/self_check_renew_error_1.png[scaledwidth="75%"]
