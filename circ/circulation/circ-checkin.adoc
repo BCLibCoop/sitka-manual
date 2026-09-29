@@ -63,7 +63,10 @@ Backdate Post-Check In
 +
 image:images/circ/checkin3.png[scaledwidth="75%"]
 +
-. Use the calendar widget to select an effective check in date and click *Submit*. Overdue fines will be adjusted according to the new effective check in date.
+. Use the calendar widget to select an effective check in date and click *Submit*. 
+Overdue fines will be adjusted according to the new effective check in date.
++
+image:images/circ/backdate-post-checkin-2.png[scaledwidth="75%"]
 
 Check In Modifiers
 ^^^^^^^^^^^^^^^^^^
