@@ -18,10 +18,10 @@ Circulation
 ~~~~~~~~~~~
 
 
-* Checking an item in or out no longer updates the Edit Date or Last Editor 
+* xref:_check_in[Checking an item in] or out no longer updates the Edit Date or Last Editor 
 field for item. The item status change date is still updated.
 * Email receipts can be sent from the Renew and Check In interfaces
-* The xref:_self_check[Evergreen shelf check] has been redesigned
+* The xref:_self_check[Evergreen self check] has been redesigned
 * When creating a new item bucket there is an option to xref:_item_bucket_file[upload a .csv file of item barcodes]
 * _Pull List for Holds Requests_ interface has been renamed xref:_holds_pull_list[_Holds Pull List_].
 * Circulation modifier column and *Update Inventory* check box available in 
@@ -45,9 +45,10 @@ field is hidden in the patron account form. See xref:_customizing_the_display_fi
 Cataloguing
 ~~~~~~~~~~~
 
-* The holdings editor has been redesigned to be more accessible
-* There is a Holding Templates Editor which improves functionality for creating and managing holding templates
-* Create MARC Record interface has been angularized and now uses the same editor found in the staff catalogue
+* xref:_the_holdings editor[The holdings editor] has been redesigned to be more accessible
+* There is a xref:_holdings_templates[Holding Templates Editor] which improves functionality for creating and managing holding templates
+* xref:_creating_new_records_for_bibliographic_resources[Create MARC Record interface] has been 
+angularized and now uses the same editor found in the staff catalogue
 * xref:_help_and_additional_options[Special Characters Map] available in the 
 Enhanced MARC Editor.
 * xref:_enhanced_marc_editor[Enhanced MARC Editor]
