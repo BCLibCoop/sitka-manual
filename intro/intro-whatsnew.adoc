@@ -21,9 +21,8 @@ Circulation
 * Checking an item in or out no longer updates the Edit Date or Last Editor 
 field for item. The item status change date is still updated.
 * Email receipts can be sent from the Renew and Check In interfaces
-* The Evergreen shelf check has been redesigned
-* When creating a new item bucket there is an option to upload a .csv file 
-of item barcodes
+* The xref:_self_check[Evergreen shelf check] has been redesigned
+* When creating a new item bucket there is an option to xref:_item_bucket_file[upload a .csv file of item barcodes]
 * _Pull List for Holds Requests_ interface has been renamed xref:_holds_pull_list[_Holds Pull List_].
 * Circulation modifier column and *Update Inventory* check box available in 
 xref:_workflow_in_house_use[Record In-House Use]
