@@ -12,15 +12,20 @@ selecting *Edit -> Items* from the *Actions* menu.
  and then selecting *Edit -> Edit Items* from the *Actions* menu.
 +
 . This will open the _Holdings Editor_ in a new tab.
-. Make the needed changes to the call number record and/or item attributes.  Information on these fields
+. Make any needed changes to the call number record and/or item attributes.  Information on these fields
 can be found in xref:_holdings_editor[].
-. If there are particular item attributes which will be different for different items, you can edit those 
-individually. Click on the attribute, and then de-select the values you don't want to be altered before 
-you apply the changes.
+* For changes that apply to all items simply edit the desired fields.
+* For changes that apply to a subset of items, click *Select Subset to Edit* in the _Barcode_ item
+attribute.
 +
-image::images/cat/batch-edit-item-1.png[]
+image::images/cat/holdings/batch-edit-item-1.png[]
 +
-. Click *Apply All, Save & Exit*.
+.. Check or un-check the boxes for the specific item barcodes as needed and click *Apply Filter*.
++
+image::images/cat/holdings/batch-edit-item-2.png[]
++
+.. Make your desired changes. You can change the subset of barcodes you are editing as many times as needed.
+.. Edit your subset one final time to ensure all barcodes are selected and then click *Apply All, Save & Exit*.
 
 ////
 You can edit items in batch on the _Item Status_ screen, or in an _Item Bucket_. 
