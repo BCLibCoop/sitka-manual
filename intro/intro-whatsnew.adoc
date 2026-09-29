@@ -45,7 +45,7 @@ field is hidden in the patron account form. See xref:_customizing_the_display_fi
 Cataloguing
 ~~~~~~~~~~~
 
-* xref:_the_holdings editor[The holdings editor] has been redesigned to be more accessible
+* xref:_the_holdings_editor[The holdings editor] has been redesigned to be more accessible
 * There is a xref:_holdings_templates[Holding Templates Editor] which improves functionality for creating and managing holding templates
 * xref:_creating_new_records_for_bibliographic_resources[Create MARC Record interface] has been 
 angularized and now uses the same editor found in the staff catalogue
