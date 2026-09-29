@@ -71,9 +71,8 @@ image:images/circ/holds/group-formats-2.png[scaledwidth="75%"]
 image:images/circ/holds/group-formats-3.png[scaledwidth="75%"]
 +
 . Enter the patron's barcode if you have it or click *Search for Patron* or *Recent Patron*.
-.. You can also use the radio buttons to select the logged in staff account or to 
-select a xref:_placing_holds_for_a_hold_group[hold group] and use the drop down to choose the hold
- group from the list.
+.. You can also use the radio buttons to select the logged in staff account or 
+a xref:_placing_holds_for_a_hold_group[hold group].
 + 
 . Edit the patron notification fields if necessary and click *Place Hold(s)*.
 .. Any method or contact number entered on this screen will override defaults in patron record 
