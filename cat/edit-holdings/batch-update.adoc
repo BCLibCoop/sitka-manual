@@ -25,7 +25,12 @@ image::images/cat/holdings/batch-edit-item-1.png[]
 image::images/cat/holdings/batch-edit-item-2.png[]
 +
 .. Make your desired changes. You can change the subset of barcodes you are editing as many times as needed.
-.. Edit your subset one final time to ensure all barcodes are selected and then click *Apply All, Save & Exit*.
+.. You can also select what to edit within an item attribute by de-selecting the values you don’t want to be 
+altered before applying a change to the attribute.
++
+image::images/cat/holdings/batch-edit-item-3.png[]
++
+. Once all your desired changes are made, click *Apply All, Save & Exit*.
 
 ////
 You can edit items in batch on the _Item Status_ screen, or in an _Item Bucket_. 
