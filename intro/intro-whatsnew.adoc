@@ -18,7 +18,7 @@ Circulation
 ~~~~~~~~~~~
 
 
-* Checking and item in or out no longer updates the Edit Date or Last Editor 
+* Checking an item in or out no longer updates the Edit Date or Last Editor 
 field for item. The item status change date is still updated.
 * Email receipts can be sent from the Renew and Check In interfaces
 * The Evergreen shelf check has been redesigned
@@ -79,11 +79,12 @@ Public Catalogue
 
 * New Accessibility Features search filter
 * New Accessibility Features tab in the record view
-* A number of improvements make the public catalogue more accessible
+* Multiple accessibility improvements.
 * Libraries can now add and update banners on their public catalogue
 * Basic Search can be toggled on and off by clicking on Basic Search
 * Search & History within My Account Preferences has been renamed Other Settings
 
+////
 [[_new_features_course_reserves]]
 Course Reserves
 ~~~~~~~~~~~~~~~
@@ -92,6 +93,7 @@ Course Reserves
 [[_new_features_reporter]]
 Reporter
 ~~~~~~~~
+////
 
 
 [[_new_features_administration]]
