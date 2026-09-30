@@ -34,7 +34,7 @@ being sent into transit in the first place.
 [NOTE]
 ======
 If a hold as been cancelled after an item has already been sent into transit to fill the hold, Evergreen 
-will continue to try and send the item to the pick up library. 
+will continue to try and send the item to the pickup library. 
 
 To resolve this, cancel the transit and then check in the item using the check in modifier _Suppress 
 Holds and Transit_. The item's status will update to _Reshelving_ and should behave normally 
@@ -68,7 +68,7 @@ being sent into transit in the first place.
 [NOTE]
 ======
 If a hold as been cancelled after an item has already been sent into transit to fill the hold, Evergreen 
-will continue to try and send the item to the pick up library. 
+will continue to try and send the item to the pickup library. 
 
 To resolve this, cancel the transit and then check in the item using the check in modifier _Suppress 
 Holds and Transit_. The item's status will update to _Reshelving_ and should behave normally 
