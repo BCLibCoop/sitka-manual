@@ -16,7 +16,7 @@ Missing images for bibliographic records should be reported to Syndetics.  If th
 ======
 
 Local system administrators can grant library staff permissions for the Cover Image Uploader. See 
-xref:_granting_additional_permissions_to_staff_accounts[].
+xref:_granting_additional_permissions_to_library_staff_accounts[].
 
 Acceptable file types are jpg, png, xpm, xbm, gif, and bmp. All uploaded images are converted 
 to PNG at the time of upload and scaled to small, medium, and large for various uses within the 
