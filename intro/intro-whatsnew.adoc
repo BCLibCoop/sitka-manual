@@ -56,7 +56,7 @@ Enhanced MARC Editor.
 ** Drop down menus now appear for the Cont and Ills fields in the grid
 ** When adding subfields, focus is now correctly on the subfield field rather than the subfield value field
 ** Fields under 100 are suggested in the drop down when clicking on the field number
-** Alphabetical subfields are listed ahead of numeric onesin the drop down when clicking on a subfield
+** Alphabetical subfields are listed ahead of numeric ones in the drop down when clicking on a subfield
 ** Keyboard navigation is improved
 ** Dark mode is significantly improved
 
