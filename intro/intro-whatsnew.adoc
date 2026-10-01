@@ -18,16 +18,16 @@ Circulation
 ~~~~~~~~~~~
 
 
-* xref:_check_in[Checking an item in] or out no longer updates the Edit Date or Last Editor 
+* Checking an item in or out no longer updates the Edit Date or Last Editor 
 field for item. The item status change date is still updated.
-* Email receipts can be sent from the Renew and Check In interfaces
+* Email receipts can be sent from the Renew and Check In interfaces. See xref:_check_in[].
 * The xref:_self_check[Evergreen self check] has been redesigned
 * When creating a new item bucket there is an option to xref:_item_bucket_file[upload a .csv file of item barcodes]
 * _Pull List for Holds Requests_ interface has been renamed xref:_holds_pull_list[_Holds Pull List_].
 * Circulation modifier column and *Update Inventory* check box available in 
 xref:_workflow_in_house_use[Record In-House Use]
 * Several changes to the patron account which include:
-** The ability to delete inactive barcodes from within the patron account
+** The ability to xref:_delete_inactive_card_patron_account[delete inactive barcodes] from within the patron account
 ** Email receipts can be sent from the _Items Out_ tab
 ** Authorized users now display more prominently in the patron summary
 ** A group overdue count is now included in the patron summary for 
