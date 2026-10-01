@@ -100,8 +100,8 @@ Reporter
 Administration
 ~~~~~~~~~~~~~~
 
-* Patron and Item statistical categories and their values can be edited and deleted
-* Academic libraries can add new values for hard due dates
+* xref:_statistical_categories_patron_editor[Patron] and xref:_statistical_categories_item_editor[Item statistical categories] and their values can be edited and deleted
+* Academic libraries can add new values for xref:_hard_due_date[hard due dates]
 
 
 
