@@ -162,8 +162,8 @@ image::images/cat/buckets/record-bucket-share-5.png[]
 image::images/cat/buckets/record-bucket-share-4.png[]
 
 
-Transfer Bucket Ownership
-+++++++++++++++++++++++++
+Transferring Bucket Ownership
++++++++++++++++++++++++++++++
 [[_record_bucket_action_transfer_owner]]
 
 This action allows you to transfer a bucket to another user.
