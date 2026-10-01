@@ -7,8 +7,13 @@ the item status interface, the MARC Batch Import/Export, and report output.
 Adding Records to a Record Bucket via the Staff Catalogue
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+* xref:_record_bucket_search_results[Search Results]
+* xref:_record_bucket_staff_catalogue_basket[Staff Catalogue Basket]
+* xref:_record_bucket_record_summary[Record Summary]
+
 Search Results
 ++++++++++++++
+[[_record_bucket_search_results]]
 
 . Search the catalogue for the records you would like to add to a bucket, as described
 in xref:_searching_the_database_for_cataloguing_purposes[].
