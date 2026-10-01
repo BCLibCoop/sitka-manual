@@ -5,7 +5,7 @@ Cancelling Transits
 A transit can be cancelled when an item is being erroneously sent to another branch or library.
 
 Whenever possible libraries should use the check in modifier _Suppress Holds and Transit_ to prevent
-unwanted transits and give library staff time to update the item to preventit from triggering a transit
+unwanted transits and give library staff time to update the item to prevent it from triggering a transit
 or resolve whatever needs to be resolved before it can go into transit.
  
 [CAUTION]
