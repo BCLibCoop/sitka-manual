@@ -337,8 +337,11 @@ for a particular account, go to *Administration -> User Permission Editor* in th
 Secondary Permission Groups
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+https://youtu.be/ME_UMtslCy0[*Sitka Training Video - Managing Secondary Permission Groups (5:57)*]
+
 These secondary permission permission groups can be granted to appropriate library staff accounts to give
 access to specific features and functions that are not available through the main staff permission groups.
+
 
 Acquisitions Supplementary Perm Groups
 ++++++++++++++++++++++++++++++++++++++
@@ -454,12 +457,10 @@ https://youtu.be/ME_UMtslCy0[*Sitka Training Video - Managing Secondary Permissi
 * xref:_granting_secondary_permission_group[Granting Secondary Permission Groups]
 * xref:_removing_secondary_permission_group[Removing Secondary Permission Groups]
 
-link:https://youtu.be/QgChELUq48E[*Sitka Snippet Video - Additional Permissions for Library Staff Accounts (2:03)*]
-
-The _Reporter View Output Permissions_ or _Cover Image Upload Secondary Perms_ secondary 
+The _Reporter View Output Access_ or _Cover Image Upload Access_ secondary 
 permission groups can be granted to and removed from 
 all library staff accounts as secondary permission groups by local system administrators. For acquisitions 
-supplementary permission groups
+secondary permission groups
 see https://docs.libraries.coop/acquisitions/_granting_acquisitions_permissions.html[the section called "Granting
 Acquisitions Permissions"] in Sitka’s Evergreen Acquisitions Documentation.
 
@@ -467,7 +468,7 @@ See xref:_secondary_permission_groups[] for information on specific secondary pe
 
 [CAUTION]
 =========
-The _Reporter View Output Permissions_ or _Cover Image Upload Secondary Perms_ groups only function as secondary 
+The _Reporter View Output Access_ or _Cover Image Upload Access_ groups only function as secondary 
 groups. If one of these is set as the Main (Profile) Permission Group for a library staff account, that account will 
 be unable to login to the staff client.
 =========
