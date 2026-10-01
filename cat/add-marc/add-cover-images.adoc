@@ -15,7 +15,8 @@ on the records having the relevant ISBN (020 field), ISSN (022 field), or UPC (0
 Missing images for bibliographic records should be reported to Syndetics.  If the relevant identifier tags (ISBN, ISSN, or UPC) are in the MARC record and the cover art is still not displaying you can email Syndetics. Contact https://bc.libraries.coop/support/[Co-op Support] for the address. Please include the ISBN, ISSN, UPC, or EAN and the title in your email to Syndetics.
 ======
 
-Local System Administrators can grant library staff permissions for the Cover Image Uploader. See xref:_granting_additional_permissions_to_staff_accounts[Granting Additional Permissions to Staff Accounts].
+Local system administrators can grant library staff permissions for the Cover Image Uploader. See 
+xref:_granting_additional_permissions_to_staff_accounts[].
 
 Acceptable file types are jpg, png, xpm, xbm, gif, and bmp. All uploaded images are converted 
 to PNG at the time of upload and scaled to small, medium, and large for various uses within the 
