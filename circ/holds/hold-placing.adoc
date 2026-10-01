@@ -105,6 +105,11 @@ image:images/circ/holds/call-number-hold-1.png[scaledwidth="75%"]
 . Edit the patron hold notification fields as required and click *Place Hold(s)*.
 +
 image:images/circ/holds/call-number-hold-2.png[scaledwidth="75%"]
++
+. The _Holds Status_ field will update to indicate whether or not the hold was sucessfully placed.
+See xref:_hold_placement_status_messages[] for the possible messages.
+You can now place another hold for this call number or item, or click *Return* to go 
+back to the search results.
 
 
 [CAUTION]
