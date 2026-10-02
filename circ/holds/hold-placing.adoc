@@ -49,6 +49,7 @@ results.
 +
 image:images/circ/holds/title-hold-4.png[scaledwidth="75%"]
 
+
 Placing Meta-record Level Holds
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -150,7 +151,7 @@ image:images/circ/holds/hold-group-place-hold-staff-cat-3.png[scaledwidth="75%"]
 Please note that pickup location and notification preferences adhere to the defaults for the 
 respective patrons. These should not be edited while placing holds for hold groups. Patrons can 
 edit their notification preferences and pickup locations from My Account on the public catalogue 
-after the hold is placed. Holds may be suspended and an activate date added if desired.
+after the hold is placed. 
 ======
 
 
