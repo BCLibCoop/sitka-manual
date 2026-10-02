@@ -52,7 +52,10 @@ NOTE: You will be prompted to log in with your library account, if you have not 
 +
 image::images/opac/opac-eresource-6b.png[scaledwidth="75%",alt="eResources"]
 +
-NOTE: You must have an email address recorded in your account in order to successfully place a hold.
+[NOTE]
+======
+You must have an email address recorded in your account in order to successfully place a hold.
+======
 +
 . The hold is placed and you will receive an email when it is ready to be checked out.
 +
