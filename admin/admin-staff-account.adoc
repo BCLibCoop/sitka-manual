@@ -474,7 +474,7 @@ be unable to login to the staff client.
 =========
 
 Libraries can run a report to see which accounts have secondary permission groups assigned to them.  See
-xref:_staff_assigned_to_supplementary_permission_group_s[] for information on running this report.
+xref:_staff_assigned_to_secondary_permission_groups[] for information on running this report.
 
 [[_granting_secondary_permission_group]]
 Granting Secondary Permission Groups
