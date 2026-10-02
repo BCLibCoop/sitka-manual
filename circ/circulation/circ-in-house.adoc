@@ -19,6 +19,12 @@ count of catalogued items is not included in an item's total use count.
 [[_in_house_catalogued_items]]
 Catalogued Items
 ^^^^^^^^^^^^^^^^
+[NOTE]
+======
+If your library tracks in-house use, check the box for *Update Inventory* on all computers where 
+items may be in-housed while you are doing inventory. See xref:_workflow_in_house_use[] for 
+additional details.
+======
 . Go to *Circulation -> Record In-House Use*.
 . Enter the number of uses if it is more than the default of 1.
 . Scan or enter barcode.
