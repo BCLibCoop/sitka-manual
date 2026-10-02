@@ -66,11 +66,11 @@ Enhanced MARC Editor.
 Staff Catalogue
 ~~~~~~~~~~~~~~~
 
-* New Cancel if not filled by option when placing holds
+* New Cancel if not filled by option when xref:_placing_holds_staff_client[placing holds]
 * New option to xref:_placing_holds_for_a_hold_group[place holds for Hold Groups]
  when placing holds.
-* New option to retrieve recent patrons when placing holds
-* Improvements to shelf browse display
+* New option to retrieve recent patrons when xref:_placing_holds_staff_client[placing holds]
+* Improvements to xref:_shelf_browse_staff[shelf browse] display
 
 
 [[_new_features_public_catalogue]]
@@ -80,7 +80,7 @@ Public Catalogue
 * New Accessibility Features search filter. See xref:_public_catalogue_search_filters[].
 * New Accessibility Features tab in the record view. See xref:_view_a_title_record[].
 * Multiple accessibility improvements.
-* Libraries can now add and update banners on their public catalogue
+* Libraries can now xref:_public_catalogue_messaging_settings[add and update banners] on their public catalogue
 * xref:_basic_search[Basic Search] can be toggled on and off by clicking on Basic Search
 * Search & History within My Account Preferences has been renamed xref:_other_settings[Other Settings]
 
