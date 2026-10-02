@@ -8,21 +8,24 @@ Setting Browser Defaults for Web Client
 
 To ensure that staff can easily get to the web client portal page on login without additional steps, you can set the browser’s home page to default to the web client.
 
-.Setting the Web Client as the Home Page in Chrome
-. Click *Menu*. (three vertical dots in the upper-right corner).
+.Setting the Staff Client as the Home Page in Chrome
+. Click *Menu* (The three vertical dots in the upper-right corner).
 +
-image::images/intro/browser1.png[]
+image::images/intro/browser/browser-1.png[]
 +
 . Click *Settings*.
-. In the _On startup_ section, select Open a specific page or set of pages.
+. Click *On startup* on left side of screen.
+. Select *Open a specific page or set of pages*.
 +
-image::images/intro/homepage1.png[]
+image::images/intro/browser/browser-homepage-1.png[]
 +
 . Click *Add a new page*.
 . Site URL: *https://catalogue.libraries.coop/eg/staff/*.
 . Click *Add*.
 +
-image::images/intro/homepage2.png[]
+image::images/intro/browser/browser-homepage-2.png[]
++
+. The staff client login page will be your homepage the next time you open Chrome.
 
 [[_bookmarks_profiles]]
 Bookmarks and Shortcuts
@@ -67,9 +70,9 @@ Update browser
 ^^^^^^^^^^^^^^
 
 .Make sure your browser is up to date
-. Click *Menu*.
+. Click *Menu* (The three vertical dots in the upper-right corner).
 +
-image::images/intro/browser1.png[]
+image::images/intro/browser/browser-1.png[]
 +
 . Click *Help*.
 . Click *About Google Chrome*.
@@ -82,35 +85,36 @@ Allow Pop-ups
 
 Your browser must allow pop-ups from *https://catalogue.libraries.coop* or you will see a small icon or message when a pop-up is triggered.
 
-image::images/intro/popup.png[]
+image::images/intro/browser/browser-allow-pop-ups-1.png[]
 
 .Allow Pop-ups
-. Click *Menu*.
+. Click *Menu* (The three vertical dots in the upper-right corner).
 +
-image::images/intro/browserpopup.png[]
+image::images/intro/browser/browser-allow-pop-ups-2.png[]
 +
 . Click *Settings*.
 . Click *Privacy and Security* on left side of screen.
 . Scroll down and click *Site settings*.
 . Scroll down to *Content* and click on *Pop ups and redirects*.
 +
-image:images/intro/browser2.png[scaledwidth="75%"]
+image:images/intro/browser/browser-allow-pop-ups-3.png[scaledwidth="75%"]
 +
 
 . Under *Customised behaviors* click *Add* beside *Allowed to send pop-ups and use redirects* .
 . Site: *https://catalogue.libraries.coop*.
 . Click *Add*.
+. The URL is added to the list of sites for which pop-ups are allowed.
 +
-image:images/intro/popupallow.png[scaledwidth="75%"]
+image:images/intro/browser/browser-allow-pop-ups-4.png[scaledwidth="75%"]
 
 Allow Cookies
 ^^^^^^^^^^^^^
 (((Browser, Cookies)))
 
 .Allow Cookies
-. Click *Menu*.
+. Click *Menu* (The three vertical dots in the upper-right corner).
 +
-image::images/intro/browser1.png[]
+image::images/intro/browser/browser-1.png[]
 +
 . Click *Settings*.
 . Select *Privacy and security* from the left hand side.
@@ -118,31 +122,33 @@ image::images/intro/browser1.png[]
 . Under _General Settings_ make sure  _Block third-party cookies_ is selected.
 . Click *Add* beside _Sites allowed to use third-party cookies_.
 +
-image:images/intro/cookies-1.png[scaledwidth="75%"]
+image:images/intro/browser/cookies-1.png[scaledwidth="75%"]
 +
 . Enter catalogue.libraries.coop and click *Add*.
 +
-image:images/intro/cookies-2.png[scaledwidth="75%"]
+image:images/intro/browser/cookies-2.png[scaledwidth="75%"]
 
 Security Software and Cookies
 +++++++++++++++++++++++++++++
 
-If you have cookies enabled in your browser, but they are disappearing, check your computer's security or antivirus software to see if it may be deleting your cookies on a regular basis.
+If you have cookies enabled in your browser, but they are disappearing, check your computer's 
+security or antivirus software to see if it may be deleting your cookies on a regular basis.
+
 
 Turn Off Autofill
 ^^^^^^^^^^^^^^^^^
 (((Browser, Autofill)))
 
-. Click *Menu*.
+. Click *Menu* (The three vertical dots in the upper-right corner).
 +
-image::images/intro/browser1.png[]
+image::images/intro/browser/browser-1.png[]
 +
 . Click *Settings*.
 . Select *Autofill and passwords* from the left hand side.
 . Click *Contact info*.
 . Turn off *Save and fill addresses*.
 +
-image::images/intro/autofill.png[]
+image::images/intro/browser/browser-autofill-1.png[]
 
 Troubleshooting
 ~~~~~~~~~~~~~~~
@@ -159,10 +165,15 @@ If you are encountering issues in Evergreen please check the
 browser console and send any error messages that appear to 
 xref:https://bc.libraries.coop/support/[Co-op Support].
 
+[NOTE]
+======
+Please read xref:_guidelines_for_support_requests[] before submitting your ticket.
+======
+
 .Chrome Console Messages:
-. Click *Menu*.
+. Click *Menu* (The three vertical dots in the upper-right corner).
 +
-image::images/intro/browser1.png[]
+image::images/intro/browser/browser-1.png[]
 +
 . Select *More Tools*.
 . Select *Developer Tools*. (This will open a pane on the right-side of your browser.)
@@ -184,37 +195,37 @@ of the errors that display in red.
 when you see the errors occurring. Be sure to include any of the errors that 
 display in red.
 
-[NOTE]
-======
-Please read xref:_guidelines_for_support_requests[] before submitting your ticket.
-======
+
 
 
 Clear Cache
 ^^^^^^^^^^^
 (((Browser, Cache)))
 
+Sometimes issues with Evergreen's staff client are caused by the browser. These issues 
+can sometimes be resolved by clearing your browser cache.
+
 
 .Clear Cache
-. Click *Menu*.
+. Click *Menu* (The three vertical dots in the upper-right corner).
 +
-image::images/intro/browser1.png[]
+image::images/intro/browser/browser-1.png[]
 +
 . Click *Settings*.
 . Select *Privacy and security*.
 . Select *Delete browsing data*.
-. Click *More* and select _All time_ to set the time range.
-. Check the box next to _Cached images and files_ .
-. Click *Delete data*.
+. Select _All time_ to set the time range.
+. Check the box next to *Cached images and files* .
+. Click *Delete from this device*.
 +
-image::images/intro/clearcache.png[]
+image::images/intro/browser/clear-cache-1.png[]
 
 Clear Cookies
 ^^^^^^^^^^^^^
 (((Browser, Cookies)))
 
-
-If you log in and see a blank page with the green bar across the top, but nothing else will load, you may need to clear your browser's cache and cookies.
+Sometimes issues with Evergreen's staff client are caused by the browser. If clearing your 
+browser cache doesn't resolve the issue the next thing to try is clearing your cookies.
 
 [CAUTION]
 =========
@@ -227,19 +238,18 @@ your workstation settings.
 =========
 
 .Clear Cookies
-. Click *Menu*.
+. Click *Menu* (The three vertical dots in the upper-right corner).
 +
-image::images/intro/browser1.png[]
+image::images/intro/browser/browser-1.png[]
 +
 . Click *Settings*.
 . Select *Privacy and security*.
 . Select *Delete browsing data*.
-. Click *More* and select _All time_ to set the time range.
-. Check the boxes next to _Cookies and other site data_ and 
-_Cached images and files_ .
-. Click *Delete data*.
+. Select _All time_ to set the time range.
+. Check the box next to *Cookies and other site data*.
+. Click *Delete from this device*.
 +
-image::images/intro/clear-cookies-1.png[]
+image::images/intro/browser/clear-cookies-1.png[]
 +
 . Return to https://catalogue.libraries.coop/eg/staff
 . You will need to register a workstation.  See 
@@ -250,19 +260,21 @@ Reset Settings
 (((Browser, Settings)))
 
 
-If you still see a blank page with the green bar across after clearing your cookies the next step is to reset your
+If you still experiencing issues after clearing your cookies the next step is to reset your
 settings for Chrome.
 
 .Reset Settings
-. Click *Menu*.
+. Click *Menu* (The three vertical dots in the upper-right corner).
 +
-image::images/intro/browser1.png[]
+image::images/intro/browser/browser-1.png[]
 +
 . Click *Settings*.
 . Click *Reset Settings* from the left hand side.
 . Click *Restore settings to their original defaults*.
 . Click *Reset settings*.
 . Return to https://catalogue.libraries.coop/eg/staff
+. You will need to register a workstation.  See 
+xref:_registering_a_staff_workstation[].
 
 Delete the Offline Database
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -272,9 +284,9 @@ If you still see a blank page with the green bar across after clearing your cook
 the next step is to delete the offline database.
 
 . Navigate to https://catalogue.libraries.coop/eg/staff
-. Click *Menu*.
+. Click *Menu* (The three vertical dots in the upper-right corner).
 +
-image::images/intro/browser1.png[]
+image::images/intro/browser/browser-1.png[]
 +
 . Click *More tools*.
 . Click *Developer tools*.
@@ -282,9 +294,11 @@ image::images/intro/browser1.png[]
 . Expand the _Indexed DB section_.
 . Click on the *offline - https://catalogue.libraries.coop* section.
 . Click the *Delete database* button.
-. Click the *X* in the upper-right corner of the section to close the tool frame.
 +
-image::images/intro/browser3.png[]
+image::images/intro/browser/browser-offline-database-1.png[]
++
+. Click the *X* in the upper-right corner of the section to close the tool frame.
+
 
 Reconnect Hatch
 ^^^^^^^^^^^^^^^
