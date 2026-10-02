@@ -65,11 +65,12 @@ image::images/opac/opac-basket-7.png[scaledwidth="75%",alt="Adding Titles to the
 When viewing a basket, you can select the titles you wish to remove and use the *Delete* button 
 in the basket view.
 
-image::images/opac/opac-basket-8.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
+image::images/opac/opac-basket-9.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
+
 
 The entire basket can be cleared by slecting the *Clear Basket* action from the basket icon drop down menu.
 
-image::images/opac/opac-basket-9.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
+image::images/opac/opac-basket-8.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
 The entire basket can also be cleared by checking the box for *Clear entire basket when actions complete* before 
 performing an action when viewing a basket.
