@@ -44,23 +44,17 @@ http://docs.libraries.coop/policy/_the_bibliographic_record.html#_sitka_8217_s_m
 and a http://docs.libraries.coop/policy/_the_bibliographic_record.html#_a_good_marc_record[good MARC record] will exceed the minimum requirements.
 ======
 +
+. If desired, check the box for *Add Item* and enter the call number and barcode.
++
+image::images/cat/new-marc-add-item-1.png[]
++
 . Click *Save Changes*.
-. The record is created and will open up in the staff catalogue in the browser tab.
+. The record is created and will open up in the staff catalogue in the browser tab. If the box for 
+*Add Item* was checked the Holdings Editor will open in an additional browser tab.
 . xref:_adding_holdings[Add your holdings] to the record.
-
-////
++
 [NOTE]
 ======
-If you used *Add Item* the Holdings Editor will have opened in a new tab.
-
-If you did not use *Add Item*, you may now attach holdings as described 
-in xref:_adding_holdings_to_bibliographic_records[].
+If you do not add a holding to your record it will be automatically deleted 3 months 
+after its creation date.
 ======
-
-
-. Check the box for Add Item if you wish to use the fast item add feature.  You must have 
-xref:allow-popups[pop-ups allowed] for this feature to work.
-+
-image::images/cat/new-marc-5.png[]
-+
-////
