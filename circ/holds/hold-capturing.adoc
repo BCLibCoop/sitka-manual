@@ -28,7 +28,7 @@ auto-printing is enabled.
 chosen for notification when the hold was placed. The chosen method will display on the hold slip and 
 is included on the printed slip by default.
 +
-image:images/circ/holds-capture-1.png[]
+image:images/circ/holds/holds-capture-1.png[]
 +
 [CAUTION]
 =========
@@ -57,7 +57,7 @@ auto-printing is enabled.
 . The pop up will indicate what location the item needs to be sent to. This 
 information is also available on the printed slip by default.
 +
-image:images/circ/holds-capture-2.png[]
+image:images/circ/holds/holds-capture-2.png[]
 +
 . The _Route To_ column on the Check In screen will also show the library code of the library 
 the item is to be sent to.
