@@ -13,7 +13,7 @@ used fields and subfields included. Libraries can also use a workaround to set
 up xref:_using_library_specific_marc_templates[library specific templates].
 
 . Go to *Cataloguing -> Create New Marc Record*.
-. The MARC Template screen opens. Click into the drop down menu to see the available templates. 
+. Click on the drop down menu to see the available MARC templates. 
 +
 image::images/cat/new-marc-2.png[]
 +
@@ -28,7 +28,7 @@ template.
 image::images/cat/new-marc-3.png[]
 +
 . A blank MARC record will load with the fields and subfields most commonly used for the 
-resource type. The Leader and 008 will be coded for the specified type of resource; this coding 
+resource type. The Leader and control fields will be coded for the specified type of resource; this coding 
 affects the 
 xref:_search_filters_and_format_icons[format icon and search filters].
 +
@@ -44,8 +44,8 @@ http://docs.libraries.coop/policy/_the_bibliographic_record.html#_sitka_8217_s_m
 and a http://docs.libraries.coop/policy/_the_bibliographic_record.html#_a_good_marc_record[good MARC record] will exceed the minimum requirements.
 ======
 +
-. Click *Save*.
-. The record is created and will open up in your tab in the current default view.
+. Click *Save Changes*.
+. The record is created and will open up in the staff catalogue in the browser tab.
 . xref:_adding_holdings[Add your holdings] to the record.
 
 ////
