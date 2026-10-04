@@ -94,8 +94,12 @@ image::images/cat/holdings/item-attribute-apply-3.png[scaledwidth="75%"]
 
 ======
 
-Item Alerts
-^^^^^^^^^^^
+Working with Item Alerts
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+* xref:_add_item_alert[Adding an Item Alert]
+* xref:_edit_item_alert[Editing an Item Alert]
+* xref:_delete_item_alert[Deleting an Item Alert]
 
 Item alerts pop up on the screen when the item is checked in and/or checked out to alert staff that something
 further needs to be done with or known about the item.  
@@ -111,6 +115,7 @@ the alerts pop-up.
 image::images/cat/holdings/item-alert-5.png[scaledwidth="75%",alt="Item Alerts"]
 ======
 
+[[_add_item_alert]]
 Adding an Item Alert
 ++++++++++++++++++++
 
@@ -135,6 +140,7 @@ image::images/cat/holdings/item-alert-3.png[scaledwidth="75%",alt="Item Alerts"]
 . The alert will appear when the item is checked out and/or checked in depending on 
 the alert type chosen.
 
+[[_edit_item_alert]]
 Editing an Item Alert
 +++++++++++++++++++++
 
@@ -155,7 +161,7 @@ image::images/cat/holdings/item-alert-4b.png[scaledwidth="75%",alt="Item Alerts"
 . The updated alert will appear when the item is checked out and/or checked in depending on 
 the alert type chosen.
 
-
+[[_delete_item_alert]]
 Deleting an Item Alert
 ++++++++++++++++++++++
 
@@ -172,12 +178,17 @@ image::images/cat/holdings/item-alert-6.png[scaledwidth="75%",alt="Item Alerts"]
 . The alert is deleted and will no longer appear at check out and/or check in.
 
 
-Item Notes
-^^^^^^^^^^
+Working with Item Notes
+^^^^^^^^^^^^^^^^^^^^^^^
+
+* xref:_add_item_note[Adding an Item Note]
+* xref:_edit_item_note[Editing an Item Note]
+* xref:_delete_item_note[Deleting an Item Note]
 
 Notes can be added to item records. Notes will not show up when items are retrieved, but they can be made 
 public and displayed in the public catalogue.
 
+[[_add_item_note]]
 Adding an Item Note
 +++++++++++++++++++
 
@@ -201,6 +212,7 @@ image::images/cat/holdings/item-note-3.png[scaledwidth="75%",alt="Item Notes"]
 +
 image::images/cat/holdings/item-note-4.png[scaledwidth="75%",alt="Item Notes"]
 
+[[_edit_item_note]]
 Editing an Item Note
 ++++++++++++++++++++
 
@@ -222,7 +234,7 @@ image::images/cat/holdings/item-note-edit-3.png[scaledwidth="75%",alt="Item Note
 +
 . Back in the holdings editor, click *Apply All, Save & Exit*.
 
-
+[[_delete_item_note]]
 Deleting an Item Note
 +++++++++++++++++++++
 
@@ -275,10 +287,14 @@ Item tags can be removed via the same process.
 
 ////
 
-Item Statistical Category Values
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Working with Item Statistical Category Values
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 https://youtu.be/H8Ta5ml4flc[*Sitka Snippet Video - Using Item Statistical Categories (1:45)*]
+
+* xref:_apply_item_stat_cat_value[Applying an Item Statistical Category Value]
+* xref:_clear_item_stat_cat_value[Clearing an Item Statistical Category Value]
+
 
 Item Statistical Categories, also referred to as item stat cats, can be used to capture item 
 information the library needs that isn't otherwise captured in the item record.  This 
@@ -303,6 +319,7 @@ to your federation or your library to change what stat cats display.
 
 image::images/cat/holdings/item-stat-cat-2.png[scaledwidth="75%",alt="Item Statistical Category"]
 
+[[_apply_item_stat_cat_value]]
 Applying an Item Statistical Category Value
 +++++++++++++++++++++++++++++++++++++++++++
 
@@ -319,6 +336,7 @@ image::images/cat/holdings/item-stat-cat-4.png[scaledwidth="75%",alt="Item Stati
 +
 . Click *Apply All, Save & Exit*.
 
+[[_clear_item_stat_cat_value]]
 Clearing an Item Statistical Category Value
 +++++++++++++++++++++++++++++++++++++++++++
 
