@@ -58,7 +58,7 @@ Select the record and click *Show in Catalog*.
 image::images/cat/z3950/z3950-search-5.png[]
 +
 . If the record in the catalogue matches your item xref:_adding_holdings[add your holding], otherwise
-xref:import_from_z3950[import a new record via Z39.50].
+xref:_import_from_z3950[import a new record via Z39.50].
 
 
 [[_import_from_z3950]]

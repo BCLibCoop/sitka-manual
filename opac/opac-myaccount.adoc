@@ -29,7 +29,7 @@ option to change your username on the _Account Preferences_ screen.
 +
 .. If you do not have or cannot recall your password please contact your local library to have 
 the password
-reset or use the xref:_resetting_your_password.[*Forgot Your Password?*] link.
+reset or use the xref:_resetting_your_password[*Forgot Your Password?*] link.
 .. You can use the password visibility button to see what you have entered for your password.
 +
 image::images/opac/opac-account-visibility-1.png[scaledwidth="75%",alt="My Account"]
@@ -38,8 +38,11 @@ image::images/opac/opac-account-visibility-1.png[scaledwidth="75%",alt="My Accou
 +
 image::images/opac/opac-account-2.png[scaledwidth="75%",alt="My Account"]
 
-NOTE: All patron and staff accounts in Evergreen can access _My Account_ through the public 
+[NOTE]
+======
+All patron and staff accounts in Evergreen can access _My Account_ through the public 
 catalogue.
+======
 
 Resetting Your Password
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -193,39 +196,54 @@ Notification Preferences
 _Notification Preferences_ is where you set your preferences for holds notification. You can choose
 to be contacted by email or phone.
 
+To receive emailed checkout receipts by default, select _Email checkout receipts by default_ .
+
 To opt-out of receiving courtesy and overdue email notices use the _Receive Overdue and Courtesy Emails_
 setting.  Un-checking this box means your library will not send you any emails for items coming due or
 overdue. You are still responsible for returning items on time and paying any applicable fines.
 
-To receive emailed checkout receipts by default, select _Email checkout receipts by default_ .
 
 image::images/opac/opac-account-7.png[scaledwidth="75%",alt="My Account"]
 
 
-Search and History Preferences
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Other Settings
+^^^^^^^^^^^^^^
 
 (((Check Out History)))
 (((Hold History)))
 
-_Search and History Preferences_ is where you configure settings around search results, history,
+_Other Settings_ is where you configure settings around search results, history,
 and allowing others access to your account.
+
+Search Settings
++++++++++++++++
 
 You can select how many search results are displayed per page on your catalogue searches as well as your
 preferred search location if your library is a multi-branch system or part of a larger borrowing zone.
 
-You can also set your preferred pick up location if your library is a multi branch system or part of a
-larger borrowing zone.
-
 You can choose whether or not to have search terms highlighted in your search results.
 
-Check Out and Hold history can be enabled on this screen.  The check out and holds history is not retroactive;
+Hold Settings
++++++++++++++
+
+You can set your preferred pick up location if your library is a multi-branch system or part of a
+larger borrowing zone.
+
+Hold history can be enabled on this screen.  The holds history is not retroactive;
 it takes effect once you choose to retain your history.
 
-You may also choose to disable a warning about adding items to a temporary list.
+Authorized Users
+++++++++++++++++
 
 You can specify who, if anyone, can access your account and what access you wish them to
 have.  This is useful if you'd like someone else to be able to pick up your holds for you, for example.
+
+Other
++++++
+
+Check Out history can be enabled on this screen. Check out history is not retroactive; it takes effect once you choose to retain your history.
+
+You may also choose to disable a warning about adding items to a temporary list.
 
 image::images/opac/opac-account-8.png[scaledwidth="75%",alt="My Account"]
 
@@ -295,8 +313,8 @@ previously checked out.
 
 image::images/opac/opac-account-checked-out-3.png[scaledwidth="75%",alt="My Account Checked Out"]
 
-Check out history will only display if it has been enabled in your 
-xref:_search_and_history_preferences[_Search and History Preferences_].  History
+Check out history will only display if it has been enabled in your account's
+xref:_other_settings[_Other Settings_].  History
 displays from the date you enabled it; items checked out prior will not be included in your history.
 
 You can sort the list by Title, Author, Checkout Date, Due Date, Date Returned, Barcode, or Call number by
@@ -328,13 +346,17 @@ You can sort the list by Title, Author, and Format by clicking on the blue text.
 list in ascending order and a second click sorts the list in descending order.
 
 You can use the checkbox beside each hold to select the hold and use the buttons to suspend, activate, 
-or cancel the selected holds. You may set an activation date when you suspend your hold
+or cancel the selected holds. The suspend, activate, and cancel buttons can also be used in the
+_Edit_ column.
+You may set an activation date when you suspend your hold
 or leave the date blank and manually activate it later. A suspended hold will not lose its hold queue position.
 
 The _Status_ column shows whether or not your hold is currently available for pickup, if it has been
-suspended, and what your position is in the hold queue.
+suspended, and what your position is in the hold queue. You can use the checkbox labelled
+"Show only items available for pickup" to toggle showing all items or only those available for pickup.
+You can also refresh the list of items by clicking on *Refresh holds list*.
 
-Your position in the hold queue is indicated by the first number in the status column. For example
+Your position in the hold queue is indicated by the first number in the _Status_ column. For example
 "Hold #3 on 1 copy" indicates you are third in the hold queue.
 
 Clicking the *Edit* button will bring you to the hold editing screen.  Here you can:
@@ -360,8 +382,8 @@ be included in your history.
 
 image::images/opac/opac-account-holds-3.png[scaledwidth="75%",alt="My Account Holds"]
 
-Holds history will only display if it has been enabled in your 
-xref:_search_and_history_preferences[_Search and History Preferences_].
+Holds history will only display if it has been enabled in your account's 
+xref:_other_settings[_Other Settings_].
 
 [[_public_catalogue_hold_groups]]
 Hold Groups
@@ -392,7 +414,7 @@ Charges
 Current Charges
 ^^^^^^^^^^^^^^^
 
-In _My Account_ click *Charges -> Current Charges* to display any oustanding charges.
+In _My Account_ click *Charges -> Current Charges* to display any outstanding charges.
 
 image::images/opac/opac-account-charges-1.png[scaledwidth="75%",alt="My Account Fines"]
 

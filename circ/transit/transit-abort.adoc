@@ -1,20 +1,76 @@
-Cancel Transits
-~~~~~~~~~~~~~~~
+Cancelling Transits
+~~~~~~~~~~~~~~~~~~~
 (((Cancel Transit)))
 
-NOTE: Under certain circumstances cancelling a transit may be required, but it effectively cancels the previous check in. Cancelling a transit affects data integrity and the accuracy of circulation statistics. Co-op Support strongly recommends that only sending libraries ever cancel a transit, and only  before physically sending out items, while receiving libraries never cancel a transit, but check them in instead. This recommendation is a required work flow for libraries participating in BC_ILC and SPRUCE resource sharing agreements.
+A transit can be cancelled when an item is being erroneously sent to another branch or library.
 
+Whenever possible libraries should use the check in modifier _Suppress Holds and Transit_ to prevent
+unwanted transits and give library staff time to update the item to prevent it from triggering a transit
+or resolve whatever needs to be resolved before it can go into transit.
+ 
+[CAUTION]
+=========
+The option to cancel a transit should be used sparingly and only under some circumstances as it 
+effectively cancels the previous check in. Cancelling a transit affects data integrity and the 
+accuracy of circulation statistics.  
 
-Cancel a Transit from Transit List
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+As per https://docs.libraries.coop/policy/_inter_library_loan.html[Interlibrary Connect policy], 
+libraries participating in Interlibrary Connect should only cancel a transit if they own the item and 
+they are unable to send the item to fill a hold at another library.
+=========
 
-. Select the transit and click *Cancel Transit* tab.
+Cancelling a Transit at Check In
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Select the item you wish to cancel the transit for and from choose *Cancel Transits* from the
+*Actions* menu.
 +
-image:images/circ/canceltransit2.png[scaledwidth="75%"]
+image:images/circ/cancel-transit-check-in-1.png[scaledwidth="75%"]
 +
-. Click *Cancel Transit* at prompt.
+. On the pop-up that appears click *OK/Continue* to proceed with cancelling the transit.
+. The item will now have the status of _Canceled Transit_. Resolve the reason why the item was
+being sent into transit in the first place.
+
+[NOTE]
+======
+If a hold as been cancelled after an item has already been sent into transit to fill the hold, Evergreen 
+will continue to try and send the item to the pickup library. 
+
+To resolve this, cancel the transit and then check in the item using the check in modifier _Suppress 
+Holds and Transit_. The item's status will update to _Reshelving_ and should behave normally 
+going forward.
+======
+
+Cancelling a Transit from the Transit List
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Go to *Administration -> Local Administration -> Transit List*.
+. Check the radio button for *Transits From*.
 +
-image:images/circ/canceltransit1.png[scaledwidth="75%"]
+image:images/circ/cancel-transit-list-1.png[scaledwidth="75%"]
 +
-. Item status is updated to *Canceled Transit* if it had been "In Transit" “Lost” or “Checked Out” before. Items with any other prior status will return to the status they were in before they were sent into transit.
-. Items in *Canceled Transit* status must be checked in.
+. Adjust the start and end date as needed.
++
+image:images/circ/cancel-transit-list-2.png[scaledwidth="75%"]
++
+. Select the transit you would like to cancel and click *Cancel Transit*.
++
+image:images/circ/cancel-transit-list-3.png[scaledwidth="75%"]
++
+. The pop-up that appears will indicate if there are any associate holds. To proceed 
+with cancelling the transit click *Cancel Transit*.
++
+image:images/circ/cancel-transit-list-4.png[scaledwidth="75%"]
++
+. The item's status is updated to _Canceled Transit_. Resolve the reason why the item was
+being sent into transit in the first place.
+
+[NOTE]
+======
+If a hold as been cancelled after an item has already been sent into transit to fill the hold, Evergreen 
+will continue to try and send the item to the pickup library. 
+
+To resolve this, cancel the transit and then check in the item using the check in modifier _Suppress 
+Holds and Transit_. The item's status will update to _Reshelving_ and should behave normally 
+going forward.
+======

@@ -8,8 +8,7 @@ about your items that is not included in the standard fields in the item record.
 categories can be created at the branch, system, or federation level by staff with the 
 appropriate permissions.
 
-Item statistical categories can be used in reporting and OPAC visible stat cats display in
-your public catalogue.
+Item statistical categories can xref:_sitka_templates_collection[be used in reporting], and OPAC visible stat cats xref:_view_a_title_record[display in your public catalogue].
 
 See xref:_item_statistical_category_values[] for information on applying statistical categories
 to items.
@@ -20,20 +19,77 @@ Creating Statistical Categories
 
 https://youtu.be/M1-_Cp4lN4I[*Sitka Snippet Video - Creating Item Statistical Categories (1:39)*]
 
-. Go to *Administration -> Local Administration-> Statistical Categories - Item Editor*.
+. Go to *Administration -> Local Administration-> Statistical Categories Editor - Item*.
+. Statistical categories are displayed for your workstation's library. Multi-branch libraries 
+need to set the library to their system in the xref:_library_selector[library selector] and check the box to display 
+descendants.
 . Click *New Statistical Category - Item*.
 +
 image::images/admin/stat-cat-item-1.png[]
 +
 . Enter the relevant information for your statistical category and click *Save*.
 +
-* *Required*: If checked, a value must be selected for the stat cat when cataloguing a new item.
-* *OPAC Visible*: If checked, the stat cat name and the selected value are displayed in 
+* *Required*: If YES is selected, a value must be assigned for the stat cat when cataloguing a new item.
+* *OPAC Visible*: If YES is selected, the stat cat name and the selected value are displayed in 
 the item table when looking at a record in the public catalogue.
-* *Checkout Archive*: If checked, the stat cat and its value are kept in aged 
+* *Checkout Archive*: If YES is selected, the stat cat and its value are kept in aged 
 circulation records.
+* *Sip Field* and *SIP Format* are not currently used by Sitka.
 +
 image::images/admin/stat-cat-item-2.png[]
++
+. Click *Save*.
+. The statistical category now displays in the grid. Entries can now be added as per xref:_adding_patron_statistical_category_entries[]. 
+
+[[_editing_item_statistical_categories]]
+Editing Statistical Categories
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+https://youtu.be/WqABms3yMEA[*Sitka Snippet Video - Editing Item Statistical Categories (0:59)*]
+
+. Go to *Administration -> Local Administration-> Statistical Categories Editor - Item*.
+. Statistical categories are displayed for your workstation's library. Multi-branch libraries 
+need to set the library to their system in the xref:_library_selector[library selector] and check the box to display 
+descendants.
+. Select the statistical category you would like to edit.
+. From the *Actions* menu choose *Edit Selected*.
++
+image::images/admin/stat-cat-item-6.png[]
++
+. Make your changes and click *Save*.
+. Your changes will be reflected in the grid and in the statistical category field in the holdings editor.
+
+
+[[_deleting_item_statistical_categories]]
+Deleting Statistical Categories
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+https://youtu.be/T_hhcbbcs4k[*Sitka Snippet Video - Deleting Item Statistical Categories (1:05)*]
+
+[CAUTION]
+=========
+Once a statistical category is deleted it cannot be un-deleted by either library staff or
+Co-op Support.  
+
+Deleting a statistical category also removes the associated values from any items using them.
+=========
+
+. Go to *Administration -> Local Administration-> Statistical Categories Editor - Item*.
+. Statistical categories are displayed for your workstation's library. Multi-branch libraries 
+need to set the library to their system in the xref:_library_selector[library selector] and check the box to display 
+descendants.
+. Select the statistical category you would like to delete.
+. From the *Actions* menu choose *Delete Selected*.
++
+image::images/admin/stat-cat-item-7.png[]
++
+. A pop-up will appear asking you to confirm that you wish to deleted the statistical category.
+. If you truly wish to delete the statistical category click *Confirm*.
++
+image::images/admin/stat-cat-item-8.png[]
++
+. Your statistical category is deleted and no longer displays in the grid. The statistical category and
+all associated values are also removed from all item records. 
 
 [[_adding_item_statistical_category_entries]]
 Adding Statistical Category Entries
@@ -44,7 +100,10 @@ https://youtu.be/b3uE4zUB6sQ[*Sitka Snippet Video - Adding Item Statistical Cate
 Each statistical category can have multiple values that library staff can choose from when 
 adding or editing an item.
 
-. Go to *Administration -> Local Administration-> Statistical Categories - Item Editor*.
+. Go to *Administration -> Local Administration-> Statistical Categories Editor - Item*.
+. Statistical categories are displayed for your workstation's library. Multi-branch libraries 
+need to set the library to their system in the xref:_library_selector[library selector] and check the box to display 
+descendants.
 . Click *Entries* for the stat cat you would like to add values to.  
 +
 image::images/admin/stat-cat-item-3.png[]
@@ -60,60 +119,64 @@ image::images/admin/stat-cat-item-5.png[]
 . Repeat as needed to add additional values.
 . Clicking *Return* in the top right of the screen will take you back to the previous screen.
 
-[NOTE]
-======
-Statistical category entries cannot be edited or deleted in the staff client.  Please contact
-https://bc.libraries.coop/support/[Co-op Support] for assistance.
-======
 
-[[_editing_item_statistical_categories]]
-Editing Statistical Categories
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[[_editing_item_statistical_category_entries]]
+Editing Statistical Category Entries
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-https://youtu.be/WqABms3yMEA[*Sitka Snippet Video - Editing Item Statistical Categories (0:59)*]
-
-. Go to *Administration -> Local Administration-> Statistical Categories - Item Editor*.
-. Select the statistical category you would like to edit.
-. From the *Actions* menu choose *Edit Selected*.
+. Go to *Administration -> Local Administration-> Statistical Categories Editor - Item*.
+. Statistical categories are displayed for your workstation's library. Multi-branch libraries 
+need to set the library to their system in the xref:_library_selector[library selector] and check the box to display 
+descendants.
+. Click *Entries* for the stat cat you would like to edit the values of.  
 +
-image::images/admin/stat-cat-item-6.png[]
+image::images/admin/stat-cat-item-3.png[]
 +
-. Make your changes and click *Save*.
-. Your changes will be reflected in the grid.
+. Click the checkbox of the entry you want to edit.
+. Select *Actions -> Edit Selected*.
++
+image::images/admin/stat-cat-item-edit-1.png[]
++
+. Change the value and click *Save*.
++
+image::images/admin/stat-cat-item-edit-2.png[]
++
+. The entry is updated in the grid as well as on any items using the value.
+. Repeat as needed to edit other entries.
+. Clicking *Return* in the top right of the screen will take you back to the previous screen.
 
+[[_deleting_item_statistical_category_entries]]
+Deleting Statistical Category Entries
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-[[_deleting_item_statistical_categories]]
-Deleting Statistical Categories
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-https://youtu.be/T_hhcbbcs4k[*Sitka Snippet Video - Deleting Item Statistical Categories (1:05)*]
-
-Statistical categories can only be deleted if the entries associated with it haven't been applied to any items.
-
-////
 [CAUTION]
 =========
-Once a statistical category is deleted it cannot be un-deleted by either library staff or
+Once a statistical category entry is deleted it cannot be un-deleted by either library staff or
 Co-op Support.  
 
-Deleting a statistical category also removes the associated values from any items using them.
+Deleting a statistical category entry also removes the associated values from any items using them.
 =========
-////
 
-. Go to *Administration -> Local Administration-> Statistical Categories - Item Editor*.
-. Select the statistical category you would like to delete.
-. From the *Actions* menu choose *Delete Selected*.
+. Go to *Administration -> Local Administration-> Statistical Categories Editor - Item*.
+. Statistical categories are displayed for your workstation's library. Multi-branch libraries 
+need to set the library to their system in the xref:_library_selector[library selector] and check the box to display 
+descendants.
+. Click *Entries* for the stat cat you would like to delete the values of.
 +
-image::images/admin/stat-cat-item-7.png[]
+image::images/admin/stat-cat-item-3.png[]
 +
-. A pop-up will appear asking you to confirm that you wish to deleted the statistical category.
-. If you truly wish to delete the statistical category click *Confirm*.
+. Click the checkbox of the entry you want to delete.
+. Select *Actions -> Delete Selected*.
 +
-image::images/admin/stat-cat-item-8.png[]
+image::images/admin/stat-cat-item-delete-1.png[]
 +
-. Your statistical category is deleted and no longer displays in the grid.
-. If entries have already been applied to items you will see the message _Delete of Statistical Category - Item failed 
-or was not allowed_. Please contact https://bc.libraries.coop/support/[Co-op Support] for assistance.  
+* Click *Confirm* to confirm deletion.
++
+image::images/admin/stat-cat-item-delete-2.png[]
++
+. The entry no longer displays in the grid and is deleted from any patron accounts that were using the value.
+. Repeat as needed to delete other entries.
+. Clicking *Return* in the top right of the screen will take you back to the previous screen.
 
 
 Statistical Categories - Patron Editor
@@ -126,9 +189,9 @@ about your patrons that is not included in the standard fields in the patron rec
 categories can be created at the branch, system, or federation level by staff with the 
 appropriate permissions.
 
-Patron statistical categories can be used in reporting and can be set to display to library
-staff in the patron summary in the patron account and to patrons in the Personal Information
-section of My Account in the public catalogue.
+Patron statistical categories can be set to display to library
+staff in the patron summary in the patron account and to patrons in the xref:_personal_information[Personal Information
+section of My Account] in the public catalogue. Patron statistical categories can also xref:_sitka_templates_patrons[be used in reporting]. 
 
 [[_creating_patron_statistical_categories]]
 Creating Statistical Categories
@@ -136,7 +199,10 @@ Creating Statistical Categories
 
 https://youtu.be/-W87k_ZQov0[*Sitka Snippet Video - Creating Patron Statistical Categories (2:05)*]
 
-. Go to *Administration -> Local Administration-> Statistical Categories - Patron Editor*.
+. Go to *Administration -> Local Administration-> Statistical Categories Editor - Patron*.
+. Statistical categories are displayed for your workstation's library. Multi-branch libraries 
+need to set the library to their system in the xref:_library_selector[library selector] and check the box to display 
+descendants.
 . Click *New Statistical Category Editor- Patron* to open the editor.
 +
 image::images/admin/stat-cat-patron-1.png[]
@@ -144,51 +210,19 @@ image::images/admin/stat-cat-patron-1.png[]
 . Enter the relevant information for your statistical category.
 +
 * *Name*: The name will be visible to library staff and can be visible to patrons.  
-* *Required*: If checked, a value must be selected for the stat cat when cataloguing a new item.
-* *OPAC Visible*: If checked, the stat cat name and the selected value are displayed in 
-the item table when looking at a record in the public catalogue.
-* *User Summary*: If checked, the stat cat and value display in the patron summary within 
-the patron account.
-* *Free Text*: If checked, staff can type in a value rather than being restricted to a 
+* *Required*: If YES is selected, a value must be assigned when creating a new account or saving an existing account.
+* *OPAC Visible*: If YES is selected, the stat cat name and the selected value are displayed in the patron’s account in the public catalogue.
+* *User Summary*: If YES is selected, the stat cat and value display in the patron summary within 
+the patron account if a value has been entered.
+* *Free Text*: If YES is selected, staff can type in a value rather than being restricted to a 
 the list of predefined entries.
-* *Checkout Archive*: If checked, the stat cat and its value are kept in aged 
-circulation records.
+* *Checkout Archive*: If YES is selected, the stat cat and its value are kept in aged circulation records. 
 * *SIP Field* and *SIP Format* are not currently used by Sitka.
 +
 image::images/admin/stat-cat-patron-2.png[]
 +
-. Click *Save*
-
-[[_adding_patron_statistical_category_entries]]
-Adding Statistical Category Entries
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-https://youtu.be/dcN6WKPpSOs[*Sitka Snippet Video - Adding Patron Statistical Category Entries (1:01)*]
-
-Each statistical category can have multiple values that library staff can choose from when 
-registering or editing a patron.
-
-. Go to *Administration -> Local Administration-> Statistical Categories - Patron Editor*.
-. Click *Entries* for the stat cat you would like to add values to.  
-+
-image::images/admin/stat-cat-patron-3.png[]
-+
-. Click *New Statistical Category Entry - Item*.
-+
-image::images/admin/stat-cat-patron-4.png[]
-+
-. Enter the value and click *Save*.
-+
-image::images/admin/stat-cat-patron-5.png[]
-+
-. Repeat as needed to add additional values.
-. Clicking *Return* in the top right of the screen will take you back to the previous screen.
-
-[NOTE]
-======
-Statistical category entries cannot be edited or deleted in the staff client.  Please contact
-https://bc.libraries.coop/support/[Co-op Support] for assistance.
-======
+. Click *Save*.
+. The statistical category now displays in the grid. Entries can now be added as per xref:_adding_patron_statistical_category_entries[]. 
 
 [[_editing_patron_statistical_categories]]
 Editing Statistical Categories
@@ -196,14 +230,17 @@ Editing Statistical Categories
 
 https://youtu.be/XwC2pv5aPEM[*Sitka Snippet Video - Editing Patron Statistical Categories (0:57)*]
 
-. Go to *Administration -> Local Administration-> Statistical Categories - Patron Editor*.
+. Go to *Administration -> Local Administration-> Statistical Categories Editor - Patron*.
+. Statistical categories are displayed for your workstation's library. Multi-branch libraries 
+need to set the library to their system in the xref:_library_selector[library selector] and check the box to display 
+descendants.
 . Select the statistical category you would like to edit.
 . From the *Actions* menu choose *Edit Selected*.
 +
-image::images/admin/stat-cat-patron-6.png[]
+image::images/admin/stat-cat-edit-cat-patron-1.png[]
 +
 . Make your changes and click *Save*.
-. Your changes will be reflected in the grid.
+. Your changes will be reflected in the grid and in the statistical category field in the patron account.
 
 [[_deleting_patron_statistical_categories]]
 Deleting Statistical Categories
@@ -211,10 +248,7 @@ Deleting Statistical Categories
 
 https://youtu.be/Zz9A9FUfrtc[*Sitka Snippet Video - Deleting Patron Statistical Categories (1:07)*]
 
-Statistical categories can only be deleted if the entries associated with it haven't been 
-applied to any patrons.
 
-////
 [CAUTION]
 =========
 Once a statistical category is deleted it cannot be un-deleted by either library staff or
@@ -222,9 +256,11 @@ Co-op Support.
 
 Deleting a statistical category also removes the associated values from any patrons using them.
 =========
-////
 
-. Go to *Administration -> Local Administration-> Statistical Categories - Patron Editor*.
+. Go to *Administration -> Local Administration-> Statistical Categories Editor - Patron*.
+. Statistical categories are displayed for your workstation's library. Multi-branch libraries 
+need to set the library to their system in the xref:_library_selector[library selector] and check the box to display 
+descendants.
 . Select the statistical category you would like to delete.
 . From the *Actions* menu choose *Delete Selected*.
 +
@@ -235,6 +271,92 @@ image::images/admin/stat-cat-patron-7.png[]
 +
 image::images/admin/stat-cat-patron-8.png[]
 +
-. Your statistical category is deleted and no longer displays in the grid.  
-. If entries have already been applied to patrons you will see the message _Delete of Statistical Category - Patron failed 
-or was not allowed_. Please contact https://bc.libraries.coop/support/[Co-op Support] for assistance.
+. Your statistical category is deleted and no longer displays in the grid. The statistical category and
+all associated values are also removed from all patron accounts. 
+
+[[_adding_patron_statistical_category_entries]]
+Adding Statistical Category Entries
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+https://youtu.be/dcN6WKPpSOs[*Sitka Snippet Video - Adding Patron Statistical Category Entries (1:01)*]
+
+Each statistical category can have multiple values that library staff can choose from when 
+registering or editing a patron.
+
+. Go to *Administration -> Local Administration-> Statistical Categories Editor - Patron*.
+. Statistical categories are displayed for your workstation's library. Multi-branch libraries 
+need to set the library to their system in the xref:_library_selector[library selector] and check the box to display 
+descendants.
+. Click *Entries* for the stat cat you would like to add values to.  
++
+image::images/admin/stat-cat-patron-3.png[]
++
+. Click *New Statistical Category Entry - Patron*.
++
+image::images/admin/stat-cat-patron-4.png[]
++
+. Enter the value and click *Save*.
++
+image::images/admin/stat-cat-patron-5.png[]
++
+. Repeat as needed to add additional values.
+. Clicking *Return* in the top right of the screen will take you back to the previous screen.
+
+
+[[_editing_patron_statistical_category_entries]]
+Editing Statistical Category Entries
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Go to *Administration -> Local Administration-> Statistical Categories Editor - Patron*.
+. Statistical categories are displayed for your workstation's library. Multi-branch libraries 
+need to set the library to their system in the xref:_library_selector[library selector] and check the box to display 
+descendants.
+. Click *Entries* for the stat cat you would like to edit the values of.  
++
+image::images/admin/stat-cat-patron-3.png[]
++
+. Click the checkbox of the entry you want to edit.
+. Select *Actions -> Edit Selected*.
++
+image::images/admin/stat-cat-patron-edit-1.png[]
++
+. Edit the value as desired and click *Save*.
++
+image::images/admin/stat-cat-patron-edit-2.png[]
++
+. The entry is updated in the grid as well as on any patron accounts using the value.
+. Repeat as needed to edit other entries.
+. Clicking *Return* in the top right of the screen will take you back to the previous screen.
+
+[[_deleting_patron_statistical_category_entries]]
+Deleting Statistical Category Entries
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+[CAUTION]
+=========
+Once a statistical category entry is deleted it cannot be un-deleted by either library staff or
+Co-op Support.  
+
+Deleting a statistical category entry also removes the entry from any patrons using it.
+=========
+
+. Go to *Administration -> Local Administration-> Statistical Categories Editor - Patron*.
+. Statistical categories are displayed for your workstation's library. Multi-branch libraries 
+need to set the library to their system in the xref:_library_selector[library selector] and check the box to display 
+descendants.
+. Click *Entries* for the stat cat you would like to delete the values of.
++
+image::images/admin/stat-cat-patron-3.png[]
++
+. Click the checkbox of the entry you want to delete.
+. Select *Actions -> Delete Selected*.
++
+image::images/admin/stat-cat-patron-delete-1.png[]
++
+. Click *Confirm* to confirm deletion.
++
+image::images/admin/stat-cat-patron-delete-2.png[]
++
+. The entry no longer displays in the grid and is deleted from any patron accounts that were using the value.
+. Repeat as needed to delete other entries.
+. Clicking *Return* in the top right of the screen will take you back to the previous screen.

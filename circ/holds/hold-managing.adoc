@@ -115,7 +115,7 @@ Edit Hold Dates
 image:images/circ/holds/modify-holds-hold-dates-1.png[scaledwidth="75%"]
 +
 ** Activate Date: The date on which a suspended hold will be activated.
-** Expire Date: The date on which the hold will expire in Evergreen if it is never filled.
+** Expire Date: The date on which the hold will expire in Evergreen if it is never filled. 
 ** Request Date: The date on which the hold was placed.  Holds are generally filled in the order they were
 placed so editing the request date can change the order of the queue.
 ** Shelf Expire Date: The date on which the hold will expire from the holds shelf, based on the value in the
@@ -181,6 +181,20 @@ on the activation date; otherwise, staff or the patron will need to manually act
 Patrons can suspend and activate their holds via xref:_items_on_hold[My Account].
 ======
 
+////
+Expire holds
+++++++++++++
+[[_modify_holds_cancel]]
+
+. On the _View Holds_ tab in the staff catalogue, select the hold to edit and go to 
+*Actions -> Modify Hold(s)*.
+. In the pop-up that appears, modify the expire date. 
+.. The default expire date is determined by the library setting _Expire Interval_.
+.. Patrons can set an expire date when placing a hold and edit it via
+ xref:_items_on_hold[My Account].
+. Click *Apply*.
+
+////
 
 Top of Queue
 ++++++++++++

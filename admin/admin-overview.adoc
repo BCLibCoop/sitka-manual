@@ -1,20 +1,118 @@
 Administration Overview
 ------------------------
 
-Administration functions are available on the *Administration* dropdown menu.  Functions on this menu are grouped into either the target module
- that the configuration applies to or the effect scope, e.g. individual workstations, libraries or the whole consortium.  These function 
- are visible to anyone logged into the staff client but most of them require special permissions to edit.
+Administration functions are available on the *Administration* drop down menu.  Functions on 
+this menu are grouped into either the target module that the configuration applies to 
+or the effect scope, e.g. individual workstations, libraries or the whole consortium. Most of these 
+function  are visible to anyone logged into the staff client but most of them require 
+special permissions to edit.
+
+xref:_workstation_administration[*Workstation Administration*]: Here you may register your 
+computer with extra libraries, configure printer settings, print templates, 
+workstation settings and their storage location.
+
+xref:_individual_permissions[*User Permission Editor*]: Local system administrators may add 
+extra permissions to individual staff accounts. 
+
+xref:_local_administration[*Local Administration*]: Most settings applied to individual libraries
+ are configured here.
+
+xref:_server_administration[*Server Administration*]: Settings here are mainly applied to the 
+whole consortium. But individual libraries can configure a few items, such as, call number 
+prefix/suffix, library's operation hours and addresses under Organizational Units.
+
+https://docs.libraries.coop/acquisitions/_administration.html[*Acquisitions Administration*]: 
+Settings relating to the acquisitions module, including EDI accounts, fund management, 
+and maintaining providers.
+
+xref:_serials_administration[*Serials Administration*]: Here you can manage and create prediction 
+pattern and serial item templates. 
+
+xref:_booking_module_administration[*Booking Administration*]: Here you can manage and create
+ resources for the booking module, as well  as their types and attributes.
+
+xref:_reporter_overview[*Reports*]: Create and clone report templates, view shared templates and 
+report output.
+
+xref:_simple_reports[*Simple Reports*]: This feature is not used by Sitka.
+
+[NOTE]
+======
+You may access most of the administration functions but attempting to edit may fail silently if you do not have the required 
+permission. Your changes will not be saved.
+======
 
 
-*Workstation Administration*: Here you may register your computer with extra libraries, configure printer settings, print templates, 
-workstation's settings and their storage location.
-
-*Local Administration*: Most settings applied to individual libraries are configured here.
-
-*Server Administration*: Settings here are mainly applied to the whole consortium. But individual libraries can configure a few 
-items, such as, call number prefix/suffix, library's operation hours and addresses under Organizational Units.
-
-*User Permission Editor*: Local system administrators may add extra permissions to individual staff accounts. 
-
-NOTE: You may access most of the administration functions but attempting to edit may fail silently if you do not have the required 
-permission. Your editing will not be saved.
+[options="header"]
+|====
+| Menu option | Description | Menu | Permissions
+|xref:_age_hold_protect_rules[Age Hold Protect Rules] |Enables libraries to block holds from 
+being filled for patrons from other libraries or branches until the item has been active for a 
+specified amount of time. | Server | Local System Administrators can view. Contact Co-op Support 
+for updates.
+| xref:_age_overdue_circs_to_lost[Age Overdue Circ to Lost] | To create a queue of ALL overdue 
+items by selected patron profiles at selected libraries to be marked lost. It 
+does not support date parameter. This feature is mainly for school libraries' end of term 
+process. To automatically mark items lost when they are overdue for x days, 
+contact Co-op support. | Local | Local System Administrator
+| Auto-Print Settings | To block automatic receipt printing in selected staff client transactions.
+ | Local | Local System Administrator
+| xref:_call_number_prefix_and_suffix[Call Number Prefix and Suffix] |Build a standard list which 
+will be displayed as drop down options when creating or editing call number records. | Server |
+ Local System Administrators 
+| xref:_carousels[Carousels] | Carousels are only available for use with LibPress websites.
+ | Local | Carousels Secondary Permissions
+| xref:_cash_reports[Cash Reports] | View summary report of cash transactions for selected date range. | Local | All staff
+| xref:_circulation_modifiers[Circulation Modifiers] |Information on viewing circulation modifiers.
+ | Server | Local System Administrators can view
+| xref:_circulation_policies[Circulation Policies] | Information on viewing and updating 
+circulation policies.	| Local | Local System Administrators can view. Contact Co-op Support for 
+updates.
+| xref:_closed_dates_editor[Closed Dates Editor] | Set library ad hoc closure dates. (affects due dates and fines)	| Local | Local System Administrator
+| xref:_floating_group[Floating Group] |Information on viewing and updating floating groups.
+ | Server | Local System Administrators can view. Contact Co-op Support for updates.
+| xref:_group_penalty_thresholds[Group Penalty Thresholds] | Set library-specific thresholds for 
+maximum items out, maximum overdues, and maximum fines. | Local | Local System Administrator
+| xref:_hold_policies[Hold Policies] | Information on viewing and updating hold policies. | Local | Local System Administrators can view. Contact Co-op Support for updates.
+| xref:_creating_holdings_templates[Holdings Template Editor] | Interface to create holdings 
+templates.  | Local | Local System Administrator/Cataloguers
+| xref:_hard_due_date[Hard Due Date] |Information on viewing and updating hard due dates.
+ | Server | Local System Administrators and Co-op Support
+| xref:_hopeless_holds[Hopeless Holds] |View summary of hopeless holds for selected date range.
+ | Local | Local System Administrator
+| xref:_item_alert_suppression[Item Alert Suppression] | Suppress item alerts on selected actions. | Local | Local System Administrator
+| xref:_item_statuses[Item Statuses] |View item statuses and their properties. | Server | Local 
+System Administrators can view
+| xref:_item_tags[Item Tags] | Not currently used by Sitka. | Local | No permissions granted.
+| xref:_library_settings_editor[Library Settings Editor] | Detailed library configuration settings.
+ | Local | Local System Administrator/Co-op Suppport
+| xref:_non_catalogued_type_editor[Non-catalogued Type Editor] | Create and edit optional 
+non-catalogued item types. | Local | Local System Administrator
+| xref:_notifications_action_triggers[Notifications / Action Triggers] |Information on viewing and
+ updating notifications and action triggers. | Local | Local System Administrators can view. 
+ Contact Co-op Support for updates.
+| xref:_organizational_units[Organizational Units] |Information on viewing and updating 
+organizational unit settings including library email address, phone number, hours of operation, 
+and adddress. | Server | Local System Administrators
+| xref:_patrons_with_negative_balances[Patrons with Negative Balances] | Display a list of patron 
+accounts with negative bill balances, to whom the library may owe refunds. | Local | All staff
+| xref:_permission_tree_display_entries[Permission Tree Display Entries] |Information on viewing 
+and updating permission group trees. | Local | Local System Administrators can view. Contact 
+Co-op Support for updates.
+| xref:_shelving_location_editor[Shelving Location Editor] | Create and edit shelving locations.
+ | Local | Local System Administrator
+| xref:_shelving_location_groups[Shelving Location Groups] | Allows one or more shelving locations 
+to be grouped together as a search location. | Local | Local System Administrator
+| xref:_shelving_location_order[Shelving Location Order] | Change display order of shelving 
+locations on Holds Pull list. | Local | Local System Administrator
+| xref:_statistical_categories_item_editor[Statistical Categories - Item Editor] | Create and 
+manage optional categories for detailed item information. | Local | Local System Administrator
+| xref:_statistical_categories_patron_editor[Statistical Categories - Patron Editor] |Create and 
+manage optional categories for detailed patron information.  | Local | Local System Administrator
+| xref:_surveys[Surveys] | Create patron surveys to be completed at patron registration. | 
+Local | Local System Administrator
+| xref:_transit_list_admin[Transit List] | View items in transit to or from your library during 
+selected date range. | Local | All staff
+| xref:_work_log[Work Log] | List the most recent transactions processed on the workstation. 
+| Local | All staff
+|====

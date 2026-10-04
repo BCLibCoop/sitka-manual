@@ -11,9 +11,9 @@ their patron data.
 
 In accordance with https://bc.libraries.coop/support/sitka/sitka-shared-library-database-detailed-privacy-policy/[Sitka’s 
 privacy policy] and owing to the nature of Sitka’s shared 
-Evergreen database any staff needing access to the reporter must sign and submit the 
+Evergreen database any library staff needing access to the reporter must sign and submit the 
 https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/full-reporter-privacy-waiver/[Full 
-Reporter Privacy Waiver].  Once the waiver is completed, if the staff account meets the 
+Reporter Privacy Waiver].  Once the waiver is completed, if the library staff account meets the 
 https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[required criteria],
 Co-op Support will grant reporter permissions to the account. 
 
@@ -52,11 +52,9 @@ into an output file. The output file can be viewed xref:_viewing_output_via_the_
 within the staff client] or xref:_viewing_output_via_the_email_link[via the link in the report completion 
 email].
 
-Any staff needing to view report output, but not run reports, must sign and submit the 
-https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/all-staff-reporter-privacy-waiver/[All 
-Staff Reporter Privacy Waiver].  Once the waiver is completed, if the staff account meets the 
-https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/[required criteria],
-Co-op Support will grant report output viewing permissions to the account. 
+Any library staff needing to view report output, but not run reports, must have the secondary permission group
+_Reporter View Output Permissions_ granted to their acount. See xref:_managing_secondary_permission_groups[]
+for information on granting _Reporter View Output Permissions_.
 
 [TIP]
 =====

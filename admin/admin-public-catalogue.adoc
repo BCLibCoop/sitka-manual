@@ -49,11 +49,102 @@ like Interlibrary Connect, have three option for how their public catalogue scop
 . All libraries in your zone display in the search list and your library is the default
 . All libraries in your zone display in the search list and the top organization in the zone is the default
 
+Public Catalogue Library Settings
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+There are a number of library settings that can be used by local system administrators to customize 
+the public catalogue.
+
+See xref:_library_settings_editor[] for additional information on editing library settings.
+
+Public Catalogue Messaging Settings
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+https://youtu.be/l7LAwrq2Yoo[*Sitka Training Video - Adding Messags to Your Public Catalogue (4:26)*]
+
+Messaging on the public catalogue can be customized with a temporary banner with text and links which is applied across the top of your public catalogue, and a custom message displayed on log in.
+
+image::images/admin/opac-banner-customize-1.png[]
+
+OPAC Alert Banner: Display
+++++++++++++++++++++++++++
+Can be set to TRUE to display the banner or FALSE to hide the banner.
+
+OPAC Alert Banner: Type
++++++++++++++++++++++++
+The banner has four display options which change the text colour:
+
+* success
+* info
+* warning
+* danger
+
+[NOTE]
+======
+Coop support recommends using "danger" for the best contrast.
+======
+
+OPAC Alert Banner: Text
++++++++++++++++++++++++
+Banner text can be formatted using HTML.
+
+.HTML Text Formatting
+[options="header"]
+|===
+| Format  | Code               
+| Bold  | `$$<b>hello</b>$$`       
+| Italic | `$$<i>hello</i>$$`      
+| Underline   | `$$<u>hello</u>$$`   
+| Link   | `$$<a href="https://bc.libraries.coop">hello</a>$$`   
+| Line Break  | `$$hello<br>hello$$`   
+|===
+
+OPAC Login Message
+++++++++++++++++++
+Sets a message to be displayed after logging in to My Account.
+
+
+
+////
+ADDITIONAL SETTINGS TO ADD POST-UPGRADE
+
+Patron Related Settings
+^^^^^^^^^^^^^^^^^^^^^^^
+
+* Allow Patron Self-Registration
+* Hide Username field in Patron Self-Reg
+* Patron Self-Reg. Date of Birth Order
+* Patron Self-Reg. Display Timeout
+* Allow pending addresses
+
+xref:_personal_information[pending address display]
+
+xref:_request_a_library_card[link to for self check related settings]
+
+
+
+
+* My Account URL (such as "https://example.com/eg/opac/login")
+* Library information URL (such as "http://example.com/about.html")
+* Use external "library information URL" in copy table, if available
+* _uses phone as default pin_
+* OPAC Inactivity Timeout (in seconds)
+* OPAC: Number of staff client saved searches to display on left side of results 
+and record details pages
+* Tag Circulated Items in Results
+* Allow users to browse Courses by Instructor
+* Allow multiple username changes
+* Allow record emailing without login
+* Warn patrons when adding to a temporary book list
+
+////
+
+
 [[_request_a_library_card_custom]]
 Request a Library Card
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Libraries which allow patrons to self register using the xref:_request_a_library_card[Request a Library Card] functionality
+Libraries that allow patrons to self register using the xref:_request_a_library_card[Request a Library Card] functionality
 can add custom text between the form fields and the *Submit Registration* button.  This can be used to include information about why the library is collecting
 the information required in the form and what the library will do with that information.
 

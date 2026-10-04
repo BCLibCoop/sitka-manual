@@ -61,7 +61,7 @@ Exporting MARC Records via a Record Bucket
 image::images/cat/export-marc-bucket-1.png[]
 +
 . Remove any records from your bucket that you don't want to export; the entire contents of the bucket will
-be exported. See xref:_managing_bucket_contents[].
+be exported. See xref:_managing_record_buckets[].
 . From the *Actions* menu select *Export Records*.
 +
 image::images/cat/export-marc-bucket-2.png[]

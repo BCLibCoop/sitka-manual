@@ -8,9 +8,9 @@ Patrons can cancel their own holds through the xref:_public_catalogue_holds[_Ite
 in the public catalogue.
 
 Library staff can cancel holds for patrons through the xref:_holds_tab[_Open Holds Requests_] tab in a patron's account, 
-the _Holds View_ in the staff catalogue, 
-the xref:_pull_list_for_hold_requests[_Pull List for Hold Requests_], the xref:_holds_shelf[_Hold Shelf_], and 
-the xref:_hopeless_holds[_Hopeless Holds_] interface.
+the _Holds View_ tab in the staff catalogue, 
+the xref:_holds_pull_list[Holds Pull List], the xref:_holds_shelf[Hold Shelf], and 
+the xref:_hopeless_holds[Hopeless Holds] interface.
 
 [CAUTION]
 =========
@@ -30,9 +30,9 @@ Cancelling Holds in the Staff Client
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Staff can manually cancel holds for patrons in the staff client through the xref:_holds_tab[_Open Holds Requests_] tab
- in a patron's account, the _Holds View_ in the staff catalogue, 
-the xref:_pull_list_for_hold_requests[_Pull List for Hold Requests_], the xref:_holds_shelf[_Hold Shelf_], and 
-the xref:_hopeless_holds[_Hopeless Holds_] interface.
+ in a patron's account, the _Holds View_ tab in the staff catalogue, 
+the xref:_holds_pull_list[Holds Pull List], the xref:_holds_shelf[Hold Shelf], and 
+the xref:_hopeless_holds[Hopeless Holds] interface.
 
 . In the interface of your choice, select the hold(s) you wish to cancel.
 . Go to *Actions -> Cancel Hold*.
@@ -104,9 +104,9 @@ a note to further explain the circumstances around the cancellation.
 
 Staff can apply the following cancel reasons manually when cancelling a hold through the xref:_holds_tab[_Open Holds Requests_]
  tab in a patron's account, 
-the _Holds View_ in the staff catalogue, the xref:_pull_list_for_hold_requests[_Pull List for Hold Requests_], 
-the xref:_holds_shelf[_Hold Shelf_], or 
-the xref:_hopeless_holds[_Hopeless Holds_] interface:
+the _Holds View_ tab in the staff catalogue, the xref:_holds_pull_list[Holds Pull List], 
+the xref:_holds_shelf[Hold Shelf], or 
+the xref:_hopeless_holds[Hopeless Holds] interface:
 
 * *Hold shelf expiration* -  This hold reason can be used if the hold is not picked up from the holds shelf in the time alloted.
 * *Staff forced* - This hold reason can be used if staff need to cancel a patron's hold, such as when the library no longer

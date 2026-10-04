@@ -16,6 +16,9 @@ staff picks or themed lists that can be posted on a library's website.
 
 Lists are accessed via the _My Lists_ section of  _My Account_.
 
+image::images/opac/opac-my-lists-menu-1.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
+
+
 Adding Titles to the Basket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -43,30 +46,34 @@ image::images/opac/opac-basket-4.png[scaledwidth="75%",alt="Adding Titles to the
 Removing Titles from the Basket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Titles can be removed from the basket in a number of ways:
+Titles can be removed from the basket in a number of ways.
 
-* un-checking the box beside the search results. The entire page of results can be removed by un-checking
- the select all box at the top of the results.
+On the search results page you can remove individual titles by un-checking the box beside the search result or 
+by clicking *Remove from basket*.
 
-image::images/opac/opac-basket-5.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
+image::images/opac/opac-basket-5.png[scaledwidth="75%",alt="Removing Titles to the Basket"]
 
-* by clicking *Remove from basket* in the search results view.
+On the search results page you can remove titles in batch by un-checking the select all box at the top of the results
+or clicking *Clear basket*.
 
-image::images/opac/opac-basket-6.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
+image::images/opac/opac-basket-6.png[scaledwidth="75%",alt="Removing Titles to the Basket"]
 
-* by clicking *Remove from basket* on the title details page.
+Titles can also be removed individually by clicking *Remove from basket* on the title details page.
 
 image::images/opac/opac-basket-7.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
-* by using the *Clear Basket* action from the basket icon drop down menu.
-
-image::images/opac/opac-basket-8.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
-
-* by selecting the titles you wish to remove and using the *Delete* button in the basket view.
+When viewing a basket, you can select the titles you wish to remove and use the *Delete* button 
+in the basket view.
 
 image::images/opac/opac-basket-9.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
-* by checking the box for *Clear entire basket when actions complete* before performing an action.
+
+The entire basket can be cleared by slecting the *Clear Basket* action from the basket icon drop down menu.
+
+image::images/opac/opac-basket-8.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
+
+The entire basket can also be cleared by checking the box for *Clear entire basket when actions complete* before 
+performing an action when viewing a basket.
 
 image::images/opac/opac-basket-10.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
@@ -85,8 +92,8 @@ In the basket view there is also a button that allows you to add the contents of
 
 image::images/opac/opac-basket-12.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 
-Print from the Baskets
-^^^^^^^^^^^^^^^^^^^^^^
+Print from the Basket
+^^^^^^^^^^^^^^^^^^^^^
 
 . Select the titles you'd like included.
 . Click the *Print Details* button.
@@ -110,8 +117,8 @@ image:images/opac/opac-print-basket-4.png[scaledwidth="75%"]
 +
 . Follow any prompts from your browser to print the details.
 
-Email from the Baskets
-^^^^^^^^^^^^^^^^^^^^^^
+Email from the Basket
+^^^^^^^^^^^^^^^^^^^^^
 
 . Select the titles you'd like included.
 . Click the *Email Details* button.
@@ -161,13 +168,13 @@ Creating a List via My Account
 
 . Select _My Lists_ from the menu.
 +
-image::images/opac/opac-list-1.png[scaledwidth="75%",alt="My Account Lists"]
+image::images/opac/opac-my-lists-menu-1.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 +
 . In the _Create New List_ section, enter a name and optional description for the list.
 +
-. Click *Share* if you'd like to share the contents of the list with other users.
+. If you'd like to share the contents of the list with other users, select YES from the drop down menu.
 +
-. Click *Create List*.
+. Click *Save New List*.
 +
 image::images/opac/opac-list-2.png[scaledwidth="75%",alt="My Account Lists"]
 
@@ -183,12 +190,12 @@ image::images/opac/opac-list-3.png[scaledwidth="75%",alt="My Account Lists"]
 +
 . In the _Create New List_ section, enter a name and optional description.
 +
-. Click *Share* if you'd like to share the contents of the list with other users.
+. If you'd like to share the contents of the list with other users, select YES from the drop down menu.
 +
 . By default _Move contents of basket to this list?_ is set to YES.
 .. The contents of the basket displays below.
 +
-. Click *Create List*.
+. Click *Save New List*.
 +
 image::images/opac/opac-list-4.png[scaledwidth="75%",alt="My Account Lists"]
 
@@ -200,7 +207,7 @@ to xref:_adding_titles_to_the_basket[].
 . Select *Add Basket to Saved List* from the basket action menu.
 .. If  not logged in, a prompt appears.
 +
-image::images/opac/opac-list-3.png[scaledwidth="75%",alt="My Account Lists"]
+image::images/opac/opac-my-lists-menu-1.png[scaledwidth="75%",alt="Adding Titles to the Basket"]
 +
 . Un-check the box beside any titles you don't want added to the list.
 . Click *Move selected items to list* and choose the list you want from the drop down.
@@ -217,16 +224,18 @@ image::images/opac/opac-list-12.png[scaledwidth="75%",alt="My Account Lists"]
 Managing Titles in a List
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can place holds, print the title details, and remove titles from your list by selecting the 
+You can place holds, print and email the title details, and remove titles from your list by selecting the 
 relevant titles and using the appropriate button.
 
 image::images/opac/opac-list-13.png[scaledwidth="75%",alt="My Account Lists"]
 
-Information on placing holds can be found in xref:_placing_holds[].
+Information on placing holds can be found in xref:_public_catalogue_place_hold[].
 
-Printing from a list works the same as printing from a basket. See xref:_print_from_the_baskets[].
+Printing from a list works the same as printing 
+from a basket. See xref:_print_from_the_basket[].
 
-Emailing from a list is currently not functional.
+Emailing from a list  works the same as emailing 
+from a basket. See xref:_email_from_the_basket[].
 
 
 Managing Lists
@@ -273,6 +282,13 @@ You can export your list to a comma delimited file by selecting *Download CSV* a
 prompts to save the file on your computer.
 
 image::images/opac/opac-list-9.png[scaledwidth="75%",alt="My Account Lists"]
+
+Editing a List
+^^^^^^^^^^^^^^
+
+You can edit your list to update the name and description.
+
+image::images/opac/opac-list-edit-1.png[scaledwidth="75%",alt="My Account Lists"]
 
 Deleting a List
 ^^^^^^^^^^^^^^^

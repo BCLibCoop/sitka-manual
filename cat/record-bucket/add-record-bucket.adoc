@@ -11,19 +11,17 @@ Adding Records to a Record Bucket via the Staff Catalogue
 * xref:_record_bucket_staff_catalogue_basket[Staff Catalogue Basket]
 * xref:_record_bucket_record_summary[Record Summary]
 
-
 Search Results
 ++++++++++++++
 [[_record_bucket_search_results]]
 
 . Search the catalogue for the records you would like to add to a bucket, as described
 in xref:_searching_the_database_for_cataloguing_purposes[].
-. Click *Add to Bucket* on the result. Clicking on the arrow beside will give a drop down menu of existing
-buckets.
+. Click *Add to Bucket* on the result. Clicking on the arrow beside will show a drop down menu of existing buckets.
 +
 image::images/cat/buckets/record-bucket-add-search-result-1.png[]
 +
-. On the pop-up that appears records can be added to:
+. On the pop-up that appears, records can be added to:
 ** an existing bucket.
 +
 image::images/cat/buckets/record-bucket-add-1.png[]
@@ -38,22 +36,7 @@ image::images/cat/buckets/record-bucket-add-2.png[]
 +
 . Enter the required information and click the appropriate button.
 . The record is added to the record bucket. 
-+
-OR
-+
-. Select the titles you would like to add to the bucket.
-+
-image::images/cat/buckets/record-bucket-add-search-result-2.png[]
-+
-. Click on the _Buckets_ tab.
-+
-image::images/cat/buckets/record-bucket-add-search-result-3.png[]
-+
-. Hover below the bucket count and click on the _Add X_ link that appears.
-+
-image::images/cat/buckets/record-bucket-add-search-result-4.png[]
-+
-. The record is added to the record bucket. 
+ 
 
 Staff Catalogue Basket
 ++++++++++++++++++++++
@@ -87,7 +70,6 @@ image::images/cat/buckets/record-bucket-add-2.png[]
 . The record is added to the record bucket. 
 
 
-
 Record Summary
 ++++++++++++++
 [[_record_bucket_record_summary]]
@@ -116,6 +98,21 @@ image::images/cat/buckets/record-bucket-add-summary-3.png[]
 image::images/cat/buckets/record-bucket-add-summary-4.png[]
 +
 . Enter the required information and click the appropriate button.
+. The record is added to the record bucket. 
+OR
++
+. Select the titles you would like to add to the bucket.
++
+image::images/cat/buckets/record-bucket-add-search-result-2.png[]
++
+. Click on the _Buckets_ tab.
++
+image::images/cat/buckets/record-bucket-add-search-result-3.png[]
++
+. Hover below the bucket count and click on the _Add X_ link that appears.
++
+image::images/cat/buckets/record-bucket-add-search-result-4.png[]
++
 . The record is added to the record bucket. 
 
 Adding Records to a Record Bucket via Item Status
@@ -206,8 +203,7 @@ image::images/cat/buckets/record-bucket-add-query-3.png[]
 +
 image::images/cat/buckets/record-bucket-add-query-4.png[]
 +
-. Continue searching and adding records to your bucket or click on *Bucket View* to go 
-to your bucket.
+. Continue searching and adding records to your bucket or click on *Bucket View* to go to your bucket.
 
 
 [TIP]

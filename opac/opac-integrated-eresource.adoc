@@ -15,21 +15,6 @@ for _Available Formats_ and _Status_. There will also be a button to *Check Out 
 
 image::images/opac/opac-eresource-2.png[scaledwidth="75%",alt="eResources"]
 
-[NOTE]
-======
-OverDrive allows users to keep some preference settings, such as preferred loan period. These 
-preferences can be set up or updated through OverDrive's website or app.
-======
-
-
-////
-[TIP]
-=====
-If you're logged into your account you may see *Go to E-items on Hold* for titles you've already placed
-holds on or *Go to E-items Checked Out* for titles already checked out to you. Clicking those links takes
-you to your account to view those items.
-=====
-////
 
 Checking Out E-Items
 ~~~~~~~~~~~~~~~~~~~~
@@ -39,7 +24,10 @@ result list or record details screen.
 +
 image::images/opac/opac-eresource-3.png[scaledwidth="75%",alt="eResources"]
 +
-NOTE: You will be prompted to log in with your library account, if you have not already done so.
+[NOTE]
+======
+You will be prompted to log in with your library account, if you have not already done so.
+======
 +
 . Choose a format type from the _Actions_ menu and click the *Checkout* button.
 +
@@ -64,7 +52,10 @@ NOTE: You will be prompted to log in with your library account, if you have not 
 +
 image::images/opac/opac-eresource-6b.png[scaledwidth="75%",alt="eResources"]
 +
-NOTE: You must have an email address recorded in your account in order to successfully place a hold.
+[NOTE]
+======
+You must have an email address recorded in your account in order to successfully place a hold.
+======
 +
 . The hold is placed and you will receive an email when it is ready to be checked out.
 +
@@ -101,3 +92,9 @@ image::images/opac/opac-eresource-10.png[scaledwidth="75%",alt="eResources"]
 queue.
 +
 image::images/opac/opac-eresource-11.png[scaledwidth="75%",alt="eResources"]
+
+[NOTE]
+======
+OverDrive allows users to keep some preference settings, such as preferred loan period. These preferences 
+can be set up or updated through OverDrive’s website only.
+======

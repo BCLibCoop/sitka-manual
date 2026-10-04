@@ -653,8 +653,8 @@ image::images/report/appendix/run-report-now.png[]
 Any reports run in the specified time period that have been deleted will not be included in the report output.
 ======
 
-Staff Assigned to Supplementary Permission Group(s)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Staff Assigned to Secondary Permission Groups
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 _Found under Shared Folders -> Templates -> Sitka_templates -> Patrons -> 
  Library Staff._
@@ -677,5 +677,5 @@ image::images/report/appendix/run-report-now.png[]
 
 [NOTE]
 ======
-Library staff with multiple supplementary permission groups assigned will display multiple times on the report.
+Library staff with multiple secondary permission groups assigned will display multiple times on the report.
 ======

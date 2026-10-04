@@ -6,7 +6,7 @@ Electronic resources include e-books, e-audiobooks, e-magazines, e-videos,
 websites, online journals, etc.
 
 Bibliographic records for electronic resources in Evergreen use the 856 field for 
-their holdings.  Records for electronic resources will only dispay in your public
+their holdings.  Records for electronic resources will only display in your public
 catalogue if the 856 field has been formatted correctly and includes a $9 with
 your library code or the code for an ancestor of your library.
 

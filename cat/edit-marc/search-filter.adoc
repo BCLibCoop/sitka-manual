@@ -26,6 +26,8 @@ MARC record fields are:
 Search Filters
 ^^^^^^^^^^^^^^
 
+* *Accessibility Features* - relies on the values in the 341 field. See 
+https://docs.libraries.coop/policy/_search_filters.html#_accessibility_features[Accessibility Features].
 * *Language* - relies on characters 35-37 of the 008 field.
 * *Audience* - relies on character 22 of the 008 field (for the relevant material configurations).
 * *Literary Form* - relies on character 33 of the 008 field (only applicable to books).

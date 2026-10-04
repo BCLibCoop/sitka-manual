@@ -18,9 +18,9 @@ Inventory Date
 
 
 Item records include fields for inventory date and inventory workstation. The
-values in these fields are updated when an item in inventoried by using the
-*Update Inventory* action in _Item Status_ or the *Update Inventory* checkin 
-modifier at _Check In_.
+values in these fields are updated when an item is inventoried by using the
+*Update Inventory* action in _Item Status_, the *Update Inventory* checkin 
+modifier at _Check In_, or enabling *Update Inventory* with _In-House Use_.
 
 The inventory date and workstation can be seen in several places in the staff
 client:
@@ -33,13 +33,17 @@ image:images/inventory/update-inventory-item-record-1.png[scaledwidth="75%"]
 +
 image:images/inventory/update-inventory-item-record-2.png[scaledwidth="75%"]
 +
+* Check In
++
+image:images/inventory/update-inventory-item-record-4.png[scaledwidth="75%"]
++
 * Bibliographic Record - Holdings View
 +
 image:images/inventory/update-inventory-item-record-3.png[scaledwidth="75%"]
 +
 [NOTE]
 ======
-Due to a bug the inventory workstation in the Holdings View currently displays
+Due to a bug, the inventory workstation in the Holdings View currently displays
 the workstation database ID rather than the workstation name.
 ======
 
@@ -47,7 +51,7 @@ Assessing Your Collection
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The first step to running inventory is to choose what you will inventory.  You may wish to inventory the entire
-library collection or just plan on running inventory on specific collections.
+library collection, or just plan on running inventory on specific collections.
 
 If you plan to inventory the entire library collection Co-op Support recommends breaking it into sections, based
 on shelving location and/or call number range.
@@ -63,8 +67,8 @@ modifier.  The report will show you the size of different parts of your
 collection which can be helpful when thinking about the order in which to inventory
 different sections.
 +
-* Sitka_templates -> Collection -> Item List by Item Attributes -> Shelving Location : 
-Items with Selected Shelving Location
+* Sitka_templates -> Collection -> Item List by Item Attributes -> xref:_shelving_location_items_with_selected_shelving_location[Shelving Location : 
+Items with Selected Shelving Location]
 +
 ** This template will give a report that lists all items in a particular shelving location. This can be helpful
 to show what should be on the shelf.
@@ -104,10 +108,10 @@ Columns
 ^^^^^^^
 (((Columns, Inventory)))
 
-Best practice is to ensure that the Check In and Item Status screens are set to
-display the call number, shelving location, and circulation modifier xref:_columns[columns].
+Best practice is to ensure that the Check In, Item Status, and In-House Use screens are set to
+display the call number, shelving location, and circulation modifier xref:_display_columns[columns].
 
-As items are scanned for inventory staff should keep an eye out for the following:
+As items are being scanned for inventory, staff should keep an eye out for the following:
 
 * incorrect call numbers
 * call numbers not matching between Evergreen and the item
@@ -115,15 +119,14 @@ As items are scanned for inventory staff should keep an eye out for the followin
 * incorrect circulation modifiers
 * missing circulation modifiers
 
-Items found with one of the above issues should be pulled so staff with cataloguing 
-permissions can update the items as needed.  
-
+Items found with one of the above issues should be pulled, so that staff with cataloguing 
+permissions can update the items as needed.
 
 Update Inventory Checkin Modifier
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 (((Update, Inventory Date)))
 
-Turn on the _Update Inventory_ checkin modifier on all computers where items may be checked
+At Check In, turn on the _Update Inventory_ checkin modifier on all computers where items may be checked
 in while you are doing inventory.  This ensures that any items currently circulating 
 will have their inventory date updated when they are checked in.
 
@@ -137,4 +140,18 @@ Inventory_ modifier is being used.
 +
 image:images/inventory/inventory-checkin-modifier-2.png[scaledwidth="75%"]
 
+Enable Update Inventory with In-House Use
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+If your library tracks in-house use, check the box for **Update Inventory** on all computers where items may be 
+in-housed while you are doing inventory. This ensures that any items in-housed will have their 
+inventory date updated when they are scanned.
+
+. In Evergreen, go to **Circulation → Record In-House Use**.
+. Check the **Update Inventory** check box.
++
+image:images/inventory/inventory-inhouse-checkbox-1.png[scaledwidth="75%"]
++
+. A banner will display across the top of the screen to indicate that Update Inventory is enabled.
++
+image:images/inventory/inventory-inhouse-checkbox-2.png[scaledwidth="75%"]

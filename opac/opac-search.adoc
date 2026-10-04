@@ -73,8 +73,8 @@ You can limit your search by format. Some of the more popular formats in the lis
 [TIP]
 =====
 The format filter uses values from the Leader, 007, and 008 fields of the MARC record to determine which
-records to include in your search results. More information can be found in
-xref:_search_filters_and_format_icons[Search Filters and Format Icons].
+records to include in your search results. See xref:_search_filters_and_format_icons[] for more 
+information.
 =====
 
 Library
@@ -86,8 +86,16 @@ The default search library is your library or borrowing zone. If your library sy
 or a borrowing zone that includes multiple libraries you can use the _Library_ box to select different
 branches or libraries.
 
+[TIP]
+=====
+Libraries participating in Interlibrary Connect can decide how their public catalogue will scope.
+See xref:_search_library_scope[] in the Public Catalogue Customizations chapter.
+=====
+
 If your library has multiple branches, your search results will display items available at your branch and
-all branches of your library system separately. If your library participates in Interlibrary Connect resource sharing,
+all branches of your library system separately. 
+
+If your library participates in Interlibrary Connect, 
 the results may display items available across the larger borrowing zone.
 
 If you access the catalogue from https://catalogue.libraries.coop you may scope your search result to Sitka,
@@ -103,16 +111,18 @@ You can access the Advanced Search by clicking *Advanced Search* on the catalogu
 results screen.
 
 The available search options are the same as in Basic Search, but you may use one or more of them
-simultaneously. If you want to combine more than three search options, use the *Add Search Row* button to
+simultaneously. If you want to combine more than three search options, use the *Add Search Terms* button to
 add more search input rows. Clicking the *X* button will close the search input row.
 
 image::images/opac/opac-advanced-search-1.png[scaledwidth="75%",alt="Basic Search"]
 
+[[_public_catalogue_search_filters]]
 Search Filters
 ^^^^^^^^^^^^^^
 
 You can filter your search by:
 
+* Accessibility Features
 * Format
 * Language
 * Audience
@@ -125,9 +135,11 @@ image::images/opac/opac-advanced-search-2.png[scaledwidth="75%",alt="Basic Searc
 
 [TIP]
 =====
-All the search filters, with the exception of Shelving Location, rely on values entered into the Leader,
-007, 008, or 041 fields of the MARC record. Records with incorrect coding will not filter correctly.
+With the exception of Shelving Location, the search filters rely on 
+accurate coding in the Leader, 007, 008, 336, and 341 fields. Please see the search filter 
+and icon specifications for Sitka's Evergreen in xref:_search_filters_and_format_icons[].
 =====
+
 
 Search Library
 ^^^^^^^^^^^^^^
@@ -138,11 +150,19 @@ The default search library is your library or borrowing zone. If your library sy
 or a borrowing zone that includes multiple libraries you can use the _Search Library_ box to select different
 branches or libraries.
 
-If your library has multiple branches, your search result will display items available at your branch and
-all branches of your library system separately. If your library participates in Interlibrary Connect
+[TIP]
+=====
+Libraries participating in Interlibrary Connect can decide how their public catalogue will scope.
+See xref:_search_library_scope[] in the Public Catalogue Customizations chapter.
+=====
+
+If your library has multiple branches, your search results will display items available at your branch and
+all branches of your library system separately. 
+
+If your library participates in Interlibrary Connect, 
 the results may display items available across the larger borrowing zone.
 
-If you access the catalogue from https://catalogue.libraries.coop, your default search library is
+If you access the catalogue from https://catalogue.libraries.coop your default search library is
 Sitka or the library you have selected on the homepage. You may use the _Search Library_ box to select a
 different library or regional libraries, or all libraries in Sitka to search.
 
@@ -184,20 +204,21 @@ When the _Group Formats and Editions_ checkbox is checked all formats and editio
 grouped as one result. For example, the DVD and the print editions of _Pride and 
 Prejudice_ will appear together.
 
-Limit to Available
-^^^^^^^^^^^^^^^^^^
+Limit to Available Items
+^^^^^^^^^^^^^^^^^^^^^^^^
 
-When the _Limit to Available_ checkbox is checked search results are limited based on an item’s current
+When the _Limit to Available Items_ checkbox is checked search results are limited based on an item’s current
 circulation status. Titles without available items in the selected search library will not be displayed.
 
+[TIP]
+=====
 Item statuses that show as available are: _Available_, _On Display_, _Onsite Consultation_, _Reserves_,
 and _Reshelving_.
+=====
 
-
+[[_public_catalogue_numeric_search]]
 Numeric Search
 ~~~~~~~~~~~~~~
-
-[[public-catalogue-numeric-search]]
 
 You can access the Numeric Search by clicking on the *Numeric Search* tab on the _Advanced Search_ screen.
 
@@ -212,18 +233,17 @@ image::images/opac/opac-numeric-search-1.png[scaledwidth="75%",alt="Basic Search
 Searching by Call Number will take you to the Shelf Browser.
 =====
 
+[[_public_catalogue_expert_search]]
 Expert Search
 ~~~~~~~~~~~~~
-[[public-catalogue-expert-search]]
 
 You can access the MARC Expert Search by clicking on the *Expert Search* tab on the Advanced Search screen.
 
 If you are familiar with the MARC standard, you may search by specific MARC tags in the Expert Search.
 
-. Enter the three-digit tag number, the subfield (if relevant), and the value or text that corresponds
-to the tag. For example, to search by publisher name, enter 264 b Random House.
+. Enter the three-digit tag number, the subfield (if relevant), and the value or text that corresponds to the tag. For example, to search by publisher name, enter 264 b Random House. 
 +
-.. To search several tags simultaneously, use the *Add Search Row* button.
+.. To search several tags simultaneously, use the *Add Search Terms* button.
 +
 . Click *Search* to run the search.
 
@@ -236,9 +256,10 @@ not be included in the results.
 =====
 
 
+[[_public_catalogue_browse_the_catalogue]]
 Browse the Catalogue
 ~~~~~~~~~~~~~~~~~~~~
-[[public-catalogue-browse-the-catalogue]]
+
 
 You can access the browse search by clicking *Browse the Catalogue* on the Basic Search or search results
 screen.
@@ -260,11 +281,11 @@ The browse is constructed by the term _starting with_.
 . Click *Browse the Catalogue*.
 . Select a field to browse, enter a keyword, and click *Browse*.
 . A list of results will appear.
-. Click on the bolded text to view bibliographic records.
+. Click on the desired result to view bibliographic records.
 
 image::images/opac/opac-browse-catalogue-2.png[scaledwidth="75%",alt="Basic Search"]
 
-Click  *Back* or *Next* to move through results. Note results
+Click *Back* or *Next* to move through results. Note your results
 are alphabetical, with results prior to the search term, and after, listed.
 
 Search Tips
@@ -396,22 +417,24 @@ and relevance sorts items with like popularity.
 image::images/opac/opac-popularity-1.png[scaledwidth="75%",alt="Basic Search"]
 
 
-NOTE: Currently popularity badges have been set up in Sitka based on hold and circulation counts over the
+[NOTE]
+======
+Currently popularity badges have been set up in Sitka based on hold and circulation counts over the
 last 3 years.
+======
 
 
-
-
+[[_public_catalogue_search_results]]
 Search Results
 ~~~~~~~~~~~~~~
 
 The search results are a list of relevant works from the catalogue. If there are many results, they are
-divided into several pages. At the top of the list, you can see the total number of results and go back and
-forth between the pages by clicking the Next or Previous at the top or bottom of the list or click the page number
-to go to that page directly.
+divided into several pages. At the top of the list, you can see the total number of results. You can go back and
+forth between the pages by clicking the Next or Previous buttons at the top and bottom of the list or click the page 
+number to go to that page directly.
 
 Your search terms will be highlighted in both the search results and title details screens. The
-checkbox *Disable Highlighting* will turn this off.
+checkbox *Enable Highlighting* enables highlighted search terms, and unchecking it turns highlighting off.
 
 image::images/opac/opac-search-results-1.png[scaledwidth="75%",alt="Basic Search"]
 
@@ -422,9 +445,9 @@ audiobooks, video recordings, and other formats.
 Clicking a title goes to the title details. Clicking an author searches all works by the author. If you
 want to place a hold on the title, click *Place Hold* to the right of the title information.
 
-Above the results list there are _Limit to Available_, _Group By Formats and Editions_,
+Above the results list there are _Limit to Available Items_, _Group By Formats and Editions_,
  and _Exclude Electronic Resources_ checkboxes. Checking
-_Limit to Available_ will filter out those titles with no available copies in the library or libraries at
+_Limit to Available Items_ will filter out those titles with no available copies in the library or libraries at
 the moment. Checking _Group By Formats and Editions_ will group all formats and editions of the same title 
 as one result. Checking _Exclude Electronic Resources_ will filter out titles for electronic resources. Usually
 you will see your search results re-displayed with fewer results.
@@ -436,19 +459,19 @@ Formats and Editions
 ^^^^^^^^^^^^^^^^^^^^
 
 If you have selected _Group Formats and Editions_ with your search, your search results are grouped by
-various formats and editions of the same title. Multiple format icons may be lit up.
+various formats and editions of the same title. Multiple format icons may display.
 
 image::images/opac/opac-search-results-2.png[scaledwidth="75%",alt="Basic Search"]
 
 
-Refine Your Search
-^^^^^^^^^^^^^^^^^^
+Update Search Results
+^^^^^^^^^^^^^^^^^^^^^
 
-You may refine your search results by using the facets. Selecting one of these facet links on the left
+You may update your search results by using the facets. Selecting one of these facet links on the left
 side of search results page narrows down the search results to your selected term. You may
-also refine your search by clicking the *Refine My Original Search* button at top of search
-results. Refining a search this way allows you to add search filters such as Publication Date, Format,
-Language, etc., to your original search.
+also update your search by clicking the *Update Search Results* button at the top of the search
+results. Updating a search in this way allows you to add search filters such as Publication Date, Format,
+Language, etc. to your original search.
 
 image::images/opac/opac-search-results-3.png[scaledwidth="75%",alt="Basic Search"]
 
@@ -485,7 +508,8 @@ image:images/opac/opac-search-results-7.png[scaledwidth="75%"]
 
 * Click *More Details* to see more bibliographic details including subjects.
 * Click *Show Only Available Copies* to limit view to available items of that title. Click *Show All Copies* to see all items.
-* Click the library name to see details about the library such as address and open hours.
+* Click the library name to see details about the library, such as address and open hours.
+* Click *Accessibility Features* to see https://docs.libraries.coop/policy/_accessibility_features_tab.html[accessibility information].
 * Click *Summaries & More* to see the book’s summaries and reviews, if available.
 * Click *Additional Content* to see any additional content for the title.  
 * Click *Shelf Browser* to view items appearing near the current item on the library shelves. 

@@ -126,7 +126,7 @@ The checkboxes appear in the order listed below. The described behaviour applies
 * _Limit to Available_: Results will be limited to items with a status of Available or Reshelving.
 * _Group Formats/Editions_: Results of the same title with different formats or editions will be combined into a single result. 
 * _Results from All Libraries_: Results may come from any library in the highest level of your catalogue, usually a consortium or system. Checking this box overrides any conflicting workstation xref:_search_preferences[Search Preferences] and any selection in the xref:_library_selector[Library Selector].
-* _Exclude Electonic Resources_: Results will not include any electronic format, such as e-books. If this checkbox is not visible, check the _Exclude Electronic Resources_ checkbox on the xref:_search_preferences[Search Preferences] page.
+* _Exclude Electronic Resources_: Results will not include any electronic format, such as e-books. If this checkbox is not visible, check the _Exclude Electronic Resources_ checkbox on the xref:_search_preferences[Search Preferences] page.
 
 [NOTE]
 ======

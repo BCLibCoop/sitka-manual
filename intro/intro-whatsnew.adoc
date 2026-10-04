@@ -1,99 +1,107 @@
-New Features in Evergreen Version 3.14
+New Features in Evergreen Version 3.17
 --------------------------------------
 (((New Features)))
 
 
-https://www.youtube.com/playlist?list=PLdwlgwBNnH4rFfk9EDGlinMWtpn0gpGPy[*New Features in Sitka's Evergreen 3.14 Playlist*] 
+*New Features in Sitka's Evergreen 3.17 Playlist*
 
 [[_new_features_staff_client]]
 Staff Client
 ~~~~~~~~~~~~
 
-* xref:_colour_mode_setting[New Colour Mode Setting] that enables users to use light or dark mode.
-* xref:_keyboard_navigation[Keyboard shortcuts] now display in the main menus.
-* Changes to xref:_grid_options[grid display and functionality] in multiple interfaces.
-* Option to xref:_print_selected_rows[*Print Selected Rows*] available in interfaces with 
-the newer xref:_function_bar[function bar].
-
+* New xref:_table_density[grid density setting]
+* Terminology in action menus is more consistent throughout the staff client
+* Filters are case insensitive
 
 [[_new_features_circulation]]
 Circulation
 ~~~~~~~~~~~
 
-* Updated xref:_pull_list_for_hold_requests[Pull List for Hold Requests] with new filters.
-* Improved functionality for circulating xref:_items_with_deposits[items with deposits].
 
+* Checking an item in or out no longer updates the Edit Date or Last Editor 
+field for item. The item status change date is still updated.
+* Email receipts can be sent from the Renew and xref:_check_in[Check In] interfaces.
+* The xref:_self_check[Evergreen self check] has been redesigned
+* When creating a new item bucket there is an option to xref:_item_bucket_file[upload a .csv file of item barcodes]
+* _Pull List for Holds Requests_ interface has been renamed xref:_holds_pull_list[_Holds Pull List_].
+* Circulation modifier column and *Update Inventory* check box available in 
+xref:_workflow_in_house_use[Record In-House Use]
+* Several changes to the patron account which include:
+** The ability to xref:_delete_inactive_card_patron_account[delete inactive barcodes] from within the patron account
+** Email receipts can be sent from the _Items Out_ tab
+** Authorized users now display more prominently in the patron summary
+** A group overdue count is now included in the patron summary for 
+libraries using patron groups
+** Additional fields from the patron form now appear at the bottom 
+of the patron summary
+** The Transit Source column will now show the transit library’s shortcode 
+rather than the database ID when looking at holds in the patron account
+** Closing a patron account using the Done button clears the patron’s name 
+from the tab
+** When library settings beginning with _Show_ are set to FALSE the applicable
+field is hidden in the patron account form. See xref:_customizing_the_display_fields[].
 
 [[_new_features_cataloguing]]
 Cataloguing
 ~~~~~~~~~~~
 
-* Redesigned and updated interface for the xref:_enhanced_marc_editor[Enhanced MARC Editor].
-* Redesigned and updated interface for 
-xref:_importing_bibliographic_records_via_z39_50_interface[Importing via Z39.50].
-* Redesigned and updated interface for xref:_record_buckets[Record Buckets].
-* The MARC Importer now include a xref:_marc_importer[background import option].
+* xref:_the_holdings_editor[The holdings editor] has been redesigned to be more accessible
+* There is a xref:_holdings_templates[Holding Templates Editor] which improves functionality for creating and managing holding templates
+* xref:_creating_new_records_for_bibliographic_resources[Create MARC Record interface] has been 
+angularized and now uses the same editor found in the staff catalogue
+* xref:_help_and_additional_options[Special Characters Map] available in the 
+Enhanced MARC Editor.
+* xref:_enhanced_marc_editor[Enhanced MARC Editor]
+** Undo button now works as expected
+** Drop down menus now appear for the Cont and Ills fields in the grid
+** When adding subfields, focus is now correctly on the subfield field rather than the subfield value field
+** Fields under 100 are suggested in the drop down when clicking on the field number
+** Alphabetical subfields are listed ahead of numeric ones in the drop down when clicking on a subfield
+** Keyboard navigation is improved
+** Dark mode is significantly improved
 
-////
-* Option to print from MARC View
 
-////
 
 [[_new_features_staff_catalogue]]
 Staff Catalogue
 ~~~~~~~~~~~~~~~
 
-* A new option to Hide/Show facets.
-* Facet once again have the option to show More.
-* New options for xref:_search_preferences[Search Preferences]
-* Record Buckets have been integrated further into the search results display.
-* Staff without permission to edit items will no longer see the Edit link in the Item Table.
-* The Quick Receive option for serials has been restored.
-* The Clear Added Content Cache option for records has been restored.
-* In the record details, the Patron View button will now open to your public catalogue. This can
-be customized for libraries using a discovery layer.
-
-////
-* Library/Shelving Location Group search
-////
+* New Cancel if not filled by option when xref:_placing_holds_staff_client[placing holds]
+* New option to xref:_placing_holds_for_a_hold_group[place holds for Hold Groups]
+ when placing holds.
+* New option to retrieve recent patrons when xref:_placing_holds_staff_client[placing holds]
+* Improvements to xref:_shelf_browse_staff[shelf browse] display
 
 
 [[_new_features_public_catalogue]]
 Public Catalogue
 ~~~~~~~~~~~~~~~~
 
-* The xref:_public_catalogue_library_info[Library Information] page now displays your upcoming
-closures entered in the xref:_closed_dates_editor[Closed Dates Editor].
-* The xref:_request_a_library_card[patron self registration form] now includes validation
-and has new library settings to control the display of two of the fields in the form.
-* Patrons are now able to update their xref:_personal_information[preferred name] through My Account. 
+* New Accessibility Features search filter. See xref:_public_catalogue_search_filters[].
+* New Accessibility Features tab in the record view. See xref:_view_a_title_record[].
+* Multiple accessibility improvements.
+* Libraries can now xref:_public_catalogue_messaging_settings[add and update banners] on their public catalogue
+* xref:_basic_search[Basic Search] can be toggled on and off by clicking on Basic Search
+* Search & History within My Account Preferences has been renamed xref:_other_settings[Other Settings]
 
-
+////
 [[_new_features_course_reserves]]
 Course Reserves
 ~~~~~~~~~~~~~~~
 
-* A new course reserves specific filter available in both the staff catalogue and public 
-catalogue. This allows staff and patrons to search for items attached or not attached to a course 
-list. The appearance of this in the staff catalogue is controlled by a 
-xref:_course_reserves_preference[search preference].
 
 [[_new_features_reporter]]
 Reporter
 ~~~~~~~~
+////
 
-* All existing Reporter interfaces, except for the actual report output, have been reimplemented 
-using Angular to match the rest of the staff client.
-* To ensure templates work in the updated reporter we will be replacing the shared templates. 
-All templates in the Sitka templates folder will be new. Core templates will be available on 
-April 7th and additional templates will be added in the weeks following.
-* Field display order and output sort order are now separated, and can be controlled independently.
-* Nullability has been simplified, presenting the template creator with a choice between INNER 
-join (linked required on both tables) and LEFT join (only the “parent” table is required to 
-have a contributing row).
-* Can see the list of Reports that make use of a Template, and the list of Outputs that are 
-generated from a Report
-* Security improvement - restricted access to report output.  Staff with reporter permissions are only able to view reports they have run, folders they own & folders that are shared with them.  This means that any reporter output you wish to share with other staff must be stored in shared output folders.  This is the case even if staff have the “View Output” permission and get the email link sent to them.  
+
+[[_new_features_administration]]
+Administration
+~~~~~~~~~~~~~~
+
+* xref:_statistical_categories_patron_editor[Patron] and xref:_statistical_categories_item_editor[Item statistical categories] and their values can be edited and deleted
+* Academic libraries can add new values for xref:_hard_due_date[hard due dates]
 
 
 

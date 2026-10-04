@@ -41,7 +41,7 @@ image::images/cat/marc/add-non-bib-record-2.png[]
 +
 . Use the xref:_enhanced_marc_editor[Enhanced MARC Editor] or the 
 xref:_flat_text_editor[Flat Text Editor] to add the information relevant to your item.
-. Click *Save*.
+. Click *Save Changes*.
 . The record will open in the catalogue.
 . If applicable, xref:_uploading_a_cover_image[upload a custom cover image]. 
-. xref:add_holdings[Add your holdings] to the record.
+. xref:_adding_holdings[Add your holdings] to the record.

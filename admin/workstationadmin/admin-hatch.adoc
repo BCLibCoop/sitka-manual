@@ -12,7 +12,7 @@ Troubleshooting Hatch
 Operating System
 ++++++++++++++++
 
-Hatch will only work with Windows 7, 8, and 10 at this time. If you are going to submit a ticket, include the version in your ticket, as well as whether it is 32 or 64-bit. You can find this by:
+Hatch will only work with Windows 10 and 11 at this time. If you are going to submit a ticket, include the version in your ticket, as well as whether it is 32 or 64-bit. You can find this by:
 
 . Click on the Windows Start button.
 . Right-click on Computer.
@@ -34,7 +34,7 @@ You can also check to be sure that your operating system is able to find the pat
 Hatch Program
 +++++++++++++
 
-Verify that you are running the correct version of Hatch (0.3.2). You can see this from your computer's list of programs *Control Panel > Programs and Features*.
+Verify that you are running the correct version of Hatch (0.3.3). You can see this from your computer's list of programs *Control Panel > Programs and Features*.
 
 Confirm a "lib" directory exists in the Hatch install directory and that it includes a hatch.jar file
 
@@ -52,7 +52,7 @@ image::images/admin/testhatch.png[]
 Hatch Extension
 +++++++++++++++
 
-Verify that you are running the correct version of the Hatch Chrome Extension (0.2.2).
+Verify that you are running the correct version of the Hatch Chrome Extension (0.4.0).
 
 . Click Menu.
 +
@@ -61,7 +61,7 @@ image::images/intro/browser1.png[]
 . Click *More Tools*.
 . Click *Extensions*.
 . Scroll down to Hatch Native Messenger.
-. Verify that it is version 0.2.2 and Enabled.
+. Verify that it is version 0.4.0 and Enabled.
 . When the Hatch Extension is installed and enabled, a small yellow icon should appear in the top-right corner of the browser:
 
 .Hatch Extension Console Messages:

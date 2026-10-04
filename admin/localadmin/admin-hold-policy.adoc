@@ -36,8 +36,6 @@ view your policies in Evergreen (Local System Administrator permissions required
 +
 * In Evergreen select *Administration -> Local Administration -> Hold Policies*.
 +
-image::images/admin/hold-policy-1.png[scaledwidth="75%",alt="hold policies"]
-
 [NOTE]
 ====
 For libraries participating in reciprocal borrowing like Interlibrary Connect not all hold policies will
@@ -50,6 +48,8 @@ Click *Filter* under *Pickup Library*. In the popped up window, select *Is (or i
 Click *Filter* under *Owning Library*. In the popped up window, select *Is (or includes)*, check the box for *+ Ancestors*, and choose your library. Click
 *Apply filter* to display policies based on the owning library.
 ====
++
+image::images/admin/hold-policy-1.png[scaledwidth="75%",alt="hold policies"]
 
 Changing Your Hold Policies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^

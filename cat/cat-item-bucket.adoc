@@ -26,11 +26,17 @@ Creating/Deleting Item Buckets
 Creating Item Buckets
 ^^^^^^^^^^^^^^^^^^^^^
 
-There are two ways to create an item bucket. You can either create a bucket first, without accessing any copies, or you can access an item record and choose to create the bucket from that view. We will demonstrate both methods here.
+There are three ways to create an item bucket. You can either create a bucket first, without accessing any copies, create an item bucket from a .csv file, or you can access an item record and choose to create the bucket from that view. We will demonstrate both methods here.
 
-*Create an Item Bucket on Item Buckets* view
+* xref:_item_bucket_create[Create an Item Bucket on Item Buckets view]
+* xref:_item_bucket_file[Create an Item Bucket from File]
+* xref:_item_bucket_record[Create an Item Bucket when Adding an Item Record to a Bucket]
 
-. Select *Cataloging -> Item Buckets* from the menu bar.
+Create an Item Bucket on Item Buckets view
+++++++++++++++++++++++++++++++++++++++++++
+[[_item_bucket_create]]
+
+. Go to *Cataloging -> Item Buckets*.
 
 . Select *New Bucket* from the *Buckets* dropdown list.
 +
@@ -55,7 +61,40 @@ image::images/cat/buckets/item-bucket-4.png[]
 * Ignore the check box for *Shareable* - this function does not work as expected.
 =====
 
-*Create an Item Bucket when Adding an Item Record to a Bucket*
+Create an Item Bucket from File
++++++++++++++++++++++++++++++++
+[[_item_bucket_file]]
+
+You can upload a .csv file of multiple barcodes using the *Choose File* option.
+
+. Go to *Cataloging -> Item Buckets*.
+
+. Select *New Bucket* from the *Buckets* dropdown list.
++
+image::images/cat/buckets/item-bucket-1.png[]
++
+. Type in a name and some description, if needed.
++
+. Click *Choose File*.
++
+image::images/cat/buckets/item-bucket-file-1.png[]
++
+. Follow the on-screen prompts to select your file.
++
+.. If you want to include deleted barcodes, ensure the *Include deleted?* check box is checked.
++
+. Click *Create Bucket*.
++
+image::images/cat/buckets/item-bucket-file-2.png[]
++
+. The newly created bucket is the active bucket in Bucket View.  Note that the bucket is numbered, 
+and creator/owner identified.
++
+image::images/cat/buckets/item-bucket-file-3.png[]
+
+Create an Item Bucket when Adding an Item Record to a Bucket
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[[_item_bucket_record]]
 
 You can also create a bucket from within an item record.
 
@@ -166,6 +205,15 @@ Deleting Items
 ^^^^^^^^^^^^^^
 
 See xref:_deleting_items_via_item_buckets[].
+
+
+////
+SECTION ON TRANSFERRING ITEMS TO BE ADDED
+
+After the destination or target record has been marked as the target, navigate to the item bucket with items to be 
+transferred. Then, select the items in the bucket that should be transferred, and from the *Actions* menu select 
+*Transfer Selected Items to Marked Call Number*.
+////
 
 
 
