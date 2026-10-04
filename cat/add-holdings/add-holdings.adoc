@@ -59,10 +59,6 @@ xref:_printing_item_labels[Item Label interface] will open otherwise the pop-up 
 
 Adding Holdings to Multiple Branches
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-[TIP]
-=====
-Items that need different item attributes should be created separately.
-=====
 
 . Search the catalogue for a record that matches the item in hand, as described
 in xref:_searching_the_database_for_cataloguing_purposes[].
@@ -111,7 +107,7 @@ image::images/cat/holdings/add-bib-holdings-3.png[scaledwidth="75%"]
 xref:_printing_item_labels[Item Label interface] will open otherwise the pop-up tab is closed.
 . Your items will now display in the catalogue.
 
-
+////
 Adding Items to an Existing Call Number
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -151,3 +147,4 @@ image::images/cat/holdings/add-bib-holdings-3.png[scaledwidth="75%"]
 . Once done, click on *Apply All, Save & Exit*. If printing labels the 
 xref:_printing_item_labels[Item Label interface] will open otherwise the pop-up tab is closed.
 . Your items will now display in the catalogue.
+////
