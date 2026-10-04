@@ -181,6 +181,7 @@ on the activation date; otherwise, staff or the patron will need to manually act
 Patrons can suspend and activate their holds via xref:_items_on_hold[My Account].
 ======
 
+////
 Expire holds
 ++++++++++++
 [[_modify_holds_cancel]]
@@ -192,6 +193,8 @@ Expire holds
 .. Patrons can set an expire date when placing a hold and edit it via
  xref:_items_on_hold[My Account].
 . Click *Apply*.
+
+////
 
 Top of Queue
 ++++++++++++
