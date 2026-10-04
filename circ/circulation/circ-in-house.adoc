@@ -19,12 +19,11 @@ count of catalogued items is not included in an item's total use count.
 [[_in_house_catalogued_items]]
 Catalogued Items
 ^^^^^^^^^^^^^^^^
-[NOTE]
-======
-If your library tracks in-house use, check the box for *Update Inventory* on all computers where 
-items may be in-housed while you are doing inventory. See xref:_workflow_in_house_use[] for 
-additional details.
-======
+[TIP]
+=====
+Keep an eye on the _Item Status_ column when recording in-house use.  You may need to take further action
+if you find items with a status other than _Available_ or _Reshelving_.
+=====
 
 . Go to *Circulation -> Record In-House Use*.
 . Enter the number of uses if it is more than the default of 1.
@@ -36,11 +35,14 @@ image:images/circ/in-house-1.png[scaledwidth="75%"]
 +
 image:images/circ/in-house-2.png[scaledwidth="75%"]
 
+
 [TIP]
 =====
-Keep an eye on the _Item Status_ column when recording in-house use.  You may need to take further action
-if you find items with a status other than _Available_ or _Reshelving_.
+Any time your library is doing an inventory you can check the box for *Update Inventory* 
+on all computers where items may be in-housed while you are doing inventory. See xref:_workflow_in_house_use[] for 
+additional details.
 =====
+
 
 [[_in_house_non_catalogued_items]]
 Non-catalogued Items
