@@ -18,18 +18,19 @@ Template Set Up
 . Go to *Cataloguing -> Create New Marc Record*.
 . Select the appropriate template and click *Load*.
 +
-image::images/cat/marc-template-1.png[]
+image::images/cat/marc/marc-template-1.png[]
 +
 . Edit the existing template to suit your needs. Make sure you include a unique title, that includes 
 your library code, so you can retrieve your template later.
-. Click *Save*.
+. Click *Save Changes*.
 +
-image::images/cat/marc-template-2.png[]
+image::images/cat/marc/marc-template-2.png[]
 +
-. Add a fake OPAC invisible item to the bibliographic record.  This will prevent the record 
-from being automatically deleted as part of the routine orphan bib deletion.  
+. Add a fake item to the bibliographic record.  This will prevent the record 
+from being automatically deleted as part of the routine deletion of records
+with no holdings.  
 +
-image::images/cat/marc-template-3.png[]
+image::images/cat/marc/marc-template-3.png[]
 
 [NOTE]
 ======
@@ -49,11 +50,11 @@ Using the Template
 . Make sure the service *Local Catalogue* is selected.
 . Do a title search for your template.
 +
-image::images/cat/marc-template-4.png[]
+image::images/cat/marc/marc-template-4.png[]
 +
 . Select the template record and click *Edit then Import*.
 +
-image::images/cat/marc-template-5.png[]
+image::images/cat/marc/marc-template-5.png[]
 +
 . Complete the MARC record. You can add and 
  delete fields and subfields as required.
@@ -61,14 +62,19 @@ image::images/cat/marc-template-5.png[]
 [NOTE]
 ======
 For bibliographic items the MARC record must meet the 
-http://docs.libraries.coop/policy/_the_bibliographic_record.html#_sitka_8217_s_minimum_marc_record[minimum requirements] set in Sitka's cataloguing policy
-and a http://docs.libraries.coop/policy/_the_bibliographic_record.html#_a_good_marc_record[good MARC record] will exceed the minimum requirements.
+http://docs.libraries.coop/policy/_the_bibliographic_record.html#_sitka_8217_s_minimum_marc_record[minimum requirements] set in Sitka's cataloguing policy; 
+a http://docs.libraries.coop/policy/_the_bibliographic_record.html#_a_good_marc_record[good MARC record] will exceed the minimum requirements.
 
 For non-bibliographic items the MARC record should follow the recommendations in xref:_creating_new_records_for_non_bibliographic_resources[].
 ======
 +
-. Click *Go to imported record*.
-. You may now attach holdings as described in xref:_adding_holdings_to_bibliographic_records[].
+. Click *Save Changes* and then click *Import Record*.
+. A pop-up will appear and include the record ID. Click *Go to record*.
++
+image::images/cat/marc/marc-template-6.png[]
++
+. The record will open in the staff catalogue. Add your holdings as described in 
+xref:_adding_holdings_to_bibliographic_records[].
 
 Template Records Saved Outside of Evergreen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -79,13 +85,13 @@ Template Set Up
 . Go to *Cataloguing -> Create New Marc Record*.
 . Select the appropriate template and click *Load*.
 +
-image::images/cat/marc-template-1.png[]
+image::images/cat/marc/marc-template-1.png[]
 +
 . Edit the existing template to suit your needs. 
 . Using the *Flat Text Editor* copy the template and save it as a text file on your computer or network
 using a program like Notepad.
 +
-image::images/cat/marc-template-6.png[]
+image::images/cat/marc/marc-template-7.png[]
 +
 . Close the tab in Evergreen without saving.
 
@@ -95,9 +101,13 @@ Using the Template
 
 . Open the appropriate text file with the applicable program on your computer.
 . In Evergreen, go to *Cataloguing -> Create New Marc Record*.
+. Select the any template and click *Load*.
++
+image::images/cat/marc/marc-template-1.png[]
++
 . Using the *Flat Text Editor* copy and paste the template from the text file into *Create New Marc Record*.
 +
-image::images/cat/marc-template-6.png[]
+image::images/cat/marc/marc-template-7.png[]
 +
 . Complete the MARC record. You can add and 
  delete fields and subfields as required.
@@ -105,11 +115,12 @@ image::images/cat/marc-template-6.png[]
 [NOTE]
 ======
 For bibliographic items the MARC record must meet the 
-http://docs.libraries.coop/policy/_the_bibliographic_record.html#_sitka_8217_s_minimum_marc_record[minimum requirements] set in Sitka's cataloguing policy
-and a http://docs.libraries.coop/policy/_the_bibliographic_record.html#_a_good_marc_record[good MARC record] will exceed the minimum requirements.
+http://docs.libraries.coop/policy/_the_bibliographic_record.html#_sitka_8217_s_minimum_marc_record[minimum 
+requirements] set in Sitka's cataloguing policy; 
+a http://docs.libraries.coop/policy/_the_bibliographic_record.html#_a_good_marc_record[good MARC record] will exceed the minimum requirements.
 
 For non-bibliographic items the MARC record should follow the recommendations in xref:_creating_new_records_for_non_bibliographic_resources[].
 ======
 +
-. Click *Save*.
-. You may now attach holdings as described in xref:_adding_holdings_to_bibliographic_records[].
+. Click *Save Changes*.
+. Add your holdings as described in xref:_adding_holdings_to_bibliographic_records[].
