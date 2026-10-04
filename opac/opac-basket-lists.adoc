@@ -224,7 +224,7 @@ image::images/opac/opac-list-12.png[scaledwidth="75%",alt="My Account Lists"]
 Managing Titles in a List
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can place holds, print the title details, and remove titles from your list by selecting the 
+You can place holds, print and email the title details, and remove titles from your list by selecting the 
 relevant titles and using the appropriate button.
 
 image::images/opac/opac-list-13.png[scaledwidth="75%",alt="My Account Lists"]
@@ -234,7 +234,8 @@ Information on placing holds can be found in xref:_public_catalogue_place_hold[]
 Printing from a list works the same as printing 
 from a basket. See xref:_print_from_the_basket[].
 
-Emailing from a list is currently not functional.
+Emailing from a list  works the same as emailing 
+from a basket. See xref:_email_from_the_basket[].
 
 
 Managing Lists
