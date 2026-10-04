@@ -45,10 +45,10 @@ items with deposits see xref:_items_with_deposits[].
 holdable shelving location, but holds should not be allowed on this particular item. If shelving 
 location's _Holdable?_ is set to "NO", this field will have no effect. The "NO" value in this field 
 overrides the  shelving location's _Holdable?_ is "YES" field.
-| xref:_item_alerts_2[Item Alert] | Used for information that should been seen when an item is checked in or out 
+| xref:_working_with_item_alerts[Item Alert] | Used for information that should been seen when an item is checked in or out 
 (e.g. Damage or number of pieces to check for). | CAUTION: some 3rd party self check machines 
 cannot display item alerts. 
-| xref:_item_notes[Item Note] | Used for information specific to the item. | Notes set as public will display in the public catalogue.
+| xref:_working_with_item_notes[Item Note] | Used for information specific to the item. | Notes set as public will display in the public catalogue.
 | Item Tags |  | Not currently used in Sitka's Evergreen. This attribute is hidden by default.
 | Loan Duration | Indicates whether an item uses the Short, Normal, or Long loan duration attached to its circulation modifier or shelving location set up in the circulation policy. | Each circulation modifier/shelving location may have three loan durations, corresponding to these three values. Use 'Normal' if only one loan period is used. Please contact Co-op Support if you need multiple loan durations for one circulation modifier/shelving location.
 | OPAC Visible? | Indicates whether the item is visible in the public catalogue | Leave it as 'YES', unless 
@@ -63,7 +63,7 @@ to the working location and the organizations on a higher hierarchal level (libr
 federation, or Sitka) are displayed in the dropdown list. Multi-branch libraries 
 may create system level shelving locations for all branches to share. To edit existing shelving locations or create new ones see
 xref:_shelving_location_editor[]. 
-| xref:_item_statistical_category_values[Statistical Categories] | Item statistical categories created by your library or 
+| xref:_working_with_item_statistical_category_values[Statistical Categories] | Item statistical categories created by your library or 
 federation. | Use the dropdown list to choose which organization's entries to display. To edit existing statistical categories
  or create new ones see xref:_statistical_categories_item_editor[]. 
 | xref:_item_statuses[Item Status] | Current status of the item | By default a new item record is assigned a status of In Process. Some 
@@ -144,7 +144,7 @@ the alert type chosen.
 Editing an Item Alert
 +++++++++++++++++++++
 
-. In the item attributes section of the Holdings Editor, click * Alerts*.
+. In the item attributes section of the Holdings Editor, click *Alerts*.
 +
 image::images/cat/holdings/item-alert-1.png[scaledwidth="75%",alt="Item Alerts"]
 +
@@ -199,7 +199,7 @@ image::images/cat/holdings/item-note-1.png[scaledwidth="75%",alt="Item Notes"]
 . Enter a title for your note.
 . Enter the content of your note.
 . Check the box for *Public Note* if the note should display in the public catalogue.
-. Click *Add Note*.
+. Click *Add New*.
 +
 image::images/cat/holdings/item-note-2.png[scaledwidth="75%",alt="Item Notes"]
 +
@@ -220,17 +220,13 @@ Editing an Item Note
 +
 image::images/cat/holdings/item-note-1.png[scaledwidth="75%",alt="Item Notes"]
 +
-. Click *Edit* beside the note you would like to edit.
+. Make your edits and click *Apply Changes*.
 + 
 image::images/cat/holdings/item-note-edit-1.png[scaledwidth="75%",alt="Item Notes"]
 +
-. Make your edits and click *Save*.
-+ 
+. The Notes attribute will indicate that there is a modified note.
++
 image::images/cat/holdings/item-note-edit-2.png[scaledwidth="75%",alt="Item Notes"]
-+
-. Click *Apply Changes*.
-+
-image::images/cat/holdings/item-note-edit-3.png[scaledwidth="75%",alt="Item Notes"]
 +
 . Back in the holdings editor, click *Apply All, Save & Exit*.
 
@@ -307,7 +303,7 @@ see xref:_statistical_categories_item_editor[].
 =====
 
 Statistical categories can be set as required.  When required the statistical category is highlighted in 
-orange and the item cannot be saved until a value is entered. 
+red and the item cannot be saved until a value is entered. 
 
 image::images/cat/holdings/item-stat-cat-1.png[scaledwidth="75%",alt="Item Statistical Category"]
 =====
