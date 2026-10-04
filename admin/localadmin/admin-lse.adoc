@@ -919,6 +919,10 @@ Showing a field makes it appear with required fields even when not required. If 
 |True/False| FALSE | Sitka | https://bc.libraries.coop/support/[Contact Co-op Support]
 if you wish to use the photo URL feature.
 
+| Show "Save Template" in Holdings Editor | Displays the "Save Template" button for the template bar 
+in the Volume/Copy/Holdings Editor. By default, this is only displayed when working with templates 
+from the Admin interface. | True/False | TRUE | LSA |
+
 | Staff Catalog Search Filters| | Text | | Sitka |
 
 |Staff Client added content: NoveList Select API version | API version used to provide
