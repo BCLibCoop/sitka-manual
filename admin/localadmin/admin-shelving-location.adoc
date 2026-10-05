@@ -134,7 +134,7 @@ image::images/admin/shelving-location-order-1.png[scaledwidth="75%",alt="Delete 
 +
 image::images/admin/shelving-location-order-2.png[scaledwidth="75%",alt="Delete Shelving Location"]
 +
-. Items on your xref:_pull_list_for_hold_requests[holds pull list] 
+. Items on your xref:_holds_pull_list[holds pull list] 
 will now be listed based on this order.
 
 
