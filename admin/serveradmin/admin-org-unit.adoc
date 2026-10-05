@@ -44,7 +44,7 @@ Local system administrators can add or update the library's hours of operation o
 tab. Multi-branch libraries should enter information at the branch level.
 
 These are the library's regular weekly hours; holidays and other closures are recorded in 
-the xref:closed-date-editor[].
+the xref:_closed-date-editor[].
 
 . Enter the open and closed times you would like.  Click *Closed* for any days where you are closed for
 the entire day.
@@ -60,7 +60,7 @@ xref:_public_catalogue_library_info[Library Information] page in your public cat
 
 [NOTE]
 ======
-Hours of operation and xref:closed-date-editor[closed dates] affect due dates, overdue fines, and hold 
+Hours of operation and xref:_closed-date-editor[closed dates] affect due dates, overdue fines, and hold 
 targeting.
 
 * Due dates: Due dates that would fall on closed days are automatically pushed forward to the next open day.
