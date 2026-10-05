@@ -11,7 +11,7 @@ xref:_workstation_administration[*Workstation Administration*]: Here you may reg
 computer with extra libraries, configure printer settings, print templates, 
 workstation settings and their storage location.
 
-xref:_individual_permissions[*User Permission Editor*]: Local system administrators may add 
+xref:_granting_individual_permissions[*User Permission Editor*]: Local system administrators may add 
 extra permissions to individual staff accounts. 
 
 xref:_local_administration[*Local Administration*]: Most settings applied to individual libraries
@@ -111,7 +111,7 @@ manage optional categories for detailed item information. | Local | Local System
 manage optional categories for detailed patron information.  | Local | Local System Administrator
 | xref:_surveys[Surveys] | Create patron surveys to be completed at patron registration. | 
 Local | Local System Administrator
-| xref:_transit_list_admin[Transit List] | View items in transit to or from your library during 
+| xref:_transit_list[Transit List] | View items in transit to or from your library during 
 selected date range. | Local | All staff
 | xref:_work_log[Work Log] | List the most recent transactions processed on the workstation. 
 | Local | All staff
