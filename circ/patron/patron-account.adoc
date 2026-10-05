@@ -168,7 +168,7 @@ For more information on statistical categories see xref:_statistical_categories_
  see xref:_surveys[].
 |Group Member Details | See any groups the patron is part of.  Sitka does not recommend using patron groups.
 |User Permission Editor | View and update staff xref:_working_locations[working locations]
-and xref:_granting_additional_permissions_to_staff_accounts[individual permissions].
+and xref:_granting_additional_permissions_to_library_staff_accounts[individual permissions].
 |Test Password | Allows you to enter the password assigned to the account and confirm it works.
 |Acquisitions Patron Requests | Not currently used by Sitka.
 |Booking: Manage Reservations | This link opens the xref:_manage_reservations[Manage Reservations] interface
