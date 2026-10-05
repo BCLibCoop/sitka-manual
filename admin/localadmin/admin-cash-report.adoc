@@ -4,7 +4,7 @@ Cash Reports
 Evergreen generates a basic cash reports libraries can use to track the payments made. 
 
 Libraries can also create customized payment reports through the xref:_reports[Reporter]. 
-Sitka templates related to billing can be found in the xref:_bills_payments[Bills Payments]
+Sitka templates related to billing can be found in the xref:_sitka_templates_bills-payments[Bills Payments]
 folder under Sitka_templates.
 
 . Go to *Administration -> Local Administration -> Cash Reports*.
@@ -26,7 +26,7 @@ image::images/admin/cash-report-2.png[]
 [NOTE]
 ======
 There is a bug on the _Staff User Payments_ tab where a column displays for Debit Payment.  Staff
-should use the xref:_column_configuration[column picker] to remove the column.
+should use the xref:_column_selections[column picker] to remove the column.
 ======
 
 
