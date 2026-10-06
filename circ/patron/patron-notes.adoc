@@ -48,7 +48,7 @@ administrator in xref:_group_penalty_thresholds[Group Penalty Thresholds].
 Evergreen will remove these blocks and alerts when the cause is resolved.
 
 Blocks can also be overridden by staff with appropriate permissions when 
-xref:_holds_status_messages[placing holds], xref:_exceptions_at_check_out[checking out items], 
+xref:_hold_placement_status_messages[placing holds], xref:_exceptions_at_check_out[checking out items], 
 or xref:_exceptions_at_renewal[renewing items]. 
 
 
