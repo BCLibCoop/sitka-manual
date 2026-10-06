@@ -66,7 +66,7 @@ image::images/circ/offlineupload6.png[scaledwidth="75%"]
 +
 image::images/circ/offlineupload7.png[scaledwidth="75%"]
 
-. Scroll to the bottom of the screen to see if there are any entries in the <<_exceptions,*Exception List*>>.  Some of these may require staff follow up.
+. Scroll to the bottom of the screen to see if there are any entries in the xref:_handle_exceptions[Exception List].  Some of these may require staff follow up.
 
 
 Handle Exceptions
@@ -144,4 +144,4 @@ image::images/circ/offline-upload11.png[scaledwidth="75%"]
 . Navigate to the location on your computer where the exported pending.xacts file is saved.
 . Select the file for importing.
 . The *Pending Transactions* list will populate with your imported transactions.
-. You may now proceed according to the instructions under <<_upload_offline_transactions,Upload Offline Transactions>>.
+. You may now proceed according to the instructions under xref:_upload_transactions_to_a_session[Upload Offline Transactions].
