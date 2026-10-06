@@ -4,7 +4,7 @@ Working with Holds
 Basic Hold Workflow
 ^^^^^^^^^^^^^^^^^^^
 
-. xref:place-holds[A hold is placed] by the patron or by library staff on behalf of the patron.
+. xref:_placing_holds_staff_client[A hold is placed] by the patron or by library staff on behalf of the patron.
 . Library staff xref:_capturing_holds_and_hold_transits[capture the hold].  This can happen when an item on hold is returned and checked in or 
 when staff pull and check in available items listed on the xref:_holds_pull_list[holds pull list].
 . The patron is xref:_hold_notifications[notified automatically by text or email], or manually by staff.
