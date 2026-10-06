@@ -6,7 +6,7 @@ and coded correctly in the MARC records.
 
 Evergreen has both the xref:_enhanced_marc_editor[Enhanced MARC Editor] and the 
 xref:_flat_text_editor[Flat Text Editor] which can be used 
-when xref:_creating_new_bibliographic_records[creating], 
+when xref:_creating_new_records_for_bibliographic_resources[creating], 
 xref:_importing_bibliographic_records_via_z39_50_interface[importing], 
 xref:_merging_bibliographic_records[merging], 
 xref:_editing_marc_records[editing], and 
