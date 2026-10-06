@@ -27,16 +27,16 @@ selecting a hold and going to the *Actions* menu and choosing the desired action
 
 image:images/circ/holds/modify-holds-2.png[scaledwidth="75%"]
 
+[[_modify_holds_quality]]
 Set Desired Item Condition/Quality
 ++++++++++++++++++++++++++++++++++
-[[_modify_holds_quality]]
 
 Co-op Support does not recommend the use of Item Quality/Condition.  To prevent issues with filling holds
 libraries should leave the quality for all holds and items as _Good_.
 
+[[_modify_holds_pickup_library]]
 Edit Pickup Library
 +++++++++++++++++++
-[[_modify_holds_pickup_library]]
 
 . On the _View Holds_ tab in the staff catalogue, select the hold to edit and go to 
 *Actions -> Modify Hold(s)*.
@@ -62,9 +62,9 @@ image:images/circ/holds/modify-holds-pickup-library-2.png[scaledwidth="75%"]
 . If the item is already captured for a hold the hold status will be updated to _Wrong Shelf_ .
 The item needs to be checked in so it can transit to its new pickup library.
 
+[[_modify_holds_notification_settings]]
 Edit Notification Settings
 ++++++++++++++++++++++++++
-[[_modify_holds_notification_settings]]
 
 [NOTE]
 ======
@@ -103,10 +103,9 @@ image:images/circ/holds/modify-holds-notification-settings-3.png[scaledwidth="75
 . Click *Submit*.
 
 
-
+[[_modify_holds_dates]]
 Edit Hold Dates
 +++++++++++++++
-[[_modify_holds_dates]]
 
 . On the _View Holds_ tab in the staff catalogue, select the hold to edit and go to 
 *Actions -> Modify Hold(s)*.
@@ -147,9 +146,9 @@ library setting _Default hold shelf expire interval_.
 Patrons can edit the Request Date and Activate Date via xref:_items_on_hold[My Account].
 ======
 
+[[_modify_holds_suspend_activate]]
 Suspend and Activate
 ++++++++++++++++++++
-[[_modify_holds_suspend_activate]]
 
 . On the _View Holds_ tab in the staff catalogue, select the hold to edit and go to 
 *Actions -> Modify Hold(s)*.
@@ -182,9 +181,9 @@ Patrons can suspend and activate their holds via xref:_items_on_hold[My Account]
 ======
 
 ////
+[[_modify_holds_cancel]]
 Expire holds
 ++++++++++++
-[[_modify_holds_cancel]]
 
 . On the _View Holds_ tab in the staff catalogue, select the hold to edit and go to 
 *Actions -> Modify Hold(s)*.
@@ -195,10 +194,9 @@ Expire holds
 . Click *Apply*.
 
 ////
-
+[[_modify_holds_queue]]
 Top of Queue
 ++++++++++++
-[[_modify_holds_queue]]
 
 . On the _View Holds_ tab in the staff catalogue, select the hold to edit and go to 
 *Actions -> Modify Hold(s)*.
