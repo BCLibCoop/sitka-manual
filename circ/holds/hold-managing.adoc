@@ -15,6 +15,7 @@ Modifying Holds
 * xref:_modify_holds_notification_settings[Edit Notification Settings]
 * xref:_modify_holds_dates[Edit Hold Dates]
 * xref:_modify_holds_suspend_activate[Suspend and Activate]
+* xref:_modify_holds_cancel[Expire holds]
 * xref:_modify_holds_queue[Top of Queue]
 
 Holds can be modified from the xref:_via_the_staff_catalogue[_View Holds_] tab in the bibliographic record 
@@ -179,7 +180,6 @@ on the activation date; otherwise, staff or the patron will need to manually act
 Patrons can suspend and activate their holds via xref:_items_on_hold[My Account].
 ======
 
-////
 [[_modify_holds_cancel]]
 Expire holds
 ++++++++++++
@@ -188,11 +188,10 @@ Expire holds
 *Actions -> Modify Hold(s)*.
 . In the pop-up that appears, modify the expire date. 
 .. The default expire date is determined by the library setting _Expire Interval_.
-.. Patrons can set an expire date when placing a hold and edit it via
- xref:_items_on_hold[My Account].
+.. Patrons can set an expire date in the _Cancel if not filled by_ field when placing a hold
+ and edit it via xref:_items_on_hold[My Account].
 . Click *Apply*.
 
-////
 [[_modify_holds_queue]]
 Top of Queue
 ++++++++++++
