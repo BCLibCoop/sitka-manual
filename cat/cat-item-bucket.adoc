@@ -32,9 +32,9 @@ There are three ways to create an item bucket. You can either create a bucket fi
 * xref:_item_bucket_file[Create an Item Bucket from File]
 * xref:_item_bucket_record[Create an Item Bucket when Adding an Item Record to a Bucket]
 
+[[_item_bucket_create]]
 Create an Item Bucket on Item Buckets view
 ++++++++++++++++++++++++++++++++++++++++++
-[[_item_bucket_create]]
 
 . Go to *Cataloging -> Item Buckets*.
 
@@ -61,9 +61,9 @@ image::images/cat/buckets/item-bucket-4.png[]
 * Ignore the check box for *Shareable* - this function does not work as expected.
 =====
 
+[[_item_bucket_file]]
 Create an Item Bucket from File
 +++++++++++++++++++++++++++++++
-[[_item_bucket_file]]
 
 You can upload a .csv file of multiple barcodes using the *Choose File* option.
 
@@ -92,9 +92,9 @@ and creator/owner identified.
 +
 image::images/cat/buckets/item-bucket-file-3.png[]
 
+[[_item_bucket_record]]
 Create an Item Bucket when Adding an Item Record to a Bucket
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-[[_item_bucket_record]]
 
 You can also create a bucket from within an item record.
 
