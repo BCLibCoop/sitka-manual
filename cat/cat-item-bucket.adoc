@@ -192,14 +192,14 @@ image::images/cat/buckets/item-bucket-edit-item-1.png[]
 Transferring Selected Items to Marked Call Number
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Retrieve the record with the call number item should be transferred to, go to the Holdings View tab of the record, select the call number, then *Mark Library/Call Number as Transfer Destination*; see xref:_transfer_item[].
+. Retrieve the record with the call number the items should be transferred to, then go to the Holdings View tab of the record, select the call number, and *Mark Library/Call Number as Transfer Destination*; see xref:_transfer_item[].
 . Retrieve a bucket with items to be transferred; see xref:_retrieving_shared_buckets[].
-. From the bucket, select the items you want to transder to the marked call number.
+. From the bucket, select the items you want to transfer to the marked call number.
 . From the *Actions* menu, select *Transfer Selected Items to Marked Call Number*.
 +
 IMAGE
 +
-. The call numbers for the selected items have been updated.
+. The call numbers for the selected items will be updated.
 
 
 [[_item_bucket_print_label]]
