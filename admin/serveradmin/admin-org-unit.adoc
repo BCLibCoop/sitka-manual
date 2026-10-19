@@ -44,7 +44,7 @@ Local system administrators can add or update the library's hours of operation o
 tab. Multi-branch libraries should enter information at the branch level.
 
 These are the library's regular weekly hours; holidays and other closures are recorded in 
-the xref:_closed-date-editor[].
+the xref:_closed-dates-editor[].
 
 . Enter the open and closed times you would like.  Click *Closed* for any days where you are closed for
 the entire day.
