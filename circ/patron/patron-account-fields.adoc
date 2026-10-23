@@ -109,7 +109,7 @@ items marked claimed never checked out.  Local system administrators can manuall
 notifications via phone.  If blank Evergreen will use the value in Daytime Phone.  Patrons
 can xref:_notification_preferences[update this] via _My Account_.
 |Default Hold Pickup Location | No | The location at which the patron would like to pickup their holds. Patrons
-can xref:_public_catalogue_my_account_holds[update this] via _My Account_.
+can xref:_other_settings[update this] via _My Account_.
 |Hold is behind Circ Desk Check Box | No | For libraries with a public holds shelf this can be used to 
 indicate when a hold has not been put out publicly. The value of this check box displays in the Patron Summary. 
 |Collections: Exempt Check Box | No | Not currently used by Sitka.
