@@ -26,9 +26,9 @@ image:images/admin/hopeless-holds-1.png[scaledwidth="75%"]
 .. *xref:_adding_holdings[Add Holdings]* to add a new item to the record.  This can be temporary on order item 
 while your library waits for a replacement to arrive.
 .. *View/Place Orders* to add a line item to a
- https://asciidoc.libraries.coop/acq-manual-main/html/_sl_li_via_view_place_order.html[selection] 
+ https://docs.libraries.coop/acquisitions/_sl_li_via_view_place_order.html[selection] 
  list or
-  https://asciidoc.libraries.coop/acq-manual-main/html/_po_li_via_view_place_order.html[purchase order].
+  https://docs.libraries.coop/acquisitions/_po_li_via_view_place_order.html[purchase order].
     This will only work for libraries using the acquisitions module.
 
 [NOTE]
