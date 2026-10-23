@@ -66,7 +66,7 @@ image::images/circ/offlineupload6.png[scaledwidth="75%"]
 +
 image::images/circ/offlineupload7.png[scaledwidth="75%"]
 
-. Scroll to the bottom of the screen to see if there are any entries in the <<_exceptions,*Exception List*>>.  Some of these may require staff follow up.
+. Scroll to the bottom of the screen to see if there are any entries in the xref:_handle_exceptions[Exception List].  Some of these may require staff follow up.
 
 
 Handle Exceptions
@@ -83,7 +83,9 @@ These are a few notes about possible exceptions. It is not an all-inclusive list
 * An item that is targeted for a patron hold and captured via offline checkin will not cause an exception unless that item also goes to an In Transit status.
 * An item that is on hold for Patron A but checked out to Patron B will not cause an exception.  Patron A's hold will be reset and will retarget the next time the hold targeter is run.  In order to avoid this it is recommended to not check out holds to other patrons.
 * If you check out a book to a patron using a previous barcode for that patron, it will cause an exception and you will have to retrieve that patron while online and re-enter the item barcode in order to checkout the item.
-* The Offline Interface can recognize blocked, barred, and expired patrons if you have downloaded the Offline Block List in the browser you are using.  You will get an error message indicating the patron status from within the Standalone Interface at check-out time.  See the section on the <<download_offline_block_list,Offline Block List>> for more information.
+////
+_Commenting out as there are issues with Offline Block List and it is not being used by us at present._ The Offline Interface can recognize blocked, barred, and expired patrons if you have downloaded the Offline Block List in the browser you are using.  You will get an error message indicating the patron status from within the Standalone Interface at check-out time.  See the section on the <<download_offline_block_list,Offline Block List>> for more information.
+////
 
 At the right side of each exception are buttons for *Item*, *Patron*, and *Debug*.
 
@@ -144,4 +146,4 @@ image::images/circ/offline-upload11.png[scaledwidth="75%"]
 . Navigate to the location on your computer where the exported pending.xacts file is saved.
 . Select the file for importing.
 . The *Pending Transactions* list will populate with your imported transactions.
-. You may now proceed according to the instructions under <<_upload_offline_transactions,Upload Offline Transactions>>.
+. You may now proceed according to the instructions under xref:_upload_transactions_to_a_session[Upload Offline Transactions].

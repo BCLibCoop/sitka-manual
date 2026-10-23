@@ -5,7 +5,7 @@ The results of a search appear below the search form.
 
 . xref:_search_result_count_and_actions[Search Result Count and Actions]
 . xref:_staff_cat_result_details[Result Details]
-. xref:_staff_cat_results_buckets[Facets]
+. xref:_staff_cat_results_facets[Facets]
 . xref:_staff_cat_results_buckets[Buckets]
 
 image::images/staffcat/search/staff-cat-search-result-1.png[]

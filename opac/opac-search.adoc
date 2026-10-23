@@ -345,7 +345,7 @@ produce more relevant results than _nice places to stay_.
 
   - To prevent stemming, use double quotes around a single word or a phrase. So, a search
   for _parenting_ will also return results for _parental_ but a search for _“parenting”_ will not.
-  See xref:_search_methodology[Stemming in].
+  See xref:_stemming[].
 
 * Use * (asterisk) as a wildcard to truncate search terms, e.g. _comp* golden_ may return the same results
 for _compass golden_ and more.

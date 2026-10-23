@@ -107,9 +107,10 @@ or no longer appear in the grid if it has been moved to a call number attached t
 records, check the original record to see if there are any title holds for your 
 library. If there are follow the instructions in xref:_transferring_title_holds[] to transfer them to the new record as well.
 
+////
 
 [NOTE]
 ======
-You can also use an item bucket to transfer a number of items at once. See xref:_working_with_items_in_a_bucket[].
+You can also use an item bucket to transfer a number of items at once. See xref:_item_bucket_transfer_item[].
 ======
-
+////

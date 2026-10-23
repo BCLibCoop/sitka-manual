@@ -16,7 +16,7 @@ in order for an account to be deleted.
 |====
 | Scenario	| Action
 | An active patron lost their library card and was 
-issued a new one using the xref:_barcodes[Replace Barcode] function. |  xref:_deleting_inactive_cards[Delete the 
+issued a new one using the xref:_replacing_patron_barcode[Replace Barcode] function. |  xref:_deleting_inactive_cards[Delete the 
 barcode for the lost card]. 
 | A patron is no longer active and their account should be 
 removed completely.	| xref:_deleting_patron_accounts[Delete the patron account].
